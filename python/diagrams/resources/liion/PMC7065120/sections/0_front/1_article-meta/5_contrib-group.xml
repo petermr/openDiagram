@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib id="anie201914760-cr-0001" contrib-type="author">
+  <name>
+   <surname>Chen</surname>
+   <given-names>Kaixuan</given-names>
+   <prefix>Dr.</prefix>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7864-7440</contrib-id>
+  <xref ref-type="aff" rid="anie201914760-aff-0001">
+   <sup>1</sup>
+  </xref>
+ </contrib>
+ <contrib id="anie201914760-cr-0002" contrib-type="author">
+  <name>
+   <surname>Fehse</surname>
+   <given-names>Marcus</given-names>
+   <prefix>Dr.</prefix>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8650-6974</contrib-id>
+  <xref ref-type="aff" rid="anie201914760-aff-0002">
+   <sup>2</sup>
+  </xref>
+  <xref ref-type="aff" rid="anie201914760-aff-0003">
+   <sup>3</sup>
+  </xref>
+  <xref ref-type="aff" rid="anie201914760-aff-0004">
+   <sup>4</sup>
+  </xref>
+ </contrib>
+ <contrib id="anie201914760-cr-0003" contrib-type="author">
+  <name>
+   <surname>Laurita</surname>
+   <given-names>Angelica</given-names>
+  </name>
+  <xref ref-type="aff" rid="anie201914760-aff-0002">
+   <sup>2</sup>
+  </xref>
+ </contrib>
+ <contrib id="anie201914760-cr-0004" contrib-type="author">
+  <name>
+   <surname>Arayamparambil</surname>
+   <given-names>Jeethu Jiju</given-names>
+   <prefix>Dr.</prefix>
+  </name>
+  <xref ref-type="aff" rid="anie201914760-aff-0002">
+   <sup>2</sup>
+  </xref>
+  <xref ref-type="aff" rid="anie201914760-aff-0003">
+   <sup>3</sup>
+  </xref>
+ </contrib>
+ <contrib id="anie201914760-cr-0005" contrib-type="author">
+  <name>
+   <surname>Sougrati</surname>
+   <given-names>Moulay Tahar</given-names>
+   <prefix>Dr.</prefix>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3740-2807</contrib-id>
+  <xref ref-type="aff" rid="anie201914760-aff-0002">
+   <sup>2</sup>
+  </xref>
+  <xref ref-type="aff" rid="anie201914760-aff-0003">
+   <sup>3</sup>
+  </xref>
+  <xref ref-type="aff" rid="anie201914760-aff-0005">
+   <sup>5</sup>
+  </xref>
+ </contrib>
+ <contrib id="anie201914760-cr-0006" contrib-type="author" corresp="yes">
+  <name>
+   <surname>Stievano</surname>
+   <given-names>Lorenzo</given-names>
+   <prefix>Prof. Dr.</prefix>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8548-0231</contrib-id>
+  <xref ref-type="aff" rid="anie201914760-aff-0002">
+   <sup>2</sup>
+  </xref>
+  <xref ref-type="aff" rid="anie201914760-aff-0003">
+   <sup>3</sup>
+  </xref>
+  <xref ref-type="aff" rid="anie201914760-aff-0005">
+   <sup>5</sup>
+  </xref>
+  <address>
+   <email>lorenzo.stievano@umontpellier.fr</email>
+  </address>
+ </contrib>
+ <contrib id="anie201914760-cr-0007" contrib-type="author" corresp="yes">
+  <name>
+   <surname>Dronskowski</surname>
+   <given-names>Richard</given-names>
+   <prefix>Prof. Dr.</prefix>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1925-9624</contrib-id>
+  <xref ref-type="aff" rid="anie201914760-aff-0001">
+   <sup>1</sup>
+  </xref>
+  <xref ref-type="aff" rid="anie201914760-aff-0006">
+   <sup>6</sup>
+  </xref>
+  <address>
+   <email>drons@HAL9000.ac.rwth-aachen.de</email>
+  </address>
+ </contrib>
+</contrib-group>

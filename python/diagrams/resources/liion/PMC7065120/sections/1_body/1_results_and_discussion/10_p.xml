@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the theoretical data, an abnormally high voltage plateau (about 4.2 V vs. Li
+ <sup>+</sup>/Li
+ <sup>0</sup>) is observed at a low Li content (
+ <italic>x</italic>&lt;0.2). This effect is a computational artifact since an extremely large supercell would be required to perfectly distribute Li sites and Fe vacancies at very low Li content, which cannot be modeled with our limited computational resources. Fortunately, the requirement is much weaker for a medium Li content, which makes the voltage profile more reliable in that range. Another divergence is the maximally available Li content 
+ <italic>x</italic>, which should be 2 (theoretically) when the fully lithiated compound Li
+ <sub>2</sub>NCN forms. In the experiment, 
+ <italic>x</italic> can become larger than 2, and actually goes up to about 2.8 because of side reactions. We note that the electrode is made not only of FeNCN but also includes 40 w % of carbon and binder (CMC, carboxymethyl cellulose). Therefore, the reasons for the larger Li content may include the formation of a passivation layer (SEI, solid–electrolyte interface) on the active material and electrolyte degradation. This is also the reason why the capacity of the first lithiation is always higher than that of subsequent cycles. For FeNCN, the SEI (or electrolyte degradation) seems to be largely reversible, and seemingly keeps cycling at more than 2 Li. This phenomenon is also observed in transition‐metal oxides.
+ <xref rid="anie201914760-bib-0014" ref-type="ref">14</xref> Despite the two unavoidable divergences, the calculated voltage profile agrees well with experiment and nicely reproduces a similar voltage plateau for a wide Li range (0.2&lt;
+ <italic>x</italic>&lt;2.0).
+</p>

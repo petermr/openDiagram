@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" corresp="yes" id="ath1">
+  <name>
+   <surname>Mao</surname>
+   <given-names>Jing</given-names>
+  </name>
+  <xref rid="cor1" ref-type="other">*</xref>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath2">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>Peng</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath3">
+  <name>
+   <surname>Liu</surname>
+   <given-names>Xin</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath6">
+  <name>
+   <surname>Liu</surname>
+   <given-names>Yanxia</given-names>
+  </name>
+  <xref rid="aff3" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath4">
+  <name>
+   <surname>Shao</surname>
+   <given-names>Guosheng</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath5">
+  <name>
+   <surname>Dai</surname>
+   <given-names>Kehua</given-names>
+  </name>
+  <xref rid="cor2" ref-type="other">*</xref>
+  <xref rid="aff2" ref-type="aff">§</xref>
+ </contrib>
+ <aff id="aff1">
+  <label>†</label>School of Materials Science and Engineering, 
+  <institution>Zhengzhou University</institution>, Zhengzhou 450001, 
+  <country>China</country>
+ </aff>
+ <aff id="aff3">
+  <label>‡</label>
+  <institution>Zhengzhou Institute of Emerging Industrial Technology</institution>, Zhengzhou 450001, 
+  <country>China</country>
+ </aff>
+ <aff id="aff2">
+  <label>§</label>College of Chemistry, 
+  <institution>Tianjin Normal University</institution>, Tianjin 300387, 
+  <country>China</country>
+ </aff>
+</contrib-group>

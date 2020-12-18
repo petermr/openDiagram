@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<funding-group>
+ <award-group id="funding-0001">
+  <funding-source>
+   <institution-wrap>
+    <institution>Alexander von Humboldt-Stiftung </institution>
+    <institution-id institution-id-type="open-funder-registry">10.13039/100005156</institution-id>
+   </institution-wrap>
+  </funding-source>
+ </award-group>
+ <award-group id="funding-0002">
+  <funding-source>French National Research Agency (ANR)</funding-source>
+  <award-id>ANR-10-LABX-76-01</award-id>
+ </award-group>
+ <award-group id="funding-0003">
+  <funding-source>JARA-HPC</funding-source>
+  <award-id>JARA0179</award-id>
+ </award-group>
+ <award-group id="funding-0004">
+  <funding-source>Alistore ERI</funding-source>
+  <award-id>PhD and post-doc grants</award-id>
+ </award-group>
+</funding-group>

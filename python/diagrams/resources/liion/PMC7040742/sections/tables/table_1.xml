@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-13-00801-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-13-00801-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>Electrochemical properties of six of the most important types of Li-ion batteries; here, LCO, NCO, NCA, NMC, LMO, and LFP-C are lithium-cobalt oxide, lithium-nickel-cobalt oxide, lithium-nickel-aluminum oxide, lithium-nickel-manganese-cobalt oxide, lithium-manganese-oxide, and carbon-coated lithium-iron-phosphate, respectively.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Cathode Material </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">LCO</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">NCO</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">NCA</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">NMC</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">LMO</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">LFP-C</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">References</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B21-materials-13-00801" ref-type="bibr">21</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B21-materials-13-00801" ref-type="bibr">21</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B22-materials-13-00801" ref-type="bibr">22</xref>,
+     <xref rid="B23-materials-13-00801" ref-type="bibr">23</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B21-materials-13-00801" ref-type="bibr">21</xref>,
+     <xref rid="B24-materials-13-00801" ref-type="bibr">24</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B21-materials-13-00801" ref-type="bibr">21</xref>,
+     <xref rid="B25-materials-13-00801" ref-type="bibr">25</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B21-materials-13-00801" ref-type="bibr">21</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Average potential (V vs. Li
+     <sup>0</sup>)
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.7–3.9</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.8</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.8</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.8</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.3</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">First cycle discharge capacity (mAh/g at 0.1 C) </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">140</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">180</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">180–200</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">170</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">120</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">155–160</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Specific energy (Wh/kg)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">520</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">675</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">680–760</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">560</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">455</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">560</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Capacity retention after 100 cycles (% of initial capacity)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">97–98</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">N/A</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">93</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">95</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">89–93</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">&gt;99</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

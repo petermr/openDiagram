@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Computational Methods</italic>: The calculations of the adsorption energy among Li, LiB, and Mg were performed using DFT implemented in the Vienna ab initio simulation package (VASP).
+ <xref rid="advs1513-bib-0031" ref-type="ref">31</xref> The projector augmented wave (PAW) method
+ <xref rid="advs1513-bib-0032" ref-type="ref">32</xref> and the generalized gradient approximation (GGA)
+ <xref rid="advs1513-bib-0033" ref-type="ref">33</xref> in the form of Perdew, Burke, and Ernzerhof (PBE) were used in this work. The cut‐off energy was set to be 520 eV. The Brillouin zones were sampled with 2 × 2 × 1 Monkhorst–Pack meshes. The atomic position was fully relaxed until the maximum force on each atom was less than −0.02 eV Å
+ <sup>−1</sup> and 10
+ <sup>−6</sup> eV. A vacuum space of 20 Å was inserted along the 
+ <italic>z</italic> direction to avoid any interactions between the periodically repeated images.
+</p>

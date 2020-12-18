@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="molecules-25-00891-f009">Figure 9</xref> shows UV-Vis diffuse reflectance spectra (a) of samples S1, S2, and S3 and the corresponding Kubelka-Munk plots (b). The band gap energy of samples S1, S2, and S3 was calculated based on the Kubelka-Munk function. The following relation is used:
+ <disp-formula>(
+  <italic>hνα</italic>)
+  <sup>1/n</sup> = 
+  <italic>A</italic> (
+  <italic>hν</italic> − 
+  <italic>E</italic>
+  <sub>
+   <italic>g</italic>
+  </sub>)
+  <label>(1)</label>
+ </disp-formula> where 
+ <italic>h</italic> is Planck’s constant, 
+ <italic>ν</italic> is frequency, 
+ <italic>α</italic> is absorption coefficient, 
+ <italic>E</italic>
+ <sub>
+  <italic>g</italic>
+ </sub> is band gap and A is proportionality constant. The value of the exponent n represents the type of sample transition (n = 2 for indirect allowed transition, n = 0.5 for direct allowed transition). The calculations were performed for indirect band gap energy determination; therefore, the value of n was set to 2. The collected diffuse reflectance spectra were converted to the Kubelka–Munk function. The vertical axis was converted to a quantity (
+ <italic>R</italic>∞)
+ <italic>hν</italic> where 
+ <italic>F</italic>(
+ <italic>R</italic>∞) is proportional to the absorption coefficient and is calculated by the following equation:
+ <disp-formula>
+  <italic>F</italic>(
+  <italic>R</italic>∞) = (1 − 
+  <italic>R</italic>)
+  <sup>2</sup>/2
+  <italic>R</italic>
+  <label>(2)</label>
+ </disp-formula> where 
+ <italic>R</italic> is reflectance at a given wavelength. Using the calculated values, 
+ <italic>F</italic>(
+ <italic>R</italic>∞) 
+ <italic>hν</italic>
+ <sup>2</sup> was plotted against 
+ <italic>hν</italic>. A line tangent to the linear part of the curve was extrapolated to zero reflectance. The extrapolated value was taken as the band gap energy of the material. The calculated band gaps (
+ <italic>E
+  <sub>g</sub>
+ </italic>) of samples S1, S2, and S3 were estimated to 1.35, 1.53, and 1.68 eV, respectively which is in agreement with Raman scattering measurements that show silicon nanosized domains for all samples analyzed. Band gap increases with the decrease in size due to electron confinement at the nano scale.
+</p>

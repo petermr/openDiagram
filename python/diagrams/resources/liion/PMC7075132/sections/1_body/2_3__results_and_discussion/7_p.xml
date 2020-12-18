@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Electrochemical impedance spectroscopy (EIS) was carried out to further explore reasons for the excellent performance of B-SFO@C. 
+ <xref ref-type="fig" rid="nanomaterials-10-00249-f006">Figure 6</xref>a shows the EIS spectra evolution at different states of charge (SOC) in the first cycle, wherein OCV, D to 0.7 V and C to 3.0 V, for example, represent the open circuit voltage, and discharge to 0.7 V and charge to 3.0 V, respectively. All the spectra were well-fitted utilizing equivalent circuits (as described in inset), and comprised of an x-axis intercept at a high frequency, semicircle at high-medium frequencies and the linear line at lower frequencies, which are representative of overall cell resistance (
+ <italic>R
+  <sub>e</sub>
+ </italic>), charge transfer resistance (
+ <italic>R
+  <sub>ct</sub>
+ </italic>) and Warburg impedance, respectively. Combined with the fitted results (
+ <xref ref-type="fig" rid="nanomaterials-10-00249-f006">Figure 6</xref>b), it can be deduced that during the discharge process 
+ <italic>R
+  <sub>ct</sub>
+ </italic> gradually increases from 31 to 67 Ω as the potential switches from OCV to 0.7 V, which is due to the formation of poor electronic conductivity of Li
+ <sub>2</sub>O accompanied by reduction of SnO
+ <sub>2</sub> and Fe
+ <sub>2</sub>O
+ <sub>3</sub>. Then, 
+ <italic>R
+  <sub>ct</sub>
+ </italic> substantially increases from 67 to 101 Ω when the potential further dwindles to 0.005 V, which should have the intimate relation with the poor electronic conductivity of SnLi
+ <sub>x</sub> in situ produced from the alloying reaction. In the subsequent re-charge process, 
+ <italic>R
+  <sub>ct</sub>
+ </italic> continuously diminishes back to 29 Ω until the end of charging, which indicates that the electrochemical reaction is highly reversible. The trend of 
+ <italic>R
+  <sub>ct</sub>
+ </italic> in the first cycle agrees with prior results [
+ <xref rid="B52-nanomaterials-10-00249" ref-type="bibr">52</xref>]. Interestingly, an atypical rise takes place to 
+ <italic>R
+  <sub>e</sub>
+ </italic> at 0.005 V (
+ <xref ref-type="app" rid="app1-nanomaterials-10-00249">Figure S10</xref>), which could relate to the decline in the electrical contacts sparked off due to the dramatic volume expansion [
+ <xref rid="B53-nanomaterials-10-00249" ref-type="bibr">53</xref>]. Additionally, the EIS spectra of the B-SFO@C electrode at the different cycles were also depicted in 
+ <xref ref-type="fig" rid="nanomaterials-10-00249-f006">Figure 6</xref>c. Similarly, all the spectra also consist of the 
+ <italic>x</italic>-axis intercept at the high frequency, half-loop at the high-medium frequencies and the linear line at the lower frequencies. All spectra at the different cycles are very similar except the 10th cycle, implying that over 100 cycles the transfer dynamics can be well retained. Fitted results are provided in 
+ <xref ref-type="fig" rid="nanomaterials-10-00249-f006">Figure 6</xref>d, and 
+ <italic>R
+  <sub>ct</sub>
+ </italic> is 31 Ω for the fresh B-SFO@C electrode, 48 Ω for the fresh B-SO@C electrode but 82 Ω on the fresh B-SFO electrode (
+ <xref ref-type="app" rid="app1-nanomaterials-10-00249">Figure S11</xref>). This interprets that the carbon matrix can greatly reinforce the electronic conductivity of B-SFO@C and B-SO@C electrodes, thereby supplying a robust fast electronic connection. The low 
+ <italic>R
+  <sub>ct</sub>
+ </italic> in B-SFO@C is responsible for the exceptional rate capability of the B-SFO@C electrode. To be specific, at the 10th cycle, 
+ <italic>R
+  <sub>ct</sub>
+ </italic> of the B-SFO@C electrode substantially rises to 42.6 Ω, which can closely correlate with the initial structural rearrangement in first cycles that could arise from the SEI thickening or the formation of the segregated granules [
+ <xref rid="B54-nanomaterials-10-00249" ref-type="bibr">54</xref>,
+ <xref rid="B55-nanomaterials-10-00249" ref-type="bibr">55</xref>]. Subsequently, the 
+ <italic>R
+  <sub>ct</sub>
+ </italic> drops to 27 Ω at the 50th cycle and finally stabilizes at 22 Ω at the 100th cycle, indicating that no appreciable cycling-triggered gain in resistance offers itself. On the one hand, the repeated volume swelling and contraction during cycling make contacts between active materials and carbon matrix closer and closer, which facilitates transfer of electrons from the carbon matrix to the active materials [
+ <xref rid="B56-nanomaterials-10-00249" ref-type="bibr">56</xref>,
+ <xref rid="B57-nanomaterials-10-00249" ref-type="bibr">57</xref>]. On the other hand, the metallic Sn derived from the irreversible part of conversion reaction of SnO
+ <sub>2</sub> is a good conductor and acts as conductive matrix, which further reduce the 
+ <italic>R
+  <sub>ct</sub>
+ </italic> [
+ <xref rid="B58-nanomaterials-10-00249" ref-type="bibr">58</xref>]. As the SEI layer thickening can augment resistance, the 
+ <italic>R
+  <sub>ct</sub>
+ </italic> evolution combined with post-characterization (
+ <xref ref-type="fig" rid="nanomaterials-10-00249-f007">Figure 7</xref>) can reveal that the excellent structural resilience/flexibility of B-SFO@C to maintain textural stability can aid in yielding the stable and thin SEI layer and keeping small resistance in spite of fierce electrochemical events.
+</p>

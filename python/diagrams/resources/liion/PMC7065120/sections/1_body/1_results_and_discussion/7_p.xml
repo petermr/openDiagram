@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>so that the voltage plateau 
+ <italic>Φ</italic>(
+ <italic>x</italic>
+ <sub>1</sub>, 
+ <italic>x</italic>
+ <sub>2</sub>) results, similar to that from M
+ <sub>x</sub>(NCN)
+ <sub>
+  <italic>y</italic>
+ </sub> to Li
+ <sub>2</sub>NCN, in:
+ <disp-formula id="anie201914760-disp-0003">
+  <label>(3)</label>
+  <math id="nlm-math-6">
+   <mstyle displaystyle="true">
+    <mrow>
+     <mi>Φ</mi>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mi>x</mi>
+       <mn>1</mn>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mi>x</mi>
+       <mn>2</mn>
+      </msub>
+     </mfenced>
+     <mo>=</mo>
+     <mspace width="2.84526pt"/>
+     <mo>-</mo>
+     <mfrac>
+      <mrow>
+       <mi>Δ</mi>
+       <mi>G</mi>
+      </mrow>
+      <mrow>
+       <mfenced separators="" open="(" close=")">
+        <msub>
+         <mi>x</mi>
+         <mn>2</mn>
+        </msub>
+        <mo>-</mo>
+        <msub>
+         <mi>x</mi>
+         <mn>1</mn>
+        </msub>
+       </mfenced>
+       <mi>z</mi>
+       <mi>F</mi>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>≈</mo>
+      <mo>-</mo>
+      <mo>[</mo>
+      <mi>E</mi>
+     </mrow>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">L</mi>
+        <mi mathvariant="normal">i</mi>
+       </mrow>
+       <msub>
+        <mi>x</mi>
+        <mn>2</mn>
+       </msub>
+      </msub>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">F</mi>
+        <mi mathvariant="normal">e</mi>
+       </mrow>
+       <mfenced separators="" open="(" close=")">
+        <mn>1</mn>
+        <mo>-</mo>
+        <msub>
+         <mi>x</mi>
+         <mn>2</mn>
+        </msub>
+        <mo>/</mo>
+        <mn>2</mn>
+       </mfenced>
+      </msub>
+      <mi mathvariant="normal">N</mi>
+      <mi mathvariant="normal">C</mi>
+      <mi mathvariant="normal">N</mi>
+     </mfenced>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mi>x</mi>
+       <mn>2</mn>
+      </msub>
+      <mo>-</mo>
+      <msub>
+       <mi>x</mi>
+       <mn>1</mn>
+      </msub>
+     </mfenced>
+     <mi>E</mi>
+     <mfenced separators="" open="(" close=")">
+      <mi mathvariant="normal">F</mi>
+      <mi mathvariant="normal">e</mi>
+     </mfenced>
+    </mrow>
+    <mrow>
+     <mo>-</mo>
+     <mi>E</mi>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">L</mi>
+        <mi mathvariant="normal">i</mi>
+       </mrow>
+       <msub>
+        <mi>x</mi>
+        <mn>1</mn>
+       </msub>
+      </msub>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">F</mi>
+        <mi mathvariant="normal">e</mi>
+       </mrow>
+       <mrow>
+        <mo>(</mo>
+        <mn>1</mn>
+        <mo>-</mo>
+        <msub>
+         <mi>x</mi>
+         <mn>1</mn>
+        </msub>
+        <mo>/</mo>
+        <mn>2</mn>
+        <mo>)</mo>
+       </mrow>
+      </msub>
+      <mi mathvariant="normal">N</mi>
+      <mi mathvariant="normal">C</mi>
+      <mi mathvariant="normal">N</mi>
+     </mfenced>
+     <mo>-</mo>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mi>x</mi>
+       <mn>2</mn>
+      </msub>
+      <mo>-</mo>
+      <msub>
+       <mi>x</mi>
+       <mn>1</mn>
+      </msub>
+     </mfenced>
+     <mi>E</mi>
+     <mfenced separators="" open="(" close=")">
+      <mi mathvariant="normal">L</mi>
+      <mi mathvariant="normal">i</mi>
+     </mfenced>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>]</mo>
+       </mrow>
+       <mfenced separators="" open="[" close="]">
+        <mfenced separators="" open="(" close=")">
+         <msub>
+          <mi>x</mi>
+          <mn>2</mn>
+         </msub>
+         <mo>-</mo>
+         <msub>
+          <mi>x</mi>
+          <mn>1</mn>
+         </msub>
+        </mfenced>
+        <mi>z</mi>
+        <mi>F</mi>
+       </mfenced>
+      </mrow>
+      <mrow>
+       <mo>-</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

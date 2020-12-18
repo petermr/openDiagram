@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="E3">
+ <label>(3)</label>
+ <math id="M5">
+  <mtable class="eqnarray" columnalign="left">
+   <mtr>
+    <mtd>
+     <mtext>L</mtext>
+     <msub>
+      <mrow>
+       <mtext>i</mtext>
+      </mrow>
+      <mrow>
+       <mtext>x</mtext>
+      </mrow>
+     </msub>
+     <mtext>Mo</mtext>
+     <msub>
+      <mrow>
+       <mtext>S</mtext>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>4</mn>
+       <mo>-</mo>
+       <mtext>x</mtext>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mtext>L</mtext>
+     <msup>
+      <mrow>
+       <mtext>i</mtext>
+      </mrow>
+      <mrow>
+       <mo>+</mo>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>4</mn>
+       <mo>-</mo>
+       <mtext>x</mtext>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <msup>
+      <mrow>
+       <mtext>e</mtext>
+      </mrow>
+      <mrow>
+       <mo>-</mo>
+      </mrow>
+     </msup>
+    </mtd>
+    <mtd>
+     <mo>→</mo>
+    </mtd>
+    <mtd>
+     <mtext>Mo</mtext>
+     <mo>+</mo>
+     <mn>2</mn>
+     <mtext>L</mtext>
+     <msub>
+      <mrow>
+       <mtext>i</mtext>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <mtext>S</mtext>
+    </mtd>
+   </mtr>
+  </mtable>
+ </math>
+</disp-formula>

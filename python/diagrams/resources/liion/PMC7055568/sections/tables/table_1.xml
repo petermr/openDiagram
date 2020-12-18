@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="advs1507-tbl-0001" xml:lang="en" orientation="portrait" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>The conclusion summary of different researches focused on the mechanism of Li‐ion migration in SCEs</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <col align="left" span="1"/>
+  <col align="center" span="1"/>
+  <col align="center" span="1"/>
+  <col align="center" span="1"/>
+  <thead>
+   <tr style="border-bottom:solid 1px #000000">
+    <th align="left" rowspan="1" colspan="1">Composition</th>
+    <th align="center" rowspan="1" colspan="1">Method</th>
+    <th align="center" rowspan="1" colspan="1">Conclusion</th>
+    <th align="center" rowspan="1" colspan="1">Refs.</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">50 wt% LLZO‐PEO
+     <sub>18</sub>/LiClO
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">Selective isotope labeling and high‐resolution solid‐state Li NMR</td>
+    <td align="center" rowspan="1" colspan="1">Li ions preferentially move through the Li
+     <sub>7</sub>La
+     <sub>3</sub>Zr
+     <sub>2</sub>O
+     <sub>12</sub> ceramic phase.
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1507-bib-0062" ref-type="ref">62</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">5 wt% LLZO nanowires‐PAN/ LiClO
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">Selective isotope labeling and high‐resolution solid‐state Li NMR</td>
+    <td align="center" rowspan="1" colspan="1">Li ions preferentially move through the modified regions at the LLZO/polymer interface.</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1507-bib-0052" ref-type="ref">52</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">5 wt% LLZO‐PEO
+     <sub>18</sub>/LiTFSI
+    </td>
+    <td align="center" rowspan="1" colspan="1">Selective isotope labeling and high‐resolution solid‐state Li NMR</td>
+    <td align="center" rowspan="1" colspan="1">Li ions preferentially move through the polymer phase.</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1507-bib-0064" ref-type="ref">64</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">20 wt% LLZO‐PEO
+     <sub>18</sub>/LiTFSI
+    </td>
+    <td align="center" rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">Li ions preferentially move through the LiTFSI dispersed in PEO and partially from decomposed LLZO.</td>
+    <td align="center" rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">50 wt% LLZO‐PEO
+     <sub>18</sub>/LiTFSI
+    </td>
+    <td align="center" rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">Li ions preferentially move through the percolated network formed by LLZO particles.</td>
+    <td align="center" rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">50 wt% LLZO‐PEO
+     <sub>18</sub>/LiTFSI‐(50 wt%)‐TEGDME
+    </td>
+    <td align="center" rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">Li ions preferentially move through the PEO−TEGDME matrix.</td>
+    <td align="center" rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">16 vol% Ga‐LLZO‐PEO</td>
+    <td align="center" rowspan="1" colspan="1">The ionic conductivity data and Monte Carlo simulation</td>
+    <td align="center" rowspan="1" colspan="1">The space charge region is observed and the enhanced ionic conductivity can be ascribed to the space charge region</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1507-bib-0065" ref-type="ref">65</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">10 wt% LATP‐PEO/LiClO
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">The ionic conductivity data and simulation and transmission electron microscope</td>
+    <td align="center" rowspan="1" colspan="1">The enhanced ionic conductivity can be ascribed to the interphase region surrounding the particles, which achieves percolation at low nanoparticle loading.</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1507-bib-0066" ref-type="ref">66</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">70 wt% LLZO‐P(EO)
+     <sub>15</sub>/LiTFSI
+    </td>
+    <td align="center" rowspan="1" colspan="1">The ionic conductivity data</td>
+    <td align="center" rowspan="1" colspan="1">Li ions are trapped at the interface and/or within the LLZO surface layer, which depletes the ionic conductivity.</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1507-bib-0053" ref-type="ref">53</xref>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <permissions>
+  <copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder>
+ </permissions>
+</table-wrap>

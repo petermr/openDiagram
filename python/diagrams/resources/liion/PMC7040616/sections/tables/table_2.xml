@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-13-00560-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-13-00560-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Sintering condition, cell parameter, total ionic conductivity at 25 °C, activation energy, and relative density of LLZNO ceramics.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Sample Name</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Sintering Condition</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Cell Parameter (Å)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Total Ionic Conductivity 
+     <break/>(10
+     <sup>−4</sup> S·cm
+     <sup>−1</sup>), 25 °C
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Activation Energy (eV)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Relative Density</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">SL−1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1200 °C × 60 min</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12.8952</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.58</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.315</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">86.7%</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">SL−2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1200 °C × 30 min</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12.8953</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.09</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.311</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">87.3%</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">SL−3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1150 °C × 60 min</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12.9028</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.49</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.316</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">90.4%</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">SL−4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1100 °C × 60 min</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12.8916</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.51</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.319</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">90.3%</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">SL−5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1100 °C × 360 min</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">12.8870</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.35</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.328</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">83.4%</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

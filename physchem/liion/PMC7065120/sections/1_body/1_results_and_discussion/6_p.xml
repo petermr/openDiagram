@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Each voltage pair (given by two intermediate compounds with adjacent Li content in the phase diagram) gives a voltage plateau, and a voltage profile can be obtained by combining all voltage plateaus. For example, given a voltage pair of two intermediate compounds written as 
+ <math id="nlm-math-3">
+  <mrow>
+   <msub>
+    <mrow>
+     <mi mathvariant="normal">L</mi>
+     <mi mathvariant="normal">i</mi>
+    </mrow>
+    <msub>
+     <mi>x</mi>
+     <mn>1</mn>
+    </msub>
+   </msub>
+   <msub>
+    <mrow>
+     <mi mathvariant="normal">F</mi>
+     <mi mathvariant="normal">e</mi>
+    </mrow>
+    <mrow>
+     <mo>(</mo>
+     <mn>1</mn>
+     <mo>-</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>/</mo>
+     <mn>2</mn>
+     <mo>)</mo>
+    </mrow>
+   </msub>
+   <mi mathvariant="normal">N</mi>
+   <mi mathvariant="normal">C</mi>
+   <mi mathvariant="normal">N</mi>
+  </mrow>
+ </math> and 
+ <math id="nlm-math-4">
+  <mrow>
+   <msub>
+    <mrow>
+     <mi mathvariant="normal">L</mi>
+     <mi mathvariant="normal">i</mi>
+    </mrow>
+    <msub>
+     <mi>x</mi>
+     <mn>2</mn>
+    </msub>
+   </msub>
+   <msub>
+    <mrow>
+     <mi mathvariant="normal">F</mi>
+     <mi mathvariant="normal">e</mi>
+    </mrow>
+    <mrow>
+     <mo>(</mo>
+     <mn>1</mn>
+     <mo>-</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>/</mo>
+     <mn>2</mn>
+     <mo>)</mo>
+    </mrow>
+   </msub>
+   <mi mathvariant="normal">N</mi>
+   <mi mathvariant="normal">C</mi>
+   <mi mathvariant="normal">N</mi>
+  </mrow>
+ </math> (taking 
+ <italic>x</italic>
+ <sub>1</sub>&lt;
+ <italic>x</italic>
+ <sub>2</sub> with FeNCN as a cathode host in a LIB), their reaction reads:
+ <disp-formula id="anie201914760-disp-0002">
+  <label>(2)</label>
+  <math id="nlm-math-5">
+   <mstyle displaystyle="true">
+    <mrow>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mi>x</mi>
+       <mn>2</mn>
+      </msub>
+      <mo>-</mo>
+      <msub>
+       <mi>x</mi>
+       <mn>1</mn>
+      </msub>
+     </mfenced>
+     <mi mathvariant="normal">L</mi>
+     <mi mathvariant="normal">i</mi>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mi mathvariant="normal">L</mi>
+       <mi mathvariant="normal">i</mi>
+      </mrow>
+      <msub>
+       <mi>x</mi>
+       <mn>1</mn>
+      </msub>
+     </msub>
+     <msub>
+      <mrow>
+       <mi mathvariant="normal">F</mi>
+       <mi mathvariant="normal">e</mi>
+      </mrow>
+      <mrow>
+       <mo>(</mo>
+       <mn>1</mn>
+       <mo>-</mo>
+       <msub>
+        <mi>x</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>/</mo>
+       <mn>2</mn>
+       <mo>)</mo>
+      </mrow>
+     </msub>
+     <mi mathvariant="normal">N</mi>
+     <mi mathvariant="normal">C</mi>
+     <mi mathvariant="normal">N</mi>
+     <mspace width="4pt"/>
+     <mo>→</mo>
+     <msub>
+      <mrow>
+       <mi mathvariant="normal">L</mi>
+       <mi mathvariant="normal">i</mi>
+      </mrow>
+      <msub>
+       <mi>x</mi>
+       <mn>2</mn>
+      </msub>
+     </msub>
+     <msub>
+      <mrow>
+       <mi mathvariant="normal">F</mi>
+       <mi mathvariant="normal">e</mi>
+      </mrow>
+      <mrow>
+       <mo>(</mo>
+       <mn>1</mn>
+       <mo>-</mo>
+       <msub>
+        <mi>x</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>/</mo>
+       <mn>2</mn>
+       <mo>)</mo>
+      </mrow>
+     </msub>
+     <mi mathvariant="normal">N</mi>
+     <mi mathvariant="normal">C</mi>
+     <mi mathvariant="normal">N</mi>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mi>x</mi>
+       <mn>2</mn>
+      </msub>
+      <mo>-</mo>
+      <msub>
+       <mi>x</mi>
+       <mn>1</mn>
+      </msub>
+     </mfenced>
+     <mi mathvariant="normal">F</mi>
+     <mi mathvariant="normal">e</mi>
+     <mo>,</mo>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

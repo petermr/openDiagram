@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We calculated the average cell voltages
+ <xref rid="anie201914760-bib-0017" ref-type="ref">17</xref> of the TMC (TM=Cr, Mn, Fe, Co) vs. pure Li and Na metals using the PBE and PBE+
+ <italic>U</italic> functionals (see the Supporting Information).
+ <xref rid="anie201914760-bib-0018" ref-type="ref">18</xref> Pure PBE produces less reliable voltage data (the largest error being 1.2 V for CoNCN in a LIB) because the 
+ <italic>U</italic> correction is necessary to model the highly correlated TM electrons.
+ <xref rid="anie201914760-bib-0019" ref-type="ref">19</xref> As shown in Table S2 (Supporting Information), introducing the 
+ <italic>U</italic> correction
+ <xref rid="anie201914760-bib-0020" ref-type="ref">20</xref> effectively decreases the voltage errors (to about 0.8 V for CoNCN in a LIB), so we chose PBE+
+ <italic>U</italic> for a large‐scale study.
+</p>

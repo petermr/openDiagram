@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The test process consists of the following steps:
+ <list id="list1" list-type="simple">
+  <list-item>
+   <label>a</label>
+   <p>Precycle: cycle at 20 °C, 0.03 C rate, voltage range 3.5–4.95 V for 10 cycles, and read battery capacity information after battery charging and discharging cycle curve is stable.</p>
+  </list-item>
+  <list-item>
+   <label>b</label>
+   <p>Full charging: charge to 4.95 V at a constant current of 0.1 C, set as 100% state of charge, that is, 0% SOD.</p>
+  </list-item>
+  <list-item>
+   <label>c</label>
+   <p>OCV test: first, balance the battery at 20 °C for 20 h and record the open-circuit voltage. Then, repeat the process at 0, 10, 20, 30, and 20 °C for 2 h at each step.</p>
+  </list-item>
+  <list-item>
+   <label>d</label>
+   <p>Adjusting SOD: charge the cell fully and then discharge at 0.1 C to the target SOD in one step.</p>
+  </list-item>
+ </list>
+</p>

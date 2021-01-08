@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-13-00801-t003" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-13-00801-t003_Table 3</object-id>
+ <label>Table 3</label>
+ <caption>
+  <p>List of current recycling facilities and recycling processes they use.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Company (Location)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Process Type</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Recovered Elements</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Retriev (Canada)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Cryo-hydrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Li</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Umicore (Belgium)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pyro-hydrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Co, Ni, and Mn</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Sumimoto (Japan)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pyro-hydrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Cu, and Ni</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Recupyl (France)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Hydrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Li, Co, Ni, Mn, Cu, and Al</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Snam (France)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pyrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Cd, Ni, Co, and Fe</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Accurec (Germany)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pyrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Al, Cu, Co, Ni, and Fe</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Glencore (Canada)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pyro-hydrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Ni, and Co</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Batrec (Switzerland)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pyro-hydrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Zn, Co, Ni, Mn, and Hg</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AkkuSer Oy (Finland)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Mechanical</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">LIB active materials</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">OnTo Technology (USA)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Direct Recycling</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">LIB active materials</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Dowa (Japan)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pyrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Co, Ni, and Mn</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Nickelhütte Aue Gmbh (Germany)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pyrometallurgy</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Co, Ni, and Mn</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Brunp (China)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Pyro- and hydrometallurgy</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Li, Co, Ni, Mn, Cu, and Al</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

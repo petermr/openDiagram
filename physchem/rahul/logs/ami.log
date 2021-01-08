@@ -1,0 +1,54 @@
+17:38:10.596 INFO  org.contentmine.ami.tools.AMI - args: [-t, rahul1, --inputname, octree/channel.372e30, ocr]
+17:38:10.621 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+17:38:10.621 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+17:38:10.622 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+17:38:10.622 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/workspace/jupyter/physchem/rahul/logs/ami.log)
+17:38:10.801 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2020.08.09_09.54-NEXT-SNAPSHOT
+(jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2020.08.09_09.54-NEXT-SNAPSHOT.jar)
+JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
+OS: Mac OS X 10.15.7 x86_64
+
+17:38:10.801 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+17:38:10.801 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMIOCRTool)
+17:38:10.802 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+17:38:10.894 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      octree/channel.372e30
+17:38:10.894 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
+17:38:10.894 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            
+17:38:10.894 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               /Users/pm286/workspace/jupyter/physchem/rahul/rahul1
+17:38:10.894 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           [rahul1]
+17:38:10.894 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
+17:38:10.895 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
+17:38:10.895 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
+17:38:10.895 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
+17:38:10.895 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
+17:38:10.895 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
+17:38:10.895 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
+17:38:10.895 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+17:38:10.895 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMIOCRTool)
+17:38:10.896 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - disambiguate        false
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - extractlines        []
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - glyphs              false
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - gocr                null
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - html                true
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - maxsize             null
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - mergeNames          []
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - replace             []
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - scale               false
+17:38:10.896 INFO  org.contentmine.ami.tools.AMIOCRTool - scalefactor         null
+17:38:10.897 INFO  org.contentmine.ami.tools.AMIOCRTool - scaledFilename      null
+17:38:10.897 INFO  org.contentmine.ami.tools.AMIOCRTool - tesseractPath       null
+17:38:10.897 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIOCRTool cTree: rahul1
+17:38:10.911 WARN  org.contentmine.ami.tools.ImageDirProcessor -  >>>>> imageDirs: 6
+17:38:11.036 WARN  org.contentmine.ami.tools.ImageDirProcessor - amiOCR does not exclude images
+17:38:11.037 ERROR org.contentmine.ami.tools.ImageDirProcessor - BUG? image file does not exist: rahul1/pdfimages/image.1.1.533_555.28_51/octree/channel.372e30.png
+17:38:11.070 WARN  org.contentmine.ami.tools.ImageDirProcessor - amiOCR does not exclude images
+17:38:11.070 ERROR org.contentmine.ami.tools.ImageDirProcessor - BUG? image file does not exist: rahul1/pdfimages/image.3.1.55_296.95_418/octree/channel.372e30.png
+17:38:11.104 WARN  org.contentmine.ami.tools.ImageDirProcessor - amiOCR does not exclude images
+17:38:11.104 WARN  org.contentmine.ami.tools.AMIOCRTool - >octree/channel.372e30>
+17:38:11.137 WARN  org.contentmine.ami.tools.ImageDirProcessor - amiOCR does not exclude images
+17:38:11.138 ERROR org.contentmine.ami.tools.ImageDirProcessor - BUG? image file does not exist: rahul1/pdfimages/image.5.1.55_554.347_689/octree/channel.372e30.png
+17:38:11.166 WARN  org.contentmine.ami.tools.ImageDirProcessor - amiOCR does not exclude images
+17:38:11.166 ERROR org.contentmine.ami.tools.ImageDirProcessor - BUG? image file does not exist: rahul1/pdfimages/image.6.1.55_554.95_478/octree/channel.372e30.png
+17:38:11.198 WARN  org.contentmine.ami.tools.ImageDirProcessor - amiOCR does not exclude images
+17:38:11.199 ERROR org.contentmine.ami.tools.ImageDirProcessor - BUG? image file does not exist: rahul1/pdfimages/image.7.1.55_554.95_406/octree/channel.372e30.png

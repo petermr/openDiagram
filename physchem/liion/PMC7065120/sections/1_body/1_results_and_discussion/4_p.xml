@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After full optimizations, the structures were used to perform electronic self‐consistency calculations. To examine the stability of each intermediate compound, its formation energy 
+ <italic>E</italic>
+ <sub>formation</sub> was calculated, which is defined as the energetic difference between an intermediate compound Li
+ <sub>
+  <italic>x</italic>
+ </sub>Fe
+ <sub>(1−
+  <italic>x</italic>/2)
+ </sub>NCN and its corresponding linear combination of Li
+ <sub>2</sub>NCN (fully lithiated) and FeNCN (fully delithiated):
+ <disp-formula id="anie201914760-disp-0001">
+  <label>(1)</label>
+  <math id="nlm-math-2">
+   <mstyle displaystyle="true">
+    <mrow>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi mathvariant="normal">f</mi>
+       <mi mathvariant="normal">o</mi>
+       <mi mathvariant="normal">r</mi>
+       <mi mathvariant="normal">m</mi>
+       <mi mathvariant="normal">a</mi>
+       <mi mathvariant="normal">t</mi>
+       <mi mathvariant="normal">i</mi>
+       <mi mathvariant="normal">o</mi>
+       <mi mathvariant="normal">n</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mi>E</mi>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">L</mi>
+        <mi mathvariant="normal">i</mi>
+       </mrow>
+       <mi>x</mi>
+      </msub>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">F</mi>
+        <mi mathvariant="normal">e</mi>
+       </mrow>
+       <mrow>
+        <mo>(</mo>
+        <mn>1</mn>
+        <mo>-</mo>
+        <mi>x</mi>
+        <mo>/</mo>
+        <mn>2</mn>
+        <mo>)</mo>
+       </mrow>
+      </msub>
+      <mi mathvariant="normal">N</mi>
+      <mi mathvariant="normal">C</mi>
+      <mi mathvariant="normal">N</mi>
+     </mfenced>
+     <mo>-</mo>
+     <mfrac>
+      <mi>x</mi>
+      <mn>2</mn>
+     </mfrac>
+     <mi>E</mi>
+     <mfenced separators="" open="(" close=")">
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">L</mi>
+        <mi mathvariant="normal">i</mi>
+       </mrow>
+       <mn>2</mn>
+      </msub>
+      <mi mathvariant="normal">N</mi>
+      <mi mathvariant="normal">C</mi>
+      <mi mathvariant="normal">N</mi>
+     </mfenced>
+     <mo>-</mo>
+     <mfenced separators="" open="(" close=")">
+      <mn>1</mn>
+      <mo>-</mo>
+      <mfrac>
+       <mi>x</mi>
+       <mn>2</mn>
+      </mfrac>
+     </mfenced>
+     <mi>E</mi>
+     <mfenced separators="" open="(" close=")">
+      <mi mathvariant="normal">F</mi>
+      <mi mathvariant="normal">e</mi>
+      <mi mathvariant="normal">N</mi>
+      <mi mathvariant="normal">C</mi>
+      <mi mathvariant="normal">N</mi>
+     </mfenced>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

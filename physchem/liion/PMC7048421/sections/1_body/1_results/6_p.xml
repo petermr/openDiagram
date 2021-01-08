@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As mentioned, such rapid heating is achieved through the insertion of a micrometer-thick nickel sheet. The impact of this additional component on cell power density can be evaluated through 
+ <xref ref-type="disp-formula" rid="E1">Eq. 1</xref>, where 
+ <italic>m</italic> is the mass of the given cell and the ratio of discharge power evaluated through HPPC is inversely proportional to the ratio of DCRs
+ <disp-formula id="E1">
+  <math id="m1">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mtext>Power Density</mtext>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mtext>SEB</mtext>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mtext>Power Density</mtext>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mrow>
+         <mtext>baseline</mtext>
+         <mo>@</mo>
+         <mtext>RT</mtext>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mo stretchy="true">(</mo>
+     <mfrac>
+      <mrow>
+       <mtext>DC</mtext>
+       <msub>
+        <mi mathvariant="normal">R</mi>
+        <mrow>
+         <mtext>baseline</mtext>
+         <mo>@</mo>
+         <mtext>RT</mtext>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mtext>DC</mtext>
+       <msub>
+        <mi mathvariant="normal">R</mi>
+        <mrow>
+         <mtext>SEB</mtext>
+         <mo>@</mo>
+         <mn>60</mn>
+         <mo>°</mo>
+         <mi mathvariant="normal">C</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo stretchy="true">)</mo>
+     <mo stretchy="true">(</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>m</mi>
+        <mtext>baseline</mtext>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>m</mi>
+        <mtext>SEB</mtext>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+  <label>(1)</label>
+ </disp-formula>
+</p>

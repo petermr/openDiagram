@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Transition metal oxides undergo a conversion reaction in the lithiation, with the change in metal valence and the formation of solid electrolyte interface (SEI) layer and Li
+ <sub>2</sub>O [
+ <xref rid="B3-nanomaterials-10-00191" ref-type="bibr">3</xref>]. 
+ <xref ref-type="fig" rid="nanomaterials-10-00191-f006">Figure 6</xref> shows the CV test of NiCo
+ <sub>2</sub>O
+ <sub>4</sub>, CuCo
+ <sub>2</sub>O
+ <sub>4</sub>, and Cu
+ <sub>0.6</sub>Ni
+ <sub>0.4</sub>Co
+ <sub>2</sub>O
+ <sub>4</sub> anode electrodes for the first three curves at a scan of 0.2 mV s
+ <sup>−1</sup> between 0.01 and 3 V. For the NiCo
+ <sub>2</sub>O
+ <sub>4</sub> anode material, during the first scan, the main cathodic peaks locate in 0.7 V corresponding to the reduction of NiCo
+ <sub>2</sub>O
+ <sub>4</sub> to metallic Ni and Co (Equation (2)), and the broad peaks at ca. 0.37 V corresponds to SEI layer [
+ <xref rid="B42-nanomaterials-10-00191" ref-type="bibr">42</xref>]. The anode peaks are at the 1.63 V and 2.3 V, corresponding to oxidation of metallic Ni
+ <sup>0</sup> to Ni
+ <sup>2+</sup> and Co to Co
+ <sup>3+</sup>, respectively. (Equations (5), (7) and (8)). For the CuCo
+ <sub>2</sub>O
+ <sub>4</sub>, during the initial scan, the main cathodic peaks locate in 0.75 V, corresponding to the reduction of CuCo
+ <sub>2</sub>O
+ <sub>4</sub> to metallic Cu and Co (Equation (3)). It is mentioned that there are two peaks at ~0.5 V and ~0.6 V, revealing formation of SEI layer. The anode peaks were at the 1.1 V, 1.5 V and 2.2 V, corresponding to oxidation of metallic Cu and Co to CuCo
+ <sub>2</sub>O
+ <sub>4</sub> (Equations (6), (7) and (8), respectively). For Cu
+ <sub>0.6</sub>Ni
+ <sub>0.4</sub>Co
+ <sub>2</sub>O
+ <sub>4</sub>, during the first scan, the main cathodic peaks locate in 1.2 V and 0.8 V, assigning to reduction of metal oxide and formation of SEI film (Equation (4)). The anode peaks are at the 1.63 V and 2.3 V, corresponding to oxidation of metallic Ni, Cu and Co to Cu
+ <sub>0.6</sub>Ni
+ <sub>0.4</sub>Co
+ <sub>2</sub>O
+ <sub>4</sub> (Equations (5)–(8)). At the same time, the peaks of Cu
+ <sub>0.6</sub>Ni
+ <sub>0.4</sub>Co
+ <sub>2</sub>O
+ <sub>4</sub> are narrower and stronger than those of NiCo
+ <sub>2</sub>O
+ <sub>4</sub> and CuCo
+ <sub>2</sub>O
+ <sub>4</sub>. This can be due to co-work of Co, Cu, and Ni, which stabilizes the structure and enhance the electronic conductivity in the process of electrochemical reaction, resulting in a longer cycle life and a lower potential polarization. The different positions of the peaks reveal that the REDOX potential can be changed slightly by composition and content of metal oxide in the chemical reaction. The first cathodic scan of the three anode materials, in addition to the reduction of metals, the formation of SEI film and Li
+ <sub>2</sub>O were occurred, so the second anode scan is quite different from the first one [
+ <xref rid="B43-nanomaterials-10-00191" ref-type="bibr">43</xref>,
+ <xref rid="B44-nanomaterials-10-00191" ref-type="bibr">44</xref>]. While, the second cycle anode scan of the three materials is roughly the same as the first cycle, demonstrating good cycle performance. The total reaction equations during charging and discharging are described as following:
+ <disp-formula id="FD2-nanomaterials-10-00191">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>N</mi>
+     <mi mathvariant="normal">i</mi>
+     <mi>C</mi>
+     <msub>
+      <mi mathvariant="normal">o</mi>
+      <mn>2</mn>
+     </msub>
+     <msub>
+      <mi>O</mi>
+      <mn>4</mn>
+     </msub>
+     <mrow>
+      <mo>+</mo>
+      <mn>8</mn>
+     </mrow>
+     <mi>L</mi>
+     <msup>
+      <mi>i</mi>
+      <mo>+</mo>
+     </msup>
+     <mrow>
+      <mo>+</mo>
+      <mn>8</mn>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mo>−</mo>
+     </msup>
+     <mo>→</mo>
+     <mi>N</mi>
+     <mi>i</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <mi>C</mi>
+     <mi>o</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>4</mn>
+     </mrow>
+     <mi>L</mi>
+     <msub>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msub>
+     <mi>O</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD3-nanomaterials-10-00191">
+  <label>(3)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mi>u</mi>
+     <mi>C</mi>
+     <msub>
+      <mi mathvariant="normal">o</mi>
+      <mn>2</mn>
+     </msub>
+     <msub>
+      <mi>O</mi>
+      <mn>4</mn>
+     </msub>
+     <mrow>
+      <mo>+</mo>
+     </mrow>
+     <mn>8</mn>
+     <mi>L</mi>
+     <msup>
+      <mi>i</mi>
+      <mo>+</mo>
+     </msup>
+     <mrow>
+      <mo>+</mo>
+      <mn>8</mn>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mo>−</mo>
+     </msup>
+     <mo>→</mo>
+     <mi>C</mi>
+     <mi>u</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <mi>C</mi>
+     <mi>u</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>4</mn>
+     </mrow>
+     <mi>L</mi>
+     <msub>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msub>
+     <mi>O</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD4-nanomaterials-10-00191">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <msub>
+      <mi mathvariant="normal">u</mi>
+      <mrow>
+       <mn>0.6</mn>
+      </mrow>
+     </msub>
+     <mi>N</mi>
+     <msub>
+      <mi>i</mi>
+      <mrow>
+       <mn>0.4</mn>
+      </mrow>
+     </msub>
+     <mi>C</mi>
+     <msub>
+      <mi mathvariant="normal">o</mi>
+      <mn>2</mn>
+     </msub>
+     <msub>
+      <mi>O</mi>
+      <mn>4</mn>
+     </msub>
+     <mrow>
+      <mo>+</mo>
+      <mn>8</mn>
+     </mrow>
+     <mi>L</mi>
+     <msup>
+      <mi>i</mi>
+      <mo>+</mo>
+     </msup>
+     <mrow>
+      <mo>+</mo>
+      <mn>8</mn>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mo>−</mo>
+     </msup>
+     <mo>→</mo>
+     <mn>0.6</mn>
+     <mi>C</mi>
+     <mi>u</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mo>.</mo>
+      <mn>4</mn>
+     </mrow>
+     <mi>N</mi>
+     <mi>i</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <mi>C</mi>
+     <mi>o</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>4</mn>
+     </mrow>
+     <mi>L</mi>
+     <msub>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msub>
+     <mi>O</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD5-nanomaterials-10-00191">
+  <label>(5)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi>N</mi>
+     <mi>i</mi>
+     <mrow>
+      <mo>+</mo>
+     </mrow>
+     <mi>L</mi>
+     <msub>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msub>
+     <mi>O</mi>
+     <mo>→</mo>
+     <mi>N</mi>
+     <mi>i</mi>
+     <mi>O</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <mi>L</mi>
+     <msup>
+      <mi>i</mi>
+      <mo>+</mo>
+     </msup>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mo>−</mo>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD6-nanomaterials-10-00191">
+  <label>(6)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mrow>
+      <mi mathvariant="normal">u</mi>
+      <mo>+</mo>
+     </mrow>
+     <mi>L</mi>
+     <msub>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msub>
+     <mi>O</mi>
+     <mo>→</mo>
+     <mi>C</mi>
+     <mi>u</mi>
+     <mi>O</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <mi>L</mi>
+     <msup>
+      <mi mathvariant="normal">i</mi>
+      <mo>+</mo>
+     </msup>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mo>−</mo>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD7-nanomaterials-10-00191">
+  <label>(7)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mrow>
+      <mi mathvariant="normal">o</mi>
+      <mo>+</mo>
+     </mrow>
+     <mi>L</mi>
+     <msub>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msub>
+     <mi>O</mi>
+     <mo>→</mo>
+     <mi>C</mi>
+     <mi>o</mi>
+     <mi>O</mi>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <mi>L</mi>
+     <msup>
+      <mi mathvariant="normal">i</mi>
+      <mo>+</mo>
+     </msup>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mo>−</mo>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD8-nanomaterials-10-00191">
+  <label>(8)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mrow>
+      <mi>oO</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mn>3</mn>
+     </mrow>
+     <mi>L</mi>
+     <msub>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msub>
+     <mi>O</mi>
+     <mo>→</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mn>3</mn>
+     <mi>C</mi>
+     <msub>
+      <mi>o</mi>
+      <mn>3</mn>
+     </msub>
+     <msub>
+      <mi>O</mi>
+      <mn>4</mn>
+     </msub>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+      <mo>/</mo>
+      <mn>3</mn>
+     </mrow>
+     <mi>L</mi>
+     <msup>
+      <mi mathvariant="normal">i</mi>
+      <mrow>
+       <mo>+</mo>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo>+</mo>
+      <mn>2</mn>
+      <mo>/</mo>
+      <mn>3</mn>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mo>−</mo>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

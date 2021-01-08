@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="ath1">
+  <name>
+   <surname>Qian</surname>
+   <given-names>Xiangyu</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath2">
+  <name>
+   <surname>Qiu</surname>
+   <given-names>Ruoyu</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath3">
+  <name>
+   <surname>Lu</surname>
+   <given-names>Chunhong</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath4">
+  <name>
+   <surname>Qiu</surname>
+   <given-names>Yiping</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff5" ref-type="aff">⊥</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath5">
+  <name>
+   <surname>Wu</surname>
+   <given-names>Zhuangchun</given-names>
+  </name>
+  <xref rid="cor1" ref-type="other">*</xref>
+  <xref rid="aff3" ref-type="aff">§</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath6">
+  <name>
+   <surname>Wang</surname>
+   <given-names>Shiren</given-names>
+  </name>
+  <xref rid="aff4" ref-type="aff">∥</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath7">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>Kun</given-names>
+  </name>
+  <xref rid="cor2" ref-type="other">*</xref>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <aff id="aff1">
+  <label>†</label>College of Textiles, 
+  <institution>Donghua University</institution>, Shanghai 201620, 
+  <country>China</country>
+ </aff>
+ <aff id="aff2">
+  <label>‡</label>College of Science, 
+  <institution>Donghua University</institution>, Shanghai 201620, 
+  <country>China</country>
+ </aff>
+ <aff id="aff3">
+  <label>§</label>Institute of Functional Materials, 
+  <institution>Donghua University</institution>, Shanghai 201620, 
+  <country>China</country>
+ </aff>
+ <aff id="aff4">
+  <label>∥</label>Department of Industrial and Systems Engineering, 
+  <institution>Texas A&amp;M University</institution>, College Station, Texas 77843, 
+  <country>United States</country>
+ </aff>
+ <aff id="aff5">
+  <label>⊥</label>College of Textiles and Apparel, 
+  <institution>Quanzhou Normal University</institution>, Fujian 362000, 
+  <country>PR China</country>
+ </aff>
+</contrib-group>

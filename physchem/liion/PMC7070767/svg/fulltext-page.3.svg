@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="917.947" width="4199.686" xmlns="http://www.w3.org/2000/svg">
+ <g id="page" xmlns:svgx="http://www.xml-cml.org/schema/svgx">
+  <g begin="text">
+   <text y="62.979" x="76.535,84.059,87.598,89.813,92.914,96.157,100.589,102.804,105.905" svgx:width="0.94,0.44,0.28,0.39,0.41,0.56,0.28,0.39,0.39" style="fill:rgb(0,0,0);font-family:URWPalladioL-Ital;font-size:7.97px;stroke:none;">Molecules</text>
+   <text y="62.979" x="110.998,114.983,118.968,122.953" svgx:width="0.5,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:URWPalladioL-Bold;font-size:7.97px;stroke:none;">2020</text>
+   <text y="62.979" x="126.938" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:7.97px;stroke:none;">,</text>
+   <text y="62.979" x="130.923,134.908" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:URWPalladioL-Ital;font-size:7.97px;stroke:none;">25</text>
+   <text y="62.979" x="138.893,140.8855,142.878,146.863,150.848,154.83300000000003,495.794,499.779,501.772,506.123,508.7531,510.77,514.755" svgx:width="0.25,0.55,0.5,0.5,0.5,0.55,0.5,0.55,0.55,0.33,0.55,0.5,0.5" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:7.97px;stroke:none;">, 891 4 of 17</text>
+   <text y="97.848" x="76.535,81.516,84.006,87.494,94.687,99.668,104.092,110.179,113.496,116.814,121.1964,123.728,128.709,134.796,140.8716,143.374,151.673,154.99,159.414,163.837,169.924,174.348,178.771,182.089,187.628,193.715" svgx:width="0.5,0.25,0.55,0.72,0.5,0.44,0.61,0.33,0.33,0.44,0.55,0.5,0.61,0.61,0.55,0.83,0.33,0.44,0.44,0.61,0.44,0.44,0.33,0.56,0.61,0.44" style="fill:rgb(0,0,0);font-family:URWPalladioL-Bold;font-size:9.96px;stroke:none;">2. Results and Discussions</text>
+   <text y="117.335" x="97.795,103.223,106.065,111.493,117.38,121.061" svgx:width="0.56,0.29,0.56,0.6,0.4,0.48" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">Figure</text>
+   <text y="117.335" x="127.749" svgx:width="0.5" style="fill:rgb(8,117,183);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">3</text>
+   <text y="117.335" x="134.642,138.782,144.464,149.795,157.937,162.1202,164.088,170.073,176.038,187.286,190.127,198.748,203.63,209.058,213.735,217.9182,219.886,225.216,228.5028,230.479,236.347,241.677,249.82,255.785,260.462,264.44599999999997,266.33,270.47,275.351,283.972,289.84,292.681,297.358,301.5412,303.509,308.634,313.61400000000003,315.537,318.788,323.67,326.921,329.411,331.461,336.587,341.567,343.49,346.741,352.14,355.391,357.88100000000003,359.931,364.813,370.495,376.5706,378.482,383.607,388.58700000000005,390.5,393.751,398.086,401.338,403.82800000000003,407.098,413.083,418.765,423.5458,425.463,431.448,437.413,448.66,451.502,460.123,465.004,470.433,475.2138,477.121,482.451,485.73780000000005,487.714,491.854,496.735,505.356,511.224,514.065" svgx:width="0.42,0.58,0.55,0.83,0.42,0.55,0.61,0.61,0.95,0.29,0.88,0.5,0.56,0.48,0.42,0.55,0.55,0.33,0.55,0.6,0.55,0.83,0.61,0.48,0.4,0.55,0.42,0.5,0.88,0.6,0.29,0.48,0.42,0.55,0.52,0.5,0.55,0.33,0.5,0.33,0.25,0.55,0.52,0.5,0.55,0.33,0.55,0.33,0.25,0.55,0.5,0.58,0.61,0.55,0.52,0.5,0.55,0.33,0.44,0.33,0.25,0.55,0.61,0.58,0.48,0.55,0.61,0.61,0.95,0.29,0.88,0.5,0.56,0.48,0.55,0.55,0.33,0.55,0.42,0.5,0.88,0.6,0.29,0.48" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">shows TEMimages of powder samples S1 (a), S2 (b), and S3 (c). The TEMimage of sample</text>
+   <text y="130.845" x="76.535,81.661,86.641,88.974,93.113,98.795,104.126,112.269,116.4522,118.83,123.711,129.14,134.568,137.409,142.74,151.361,156.038,159.894,164.776,167.959,172.636,176.8192,179.206,183.541,188.872,197.493,203.361,208.692,212.831,217.508,223.58360000000002,225.895,231.226,234.5128,236.908,241.88799999999998,244.211,250.176,255.507,260.389,265.065,270.8418,273.179,277.318,285.939,290.821,293.662,296.503,301.18,305.164,307.467,313.335,318.217,322.073,325.256,328.097,332.432,335.274,339.95,344.09,346.58,349.997,355.982,361.664,366.4448,368.762,377.383,382.059,386.941,391.081,396.968,400.649,405.326,411.40160000000003,413.712,419.58,424.462,428.318,431.501,434.342,438.677,441.518,446.29879999999997,448.626,452.766,455.607,460.488,465.2688,467.586,473.552,476.393,480.532,483.715,487.572,490.413,495.812,501.699,504.882,507.723,513.054" svgx:width="0.52,0.5,0.55,0.42,0.58,0.55,0.83,0.42,0.55,0.5,0.56,0.56,0.29,0.55,0.88,0.48,0.4,0.5,0.33,0.48,0.42,0.55,0.44,0.55,0.88,0.6,0.55,0.42,0.48,0.61,0.55,0.55,0.33,0.55,0.5,0.55,0.61,0.55,0.5,0.48,0.58,0.55,0.42,0.88,0.5,0.29,0.29,0.48,0.4,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.42,0.25,0.55,0.61,0.58,0.48,0.55,0.88,0.48,0.5,0.42,0.6,0.4,0.48,0.61,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.55,0.42,0.29,0.5,0.48,0.55,0.61,0.29,0.42,0.33,0.4,0.29,0.55,0.6,0.33,0.29,0.55,0.58" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">S1 shows agglomerates composed of a dozen smaller particles. The measured particle size distribution</text>
+   <text y="144.354" x="76.535,82.056,85.3428,87.911,92.199,97.255,106.184,112.261,115.203,119.9838,122.525,127.833,132.813,135.377,140.999,146.055,151.769,156.5498,159.09,162.386,168.271,173.0518,175.603,184.532,189.375,194.431,200.20780000000002,202.794,208.871,213.927,217.922,221.218,224.161,228.65,231.593,236.3738,238.924,243.212,246.154,251.21,255.9908,258.531,264.053,267.3398,269.908,276.035,281.091,286.147,288.676,293.656,296.209,302.094,310.8588,313.511" svgx:width="0.55,0.33,0.55,0.42,0.5,0.88,0.6,0.29,0.48,0.55,0.52,0.5,0.55,0.56,0.5,0.56,0.48,0.55,0.33,0.58,0.48,0.55,0.88,0.48,0.5,0.58,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.55,0.42,0.29,0.5,0.48,0.55,0.55,0.33,0.55,0.61,0.5,0.5,0.25,0.5,0.55,0.58,0.88,0.55,0.33" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">of sample S1 gave the mean particle size of ~75.2 nm (</text>
+   <text y="144.354" x="316.878,323.643" svgx:width="0.67,0.29" style="fill:rgb(0,0,0);font-family:Rpxr;font-size:9.96px;stroke:none;">+/</text>
+   <text y="144.354" x="326.545" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Pxsy;font-size:9.96px;stroke:none;">−</text>
+   <text y="144.354" x="335.693,340.749,345.72900000000004,348.293,354.178,363.107,366.474,368.964,371.479,379.913,385.798,388.741,391.683,396.4638,399.015,402.311,408.196,412.9768,415.517,419.805,422.747,427.803,432.5838,435.135,440.656,443.94280000000003,446.501,449.797,455.682,460.4628,463.014,468.07,473.692,479.314,482.257,487.778,496.707,501.551,505.545,510.601,513.897" svgx:width="0.5,0.5,0.55,0.58,0.88,0.33,0.25,0.55,0.83,0.58,0.29,0.29,0.48,0.55,0.33,0.58,0.48,0.55,0.42,0.29,0.5,0.48,0.55,0.55,0.33,0.55,0.33,0.58,0.48,0.55,0.5,0.56,0.56,0.29,0.55,0.88,0.48,0.4,0.5,0.33,0.48" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">13 nm), while the size of the agglomerate</text>
+   <text y="157.864" x="76.236,82.343,86.174,91.723,97.464,102.332,108.40759999999999,111.426,114.739,120.217,123.184,128.803,133.5838,136.557,145.53,151.657,156.169,161.94580000000002,164.969,167.926,173.007,176.838,182.488,187.356,191.34,194.256,197.64,202.721,208.828,214.935,218.776,224.325,229.568,232.525,241.498,246.579,249.892,254.759,257.717,263.2946,266.252,271.333,276.414,281.394,284.381,290.295,299.268,302.652,305.142,309.867,316.096,322.011,326.7918,329.764,335.384,340.464,343.422,346.379,349.763,358.735,361.693,364.65,367.607,372.474,378.5496,381.569,385.878,390.959,399.932,406.039,408.996,413.7768,416.749,420.133,425.468,430.549,433.8358,436.819,442.926,448.475,452.783,457.092,461.96,466.268,470.577,475.444,479.6272,482.649,488.197,491.48380000000003,494.467,498.776,507.749,512.83,515.787" svgx:width="0.6,0.4,0.55,0.56,0.48,0.61,0.55,0.33,0.55,0.55,0.55,0.48,0.55,0.88,0.6,0.44,0.58,0.55,0.29,0.5,0.4,0.56,0.48,0.4,0.55,0.33,0.5,0.6,0.6,0.4,0.55,0.52,0.29,0.88,0.5,0.33,0.48,0.29,0.56,0.55,0.5,0.5,0.5,0.55,0.58,0.88,0.33,0.25,0.55,0.61,0.58,0.48,0.55,0.55,0.5,0.29,0.29,0.33,0.88,0.29,0.29,0.29,0.48,0.61,0.55,0.42,0.5,0.88,0.6,0.29,0.48,0.55,0.33,0.52,0.5,0.33,0.55,0.6,0.55,0.42,0.42,0.48,0.42,0.42,0.48,0.42,0.55,0.55,0.33,0.55,0.42,0.88,0.5,0.29,0.29" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">proved to be much larger (approximately 250 nm). The ball-milled sample (S2) possesses of small</text>
+   <text y="171.373" x="76.535,82.744,85.701,90.01,94.521,98.353,103.22,106.533,111.3138,114.032,120.14,125.22,129.234,132.547,135.504,140.016,142.973,147.841,152.0242,154.781,159.862,163.703,169.252,175.379,181.294,187.36960000000002,190.134,195.215,200.195,202.928,208.842,217.60680000000002,220.447" svgx:width="0.61,0.29,0.42,0.44,0.4,0.48,0.33,0.48,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.42,0.55,0.5,0.4,0.55,0.6,0.58,0.61,0.55,0.5,0.5,0.55,0.58,0.88,0.55,0.33" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">discrete particles around 29 nm (</text>
+   <text y="171.373" x="223.827,230.625" svgx:width="0.67,0.29" style="fill:rgb(0,0,0);font-family:Rpxr;font-size:9.96px;stroke:none;">+/</text>
+   <text y="171.373" x="233.541" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Pxsy;font-size:9.96px;stroke:none;">−</text>
+   <text y="171.373" x="242.838,247.81799999999998,250.551,256.465,265.438,268.7248,271.454,274.411,280.1878,282.957,287.266,290.223,295.304,300.0848,302.803,307.884,313.798,319.8736,322.639,328.259,331.216,336.866,342.516,347.383,351.36699999999996,354.029,360.136,365.217,369.231,372.544,375.501,380.013,382.97,387.7508,390.469,395.55,401.2,406.85,409.807,415.356,424.329,429.196,433.21,438.291,441.604,446.471,450.6542,453.412,458.493,464.6,470.707,474.538,480.087,485.33,488.287,497.26,502.341,505.654,510.521,513.479" svgx:width="0.5,0.55,0.58,0.88,0.33,0.55,0.29,0.58,0.55,0.42,0.29,0.5,0.48,0.55,0.5,0.58,0.61,0.55,0.55,0.29,0.56,0.56,0.48,0.4,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.55,0.5,0.56,0.56,0.29,0.55,0.88,0.48,0.4,0.5,0.33,0.48,0.42,0.55,0.5,0.6,0.6,0.4,0.55,0.52,0.29,0.88,0.5,0.33,0.48,0.29,0.56" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">6 nm) in size and bigger particle agglomerates approximately</text>
+   <text y="184.882" x="76.535,81.616,86.697,91.677,95.009,100.923,109.68780000000001,113.128,116.085,121.86179999999999,125.231,129.539,132.496,137.577,142.445,144.935,150.706,156.041,161.122,170.095,176.202,179.16,183.9408,187.259,192.594,197.57399999999998,200.906,205.418,210.966,216.88,221.189,224.146,228.455,231.767,236.635,242.7106,246.075,251.624,254.9108,258.239,261.196,265.21,269.041,273.909,279.559,285.686,288.643,293.724,297.70799999999997,300.97,307.077,312.158,316.172,319.485,322.442,326.953,329.911,334.778,338.9612,342.318,345.702,350.214,353.5008,356.84,365.315,368.272,371.584,377.3608,380.73,385.71000000000004,389.042,392.0,397.548,400.83480000000003,404.092,409.641,412.92780000000005,416.256,421.123,430.096,436.204,439.516,445.09360000000004,448.398,452.707,458.814,463.895,468.407,473.274,477.4572,480.814,486.434,491.301,494.614,503.089,507.957,512.824" svgx:width="0.5,0.5,0.5,0.55,0.58,0.88,0.55,0.29,0.58,0.55,0.42,0.29,0.5,0.48,0.25,0.55,0.52,0.5,0.88,0.6,0.29,0.48,0.55,0.52,0.5,0.55,0.44,0.55,0.58,0.42,0.29,0.42,0.33,0.48,0.61,0.55,0.55,0.33,0.55,0.29,0.4,0.4,0.48,0.56,0.6,0.29,0.5,0.4,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.42,0.55,0.33,0.44,0.33,0.55,0.83,0.29,0.33,0.58,0.55,0.5,0.55,0.29,0.55,0.33,0.55,0.55,0.33,0.55,0.48,0.88,0.6,0.33,0.56,0.55,0.42,0.6,0.5,0.44,0.48,0.42,0.55,0.55,0.48,0.33,0.83,0.48,0.48,0.58" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">200 nm in size. Sample S3 consisted of irregular particles (c) with a lot of empty spaces between</text>
+   <text y="198.392" x="76.236,82.218,87.194,91.125,94.37,97.266,101.685,104.581,109.348,113.568,116.05799999999999,118.545,126.845,132.638,135.534,139.953,145.7298,148.243,151.14,156.932,163.013,165.909,170.328,175.305,178.549,183.316,189.3916,191.886,195.13,200.923,205.7038,208.188,214.17,219.604,223.356,228.79,234.791,238.9742,241.5,247.292,252.268,255.513,261.514,265.266,270.0468,272.522,277.956,281.24280000000005,283.768,287.988,292.965,301.753,307.734,310.631,315.41179999999997,317.886,323.111,328.087,330.577,334.069,340.17,345.962,350.7428,353.228,359.209,364.186,368.107,371.352,374.248,378.667,381.563,386.3438,388.828,393.048,395.945,400.921,405.7018,408.176,413.61,416.89680000000004,419.423,425.454,430.43,435.407,440.383,442.871,447.851,450.336,456.128,467.414" svgx:width="0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.42,0.25,0.55,0.83,0.58,0.29,0.44,0.58,0.55,0.29,0.58,0.61,0.29,0.44,0.5,0.33,0.48,0.61,0.55,0.33,0.58,0.48,0.55,0.6,0.55,0.4,0.55,0.6,0.42,0.55,0.58,0.5,0.33,0.6,0.4,0.48,0.55,0.55,0.33,0.55,0.42,0.5,0.88,0.6,0.29,0.48,0.55,0.52,0.5,0.25,0.55,0.61,0.58,0.48,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.55,0.42,0.29,0.5,0.48,0.55,0.55,0.33,0.55,0.61,0.5,0.5,0.5,0.25,0.5,0.55,0.58,0.88,0.33" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">particles, which indicated the porous nature of sample S3. The particle size of ~106.2 nm(</text>
+   <text y="198.392" x="470.725,477.383" svgx:width="0.67,0.29" style="fill:rgb(0,0,0);font-family:Rpxr;font-size:9.96px;stroke:none;">+/</text>
+   <text y="198.392" x="480.239" svgx:width="0.67" style="fill:rgb(0,0,0);font-family:Pxsy;font-size:9.96px;stroke:none;">−</text>
+   <text y="198.392" x="489.397,494.373,499.353,501.838,507.63,516.418" svgx:width="0.5,0.5,0.55,0.58,0.88,0.33" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">18 nm)</text>
+   <text y="211.901" x="76.535,81.516,87.315,93.39059999999999,95.892,101.88,106.861,110.796,114.044,116.943,121.367,124.266,129.04680000000002,131.529,136.51,142.049,147.588,150.487,155.927,164.724,169.496,173.431,178.413,181.66,186.4408,188.923,193.147,196.046,201.028,205.8088,208.29,213.73,217.0168,219.538,224.519,230.507,236.494,240.25,245.69,250.831,253.73,262.527,267.508,270.756,275.528,278.427,284.00460000000004,286.457,291.438,296.419,301.399,303.891,309.69,320.977,329.286,334.058,337.814,342.5948,345.077,353.874,358.646,363.627,367.851,373.859,377.615,382.387,388.4626,390.965,394.282,398.706,402.023" svgx:width="0.5,0.58,0.61,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.55,0.5,0.56,0.56,0.29,0.55,0.88,0.48,0.4,0.5,0.33,0.48,0.55,0.42,0.29,0.5,0.48,0.55,0.55,0.33,0.55,0.5,0.6,0.6,0.4,0.55,0.52,0.29,0.88,0.5,0.33,0.48,0.29,0.56,0.55,0.5,0.5,0.5,0.55,0.58,0.88,0.83,0.48,0.4,0.48,0.55,0.88,0.48,0.5,0.42,0.6,0.4,0.48,0.61,0.55,0.33,0.44,0.33,0.25" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:9.96px;stroke:none;">and particle agglomerate size of approximately 500 nmwere measured (c).</text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="146.858,152.183,154.712,156.313,158.515,160.795,163.924,165.526,167.727,169.843" svgx:width="0.94,0.44,0.28,0.39,0.41,0.56,0.28,0.39,0.39,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Italic;font-size:5.66px;stroke:none;">Molecules </text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="171.266,174.056,176.845,179.714" svgx:width="0.5,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:5.66px;stroke:none;">2020</text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="182.499,183.931" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="185.286" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Italic;font-size:5.66px;stroke:none;">2</text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="188.158" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Italic;font-size:5.66px;stroke:none;">5</text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="190.945,192.376,193.729" svgx:width="0.25,0.25,0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">, x</text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="196.603" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="441.867" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">4</text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="444.739" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="446.174,449.219,451.08" svgx:width="0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">of </text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="452.509,455.298" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">18</text>
+  </g>
+  <g begin="text">
+   <text y="91.317" x="458.083" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="610.645" x="146.858" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="108.969" x="146.858,151.078,154.45,157.233,159.595,163.479,166.262,172.43,175.893,179.952,183.071,186.443,189.401,191.1535,194.631,200.463,203.835,206.618,209.99,211.7425,215.219,217.329,221.465,225.355,228.727,231.763,234.048,236.158,240.048,243.511,245.796,249.168,253.472,255.2245,258.702,262.585,266.476,268.2285,271.705,274.825,278.715,281.835,283.945,286.055,289.174,290.9265,294.403,298.294,302.177,304.287,306.573,310.036,316.204,322.373,325.745,328.03,330.813,334.704,336.4565,339.933,343.48,347.539,351.843,353.5955,357.072,361.04,364.503,366.613,370.58,374.043,378.102,381.986,384.944,387.306,390.769,393.054,395.164,398.284,400.0365,403.513,406.633,410.691,414.154,416.937,420.828" svgx:width="0.6,0.48,0.4,0.33,0.55,0.4,0.88,0.5,0.58,0.44,0.48,0.42,0.25,0.55,0.83,0.48,0.4,0.48,0.25,0.55,0.29,0.58,0.56,0.48,0.42,0.33,0.29,0.56,0.5,0.33,0.48,0.61,0.25,0.55,0.55,0.56,0.25,0.55,0.44,0.56,0.44,0.29,0.29,0.44,0.25,0.55,0.56,0.55,0.29,0.33,0.5,0.88,0.88,0.48,0.33,0.4,0.56,0.25,0.55,0.5,0.58,0.61,0.25,0.55,0.56,0.5,0.29,0.56,0.5,0.58,0.55,0.42,0.33,0.5,0.33,0.29,0.44,0.25,0.55,0.44,0.58,0.5,0.4,0.56,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">performances were investigated by cyclic voltammetry and galvanostatic charge</text>
+  </g>
+  <g begin="text">
+   <text y="108.969" x="424.3" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">–</text>
+  </g>
+  <g begin="text">
+   <text y="108.969" x="427.847,432.151,434.261,437.219,440.339,444.398,447.861,450.728,454.618" svgx:width="0.61,0.29,0.42,0.44,0.58,0.5,0.4,0.56,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">discharge</text>
+  </g>
+  <g begin="text">
+   <text y="108.969" x="458.083" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="118.428" x="146.858,153.027,156.399,159.861,162.897,167.124,169.907,173.279,179.447,182.903,186.962,189.247" svgx:width="0.88,0.48,0.5,0.42,0.6,0.4,0.48,0.88,0.48,0.58,0.33,0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">measurements</text>
+  </g>
+  <g begin="text">
+   <text y="118.428" x="192.212" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">.</text>
+  </g>
+  <g begin="text">
+   <text y="118.428" x="194.07" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="136.333" x="146.858" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:7.01px;stroke:none;">2</text>
+  </g>
+  <g begin="text">
+   <text y="136.333" x="150.405,152.179" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:7.01px;stroke:none;">. </text>
+  </g>
+  <g begin="text">
+   <text y="136.333" x="153.952,158.937,162.484,165.603,169.907,172.269,174.632" svgx:width="0.71,0.5,0.44,0.61,0.33,0.33,0.44" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:7.01px;stroke:none;">Results</text>
+  </g>
+  <g begin="text">
+   <text y="136.333" x="177.769" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="136.333" x="179.458,183.006,187.31,191.614" svgx:width="0.5,0.61,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:7.01px;stroke:none;">and </text>
+  </g>
+  <g begin="text">
+   <text y="136.333" x="193.394,199.219,201.582,204.701,207.82,212.125,215.244,218.363,220.726,224.616,228.92" svgx:width="0.83,0.33,0.44,0.44,0.61,0.44,0.44,0.33,0.56,0.61,0.44" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:7.01px;stroke:none;">Discussions</text>
+  </g>
+  <g begin="text">
+   <text y="136.333" x="231.991" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="161.807,165.697,167.807,171.698,175.925,178.708,182.08" svgx:width="0.56,0.29,0.56,0.6,0.4,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">Figure </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="184.526" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">3</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="188.073" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="190.522,193.481,197.539,201.423,207.255,210.213" svgx:width="0.42,0.58,0.55,0.83,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">shows </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="212.65" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">T</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="216.958,221.262,227.928,229.6805,230.375,232.485,238.653,242.116,246.084,249.456,252.414,254.16649999999998,254.86,258.744,261.106,262.8585,263.553,267.773,271.656,277.488,281.793,285.164,287.947,289.6995,290.394,293.352,296.815,302.984,307.204,309.314" svgx:width="0.61,0.95,0.25,0.55,0.29,0.88,0.5,0.56,0.48,0.42,0.25,0.55,0.55,0.33,0.25,0.55,0.6,0.55,0.83,0.61,0.48,0.4,0.25,0.55,0.42,0.5,0.88,0.6,0.29,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">EM images of powder sample</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="312.732" svgx:width="0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">s</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="315.688" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="318.137" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="321.853,325.4,327.1525,327.763,330.048,333.511,335.873,337.647" svgx:width="0.5,0.25,0.55,0.33,0.5,0.33,0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1 (a), </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="340.096" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="343.812,347.359,349.1115,349.806,352.168,355.974" svgx:width="0.5,0.25,0.55,0.33,0.55,0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">2 (b)</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="358.339" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">,</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="360.112" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="362.562,366.025,370.083" svgx:width="0.5,0.58,0.61" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">and</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="374.386" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="376.835" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="380.551,384.098,385.8505,386.545,388.907,392.026,394.389,396.162" svgx:width="0.5,0.25,0.55,0.33,0.44,0.33,0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">3 (c). </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="398.625,402.929,406.988,410.36" svgx:width="0.61,0.58,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">The </text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="412.729" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">T</text>
+  </g>
+  <g begin="text">
+   <text y="150.099" x="417.037,421.341,428.007,429.7595,430.454,432.564,438.732,442.195,446.086,449.458,451.2105,451.904,455.788,458.073" svgx:width="0.61,0.95,0.25,0.55,0.29,0.88,0.5,0.56,0.48,0.25,0.55,0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">EM image of </text>
+  </g>
+  <g begin="text">
+   <text y="159.643" x="146.858,149.816,153.363,159.532,163.752,165.862,169.234" svgx:width="0.42,0.5,0.88,0.6,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">sample </text>
+  </g>
+  <g begin="text">
+   <text y="159.643" x="171.604" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="159.643" x="175.32,178.867,180.6195,181.229,184.188,188.246,192.13,197.962" svgx:width="0.5,0.25,0.55,0.42,0.58,0.55,0.83,0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1 shows</text>
+  </g>
+  <g begin="text">
+   <text y="159.643" x="200.911" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="159.643" x="203.275,206.738,210.629,214.519,216.629,220.513,226.682,230.053,232.836,236.299,238.585,241.956,244.915,246.6675,247.277,250.396,254.28,260.449,264.669,268.552,271.51,274.882,279.186" svgx:width="0.5,0.56,0.56,0.29,0.55,0.88,0.48,0.4,0.5,0.33,0.48,0.42,0.25,0.55,0.44,0.55,0.88,0.6,0.55,0.42,0.48,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">agglomerates composed </text>
+  </g>
+  <g begin="text">
+   <text y="159.643" x="281.567,285.451,287.813,289.5655,290.175,293.638,295.3905,296.001,300.305,304.188,307.651,311.023,315.082,317.36,320.318,326.564,330.027,332.137,334.247,337.619,340.402,342.1545,342.764,346.984,350.447,353.23,355.515,357.625,360.668,362.778,366.149,369.108,370.881" svgx:width="0.55,0.33,0.25,0.55,0.5,0.25,0.55,0.61,0.55,0.5,0.48,0.58,0.25,0.42,0.88,0.5,0.29,0.29,0.48,0.4,0.25,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.42,0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">of a dozen smaller particles. </text>
+  </g>
+  <g begin="text">
+   <text y="159.643" x="373.288,377.592,381.651,385.022,386.7745,387.385,393.553,396.925,400.388" svgx:width="0.61,0.58,0.48,0.25,0.55,0.88,0.48,0.5,0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">The meas</text>
+  </g>
+  <g begin="text">
+   <text y="159.643" x="403.355,407.582,410.365,413.736,418.04,419.7925,420.403,424.623,428.086,430.869,433.154,435.264,438.383,440.493,443.865,445.6175,446.227,449.101,451.211,454.674,458.046" svgx:width="0.6,0.4,0.48,0.61,0.25,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.25,0.55,0.42,0.29,0.5,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">ured particle size </text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="146.858,151.162,153.272,156.23,158.516,161.299,163.409,167.215,171.442,173.727,175.837,179.721,183.779,185.974,189.78,192.142,194.336,197.295,200.758,206.926,211.146,213.256,216.628" svgx:width="0.61,0.29,0.42,0.33,0.4,0.29,0.55,0.6,0.33,0.29,0.55,0.58,0.25,0.55,0.33,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">distribution of sample </text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="218.816" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="222.532" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="225.994" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="228.19,232.081,235.628,239.518,242.89,245.084,247.37,251.428,254.8,256.994,263.163,266.619,270.082,274.141,276.335,280.555,284.018,286.885,289.17,291.28,294.399,296.509,299.804,301.998,304.956,307.066,310.529,313.901,316.011,319.894,322.257" svgx:width="0.56,0.5,0.56,0.48,0.25,0.33,0.58,0.48,0.25,0.88,0.48,0.5,0.58,0.25,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.25,0.42,0.29,0.5,0.48,0.25,0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">gave the mean particle size of </text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="324.387" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">~</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="327.934,331.481,335.028,336.718" svgx:width="0.5,0.5,0.25,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">75.2</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="340.265" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="342.461,346.52" svgx:width="0.58,0.88" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nm</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="352.68" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="354.876,357.238,360.785" svgx:width="0.33,0.5,0.32" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">(+/</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="362.984" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">−</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="366.531" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="368.727,372.19" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">13</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="375.737" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="377.933,381.992,388.16" svgx:width="0.58,0.88,0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nm)</text>
+  </g>
+  <g begin="text">
+   <text y="169.102" x="390.517,392.291,394.485,400.317,404.376,406.486,408.596,411.89,414.084,416.37,420.428,423.8,425.994,428.953,431.063,434.525,437.897,440.091,443.975,446.26,448.454,450.739,454.798,458.093" svgx:width="0.25,0.25,0.83,0.58,0.29,0.29,0.48,0.25,0.33,0.58,0.48,0.25,0.42,0.29,0.5,0.48,0.25,0.55,0.33,0.25,0.33,0.58,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">, while the size of the </text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="146.858,150.321,154.211,158.102,160.212,164.095,170.264,173.636,176.419,179.882,182.167,185.623,186.976,191.196,193.979,197.862,201.753,205.125,209.429,210.782,213.067,216.951,218.388,222.194,225.566,227.003,233.249,237.476,240.595,244.654,246.007,248.117,251.58,254.363,258.253,261.625,264.408" svgx:width="0.5,0.56,0.56,0.29,0.55,0.88,0.48,0.4,0.5,0.33,0.48,0.25,0.6,0.4,0.55,0.56,0.48,0.61,0.25,0.33,0.55,0.25,0.55,0.48,0.25,0.88,0.6,0.44,0.58,0.25,0.29,0.5,0.4,0.56,0.48,0.4,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">agglomerate proved to be much larger </text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="265.774" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">(</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="268.223,271.686,275.906,280.126,282.909,286.792" svgx:width="0.5,0.6,0.6,0.4,0.55,0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">approx</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="290.351,292.461,298.707,302.17,304.455,307.827,309.937" svgx:width="0.29,0.88,0.5,0.33,0.48,0.29,0.56" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">imately</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="313.83" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="315.181,318.728,322.275" svgx:width="0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">250</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="325.823" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="327.174,331.233" svgx:width="0.58,0.88" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nm</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="337.393" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">)</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="339.758" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">.</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="341.532" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="342.883,347.187,351.246,354.618,356.055,359.938,363.401,365.511" svgx:width="0.61,0.58,0.48,0.25,0.55,0.5,0.29,0.29" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">The ball</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="367.629" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="369.994,376.163,378.196,380.306,382.416,385.71,390.014,391.367,394.325,397.788,404.034,408.254,410.364,413.736" svgx:width="0.88,0.29,0.29,0.29,0.48,0.61,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">milled sample </text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="415.094" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">(</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="417.459" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="421.175" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">2</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="424.638" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">)</text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="427.003" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="178.646" x="428.354,432.574,436.457,439.416,442.374,445.746,448.704,451.662,455.034,458.069" svgx:width="0.6,0.55,0.42,0.42,0.48,0.42,0.42,0.48,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">possesses </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="146.858,150.742,153.104,154.8565,156.735,159.693,165.862,169.325,171.435,173.545,175.29749999999999,177.176,181.48,183.59,186.548,189.668,192.451,195.823,198.108" svgx:width="0.55,0.33,0.25,0.55,0.42,0.88,0.5,0.29,0.29,0.25,0.55,0.61,0.29,0.42,0.44,0.4,0.48,0.33,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">of small discrete</text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="201.502" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="205.133,209.353,212.816,215.599,217.885,219.995,223.037,225.147" svgx:width="0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">particle</text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="228.528,231.402,233.15449999999998,235.033,238.496,241.279,245.163,249.39,253.449,257.753" svgx:width="0.42,0.25,0.55,0.5,0.4,0.55,0.6,0.58,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">s around </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="261.382,264.929" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">29</text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="268.476" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="272.108,276.167" svgx:width="0.58,0.88" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nm</text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="282.327" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="285.959,288.321,291.868" svgx:width="0.33,0.5,0.32" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">(+/</text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="294.151" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">−</text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="297.699" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="301.33" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">6</text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="304.877" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="308.509,312.568,318.737" svgx:width="0.58,0.88,0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nm)</text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="321.093" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="324.725,326.835,330.894,332.6465,334.525,337.483,339.593,343.056,346.428" svgx:width="0.29,0.58,0.25,0.55,0.42,0.29,0.5,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">in size </text>
+  </g>
+  <g begin="text">
+   <text y="188.105" x="350.062,353.609,357.668,361.972,363.7245,365.687,369.494,371.604,375.494,379.385,382.756,385.539,387.2915,389.17,393.39,396.938,399.72,402.006,404.116,407.235,409.345,412.717,414.4695,416.348,419.811,423.701,427.592,429.702,433.586,439.754,443.126,445.909,449.372,451.657,455.029,458.064" svgx:width="0.5,0.58,0.61,0.25,0.55,0.55,0.29,0.56,0.56,0.48,0.4,0.25,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.25,0.55,0.5,0.56,0.56,0.29,0.55,0.88,0.48,0.4,0.5,0.33,0.48,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">and bigger particle agglomerates </text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="146.858,150.321,154.541,158.761,161.544,165.427,168.981,171.091,177.337,180.8,183.085,186.457,188.567,192.458" svgx:width="0.5,0.6,0.6,0.4,0.55,0.52,0.29,0.88,0.5,0.33,0.48,0.29,0.56,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">approximately </text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="193.985,197.532,201.079,204.626,206.147,210.206,216.375" svgx:width="0.5,0.5,0.5,0.25,0.58,0.88,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">200 nm </text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="217.887,219.997,224.055,225.576,228.451,230.483,233.946" svgx:width="0.29,0.58,0.25,0.42,0.29,0.5,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">in size</text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="237.312,239.085" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">. </text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="240.606,244.321,247.784,253.952" svgx:width="0.52,0.5,0.88,0.6" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">Samp</text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="258.173,260.283,263.654" svgx:width="0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">le </text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="265.183" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="268.899,272.446" svgx:width="0.5,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">3 </text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="273.966,277.008,280.892,284.951,287.909,290.019,292.977,295.262,298.634,302.938,304.459,308.343,310.628" svgx:width="0.44,0.55,0.58,0.42,0.29,0.42,0.33,0.48,0.61,0.25,0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">consisted of </text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="312.056,314.166,316.872,319.655,323.027,326.917,331.144,333.254,336.717,339.5,341.021,345.241,348.704,351.487,353.772,355.882,359.002,361.112,364.484,367.442" svgx:width="0.29,0.4,0.4,0.48,0.56,0.6,0.29,0.5,0.4,0.25,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">irregular particles </text>
+  </g>
+  <g begin="text">
+   <text y="197.565" x="368.98,371.343,374.462,376.747,378.269,384.101,386.211,388.496,392.555,394.076,397.539,399.06,401.093,404.977,407.262,408.783,412.666,414.952,416.473,419.845,426.013,430.233,432.519,436.409,437.93,440.888,445.108,448.571,451.691,455.063,458.098" svgx:width="0.33,0.44,0.33,0.25,0.83,0.29,0.33,0.58,0.25,0.5,0.25,0.29,0.55,0.33,0.25,0.55,0.33,0.25,0.48,0.88,0.6,0.33,0.56,0.25,0.42,0.6,0.5,0.44,0.48,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">(c) with a lot of empty spaces </text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="146.858,150.664,154.036,156.399,162.231,165.603,168.974,173.033,174.554,178.858,182.321,185.104,187.39,189.5,192.619,194.729,198.101,201.059,202.832,204.354,210.186,214.245,216.355,219.474,223.533,225.054,227.164,231.223,235.527,237.637,240.756,244.219,246.504,249.876,254.18,255.702,257.987,262.046,265.417,266.938,271.158,275.042,277.825,281.708,285.935,288.894" svgx:width="0.55,0.48,0.33,0.83,0.48,0.48,0.58,0.25,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.42,0.25,0.25,0.83,0.58,0.29,0.44,0.58,0.25,0.29,0.58,0.61,0.29,0.44,0.5,0.33,0.48,0.61,0.25,0.33,0.58,0.48,0.25,0.6,0.55,0.4,0.55,0.6,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">between particles, which indicated the porous </text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="290.435,294.494,297.957,300.319,304.546,307.329,310.701,312.222,316.106,318.468,319.989,322.947,326.41,332.579,336.799,338.909,342.281" svgx:width="0.58,0.5,0.33,0.6,0.4,0.48,0.25,0.55,0.33,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nature of sample </text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="343.812" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="347.528,351.075,352.849,354.37,358.674,362.733,366.105" svgx:width="0.5,0.25,0.25,0.61,0.58,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">3. The </text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="367.629,371.849,375.312,378.095,380.38,382.49,385.61,387.72,391.091,392.613,395.571,397.681,401.144,404.516,406.037,409.92,412.283" svgx:width="0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.25,0.42,0.29,0.5,0.48,0.25,0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">particle size of </text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="413.827" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">~</text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="417.374" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1</text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="420.837,424.384,427.931,429.621" svgx:width="0.5,0.5,0.25,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">06.2</text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="433.168" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="434.688,438.747" svgx:width="0.58,0.88" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nm</text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="444.907" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="446.428,448.79,452.337" svgx:width="0.33,0.5,0.32" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">(+/</text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="454.62" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">−</text>
+  </g>
+  <g begin="text">
+   <text y="207.108" x="458.083" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="146.858" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1</text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="150.405" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">8</text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="153.952" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="155.726,159.785,165.954" svgx:width="0.58,0.88,0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nm)</text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="168.31" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="170.084,173.547,177.605,181.91" svgx:width="0.5,0.58,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">and </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="183.681,187.985,191.448,194.231,196.517,198.627,201.746,203.856,207.228" svgx:width="0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">particle </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="209.019,212.481,216.372,220.262,222.372,226.256,232.425,235.797,238.579,242.042,244.328,247.699,249.473,252.431,254.541,258.004,261.376,263.149,267.033,269.395" svgx:width="0.5,0.56,0.56,0.29,0.55,0.88,0.48,0.4,0.5,0.33,0.48,0.25,0.42,0.29,0.5,0.48,0.25,0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">agglomerate size of </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="271.179,274.642,278.862,283.082,285.865,289.748" svgx:width="0.5,0.6,0.6,0.4,0.55,0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">approx</text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="293.307,295.417,301.586,305.048,307.334,310.706,312.815" svgx:width="0.29,0.88,0.5,0.33,0.48,0.29,0.56" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">imately</text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="316.701" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="318.56,322.107,325.654,329.201,330.974,335.033" svgx:width="0.5,0.5,0.5,0.25,0.58,0.88" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">500 nm</text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="341.194" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="342.968,348.8,352.172,354.955" svgx:width="0.83,0.48,0.4,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">were</text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="358.339" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="360.112,366.281,369.653,373.116,376.151,380.378,383.161,386.533,390.837,392.611,394.973,398.092,400.455" svgx:width="0.88,0.48,0.5,0.42,0.6,0.4,0.48,0.61,0.25,0.33,0.44,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">measured (c).</text>
+  </g>
+  <g begin="text">
+   <text y="216.567" x="402.257" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="404.485" x="420.922" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <rect style="stroke:blue;stroke-width:0.3;" x="183.85" y="185.066" height="88.848" width="237.325" title="4"/>
+  <text y="185.066" class="image" id="image.4.1" width="237" height="88" x="183.85">image.4.1.184_421.185_274</text>
+  <rect style="stroke:blue;stroke-width:0.3;" x="183.85" y="273.914" height="88.849" width="237.325" title="4"/>
+  <text y="273.914" class="image" id="image.4.2" width="237" height="88" x="183.85">image.4.2.184_421.274_363</text>
+  <g begin="text">
+   <text y="388.62" x="145.262,150.587,153.116,154.717,156.919,159.199,162.328,163.93,166.131,168.247" svgx:width="0.94,0.44,0.28,0.39,0.41,0.56,0.28,0.39,0.39,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Italic;font-size:5.66px;stroke:none;">Molecules </text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="169.67,172.46,175.249,178.118" svgx:width="0.5,0.5,0.5,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:5.66px;stroke:none;">2020</text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="180.903,182.335" svgx:width="0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">, </text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="183.69" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Italic;font-size:5.66px;stroke:none;">2</text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="186.562" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Italic;font-size:5.66px;stroke:none;">5</text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="189.349,190.78,192.133" svgx:width="0.25,0.25,0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">, x</text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="195.007" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="440.271" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">5</text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="443.143" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="444.578,447.623,449.484" svgx:width="0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">of </text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="450.913,453.702" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;">18</text>
+  </g>
+  <g begin="text">
+   <text y="388.62" x="456.487" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:5.66px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="907.947" x="145.262" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:TimesNewRomanPSMT;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="753.559" x="411.893" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="161.478,165.019,167.128,170.669,174.552,177.003,180.208" svgx:width="0.56,0.33,0.56,0.61,0.39,0.5,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:6.33px;stroke:none;">Figure </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="181.748,184.953" svgx:width="0.5,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:6.33px;stroke:none;">3.</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="186.562" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="188.166" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">T</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="192.051,195.852,201.844,203.447,205.303,210.877,214.006,217.547,220.581,223.279,224.882,228.264,230.374" svgx:width="0.61,0.95,0.25,0.29,0.88,0.5,0.56,0.48,0.42,0.25,0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">EM images of </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="232.0" svgx:width="0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">s</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="234.702,237.907,243.481,247.2,249.056" svgx:width="0.5,0.88,0.6,0.29,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">ample</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="252.1" svgx:width="0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">s</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="254.803" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="256.408" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">(</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="258.519" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:6.33px;stroke:none;">a</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="261.728" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">)</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="263.84" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="265.445,268.656" svgx:width="0.52,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">S1</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="271.863,273.466,275.069" svgx:width="0.25,0.25,0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">, (</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="277.184" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:6.33px;stroke:none;">b</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="281.069" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">)</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="283.096" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="284.701,287.995,291.2" svgx:width="0.52,0.5,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">S2,</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="292.809" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="294.329,297.534,301.246,305.129,306.649" svgx:width="0.5,0.58,0.61,0.25,0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">and (</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="308.771" svgx:width="0.44" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Bold;font-size:6.33px;stroke:none;">c</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="311.558" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">)</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="313.67" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="315.274,318.568,321.773" svgx:width="0.52,0.5,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">S3 </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="323.382,328.697,330.553,332.497,336.209" svgx:width="0.83,0.29,0.33,0.58,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">with </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="337.824,340.612,343.817,345.673,348.46,352.26,354.116,357.321,359.348,362.382,366.265" svgx:width="0.44,0.5,0.29,0.44,0.6,0.29,0.5,0.33,0.48,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">calculated </text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="367.891,371.609,374.815,377.342,379.369,381.225,384.012,385.868,388.902,390.505,393.203,394.977,398.182,401.216,402.818,406.701,408.475,411.173,413.2,415.728,417.501,420.966,424.767,426.794,428.732,432.115" svgx:width="0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.25,0.42,0.29,0.5,0.48,0.25,0.61,0.29,0.42,0.33,0.4,0.29,0.55,0.6,0.33,0.29,0.55,0.58" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">particle size distribution</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="435.879" svgx:width="0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">s</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="438.582" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;">.</text>
+  </g>
+  <g begin="text">
+   <text y="765.045" x="440.187" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:6.33px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="782.781" x="160.211,164.515,168.574,171.946,173.6985,176.25,178.535,182.418,184.704,188.167,190.277,192.02949999999998,194.581,198.471,202.355,204.465,208.692,214.861,218.232,219.9845,222.536,226.083,230.142,234.446" svgx:width="0.61,0.58,0.48,0.25,0.55,0.33,0.55,0.33,0.5,0.29,0.25,0.55,0.56,0.55,0.29,0.6,0.88,0.48,0.25,0.55,0.5,0.58,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">The total volume and </text>
+  </g>
+  <g begin="text">
+   <text y="782.781" x="238.756,241.714,246.018,249.39,252.51,254.62,256.905,259.015,262.134" svgx:width="0.42,0.6,0.48,0.44,0.29,0.33,0.29,0.44,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">specific </text>
+  </g>
+  <g begin="text">
+   <text y="782.781" x="266.458,269.416,273.643,276.426,278.789,282.252,285.371,288.743" svgx:width="0.42,0.6,0.4,0.33,0.5,0.44,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">surface </text>
+  </g>
+  <g begin="text">
+   <text y="782.781" x="293.062,296.525,299.308,302.68,306.143,309.101,310.8535,313.405,317.289,319.651,321.4035,323.955,326.99,330.537,336.706,340.926,343.036,346.408,349.366,351.1185,353.67,359.502,362.874,365.657,369.029,370.7815,373.333,379.502,382.874,386.421,389.379,393.606,396.389,399.761,404.065,405.8175,408.369,412.596,415.631,417.741,421.8,425.69" svgx:width="0.5,0.4,0.48,0.5,0.42,0.25,0.55,0.55,0.33,0.25,0.55,0.42,0.5,0.88,0.6,0.29,0.48,0.42,0.25,0.55,0.83,0.48,0.4,0.48,0.25,0.55,0.88,0.48,0.5,0.42,0.6,0.4,0.48,0.61,0.25,0.55,0.6,0.42,0.29,0.58,0.56,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">areas of samples were measured using </text>
+  </g>
+  <g begin="text">
+   <text y="782.781" x="430.052,434.11,436.22,438.506,441.289,445.172,449.063,452.434,456.493" svgx:width="0.58,0.29,0.33,0.4,0.55,0.56,0.48,0.58,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">nitrogen </text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="145.262,148.725,153.029,155.987,159.871,162.654,166.874,169.159,171.269,175.152,179.211,180.985,182.506,186.396,190.28,193.063,194.584,196.869,200.928" svgx:width="0.5,0.61,0.42,0.55,0.4,0.6,0.33,0.29,0.55,0.58,0.25,0.25,0.56,0.55,0.4,0.25,0.33,0.58,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">adsorption. For the</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="204.298" svgx:width="0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">s</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="207.254" svgx:width="0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">e</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="210.632" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="212.152,215.699,219.835,223.298,225.408,229.298" svgx:width="0.5,0.58,0.5,0.29,0.56,0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">analys</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="232.253,235.625,238.583,240.356,241.878,244.163,248.222,251.593,253.199,256.157,259.704,265.873,270.093,272.203,275.574,278.533,280.054,285.886,289.258,292.041" svgx:width="0.48,0.42,0.25,0.25,0.33,0.58,0.48,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.42,0.25,0.83,0.48,0.4,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">es, the samples were</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="295.427" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="296.947,301.251,304.623,308.591,312.054,315.089,318.047,321.419,325.723" svgx:width="0.61,0.48,0.56,0.5,0.42,0.42,0.48,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">degassed </text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="327.267,330.73,333.015" svgx:width="0.5,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">at </text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="334.531,338.835,340.356,343.903,345.424" svgx:width="0.61,0.25,0.5,0.25,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">T = 2</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="348.973,352.52" svgx:width="0.5,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">50</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="356.067" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="357.587" svgx:width="0.4" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">°</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="360.375" svgx:width="0.71" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">C</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="365.357" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="366.962,370.425,374.484,378.788,380.309,382.671,386.73,390.102,391.623,394.658,398.206,404.374,408.594,410.704,414.076,415.597,418.717,422.775,426.322,432.568,436.375,439.746,442.529,444.051,449.96" svgx:width="0.5,0.58,0.61,0.25,0.33,0.58,0.48,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.25,0.44,0.58,0.5,0.88,0.55,0.48,0.4,0.25,0.83,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">and the sample chamber wa</text>
+  </g>
+  <g begin="text">
+   <text y="792.241" x="453.446,456.482" svgx:width="0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">s </text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="145.262,147.624,149.657,151.767,153.8,157.172,161.476,163.586,169.418,171.528,173.814,177.872,179.982,183.102,186.985,191.044,193.329,196.112,199.996,202.029,204.139,207.51,211.814,213.924,216.034,220.093,223.213,225.996,229.29,235.459,238.831,242.89,245.252,248.21,250.32,254.204,256.566,258.676,262.735,264.845,267.13,269.913,273.796,277.687,281.059,285.118,287.228,290.186,292.548,296.011,298.794,301.079,303.189,307.248,311.138,313.333,316.795,319.081,321.191,323.974,327.345,329.455,332.918,335.204,337.314,341.204,344.576,346.77,350.99,353.773,357.145,360.103,363.061,367.288,370.071,373.443,375.553,379.436,381.799,383.909" svgx:width="0.33,0.29,0.29,0.29,0.48,0.61,0.25,0.83,0.29,0.33,0.58,0.25,0.44,0.55,0.58,0.33,0.4,0.55,0.29,0.29,0.48,0.61,0.25,0.29,0.58,0.44,0.4,0.48,0.88,0.48,0.58,0.33,0.42,0.25,0.55,0.33,0.25,0.58,0.29,0.33,0.4,0.55,0.56,0.48,0.58,0.25,0.42,0.33,0.5,0.4,0.33,0.29,0.58,0.56,0.25,0.5,0.33,0.25,0.4,0.48,0.29,0.5,0.33,0.29,0.56,0.48,0.25,0.6,0.4,0.48,0.42,0.42,0.6,0.4,0.48,0.25,0.55,0.33,0.25,0.6" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">filled with controlled increments of nitrogen starting at relative pressure of p</text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="388.161" svgx:width="0.32" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">/</text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="390.441" svgx:width="0.6" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">p</text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="394.664" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:4.22px;stroke:none;">0</text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="396.776" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="398.971,402.518,404.628" svgx:width="0.5,0.25,0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">= 0</text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="408.177,409.951,413.498,416.961,420.508,422.618,426.081,428.366,430.476" svgx:width="0.25,0.5,0.5,0.5,0.25,0.5,0.33,0.25,0.61" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">.025 at T</text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="434.781" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="801.784" x="436.893,440.44,442.55,446.097,449.644,454.712,456.486" svgx:width="0.5,0.25,0.5,0.5,0.73,0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">= 77K, </text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="145.262,151.094,155.153,158.525,161.308,164.68,166.4325,167.294" svgx:width="0.83,0.58,0.48,0.4,0.48,0.25,0.55,0.6" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">where p</text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="171.528" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:4.22px;stroke:none;">0</text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="173.64" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="176.258,178.368,181.326,183.0785,183.941,186.226,190.285,193.656,195.4085,196.271,199.229,202.692,204.978,209.205,211.988,215.45,217.736,219.846,223.729,227.788,229.5405,230.403,234.37,237.833,242.053,245.937,248.72,250.4725,251.334,255.554,258.337,261.709,264.667,267.625,271.852,274.635,278.007,279.7595,280.622,284.505,286.868,288.6205,289.398,291.431,293.541,297.432,301.659,303.769,308.073,309.8255,310.688" svgx:width="0.29,0.42,0.25,0.55,0.33,0.58,0.48,0.25,0.55,0.42,0.5,0.33,0.6,0.4,0.5,0.33,0.29,0.55,0.58,0.25,0.55,0.56,0.5,0.6,0.55,0.4,0.25,0.55,0.6,0.4,0.48,0.42,0.42,0.6,0.4,0.48,0.25,0.55,0.55,0.33,0.25,0.55,0.29,0.29,0.56,0.6,0.29,0.61,0.25,0.55,0.83" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">is the saturation vapor pressure of liquid N</text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="316.457" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:4.22px;stroke:none;">2</text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="318.568" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="321.186,324.649,326.935,328.6875,329.549,333.096,336.643,341.711,343.485" svgx:width="0.5,0.33,0.25,0.55,0.5,0.5,0.73,0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">at 77K. </text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="346.101,349.992,352.102,355.992,360.219,363.002,366.374" svgx:width="0.56,0.29,0.56,0.6,0.4,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">Figure </text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="368.905" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">6</text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="372.452" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="375.07,378.028,382.087,385.971,391.803,394.761,396.5135,397.376,399.661,403.72,407.091,408.8435,409.706" svgx:width="0.42,0.58,0.55,0.83,0.42,0.25,0.55,0.33,0.58,0.48,0.25,0.55,0.83" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">shows the N</text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="415.525" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:4.22px;stroke:none;">2</text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="417.636" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="420.255,423.718,428.022,430.98,434.863,437.646,441.866,444.152,446.262,450.145" svgx:width="0.5,0.61,0.42,0.55,0.4,0.6,0.33,0.29,0.55,0.58" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">adsorption</text>
+  </g>
+  <g begin="text">
+   <text y="811.244" x="454.206" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="145.262,149.566,152.938" svgx:width="0.61,0.48,0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">des</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="155.904,159.787,162.57,166.79,169.075,171.185,175.069,179.128,181.238,183.348,186.306,190.189,192.475,196.533,199.905,202.688,208.857,211.815,214.009,217.893" svgx:width="0.55,0.4,0.6,0.33,0.29,0.55,0.58,0.25,0.29,0.42,0.55,0.33,0.58,0.48,0.4,0.88,0.42,0.25,0.55,0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">orption isotherms of</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="220.26" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="222.456,224.741,228.8,232.172,234.366,237.324,240.787,246.956,251.176,253.286" svgx:width="0.33,0.58,0.48,0.25,0.42,0.5,0.88,0.6,0.29,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">the sample</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="256.661" svgx:width="0.42" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">s</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="259.617" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="261.813" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="265.529,269.076,270.85" svgx:width="0.5,0.25,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1, </text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="273.046" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="276.762,280.309,281.998,284.192,287.655,291.714,296.018" svgx:width="0.5,0.25,0.25,0.5,0.58,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">2, and </text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="298.214" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="301.93,305.477,307.251,309.445,313.083,316.546,322.715,326.935,329.045,332.416,335.375" svgx:width="0.5,0.25,0.25,0.52,0.5,0.88,0.6,0.29,0.48,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">3. Samples </text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="337.571" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="341.287,344.834,347.028,350.491,354.55,358.854" svgx:width="0.5,0.25,0.5,0.58,0.61,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1 and </text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="361.05" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="820.787" x="364.766,368.313,370.507,373.627,377.09,381.149,383.343,387.149,390.521,392.715,395.918,399.977,403.44,406.307,409.77,412.89,415.175,418.547,421.33,423.44,426.902,430.274,434.578,436.772,440.656,444.546,446.741,449.026,453.085,456.456" svgx:width="0.5,0.25,0.44,0.5,0.58,0.25,0.55,0.48,0.25,0.44,0.58,0.5,0.4,0.5,0.44,0.33,0.48,0.4,0.29,0.5,0.48,0.61,0.25,0.55,0.56,0.25,0.33,0.58,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">3 can be characterized by the </text>
+  </g>
+  <g begin="text">
+   <text y="830.246" x="145.262,151.094,154.641,156.247,158.532,162.422,166.642,170.014,171.619,175.678,179.569,182.604,184.889,188.261,191.044,194.416,197.374,199.484,202.442,204.047,206.157,209.964,213.847,218.067,221.026,222.631,226.514,228.877,230.398,234.618,238.677,242.567,245.525,247.635,250.594,254.477,257.26,261.48,263.765,265.875,269.759,273.817,275.423,277.533,280.491,284.374,286.66,290.718,294.09,296.873,303.042,306.0,307.774,309.379,313.683,317.742,321.114,324.072,327.444,329.049,331.334,335.225,339.445,342.816,345.775,347.38,351.263,353.626,355.231,357.341,361.147,365.031,369.251,372.209,373.814,377.277,380.06,383.432,385.037,388.928,392.3,396.358,399.814,402.597,406.06,408.17,410.28,414.171,415.776,418.138,422.022,426.249,430.308,434.612,436.217,442.049,444.159,446.444" svgx:width="0.83,0.5,0.25,0.33,0.56,0.6,0.48,0.25,0.58,0.56,0.42,0.33,0.48,0.4,0.48,0.42,0.29,0.42,0.25,0.29,0.55,0.55,0.6,0.42,0.25,0.55,0.33,0.25,0.6,0.58,0.56,0.42,0.29,0.42,0.55,0.4,0.6,0.33,0.29,0.55,0.58,0.25,0.29,0.42,0.55,0.33,0.58,0.48,0.4,0.88,0.42,0.25,0.25,0.61,0.58,0.48,0.42,0.48,0.25,0.33,0.56,0.6,0.48,0.42,0.25,0.55,0.33,0.25,0.29,0.55,0.55,0.6,0.42,0.25,0.5,0.4,0.48,0.25,0.56,0.48,0.58,0.48,0.4,0.5,0.29,0.29,0.56,0.25,0.33,0.55,0.6,0.58,0.61,0.25,0.83,0.29,0.33,0.58" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">H4 type hysteresis loops of physisorption isotherms. These types of loops are generally found with</text>
+  </g>
+  <g begin="text">
+   <text y="830.246" x="450.49,452.523" svgx:width="0.29,0.58" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">in</text>
+  </g>
+  <g begin="text">
+   <text y="830.246" x="456.487" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="839.706" x="145.262,151.431,154.894,157.179,160.551,163.334,165.444,168.907,171.017,173.975,176.085,180.305,184.188,187.146,190.105,193.476,196.435,199.393,201.503,205.639,209.529,211.639,215.775,219.238,222.021,224.804,228.687,234.52,236.63,239.588,241.698,243.808,246.093,248.203,252.423,256.307,259.09,262.461,265.42,267.193,269.219,273.102,275.465,277.75,281.122,285.181,287.291,289.401,293.459,295.569,297.855,301.913,305.285,307.395,313.564,315.674,318.793,321.576,325.46,329.603,333.486,336.269,339.641,341.751,344.534,347.906,351.712,353.822,357.706,361.764,363.538,365.648,369.538,373.422,376.205,378.315,381.273,384.736,390.905,395.125,397.235,400.606" svgx:width="0.88,0.5,0.33,0.48,0.4,0.29,0.5,0.29,0.42,0.25,0.6,0.55,0.42,0.42,0.48,0.42,0.42,0.29,0.58,0.56,0.25,0.58,0.5,0.4,0.4,0.55,0.83,0.25,0.42,0.29,0.29,0.33,0.25,0.6,0.55,0.4,0.48,0.42,0.25,0.25,0.55,0.33,0.33,0.48,0.58,0.25,0.29,0.58,0.25,0.33,0.58,0.48,0.25,0.88,0.29,0.44,0.4,0.55,0.6,0.55,0.4,0.48,0.25,0.4,0.48,0.56,0.29,0.55,0.58,0.25,0.25,0.56,0.55,0.4,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">materials possessing narrow slit pores, often in the micropore region. For sample </text>
+  </g>
+  <g begin="text">
+   <text y="839.706" x="402.772" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="839.706" x="406.488,410.035,411.809,413.919,416.204,420.263,423.634,425.744,429.803,433.694,436.652,438.937,442.309,445.092,448.464,451.422,453.532,456.49" svgx:width="0.5,0.25,0.25,0.33,0.58,0.48,0.25,0.58,0.56,0.42,0.33,0.48,0.4,0.48,0.42,0.29,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1, the hysteresis </text>
+  </g>
+  <g begin="text">
+   <text y="849.249" x="145.262,147.372,151.178,155.062,159.282,161.224,164.266,166.376,170.259,173.218,176.589,179.548,181.489,184.952,187.238,189.179,192.642,195.425,199.309,203.536,207.594,211.899,213.84,217.387,219.161,222.624,226.171,228.028" svgx:width="0.29,0.55,0.55,0.6,0.25,0.44,0.29,0.55,0.42,0.48,0.42,0.25,0.5,0.33,0.25,0.5,0.4,0.55,0.6,0.58,0.61,0.25,0.5,0.25,0.5,0.5,0.25,0.6" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">loop closes at around 0.47 p</text>
+  </g>
+  <g begin="text">
+   <text y="849.249" x="232.253" svgx:width="0.32" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">/</text>
+  </g>
+  <g begin="text">
+   <text y="849.249" x="234.533" svgx:width="0.6" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">p</text>
+  </g>
+  <g begin="text">
+   <text y="849.249" x="238.756" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:4.22px;stroke:none;">0</text>
+  </g>
+  <g begin="text">
+   <text y="849.249" x="240.868" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="849.249" x="242.81,248.642,252.701,254.811,257.931,261.989,263.931,266.041,268.999,270.857,272.967,277.026,281.33,283.44,286.559,290.022,292.307,294.417,298.308,301.68,303.621,307.505,309.79,311.732,314.017,318.076,321.448,323.389,326.348" svgx:width="0.83,0.58,0.29,0.44,0.58,0.25,0.29,0.42,0.25,0.29,0.58,0.61,0.29,0.44,0.5,0.33,0.29,0.56,0.48,0.25,0.55,0.33,0.25,0.33,0.58,0.48,0.25,0.42,0.55" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">which is indicative of the so</text>
+  </g>
+  <g begin="text">
+   <text y="849.249" x="330.223" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="849.249" x="332.588,335.708,339.17,341.28,343.39,346.762,350.989,352.931,355.216,358.588,362.647,365.605,367.715,369.748,373.12,375.061,378.02,380.305,383.088,386.46,390.518,394.409,396.694,400.753,402.695,406.066,408.429,410.791,414.163,417.282,419.568,421.341,423.283,425.645,429.704,431.646,434.765,438.649,442.707,444.993,447.776,451.238,454.197,456.482" svgx:width="0.44,0.5,0.29,0.29,0.48,0.61,0.25,0.33,0.48,0.58,0.42,0.29,0.29,0.48,0.25,0.42,0.33,0.4,0.48,0.58,0.56,0.33,0.58,0.25,0.48,0.33,0.33,0.48,0.44,0.33,0.25,0.25,0.34,0.58,0.25,0.44,0.55,0.58,0.33,0.4,0.5,0.42,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">called tensile strength effect. In contrast </text>
+  </g>
+  <g begin="text">
+   <text y="858.708" x="145.262,147.547,151.431,153.036,155.321,159.38,162.752,164.357,168.416,172.306,175.342,177.627,180.999,183.782,187.153,190.112,192.222,195.18,196.785,198.895,202.702,206.585,210.805,212.41,216.294,218.656,220.261,223.22,226.683,232.851,237.071,239.181,242.553" svgx:width="0.33,0.55,0.25,0.33,0.58,0.48,0.25,0.58,0.56,0.42,0.33,0.48,0.4,0.48,0.42,0.29,0.42,0.25,0.29,0.55,0.55,0.6,0.25,0.55,0.33,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">to the hysteresis loop of sample </text>
+  </g>
+  <g begin="text">
+   <text y="858.708" x="244.161" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="858.708" x="247.878,251.425,253.198,254.803,257.089,261.147,264.519,266.124,270.183,274.074,277.032,279.317,282.689,285.472" svgx:width="0.5,0.25,0.25,0.33,0.58,0.48,0.25,0.58,0.56,0.42,0.33,0.48,0.4,0.48" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">1, the hystere</text>
+  </g>
+  <g begin="text">
+   <text y="858.708" x="288.839,291.797,293.907,296.866,298.471,300.581,304.464,308.348,312.491,314.096,317.98,320.342,321.947,324.905,328.368,334.537,338.757,340.867,344.239" svgx:width="0.42,0.29,0.42,0.25,0.29,0.55,0.55,0.6,0.25,0.55,0.33,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">sis loop of sample </text>
+  </g>
+  <g begin="text">
+   <text y="858.708" x="345.848" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="858.708" x="349.564,353.111,354.716,356.826,359.784,361.306,365.189,368.995,371.954,375.325,378.193,382.083,385.63,389.436,391.546,394.918,396.524,398.634,402.692,404.298,406.583,410.642,414.013,415.619,417.729,421.612" svgx:width="0.5,0.25,0.29,0.42,0.25,0.55,0.55,0.42,0.48,0.4,0.56,0.5,0.55,0.29,0.48,0.25,0.29,0.58,0.25,0.33,0.58,0.48,0.25,0.29,0.55,0.83" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">3 is observable in the low</text>
+  </g>
+  <g begin="text">
+   <text y="858.708" x="427.434" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="858.708" x="429.798,434.018,436.801,440.173,443.131,446.089,450.316,453.099,456.471" svgx:width="0.6,0.4,0.48,0.42,0.42,0.6,0.4,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">pressure </text>
+  </g>
+  <g begin="text">
+   <text y="868.252" x="145.262,148.045,151.417,155.307,157.417,161.301" svgx:width="0.4,0.48,0.56,0.29,0.55,0.58" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">region</text>
+  </g>
+  <g begin="text">
+   <text y="868.252" x="165.363" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">,</text>
+  </g>
+  <g begin="text">
+   <text y="868.252" x="167.136" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="868.252" x="168.91,174.742,178.801,180.911,184.031,188.089,189.863,192.982,196.445,200.504,202.277,206.084,209.456,211.229,214.692,216.466,219.585,223.468,227.527,230.485,233.857,237.748,241.975,245.347,249.405,252.525,255.897,257.67,261.554,263.916,265.689,267.722,270.505,273.288,276.66,280.55,283.922,286.705,289.663,291.773,295.58,297.69,301.062,302.835,306.298,310.602,313.56,317.444,320.227,324.447,326.732,328.765,332.648,336.707,338.481,342.364,344.649,346.423,350.482,352.592,354.877,357.583,361.466,365.357,368.729,372.787,374.561,376.671,380.73,382.503,386.646,390.53,393.313,396.684,399.558,401.332,405.215,407.501,409.274,412.737,414.511,417.469,419.579,425.748,427.78,429.89,433.353,436.136,437.91,443.742,445.775,450.079,452.364,456.5" svgx:width="0.83,0.58,0.29,0.44,0.58,0.25,0.44,0.5,0.58,0.25,0.55,0.48,0.25,0.5,0.25,0.44,0.55,0.58,0.42,0.48,0.56,0.6,0.48,0.58,0.44,0.48,0.25,0.55,0.33,0.25,0.29,0.4,0.4,0.48,0.56,0.48,0.4,0.42,0.29,0.55,0.29,0.48,0.25,0.5,0.61,0.42,0.55,0.4,0.6,0.33,0.29,0.55,0.58,0.25,0.55,0.33,0.25,0.58,0.29,0.33,0.4,0.55,0.56,0.48,0.58,0.25,0.29,0.58,0.25,0.6,0.55,0.4,0.48,0.42,0.25,0.55,0.33,0.25,0.5,0.25,0.42,0.29,0.88,0.29,0.29,0.5,0.4,0.25,0.83,0.29,0.61,0.33,0.58,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">which can be a consequence of irreversible adsorption of nitrogen in pores of a similar width </text>
+  </g>
+  <g begin="text">
+   <text y="877.711" x="145.262,148.725,151.683,153.541,155.826,159.885,163.257,165.114,168.577,172.881,175.839,179.723,182.506,186.726,189.011,191.205,195.096,198.468,200.325,206.494,210.377,212.487,215.859,218.979,223.206,225.316,228.61,230.384,234.267,237.05,238.908,241.193,245.252,248.624,250.481,253.601,257.66,261.031,267.2,269.31,272.268,276.152,278.935,283.155,285.44,287.473,291.356,295.415,297.189,301.072,303.434,305.292,307.577,311.636,315.008,316.781,320.244,324.548,327.507,331.39,334.173,338.393,340.678,342.788,346.679,350.051,351.908,358.077,361.961,364.071,367.442,370.562,374.789,376.899,380.271,383.229,385.002,386.86,392.272,396.499,399.87,401.644,403.929,407.813,409.67,411.956,416.014,419.386,421.244,425.464,428.247,431.618,434.577,437.948,442.007,445.127,448.498,450.356" svgx:width="0.5,0.42,0.25,0.33,0.58,0.48,0.25,0.5,0.61,0.42,0.55,0.4,0.6,0.33,0.29,0.56,0.48,0.25,0.88,0.55,0.29,0.48,0.44,0.6,0.29,0.48,0.25,0.55,0.4,0.25,0.33,0.58,0.48,0.25,0.44,0.58,0.48,0.88,0.29,0.42,0.55,0.4,0.6,0.33,0.29,0.55,0.58,0.25,0.55,0.33,0.25,0.33,0.58,0.48,0.25,0.5,0.61,0.42,0.55,0.4,0.6,0.33,0.29,0.56,0.48,0.25,0.88,0.55,0.29,0.48,0.44,0.6,0.29,0.48,0.42,0.25,0.25,0.77,0.6,0.48,0.25,0.33,0.55,0.25,0.33,0.58,0.48,0.25,0.6,0.4,0.48,0.42,0.48,0.58,0.44,0.48,0.25,0.55" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">as the adsorptive molecule or the chemisorption of the adsorptive molecules. Due to the presence o</text>
+  </g>
+  <g begin="text">
+   <text y="877.711" x="454.206,456.492" svgx:width="0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">f </text>
+  </g>
+  <g begin="text">
+   <text y="887.255" x="145.262,147.547,151.606,154.978,157.256,159.366,163.25" svgx:width="0.33,0.58,0.48,0.25,0.29,0.55,0.83" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">the low</text>
+  </g>
+  <g begin="text">
+   <text y="887.255" x="169.079" svgx:width="0.33" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">-</text>
+  </g>
+  <g begin="text">
+   <text y="887.255" x="171.444,175.664,178.447,181.818,184.777,187.735,191.962,194.745,198.117,200.395,204.454,208.344,211.302,213.588,216.959,219.742,223.114,226.072,228.182,231.218,233.496,235.606,239.665,241.943,244.901,248.364,254.533,258.753,260.863,264.234" svgx:width="0.6,0.4,0.48,0.42,0.42,0.6,0.4,0.48,0.25,0.58,0.56,0.42,0.33,0.48,0.4,0.48,0.42,0.29,0.42,0.25,0.29,0.58,0.25,0.42,0.5,0.88,0.6,0.29,0.48,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">pressure hysteresis in sample </text>
+  </g>
+  <g begin="text">
+   <text y="887.255" x="266.543" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="887.255" x="270.259,273.806,275.579,277.857,281.32,285.379,287.657,291.12,294.24,297.359,301.586,304.369,307.916,310.201,313.573,315.851,319.314,323.45,326.913,329.023,332.914,335.872,337.982,340.94,343.218,347.102,349.464,351.742,355.962,359.846,362.629,365.923,367.6755,368.202,371.16,373.27,376.733,380.105,382.383,385.846,389.905,394.209,396.487,400.707,404.59,407.373,410.745,413.023,416.914,420.797,422.907,427.134,433.303,436.675,438.953,441.063,444.021,445.7735,446.3,450.358,454.242,456.443" svgx:width="0.5,0.25,0.25,0.5,0.58,0.25,0.5,0.44,0.44,0.6,0.4,0.5,0.33,0.48,0.25,0.5,0.58,0.5,0.29,0.56,0.42,0.29,0.42,0.25,0.55,0.33,0.25,0.6,0.55,0.4,0.48,0.25,0.55,0.42,0.29,0.5,0.48,0.25,0.5,0.58,0.61,0.25,0.6,0.55,0.4,0.48,0.25,0.56,0.55,0.29,0.6,0.88,0.48,0.25,0.29,0.42,0.25,0.55,0.58,0.55,0.33,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">3, an accurate analysis of pore size and pore volume is not </text>
+  </g>
+  <g begin="text">
+   <text y="896.714" x="145.262,149.482,153.366,156.324,159.282,161.392,165.198,167.308,170.68,172.454,174.2065,175.152,177.515,181.574,183.3265,184.272,187.392,191.275,195.334,197.619,200.402,203.865,206.901,209.186,210.9385,211.885,214.17,218.053,219.8055,220.752,223.037,227.096,230.552,233.51,236.882,238.6345,239.581,241.866,247.698,251.582,253.3345,254.281,257.316,260.779,266.948,271.168,273.278,276.65,279.608" svgx:width="0.6,0.55,0.42,0.42,0.29,0.55,0.29,0.48,0.25,0.25,0.55,0.34,0.58,0.25,0.55,0.44,0.55,0.58,0.33,0.4,0.5,0.42,0.33,0.25,0.55,0.33,0.55,0.25,0.55,0.33,0.58,0.48,0.42,0.48,0.25,0.55,0.33,0.83,0.55,0.25,0.55,0.42,0.5,0.88,0.6,0.29,0.48,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">possible. In contrast to these two samples,</text>
+  </g>
+  <g begin="text">
+   <text y="896.714" x="281.407" svgx:width="0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;"> </text>
+  </g>
+  <g begin="text">
+   <text y="896.714" x="284.11" svgx:width="0.52" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">S</text>
+  </g>
+  <g begin="text">
+   <text y="896.714" x="287.826,291.373,293.1255,294.072,297.443,300.997,305.056,307.25,311.057,313.167,315.452,318.41,320.1625,321.109,324.572,326.3245,327.271,329.633,333.524,337.744,341.115,342.8675,343.814,346.177,348.539,350.2915,351.238,355.458,359.594,363.484,366.442,368.552,371.51,375.394,378.177,382.397,384.682,386.792,390.676,394.734,396.4865,397.433,399.466,402.424,406.308,408.593,412.652,416.024,418.807,424.975,426.749,428.5015,429.448,435.357,439.416,441.526,444.645,448.704,450.4565,451.403,453.513,456.471" svgx:width="0.5,0.25,0.55,0.48,0.52,0.58,0.29,0.55,0.29,0.33,0.42,0.25,0.55,0.5,0.25,0.55,0.33,0.56,0.6,0.48,0.25,0.55,0.34,0.34,0.25,0.55,0.6,0.58,0.56,0.42,0.29,0.42,0.55,0.4,0.6,0.33,0.29,0.55,0.58,0.25,0.55,0.29,0.42,0.55,0.33,0.58,0.48,0.4,0.88,0.25,0.25,0.55,0.83,0.58,0.29,0.44,0.58,0.25,0.55,0.29,0.42,0.25" style="fill:rgb(0,0,0);font-family:PalatinoLinotype-Roman;font-size:7.01px;stroke:none;">2 exhibits a type II physisorption isotherm, which is </text>
+  </g>
+  <rect style="stroke:blue;stroke-width:0.3;" x="189.686" y="356.865" height="116.888" width="222.292" title="4"/>
+  <text y="356.865" class="image" id="image.4.3" width="222" height="116" x="189.686">image.4.3.190_412.357_474</text>
+  <rect style="stroke:blue;stroke-width:0.3;" x="189.686" y="473.753" height="116.889" width="222.292" title="4"/>
+  <text y="473.753" class="image" id="image.4.4" width="222" height="116" x="189.686">image.4.4.190_412.474_591</text>
+  <rect style="stroke:blue;stroke-width:0.3;" x="189.686" y="590.642" height="116.889" width="222.292" title="4"/>
+  <text y="590.642" class="image" id="image.4.5" width="222" height="116" x="189.686">image.4.5.190_412.591_708</text>
+  <g begin="text">
+   <text y="760.802" x="99.904,104.889,107.875,112.86,118.339,121.827,126.312,128.552,133.035" svgx:width="0.56,0.33,0.56,0.61,0.39,0.5,0.55,0.5,0.25" style="fill:rgb(0,0,0);font-family:URWPalladioL-Bold;font-size:8.97px;stroke:none;">Figure 3.</text>
+   <text y="760.802" x="138.415,143.911,149.39,160.114,162.723,170.64,175.123,180.109,184.404,188.1714,190.447,195.343,198.3031,200.57,204.372,208.855,216.772,222.161,224.77,229.065,232.8324,235.109" svgx:width="0.61,0.61,0.95,0.29,0.88,0.5,0.56,0.48,0.42,0.55,0.55,0.33,0.55,0.42,0.5,0.88,0.6,0.29,0.48,0.42,0.55,0.33" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:8.97px;stroke:none;">TEMimages of samples (</text>
+   <text y="760.802" x="238.093" svgx:width="0.5" style="fill:rgb(0,0,0);font-family:URWPalladioL-Bold;font-size:8.97px;stroke:none;">a</text>
+   <text y="760.802" x="242.576,245.5361,247.803,252.511,256.994,259.23650000000004,261.477" svgx:width="0.33,0.55,0.52,0.5,0.25,0.55,0.33" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:8.97px;stroke:none;">) S1, (</text>
+   <text y="760.802" x="264.463" svgx:width="0.61" style="fill:rgb(0,0,0);font-family:URWPalladioL-Bold;font-size:8.97px;stroke:none;">b</text>
+   <text y="760.802" x="269.941,272.9011,275.168,279.876,284.359,286.6015,288.842,293.325,298.544,304.0157,306.264" svgx:width="0.33,0.55,0.52,0.5,0.25,0.55,0.5,0.58,0.61,0.55,0.33" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:8.97px;stroke:none;">) S2, and (</text>
+   <text y="760.802" x="309.25" svgx:width="0.44" style="fill:rgb(0,0,0);font-family:URWPalladioL-Bold;font-size:8.97px;stroke:none;">c</text>
+   <text y="760.802" x="313.231,316.1911,318.458,323.166,327.651,329.891,337.369,339.978,342.901,348.10360000000003,350.361,354.342,358.825,361.434,365.415,370.822,373.431,377.915,380.838,385.133,390.6047,392.853,398.241,402.725,406.266,409.189,411.799,415.78,418.389,422.69460000000004,424.925,428.727,431.336,435.82,440.1256,442.356,447.835,450.444,454.246,457.169,460.71,463.32,468.278,473.685,476.608,479.217,484.113,489.331,493.133" svgx:width="0.33,0.55,0.52,0.5,0.55,0.83,0.29,0.33,0.58,0.55,0.44,0.5,0.29,0.44,0.6,0.29,0.5,0.33,0.48,0.61,0.55,0.6,0.5,0.4,0.33,0.29,0.44,0.29,0.48,0.55,0.42,0.29,0.5,0.48,0.55,0.61,0.29,0.42,0.33,0.4,0.29,0.55,0.6,0.33,0.29,0.55,0.58,0.42,0.25" style="fill:rgb(0,0,0);font-family:URWPalladioL-Roma;font-size:8.97px;stroke:none;">) S3 with calculated particle size distributions.</text>
+  </g>
+ </g>
+</svg>

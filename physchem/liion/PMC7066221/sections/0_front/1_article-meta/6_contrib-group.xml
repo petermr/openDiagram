@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="au1">
+  <name>
+   <surname>Zhong</surname>
+   <given-names>Yijun</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">1</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au2">
+  <name>
+   <surname>Xu</surname>
+   <given-names>Xiaomin</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">1</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au3">
+  <name>
+   <surname>Veder</surname>
+   <given-names>Jean-Pierre</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">2</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au4">
+  <name>
+   <surname>Shao</surname>
+   <given-names>Zongping</given-names>
+  </name>
+  <email>zongping.shao@curtin.edu.au</email>
+  <xref rid="aff1" ref-type="aff">1</xref>
+  <xref rid="aff3" ref-type="aff">3</xref>
+  <xref rid="fn1" ref-type="fn">4</xref>
+  <xref rid="cor1" ref-type="corresp">∗</xref>
+ </contrib>
+</contrib-group>

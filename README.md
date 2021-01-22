@@ -16,4 +16,12 @@ Among the subjects I have successfully extracted semantic data from:
 
 Many of these have common semantic diagrammatic abstractions and AMI builds these up using heuristics.
 
-## 
+## preprocessing with ami
+see PREPROCESS.md
+
+### creation of project
+
+```
+`
+
+

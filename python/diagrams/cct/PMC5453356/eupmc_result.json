@@ -1,0 +1,423 @@
+{
+  "id": [
+    "28788587"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28788587"
+  ],
+  "pmcid": [
+    "PMC5453356"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC5453356"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ma7042631"
+  ],
+  "title": [
+    "Isothermal Time-Temperature-Precipitation Diagram for an Aluminum Alloy 6005A by <i>In Situ</i> DSC Experiments."
+  ],
+  "authorString": [
+    "Milkereit B, Giersberg L, Kessler O, Schick C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Milkereit B"
+          ],
+          "firstName": [
+            "Benjamin"
+          ],
+          "lastName": [
+            "Milkereit"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4896-623X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Mechanical Engineering and Marine Technology, Chair of Materials Science, University of Rostock, Rostock 18051, Germany. benjamin.milkereit@uni-rostock.de."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Polymer Physics Group, Institute of Physics, University of Rostock, Rostock 18051, Germany. benjamin.milkereit@uni-rostock.de."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Giersberg L"
+          ],
+          "firstName": [
+            "Lydia"
+          ],
+          "lastName": [
+            "Giersberg"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Mechanical Engineering and Marine Technology, Chair of Materials Science, University of Rostock, Rostock 18051, Germany. christoph.schick@uni-rostock.de."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Polymer Physics Group, Institute of Physics, University of Rostock, Rostock 18051, Germany. christoph.schick@uni-rostock.de."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kessler O"
+          ],
+          "firstName": [
+            "Olaf"
+          ],
+          "lastName": [
+            "Kessler"
+          ],
+          "initials": [
+            "O"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1087-4137",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Mechanical Engineering and Marine Technology, Chair of Materials Science, University of Rostock, Rostock 18051, Germany. olaf.kessler@uni-rostock.de."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Interdisciplinary Faculty, University of Rostock, Rostock 18051, Germany. olaf.kessler@uni-rostock.de."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Schick C"
+          ],
+          "firstName": [
+            "Christoph"
+          ],
+          "lastName": [
+            "Schick"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6736-5491",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Polymer Physics Group, Institute of Physics, University of Rostock, Rostock 18051, Germany. christoph.schick@uni-rostock.de."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Interdisciplinary Faculty, University of Rostock, Rostock 18051, Germany. christoph.schick@uni-rostock.de."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6736-5491",
+          "$": {
+            "type": "orcid"
+          }
+        },
+        {
+          "_": "0000-0002-1087-4137",
+          "$": {
+            "type": "orcid"
+          }
+        },
+        {
+          "_": "0000-0002-4896-623x",
+          "$": {
+            "type": "orcid"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2585590"
+      ],
+      "dateOfPublication": [
+        "2014 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2014"
+      ],
+      "printPublicationDate": [
+        "2014-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Materials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "NLMid": [
+            "101555929"
+          ],
+          "ISSN": [
+            "1996-1944"
+          ],
+          "ESSN": [
+            "1996-1944"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2014"
+  ],
+  "pageInfo": [
+    "2631-2649"
+  ],
+  "abstractText": [
+    "Time-temperature-precipitation (TTP) diagrams deliver important material data, such as temperature and time ranges critical for precipitation during the quenching step of the age hardening procedure. Although the quenching step is continuous, isothermal TTP diagrams are often applied. Together with a so-called Quench Factor Analysis, they can be used to describe very different cooling paths. Typically, these diagrams are constructed based on mechanical properties or microstructures after an interrupted quenching, <i>i.e</i>., <i>ex situ</i> analyses. In recent years, an <i>in situ</i> calorimetric method to record continuous cooling precipitation diagrams of aluminum alloys has been developed to the application level by our group. This method has now been transferred to isothermal experiments, in which the whole heat treatment cycle was performed in a differential scanning calorimeter. The Al-Mg-Si-wrought alloy 6005A was investigated. Solution annealing at 540 °C and overcritical quenching to several temperatures between 450 °C and 250 °C were followed by isothermal soaking. Based on the heat flow curves during isothermal soaking, TTP diagrams were determined. An appropriate evaluation method has been developed. It was found that three different precipitation reactions in characteristic temperature intervals exist. Some of the low temperature reactions are not accessible in continuous cooling experiments and require isothermal studies."
+  ],
+  "affiliation": [
+    "Faculty of Mechanical Engineering and Marine Technology, Chair of Materials Science, University of Rostock, Rostock 18051, Germany. benjamin.milkereit@uni-rostock.de."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Differential Scanning Calorimetry (Dsc)",
+        "Aluminum Alloy 6005A",
+        "Isothermal Time-temperature-precipitation Diagram",
+        "Ttp Diagram"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ma7042631"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5453356"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5453356?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-10"
+  ],
+  "firstIndexDate": [
+    "2017-08-09"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-10"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2014-03-28"
+  ],
+  "firstPublicationDate": [
+    "2014-03-28"
+  ]
+}

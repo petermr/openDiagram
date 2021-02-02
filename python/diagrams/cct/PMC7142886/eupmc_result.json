@@ -1,0 +1,308 @@
+{
+  "id": [
+    "32183195"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32183195"
+  ],
+  "pmcid": [
+    "PMC7142886"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7142886"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ma13061312"
+  ],
+  "title": [
+    "Assessment of the Effect of Laser Welding on the Properties and Structure of TMCP Steel Butt Joints."
+  ],
+  "authorString": [
+    "Górka J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Górka J"
+          ],
+          "firstName": [
+            "Jacek"
+          ],
+          "lastName": [
+            "Górka"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7838-3636",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Welding Engineering, Silesian University of Technology, Konarskiego 18A, 44-100 Gliwice, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7838-3636",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2924181"
+      ],
+      "dateOfPublication": [
+        "2020 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Materials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "NLMid": [
+            "101555929"
+          ],
+          "ISSN": [
+            "1996-1944"
+          ],
+          "ESSN": [
+            "1996-1944"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "abstractText": [
+    "The research work and related tests aimed to identify the effect of filler metal-free laser beam welding on the structure and properties of butt joints made of steel 700MC subjected to the TMCP (thermo-mechanically controlled processed) process. The tests involved 10-mm thick welded joints and a welding linear energy of 4 kJ/mm and 5 kJ/mm. The inert gas shielded welding process was performed in the flat position (PA) and horizontal position (PC). Non-destructive testing enabled classification of the tested welded joints as representing the quality level B in accordance with the requirements set out in standard 13919-1. Destructive tests revealed that the tensile strength of the joints was 5% lower than S700MC steel. The results of tensile tests and changes in structure were referred to joints made using the MAG (Metal Active Gas) method. The tests of thin films performed using a high-resolution scanning transmission electron microscope revealed that, during laser beam welding, an increase in dilution was accompanied by an increase in the content of alloying microadditions titanium and niobium, particularly in the fusion area. A significant content of hardening phases in the welded joint during cooling led to significant precipitation hardening by fine-dispersive (Ti,Nb)(C,N) type precipitates being of several nanometres in size, which, in turn, resulted in the reduction of plastic properties. An increase in the concentration of elements responsible for steel hardening, i.e., Ti and Nb, also contributed to reducing the weld toughness below the acceptable value, which amounts to 25 J/cm2. In cases of S700MC, the analysis of the phase transformation of austenite exposed to welding thermal cycles and the value of carbon equivalent cannot be the only factors taken into consideration when assessing weldability."
+  ],
+  "affiliation": [
+    "Department of Welding Engineering, Silesian University of Technology, Konarskiego 18A, 44-100 Gliwice, Poland."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "This research work has been funded by the research Rector's pro-quality grant, 2019; Silesian University of Technology in Gliwice."
+          ],
+          "agency": [
+            "Silesian University of Technology"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Laser beam",
+        "Mag",
+        "Weldability",
+        "S700mc Tmcp Steel",
+        "Thermo-mechanically Controlled Processed"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ma13061312"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7142886"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7142886?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-03-19"
+  ],
+  "firstIndexDate": [
+    "2020-03-19"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-12"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2020-03-13"
+  ],
+  "firstPublicationDate": [
+    "2020-03-13"
+  ]
+}

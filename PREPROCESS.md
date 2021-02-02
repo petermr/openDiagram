@@ -246,4 +246,255 @@ Verify:
     └── log.xml
 
 ```
+
+(base) pm286macbook:luke pm286$ ami --inputname=raw --output=rawoctree -p papers20210121/ image --octree 8 --outputfiles="octree"
+
+Generic values (AMIImageTool)
+================================
+
+Specific values (AMIImageTool)
+================================
+AMIImageTool cTree: physrevb.94.125203_1_
+ >>>>> imageDirs: 5
+T: 714077/W: 670163/NW: 43914
+*****OK...physrevb.94.125203_1_//image.2.1.71_275.60_228
+physrevb.94.125203_1_//image.2.1.71_275.60_228
+transforming: image.2.1.71_275.60_228/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.2.1.71_275.60_228/images.html
+T: 998865/W: 856315/NW: 142550
+*****OK...physrevb.94.125203_1_//image.3.1.65_281.450_692
+physrevb.94.125203_1_//image.3.1.65_281.450_692
+transforming: image.3.1.65_281.450_692/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.3.1.65_281.450_692/images.html
+T: 923400/W: 820632/NW: 102768
+*****OK...physrevb.94.125203_1_//image.4.1.65_281.60_306
+physrevb.94.125203_1_//image.4.1.65_281.60_306
+transforming: image.4.1.65_281.60_306/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.4.1.65_281.60_306/images.html
+T: 1039200/W: 986444/NW: 52756
+*****OK...physrevb.94.125203_1_//image.4.2.340_532.61_372
+physrevb.94.125203_1_//image.4.2.340_532.61_372
+transforming: image.4.2.340_532.61_372/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.4.2.340_532.61_372/images.html
+T: 436560/W: 408924/NW: 27636
+*****OK...physrevb.94.125203_1_//image.4.3.313_558.611_714
+physrevb.94.125203_1_//image.4.3.313_558.611_714
+transforming: image.4.3.313_558.611_714/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.4.3.313_558.611_714/images.html
+AMIImageTool cTree: physrevb.96.161201_1_
+ >>>>> imageDirs: 1
+T: 4526/W: 3322/NW: 1204
+*****OK...physrevb.96.161201_1_//image.2.1.230_247.198_212
+physrevb.96.161201_1_//image.2.1.230_247.198_212
+transforming: image.2.1.230_247.198_212/raw.png
+htmlFile papers20210121/physrevb.96.161201_1_/pdfimages/image.2.1.230_247.198_212/images.html
+AMIImageTool cTree: physrevlett.117.046602_1_
+ >>>>> imageDirs: 2
+T: 583656/W: 581219/NW: 2437
+*****OK...physrevlett.117.046602_1_//image.4.1.332_543.55_214
+physrevlett.117.046602_1_//image.4.1.332_543.55_214
+transforming: image.4.1.332_543.55_214/raw.png
+htmlFile papers20210121/physrevlett.117.046602_1_/pdfimages/image.4.1.332_543.55_214/images.html
+T: 6220/W: 6220/NW: 0
+*****OK...physrevlett.117.046602_1_//image.5.1.137_212.303_308
+physrevlett.117.046602_1_//image.5.1.137_212.303_308
+transforming: image.5.1.137_212.303_308/raw.png
+htmlFile papers20210121/physrevlett.117.046602_1_/pdfimages/image.5.1.137_212.303_308/images.html
+AMIImageTool cTree: physrevlett.125.045701_1_
+ >>>>> imageDirs: 4
+T: 2637078/W: 2066786/NW: 570292
+*****OK...physrevlett.125.045701_1_//image.2.1.56_556.335_639
+physrevlett.125.045701_1_//image.2.1.56_556.335_639
+transforming: image.2.1.56_556.335_639/raw.png
+htmlFile papers20210121/physrevlett.125.045701_1_/pdfimages/image.2.1.56_556.335_639/images.html
+T: 759276/W: 740096/NW: 19180
+*****OK...physrevlett.125.045701_1_//image.4.1.328_548.462_661
+physrevlett.125.045701_1_//image.4.1.328_548.462_661
+transforming: image.4.1.328_548.462_661/raw.png
+htmlFile papers20210121/physrevlett.125.045701_1_/pdfimages/image.4.1.328_548.462_661/images.html
+T: 1176000/W: 1159939/NW: 16061
+*****OK...physrevlett.125.045701_1_//image.4.2.55_295.55_337
+physrevlett.125.045701_1_//image.4.2.55_295.55_337
+transforming: image.4.2.55_295.55_337/raw.png
+htmlFile papers20210121/physrevlett.125.045701_1_/pdfimages/image.4.2.55_295.55_337/images.html
+T: 6220/W: 6220/NW: 0
+*****OK...physrevlett.125.045701_1_//image.5.1.400_475.474_478
+physrevlett.125.045701_1_//image.5.1.400_475.474_478
+transforming: image.5.1.400_475.474_478/raw.png
+htmlFile papers20210121/physrevlett.125.045701_1_/pdfimages/image.5.1.400_475.474_478/images.html
+AMIImageTool cTree: physrevlett.125.085902_1_
+ >>>>> imageDirs: 4
+T: 2026938/W: 1259519/NW: 767419
+*****OK...physrevlett.125.085902_1_//image.2.1.316_559.55_325
+physrevlett.125.085902_1_//image.2.1.316_559.55_325
+transforming: image.2.1.316_559.55_325/raw.png
+htmlFile papers20210121/physrevlett.125.085902_1_/pdfimages/image.2.1.316_559.55_325/images.html
+T: 1727544/W: 1674677/NW: 52867
+*****OK...physrevlett.125.085902_1_//image.3.1.52_297.398_628
+physrevlett.125.085902_1_//image.3.1.52_297.398_628
+transforming: image.3.1.52_297.398_628/raw.png
+htmlFile papers20210121/physrevlett.125.085902_1_/pdfimages/image.3.1.52_297.398_628/images.html
+T: 1628550/W: 1590728/NW: 37822
+*****OK...physrevlett.125.085902_1_//image.4.1.55_558.527_650
+physrevlett.125.085902_1_//image.4.1.55_558.527_650
+transforming: image.4.1.55_558.527_650/raw.png
+htmlFile papers20210121/physrevlett.125.085902_1_/pdfimages/image.4.1.55_558.527_650/images.html
+T: 5909/W: 5909/NW: 0
+*****OK...physrevlett.125.085902_1_//image.5.1.400_475.642_646
+physrevlett.125.085902_1_//image.5.1.400_475.642_646
+transforming: image.5.1.400_475.642_646/raw.png
+htmlFile papers20210121/physrevlett.125.085902_1_/pdfimages/image.5.1.400_475.642_646/images.html
+AMIImageTool cTree: physrevmaterials.4.054002
+ >>>>> imageDirs: 5
+T: 3248/W: 3248/NW: 0
+*****OK...physrevmaterials.4.054002//image.1.1.114_128.247_260
+physrevmaterials.4.054002//image.1.1.114_128.247_260
+transforming: image.1.1.114_128.247_260/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.1.1.114_128.247_260/images.html
+T: 1780680/W: 1178570/NW: 602110
+*****OK...physrevmaterials.4.054002//image.2.1.54_555.60_264
+physrevmaterials.4.054002//image.2.1.54_555.60_264
+transforming: image.2.1.54_555.60_264/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.2.1.54_555.60_264/images.html
+T: 1298700/W: 1260778/NW: 37922
+*****OK...physrevmaterials.4.054002//image.3.1.65_281.60_406
+physrevmaterials.4.054002//image.3.1.65_281.60_406
+transforming: image.3.1.65_281.60_406/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.3.1.65_281.60_406/images.html
+T: 915600/W: 876590/NW: 39010
+*****OK...physrevmaterials.4.054002//image.3.2.328_544.60_239
+physrevmaterials.4.054002//image.3.2.328_544.60_239
+transforming: image.3.2.328_544.60_239/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.3.2.328_544.60_239/images.html
+T: 868350/W: 793871/NW: 74479
+*****OK...physrevmaterials.4.054002//image.4.1.328_544.60_230
+physrevmaterials.4.054002//image.4.1.328_544.60_230
+transforming: image.4.1.328_544.60_230/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.4.1.328_544.60_230/images.html
+(base) pm286macbook:luke pm286$ ami --inputname=raw --output=rawoctree -p papers20210121/ image --octree 8 --outputfiles="channels"
+
+Generic values (AMIImageTool)
+================================
+
+Specific values (AMIImageTool)
+================================
+AMIImageTool cTree: physrevb.94.125203_1_
+ >>>>> imageDirs: 5
+T: 714077/W: 670163/NW: 43914
+*****OK...physrevb.94.125203_1_//image.2.1.71_275.60_228
+physrevb.94.125203_1_//image.2.1.71_275.60_228
+transforming: image.2.1.71_275.60_228/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.2.1.71_275.60_228/images.html
+T: 998865/W: 856315/NW: 142550
+*****OK...physrevb.94.125203_1_//image.3.1.65_281.450_692
+physrevb.94.125203_1_//image.3.1.65_281.450_692
+transforming: image.3.1.65_281.450_692/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.3.1.65_281.450_692/images.html
+T: 923400/W: 820632/NW: 102768
+*****OK...physrevb.94.125203_1_//image.4.1.65_281.60_306
+physrevb.94.125203_1_//image.4.1.65_281.60_306
+transforming: image.4.1.65_281.60_306/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.4.1.65_281.60_306/images.html
+T: 1039200/W: 986444/NW: 52756
+*****OK...physrevb.94.125203_1_//image.4.2.340_532.61_372
+physrevb.94.125203_1_//image.4.2.340_532.61_372
+transforming: image.4.2.340_532.61_372/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.4.2.340_532.61_372/images.html
+T: 436560/W: 408924/NW: 27636
+*****OK...physrevb.94.125203_1_//image.4.3.313_558.611_714
+physrevb.94.125203_1_//image.4.3.313_558.611_714
+transforming: image.4.3.313_558.611_714/raw.png
+htmlFile papers20210121/physrevb.94.125203_1_/pdfimages/image.4.3.313_558.611_714/images.html
+AMIImageTool cTree: physrevb.96.161201_1_
+ >>>>> imageDirs: 1
+T: 4526/W: 3322/NW: 1204
+*****OK...physrevb.96.161201_1_//image.2.1.230_247.198_212
+physrevb.96.161201_1_//image.2.1.230_247.198_212
+transforming: image.2.1.230_247.198_212/raw.png
+htmlFile papers20210121/physrevb.96.161201_1_/pdfimages/image.2.1.230_247.198_212/images.html
+AMIImageTool cTree: physrevlett.117.046602_1_
+ >>>>> imageDirs: 2
+T: 583656/W: 581219/NW: 2437
+*****OK...physrevlett.117.046602_1_//image.4.1.332_543.55_214
+physrevlett.117.046602_1_//image.4.1.332_543.55_214
+transforming: image.4.1.332_543.55_214/raw.png
+htmlFile papers20210121/physrevlett.117.046602_1_/pdfimages/image.4.1.332_543.55_214/images.html
+T: 6220/W: 6220/NW: 0
+*****OK...physrevlett.117.046602_1_//image.5.1.137_212.303_308
+physrevlett.117.046602_1_//image.5.1.137_212.303_308
+transforming: image.5.1.137_212.303_308/raw.png
+htmlFile papers20210121/physrevlett.117.046602_1_/pdfimages/image.5.1.137_212.303_308/images.html
+AMIImageTool cTree: physrevlett.125.045701_1_
+ >>>>> imageDirs: 4
+T: 2637078/W: 2066786/NW: 570292
+*****OK...physrevlett.125.045701_1_//image.2.1.56_556.335_639
+physrevlett.125.045701_1_//image.2.1.56_556.335_639
+transforming: image.2.1.56_556.335_639/raw.png
+htmlFile papers20210121/physrevlett.125.045701_1_/pdfimages/image.2.1.56_556.335_639/images.html
+T: 759276/W: 740096/NW: 19180
+*****OK...physrevlett.125.045701_1_//image.4.1.328_548.462_661
+physrevlett.125.045701_1_//image.4.1.328_548.462_661
+transforming: image.4.1.328_548.462_661/raw.png
+htmlFile papers20210121/physrevlett.125.045701_1_/pdfimages/image.4.1.328_548.462_661/images.html
+T: 1176000/W: 1159939/NW: 16061
+*****OK...physrevlett.125.045701_1_//image.4.2.55_295.55_337
+physrevlett.125.045701_1_//image.4.2.55_295.55_337
+transforming: image.4.2.55_295.55_337/raw.png
+htmlFile papers20210121/physrevlett.125.045701_1_/pdfimages/image.4.2.55_295.55_337/images.html
+T: 6220/W: 6220/NW: 0
+*****OK...physrevlett.125.045701_1_//image.5.1.400_475.474_478
+physrevlett.125.045701_1_//image.5.1.400_475.474_478
+transforming: image.5.1.400_475.474_478/raw.png
+htmlFile papers20210121/physrevlett.125.045701_1_/pdfimages/image.5.1.400_475.474_478/images.html
+AMIImageTool cTree: physrevlett.125.085902_1_
+ >>>>> imageDirs: 4
+T: 2026938/W: 1259519/NW: 767419
+*****OK...physrevlett.125.085902_1_//image.2.1.316_559.55_325
+physrevlett.125.085902_1_//image.2.1.316_559.55_325
+transforming: image.2.1.316_559.55_325/raw.png
+htmlFile papers20210121/physrevlett.125.085902_1_/pdfimages/image.2.1.316_559.55_325/images.html
+T: 1727544/W: 1674677/NW: 52867
+*****OK...physrevlett.125.085902_1_//image.3.1.52_297.398_628
+physrevlett.125.085902_1_//image.3.1.52_297.398_628
+transforming: image.3.1.52_297.398_628/raw.png
+htmlFile papers20210121/physrevlett.125.085902_1_/pdfimages/image.3.1.52_297.398_628/images.html
+T: 1628550/W: 1590728/NW: 37822
+*****OK...physrevlett.125.085902_1_//image.4.1.55_558.527_650
+physrevlett.125.085902_1_//image.4.1.55_558.527_650
+transforming: image.4.1.55_558.527_650/raw.png
+htmlFile papers20210121/physrevlett.125.085902_1_/pdfimages/image.4.1.55_558.527_650/images.html
+T: 5909/W: 5909/NW: 0
+*****OK...physrevlett.125.085902_1_//image.5.1.400_475.642_646
+physrevlett.125.085902_1_//image.5.1.400_475.642_646
+transforming: image.5.1.400_475.642_646/raw.png
+htmlFile papers20210121/physrevlett.125.085902_1_/pdfimages/image.5.1.400_475.642_646/images.html
+AMIImageTool cTree: physrevmaterials.4.054002
+ >>>>> imageDirs: 5
+T: 3248/W: 3248/NW: 0
+*****OK...physrevmaterials.4.054002//image.1.1.114_128.247_260
+physrevmaterials.4.054002//image.1.1.114_128.247_260
+transforming: image.1.1.114_128.247_260/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.1.1.114_128.247_260/images.html
+T: 1780680/W: 1178570/NW: 602110
+*****OK...physrevmaterials.4.054002//image.2.1.54_555.60_264
+physrevmaterials.4.054002//image.2.1.54_555.60_264
+transforming: image.2.1.54_555.60_264/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.2.1.54_555.60_264/images.html
+T: 1298700/W: 1260778/NW: 37922
+*****OK...physrevmaterials.4.054002//image.3.1.65_281.60_406
+physrevmaterials.4.054002//image.3.1.65_281.60_406
+transforming: image.3.1.65_281.60_406/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.3.1.65_281.60_406/images.html
+T: 915600/W: 876590/NW: 39010
+*****OK...physrevmaterials.4.054002//image.3.2.328_544.60_239
+physrevmaterials.4.054002//image.3.2.328_544.60_239
+transforming: image.3.2.328_544.60_239/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.3.2.328_544.60_239/images.html
+T: 868350/W: 793871/NW: 74479
+*****OK...physrevmaterials.4.054002//image.4.1.328_544.60_230
+physrevmaterials.4.054002//image.4.1.328_544.60_230
+transforming: image.4.1.328_544.60_230/raw.png
+htmlFile papers20210121/physrevmaterials.4.054002/pdfimages/image.4.1.328_544.60_230/images.html
+(base) pm286macbook:luke pm286$ 
+
 `

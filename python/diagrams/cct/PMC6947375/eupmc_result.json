@@ -1,0 +1,424 @@
+{
+  "id": [
+    "31835570"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31835570"
+  ],
+  "pmcid": [
+    "PMC6947375"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC6947375"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ma12244136"
+  ],
+  "title": [
+    "Tailoring Strength and Ductility of a Cr-Containing High Carbon Steel by Cold-Working and Annealing."
+  ],
+  "authorString": [
+    "Wang J, Shen Y, Liu Y, Wang F, Jia N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wang J"
+          ],
+          "firstName": [
+            "Jing"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory for Anisotropy and Texture of Materials (Ministry of Education), School of Materials Science and Engineering, Northeastern University, Shenyang 110819, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Shen Y"
+          ],
+          "firstName": [
+            "Yongfeng"
+          ],
+          "lastName": [
+            "Shen"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5366-3906",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory for Anisotropy and Texture of Materials (Ministry of Education), School of Materials Science and Engineering, Northeastern University, Shenyang 110819, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "The State Key Lab of Rolling & Automation, Northeastern University, Shenyang 110819, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu Y"
+          ],
+          "firstName": [
+            "Yan"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Wuxi Tianchen Cold-drawn Steel Co. Ltd., Wuxi 214151, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang F"
+          ],
+          "firstName": [
+            "Fuguo"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Wuxi Tianchen Cold-drawn Steel Co. Ltd., Wuxi 214151, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jia N"
+          ],
+          "firstName": [
+            "Nan"
+          ],
+          "lastName": [
+            "Jia"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory for Anisotropy and Texture of Materials (Ministry of Education), School of Materials Science and Engineering, Northeastern University, Shenyang 110819, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5366-3906",
+          "$": {
+            "type": "orcid"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "24"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2890858"
+      ],
+      "dateOfPublication": [
+        "2019 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Materials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "NLMid": [
+            "101555929"
+          ],
+          "ISSN": [
+            "1996-1944"
+          ],
+          "ESSN": [
+            "1996-1944"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "abstractText": [
+    "SEM, TEM characterizations, in combination with tensile tests, provided an intriguing observation that ultra-high-strength and good ductility could be achieved simultaneously by changing the ratio of large and small precipitates in high-carbon steel (1.0C-1.5Cr-0.31Mn-0.20Si, wt %). The high yield strength of 670 MPa, tensile-stress of 740 MPa, and good ductility (elongation of 26%) were obtained by adopting spheroidization annealing, cold rolling, recrystallization annealing, and cold drawing. This led to nanosized precipitates with a large ratio of big size to the small size of 0.28, promoting high dislocation storage of 1.39 × 1014 m-2. In addition, the finite element (FE) method was used to simulate the cold-rolling process, and the largest stress and strain were 830 MPa and 0.6 at a depth of 3 mm after the fourth pass of the 0.10C-1.50Cr steel, respectively. The stress and strain accumulation in the top layer was potentially caused by severe plastic deformation, as well as attrition rendered by the rollers. This explained the emergence of dense low-angle grain boundaries in the region close to the surface of the cold rolled steel."
+  ],
+  "affiliation": [
+    "Key Laboratory for Anisotropy and Texture of Materials (Ministry of Education), School of Materials Science and Engineering, Northeastern University, Shenyang 110819, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "51574079"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "51922026"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Strength",
+        "Precipitate",
+        "Ductility",
+        "High-carbon Steel",
+        "Cold Drawn"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ma12244136"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6947375"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6947375?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-12-15"
+  ],
+  "firstIndexDate": [
+    "2019-12-15"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-10"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2019-12-10"
+  ],
+  "firstPublicationDate": [
+    "2019-12-10"
+  ]
+}

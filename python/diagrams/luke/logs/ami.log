@@ -1,55 +1,10 @@
-09:23:38.565 INFO  org.contentmine.ami.tools.AMI - args: [-p, papers20210121/, pdfbox]
-09:23:38.583 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
-09:23:38.583 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
-09:23:38.584 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
-09:23:38.584 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/openDiagram/python/diagrams/luke/logs/ami.log)
-09:23:38.709 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2020.08.09_09.54-NEXT-SNAPSHOT
+08:55:21.750 INFO  org.contentmine.ami.tools.AMI - args: [-p, papers20210121, -vv, --inputname, raw, ocr, --help]
+08:55:21.773 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=2, this translates to level=DEBUG
+08:55:21.773 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with DEBUG
+08:55:21.773 INFO  org.contentmine.ami.tools.AMI - (The console will show DEBUG level messages)
+08:55:21.774 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/openDiagram/python/diagrams/luke/logs/ami.log)
+08:55:21.906 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2020.08.09_09.54-NEXT-SNAPSHOT
 (jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2020.08.09_09.54-NEXT-SNAPSHOT.jar)
 JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
 OS: Mac OS X 10.15.7 x86_64
 
-09:23:38.710 WARN  org.contentmine.ami.tools.AbstractAMITool - 
-09:23:38.710 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMIPDFTool)
-09:23:38.710 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
-09:23:38.800 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            /Users/pm286/projects/openDiagram/python/diagrams/luke/papers20210121
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           6 trees [papers20210121/physrevb.94.125203_1_, papers20210
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
-09:23:38.801 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
-09:23:38.801 WARN  org.contentmine.ami.tools.AbstractAMITool - 
-09:23:38.801 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMIPDFTool)
-09:23:38.802 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
-09:23:38.802 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami pdfbox':
-09:23:38.803 INFO  org.contentmine.ami.tools.AbstractAMITool - --debug             : d AMI_BRIEF
-09:23:38.803 INFO  org.contentmine.ami.tools.AbstractAMITool - --imagedir          : d pdfimages/
-09:23:38.803 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxpages          : d         5
-09:23:38.804 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxprimitives     : d      5000
-09:23:38.804 INFO  org.contentmine.ami.tools.AbstractAMITool - --minimagesize      : d   (10,10)
-09:23:38.804 INFO  org.contentmine.ami.tools.AbstractAMITool - --pages             : d      null
-09:23:38.804 INFO  org.contentmine.ami.tools.AbstractAMITool - --parser            : d       two
-09:23:38.804 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-pdfimages      : d      true
-09:23:38.804 INFO  org.contentmine.ami.tools.AbstractAMITool - --pdf2txt           : d     false
-09:23:38.804 INFO  org.contentmine.ami.tools.AbstractAMITool - --svgdir            : d      svg/
-09:23:38.804 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-svgpages       : d      true
-09:23:38.805 INFO  org.contentmine.ami.tools.AbstractAMITool - --tidysvg           : d [concat, spaces]
-09:23:38.805 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
-09:23:38.805 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
-09:23:38.805 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: physrevb.94.125203_1_
-09:23:38.805 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: physrevb.94.125203_1_
-09:23:49.645 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: physrevb.96.161201_1_
-09:23:49.648 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: physrevb.96.161201_1_
-09:24:06.913 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: physrevlett.117.046602_1_
-09:24:06.913 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: physrevlett.117.046602_1_
-09:24:15.486 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: physrevlett.125.045701_1_
-09:24:15.486 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: physrevlett.125.045701_1_
-09:24:19.012 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: physrevlett.125.085902_1_
-09:24:19.012 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: physrevlett.125.085902_1_
-09:24:22.848 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: physrevmaterials.4.054002
-09:24:22.848 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: physrevmaterials.4.054002

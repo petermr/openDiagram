@@ -1,0 +1,374 @@
+{
+  "id": [
+    "32486058"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32486058"
+  ],
+  "pmcid": [
+    "PMC7321209"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7321209"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ma13112491"
+  ],
+  "title": [
+    "Reduction of Energy Input in Wire Arc Additive Manufacturing (WAAM) with Gas Metal Arc Welding (GMAW)."
+  ],
+  "authorString": [
+    "Henckell P, Gierth M, Ali Y, Reimann J, Bergmann JP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Henckell P"
+          ],
+          "firstName": [
+            "Philipp"
+          ],
+          "lastName": [
+            "Henckell"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Production Technology Group, Technische Universität Ilmenau, D-98693 Ilmenau, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gierth M"
+          ],
+          "firstName": [
+            "Maximilian"
+          ],
+          "lastName": [
+            "Gierth"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Production Technology Group, Technische Universität Ilmenau, D-98693 Ilmenau, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ali Y"
+          ],
+          "firstName": [
+            "Yarop"
+          ],
+          "lastName": [
+            "Ali"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Production Technology Group, Technische Universität Ilmenau, D-98693 Ilmenau, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Reimann J"
+          ],
+          "firstName": [
+            "Jan"
+          ],
+          "lastName": [
+            "Reimann"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Production Technology Group, Technische Universität Ilmenau, D-98693 Ilmenau, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Bergmann JP"
+          ],
+          "firstName": [
+            "Jean Pierre"
+          ],
+          "lastName": [
+            "Bergmann"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Production Technology Group, Technische Universität Ilmenau, D-98693 Ilmenau, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "2959738"
+      ],
+      "dateOfPublication": [
+        "2020 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Materials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "NLMid": [
+            "101555929"
+          ],
+          "ISSN": [
+            "1996-1944"
+          ],
+          "ESSN": [
+            "1996-1944"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "abstractText": [
+    "Wire arc additive manufacturing (WAAM) by gas metal arc welding (GMAW) is a suitable option for the production of large volume metal parts. The main challenge is the high and periodic heat input of the arc on the generated layers, which directly affects geometrical features of the layers such as height and width as well as metallurgical properties such as grain size, solidification or material hardness. Therefore, processing with reduced energy input is necessary. This can be implemented with short arc welding regimes and respectively energy reduced welding processes. A highly efficient strategy for further energy reduction is the adjustment of contact tube to work piece distance (CTWD) during the welding process. Based on the current controlled GMAW process an increase of CTWD leads to a reduction of the welding current due to increased resistivity in the extended electrode and constant voltage of the power source. This study shows the results of systematically adjusted CTWD during WAAM of low-alloyed steel. Thereby, an energy reduction of up to 40% could be implemented leading to an adaptation of geometrical and microstructural features of additively manufactured work pieces."
+  ],
+  "affiliation": [
+    "Production Technology Group, Technische Universität Ilmenau, D-98693 Ilmenau, Germany."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Additive Manufacturing",
+        "Gmaw",
+        "Processing Strategy",
+        "Wire Arc Additive Manufacturing",
+        "Waam",
+        "Contact Tip To Work Piece Distance",
+        "Electrical Stickout",
+        "Energy Input Per Unit Length"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ma13112491"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7321209"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7321209?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-06-04"
+  ],
+  "firstIndexDate": [
+    "2020-06-03"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-09"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2020-05-29"
+  ],
+  "firstPublicationDate": [
+    "2020-05-29"
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "id": [
+    "28772779"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "28772779"
+  ],
+  "pmcid": [
+    "PMC5506926"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC5506926"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ma10040420"
+  ],
+  "title": [
+    "Simulation of the Continuous Casting and Cooling Behavior of Metallic Glasses."
+  ],
+  "authorString": [
+    "Pei Z, Ju D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pei Z"
+          ],
+          "firstName": [
+            "Zhipu"
+          ],
+          "lastName": [
+            "Pei"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Graduate School of Saitama Institute of Technology, Fusaiji 1690, Fukaya 369-0293, Japan. peizhipu@gmail.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ju D"
+          ],
+          "firstName": [
+            "Dongying"
+          ],
+          "lastName": [
+            "Ju"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "High-Tech Research Center, Saitama Institute of Technology, Fusaiji 1690, Fukaya 369-0293, Japan. dyju@sit.ac.jp."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "University of Science and Technology Liaoning, Anshan 114051, China. dyju@sit.ac.jp."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2583462"
+      ],
+      "dateOfPublication": [
+        "2017 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Materials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "NLMid": [
+            "101555929"
+          ],
+          "ISSN": [
+            "1996-1944"
+          ],
+          "ESSN": [
+            "1996-1944"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "abstractText": [
+    "The development of melt spinning technique for preparation of metallic glasses was summarized. The limitations as well as restrictions of the melt spinning embodiments were also analyzed. As an improvement and variation of the melt spinning method, the vertical-type twin-roll casting (VTRC) process was discussed. As the thermal history experienced by the casting metals to a great extent determines the qualities of final products, cooling rate in the quenching process is believed to have a significant effect on glass formation. In order to estimate the ability to produce metallic glasses by VTRC method, temperature and flow phenomena of the melt in molten pool were computed, and cooling rates under different casting conditions were calculated with the simulation results. Considering the fluid character during casting process, the material derivative method based on continuum theory was adopted in the cooling rate calculation. Results show that the VTRC process has a good ability in continuous casting metallic glassy ribbons."
+  ],
+  "affiliation": [
+    "Graduate School of Saitama Institute of Technology, Fusaiji 1690, Fukaya 369-0293, Japan. peizhipu@gmail.com."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Simulation",
+        "Metallic Glass",
+        "Critical Cooling Rate",
+        "Twin-roll Casting"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ma10040420"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5506926"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5506926?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2017-08-05"
+  ],
+  "firstIndexDate": [
+    "2017-08-04"
+  ],
+  "fullTextReceivedDate": [
+    "2017-08-01"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-17"
+  ],
+  "firstPublicationDate": [
+    "2017-04-17"
+  ]
+}

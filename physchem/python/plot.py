@@ -39,6 +39,7 @@ DATA = "data"
 debug = True
 
 import matplotlib.pyplot as plt
+
 def xscale(image):
 
     plot_box(BOT_AXIS_TITLE)
@@ -222,7 +223,7 @@ def get_image_and_shape(image):
     return image_array, xmin, xmax, ymin, ymax
 
 def plot_box(title):
-    from python.new.image import make_image_from_xy
+    from python.image_new import make_image_from_xy
     from PIL import Image
 
     image_array = plot_dict.get(IMAGE_ARRAY)

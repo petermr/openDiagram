@@ -116,9 +116,9 @@ class AmiPath:
         # if scheme has sets, expand them
         change = True
         while change:
-            change = self.expand_sets()
+            change = self.expand_set_lists()
 
-    def expand_sets(self):
+    def expand_set_lists(self):
         """expands the sets in a scheme
         note: sets are held as lists in JSON
 
@@ -134,7 +134,7 @@ class AmiPath:
         change = False
         for scheme in self.scheme_list:
             for sect, value in scheme.items():
-                if type(value) == set:
+                if type(value) == list:
                     change = True
                     self.scheme_list.remove(scheme) # delete scheme with set, replace by copies
                     for set_value in value:
@@ -217,43 +217,44 @@ print (TEMPLATES)
 
 def main():
     print("started file_lib")
-    PYDIAG = "../../python/diagrams"
-    CCT = PYDIAG + "/" + "satish/cct"
-    print("PYDIAG", os.path.exists(PYDIAG), "SATISH", os.path.exists(CCT))
-#    globbed_files = AmiPath.create(AmiPath.T_OCTREE, {PROJ: PYDIAG+"/"+"luke/papers20210121"}).get_globbed_files() # Zero?
-#    globbed_files = AmiPath.create(AmiPath.T_SECTIONS, {PROJ: PYDIAG + "/" + "satish/cct"}).get_globbed_files() # Zero?
-#    AmiPath.create(AmiPath.T_PDFIMAGES, {PROJ: "../liion"}).get_globbed_files()
-#    AmiPath.create(AmiPath.T_RESULTS, {PROJ: "../liion"}).get_globbed_files()
-#    AmiPath.create(AmiPath.T_SECTIONS, {PROJ: "../liion", SUBSECT: "*_body*", SUBSUB: "**", FILE: "*p", }).get_globbed_files()
-    # tables
-    globbed_files = AmiPath.create(AmiPath.T_SECTIONS, {PROJ: PYDIAG + "/" + "satish/cct", SUBSECT: "tables", SUBSUB: "**", FILE: "*table*", }).get_globbed_files()
-#    AmiPath.create(AmiPath.T_SVG, {PROJ: "../liion"}).get_globbed_files()
-    print (len(globbed_files), globbed_files[:5])
-    for ami_path in [
-        AmiPath.create("abstract", {PROJ: CCT}),
-        AmiPath.create("acknowledge", {PROJ: CCT}),
-        AmiPath.create("affiliation", {PROJ: CCT}),
-        AmiPath.create("author", {PROJ: CCT}),
-        AmiPath.create("fig_caption", {PROJ: CCT}),
-        AmiPath.create("introduction", {PROJ: CCT}),
-        AmiPath.create("jrnl_title", {PROJ: CCT}),
-        AmiPath.create("keyword", {PROJ: CCT}),
-        AmiPath.create("method", {PROJ: CCT}),
-        AmiPath.create("octree", {PROJ: CCT}),
-        AmiPath.create("pdfimage", {PROJ: CCT}),
-        AmiPath.create("pub_date", {PROJ: CCT}),
-        AmiPath.create("publisher", {PROJ: CCT}),
-        AmiPath.create("reference", {PROJ: CCT}),
-        AmiPath.create("results", {PROJ: CCT}),
-        AmiPath.create("results_discuss", {PROJ: CCT}),
-        AmiPath.create("svg", {PROJ: CCT}),
-        AmiPath.create("table", {PROJ: CCT}),
-        AmiPath.create("title", {PROJ: CCT}),
-        ]:
-        globbed_files = ami_path.get_globbed_files()
-        print (len(globbed_files), globbed_files[:5])
+    test_templates()
 
     print("finished file_lib")
+
+
+def test_templates():
+    PYDIAG = "../../python/diagrams"
+    analyze_sections(PYDIAG + "/" + "luke/papers20210121")  # Zero?
+    analyze_sections(PYDIAG + "/" + "../liion")
+    analyze_sections(PYDIAG + "/" + "satish/cct")
+
+
+def analyze_sections(proj_dir):
+    print("proj dir", os.path.exists(proj_dir))
+    for ami_path in [
+        AmiPath.create("abstract", {PROJ: proj_dir}),
+        AmiPath.create("acknowledge", {PROJ: proj_dir}),
+        AmiPath.create("affiliation", {PROJ: proj_dir}),
+        AmiPath.create("author", {PROJ: proj_dir}),
+        AmiPath.create("fig_caption", {PROJ: proj_dir}),
+        AmiPath.create("introduction", {PROJ: proj_dir}),
+        AmiPath.create("jrnl_title", {PROJ: proj_dir}),
+        AmiPath.create("keyword", {PROJ: proj_dir}),
+        AmiPath.create("method", {PROJ: proj_dir}),
+        AmiPath.create("octree", {PROJ: proj_dir}),
+        AmiPath.create("pdfimage", {PROJ: proj_dir}),
+        AmiPath.create("pub_date", {PROJ: proj_dir}),
+        AmiPath.create("publisher", {PROJ: proj_dir}),
+        AmiPath.create("reference", {PROJ: proj_dir}),
+        AmiPath.create("results", {PROJ: proj_dir}),
+        AmiPath.create("results_discuss", {PROJ: proj_dir}),
+        AmiPath.create("svg", {PROJ: proj_dir}),
+        AmiPath.create("table", {PROJ: proj_dir}),
+        AmiPath.create("title", {PROJ: proj_dir}),
+    ]:
+        globbed_files = ami_path.get_globbed_files()
+        print(len(globbed_files), globbed_files[:5])
+
 
 if __name__ == "__main__":
     print("running file_lib main")
@@ -262,73 +263,4 @@ else:
 #    print("running file_lib main anyway")
 #    main()
     pass
-
-"""
-TEMPLATES = {
-    # rahul/rahul1/pdfimages/image.1.1.533_555.28_51/octree/channel.7b93c8.png
-    AmiPath.T_OCTREE:    AmiPath.OCTREE_D,
-    AmiPath.T_PDFIMAGES: AmiPath.PDFIMAGES_D,
-    AmiPath.T_RESULTS:   AmiPath.RESULTS_D,
-    # invasive / PMC3485296 / results / search / country / results.xml
-    AmiPath.T_SECTIONS:  AmiPath.SECTIONS_D,
-    AmiPath.T_SVG:       AmiPath.SVG_D,
-}
-print(type(TEMPLATES), type(AmiPath.T_OCTREE))
-ff = 'templates.json'
-with open(ff, 'w') as json_file:
-    json.dump(TEMPLATES, json_file, indent=2)
-"""
-
-"""
-    # scheme templates ; these contain default values which are
-    # edited for particular schemes (e.g. PROJ must be edited)
-    OCTREE_D = {
-        PROJ: _REQD,
-        TREE: STAR,
-        SECTS: PDFIMAGES,
-        SUBSECT: IMAGE_STAR,
-        SUBSUB: OCTREE,
-        FILE: CHANNEL_STAR,
-        SUFFIX: S_PNG
-    }
-
-    PDFIMAGES_D = {
-        PROJ: _REQD,
-        TREE: STAR,
-        SECTS: PDFIMAGES,
-        SUBSECT: IMAGE_STAR,
-        SUBSUB: _NULL,
-        FILE: RAW,
-        SUFFIX: S_PNG
-    }
-    RESULTS_D = {
-        PROJ: _REQD,
-        TREE: STAR,
-        SECTS: RESULTS,
-        SUBSECT: [SEARCH, WORD],
-        SUBSUB: STARS,
-        FILE: [RESULTS, EMPTY],
-        SUFFIX: S_XML,
-    }
-    # /Users/pm286/projects/open-battery/    liion/ PMC3776197/ sections/ 1_body/ 5_methods/ 1_synthesis_of_mno_c_nanoco/ 1_p. xml
-    #                                        PROJ     TREE       SECTS     SUBSECT  SUBSUB ...                            FILE SUFFIX
-    SECTIONS_D = {
-        PROJ: _REQD,
-        TREE: STAR,
-        SECTS: SECTIONS,
-        SUBSECT: _REQD,
-        SUBSUB: STARS,
-        FILE: STAR,
-        SUFFIX: S_XML
-    }
-    SVG_D = {
-        PROJ: _REQD,
-        TREE: STAR,
-        SECTS: SVG,
-        SUBSECT: _NULL,
-        SUBSUB: _NULL,
-        FILE: FULLTEXT_PAGE,
-        SUFFIX: S_SVG
-    }
-"""
 

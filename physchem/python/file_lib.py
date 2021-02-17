@@ -198,22 +198,12 @@ class AmiPath:
         return files
 
 
-"""
-import os
-import re
-
-def glob_re(pattern, strings):
-    return filter(re.compile(pattern).match, strings)
-
-filenames = glob_re(r'.*(abc|123|a1b).*\.txt', os.listdir())
 
 
-"""
-ff = 'templates.json'
-with open(ff, 'r') as json_file:
+
+TEMPLATES_JSON = 'templates.json'
+with open(TEMPLATES_JSON, 'r') as json_file:
     TEMPLATES = json.load(json_file)
-
-print (TEMPLATES)
 
 def main():
     print("started file_lib")
@@ -263,4 +253,13 @@ else:
 #    print("running file_lib main anyway")
 #    main()
     pass
+
+## examples of regex for filenames
+import os
+import re
+
+def glob_re(pattern, strings):
+    return filter(re.compile(pattern).match, strings)
+
+filenames = glob_re(r'.*(abc|123|a1b).*\.txt', os.listdir())
 

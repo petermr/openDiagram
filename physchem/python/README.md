@@ -30,4 +30,22 @@ https://github.com/petermr/openDiagram/blob/master/physchem/python/file_lib.py
 This exercises about 20 globs that are useful for scientific papers.
 At this stage just try to run it and report any errors. It's fairly easy to poiunt it at yoiur own project.
 
+## word frequencies
+An example hardcoded into:
+
+https://github.com/petermr/openDiagram/blob/master/physchem/python/text_lib.py
+
+This extracts the content from sections, removes stopwords , and creates a Counter (Multiset) to show the freequencies of words ("word cloud").
+
+## dictionary search
+
+This will apply dictionaries to sections. Not yet written.
+
+https://github.com/petermr/openDiagram/blob/master/physchem/python/search.py
+
+## xml and sections
+
+Will create sections from JATS-XML (replaces `ami section`). Over 50% written.
+
+https://github.com/petermr/openDiagram/blob/master/physchem/python/xml_lib.py
 

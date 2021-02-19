@@ -39,10 +39,15 @@ TAG_REGEXES = {
 PUNCT = "!@#$%^&*+{}[]:;'|<>,.?/~`\"\\"
 
 LIION_PROJ = os.path.abspath(os.path.normpath(os.path.join("../liion")))
+PY_DIAG = "../../python/diagrams"
+
+CCT_PROJ = os.path.abspath(os.path.normpath(os.path.join(PY_DIAG, "satish/cct")))
 
 STOPWORDS_EN = nltk.corpus.stopwords.words("english")
 STOPWORDS_PUB = {
-'figure','permission','reproduced','copyright', 'authors', 'society',"university",'table'}
+'figure','permission','reproduced','copyright', 'authors', 'society',"university",'table',
+    "manuscript", "published", "declare", "conflict", "research", "diagram", "images", "version"
+}
 OIL186 = "/Users/pm286/projects/CEVOpen/searches/oil186" # pmr only
 
 class ProjectCorpus():
@@ -75,10 +80,10 @@ class ProjectCorpus():
         return files
 
     @staticmethod
-    def test():
-        print("start test", LIION_PROJ)
-        assert (os.path.exists(LIION_PROJ))
-        project = ProjectCorpus(LIION_PROJ)
+    def test(project):
+        print("start test", project)
+        assert (os.path.exists(project))
+        project = ProjectCorpus(project)
         project.read_analyze_child_documents()
         print("end test")
 
@@ -257,8 +262,9 @@ class TextUtil():
 
 def main():
     print("started text_lib")
-    ProjectCorpus.test()
-    ProjectCorpus.test_oil()
+    ProjectCorpus.test(CCT_PROJ)
+#    ProjectCorpus.test(LIION_PROJ)
+#    ProjectCorpus.test_oil()
     print("finished text_lib")
 
 if __name__ == "__main__":

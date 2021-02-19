@@ -32,7 +32,7 @@ TERMINAL_COPY = {
     "volume",
 }
 
-TERMINAL_IGNORE = {
+IGNORE_CHILDREN= {
     "disp-formula",
 }
 
@@ -82,45 +82,57 @@ class XmlLib():
     def list_children(self, elem, indent, outdir):
         indent += 1
         tags = Counter()
-        recurse = True
         for i, child in enumerate(list(elem)):
             tags[child.tag] += 1
-            if child.tag in TERMINAL_COPY:
-                print ("TERMINAL COPY", child.tag)
-                XmlLib.copy_xml(child)
-                recurse = False
-            elif child.tag in TERMINAL_IGNORE:
-                print ("TERMINAL IGNORE", child.tag)
-                recurse = False
+            recurse = False
+            child_child_count = len(list(child))
+            if child.tag in TERMINAL_COPY or child_child_count == 0:
+                flag = "T_"
+            elif child.tag in IGNORE_CHILDREN:
+                print ("IGNORE CHILDREN", child.tag)
+                flag = "I_"
             else:
-                pass
+                recurse = True
+                flag = "X_"
 
             title = child.tag
             if child.tag in SEC_TAGS:
                 title = XmlLib.get_sec_title(child)
+                flag = "S_"
                 tags[title] += 1
 
-#            filename = str(tags[title]) + "_" + title
+            if flag == "I_":
+                title = flag + title
+                print("IGNORED", outdir, title)
             filename = str(i) + "_" + title
-            print(" " * indent, filename)
-            if recurse:
+
+            if flag == "T_":
+                xml_string = ElementTree.tostring(child)
+                with open(os.path.join(outdir, filename + '.xml'), "wb") as f:
+                    f.write(xml_string)
+            else:
                 subdir = os.path.join(outdir, filename)
+                FileLib.force_mkdir
                 if not os.path.exists(subdir):
                     os.mkdir(subdir)
-                self.list_children(child, indent, subdir)
+                if recurse:
+                    self.list_children(child, indent, subdir)
 
     @staticmethod
     def get_sec_title(sec):
         child_elems = list(sec)
+        title = None
         for elem in child_elems:
             if elem.tag == "title":
-                title = "@" + elem.text
-            elif sec.text is None:
+                title = elem.text
+                break
+
+        if title is None:
+            if sec.text is None:
                 title = "EMPTY"
             else:
                 title = "?_"+sec.text[:20]
         title = title.replace(" ", "_")
-        print(">>", title)
         return title
 
     @staticmethod

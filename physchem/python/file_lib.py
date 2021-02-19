@@ -239,7 +239,7 @@ def simple_test():
 def analyze_sections(proj_dir):
     print("proj dir", os.path.exists(proj_dir))
     for ami_path in [
-        AmiPath.create("abstract", {PROJ: proj_dir}),
+        AmiPath.create("abstract", {PROJ: proj_dir, FILE: "*background*"}),
         AmiPath.create("acknowledge", {PROJ: proj_dir}),
         AmiPath.create("affiliation", {PROJ: proj_dir}),
         AmiPath.create("author", {PROJ: proj_dir}),

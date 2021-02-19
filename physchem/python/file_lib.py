@@ -8,6 +8,7 @@ class Globber():
         self.cwd = os.getcwd() if cwd is None else cwd
 
     def get_globbed_files(self):
+        """uses the glob_string_list in ami_path to create a file list"""
         files = []
         if self.ami_path:
             glob_list = self.ami_path.get_glob_string_list()
@@ -66,9 +67,10 @@ FULLTEXT_PAGE = "fulltext-page*"
 CHANNEL_STAR = "channel*"
 RAW = "raw"
 
-
-
 class AmiPath:
+    """holds a (keyed) scheme for generating lists of file globs
+    The scheme has several segments which can be set to create a glob expression.
+    """
     # keys for file scheme templates
     T_FIGURES = "fig_captions"
     T_OCTREE = "octree"
@@ -171,18 +173,18 @@ class AmiPath:
             elif _NULL == value:
                 pass
             elif FILE == sect:
-                glob += AmiPath.wrap_value(value)
+                glob += AmiPath.convert_to_glob(value)
             elif STAR in value:
-                glob += AmiPath.wrap_value(value) + "/"
+                glob += AmiPath.convert_to_glob(value) + "/"
             elif SUFFIX == sect:
-                glob += "." + AmiPath.wrap_value(value)
+                glob += "." + AmiPath.convert_to_glob(value)
             else:
-                glob += AmiPath.wrap_value(value) + "/"
+                glob += AmiPath.convert_to_glob(value) + "/"
         print("glob", glob)
         return glob
 
     @staticmethod
-    def wrap_value(value):
+    def convert_to_glob(value):
         valuex = value
         if type(value) == list:
             # tacky. string quotes and add commas and parens
@@ -196,6 +198,13 @@ class AmiPath:
         files = Globber(self).get_globbed_files()
         print("files", len(files))
         return files
+
+class FileLib:
+
+    @staticmethod
+    def force_mkdir(outdir):
+        if not os.path.exists(outdir):
+            os.mkdir(outdir)
 
 
 
@@ -214,9 +223,17 @@ def main():
 
 def test_templates():
     PYDIAG = "../../python/diagrams"
+#    simple_test()
+
+    
     analyze_sections(PYDIAG + "/" + "luke/papers20210121")  # Zero?
     analyze_sections(PYDIAG + "/" + "../liion")
     analyze_sections(PYDIAG + "/" + "satish/cct")
+
+def simple_test():
+    PYDIAG = "../../python/diagrams"
+    globbed_files = AmiPath.create("abstract", {PROJ: PYDIAG + "/" + "../liion"}),
+    print(len(globbed_files), globbed_files[:5])
 
 
 def analyze_sections(proj_dir):

@@ -1,25 +1,32 @@
 import os, glob, copy
-from file_lib import AmiPath
-from text_lib import FileSection
+from file_lib import AmiPath, PROJ
+from text_lib import ProjectCorpus, Document, TerminalPage, Sentence, TextUtil
 
 PYDIAG = "../../python/diagrams"
-
+LIION = "../liion"
 class AmiSearch():
 
     def __init__(self):
         pass
 
-    
+
+class SimpleDict():
+
+    def __init__(self, file=None):
+        if file:
+            with open(file, "r") as f:
+                self.lines = f.read().splitlines()
+        print (self.lines)
+
+
 def main():
     print("started search")
-    project = os.path.join(PYDIAG, "satish/cct")
-    sections_path = AmiPath.create(AmiPath.T_SECTIONS, {"PROJ": "../liion", "SUBSECT": "*_body*", "SUBSUB": "**", "FILE": "*p", })
-    files = sections_path.get_globbed_files()
+    dictionary = SimpleDict("simple_dict.txt")
+    methods = AmiPath.create("method", {PROJ: LIION})
+    files = methods.get_globbed_files()
     for file in files:
         print("file", file)
-#        file_section = FileSection()
-#        file_section.analyze_file_contents(file)
-#    for word in {"steel", "continuous"}
+
 
     print("files", len(files))
     print("finished search")
@@ -31,3 +38,7 @@ else:
 #    print("running search main anyway")
 #    main()
     pass
+
+"""
+https://gist.github.com/benhoyt/dfafeab26d7c02a52ed17b6229f0cb52
+"""

@@ -14,7 +14,7 @@ The search is hierarchical, maybe with back wards loops.
 This is well established and be a keyword search and depends on the repo's engines - very variable. It's likely to contain many false positives. The results are stored as full text , XML and PDF. The XML can be split into sections with `ami section` or `pyamisection` (being written - nearly finished.
 
 ## search for sections
-Use glob-based wildcards to extract only the sections of interest (e.g. abstract, references, methods, results...). see [./file_lib.py]
+Use glob-based wildcards to extract only the sections of interest (e.g. abstract, references, methods, results...). see [./file_lib.py](section search)
 
 ## search content in sections, using dictionaries
 The new code [./search.py] will replaces `ami search`.

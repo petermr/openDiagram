@@ -80,49 +80,38 @@ class XmlLib():
         self.list_children(root, indent, subdir)
 
     def list_children(self, elem, indent, outdir):
-        indent += 1
-        tags = Counter()
+        TERMINAL = "T_"
+        IGNORE = "I_"
         for i, child in enumerate(list(elem)):
-            tags[child.tag] += 1
-            recurse = False
+            flag = ""
             child_child_count = len(list(child))
             if child.tag in TERMINAL_COPY or child_child_count == 0:
-                flag = "T_"
+                flag = TERMINAL
             elif child.tag in IGNORE_CHILDREN:
-                print ("IGNORE CHILDREN", child.tag)
-                flag = "I_"
-            else:
-                recurse = True
-                flag = "X_"
+                flag = IGNORE
 
             title = child.tag
             if child.tag in SEC_TAGS:
                 title = XmlLib.get_sec_title(child)
-                flag = "S_"
-                tags[title] += 1
 
-            if flag == "I_":
+            if flag == IGNORE:
                 title = flag + title
-                print("IGNORED", outdir, title)
             filename = str(i) + "_" + title
 
-            if flag == "T_":
+            if flag == TERMINAL:
                 xml_string = ElementTree.tostring(child)
                 with open(os.path.join(outdir, filename + '.xml'), "wb") as f:
                     f.write(xml_string)
             else:
                 subdir = os.path.join(outdir, filename)
-                FileLib.force_mkdir
-                if not os.path.exists(subdir):
-                    os.mkdir(subdir)
-                if recurse:
+                FileLib.force_mkdir(subdir) # creates empty dir, may be bad idea
+                if flag == "":
                     self.list_children(child, indent, subdir)
 
     @staticmethod
     def get_sec_title(sec):
-        child_elems = list(sec)
         title = None
-        for elem in child_elems:
+        for elem in list(sec):
             if elem.tag == "title":
                 title = elem.text
                 break
@@ -135,16 +124,9 @@ class XmlLib():
         title = title.replace(" ", "_")
         return title
 
-    @staticmethod
-    def copy_xml(child):
-#        print("COPY XML", child.tag)
-        pass
-
     def test(self):
         print("start xml")
         doc = XmlLib("../liion/PMC7077619/fulltext.xml", "../temp/PMC7077619")
-
-
 
 class Section():
 

@@ -7,7 +7,15 @@ LIION = "../liion"
 class AmiSearch():
 
     def __init__(self):
-        pass
+        self.dictionaries = []
+
+    def add_dictionary(self, dictionary):
+        self.dictionaries.append(dictionary)
+
+    def search(self, file):
+        words = get_words(file)
+        for dictionary in self.dictionaries:
+            dictionary.match(words)
 
 
 class SimpleDict():
@@ -21,15 +29,21 @@ class SimpleDict():
 
 def main():
     print("started search")
+    test()
+    print("finished search")
+
+
+def test():
+    ami_search = AmiSearch()
     dictionary = SimpleDict("simple_dict.txt")
+    ami_search.add_dictionary(dictionary)
     methods = AmiPath.create("method", {PROJ: LIION})
     files = methods.get_globbed_files()
     for file in files:
         print("file", file)
-
-
+        ami_search.search(file)
     print("files", len(files))
-    print("finished search")
+
 
 if __name__ == "__main__":
     print("running search main")

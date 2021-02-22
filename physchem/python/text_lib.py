@@ -46,7 +46,12 @@ CCT_PROJ = os.path.abspath(os.path.normpath(os.path.join(PY_DIAG, "satish/cct"))
 STOPWORDS_EN = nltk.corpus.stopwords.words("english")
 STOPWORDS_PUB = {
 'figure','permission','reproduced','copyright', 'authors', 'society',"university",'table',
-    "manuscript", "published", "declare", "conflict", "research", "diagram", "images", "version"
+"manuscript", "published", "declare", "conflict", "research", "diagram", "images", "version",
+"data", "Fig", "different", "time", "min", "experiments", "group", "analysis",
+"study", "activity", "treated", "Extraction", "using", "mean", "work", "file",
+"samples", "performed", "analyzed", "support", "values", "approved", "significant",
+"thank", "interest", "supported",
+
 }
 OIL186 = "/Users/pm286/projects/CEVOpen/searches/oil186" # pmr only
 
@@ -60,16 +65,11 @@ class ProjectCorpus():
     def read_analyze_child_documents(self):
 #        self.files = self.glob_corpus_files()
         self.files = glob.glob(os.path.join(self.cwd, self.tree_glob))
-        print("glob", self.cwd, self.tree_glob, str(len(self.files)), self.files)
+        print("glob", self.cwd, self.tree_glob, str(len(self.files)), self.files[:5])
         for file in self.files:
-            document = Document(file) #level of tree
-            document.create_analyze_sections()
-            words = [w for w in document.words if len(w) > 2]
-            words = [w for w in words if w.lower() not in STOPWORDS_EN ]
-            words = [w for w in words if w.lower() not in STOPWORDS_PUB]
-            words = [w for w in words if not w.isnumeric()]
-
-            self.words.extend(words)
+            c = Counter(TextUtil.get_words_in_file(file))
+            print(file.split("/")[-2:-1], c.most_common(20))
+        self.words = TextUtil.get_aggregate_words_from_files(self.files)
         c = Counter(self.words)
         print("Common", c.most_common(50))
 
@@ -107,18 +107,28 @@ class Document():
         self.sections = None
         self.file = file
         self.words = []
+#        if file is not None and os.path.isfile(file):
+#            self.words = self.get_words_from_terminal_file(file)
+
 
     def create_analyze_sections(self):
         sections_file = os.path.abspath(os.path.join(self.file, "sections"))
         if not os.path.exists(sections_file):
-            print("PLEASE CREATE sections with ami sections, will add pyami later")
+            if not os.path.exists("fulltext.xml"):
+                print("No fulltext.xml, so no sections")
+            else:
+                print("PLEASE CREATE sections with ami sections, will add pyami later")
             return
         terminal_files = glob.glob(os.path.join(sections_file, "**/*.xml"))
         for terminal_file in terminal_files:
-            terminal_page = TerminalPage(terminal_file)
-            terminal_page.analyze_file_contents()
+            terminal_page = TextUtil.get_words_from_terminal_file(terminal_file)
             self.words.extend(terminal_page.get_words())
 
+    @staticmethod
+    def get_words_from_terminal_file(terminal_file):
+        terminal_page = TerminalPage(terminal_file)
+        terminal_page.analyze_file_contents()
+        return terminal_page.words
 
 
 class TerminalPage():
@@ -130,21 +140,29 @@ class TerminalPage():
     def __init__(self, file):
         self.file = file
         self.words = []
+        self.text = None
+        if self.file is not None:
+            self.analyze_file_contents()
 
 
     def analyze_file_contents(self):
-        """read a file as an ami-section of larger document """
-        with open(self.file, "r") as f:
-            self.text = f.read()
-        # assumes this has been chunked to sections
-#        print("t", len(self.text), self.text[:50])
-        self.read_para()
+        if self.text is None:
+            """read a file as an ami-section of larger document """
+            with open(self.file, "r") as f:
+                self.text = f.read()
+            # assumes this has been chunked to sections
+    #        print("t", len(self.text), self.text[:50])
+            self.read_sentences()
+            self.get_words()
 
-    def read_para(self):
+    def read_sentences(self):
         self.text = self.flatten_text(self.text)
         self.sentences = [Sentence(s) for s in (nltk.sent_tokenize(self.text))]
 #        self.sentences = Sentence.merge_false_sentence_breaks(self.sentences)
-        Sentence.write_sentence_file(self.file[:-4] + ".txt", self.sentences)
+        sentence_file = self.file[:-4] + ".txt"
+        if not os.path.exists(sentence_file):
+            Sentence.write_sentence_file(sentence_file, self.sentences)
+
 
     @staticmethod
     def flatten_text(text):
@@ -257,14 +275,36 @@ class TextUtil():
         """
         pattern = r'[^A-Za-z0-9\s]' if not remove_digits else r'[A-Za-z\s]'
         text = re.sub(pattern, '', text)
-        return text
+        return textx
+
+    @staticmethod
+    def get_aggregate_words_from_files(files):
+        all_words = []
+        for file in files:
+            words = TextUtil.get_words_in_file(file)
+            all_words.extend(words)
+        return all_words
+
+    @staticmethod
+    def get_words_in_file(file):
+#        document = Document(file)  # level of tree
+#        words = document.words
+        page = TerminalPage(file)
+        words = page.words
+
+        words = [w for w in words if len(w) > 2]
+        words = [w for w in words if w.lower() not in STOPWORDS_EN]
+        words = [w for w in words if w.lower() not in STOPWORDS_PUB]
+        words = [w for w in words if not w.isnumeric()]
+        return words
+
 
 
 def main():
     print("started text_lib")
-    ProjectCorpus.test(CCT_PROJ)
+#    ProjectCorpus.test(CCT_PROJ)
 #    ProjectCorpus.test(LIION_PROJ)
-#    ProjectCorpus.test_oil()
+    ProjectCorpus.test_oil()
     print("finished text_lib")
 
 if __name__ == "__main__":

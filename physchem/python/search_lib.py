@@ -13,7 +13,7 @@ LIION = "../liion"
 DICT_DIR = os.path.join(HOME, "dictionary")
 OV21_DIR = os.path.join(DICT_DIR, "openVirus20210120")
 CEV_DIR = os.path.join(DICT_DIR, "cevopen")
-OIL186 = os.path.join(HOME, "projects/CEVOpen/searches/oil186")
+OIL186 = os.path.join(HOME, "projects/CEVOpen/searches/oil186") #https://github.com/petermr/CEVOpen
 
 
 class AmiSearch():
@@ -39,6 +39,30 @@ class AmiSearch():
 
         return matches_by_amidict
 
+    def search_with_dictionaries(self, dicts, globlets):
+        for dikt in dicts:
+            search_dictionary = SearchDictionary(dikt)
+            self.add_search_dictionary(search_dictionary)
+        for globlet in globlets:
+            glob_files = globlet.get_globbed_files()
+#            print("found", len(glob_files))
+            self.search_and_count(glob_files)
+
+    def search_and_count(self, section_files):
+        counter = Counter()
+        debug_cnt = 10000
+        max_files = 10000
+        for index, target_file in enumerate(section_files[:max_files]):
+            if index % debug_cnt == 0:
+                print("file", target_file)
+            matches_by_amidict = self.search(target_file)
+#            print("matches", matches_by_amidict)
+            for amidict in matches_by_amidict:
+                matches = matches_by_amidict[amidict]
+                if len(matches) > 0:
+                    for match in matches:
+                        counter[match] += 1
+        print("counter", counter)
 
 
 class SimpleDict():
@@ -70,39 +94,51 @@ class SearchDictionary():
         self.root = self.amidict.getroot()
         self.name = self.root.attrib["title"]
         self.entries = list(self.root.findall("entry"))
+        self.term_set = set()
         print("read dictionary", self.name, "with", len(self.entries), "entries")
 
-    def match(self, target_words):
-        matched = []
-        for target_word in target_words:
+    def get_or_create_term_set(self):
+        if len(self.term_set) == 0:
             for entry in self.entries:
                 if "term" in entry.attrib:
                     term = entry.attrib["term"]
-                    if term.lower() == target_word.lower():
-#                        print(self.name, term, "matched")
-                        matched.append(term)
+                    if not " " in term:
+                        term = term.lower()
+                        self.term_set.add(term) # single word countries
+#            print(len(self.term_set), list(sorted(self.term_set)))
+
+        return self.term_set
+
+    def match(self, target_words):
+        matched = []
+        self.get_or_create_term_set()
+        for target_word in target_words:
+            target_word = target_word.lower()
+            if target_word in self.term_set:
+                matched.append(target_word)
         return matched
 
 
 def test():
     ami_search = AmiSearch()
-    search_dictionary = SearchDictionary(os.path.join(OV21_DIR, "country/country.xml"))
-    ami_search.add_search_dictionary(search_dictionary)
+# dictionaries
+    #    search_dictionary = SearchDictionary(os.path.join(OV21_DIR, "organization/organization.xml"))
+    dicts = [os.path.join(OV21_DIR, "country/country.xml")]
+# section_types
+    section_type = "acknowledge"
+    sects_ack = AmiPath.create(section_type, {PROJ: OIL186})
+    section_type = "affiliation"
+    sects_aff = AmiPath.create(section_type, {PROJ: OIL186})
     section_type = "method"
-#    sections = AmiPath.create(section_type, {PROJ: LIION})
-    sections = AmiPath.create(section_type, {PROJ: OIL186})
-    target_files = sections.get_globbed_files()
-    print("found", len(target_files), section_type, "sections")
-    counter = Counter()
-    for target_file in target_files:
-        matches_by_amidict = ami_search.search(target_file)
-        for amidict in matches_by_amidict:
-            matches = matches_by_amidict[amidict]
-            if len(matches) > 0:
-                for match in matches:
-                    counter[match] += 1
-    print("counter", counter)
+    sects_method = AmiPath.create(section_type, {PROJ: OIL186})
 
+    ami_search.search_with_dictionaries(dicts, [sects_ack, sects_aff, sects_method])
+
+def make_graph(self, dictionary):
+    import matplotlib.pyplot as plt
+    plt.bar(list(dictionary.keys()), dictionary.values(), color='g')
+    plt.show()
+    
 if __name__ == "__main__":
     print("running search main")
     main()

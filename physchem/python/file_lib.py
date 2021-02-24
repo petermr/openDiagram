@@ -67,7 +67,7 @@ FULLTEXT_PAGE = "fulltext-page*"
 CHANNEL_STAR = "channel*"
 RAW = "raw"
 
-class AmiPath:
+class AmiPath():
     """holds a (keyed) scheme for generating lists of file globs
     The scheme has several segments which can be set to create a glob expression.
     """

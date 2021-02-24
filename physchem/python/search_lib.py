@@ -22,13 +22,17 @@ class AmiSearch():
         self.dictionaries = []
         self.word_counter = None
 
+    def make_graph(self, dictionary):
+        import matplotlib.pyplot as plt
+        plt.bar(list(dictionary.keys()), dictionary.values(), color='g')
+        plt.show()
+
     def add_search_dictionary(self, dictionary):
         """adds a SearchDictionary
         """
         if dictionary is None or type(dictionary) != SearchDictionary:
             raise Exception("Search requires a SearchDictionary")
         self.dictionaries.append(dictionary)
-
 
     def search(self, file):
         matches_by_amidict = {}
@@ -40,14 +44,13 @@ class AmiSearch():
         return matches_by_amidict
 
 
-
 class SimpleDict():
 
     def __init__(self, file=None):
         if file:
             with open(file, "r") as f:
                 self.lines = f.read().splitlines()
-        print (self.lines)
+        print(self.lines)
 
 
 def main():
@@ -55,10 +58,12 @@ def main():
     test()
     print("finished search")
 
+
 class SearchDictionary():
     """wrapper for an ami dictionary including search flags
 
     """
+
     def __init__(self, file):
         if not os.path.exists(file):
             raise IOError("cannot find file " + str(file))
@@ -70,7 +75,8 @@ class SearchDictionary():
         self.root = self.amidict.getroot()
         self.name = self.root.attrib["title"]
         self.entries = list(self.root.findall("entry"))
-        print("read dictionary", self.name, "with", len(self.entries), "entries")
+        print("read dictionary", self.name,
+              "with", len(self.entries), "entries")
 
     def match(self, target_words):
         matched = []
@@ -79,14 +85,15 @@ class SearchDictionary():
                 if "term" in entry.attrib:
                     term = entry.attrib["term"]
                     if term.lower() == target_word.lower():
-#                        print(self.name, term, "matched")
+                        #                        print(self.name, term, "matched")
                         matched.append(term)
         return matched
 
 
 def test():
     ami_search = AmiSearch()
-    search_dictionary = SearchDictionary(os.path.join(OV21_DIR, "country/country.xml"))
+    search_dictionary = SearchDictionary(
+        os.path.join(OV21_DIR, "country", "country.xml"))
     ami_search.add_search_dictionary(search_dictionary)
     section_type = "method"
 #    sections = AmiPath.create(section_type, {PROJ: LIION})
@@ -101,14 +108,18 @@ def test():
             if len(matches) > 0:
                 for match in matches:
                     counter[match] += 1
+    ami_search.make_graph(counter)
     print("counter", counter)
+
 
 if __name__ == "__main__":
     print("running search main")
+    import nltk
+    nltk.download('stopwords')
     main()
 else:
-#    print("running search main anyway")
-#    main()
+    #    print("running search main anyway")
+    #    main()
     pass
 
 """

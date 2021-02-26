@@ -13,14 +13,20 @@ LIION = "../liion"
 DICT_DIR = os.path.join(HOME, "dictionary")
 OV21_DIR = os.path.join(DICT_DIR, "openVirus20210120")
 CEV_DIR = os.path.join(DICT_DIR, "cevopen")
+PMR_DIR = os.path.join(DICT_DIR, "pmr")
 OIL186 = os.path.join(HOME, "projects/CEVOpen/searches/oil186") #https://github.com/petermr/CEVOpen
 
 
-class AmiSearch():
+class AmiSearch:
 
     def __init__(self):
         self.dictionaries = []
         self.word_counter = None
+
+    def make_graph(self, dictionary):
+        import matplotlib.pyplot as plt
+        plt.bar(list(dictionary.keys()), dictionary.values(), color='g')
+        plt.show()
 
     def add_search_dictionary(self, dictionary):
         """adds a SearchDictionary
@@ -28,7 +34,6 @@ class AmiSearch():
         if dictionary is None or type(dictionary) != SearchDictionary:
             raise Exception("Search requires a SearchDictionary")
         self.dictionaries.append(dictionary)
-
 
     def search(self, file):
         matches_by_amidict = {}
@@ -53,25 +58,33 @@ class AmiSearch():
         debug_cnt = 10000
         max_files = 10000
         for index, target_file in enumerate(section_files[:max_files]):
+
             if index % debug_cnt == 0:
                 print("file", target_file)
             matches_by_amidict = self.search(target_file)
 #            print("matches", matches_by_amidict)
             for amidict in matches_by_amidict:
+#                print("dict>", amidict)
                 matches = matches_by_amidict[amidict]
                 if len(matches) > 0:
                     for match in matches:
                         counter[match] += 1
+#        counter = self.sortxx(counter)
         print("counter", counter)
+        self.make_graph(counter)
+
+    def sortxx(self, counter):
+        sorted_d = sorted((key, value) for (key, value) in counter.items())
+        return sorted_d
 
 
-class SimpleDict():
+class SimpleDict:
 
     def __init__(self, file=None):
         if file:
             with open(file, "r") as f:
                 self.lines = f.read().splitlines()
-        print (self.lines)
+        print(self.lines)
 
 
 def main():
@@ -79,10 +92,12 @@ def main():
     test()
     print("finished search")
 
-class SearchDictionary():
+
+class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 
     """
+
     def __init__(self, file):
         if not os.path.exists(file):
             raise IOError("cannot find file " + str(file))
@@ -119,11 +134,15 @@ class SearchDictionary():
         return matched
 
 
-def test():
+def test_sect_dicts():
     ami_search = AmiSearch()
 # dictionaries
     #    search_dictionary = SearchDictionary(os.path.join(OV21_DIR, "organization/organization.xml"))
-    dicts = [os.path.join(OV21_DIR, "country/country.xml")]
+    dicts = [
+        os.path.join(OV21_DIR, "country", "country.xml"),
+        os.path.join(CEV_DIR, "compound", "eo_compound.xml"),
+#        os.path.join(OV21_DIR, "country", "country.xml"),
+    ]
 # section_types
     section_type = "acknowledge"
     sects_ack = AmiPath.create(section_type, {PROJ: OIL186})
@@ -134,17 +153,33 @@ def test():
 
     ami_search.search_with_dictionaries(dicts, [sects_ack, sects_aff, sects_method])
 
-def make_graph(self, dictionary):
+def test_sect():
+    ami_search = AmiSearch()
+# section_types
+    section_type = "ethics"
+    sects_method = AmiPath.create(section_type, {PROJ: OIL186})
+
+    dicts = [
+        os.path.join(PMR_DIR, "ethics", "ethics.xml"),
+        ]
+    ami_search.search_with_dictionaries(dicts, [])
+
+
+def make_graph(self, counter):
     import matplotlib.pyplot as plt
-    plt.bar(list(dictionary.keys()), dictionary.values(), color='g')
+    print("counter")
+    plt.bar(list(counter.keys()), counter.values(), color='g')
     plt.show()
-    
+
+
 if __name__ == "__main__":
     print("running search main")
+    import nltk
+    nltk.download('stopwords')
     main()
 else:
-#    print("running search main anyway")
-#    main()
+    #    print("running search main anyway")
+    #    main()
     pass
 
 """

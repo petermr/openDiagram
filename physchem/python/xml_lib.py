@@ -54,7 +54,7 @@ LINK_TAGS = {
 
 
 
-class XmlLib():
+class XmlLib:
 
     def __init__(self, file=None, outdir=None):
         self.file = file
@@ -128,7 +128,7 @@ class XmlLib():
         print("start xml")
         doc = XmlLib("../liion/PMC7077619/fulltext.xml", "../temp/PMC7077619")
 
-class Section():
+class Section:
 
     def __init__(self):
         pass

@@ -1,6 +1,6 @@
 import os, glob, copy, json
 
-class Globber():
+class Globber:
 
     def __init__(self, ami_path, recurse=True, cwd=None):
         self.ami_path = ami_path
@@ -67,7 +67,7 @@ FULLTEXT_PAGE = "fulltext-page*"
 CHANNEL_STAR = "channel*"
 RAW = "raw"
 
-class AmiPath():
+class AmiPath:
     """holds a (keyed) scheme for generating lists of file globs
     The scheme has several segments which can be set to create a glob expression.
     """

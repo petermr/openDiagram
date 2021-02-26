@@ -38,7 +38,17 @@
     "SUBSUB": "*article-meta",
     "FILE": "*contrib-group",
     "SUFFIX": "xml"
-  },  
+  },
+  "ethics": {
+    "_DESC": "ethics statements",
+    "PROJ": "_REQD",
+    "TREE": "*",
+    "SECTS": "sections",
+    "SUBSECT": "**",
+    "SUBSUB": "_NULL",
+    "FILE": "*ethic*",
+    "SUFFIX": "xml"
+  },
   "fig_caption": {
     "_DESC": "captions of figures",
     "PROJ": "_REQD",

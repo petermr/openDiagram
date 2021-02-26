@@ -55,7 +55,7 @@ STOPWORDS_PUB = {
 }
 OIL186 = "/Users/pm286/projects/CEVOpen/searches/oil186" # pmr only
 
-class ProjectCorpus():
+class ProjectCorpus:
 
     def __init__(self, cwd, tree_glob="./*/"):
         self.cwd = cwd
@@ -98,7 +98,7 @@ class ProjectCorpus():
     def __str__(self):
         return " ".join(map(str, self.sentences))
 
-class Document():
+class Document:
     """ a standalone hierarchical document
     level of Tree or below
     may contain a subset of the conventional document"""
@@ -131,7 +131,7 @@ class Document():
         return terminal_page.words
 
 
-class TerminalPage():
+class TerminalPage:
     """the xml sub-document with text
     Currently either <title> or <p>
 
@@ -183,7 +183,7 @@ class TerminalPage():
             self.words.extend(sentence.words)
         return self.words
 
-class Sentence():
+class Sentence:
 
     def __init__(self, string):
         self.string = string
@@ -219,7 +219,7 @@ class Sentence():
     def __str__(self):
         return " ".join(map(str, self.words))
 
-class TextUtil():
+class TextUtil:
 
     @staticmethod
     def strip_xml_tags(text):

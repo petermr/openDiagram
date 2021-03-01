@@ -45,8 +45,8 @@
     "TREE": "*",
     "SECTS": "sections",
     "SUBSECT": "**",
-    "SUBSUB": "_NULL",
-    "FILE": "*ethic*",
+    "SUBSUB": "*ethic*",
+    "FILE": "*",
     "SUFFIX": "xml"
   },
   "fig_caption": {

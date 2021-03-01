@@ -66,12 +66,14 @@ class ProjectCorpus:
 #        self.files = self.glob_corpus_files()
         self.files = glob.glob(os.path.join(self.cwd, self.tree_glob))
         print("glob", self.cwd, self.tree_glob, str(len(self.files)), self.files[:5])
-        for file in self.files:
+        filez = self.files
+        for file in filez:
             c = Counter(TextUtil.get_words_in_file(file))
             print(file.split("/")[-2:-1], c.most_common(20))
-        self.words = TextUtil.get_aggregate_words_from_files(self.files)
-        c = Counter(self.words)
-        print("Common", c.most_common(50))
+        wordz = TextUtil.get_aggregate_words_from_files(filez)
+        cc = Counter(wordz)
+        self.words = wordz
+        print("Common", cc.most_common(50))
 
     def glob_corpus_files(self, glob_path, recurse=True):
         ami_path = AmiPath();
@@ -313,38 +315,8 @@ else:
 #    main()
     pass
 
-"""Print most frequent N-grams in given file.
-Usage: python ngrams.py filename
-Problem description: Build a tool which receives a corpus of text,
-analyses it and reports the top 10 most frequent bigrams, trigrams,
-four-grams (i.e. most frequently occurring two, three and four word
-consecutive combinations).
-NOTES
-=====
-I'm using collections.Counter indexed by n-gram tuple to count the
-frequencies of n-grams, but I could almost as easily have used a
-plain old dict (hash table). In that case I'd use the idiom
-"dct.get(key, 0) + 1" to increment the count, and heapq.nlargest(10)
-or sorted() on the frequency descending instead of the
-counter.most_common() call.
-In terms of performance, it's O(N * M) where N is the number of words
-in the text, and M is the number of lengths of n-grams you're
-counting. In this case we're counting digrams, trigrams, and
-four-grams, so M is 3 and the running time is O(N * 3) = O(N), in
-other words, linear time. There are various micro-optimizations to be
-had, but as you have to read all the words in the text, you can't
-get much better than O(N) for this problem.
-On my laptop, it runs on the text of the King James Bible (4.5MB,
-824k words) in about 3.9 seconds. Full text here:
-https://www.gutenberg.org/ebooks/10.txt.utf-8
-I haven't done the "extra" challenge to aggregate similar bigrams.
-However, what I would do to start with is, after calling
-count_ngrams(), use difflib.SequenceMatcher to determine the
-similarity ratio between the various n-grams in an N^2 fashion. This
-would be quite slow, but a reasonable start for smaller texts.
-This code took me about an hour to write and test. It works on Python
-2.7 as well as Python 3.x.
-"""
+class Ngrams:
+    """Various codes from StackOverflow and similar"""
 
 import collections
 import re
@@ -359,16 +331,16 @@ def tokenize(string):
     return re.findall(r'\w+', string.lower())
 
 
-def count_ngrams(lines, min_length=2, max_length=4):
-    """Iterate through given lines iterator (file object or list of
-    lines) and return n-gram frequencies. The return value is a dict
-    mapping the length of the n-gram to a collections.Counter
-    object of n-gram tuple and number of times that n-gram occurred.
-    Returned dict includes n-grams of length min_length to max_length.
-    """
-    lengths = range(min_length, max_length + 1)
-    ngrams = {length: collections.Counter() for length in lengths}
-    queue = collections.deque(maxlen=max_length)
+    def count_ngrams(lines, min_length=2, max_length=4):
+        """Iterate through given lines iterator (file object or list of
+        lines) and return n-gram frequencies. The return value is a dict
+        mapping the length of the n-gram to a collections.Counter
+        object of n-gram tuple and number of times that n-gram occurred.
+        Returned dict includes n-grams of length min_length to max_length.
+        """
+        lengths = range(min_length, max_length + 1)
+        ngrams = {length: collections.Counter() for length in lengths}
+        queue = collections.deque(maxlen=max_length)
 
     # Helper function to add n-grams at start of current queue to dict
     def add_queue():
@@ -392,23 +364,41 @@ def count_ngrams(lines, min_length=2, max_length=4):
     return ngrams
 
 
-def print_most_frequent(ngrams, num=10):
-    """Print num most common n-grams of each length in n-grams dict."""
-    for n in sorted(ngrams):
-        print('----- {} most common {}-grams -----'.format(num, n))
-        for gram, count in ngrams[n].most_common(num):
-            print('{0}: {1}'.format(' '.join(gram), count))
-        print('')
+    def print_most_frequent(ngrams, num=10):
+        """Print num most common n-grams of each length in n-grams dict."""
+        for n in sorted(ngrams):
+            print('----- {} most common {}-grams -----'.format(num, n))
+            for gram, count in ngrams[n].most_common(num):
+                print('{0}: {1}'.format(' '.join(gram), count))
+            print('')
 
 
-if __name__ == '__main__':
-    if len(sys.argv) < 2:
-        print('Usage: python ngrams.py filename')
-        sys.exit(1)
+    def test():
+        with open(file) as f:
+            ngrams = count_ngrams(f)
+        print_most_frequent(ngrams)
 
-    start_time = time.time()
-    with open(sys.argv[1]) as f:
-        ngrams = count_ngrams(f)
-    print_most_frequent(ngrams)
-    elapsed_time = time.time() - start_time
-    print('Took {:.03f} seconds'.format(elapsed_time))
+
+# http://www.locallyoptimal.com/blog/2013/01/20/elegant-n-gram-generation-in-python/
+
+    def test1():
+        input_list = "to be or not to be that is the question whether tis nob"
+
+
+    @staticmethod
+    def find_bigrams(input_list):
+        return zip(input_list, input_list[1:])
+
+    @staticmethod
+    def explicit_ngrams(input_list):
+        # Bigrams
+        zip(input_list, input_list[1:])
+        # Trigrams
+        zip(input_list, input_list[1:], input_list[2:])
+        # and so on
+        zip(input_list, input_list[1:], input_list[2:], input_list[3:])
+
+    @staticmethod
+    def find_ngrams(input_list, n):
+        return zip(*[input_list[i:] for i in range(n)])
+

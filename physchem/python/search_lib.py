@@ -14,8 +14,14 @@ DICT_DIR = os.path.join(HOME, "dictionary")
 OV21_DIR = os.path.join(DICT_DIR, "openVirus20210120")
 CEV_DIR = os.path.join(DICT_DIR, "cevopen")
 PMR_DIR = os.path.join(DICT_DIR, "pmr")
-OIL186 = os.path.join(HOME, "projects/CEVOpen/searches/oil186") #https://github.com/petermr/CEVOpen
+PROJECTS = os.path.join(HOME, "projects")
+OIL186 = os.path.join(PROJECTS, "CEVOpen/searches/oil186") #https://github.com/petermr/CEVOpen
+CCT = os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct")
+OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
+MINIPROJ = os.path.join(OPEN_VIRUS, "miniproject")
+FUNDER = os.path.join(MINIPROJ, "funder")
 
+print(FUNDER, os.path.exists(FUNDER))
 
 class AmiSearch:
 
@@ -25,7 +31,10 @@ class AmiSearch:
 
     def make_graph(self, dictionary):
         import matplotlib.pyplot as plt
-        plt.bar(list(dictionary.keys()), dictionary.values(), color='g')
+#        ax = plt.gca()
+        plt.bar(list(dictionary.keys()), dictionary.values(), color='blue')
+#        ax.set_xticklabels(ax.get_xticks(), rotation=45)
+        plt.xticks(rotation=90, ha='right') # this seems to work
         plt.show()
 
     def add_search_dictionary(self, dictionary):
@@ -39,9 +48,16 @@ class AmiSearch:
         matches_by_amidict = {}
         words = TextUtil.get_words_in_file(file)
 
+        found = False
         for dictionary in self.dictionaries:
-            matches_by_amidict[dictionary.name] = dictionary.match(words)
-
+            hits = dictionary.match(words)
+            matches_by_amidict[dictionary.name] = hits
+            if len(hits) > 0:
+                found = True
+        if found:
+            print("file: ", file)
+            with open(file, "r") as f:
+                print("read", f.read())
         return matches_by_amidict
 
     def search_with_dictionaries(self, dicts, globlets):
@@ -89,7 +105,7 @@ class SimpleDict:
 
 def main():
     print("started search")
-    test()
+    test_sect_dicts()
     print("finished search")
 
 
@@ -144,14 +160,25 @@ def test_sect_dicts():
 #        os.path.join(OV21_DIR, "country", "country.xml"),
     ]
 # section_types
+    project = {PROJ: it     }
+#    project = {PROJ: CCT}
+#    project = {PROJ: FUNDER}
     section_type = "acknowledge"
-    sects_ack = AmiPath.create(section_type, {PROJ: OIL186})
+    sects_ack = AmiPath.create(section_type, project)
     section_type = "affiliation"
-    sects_aff = AmiPath.create(section_type, {PROJ: OIL186})
+    sects_aff = AmiPath.create(section_type, project)
+    section_type = "ethics"
+    sects_ethics = AmiPath.create(section_type, project)
     section_type = "method"
-    sects_method = AmiPath.create(section_type, {PROJ: OIL186})
+    sects_method = AmiPath.create(section_type, project)
 
-    ami_search.search_with_dictionaries(dicts, [sects_ack, sects_aff, sects_method])
+    ami_search.search_with_dictionaries(dicts, [
+#       sects_ack,
+        sects_aff,
+#        sects_ethics,
+        sects_method,
+    ])
+
 
 def test_sect():
     ami_search = AmiSearch()
@@ -168,9 +195,16 @@ def test_sect():
 def make_graph(self, counter):
     import matplotlib.pyplot as plt
     print("counter")
-    plt.bar(list(counter.keys()), counter.values(), color='g')
+    fig, ax = plt.subplots()
+    names = list(counter.keys())
+    print("names>", names)
+    ax.bar(names, counter.values(), color='g') # orig
+
+#    plt.xticks(rotation=30)
+    plt.setp(ax.get_xticklabels(), rotation=30, ha='right')
     plt.show()
 
+# https://www.pythoncharts.com/matplotlib/rotating-axis-labels/
 
 if __name__ == "__main__":
     print("running search main")

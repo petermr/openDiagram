@@ -276,3 +276,6 @@ def draw_boxes_round_tesseract_chars(image, imagefile):
         img = cv2.rectangle(img, (int(b[1]), h - int(b[2])), (int(b[3]), h - int(b[4])), (0, 255, 0), 2)
 
     cv2.imshow('img', img)
+
+# https://realpython.com/python-matplotlib-guide/
+

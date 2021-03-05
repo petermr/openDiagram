@@ -1,6 +1,6 @@
 {
   "abstract": {
-    "_DESC": "abstract(s)",
+    "_DESC": "abstract(s) usually in front; sometimes duplicated",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -10,7 +10,7 @@
     "SUFFIX": "xml"
   },  
   "acknowledge": {
-    "_DESC": "acknowledgments (may inlcude funders)",
+    "_DESC": "acknowledgments (may include funders)",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -20,7 +20,7 @@
     "SUFFIX": "xml"
   },  
   "affiliation": {
-    "_DESC": "author affiliations",
+    "_DESC": "author affiliations, usually institutiom and country; aometimes structured",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -30,7 +30,7 @@
     "SUFFIX": "xml"
   },  
   "author": {
-    "_DESC": "authors, maybe with affiliation links",
+    "_DESC": "authors, maybe with affiliation links (e.g. #aff1 etc.)",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -40,7 +40,7 @@
     "SUFFIX": "xml"
   },
   "ethics": {
-    "_DESC": "ethics statements",
+    "_DESC": "ethics statements; often in methods but found elsewhere",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -95,7 +95,7 @@
   },  
   
   "keyword": {
-    "_DESC": "publisher keywords",
+    "_DESC": "publisher or author keywords",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -118,7 +118,7 @@
     "SUFFIX": "xml"
   },  
   "octree": {
-	"_DESC": "octree colour channels",
+	"_DESC": "octree colour channels; requires octree to have been run",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "pdfimages",
@@ -128,7 +128,7 @@
     "SUFFIX": "png"
   },
   "pdfimage": {
-  	"_DESC": "images extracted from PDF; default raw.png",
+  	"_DESC": "images extracted from PDF; default raw.png; requires ami pdfbox to have been run",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "pdfimages",
@@ -138,7 +138,7 @@
     "SUFFIX": "png"
   },
   "pub_date": {
-    "_DESC": "publication date(s)",
+    "_DESC": "publication date(s); front; a variety of types and granularity",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -148,7 +148,7 @@
     "SUFFIX": "xml"
   },  
   "publisher": {
-    "_DESC": "publisher",
+    "_DESC": "publisher; journal",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -159,7 +159,7 @@
   },
     
   "reference": {
-    "_DESC": "references",
+    "_DESC": "references often called citations; semi-structured or structured",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -183,7 +183,7 @@
     "SUFFIX": "xml"
   },
   "results": {
-    "_DESC": "result of AMI search (search|word) * (result|empty)",
+    "_DESC": "result of AMI search (search|word) * (result|empty); ami search should have been run (will update for pyamisearch)",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "results",
@@ -199,7 +199,7 @@
     "SUFFIX": "xml"
   },
   "sections": {
-    "_DESC": "ALL *.xml under sections/; recommend constraining with subsect/ and subsub/",
+    "_DESC": "ALL *.xml under sections/; often constrained with SUBSECT/ and SUBSET/",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",
@@ -209,7 +209,7 @@
     "SUFFIX": "xml"
   },
   "svg": {
-    "_DESC": "svg pages extracted from PDF",
+    "_DESC": "svg pages extracted from PDF; after running ami pdfbox",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "svg",
@@ -219,7 +219,7 @@
     "SUFFIX": "svg"
   },
   "table": {
-    "_DESC": "tables including caption",
+    "_DESC": "tables including caption; extracted from floats-group",
     "PROJ": "_REQD",
     "TREE": "*",
     "SECTS": "sections",

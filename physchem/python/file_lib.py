@@ -210,8 +210,8 @@ class FileLib:
 
 
 
-TEMPLATES_JSON = 'templates.json'
-with open(TEMPLATES_JSON, 'r') as json_file:
+SECTION_TEMPLATES_JSON = 'section_templates.json'
+with open(SECTION_TEMPLATES_JSON, 'r') as json_file:
     TEMPLATES = json.load(json_file)
 
 def main():

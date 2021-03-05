@@ -1,9 +1,7 @@
 import os
-import glob
-import copy
 
 from file_lib import AmiPath, PROJ
-from text_lib import ProjectCorpus, Document, TerminalPage, Sentence, TextUtil
+from text_lib import TextUtil
 from xml.etree import ElementTree as ET
 from collections import Counter
 
@@ -21,7 +19,7 @@ OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
 MINIPROJ = os.path.join(OPEN_VIRUS, "miniproject")
 FUNDER = os.path.join(MINIPROJ, "funder")
 
-print(FUNDER, os.path.exists(FUNDER))
+# print(FUNDER, os.path.exists(FUNDER))
 
 class AmiSearch:
 
@@ -34,8 +32,14 @@ class AmiSearch:
 #        ax = plt.gca()
         plt.bar(list(dictionary.keys()), dictionary.values(), color='blue')
 #        ax.set_xticklabels(ax.get_xticks(), rotation=45)
-        plt.xticks(rotation=90, ha='right') # this seems to work
+        plt.xticks(rotation=45, ha='right') # this seems to work
         plt.show()
+
+    def use_dicts(self, dict_list):
+        self.dict_dicts = {
+            "country": os.path.join(OV21_DIR, "country", "country.xml"),
+            "compound": os.path.join(CEV_DIR, "compound", "eo_compound.xml"),
+        }
 
     def add_search_dictionary(self, dictionary):
         """adds a SearchDictionary
@@ -93,6 +97,57 @@ class AmiSearch:
         sorted_d = sorted((key, value) for (key, value) in counter.items())
         return sorted_d
 
+    def set_dictionaries(self, dictionary_names):
+        self.dict_names = dictionary_names
+
+    def set_project(self, project):
+        self.project = project
+
+    def set_sections(self, sections):
+        self.sections = sections
+
+"""
+class ArgParser:
+#    --key = val, --key, -key, -key    val
+
+def clean_arguments(args):
+        ret_args = defaultdict(list)
+
+        for index, k in enumerate(args):
+            if index < len(args) - 1:
+                a, b = k, args[index + 1]
+            else:
+                a, b = k, None
+
+            new_key = None
+
+            # double hyphen, equals
+            if a.startswith('--') and '=' in a:
+                new_key, val = a.split('=')
+
+            # double hyphen, no equals
+            # single hyphen, no arg
+            elif (a.startswith('--') and '=' not in a) or \
+                    (a.startswith('-') and (not b or b.startswith('-'))):
+                val = True
+
+            # single hypen, arg
+            elif a.startswith('-') and b and not b.startswith('-'):
+                val = b
+
+            else:
+                if (b is None) or (a == val):
+                    continue
+
+                else:
+                    raise ValueError('Unexpected argument pair: %s, %s' % (a, b))
+
+            # santize the key
+            key = (new_key or a).strip(' -')
+            ret_args[key].append(val)
+
+        return ret_args
+"""
 
 class SimpleDict:
 
@@ -104,7 +159,29 @@ class SimpleDict:
 
 
 def main():
-    print("started search")
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Search sections with dictionaries')
+    """
+    parser.add_argument('integers', metavar='N', type=int, nargs='+',
+                        help='an integer for the accumulator')
+    parser.add_argument('--sum', dest='accumulate', action='store_const',
+                        const=sum, default=max,
+                        help='sum the integers (default: find the max)')
+    """
+    parser.add_argument('--dict', nargs="+",
+                        help='dictiomaries to search with (lookup table from JSON (NYI); empty gives list')
+    parser.add_argument('--sect', nargs="+",
+                        help='sections to search; empty gives list')
+
+
+    args = parser.parse_args()
+    print("dicts", args.dict)
+    print("sects", args.sect)
+
+#    print(f"Name of the script      : {sys.argv[0]=}")
+#    print(f"Arguments of the script : {sys.argv[1:]=}")
+#    return
     test_sect_dicts()
     print("finished search")
 
@@ -154,29 +231,25 @@ def test_sect_dicts():
     ami_search = AmiSearch()
 # dictionaries
     #    search_dictionary = SearchDictionary(os.path.join(OV21_DIR, "organization/organization.xml"))
-    dicts = [
-        os.path.join(OV21_DIR, "country", "country.xml"),
-        os.path.join(CEV_DIR, "compound", "eo_compound.xml"),
-#        os.path.join(OV21_DIR, "country", "country.xml"),
-    ]
+    ami_search.use_dicts(["country", "compound"])
 # section_types
-    project = {PROJ: it     }
+#    project = {PROJ: OIL186}
 #    project = {PROJ: CCT}
+    project = FUNDER
+    ami_search.set_project(project)
+
 #    project = {PROJ: FUNDER}
-    section_type = "acknowledge"
-    sects_ack = AmiPath.create(section_type, project)
-    section_type = "affiliation"
-    sects_aff = AmiPath.create(section_type, project)
-    section_type = "ethics"
-    sects_ethics = AmiPath.create(section_type, project)
-    section_type = "method"
-    sects_method = AmiPath.create(section_type, project)
+    sects = ["acknowledge", "affiliation", "ethics", "method"]
+    ami_search.set_sections(sects)
+    ami_search.set_dictionaries("eo_")
+    # this may not be correct
+    ami_search.search_and_count()
 
     ami_search.search_with_dictionaries(dicts, [
 #       sects_ack,
-        sects_aff,
-#        sects_ethics,
-        sects_method,
+#        sects_aff,
+        sects_ethics,
+#        sects_method,
     ])
 
 
@@ -208,10 +281,9 @@ def make_graph(self, counter):
 
 if __name__ == "__main__":
     print("running search main")
-    import nltk
-    nltk.download('stopwords')
     main()
 else:
+
     #    print("running search main anyway")
     #    main()
     pass

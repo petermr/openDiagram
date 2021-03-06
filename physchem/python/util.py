@@ -84,79 +84,175 @@ class TrieNode(object):
         for term in ("hac", "hack", "hackathon", "ha", "hammer"):
             print(term, root.find_prefix(term))
 
+
+import urllib.request
+
 class AmiConfig:
 
-    def __init__(self, interpolation=ExtendedInterpolation()):
+    PYAMI_INI = "pyami.ini"
+    DIRS = "DIRS"
+    DICTS = "DICTIONARIES"
+    LINK_SUFFIX = "_link"
+    INI_SUFFIX= "_ini"
+    URL_SUFFIX = "_url"
 
-        self.parser = ConfigParser(allow_no_value=True, interpolation=ExtendedInterpolation())
-        home = os.path.expanduser("~")
-        inifile = os.path.join(home, "pyami.ini")
-        if not os.path.exists(inifile):
-            print("no pyami.ini file")
+    def __init__(self, **kwargs):
+        self.inistring = kwargs.get("inistring")
+        self.inifile = kwargs.get("inifile")
+        self.parser = None
+        if self.inistring is not None:
+            pass
+        elif self.inifile is None:
+            self.inifile = os.path.abspath(AmiConfig.get_pyami_ini_file())
+        if self.inifile is not None:
+            if os.path.exists(self.inifile):
+                self.parser, _ = AmiConfig.read_ini_get_parser(self.inifile)
+        elif self.inistring is not None:
+            self.parser = ConfigParser(allow_no_value=True, interpolation=ExtendedInterpolation())
+            self.parser.read_string(self.inistring)
+            print("read from string")
         else:
-            print("pyami", inifile)
-            self.parser.read(inifile)
+            print("arguments wrong")
 
     def get_dictionary_dirs(self):
-        dict_section = self.parser["DICTIONARIES"]
-        link_suffix = "_link"
-        ini_suffix = "_ini"
-        for dict_ref in dict_section.keys():
-            dict_dir = dict_section[dict_ref]
-            if dict_ref.endswith(link_suffix):
-                ini_key = dict_ref[:-(len(link_suffix))] + ini_suffix
-                print(ini_key)
-                ini_file = dict_section[ini_key]
-                print("dict_ref", dict_ref, ini_file)
-                parser = ConfigParser(allow_no_value=True, interpolation=ExtendedInterpolation())
-                parser.read(ini_file)
-                print("dicts", parser["DICTIONARIES"])
-                sub_section = parser["DICTIONARIES"]
-                for kk in sub_section.keys():
-                    if not dict_section[dict_ref] or not sub_section[kk]:
-                        print("No subsection for ", kk)
-                    else:
-#                        print("OK", kk)
-                        file = os.path.join(dict_section[dict_ref], kk, sub_section[kk])
-                        if not os.path.exists(file):
-                            print("file does not exist", file)
-                        else:
-                            file_tree = ET.parse(file)
-                            desc = file_tree.findall("desc")
-                            if desc:
-                                print(kk, "\n    ", desc[0].text)
-                            else:
-                                print("no desc")
+
+        dict_section = self.parser[AmiConfig.DICTS]
+        for dict_key in dict_section.keys():
+            print("dict key", dict_key)
+            if dict_key.endswith(AmiConfig.LINK_SUFFIX):
+                self.read_file_dicts(dict_key, dict_section)
+            elif dict_key.endswith(AmiConfig.URL_SUFFIX):
+                self.read_url_dicts(dict_key, dict_section)
+            elif dict_key.endswith(AmiConfig.INI_SUFFIX):
+                pass
+            elif dict_key == "dict_dir":
+                pass
+            else:
+                print("skipped key >>>>>", dict_key)
+
+    def read_file_dicts(self, dict_key, dict_section):
+        ini_file = self.create_ini_filename_from_link(dict_key, dict_section)
+        print("dictionary ini file", dict_key, ini_file)
+        if ini_file is None:
+            print(f"no ini_file path for {dict_key}, please create in {AmiConfig.PYAMI_INI}")
+        if not os.path.exists(ini_file):
+            print("INI file does not exist, needs creating", ini_file)
+        else:
+            dict_config = AmiConfig(inifile=ini_file)
+            sub_section = dict_config.parser[AmiConfig.DICTS]
+            self.read_amidicts_in_inifile(dict_key, dict_section, sub_section)
+
+    def read_amidicts_in_inifile(self, dict_ref, dict_section, sub_section):
+        for kk in sub_section.keys():
+            if not dict_section[dict_ref] or not sub_section[kk]:
+                print("No subsection for ", kk)
+            else:
+                self.read_dict_xml(dict_ref, dict_section, kk, sub_section)
+
+    def create_ini_filename_from_link(self, dict_ref, dict_section):
+        ini_key = dict_ref[:-(len(AmiConfig.LINK_SUFFIX))] + AmiConfig.INI_SUFFIX
+        ini_file = dict_section[ini_key] if ini_key in dict_section else None
+        return ini_file
+
+    def read_dict_xml(self, dict_ref, dict_section, dict_name, sub_section):
+        file = os.path.join(dict_section[dict_ref], dict_name, sub_section[dict_name])
+        if not os.path.exists(file):
+            print("file does not exist", file)
+        else:
+            file_tree = ET.parse(file)
+            desc = file_tree.findall("desc")
+            entries = file_tree.findall("entry")
+            if desc:
+                print(dict_name, "\n    ", len(entries), desc[0].text)
+            else:
+                print("no desc")
+
+    def read_url_dicts(self, dict_key, dict_section):
+        ini_url = self.create_ini_url_from_link(dict_key, dict_section)
+        import urllib.request
+        print("read url dicts", ini_url)
+        bytes = urllib.request.urlopen(ini_url).read()
+        txt = bytes.decode('utf-8')
+        ami_config = AmiConfig(inistring=txt)
+        parent_url = "/".join(ini_url.split("/")[:-1])
+        print("section", parent_url)
+        ami_config.process_dict_url(AmiConfig.DICTS, parent_url)
+
+    def process_dict_url(self, section, parent_url):
+
+        for dict_name in self.parser[section].keys():
+            dict_terminal = self.parser[section][dict_name]
+            dict_url = "/".join([parent_url, dict_terminal])
+            tree_xml = self.read_xml_from_url(dict_url)
+            entries = tree_xml.findall("entry")
+            print(dict_terminal, "=", len(entries))
+
+    def read_xml_from_url(self, dict_url):
+        response = urllib.request.urlopen(dict_url).read()
+        tree_xml = ET.fromstring(response)
+        return tree_xml
 
     @staticmethod
     def test():
         ami_config = AmiConfig()
-        print(type(ami_config))
-        """
-        for sect_name in cfg.sections():
-            section = cfg[sect_name]
-            for k in section.keys():
-                print(k, "=", section[k])
-        """
-        cfg = ami_config.parser
-        print("home", cfg["DEFAULT"]["home"])
-        print("cev", cfg.get("DICTIONARIES", "cev_link"))
-        dicts_dirs = ami_config.get_dictionary_dirs()
+        print("ami", ami_config.parser.keys())
+        for k in ami_config.parser.keys():
+            print("k", k)
+        print("cfg", type(ami_config))
 
+        for sect_name in ami_config.parser.sections():
+            print("\n>>>>", sect_name, "\n>>>>>")
+            section = ami_config.parser[sect_name]
+            for k in section.keys():
+                print(k)
+                print(section[k])
+
+        deflt = ami_config.parser[AmiConfig.DIRS]
+        print("deflt", type(deflt), deflt)
+        for k in deflt.keys():
+            print("kv", type(k), k, "=", deflt[k])
+        print("home", deflt["home"])
+        print("===========================================")
+        dicts_dirs = ami_config.get_dictionary_dirs()
+        print("dicts", dicts_dirs)
 
     @staticmethod
-    def test1():
+    def read_ini_get_parser(ini_file):
+        """create inifile name and read it
+
+        return: parser, inifile
+        """
         from configparser import ConfigParser, ExtendedInterpolation
         parser = ConfigParser(interpolation=ExtendedInterpolation())
-        parser.read("/Users/pm286/pyami.ini")
+        if not os.path.exists(ini_file):
+            print("INI file does not exist", ini_file)
+        else:
+            print("read", AmiConfig.PYAMI_INI, ini_file)
+            parser.read(ini_file)
+        return parser, ini_file
 
-        print("foo", parser["DEFAULT"]["home"])
-        print("eo", parser.get("DICTIONARIES", "cev_link"))
+    @staticmethod
+    def get_pyami_ini_file():
+        inifile = os.path.join(AmiConfig.get_home(), AmiConfig.PYAMI_INI)
+        print("ini file", inifile)
+        return inifile
+
+    @staticmethod
+    def get_home():
+        home = os.path.expanduser("~")
+        return home
+
+    def create_ini_url_from_link(self, dict_ref, dict_section):
+        ini_key = dict_ref[:-(len(AmiConfig.URL_SUFFIX))] + AmiConfig.INI_SUFFIX
+        ini_file = dict_section[ini_key] if ini_key in dict_section else None
+        return ini_file
+
+
 
 def main():
     AmiConfig.test()
     print("==============")
-    AmiConfig.test1()
+#    AmiConfig.test1()
 #    TrieNode.test()
 
 if __name__ == "__main__":

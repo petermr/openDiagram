@@ -86,7 +86,6 @@ class TrieNode(object):
 
 
 import urllib.request
-
 class AmiConfig:
 
     PYAMI_INI = "pyami.ini"
@@ -100,6 +99,9 @@ class AmiConfig:
         self.inistring = kwargs.get("inistring")
         self.inifile = kwargs.get("inifile")
         self.parser = None
+        self._process_init_args()
+
+    def _process_init_args(self):
         if self.inistring is not None:
             pass
         elif self.inifile is None:
@@ -128,7 +130,7 @@ class AmiConfig:
             elif dict_key == "dict_dir":
                 pass
             else:
-                print("skipped key >>>>>", dict_key)
+                print("skipped key:", dict_key)
 
     def read_file_dicts(self, dict_key, dict_section):
         ini_file = self.create_ini_filename_from_link(dict_key, dict_section)
@@ -159,27 +161,28 @@ class AmiConfig:
         if not os.path.exists(file):
             print("file does not exist", file)
         else:
-            file_tree = ET.parse(file)
-            desc = file_tree.findall("desc")
-            entries = file_tree.findall("entry")
-            if desc:
-                print(dict_name, "\n    ", len(entries), desc[0].text)
-            else:
-                print("no desc")
+            file_tree_xml = ET.parse(file)
+            self._debug_desc_and_entries(dict_name, file_tree_xml)
+
+    def _debug_desc_and_entries(self, dict_name, file_tree_xml):
+        desc = file_tree_xml.findall("desc")
+        entries = file_tree_xml.findall("entry")
+        if desc:
+            print(dict_name, "\n    ", len(entries), desc[0].text)
+        else:
+            print("no desc")
 
     def read_url_dicts(self, dict_key, dict_section):
         ini_url = self.create_ini_url_from_link(dict_key, dict_section)
         import urllib.request
         print("read url dicts", ini_url)
-        bytes = urllib.request.urlopen(ini_url).read()
-        txt = bytes.decode('utf-8')
+        txt = urllib.request.urlopen(ini_url).read().decode('utf-8')
         ami_config = AmiConfig(inistring=txt)
         parent_url = "/".join(ini_url.split("/")[:-1])
         print("section", parent_url)
         ami_config.process_dict_url(AmiConfig.DICTS, parent_url)
 
     def process_dict_url(self, section, parent_url):
-
         for dict_name in self.parser[section].keys():
             dict_terminal = self.parser[section][dict_name]
             dict_url = "/".join([parent_url, dict_terminal])
@@ -200,21 +203,21 @@ class AmiConfig:
             print("k", k)
         print("cfg", type(ami_config))
 
+    @staticmethod
+    def test_dicts():
+        ami_config = AmiConfig()
+        dicts_dirs = ami_config.get_dictionary_dirs()
+        print("dicts", dicts_dirs)
+
+    @staticmethod
+    def test2_debug():
+        ami_config = AmiConfig()
         for sect_name in ami_config.parser.sections():
             print("\n>>>>", sect_name, "\n>>>>>")
             section = ami_config.parser[sect_name]
             for k in section.keys():
                 print(k)
                 print(section[k])
-
-        deflt = ami_config.parser[AmiConfig.DIRS]
-        print("deflt", type(deflt), deflt)
-        for k in deflt.keys():
-            print("kv", type(k), k, "=", deflt[k])
-        print("home", deflt["home"])
-        print("===========================================")
-        dicts_dirs = ami_config.get_dictionary_dirs()
-        print("dicts", dicts_dirs)
 
     @staticmethod
     def read_ini_get_parser(ini_file):
@@ -251,8 +254,9 @@ class AmiConfig:
 
 def main():
     AmiConfig.test()
-    print("==============")
-#    AmiConfig.test1()
+    AmiConfig.test2_debug()
+    AmiConfig.test_dicts()
+
 #    TrieNode.test()
 
 if __name__ == "__main__":

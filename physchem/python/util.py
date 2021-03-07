@@ -105,7 +105,7 @@ class AmiConfig:
         if self.inistring is not None:
             pass
         elif self.inifile is None:
-            self.inifile = os.path.abspath(AmiConfig.get_pyami_ini_file())
+            self.inifile = os.path.abspath(AmiConfig.get_default_pyami_ini_file())
         if self.inifile is not None:
             if os.path.exists(self.inifile):
                 self.parser, _ = AmiConfig.read_ini_get_parser(self.inifile)
@@ -235,9 +235,8 @@ class AmiConfig:
         return parser, ini_file
 
     @staticmethod
-    def get_pyami_ini_file():
+    def get_default_pyami_ini_file():
         inifile = os.path.join(AmiConfig.get_home(), AmiConfig.PYAMI_INI)
-        print("ini file", inifile)
         return inifile
 
     @staticmethod

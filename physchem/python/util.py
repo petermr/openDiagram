@@ -86,6 +86,8 @@ class TrieNode(object):
 
 
 import urllib.request
+
+
 class AmiConfig:
 
     PYAMI_INI = "pyami.ini"
@@ -93,7 +95,9 @@ class AmiConfig:
     DICTS = "DICTIONARIES"
     LINK_SUFFIX = "_link"
     INI_SUFFIX= "_ini"
+    URLINI_SUFFIX= "_urlini"
     URL_SUFFIX = "_url"
+    SLASH = "/"
 
     def __init__(self, **kwargs):
         self.inistring = kwargs.get("inistring")
@@ -116,17 +120,20 @@ class AmiConfig:
         else:
             print("arguments wrong")
 
-    def get_dictionary_dirs(self):
+    def traverse_dictionary_dirs(self):
 
         dict_section = self.parser[AmiConfig.DICTS]
         for dict_key in dict_section.keys():
             print("dict key", dict_key)
             if dict_key.endswith(AmiConfig.LINK_SUFFIX):
-                self.read_file_dicts(dict_key, dict_section)
+#                self.read_file_dicts(dict_key, dict_section)
+                pass
             elif dict_key.endswith(AmiConfig.URL_SUFFIX):
                 self.read_url_dicts(dict_key, dict_section)
             elif dict_key.endswith(AmiConfig.INI_SUFFIX):
-                pass
+                self.read_file_dicts(dict_key, dict_section)
+            elif dict_key.endswith(AmiConfig.URLINI_SUFFIX):
+                print("*_urlini not yet implemented")
             elif dict_key == "dict_dir":
                 pass
             else:
@@ -151,26 +158,36 @@ class AmiConfig:
             else:
                 self.read_dict_xml(dict_ref, dict_section, kk, sub_section)
 
-    def create_ini_filename_from_link(self, dict_ref, dict_section):
-        ini_key = dict_ref[:-(len(AmiConfig.LINK_SUFFIX))] + AmiConfig.INI_SUFFIX
+    def create_ini_filename_from_link(self, ini_key, dict_section):
+#        ini_key = dict_ref[:-(len(AmiConfig.LINK_SUFFIX))] + AmiConfig.INI_SUFFIX
         ini_file = dict_section[ini_key] if ini_key in dict_section else None
         return ini_file
 
     def read_dict_xml(self, dict_ref, dict_section, dict_name, sub_section):
-        file = os.path.join(dict_section[dict_ref], dict_name, sub_section[dict_name])
+        ini_dir = dict_section[dict_ref].rpartition(AmiConfig.SLASH)[0]
+        file = os.path.join(ini_dir, sub_section[dict_name])
+        file = AmiConfig.transform_file_separator(file)
         if not os.path.exists(file):
-            print("file does not exist", file)
+            print("dict_ref file does not exist", file)
         else:
             file_tree_xml = ET.parse(file)
             self._debug_desc_and_entries(dict_name, file_tree_xml)
 
+    @staticmethod
+    def transform_file_separator(file):
+        file = file.replace(AmiConfig.SLASH, os.path.sep)
+        return file
+
     def _debug_desc_and_entries(self, dict_name, file_tree_xml):
         desc = file_tree_xml.findall("desc")
         entries = file_tree_xml.findall("entry")
+        wikidata = file_tree_xml.findall("entry[@wikidataID]")
+
         if desc:
-            print(dict_name, "\n    ", len(entries), desc[0].text)
+            print(dict_name, "entries", len(entries), "wikidata", len(wikidata), "\n     ", desc[0].text)
         else:
             print("no desc")
+
 
     def read_url_dicts(self, dict_key, dict_section):
         ini_url = self.create_ini_url_from_link(dict_key, dict_section)
@@ -206,7 +223,7 @@ class AmiConfig:
     @staticmethod
     def test_dicts():
         ami_config = AmiConfig()
-        dicts_dirs = ami_config.get_dictionary_dirs()
+        dicts_dirs = ami_config.traverse_dictionary_dirs()
         print("dicts", dicts_dirs)
 
     @staticmethod
@@ -252,8 +269,8 @@ class AmiConfig:
 
 
 def main():
-    AmiConfig.test()
-    AmiConfig.test2_debug()
+#    AmiConfig.test()
+#    AmiConfig.test2_debug()
     AmiConfig.test_dicts()
 
 #    TrieNode.test()

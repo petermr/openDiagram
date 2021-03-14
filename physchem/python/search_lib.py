@@ -1,5 +1,7 @@
 import os
 
+# https://stackoverflow.com/questions/19917492/how-can-i-use-a-python-script-in-the-command-line-without-cd-ing-to-its-director
+
 from file_lib import AmiPath, PROJ
 from text_lib import TextUtil
 from xml.etree import ElementTree as ET
@@ -26,6 +28,7 @@ class AmiSearch:
     def __init__(self):
         self.dictionaries = []
         self.word_counter = None
+        self.debug = False
 
     def make_graph(self, dictionary):
         import matplotlib.pyplot as plt
@@ -35,12 +38,6 @@ class AmiSearch:
         plt.xticks(rotation=45, ha='right') # this seems to work
         plt.show()
 
-    def use_dicts(self, dict_list):
-        self.dict_dicts = {
-            "country": os.path.join(OV21_DIR, "country", "country.xml"),
-            "compound": os.path.join(CEV_DIR, "compound", "eo_compound.xml"),
-        }
-
     def add_search_dictionary(self, dictionary):
         """adds a SearchDictionary
         """
@@ -48,20 +45,33 @@ class AmiSearch:
             raise Exception("Search requires a SearchDictionary")
         self.dictionaries.append(dictionary)
 
+    def use_dicts(self, dict_names):
+        self.dict_dicts = {
+            "country": os.path.join(OV21_DIR, "country", "country.xml"),
+            "compound": os.path.join(CEV_DIR, "compound", "eo_compound.xml"),
+        }
+        self.dict_list = [self.dict_dicts[name] for name in dict_names]
+
+
     def search(self, file):
         matches_by_amidict = {}
         words = TextUtil.get_words_in_file(file)
+#        print("words", len(words))
 
         found = False
         for dictionary in self.dictionaries:
+#            print("d", dictionary)
             hits = dictionary.match(words)
             matches_by_amidict[dictionary.name] = hits
             if len(hits) > 0:
                 found = True
-        if found:
+                if self.debug:
+                    print("HITS", len(hits))
+        if found and self.debug:
             print("file: ", file)
             with open(file, "r") as f:
                 print("read", f.read())
+
         return matches_by_amidict
 
     def search_with_dictionaries(self, dicts, globlets):
@@ -82,11 +92,12 @@ class AmiSearch:
             if index % debug_cnt == 0:
                 print("file", target_file)
             matches_by_amidict = self.search(target_file)
-#            print("matches", matches_by_amidict)
+#            print("matchesx", matches_by_amidict)
             for amidict in matches_by_amidict:
 #                print("dict>", amidict)
                 matches = matches_by_amidict[amidict]
                 if len(matches) > 0:
+#                    print("matches", len(matches))
                     for match in matches:
                         counter[match] += 1
 #        counter = self.sortxx(counter)
@@ -106,48 +117,6 @@ class AmiSearch:
     def set_sections(self, sections):
         self.sections = sections
 
-"""
-class ArgParser:
-#    --key = val, --key, -key, -key    val
-
-def clean_arguments(args):
-        ret_args = defaultdict(list)
-
-        for index, k in enumerate(args):
-            if index < len(args) - 1:
-                a, b = k, args[index + 1]
-            else:
-                a, b = k, None
-
-            new_key = None
-
-            # double hyphen, equals
-            if a.startswith('--') and '=' in a:
-                new_key, val = a.split('=')
-
-            # double hyphen, no equals
-            # single hyphen, no arg
-            elif (a.startswith('--') and '=' not in a) or \
-                    (a.startswith('-') and (not b or b.startswith('-'))):
-                val = True
-
-            # single hypen, arg
-            elif a.startswith('-') and b and not b.startswith('-'):
-                val = b
-
-            else:
-                if (b is None) or (a == val):
-                    continue
-
-                else:
-                    raise ValueError('Unexpected argument pair: %s, %s' % (a, b))
-
-            # santize the key
-            key = (new_key or a).strip(' -')
-            ret_args[key].append(val)
-
-        return ret_args
-"""
 
 class SimpleDict:
 
@@ -191,10 +160,18 @@ class SearchDictionary:
 
     """
 
-    def __init__(self, file):
+    TERM = "term"
+
+    def __init__(self, file, **kwargs):
         if not os.path.exists(file):
             raise IOError("cannot find file " + str(file))
         self.read_file(file)
+        self.options = {} if not "options" in kwargs else kwargs["options"]
+        if "synonyms" in self.options:
+            print("use synonyms")
+        if "noignorecase" in self.options:
+            print("use case")
+
 
     def read_file(self, file):
         self.file = file
@@ -208,8 +185,9 @@ class SearchDictionary:
     def get_or_create_term_set(self):
         if len(self.term_set) == 0:
             for entry in self.entries:
-                if "term" in entry.attrib:
-                    term = entry.attrib["term"]
+                if SearchDictionary.TERM in entry.attrib:
+                    term = entry.attrib[SearchDictionary.TERM]
+                    # single word terms
                     if not " " in term:
                         term = term.lower()
                         self.term_set.add(term) # single word countries
@@ -229,28 +207,40 @@ class SearchDictionary:
 
 def test_sect_dicts():
     ami_search = AmiSearch()
+    country_file = os.path.join(OV21_DIR, "country", "country.xml")
+    compound_file = os.path.join(CEV_DIR, "compound", "eo_compound.xml")
+#    ami_search.add_search_dictionary(SearchDictionary(country_file, options={"synonyms", "noignorecase", "ngrams"}))
+    ami_search.add_search_dictionary(SearchDictionary(compound_file))
 # dictionaries
     #    search_dictionary = SearchDictionary(os.path.join(OV21_DIR, "organization/organization.xml"))
-    ami_search.use_dicts(["country", "compound"])
+    """
+    ami_search.dict_dicts = {
+        "country": country_file,
+        "compound": compound_file,
+    }
+    """
+
+#    ami_search.add_search_dictionary()
+#    ami_search.use_dicts(["country", "compound"])
 # section_types
 #    project = {PROJ: OIL186}
 #    project = {PROJ: CCT}
-    project = FUNDER
+    project = OIL186
     ami_search.set_project(project)
 
 #    project = {PROJ: FUNDER}
-    sects = ["acknowledge", "affiliation", "ethics", "method"]
+    sects = [
+#        "acknowledge", "affiliation", "ethics",
+        "method", "introduction"]
     ami_search.set_sections(sects)
-    ami_search.set_dictionaries("eo_")
+#    ami_search.set_dictionaries()
     # this may not be correct
-    ami_search.search_and_count()
+    for sect in sects:
+        section_files = AmiPath.create(sect, {PROJ: OIL186}).get_globbed_files()
+        print("***** section_files", sect, len(section_files))
+        ami_search.search_and_count(section_files)
 
-    ami_search.search_with_dictionaries(dicts, [
-#       sects_ack,
-#        sects_aff,
-        sects_ethics,
-#        sects_method,
-    ])
+
 
 
 def test_sect():
@@ -259,10 +249,16 @@ def test_sect():
     section_type = "ethics"
     sects_method = AmiPath.create(section_type, {PROJ: OIL186})
 
-    dicts = [
+    ami_search.dicts = [
         os.path.join(PMR_DIR, "ethics", "ethics.xml"),
         ]
-    ami_search.search_with_dictionaries(dicts, [])
+#    globlets = [        AmiPath.create("fig_caption", {PROJ: proj_dir}),
+#        AmiPath.create("", {PROJ: proj_dir}),
+
+
+#    ami_search.search_with_dictionaries(dicts, globlets)
+    section_files = AmiPath.create("fig_caption", {PROJ: OIL186}),
+    ami_search.search_and_count(section_files)
 
 
 def make_graph(self, counter):

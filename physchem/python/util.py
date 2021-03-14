@@ -104,6 +104,7 @@ class AmiConfig:
         self.inifile = kwargs.get("inifile")
         self.parser = None
         self._process_init_args()
+        self.dict_id_dict = {}
 
     def _process_init_args(self):
         if self.inistring is not None:
@@ -126,8 +127,7 @@ class AmiConfig:
         for dict_key in dict_section.keys():
             print("dict key", dict_key)
             if dict_key.endswith(AmiConfig.LINK_SUFFIX):
-#                self.read_file_dicts(dict_key, dict_section)
-                pass
+                print("skipped link: ", dict_key)
             elif dict_key.endswith(AmiConfig.URL_SUFFIX):
                 self.read_url_dicts(dict_key, dict_section)
             elif dict_key.endswith(AmiConfig.INI_SUFFIX):
@@ -152,11 +152,15 @@ class AmiConfig:
             self.read_amidicts_in_inifile(dict_key, dict_section, sub_section)
 
     def read_amidicts_in_inifile(self, dict_ref, dict_section, sub_section):
-        for kk in sub_section.keys():
-            if not dict_section[dict_ref] or not sub_section[kk]:
-                print("No subsection for ", kk)
+        for dict_id in sub_section.keys():
+            if dict_id in self.dict_id_dict:
+                print("duplicate dict id: ", dict_id)
+            if not dict_section[dict_ref] or not sub_section[dict_id]:
+                print("No subsection for ", dict_id)
             else:
-                self.read_dict_xml(dict_ref, dict_section, kk, sub_section)
+                file = self.read_dict_xml(dict_ref, dict_section, dict_id, sub_section)
+                if file is not None:
+                    self.dict_id_dict[dict_id]
 
     def create_ini_filename_from_link(self, ini_key, dict_section):
 #        ini_key = dict_ref[:-(len(AmiConfig.LINK_SUFFIX))] + AmiConfig.INI_SUFFIX
@@ -169,9 +173,11 @@ class AmiConfig:
         file = AmiConfig.transform_file_separator(file)
         if not os.path.exists(file):
             print("dict_ref file does not exist", file)
+            file = None
         else:
             file_tree_xml = ET.parse(file)
             self._debug_desc_and_entries(dict_name, file_tree_xml)
+        return file
 
     @staticmethod
     def transform_file_separator(file):

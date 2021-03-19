@@ -274,6 +274,7 @@ class AmiConfig:
 
 
 
+
 def main():
 #    AmiConfig.test()
 #    AmiConfig.test2_debug()
@@ -283,3 +284,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+class Util:
+
+    def check_exists(file):
+        assert os.path.exists(file), str(file) + " should exist"

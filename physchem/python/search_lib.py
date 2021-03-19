@@ -4,6 +4,7 @@ import os
 
 from file_lib import AmiPath, PROJ
 from text_lib import TextUtil
+from util import Util
 from xml.etree import ElementTree as ET
 from collections import Counter
 
@@ -12,9 +13,11 @@ PYDIAG = "../../python/diagrams"
 LIION = "../liion"
 DICT_DIR = os.path.join(HOME, "dictionary")
 OV21_DIR = os.path.join(DICT_DIR, "openVirus20210120")
-CEV_DIR = os.path.join(DICT_DIR, "cevopen")
+CEV_DICT_DIR = os.path.join(DICT_DIR, "cevopen")
 PMR_DIR = os.path.join(DICT_DIR, "pmr")
 PROJECTS = os.path.join(HOME, "projects")
+CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
+CEV_OPEN_DICT_DIR = os.path.join(CEV_OPEN_DIR, "dictionary")
 OIL186 = os.path.join(PROJECTS, "CEVOpen/searches/oil186") #https://github.com/petermr/CEVOpen
 CCT = os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct")
 OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
@@ -28,7 +31,7 @@ class AmiSearch:
     def __init__(self):
         self.dictionaries = []
         self.word_counter = None
-        self.debug = False
+        self.debug = True
 
     def make_graph(self, dictionary):
         import matplotlib.pyplot as plt
@@ -48,10 +51,14 @@ class AmiSearch:
     def use_dicts(self, dict_names):
         self.dict_dicts = {
             "country": os.path.join(OV21_DIR, "country", "country.xml"),
-            "compound": os.path.join(CEV_DIR, "compound", "eo_compound.xml"),
+            "compound": os.path.join(CEV_DICT_DIR, "compound", "eo_compound.xml"),
         }
         self.dict_list = [self.dict_dicts[name] for name in dict_names]
 
+    def add_dictionary_key(self, key):
+        self.dictionary_dict = SearchDictionary.create_search_dictionary_dict()
+        search_dictionary = self.dictionary_dict[key]
+        self.dictionaries.append(search_dictionary)
 
     def search(self, file):
         matches_by_amidict = {}
@@ -159,6 +166,10 @@ class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 
     """
+    COMPOUND = "compound"
+    COUNTRY = "country"
+    ORGANIZATION = "organization"
+    PLANT_PART = "plant_part"
 
     TERM = "term"
 
@@ -171,7 +182,7 @@ class SearchDictionary:
             print("use synonyms")
         if "noignorecase" in self.options:
             print("use case")
-
+        self.split_terms = True
 
     def read_file(self, file):
         self.file = file
@@ -189,11 +200,19 @@ class SearchDictionary:
                     term = entry.attrib[SearchDictionary.TERM]
                     # single word terms
                     if not " " in term:
-                        term = term.lower()
-                        self.term_set.add(term) # single word countries
-#            print(len(self.term_set), list(sorted(self.term_set)))
+                        self.add_processed_term(term)
+                    elif self.split_terms:
+                        # multiword terms
+                        for term in " ".split(term):
+                            self.add_processed_term(term)
 
+        #            print(len(self.term_set), list(sorted(self.term_set)))
+#        print ("terms", len(self.term_set))
         return self.term_set
+
+    def add_processed_term(self, term):
+        term = term.lower()
+        self.term_set.add(term)  # single word countries
 
     def match(self, target_words):
         matched = []
@@ -204,21 +223,28 @@ class SearchDictionary:
                 matched.append(target_word)
         return matched
 
+    @staticmethod
+    def create_search_dictionary_dict():
+        dictionary_dict = {}
+        SearchDictionary.add_with_check(dictionary_dict, SearchDictionary.COUNTRY, os.path.join(OV21_DIR, "country", "country.xml"))
+        SearchDictionary.add_with_check(dictionary_dict, SearchDictionary.COMPOUND, os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "eoCompound.xml"))
+        SearchDictionary.add_with_check(dictionary_dict, SearchDictionary.ORGANIZATION, os.path.join(OV21_DIR, "organization", "organization.xml"))
+        SearchDictionary.add_with_check(dictionary_dict, SearchDictionary.PLANT_PART, os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
+        return dictionary_dict
+
+    @staticmethod
+    def add_with_check(dictionary_dict, key, file):
+        Util.check_exists(file)
+        dictionary_dict[key] = SearchDictionary(file)
+
+
+
 
 def test_sect_dicts():
     ami_search = AmiSearch()
-    country_file = os.path.join(OV21_DIR, "country", "country.xml")
-    compound_file = os.path.join(CEV_DIR, "compound", "eo_compound.xml")
-#    ami_search.add_search_dictionary(SearchDictionary(country_file, options={"synonyms", "noignorecase", "ngrams"}))
-    ami_search.add_search_dictionary(SearchDictionary(compound_file))
-# dictionaries
-    #    search_dictionary = SearchDictionary(os.path.join(OV21_DIR, "organization/organization.xml"))
-    """
-    ami_search.dict_dicts = {
-        "country": country_file,
-        "compound": compound_file,
-    }
-    """
+    # dictionaries
+    ami_search.add_dictionary_key(SearchDictionary.COUNTRY)
+    ami_search.add_dictionary_key(SearchDictionary.PLANT_PART)
 
 #    ami_search.add_search_dictionary()
 #    ami_search.use_dicts(["country", "compound"])
@@ -230,8 +256,13 @@ def test_sect_dicts():
 
 #    project = {PROJ: FUNDER}
     sects = [
-#        "acknowledge", "affiliation", "ethics",
-        "method", "introduction"]
+#        "acknowledge",
+#        "affiliation",
+#        "ethics",
+#        "jrnl_title",
+        "method",
+        "introduction",
+    ]
     ami_search.set_sections(sects)
 #    ami_search.set_dictionaries()
     # this may not be correct
@@ -239,8 +270,6 @@ def test_sect_dicts():
         section_files = AmiPath.create(sect, {PROJ: OIL186}).get_globbed_files()
         print("***** section_files", sect, len(section_files))
         ami_search.search_and_count(section_files)
-
-
 
 
 def test_sect():

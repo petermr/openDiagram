@@ -10,16 +10,16 @@ from collections import Counter
 
 HOME = os.path.expanduser("~")
 PYDIAG = "../../python/diagrams"
-LIION = "../liion"
+#LIION = "../liion"
 DICT_DIR = os.path.join(HOME, "dictionary")
+
 OV21_DIR = os.path.join(DICT_DIR, "openVirus20210120")
 CEV_DICT_DIR = os.path.join(DICT_DIR, "cevopen")
 PMR_DIR = os.path.join(DICT_DIR, "pmr")
+
 PROJECTS = os.path.join(HOME, "projects")
 CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
 CEV_OPEN_DICT_DIR = os.path.join(CEV_OPEN_DIR, "dictionary")
-OIL186 = os.path.join(PROJECTS, "CEVOpen/searches/oil186") #https://github.com/petermr/CEVOpen
-CCT = os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct")
 OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
 MINIPROJ = os.path.join(OPEN_VIRUS, "miniproject")
 FUNDER = os.path.join(MINIPROJ, "funder")
@@ -30,8 +30,14 @@ class AmiSearch:
 
     def __init__(self):
         self.dictionaries = []
+        self.projects = []
+        self.sections = []
         self.word_counter = None
-        self.debug = True
+        self.debug = False
+        self.ami_projects = AmiProjects()
+        # look up how sections work
+#        self.ami_sections = AmiSections()
+        self.ami_dictionaries = AmiDictionaries()
 
     def make_graph(self, dictionary):
         import matplotlib.pyplot as plt
@@ -39,26 +45,29 @@ class AmiSearch:
         plt.bar(list(dictionary.keys()), dictionary.values(), color='blue')
 #        ax.set_xticklabels(ax.get_xticks(), rotation=45)
         plt.xticks(rotation=45, ha='right') # this seems to work
+        plt.title(self.make_title())
         plt.show()
 
-    def add_search_dictionary(self, dictionary):
-        """adds a SearchDictionary
-        """
-        if dictionary is None or type(dictionary) != SearchDictionary:
-            raise Exception("Search requires a SearchDictionary")
-        self.dictionaries.append(dictionary)
+    def make_title(self):
+        ptit = self.cur_proj.dir.split("/")[-1:][0]
+        sect = self.cur_sect
+        return ptit + ":   " + sect
 
-    def use_dicts(self, dict_names):
-        self.dict_dicts = {
-            "country": os.path.join(OV21_DIR, "country", "country.xml"),
-            "compound": os.path.join(CEV_DICT_DIR, "compound", "eo_compound.xml"),
-        }
-        self.dict_list = [self.dict_dicts[name] for name in dict_names]
+    def add_dictionary(self, name):
+        self.append("dictionary", name, self.ami_dictionaries.dictionary_dict, self.dictionaries)
 
-    def add_dictionary_key(self, key):
-        self.dictionary_dict = SearchDictionary.create_search_dictionary_dict()
-        search_dictionary = self.dictionary_dict[key]
-        self.dictionaries.append(search_dictionary)
+    def add_project(self, name):
+        self.append("project", name, self.ami_projects.project_dict, self.projects)
+
+    def add_section(self, name):
+        print("******************don't use sections here")
+        self.append("section", name, self.sections.section_dict, self.sections)
+
+    def append(self, label, name, dikt, dict_list):
+        if not name in dikt:
+            raise Exception("unknown", label, name)
+        dict_list.append(dikt[name])
+
 
     def search(self, file):
         matches_by_amidict = {}
@@ -81,15 +90,6 @@ class AmiSearch:
 
         return matches_by_amidict
 
-    def search_with_dictionaries(self, dicts, globlets):
-        for dikt in dicts:
-            search_dictionary = SearchDictionary(dikt)
-            self.add_search_dictionary(search_dictionary)
-        for globlet in globlets:
-            glob_files = globlet.get_globbed_files()
-#            print("found", len(glob_files))
-            self.search_and_count(glob_files)
-
     def search_and_count(self, section_files):
         counter = Counter()
         debug_cnt = 10000
@@ -99,27 +99,18 @@ class AmiSearch:
             if index % debug_cnt == 0:
                 print("file", target_file)
             matches_by_amidict = self.search(target_file)
-#            print("matchesx", matches_by_amidict)
             for amidict in matches_by_amidict:
-#                print("dict>", amidict)
                 matches = matches_by_amidict[amidict]
                 if len(matches) > 0:
-#                    print("matches", len(matches))
                     for match in matches:
                         counter[match] += 1
-#        counter = self.sortxx(counter)
         print("counter", counter)
         self.make_graph(counter)
-
+    """
     def sortxx(self, counter):
         sorted_d = sorted((key, value) for (key, value) in counter.items())
         return sorted_d
-
-    def set_dictionaries(self, dictionary_names):
-        self.dict_names = dictionary_names
-
-    def set_project(self, project):
-        self.project = project
+    """
 
     def set_sections(self, sections):
         self.sections = sections
@@ -161,15 +152,31 @@ def main():
     test_sect_dicts()
     print("finished search")
 
+class AmiProjects:
+    """project files"""
+    OIL186 = "oil186"
+    CCT    = "cct"
+
+    def __init__(self):
+        self.create_project_dict()
+
+    def create_project_dict(self):
+        self.project_dict = {}
+        self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"))
+        self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))
+
+    def add_with_check(self, key, file):
+        Util.check_exists(file)
+        self.project_dict[key] = AmiProject(file)
+
+class AmiProject:
+    def __init__(self, dir):
+        self.dir = dir
 
 class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 
     """
-    COMPOUND = "compound"
-    COUNTRY = "country"
-    ORGANIZATION = "organization"
-    PLANT_PART = "plant_part"
 
     TERM = "term"
 
@@ -223,36 +230,42 @@ class SearchDictionary:
                 matched.append(target_word)
         return matched
 
-    @staticmethod
-    def create_search_dictionary_dict():
-        dictionary_dict = {}
-        SearchDictionary.add_with_check(dictionary_dict, SearchDictionary.COUNTRY, os.path.join(OV21_DIR, "country", "country.xml"))
-        SearchDictionary.add_with_check(dictionary_dict, SearchDictionary.COMPOUND, os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "eoCompound.xml"))
-        SearchDictionary.add_with_check(dictionary_dict, SearchDictionary.ORGANIZATION, os.path.join(OV21_DIR, "organization", "organization.xml"))
-        SearchDictionary.add_with_check(dictionary_dict, SearchDictionary.PLANT_PART, os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
-        return dictionary_dict
+class AmiDictionaries:
 
-    @staticmethod
-    def add_with_check(dictionary_dict, key, file):
+    COMPOUND = "compound"
+    COUNTRY = "country"
+    ORGANIZATION = "organization"
+    PLANT_PART = "plant_part"
+
+    def __init__(self):
+        self.create_search_dictionary_dict()
+
+    def create_search_dictionary_dict(self):
+        self.dictionary_dict = {}
+        self.add_with_check(AmiDictionaries.COUNTRY,
+                            os.path.join(OV21_DIR, "country", "country.xml"))
+        self.add_with_check(AmiDictionaries.COMPOUND,
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "eoCompound.xml"))
+        self.add_with_check(AmiDictionaries.ORGANIZATION,
+                            os.path.join(OV21_DIR, "organization", "organization.xml"))
+        self.add_with_check(AmiDictionaries.PLANT_PART,
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
+        return self.dictionary_dict
+
+    def add_with_check(self, key, file):
         Util.check_exists(file)
-        dictionary_dict[key] = SearchDictionary(file)
-
+        self.dictionary_dict[key] = SearchDictionary(file)
 
 
 
 def test_sect_dicts():
     ami_search = AmiSearch()
     # dictionaries
-    ami_search.add_dictionary_key(SearchDictionary.COUNTRY)
-    ami_search.add_dictionary_key(SearchDictionary.PLANT_PART)
+    ami_search.add_dictionary(AmiDictionaries.COUNTRY)
+    ami_search.add_dictionary(AmiDictionaries.ORGANIZATION)
 
-#    ami_search.add_search_dictionary()
-#    ami_search.use_dicts(["country", "compound"])
-# section_types
-#    project = {PROJ: OIL186}
-#    project = {PROJ: CCT}
-    project = OIL186
-    ami_search.set_project(project)
+    ami_search.add_project(AmiProjects.OIL186)
+    ami_search.add_project(AmiProjects.CCT)
 
 #    project = {PROJ: FUNDER}
     sects = [
@@ -262,15 +275,19 @@ def test_sect_dicts():
 #        "jrnl_title",
         "method",
         "introduction",
+        "fig_caption"
     ]
     ami_search.set_sections(sects)
 #    ami_search.set_dictionaries()
     # this may not be correct
-    for sect in sects:
-        section_files = AmiPath.create(sect, {PROJ: OIL186}).get_globbed_files()
-        print("***** section_files", sect, len(section_files))
-        ami_search.search_and_count(section_files)
-
+    for proj in ami_search.projects:
+        print("***** project",  proj)
+        ami_search.cur_proj = proj
+        for sect in sects:
+            ami_search.cur_sect = sect
+            section_files = AmiPath.create(sect, {PROJ: proj.dir}).get_globbed_files()
+            print("***** section_files", sect, len(section_files))
+            ami_search.search_and_count(section_files)
 
 def test_sect():
     ami_search = AmiSearch()

@@ -1,12 +1,7 @@
-
-import numpy as np
-import matplotlib.pyplot as plt
 import nltk, unicodedata
 import os
-import re
 import glob
-from file_lib import AmiPath, Globber
-from collections import namedtuple
+from file_lib import AmiPath
 from bs4 import BeautifulSoup
 from collections import Counter
 
@@ -56,19 +51,22 @@ STOPWORDS_PUB = {
 OIL186 = "/Users/pm286/projects/CEVOpen/searches/oil186" # pmr only
 
 class ProjectCorpus:
-
+    """manages an AMI CProject, not yet fully incorporated"""
     def __init__(self, cwd, tree_glob="./*/"):
         self.cwd = cwd
         self.tree_glob = tree_glob
         self.words = []
 
+    """NEEDS REFACTORING """
     def read_analyze_child_documents(self):
+        print("WARNING NYI FULLY")
 #        self.files = self.glob_corpus_files()
         self.files = glob.glob(os.path.join(self.cwd, self.tree_glob))
         print("glob", self.cwd, self.tree_glob, str(len(self.files)), self.files[:5])
-        filez = self.files
-        for file in filez:
-            c = Counter(TextUtil.get_words_in_file(file))
+        for file in self.files:
+            section = AmiSection()
+            section.read_file(file)
+            c = Counter(TextUtil.get_words_in_section(file))
             print(file.split("/")[-2:-1], c.most_common(20))
         wordz = TextUtil.get_aggregate_words_from_files(filez)
         cc = Counter(wordz)
@@ -89,6 +87,7 @@ class ProjectCorpus:
         project.read_analyze_child_documents()
         print("end test")
 
+    """
     @staticmethod
     def test_oil():
         print("start test", OIL186)
@@ -96,6 +95,7 @@ class ProjectCorpus:
         project = ProjectCorpus(OIL186)
         project.read_analyze_child_documents()
         print("end test")
+    """
 
     def __str__(self):
         return " ".join(map(str, self.sentences))
@@ -123,81 +123,147 @@ class Document:
             return
         terminal_files = glob.glob(os.path.join(sections_file, "**/*.xml"))
         for terminal_file in terminal_files:
+            # REFACTOR
             terminal_page = TextUtil.get_words_from_terminal_file(terminal_file)
             self.words.extend(terminal_page.get_words())
 
+    # REFACTOR
     @staticmethod
     def get_words_from_terminal_file(terminal_file):
-        terminal_page = TerminalPage(terminal_file)
-        terminal_page.analyze_file_contents()
-        return terminal_page.words
+        ami_section = AmiSection()
+        ami_section.read_file(terminal_file)
+        ami_section.sentences = [Sentence(s) for s in (nltk.sent_tokenize(ami_section.txt))]
+        ami_section.sentences = ami_section.sentences
+        if os.path.exists(ami_section.txt_file):
+            print("skipping existing text")
+        if ami_section.xml_file is not None:
+            """read a file as an ami-section of larger document """
+            with open(ami_section.xml_file, "r") as f:
+                ami_section.xml = f.read()
+            # assumes this has been chunked to sections
+            #        print("t", len(self.text), self.text[:50])
+            ami_section.txt = ami_section.flatten_xml_to_text(ami_section.xml)
+            #        self.sentences = Sentence.merge_false_sentence_breaks(self.sentences)
+
+            sentence_file = AmiSection.create_txt_filename_from_xml(ami_section.xml_file)
+            if not os.path.exists(sentence_file):
+                print("wrote sentence file", sentence_file)
+                Sentence.write_numbered_sentence_file(sentence_file, ami_section.sentences)
+            ami_section.get_words()
+        return ami_section.words
 
 
-class TerminalPage:
+class AmiSection:
     """the xml sub-document with text
     Currently either <title> or <p>
 
-    Will often get annotated with sentence markers
+≈    Will often get annotated with sentence markers
     """
-    def __init__(self, file):
-        self.file = file
+
+    XML_SUFF = ".xml"
+    TXT_SUFF = ".txt"
+
+    def __init__(self):
         self.words = []
+        self.xml_file = None
+        self.xml = None
+        self.txt_file = None
         self.text = None
-        if self.file is not None:
-            self.analyze_file_contents()
+        self.write_text = True
+        self.sentences = None
+#        self.read_section()
 
-
-    def analyze_file_contents(self):
-        if self.text is None:
-            """read a file as an ami-section of larger document """
-            with open(self.file, "r") as f:
-                self.text = f.read()
-            # assumes this has been chunked to sections
-    #        print("t", len(self.text), self.text[:50])
-            self.read_sentences()
+    def read_file(self, file):
+        if file is None:
+            raise Exception ("file is None")
+        if file.endswith(AmiSection.XML_SUFF):
+            self.xml_file = file
+            self.txt_file = AmiSection.create_txt_filename_from_xml(self.xml_file)
+            if os.path.exists(self.txt_file):
+                self.sentences = AmiSection.read_numbered_sentences_file(self.txt_file)
+            elif os.path.exists(self.xml_file):
+                """read a file as an ami-section of larger document """
+                with open(self.xml_file, "r") as f:
+                    self.xml = f.read()
+                self.txt = self.flatten_xml_to_text(self.xml)
+                self.sentences = [Sentence(s) for s in (nltk.sent_tokenize(self.txt))]
+#                        self.sentences = Sentence.merge_false_sentence_breaks(self.sentences)
+                if self.write_text and not os.path.exists(self.txt_file):
+                    print("wrote sentence file", self.txt_file)
+                    AmiSection.write_numbered_sentence_file(self.txt_file, self.sentences)
             self.get_words()
 
-    def read_sentences(self):
-        self.text = self.flatten_text(self.text)
-        self.sentences = [Sentence(s) for s in (nltk.sent_tokenize(self.text))]
-#        self.sentences = Sentence.merge_false_sentence_breaks(self.sentences)
-        sentence_file = self.file[:-4] + ".txt"
-        if not os.path.exists(sentence_file):
-            Sentence.write_sentence_file(sentence_file, self.sentences)
-
+# static utilities
 
     @staticmethod
-    def flatten_text(text):
+    def create_txt_filename_from_xml(xml_file):
+        sentence_file = xml_file[:-len(AmiSection.XML_SUFF)] + AmiSection.TXT_SUFF
+        return sentence_file
+
+    @staticmethod
+    def flatten_xml_to_text(xml):
         """removes xml tags , diacritics, """
-        text = TextUtil.strip_xml_tags(text)
+        text = TextUtil.strip_xml_tags(xml)
         text = TextUtil.remove_para_tags(text)
         text = unicodedata.normalize(NFKD, text)
         text = TextUtil.flatten_non_ascii(text)
         return text
 
     @staticmethod
-    def remove_stopwords(words, stopwords=nltk.corpus.stopwords.words("english")):
-        return [word for word in words if word.lower() not in stopwords]
+    def write_numbered_sentence_file(file, sentences):
+        """writes numbered sentences"""
+        with open(file, "w") as f:
+            for i, sentence in enumerate(sentences):
+                f.write(str(i) + Sentence.NUMBER_SPLIT + sentence.string + "\n")
 
-    
+    @staticmethod
+    def read_numbered_sentences_file(file):
+        """ read file with lines of form line_no<sep>text where line_no starts at 0"""
+#        print("reading sentences")
+        sentences = None
+        if file is not None and os.path.exists(file):
+            with open(file, "r") as f:
+                lines = f.readlines()
+            if len(lines) == 0:
+#                print("warning empty file", file)
+                pass
+#            else:
+#                print("l", len(lines), lines[0])
+            try:
+                sentences = Sentence.read_number_sentences(lines)
+            except Exception as ex:
+                print(ex, file)
+#            if len(sentences) > 0:
+#                print("s", len(sentences), sentences[0])
+
+
+        return sentences
+
+
     def get_words(self):
         for sentence in self.sentences:
-            self.words.extend(sentence.words)
+            words = sentence.words
+#            print("w", sentence, len(words))
+            self.words.extend(words)
         return self.words
 
 class Sentence:
 
+    NUMBER_SPLIT = ": "
+
     def __init__(self, string):
         self.string = string
-        self.words = nltk.word_tokenize(string)
+#        self.words = Sentence.tokenize_to_words(string)
+        self.words = string.split(" ")
         self.words = Sentence.remove_punct(self.words)
 
     @staticmethod
-    def merge_false_sentence_breaks(sentences):
-        # this was for rogue periods, etc.
-        sent0 = []
-        for i, sent in enumerate(sentences):
-            pass
+
+    def tokenize_to_words(string):
+        """ may be quite slow compared to brute splitting at spaces
+
+        returns: list of words"""
+        return nltk.word_tokenize(string)
 
     @staticmethod
     def remove_punct(tokens):
@@ -210,13 +276,26 @@ class Sentence:
         tokens = [token for token in tokens if not token in PUNCT]
         return tokens
 
-    @staticmethod
-    def write_sentence_file(file, sentences):
-        """writes numbered sentences"""
-        with open(file, "w") as f:
-            for i, sentence in enumerate(sentences):
-                f.write(str(i) + ": " + sentence.string + "\n")
 
+    @staticmethod
+    def read_numbered_line(text):
+        chunks = text.split(Sentence.NUMBER_SPLIT)
+        if not len(chunks) > 1 or not str.isdigit(text[0]):
+            raise Exception("Not a numbered sentence", text)
+        return int(chunks[0]), chunks[1]
+
+    @staticmethod
+    def read_number_sentences(lines):
+        """reads lines of form line_no<sep>text where line_no starts at 0"""
+        sentences = []
+        lasti = -1
+        for i, line in enumerate(lines):
+            line_no, text = Sentence.read_numbered_line(line)
+            if i != lasti + 1 or i != line_no:
+                raise Exception("failed to read lines in order", i, line_no, line)
+            lasti = i
+            sentences.append(Sentence(text))
+        return sentences
 
     def __str__(self):
         return " ".join(map(str, self.words))
@@ -277,29 +356,110 @@ class TextUtil:
         """
         pattern = r'[^A-Za-z0-9\s]' if not remove_digits else r'[A-Za-z\s]'
         text = re.sub(pattern, '', text)
-        return textx
+        return text
 
     @staticmethod
     def get_aggregate_words_from_files(files):
         all_words = []
         for file in files:
-            words = TextUtil.get_words_in_file(file)
+            words = TextUtil.get_words_in_section(file)
             all_words.extend(words)
         return all_words
 
     @staticmethod
-    def get_words_in_file(file):
+    # move to AmiSection
+    def get_words_in_section(file):
 #        document = Document(file)  # level of tree
 #        words = document.words
-        page = TerminalPage(file)
-        words = page.words
+        section = AmiSection()
+        section.read_file(file)
+        words = section.words
 
+        word_filter = WordFilter()
+ #       words = word_filter.filter_words(words)
+        words = TextUtil.filter_words(section.words)
+        return words
+
+    @staticmethod #OBSOLETE
+    def filter_words(words):
         words = [w for w in words if len(w) > 2]
         words = [w for w in words if w.lower() not in STOPWORDS_EN]
         words = [w for w in words if w.lower() not in STOPWORDS_PUB]
         words = [w for w in words if not w.isnumeric()]
         return words
 
+class WordFilter:
+
+    """ filters a list of words
+    generally deletes words not satisfying a condition but this may develop
+    """
+    def __init__(self):
+        self.min_length = 2
+        self.use_lower_stopwords = True
+        self.stop_words_set = set(STOPWORDS_EN).union(STOPWORDS_PUB)
+        self.delete_numeric = True
+        self.delete_non_alphanum = True
+        self.regex = None
+        self.keep_regex = True
+        self.split_spaces = False
+
+    def filter_words(self, words):
+        words = self.delete_short_words(words, self.min_length)
+        words = self.delete_stop_words(words, self.stop_words)
+        if self.delete_numeric:
+            words = self.delete_num(words)
+        if self.delete_non_alphanumeric:
+            words = self.delete_non_alphanum(words)
+        if self.regex is not None:
+            words = self.filter_by_regex(words, self.regex, self.keep_regex)
+
+        return words
+
+    def set_regex(self, regex_string, keep=True):
+        """ filter words by regex
+
+        regex_string: regex to match
+        keep: if True accept matching words else reject matches
+        """
+        self.regex = re.compile(regex_string)
+        self.keep_regex = keep
+
+
+    @staticmethod
+    def delete_num(self, words):
+        """delete words satisfying str.isnumeric() """
+        words = [w for w in words if not w.isnumeric()]
+        return words
+
+    @staticmethod
+    def delete_non_alphanum(self, words):
+        """delete strings satisfying str.isalnum()"""
+        words = [w for w in words if w.isalnum()]
+        return words
+
+    @staticmethod
+    def delete_stop_words_list(self, words, stop_words_list):
+        """delete words in lists of stop words"""
+        for stop_words in stop_words_list:
+            words = [w for w in words if w.lower() not in stop_words]
+        return words
+
+    def filter_stop_words(self, words, stop_words, keep=False):
+        if keep:
+            words = [w for w in words if w.lower() in stop_words]
+        else:
+            words = [w for w in words if w.lower() not in stop_words]
+        return words
+
+
+    def delete_short_words(self, words, min_length):
+        """delete words less than equal to min_length"""
+        words = [w for w in words if len(w) > min_length]
+        return words
+
+    def filter_by_regex(self, words, regex_string, keep=True):
+        words1 = [w for w in words if re.match(regex_string)]
+        return words1
 
 
 def main():
@@ -317,12 +477,6 @@ else:
 
 class Ngrams:
     """Various codes from StackOverflow and similar"""
-
-    import collections
-    import re
-    import sys
-    import time
-
 
     def tokenize(string):
         """Convert string to lowercase and split into words (ignoring
@@ -352,7 +506,7 @@ class Ngrams:
     # Loop through all lines and words and add n-grams to dict
         for line in self.lines:
             for word in tokenize(line):
-                self.queue.append(word)
+                self.queue._append_facet(word)
                 if len(self.queue) >= self.max_length:
                     add_queue()
 

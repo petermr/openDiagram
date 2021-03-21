@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The inhibition rate was calculated as follows: 
+ <disp-formula id="FD1-materials-10-00045">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mi>R</mi>
+     <mo stretchy="false">(</mo>
+     <mo>%</mo>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>C</mi>
+       <mo>−</mo>
+       <mi>S</mi>
+      </mrow>
+      <mi>C</mi>
+     </mfrac>
+     <mo>×</mo>
+     <mn>100</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>C</italic> is the rate of the fungal mycelium growth of the control, and 
+ <italic>S</italic> is the rate of the fungal mycelium growth of the samples.
+</p>

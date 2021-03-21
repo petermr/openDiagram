@@ -18,6 +18,9 @@ CEV_DICT_DIR = os.path.join(DICT_DIR, "cevopen")
 PMR_DIR = os.path.join(DICT_DIR, "pmr")
 
 PROJECTS = os.path.join(HOME, "projects")
+OPEN_DIAGRAM = os.path.join(PROJECTS, "openDiagram")
+PHYSCHEM = os.path.join(OPEN_DIAGRAM, "physchem")
+PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
 CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
 CEV_OPEN_DICT_DIR = os.path.join(CEV_OPEN_DIR, "dictionary")
 OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
@@ -34,7 +37,18 @@ class AmiSearch:
         self.sections = []
         self.word_counter = None
         self.debug = False
+        self.do_search = True
+        self.do_plot = True
         self.ami_projects = AmiProjects()
+        self.cur_sect = None
+        self.cur_dict = None
+        self.cur_proj = None
+
+        # print every debug_cnt filenamwe
+        self.debug_cnt = 10000
+        # maximum files to search
+        self.max_files = 10000
+
         # look up how sections work
 #        self.ami_sections = AmiSections()
         self.ami_dictionaries = AmiDictionaries()
@@ -50,33 +64,51 @@ class AmiSearch:
 
     def make_title(self):
         ptit = self.cur_proj.dir.split("/")[-1:][0]
-        sect = self.cur_sect
-        return ptit + ":   " + sect
+        return ptit + ":   " + self.cur_sect + ":   " + self.cur_dict.name
+
+    def use_dictionaries(self, *args):
+        for arg in args:
+            self.add_dictionary(arg)
 
     def add_dictionary(self, name):
-        self.append("dictionary", name, self.ami_dictionaries.dictionary_dict, self.dictionaries)
+        AmiSearch._append_facet("dictionary", name, self.ami_dictionaries.dictionary_dict, self.dictionaries)
+
+    def use_projects(self, *args):
+        for arg in args:
+            self.add_project(arg)
 
     def add_project(self, name):
-        self.append("project", name, self.ami_projects.project_dict, self.projects)
+        AmiSearch._append_facet("project", name, self.ami_projects.project_dict, self.projects)
+
+    """
+    def use_sections(self, *args):
+        for arg in args:
+            self.add_section(arg)
 
     def add_section(self, name):
         print("******************don't use sections here")
-        self.append("section", name, self.sections.section_dict, self.sections)
+        AmiSearch._append_facet("section", name, self.sections.section_dict, self.sections)
+    """
 
-    def append(self, label, name, dikt, dict_list):
+    @staticmethod
+    def _append_facet(label, name, dikt, dict_list):
         if not name in dikt:
             raise Exception("unknown", label, name)
         dict_list.append(dikt[name])
 
-
     def search(self, file):
-        matches_by_amidict = {}
-        words = TextUtil.get_words_in_file(file)
+        words = TextUtil.get_words_in_section(file)
 #        print("words", len(words))
+        matches_by_amidict = self.match_words_against_dictionaries(file, words)
 
+        return matches_by_amidict
+
+    def match_words_against_dictionaries(self, file, words):
+        matches_by_amidict = {}
         found = False
         for dictionary in self.dictionaries:
-#            print("d", dictionary)
+            #            print("d", dictionary)
+            self.cur_dict = dictionary
             hits = dictionary.match(words)
             matches_by_amidict[dictionary.name] = hits
             if len(hits) > 0:
@@ -87,33 +119,66 @@ class AmiSearch:
             print("file: ", file)
             with open(file, "r") as f:
                 print("read", f.read())
-
         return matches_by_amidict
 
     def search_and_count(self, section_files):
         counter = Counter()
-        debug_cnt = 10000
-        max_files = 10000
-        for index, target_file in enumerate(section_files[:max_files]):
+        for index, target_file in enumerate(section_files[:self.max_files]):
 
-            if index % debug_cnt == 0:
+            if index % self.debug_cnt == 0:
                 print("file", target_file)
             matches_by_amidict = self.search(target_file)
-            for amidict in matches_by_amidict:
-                matches = matches_by_amidict[amidict]
-                if len(matches) > 0:
-                    for match in matches:
-                        counter[match] += 1
+            if self.do_search:
+                for amidict in matches_by_amidict:
+                    matches = matches_by_amidict[amidict]
+                    if len(matches) > 0:
+                        for match in matches:
+                            counter[match] += 1
         print("counter", counter)
-        self.make_graph(counter)
-    """
-    def sortxx(self, counter):
-        sorted_d = sorted((key, value) for (key, value) in counter.items())
-        return sorted_d
-    """
+        if self.do_plot:
+            self.make_graph(counter)
 
-    def set_sections(self, sections):
+    def use_sections(self, sections):
         self.sections = sections
+
+    def run_search(self):
+        for proj in self.projects:
+            print("***** project", proj.dir)
+            self.cur_proj = proj
+            for sect in self.sections:
+                self.cur_sect = sect
+                section_files = AmiPath.create(sect, {PROJ: proj.dir}).get_globbed_files()
+                print("***** section_files", sect, len(section_files))
+                self.search_and_count(section_files)
+
+    @staticmethod
+    def test_sect_dicts():
+        ami_search = AmiSearch()
+
+        ami_search.use_sections(["method", "introduction", "fig_caption"])
+        ami_search.use_dictionaries(AmiDictionaries.COUNTRY, AmiDictionaries.ORGANIZATION)
+#        ami_search.use_projects(AmiProjects.OIL186, AmiProjects.CCT)
+        ami_search.use_projects(AmiProjects.OIL26)
+
+        ami_search.run_search()
+
+    @staticmethod
+    def test_sect():
+        """ not currently used"""
+        ami_search = AmiSearch()
+        # section_types
+        section_type = "ethics"
+        sects_method = AmiPath.create(section_type, {PROJ: OIL186})
+
+        ami_search.dicts = [
+            os.path.join(PMR_DIR, "ethics", "ethics.xml"),
+        ]
+        #    globlets = [        AmiPath.create("fig_caption", {PROJ: proj_dir}),
+        #        AmiPath.create("", {PROJ: proj_dir}),
+
+        #    ami_search.search_with_dictionaries(dicts, globlets)
+        section_files = AmiPath.create("fig_caption", {PROJ: OIL186}),
+        ami_search.search_and_count(section_files)
 
 
 class SimpleDict:
@@ -125,36 +190,11 @@ class SimpleDict:
         print(self.lines)
 
 
-def main():
-    import argparse
-
-    parser = argparse.ArgumentParser(description='Search sections with dictionaries')
-    """
-    parser.add_argument('integers', metavar='N', type=int, nargs='+',
-                        help='an integer for the accumulator')
-    parser.add_argument('--sum', dest='accumulate', action='store_const',
-                        const=sum, default=max,
-                        help='sum the integers (default: find the max)')
-    """
-    parser.add_argument('--dict', nargs="+",
-                        help='dictiomaries to search with (lookup table from JSON (NYI); empty gives list')
-    parser.add_argument('--sect', nargs="+",
-                        help='sections to search; empty gives list')
-
-
-    args = parser.parse_args()
-    print("dicts", args.dict)
-    print("sects", args.sect)
-
-#    print(f"Name of the script      : {sys.argv[0]=}")
-#    print(f"Arguments of the script : {sys.argv[1:]=}")
-#    return
-    test_sect_dicts()
-    print("finished search")
-
 class AmiProjects:
     """project files"""
+    LIION10 = "liion10"
     OIL186 = "oil186"
+    OIL26 = "oil26"
     CCT    = "cct"
 
     def __init__(self):
@@ -162,6 +202,8 @@ class AmiProjects:
 
     def create_project_dict(self):
         self.project_dict = {}
+        self.add_with_check(AmiProjects.LIION10, os.path.join(PHYSCHEM_RESOURCES, "liion10"))
+        self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"))
         self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"))
         self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))
 
@@ -184,6 +226,7 @@ class SearchDictionary:
         if not os.path.exists(file):
             raise IOError("cannot find file " + str(file))
         self.read_file(file)
+        self.name = file.split("/")[-1:][0].split(".")[0]
         self.options = {} if not "options" in kwargs else kwargs["options"]
         if "synonyms" in self.options:
             print("use synonyms")
@@ -257,69 +300,47 @@ class AmiDictionaries:
         self.dictionary_dict[key] = SearchDictionary(file)
 
 
+def test_profile():
+    import cProfile
+    print("profile")
+    cProfile.run("[x for x in range(1500)]")
 
-def test_sect_dicts():
-    ami_search = AmiSearch()
-    # dictionaries
-    ami_search.add_dictionary(AmiDictionaries.COUNTRY)
-    ami_search.add_dictionary(AmiDictionaries.ORGANIZATION)
+def test_profile1():
+    import cProfile
+    print("profile1")
+    cProfile.run("AmiSearch.test_sect_dicts()")
 
-    ami_search.add_project(AmiProjects.OIL186)
-    ami_search.add_project(AmiProjects.CCT)
+def main():
+    import argparse
 
-#    project = {PROJ: FUNDER}
-    sects = [
-#        "acknowledge",
-#        "affiliation",
-#        "ethics",
-#        "jrnl_title",
-        "method",
-        "introduction",
-        "fig_caption"
-    ]
-    ami_search.set_sections(sects)
-#    ami_search.set_dictionaries()
-    # this may not be correct
-    for proj in ami_search.projects:
-        print("***** project",  proj)
-        ami_search.cur_proj = proj
-        for sect in sects:
-            ami_search.cur_sect = sect
-            section_files = AmiPath.create(sect, {PROJ: proj.dir}).get_globbed_files()
-            print("***** section_files", sect, len(section_files))
-            ami_search.search_and_count(section_files)
-
-def test_sect():
-    ami_search = AmiSearch()
-# section_types
-    section_type = "ethics"
-    sects_method = AmiPath.create(section_type, {PROJ: OIL186})
-
-    ami_search.dicts = [
-        os.path.join(PMR_DIR, "ethics", "ethics.xml"),
-        ]
-#    globlets = [        AmiPath.create("fig_caption", {PROJ: proj_dir}),
-#        AmiPath.create("", {PROJ: proj_dir}),
+    parser = argparse.ArgumentParser(description='Search sections with dictionaries')
+    """
+    parser.add_argument('integers', metavar='N', type=int, nargs='+',
+                        help='an integer for the accumulator')
+    parser.add_argument('--sum', dest='accumulate', action='store_const',
+                        const=sum, default=max,
+                        help='sum the integers (default: find the max)')
+    """
+    parser.add_argument('--dict', nargs="+",
+                        help='dictiomaries to search with (lookup table from JSON (NYI); empty gives list')
+    parser.add_argument('--sect', nargs="+",
+                        help='sections to search; empty gives list')
 
 
-#    ami_search.search_with_dictionaries(dicts, globlets)
-    section_files = AmiPath.create("fig_caption", {PROJ: OIL186}),
-    ami_search.search_and_count(section_files)
+    args = parser.parse_args()
+    print("dicts", args.dict)
+    print("sects", args.sect)
 
+#    print(f"Name of the script      : {sys.argv[0]=}")
+#    print(f"Arguments of the script : {sys.argv[1:]=}")
+#    return
+# the main test
 
-def make_graph(self, counter):
-    import matplotlib.pyplot as plt
-    print("counter")
-    fig, ax = plt.subplots()
-    names = list(counter.keys())
-    print("names>", names)
-    ax.bar(names, counter.values(), color='g') # orig
+    AmiSearch.test_sect_dicts()
+# this profiles it
+#    test_profile1()
+    print("finished search")
 
-#    plt.xticks(rotation=30)
-    plt.setp(ax.get_xticklabels(), rotation=30, ha='right')
-    plt.show()
-
-# https://www.pythoncharts.com/matplotlib/rotating-axis-labels/
 
 if __name__ == "__main__":
     print("running search main")

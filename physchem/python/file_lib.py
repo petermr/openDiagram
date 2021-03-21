@@ -206,10 +206,6 @@ class FileLib:
         if not os.path.exists(outdir):
             os.mkdir(outdir)
 
-
-
-
-
 SECTION_TEMPLATES_JSON = 'section_templates.json'
 with open(SECTION_TEMPLATES_JSON, 'r') as json_file:
     TEMPLATES = json.load(json_file)

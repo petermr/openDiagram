@@ -298,7 +298,7 @@ def file_to_dict(tsv, cell_delimiter, str_col_idx):
     if len(rows[-1]) < length:
         # Fixes bug that occurs when last text string in TSV is null, and
         # last row is missing a final cell in TSV file
-        rows[-1].append('')
+        rows[-1]._append_facet('')
 
     if str_col_idx < 0:
         str_col_idx += length

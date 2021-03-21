@@ -190,7 +190,7 @@ class AmiConfig:
         wikidata = file_tree_xml.findall("entry[@wikidataID]")
 
         if desc:
-            print(dict_name, "entries", len(entries), "wikidata", len(wikidata), "\n     ", desc[0].text)
+            print(dict_name, "entries", len(entries), "wikidata", len(wikidata), "\n     ", desc[0].xml_file)
         else:
             print("no desc")
 

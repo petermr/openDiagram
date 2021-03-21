@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-13-00801-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-13-00801-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Variation of estimated global warming potential (GWP) of lithium-iron-phosphate synthesis and cradle-to-gate energy consumption calculated for 1 kg active material production from data provided in literature; here, SS, HT, and N.S. are solid state, hydrothermal, and not specified, respectively.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Synthesis Method</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">SS</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">SS</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">HT</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">HT</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">SS</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">References</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B41-materials-13-00801" ref-type="bibr">41</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B39-materials-13-00801" ref-type="bibr">39</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B37-materials-13-00801" ref-type="bibr">37</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B38-materials-13-00801" ref-type="bibr">38</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B38-materials-13-00801" ref-type="bibr">38</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GWP (kg CO
+     <sub>2</sub> equivalent)
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.0</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.0</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Energy consumption (MJ)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">N.S.</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">19</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">N.S.</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">56</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">34</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

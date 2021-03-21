@@ -113,14 +113,14 @@ class XmlLib:
         title = None
         for elem in list(sec):
             if elem.tag == "title":
-                title = elem.text
+                title = elem.xml_file
                 break
 
         if title is None:
-            if sec.text is None:
+            if sec.xml_file is None:
                 title = "EMPTY"
             else:
-                title = "?_"+sec.text[:20]
+                title = "?_"+ sec.xml_file[:20]
         title = title.replace(" ", "_")
         return title
 

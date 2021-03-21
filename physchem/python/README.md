@@ -19,6 +19,12 @@ Use glob-based wildcards to extract only the sections of interest (e.g. abstract
 ## search content in sections, using dictionaries
 The new code [./search.py] will replaces `ami search`.
 
+## DEMO with multiple projects , dictionaries and sections
+** for Monday 2021-03-22 **
+** RUN **
+```
+python search_lib.py
+```
 
 
 # demo

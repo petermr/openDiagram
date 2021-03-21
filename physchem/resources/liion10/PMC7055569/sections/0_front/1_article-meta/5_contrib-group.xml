@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib id="advs1498-cr-0001" contrib-type="author">
+  <name>
+   <surname>Khan</surname>
+   <given-names>Ziyauddin</given-names>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8242-7547</contrib-id>
+  <xref ref-type="aff" rid="advs1498-aff-0001">
+   <sup>1</sup>
+  </xref>
+  <xref ref-type="bio" rid="advs1498-biog-0001">*</xref>
+ </contrib>
+ <contrib id="advs1498-cr-0002" contrib-type="author">
+  <name>
+   <surname>Vagin</surname>
+   <given-names>Mikhail</given-names>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8478-4663</contrib-id>
+  <xref ref-type="aff" rid="advs1498-aff-0001">
+   <sup>1</sup>
+  </xref>
+  <xref ref-type="bio" rid="advs1498-biog-0002">*</xref>
+ </contrib>
+ <contrib id="advs1498-cr-0003" contrib-type="author" corresp="yes">
+  <name>
+   <surname>Crispin</surname>
+   <given-names>Xavier</given-names>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8845-6296</contrib-id>
+  <xref ref-type="aff" rid="advs1498-aff-0001">
+   <sup>1</sup>
+  </xref>
+  <address>
+   <email>xavier.crispin@liu.se</email>
+  </address>
+  <xref ref-type="bio" rid="advs1498-biog-0003">*</xref>
+ </contrib>
+</contrib-group>

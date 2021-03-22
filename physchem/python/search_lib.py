@@ -3,7 +3,7 @@ import os
 # https://stackoverflow.com/questions/19917492/how-can-i-use-a-python-script-in-the-command-line-without-cd-ing-to-its-director
 
 from file_lib import AmiPath, PROJ
-from text_lib import TextUtil
+from text_lib import TextUtil, AmiSection
 from util import Util
 from xml.etree import ElementTree as ET
 from collections import Counter
@@ -23,6 +23,7 @@ PHYSCHEM = os.path.join(OPEN_DIAGRAM, "physchem")
 PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
 CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
 CEV_OPEN_DICT_DIR = os.path.join(CEV_OPEN_DIR, "dictionary")
+DICT_CEV_OPEN = os.path.join(DICT_DIR, "cevopen")
 OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
 MINIPROJ = os.path.join(OPEN_VIRUS, "miniproject")
 FUNDER = os.path.join(MINIPROJ, "funder")
@@ -48,23 +49,24 @@ class AmiSearch:
         self.debug_cnt = 10000
         # maximum files to search
         self.max_files = 10000
+        self.min_hits = 1
 
         # look up how sections work
 #        self.ami_sections = AmiSections()
         self.ami_dictionaries = AmiDictionaries()
 
-    def make_graph(self, dictionary):
+    def make_graph(self, counter, dict_name):
         import matplotlib.pyplot as plt
 #        ax = plt.gca()
-        plt.bar(list(dictionary.keys()), dictionary.values(), color='blue')
+        plt.bar(list(counter.keys()), counter.values(), color='blue')
 #        ax.set_xticklabels(ax.get_xticks(), rotation=45)
         plt.xticks(rotation=45, ha='right') # this seems to work
-        plt.title(self.make_title())
+        plt.title(self.make_title(dict_name))
         plt.show()
 
-    def make_title(self):
+    def make_title(self, dict_name):
         ptit = self.cur_proj.dir.split("/")[-1:][0]
-        return ptit + ":   " + self.cur_sect + ":   " + self.cur_dict.name
+        return ptit + ":   " + self.cur_sect + ":   " + dict_name
 
     def use_dictionaries(self, *args):
         for arg in args:
@@ -122,7 +124,11 @@ class AmiSearch:
         return matches_by_amidict
 
     def search_and_count(self, section_files):
-        counter = Counter()
+        counter_dict = {}
+        for amidict in self.dictionaries:
+            print (">amidict>", amidict.name)
+            counter_dict[amidict.name] = Counter()
+
         for index, target_file in enumerate(section_files[:self.max_files]):
 
             if index % self.debug_cnt == 0:
@@ -133,10 +139,9 @@ class AmiSearch:
                     matches = matches_by_amidict[amidict]
                     if len(matches) > 0:
                         for match in matches:
-                            counter[match] += 1
-        print("counter", counter)
-        if self.do_plot:
-            self.make_graph(counter)
+                            counter_dict[amidict][match] += 1
+
+        return counter_dict
 
     def use_sections(self, sections):
         self.sections = sections
@@ -149,16 +154,36 @@ class AmiSearch:
                 self.cur_sect = sect
                 section_files = AmiPath.create(sect, {PROJ: proj.dir}).get_globbed_files()
                 print("***** section_files", sect, len(section_files))
-                self.search_and_count(section_files)
+                counter_dict = self.search_and_count(section_files)
+
+                for amidict in counter_dict:
+                    c = counter_dict[amidict]
+                    min_counter = Counter({k: c for k, c in c.items() if c >= self.min_hits})
+                    if self.do_plot:
+                        self.make_graph(min_counter, amidict)
+
 
     @staticmethod
     def test_sect_dicts():
         ami_search = AmiSearch()
+        ami_search.min_hits = 2
 
-        ami_search.use_sections(["method", "introduction", "fig_caption"])
-        ami_search.use_dictionaries(AmiDictionaries.COUNTRY, AmiDictionaries.ORGANIZATION)
+        ami_search.use_sections([
+#            "method",
+            AmiSection.INTRO,
+            AmiSection.METHOD,
+#            "fig_caption"
+        ])
+        ami_search.use_dictionaries(
+#            AmiDictionaries.ACTIVITY,
+            AmiDictionaries.COUNTRY,
+            AmiDictionaries.GENUS,
+#            AmiDictionaries.ORGANIZATION,
+#            AmiDictionaries.PLANT_COMPOUND,
+#            AmiDictionaries.PLANT_PART,
+        )
 #        ami_search.use_projects(AmiProjects.OIL186, AmiProjects.CCT)
-        ami_search.use_projects(AmiProjects.OIL26)
+        ami_search.use_projects(AmiProjects.OIL186)
 
         ami_search.run_search()
 
@@ -275,9 +300,12 @@ class SearchDictionary:
 
 class AmiDictionaries:
 
+    ACTIVITY = "activity"
     COMPOUND = "compound"
     COUNTRY = "country"
+    GENUS = "genus"
     ORGANIZATION = "organization"
+    PLANT_COMPOUND = "plant_compound"
     PLANT_PART = "plant_part"
 
     def __init__(self):
@@ -285,12 +313,21 @@ class AmiDictionaries:
 
     def create_search_dictionary_dict(self):
         self.dictionary_dict = {}
+#        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
+        self.add_with_check(AmiDictionaries.ACTIVITY,
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoActivity", "eo_activity", "Activity.xml"))
         self.add_with_check(AmiDictionaries.COUNTRY,
                             os.path.join(OV21_DIR, "country", "country.xml"))
         self.add_with_check(AmiDictionaries.COMPOUND,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "eoCompound.xml"))
+        # /Users/pm286/dictionary/cevopen/plant_genus/eo_plant_genus.xml
+        self.add_with_check(AmiDictionaries.GENUS,
+                            os.path.join(DICT_CEV_OPEN, "plant_genus", "eo_plant_genus.xml"))
         self.add_with_check(AmiDictionaries.ORGANIZATION,
                             os.path.join(OV21_DIR, "organization", "organization.xml"))
+#        / Users / pm286 / projects / CEVOpen / dictionary / eoCompound / plant_compounds.xml
+        self.add_with_check(AmiDictionaries.PLANT_COMPOUND,
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compounds.xml"))
         self.add_with_check(AmiDictionaries.PLANT_PART,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
         return self.dictionary_dict

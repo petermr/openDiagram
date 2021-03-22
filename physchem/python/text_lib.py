@@ -163,6 +163,35 @@ class AmiSection:
     XML_SUFF = ".xml"
     TXT_SUFF = ".txt"
 
+    # sections in template file
+    ABSTRACT    = "abstract"
+    ACKNOW      = "acknowledge"
+    AFFIL       = "affiliation"
+    AUTHOR      = "author"
+    BACKGROUND  = "background"
+    DISCUSS     = "discussion"
+    EMPTY       = "empty"
+    ETHICS      = "ethics"
+    FIG_CAPTION = "fig_caption"
+    FRONT       = "front"
+    INTRO       = "introduction"
+    JRNL        = "jrnl_title"
+    KWD         = "keyword"
+    METHOD      = "method"
+    MATERIAL    = "material"
+    OCTREE      = "octree"
+    PDFIMAGE    = "pdfimage"
+    PUB_DATE    = "pub_date"
+    PUBLISHER   = "publisher"
+    REFERENCE   = "reference"
+    RESULTS     = "results_discuss"
+    RESULTS     = "results"
+    SECTIONS    = "sections"
+    SVG         = "svg"
+    TABLE       = "table"
+    TITLE       = "title"
+    WORD        = "word"
+
     def __init__(self):
         self.words = []
         self.xml_file = None

@@ -7,6 +7,7 @@ from text_lib import TextUtil, AmiSection
 from util import Util
 from xml.etree import ElementTree as ET
 from collections import Counter
+import re
 
 HOME = os.path.expanduser("~")
 PYDIAG = "../../python/diagrams"
@@ -34,6 +35,7 @@ class AmiSearch:
 
     def __init__(self):
         self.dictionaries = []
+        self.patterns = []
         self.projects = []
         self.sections = []
         self.word_counter = None
@@ -42,7 +44,7 @@ class AmiSearch:
         self.do_plot = True
         self.ami_projects = AmiProjects()
         self.cur_sect = None
-        self.cur_dict = None
+#        self.cur_dict = None
         self.cur_proj = None
 
         # print every debug_cnt filenamwe
@@ -82,16 +84,6 @@ class AmiSearch:
     def add_project(self, name):
         AmiSearch._append_facet("project", name, self.ami_projects.project_dict, self.projects)
 
-    """
-    def use_sections(self, *args):
-        for arg in args:
-            self.add_section(arg)
-
-    def add_section(self, name):
-        print("******************don't use sections here")
-        AmiSearch._append_facet("section", name, self.sections.section_dict, self.sections)
-    """
-
     @staticmethod
     def _append_facet(label, name, dikt, dict_list):
         if not name in dikt:
@@ -101,47 +93,59 @@ class AmiSearch:
     def search(self, file):
         words = TextUtil.get_words_in_section(file)
 #        print("words", len(words))
-        matches_by_amidict = self.match_words_against_dictionaries(file, words)
+        matches_by_amidict = self.match_words_against_dictionaries(words)
+        matches_by_pattern = self.match_words_against_pattern(words)
 
-        return matches_by_amidict
+        return matches_by_amidict, matches_by_pattern
 
-    def match_words_against_dictionaries(self, file, words):
+    def match_words_against_dictionaries(self, words):
         matches_by_amidict = {}
         found = False
         for dictionary in self.dictionaries:
-            #            print("d", dictionary)
-            self.cur_dict = dictionary
             hits = dictionary.match(words)
             matches_by_amidict[dictionary.name] = hits
-            if len(hits) > 0:
-                found = True
-                if self.debug:
-                    print("HITS", len(hits))
-        if found and self.debug:
-            print("file: ", file)
-            with open(file, "r") as f:
-                print("read", f.read())
         return matches_by_amidict
 
+    def match_words_against_pattern(self, words):
+        matches_by_pattern = {}
+        found = False
+        for pattern in self.patterns:
+            hits = pattern.match(words)
+            matches_by_pattern[pattern.name] = hits
+        return matches_by_pattern
+
+    @staticmethod
+    def print_file(file):
+        print("file: ", file)
+        with open(file, "r") as f:
+            print("read", f.read())
+
     def search_and_count(self, section_files):
-        counter_dict = {}
-        for amidict in self.dictionaries:
-            print (">amidict>", amidict.name)
-            counter_dict[amidict.name] = Counter()
+        dictionary_counter_dict = self.create_counter_dict(self.dictionaries)
+        pattern_counter_dict = self.create_counter_dict(self.patterns)
 
         for index, target_file in enumerate(section_files[:self.max_files]):
 
             if index % self.debug_cnt == 0:
                 print("file", target_file)
-            matches_by_amidict = self.search(target_file)
-            if self.do_search:
-                for amidict in matches_by_amidict:
-                    matches = matches_by_amidict[amidict]
-                    if len(matches) > 0:
-                        for match in matches:
-                            counter_dict[amidict][match] += 1
+            matches_by_amidict, matches_by_pattern = self.search(target_file)
+            self.add_matches_to_counter_dict(dictionary_counter_dict, matches_by_amidict)
+            self.add_matches_to_counter_dict(pattern_counter_dict, matches_by_pattern)
 
+        return dictionary_counter_dict, pattern_counter_dict
+
+    def create_counter_dict(self, search_tools):
+        counter_dict = {}
+        for tool in search_tools:
+            counter_dict[tool.name] = Counter()
         return counter_dict
+
+    def add_matches_to_counter_dict(self, counter_dict, matches_by_amidict):
+        for amidict in matches_by_amidict:
+            matches = matches_by_amidict[amidict]
+            if len(matches) > 0:
+                for match in matches:
+                    counter_dict[amidict][match] += 1
 
     def use_sections(self, sections):
         self.sections = sections
@@ -154,14 +158,17 @@ class AmiSearch:
                 self.cur_sect = sect
                 section_files = AmiPath.create(sect, {PROJ: proj.dir}).get_globbed_files()
                 print("***** section_files", sect, len(section_files))
-                counter_dict = self.search_and_count(section_files)
+                counter_dict, pattern_dict = self.search_and_count(section_files)
 
-                for amidict in counter_dict:
-                    c = counter_dict[amidict]
-                    min_counter = Counter({k: c for k, c in c.items() if c >= self.min_hits})
-                    if self.do_plot:
-                        self.make_graph(min_counter, amidict)
+                self.plot_tool_hits(counter_dict)
+                self.plot_tool_hits(pattern_dict)
 
+    def plot_tool_hits(self, tool_dict):
+        for tool in tool_dict:
+            c = tool_dict[tool]
+            min_counter = Counter({k: c for k, c in c.items() if c >= self.min_hits})
+            if self.do_plot:
+                self.make_graph(min_counter, tool)
 
     @staticmethod
     def test_sect_dicts():
@@ -177,7 +184,7 @@ class AmiSearch:
         ami_search.use_dictionaries(
 #            AmiDictionaries.ACTIVITY,
             AmiDictionaries.COUNTRY,
-            AmiDictionaries.GENUS,
+#            AmiDictionaries.GENUS,
 #            AmiDictionaries.ORGANIZATION,
 #            AmiDictionaries.PLANT_COMPOUND,
 #            AmiDictionaries.PLANT_PART,
@@ -185,25 +192,14 @@ class AmiSearch:
 #        ami_search.use_projects(AmiProjects.OIL186, AmiProjects.CCT)
         ami_search.use_projects(AmiProjects.OIL186)
 
-        ami_search.run_search()
+        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
+        ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
 
-    @staticmethod
-    def test_sect():
-        """ not currently used"""
-        ami_search = AmiSearch()
-        # section_types
-        section_type = "ethics"
-        sects_method = AmiPath.create(section_type, {PROJ: OIL186})
+        if ami_search.do_search:
+            ami_search.run_search()
 
-        ami_search.dicts = [
-            os.path.join(PMR_DIR, "ethics", "ethics.xml"),
-        ]
-        #    globlets = [        AmiPath.create("fig_caption", {PROJ: proj_dir}),
-        #        AmiPath.create("", {PROJ: proj_dir}),
-
-        #    ami_search.search_with_dictionaries(dicts, globlets)
-        section_files = AmiPath.create("fig_caption", {PROJ: OIL186}),
-        ami_search.search_and_count(section_files)
+    def add_regex(self, name, regex):
+        self.patterns.append(SearchPattern(name, SearchPattern.REGEX, regex))
 
 
 class SimpleDict:
@@ -240,6 +236,37 @@ class AmiProject:
     def __init__(self, dir):
         self.dir = dir
 
+class SearchPattern:
+
+    """ holds a regex or other pattern constraint (e.g. isnumeric) """
+    REGEX = "regex"
+    NUMBER = "_NUMBER"
+    SPECIES = "_SPECIES"
+    GENE = "_GENE"
+
+    def __init__(self, name, type, value):
+        self.name = name
+        self.type = type
+        self.value = value
+        if SearchPattern.REGEX == type:
+            self.regex = re.compile(value)
+
+    def match(self, words):
+        matched_words = []
+        for word in words:
+            matched = False
+            if self.regex:
+                matched = self.regex.match(word)
+            elif SearchPattern.NUMBER == self.type:
+                matched = str.isnumeric(word)
+            else:
+                pass
+            if matched:
+                matched_words.append(word)
+
+        return matched_words
+
+
 class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 
@@ -250,7 +277,7 @@ class SearchDictionary:
     def __init__(self, file, **kwargs):
         if not os.path.exists(file):
             raise IOError("cannot find file " + str(file))
-        self.read_file(file)
+        self.read_dictionary(file)
         self.name = file.split("/")[-1:][0].split(".")[0]
         self.options = {} if not "options" in kwargs else kwargs["options"]
         if "synonyms" in self.options:
@@ -259,12 +286,13 @@ class SearchDictionary:
             print("use case")
         self.split_terms = True
 
-    def read_file(self, file):
+    def read_dictionary(self, file):
         self.file = file
         self.amidict = ET.parse(file)
         self.root = self.amidict.getroot()
         self.name = self.root.attrib["title"]
         self.entries = list(self.root.findall("entry"))
+        self.entry_by_term = self.create_entry_by_term();
         self.term_set = set()
         print("read dictionary", self.name, "with", len(self.entries), "entries")
 
@@ -272,7 +300,7 @@ class SearchDictionary:
         if len(self.term_set) == 0:
             for entry in self.entries:
                 if SearchDictionary.TERM in entry.attrib:
-                    term = entry.attrib[SearchDictionary.TERM]
+                    term = self.term_from_entry(entry)
                     # single word terms
                     if not " " in term:
                         self.add_processed_term(term)
@@ -284,6 +312,9 @@ class SearchDictionary:
         #            print(len(self.term_set), list(sorted(self.term_set)))
 #        print ("terms", len(self.term_set))
         return self.term_set
+
+    def term_from_entry(self, entry):
+        return entry.attrib[SearchDictionary.TERM]
 
     def add_processed_term(self, term):
         term = term.lower()
@@ -297,6 +328,13 @@ class SearchDictionary:
             if target_word in self.term_set:
                 matched.append(target_word)
         return matched
+
+    def get_entry(self, term):
+        return self.entry_by_term[term] if term in self.entry_by_term else None
+
+    def create_entry_by_term(self):
+        entry_by_term = {self.term_from_entry(entry) : entry  for entry in self.entries}
+
 
 class AmiDictionaries:
 

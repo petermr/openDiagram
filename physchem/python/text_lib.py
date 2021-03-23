@@ -125,7 +125,7 @@ class Document:
         for terminal_file in terminal_files:
             # REFACTOR
             terminal_page = TextUtil.get_words_from_terminal_file(terminal_file)
-            self.words.extend(terminal_page.get_words())
+            self.words.extend(terminal_page.get_words_from_sentences())
 
     # REFACTOR
     @staticmethod
@@ -149,7 +149,7 @@ class Document:
             if not os.path.exists(sentence_file):
                 print("wrote sentence file", sentence_file)
                 Sentence.write_numbered_sentence_file(sentence_file, ami_section.sentences)
-            ami_section.get_words()
+            ami_section.get_words_from_sentences()
         return ami_section.words
 
 
@@ -220,7 +220,7 @@ class AmiSection:
                 if self.write_text and not os.path.exists(self.txt_file):
                     print("wrote sentence file", self.txt_file)
                     AmiSection.write_numbered_sentence_file(self.txt_file, self.sentences)
-            self.get_words()
+            self.words = self.get_words_from_sentences()
 
 # static utilities
 
@@ -269,7 +269,7 @@ class AmiSection:
         return sentences
 
 
-    def get_words(self):
+    def get_words_from_sentences(self) -> list:
         for sentence in self.sentences:
             words = sentence.words
 #            print("w", sentence, len(words))

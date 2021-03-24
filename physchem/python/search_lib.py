@@ -33,6 +33,7 @@ FUNDER = os.path.join(MINIPROJ, "funder")
 
 # print(FUNDER, os.path.exists(FUNDER))
 
+
 class AmiSearch:
 
     def __init__(self):
@@ -73,10 +74,12 @@ class AmiSearch:
         return ptit + ":   " + self.cur_sect + ":   " + dict_name
 
     def use_dictionaries(self, *args):
+        print("dicts", args, type(args))
         for arg in args:
             self.add_dictionary(arg)
 
     def add_dictionary(self, name):
+        print("name", name)
         AmiSearch._append_facet("dictionary", name, self.ami_dictionaries.dictionary_dict, self.dictionaries)
 
     def use_projects(self, *args):
@@ -150,6 +153,7 @@ class AmiSearch:
                     counter_dict[amidict][match] += 1
 
     def use_sections(self, sections):
+        AmiSection.check_sections(sections)
         self.sections = sections
 
     def run_search(self):
@@ -197,7 +201,8 @@ class AmiSearch:
 #            AmiProjects.OIL26,
 #            AmiProjects.OIL186,
 #            AmiProjects.CCT,
-            AmiProjects.WORC_SYTH,
+            AmiProjects.WORC_EXPLOSION,
+#            AmiProjects.WORC_SYNTH,
 
         )
 
@@ -226,7 +231,8 @@ class AmiProjects:
     OIL186 = "oil186"
     OIL26 = "oil26"
     CCT    = "cct"
-    WORC_SYTH = "worcester"
+    WORC_EXPLOSION = "worc_explosion"
+    WORC_SYNTH = "worc_synth"
 
     def __init__(self):
         self.create_project_dict()
@@ -237,7 +243,8 @@ class AmiProjects:
         self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"))
         self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"))
         self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))
-        self.add_with_check(AmiProjects.WORC_SYTH, os.path.join(PROJECTS, "worcester/synthesis"))
+        self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester/synthesis"))
+        self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester/explosion"))
 
     def add_with_check(self, key, file):
         Util.check_exists(file)
@@ -284,6 +291,7 @@ class SearchDictionary:
     """
 
     TERM = "term"
+
 
     def __init__(self, file, **kwargs):
         if not os.path.exists(file):
@@ -362,12 +370,31 @@ class AmiDictionaries:
     PLANT_PART = "plant_part"
     SOLVENT = "solvent"
 
+    DICT_LIST = [
+        ACTIVITY,
+        COMPOUND,
+        COUNTRY,
+        ELEMENT,
+        GENUS,
+        ORGANIZATION,
+        PLANT_COMPOUND,
+        PLANT_PART,
+        SOLVENT,
+    ]
+
+
     def __init__(self):
         self.create_search_dictionary_dict()
 
+    @staticmethod
+    def check_dicts(dicts):
+        for dikt in dicts:
+            if dikt not in SearchDictionary.DICT_LIST:
+                print("allowed dictionaries", SearchDictionary.DICT_LIST)
+                raise Exception ("unknown dictionary: ", dikt)
+
     def create_search_dictionary_dict(self):
         self.dictionary_dict = {}
-
 
         # chemistry
         self.add_with_check(AmiDictionaries.ELEMENT,
@@ -413,6 +440,10 @@ def test_profile1():
     print("profile1")
     cProfile.run("AmiSearch.test_sect_dicts()")
 
+
+
+
+
 def main():
     import argparse
 
@@ -429,17 +460,20 @@ def main():
     parser.add_argument('--sect', nargs="+",
                         help='sections to search; empty gives list')
 
-
     args = parser.parse_args()
     print("dicts", args.dict)
     print("sects", args.sect)
+    if args.dict is None and args.sect is None:
+        print("DEMO")
+        AmiSearch.test_sect_dicts()
+    else:
+        ami_search = AmiSearch()
+        ami_search.use_sections(args.sect)
+        print("args.dict", args.dict)
+        ami_search.use_dictionaries(args.dict)
 
-#    print(f"Name of the script      : {sys.argv[0]=}")
-#    print(f"Arguments of the script : {sys.argv[1:]=}")
-#    return
-# the main test
 
-    AmiSearch.test_sect_dicts()
+
 # this profiles it
 #    test_profile1()
     print("finished search")

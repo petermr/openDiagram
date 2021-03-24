@@ -192,6 +192,35 @@ class AmiSection:
     TITLE       = "title"
     WORD        = "word"
 
+    SECTION_LIST = [
+        ABSTRACT,
+        ACKNOW,
+        AFFIL,
+        AUTHOR,
+        BACKGROUND,
+        DISCUSS,
+        EMPTY,
+        ETHICS,
+        FIG_CAPTION,
+        FRONT,
+        INTRO,
+        JRNL,
+        KWD,
+        METHOD,
+        MATERIAL,
+        OCTREE,
+        PDFIMAGE,
+        PUB_DATE,
+        PUBLISHER,
+        REFERENCE,
+        RESULTS,
+        RESULTS,
+        SECTIONS,
+        SVG,
+        TABLE,
+        TITLE,
+        WORD,
+    ]
     def __init__(self):
         self.words = []
         self.xml_file = None
@@ -223,6 +252,13 @@ class AmiSection:
             self.words = self.get_words_from_sentences()
 
 # static utilities
+    @staticmethod
+    def check_sections(sections):
+        for section in sections:
+            if section not in AmiSection.SECTION_LIST:
+                print("allowed sections", AmiSection.SECTION_LIST)
+                raise Exception ("unknown section: ", section)
+
 
     @staticmethod
     def create_txt_filename_from_xml(xml_file):

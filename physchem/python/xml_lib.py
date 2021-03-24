@@ -2,6 +2,7 @@ from xml.etree import ElementTree
 import os
 from collections import Counter
 from file_lib import FileLib
+from pathlib import Path
 
 # make leafnodes and copy remaning content as XML
 TERMINAL_COPY = {
@@ -32,6 +33,8 @@ TERMINAL_COPY = {
     "volume",
 }
 
+TITLE = "title"
+
 IGNORE_CHILDREN= {
     "disp-formula",
 }
@@ -52,32 +55,38 @@ LINK_TAGS = {
     "xref",
 }
 
+SECTIONS = "sections"
 
 
 class XmlLib:
 
-    def __init__(self, file=None, outdir=None):
-        self.file = file
-        self.outdir = outdir
+    def __init__(self, file=None, section_dir=SECTIONS):
         print("xml", file)
         if file is not None:
-            self.parse_file(file)
+            self.path = Path(file)
+            self.parent_path = self.path.parent.absolute()
+            self.parse_file(file, section_dir)
 
-    def parse_file(self, file):
+    def parse_file(self, file, section_dir):
         if not os.path.exists(file):
             raise IOError("file does not exist", file)
         self.element_tree = ElementTree.parse(file)
         root = self.element_tree.getroot()
-        if not self.outdir is None:
-            outdir = self.outdir
-            FileLib.force_mkdir(outdir)
+        if not section_dir is None:
+            self.section_dir = self.make_sections_path(section_dir)
 
         indent = 0
         filename = "1" + "_" + root.tag
         print(" " * indent, filename)
-        subdir = os.path.join(outdir, filename)
+        subdir = os.path.join(self.section_dir, filename)
         FileLib.force_mkdir(subdir)
         self.list_children(root, indent, subdir)
+
+    def make_sections_path(self, section_dir):
+        self.section_path = os.path.join(self.parent_path, section_dir)
+        if not os.path.exists(self.section_path):
+            FileLib.force_mkdir(self.section_path)
+        return self.section_path
 
     def list_children(self, elem, indent, outdir):
         TERMINAL = "T_"
@@ -112,8 +121,8 @@ class XmlLib:
     def get_sec_title(sec):
         title = None
         for elem in list(sec):
-            if elem.tag == "title":
-                title = elem.xml_file
+            if elem.tag == TITLE:
+                title = elem.text
                 break
 
         if title is None:
@@ -126,7 +135,7 @@ class XmlLib:
 
     def test(self):
         print("start xml")
-        doc = XmlLib("../liion/PMC7077619/fulltext.xml", "../temp/PMC7077619")
+        doc = XmlLib("../liion/PMC7077619/fulltext.xml")
 
 class Section:
 

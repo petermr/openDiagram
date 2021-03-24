@@ -25,8 +25,10 @@ PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
 CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
 CEV_OPEN_DICT_DIR = os.path.join(CEV_OPEN_DIR, "dictionary")
 DICT_CEV_OPEN = os.path.join(DICT_DIR, "cevopen")
+DICT_AMI3 = os.path.join(DICT_DIR, "ami3")
 OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
 MINIPROJ = os.path.join(OPEN_VIRUS, "miniproject")
+WORCESTER_DIR = os.path.join(PROJECTS, "worcester")
 FUNDER = os.path.join(MINIPROJ, "funder")
 
 # print(FUNDER, os.path.exists(FUNDER))
@@ -183,16 +185,23 @@ class AmiSearch:
         ])
         ami_search.use_dictionaries(
 #            AmiDictionaries.ACTIVITY,
-            AmiDictionaries.COUNTRY,
+#            AmiDictionaries.COUNTRY,
 #            AmiDictionaries.GENUS,
+            AmiDictionaries.ELEMENT,
 #            AmiDictionaries.ORGANIZATION,
 #            AmiDictionaries.PLANT_COMPOUND,
 #            AmiDictionaries.PLANT_PART,
+            AmiDictionaries.SOLVENT,
         )
-#        ami_search.use_projects(AmiProjects.OIL186, AmiProjects.CCT)
-        ami_search.use_projects(AmiProjects.OIL186)
+        ami_search.use_projects(
+#            AmiProjects.OIL26,
+#            AmiProjects.OIL186,
+#            AmiProjects.CCT,
+            AmiProjects.WORC_SYTH,
 
-        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
+        )
+
+#        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
         ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
 
         if ami_search.do_search:
@@ -217,6 +226,7 @@ class AmiProjects:
     OIL186 = "oil186"
     OIL26 = "oil26"
     CCT    = "cct"
+    WORC_SYTH = "worcester"
 
     def __init__(self):
         self.create_project_dict()
@@ -227,6 +237,7 @@ class AmiProjects:
         self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"))
         self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"))
         self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))
+        self.add_with_check(AmiProjects.WORC_SYTH, os.path.join(PROJECTS, "worcester/synthesis"))
 
     def add_with_check(self, key, file):
         Util.check_exists(file)
@@ -286,11 +297,12 @@ class SearchDictionary:
             print("use case")
         self.split_terms = True
 
-    def read_dictionary(self, file):
+    def read_dictionary(self, file, ignorecase=True):
         self.file = file
         self.amidict = ET.parse(file)
         self.root = self.amidict.getroot()
         self.name = self.root.attrib["title"]
+        self.ignorecase = ignorecase
         self.entries = list(self.root.findall("entry"))
         self.entry_by_term = self.create_entry_by_term();
         self.term_set = set()
@@ -314,10 +326,12 @@ class SearchDictionary:
         return self.term_set
 
     def term_from_entry(self, entry):
-        return entry.attrib[SearchDictionary.TERM]
+        term = entry.attrib[SearchDictionary.TERM].strip()
+        return term.lower() if self.ignorecase else term
 
     def add_processed_term(self, term):
-        term = term.lower()
+        if self.ignorecase:
+            term = term.lower()
         self.term_set.add(term)  # single word countries
 
     def match(self, target_words):
@@ -341,16 +355,26 @@ class AmiDictionaries:
     ACTIVITY = "activity"
     COMPOUND = "compound"
     COUNTRY = "country"
+    ELEMENT = "elements"
     GENUS = "genus"
     ORGANIZATION = "organization"
     PLANT_COMPOUND = "plant_compound"
     PLANT_PART = "plant_part"
+    SOLVENT = "solvent"
 
     def __init__(self):
         self.create_search_dictionary_dict()
 
     def create_search_dictionary_dict(self):
         self.dictionary_dict = {}
+
+
+        # chemistry
+        self.add_with_check(AmiDictionaries.ELEMENT,
+                            os.path.join(DICT_AMI3, "elements.xml"))
+        self.add_with_check(AmiDictionaries.SOLVENT,
+                            os.path.join(DICT_AMI3, "solvents.xml"))
+
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
         self.add_with_check(AmiDictionaries.ACTIVITY,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoActivity", "eo_activity", "Activity.xml"))
@@ -368,12 +392,16 @@ class AmiDictionaries:
                             os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compounds.xml"))
         self.add_with_check(AmiDictionaries.PLANT_PART,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
+
+
         return self.dictionary_dict
 
     def add_with_check(self, key, file):
         Util.check_exists(file)
-        self.dictionary_dict[key] = SearchDictionary(file)
-
+        dictionary = SearchDictionary(file)
+        self.dictionary_dict[key] = dictionary
+#        print(dictionary.get_or_create_term_set())
+        return
 
 def test_profile():
     import cProfile
@@ -429,3 +457,4 @@ else:
 """
 https://gist.github.com/benhoyt/dfafeab26d7c02a52ed17b6229f0cb52
 """
+"""https://stackoverflow.com/questions/22052532/matplotlib-python-clickable-points"""

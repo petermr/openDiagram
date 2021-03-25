@@ -28,6 +28,7 @@ DICT_CEV_OPEN = os.path.join(DICT_DIR, "cevopen")
 DICT_AMI3 = os.path.join(DICT_DIR, "ami3")
 OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
 MINIPROJ = os.path.join(OPEN_VIRUS, "miniproject")
+MINICORPORA = os.path.join(CEV_OPEN_DIR, "minicorpora")
 WORCESTER_DIR = os.path.join(PROJECTS, "worcester")
 FUNDER = os.path.join(MINIPROJ, "funder")
 
@@ -92,7 +93,7 @@ class AmiSearch:
     @staticmethod
     def _append_facet(label, name, dikt, dict_list):
         if not name in dikt:
-            raise Exception("unknown", label, name)
+            raise Exception("unknown name", name, "in", dikt)
         dict_list.append(dikt[name])
 
     def search(self, file):
@@ -188,22 +189,30 @@ class AmiSearch:
 #            "fig_caption"
         ])
         ami_search.use_dictionaries(
+            # intern dictionaries
 #            AmiDictionaries.ACTIVITY,
-#            AmiDictionaries.COUNTRY,
-#            AmiDictionaries.GENUS,
-            AmiDictionaries.ELEMENT,
-#            AmiDictionaries.ORGANIZATION,
 #            AmiDictionaries.PLANT_COMPOUND,
 #            AmiDictionaries.PLANT_PART,
-            AmiDictionaries.SOLVENT,
+            AmiDictionaries.PLANT_GENUS,
+
+#            AmiDictionaries.COUNTRY,
+#            AmiDictionaries.GENUS,
+#            AmiDictionaries.ELEMENT,
+#            AmiDictionaries.ORGANIZATION,
+#            AmiDictionaries.SOLVENT,
         )
         ami_search.use_projects(
 #            AmiProjects.OIL26,
 #            AmiProjects.OIL186,
 #            AmiProjects.CCT,
-            AmiProjects.WORC_EXPLOSION,
+#            AmiProjects.WORC_EXPLOSION,
 #            AmiProjects.WORC_SYNTH,
 
+            # minipprjects
+#            AmiProjects.C_ACTIVITY,
+            AmiProjects.C_INVASIVE,
+#            AmiProjects.C_HYDRODISTIL,
+#            AmiProjects.C_PLANT_PART,
         )
 
 #        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
@@ -234,6 +243,13 @@ class AmiProjects:
     WORC_EXPLOSION = "worc_explosion"
     WORC_SYNTH = "worc_synth"
 
+    # minicorpora
+    C_ACTIVITY = "activity"
+    C_INVASIVE = "invasive"
+    C_PLANT_PART = "plantpart"
+    C_HYDRODISTIL = "hydrodistil"
+
+
     def __init__(self):
         self.create_project_dict()
 
@@ -245,6 +261,13 @@ class AmiProjects:
         self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))
         self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester/synthesis"))
         self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester/explosion"))
+
+        # minicorpora
+        self.add_with_check(AmiProjects.C_ACTIVITY, os.path.join(MINICORPORA, "activity"))
+        self.add_with_check(AmiProjects.C_HYDRODISTIL, os.path.join(MINICORPORA, "hydrodistil"))
+        self.add_with_check(AmiProjects.C_INVASIVE, os.path.join(MINICORPORA, "invasive"))
+        self.add_with_check(AmiProjects.C_PLANT_PART, os.path.join(MINICORPORA, "plantpart"))
+
 
     def add_with_check(self, key, file):
         Util.check_exists(file)
@@ -334,6 +357,8 @@ class SearchDictionary:
         return self.term_set
 
     def term_from_entry(self, entry):
+        if SearchDictionary.TERM not in entry.attrib:
+            print("missing term", ET.tostring(entry))
         term = entry.attrib[SearchDictionary.TERM].strip()
         return term.lower() if self.ignorecase else term
 
@@ -364,9 +389,10 @@ class AmiDictionaries:
     COMPOUND = "compound"
     COUNTRY = "country"
     ELEMENT = "elements"
-    GENUS = "genus"
+    PLANT_GENUS = "plant_genus"
     ORGANIZATION = "organization"
     PLANT_COMPOUND = "plant_compound"
+    PLANT = "plant"
     PLANT_PART = "plant_part"
     SOLVENT = "solvent"
 
@@ -375,8 +401,9 @@ class AmiDictionaries:
         COMPOUND,
         COUNTRY,
         ELEMENT,
-        GENUS,
+        PLANT_GENUS,
         ORGANIZATION,
+        PLANT,
         PLANT_COMPOUND,
         PLANT_PART,
         SOLVENT,
@@ -410,8 +437,8 @@ class AmiDictionaries:
         self.add_with_check(AmiDictionaries.COMPOUND,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "eoCompound.xml"))
         # /Users/pm286/dictionary/cevopen/plant_genus/eo_plant_genus.xml
-        self.add_with_check(AmiDictionaries.GENUS,
-                            os.path.join(DICT_CEV_OPEN, "plant_genus", "eo_plant_genus.xml"))
+        self.add_with_check(AmiDictionaries.PLANT_GENUS,
+                            os.path.join(CEV_OPEN_DICT_DIR, "plant_genus", "plant_genus.xml"))
         self.add_with_check(AmiDictionaries.ORGANIZATION,
                             os.path.join(OV21_DIR, "organization", "organization.xml"))
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoCompound / plant_compounds.xml
@@ -419,6 +446,8 @@ class AmiDictionaries:
                             os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compounds.xml"))
         self.add_with_check(AmiDictionaries.PLANT_PART,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
+#        self.add_with_check(AmiDictionaries.PLANT,
+#                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant", "Plant.xml"))
 
 
         return self.dictionary_dict

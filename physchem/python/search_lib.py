@@ -74,16 +74,17 @@ class AmiSearch:
         ptit = self.cur_proj.dir.split("/")[-1:][0]
         return ptit + ":   " + self.cur_sect + ":   " + dict_name
 
-    def use_dictionaries(self, *args):
-        print("dicts", args, type(args))
+    def use_dictionaries(self, args):
+        print("use_dictionaries", args, type(args))
         for arg in args:
+            print("dikt", arg, type(arg))
             self.add_dictionary(arg)
 
     def add_dictionary(self, name):
         print("name", name)
         AmiSearch._append_facet("dictionary", name, self.ami_dictionaries.dictionary_dict, self.dictionaries)
 
-    def use_projects(self, *args):
+    def use_projects(self, args):
         for arg in args:
             self.add_project(arg)
 
@@ -178,7 +179,7 @@ class AmiSearch:
                 self.make_graph(min_counter, tool)
 
     @staticmethod
-    def test_sect_dicts():
+    def demo():
         ami_search = AmiSearch()
         ami_search.min_hits = 2
 
@@ -188,21 +189,21 @@ class AmiSearch:
             AmiSection.METHOD,
 #            "fig_caption"
         ])
-        ami_search.use_dictionaries(
+        ami_search.use_dictionaries([
             # intern dictionaries
 #            AmiDictionaries.ACTIVITY,
 #            AmiDictionaries.PLANT_COMPOUND,
 #            AmiDictionaries.PLANT_PART,
             AmiDictionaries.PLANT_GENUS,
 
-#            AmiDictionaries.COUNTRY,
+            AmiDictionaries.COUNTRY,
 #            AmiDictionaries.GENUS,
 #            AmiDictionaries.ELEMENT,
 #            AmiDictionaries.ORGANIZATION,
 #            AmiDictionaries.SOLVENT,
-        )
-        ami_search.use_projects(
-#            AmiProjects.OIL26,
+        ])
+        ami_search.use_projects([
+            AmiProjects.OIL26,
 #            AmiProjects.OIL186,
 #            AmiProjects.CCT,
 #            AmiProjects.WORC_EXPLOSION,
@@ -213,7 +214,7 @@ class AmiSearch:
             AmiProjects.C_INVASIVE,
 #            AmiProjects.C_HYDRODISTIL,
 #            AmiProjects.C_PLANT_PART,
-        )
+        ])
 
 #        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
         ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
@@ -476,30 +477,38 @@ def test_profile1():
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description='Search sections with dictionaries')
+    parser = argparse.ArgumentParser(description='Search sections with dictionaries and patterns')
     """
-    parser.add_argument('integers', metavar='N', type=int, nargs='+',
-                        help='an integer for the accumulator')
-    parser.add_argument('--sum', dest='accumulate', action='store_const',
-                        const=sum, default=max,
-                        help='sum the integers (default: find the max)')
     """
     parser.add_argument('--dict', nargs="+",
-                        help='dictiomaries to search with (lookup table from JSON (NYI); empty gives list')
+                        help='dictionaries to search with (lookup table from JSON (NYI); empty gives list')
     parser.add_argument('--sect', nargs="+",
-                        help='sections to search; empty gives list')
+                        help='sections to search; empty gives all (Not yet tested')
+    parser.add_argument('--proj', nargs="+",
+                        help='projects to search; empty will exit')
+    parser.add_argument('--patt', nargs="+",
+                        help='patterns to search with; regex may need quoting')
 
     args = parser.parse_args()
-    print("dicts", args.dict)
-    print("sects", args.sect)
-    if args.dict is None and args.sect is None:
+    if      args.dict is None \
+        and args.sect is None \
+        and args.proj is None \
+        and args.patt is None \
+        :
         print("DEMO")
-        AmiSearch.test_sect_dicts()
+        AmiSearch.demo()
     else:
+        print("dicts", args.dict, type(args.dict))
+        print("sects", args.sect, type(args.sect))
+        print("projs", args.proj, type(args.proj))
+        print("patterns", args.patt, type(args.patt))
         ami_search = AmiSearch()
         ami_search.use_sections(args.sect)
-        print("args.dict", args.dict)
         ami_search.use_dictionaries(args.dict)
+        ami_search.use_projects(args.proj)
+
+        if ami_search.do_search:
+            ami_search.run_search()
 
 
 

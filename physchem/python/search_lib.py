@@ -75,14 +75,28 @@ class AmiSearch:
         return ptit + ":   " + self.cur_sect + ":   " + dict_name
 
     def use_dictionaries(self, args):
-        print("use_dictionaries", args, type(args))
-        for arg in args:
-            print("dikt", arg, type(arg))
-            self.add_dictionary(arg)
+        if args is not None:
+            for arg in args:
+                self.add_dictionary(arg)
 
     def add_dictionary(self, name):
         print("name", name)
         AmiSearch._append_facet("dictionary", name, self.ami_dictionaries.dictionary_dict, self.dictionaries)
+
+    # crude till we work this out
+    def use_patterns(self, args):
+        if args is not None:
+            for arg in args:
+                self.use_pattern(arg)
+
+    def use_pattern(self, pattern, name=None):
+        """ use either name and pattern or name='pattern' """
+        regex = pattern
+        if name is None and "=" in pattern:
+            name = pattern.split("=", 0)
+            regex = pattern.split("=", 2)
+        print (name, "=", regex)
+        self.patterns.append(SearchPattern(regex, name))
 
     def use_projects(self, args):
         for arg in args:
@@ -154,6 +168,10 @@ class AmiSearch:
                 for match in matches:
                     counter_dict[amidict][match] += 1
 
+#    def use_patterns(self, patterns):
+#        SearchPattern.check_sections(patterns)
+#        self.patterns = patterns
+
     def use_sections(self, sections):
         AmiSection.check_sections(sections)
         self.sections = sections
@@ -194,7 +212,7 @@ class AmiSearch:
 #            AmiDictionaries.ACTIVITY,
 #            AmiDictionaries.PLANT_COMPOUND,
 #            AmiDictionaries.PLANT_PART,
-            AmiDictionaries.PLANT_GENUS,
+#            AmiDictionaries.PLANT_GENUS,
 
             AmiDictionaries.COUNTRY,
 #            AmiDictionaries.GENUS,
@@ -203,27 +221,30 @@ class AmiSearch:
 #            AmiDictionaries.SOLVENT,
         ])
         ami_search.use_projects([
-            AmiProjects.OIL26,
+#            AmiProjects.OIL26,
 #            AmiProjects.OIL186,
-#            AmiProjects.CCT,
+            AmiProjects.CCT,
 #            AmiProjects.WORC_EXPLOSION,
 #            AmiProjects.WORC_SYNTH,
 
             # minipprjects
 #            AmiProjects.C_ACTIVITY,
-            AmiProjects.C_INVASIVE,
+#            AmiProjects.C_INVASIVE,
 #            AmiProjects.C_HYDRODISTIL,
 #            AmiProjects.C_PLANT_PART,
         ])
 
 #        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
-        ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
+#        ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
+        ami_search.use_pattern("^[A-Z]{1,3}\d{1,3}$", "AB12")
+        ami_search.use_pattern("_ALLCAPS", "all_capz")
+#        ami_search.use_pattern("_NUMBERS", "numberz")
 
         if ami_search.do_search:
             ami_search.run_search()
 
-    def add_regex(self, name, regex):
-        self.patterns.append(SearchPattern(name, SearchPattern.REGEX, regex))
+#    def add_regex(self, name, regex):
+#        self.patterns.append(SearchPattern(name, SearchPattern.REGEX, regex))
 
 
 class SimpleDict:
@@ -281,17 +302,29 @@ class AmiProject:
 class SearchPattern:
 
     """ holds a regex or other pattern constraint (e.g. isnumeric) """
-    REGEX = "regex"
+    REGEX = "_REGEX"
+
+    ALL_CAPS = "_ALLCAPS"
     NUMBER = "_NUMBER"
     SPECIES = "_SPECIES"
     GENE = "_GENE"
+    PATTERNS = [
+        ALL_CAPS,
+#        GENE,
+        NUMBER,
+#        SPECIES,
+    ]
 
-    def __init__(self, name, type, value):
-        self.name = name
-        self.type = type
-        self.value = value
-        if SearchPattern.REGEX == type:
+    def __init__(self, value, name=None):
+        if value in SearchPattern.PATTERNS:
+            self.type = value
+            self.regex = None
+            self.name = value if name is None else value
+        else:
+            self.type = SearchPattern.REGEX
             self.regex = re.compile(value)
+            self.name = name if name is not None else "regex:"+value
+            print("PATT: ", name, value)
 
     def match(self, words):
         matched_words = []
@@ -299,6 +332,8 @@ class SearchPattern:
             matched = False
             if self.regex:
                 matched = self.regex.match(word)
+            elif SearchPattern.ALL_CAPS == self.type:
+                matched = str.isupper(word)
             elif SearchPattern.NUMBER == self.type:
                 matched = str.isnumeric(word)
             else:
@@ -307,7 +342,6 @@ class SearchPattern:
                 matched_words.append(word)
 
         return matched_words
-
 
 class SearchDictionary:
     """wrapper for an ami dictionary including search flags
@@ -506,6 +540,7 @@ def main():
         ami_search.use_sections(args.sect)
         ami_search.use_dictionaries(args.dict)
         ami_search.use_projects(args.proj)
+        ami_search.use_patterns(args.patt)
 
         if ami_search.do_search:
             ami_search.run_search()

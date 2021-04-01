@@ -92,7 +92,7 @@ class AmiPath:
 
 
     @staticmethod
-    def create(key, edit_dict=None):
+    def create_ami_path_from_templates(key, edit_dict=None):
         """creates a new AmiPath object from selected template
         key: to template
         edit_dict: dictionary with values to edit in
@@ -162,7 +162,7 @@ class AmiPath:
     def create_glob_string(scheme):
         glob = ""
         for sect, value in scheme.items():
-#            print(sect, type(value), value)
+            print(sect, type(value), value)
             if sect not in ALLOWED_SECTS:
                 print("unknown sect:", sect)
             elif _DESC == sect:
@@ -228,32 +228,32 @@ def test_templates():
 
 def simple_test():
     PYDIAG = "../../python/diagrams"
-    globbed_files = AmiPath.create("abstract", {PROJ: PYDIAG + "/" + "../liion"}),
+    globbed_files = AmiPath.create_ami_path_from_templates("abstract", {PROJ: PYDIAG + "/" + "../liion"}),
     print(len(globbed_files), globbed_files[:5])
 
 
 def analyze_sections(proj_dir):
     print("proj dir", os.path.exists(proj_dir))
     for ami_path in [
-        AmiPath.create("abstract", {PROJ: proj_dir, FILE: "*background*"}),
-        AmiPath.create("acknowledge", {PROJ: proj_dir}),
-        AmiPath.create("affiliation", {PROJ: proj_dir}),
-        AmiPath.create("author", {PROJ: proj_dir}),
-        AmiPath.create("fig_caption", {PROJ: proj_dir}),
-        AmiPath.create("introduction", {PROJ: proj_dir}),
-        AmiPath.create("jrnl_title", {PROJ: proj_dir}),
-        AmiPath.create("keyword", {PROJ: proj_dir}),
-        AmiPath.create("method", {PROJ: proj_dir}),
-        AmiPath.create("octree", {PROJ: proj_dir}),
-        AmiPath.create("pdfimage", {PROJ: proj_dir}),
-        AmiPath.create("pub_date", {PROJ: proj_dir}),
-        AmiPath.create("publisher", {PROJ: proj_dir}),
-        AmiPath.create("reference", {PROJ: proj_dir}),
-        AmiPath.create("results", {PROJ: proj_dir}),
-        AmiPath.create("results_discuss", {PROJ: proj_dir}),
-        AmiPath.create("svg", {PROJ: proj_dir}),
-        AmiPath.create("table", {PROJ: proj_dir}),
-        AmiPath.create("title", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("abstract", {PROJ: proj_dir, FILE: "*background*"}),
+        AmiPath.create_ami_path_from_templates("acknowledge", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("affiliation", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("author", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("fig_caption", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("introduction", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("jrnl_title", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("keyword", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("method", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("octree", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("pdfimage", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("pub_date", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("publisher", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("reference", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("results", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("results_discuss", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("svg", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("table", {PROJ: proj_dir}),
+        AmiPath.create_ami_path_from_templates("title", {PROJ: proj_dir}),
     ]:
         globbed_files = ami_path.get_globbed_files()
         print(len(globbed_files), globbed_files[:5])

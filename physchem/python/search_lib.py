@@ -3,7 +3,8 @@ import os
 # https://stackoverflow.com/questions/19917492/how-can-i-use-a-python-script-in-the-command-line-without-cd-ing-to-its-director
 
 from file_lib import AmiPath, PROJ
-from text_lib import TextUtil, AmiSection
+from text_lib import TextUtil, AmiSection, WordFilter
+from xml_lib import XmlLib
 from util import Util
 from xml.etree import ElementTree as ET
 from collections import Counter
@@ -19,7 +20,9 @@ CEV_DICT_DIR = os.path.join(DICT_DIR, "cevopen")
 PMR_DIR = os.path.join(DICT_DIR, "pmr")
 
 PROJECTS = os.path.join(HOME, "projects")
+
 OPEN_DIAGRAM = os.path.join(PROJECTS, "openDiagram")
+
 PHYSCHEM = os.path.join(OPEN_DIAGRAM, "physchem")
 PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
 CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
@@ -41,15 +44,17 @@ class AmiSearch:
         self.dictionaries = []
         self.patterns = []
         self.projects = []
-        self.sections = []
+        self.section_types = []
         self.word_counter = None
         self.debug = False
         self.do_search = True
         self.do_plot = True
         self.ami_projects = AmiProjects()
-        self.cur_sect = None
+        self.cur_section_type = None
 #        self.cur_dict = None
         self.cur_proj = None
+        self.max_bars = 20
+        self.wikidata_label = "hi"
 
         # print every debug_cnt filenamwe
         self.debug_cnt = 10000
@@ -63,8 +68,14 @@ class AmiSearch:
 
     def make_graph(self, counter, dict_name):
         import matplotlib.pyplot as plt
+        from matplotlib import rc
+        rc('font', family='Arial')
 #        ax = plt.gca()
-        plt.bar(list(counter.keys()), counter.values(), color='blue')
+        commonest = counter.most_common()
+        keys = [c[0] for c in commonest]
+        values = [c[1] for c in commonest]
+#        plt.bar(list(counter.keys()), counter.values(), color='blue')
+        plt.bar(keys[:self.max_bars], values[:self.max_bars], color='blue')
 #        ax.set_xticklabels(ax.get_xticks(), rotation=45)
         plt.xticks(rotation=45, ha='right') # this seems to work
         plt.title(self.make_title(dict_name))
@@ -72,7 +83,7 @@ class AmiSearch:
 
     def make_title(self, dict_name):
         ptit = self.cur_proj.dir.split("/")[-1:][0]
-        return ptit + ":   " + self.cur_sect + ":   " + dict_name
+        return ptit + ":   " + self.cur_section_type + ":   " + dict_name
 
     def use_dictionaries(self, args):
         if args is not None:
@@ -105,6 +116,9 @@ class AmiSearch:
     def add_project(self, name):
         AmiSearch._append_facet("project", name, self.ami_projects.project_dict, self.projects)
 
+    def use_filters(self, name):
+        print("filters NYI")
+
     @staticmethod
     def _append_facet(label, name, dikt, dict_list):
         if not name in dikt:
@@ -124,7 +138,38 @@ class AmiSearch:
         found = False
         for dictionary in self.dictionaries:
             hits = dictionary.match(words)
-            matches_by_amidict[dictionary.name] = hits
+            if dictionary.entry_by_term is not None:
+                wid_hits = []
+                for hit in hits:
+                    if hit in dictionary.entry_by_term:
+                        entry = dictionary.entry_by_term[hit]
+                        if "wikidataID" not in entry.attrib:
+                            print ("no wikidataID for ", hit, "in", dictionary.name)
+                            continue
+                        wikidata_id = entry.attrib["wikidataID"]
+#                        synonym = entry.findall("synonym[@xml:lang='hi']")
+#                        synonym = entry.findall("synonym[@*='hi']")
+                        label = hit
+                        synonyms = entry.findall("synonym")
+
+                        if synonyms is not None and len(synonyms) > 0 and self.wikidata_label in ['hi', 'ta', 'ur', 'fr', 'de']:
+                            for synonym in synonyms:
+                                if XmlLib.XML_LANG in synonym.attrib:
+    #                                print("synonym", sss, sss.attrib , sss.attrib['{http://www.w3.org/XML/1998/namespace}lang'] , sss.text)
+                                    lang = synonym.attrib[XmlLib.XML_LANG]
+                                    print("lang", lang)
+                                    if lang == self.wikidata_label:
+                                        label = synonym.text
+                                        break
+    #                                if lang in ['hi', 'ta', 'ur', 'fr', 'de']:
+    #                                    print(lang, "=", sss.text)
+    #                         wid_hits.append(wikidata_id)
+    #                        label = wikidata_id if self.wikidata_label else hit
+                            wid_hits.append(label)
+
+#                    indexed_hits = dictionary.index_hits(hits)
+#            matches_by_amidict[dictionary.name] = hits
+            matches_by_amidict[dictionary.name] = wid_hits
         return matches_by_amidict
 
     def match_words_against_pattern(self, words):
@@ -174,20 +219,23 @@ class AmiSearch:
 
     def use_sections(self, sections):
         AmiSection.check_sections(sections)
-        self.sections = sections
+        self.section_types = sections
 
     def run_search(self):
         for proj in self.projects:
             print("***** project", proj.dir)
             self.cur_proj = proj
-            for sect in self.sections:
-                self.cur_sect = sect
-                section_files = AmiPath.create(sect, {PROJ: proj.dir}).get_globbed_files()
-                print("***** section_files", sect, len(section_files))
-                counter_dict, pattern_dict = self.search_and_count(section_files)
+            for section_type in self.section_types:
+                self.find_files_search_plot(proj, section_type)
 
-                self.plot_tool_hits(counter_dict)
-                self.plot_tool_hits(pattern_dict)
+    def find_files_search_plot(self, proj, section_type):
+        self.cur_section_type = section_type
+        templates = AmiPath.create_ami_path_from_templates(section_type, {PROJ: proj.dir})
+        section_files = templates.get_globbed_files()
+        print("***** section_files", section_type, len(section_files))
+        counter_dict, pattern_dict = self.search_and_count(section_files)
+        self.plot_tool_hits(counter_dict)
+        self.plot_tool_hits(pattern_dict)
 
     def plot_tool_hits(self, tool_dict):
         for tool in tool_dict:
@@ -203,27 +251,32 @@ class AmiSearch:
 
         ami_search.use_sections([
 #            "method",
-            AmiSection.INTRO,
+#            AmiSection.INTRO,
             AmiSection.METHOD,
-#            "fig_caption"
+            AmiSection.RESULTS,
+            AmiSection.TABLE,
+            #            "fig_caption"
         ])
         ami_search.use_dictionaries([
             # intern dictionaries
 #            AmiDictionaries.ACTIVITY,
-#            AmiDictionaries.PLANT_COMPOUND,
+            AmiDictionaries.PLANT_COMPOUND,
 #            AmiDictionaries.PLANT_PART,
 #            AmiDictionaries.PLANT_GENUS,
 
-            AmiDictionaries.COUNTRY,
-#            AmiDictionaries.GENUS,
+#            AmiDictionaries.PLANT,
+#            AmiDictionaries.PLANT_PART,
+
+            #            AmiDictionaries.GENUS,
 #            AmiDictionaries.ELEMENT,
 #            AmiDictionaries.ORGANIZATION,
 #            AmiDictionaries.SOLVENT,
         ])
         ami_search.use_projects([
 #            AmiProjects.OIL26,
-#            AmiProjects.OIL186,
-            AmiProjects.CCT,
+            AmiProjects.OIL186,
+#            AmiProjects.CCT,
+#            AmiProjects.DIFFPROT,
 #            AmiProjects.WORC_EXPLOSION,
 #            AmiProjects.WORC_SYNTH,
 
@@ -233,12 +286,46 @@ class AmiSearch:
 #            AmiProjects.C_HYDRODISTIL,
 #            AmiProjects.C_PLANT_PART,
         ])
+        ami_search.use_filters([
+            WordFilter.ORG_STOP
+        ])
 
 #        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
 #        ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
-        ami_search.use_pattern("^[A-Z]{1,3}\d{1,3}$", "AB12")
+#        ami_search.use_pattern("^[A-Z]{1,}\d{1,}$", "AB12")
         ami_search.use_pattern("_ALLCAPS", "all_capz")
 #        ami_search.use_pattern("_NUMBERS", "numberz")
+
+        if ami_search.do_search:
+            ami_search.run_search()
+
+#    def add_regex(self, name, regex):
+#        self.patterns.append(SearchPattern(name, SearchPattern.REGEX, regex))
+
+    @staticmethod
+    def ethics_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([
+            AmiSection.ETHICS,
+        ])
+        ami_search.use_dictionaries([
+            AmiDictionaries.COUNTRY,
+            AmiDictionaries.DISEASE,
+        ])
+        ami_search.use_projects([
+            AmiProjects.DISEASE,
+        ])
+        ami_search.use_filters([
+
+            WordFilter.ORG_STOP
+
+        ])
+
+        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
+        ami_search.use_pattern("_ALLCAPS", "all_capz")
+        ami_search.use_pattern("_ALL", "_all")
 
         if ami_search.do_search:
             ami_search.run_search()
@@ -262,6 +349,8 @@ class AmiProjects:
     OIL186 = "oil186"
     OIL26 = "oil26"
     CCT    = "cct"
+    DISEASE = "disease"
+    DIFFPROT    = "diffprot"
     WORC_EXPLOSION = "worc_explosion"
     WORC_SYNTH = "worc_synth"
 
@@ -281,6 +370,8 @@ class AmiProjects:
         self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"))
         self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"))
         self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))
+        self.add_with_check(AmiProjects.DISEASE, os.path.join(MINIPROJ, "disease", "1-part"))
+        self.add_with_check(AmiProjects.DIFFPROT, os.path.join(PROJECTS, "openDiagram/python/diagrams/rahul/diffprotexp"))
         self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester/synthesis"))
         self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester/explosion"))
 
@@ -304,11 +395,13 @@ class SearchPattern:
     """ holds a regex or other pattern constraint (e.g. isnumeric) """
     REGEX = "_REGEX"
 
+    _ALL = "_ALL"
     ALL_CAPS = "_ALLCAPS"
     NUMBER = "_NUMBER"
     SPECIES = "_SPECIES"
     GENE = "_GENE"
     PATTERNS = [
+        _ALL,
         ALL_CAPS,
 #        GENE,
         NUMBER,
@@ -332,6 +425,8 @@ class SearchPattern:
             matched = False
             if self.regex:
                 matched = self.regex.match(word)
+            elif SearchPattern._ALL == self.type:
+                matched = True      # pass everything
             elif SearchPattern.ALL_CAPS == self.type:
                 matched = str.isupper(word)
             elif SearchPattern.NUMBER == self.type:
@@ -370,7 +465,7 @@ class SearchDictionary:
         self.name = self.root.attrib["title"]
         self.ignorecase = ignorecase
         self.entries = list(self.root.findall("entry"))
-        self.entry_by_term = self.create_entry_by_term();
+        self.create_entry_by_term();
         self.term_set = set()
         print("read dictionary", self.name, "with", len(self.entries), "entries")
 
@@ -415,7 +510,7 @@ class SearchDictionary:
         return self.entry_by_term[term] if term in self.entry_by_term else None
 
     def create_entry_by_term(self):
-        entry_by_term = {self.term_from_entry(entry) : entry  for entry in self.entries}
+        self.entry_by_term = {self.term_from_entry(entry) : entry  for entry in self.entries}
 
 
 class AmiDictionaries:
@@ -423,6 +518,7 @@ class AmiDictionaries:
     ACTIVITY = "activity"
     COMPOUND = "compound"
     COUNTRY = "country"
+    DISEASE = "disease"
     ELEMENT = "elements"
     PLANT_GENUS = "plant_genus"
     ORGANIZATION = "organization"
@@ -435,6 +531,7 @@ class AmiDictionaries:
         ACTIVITY,
         COMPOUND,
         COUNTRY,
+        DISEASE,
         ELEMENT,
         PLANT_GENUS,
         ORGANIZATION,
@@ -443,6 +540,41 @@ class AmiDictionaries:
         PLANT_PART,
         SOLVENT,
     ]
+
+    ANIMAL_TEST = "animaltest"
+    COCHRANE = "cochrane"
+    COMP_CHEM = "compchem"
+    CRISPR = "crispr"
+    CRYSTAL = "crystal"
+    DISTRIBUTION = "distributions"
+    DITERPENE = "diterpene"
+    DRUG = "drugs"
+    EDGE_MAMMAL = "edgemammals"
+    CHEM_ELEMENT = "elements"
+    EPIDEMIC = "epidemic"
+    EUROFUNDER = "eurofunders"
+    ILLEGAL_DRUG = "illegaldrugs"
+    INN = "inn"
+    INSECTICIDE = "insecticide"
+    MAGNETISM = "magnetism"
+    MONOTERPENE = "monoterpene"
+    NAL = "nal"
+    NMR = "nmrspectroscopy"
+    OBESITY = "obesity"
+    OPTOGENETICS = "optogenetics"
+    PECTIN = "pectin"
+    PHOTOSYNTH = "photosynth"
+    PLANT_DEV = "plantDevelopment"
+    POVERTY = "poverty"
+    PROT_STRUCT = "proteinstruct"
+    PROT_PRED = "protpredict"
+    REFUGEE = "refugeeUNHCR"
+    SESQUITERPENE = "sesquiterpene"
+    SOLVENT = "solvents"
+    STATISTICS = "statistics"
+    TROPICAL_VIRUS = "tropicalVirus"
+    WETLANDS = "wetlands"
+    WILDLIFE = "wildlife"
 
 
     def __init__(self):
@@ -458,41 +590,89 @@ class AmiDictionaries:
     def create_search_dictionary_dict(self):
         self.dictionary_dict = {}
 
-        # chemistry
-        self.add_with_check(AmiDictionaries.ELEMENT,
-                            os.path.join(DICT_AMI3, "elements.xml"))
-        self.add_with_check(AmiDictionaries.SOLVENT,
-                            os.path.join(DICT_AMI3, "solvents.xml"))
+        self.make_ami3_dictiomaries()
 
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
         self.add_with_check(AmiDictionaries.ACTIVITY,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoActivity", "eo_activity", "Activity.xml"))
         self.add_with_check(AmiDictionaries.COUNTRY,
                             os.path.join(OV21_DIR, "country", "country.xml"))
+        self.add_with_check(AmiDictionaries.DISEASE,
+                            os.path.join(OV21_DIR, "disease", "disease.xml"))
         self.add_with_check(AmiDictionaries.COMPOUND,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "eoCompound.xml"))
         # /Users/pm286/dictionary/cevopen/plant_genus/eo_plant_genus.xml
+        self.add_with_check(AmiDictionaries.PLANT,
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant.xml"))
         self.add_with_check(AmiDictionaries.PLANT_GENUS,
                             os.path.join(CEV_OPEN_DICT_DIR, "plant_genus", "plant_genus.xml"))
         self.add_with_check(AmiDictionaries.ORGANIZATION,
                             os.path.join(OV21_DIR, "organization", "organization.xml"))
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoCompound / plant_compounds.xml
         self.add_with_check(AmiDictionaries.PLANT_COMPOUND,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compounds.xml"))
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
+        # /Users/pm286/projects/CEVOpen/dictionary/eoPlantPart/eoplant_part.xml
         self.add_with_check(AmiDictionaries.PLANT_PART,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
 #        self.add_with_check(AmiDictionaries.PLANT,
 #                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant", "Plant.xml"))
 
-
         return self.dictionary_dict
 
+    def make_ami3_dictiomaries(self):
+
+        self.ami3_dict_index = {
+            AmiDictionaries.ANIMAL_TEST : os.path.join(DICT_AMI3, "animaltest.xml"),
+            AmiDictionaries.COCHRANE : os.path.join(DICT_AMI3, "cochrane.xml"),
+            AmiDictionaries.COMP_CHEM : os.path.join(DICT_AMI3, "compchem.xml"),
+            AmiDictionaries.CRISPR : os.path.join(DICT_AMI3, "crispr.xml"),
+            AmiDictionaries.CRYSTAL : os.path.join(DICT_AMI3, "crystal.xml"),
+            AmiDictionaries.DISTRIBUTION : os.path.join(DICT_AMI3, "distributions.xml"),
+            AmiDictionaries.DITERPENE : os.path.join(DICT_AMI3, "diterpene.xml"),
+            AmiDictionaries.DRUG : os.path.join(DICT_AMI3, "drugs.xml"),
+            AmiDictionaries.EDGE_MAMMAL : os.path.join(DICT_AMI3, "edgemammals.xml"),
+            AmiDictionaries.CHEM_ELEMENT : os.path.join(DICT_AMI3, "elements.xml"),
+            AmiDictionaries.EPIDEMIC : os.path.join(DICT_AMI3, "epidemic.xml"),
+            AmiDictionaries.EUROFUNDER: os.path.join(DICT_AMI3, "eurofunders.xml"),
+            AmiDictionaries.ILLEGAL_DRUG : os.path.join(DICT_AMI3, "illegaldrugs.xml"),
+            AmiDictionaries.INN : os.path.join(DICT_AMI3, "inn.xml"),
+            AmiDictionaries.INSECTICIDE : os.path.join(DICT_AMI3, "insecticide.xml"),
+            AmiDictionaries.MAGNETISM : os.path.join(DICT_AMI3, "magnetism.xml"),
+            AmiDictionaries.MONOTERPENE : os.path.join(DICT_AMI3, "monoterpene.xml"),
+            AmiDictionaries.NAL : os.path.join(DICT_AMI3, "nal.xml"),
+            AmiDictionaries.NMR : os.path.join(DICT_AMI3, "nmrspectroscopy.xml"),
+            AmiDictionaries.OBESITY : os.path.join(DICT_AMI3, "obesity.xml"),
+            AmiDictionaries.OPTOGENETICS : os.path.join(DICT_AMI3, "optogenetics.xml"),
+            AmiDictionaries.PECTIN : os.path.join(DICT_AMI3, "pectin.xml"),
+            AmiDictionaries.PHOTOSYNTH : os.path.join(DICT_AMI3, "photosynth.xml"),
+            AmiDictionaries.PLANT_DEV : os.path.join(DICT_AMI3, "plantDevelopment.xml"),
+            AmiDictionaries.POVERTY : os.path.join(DICT_AMI3, "poverty.xml"),
+            AmiDictionaries.PROT_STRUCT : os.path.join(DICT_AMI3, "proteinstruct.xml"),
+            AmiDictionaries.PROT_PRED : os.path.join(DICT_AMI3, "protpredict.xml"),
+            AmiDictionaries.REFUGEE : os.path.join(DICT_AMI3, "refugeeUNHCR.xml"),
+            AmiDictionaries.SESQUITERPENE : os.path.join(DICT_AMI3, "sesquiterpene.xml"),
+            AmiDictionaries.SOLVENT : os.path.join(DICT_AMI3, "solvents.xml"),
+            AmiDictionaries.STATISTICS : os.path.join(DICT_AMI3, "statistics.xml"),
+            AmiDictionaries.TROPICAL_VIRUS : os.path.join(DICT_AMI3, "tropicalVirus.xml"),
+            AmiDictionaries.WETLANDS : os.path.join(DICT_AMI3, "wetlands.xml"),
+            AmiDictionaries.WILDLIFE : os.path.join(DICT_AMI3, "wildlife.xml"),
+        }
+
+        for item in self.ami3_dict_index.items():
+            self.add_with_check(item[0], item[1])
+
+
     def add_with_check(self, key, file):
+        print("adding dictionary", file)
         Util.check_exists(file)
-        dictionary = SearchDictionary(file)
-        self.dictionary_dict[key] = dictionary
+        try:
+            dictionary = SearchDictionary(file)
+            self.dictionary_dict[key] = dictionary
+        except:
+            print("Failed to read dictionary", file)
 #        print(dictionary.get_or_create_term_set())
         return
+
 
 def test_profile():
     import cProfile
@@ -530,6 +710,7 @@ def main():
         and args.patt is None \
         :
         print("DEMO")
+#        AmiSearch.ethics_demo()
         AmiSearch.demo()
     else:
         print("dicts", args.dict, type(args.dict))

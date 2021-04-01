@@ -121,15 +121,15 @@ class Document:
             else:
                 print("PLEASE CREATE sections with ami sections, will add pyami later")
             return
-        terminal_files = glob.glob(os.path.join(sections_file, "**/*.xml"))
-        for terminal_file in terminal_files:
+        files = glob.glob(os.path.join(sections_file, "**/*.xml"))
+        for terminal_file in files:
             # REFACTOR
             terminal_page = TextUtil.get_words_from_terminal_file(terminal_file)
             self.words.extend(terminal_page.get_words_from_sentences())
 
     # REFACTOR
     @staticmethod
-    def get_words_from_terminal_file(terminal_file):
+    def get_words_from_file(terminal_file):
         ami_section = AmiSection()
         ami_section.read_file(terminal_file)
         ami_section.sentences = [Sentence(s) for s in (nltk.sent_tokenize(ami_section.txt))]
@@ -147,7 +147,7 @@ class Document:
 
             sentence_file = AmiSection.create_txt_filename_from_xml(ami_section.xml_file)
             if not os.path.exists(sentence_file):
-                print("wrote sentence file", sentence_file)
+#                print("wrote sentence file", sentence_file)
                 Sentence.write_numbered_sentence_file(sentence_file, ami_section.sentences)
             ami_section.get_words_from_sentences()
         return ami_section.words
@@ -250,6 +250,7 @@ class AmiSection:
                     print("wrote sentence file", self.txt_file)
                     AmiSection.write_numbered_sentence_file(self.txt_file, self.sentences)
             self.words = self.get_words_from_sentences()
+            print(file,">\n  ", self.words)
 
 # static utilities
     @staticmethod
@@ -454,6 +455,17 @@ class TextUtil:
         return words
 
 class WordFilter:
+
+    # These should really be read from file
+
+    # false positives in organizatiom dictionary.
+    ORG_STOP = {
+        "basis",
+        "orange",
+    }
+
+
+
 
     """ filters a list of words
     generally deletes words not satisfying a condition but this may develop

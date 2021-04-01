@@ -235,7 +235,7 @@ class AmiConfig:
     @staticmethod
     def test2_debug():
         ami_config = AmiConfig()
-        for sect_name in ami_config.parser.sections():
+        for sect_name in ami_config.parser.section_types():
             print("\n>>>>", sect_name, "\n>>>>>")
             section = ami_config.parser[sect_name]
             for k in section.keys():

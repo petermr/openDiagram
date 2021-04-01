@@ -57,8 +57,11 @@ LINK_TAGS = {
 
 SECTIONS = "sections"
 
+#XML_LANG = '{http://www.w3.org/XML/1998/namespace}lang'
+
 
 class XmlLib:
+    XML_LANG = '{http://www.w3.org/XML/1998/namespace}lang'
 
     def __init__(self, file=None, section_dir=SECTIONS):
         print("xml", file)
@@ -73,6 +76,7 @@ class XmlLib:
         self.element_tree = ElementTree.parse(file)
         root = self.element_tree.getroot()
         if not section_dir is None:
+            print("making sections")
             self.section_dir = self.make_sections_path(section_dir)
 
         indent = 0

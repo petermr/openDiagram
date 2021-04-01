@@ -7,8 +7,11 @@
     "SUBSECT": "*_front",
     "SUBSUB": "*article-meta",
     "FILE": "*abstract",
-    "SUFFIX": "xml"
-  },  
+    "SUFFIX": "xml",
+    "_MAKE": [
+      "AmiSection.makeSections"
+      ]
+  },
   "acknowledge": {
     "_DESC": "acknowledgments (may include funders)",
     "PROJ": "_REQD",
@@ -46,7 +49,7 @@
     "SECTS": "sections",
     "SUBSECT": "**",
     "SUBSUB": "*ethic*",
-    "FILE": "*",
+    "FILE": "*p*",
     "SUFFIX": "xml"
   },
   "fig_caption": {

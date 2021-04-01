@@ -6,9 +6,11 @@ from file_lib import AmiPath, PROJ
 from text_lib import TextUtil, AmiSection, WordFilter
 from xml_lib import XmlLib
 from util import Util
-from xml.etree import ElementTree as ET
+#from xml.etree import ElementTree as ET
+from lxml import etree as ET
 from collections import Counter
 import re
+import unicodedata
 
 HOME = os.path.expanduser("~")
 PYDIAG = "../../python/diagrams"
@@ -54,7 +56,8 @@ class AmiSearch:
 #        self.cur_dict = None
         self.cur_proj = None
         self.max_bars = 20
-        self.wikidata_label = "hi"
+        self.wikidata_label_lang = "en"
+#        self.wikidata_label_lang = "hi"
 
         # print every debug_cnt filenamwe
         self.debug_cnt = 10000
@@ -67,9 +70,12 @@ class AmiSearch:
         self.ami_dictionaries = AmiDictionaries()
 
     def make_graph(self, counter, dict_name):
+        import matplotlib as mpl
         import matplotlib.pyplot as plt
-        from matplotlib import rc
-        rc('font', family='Arial')
+#        mpl.rcParams['font.family'] = 'sans-serif'
+        mpl.rcParams['font.family'] = 'Helvetica'
+        import matplotlib.pyplot as plt
+#        rc('font', family='Arial')
 #        ax = plt.gca()
         commonest = counter.most_common()
         keys = [c[0] for c in commonest]
@@ -122,7 +128,7 @@ class AmiSearch:
     @staticmethod
     def _append_facet(label, name, dikt, dict_list):
         if not name in dikt:
-            raise Exception("unknown name", name, "in", dikt)
+            raise Exception("unknown name: " +  name + " in " + str(dikt.keys()))
         dict_list.append(dikt[name])
 
     def search(self, file):
@@ -138,39 +144,54 @@ class AmiSearch:
         found = False
         for dictionary in self.dictionaries:
             hits = dictionary.match(words)
+#            print("hits", len(hits))
             if dictionary.entry_by_term is not None:
-                wid_hits = []
-                for hit in hits:
-                    if hit in dictionary.entry_by_term:
-                        entry = dictionary.entry_by_term[hit]
-                        if "wikidataID" not in entry.attrib:
-                            print ("no wikidataID for ", hit, "in", dictionary.name)
-                            continue
-                        wikidata_id = entry.attrib["wikidataID"]
-#                        synonym = entry.findall("synonym[@xml:lang='hi']")
-#                        synonym = entry.findall("synonym[@*='hi']")
-                        label = hit
-                        synonyms = entry.findall("synonym")
-
-                        if synonyms is not None and len(synonyms) > 0 and self.wikidata_label in ['hi', 'ta', 'ur', 'fr', 'de']:
-                            for synonym in synonyms:
-                                if XmlLib.XML_LANG in synonym.attrib:
-    #                                print("synonym", sss, sss.attrib , sss.attrib['{http://www.w3.org/XML/1998/namespace}lang'] , sss.text)
-                                    lang = synonym.attrib[XmlLib.XML_LANG]
-                                    print("lang", lang)
-                                    if lang == self.wikidata_label:
-                                        label = synonym.text
-                                        break
-    #                                if lang in ['hi', 'ta', 'ur', 'fr', 'de']:
-    #                                    print(lang, "=", sss.text)
-    #                         wid_hits.append(wikidata_id)
-    #                        label = wikidata_id if self.wikidata_label else hit
-                            wid_hits.append(label)
-
-#                    indexed_hits = dictionary.index_hits(hits)
-#            matches_by_amidict[dictionary.name] = hits
+                wid_hits = self.annotate_hits_with_wikidata(dictionary, hits)
             matches_by_amidict[dictionary.name] = wid_hits
         return matches_by_amidict
+
+    def annotate_hits_with_wikidata(self, dictionary, hits):
+        wid_hits = []
+        for hit in hits:
+            if hit in dictionary.entry_by_term:
+                entry = dictionary.entry_by_term[hit]
+                if "wikidataID" not in entry.attrib:
+                    print("no wikidataID for ", hit, "in", dictionary.name)
+                    continue
+                wikidata_id = entry.attrib["wikidataID"]
+                label = hit
+                if self.wikidata_label_lang in ['hi', 'ta', 'ur', 'fr', 'de']:
+                    #                            self.xpath_search(entry)  # doesn't work
+                    lang_label = self.search_by_xml_lang(entry)
+                    if lang_label is not None:
+                        label = lang_label
+                wid_hits.append(label)
+        return wid_hits
+
+    def search_by_xml_lang(self, entry):
+        label = None
+        synonyms = entry.findall("synonym")
+        for synonym in synonyms:
+            if len(synonym.attrib) > 0:
+                print("attribs", synonym.attrib)
+            if XmlLib.XML_LANG in synonym.attrib:
+                lang = synonym.attrib[XmlLib.XML_LANG]
+                print("lang", lang)
+                if lang == self.wikidata_label_lang:
+                    label = synonym.text
+                    print("FOUND", label)
+                    break
+        return label
+
+    def xpath_search(self, entry):
+        """doesn't yet work"""
+        lang_path = "synonym[" + XmlLib.XML_LANG + "='" + self.wikidata_label_lang + "']"
+        #                            print("LP", lang_path)
+        lang_equivs = entry.xpath('synonym[@xml:lang]', namespaces={'xml': XmlLib.XML_NS})
+        lang_equivs = entry.findall(lang_path)
+        if len(lang_equivs) > 0:
+            lang_equiv = lang_equivs[0]
+            print("FOUND", self.wikidata_label_lang, lang_equiv)
 
     def match_words_against_pattern(self, words):
         matches_by_pattern = {}
@@ -247,27 +268,28 @@ class AmiSearch:
     @staticmethod
     def demo():
         ami_search = AmiSearch()
-        ami_search.min_hits = 2
+        ami_search.min_hits = 1
 
         ami_search.use_sections([
 #            "method",
-#            AmiSection.INTRO,
+            AmiSection.INTRO,
             AmiSection.METHOD,
-            AmiSection.RESULTS,
-            AmiSection.TABLE,
+#            AmiSection.RESULTS,
+#            AmiSection.TABLE,
             #            "fig_caption"
         ])
         ami_search.use_dictionaries([
             # intern dictionaries
 #            AmiDictionaries.ACTIVITY,
-            AmiDictionaries.PLANT_COMPOUND,
-#            AmiDictionaries.PLANT_PART,
+            AmiDictionaries.COMPOUND,
+#            AmiDictionaries.PLANT_COMPOUND,
+            AmiDictionaries.PLANT_PART,
 #            AmiDictionaries.PLANT_GENUS,
 
 #            AmiDictionaries.PLANT,
 #            AmiDictionaries.PLANT_PART,
 
-            #            AmiDictionaries.GENUS,
+#            AmiDictionaries.GENUS,
 #            AmiDictionaries.ELEMENT,
 #            AmiDictionaries.ORGANIZATION,
 #            AmiDictionaries.SOLVENT,
@@ -293,7 +315,7 @@ class AmiSearch:
 #        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
 #        ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
 #        ami_search.use_pattern("^[A-Z]{1,}\d{1,}$", "AB12")
-        ami_search.use_pattern("_ALLCAPS", "all_capz")
+#        ami_search.use_pattern("_ALLCAPS", "all_capz")
 #        ami_search.use_pattern("_NUMBERS", "numberz")
 
         if ami_search.do_search:
@@ -594,13 +616,13 @@ class AmiDictionaries:
 
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
         self.add_with_check(AmiDictionaries.ACTIVITY,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoActivity", "eo_activity", "Activity.xml"))
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoActivity", "Activity.xml"))
         self.add_with_check(AmiDictionaries.COUNTRY,
                             os.path.join(OV21_DIR, "country", "country.xml"))
         self.add_with_check(AmiDictionaries.DISEASE,
                             os.path.join(OV21_DIR, "disease", "disease.xml"))
         self.add_with_check(AmiDictionaries.COMPOUND,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "eoCompound.xml"))
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
         # /Users/pm286/dictionary/cevopen/plant_genus/eo_plant_genus.xml
         self.add_with_check(AmiDictionaries.PLANT,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant.xml"))
@@ -609,8 +631,8 @@ class AmiDictionaries:
         self.add_with_check(AmiDictionaries.ORGANIZATION,
                             os.path.join(OV21_DIR, "organization", "organization.xml"))
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoCompound / plant_compounds.xml
-        self.add_with_check(AmiDictionaries.PLANT_COMPOUND,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
+#        self.add_with_check(AmiDictionaries.PLANT_COMPOUND,
+#                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
         # /Users/pm286/projects/CEVOpen/dictionary/eoPlantPart/eoplant_part.xml
         self.add_with_check(AmiDictionaries.PLANT_PART,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
@@ -668,8 +690,8 @@ class AmiDictionaries:
         try:
             dictionary = SearchDictionary(file)
             self.dictionary_dict[key] = dictionary
-        except:
-            print("Failed to read dictionary", file)
+        except Exception as ex:
+            print("Failed to read dictionary", file, ex)
 #        print(dictionary.get_or_create_term_set())
         return
 

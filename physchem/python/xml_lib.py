@@ -61,7 +61,8 @@ SECTIONS = "sections"
 
 
 class XmlLib:
-    XML_LANG = '{http://www.w3.org/XML/1998/namespace}lang'
+    XML_NS = 'http://www.w3.org/XML/1998/namespace'
+    XML_LANG = "{" + XML_NS + "}" + 'lang'
 
     def __init__(self, file=None, section_dir=SECTIONS):
         print("xml", file)

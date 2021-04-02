@@ -153,13 +153,14 @@ class AmiConfig:
 
     def read_amidicts_in_inifile(self, dict_ref, dict_section, sub_section):
         for dict_id in sub_section.keys():
+            print("dict_id", dict_id)
             if dict_id in self.dict_id_dict:
                 print("duplicate dict id: ", dict_id)
             if not dict_section[dict_ref] or not sub_section[dict_id]:
                 print("No subsection for ", dict_id)
             else:
                 file = self.read_dict_xml(dict_ref, dict_section, dict_id, sub_section)
-                if file is not None:
+                if file is not None and dict_id in self.dict_id_dict:
                     self.dict_id_dict[dict_id]
 
     def create_ini_filename_from_link(self, ini_key, dict_section):
@@ -185,14 +186,16 @@ class AmiConfig:
         return file
 
     def _debug_desc_and_entries(self, dict_name, file_tree_xml):
-        desc = file_tree_xml.findall("desc")
+        descs = file_tree_xml.findall("desc")
         entries = file_tree_xml.findall("entry")
         wikidata = file_tree_xml.findall("entry[@wikidataID]")
 
-        if desc:
-            print(dict_name, "entries", len(entries), "wikidata", len(wikidata), "\n     ", desc[0].xml_file)
+        if descs:
+            print(dict_name, "entries", len(entries), "wikidata", len(wikidata))
+            for desc in descs:
+                print("d: ", desc.text)
         else:
-            print("no desc")
+            print("no descs")
 
 
     def read_url_dicts(self, dict_key, dict_section):

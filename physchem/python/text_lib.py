@@ -242,7 +242,11 @@ class AmiSection:
             elif os.path.exists(self.xml_file):
                 """read a file as an ami-section of larger document """
                 with open(self.xml_file, "r") as f:
-                    self.xml = f.read()
+                    try:
+                        self.xml = f.read()
+                    except Exception as ex:
+                        print ("error reading: ", file, ex)
+                        raise ex
                 self.txt = self.flatten_xml_to_text(self.xml)
                 self.sentences = [Sentence(s) for s in (nltk.sent_tokenize(self.txt))]
 #                        self.sentences = Sentence.merge_false_sentence_breaks(self.sentences)

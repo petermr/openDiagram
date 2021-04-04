@@ -433,6 +433,9 @@ class AmiProjects:
     def add_with_check(self, key, file):
         """checks for existence and adds filename to project_dict
         key: unique name for ami_dict , default ami_dict in AmiProjects"""
+        if not os.path.isdir(file):
+            print("project files not available for ", file)
+            return
         Util.check_exists(file)
         if key in self.project_dict:
             raise Exception (str(key) + " already exists in project_dict,  must be unique")

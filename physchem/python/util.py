@@ -291,4 +291,11 @@ if __name__ == "__main__":
 class Util:
 
     def check_exists(file):
-        assert os.path.exists(file), str(file) + " should exist"
+        """
+        raise exception on null value or non-existent file
+        """
+        if file is None:
+            raise Exception("null file")
+
+        if not os.path.exists(file):
+            raise FileNotFoundError(str(file) + " should exist")

@@ -67,7 +67,7 @@ class ProjectCorpus:
             section = AmiSection()
             section.read_file(file)
             c = Counter(TextUtil.get_words_in_section(file))
-            print(file.split("/")[-2:-1], c.most_common(20))
+            print(__cls__, file.split("/")[-2:-1], c.most_common(20))
         wordz = TextUtil.get_aggregate_words_from_files(filez)
         cc = Counter(wordz)
         self.words = wordz
@@ -250,7 +250,7 @@ class AmiSection:
                     print("wrote sentence file", self.txt_file)
                     AmiSection.write_numbered_sentence_file(self.txt_file, self.sentences)
             self.words = self.get_words_from_sentences()
-            print(file,">\n  ", self.words)
+#            print("debug", file,">\n  ", self.words)
 
 # static utilities
     @staticmethod

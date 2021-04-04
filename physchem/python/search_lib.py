@@ -24,6 +24,7 @@ PMR_DIR = os.path.join(DICT_DIR, "pmr")
 PROJECTS = os.path.join(HOME, "projects")
 
 OPEN_DIAGRAM = os.path.join(PROJECTS, "openDiagram")
+OPEN_DIAGRAM_SEARCH = os.path.join(OPEN_DIAGRAM, "searches")
 
 PHYSCHEM = os.path.join(OPEN_DIAGRAM, "physchem")
 PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
@@ -57,13 +58,13 @@ class AmiSearch:
         self.cur_proj = None
         self.max_bars = 20
         self.wikidata_label_lang = "en"
-#        self.wikidata_label_lang = "hi"
 
         # print every debug_cnt filenamwe
         self.debug_cnt = 10000
         # maximum files to search
         self.max_files = 10000
         self.min_hits = 1
+        self.require_wikidata = False
 
         # look up how sections work
 #        self.ami_sections = AmiSections()
@@ -155,10 +156,10 @@ class AmiSearch:
         for hit in hits:
             if hit in dictionary.entry_by_term:
                 entry = dictionary.entry_by_term[hit]
-                if "wikidataID" not in entry.attrib:
+                if self.require_wikidata and "wikidataID" not in entry.attrib:
                     print("no wikidataID for ", hit, "in", dictionary.name)
                     continue
-                wikidata_id = entry.attrib["wikidataID"]
+#                wikidata_id = entry.attrib["wikidataID"]
                 label = hit
                 if self.wikidata_label_lang in ['hi', 'ta', 'ur', 'fr', 'de']:
                     #                            self.xpath_search(entry)  # doesn't work
@@ -173,13 +174,14 @@ class AmiSearch:
         synonyms = entry.findall("synonym")
         for synonym in synonyms:
             if len(synonym.attrib) > 0:
-                print("attribs", synonym.attrib)
+#                print("attribs", synonym.attrib)
+                pass
             if XmlLib.XML_LANG in synonym.attrib:
                 lang = synonym.attrib[XmlLib.XML_LANG]
-                print("lang", lang)
+#                print("lang", lang)
                 if lang == self.wikidata_label_lang:
                     label = synonym.text
-                    print("FOUND", label)
+#                    print("FOUND", label)
                     break
         return label
 
@@ -191,7 +193,7 @@ class AmiSearch:
         lang_equivs = entry.findall(lang_path)
         if len(lang_equivs) > 0:
             lang_equiv = lang_equivs[0]
-            print("FOUND", self.wikidata_label_lang, lang_equiv)
+#            print("FOUND", self.wikidata_label_lang, lang_equiv)
 
     def match_words_against_pattern(self, words):
         matches_by_pattern = {}
@@ -264,11 +266,13 @@ class AmiSearch:
             min_counter = Counter({k: c for k, c in c.items() if c >= self.min_hits})
             if self.do_plot:
                 self.make_graph(min_counter, tool)
+            print("lang:", self.wikidata_label_lang, "\n", min_counter.most_common())
 
     @staticmethod
-    def demo():
+    def plant_parts_demo():
         ami_search = AmiSearch()
         ami_search.min_hits = 1
+        ami_search.wikidata_label_lang = "fr"
 
         ami_search.use_sections([
 #            "method",
@@ -329,31 +333,49 @@ class AmiSearch:
         ami_search = AmiSearch()
         ami_search.min_hits = 2
 
-        ami_search.use_sections([
-            AmiSection.ETHICS,
-        ])
-        ami_search.use_dictionaries([
-            AmiDictionaries.COUNTRY,
-            AmiDictionaries.DISEASE,
-        ])
-        ami_search.use_projects([
-            AmiProjects.DISEASE,
-        ])
-        ami_search.use_filters([
-
-            WordFilter.ORG_STOP
-
-        ])
+        ami_search.use_sections([AmiSection.ETHICS, ])
+        ami_search.use_dictionaries([AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE, ])
+        ami_search.use_projects([AmiProjects.DISEASE, ])
+        ami_search.use_filters([WordFilter.ORG_STOP])
 
         ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
         ami_search.use_pattern("_ALLCAPS", "all_capz")
         ami_search.use_pattern("_ALL", "_all")
 
-        if ami_search.do_search:
-            ami_search.run_search()
+        ami_search.run_search()
 
-#    def add_regex(self, name, regex):
-#        self.patterns.append(SearchPattern(name, SearchPattern.REGEX, regex))
+
+    @staticmethod
+    def luke_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.METHOD, ])
+        ami_search.use_dictionaries([AmiDictionaries.ELEMENT])
+        ami_search.use_projects([AmiProjects.FFML,])
+
+        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
+        ami_search.use_pattern("_ALLCAPS", "all_capz")
+        ami_search.use_pattern("_ALL", "_all")
+
+        ami_search.run_search()
+
+    @staticmethod
+    def worc_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.METHOD])
+        ami_search.use_dictionaries([AmiDictionaries.ELEMENT])
+        ami_search.use_dictionaries([AmiDictionaries.SOLVENT])
+        ami_search.use_dictionaries([AmiDictionaries.NMR])
+        ami_search.use_projects([AmiProjects.WORC_EXPLOSION, AmiProjects.WORC_SYNTH])
+
+        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
+        ami_search.use_pattern("_ALLCAPS", "all_capz")
+        ami_search.use_pattern("_ALL", "_all")
+
+        ami_search.run_search()
 
 
 class SimpleDict:
@@ -368,6 +390,7 @@ class SimpleDict:
 class AmiProjects:
     """project files"""
     LIION10 = "liion10"
+    FFML = "ffml"
     OIL186 = "oil186"
     OIL26 = "oil26"
     CCT    = "cct"
@@ -389,13 +412,14 @@ class AmiProjects:
     def create_project_dict(self):
         self.project_dict = {}
         self.add_with_check(AmiProjects.LIION10, os.path.join(PHYSCHEM_RESOURCES, "liion10"))
+        self.add_with_check(AmiProjects.FFML, os.path.join(OPEN_DIAGRAM_SEARCH, "ffml"))
         self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"))
         self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"))
         self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))
         self.add_with_check(AmiProjects.DISEASE, os.path.join(MINIPROJ, "disease", "1-part"))
         self.add_with_check(AmiProjects.DIFFPROT, os.path.join(PROJECTS, "openDiagram/python/diagrams/rahul/diffprotexp"))
-        self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester/synthesis"))
-        self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester/explosion"))
+        self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester", "synthesis"))
+        self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester", "explosion"))
 
         # minicorpora
         self.add_with_check(AmiProjects.C_ACTIVITY, os.path.join(MINICORPORA, "activity"))
@@ -405,7 +429,11 @@ class AmiProjects:
 
 
     def add_with_check(self, key, file):
+        """checks for existence and adds filename to project_dict
+        key: unique name for ami_dict , default ami_dict in AmiProjects"""
         Util.check_exists(file)
+        if key in self.project_dict:
+            raise Exception (str(key) + " already exists in project_dict,  must be unique")
         self.project_dict[key] = AmiProject(file)
 
 class AmiProject:
@@ -612,7 +640,7 @@ class AmiDictionaries:
     def create_search_dictionary_dict(self):
         self.dictionary_dict = {}
 
-        self.make_ami3_dictiomaries()
+        self.make_ami3_dictionaries()
 
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
         self.add_with_check(AmiDictionaries.ACTIVITY,
@@ -639,9 +667,16 @@ class AmiDictionaries:
 #        self.add_with_check(AmiDictionaries.PLANT,
 #                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant", "Plant.xml"))
 
+# tests - will remove as soon as I have learnt how to do tests
+        fail_test = False
+        if fail_test:
+            self.add_with_check("junk", "none") # should throw missing file
+            self.add_with_check(AmiDictionaries.PLANT_PART,
+                    os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))  # should throw duplicate key
+
         return self.dictionary_dict
 
-    def make_ami3_dictiomaries(self):
+    def make_ami3_dictionaries(self):
 
         self.ami3_dict_index = {
             AmiDictionaries.ANIMAL_TEST : os.path.join(DICT_AMI3, "animaltest.xml"),
@@ -686,6 +721,8 @@ class AmiDictionaries:
 
     def add_with_check(self, key, file):
         print("adding dictionary", file)
+        if key in self.dictionary_dict:
+            raise Exception("duplicate dictionary key " + key + " in "+ str(self.dictionary_dict))
         Util.check_exists(file)
         try:
             dictionary = SearchDictionary(file)
@@ -733,7 +770,9 @@ def main():
         :
         print("DEMO")
 #        AmiSearch.ethics_demo()
-        AmiSearch.demo()
+#        AmiSearch.luke_demo()
+        AmiSearch.plant_parts_demo()
+#        AmiSearch.worc_demo()
     else:
         print("dicts", args.dict, type(args.dict))
         print("sects", args.sect, type(args.sect))

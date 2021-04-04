@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref rid="fig2" ref-type="fig">Figure 
+  <xref rid="fig2" ref-type="fig">2</xref>
+ </xref> shows typical snapshots that illustrate the translocation of a compound through the model membrane, in this case mannitol (see also movie in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_002.mp4" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>), where the pulling velocity 
+ <italic>v</italic> = 0.5 nm/ns and the GROMOS54a7 force-field for the model DOPC was used in this case. Obviously, the membrane remains stable during the simulation. Our analysis for each case of force field, membrane model, and pulling velocity, yields the maximum force, 
+ <italic>F</italic>
+ <sub>max</sub>, exerted on the compound, and the nonequilibrium work, 
+ <italic>W</italic>
+ <sub>neq</sub>, required to pull the compound through the membrane can be readily calculated from the force–position profiles (e.g., Figure S2 in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>) as discussed in our previous section. The values of 
+ <italic>F</italic>
+ <sub>max</sub>and 
+ <italic>W</italic>
+ <sub>neq</sub> are reported in Table S4 of the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link> and plotted as a function of logBB in 
+ <xref rid="fig3" ref-type="fig">Figure 
+  <xref rid="fig3" ref-type="fig">3</xref>
+ </xref> for the 26 compounds and the DOPC membrane model simulated with the CHARMM36 forcefield and pulling velocity 
+ <italic>v</italic> = 0.5 nm/ns. Our results indicate that the correlation between 
+ <italic>F</italic>
+ <sub>max</sub> and the logBB values of the compounds is high, namely, 
+ <italic>R</italic>
+ <sup>2</sup> = 0.85. In particular, the maximum force increases as the logBB values decrease. This result agrees well with the expectation that a larger force may be required to translocate a compound through the membrane when logBB is lower (e.g., mannitol). In the case of 
+ <italic>W</italic>
+ <sub>neq</sub>, the correlation of the simulation results with the experimental logBB values of the compounds is similarly high, namely, the correlation coefficient is 
+ <italic>R</italic>
+ <sup>2</sup> = 0.86. Hence, our results indicate a remarkable correlation between the experimentally measured logBB parameters and the reported maximum force values, 
+ <italic>F</italic>
+ <sub>max</sub>, and the nonequilibrium work, 
+ <italic>W</italic>
+ <sub>neq</sub>, despite the simplicity of our approach. Both quantities are larger when logBB is smaller.
+</p>

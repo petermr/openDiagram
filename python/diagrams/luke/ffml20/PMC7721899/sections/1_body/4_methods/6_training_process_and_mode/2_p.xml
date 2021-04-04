@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par53">For PR, the complexity is increased with respect to polynomial order from 1 to 6, and an optimum polynomial order of 3 is obtained (please refer to Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">1</xref>). For SVM with RBF kernel, two parameters are considered, which are C and gamma (
+ <inline-formula id="IEq35">
+  <alternatives>
+   <tex-math id="M93">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\gamma$$\end{document}</tex-math>
+   <math id="M94">
+    <mi>γ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq35.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>). The model complexity is varied by varying C from 0.001 to 1000 and gamma from 0.1 to 10. The parameters are optimized using a grid search approach so as to minimize the error. Thus, optimum values of 100 and 0.46 are obtained for C and 
+ <inline-formula id="IEq36">
+  <alternatives>
+   <tex-math id="M95">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\gamma$$\end{document}</tex-math>
+   <math id="M96">
+    <mi>γ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq36.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> respectively (please refer to Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">4</xref>). In the k-nearest neighbor method, the k-value is varied from 1 to 9 and an optimum value of 4 is achieved (please refer to Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">6</xref>). In the decision tree algorithm, the model complexity is characterized by the maximum tree depth which is varied from 2–10. By evaluating the MSE and the R
+ <sup>2</sup> values, an optimum value of 5 for the maximum tree depth is chosen (please refer to Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">8</xref> for more details). For the random forest algorithm, the model complexity is varied by varying the number of trees from 2 to 10 from which an optimal number of 9 for the number of trees is selected which shows the least error for the validation dataset (please refer to Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">10</xref> for more details). For the Gaussian process, two covariance functions (RBF and Matern) with noise are implemented and the parameters are converged when the log marginal likelihood is maximized. Lastly, for NN the hyperparameters include the number of hidden nodes, size of hidden layers, optimizer function, learning rate, epoch, and batch size. In this study, the Adam optimizer is implemented. The learning is optimized for learning rate equal to 10
+ <sup>–3</sup>, epoch = 400, batch size of 32, and two hidden layers with a number of hidden nodes (or neurons) equal to 9 (please refer to sSpplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">13</xref> for more details). Overall, a rigorous hyperparametric optimization methodology employing a grid search was used for model refinement, thereby, ensuring the optimality of the model without underfitting or overfitting. To evaluate the performance of each model, the models are tested using the unseen test dataset. The performance of various methods is evaluated by comparing the MSE and R
+ <sup>2</sup> values obtained from each model.
+</p>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Let us note here that both ML-based approaches and XANES data fitting rely on the accuracy of the 
+ <italic>ab initio</italic> XANES modeling, and therefore, caution is needed when interpreting the results. Contrary to the case of EXAFS modeling, where 
+ <italic>ab initio</italic> simulations provide a very good description of the experimental data, in the XANES region of the absorption spectra, systematic differences between theoretical data and experimental XANES measurements are present, even if the most advanced codes are used for 
+ <italic>ab initio</italic> modeling. This systematic error can be propagated by the chosen data analysis method into significant inaccuracies in the values of the structure parameters. The accuracy of the ML-based approaches and XANES fitting thus always needs to be validated using sets of experimental data for samples with well-known structures.
+ <sup>
+  <xref ref-type="bibr" rid="ref12">12</xref>,
+  <xref ref-type="bibr" rid="ref202">202</xref>
+ </sup>
+</p>

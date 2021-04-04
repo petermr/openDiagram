@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">Nonetheless, even UFF-based models with fairly small training sets already provide a reasonable estimate of the AEs across chemical compound space. This is illustrated in Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>, where an interpolated AE/
+ <italic>N</italic> surface for an ML model trained on 1000 UFF structures is compared to the DFT reference values. The plots are visually almost indistinguishable. This serves to emphasize that even a ML model trained on 10% of the database already provides an adequate representation of its overall thermochemistry. Recall that the core task for the development of rationally reduced reaction networks is not an excessive accuracy of this thermochemistry as typically targeted in existing ML work for compound space. Instead, the overall topology needs to be appropriately represented to a degree that enables the selection or dismissal of reactions when building sub-graphs.
+</p>

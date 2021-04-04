@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For QM/MM calculations, the QM region is the chemically active part of the zeolite model and includes atoms up to the fifth oxygen atom (
+ <italic>i.e.</italic> Al–O–Si–O–Si–O) from the central T12 site. The total number of atoms in the cluster model is 2165, including 74 QM atoms and 197 inner MM atoms. Atoms in the inner MM region can move during the geometry optimisation while, the outer MM region is frozen to ensure a bulk-like structure at a far limit from any chemical reactions. The inner and outer MM regions extend from the central T12 site to a radius of 10.58 Å (20 a
+ <sub>0</sub>) and 21.17 Å (40 a
+ <sub>0</sub>), respectively. The QM energy was calculated using spin unpolarised hybrid-DFT with the dispersion-corrected Becke97-3 exchange-correlation (XC) functional, B97-D, as provided in the GAMESS-UK code.
+ <xref rid="cit40" ref-type="bibr">40</xref>–
+ <xref rid="cit42" ref-type="bibr">42</xref> The atomic orbitals were represented by the Ahlrichs and Taylor TZVP Gaussian basis sets.
+ <xref rid="cit43" ref-type="bibr">43</xref> The self-consistent field (SCF) convergence criteria was set to an energy change of less than 2.72 × 10
+ <sup>–6</sup> eV (1 × 10
+ <sup>–7</sup> Hartrees) between SCF iterations.
+ <xref rid="cit44" ref-type="bibr">44</xref>,
+ <xref rid="cit45" ref-type="bibr">45</xref> The MM energy was calculated using DL_POLY,
+ <xref rid="cit46" ref-type="bibr">46</xref> employing the forcefield of Hill and Sauer,
+ <xref rid="cit47" ref-type="bibr">47</xref>,
+ <xref rid="cit48" ref-type="bibr">48</xref> with the coordination dependent charges in the original forcefield being replaced with fixed 1.2 and –0.6 e point charges for silicon and oxygen, respectively
+ <xref rid="cit49" ref-type="bibr">49</xref>. Geometry optimisations (see ESI
+ <xref ref-type="fn" rid="fn1">†</xref>) were performed in a Cartesian coordinate space using the Limited-Memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) algorithm, with a maximum gradient convergence threshold of 0.015 eV Å
+ <sup>–1</sup>.
+ <xref rid="cit50" ref-type="bibr">50</xref>–
+ <xref rid="cit53" ref-type="bibr">53</xref>
+</p>

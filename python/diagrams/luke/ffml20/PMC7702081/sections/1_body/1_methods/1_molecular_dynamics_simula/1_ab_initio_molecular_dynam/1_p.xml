@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Simulations were conducted with the electronic structure code CP2K/Quickstep code, version 4.1.
+ <xref rid="cphc202000498-bib-0036" ref-type="ref">
+  <sup>[36]</sup>
+ </xref> CP2K implements DFT based on a hybrid Gaussian plane wave. The Perdew‐Burke‐Ernzerhof (PBE)
+ <xref rid="cphc202000498-bib-0037" ref-type="ref">
+  <sup>[37]</sup>
+ </xref> generalized‐gradient approximations for the exchange and correlation terms were used together with the general dispersion correction termed DFT‐D3 developed by Grimme at al.
+ <xref rid="cphc202000498-bib-0038" ref-type="ref">
+  <sup>[38]</sup>
+ </xref> to provide a more accurate description of the structure of liquid water.[
+ <xref rid="cphc202000498-bib-0039" ref-type="ref">
+  <sup>39</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0040" ref-type="ref">
+  <sup>40</sup>
+ </xref>] The Goedecker‐Teter‐Hutter pseudopotentials were used to describe the core‐valence interactions.
+ <xref rid="cphc202000498-bib-0041" ref-type="ref">
+  <sup>[41]</sup>
+ </xref> All atomic species were represented using a double‐zeta valence polarized basis set. The plane wave kinetic energy cut off (E
+ <sub>cut</sub>) was set to 1000 Ry. Table S1 of Supporting Information reports a comparison of the solvation structure of the hydrated cations (isolated ion, no counterions) considered in this study (Mg
+ <sup>2+</sup>, Ca
+ <sup>2+</sup>, Na
+ <sup>+</sup>, K
+ <sup>+</sup> and Cs
+ <sup>+</sup>) with the data obtained from other simulations and experimental measurements, from which we can deduce that the PBE‐D3 functional with the hybrid Gaussian (DZVP) plane wave (E
+ <sub>cut</sub>=1000 Ry) basis set gives an accurate representation of the first hydration shell structure. The 
+ <italic>k</italic>‐sampling was restricted to the 
+ <italic>Γ</italic> point of the Brillouin zone. Simulations were carried out with a wave function optimization tolerance of 10
+ <sup>−6</sup> au. Periodic boundary conditions were applied throughout. The 
+ <italic>ab initio</italic> MD simulations were carried out in the canonical constant volume, constant temperature (NVT) ensemble using a Nosé‐Hoover chain thermostat to maintain the average temperature at 300 K with 0.1 ps as the thermostat relaxation time.
+</p>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tab2" orientation="portrait" position="float">
+ <label>Table 2</label>
+ <caption>
+  <title>Calculated methoxy vibrational frequencies are shown for selected modes with their structures</title>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <colgroup span="1">
+   <col span="1"/>
+   <col span="1"/>
+   <col span="1"/>
+   <col span="1"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <td rowspan="1" colspan="1">Structure</td>
+    <td rowspan="1" colspan="1">Vibrational frequencies, (cm
+     <sup>–1</sup>)
+    </td>
+    <td rowspan="1" colspan="1">Vibrational mode</td>
+    <td rowspan="1" colspan="1">Reference</td>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="2" colspan="1">A</td>
+    <td rowspan="1" colspan="1">925</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>C–O</sub>(Si/Al–OCH
+     <sub>3</sub>)
+    </td>
+    <td rowspan="2" colspan="1">
+     <xref rid="cit21" ref-type="bibr">21 and 30</xref>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">753</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>C–O</sub>(Si/Al–OCD
+     <sub>3</sub>)
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2" colspan="1">B</td>
+    <td rowspan="1" colspan="1">1157/1165</td>
+    <td rowspan="1" colspan="1">
+     <italic>ρ</italic>
+     <sub>CH
+      <sub>3</sub>
+     </sub>OCH
+     <sub>3</sub>
+    </td>
+    <td rowspan="1" colspan="1">
+     <xref rid="cit30" ref-type="bibr">30</xref>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">865/900</td>
+    <td rowspan="1" colspan="1">
+     <italic>ρ</italic>
+     <sub>CH
+      <sub>3</sub>
+     </sub>OCD
+     <sub>3</sub>
+    </td>
+    <td rowspan="1" colspan="1">This work</td>
+   </tr>
+   <tr>
+    <td rowspan="2" colspan="1">C</td>
+    <td rowspan="1" colspan="1">2880</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>sC–H</sub>(Si/Al–O–CH
+     <sub>3</sub>)
+    </td>
+    <td rowspan="2" colspan="1">This work</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">2078</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>sC–D</sub>(Si/Al–O–CD
+     <sub>3</sub>)
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="2" colspan="1">D</td>
+    <td rowspan="1" colspan="1">2988</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>asC–H</sub>(Si/Al–O–CH
+     <sub>3</sub>)
+    </td>
+    <td rowspan="2" colspan="1">This work</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">2253</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>asC–D</sub>(Si/Al–O–CD
+     <sub>3</sub>)
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4" rowspan="1">
+     <inline-graphic xlink:href="d0sc01924k-u2.jpg" id="ugr2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

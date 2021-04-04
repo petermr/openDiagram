@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to assess the influence of the pulling velocity, we carried out SMD simulations with a range of pulling velocities, that is, 
+ <italic>v</italic> = 0.5, 1.5, and 5 nm/ns, and different bilayer compositions (DOPC or POPC) for the 26 compounds of this study by using different force fields. Our results in the case of the GROMOS54a7 force-field for the DOPC membrane model (cf. 
+ <xref rid="fig4" ref-type="fig">Figure 
+  <xref rid="fig4" ref-type="fig">4</xref>
+ </xref>) indicate that the correlation remains high when the pulling velocity increases (
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Figure S7 and Table S5</ext-link>), namely 
+ <italic>v</italic> = 1.5 nm/ns. Hence, the values of 
+ <italic>R</italic>
+ <sup>2</sup> for the correlation of 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with logBB are not affected significantly by changing the pulling velocity. Similarly, the correlation of 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with the logPS and TPSA is of the same order. Further increase of the velocity (i.e., 
+ <italic>v</italic> = 5.0 nm/ns) suggests that the correlation of 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with logBB, logPS, and TPSA remains again of the same order (
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Figure S8 and Table S5</ext-link>). Hence, changes in the pulling velocity do not affect our conclusions. Furthermore, we have verified our conclusions for both the GROMOS54a7 and the CHARMM36 force-fields, as well as different membrane models (DOPC and POPC). Then, 
+ <xref rid="fig5" ref-type="fig">Figure 
+  <xref rid="fig5" ref-type="fig">5</xref>
+ </xref> shows the correlation of 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with the experimental logBB and logPS values in the case of the CHARMM36 force-field and pulling velocity 
+ <italic>v</italic> = 5 nm/ns for the POPC membrane model. The values are also reported in 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Table S6</ext-link>. We find that the correlation of 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with logBB, logPS, and TPSA is similar, irrespective of the membrane type (DOPC or POPC). In particular, the maximum force and the nonequilibrium work remains highly correlated with the experimental logBB values, namely, 
+ <italic>R</italic>
+ <sup>2</sup> = 0.72 and 
+ <italic>R</italic>
+ <sup>2</sup> = 0.80, respectively. The correlation with the logPS is also high in the case of 
+ <italic>F</italic>
+ <sub>max</sub>, but it is much lower in the case of 
+ <italic>W</italic>
+ <sub>neq</sub>
+ <italic>versus</italic> logPS. The results for 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with the TPSA values show a much weaker correlation in comparison with the experimental logBB and logPS values. In the case of 
+ <xref rid="fig5" ref-type="fig">Figure 
+  <xref rid="fig5" ref-type="fig">5</xref>
+ </xref>, 
+ <italic>R</italic>
+ <sup>2</sup> = 0.47 and 0.43 for the correlation of 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with TPSA, respectively. In summary, we conclude that the correlation between 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with logBB, logPS, and TPSA are robust because it is not affected by the employed forcefield for the compound and the membrane, the pulling velocity and the membrane model (POPC or DOPC). In all cases, our results suggest a significant correlation between 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with the experimental logBB and logPS values, as well as TPSA values, reported in the literature.
+</p>

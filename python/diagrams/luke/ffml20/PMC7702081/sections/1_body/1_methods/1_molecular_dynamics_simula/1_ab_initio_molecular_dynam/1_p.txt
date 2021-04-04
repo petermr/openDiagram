@@ -1,0 +1,12 @@
+0: Simulations were conducted with the electronic structure code CP2K/Quickstep code, version 4.1.
+1: [36] CP2K implements DFT based on a hybrid Gaussian plane wave.
+2: The PerdewBurkeErnzerhof (PBE) [37] generalizedgradient approximations for the exchange and correlation terms were used together with the general dispersion correction termed DFTD3 developed by Grimme at al.
+3: [38] to provide a more accurate description of the structure of liquid water.
+4: [ 39,  40] The GoedeckerTeterHutter pseudopotentials were used to describe the corevalence interactions.
+5: [41] All atomic species were represented using a doublezeta valence polarized basis set.
+6: The plane wave kinetic energy cut off (E cut) was set to 1000 Ry.
+7: Table S1 of Supporting Information reports a comparison of the solvation structure of the hydrated cations (isolated ion, no counterions) considered in this study (Mg 2+, Ca 2+, Na +, K + and Cs +) with the data obtained from other simulations and experimental measurements, from which we can deduce that the PBED3 functional with the hybrid Gaussian (DZVP) plane wave (E cut=1000 Ry) basis set gives an accurate representation of the first hydration shell structure.
+8: The  ksampling was restricted to the   point of the Brillouin zone.
+9: Simulations were carried out with a wave function optimization tolerance of 10 6 au.
+10: Periodic boundary conditions were applied throughout.
+11: The  ab initio MD simulations were carried out in the canonical constant volume, constant temperature (NVT) ensemble using a NoseHoover chain thermostat to maintain the average temperature at 300 K with 0.1 ps as the thermostat relaxation time.

@@ -1,0 +1,4 @@
+0: Reference geometries and energies were obtained using DFT as implemented in FHI-Aims 46,  71.
+1: Specifically, the PBE0 functional 72 was used with tight integration settings and tier-2 numerical atomic orbital basis sets.
+2: Dispersion interactions were treated via the pair-wise Tkatchenko-Scheffler van-der-Waals correction 73.
+3: Approximate geometries were obtained with the UFF forcefield 61.

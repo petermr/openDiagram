@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Disorder effects can manifest differently in the XAS data and the extracted structural parameters. For example, a reduction of the average coordination numbers is expected in disordered systems due to a large number of vacancies in the structure. Nevertheless, in XAS analysis, one often considers disorder effects as the variations in the bond-length values, which are captured by the Debye–Waller factor σ
+ <sup>2</sup>. Importantly, the value of the XAS σ
+ <sup>2</sup> parameter depends both on thermal σ
+ <sub>
+  <italic>p</italic>,
+  <italic>thermal</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> and static σ
+ <sub>
+  <italic>p</italic>,
+  <italic>static</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> disorders. The former is strongly linked to the dynamic properties of the material, such as correlations in the motion of neighboring atoms and bond strengths,
+ <sup>
+  <xref ref-type="bibr" rid="ref152">152</xref>,
+  <xref ref-type="bibr" rid="ref154">154</xref>,
+  <xref ref-type="bibr" rid="ref238">238</xref>
+ </sup> and characteristic vibrational frequencies commonly described by the correlated Einstein or Debye models (see 
+ <xref rid="sec4.3" ref-type="other">Section 
+  <xref rid="sec4.3" ref-type="other">4.3</xref>
+ </xref>). The σ
+ <sub>
+  <italic>p</italic>,
+  <italic>static</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> component in turn describes the static deviations from the average interatomic distances due to a structure relaxation at the interfaces or grain boundaries in polycrystalline materials, presence of defects, or increased structure roughness. These parameters can have a pronounced effect on the catalytic properties. For example, an increase in the structural microstrain (suggested by an increase in the EXAFS Debye–Waller factors) under aging treatment was linked to an improved methanol steam reforming activity for Cu/ZnO catalysts.
+ <sup>
+  <xref ref-type="bibr" rid="ref337">337</xref>
+ </sup> In electrocatalysis, the fabrication of rough surfaces via plasma treatment or dealloying processes is a common route to improve the electrocatalytic activity of polycrystalline materials.
+ <sup>
+  <xref ref-type="bibr" rid="ref263">263</xref>,
+  <xref ref-type="bibr" rid="ref338">338</xref>
+ </sup> On the other hand, the strain induced in the structure of multimetallic NPs due to the mismatch of the lattice parameters of the constituent metals provides the possibility to tune their electronic properties. This was for instance linked to the superior activity for ORR observed for NPs with an alloy core of varied composition surrounded by a monolayer of Pt.
+ <sup>
+  <xref ref-type="bibr" rid="ref339">339</xref>−
+  <xref ref-type="bibr" rid="ref341">341</xref>
+ </sup> A Volcano-type relation between the strain in Pt within such bimetallic systems and the catalyst activity for ORR was previously shown.
+ <sup>
+  <xref ref-type="bibr" rid="ref118">118</xref>
+ </sup>
+</p>

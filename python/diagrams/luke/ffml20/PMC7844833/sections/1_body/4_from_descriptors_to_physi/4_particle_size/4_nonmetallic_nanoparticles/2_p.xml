@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Previously discussed approaches are applicable to the extraction of particle sizes in metallic NPs only. The sensitivity of the XAS method to particle sizes in the case of oxidized NPs is much less pronounced. Because of the stability of metal–oxygen polyhedral structural units, even in the smallest oxidized NPs the metal atom is usually completely coordinated by oxygen atoms, and therefore, the first coordination shell does not contain any information on the particle size. The interpretation of contributions of more distant coordination shells in oxidized materials is thus necessary to obtain information about the particle sizes. For example, 
+ <xref rid="fig15" ref-type="fig">Figure 
+  <xref rid="fig15" ref-type="fig">15</xref>
+ </xref>a demonstrates that while the first coordination shell (1st peak in the Ni K-edge FT-EXAFS data) in NiO NPs is practically not affected by the particle size, contributions of more distant coordination shells are suppressed for smaller particles.
+ <sup>
+  <xref ref-type="bibr" rid="ref223">223</xref>
+ </sup> The interpretation of these distant shell contributions in oxide materials is, however, even more challenging than that in metallic systems. The few existing examples of NP size determination in oxidized systems rely on advanced data analysis approaches. The interpretation of size-effects in Ni K-edge XANES data for NiO NPs with sizes 1–4 nm was demonstrated by Anspoks et al. by directly matching to experimental data theoretically simulated EXAFS spectra for NPs of different sizes (
+ <xref rid="fig15" ref-type="fig">Figure 
+  <xref rid="fig15" ref-type="fig">15</xref>
+ </xref>a,b).
+ <sup>
+  <xref ref-type="bibr" rid="ref223">223</xref>
+ </sup> To generate theoretical spectra, classical MD simulations were used. In addition to particle size, the other parameter that was varied in this study was the concentration of Ni vacancies. The latter is another factor that needs to be considered in the case of XAS data interpretation of oxide NPs since they may have much more defective structures than their metallic analogues. The particle sizes obtained here from MD-EXAFS analysis were in good agreement with those extracted from XRD by the Scherrer’s method.
+ <sup>
+  <xref ref-type="bibr" rid="ref223">223</xref>
+ </sup> One should note, however, that very high quality EXAFS data (with 
+ <italic>k</italic>
+ <sub>max</sub> up to 18 Å
+ <sup>–1</sup>) were available in this study, which is not a typical situation in the case of 
+ <italic>operando</italic> data analysis for catalysts. For these latter cases, a XANES-based method for particle size determination can be better suited. For example, Liu et al. recently demonstrated that the information on the second shell Cu–Cu coordination number, and hence, the particle size in oxidized Cu NPs can be extracted from neural network-based analysis of Cu K-edge XANES data for subnanometer size-selected Cu NPs (
+ <xref rid="fig15" ref-type="fig">Figure 
+  <xref rid="fig15" ref-type="fig">15</xref>
+ </xref>c).
+ <sup>
+  <xref ref-type="bibr" rid="ref199">199</xref>
+ </sup>
+</p>

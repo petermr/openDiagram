@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In 
+ <xref rid="fig7" ref-type="fig">Figure 
+  <xref rid="fig7" ref-type="fig">7</xref>
+ </xref>, we plot the average values of the vdW and electrostatic energies as a function of logBB, logPS, and TPSA and analyze their correlation on the basis of the correlation coefficient 
+ <italic>R</italic>, as we have done previously. While 
+ <xref rid="fig7" ref-type="fig">Figure 
+  <xref rid="fig7" ref-type="fig">7</xref>
+ </xref> shows results for the GROMOS54a7 force-field and the DOPC membrane model for pulling velocity 
+ <italic>v</italic> = 0.5 nm/ns, our conclusions are similar for all cases of our study. In the case of the vdW interactions, we observe that the magnitude of these interactions barely correlates with the logBB and TPSA, while a more pronounced correlation is observed with the logPS values, that is, 
+ <italic>R</italic>
+ <sup>2</sup>
+ <italic>=</italic> 0.32. In particular, the larger the logPS, the greater the effect of the van der Waals interactions during the pulling of the compound. A higher degree of correlation is observed in the case of electrostatic interactions with respect to the experimental logBB and logPS as well as the TPSA. In this case, the correlation coefficient, 
+ <italic>R</italic>, obtains positive values, while 
+ <italic>R</italic>
+ <sup>2</sup> = 0
+ <italic>.</italic>49 (logBB) and 
+ <italic>R</italic>
+ <sup>2</sup> = 0
+ <italic>.</italic>70 (logPS). We find that larger values of logBB and logPS (higher permeability) correspond to smaller (absolute) values of electrostatic energies. Hence, a smaller effect of electrostatic forces is linked to a larger permeability of the BBB. On the contrary, as the TPSA increases electrostatic forces become more dominant (their absolute value increases) with 
+ <italic>R</italic>
+ <sup>2</sup> = 0.43 (a small opposite effect is observed for the vdW forces). In summary, our results indicate a larger role of electrostatic interactions during the compound translocation in contrast to the van der Waals interaction. In the case of logBB and TPSA, the magnitude of correlation is of the same order as in the case of the hydrogen bonds. This may suggest that electrostatic interactions and hydrogen bonds play a more important role in the translocation of compounds than van der Waals interactions.
+</p>

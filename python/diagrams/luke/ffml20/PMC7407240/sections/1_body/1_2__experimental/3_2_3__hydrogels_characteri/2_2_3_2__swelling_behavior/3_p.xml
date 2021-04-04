@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on the swelling data in distilled water, the amount of crosslinking in the neat and drug-loaded cryogels (the latter corresponding to the PC12 formulation) was determined by calculating the crosslinking density (ν) (Equation (2)), and the number-average molecular weight between crosslinking points (
+ <italic>M
+  <sub>c</sub>
+ </italic>) (Equation (3)), according to the Flory–Rehner theory [
+ <xref rid="B31-polymers-12-01544" ref-type="bibr">31</xref>]. 
+ <disp-formula id="FD2-polymers-12-01544">
+  <label>(2)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi mathvariant="sans-serif">ν</mi>
+      <mtext> </mtext>
+     </mrow>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mi>ln</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mn>1</mn>
+         <mo>−</mo>
+         <msub>
+          <mi mathvariant="sans-serif">Φ</mi>
+          <mi mathvariant="normal">s</mi>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>+</mo>
+       <msub>
+        <mi mathvariant="sans-serif">Φ</mi>
+        <mi mathvariant="normal">s</mi>
+       </msub>
+       <mo>+</mo>
+       <mi mathvariant="sans-serif">χ</mi>
+       <mo>⋅</mo>
+       <msubsup>
+        <mi mathvariant="sans-serif">Φ</mi>
+        <mi mathvariant="normal">s</mi>
+        <mn>2</mn>
+       </msubsup>
+      </mrow>
+      <mrow>
+       <msubsup>
+        <mi mathvariant="sans-serif">Φ</mi>
+        <mi mathvariant="normal">s</mi>
+        <mrow>
+         <mn>1</mn>
+         <mo>/</mo>
+         <mn>3</mn>
+        </mrow>
+       </msubsup>
+       <mo>⋅</mo>
+       <msub>
+        <mi mathvariant="normal">V</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD3-polymers-12-01544">
+  <label>(3)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>M</mi>
+      <mi>c</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>d</mi>
+        <mi mathvariant="normal">h</mi>
+       </msub>
+      </mrow>
+      <mi mathvariant="sans-serif">ν</mi>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where ϕ
+ <sub>s</sub> represents the volume fraction corresponding to the polymer in the swollen hydrogel in the equilibrium state, calculated with Equation (4), 
+ <italic>d</italic>
+ <sub>h</sub> is the density of the hydrogel in the swollen equilibrium state (determined with a solids pycnometer, with cyclohexane as pycnometric fluid; 21 °C), V
+ <sub>0</sub> is the molar volume of water (18.0360 cm
+ <sup>3</sup>mol
+ <sup>−1</sup> at 21 °C), and χ is the Flory–Huggins polymer–solvent interaction parameter, calculated according to Equation (5) [
+ <xref rid="B31-polymers-12-01544" ref-type="bibr">31</xref>]. 
+ <disp-formula id="FD4-polymers-12-01544">
+  <label>(4)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">Φ</mi>
+      <mi mathvariant="normal">s</mi>
+     </msub>
+     <mo>=</mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mn>1</mn>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi>d</mi>
+            <mi mathvariant="normal">h</mi>
+           </msub>
+          </mrow>
+          <mrow>
+           <msub>
+            <mi>d</mi>
+            <mrow>
+             <msub>
+              <mi mathvariant="normal">H</mi>
+              <mn>2</mn>
+             </msub>
+             <mi mathvariant="normal">O</mi>
+            </mrow>
+           </msub>
+          </mrow>
+         </mfrac>
+         <mo>⋅</mo>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <msub>
+              <mi>m</mi>
+              <mrow>
+               <mi>swollen</mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mrow>
+             <msub>
+              <mi>m</mi>
+              <mrow>
+               <mi>dry</mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </mfrac>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

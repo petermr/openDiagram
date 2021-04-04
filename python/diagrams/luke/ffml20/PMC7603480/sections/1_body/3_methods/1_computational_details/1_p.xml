@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">Reference geometries and energies were obtained using DFT as implemented in FHI-Aims
+ <sup>
+  <xref ref-type="bibr" rid="CR46">46</xref>,
+  <xref ref-type="bibr" rid="CR71">71</xref>
+ </sup>. Specifically, the PBE0 functional
+ <sup>
+  <xref ref-type="bibr" rid="CR72">72</xref>
+ </sup> was used with tight integration settings and tier-2 numerical atomic orbital basis sets. Dispersion interactions were treated via the pair-wise Tkatchenko-Scheffler van-der-Waals correction
+ <sup>
+  <xref ref-type="bibr" rid="CR73">73</xref>
+ </sup>. Approximate geometries were obtained with the UFF forcefield
+ <sup>
+  <xref ref-type="bibr" rid="CR61">61</xref>
+ </sup>.
+</p>

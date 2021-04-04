@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">Note also that a pure ML approach may miss important domain knowledge. For example, both singlet and triplet spin-states of CH
+ <sub>2</sub> are relevant in combustion
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>,
+  <xref ref-type="bibr" rid="CR68">68</xref>
+ </sup>. Instead, the graph-based enumeration approach
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup> used to generate Rad-6, generically only considers the lowest-spin state of each molecule (with manually implemented exceptions of triplet O
+ <sub>2</sub> and the isolated atoms to prevent completely unphysical results). Nonetheless, our pure ML approach finds all intermediates considered in empirical reduced methane combustion mechanism like the skeletal mechanism of Lu et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>,
+  <xref ref-type="bibr" rid="CR70">70</xref>
+ </sup>. On the other hand, the unbiased nature of ML approaches has the benefit of providing unexpected suggestions that would perhaps not be considered otherwise. For example, already our proof-of-concept reduced reaction networks of methane combustion suggest a pathway for CO
+ <sub>2</sub> formation via the Criegee intermediate (CH
+ <sub>2</sub>OO) and cyclic compounds like dioxirane (CH
+ <sub>2</sub>OO*) that is not generally considered in state-of-the-art empirical networks. In our view, domain knowledge and ML-based exploration should therefore be combined in practice.
+</p>

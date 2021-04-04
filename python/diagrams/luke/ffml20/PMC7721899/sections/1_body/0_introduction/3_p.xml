@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par4">To this extent, ML approaches are a promising solution to predict composition–property relationships toward the design of cementitious materials. However, evaluation and prediction of such relationships for C–S–H gel using ML present various well-known challenges. First, ML algorithms critically rely on the existence of accessible, consistent, accurate, and, representative datasets to provide enough information for training the models. Such large experimental data for C–S–H are limited or clustered to a few feasible regions. Second, ML, being a data-driven method, doesn’t provide insights into the fundamental laws of physics and, therefore, can potentially result in non-physical solutions
+ <sup>
+  <xref ref-type="bibr" rid="CR4">4</xref>,
+  <xref ref-type="bibr" rid="CR5">5</xref>
+ </sup>. Specifically, the black box ML methods such as NN, despite having high predictability, have little or no interpretability. To overcome these challenges, in this paper, we adopt a systematic and pragmatic approach where high-throughput molecular dynamics (MD) simulation is synergistically integrated with various advanced ML techniques especially Gaussian process (GP) and neural network (NN) to evaluate composition-dependent elastic moduli of C–S–H. Besides, various other ML techniques such as polynomial regression (PR), random forest (RF), support vector machine (SVM), k-nearest neighbors (k-NN), and decision trees (DT) are also evaluated for a comparative overview. Further, the interpretability of the black box models are explored using shapley additive explanations (SHAP)
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>,
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup> to gain insights into the fundamental factors governing the elastic response of C–S–H.
+</p>

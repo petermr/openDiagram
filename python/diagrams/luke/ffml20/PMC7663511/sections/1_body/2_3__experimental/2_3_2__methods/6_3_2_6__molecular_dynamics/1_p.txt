@@ -1,0 +1,21 @@
+0: Molecular dynamics (MD) simulations were performed using GROMACS [ 70] software package and OPLS-AA force field [ 71, 72].
+1: MD calculations were performed using the canonical (NVT) ensemble (constant number of particles, volume, and temperature) at 293.15 K using a v-rescale thermostat with the time constant for coupling (=0.1 ps).
+2: Electrostatic interactions were calculated using the pme-based algorithm, and the LINCS algorithm [ 73] was used to constrain all the bonds to the forcefield equilibrium lengths.
+3: The time step,  dt, was set to the value (=1 fs), which ensured optimum performance on the one hand and made the system stable (permitted avoiding runway) on the other hand.
+4: The cutoff for the non-bonded interactions (electrostatic and Van der Waals) was set to 1.0 nm, which is the default value for OPLS-AA forcefield.
+5: The potential-shift modifier was chosen both for Van der Waals and electrostatic interactions.
+6: The simulation time was set to 20 ns, which allowed us to observe all the processes of interest and describe them quantitatively.
+7: The simulations were performed in vacuo.
+8: Limitations of computational performance in the case of computer simulations induced us to build relatively small models when compared to systems on a real scale.
+9: Real systems usually show differentiation of certain important parameters, which in the computer model must be set precisely because of the relatively small scale.
+10: In the experimental system, both the density of nanotubes and the density of DOX at the beginning of the experiment were not constant and could vary significantly depending on a certain small volume comparable to the computer model.
+11: In the computer model, however, we need to fix the initial average density of both the nanotubes and the DOX.
+12: The simulation box was set to 20  80  20 nm.
+13: In order to check the dependence of the efficiency of adsorption with respect to the type of nanotube, we simulated the DOX with a single-wall zigzag nanotube (SWCNT) or with a three-wall zigzag nanotube (MWCNT).
+14: Nanotubes were generated using the buildCstruct script [ 74] adapted by us to our needs.
+15: In the case of MWCNT, three SWCNTs with specific diameters were generated and arranged coaxially into one MWCNT.
+16: The diameter of the nanotubes was chosen to match the diameter of the nanotubes in the experimental system.
+17: In the case of SWCNT, it was  = 6.42 nm, while in the case of MWCNTs it was  1 = 6.42 nm,  2 = 7.12 nm, and  3 = 7.83 nm, respectively.
+18: The length of the nanotube was set to L = 20 nm to ensure a reasonable simulation time on the one hand, and not to affect the observed phenomena by too short nanotube on the other hand.
+19: The number of DOX molecules was chosen to keep the same mass ratio between DOX and CNT as in the optimal adsorption case in the experiment for modified MWCNTs (m DOX/m CNT = 4/1).
+20: The purpose of this approach was to check the possibility of achieving high adsorption in unmodified systems in more favorable, anhydrous conditions considering only non-bonded interactions.

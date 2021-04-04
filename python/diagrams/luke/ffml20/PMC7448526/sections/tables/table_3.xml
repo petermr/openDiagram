@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tab3" orientation="portrait" position="float">
+ <label>Table 3</label>
+ <caption>
+  <title>Experimental and calculated vibrational frequencies of hydrogen bonded methanol are compared for selected C–H stretching modes with their structures. In the accompanying figure, some atoms have been removed to make visualisation easier for the reader</title>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <colgroup span="1">
+   <col span="1"/>
+   <col span="1"/>
+   <col span="1"/>
+   <col span="1"/>
+   <col span="1"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <td rowspan="1" colspan="1">Structure</td>
+    <td rowspan="1" colspan="1">Experimental (cm
+     <sup>–1</sup>)
+    </td>
+    <td rowspan="1" colspan="1">Calculated (cm
+     <sup>–1</sup>)
+    </td>
+    <td rowspan="1" colspan="1">Assignment, vibrational mode</td>
+    <td rowspan="1" colspan="1">Reference</td>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="5" rowspan="1">
+     <bold>Neutral geometry</bold>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4" colspan="1">(A)</td>
+    <td rowspan="1" colspan="1">2850</td>
+    <td rowspan="1" colspan="1">2848</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>sC–H</sub>
+    </td>
+    <td rowspan="4" colspan="1">
+     <xref rid="cit14" ref-type="bibr">14, 32, 62, 63, 58 and 68–70</xref>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">2082</td>
+    <td rowspan="1" colspan="1">2093</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>sC–D</sub>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">2958</td>
+    <td rowspan="1" colspan="1">2962</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>asC–H</sub>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">2217/2250/2263</td>
+    <td rowspan="1" colspan="1">2262</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>asC–D</sub>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" rowspan="1"> </td>
+   </tr>
+   <tr>
+    <td colspan="5" rowspan="1">
+     <bold>Protonated geometry</bold>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="4" colspan="1">(B)</td>
+    <td rowspan="1" colspan="1">2843</td>
+    <td rowspan="1" colspan="1">2844</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>sC–H</sub>
+    </td>
+    <td rowspan="4" colspan="1">
+     <xref rid="cit14" ref-type="bibr">14, 32, 62, 63, 58 and 68–70</xref>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">2082</td>
+    <td rowspan="1" colspan="1">2083</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>sC–D</sub>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">2950</td>
+    <td rowspan="1" colspan="1">2944</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>asC–H</sub>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">2217/2250/2267</td>
+    <td rowspan="1" colspan="1">2272</td>
+    <td rowspan="1" colspan="1">
+     <italic>ν</italic>
+     <sub>asC–D</sub>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" rowspan="1">
+     <inline-graphic xlink:href="d0sc01924k-u3.jpg" id="ugr3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,8 @@
+0: SMD offers the possibility of obtaining results much quicker than it might be possible with standard MD simulation.
+1: 44 In the case of the SMD simulation, a spring is attached from one side to a dummy atom and from the other side to the compound.
+2: Then, the dummy atom is pulled from its initial position toward the bilayer in the  z direction with a constant velocity  v, covering a distance  zc =  vt ( Figure   1) with  t indicating time.
+3: Hence, the elastic force experienced by the compound at a certain time during pulling is  F =  k( z   vt) , where  z is the displacement of the compounds atom connected with the spring in the direction of pulling.
+4: As in the case of atomic force microscopy experiments, 45 we chose  k = 600 kJ/(molnm 2) and different pulling velocities (i.e .,  v = 0.5, 1.5, and 5.0 nm/ns).
+5: These values have been also used in our previous studies and are well-tested.
+6: 46  48 Moreover, the spring constant is suitable to carry out the pulling experiments, as can be verified by the average positiontime profiles for the compounds (see Figure S1 in  Supporting Information).
+7: To prevent the membrane from drifting because of the external force, the phosphate atoms on both lipid layers were restrained by a harmonic potential with a spring constant of 1000 kJ/(molnm 2) in the  z direction.

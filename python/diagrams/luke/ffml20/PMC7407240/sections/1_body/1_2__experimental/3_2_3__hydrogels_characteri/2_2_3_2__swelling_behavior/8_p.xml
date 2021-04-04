@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A useful parameter in describing the swelling and drug release from the physically crosslinked hydrogel networks is the mesh size, ξ. For PVA, which is the majoritarian polymer component in the hydrogels, the mesh size could be estimated using Equation (6) [
+ <xref rid="B33-polymers-12-01544" ref-type="bibr">33</xref>]:
+ <disp-formula id="FD6-polymers-12-01544">
+  <label>(6)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">ξ</mi>
+     <mo>=</mo>
+     <msubsup>
+      <mi mathvariant="sans-serif">Φ</mi>
+      <mi>s</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mn>3</mn>
+      </mrow>
+     </msubsup>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <msub>
+          <mi>C</mi>
+          <mo>∞</mo>
+         </msub>
+         <mo>⋅</mo>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mn>2</mn>
+             <msub>
+              <mi>M</mi>
+              <mi>c</mi>
+             </msub>
+            </mrow>
+            <mrow>
+             <msub>
+              <mi>M</mi>
+              <mi>r</mi>
+             </msub>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+     <mo>⋅</mo>
+     <mi>l</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

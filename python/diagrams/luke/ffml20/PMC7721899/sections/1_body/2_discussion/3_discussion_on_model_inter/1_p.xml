@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">This discussion section demonstrates the interpretability of the NN predictions by using SHAP
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup>. In SHAP, the impact of each feature on the prediction is obtained by assigning each feature an importance value for a respective prediction. The results are shown in Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref>.
+</p>

@@ -28,6 +28,7 @@ OPEN_DIAGRAM_SEARCH = os.path.join(OPEN_DIAGRAM, "searches")
 
 PHYSCHEM = os.path.join(OPEN_DIAGRAM, "physchem")
 PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
+DIAGRAMS_DIR = os.path.join(PROJECTS, "openDiagram", "python", "diagrams")
 CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
 CEV_OPEN_DICT_DIR = os.path.join(CEV_OPEN_DIR, "dictionary")
 DICT_CEV_OPEN = os.path.join(DICT_DIR, "cevopen")
@@ -352,7 +353,7 @@ class AmiSearch:
 
         ami_search.use_sections([AmiSection.METHOD, ])
         ami_search.use_dictionaries([AmiDictionaries.ELEMENT])
-        ami_search.use_projects([AmiProjects.FFML,])
+        ami_search.use_projects([AmiProjects.FFML20,])
 
         ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
         ami_search.use_pattern("_ALLCAPS", "all_capz")
@@ -391,6 +392,7 @@ class AmiProjects:
     """project files"""
     LIION10 = "liion10"
     FFML = "ffml"
+    FFML20 = "ffml20"
     OIL186 = "oil186"
     OIL26 = "oil26"
     CCT    = "cct"
@@ -412,7 +414,7 @@ class AmiProjects:
     def create_project_dict(self):
         self.project_dict = {}
         self.add_with_check(AmiProjects.LIION10, os.path.join(PHYSCHEM_RESOURCES, "liion10"))
-        self.add_with_check(AmiProjects.FFML, os.path.join(OPEN_DIAGRAM_SEARCH, "ffml"))
+        self.add_with_check(AmiProjects.FFML20, os.path.join(DIAGRAMS_DIR, "luke", "ffml20"))
         self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"))
         self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"))
         self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))

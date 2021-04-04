@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">It should be emphasized that the networks in Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref> are not intended to represent a definitive mechanism for methane combustion, not least because this mechanism strongly depends on reactions conditions like temperature, pressure and the methane/oxygen ratio
+ <sup>
+  <xref ref-type="bibr" rid="CR68">68</xref>
+ </sup>. Instead, this analysis provides insight into what intermediates and elementary steps should be considered when constructing reduced reaction networks for mechanistic studies. While assuming constant barriers is clearly a harsh approximation in a microkinetic simulation, we note that predicting activation energies for the full network is not necessary to extract the relevant reduced reaction network for subsequent analysis. In many cases, an elementary reaction can be discarded because of a large thermochemical barrier alone. In other words, if a reaction is found to be irrelevant in a microkinetic simulation with constant barriers, it will not become relevant once activation barriers are included. Of course, activation barriers for the reduced network must still be computed for a quantitative microkinetic simulation, but this is only a small subset of the full network.
+</p>

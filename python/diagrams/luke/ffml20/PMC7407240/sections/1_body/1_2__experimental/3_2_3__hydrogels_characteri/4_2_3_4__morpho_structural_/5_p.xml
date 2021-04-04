@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>T</italic>he viscosity interaction parameter 
+ <italic>b</italic> (dL
+ <sup>2</sup>/g
+ <sup>2</sup>) is related to the Huggins parameter K
+ <sub>H</sub> with the following relation (Equation (9)) [
+ <xref rid="B39-polymers-12-01544" ref-type="bibr">39</xref>]:
+ <disp-formula id="FD9-polymers-12-01544">
+  <label>(9)</label>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi mathvariant="normal">b</mi>
+      <mtext> </mtext>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="normal">K</mi>
+       </mrow>
+      </mrow>
+      <mi mathvariant="normal">H</mi>
+     </msub>
+     <mo>·</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi mathvariant="sans-serif">η</mi>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

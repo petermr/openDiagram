@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig1" position="float">
+ <label>Figure 1</label>
+ <caption>
+  <p>Typical simulation setup of our system. The system consists of a lipid bilayer (green), water (blue), and one of the compounds (orange and green). The zero of the axis in the 
+   <italic>z</italic> direction is positioned at the center of the lipid bilayer. The SMD force that pulls the dummy atom through the bilayer in the 
+   <italic>z</italic> direction is indicated with a red arrow.
+  </p>
+ </caption>
+ <graphic xlink:href="ci9b00834_0001" id="gr1" position="float" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

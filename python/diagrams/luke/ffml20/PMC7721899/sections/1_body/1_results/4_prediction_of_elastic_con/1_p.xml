@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">In this section, the model prediction using NN is assessed. The hyperparameters such as number of hidden layers, number of hidden nodes, optimizer, batch size, number of epochs have been optimized prior to prediction (please refer to 
+ <xref rid="MOESM1" ref-type="media">Supplementary document</xref>). In this NN design, two hidden layers of 9 hidden nodes were used to prevent overfitting of data. With the implementation of NN, MSE for almost all the elastic constants dropped significantly as compared to those observed in the case of other ML techniques. Figure 
+ <xref rid="Fig6" ref-type="fig">6</xref> exhibits the predicted responses (using NN with 2 hidden layers and 9 neurons) against the measured values computed by MD simulation. Overall, the prediction accuracy has improved significantly as compared to all other studied models. This is because the neural network implicitly considers all the outputs as dependent, which are overlooked in other models.
+</p>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>where 
+ <italic>ϵ</italic>
+ <sub>∞</sub> is the high‐frequency permittivity in aqueous solution, which was set equal to 3.52 based on recent THz spectroscopy experiments of aqueous salt solutions.
+ <xref rid="cphc202000498-bib-0098" ref-type="ref">
+  <sup>[98]</sup>
+ </xref> The first and second terms in Eq. 7 are due to the reorientation motion of water with mode strength 
+ <italic>S</italic>
+ <sub>1</sub> and relaxation time 
+ <italic>τ</italic>
+ <sub>1</sub> (centred at 20 GHz), and mode strength 
+ <italic>S</italic>
+ <sub>2</sub> and relaxation time 
+ <italic>τ</italic>
+ <sub>2</sub> (centred at 1 THz). The conductivity term due to Ohmic loss from the ion conductivity was removed by conducting independent conductivity experiments, such that only dielectric relaxation contribution from dipole fluctuation was considered in the fitting process. According to the extended Cavell equation,
+ <xref rid="cphc202000498-bib-0099" ref-type="ref">
+  <sup>[99]</sup>
+ </xref> the intensities of the relaxation modes 
+ <italic>S</italic>
+ <sub>1</sub> and 
+ <italic>S</italic>
+ <sub>2</sub> are proportional to the number of molecules participating to each mode. The dielectric strength of an aqueous electrolyte solution with concentration 
+ <italic>c</italic>, 
+ <italic>S</italic>(
+ <italic>c</italic>)=
+ <italic>S</italic>
+ <sub>1</sub>(
+ <italic>c</italic>)+
+ <italic>S</italic>
+ <sub>2</sub>(
+ <italic>c</italic>), is generally less than that of neat water due to the following depolarization effects:
+ <xref rid="cphc202000498-bib-0088" ref-type="ref">
+  <sup>[88]</sup>
+ </xref> dilution effect, ions in solutions reduce the number of waters per unit volume resulting in the decrease of dipole concentration; kinetic depolarization, under the influence of an external electric field, ions in solution diffuse according to the direction of the field, inducing a reorientation of the surrounding water molecules that is opposite to the direction of the field; static depolarization, some water molecules in the solution are bound or strongly affected by the presence of ions and are oriented towards the local ionic field caused. These water molecules have a slow reorientation dynamics with a relaxation time that is outside the GHz‐to‐THz window in which the reorientation process of bulk‐like water occurs.
+ <xref rid="cphc202000498-bib-0087" ref-type="ref">
+  <sup>[87]</sup>
+ </xref> Therefore, the water molecules in an electrolyte solution which reorientation dynamics is retarded with respect to bulk behaviour do not contribute to the GHz‐to‐THz dielectric spectrum, leading to an additional dielectric loss in this frequency range. In DRS, the hydration number of an aqueous electrolyte solution is defined as the number of water molecules characterized by a slow reorientation dynamic and that do not contribute to the bulk‐like relaxation process. To determine the hydration numbers of MgCl
+ <sub>2</sub> solutions from the dielectric loss spectra, first the static depolarization component is computed, according to the total depolarization model, as the difference between the total dielectric loss (▵S
+ <sub>total</sub>) and the kinetic depolarization contribution (▵S
+ <sub>kinetic</sub>):[
+ <xref rid="cphc202000498-bib-0049" ref-type="ref">
+  <sup>49</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0097" ref-type="ref">
+  <sup>97</sup>
+ </xref>]
+ <disp-formula id="cphc202000498-disp-0008">
+  <label>(8)</label>
+  <math id="nlm-math-14">
+   <mstyle displaystyle="true">
+    <mrow>
+     <mi>Δ</mi>
+     <msub>
+      <mi mathvariant="normal">S</mi>
+      <mrow>
+       <mi>s</mi>
+       <mi>t</mi>
+       <mi>a</mi>
+       <mi>t</mi>
+       <mi>i</mi>
+       <mi>c</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mi>Δ</mi>
+     <msub>
+      <mi>S</mi>
+      <mrow>
+       <mi>t</mi>
+       <mi>o</mi>
+       <mi>t</mi>
+       <mi>a</mi>
+       <mi>l</mi>
+      </mrow>
+     </msub>
+     <mo>-</mo>
+     <mi>Δ</mi>
+     <msub>
+      <mi>S</mi>
+      <mrow>
+       <mi>k</mi>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi>e</mi>
+       <mi>t</mi>
+       <mi>i</mi>
+       <mi>c</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mi>Δ</mi>
+     <mi>S</mi>
+     <mfenced open="(" close=")">
+      <mi>c</mi>
+     </mfenced>
+     <mo>-</mo>
+     <mi>σ</mi>
+     <mfenced open="(" close=")">
+      <mi>c</mi>
+     </mfenced>
+    </mrow>
+    <mrow>
+     <mo>·</mo>
+     <mrow/>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <msub>
+        <mi>τ</mi>
+        <mn>1</mn>
+       </msub>
+       <mfenced open="(" close=")">
+        <mn>0</mn>
+       </mfenced>
+      </mrow>
+      <mn>3</mn>
+     </mfrac>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>ϵ</mi>
+         <mrow/>
+        </mrow>
+        <mi>∞</mi>
+       </msub>
+       <mfenced open="(" close=")">
+        <mi>c</mi>
+       </mfenced>
+       <mo>-</mo>
+       <msub>
+        <mrow>
+         <mi>ϵ</mi>
+         <mrow/>
+        </mrow>
+        <mi>s</mi>
+       </msub>
+       <mfenced open="(" close=")">
+        <mn>0</mn>
+       </mfenced>
+      </mrow>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>ϵ</mi>
+         <mrow/>
+        </mrow>
+        <mi>s</mi>
+       </msub>
+       <mfenced open="(" close=")">
+        <mn>0</mn>
+       </mfenced>
+       <msub>
+        <mrow>
+         <mi>ϵ</mi>
+         <mrow/>
+        </mrow>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

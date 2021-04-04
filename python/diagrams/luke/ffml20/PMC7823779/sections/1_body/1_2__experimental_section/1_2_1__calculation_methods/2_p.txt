@@ -1,0 +1,5 @@
+0: MD was used to simulate the hydrophilic of GO and NGO.
+1: 500 water molecules were put into a cell (33.44  33.44  33.44 A 3) and the GO and NGO models were established in the results of the element analysis as shown in  Figure 2.
+2: The simulation was carried out by the Forcite module in the COMPASS forcefield.
+3: A fixed time step of 1 fs was used in all cases and the whole runs of 1 ns duration were performed in the NPT system.
+4: Radial distribution function (RDF) and interaction energies ( Einter) were calculated by the result of dynamic simulation.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The adsorption capacity at time t described by the Elovich model is:
+ <disp-formula id="FD8-ijms-21-08230">
+  <label>(8)</label>
+  <math id="mm19">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>q</mi>
+      <mi>t</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mi>β</mi>
+     </mfrac>
+     <mi>l</mi>
+     <mi>n</mi>
+     <mi>α</mi>
+     <mi>β</mi>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mi>β</mi>
+     </mfrac>
+     <mi>l</mi>
+     <mi>n</mi>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>α</italic> and 
+ <italic>β</italic> are the Elovich coefficients, 
+ <italic>α</italic>/mg g
+ <sup>−1</sup> min
+ <sup>−1</sup> is related to chemisorption rate, and 
+ <italic>β</italic>/g mg
+ <sup>−1</sup> is a constant that depicts the extent of surface coverage.
+</p>

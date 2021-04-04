@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">For a direct comparison of different ML techniques used in this study, MSE and R
+ <sup>2</sup> values (for both train and test set) obtained for different elastic constants are shown in Tables 
+ <xref rid="Tab1" ref-type="table">1</xref> and 
+ <xref rid="Tab2" ref-type="table">2</xref> respectively. The results for PR, RF, DT, kNN, and SVM are detailed in the 
+ <xref rid="MOESM1" ref-type="media">Supplementary document</xref> for ease of reference. While the level of accuracy for the training data infers the interpolation ability of the known data, the level of accuracy for the test data evaluates the prediction ability of the model for unknown data. From all the results using different ML techniques, no direct correlation between MSE and R
+ <sup>2</sup> was observed. As it is observed that MSE of C
+ <sub>55</sub> for RF is comparatively low (5.17 GPa
+ <sup>2</sup> with test set, 1.527 GPa
+ <sup>2</sup> with train set), but has an R
+ <sup>2</sup> value of 0.78 was obtained. This signifies that model selection should not solely be based on the high R
+ <sup>2</sup> value but also should be associated with low MSE value. It is worth mentioning that all these models explained herein except NN consider the outputs to be independent which is likely to impart a significant difference in prediction accuracy for NN as compared to other adopted techniques. Nevertheless, models like GP could still provide good prediction when compared with NN.
+</p>

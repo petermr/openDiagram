@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">It has also been shown that predictions from approximate geometries can be improved by using a measure of the quality of the training geometries to adjust the model regularization for each training sample
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. As shown in the SI, this is not successful for Rad-6. Again, we attribute this to the overall poor and inconsistent quality of the UFF geometries for open-shell systems, highlighting another challenge when moving towards ML approaches for reaction space.
+</p>

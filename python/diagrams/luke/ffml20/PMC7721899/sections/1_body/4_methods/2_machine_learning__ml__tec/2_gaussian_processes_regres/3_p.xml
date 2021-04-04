@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">If there are 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n$$\end{document}</tex-math>
+   <math id="M40">
+    <mi>n</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> training points and 
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n^{\prime }$$\end{document}</tex-math>
+   <math id="M42">
+    <msup>
+     <mi>n</mi>
+     <mo>′</mo>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> testing points then 
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$K\left( {X,X} \right)$$\end{document}</tex-math>
+   <math id="M44">
+    <mrow>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>X</mi>
+       <mo>,</mo>
+       <mi>X</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is a 
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n \times n$$\end{document}</tex-math>
+   <math id="M46">
+    <mrow>
+     <mi>n</mi>
+     <mo>×</mo>
+     <mi>n</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> matrix of the covariance between all observed training points, 
+ <inline-formula id="IEq19">
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$K\left( {X,X^{\prime } } \right)$$\end{document}</tex-math>
+   <math id="M48">
+    <mrow>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>X</mi>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the 
+ <inline-formula id="IEq20">
+  <alternatives>
+   <tex-math id="M49">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$n \times n^{\prime }$$\end{document}</tex-math>
+   <math id="M50">
+    <mrow>
+     <mi>n</mi>
+     <mo>×</mo>
+     <msup>
+      <mi>n</mi>
+      <mo>′</mo>
+     </msup>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> covariance matrix between the training and testing pairs and likewise for 
+ <inline-formula id="IEq21">
+  <alternatives>
+   <tex-math id="M51">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$K\left( {X^{\prime } ,X} \right)$$\end{document}</tex-math>
+   <math id="M52">
+    <mrow>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+       <mo>,</mo>
+       <mi>X</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq22">
+  <alternatives>
+   <tex-math id="M53">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$K\left( {X^{\prime } ,X^{\prime } } \right)$$\end{document}</tex-math>
+   <math id="M54">
+    <mrow>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq22.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Applying principles of conditionals, the marginal likelihood of the output can be assumed to follow a gaussian distribution with the predicted mean 
+ <inline-formula id="IEq23">
+  <alternatives>
+   <tex-math id="M55">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$m\left( {f^{\prime } } \right)$$\end{document}</tex-math>
+   <math id="M56">
+    <mrow>
+     <mi>m</mi>
+     <mfenced close=")" open="(">
+      <msup>
+       <mi>f</mi>
+       <mo>′</mo>
+      </msup>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq23.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and covariance function 
+ <inline-formula id="IEq24">
+  <alternatives>
+   <tex-math id="M57">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ k\left( {f^{\prime } } \right)$$\end{document}</tex-math>
+   <math id="M58">
+    <mrow>
+     <mi>k</mi>
+     <mfenced close=")" open="(">
+      <msup>
+       <mi>f</mi>
+       <mo>′</mo>
+      </msup>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq24.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> as
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>:
+ <disp-formula id="Equ6">
+  <label>6</label>
+  <alternatives>
+   <tex-math id="M59">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ f^{\prime } |X,y,X^{\prime } \sim {\mathcal{N}}\left( {m\left( {f^{\prime } } \right),k\left( {f^{\prime } } \right)} \right) $$\end{document}</tex-math>
+   <math id="M60" display="block">
+    <mrow>
+     <msup>
+      <mi>f</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">|</mo>
+      <mi>X</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo>,</mo>
+     </mrow>
+     <msup>
+      <mi>X</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>∼</mo>
+     <mi mathvariant="script">N</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>m</mi>
+       <mfenced close=")" open="(">
+        <msup>
+         <mi>f</mi>
+         <mo>′</mo>
+        </msup>
+       </mfenced>
+       <mo>,</mo>
+       <mi>k</mi>
+       <mfenced close=")" open="(">
+        <msup>
+         <mi>f</mi>
+         <mo>′</mo>
+        </msup>
+       </mfenced>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ6.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ7">
+  <label>7</label>
+  <alternatives>
+   <tex-math id="M61">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ m\left( {f^{\prime } } \right) = K\left( {X^{\prime } ,X} \right)\left( {K\left( {X,X} \right) + \sigma_{\epsilon }^{2} I} \right)^{ - 1} y $$\end{document}</tex-math>
+   <math id="M62" display="block">
+    <mrow>
+     <mi>m</mi>
+     <mfenced close=")" open="(">
+      <msup>
+       <mi>f</mi>
+       <mo>′</mo>
+      </msup>
+     </mfenced>
+     <mo>=</mo>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+       <mo>,</mo>
+       <mi>X</mi>
+      </mrow>
+     </mfenced>
+     <msup>
+      <mfenced close=")" open="(">
+       <mrow>
+        <mi>K</mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>X</mi>
+          <mo>,</mo>
+          <mi>X</mi>
+         </mrow>
+        </mfenced>
+        <mo>+</mo>
+        <msubsup>
+         <mi>σ</mi>
+         <mrow>
+          <mi>ϵ</mi>
+         </mrow>
+         <mn>2</mn>
+        </msubsup>
+        <mi>I</mi>
+       </mrow>
+      </mfenced>
+      <mrow>
+       <mo>-</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mi>y</mi>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ7.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ8">
+  <label>8</label>
+  <alternatives>
+   <tex-math id="M63">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ k\left( {f^{\prime } } \right) = K\left( {X^{\prime } ,X^{\prime } } \right) - K\left( {X^{\prime } ,X} \right)\left( {K\left( {X,X} \right) + \sigma_{\epsilon }^{2} I} \right)^{ - 1} K\left( {X,X^{\prime } } \right) $$\end{document}</tex-math>
+   <math id="M64" display="block">
+    <mrow>
+     <mi>k</mi>
+     <mfenced close=")" open="(">
+      <msup>
+       <mi>f</mi>
+       <mo>′</mo>
+      </msup>
+     </mfenced>
+     <mo>=</mo>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfenced>
+     <mo>-</mo>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+       <mo>,</mo>
+       <mi>X</mi>
+      </mrow>
+     </mfenced>
+     <msup>
+      <mfenced close=")" open="(">
+       <mrow>
+        <mi>K</mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>X</mi>
+          <mo>,</mo>
+          <mi>X</mi>
+         </mrow>
+        </mfenced>
+        <mo>+</mo>
+        <msubsup>
+         <mi>σ</mi>
+         <mrow>
+          <mi>ϵ</mi>
+         </mrow>
+         <mn>2</mn>
+        </msubsup>
+        <mi>I</mi>
+       </mrow>
+      </mfenced>
+      <mrow>
+       <mo>-</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mi>K</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>X</mi>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ8.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

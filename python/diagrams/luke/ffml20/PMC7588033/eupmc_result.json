@@ -1,0 +1,372 @@
+{
+  "id": [
+    "32469527"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32469527"
+  ],
+  "pmcid": [
+    "PMC7588033"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7588033"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1021/acs.jcim.9b00834"
+  ],
+  "title": [
+    "Fast Estimation of the Blood-Brain Barrier Permeability by Pulling a Ligand through a Lipid Membrane."
+  ],
+  "authorString": [
+    "Thai NQ, Theodorakis PE, Li MS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Thai NQ"
+          ],
+          "firstName": [
+            "Nguyen Quoc"
+          ],
+          "lastName": [
+            "Thai"
+          ],
+          "initials": [
+            "NQ"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute for Computational Science and Technology, Quang Trung Software City, Tan Chanh Hiep Ward, District 12, Ho Chi Minh City 700000, Vietnam."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Dong Thap University, 783 Pham Huu Lau Street, Ward 6, Cao Lanh City 870000, Dong Thap, Vietnam."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Theodorakis PE"
+          ],
+          "firstName": [
+            "Panagiotis E"
+          ],
+          "lastName": [
+            "Theodorakis"
+          ],
+          "initials": [
+            "PE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0433-9461",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li MS"
+          ],
+          "firstName": [
+            "Mai Suan"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "MS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7021-7916",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7021-7916",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0433-9461",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "60"
+      ],
+      "journalIssueId": [
+        "2969899"
+      ],
+      "dateOfPublication": [
+        "2020 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of chemical information and modeling"
+          ],
+          "ISOAbbreviation": [
+            "J Chem Inf Model"
+          ],
+          "medlineAbbreviation": [
+            "J Chem Inf Model"
+          ],
+          "NLMid": [
+            "101230060"
+          ],
+          "ISSN": [
+            "1549-9596"
+          ],
+          "ESSN": [
+            "1549-960X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "3057-3067"
+  ],
+  "abstractText": [
+    "The blood-brain barrier (BBB) is a physical barrier that regulates the homeostasis of the neural microenvironment. A relative estimate of the BBB permeability, which is important for drug design, may be experimentally provided by the logBB (the blood-brain concentration ratio) and the logPS (permeability-surface-area product), while many computational methods aim to identify key properties that correlate well with these quantities. Although currently existing computational methods (e.g., quantitative structure activity relation) have made a significant contribution in screening various compounds that could potentially translocate through the BBB, they are unable to provide a physical explanation of the underlying processes and they can often be computationally demanding. Here, we use steered molecular dynamics simulation to estimate the BBB permeability of various compounds on the basis of simple lipid-membrane models by computing the nonequilibrium work, <i>W</i><sub>neq</sub>, produced by pulling the compounds through the membrane. We found that the values of <i>W</i><sub>neq</sub> correlate remarkably well with logBB and logPS for a range of compounds and different membrane types and pulling speeds, independently of the choice of force field. Moreover, our results provide insight into the role of hydrogen bonds, the energetic barriers, and the forces exerted on the ligands during their pulling. Our method is computationally easy to implement and fast. Therefore, we anticipate that it could provide a reliable prescreening tool for estimating the relative permeability of the BBB to various substances."
+  ],
+  "affiliation": [
+    "Institute for Computational Science and Technology, Quang Trung Software City, Tan Chanh Hiep Ward, District 12, Ho Chi Minh City 700000, Vietnam."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1021/acs.jcim.9b00834"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7588033"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7588033?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-05-30"
+  ],
+  "firstIndexDate": [
+    "2020-05-30"
+  ],
+  "fullTextReceivedDate": [
+    "2020-10-29"
+  ],
+  "dateOfRevision": [
+    "2021-02-02"
+  ],
+  "electronicPublicationDate": [
+    "2020-06-09"
+  ],
+  "firstPublicationDate": [
+    "2020-06-09"
+  ]
+}

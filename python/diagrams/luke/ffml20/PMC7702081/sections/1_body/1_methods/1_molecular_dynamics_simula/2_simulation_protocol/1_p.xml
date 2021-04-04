@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Details of the electrolyte solutions considered in this study (number of ions and water molecules, average cell lengths and system concentrations) are reported in Table S2 (Supporting Information). First, classical MD simulations of 729 water molecules in the isothermal‐isobaric constant pressure, constant temperature (NPT) ensemble were conducted to generate an equilibrated aqueous solution. The last configuration was then used to generate MgCl
+ <sub>2</sub>(aq) with concentrations ranging from 0.1 to 2.8 mol kg
+ <sup>−1</sup> by randomly replacing 
+ <italic>N</italic> water molecules with 
+ <italic>N</italic>/3 Mg
+ <sup>2+</sup> and 2
+ <italic>N</italic>/3 Cl
+ <sup>−</sup> ions. As the formation of Mg
+ <sup>2+</sup>/Cl
+ <sup>−</sup> contact ion pairs (CIPs) has been subject to some debate,[
+ <xref rid="cphc202000498-bib-0042" ref-type="ref">
+  <sup>42</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0043" ref-type="ref">
+  <sup>43</sup>
+ </xref>] for the 0.63 and 1.30 mol kg
+ <sup>−1</sup> solutions we generated two set of initial configurations, 
+ <italic>with</italic> and 
+ <italic>without</italic> CIPs. Each system was subject to 6 ns of classical MD (NPT) simulations to equilibrate the cell volume using the Mg−O and Mg−Cl Lennard Jones potential parameterized by Aqvist
+ <xref rid="cphc202000498-bib-0044" ref-type="ref">
+  <sup>[44]</sup>
+ </xref> together with the SPC/E water model.
+ <xref rid="cphc202000498-bib-0045" ref-type="ref">
+  <sup>[45]</sup>
+ </xref> This combination of force fields has been shown to provide a reasonable description of the structure and dynamic properties of hydrated Mg
+ <sup>2+</sup>.
+ <xref rid="cphc202000498-bib-0046" ref-type="ref">
+  <sup>[46]</sup>
+ </xref> The last configuration was used to initiate 
+ <italic>ab initio</italic> MD. Table S3 (Supporting Information) reports the percentages of contact ion pairs (CIP), solvent‐shared ion pairs (SSHIP), and solvent‐separated ion pairs (SSIP) in the 0.1–2.8 mol kg
+ <sup>−1</sup> MgCl
+ <sub>2</sub> solutions. The more diluted solutions (0.1–0.6 mol kg
+ <sup>−1</sup>) display a non‐monotonous variation of the contact, solvent‐shared and solvent‐separated ion pairs, which could be related to initial configuration effects because of the slow water dynamics around Mg
+ <sup>2+</sup> (order of microseconds)
+ <xref rid="cphc202000498-bib-0047" ref-type="ref">
+  <sup>[47]</sup>
+ </xref> and the low number of ions in the simulation box. We have also conducted simulations of pure liquid water, of 0.63 mol kg
+ <sup>−1</sup> CsCl(aq), and of the hydrated ions Mg
+ <sup>2+</sup>, Ca
+ <sup>2+</sup>, Cs
+ <sup>+</sup>, Na
+ <sup>+</sup>, K
+ <sup>+</sup> and Cl
+ <sup>−</sup> (Table S1 in ESI). For the 
+ <italic>ab initio</italic> MD simulations of MgCl
+ <sub>2</sub>(aq), each time step required, on average, 45 seconds on 288 cores of the ARCHER UK National Supercomputing Service. The 
+ <italic>ab initio</italic> MD simulations reported herein required approximately 890k CPU hours (wall‐clock time × number of processors). Statistics were collected for a period of 20 ps.
+</p>

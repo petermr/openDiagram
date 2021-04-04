@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par49">In the case of the sampled data, the Pearson correlation coefficient can be determined as follows:
+ <disp-formula id="Equ12">
+  <label>12</label>
+  <alternatives>
+   <tex-math id="M87">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ R^{2} = \frac{{\mathop \sum \nolimits_{i = 1}^{n} \left( {y_{p} \left( i \right) - \overline{y}_{p} } \right)\left( {y_{t} \left( i \right) - \overline{y}_{t} } \right)}}{{\sqrt {\mathop \sum \nolimits_{i = 1}^{n} \left( {y_{p} \left( i \right) - \overline{y}_{p} } \right)^{2} } \sqrt {\mathop \sum \nolimits_{i = 1}^{n} \left( {y_{t} \left( i \right) - \overline{y}_{t} } \right)^{2} } }} $$\end{document}</tex-math>
+   <math id="M88" display="block">
+    <mrow>
+     <msup>
+      <mi>R</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mi>y</mi>
+          <mi>p</mi>
+         </msub>
+         <mfenced close=")" open="(">
+          <mi>i</mi>
+         </mfenced>
+         <mo>-</mo>
+         <msub>
+          <mover>
+           <mi>y</mi>
+           <mo>¯</mo>
+          </mover>
+          <mi>p</mi>
+         </msub>
+        </mrow>
+       </mfenced>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mi>y</mi>
+          <mi>t</mi>
+         </msub>
+         <mfenced close=")" open="(">
+          <mi>i</mi>
+         </mfenced>
+         <mo>-</mo>
+         <msub>
+          <mover>
+           <mi>y</mi>
+           <mo>¯</mo>
+          </mover>
+          <mi>t</mi>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mrow>
+       <msqrt>
+        <mrow>
+         <msubsup>
+          <mo>∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo>=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mi>n</mi>
+         </msubsup>
+         <msup>
+          <mfenced close=")" open="(">
+           <mrow>
+            <msub>
+             <mi>y</mi>
+             <mi>p</mi>
+            </msub>
+            <mfenced close=")" open="(">
+             <mi>i</mi>
+            </mfenced>
+            <mo>-</mo>
+            <msub>
+             <mover>
+              <mi>y</mi>
+              <mo>¯</mo>
+             </mover>
+             <mi>p</mi>
+            </msub>
+           </mrow>
+          </mfenced>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </msqrt>
+       <msqrt>
+        <mrow>
+         <msubsup>
+          <mo>∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo>=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mi>n</mi>
+         </msubsup>
+         <msup>
+          <mfenced close=")" open="(">
+           <mrow>
+            <msub>
+             <mi>y</mi>
+             <mi>t</mi>
+            </msub>
+            <mfenced close=")" open="(">
+             <mi>i</mi>
+            </mfenced>
+            <mo>-</mo>
+            <msub>
+             <mover>
+              <mi>y</mi>
+              <mo>¯</mo>
+             </mover>
+             <mi>t</mi>
+            </msub>
+           </mrow>
+          </mfenced>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </msqrt>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ12.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

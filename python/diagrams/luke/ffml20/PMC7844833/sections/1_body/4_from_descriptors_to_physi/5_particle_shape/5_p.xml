@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Because of the limited possibilities for multiple shell EXAFS analysis in the case of 
+ <italic>in situ/operando</italic> data with limited signal-to-noise ratio, an attractive alternative is to use XANES-based methods for NP shape determination. Neural network-based approaches were proven to provide reliable CNs values for the first four coordination shells in model Pt NPs, opening up the possibility to determine particle shapes.
+ <sup>
+  <xref ref-type="bibr" rid="ref38">38</xref>,
+  <xref ref-type="bibr" rid="ref73">73</xref>
+ </sup> In refs (
+ <xref ref-type="bibr" rid="ref289">289</xref> and 
+ <xref ref-type="bibr" rid="ref290">290</xref>), Timoshenko et al. demonstrated the suitability of this approach for the analysis of 
+ <italic>in situ</italic> XANES data. An example involves the interpretation of Ag K-edge XANES data during the temperature-controlled particle aggregation. In the cases where EXAFS data are also available, particle shapes, constructed based on NN-XANES analysis, can further be validated by RMC-EXAFS simulations.
+ <sup>
+  <xref ref-type="bibr" rid="ref38">38</xref>,
+  <xref ref-type="bibr" rid="ref73">73</xref>
+ </sup> A recent example of this combined approach is the study by Ahmadi et al. of Pt NPs on TiO
+ <sub>2</sub>(110) in UHV conditions, where the particle shapes were first determined by comparing CNs from NN-XANES analysis and conventional EXAFS data fitting with those for a large library of clusters of different sizes and shapes, and then the obtained structure model was further optimized using EXAFS data and RMC simulations, which refined the positions of the Pt atoms in the NP and Ti and O atoms at the interface between the NPs and the support. An additional feature of this study was that the XAS spectra were collected in ultrahigh vacuum (UHV) with three different X-ray polarizations and analyzed simultaneously. Because of the fact that the contribution to the X-ray absorption spectrum is different for bonds with different orientation with respect to the X-ray polarization, such polarization-dependent measurements provide a direct way to probe the anisotropic NP structure and shape (
+ <xref rid="fig16" ref-type="fig">Figure 
+  <xref rid="fig16" ref-type="fig">16</xref>
+ </xref>d).
+ <sup>
+  <xref ref-type="bibr" rid="ref73">73</xref>
+ </sup> However, this approach is meaningful only for studies of oriented samples with narrow size and shape distributions; thus, its applicability to 
+ <italic>in situ</italic> and 
+ <italic>operando</italic> investigations of realistic catalysts is limited.
+</p>

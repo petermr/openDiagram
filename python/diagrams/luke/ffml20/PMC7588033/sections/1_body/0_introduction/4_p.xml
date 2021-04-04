@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this article, we propose a 
+ <italic>simple</italic>, 
+ <italic>reliable</italic>, and 
+ <italic>fast</italic> method to provide a relative estimate of the BBB permeability to a representative set of compounds, which also includes compounds considered in previous computational studies.
+ <sup>
+  <xref ref-type="bibr" rid="ref6">6</xref>
+ </sup> To achieve this, we pull the selected compounds through model membranes by using steered molecular dynamics (SMD) simulation and monitor the nonequilibrium work, 
+ <italic>W</italic>
+ <sub>neq</sub>, required to cross the membrane. We show that this approach obtains robust results (e.g., independent of the membrane model or the pulling speed) that correlate remarkably well with the experimental values of logBB, and logPS, as well as the values of the topological polar surface area (TPSA). Moreover, our method provides detailed information on the forces experienced by the compounds during the translocation process and the formation of hydrogen bonds between the compounds and both the model membrane and water molecules. We anticipate that the proposed approach will have broader implications in this research area as a simple, reliable, and fast prescreening tool for predicting the relative permeability of the BBB to various compounds.
+</p>

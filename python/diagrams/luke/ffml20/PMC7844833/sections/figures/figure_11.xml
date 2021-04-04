@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig11" position="float">
+ <label>Figure 11</label>
+ <caption>
+  <p>(a) Schematic depiction of the ML-EXAFS analysis method: 
+   <italic>in situ</italic> EXAFS data are processed via wavelet transform and fed into a neural network trained on theoretical EXAFS spectra. The NN then yields the corresponding partial RDFs. Data taken from ref (
+   <xref ref-type="bibr" rid="ref25">25</xref>). (b) Au–Pd and Au–Au and (c) Pd–Pd and Pd–Au partial RDFs, reconstructed by an NN from the corresponding experimental Au L
+   <sub>3</sub>-edge and Pd K-edge EXAFS data for PdAu NPs with different Pd concentration. The RDFs are integrated to obtain partial coordination numbers for the first four coordination shells, and the latter are used to model possible NP size and the distributions of metals (d). Reproduced with permission from ref (
+   <xref ref-type="bibr" rid="ref12">12</xref>). Copyright 2019 American Chemical Society.
+  </p>
+ </caption>
+ <graphic xlink:href="cr0c00396_0011" id="gr11" position="float" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

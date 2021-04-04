@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The equilibrated cell was used for grand canonical Monte Carlo (GCMC) simulations employing the standard Metropolis algorithm using the “Sorption Isotherm” module [
+ <xref rid="B33-polymers-12-02048" ref-type="bibr">33</xref>]. Both the polymer framework and the penetrant molecules were treated as rigid bodies. The degrees of freedom of the system were accordingly specified by the center-of-mass position and orientation of the molecules. Metropolis sampling was used for inserting or deleting permeant molecules as well as accepting or rejecting their translational and rotational configurational moves. The COMPASS force field and force field assigned partial charges on atoms were used. A VTμ simulation was performed at each fixed pressure and 298 K. The pressure of the penetrant gas was varied from 10 to 3000 kPa. For each pressure value, 10
+ <sup>5</sup> equilibration steps were first performed to ensure proper relaxation of the polymer chains in response to the insertion of the penetrant molecule, following which 10
+ <sup>6</sup> steps of production run were carried out. The sorption isotherm can be obtained in the form of a plot of the concentration of sorbed gas, 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mi>C</mi>
+   </mrow>
+  </math>
+ </inline-formula>, as a function of pressure at constant temperature. The solubility coefficient, 
+ <inline-formula>
+  <math id="mm15">
+   <mrow>
+    <mi>S</mi>
+   </mrow>
+  </math>
+ </inline-formula>, is then obtained from the limiting slope of the sorption isotherm at zero pressure as [
+ <xref rid="B34-polymers-12-02048" ref-type="bibr">34</xref>]:
+ <disp-formula id="FD3-polymers-12-02048">
+  <label>(3)</label>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <mi>S</mi>
+     <mo>=</mo>
+     <munder>
+      <mrow>
+       <mi>lim</mi>
+      </mrow>
+      <mrow>
+       <mi>p</mi>
+       <mo>→</mo>
+       <mn>0</mn>
+      </mrow>
+     </munder>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mi>C</mi>
+        <mi>p</mi>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <mi>C</mi>
+   </mrow>
+  </math>
+ </inline-formula> is in units of cm
+ <sup>3</sup>(STP)/cm
+ <sup>3</sup>(polymer) and 
+ <inline-formula>
+  <math id="mm18">
+   <mrow>
+    <mi>p</mi>
+   </mrow>
+  </math>
+ </inline-formula> is pressure.
+</p>

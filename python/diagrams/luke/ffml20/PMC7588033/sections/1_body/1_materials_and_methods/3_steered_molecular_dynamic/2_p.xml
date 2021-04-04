@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The main output of the simulation is the force, 
+ <italic>F</italic>, as a function of time and the position, 
+ <italic>z</italic>, of the compound, from which we can readily calculate the work, 
+ <italic>W</italic>
+ <sub>neq</sub>, required to pull the compound through the bilayer over a distance 
+ <italic>L</italic>
+ <sub>
+  <italic>z</italic>
+ </sub> = ∫d
+ <italic>z</italic>, where 
+ <italic>L</italic>
+ <sub>
+  <italic>z</italic>
+ </sub> is the width of the bilayer in the 
+ <italic>z</italic> direction. 
+ <italic>W</italic>
+ <sub>neq</sub> can be mathematically expressed as 
+ <italic>W</italic>
+ <sub>neq</sub> = ∫
+ <italic>F</italic> d
+ <italic>z</italic>. The average force–time and force–position profiles obtained from five individual trajectories for the 26 studied compounds are shown in Figure S2 in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link> in the case of the GROMOS54a7 force-field and the DOPC membrane model.
+</p>

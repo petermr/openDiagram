@@ -1,0 +1,4 @@
+0: Spectra sets from each DVS experiments were analyzed using the multivariate curve resolution-alternating least square (MCR-ALS) method.
+1: 49 Absorbance data, represented in the matrix format  Am  n of  m wavenumbers and  n water vapor pressures, were decomposed into their MCR spectral components (), and their respective concentration profiles ( C), according to the BeerLambert law ( A =  C).
+2: A singular value decomposition of matrix  Am  n was used to estimate the dimensionality of spectral components required to reproduce a given variance of the data.
+3: All calculations were performed in the computational environment of MATLAB R2019b (The Mathworks, Inc.).

@@ -1,0 +1,5 @@
+0: This section describes the training and model fitting (overfitting, underfitting, or balanced) for all the adopted methods.
+1: The total data is initially split into a training set and test set by 80:20 proportion.
+2: While the test dataset is kept unseen during the model training process, the training set is further split into 80% for training and 20% for validation.
+3: Here, to validate the model, a fivefold cross-validation is implemented.
+4: The optimum complexity is achieved when the minimum error for both the training error and validation error is achieved.

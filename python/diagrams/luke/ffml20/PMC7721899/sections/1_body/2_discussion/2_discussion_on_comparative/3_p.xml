@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">It is ideally required for any model to minimize complexity while maintaining high interpretability. However, in general, models that provide higher prediction accuracy often suffer from higher computational complexity and limited or no interpretability. In this study, PR has high interpretability and it is associated with low complexity. Overall, although PR offered good accuracy with lower MSE and fair R
+ <sup>2</sup> for a train set, however, it falls short when predicting responses using the test set. Besides, the predictability for individual outputs are comparatively low compared to GP and NN. Nevertheless, PR provides us information that the composition–property is not linearly correlated, which is crucial to develop a predictive model.
+</p>

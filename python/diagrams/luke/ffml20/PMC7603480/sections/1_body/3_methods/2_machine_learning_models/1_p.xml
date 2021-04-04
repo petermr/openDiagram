@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par42">All reported ML models are based on Kernel Ridge Regression and use the SOAP kernel
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>,
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup>. SOAP representations were computed with the quippy code (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/libAtoms/QUIP" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/libAtoms/QUIP</ext-link>). Kernel matrices and training/test splits were generated with the mltools package (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/simonwengert/mltools.git" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/simonwengert/mltools.git</ext-link>). The atomic simulation environment was used throughout to process molecular data
+ <sup>
+  <xref ref-type="bibr" rid="CR74">74</xref>
+ </sup>.
+</p>

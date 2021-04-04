@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>One of the first sample parameters that can be extracted from an XAS experiment is the concentration of the absorbing metal atoms. Indeed, both in transmission and fluorescence experiments, the intensity of the XAS signal before normalization is directly proportional to the number of absorbing atoms in the way of the X-ray beam and thus characterizes both the sample thickness and absorber concentration. This often serves as a convenient tool to quickly optimize the sample to ensure the best signal quality in transmission experiments and to avoid self-absorption effects in fluorescence-mode XAS. At the same time, this information can also be used to 
+ <italic>in situ</italic> monitor sample transformations due to metal deposition, dissolution in an electrochemical environment, or evaporation at high temperature. For example, the fluorescence line intensities associated with X-ray absorption at the Cu L
+ <sub>2,3</sub> edges were recently used by Velasco-Velez et al. to 
+ <italic>in situ</italic> monitor the electrochemical deposition of Cu from CuSO
+ <sub>4</sub> under −0.5 V (vs Ag/AgCl) applied potential (
+ <xref rid="fig12" ref-type="fig">Figure 
+  <xref rid="fig12" ref-type="fig">12</xref>
+ </xref>).
+ <sup>
+  <xref ref-type="bibr" rid="ref75">75</xref>
+ </sup> The ability to detect variations in the concentrations of the absorbing species is also critical for studies of heterogeneous samples, and is especially useful when combined with the possibility to scan the position of the X-ray beam. A good illustration of this is the study by Takao et al.,
+ <sup>
+  <xref ref-type="bibr" rid="ref104">104</xref>
+ </sup> where the spatial distribution of Pt species at the cathode of polymer electrolyte fuel cells was mapped, 
+ <xref rid="fig4" ref-type="fig">Figure 
+  <xref rid="fig4" ref-type="fig">4</xref>
+ </xref>a. The proportionality of the XAS signal to the number of absorbing species is also a useful tool to verify the relative concentrations of different metals in multielement systems such as bimetallic nanocatalysts. For example, Zhang et al. used the ratio of the Pt-L
+ <sub>3</sub> and Au L
+ <sub>3</sub> absorption jumps to estimate the thickness of the gold layer in Au-decorated Pt NPs for ORR.
+ <sup>
+  <xref ref-type="bibr" rid="ref242">242</xref>
+ </sup> While for atoms that are the neighbors in the Periodic Table (such as Pt and Au), the ratio of the corresponding absorption jumps can be directly linked to the ratio of the metals in the sample, for atoms with absorption edges separated by larger energy differences, one should also take into account the energy-dependence of the X-ray absorption cross-sections.
+</p>

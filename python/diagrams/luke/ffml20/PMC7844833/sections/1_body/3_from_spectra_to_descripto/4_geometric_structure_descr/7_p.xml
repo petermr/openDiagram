@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After integration in 
+ <xref rid="eq8" ref-type="disp-formula">eq 
+  <xref rid="eq8" ref-type="disp-formula">8</xref>
+ </xref>, one obtains
+ <disp-formula id="ueq1">
+  <graphic xlink:href="cr0c00396_m020" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>with the coordination number 
+ <inline-formula id="d33e2467">
+  <inline-graphic xlink:href="cr0c00396_m021.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, the average interatomic distance 
+ <italic>R</italic>
+ <sub>
+  <italic>p</italic>
+ </sub> = 
+ <italic>c</italic>
+ <sub>
+  <italic>p</italic>,1
+ </sub>, disorder factor σ
+ <sub>
+  <italic>p</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> = 
+ <italic>c</italic>
+ <sub>
+  <italic>p</italic>,2
+ </sub>, while the 
+ <italic>c</italic>
+ <sub>
+  <italic>p</italic>,3
+ </sub>, 
+ <italic>c</italic>
+ <sub>
+  <italic>p</italic>,4
+ </sub>, etc. terms describe the asymmetry of the distribution and its deviation from the Gaussian shape.
+ <sup>
+  <xref ref-type="bibr" rid="ref152">152</xref>
+ </sup> In principle, by using the cumulant expansion, one can express the arbitrary complex shape of the RDF, and fit the parameters 
+ <italic>c</italic>
+ <sub>
+  <italic>p</italic>,3
+ </sub>, 
+ <italic>c</italic>
+ <sub>
+  <italic>p</italic>,4
+ </sub>, etc. to experimental data. In practice, however, due to the limited information content in the experimental spectrum and correlations between fitting variables, one can rarely fit reliably the terms beyond 
+ <italic>c</italic>
+ <sub>
+  <italic>p</italic>,3
+ </sub>. The latter is related to the skewness of the distribution and may be helpful for the interpretation of high-temperature data, which are affected by the strong anharmomic motion of atoms.
+</p>

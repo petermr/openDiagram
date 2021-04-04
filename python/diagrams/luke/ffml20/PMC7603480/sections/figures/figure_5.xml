@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig5">
+ <label>Fig. 5</label>
+ <caption>
+  <title>Illustration of the Rad-6 chemical space as an interpolated height profile.</title>
+  <p>
+   <bold>a</bold> kPCA as in Fig. 
+   <xref rid="Fig3" ref-type="fig">3</xref> showing the DFT reference intensive atomization energies AE/
+   <italic>N</italic> (in eV). 
+   <bold>b</bold> Prediction from the ML model using an intensive kernel and a small intensively selected training set of only 1000 molecules with UFF geometries. 
+   <bold>c</bold> Respective differences (DFT-ML). Here, the range of the colorbar is shifted but the scale is the same.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_19267_Fig5_HTML" id="d30e1351" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

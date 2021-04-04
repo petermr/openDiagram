@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32">To qualitatively explore this network, a mean-field microkinetic simulation of the reaction of equal parts CH
+ <sub>4</sub> and O
+ <sub>2</sub> was performed, assuming a constant activation barrier for all reactions (see SI for details). Under these assumptions, the reaction dynamics are only driven by the REs and the law of mass-action. While the true activation energies and detailed reaction conditions (initial concentrations, temperature, pressure, etc.) will obviously play a crucial role for the actual mechanism, such a simplified microkinetic simulation provides insight into how thermochemistry and the topology of the reaction network define which intermediates and reaction steps are at all relevant to the process. By observing how the reaction network grows with simulation time, we can furthermore understand how intermediates and reactions sequentially become available, as mass flows through different paths of the network. Only requiring ML-predicted REs as input, such a simulation is therefore a first step towards the envisioned rational reduction of the full network to tractable sub-graphs.
+</p>

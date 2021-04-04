@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For PVA and PVA:CAR mixtures, dilutions of concentration 
+ <italic>c
+  <sub>v</sub>
+ </italic> between 0.1 and 0.9 g/dL were employed, obtained from 1 g/dL stock solutions directly inside the viscometer. For ι-carrageenan, a 0.04¨C0.45 g/dL interval was used for 
+ <italic>c
+  <sub>v</sub>
+ </italic>. The reduced kinematic viscosity (η
+ <sub>sp</sub>/c
+ <sub>v</sub>) for the polymer solutions was calculated for each concentration. Five measurements were performed for each viscosity value and the average values were presented in the paper. The dependence of η
+ <sub>sp</sub>/c
+ <sub>v</sub> = f(c
+ <sub>v</sub>) was fitted with the Huggins equation (Equation (8)) [
+ <xref rid="B39-polymers-12-01544" ref-type="bibr">39</xref>]. 
+ <disp-formula id="FD8-polymers-12-01544">
+  <label>(8)</label>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi mathvariant="sans-serif">η</mi>
+        <mrow>
+         <mi>sp</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi mathvariant="normal">c</mi>
+        <mi mathvariant="normal">v</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mi mathvariant="sans-serif">η</mi>
+      <mo>]</mo>
+     </mrow>
+     <mo>+</mo>
+     <msub>
+      <mi mathvariant="normal">K</mi>
+      <mi mathvariant="normal">H</mi>
+     </msub>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi mathvariant="sans-serif">η</mi>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+     <mo>·</mo>
+     <msub>
+      <mi mathvariant="normal">c</mi>
+      <mi mathvariant="normal">v</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

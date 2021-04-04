@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Independently, information about fractions of different species can be obtained from EXAFS measurements. While, in principle, 
+ <xref rid="eq19" ref-type="disp-formula">eq 
+  <xref rid="eq19" ref-type="disp-formula">19</xref>
+ </xref> is valid also for EXAFS spectra, due to the sensitivity of EXAFS to the details of the local structure, the suitable reference EXAFS spectra may be challenging to find and linear combination analysis of EXAFS spectra is problematic. A more flexible approach is to rely on the analysis of coordination numbers. For a two component system consisting of reduced and oxidized phases, where 
+ <italic>w</italic>
+ <sub>
+  <italic>O</italic>
+ </sub> is the concentration of the oxide phase (metal atoms have 0 metallic neighbors in the first coordination shell, but have 
+ <italic>n</italic>
+ <sub>O</sub> metal–oxygen bonds), and 
+ <italic>w</italic>
+ <sub>M</sub> = (1 – 
+ <italic>w</italic>
+ <sub>
+  <italic>O</italic>
+ </sub>) is the concentration of the metallic phase (the metal atoms have 
+ <italic>n</italic>
+ <sub>
+  <italic>M</italic>
+ </sub> metallic neighbors in the first coordination shell and 0 metal–oxygen bonds), the total number of metal–metal and metal–oxygen bonds in the material with 
+ <italic>N</italic> metal atoms will be 
+ <italic>n</italic>
+ <sub>
+  <italic>MM</italic>
+ </sub> = 
+ <italic>w</italic>
+ <sub>
+  <italic>M</italic>
+ </sub>
+ <italic>n</italic>
+ <sub>
+  <italic>M</italic>
+ </sub>
+ <italic>N</italic> and 
+ <italic>n</italic>
+ <sub>
+  <italic>MO</italic>
+ </sub> = 
+ <italic>w</italic>
+ <sub>
+  <italic>O</italic>
+ </sub>
+ <italic>n</italic>
+ <sub>
+  <italic>O</italic>
+ </sub>
+ <italic>N</italic>, respectively. Furthermore, the coordination numbers obtained from XAS will be
+ <sup>
+  <xref ref-type="bibr" rid="ref184">184</xref>
+ </sup>
+ <disp-formula id="eq20">
+  <graphic xlink:href="cr0c00396_m032" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>20</label>
+ </disp-formula>and
+ <disp-formula id="eq21">
+  <graphic xlink:href="cr0c00396_m033" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>21</label>
+ </disp-formula>Knowing the coordination numbers 
+ <italic>C</italic>
+ <sub>
+  <italic>MM</italic>
+ </sub> and 
+ <italic>C</italic>
+ <sub>
+  <italic>MO</italic>
+ </sub> from EXAFS analysis, and the number of oxygen and metallic neighbors in the pure phases 
+ <italic>n</italic>
+ <sub>
+  <italic>M</italic>
+ </sub> and 
+ <italic>n</italic>
+ <sub>
+  <italic>O</italic>
+ </sub>, the concentrations of the metallic and oxidized phases can be easily calculated. For instance, a good agreement between the 
+ <italic>w</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> values, extracted from EXAFS and LCA-based XANES analysis, was demonstrated in the recent 
+ <italic>operando</italic> study of oxide-derived Cu-based catalyst for CO
+ <sub>2</sub>RR.
+ <sup>
+  <xref ref-type="bibr" rid="ref369">369</xref>
+ </sup>
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">Superposed on the projected landscapes, Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref> shows the color-coded variation of the DFT computed AEs. A clear trend from more negative values in the top right to less negative values in the bottom left can be discerned for 
+ <italic>K</italic>
+ <sub>int</sub>. This correlation of AE/
+ <italic>N</italic> with the degree of saturation results simply because highly saturated molecules contain only single bonds, while unsaturated molecules contain double and triple bonds. The gradual variation of both AE and AE/
+ <italic>N</italic> also provides an intuitive understanding of why kernel models work for predicting molecular energies: Molecules that are close in the kPCA plot (i.e., considered to be similar by the kernel) also have a similar AE. Finally, Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref> also illustrates the distribution of the FPS-selected training points, which evenly cover the compound space, but also span most of the more isolated points at the bottom of the figure.
+</p>

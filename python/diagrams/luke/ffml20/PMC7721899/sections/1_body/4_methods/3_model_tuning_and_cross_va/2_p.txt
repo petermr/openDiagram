@@ -1,0 +1,4 @@
+0: It is challenging in ML to obtain a model that is accurate and simple at the same time.
+1: Simplistic models show a lower degree of prediction accuracy or are under fitted, whereas overly complex models often performed worst on the test data or unknown sets of data.
+2: Such models can capture perfect trends on the training dataset but show poor transferability to unknown sets of data and suffer from overfitting.
+3: Hence, models need to be optimized by tuning the hyperparameters so that an ideal trade-off between accuracy and computational demand is reached.

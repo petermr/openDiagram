@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The monochromatized radiation is then passed through a series of detectors, which measure the intensity of the X-rays before (
+ <italic>I</italic>
+ <sub>0</sub> detector) and after the sample (
+ <italic>I</italic>
+ <sub>T</sub> detector), as well as after the reference (
+ <italic>I</italic>
+ <sub>ref</sub> detector). The absorption spectrum of the reference (e.g., metal foil containing the same absorbing element as the sample) is used for the precise alignment of the data collected. Ionization chambers filled with inert gas are typically used as 
+ <italic>I</italic>
+ <sub>0,</sub>
+ <italic>I</italic>
+ <sub>T</sub> and 
+ <italic>I</italic>
+ <sub>ref</sub> detectors. The X-rays passing through these chambers ionize the gas atoms, and the drift of the released electrons and charged ions in the electric field applied across the ionization chamber electrodes results in a small current (ca. several pA), which is proportional to the intensity of the X-rays. Current amplifiers are then used to convert the current into the voltage signal. The filling gas is chosen so that the absorption in the ionization chamber (typically ca. 10% in 
+ <italic>I</italic>
+ <sub>0</sub> detector) results in a detectable current, while ensuring that the intensity of the X-ray which passes through is not severely affected.
+</p>

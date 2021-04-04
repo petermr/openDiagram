@@ -1,0 +1,1566 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Chemphyschem</journal-id><journal-id journal-id-type="iso-abbrev">Chemphyschem</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1439-7641</journal-id><journal-id journal-id-type="publisher-id">CPHC</journal-id><journal-title-group><journal-title>Chemphyschem</journal-title></journal-title-group><issn pub-type="ppub">1439-4235</issn><issn pub-type="epub">1439-7641</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7702081</article-id><article-id pub-id-type="pmid">32866322</article-id><article-id pub-id-type="doi">10.1002/cphc.202000498</article-id><article-id pub-id-type="publisher-id">CPHC202000498</article-id><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>Hydrogen&#x02010;Bond Structure and Low&#x02010;Frequency Dynamics of Electrolyte Solutions: Hydration Numbers from ab Initio Water Reorientation Dynamics and Dielectric Relaxation Spectroscopy</article-title></title-group><contrib-group><contrib id="cphc202000498-cr-0001" contrib-type="author"><name><surname>Kim</surname><given-names>Seonmyeong</given-names></name><xref ref-type="aff" rid="cphc202000498-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="cphc202000498-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cphc202000498-cr-0002" contrib-type="author"><name><surname>Wang</surname><given-names>Xiangwen</given-names></name><xref ref-type="aff" rid="cphc202000498-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="cphc202000498-cr-0003" contrib-type="author"><name><surname>Jang</surname><given-names>Jeongmin</given-names></name><xref ref-type="aff" rid="cphc202000498-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="cphc202000498-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cphc202000498-cr-0004" contrib-type="author"><name><surname>Eom</surname><given-names>Kihoon</given-names></name><xref ref-type="aff" rid="cphc202000498-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="cphc202000498-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cphc202000498-cr-0005" contrib-type="author"><name><surname>Clegg</surname><given-names>Simon L.</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><xref ref-type="aff" rid="cphc202000498-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="cphc202000498-cr-0006" contrib-type="author" corresp="yes"><name><surname>Park</surname><given-names>Gun&#x02010;Sik</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><xref ref-type="aff" rid="cphc202000498-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="cphc202000498-aff-0002">
+<sup>2</sup>
+</xref><address><email>gunsik@snu.ac.kr</email></address></contrib><contrib id="cphc202000498-cr-0007" contrib-type="author" corresp="yes"><name><surname>Di Tommaso</surname><given-names>Devis</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="cphc202000498-aff-0003">
+<sup>3</sup>
+</xref><address><email>d.ditommaso@qmul.ac.uk</email></address></contrib></contrib-group><aff id="cphc202000498-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Center for THz-driven Biomedical System</named-content>
+<named-content content-type="organisation-division">Department of Physics and Astronomy</named-content>
+<institution>Seoul National University</institution>
+<city>Gwanak-gu</city>
+<postal-code>08826</postal-code>
+<country country="KR">South Korea</country>
+</aff><aff id="cphc202000498-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Advanced Institutes of Convergence Technology</named-content>
+<institution>Seoul National University</institution>
+<city>Suwon-Si</city>
+<named-content content-type="country-part">Gyeonggi-do</named-content>
+<postal-code>16229</postal-code>
+<country country="KR">South Korea</country>
+</aff><aff id="cphc202000498-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">School of Biological and Chemical Sciences</named-content>
+<named-content content-type="organisation-division">Materials Research Institute</named-content>
+<named-content content-type="organisation-division">Thomas Young Centre</named-content>
+<institution>Queen Mary University of London</institution>
+<named-content content-type="street">Mile End Road</named-content>
+<city>London</city>
+<postal-code>E1 4NS</postal-code>
+<country country="GB">United Kingdom</country>
+</aff><aff id="cphc202000498-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">School of Environmental Sciences</named-content>
+<institution>University of East Anglia</institution>
+<city>Norwich</city>
+<postal-code>NR4 7TJ</postal-code>
+<country country="GB">United Kingdom</country>
+</aff><pub-date pub-type="epub"><day>30</day><month>9</month><year>2020</year></pub-date><pub-date pub-type="ppub"><day>16</day><month>10</month><year>2020</year></pub-date><volume>21</volume><issue>20</issue><issue-id pub-id-type="doi">10.1002/cphc.v21.20</issue-id><fpage>2334</fpage><lpage>2346</lpage><history><date date-type="received"><day>10</day><month>6</month><year>2020</year></date><date date-type="rev-recd"><day>31</day><month>8</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright">&#x000a9; 2020 Wiley&#x02010;VCH GmbH<copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. Published by Wiley-VCH GmbH</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:CPHC-21-2334.pdf"/><abstract><title>Abstract</title><p>We present an atomistic simulation scheme for the determination of the hydration number (<italic>h</italic>) of aqueous electrolyte solutions based on the calculation of the water dipole reorientation dynamics. In this methodology, the time evolution of an aqueous electrolyte solution generated from <italic>ab initio</italic> molecular dynamics simulations is used to compute the reorientation time of different water subpopulations. The value of <italic>h</italic> is determined by considering whether the reorientation time of the water subpopulations is retarded with respect to bulk&#x02010;like behavior. The application of this computational protocol to magnesium chloride (MgCl<sub>2</sub>) solutions at different concentrations (0.6&#x02013;2.8&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup>) gives <italic>h</italic> values in excellent agreement with experimental hydration numbers obtained using GHz&#x02010;to&#x02010;THz dielectric relaxation spectroscopy. This methodology is attractive because it is based on a well&#x02010;defined criterion for the definition of hydration number and provides a link with the molecular&#x02010;level processes responsible for affecting bulk solution behavior. Analysis of the <italic>ab initio</italic> molecular dynamics trajectories using radial distribution functions, hydrogen bonding statistics, vibrational density of states, water&#x02010;water hydrogen bonding lifetimes, and water dipole reorientation reveals that MgCl<sub>2</sub> has a considerable influence on the hydrogen bond network compared with bulk water. These effects have been assigned to the specific strong Mg&#x02010;water interaction rather than the Cl&#x02010;water interaction.</p></abstract><abstract abstract-type="graphical"><p>
+<bold>Ab initio molecular dynamics</bold> simulations are used to characterize the structural, vibrational, and dynamical properties of water in aqueous magnesium chloride (MgCl<sub>2</sub>) solutions, and to develop a methodology to compute the hydration number (<italic>h</italic>) of aqueous electrolytes from water reorientation dynamics. The application of this protocol gives <italic>h</italic> values of MgCl<sub>2</sub> solutions in excellent agreement with experimental hydration numbers obtained using GHz&#x02010;to&#x02010;THz dielectric relaxation spectroscopy.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="CPHC-21-2334-g013.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="cphc202000498-kwd-0001">ab initio molecular dynamics</kwd><kwd id="cphc202000498-kwd-0002">dielectric relaxation spectroscopy</kwd><kwd id="cphc202000498-kwd-0003">electrolyte solutions</kwd><kwd id="cphc202000498-kwd-0004">hydration number</kwd><kwd id="cphc202000498-kwd-0005">water orientational dynamics</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>National Research Foundation of Korea (NRF)</funding-source><award-id>2016R1A3B1908336</award-id></award-group><award-group id="funding-0002"><funding-source>Accelerating CCS Technologies</funding-source><award-id>294766</award-id></award-group><award-group id="funding-0003"><funding-source>Department for Business, Energy and Industrial Strategy (BEIS)</funding-source></award-group><award-group id="funding-0004"><funding-source>QMUL Principal's Postgraduate Research Studentships</funding-source></award-group><award-group id="funding-0005"><funding-source><institution-wrap><institution>EPSRC </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100000266</institution-id></institution-wrap></funding-source><award-id>EP/P020194/1</award-id></award-group><award-group id="funding-0006"><funding-source><institution-wrap><institution>EPSRC </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100000266</institution-id></institution-wrap></funding-source><award-id>EP/L000202</award-id></award-group></funding-group><counts><fig-count count="13"/><table-count count="0"/><ref-count count="104"/><page-count count="13"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 16, 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.4 mode:remove_FC converted:30.11.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="cphc202000498-self">S. Kim, X. Wang, J. Jang, K. Eom, S. L. Clegg, G.-S. Park, D. Di Tommaso, <italic>ChemPhysChem</italic>
+<bold>2020</bold>, <italic>21</italic>, 2334.</mixed-citation>
+</p></notes></front><body><sec id="cphc202000498-sec-0001"><label>1</label><title>Introduction</title><p>In solution, ions can interact, with a varying degree of strength, with the surrounding water molecules. A key question concerning the effect of salts on any given solution property pertains to the number of water molecules affected. The hydration number (<italic>h</italic>) of an aqueous electrolyte has been loosely understood as the number of water molecules participating in the solvation of the ions and influenced by the presence of the ions.[<xref rid="cphc202000498-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="cphc202000498-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref>] Knowing the hydration number of aqueous electrolytes is important in several fields. In aqueous electrolyte thermodynamics, various hydration&#x02010;based theoretical models have been developed to predict the equilibrium behavior and chemical speciation of natural aqueous solutions (oceans, brines, ground waters and atmospheric aerosols) and industrial systems (ionic liquids, underground contaminants, fluids used for oil and gas processing).[<xref rid="cphc202000498-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref>, <xref rid="cphc202000498-bib-0004" ref-type="ref">
+<sup>4</sup>
+</xref>, <xref rid="cphc202000498-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref>] These hydration models have mathematical expressions that depend parametrically on the hydration number, here defined as the average number of molecules bound to the compound more strongly than they are bound to other water molecules.<xref rid="cphc202000498-bib-0006" ref-type="ref">
+<sup>[6]</sup>
+</xref> Similarly, in the determination of thermodynamic colligative properties (freezing point depression, boiling point elevation, vapor pressure lowering and osmotic pressure), the hydration number refers to the average number of water molecules that are bound sufficiently strongly to the ions so as to be removed from the solvent and become part of the solute.<xref rid="cphc202000498-bib-0007" ref-type="ref">
+<sup>[7]</sup>
+</xref> The hydration number is also relevant in the transport of biologically important metal ions at interfaces such as cell membranes,<xref rid="cphc202000498-bib-0008" ref-type="ref">
+<sup>[8]</sup>
+</xref> channels,<xref rid="cphc202000498-bib-0009" ref-type="ref">
+<sup>[9]</sup>
+</xref> and nanofluidic systems,<xref rid="cphc202000498-bib-0010" ref-type="ref">
+<sup>[10]</sup>
+</xref> as tightly bound water increases the apparent ionic size.[<xref rid="cphc202000498-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref>, <xref rid="cphc202000498-bib-0012" ref-type="ref">
+<sup>12</sup>
+</xref>]</p><p>Although the solvation of ions in aqueous solution has been discussed for many years,[<xref rid="cphc202000498-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref>, <xref rid="cphc202000498-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref>, <xref rid="cphc202000498-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref>, <xref rid="cphc202000498-bib-0016" ref-type="ref">
+<sup>16</sup>
+</xref>, <xref rid="cphc202000498-bib-0017" ref-type="ref">
+<sup>17</sup>
+</xref>] there are still several inconsistent estimates for the hydration number of solution electrolytes. For the cesium (Cs<sup>+</sup>) and chloride (Cl<sup>&#x02212;</sup>) ions, hydration numbers of 9 and 7,<xref rid="cphc202000498-bib-0018" ref-type="ref">
+<sup>[18]</sup>
+</xref> respectively, are quoted based on diffraction measurements,<xref rid="cphc202000498-bib-0018" ref-type="ref">
+<sup>[18]</sup>
+</xref> which differ, significantly, from the value obtained from colligative properties (freezing point depression data) of CsCl solutions (<italic>h</italic>=0.6&#x000b1;1).<xref rid="cphc202000498-bib-0001" ref-type="ref">
+<sup>[1]</sup>
+</xref> MgCl<sub>2</sub> solutions show the opposite behavior: <italic>h</italic>=14.5 obtained from isothermal compressibility data<xref rid="cphc202000498-bib-0017" ref-type="ref">
+<sup>[17]</sup>
+</xref> is much larger than <italic>h</italic>=6 corresponding to the octahedral arrangement of hexa&#x02010;aqua magnesium ions (Mg<sup>2+</sup>) deduced from the Mg&#x02010;water pair distribution functions generated from X&#x02010;ray[<xref rid="cphc202000498-bib-0019" ref-type="ref">
+<sup>19</sup>
+</xref>, <xref rid="cphc202000498-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref>] and neutron<xref rid="cphc202000498-bib-0021" ref-type="ref">
+<sup>[21]</sup>
+</xref> diffraction experiments. Part of the discrepancy lies in the sometimes&#x02010;misleading use of the concept of hydration number.</p><p>Following Bockris,<xref rid="cphc202000498-bib-0022" ref-type="ref">
+<sup>[22]</sup>
+</xref> one should distinguish between coordination numbers and hydration numbers: the coordination number of an ion is the number of water molecules in the immediate vicinity of the ion and depends on the distance between the molecule of water and the ion; the hydration number is based on the dynamical behavior of the water molecules in solution. The values inferred from ion&#x02010;water pair distribution function analysis are coordination numbers and have no bearing on the strength of the ion&#x02010;water association. For example, both the potassium and magnesium ions have an ion&#x02010;water coordination number around six. However, the characterization of the dynamics of the ionic solvation shell using ab initio molecular dynamics (MD) has shown that no water exchanges around Mg<sup>2+</sup> occur in 50&#x02005;ps compared to &#x0223c;1700 of such events around K<sup>+</sup>.<xref rid="cphc202000498-bib-0023" ref-type="ref">
+<sup>[23]</sup>
+</xref> Therefore, two ions with the same coordination number can have very different binding strength with the surrounding water molecules.</p><p>Zavitsas proposed a thermodynamic definition of hydration number (<italic>h</italic>
+<sup>TMD</sup>) based on the colligative properties of electrolyte solutions as the &#x0201e;dynamic average number of molecules that bind to the solute more strongly than they bind to the other waters&#x0201d;.<xref rid="cphc202000498-bib-0024" ref-type="ref">
+<sup>[24]</sup>
+</xref> In this thermodynamic approach, the apparent large deviation from ideal behavior of colligative properties (freezing point, boiling point, vapor pressure, and osmotic pressure) is reduced when the hydration water molecules (<italic>h</italic>
+<sup>TMD</sup>) is subtracted from the total number of solvent molecules that are used to compute the mole fraction of the solute.<xref rid="cphc202000498-bib-0025" ref-type="ref">
+<sup>[25]</sup>
+</xref> According to this definition, the value of <italic>h</italic>
+<sup>TMD</sup> corresponds to the number of water molecules binding to solute sufficiently strongly as to be removed from the &#x0201e;bulk&#x0201d; solvent. Considering the effect of ions on the dynamics of the water molecules, as originally proposed by Bockris,<xref rid="cphc202000498-bib-0022" ref-type="ref">
+<sup>[22]</sup>
+</xref> could provide an approach for the quantification of the hydration number based on well&#x02010;defined, molecular&#x02010;level behavior of the electrolyte solution.</p><p>Terahertz (THz) dielectric spectroscopy measures the dielectric response of material to applied electromagnetic fields. In the GHz&#x02010;THz frequency region, the dielectric response of water originates from the reorientation dynamics of the water dipole. From the contribution to the dielectric relaxation mode, the THz&#x02010;DR technique is capable of detecting the difference in dynamic behavior between tightly bound and bulk waters.[<xref rid="cphc202000498-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref>, <xref rid="cphc202000498-bib-0027" ref-type="ref">
+<sup>27</sup>
+</xref>] The hydration number measured from THz&#x02010;DR spectroscopy is the average number of moles of water molecules per mole of dissolved salt that no longer participate in bulk&#x02010;like reorientation dynamics.<xref rid="cphc202000498-bib-0028" ref-type="ref">
+<sup>[28]</sup>
+</xref> This molecular definition of hydration number pertains to &#x0201e;irrotationally bound&#x0201d; waters (the ones tightly bound to the solute) and is consistent with the macroscopic hydration concept proposed by Zavitsas based on thermodynamic considerations.</p><p>On the other hand, molecular dynamics (MD) has been extensively used to gain insights into the elusive molecular&#x02010;level processes controlling the properties of aqueous electrolyte solutions.[<xref rid="cphc202000498-bib-0018" ref-type="ref">
+<sup>18</sup>
+</xref>, <xref rid="cphc202000498-bib-0029" ref-type="ref">
+<sup>29</sup>
+</xref>] In this simulation technique, the force field used to describe the ion&#x02010;water interaction is crucial to obtain an accurate characterization of hydrogen bond (HB) kinetics and reorientation dynamics of water in electrolyte solutions.[<xref rid="cphc202000498-bib-0030" ref-type="ref">
+<sup>30</sup>
+</xref>, <xref rid="cphc202000498-bib-0031" ref-type="ref">
+<sup>31</sup>
+</xref>] A significant contribution to this field was the development of ab initio MD, where forces are computed from the electronic structure,[<xref rid="cphc202000498-bib-0032" ref-type="ref">
+<sup>32</sup>
+</xref>, <xref rid="cphc202000498-bib-0033" ref-type="ref">
+<sup>33</sup>
+</xref>] usually in the framework of density functional theory (DFT),<xref rid="cphc202000498-bib-0034" ref-type="ref">
+<sup>[34]</sup>
+</xref> providing the capability of studying non&#x02010;additivity effects in the dynamics of ions solvation shells.</p><p>In this work, we present a novel approach to determine the hydration number of an aqueous electrolyte solution by means of <italic>ab initio</italic> calculations of water reorientation dynamics around ions (Figure&#x02005;<xref rid="cphc202000498-fig-0001" ref-type="fig">1</xref>). We report <italic>ab initio</italic> MD simulations of aqueous magnesium chloride solutions, MgCl<sub>2</sub>(aq), with concentrations ranging from 0.1 to 2.8&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> (solubility of MgCl<sub>2</sub> in water is 54.3&#x02005;g&#x02009;100&#x02005;mL<sup>&#x02212;1</sup> at 20&#x02009;&#x000b0;C).<xref rid="cphc202000498-bib-0035" ref-type="ref">
+<sup>[35]</sup>
+</xref> These simulations have been used to characterize the structure and low&#x02010;frequency dynamics of water and to estimate the hydration number of this electrolyte as a function of concentration. We chose Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> because these ions appear in the composition of seawater and they are also found in biological fluids. The values of <italic>h</italic> for MgCl<sub>2</sub> obtained from the proposed computational methodology are in good agreement with experimental hydration numbers from THz&#x02010;DR measurements of MgCl<sub>2</sub> solutions, which have also been conducted in this study.
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Water reorientation dynamics from <italic>ab initio</italic> MD trajectories and determination of hydration numbers of aqueous electrolytes. The procedure involves generating the time evolution of aqueous electrolyte solution using <italic>ab initio</italic> MD (<bold>A</bold>), from which the water hydration status is determined using the position of H<sub>2</sub>O in the radially varying spherical coordination shell of cations and anions (<bold>B</bold>). The characteristic reorientation time (<italic>&#x003c4;</italic>
+<sub>reor</sub>) of each water subpopulation is computed from the bi&#x02010;exponential fit of the first&#x02010;order Legendre polynomial time correlation function of water dipole vectors (<bold>C</bold>). The hydration number is determined as the number of water molecules, per dissolved salt units, that no longer participate in bulk&#x02010;like reorientation dynamics (<bold>D</bold>).</p></caption><graphic id="nlm-graphic-3" xlink:href="CPHC-21-2334-g001"/></fig></sec><sec id="cphc202000498-sec-0002"><title>Methods</title><sec id="cphc202000498-sec-0003"><title>Molecular Dynamics Simulations</title><sec id="cphc202000498-sec-0004"><title>Ab Initio Molecular Dynamics</title><p>Simulations were conducted with the electronic structure code CP2K/Quickstep code, version 4.1.<xref rid="cphc202000498-bib-0036" ref-type="ref">
+<sup>[36]</sup>
+</xref> CP2K implements DFT based on a hybrid Gaussian plane wave. The Perdew&#x02010;Burke&#x02010;Ernzerhof (PBE)<xref rid="cphc202000498-bib-0037" ref-type="ref">
+<sup>[37]</sup>
+</xref> generalized&#x02010;gradient approximations for the exchange and correlation terms were used together with the general dispersion correction termed DFT&#x02010;D3 developed by Grimme at al.<xref rid="cphc202000498-bib-0038" ref-type="ref">
+<sup>[38]</sup>
+</xref> to provide a more accurate description of the structure of liquid water.[<xref rid="cphc202000498-bib-0039" ref-type="ref">
+<sup>39</sup>
+</xref>, <xref rid="cphc202000498-bib-0040" ref-type="ref">
+<sup>40</sup>
+</xref>] The Goedecker&#x02010;Teter&#x02010;Hutter pseudopotentials were used to describe the core&#x02010;valence interactions.<xref rid="cphc202000498-bib-0041" ref-type="ref">
+<sup>[41]</sup>
+</xref> All atomic species were represented using a double&#x02010;zeta valence polarized basis set. The plane wave kinetic energy cut off (E<sub>cut</sub>) was set to 1000&#x02005;Ry. Table&#x02005;S1 of Supporting Information reports a comparison of the solvation structure of the hydrated cations (isolated ion, no counterions) considered in this study (Mg<sup>2+</sup>, Ca<sup>2+</sup>, Na<sup>+</sup>, K<sup>+</sup> and Cs<sup>+</sup>) with the data obtained from other simulations and experimental measurements, from which we can deduce that the PBE&#x02010;D3 functional with the hybrid Gaussian (DZVP) plane wave (E<sub>cut</sub>=1000&#x02005;Ry) basis set gives an accurate representation of the first hydration shell structure. The <italic>k</italic>&#x02010;sampling was restricted to the <italic>&#x00393;</italic> point of the Brillouin zone. Simulations were carried out with a wave function optimization tolerance of 10<sup>&#x02212;6</sup>&#x02005;au. Periodic boundary conditions were applied throughout. The <italic>ab initio</italic> MD simulations were carried out in the canonical constant volume, constant temperature (NVT) ensemble using a Nos&#x000e9;&#x02010;Hoover chain thermostat to maintain the average temperature at 300&#x02005;K with 0.1&#x02005;ps as the thermostat relaxation time.</p></sec><sec id="cphc202000498-sec-0005"><title>Simulation Protocol</title><p>Details of the electrolyte solutions considered in this study (number of ions and water molecules, average cell lengths and system concentrations) are reported in Table&#x02005;S2 (Supporting Information). First, classical MD simulations of 729 water molecules in the isothermal&#x02010;isobaric constant pressure, constant temperature (NPT) ensemble were conducted to generate an equilibrated aqueous solution. The last configuration was then used to generate MgCl<sub>2</sub>(aq) with concentrations ranging from 0.1 to 2.8&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> by randomly replacing <italic>N</italic> water molecules with <italic>N</italic>/3 Mg<sup>2+</sup> and 2<italic>N</italic>/3 Cl<sup>&#x02212;</sup> ions. As the formation of Mg<sup>2+</sup>/Cl<sup>&#x02212;</sup> contact ion pairs (CIPs) has been subject to some debate,[<xref rid="cphc202000498-bib-0042" ref-type="ref">
+<sup>42</sup>
+</xref>, <xref rid="cphc202000498-bib-0043" ref-type="ref">
+<sup>43</sup>
+</xref>] for the 0.63 and 1.30&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> solutions we generated two set of initial configurations, <italic>with</italic> and <italic>without</italic> CIPs. Each system was subject to 6&#x02005;ns of classical MD (NPT) simulations to equilibrate the cell volume using the Mg&#x02212;O and Mg&#x02212;Cl Lennard Jones potential parameterized by Aqvist<xref rid="cphc202000498-bib-0044" ref-type="ref">
+<sup>[44]</sup>
+</xref> together with the SPC/E water model.<xref rid="cphc202000498-bib-0045" ref-type="ref">
+<sup>[45]</sup>
+</xref> This combination of force fields has been shown to provide a reasonable description of the structure and dynamic properties of hydrated Mg<sup>2+</sup>.<xref rid="cphc202000498-bib-0046" ref-type="ref">
+<sup>[46]</sup>
+</xref> The last configuration was used to initiate <italic>ab initio</italic> MD. Table&#x02005;S3 (Supporting Information) reports the percentages of contact ion pairs (CIP), solvent&#x02010;shared ion pairs (SSHIP), and solvent&#x02010;separated ion pairs (SSIP) in the 0.1&#x02013;2.8&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solutions. The more diluted solutions (0.1&#x02013;0.6&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup>) display a non&#x02010;monotonous variation of the contact, solvent&#x02010;shared and solvent&#x02010;separated ion pairs, which could be related to initial configuration effects because of the slow water dynamics around Mg<sup>2+</sup> (order of microseconds)<xref rid="cphc202000498-bib-0047" ref-type="ref">
+<sup>[47]</sup>
+</xref> and the low number of ions in the simulation box. We have also conducted simulations of pure liquid water, of 0.63&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> CsCl(aq), and of the hydrated ions Mg<sup>2+</sup>, Ca<sup>2+</sup>, Cs<sup>+</sup>, Na<sup>+</sup>, K<sup>+</sup> and Cl<sup>&#x02212;</sup> (Table&#x02005;S1 in ESI). For the <italic>ab initio</italic> MD simulations of MgCl<sub>2</sub>(aq), each time step required, on average, 45 seconds on 288 cores of the ARCHER UK National Supercomputing Service. The <italic>ab initio</italic> MD simulations reported herein required approximately 890k CPU hours (wall&#x02010;clock time &#x000d7; number of processors). Statistics were collected for a period of 20&#x02005;ps.</p></sec></sec></sec><sec id="cphc202000498-sec-0006"><title>Experimental Details</title><sec id="cphc202000498-sec-0007"><title>Materials</title><p>Aqueous MgCl<sub>2</sub> solutions were prepared by dissolving MgCl<sub>2</sub> powder in deionized water. MgCl<sub>2</sub> was purchased from Sigma&#x02010;Aldrich with a purity of over 98&#x02009;% and used without further purification process. High purity deionized water with electrical resistance of 18.2&#x02005;M&#x003a9;&#x02009;cm was prepared by Milli&#x02010;Q systems. Solutions were prepared by measuring the weight of MgCl<sub>2</sub> powder using a balance with a precision of 0.1&#x02005;mg and dissolving the powder in deionized water by measuring concentration volumetrically (mol&#x02009;kg<sup>&#x02212;1</sup>). The dielectric constant <italic>&#x003f5;</italic> of liquid sample was determined from measured reflection coefficient <italic>&#x003c1;s</italic> by applying the bilinear model (Eq. 1), which is recommended for open&#x02010;ended coaxial probe experiments.[<xref rid="cphc202000498-bib-0048" ref-type="ref">
+<sup>48</sup>
+</xref>, <xref rid="cphc202000498-bib-0049" ref-type="ref">
+<sup>49</sup>
+</xref>]<disp-formula id="cphc202000498-disp-0001"><label>(1)</label><mml:math id="nlm-math-1"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003f5;</mml:mi><mml:mrow/></mml:mrow><mml:mi>s</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>A</mml:mi><mml:msub><mml:mi>&#x003c1;</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>B</mml:mi><mml:msub><mml:mi>&#x003c1;</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><p>The three coefficients A, B and C were determined using three known standards &#x003f5; (deionized water, dimethyl sulfoxide 99.9&#x02009;% and 2&#x02010;propanol) and recording &#x003c1;.[<xref rid="cphc202000498-bib-0050" ref-type="ref">
+<sup>50</sup>
+</xref>, <xref rid="cphc202000498-bib-0051" ref-type="ref">
+<sup>51</sup>
+</xref>] Dimethyl sulfoxide 99.9&#x02009;% and 2&#x02010;propanol 99.5&#x02009;% were purchased from Sigma.</p></sec><sec id="cphc202000498-sec-0008"><title>Dielectric Spectrum</title><p>The complex dielectric spectra of aqueous MgCl<sub>2</sub> solutions were obtained by measuring 1024 equally&#x02010;spaced points in the logarithm scale over the frequency range 0.01&#x02013;110&#x02005;GHz, using an open&#x02010;ended coaxial probe (850070E, Keysight Inc.) connected to Anritsu model MS4647B vector network analyzer (VNA) with 3739C broadband test set. Open&#x02010;ended coaxial probe was immersed into a sample solution with a temperature of 25&#x000b1;0.1&#x02009;&#x000b0;C. Temperature was controlled by the Finepcr ALB 6400 thermostat. Conductivity measurements were conducted using the Toledo Compact Conductivity meter S230 with Cond probe InLab 731&#x02010;ISM. Density of all solution was measured by using DMA 500 density meter under accuracy with 0.001&#x02005;g&#x02009;cm<sup>3</sup>. All experiments were carried out after 2 ml of sample was stabilized for more than one hour in a 25&#x02009;&#x000b0;C heat bath.</p></sec></sec><sec id="cphc202000498-sec-0009"><label>2</label><title>Results and Discussion</title><sec id="cphc202000498-sec-0010"><label>2.1</label><title>Solvation Structure</title><p>Experimentally, the first hydration shell Mg&#x02212;O distance is 2.09&#x000b1;0.04&#x02005;&#x000c5;, the average over available diffraction data,<xref rid="cphc202000498-bib-0013" ref-type="ref">
+<sup>[13]</sup>
+</xref> and the second shell is in the range of 4.1&#x02013;4.2&#x02005;&#x000c5;.<xref rid="cphc202000498-bib-0014" ref-type="ref">
+<sup>[14]</sup>
+</xref> Interatomic Mg&#x02010;water distances can be determined from the <italic>ab initio</italic> MD simulations through the generation of the Mg&#x02212;O radial distribution functions (RDF), <italic>g</italic>(<italic>r</italic>), which represent the probability, relative to a random distribution, of finding Mg and O separated by distance <italic>r</italic> (Figure&#x02005;<xref rid="cphc202000498-fig-0002" ref-type="fig">2</xref>). Key structural properties of the hydration shell of Mg<sup>2+</sup> obtained from the RDFs (positions, amplitudes, and average coordination number of the first and second hydration shells) are listed Table&#x02005;S4 (ESI). In all solutions, the magnesium ion is characterized by a well&#x02010;defined peak at 2.1&#x02005;&#x000c5;, which is in excellent agreement with the experimental ranges of equilibrium Mg&#x02212;O distances (2.09&#x000b1;0.04&#x02005;&#x000c5;),<xref rid="cphc202000498-bib-0013" ref-type="ref">
+<sup>[13]</sup>
+</xref> and a second widely distributed second shell in the range of 4.1&#x02013;4.3&#x02005;&#x000c5;. The differences between the Mg&#x02212;O and Cl&#x02212;O RDF profiles (inset of Figure&#x02005;<xref rid="cphc202000498-fig-0002" ref-type="fig">2</xref>) reflect the rigidity of the hydration shell of Mg<sup>2+</sup> and the fast exchange dynamics of the water molecules coordinated to Cl<sup>&#x02212;</sup>: using the &#x0201e;direct&#x0201d; method by Hofer et&#x02005;al. to characterize the dynamics of ionic solvation shell,<xref rid="cphc202000498-bib-0052" ref-type="ref">
+<sup>[52]</sup>
+</xref> between 160 and 330 water exchanges every ten ps, depending on the solution concentration and speciation, were accounted around each chlorine ion, to which corresponds a sub&#x02010;ps mean residence time of waters in the coordination shell of Cl<sup>&#x02212;</sup>. In comparison, the intensity of the Mg&#x02212;O RDF of the MgCl<sub>2</sub> solutions is zero between the first and second peak because no water exchanges occur around Mg<sup>2+</sup>. The slow kinetics of Mg&#x02010;dehydration originates from the high free energy barrier to remove a single water molecule from the first hydration shell of Mg<sup>2+</sup>, as revealed by previous classical MD simulations of hydrated Mg<sup>2+</sup> (isolated ion, no counterion)[<xref rid="cphc202000498-bib-0053" ref-type="ref">
+<sup>53</sup>
+</xref>, <xref rid="cphc202000498-bib-0054" ref-type="ref">
+<sup>54</sup>
+</xref>, <xref rid="cphc202000498-bib-0055" ref-type="ref">
+<sup>55</sup>
+</xref>, <xref rid="cphc202000498-bib-0056" ref-type="ref">
+<sup>56</sup>
+</xref>] and MgCl<sub>2</sub>.<xref rid="cphc202000498-bib-0057" ref-type="ref">
+<sup>[57]</sup>
+</xref> A recent transition path sampling MD study of the kinetic pathways in the first hydration shell of magnesium concluded that the time spent by water molecules in the first hydration shell of Mg<sup>2+</sup> is 40&#x02005;ms.<xref rid="cphc202000498-bib-0058" ref-type="ref">
+<sup>[58]</sup>
+</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Mg&#x02212;O radial distribution functions (RDFs) obtained from <italic>ab initio</italic> MD simulations of aqueous MgCl<sub>2</sub> solutions. <italic>Inset</italic>: Comparison of the Mg&#x02212;O and Cl&#x02212;O RDFs obtained from the 0.63&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> aqueous MgCl<sub>2</sub> solution.</p></caption><graphic id="nlm-graphic-5" xlink:href="CPHC-21-2334-g002"/></fig></sec><sec id="cphc202000498-sec-0011"><label>2.2</label><title>Influence of MgCl<sub>2</sub> on the Structural Properties of Water</title><p>The oxygen&#x02010;oxygen (O&#x02212;O) radial distributions (RDF) for pure water and aqueous MgCl<sub>2</sub> solution, <italic>with</italic> and <italic>without</italic> contact ion pairs, are reported in Figure&#x02005;<xref rid="cphc202000498-fig-0003" ref-type="fig">3</xref>A and Figure&#x02005;<xref rid="cphc202000498-fig-0003" ref-type="fig">3</xref>B. The first and second peak are positioned at 2.74&#x02005;&#x000c5; and 4.5&#x02005;&#x000c5;, which correspond to the average O&#x02212;O distance of two hydrogen bonded water molecules and of two water molecules hydrogen bonding to the same water molecule, respectively. The O&#x02212;O RDF profiles show a progressive rise in the first minimum and lowering of the first and second maxima with increasing concentration, this being associated with a decreasing order in the system. The influence of MgCl<sub>2</sub> on the water structure is noticeable even at low concentrations (0.15&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup>). On the contrary, Gaiduk et&#x02005;al. reported <italic>ab initio</italic> MD simulations of NaCl(aq) where the O&#x02212;O RDF was very close that that of pure water, even at much higher concentrations (0.9&#x02005;mol&#x02009;dm<sup>&#x02212;3</sup>).<xref rid="cphc202000498-bib-0059" ref-type="ref">
+<sup>[59]</sup>
+</xref> Similarly, classical MD simulations of KCl(aq) and CsCl(aq) with concentrations ranging from 0.11 to 1.90&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> did not display significant effects on the water structure.<xref rid="cphc202000498-bib-0060" ref-type="ref">
+<sup>[60]</sup>
+</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>(<bold>A</bold>) Oxygen&#x02212;oxygen (O&#x02212;O) radial distribution function, g<sub>O&#x02212;O</sub>(r), for aqueous MgCl<sub>2</sub> solutions without Mg<sup>2+</sup>&#x02212;Cl<sup>&#x02212;</sup> contact ion pairing. (<bold>B</bold>) Radial distribution function for aqueous MgCl<sub>2</sub> solutions with Mg<sup>2+</sup>&#x02212;Cl<sup>&#x02212;</sup> contact ion pairing. (<bold>C</bold>) Average number of hydrogen bonds (HBs) in pure liquid water, aqueous MgCl<sub>2</sub> solutions and aqueous CsCl solutions. Geometric criteria defining an HB between two H<sub>2</sub>O molecules: <mml:math id="nlm-math-2"><mml:mrow><mml:msub><mml:mrow><mml:mo>|</mml:mo><mml:mi>O</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>O</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mrow><mml:mo>|</mml:mo><mml:mo>&#x0003c;</mml:mo><mml:mn>3</mml:mn><mml:mo>.</mml:mo><mml:mn>5</mml:mn><mml:mspace width="4pt"/><mml:mi>&#x000c5;</mml:mi></mml:mrow></mml:mrow></mml:math>
+, <mml:math id="nlm-math-3"><mml:mrow><mml:msub><mml:mrow><mml:mo>|</mml:mo><mml:mi>O</mml:mi></mml:mrow><mml:mi>j</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mrow><mml:mo>|</mml:mo><mml:mo>&#x0003c;</mml:mo><mml:mn>1</mml:mn><mml:mo>.</mml:mo><mml:mn>2</mml:mn><mml:mspace width="4pt"/><mml:mi>&#x000c5;</mml:mi></mml:mrow></mml:mrow></mml:math>
+, <mml:math id="nlm-math-4"><mml:mrow><mml:msub><mml:mrow><mml:mo>|</mml:mo><mml:mi>O</mml:mi></mml:mrow><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mrow><mml:mo>|</mml:mo><mml:mo>&#x0003c;</mml:mo><mml:mn>2</mml:mn><mml:mo>.</mml:mo><mml:mn>5</mml:mn><mml:mspace width="4pt"/><mml:mi>&#x000c5;</mml:mi></mml:mrow></mml:mrow></mml:math>
+, <mml:math id="nlm-math-5"><mml:mrow><mml:mi>&#x003b8;</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mi>O</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:msub><mml:mi>O</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mi>H</mml:mi></mml:mfenced><mml:mo>&#x0003c;</mml:mo><mml:msup><mml:mrow><mml:mn>30</mml:mn></mml:mrow><mml:mrow><mml:msup><mml:mrow/><mml:mo>&#x02218;</mml:mo></mml:msup><mml:mrow/></mml:mrow></mml:msup></mml:mrow></mml:math>
+(<mml:math id="nlm-math-6"><mml:msub><mml:mi>O</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math>
+is HB acceptor, <mml:math id="nlm-math-7"><mml:msub><mml:mi>O</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math>
+is HB donor). (<bold>D</bold>) Percentage of H<sub>2</sub>O molecules engaging in <italic>n</italic> HBs in the first and second shell of Mg<sup>2+</sup> and in the bulk. Inset: Average number of HBs in pure water (blue dashed line) and in the solvation shells of hydrated Mg<sup>2+</sup>, Ca<sup>2+</sup>, K<sup>+</sup>, Na<sup>+</sup> and Cl<sup>&#x02212;</sup> ions (isolated ions, no counterions).</p></caption><graphic id="nlm-graphic-7" xlink:href="CPHC-21-2334-g003"/></fig><p>The average number of HBs (<italic>n</italic>
+<sub>HB</sub>) computed from the <italic>ab initio</italic> MD trajectories of pure water and MgCl<sub>2</sub> solutions are reported in Figure&#x02005;<xref rid="cphc202000498-fig-0003" ref-type="fig">3</xref>C. We have used a set of geometric criteria where an HB between two water molecules exists if the following distance and angular criteria are satisfied: O&#x02212;O distance is less than 3.5&#x02005;&#x000c5;, H&#x02212;O distance is less than 2.5&#x02005;&#x000c5;, and the O&#x02212;O&#x02212;H angle is no more than 30&#x000b0;. Earlier studies considered these geometrical criteria to characterize the statistics and dynamics of hydrogen bonds in pure water,[<xref rid="cphc202000498-bib-0061" ref-type="ref">
+<sup>61</sup>
+</xref>, <xref rid="cphc202000498-bib-0062" ref-type="ref">
+<sup>62</sup>
+</xref>, <xref rid="cphc202000498-bib-0063" ref-type="ref">
+<sup>63</sup>
+</xref>] in aqueous electrolyte solutions,[<xref rid="cphc202000498-bib-0029" ref-type="ref">
+<sup>29</sup>
+</xref>, <xref rid="cphc202000498-bib-0064" ref-type="ref">
+<sup>64</sup>
+</xref>, <xref rid="cphc202000498-bib-0065" ref-type="ref">
+<sup>65</sup>
+</xref>] in the first hydration shell around hydrated ions,[<xref rid="cphc202000498-bib-0066" ref-type="ref">
+<sup>66</sup>
+</xref>, <xref rid="cphc202000498-bib-0067" ref-type="ref">
+<sup>67</sup>
+</xref>] and at the water&#x02010;mineral interface.<xref rid="cphc202000498-bib-0068" ref-type="ref">
+<sup>[68]</sup>
+</xref> The values of <italic>n</italic>
+<sub>HB</sub> decreases linearly from 3.7 in pure liquid water to 2.8 in the 2.81&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solution because the fraction of water molecules engaging in two or three HBs increases with the solute concentration (Table&#x02005;S5). A comparison of the HB statistics in the MgCl<sub>2</sub> solutions obtained from <italic>ab initio</italic> and classical MD simulations is reported in Table&#x02005;S6 and Figure&#x02005;S1 (ESI).</p><p>Other chloride&#x02010;containing solutions with alkali metal ions such as Cs<sup>+</sup>, which are listed in Table&#x02005;S5, or Na<sup>+</sup> and K<sup>+[60,64]</sup> display a similar but less noticeable influence. For example, the average numbers (Figure&#x02005;<xref rid="cphc202000498-fig-0003" ref-type="fig">3</xref>C) and distributions (Table&#x02005;S5) of HBs in the 0.63&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> and CsCl solutions shows that the influence of MgCl<sub>2</sub> on the HB network is significantly more pronounced than CsCl. Therefore, the presence in solution of Mg<sup>2+</sup> causes the observed, large perturbations to the water HB network; the distribution of HBs in the Mg<sup>2+</sup> first hydration shell (Figure&#x02005;<xref rid="cphc202000498-fig-0003" ref-type="fig">3</xref>D<bold>)</bold> has large deviations from bulk behavior, with the waters directly coordinated to Mg<sup>2+</sup> being mostly hydrogen&#x02010;bonded to only two other molecules. The inset of Figure&#x02005;<xref rid="cphc202000498-fig-0003" ref-type="fig">3</xref>D compares the average number of HBs for the water molecules in the first and second hydration shell of the divalent cations Mg<sup>2+</sup> and Ca<sup>2+</sup>, of the monovalent cations K<sup>+</sup>, Na<sup>+</sup>, and Cs<sup>+</sup>, and of the anion Cl<sup>&#x02212;</sup>. In the first coordination shell of the ions, the <italic>n</italic>
+<sub>HB</sub> values is the lower than in the bulk but this effect is particularly strong for the water molecules directly coordinated to Mg<sup>2+</sup> (<bold>n</bold>
+<sub>HB</sub>=2.25). This further confirms that the influence of MgCl<sub>2</sub> on the water&#x02010;water HB network is due to the specific Mg&#x02010;water interaction. For all ions, the average number of HBs for the water molecules in the second hydration shell converges to the of &#x0201e;bulk&#x0201d; water (beyond the first and second shells). However, small differences can be observed between the values of &#x0201e;bulk&#x0201d; water and pure liquid water, which are likely due to finite size effects (size of the simulation box). In fact, <italic>ab initio</italic> MD simulations of one Ca<sup>2+</sup> ion in 124 H<sub>2</sub>O (50&#x02005;ps) gives <italic>n</italic>
+<sub>HB</sub>=3.72 for &#x0201e;bulk&#x0201d; water, which is very close to that obtained for pure liquid water (3.7). The results in the inset of Figure&#x02005;<xref rid="cphc202000498-fig-0003" ref-type="fig">3</xref>D also confirms the long&#x02010;range effects of ions on the water&#x02010;water HB network discussed by Gaiduk and Galli.<xref rid="cphc202000498-bib-0069" ref-type="ref">
+<sup>[69]</sup>
+</xref>
+</p></sec><sec id="cphc202000498-sec-0012"><label>2.3</label><title>Influence of MgCl2 on the Low&#x02010;Frequency Water Dynamics</title><sec id="cphc202000498-sec-0013"><label>2.3.1</label><title>Hydration&#x02010;Shell Vibrational Density of States</title><p>Further insights into the effect of ions on the HB network were obtained from the vibrational density of states (VDOS) of the excitation spectrum of water (Figure&#x02005;<xref rid="cphc202000498-fig-0004" ref-type="fig">4</xref>), which was computed from the ab initio MD trajectories as the sum of the Fourier transform of the velocity&#x02010;autocorrelation function (VACF) of the oxygen and hydrogen atoms:<xref rid="cphc202000498-bib-0070" ref-type="ref">
+<sup>[70]</sup>
+</xref>
+<disp-formula id="cphc202000498-disp-0002"><label>(2)</label><mml:math id="nlm-math-8"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>f</mml:mi><mml:mfenced open="(" close=")"><mml:mi>&#x003c9;</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mi>&#x02131;</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:mi>&#x003b3;</mml:mi><mml:mfenced open="(" close=")"><mml:mi>t</mml:mi></mml:mfenced></mml:mfenced><mml:mo>=</mml:mo><mml:mi>&#x02131;</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mrow><mml:mo>&#x027e8;</mml:mo><mml:mo>&#x02211;</mml:mo><mml:msub><mml:mover accent="true"><mml:mi mathvariant="bold">v</mml:mi><mml:mo>&#x02192;</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced><mml:msub><mml:mover accent="true"><mml:mi mathvariant="bold">v</mml:mi><mml:mo>&#x02192;</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mfenced open="(" close=")"><mml:mi mathvariant="normal">t</mml:mi></mml:mfenced><mml:mo>&#x027e9;</mml:mo></mml:mrow><mml:mrow><mml:mo>&#x027e8;</mml:mo><mml:mo>&#x02211;</mml:mo><mml:msub><mml:mover accent="true"><mml:mi mathvariant="bold">v</mml:mi><mml:mo>&#x02192;</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced><mml:msub><mml:mover accent="true"><mml:mi mathvariant="bold">v</mml:mi><mml:mo>&#x02192;</mml:mo></mml:mover><mml:mi>i</mml:mi></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced><mml:mo>&#x027e9;</mml:mo></mml:mrow></mml:mfrac></mml:mfenced></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Vibrational density of states (VDOS) from <italic>ab initio</italic> MD. (A) VDOS of pure water showing the vibrational (HB stretch) and librational bands. (B) Comparison of the VDOS of pure water and of the water molecules in the first hydration shell of Mg<sup>2+</sup> and Ca<sup>2+</sup>. The first shells were defined by the position of the first minimum of the Mg&#x02212;O (3.0&#x02005;&#x000c5;) and Ca&#x02212;O (3.2&#x02005;&#x000c5;) RDFs.</p></caption><graphic id="nlm-graphic-9" xlink:href="CPHC-21-2334-g004"/></fig><p>where <italic><bold>&#x003bd;</bold><sub>i</sub></italic> is the velocity vector of O or H atoms in the <italic>i</italic>&#x02010;th water molecule, and the sum is taken over all atoms in the system. In the low frequency region (0&#x02013;1200&#x02005;cm<sup>&#x02212;1</sup>), the spectrum (Figure&#x02005;<xref rid="cphc202000498-fig-0004" ref-type="fig">4</xref>A) has a peak at 50&#x02005;cm<sup>&#x02212;1</sup> corresponding to the O&#x02212;O&#x02212;O bonding intermolecular motion, at &#x0223c;250&#x02005;cm<sup>&#x02212;1</sup> corresponding to the O&#x02212;O intermolecular stretching, and a band between 300 and 1200&#x02005;cm<sup>&#x02212;1</sup> that has been assigned to librational modes, hindered rotational motions of water about the three principal inertia axis of free water.<xref rid="cphc202000498-bib-0071" ref-type="ref">
+<sup>[71]</sup>
+</xref> These vibrational (HB stretch) and librational bands are very sensitive to the specific ion&#x02010;water interactions and ordering of water.[<xref rid="cphc202000498-bib-0072" ref-type="ref">
+<sup>72</sup>
+</xref>, <xref rid="cphc202000498-bib-0073" ref-type="ref">
+<sup>73</sup>
+</xref>] We investigated the local effect of the metal cations to the excitation spectrum of water by restricting the averages in Eq.&#x02005;2 to the water molecules belonging to the first hydration shell of Mg<sup>2+</sup> and Ca<sup>2+</sup>, which were defined by the position of the first minimum in the ion&#x02010;water radial distribution functions. A previous <italic>ab initio</italic> MD study of the spectroscopic properties of water around small hydrophobic solutes did not show significant differences with respect the bulk signal,<xref rid="cphc202000498-bib-0074" ref-type="ref">
+<sup>[74]</sup>
+</xref> but Figure&#x02005;<xref rid="cphc202000498-fig-0004" ref-type="fig">4</xref>B displays the appearance of clear fingerprints of the ionic solvation shell in the libration region of the VDOS. Moreover, the HB peaks and the librational part of <italic>in&#x02010;shell</italic> water of Mg<sup>2+</sup> is more structured and shifted to higher&#x02010;frequency modes compared to Ca<sup>2+</sup>. This suggests a stronger water&#x02010;water HB network around the magnesium ion. In the first hydration shell of these two cations, the bending H&#x02212;O&#x02212;H mode is also blue&#x02010;shifted by approximately 50&#x02005;cm<sup>&#x02212;1</sup> compared to bulk water (ca. 1650&#x02005;cm<sup>&#x02212;1</sup>), whereas less clear conclusions can be drawn from the O&#x02212;H stretching region between 2500 and 4000&#x02005;cm<sup>&#x02212;1</sup> of the VDOS (Figure&#x02005;S2 in ESI). An X&#x02010;ray spectroscopy study of MgCl<sub>2</sub>(aq) by Techer and co&#x02010;workers assigned the distortions of the pre&#x02010;, main, and post&#x02010;edge of the X&#x02010;ray absorption spectra on the oxygen K&#x02010;edge in the vicinity of the ions to the strengthening of the HBs in the solvation shell around Mg<sup>2+</sup>.<xref rid="cphc202000498-bib-0075" ref-type="ref">
+<sup>[75]</sup>
+</xref> Our <italic>in shell</italic> VDOS analysis agrees with this assignment. Further support to this conclusion is provided by the analysis of the average water&#x02010;water distance between the water molecules around Mg<sup>2+</sup> (3.0&#x02005;&#x000c5;), which significantly shorter than Ca<sup>2+</sup> (3.3&#x02005;&#x000c5;) (Figure&#x02005;S3 in ESI).</p></sec><sec id="cphc202000498-sec-0014"><label>2.3.2</label><title>Hydrogen&#x02010;Bond Kinetics</title><p>According to the approached proposed by Rapaport,<xref rid="cphc202000498-bib-0076" ref-type="ref">
+<sup>[76]</sup>
+</xref> the dynamics of breaking and making of hydrogen bonds can be quantified in terms of the continuous HB time correlation function (TCF), <bold>S</bold>
+<sub>HB</sub>(<bold>t</bold>), which gives the probability that a pair, <bold>i</bold> and <bold>j</bold>, remains continuously hydrogen&#x02010;bonded from 0 to <bold>t</bold>:[<xref rid="cphc202000498-bib-0029" ref-type="ref">
+<sup>29</sup>
+</xref>, <xref rid="cphc202000498-bib-0077" ref-type="ref">
+<sup>77</sup>
+</xref>]<disp-formula id="cphc202000498-disp-0003"><label>(3)</label><mml:math id="nlm-math-9"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi mathvariant="normal">H</mml:mi><mml:mi mathvariant="normal">B</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mi>t</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo>&#x027e8;</mml:mo><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced><mml:mo>&#x000b7;</mml:mo><mml:mrow/><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mi>t</mml:mi></mml:mfenced><mml:mo>&#x027e9;</mml:mo></mml:mrow><mml:mrow><mml:mo>&#x027e8;</mml:mo><mml:msup><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x027e9;</mml:mo></mml:mrow></mml:mfrac></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><p>The hydrogen bond population variables <italic>h<sub>ij</sub></italic>(<italic>t</italic>) and <italic>H<sub>ij</sub></italic>(<italic>t</italic>) in Eq.&#x02005;3 are defined in the following way: <italic>h<sub>ij</sub></italic>(<italic>t</italic>)=1 when a tagged water pair is HB at time <italic>t</italic> and <italic>h<sub>ij</sub></italic>(<italic>t</italic>)=0 otherwise; <italic>H<sub>ij</sub></italic>(<italic>t</italic>)=1 if the tagged water pair remains <italic>continuously</italic> HB in the time interval [0, <italic>t</italic>] and <italic>H<sub>ij</sub></italic>(<italic>t</italic>)=0 otherwise. To construct this correlation function, we have used the geometrical criteria of HB.<xref rid="cphc202000498-bib-0064" ref-type="ref">
+<sup>[64]</sup>
+</xref> The brackets in Eq. 3 denote average over all water pairs in the solution. We obtained well convergent <italic>S<sub>HB</sub></italic>(<italic>t</italic>) profiles by using multiple time origins and overlapping intervals [0, <italic>t</italic>] of time length equal to 11&#x02005;ps. The detailed protocol used to compute TCFs is explain in ESI (Calculation of time correlation functions and Figure&#x02005;S6&#x02013;S9) and is based on the procedure outlined by Leach.<xref rid="cphc202000498-bib-0078" ref-type="ref">
+<sup>[78]</sup>
+</xref> The average HB lifetime, <italic>&#x003c4;</italic>
+<sub>HB</sub>, can be determined from the integration of Eq.&#x02005;3. Values of <italic>&#x003c4;</italic>
+<sub>HB</sub> equal to 1.56&#x02005;ps and 1.31&#x02005;ps were obtained from simulation boxes containing 729 and 64 water molecules, respectively, which are within the experimental range of 0.5&#x02013;1.7&#x02005;ps.<xref rid="cphc202000498-bib-0079" ref-type="ref">
+<sup>[79]</sup>
+</xref> These results support the <italic>ab initio</italic> MD methodology used in this study to characterize the low&#x02010;frequency water dynamics. Figure&#x02005;<xref rid="cphc202000498-fig-0005" ref-type="fig">5</xref>A compares <italic>S</italic>
+<sub>HB</sub>(<italic>t</italic>) profiles obtained for pure liquid water and MgCl<sub>2</sub>(aq) <italic>with</italic> Mg<sup>2+</sup>&#x02212;Cl<sup>&#x02212;</sup> contact ion pairs in solution; the analysis of the solutions <italic>without</italic> ion pairing gave very similar results. The HB dynamics are faster in MgCl<sub>2</sub> solutions (faster decay of <italic>S</italic>
+<sub>HB</sub>(<italic>t</italic>) profiles) than in pure water and accelerates with the solute concentration. This is confirmed by the average HB lifetimes in aqueous MgCl<sub>2</sub> solutions, which are lower than pure water; the fastest dynamics of HB making/breaking is observed for the 2.81&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solution <italic>with</italic> CIPs (Table&#x02005;S7 in ESI). Therefore, the presence of Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup>in solution weakens the water&#x02010;water strength of pairing. Further insights can be obtained from the characterization of the HB dynamics of the water molecules in the first hydration shells of Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup>. In Figure&#x02005;<xref rid="cphc202000498-fig-0005" ref-type="fig">5</xref>B, the <italic>S</italic>
+<sub>HB</sub> (<italic>t</italic>) profiles of the first hydration shell of Mg<sup>2+</sup> has a slower decay (slower HB dynamics) than bulk water and the <italic>S</italic>
+<sub>HB</sub> (<italic>t</italic>) profiles of the second hydration shells of Mg<sup>2+</sup> has faster decay (faster HB dynamics) than bulk water. The effects of Mg<sup>2+</sup> on the surrounding water molecules follow, therefore, the ionic hydration model proposed by Frank and Wen:<xref rid="cphc202000498-bib-0080" ref-type="ref">
+<sup>[80]</sup>
+</xref> in the innermost region the water molecules are tightly bound to Mg<sup>2+</sup> and exhibit lower HB dynamics than those in pure water; in the second region the magnesium ion induces a &#x0201e;structure breaking effect&#x0201c;, wherein disruption of the hydrogen bonding network enhances the mobility of the water molecules.<xref rid="cphc202000498-bib-0081" ref-type="ref">
+<sup>[81]</sup>
+</xref> Dissolved Mg<sup>2+</sup> ions have a long&#x02010;range effect, which goes beyond the first hydration shell. In comparison, the <italic>S</italic>
+<sub>HB</sub>(<italic>t</italic>) profiles of the first and second hydration shells of Cl<sup>&#x02212;</sup> overlap with that of bulk water (Figure&#x02005;<xref rid="cphc202000498-fig-0005" ref-type="fig">5</xref>B) suggesting that the chloride ion does not have short&#x02010; or long&#x02010;range effects on the HB dynamics of water. The computed values of the HB relaxation time of the solvent molecules in the first (1.35&#x02005;ps) and second (1.25) shell of chloride, and in the bulk of the solution (1.28&#x02005;ps) confirm this observation (Table&#x02005;S7 in ESI). The different influence of Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> on the HB dynamics of the surrounding water molecules should be linked to the hydration numbers of these two ions, which have estimated values of <italic>h</italic>=15 for Mg<sup>2+</sup> and <italic>h</italic>=0 for Cl<sup>&#x02212;</sup>, according to (thermodynamic) colligative<xref rid="cphc202000498-bib-0001" ref-type="ref">
+<sup>[1]</sup>
+</xref> and isothermal compressibility data.<xref rid="cphc202000498-bib-0017" ref-type="ref">
+<sup>[17]</sup>
+</xref> The long&#x02010;range effects of Mg<sup>2+</sup> beyond its first shell also explains why the hydration number does not correspond to the coordination number (6).
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>The time dependence of the natural logarithm of the continuous hydrogen bonding (HB) time correlation functions <italic>S</italic>
+<sub>HB</sub> (<italic>t</italic>) for aqueous MgCl<sub>2</sub> solutions at different concentrations. (<bold>A</bold>) Solutions <italic>without</italic> Mg<sup>2+</sup>&#x02212;Cl<sup>&#x02212;</sup> contact ion pairing. (<bold>B</bold>) Solutions <italic>with</italic> Mg<sup>2+</sup>&#x02212;Cl<sup>&#x02212;</sup> contact ion pairing. (<bold>A</bold>) Profiles of <italic>S</italic>
+<sub>HB</sub>(<italic>t</italic>) for pure water (dotted line) and MgCl<sub>2</sub> solutions (dashed and solid lines). (<bold>B</bold>) Profiles of <italic>S</italic>
+<sub>HB</sub>(<italic>t</italic>) for the water molecules in the first and second shell of Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> (inset) compared with bulk behavior.</p></caption><graphic id="nlm-graphic-11" xlink:href="CPHC-21-2334-g005"/></fig></sec><sec id="cphc202000498-sec-0015"><label>2.3.3</label><title>Water Reorientation Dynamics</title><p>Rotational motion of water molecules plays a crucial role in the breaking and making of HB (more strongly hydrogen&#x02010;bonded water molecules reorient more slowly).[<xref rid="cphc202000498-bib-0082" ref-type="ref">
+<sup>82</sup>
+</xref>, <xref rid="cphc202000498-bib-0083" ref-type="ref">
+<sup>83</sup>
+</xref>] We have quantified the rotational relaxation of the water dipole by computing the first&#x02010;order Legendre polynomial time correlation function:<xref rid="cphc202000498-bib-0084" ref-type="ref">
+<sup>[84]</sup>
+</xref>
+<disp-formula id="cphc202000498-disp-0004"><label>(4)</label><mml:math id="nlm-math-10"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mfenced open="(" close=")"><mml:mi>t</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mspace width="4pt"/><mml:mfrac><mml:mrow><mml:mo>&#x027e8;</mml:mo><mml:mover accent="true"><mml:mi>&#x003bc;</mml:mi><mml:mo>&#x02192;</mml:mo></mml:mover><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced><mml:mo>&#x000b7;</mml:mo><mml:mrow/><mml:mover accent="true"><mml:mi>&#x003bc;</mml:mi><mml:mo>&#x02192;</mml:mo></mml:mover><mml:mfenced open="(" close=")"><mml:mi>t</mml:mi></mml:mfenced><mml:mo>&#x027e9;</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mover accent="true"><mml:mi>&#x003bc;</mml:mi><mml:mo>&#x02192;</mml:mo></mml:mover><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mfrac></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><p>where <italic><bold>&#x003bc;</bold></italic>(0) and <italic><bold>&#x003bc;</bold></italic>(<italic>t</italic>) are the unit vectors defining the orientation of the dipole moment of a water molecule at times 0 and <italic>t</italic>, respectively. The average in Eq.&#x02005;4 was computed over all water molecules in the solution, using multiple time origins and overlapping intervals<sup>[0,<italic>t</italic>]</sup> of equal time length (<italic>t</italic>=16&#x02005;ps) (Figures&#x02005;S4&#x02013;S7 in ESI).<xref rid="cphc202000498-bib-0078" ref-type="ref">
+<sup>[78]</sup>
+</xref> In Figure&#x02005;<xref rid="cphc202000498-fig-0006" ref-type="fig">6</xref>, the <bold>C</bold>
+<sub>1</sub>(<bold>t</bold>) function starts at 1 and decays asymptotically to zero because of the random and isotropic orientation of the water molecules in solution. The early stages of fast loss of correlation is caused by librational motion, whereas the long term decay is due to reorientational motion and can be fit by the bi&#x02010;exponential function <italic>a</italic>&#x022c5;exp(&#x02212;<italic>t</italic>/<italic>&#x003c4;</italic>
+<sub>1</sub>)+<italic>b</italic>&#x02009;&#x022c5;&#x02009;exp(&#x02212;<italic>t</italic>/<italic>&#x003c4;</italic>
+<sub>2</sub>).<xref rid="cphc202000498-bib-0084" ref-type="ref">
+<sup>[84]</sup>
+</xref> The relaxation time associated with the reorientational motion, <italic>&#x003c4;</italic>
+<sub>reor</sub>, is given by the weighted average of the fitting parameters <italic>&#x003c4;</italic>
+<sub>1</sub> and <italic>&#x003c4;</italic>
+<sub>2</sub>:<disp-formula id="cphc202000498-disp-0005"><label>(5)</label><mml:math id="nlm-math-11"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mi>&#x003c4;</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mo>&#x000b7;</mml:mo><mml:mrow/><mml:msub><mml:mi>&#x003c4;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:mi>b</mml:mi><mml:mo>&#x000b7;</mml:mo><mml:mrow/><mml:msub><mml:mi>&#x003c4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:mi>a</mml:mi><mml:mo>+</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Orientation time correlation function C<sub>1</sub>(t) obtained from ab initio MD simulations of pure liquid water. The early stage of fast loss of correlation is caused by librational motion. The long&#x02010;term decay is due to reorientational motion and is fitted by a bi&#x02010;exponential function a&#x022c5;exp(&#x02010;t/&#x003c4;<sub>1</sub>)+b&#x022c5;exp(&#x02010;t/&#x003c4;<sub>2</sub>).</p></caption><graphic id="nlm-graphic-13" xlink:href="CPHC-21-2334-g006"/></fig><p>The biexponential fitting curve gives a more accurate estimate of the relaxation time associated with the water reorientation process because it removes the contribution from the water librational dynamics. It is also important to note that the single&#x02010;water relaxation times computed from the integration of the first&#x02010;order Legendre polynomial&#x02010;time correlation functions cannot be directly compared with reorientation times obtained experimentally using DRS. To realize such comparison the TCF of the <italic>total</italic> system dipole correlation should be considered by computing the auto&#x02010; and cross&#x02010;correlation terms, as done by Sega and Schroder,<xref rid="cphc202000498-bib-0085" ref-type="ref">
+<sup>[85]</sup>
+</xref> and Zarzycki and Gilbert.<xref rid="cphc202000498-bib-0086" ref-type="ref">
+<sup>[86]</sup>
+</xref> The concentration&#x02010;dependent time correlation profiles, <italic>C</italic>
+<sub>1</sub>(<italic>t</italic>), of the MgCl<sub>2</sub> solutions are reported in Figure&#x02005;<xref rid="cphc202000498-fig-0007" ref-type="fig">7</xref>. Compared to pure water, the dipole reorientation dynamics is slower in MgCl<sub>2</sub>(aq) and decreases with the solution concentration. The <italic>C</italic>
+<sub>1</sub>(<italic>t</italic>) profiles are also significantly influenced by the type of ion pairs present in solution; the 0.63 and 1.30&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> solution <italic>without</italic> CIPs have very similar water reorientation behaviour (Figure&#x02005;<xref rid="cphc202000498-fig-0007" ref-type="fig">7</xref>A), whereas significant differences can be observed in the solutions <italic>with</italic> CIPs (Figure&#x02005;<xref rid="cphc202000498-fig-0007" ref-type="fig">7</xref>B). The correlation function <italic>C</italic>
+<sub>1</sub>(<italic>t</italic>) is, therefore, sensitive to solution speciation and could provide insights into the cooperative effect of Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> ions on the water dipole reorientation dynamics. In the next section, changes compared to bulk behavior will be used to determine the hydration numbers of aqueous MgCl<sub>2</sub> solutions as a function of concentration.
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>The time dependence of the natural logarithm of the orientation time correlation function <italic>P</italic>1(<italic>t</italic>) for aqueous MgCl<sub>2</sub> solutions at different concentrations. (<bold>A</bold>) Solutions <italic>without</italic> Mg<sup>2+</sup>&#x02212;Cl<sup>&#x02212;</sup> contact ion pairing. (<bold>B</bold>) Solutions <italic>with</italic> Mg<sup>2+</sup>&#x02212;Cl<sup>&#x02212;</sup> contact ion pairing. (<bold>C</bold>) Values of the first order orientational relaxation times, &#x003c4;<sub>reor</sub>, as a function of the solution concentration.</p></caption><graphic id="nlm-graphic-15" xlink:href="CPHC-21-2334-g007"/></fig></sec></sec><sec id="cphc202000498-sec-0016"><label>2.4</label><title>Hydration Numbers from Water Reorientation Dynamics</title><sec id="cphc202000498-sec-0017"><label>2.4.1</label><title>Cooperative Hydration Model</title><p>Speciation analysis of the aqueous MgCl<sub>2</sub> solutions (Table&#x02005;S2 in ESI) shows that Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> ions are mainly present as free ions only in the most dilute solutions (0.08 and 0.15&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup>). Otherwise, they form contact, solvent shared, and solvent&#x02010;separated ion pairs. As cooperative effects of ions in the aqueous electrolyte can induce specific changes to the water dynamics,[<xref rid="cphc202000498-bib-0087" ref-type="ref">
+<sup>87</sup>
+</xref>, <xref rid="cphc202000498-bib-0088" ref-type="ref">
+<sup>88</sup>
+</xref>] we have implemented a cooperative hydration model to categorize the water molecules in MgCl<sub>2</sub>(aq) in different subpopulations (Figure&#x02005;<xref rid="cphc202000498-fig-0008" ref-type="fig">8</xref>A) and characterize the dynamic properties of water depending on the relative position from the ions. The hydrogen and oxygen atoms of each water molecule in the solution are labelled O<sub><italic>a</italic></sub>H<sub><italic>b</italic></sub>H<sub><italic>c</italic></sub>, where <italic>a</italic>, <italic>b</italic>, <italic>c</italic>=1, 2, and B, depending on the position from the Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> ions; the subscript is set to 1 when the oxygen or hydrogen atom is in the first coordination shell of the nearest ion, to 2 when the oxygen or hydrogen atom is in the second coordination shell of the nearest ion, and B when it is beyond the second shell. Assignments were made by comparing the distance between O<sub><italic>a</italic></sub> and the nearest magnesium ion with the positions of the first and second minima of the Mg&#x02212;O RDFs (Figure&#x02005;<xref rid="cphc202000498-fig-0002" ref-type="fig">2</xref>), and the distance between H<sub><italic>b</italic></sub> (or H<sub><italic>c</italic></sub>) and the nearest chlorine ion with first and second minima of the Cl&#x02212;H RDF (Figure&#x02005;S9 in ESI). The application of these criteria to categorize water molecules in MgCl<sub>2</sub> solutions is based on the semi&#x02010;rigid hydration scheme, where water dynamics are &#x0201e;locked&#x0201d; in two directions: the orientation of the water dipole is mainly affected by cations; the O&#x02212;H orientation is mainly affected by anions.<xref rid="cphc202000498-bib-0087" ref-type="ref">
+<sup>[87]</sup>
+</xref> Previous experimental and simulation work provide evidence for orientation ordering of water in extended hydration shells around the ion.[<xref rid="cphc202000498-bib-0089" ref-type="ref">
+<sup>89</sup>
+</xref>, <xref rid="cphc202000498-bib-0090" ref-type="ref">
+<sup>90</sup>
+</xref>, <xref rid="cphc202000498-bib-0091" ref-type="ref">
+<sup>91</sup>
+</xref>, <xref rid="cphc202000498-bib-0092" ref-type="ref">
+<sup>92</sup>
+</xref>] Using this approach, the water molecules in the solution can be classified into 18 subpopulations, W<sub><italic>abc</italic></sub>, where <italic>a</italic>, <italic>b</italic>, <italic>c</italic>=1, 2, B. For examples, W<sub>112</sub> refers to the subpopulation O<sub>1</sub>H<sub>1</sub>H<sub>2</sub> of molecules having the oxygen in the first coordination shell of Mg<sup>2+</sup>, one hydrogen atoms in the first coordination shell of Cl<sup>&#x02212;</sup>, and the other hydrogen in the second shell of Cl<sup>&#x02212;</sup>. The number of water molecules in W<sub>11B</sub>, W<sub>21B</sub>, and W<sub>B1B</sub> are zero because these subpopulations correspond to molecules where the O&#x02212;H bond is dissociated, that is one hydrogen is in the first shell and the other hydrogen in the bulk.The computational procedure used to categorize the water molecules in MgCl<sub>2</sub>(aq) into different water subpopulation is presented in ESI, together with a detailed analysis of the process of water &#x0201e;exchange&#x0201d; between different subpopulations. Figure&#x02005;<xref rid="cphc202000498-fig-0008" ref-type="fig">8</xref>C reports the distribution of water molecules among the fifteen subpopulations in the 1.3mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solution. The subpopulation analysis has been conducted at each time step using four (non&#x02010;overlapping) simulation blocks each lasting 5&#x02005;ps. The error bars in Figure&#x02005;<xref rid="cphc202000498-fig-0008" ref-type="fig">8</xref>C are &#x0003c;1&#x02009;% because of the small variation of the average number of water molecules in each subpopulation during the four consecutive time blocks <bold>(</bold>Figure&#x02005;S13 in ESI). From this population distribution is also possible to evaluate the number of water molecules that are in the bulk (or free water), coordinated to one ion, or coordinated to both Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> (Figure&#x02005;<xref rid="cphc202000498-fig-0008" ref-type="fig">8</xref>D). The fraction of bulk and single&#x02010;coordinated ions per number of Mg<sup>2+</sup> decreases as the MgCl<sub>2</sub> concentration increases and beyond 1.3&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> most molecules are coordinated to both ions. This makes cooperative ionic effects important in most solutions.
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0008" orientation="portrait" position="float"><label>Figure 8</label><caption><p>(<bold>A</bold>) Definition of subpopulations near a solvent separated Mg<sup>2+</sup>&#x02212;Cl<sup>&#x02212;</sup> ion pair showing the categorization of a water molecule in the W<sub>222</sub> subpopulation: the oxygen is in the 2<sup>nd</sup> coordination shell of Mg<sup>2+</sup> and both hydrogen atoms are in the 1<sup>st</sup> coordination shell of Cl<sup>&#x02212;</sup>. (<bold>B</bold>) Overlapping of the 1<sup>st</sup> and 2<sup>nd</sup> coordination spheres of the Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup>for a solvent separated ion pair showing the water. (<bold>C</bold>) Distribution of molecules among the subpopulations for the 1.3&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solution. Subpopulation analysis conducted at each time step (1&#x02005;fs) using four different time origins. Standard errors computed from the variations of block averages, each lasting 5&#x02005;ps. (<bold>D</bold>) Number of water molecules in the bulk (black), coordinated to either Mg<sup>2+</sup> or Cl<sup>&#x02212;</sup> (blue), or coordinated to both Mg<sup>2+</sup> or Cl<sup>&#x02212;</sup> (red). Values normalized to MgCl<sub>2</sub> units.</p></caption><graphic id="nlm-graphic-17" xlink:href="CPHC-21-2334-g008"/></fig></sec><sec id="cphc202000498-sec-0018"><label>2.4.2</label><title>Reorientation Dynamics in Different Subpopulations</title><p>For each water subpopulations, the orientation time correlation function was computed by tracking the dipole vectors of the water molecules belonging to that specific subpopulation. We used 1024 time origins to generate well convergent <italic>C</italic>
+<sub>1</sub>(<italic>t</italic>) profiles from which we computed the reorientation relaxation time of each water subpopulation. We define the <italic>retardation factor</italic> as the ratio between the reorientation relaxation time of the subpopulation <italic>i</italic> and bulk water:<disp-formula id="cphc202000498-disp-0006"><label>(6)</label><mml:math id="nlm-math-12"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:msubsup><mml:mi>&#x003c4;</mml:mi><mml:mrow><mml:msub><mml:mi>W</mml:mi><mml:mrow><mml:mi>O</mml:mi><mml:mi>H</mml:mi><mml:mi>H</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mi>i</mml:mi></mml:msubsup><mml:msub><mml:mi>&#x003c4;</mml:mi><mml:msub><mml:mi>W</mml:mi><mml:mrow><mml:mi>b</mml:mi><mml:mi>u</mml:mi><mml:mi>l</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:msub></mml:mfrac></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><p>The retardation factors for the subpopulations in the 2.81&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solution are reported in Figure&#x02005;<xref rid="cphc202000498-fig-0009" ref-type="fig">9</xref>A. The <italic>inset</italic> of this figure presents the statistical approach we have adopted to classify bulk&#x02010;like and hydration water, which is based on the Empirical Rule, also known as the 68&#x02013;95&#x02013;99.7 rule: for a subpopulation to be classified as bulk&#x02010;like water the retardation factor must lie within 3<italic>&#x003c3;</italic> of the mean value of bulk&#x02010;like water (green domain in Figure&#x02005;<xref rid="cphc202000498-fig-0009" ref-type="fig">9</xref>A). Water molecules in W<sub>222</sub>, W<sub>22B</sub>, W<sub>B11</sub>, W<sub>B12</sub>, W<sub>B22</sub>, and W<sub>B2B</sub> (<italic>f</italic>&#x02248;1) are within the 2<italic>&#x003c3;</italic> deviation and are classified as bulk&#x02010;like water. On the other hand, a slow relaxation dynamics (<italic>f</italic> values 2&#x02013;6 times larger compared to the bulk) is observed for water molecules that are in the first coordination shell of Mg<sup>2+</sup> (subpopulations W<sub>111</sub>, W<sub>112</sub>, W<sub>122</sub>, W<sub>12B</sub>, W<sub>1BB</sub>) or in the second coordination shell of Mg<sup>2+</sup> and first coordination shell of Cl<sup>&#x02212;</sup> (W<sub>211</sub>, W<sub>212</sub>) (Figure&#x02005;<xref rid="cphc202000498-fig-0009" ref-type="fig">9</xref>B). In particular, W<sub>211</sub> and W<sub>212</sub> are distributed well beyond the 3<italic>&#x003c3;</italic> deviation (even larger than 4<italic>&#x003c3;</italic>) and contribute, therefore, to the hydration number of MgCl<sub>2</sub>(aq). The <italic>C</italic>
+<sub>1</sub>(<italic>t</italic>) profiles of the water molecules in the first and second coordination shells of hydrated Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> (isolated ion, no counterions) confirm the long&#x02010;range effect of Mg<sup>2+</sup> and short&#x02010;range effect of Cl<sup>&#x02212;</sup> on the reorientation water dynamics (Figure&#x02005;S14 in ESI). This result also agrees with a theoretical analysis on individual water entropy around ions, which showed that the rotational entropy reduction of the first solvation shell water molecules near Cl<sup>&#x02212;</sup> is almost half compared to that around Mg<sup>2+</sup>.<xref rid="cphc202000498-bib-0093" ref-type="ref">
+<sup>[93]</sup>
+</xref> The retardation of the water dipole reorientation near ions, including Mg<sup>2+</sup>,<xref rid="cphc202000498-bib-0094" ref-type="ref">
+<sup>[94]</sup>
+</xref> has also been discussed in the &#x0201e;jump model&#x0201d; by Stirnemann et al. to explain the long&#x02010; and short&#x02010;range effects of Mg<sup>2+</sup> on the orientation time correlation function. Our finding that subpopulations such as W<sub>211</sub> and W<sub>212</sub> in MgCl<sub>2</sub>(aq) have a slow reorientation dynamics compared to bulk behaviour supports previous investigations of electrolyte solutions reporting on the long&#x02010;range effects of ions, beyond their first hydration shell.[<xref rid="cphc202000498-bib-0087" ref-type="ref">
+<sup>87</sup>
+</xref>, <xref rid="cphc202000498-bib-0095" ref-type="ref">
+<sup>95</sup>
+</xref>, <xref rid="cphc202000498-bib-0096" ref-type="ref">
+<sup>96</sup>
+</xref>] The combined THz absorption spectroscopy (frequency region 50&#x02013;640&#x02005;cm<sup>&#x02212;1</sup>) and classical MD study of MgSO<sub>4</sub> solutions by Vila Verde et al.<xref rid="cphc202000498-bib-0096" ref-type="ref">
+<sup>[96]</sup>
+</xref> suggests that the reorientational dynamics of the water molecules between two ions in the solvent shared configuration is slowed down, via a cooperative, supra&#x02010;additive, effect. Also, the hydration number of Mg<sup>2+</sup> deduced from THz dielectric relaxation and THz absorption spectroscopy is well above the number of water molecules in the first hydration shell of Mg<sup>2+</sup> (6),<xref rid="cphc202000498-bib-0087" ref-type="ref">
+<sup>[87]</sup>
+</xref> which again suggests that some portion of water molecules beyond the first hydration shell of Mg<sup>2+</sup> have different physical property (such as vibrational absorption or reorientation dynamics) compared to bulk water.
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0009" orientation="portrait" position="float"><label>Figure 9</label><caption><p>Retardation factor of each water subpopulation. <bold>(A)</bold> Retardation factor for the reorientation relaxation time of the water subpopulations in the 2.81&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> solution. Standard errors computed from the variations of block averages, each lasting 5&#x02005;ps, using four different time origins. <italic>Inset</italic>: statistical approach used to classify bulk&#x02010;like and hydration water based on the Empirical Rule (68&#x02010;95&#x02010;99.7 rule): if the population of a statistical data set has a normal distribution with population mean and standard deviation (<italic>&#x003c3;</italic>), than about 99.7&#x02009;% of the values lie within 3 standard deviations of the mean. <bold>(B)</bold> Representation of the slow relaxation dynamics (red area) for the subpopulations of molecules in the first&#x02010; or second shell of Mg<sup>2+</sup> and in first coordination shell of Cl<sup>&#x02212;</sup>.</p></caption><graphic id="nlm-graphic-19" xlink:href="CPHC-21-2334-g009"/></fig></sec><sec id="cphc202000498-sec-0019"><label>2.4.3</label><title>Hydration Numbers of Aqueous MgCl<sub>2</sub> from water Reorientation Dynamics</title><p>The number of bulk&#x02010;like and slow&#x02010;orienting molecules in the water subpopulations of the 0.6&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solution are reported in Figure&#x02005;<xref rid="cphc202000498-fig-0010" ref-type="fig">10</xref>. Here, we define the hydration number (<italic>h</italic>) as the number of water molecules per dissolved MgCl<sub>2</sub> units that no longer participate in bulk&#x02010;like reorientation dynamics. This definition yields an <italic>h</italic> value of 15 for the 0.6&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solution, which corresponds to approximately 6 slow water molecules in the first shell of Mg<sup>2+</sup> and 9 slow water molecules that are beyond the first shell of this ion. The hydration numbers identified using our computational procedure is independent from the structural definition of the hydration shells and corresponds slow water molecules within or outside the first hydration shells of magnesium and chloride ions.
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0010" orientation="portrait" position="float"><label>Figure 10</label><caption><p>Distribution of water molecules in the water subpopulations labelled as bulk&#x02010;like (blue) and slow (red) reorienting water dipoles for the 0.6&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> MgCl<sub>2</sub> solution. Number of water molecules per MgCl<sub>2</sub> units. Slow water molecules compared to bulk water molecules are in 6 from the first shell of Mg plus 9 (beyond shell), corresponding to <italic>h</italic>=15 per MgCl<sub>2</sub> units.</p></caption><graphic id="nlm-graphic-21" xlink:href="CPHC-21-2334-g010"/></fig></sec><sec id="cphc202000498-sec-0020"><label>2.4.4</label><title>Concentration&#x02010;Dependent Dielectric Spectroscopy of MgCl<sub>2</sub> Solutions</title><p>The concentration&#x02010;dependent dielectric loss spectra of MgCl<sub>2</sub> solutions with concentrations ranging from 0.0 to 2.6&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> (Figure&#x02005;<xref rid="cphc202000498-fig-0011" ref-type="fig">11</xref>) were analysed by simultaneously fitting the real and imaginary parts of the spectra to the double&#x02010;Debye dielectric relaxation model for the frequency dependent dielectric permittivity (<italic>&#x003f5;</italic>):[<xref rid="cphc202000498-bib-0050" ref-type="ref">
+<sup>50</sup>
+</xref>, <xref rid="cphc202000498-bib-0097" ref-type="ref">
+<sup>97</sup>
+</xref>]<disp-formula id="cphc202000498-disp-0007"><label>(7)</label><mml:math id="nlm-math-13"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>&#x003f5;</mml:mi><mml:mrow/><mml:mfenced open="(" close=")"><mml:mi>&#x003bd;</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:mfrac><mml:msub><mml:mi>S</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>i</mml:mi><mml:mi>&#x003c9;</mml:mi><mml:msub><mml:mi>&#x003c4;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:msub><mml:mi>S</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>i</mml:mi><mml:mi>&#x003c9;</mml:mi><mml:msub><mml:mi>&#x003c4;</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003f5;</mml:mi><mml:mrow/></mml:mrow><mml:mi>&#x0221e;</mml:mi></mml:msub></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0011" orientation="portrait" position="float"><label>Figure 11</label><caption><p>Concentration&#x02010;dependent dielectric loss spectrum of aqueous MgCl<sub>2</sub> solutions. Imaginary and real (inset) components of the double&#x02010;Debye dielectric relaxation model.</p></caption><graphic id="nlm-graphic-23" xlink:href="CPHC-21-2334-g011"/></fig><p>where <italic>&#x003f5;</italic>
+<sub>&#x0221e;</sub> is the high&#x02010;frequency permittivity in aqueous solution, which was set equal to 3.52 based on recent THz spectroscopy experiments of aqueous salt solutions.<xref rid="cphc202000498-bib-0098" ref-type="ref">
+<sup>[98]</sup>
+</xref> The first and second terms in Eq.&#x02005;7 are due to the reorientation motion of water with mode strength <italic>S</italic>
+<sub>1</sub> and relaxation time <italic>&#x003c4;</italic>
+<sub>1</sub> (centred at 20&#x02005;GHz), and mode strength <italic>S</italic>
+<sub>2</sub> and relaxation time <italic>&#x003c4;</italic>
+<sub>2</sub> (centred at 1&#x02005;THz). The conductivity term due to Ohmic loss from the ion conductivity was removed by conducting independent conductivity experiments, such that only dielectric relaxation contribution from dipole fluctuation was considered in the fitting process. According to the extended Cavell equation,<xref rid="cphc202000498-bib-0099" ref-type="ref">
+<sup>[99]</sup>
+</xref> the intensities of the relaxation modes <italic>S</italic>
+<sub>1</sub> and <italic>S</italic>
+<sub>2</sub> are proportional to the number of molecules participating to each mode. The dielectric strength of an aqueous electrolyte solution with concentration <italic>c</italic>, <italic>S</italic>(<italic>c</italic>)=<italic>S</italic>
+<sub>1</sub>(<italic>c</italic>)+<italic>S</italic>
+<sub>2</sub>(<italic>c</italic>), is generally less than that of neat water due to the following depolarization effects:<xref rid="cphc202000498-bib-0088" ref-type="ref">
+<sup>[88]</sup>
+</xref> dilution effect, ions in solutions reduce the number of waters per unit volume resulting in the decrease of dipole concentration; kinetic depolarization, under the influence of an external electric field, ions in solution diffuse according to the direction of the field, inducing a reorientation of the surrounding water molecules that is opposite to the direction of the field; static depolarization, some water molecules in the solution are bound or strongly affected by the presence of ions and are oriented towards the local ionic field caused. These water molecules have a slow reorientation dynamics with a relaxation time that is outside the GHz&#x02010;to&#x02010;THz window in which the reorientation process of bulk&#x02010;like water occurs.<xref rid="cphc202000498-bib-0087" ref-type="ref">
+<sup>[87]</sup>
+</xref> Therefore, the water molecules in an electrolyte solution which reorientation dynamics is retarded with respect to bulk behaviour do not contribute to the GHz&#x02010;to&#x02010;THz dielectric spectrum, leading to an additional dielectric loss in this frequency range. In DRS, the hydration number of an aqueous electrolyte solution is defined as the number of water molecules characterized by a slow reorientation dynamic and that do not contribute to the bulk&#x02010;like relaxation process. To determine the hydration numbers of MgCl<sub>2</sub> solutions from the dielectric loss spectra, first the static depolarization component is computed, according to the total depolarization model, as the difference between the total dielectric loss (&#x025b5;S<sub>total</sub>) and the kinetic depolarization contribution (&#x025b5;S<sub>kinetic</sub>):[<xref rid="cphc202000498-bib-0049" ref-type="ref">
+<sup>49</sup>
+</xref>, <xref rid="cphc202000498-bib-0097" ref-type="ref">
+<sup>97</sup>
+</xref>]<disp-formula id="cphc202000498-disp-0008"><label>(8)</label><mml:math id="nlm-math-14"><mml:mstyle displaystyle="true"><mml:mrow><mml:mi>&#x00394;</mml:mi><mml:msub><mml:mi mathvariant="normal">S</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x00394;</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>l</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mi>&#x00394;</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi>k</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mi>e</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x00394;</mml:mi><mml:mi>S</mml:mi><mml:mfenced open="(" close=")"><mml:mi>c</mml:mi></mml:mfenced><mml:mo>-</mml:mo><mml:mi>&#x003c3;</mml:mi><mml:mfenced open="(" close=")"><mml:mi>c</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mo>&#x000b7;</mml:mo><mml:mrow/><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:msub><mml:mi>&#x003c4;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow><mml:mn>3</mml:mn></mml:mfrac><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003f5;</mml:mi><mml:mrow/></mml:mrow><mml:mi>&#x0221e;</mml:mi></mml:msub><mml:mfenced open="(" close=")"><mml:mi>c</mml:mi></mml:mfenced><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003f5;</mml:mi><mml:mrow/></mml:mrow><mml:mi>s</mml:mi></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003f5;</mml:mi><mml:mrow/></mml:mrow><mml:mi>s</mml:mi></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced><mml:msub><mml:mrow><mml:mi>&#x003f5;</mml:mi><mml:mrow/></mml:mrow><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><p>where <italic>&#x003f5;</italic>
+<sub>s</sub>(0) is the static permittivity of pure water, <italic>&#x003f5;</italic>
+<sub>&#x0221e;</sub>(<italic>c</italic>) is the high&#x02010;frequency permittivity of the aqueous electrolyte solution, and &#x003c3;(<italic>c</italic>) is the conductivity of electrolyte solution with concentration <italic>c</italic>. The expression for the kinetic depolarization assumes that water dipoles rotate to the opposite direction of the external field and according to their reorientation time scale. Therefore, <italic>&#x003c4;</italic>
+<sub>1</sub>(0) is the reorientation time of the bulk water relaxation mode, and the 2/3 factor originates from the assumption that the flow of solvent at the ion surface is governed by the perfect slip boundary condition.<xref rid="cphc202000498-bib-0097" ref-type="ref">
+<sup>[97]</sup>
+</xref> By considering the dilution effect, the number of slow water molecules (hydration number) is obtained using the following expression:<disp-formula id="cphc202000498-disp-0009"><label>(9)</label><mml:math id="nlm-math-15"><mml:mstyle displaystyle="true"><mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi>h</mml:mi><mml:mi>y</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mi mathvariant="normal">c</mml:mi><mml:mrow><mml:msub><mml:mi mathvariant="normal">H</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi mathvariant="normal">O</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mi>c</mml:mi></mml:mfenced><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">S</mml:mi><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced><mml:mo>+</mml:mo><mml:mi>&#x00394;</mml:mi><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>t</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>c</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>S</mml:mi><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:mfrac><mml:msub><mml:mi mathvariant="normal">c</mml:mi><mml:mrow><mml:msub><mml:mi mathvariant="normal">H</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi mathvariant="normal">O</mml:mi></mml:mrow></mml:msub><mml:mfenced open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mfenced><mml:mi>c</mml:mi></mml:mfrac></mml:mrow></mml:mstyle></mml:math></disp-formula>
+</p><p>where <italic>c</italic>
+<sub>H2O</sub>(<italic>c</italic>) and <italic>c</italic> represents the concentration of water and of solute, respectively. In THz&#x02010;DR experiments, larger amounts of depolarization were measured than depolarization by dilution effect and kinetic depolarization. This amount of depolarization can be explained by the presence of the water molecules which no longer participate in bulk&#x02010;like reorientation dynamics. This corresponds to the hydration water.[<xref rid="cphc202000498-bib-0087" ref-type="ref">
+<sup>87</sup>
+</xref>, <xref rid="cphc202000498-bib-0088" ref-type="ref">
+<sup>88</sup>
+</xref>]</p></sec><sec id="cphc202000498-sec-0021"><label>2.4.5</label><title>Concentration Dependence of the Hydration Number</title><p>Figure&#x02005;<xref rid="cphc202000498-fig-0012" ref-type="fig">12</xref> compares the values of <italic>h</italic> for aqueous MgCl<sub>2</sub> solutions with concentrations ranging from 0.1 to 2.8&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup> obtained computationally from the <italic>ab initio</italic> MD simulations and experimentally from the concentration&#x02010;dependent dielectric loss spectra. The connection between single&#x02010;water molecules reorientational dynamics and the values obtained from DRS measurements is discussed in Supporting Information. The theoretical values are in good agreement with the experimental hydration numbers, especially at higher concentrations. The two <bold>h(c)</bold> profiles diminish as the concentration increases because of the cooperative hydration of Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> ions beyond their first hydration shells (Figure&#x02005;<xref rid="cphc202000498-fig-0012" ref-type="fig">12</xref>, <italic>inset</italic>), which corresponds to a decrease of the number of water molecules belonging to the first and second shells of Mg<sup>2+</sup> with an increase in salt concentration. Since <italic>ab initio</italic> MD simulations is a very computational intensive technique, it would be more advantageous using trajectories generated from classical MD. Divalent cations such as Mg<sup>2+</sup> represent a challenge for empirical forcefield calculations, particularly regarding the treatment of overpolarization and Coulombic singularities,<xref rid="cphc202000498-bib-0100" ref-type="ref">
+<sup>[100]</sup>
+</xref> with several works discussing the importance of polarization and charge transfer in modulating the properties of water.[<xref rid="cphc202000498-bib-0101" ref-type="ref">
+<sup>101</sup>
+</xref>, <xref rid="cphc202000498-bib-0102" ref-type="ref">
+<sup>102</sup>
+</xref>] A simple approach to improve force fields for electrolyte solutions is the electronic continuum correction (ECC).[<xref rid="cphc202000498-bib-0100" ref-type="ref">
+<sup>100</sup>
+</xref>, <xref rid="cphc202000498-bib-0103" ref-type="ref">
+<sup>103</sup>
+</xref>, <xref rid="cphc202000498-bib-0104" ref-type="ref">
+<sup>104</sup>
+</xref>] In this approach, the fast electronic polarization is taken into account in a mean field approach and implemented numerically by scaling the charges of the ions. Here, we have used the Lennard&#x02010;Jones potentials for MgCl<sub>2</sub> solutions parameterized by Duboue&#x02010;Dijon et al. named ECC,<xref rid="cphc202000498-bib-0045" ref-type="ref">
+<sup>[45]</sup>
+</xref> in which the charges for the magnesium and chlorine ions are set to +1.7 and &#x02212;0.85, respectively, and the water molecules are represented by SPC/E. Di Tommaso and co&#x02010;workers have conducted a detailed assessment of several nonpolarizable interatomic potentials for hydrated Mg<sup>2+</sup> by computing the energetic (gas phase dissociation reaction of Mg(H<sub>2</sub>O)<sub>6</sub>), structural (Mg&#x02010;water radial and angular distribution functions), dynamic (velocity&#x02010;autocorrelation function of Mg), and kinetic (free energy of Mg&#x02010;dehydration) properties.<xref rid="cphc202000498-bib-0046" ref-type="ref">
+<sup>[46]</sup>
+</xref> Overall, the potential model of Duboue&#x02010;Dijon (ECC big) provided the best agreement with respect to quantum mechanical and experimental reference data. The retardation factor associated with the water subpopulations of MgCl<sub>2</sub> was determined with the approach used for <italic>ab initio</italic> MD (Figure&#x02005;S15 in Supporting Information), from which the hydration numbers of MgCl<sub>2</sub>(aq) was computed as a function of the salt concentration. Figure&#x02005;<xref rid="cphc202000498-fig-0012" ref-type="fig">12</xref> shows the hydration numbers generated from the classical MD trajectories of MgCl<sub>2</sub> (100&#x02005;ps) are consistent with the <italic>ab initio</italic> MD result and in good agreement with THz&#x02010;DR experiments, especially at lower concentration, probably because of the longer simulation period. Figure&#x02005;<xref rid="cphc202000498-fig-0012" ref-type="fig">12</xref> also reports the average coordination number (CN) of the first and second shell of Mg<sup>2+</sup> as a function of the MgCl<sub>2</sub> concentration, which were obtained from the integration of the Mg&#x02212;O radial distribution functions at the second minima. Except for the more dilute solution, the values of CN are too high compared with the hydration numbers obtained from the water reorientation dynamic analysis. Since the coordination number is based on a simple spatial definition, it cannot capture the subtle cooperative hydration effects of Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup> on the dynamical properties of the surrounding water molecules.
+</p><fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0012" orientation="portrait" position="float"><label>Figure 12</label><caption><p>The hydration numbers (<italic>h</italic>) of MgCl<sub>2</sub> as a function of concentration computed from the water reorientation dynamic analysis of <italic>ab initio</italic> and classical MD simulations, and from the THz&#x02010;DR experiments. Standard errors of the MD values obtained from the variations of block averages, each lasting 5&#x02005;ps, using four different time origins. Also reported are values of the integration of the Mg&#x02212;O radial distribution functions at the second minima, which gives the coordination number (CN) of the first and second shell.</p></caption><graphic id="nlm-graphic-25" xlink:href="CPHC-21-2334-g012"/></fig></sec></sec></sec><sec id="cphc202000498-sec-0022"><label>3</label><title>Conclusions</title><p>By means of <italic>ab initio</italic> MD simulations, we have investigated the structural and low&#x02010;frequency dynamics of aqueous MgCl<sub>2</sub> solutions, with concentrations ranging from 0.1 to 2.8&#x02005;mol&#x02009;kg<sup>&#x02212;1</sup>. Compared with bulk water, MgCl<sub>2</sub> has a considerable influence on the water&#x02010;water hydrogen bonding network, as confirmed by detailed analysis of the radial distribution function, hydrogen bonding statistics, and vibrational density of states, which weh ave ascribed to the specific strong Mg&#x02010;water interaction. The dynamics of the hydrogen bond network solutions was characterized in terms of the water&#x02010;water hydrogen bonding lifetimes and water dipole reorientation. The presence of MgCl<sub>2</sub> in solution accelerates the dynamics of hydrogen bond making and breaking because of the weakening of the water&#x02010;water interaction strength. These effects have been assigned to the specific strong Mg&#x02010;water interaction rather than the Cl&#x02010;water interaction.</p><p>We propose an approach to determine concentration&#x02010;dependent values of the hydration number of MgCl<sub>2</sub>(aq) based on the water dipole reorientation dynamics. In this methodology, a hydration status analysis is devised to quantify the cooperative effect of ions on the reorientation dynamics of different water subpopulations in electrolyte solutions. This hydration model provides a tool to characterize the behavior of water in the hydration shell of ions and quantify the cation&#x02010;anion mixture effect on water reorientational dynamics. We have found that water molecules that are in the first shell of Mg<sup>2+</sup>, and water molecules that are in the second shell of Mg<sup>2+</sup> and the first shell of Cl<sup>&#x02212;</sup> have a retarded reorientation dynamics compared with bulk&#x02010;like behavior, but no cooperative long&#x02010;range effects are observed for water molecules that are in the second hydration shell of Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup>. The hydration number is determined from the number of moles of water molecules per mole of dissolved salt that no longer participate in bulk&#x02010;like reorientation dynamics. The hydration numbers of MgCl<sub>2</sub> from this <italic>ab initio</italic> MD analysis are in good agreement with those obtained from THz&#x02010;DR experiments. This approach is based on a well&#x02010;defined criterion for the definition of the hydration number and provides a link between this macroscopic parameter and the molecular&#x02010;level processes responsible for affecting the dynamic properties of the solution compared with bulk&#x02010;liquid water.</p></sec><sec id="cphc202000498-sec-0023"><title>Supporting Information</title><p>Structural properties of the cation&#x02010;water hydration shell. Details of the simulated solutions. Ion pairing of magnesium chloride. Ion&#x02010;water radial distribution function analysis of MgCl<sub>2</sub> solutions. Distribution of hydrogen bonds in water and electrolyte solutions. In&#x02010;shell hydrogen bond strength. Hydrogen bond relaxation times. Protocol for the calculation of time correlation functions. Time average of time correlation functions over several time origin. Water subpopulations in MgCl<sub>2</sub> solutions. Procedure for the categorization of water molecules. Water exchange between different subpopulations. Temporal variation of the average number of H<sub>2</sub>O among different subpopulations. Reorientation time correlation function of hydrated Mg<sup>2+</sup> and Cl<sup>&#x02212;</sup>. Reorientation time correlation function analysis from classical MD. Connection between single&#x02010;water molecule reorientational dynamics and dielectric relaxation spectroscopy measurements.</p></sec><sec sec-type="COI-statement" id="cphc202000498-sec-0025"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="CPHC-21-2334-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="cphc202000498-sec-0024"><title>Acknowledgements</title><p>SK, JJ, KE, and GSP acknowledge financial support from the National Research Foundation of Korea (NRF) through the Korea government (MSIP) under Grant No. 2016R1A3B1908336. DDT acknowledges the ACT programme Accelerating CCS Technologies (Horizon2020 Project No 294766), with financial contributions made from Department for Business, Energy and Industrial Strategy (BEIS) together with extra funding from NERC and EPSRC research councils. X. W. is financially supported by the QMUL Principal's Postgraduate Research Studentships. The authors declare no competing financial interests. We are grateful to the UK Materials and Molecular Modelling Hub for computational resources, which is partially funded by EPSRC (EP/P020194/1). Via our membership of the UK&#x02032;s HEC Materials Chemistry Consortium, which is funded by EPSRC (EP/L000202), this work used the ARCHER UK National Supercomputing Service (http://www.archer.ac.uk). This research utilized Queen Mary's Apocrita HPC facility, supported by QMUL Research&#x02010;IT (https://doi.org/10.5281/zenodo.438045).</p></ack><ref-list><ref id="cphc202000498-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0001">
+<string-name>
+<given-names>A. A.</given-names>
+<surname>Zavitsas</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2001</year>, <volume>105</volume>, <fpage>7805</fpage>&#x02013;<lpage>7817</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0002">
+<string-name>
+<given-names>S.</given-names>
+<surname>Skaarup</surname>
+</string-name>, <string-name>
+<given-names>M. J. M.</given-names>
+<surname>Jafeen</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Careem</surname>
+</string-name>, <source xml:lang="en">Solid State Ionics</source>
+<year>2010</year>, <volume>181</volume>, <fpage>1245</fpage>&#x02013;<lpage>1250</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0003">
+<string-name>
+<given-names>R. H.</given-names>
+<surname>Stokes</surname>
+</string-name>, <string-name>
+<given-names>R. A.</given-names>
+<surname>Robinson</surname>
+</string-name>, <source xml:lang="en">J. Solution Chem.</source>
+<year>1973</year>, <volume>2</volume>, <fpage>173</fpage>&#x02013;<lpage>191</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0004">
+<string-name>
+<given-names>H. W.</given-names>
+<surname>Nesbitt</surname>
+</string-name>, <source xml:lang="en">J. Solution Chem.</source>
+<year>1982</year>, <volume>11</volume>, <fpage>415</fpage>&#x02013;<lpage>422</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0005">
+<string-name>
+<given-names>A. M.</given-names>
+<surname>Rudakov</surname>
+</string-name>, <string-name>
+<given-names>V. V.</given-names>
+<surname>Sergievskii</surname>
+</string-name>, <string-name>
+<given-names>O. A.</given-names>
+<surname>Nagovitsyna</surname>
+</string-name>, <source xml:lang="en">Russ. J. Phys. Chem. A</source>
+<year>2017</year>, <volume>91</volume>, <fpage>2361</fpage>&#x02013;<lpage>2365</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0006">
+<string-name>
+<given-names>A. A.</given-names>
+<surname>Zavitsas</surname>
+</string-name>, <source xml:lang="en">J. Solution Chem.</source>
+<year>2010</year>, <volume>39</volume>, <fpage>301</fpage>&#x02013;<lpage>317</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0007">
+<string-name>
+<given-names>A. A.</given-names>
+<surname>Zavitsas</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2005</year>, <volume>109</volume>, <fpage>20636</fpage>&#x02013;<lpage>20640</lpage>.<pub-id pub-id-type="pmid">16853671</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0008">
+<string-name>
+<given-names>D. H.</given-names>
+<surname>MacLennan</surname>
+</string-name>, <string-name>
+<given-names>N. M.</given-names>
+<surname>Green</surname>
+</string-name>, <source xml:lang="en">Nature</source>
+<year>2000</year>, <volume>405</volume>, <fpage>633</fpage>&#x02013;<lpage>634</lpage>.<pub-id pub-id-type="pmid">10864310</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0009">
+<string-name>
+<given-names>D. C.</given-names>
+<surname>Gadsby</surname>
+</string-name>, <source xml:lang="en">Nat. Rev. Mol. Cell Biol.</source>
+<year>2009</year>, <volume>10</volume>, <fpage>344</fpage>.<pub-id pub-id-type="pmid">19339978</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0010">
+<string-name>
+<given-names>J.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>He</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Hapala</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>W. J.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>X.-Z.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Jel&#x000ed;nek</surname>
+</string-name>, <string-name>
+<given-names>L.-M.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name>
+<given-names>Y. Q.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name>
+<given-names>E.-G.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Jiang</surname>
+</string-name>, <source xml:lang="en">Nature</source>
+<year>2018</year>, <volume>557</volume>, <fpage>701</fpage>&#x02013;<lpage>705</lpage>.<pub-id pub-id-type="pmid">29760468</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0011">
+<string-name>
+<given-names>K. D.</given-names>
+<surname>Collins</surname>
+</string-name>, <source xml:lang="en">Biophys. J.</source>
+<year>1997</year>, <volume>72</volume>, <fpage>65</fpage>&#x02013;<lpage>76</lpage>.<pub-id pub-id-type="pmid">8994593</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0012">
+<string-name>
+<given-names>M. Y.</given-names>
+<surname>Kiriukhin</surname>
+</string-name>, <string-name>
+<given-names>K. D.</given-names>
+<surname>Collins</surname>
+</string-name>, <source xml:lang="en">Biophys. Chem.</source>
+<year>2002</year>, <volume>99</volume>, <fpage>155</fpage>&#x02013;<lpage>168</lpage>.<pub-id pub-id-type="pmid">12377366</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0013">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Marcus</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>1988</year>, <volume>88</volume>, <fpage>1475</fpage>&#x02013;<lpage>1498</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0014">
+<string-name>
+<given-names>H.</given-names>
+<surname>Ohtaki</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Radnai</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>1993</year>, <volume>93</volume>, <fpage>1157</fpage>&#x02013;<lpage>1204</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0015">
+<string-name>
+<given-names>L.</given-names>
+<surname>Helm</surname>
+</string-name>, <string-name>
+<given-names>A. E.</given-names>
+<surname>Merbach</surname>
+</string-name>, <source xml:lang="en">Coord. Chem. Rev.</source>
+<year>1999</year>, <volume>187</volume>, <fpage>151</fpage>&#x02013;<lpage>181</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0016">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Marcus</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Hefter</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2006</year>, <volume>106</volume>, <fpage>4585</fpage>&#x02013;<lpage>621</lpage>.<pub-id pub-id-type="pmid">17091929</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0017">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Marcus</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2014</year>, <volume>118</volume>, <fpage>10471</fpage>&#x02013;<lpage>10476</lpage>.<pub-id pub-id-type="pmid">25121925</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0018">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Marcus</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2009</year>, <volume>109</volume>, <fpage>1346</fpage>&#x02013;<lpage>1370</lpage>.<pub-id pub-id-type="pmid">19236019</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0019">
+<string-name>
+<given-names>R.</given-names>
+<surname>Caminiti</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Licheri</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Piccaluga</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Pinna</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>1979</year>, <volume>12</volume>, <fpage>34</fpage>&#x02013;<lpage>38</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0020">
+<source xml:lang="en">Z. Naturforsch. A</source>
+<year>1982</year>, <volume>37</volume>, <fpage>1049</fpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0021">
+<string-name>
+<given-names>E.</given-names>
+<surname>Dubou&#x000e9;-Dijon</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Laage</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2015</year>, <volume>119</volume>, <fpage>8406</fpage>&#x02013;<lpage>8418</lpage>.<pub-id pub-id-type="pmid">26054933</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0022">
+<string-name>
+<given-names>J. O.</given-names>
+<surname>Bockris</surname>
+</string-name>, <string-name>
+<given-names>P. P. S.</given-names>
+<surname>Saluja</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem.</source>
+<year>1972</year>, <volume>76</volume>, <fpage>2140</fpage>&#x02013;<lpage>2151</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0023">
+<string-name>
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Toroz</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>S. L.</given-names>
+<surname>Clegg</surname>
+</string-name>, <string-name>
+<given-names>G.-S.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Di Tommaso</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2020</year>, DOI 10.1039/D0CP01957G.</mixed-citation></ref><ref id="cphc202000498-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0024">
+<string-name>
+<given-names>A. A.</given-names>
+<surname>Zavitsas</surname>
+</string-name>, <source xml:lang="en">Curr. Opin. Colloid Interface Sci.</source>
+<year>2016</year>, <volume>23</volume>, <fpage>72</fpage>&#x02013;<lpage>81</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0025">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>Rard</surname>
+</string-name>, <string-name>
+<given-names>J. G.</given-names>
+<surname>Albright</surname>
+</string-name>, <source xml:lang="en">J. Solution Chem.</source>
+<year>2014</year>, <volume>43</volume>, <fpage>172</fpage>&#x02013;<lpage>185</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0026">
+<string-name>
+<given-names>R.</given-names>
+<surname>Buchner</surname>
+</string-name>, <string-name>
+<given-names>S. G.</given-names>
+<surname>Capewell</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Hefter</surname>
+</string-name>, <string-name>
+<given-names>P. M.</given-names>
+<surname>May</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2002</year>, <volume>103</volume>, <fpage>1185</fpage>&#x02013;<lpage>1192</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0027">
+<string-name>
+<given-names>G.</given-names>
+<surname>Schwaab</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Sebastiani</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Havenith</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2019</year>, <volume>58</volume>, <fpage>3000</fpage>&#x02013;<lpage>3013</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0028">
+<string-name>
+<given-names>K. J.</given-names>
+<surname>Tielrooij</surname>
+</string-name>, <string-name>
+<given-names>S. T.</given-names>
+<surname>van der Post</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hunger</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bonn</surname>
+</string-name>, <string-name>
+<given-names>H. J.</given-names>
+<surname>Bakker</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2011</year>, <volume>115</volume>, <fpage>12638</fpage>&#x02013;<lpage>12647</lpage>.<pub-id pub-id-type="pmid">21902254</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0029">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hassanali</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Parrinello</surname>
+</string-name>, <source xml:lang="en">Proc. Natl. Acad. Sci. USA</source>
+<year>2014</year>, <volume>111</volume>, <fpage>3310</fpage>&#x02013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">24522111</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0030">
+<string-name>
+<given-names>C. F.</given-names>
+<surname>Schwenk</surname>
+</string-name>, <string-name>
+<given-names>H. H.</given-names>
+<surname>Loeffler</surname>
+</string-name>, <string-name>
+<given-names>B. M.</given-names>
+<surname>Rode</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2001</year>, <volume>115</volume>, <fpage>10808</fpage>&#x02013;<lpage>10813</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0031">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>White</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Schwegler</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Galli</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Gygi</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2000</year>, <volume>113</volume>, <fpage>4668</fpage>&#x02013;<lpage>4673</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0032">
+<string-name>
+<given-names>R.</given-names>
+<surname>Car</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Parrinello</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. Lett.</source>
+<year>1985</year>, <volume>55</volume>, <fpage>2471</fpage>&#x02013;<lpage>2474</lpage>.<pub-id pub-id-type="pmid">10032153</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0033"><label>33</label><mixed-citation publication-type="book" id="cphc202000498-cit-0033">
+<string-name>
+<given-names>D.</given-names>
+<surname>Marx</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hutter</surname>
+</string-name>, <source xml:lang="en">Ab Initio Molecular Dynamics: Theory and Implementation</source>, <publisher-name>John Von Neumann Institute For Computing</publisher-name>, <publisher-loc>Julich</publisher-loc>, <year>2000</year>.</mixed-citation></ref><ref id="cphc202000498-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0034">
+<string-name>
+<given-names>W.</given-names>
+<surname>Kohn</surname>
+</string-name>, <string-name>
+<given-names>L. J.</given-names>
+<surname>Sham</surname>
+</string-name>, <source xml:lang="en">Phys. Rev.</source>
+<year>1965</year>, <volume>140</volume>, <fpage>A1133</fpage>&#x02013;<lpage>A1138</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0035"><label>35</label><mixed-citation publication-type="book" id="cphc202000498-cit-0035">
+<string-name>
+<given-names>W.</given-names>
+<surname>Gerhartz</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Schulz</surname>
+</string-name>, <source xml:lang="en">Ullmann's Encyclopedia of Industrial Chemistry</source>, <publisher-name>VCH Publishers</publisher-name>, <publisher-loc>Deerfield Beach, FL</publisher-loc>, <year>1985</year>.</mixed-citation></ref><ref id="cphc202000498-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0036">
+<string-name>
+<given-names>J.</given-names>
+<surname>Hutter</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Iannuzzi</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Schiffmann</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>VandeVondele</surname>
+</string-name>, <source xml:lang="en">Wiley Interdiscip. Rev.: Comput. Mol. Sci.</source>
+<year>2014</year>, <volume>4</volume>, <fpage>15</fpage>&#x02013;<lpage>25</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0037">
+<string-name>
+<given-names>J.</given-names>
+<surname>Perdew</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Burke</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ernzerhof</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>77</volume>, <fpage>3865</fpage>&#x02013;<lpage>3868</lpage>.<pub-id pub-id-type="pmid">10062328</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0038">
+<string-name>
+<given-names>S.</given-names>
+<surname>Grimme</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Antony</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Ehrlich</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Krieg</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2010</year>, <volume>132</volume>, DOI https://doi.org/<fpage>10</fpage>.1063/1.3382344.</mixed-citation></ref><ref id="cphc202000498-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0039">
+<string-name>
+<given-names>J.</given-names>
+<surname>Schmidt</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Van de Vondele</surname>
+</string-name>, <string-name>
+<given-names>I.-F. W.</given-names>
+<surname>Kuo</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Sebastiani</surname>
+</string-name>, <string-name>
+<given-names>J. I.</given-names>
+<surname>Siepmann</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hutter</surname>
+</string-name>, <string-name>
+<given-names>C. J.</given-names>
+<surname>Mundy</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2009</year>, <volume>113</volume>, <fpage>11959</fpage>&#x02013;<lpage>11964</lpage>.<pub-id pub-id-type="pmid">19663399</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0040">
+<string-name>
+<given-names>R.</given-names>
+<surname>Jonchiere</surname>
+</string-name>, <string-name>
+<given-names>A. P.</given-names>
+<surname>Seitsonen</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Ferlat</surname>
+</string-name>, <string-name>
+<given-names>A. M.</given-names>
+<surname>Saitta</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Vuilleumier</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2011</year>, <volume>135</volume>, <elocation-id>154503</elocation-id>.<pub-id pub-id-type="pmid">22029320</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0041">
+<string-name>
+<given-names>S.</given-names>
+<surname>Goedecker</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Teter</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hutter</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>1996</year>, <volume>54</volume>, <fpage>1703</fpage>&#x02013;<lpage>1710</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0042">
+<string-name>
+<given-names>A.</given-names>
+<surname>Chatterjee</surname>
+</string-name>, <string-name>
+<given-names>M. K.</given-names>
+<surname>Dixit</surname>
+</string-name>, <string-name>
+<given-names>B. L.</given-names>
+<surname>Tembe</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. A</source>
+<year>2013</year>, <volume>117</volume>, <fpage>8703</fpage>&#x02013;<lpage>8709</lpage>.<pub-id pub-id-type="pmid">23829688</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0043">
+<string-name>
+<given-names>S.</given-names>
+<surname>Friesen</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Hefter</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Buchner</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2019</year>, <volume>123</volume>, <fpage>891</fpage>&#x02013;<lpage>900</lpage>.<pub-id pub-id-type="pmid">30601650</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0044">
+<string-name>
+<given-names>J.</given-names>
+<surname>&#x000c5;qvist</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem.</source>
+<year>1990</year>, <volume>94</volume>, <fpage>8021</fpage>&#x02013;<lpage>8024</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0045">
+<string-name>
+<given-names>H. J. C.</given-names>
+<surname>Berendsen</surname>
+</string-name>, <string-name>
+<given-names>J. R.</given-names>
+<surname>Grigera</surname>
+</string-name>, <string-name>
+<given-names>T. P.</given-names>
+<surname>Straatsma</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem.</source>
+<year>1987</year>, <volume>91</volume>, <fpage>6269</fpage>&#x02013;<lpage>6271</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0046">
+<string-name>
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Alvarez-Lloret</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Chass</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Di Tommaso</surname>
+</string-name>, <source xml:lang="en">Eur. J. Mineral.</source>
+<year>2019</year>, <volume>31</volume>, <fpage>275</fpage>&#x02013;<lpage>287</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0047">
+<string-name>
+<given-names>A.</given-names>
+<surname>Bleuzen</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Helm</surname>
+</string-name>, <string-name>
+<given-names>A. E.</given-names>
+<surname>Merbach</surname>
+</string-name>, <source xml:lang="en">Magn. Reson. Chem.</source>
+<year>1997</year>, <volume>35</volume>, <fpage>765</fpage>&#x02013;<lpage>773</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0048">
+<string-name>
+<given-names>S.</given-names>
+<surname>Evans</surname>
+</string-name>, <string-name>
+<given-names>S. C.</given-names>
+<surname>Michelson</surname>
+</string-name>, <source xml:lang="en">Meas. Sci. Technol.</source>
+<year>1995</year>, <volume>6</volume>, <fpage>1721</fpage>&#x02013;<lpage>1732</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0049">
+<string-name>
+<given-names>U.</given-names>
+<surname>Kaatze</surname>
+</string-name>, <source xml:lang="en">J. Solution Chem.</source>
+<year>1997</year>, DOI 10.1007/BF02768829.</mixed-citation></ref><ref id="cphc202000498-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0050">
+<string-name>
+<given-names>R.</given-names>
+<surname>Buchner</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Barthel</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Stauber</surname>
+</string-name>, <source xml:lang="en">Chem. Phys. Lett.</source>
+<year>1999</year>, <volume>306</volume>, <fpage>57</fpage>&#x02013;<lpage>63</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0051">
+<string-name>
+<given-names>T.</given-names>
+<surname>Sato</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Buchner</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2003</year>, <volume>119</volume>, <fpage>10789</fpage>&#x02013;<lpage>10800</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0052">
+<string-name>
+<given-names>T. S.</given-names>
+<surname>Hofer</surname>
+</string-name>, <string-name>
+<given-names>H. T.</given-names>
+<surname>Tran</surname>
+</string-name>, <string-name>
+<given-names>C. F.</given-names>
+<surname>Schwenk</surname>
+</string-name>, <string-name>
+<given-names>B. M.</given-names>
+<surname>Rode</surname>
+</string-name>, <source xml:lang="en">J. Comput. Chem.</source>
+<year>2004</year>, <volume>25</volume>, <fpage>211</fpage>&#x02013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">14648619</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0053">
+<string-name>
+<given-names>S.</given-names>
+<surname>Kerisit</surname>
+</string-name>, <string-name>
+<given-names>S. C.</given-names>
+<surname>Parker</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2004</year>, <volume>126</volume>, <fpage>10152</fpage>&#x02013;<lpage>10161</lpage>.<pub-id pub-id-type="pmid">15303891</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0054">
+<string-name>
+<given-names>D.</given-names>
+<surname>Sp&#x000e5;ngberg</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Hermansson</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Lindqvist-Reis</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Jalilehvand</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Sandstr&#x000f6;m</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Persson</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2000</year>, <volume>104</volume>, <fpage>10467</fpage>&#x02013;<lpage>10472</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0055">
+<string-name>
+<given-names>L. X.</given-names>
+<surname>Dang</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. C</source>
+<year>2014</year>, <volume>118</volume>, <fpage>29028</fpage>&#x02013;<lpage>29033</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0056">
+<string-name>
+<given-names>P.</given-names>
+<surname>Raiteri</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Demichelis</surname>
+</string-name>, <string-name>
+<given-names>J. D.</given-names>
+<surname>Gale</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. C</source>
+<year>2015</year>, <volume>119</volume>, <fpage>24447</fpage>&#x02013;<lpage>24458</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0057">
+<string-name>
+<given-names>K. M.</given-names>
+<surname>Callahan</surname>
+</string-name>, <string-name>
+<given-names>N. N.</given-names>
+<surname>Casillas-Ituarte</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Roeselov&#x000e1;</surname>
+</string-name>, <string-name>
+<given-names>H. C.</given-names>
+<surname>Allen</surname>
+</string-name>, <string-name>
+<given-names>D. J.</given-names>
+<surname>Tobias</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. A</source>
+<year>2010</year>, <volume>114</volume>, <fpage>5141</fpage>&#x02013;<lpage>5148</lpage>.<pub-id pub-id-type="pmid">20201546</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0058">
+<string-name>
+<given-names>N.</given-names>
+<surname>Schwierz</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2020</year>, <volume>152</volume>, <elocation-id>224106</elocation-id>.<pub-id pub-id-type="pmid">32534547</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0059">
+<string-name>
+<given-names>A. P.</given-names>
+<surname>Gaiduk</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Gygi</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Galli</surname>
+</string-name>, <source xml:lang="en">Chem. Phys. Lett.</source>
+<year>2014</year>, <volume>604</volume>, <fpage>89</fpage>&#x02013;<lpage>96</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0060">
+<string-name>
+<given-names>D.</given-names>
+<surname>Di Tommaso</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Ruiz-Agudo</surname>
+</string-name>, <string-name>
+<given-names>N. H.</given-names>
+<surname>De Leeuw</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Putnis</surname>
+</string-name>, <string-name>
+<given-names>C. V.</given-names>
+<surname>Putnis</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2014</year>, <volume>16</volume>, <fpage>7772</fpage>&#x02013;<lpage>7785</lpage>.<pub-id pub-id-type="pmid">24643252</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0061">
+<string-name>
+<given-names>A.</given-names>
+<surname>Luzar</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Chandler</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>76</volume>, <fpage>928</fpage>&#x02013;<lpage>931</lpage>.<pub-id pub-id-type="pmid">10061587</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0062">
+<string-name>
+<given-names>F. S.</given-names>
+<surname>Csajka</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Chandler</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>1998</year>, <volume>109</volume>, <fpage>1125</fpage>&#x02013;<lpage>1133</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0063"><label>63</label><mixed-citation publication-type="miscellaneous" id="cphc202000498-cit-0063">M. Chen, H. Ko, R.&#x02005;C. Remsing, M.&#x02005;F. Calegari, B. Santra, Z. Sun, <bold>2017</bold>, 1&#x02013;6.</mixed-citation></ref><ref id="cphc202000498-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0064">
+<string-name>
+<given-names>A.</given-names>
+<surname>Chandra</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. Lett.</source>
+<year>2000</year>, <volume>85</volume>, <fpage>768</fpage>&#x02013;<lpage>771</lpage>.<pub-id pub-id-type="pmid">10991394</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0065">
+<string-name>
+<given-names>S.</given-names>
+<surname>Chowdhuri</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Chandra</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. E</source>
+<year>2002</year>, <volume>66</volume>, <fpage>41203</fpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0066">
+<string-name>
+<given-names>S.</given-names>
+<surname>Koneshan</surname>
+</string-name>, <string-name>
+<given-names>J. C.</given-names>
+<surname>Rasaiah</surname>
+</string-name>, <string-name>
+<given-names>R. M.</given-names>
+<surname>Lynden-Bell</surname>
+</string-name>, <string-name>
+<given-names>S. H.</given-names>
+<surname>Lee</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>1998</year>, <volume>102</volume>, <fpage>4193</fpage>&#x02013;<lpage>4204</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0067">
+<string-name>
+<given-names>S.</given-names>
+<surname>Chowdhuri</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Chandra</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2006</year>, <volume>110</volume>, <fpage>9674</fpage>&#x02013;<lpage>9680</lpage>.<pub-id pub-id-type="pmid">16686518</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0068">
+<string-name>
+<given-names>D.</given-names>
+<surname>Di Tommaso</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Prakash</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Lemaire</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Lewerenz</surname>
+</string-name>, <string-name>
+<given-names>N. H.</given-names>
+<surname>De Leeuw</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Naili</surname>
+</string-name>, <source xml:lang="en">Crystals</source>
+<year>2017</year>, <volume>7</volume>, DOI <fpage>10</fpage>.3390/cryst7020057.</mixed-citation></ref><ref id="cphc202000498-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0069">
+<string-name>
+<given-names>A. P.</given-names>
+<surname>Gaiduk</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Galli</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. Lett.</source>
+<year>2017</year>, <volume>8</volume>, <fpage>1496</fpage>&#x02013;<lpage>1502</lpage>.<pub-id pub-id-type="pmid">28267335</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0070"><label>70</label><mixed-citation publication-type="book" id="cphc202000498-cit-0070">
+<string-name>
+<given-names>M. P.</given-names>
+<surname>Allen</surname>
+</string-name>, <string-name>
+<given-names>D. J.</given-names>
+<surname>Tildesley</surname>
+</string-name>, <source xml:lang="en">Computer Simulation of Liquids</source>, <publisher-name>Oxford University Press</publisher-name>, <publisher-loc>Oxford</publisher-loc>, <year>1987</year>.</mixed-citation></ref><ref id="cphc202000498-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0071">
+<string-name>
+<given-names>V. P.</given-names>
+<surname>Tayal</surname>
+</string-name>, <string-name>
+<given-names>B. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>D. P.</given-names>
+<surname>Khandelwal</surname>
+</string-name>, <string-name>
+<given-names>H. D.</given-names>
+<surname>Bist</surname>
+</string-name>, <source xml:lang="en">Appl. Spectrosc. Rev.</source>
+<year>1980</year>, <volume>16</volume>, <fpage>43</fpage>&#x02013;<lpage>134</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0072">
+<string-name>
+<given-names>N. W.</given-names>
+<surname>Ockwig</surname>
+</string-name>, <string-name>
+<given-names>R. T.</given-names>
+<surname>Cygan</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Hartl</surname>
+</string-name>, <string-name>
+<given-names>L. L.</given-names>
+<surname>Daemen</surname>
+</string-name>, <string-name>
+<given-names>T. M.</given-names>
+<surname>Nenoff</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. C</source>
+<year>2008</year>, <volume>112</volume>, <fpage>13629</fpage>&#x02013;<lpage>13634</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0073">
+<string-name>
+<given-names>A.</given-names>
+<surname>Koishi</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Fernandez-Martinez</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Ruta</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Jimenez-Ruiz</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Poloni</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Di Tommaso</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Zontone</surname>
+</string-name>, <string-name>
+<given-names>G. A.</given-names>
+<surname>Waychunas</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Montes-Hernandez</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. C</source>
+<year>2018</year>, <volume>122</volume>, <fpage>16983</fpage>&#x02013;<lpage>16991</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0074">
+<string-name>
+<given-names>M.</given-names>
+<surname>Montagna</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Sterpone</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Guidoni</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2012</year>, <volume>116</volume>, <fpage>11695</fpage>&#x02013;<lpage>11700</lpage>.<pub-id pub-id-type="pmid">22946539</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0075">
+<string-name>
+<given-names>Z.</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Inhester</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Thekku Veedu</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Quevedo</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Pietzsch</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Wernet</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Groenhof</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>F&#x000f6;hlisch</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Grubm&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Techert</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. Lett.</source>
+<year>2017</year>, <volume>8</volume>, <fpage>3759</fpage>&#x02013;<lpage>3764</lpage>.<pub-id pub-id-type="pmid">28742347</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0076">
+<string-name>
+<given-names>D. C.</given-names>
+<surname>Rapaport</surname>
+</string-name>, <source xml:lang="en">Mol. Phys.</source>
+<year>1971</year>, <volume>22</volume>, <fpage>977</fpage>&#x02013;<lpage>992</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0077">
+<string-name>
+<given-names>E.</given-names>
+<surname>Guardia</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Skarmoutsos</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Masia</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2015</year>, <volume>119</volume>, <fpage>8926</fpage>&#x02013;<lpage>8938</lpage>.<pub-id pub-id-type="pmid">25313871</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0078"><label>78</label><mixed-citation publication-type="book" id="cphc202000498-cit-0078">
+<string-name>
+<given-names>A. R.</given-names>
+<surname>Leach</surname>
+</string-name>, <source xml:lang="en">Molecular Modelling: Principles and Applications</source>, <publisher-name>Prentice Hall (Pearson Education)</publisher-name>, <publisher-loc>Harlow</publisher-loc>, <year>2009</year>.</mixed-citation></ref><ref id="cphc202000498-bib-0079"><label>79</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0079">
+<string-name>
+<given-names>A.</given-names>
+<surname>Bankura</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Karmakar</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Carnevale</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Chandra</surname>
+</string-name>, <string-name>
+<given-names>M. L.</given-names>
+<surname>Klein</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. C</source>
+<year>2014</year>, <volume>118</volume>, <fpage>29401</fpage>&#x02013;<lpage>29411</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0080"><label>80</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0080">
+<string-name>
+<given-names>H. S.</given-names>
+<surname>Frank</surname>
+</string-name>, <string-name>
+<given-names>W. Y.</given-names>
+<surname>Wen</surname>
+</string-name>, <source xml:lang="en">Discuss. Faraday Soc.</source>
+<year>1957</year>, <volume>24</volume>, <fpage>133</fpage>&#x02013;<lpage>140</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0081"><label>81</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0081">
+<string-name>
+<given-names>M.</given-names>
+<surname>Kondoh</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ohshima</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Tsubouchi</surname>
+</string-name>, <source xml:lang="en">Chem. Phys. Lett.</source>
+<year>2014</year>, <volume>591</volume>, <fpage>317</fpage>&#x02013;<lpage>322</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0082"><label>82</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0082">
+<string-name>
+<given-names>D.</given-names>
+<surname>Laage</surname>
+</string-name>, <string-name>
+<given-names>J. T.</given-names>
+<surname>Hynes</surname>
+</string-name>, <source xml:lang="en">Proc. Mont. Acad. Sci.</source>
+<year>2007</year>, <volume>104</volume>, <fpage>11167</fpage>&#x02013;<lpage>11172</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0083"><label>83</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0083">
+<string-name>
+<given-names>D.</given-names>
+<surname>Laage</surname>
+</string-name>, <string-name>
+<given-names>J. T.</given-names>
+<surname>Hynes</surname>
+</string-name>, <source xml:lang="en">Chem. Phys. Lett.</source>
+<year>2006</year>, <volume>433</volume>, <fpage>80</fpage>&#x02013;<lpage>85</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0084"><label>84</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0084">
+<string-name>
+<given-names>G.</given-names>
+<surname>Stirnemann</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Wernersson</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Jungwirth</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Laage</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2013</year>, <volume>135</volume>, <fpage>11824</fpage>&#x02013;<lpage>11831</lpage>.<pub-id pub-id-type="pmid">23865559</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0085"><label>85</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0085">
+<string-name>
+<given-names>M.</given-names>
+<surname>Sega</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Schr&#x000f6;der</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. A</source>
+<year>2015</year>, <volume>119</volume>, <fpage>1539</fpage>&#x02013;<lpage>1547</lpage>.<pub-id pub-id-type="pmid">25120165</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0086"><label>86</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0086">
+<string-name>
+<given-names>P.</given-names>
+<surname>Zarzycki</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Gilbert</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2020</year>, <volume>22</volume>, <fpage>1011</fpage>&#x02013;<lpage>1018</lpage>.<pub-id pub-id-type="pmid">31825403</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0087"><label>87</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0087">
+<string-name>
+<given-names>H. J.</given-names>
+<surname>Bakker</surname>
+</string-name>, <string-name>
+<given-names>K. J.</given-names>
+<surname>Tielrooij</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Garcia-Araez</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bonn</surname>
+</string-name>, <source xml:lang="en">Science</source>
+<year>2010</year>, <volume>328</volume>, <fpage>1006</fpage>&#x02013;<lpage>1009</lpage>.<pub-id pub-id-type="pmid">20489020</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0088"><label>88</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0088">
+<string-name>
+<given-names>K. J.</given-names>
+<surname>Tielrooij</surname>
+</string-name>, <string-name>
+<given-names>S. T.</given-names>
+<surname>van der Post</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hunger</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bonn</surname>
+</string-name>, <string-name>
+<given-names>H. J.</given-names>
+<surname>Bakker</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2011</year>, <volume>115</volume>, <fpage>12638</fpage>&#x02013;<lpage>12647</lpage>.<pub-id pub-id-type="pmid">21902254</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0089"><label>89</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0089">
+<string-name>
+<given-names>D. M.</given-names>
+<surname>Wilkins</surname>
+</string-name>, <string-name>
+<given-names>D. E.</given-names>
+<surname>Manolopoulos</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Roke</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ceriotti</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2017</year>, <volume>146</volume>, <elocation-id>181103</elocation-id>.</mixed-citation></ref><ref id="cphc202000498-bib-0090"><label>90</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0090">
+<string-name>
+<given-names>Q. A.</given-names>
+<surname>Besford</surname>
+</string-name>, <string-name>
+<given-names>A. J.</given-names>
+<surname>Christofferson</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Yarovsky</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2017</year>, <volume>147</volume>, <elocation-id>194503</elocation-id>.<pub-id pub-id-type="pmid">29166099</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0091"><label>91</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0091">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>H. I.</given-names>
+<surname>Okur</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Gomopoulos</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Macias-Romero</surname>
+</string-name>, <string-name>
+<given-names>P. S.</given-names>
+<surname>Cremer</surname>
+</string-name>, <string-name>
+<given-names>P. B.</given-names>
+<surname>Petersen</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Tocci</surname>
+</string-name>, <string-name>
+<given-names>D. M.</given-names>
+<surname>Wilkins</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ceriotti</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Roke</surname>
+</string-name>, <source xml:lang="en">Sci. Adv.</source>
+<year>2016</year>, <volume>2</volume>, <elocation-id>e1501891</elocation-id>.<pub-id pub-id-type="pmid">27152357</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0092"><label>92</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0092">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>H. I.</given-names>
+<surname>Okur</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Roke</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2017</year>, <volume>19</volume>, <fpage>24678</fpage>&#x02013;<lpage>24688</lpage>.<pub-id pub-id-type="pmid">28858349</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0093"><label>93</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0093">
+<string-name>
+<given-names>D.</given-names>
+<surname>Saha</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Mukherjee</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2016</year>, <volume>120</volume>, <fpage>7471</fpage>&#x02013;<lpage>7479</lpage>.<pub-id pub-id-type="pmid">27404917</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0094"><label>94</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0094">
+<string-name>
+<given-names>G.</given-names>
+<surname>Stirnemann</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Wernersson</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Jungwirth</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Laage</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2013</year>, <volume>135</volume>, <fpage>11824</fpage>&#x02013;<lpage>11831</lpage>.<pub-id pub-id-type="pmid">23865559</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0095"><label>95</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0095">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>Fournier</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Carpenter</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>De Marco</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Tokmakoff</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>9634</fpage>&#x02013;<lpage>9645</lpage>.<pub-id pub-id-type="pmid">27404015</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0096"><label>96</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0096">
+<string-name>
+<given-names>A.</given-names>
+<surname>Vila Verde</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Santer</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Lipowsky</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2016</year>, <volume>18</volume>, <fpage>1918</fpage>&#x02013;<lpage>1930</lpage>.<pub-id pub-id-type="pmid">26687290</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0097"><label>97</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0097">
+<string-name>
+<given-names>R.</given-names>
+<surname>Buchner</surname>
+</string-name>, <string-name>
+<given-names>G. T.</given-names>
+<surname>Hefter</surname>
+</string-name>, <string-name>
+<given-names>P. M.</given-names>
+<surname>May</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. A</source>
+<year>1999</year>, <volume>103</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0098"><label>98</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0098">
+<string-name>
+<given-names>S.</given-names>
+<surname>Friesen</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Hefter</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Buchner</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2019</year>, <volume>123</volume>, <fpage>891</fpage>&#x02013;<lpage>900</lpage>.<pub-id pub-id-type="pmid">30601650</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0099"><label>99</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0099">
+<string-name>
+<given-names>R.</given-names>
+<surname>Buchner</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>H&#x000f6;lzl</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Stauber</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Barthel</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2002</year>, <volume>4</volume>, <fpage>2169</fpage>&#x02013;<lpage>2179</lpage>.</mixed-citation></ref><ref id="cphc202000498-bib-0100"><label>100</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0100">
+<string-name>
+<given-names>M.</given-names>
+<surname>Kohagen</surname>
+</string-name>, <string-name>
+<given-names>P. E.</given-names>
+<surname>Mason</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Jungwirth</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. B</source>
+<year>2014</year>, <volume>118</volume>, DOI <fpage>10</fpage>.1021/jp5005693.</mixed-citation></ref><ref id="cphc202000498-bib-0101"><label>101</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0101">
+<string-name>
+<given-names>K.</given-names>
+<surname>Ulman</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Busch</surname>
+</string-name>, <string-name>
+<given-names>A. A.</given-names>
+<surname>Hassanali</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2018</year>, <volume>148</volume>, <elocation-id>222826</elocation-id>.<pub-id pub-id-type="pmid">29907069</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0102"><label>102</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0102">
+<string-name>
+<given-names>E.</given-names>
+<surname>Poli</surname>
+</string-name>, <string-name>
+<given-names>K. H.</given-names>
+<surname>Jong</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hassanali</surname>
+</string-name>, <source xml:lang="en">Nat. Commun.</source>
+<year>2020</year>, <volume>11</volume>, <fpage>1</fpage>&#x02013;<lpage>13</lpage>.<pub-id pub-id-type="pmid">31911652</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0103"><label>103</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0103">
+<string-name>
+<given-names>I.</given-names>
+<surname>Leontyev</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Stuchebrukhov</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2011</year>, <volume>13</volume>, <fpage>2613</fpage>&#x02013;<lpage>2626</lpage>.<pub-id pub-id-type="pmid">21212894</pub-id></mixed-citation></ref><ref id="cphc202000498-bib-0104"><label>104</label><mixed-citation publication-type="journal" id="cphc202000498-cit-0104">
+<string-name>
+<given-names>I. M.</given-names>
+<surname>Zeron</surname>
+</string-name>, <string-name>
+<given-names>J. L. F.</given-names>
+<surname>Abascal</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Vega</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2019</year>, <volume>151</volume>, DOI <fpage>10</fpage>.1063/1.5121392.</mixed-citation></ref></ref-list></back></article>

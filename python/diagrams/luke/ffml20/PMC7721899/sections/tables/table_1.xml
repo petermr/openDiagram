@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Comparison of mean squared error (MSE) values provided by ML algorithms for the training (value inside the parentheses) and test set.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left"/>
+    <th align="left">PR</th>
+    <th align="left">RF</th>
+    <th align="left">DT</th>
+    <th align="left">kNN</th>
+    <th align="left">SVM</th>
+    <th align="left">GP</th>
+    <th align="left">NN</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">C
+     <sub>11</sub>
+    </td>
+    <td align="left">
+     <p>24.341</p>
+     <p>(26.522)</p>
+    </td>
+    <td align="left">
+     <p>45.083</p>
+     <p>(33.192)</p>
+    </td>
+    <td align="left">
+     <p>56.702</p>
+     <p>(45.088)</p>
+    </td>
+    <td align="left">
+     <p>40.772</p>
+     <p>(22.020)</p>
+    </td>
+    <td align="left">
+     <p>26.815</p>
+     <p>(17.885)</p>
+    </td>
+    <td align="left">
+     <p>25.113</p>
+     <p>(19.717)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>21.551</bold>
+     </p>
+     <p>(19.381)</p>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C
+     <sub>22</sub>
+    </td>
+    <td align="left">
+     <p>40.987</p>
+     <p>(34.132)</p>
+    </td>
+    <td align="left">
+     <p>55.762</p>
+     <p>(43.597)</p>
+    </td>
+    <td align="left">
+     <p>90.555</p>
+     <p>(57.707)</p>
+    </td>
+    <td align="left">
+     <p>61.640</p>
+     <p>(31.085)</p>
+    </td>
+    <td align="left">
+     <p>53.451</p>
+     <p>(24.931)</p>
+    </td>
+    <td align="left">
+     <p>40.671</p>
+     <p>(30.324)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>39.640</bold>
+     </p>
+     <p>(20.567)</p>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C
+     <sub>33</sub>
+    </td>
+    <td align="left">
+     <p>68.939</p>
+     <p>(44.042)</p>
+    </td>
+    <td align="left">
+     <p>88.791</p>
+     <p>(14.315)</p>
+    </td>
+    <td align="left">
+     <p>103.984</p>
+     <p>(58.083)</p>
+    </td>
+    <td align="left">
+     <p>90.302</p>
+     <p>(40.660)</p>
+    </td>
+    <td align="left">
+     <p>76.873</p>
+     <p>(41.262)</p>
+    </td>
+    <td align="left">
+     <p>60.630</p>
+     <p>(42.460)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>57.241</bold>
+     </p>
+     <p>(38.102)</p>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C
+     <sub>44</sub>
+    </td>
+    <td align="left">
+     <p>7.675</p>
+     <p>(4.982)</p>
+    </td>
+    <td align="left">
+     <p>9.990</p>
+     <p>(5.823)</p>
+    </td>
+    <td align="left">
+     <p>11.081</p>
+     <p>(6.206)</p>
+    </td>
+    <td align="left">
+     <p>9.384</p>
+     <p>(4.631)</p>
+    </td>
+    <td align="left">
+     <p>9.862</p>
+     <p>(5.276)</p>
+    </td>
+    <td align="left">
+     <p>7.769</p>
+     <p>(4.759)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>6.995</bold>
+     </p>
+     <p>(3.647)</p>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C
+     <sub>55</sub>
+    </td>
+    <td align="left">
+     <p>5.477</p>
+     <p>(4.712)</p>
+    </td>
+    <td align="left">
+     <p>5.171</p>
+     <p>(5.027)</p>
+    </td>
+    <td align="left">
+     <p>7.501</p>
+     <p>(6.134)</p>
+    </td>
+    <td align="left">
+     <p>5.503</p>
+     <p>(4.463)</p>
+    </td>
+    <td align="left">
+     <p>5.634</p>
+     <p>(3.965)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>4.515</bold>
+     </p>
+     <p>(4.702)</p>
+    </td>
+    <td align="left">
+     <p>4.607</p>
+     <p>(3.878)</p>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C
+     <sub>66</sub>
+    </td>
+    <td align="left">
+     <p>2.832</p>
+     <p>(3.274)</p>
+    </td>
+    <td align="left">
+     <p>4.361</p>
+     <p>(4.355)</p>
+    </td>
+    <td align="left">
+     <p>8.939</p>
+     <p>(5.904)</p>
+    </td>
+    <td align="left">
+     <p>4.321</p>
+     <p>(3.238)</p>
+    </td>
+    <td align="left">
+     <p>3.829</p>
+     <p>(2.457)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>3.044</bold>
+     </p>
+     <p>(2.903)</p>
+    </td>
+    <td align="left">
+     <p>3.176</p>
+     <p>(2.946)</p>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C
+     <sub>12</sub>
+    </td>
+    <td align="left">
+     <p>11.816</p>
+     <p>(11.719)</p>
+    </td>
+    <td align="left">
+     <p>16.856</p>
+     <p>(14.399)</p>
+    </td>
+    <td align="left">
+     <p>20.194</p>
+     <p>(19.303)</p>
+    </td>
+    <td align="left">
+     <p>20.816</p>
+     <p>(10.558)</p>
+    </td>
+    <td align="left">
+     <p>15.731</p>
+     <p>(8.900)</p>
+    </td>
+    <td align="left">
+     <p>12.591</p>
+     <p>(8.909)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>11.075</bold>
+     </p>
+     <p>(7.063)</p>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C
+     <sub>13</sub>
+    </td>
+    <td align="left">
+     <p>14.026</p>
+     <p>(12.880)</p>
+    </td>
+    <td align="left">
+     <p>17.600</p>
+     <p>(14.613)</p>
+    </td>
+    <td align="left">
+     <p>18.099</p>
+     <p>(15.827)</p>
+    </td>
+    <td align="left">
+     <p>17.402</p>
+     <p>(12.007)</p>
+    </td>
+    <td align="left">
+     <p>15.390</p>
+     <p>(12.087)</p>
+    </td>
+    <td align="left">
+     <p>12.368</p>
+     <p>(12.517)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>11.735</bold>
+     </p>
+     <p>(8.624)</p>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C
+     <sub>23</sub>
+    </td>
+    <td align="left">
+     <p>19.398</p>
+     <p>(12.761)</p>
+    </td>
+    <td align="left">
+     <p>21.549</p>
+     <p>(13.939)</p>
+    </td>
+    <td align="left">
+     <p>23.894</p>
+     <p>(15.834)</p>
+    </td>
+    <td align="left">
+     <p>25.729</p>
+     <p>(12.059)</p>
+    </td>
+    <td align="left">
+     <p>22.549</p>
+     <p>(11.939)</p>
+    </td>
+    <td align="left">
+     <p>18.128</p>
+     <p>(12.475)</p>
+    </td>
+    <td align="left">
+     <p>
+      <bold>17.704</bold>
+     </p>
+     <p>(8.280)</p>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

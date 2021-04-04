@@ -1,0 +1,572 @@
+{
+  "id": [
+    "32911839"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32911839"
+  ],
+  "pmcid": [
+    "PMC7565694"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7565694"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/polym12092048"
+  ],
+  "title": [
+    "High-Barrier Polyimide Containing Carbazole Moiety: Synthesis, Gas Barrier Properties, and Molecular Simulations."
+  ],
+  "authorString": [
+    "Liu Y, Tang A, Tan J, Zhao X, Chen C, Wu D, Li Y, He P, Zhang H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Liu Y"
+          ],
+          "firstName": [
+            "Yiwu"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7860-8532",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tang A"
+          ],
+          "firstName": [
+            "Ao"
+          ],
+          "lastName": [
+            "Tang"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tan J"
+          ],
+          "firstName": [
+            "Jinghua"
+          ],
+          "lastName": [
+            "Tan"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1642-5006",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhao X"
+          ],
+          "firstName": [
+            "Xianqing"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen C"
+          ],
+          "firstName": [
+            "Chengliang"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wu D"
+          ],
+          "firstName": [
+            "Ding"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li Y"
+          ],
+          "firstName": [
+            "Yuhui"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "He P"
+          ],
+          "firstName": [
+            "Pan"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang H"
+          ],
+          "firstName": [
+            "Hailiang"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory of Polymeric Materials and Application Technology of Hunan Province, Key Laboratory of Advanced Functional Polymer Materials of Colleges, Universities of Hunan Province, College of Chemistry, Xiangtan University, Xiangtan 411105, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7860-8532",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1642-5006",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3006428"
+      ],
+      "dateOfPublication": [
+        "2020 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Polymers"
+          ],
+          "ISOAbbreviation": [
+            "Polymers (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Polymers (Basel)"
+          ],
+          "NLMid": [
+            "101545357"
+          ],
+          "ISSN": [
+            "2073-4360"
+          ],
+          "ESSN": [
+            "2073-4360"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "abstractText": [
+    "A high-barrier polyimide (2,7-CPI) was synthesized through the polymerization of pyromellitic dianhydride (PMDA) and a novel diamine (2,7-CDA) containing carbazole moiety. The synthesized diamine and polyimide were fully characterized by elemental analyses, FTIR and NMR. The 2,7-CPI displays very attractive barrier performances, with oxygen transmission rate (OTR) and water vapor transmission rate (WVTR) low to 0.14 cm<sup>3</sup>·m<sup>-2</sup>·day<sup>-1</sup> and 0.05 g·m<sup>-2</sup>·day<sup>-1</sup>, respectively. Meanwhile, 2,7-CPI also exhibits exceptional thermal stability with a glass transition temperature (<i>T<sub>g</sub></i>) of 467 °C, 5% weight-loss temperature (<i>T<sub>d5%</sub></i>) of 550 °C under N<sub>2</sub> and coefficient of thermal expansion (<i>CTE</i>) of 3.4 ppm/K. The barrier performances of 2,7-CPI are compared with those of a structural analogue (2,7-CPPI) and a typical polyimide (Kapton). Their barrier performances with respect to microstructure were investigated by molecular simulations, wide angle X-ray diffraction (WAXD), and positron annihilation lifetime spectroscopy (PALS). The results show that 2,7-CPI possesses better coplanar structure and more number of intermolecular hydrogen bonds among the three PIs, which result in tight chain packing and thereby high crystallinity, low free volume, and decreased chains mobility. That is, the high crystallinity and low free volume of 2,7-CPI reduce the diffusion and solubility of gases. Meanwhile, the poor chains mobility further decreases the gases diffusion. The reduced diffusion and solubility of gases consequently promote the improvement of barrier properties for 2,7-CPI. The polyimide has a wide application prospect in the field of flexible electronic packaging industries."
+  ],
+  "affiliation": [
+    "National and Local Joint Engineering Center of Advanced Packaging Materials R & D Technology, Key Laboratory of Advanced Packaging Materials and Technology of Hunan Province, School of Packaging and Materials Engineering, Hunan University of Technology, Zhuzhou 412007, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "18A257"
+          ],
+          "agency": [
+            "Science Research Project of Hunan Provincial Department of Education"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2019JJ40071"
+          ],
+          "agency": [
+            "Natural Science Foundation of Hunan Province"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "201811535004, 201911535005"
+          ],
+          "agency": [
+            "Student Innovation and Entrepreneurship Training Program of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "51603066"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U1930203"
+          ],
+          "agency": [
+            "NSAF"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Polyimide",
+        "Carbazole",
+        "Molecular Simulations",
+        "Barrier Properties"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/polym12092048"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7565694"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7565694?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-09-11"
+  ],
+  "firstIndexDate": [
+    "2020-09-12"
+  ],
+  "fullTextReceivedDate": [
+    "2020-10-30"
+  ],
+  "dateOfRevision": [
+    "2020-10-29"
+  ],
+  "electronicPublicationDate": [
+    "2020-09-08"
+  ],
+  "firstPublicationDate": [
+    "2020-09-08"
+  ]
+}

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>EQQ for liquid and solid phases.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Pressure (GPa)</th>
+    <th>
+     <inline-formula id="IEq1">
+      <alternatives>
+       <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$&lt;{E}_{QQ}^{L}{ \,{&gt; }\,}_{melt}$$\end{document}</tex-math>
+       <math id="M6">
+        <mo>&lt;</mo>
+        <msubsup>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi>Q</mi>
+          <mi>Q</mi>
+         </mrow>
+         <mrow>
+          <mi>L</mi>
+         </mrow>
+        </msubsup>
+        <msub>
+         <mrow>
+          <mspace width="0.25em"/>
+          <mo>&gt;</mo>
+          <mspace width="0.25em"/>
+         </mrow>
+         <mrow>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+         </mrow>
+        </msub>
+       </math>
+       <inline-graphic xlink:href="41467_2020_18788_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </th>
+    <th>
+     <inline-formula id="IEq2">
+      <alternatives>
+       <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$&lt;{E}_{QQ}^{S}{ \,{&gt; }\,}_{melt}$$\end{document}</tex-math>
+       <math id="M8">
+        <mo>&lt;</mo>
+        <msubsup>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi>Q</mi>
+          <mi>Q</mi>
+         </mrow>
+         <mrow>
+          <mi>S</mi>
+         </mrow>
+        </msubsup>
+        <msub>
+         <mrow>
+          <mspace width="0.25em"/>
+          <mo>&gt;</mo>
+          <mspace width="0.25em"/>
+         </mrow>
+         <mrow>
+          <mi>m</mi>
+          <mi>e</mi>
+          <mi>l</mi>
+          <mi>t</mi>
+         </mrow>
+        </msub>
+       </math>
+       <inline-graphic xlink:href="41467_2020_18788_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </th>
+    <th>
+     <inline-formula id="IEq3">
+      <alternatives>
+       <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$&lt;{E}_{QQ}^{S}{ \,{&gt; }\,}_{PhaseI}$$\end{document}</tex-math>
+       <math id="M10">
+        <mo>&lt;</mo>
+        <msubsup>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi>Q</mi>
+          <mi>Q</mi>
+         </mrow>
+         <mrow>
+          <mi>S</mi>
+         </mrow>
+        </msubsup>
+        <msub>
+         <mrow>
+          <mspace width="0.25em"/>
+          <mo>&gt;</mo>
+          <mspace width="0.25em"/>
+         </mrow>
+         <mrow>
+          <mi>P</mi>
+          <mi>h</mi>
+          <mi>a</mi>
+          <mi>s</mi>
+          <mi>e</mi>
+          <mi>I</mi>
+         </mrow>
+        </msub>
+       </math>
+       <inline-graphic xlink:href="41467_2020_18788_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </th>
+    <th>
+     <inline-formula id="IEq4">
+      <alternatives>
+       <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$&lt;{E}_{QQ}^{S}{ \,{&gt; }\,}_{PhaseII}$$\end{document}</tex-math>
+       <math id="M12">
+        <mo>&lt;</mo>
+        <msubsup>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi>Q</mi>
+          <mi>Q</mi>
+         </mrow>
+         <mrow>
+          <mi>S</mi>
+         </mrow>
+        </msubsup>
+        <msub>
+         <mrow>
+          <mspace width="0.25em"/>
+          <mo>&gt;</mo>
+          <mspace width="0.25em"/>
+         </mrow>
+         <mrow>
+          <mi>P</mi>
+          <mi>h</mi>
+          <mi>a</mi>
+          <mi>s</mi>
+          <mi>e</mi>
+          <mi>I</mi>
+          <mi>I</mi>
+         </mrow>
+        </msub>
+       </math>
+       <inline-graphic xlink:href="41467_2020_18788_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>20</td>
+    <td>−5.5897</td>
+    <td>−6.2366</td>
+    <td>−15.5999</td>
+    <td>–</td>
+   </tr>
+   <tr>
+    <td>40</td>
+    <td>−7.3219</td>
+    <td>−7.7636</td>
+    <td>−25.4964</td>
+    <td>−43.4700</td>
+   </tr>
+   <tr>
+    <td>60</td>
+    <td>−8.9744</td>
+    <td>−9.8332</td>
+    <td>−35.9825</td>
+    <td>−52.9075</td>
+   </tr>
+   <tr>
+    <td>80</td>
+    <td>−10.9062</td>
+    <td>−13.6786</td>
+    <td>−44.4900</td>
+    <td>−65.9290</td>
+   </tr>
+   <tr>
+    <td>100</td>
+    <td>−11.7181</td>
+    <td>−15.9932</td>
+    <td>−53.0947</td>
+    <td>−76.0736</td>
+   </tr>
+   <tr>
+    <td>120</td>
+    <td>−11.8199</td>
+    <td>−17.7660</td>
+    <td>−59.5902</td>
+    <td>−91.3044</td>
+   </tr>
+   <tr>
+    <td>140</td>
+    <td>−11.8821</td>
+    <td>−18.5865</td>
+    <td>−65.5554</td>
+    <td>−103.4814</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>The EQQ for liquid and solid phases at the melt points, alongside values calculated for stable Phase I (
+   <italic>T</italic> = 150 K) and Phase II (
+   <italic>T</italic> = 50 K) structures. All values are in units of meV/molecule. For uncorrelated free rotors,  &lt;
+   <italic>E</italic>
+   <sub>
+    <italic>Q</italic>
+    <italic>Q</italic>
+   </sub>&gt; = 0
+  </p>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,520 @@
+{
+  "id": [
+    "33404244"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33404244"
+  ],
+  "pmcid": [
+    "PMC7880569"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7880569"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1021/acs.langmuir.0c02592"
+  ],
+  "title": [
+    "Nanoscale Hydration in Layered Manganese Oxides."
+  ],
+  "authorString": [
+    "Cheng W, Lindholm J, Holmboe M, Luong NT, Shchukarev A, Ilton ES, Hanna K, Boily JF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cheng W"
+          ],
+          "firstName": [
+            "Wei"
+          ],
+          "lastName": [
+            "Cheng"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "University Rennes, École Nationale Supérieure de Chimie de Rennes, CNRS, UMR 6226, 11 Allée de Beaulieu, 35708 Rennes, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lindholm J"
+          ],
+          "firstName": [
+            "Jerry"
+          ],
+          "lastName": [
+            "Lindholm"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Chemistry, Umeå University, SE-901 87 Umeå, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Holmboe M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Holmboe"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3927-6197",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Chemistry, Umeå University, SE-901 87 Umeå, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Luong NT"
+          ],
+          "firstName": [
+            "N Tan"
+          ],
+          "lastName": [
+            "Luong"
+          ],
+          "initials": [
+            "NT"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Chemistry, Umeå University, SE-901 87 Umeå, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Shchukarev A"
+          ],
+          "firstName": [
+            "Andrey"
+          ],
+          "lastName": [
+            "Shchukarev"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Chemistry, Umeå University, SE-901 87 Umeå, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ilton ES"
+          ],
+          "firstName": [
+            "Eugene S"
+          ],
+          "lastName": [
+            "Ilton"
+          ],
+          "initials": [
+            "ES"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4931-5217",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Physical Sciences Division, Pacific Northwest National Laboratory, Richland, Washington 99352, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hanna K"
+          ],
+          "firstName": [
+            "Khalil"
+          ],
+          "lastName": [
+            "Hanna"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6072-1294",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "University Rennes, École Nationale Supérieure de Chimie de Rennes, CNRS, UMR 6226, 11 Allée de Beaulieu, 35708 Rennes, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Boily JF"
+          ],
+          "firstName": [
+            "Jean-François"
+          ],
+          "lastName": [
+            "Boily"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4954-6461",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Chemistry, Umeå University, SE-901 87 Umeå, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6072-1294",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3927-6197",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4931-5217",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4954-6461",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "full_text",
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "37"
+      ],
+      "journalIssueId": [
+        "3094553"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Langmuir : the ACS journal of surfaces and colloids"
+          ],
+          "ISOAbbreviation": [
+            "Langmuir"
+          ],
+          "medlineAbbreviation": [
+            "Langmuir"
+          ],
+          "NLMid": [
+            "9882736"
+          ],
+          "ISSN": [
+            "0743-7463"
+          ],
+          "ESSN": [
+            "1520-5827"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "666-674"
+  ],
+  "abstractText": [
+    "Birnessite is a layered MnO<sub>2</sub> mineral capable of intercalating nanometric water films in its bulk. With its variable distributions of Mn oxidation states (Mn<sup>IV</sup>, Mn<sup>III</sup>, and Mn<sup>II</sup>), cationic vacancies, and interlayer cationic populations, birnessite plays key roles in catalysis, energy storage solutions, and environmental (geo)chemistry. We here report the molecular controls driving the nanoscale intercalation of water in potassium-exchanged birnessite nanoparticles. From microgravimetry, vibrational spectroscopy, and X-ray diffraction, we find that birnessite intercalates no more than one monolayer of water per interlayer when exposed to water vapor at 25 °C, even near the dew point. Molecular dynamics showed that a single monolayer is an energetically favorable hydration state that consists of 1.33 water molecules per unit cell. This monolayer is stabilized by concerted potassium-water and direct water-birnessite interactions, and involves negligible water-water interactions. Using our composite <i>adsorption-condensation-intercalation</i> model, we predicted humidity-dependent water loadings in terms of water <i>intercalated</i> in the internal and <i>adsorbed</i> at external basal faces, the proportions of which vary with particle size. The model also accounts for additional populations <i>condensed</i> on and between particles. By describing the nanoscale hydration of birnessite, our work secures a path for understanding the water-driven catalytic chemistry that this important layered manganese oxide mineral can host in natural and technological settings."
+  ],
+  "affiliation": [
+    "University Rennes, École Nationale Supérieure de Chimie de Rennes, CNRS, UMR 6226, 11 Allée de Beaulieu, 35708 Rennes, France."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1021/acs.langmuir.0c02592"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7880569"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7880569?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-01-06"
+  ],
+  "firstIndexDate": [
+    "2021-01-07"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-18"
+  ],
+  "dateOfRevision": [
+    "2021-02-17"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-06"
+  ],
+  "firstPublicationDate": [
+    "2021-01-06"
+  ]
+}

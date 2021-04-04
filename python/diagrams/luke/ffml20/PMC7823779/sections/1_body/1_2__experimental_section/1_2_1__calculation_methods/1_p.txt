@@ -1,0 +1,5 @@
+0: In order to investigate the reaction process of NO 2+ and GO, A simplified model of GO that only includes epoxy and hydroxyl was built, which is shown in  Figure 1.
+1: Electrostatic potential and Fukui function [ 20] of GO were calculated.
+2: Different distances between GO and NO 2+ were constrained to analyze the changes in the structure (both bond length and bond angles) when the reactants get closer.
+3: The DFT results were obtained by using the DMol3 density-functional module in the set of general gradient approximation (GGA) functionals and PerdewBurkeErnzerhof (PBE) correlation [ 21].
+4: We set 1  10 5 Ha as the convergence tolerance, DNP 3.5 was the basis set and 0.002 Ha of smearing was used to speed up the convergence.

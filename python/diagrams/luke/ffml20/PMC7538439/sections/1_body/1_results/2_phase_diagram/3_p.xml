@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">The HMLP and DFT predictions are good for the melt curve, but both overstabilise the broken-symmetry Phase II. This is due to the lack of quantum-nuclear effects, notably the zero-point energy, and can be addressed by including quantum-nuclear effects in the simulation. The discrepancy in the Phase I–II line does not indicate any inaccuracy of the HMLP itself. Our predicted melting curve is consistent with experiments: the value for the melting curve maximum is located between 80 and 100 GPa and 900 K, similar to the HMLP potential values. It also agrees with two-phase ab initio simulations, which proposed a gradual softening of the intermolecular repulsive interactions as its cause
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup>. The close agreement of the HMLP transition pressure with experimental data enables us to accurately simulate behaviours of temperature- or pressure-driven phase transition between Phase I and II. A “Phase III” is observed at higher pressures, corresponding to a different symmetry-breaking. However, by design the present HMLP model should start to fail to capture the properties of H
+ <sub>2</sub> at still higher pressures, where molecule dissociation needs to be considered.
+</p>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To quantify the miscibility between poly (vinyl alcohol) and ι-carrageenan, the interaction parameter 
+ <italic>μ</italic> was calculated (Equation (16)), based on the values of the interaction parameters (
+ <italic>b</italic>) for the blends, respectively, for the pure components (
+ <italic>b</italic>
+ <sub>CAR</sub>, 
+ <italic>b</italic>
+ <sub>PVA</sub>), and the intrinsic viscosities of PVA ([η]
+ <sub>PVA</sub> = 0.793 dL/g), respectively, ι-carrageenan ([η]
+ <sub>CAR</sub> = 3.816 dL/g), obtained from fitting the dependencies from 
+ <xref ref-type="fig" rid="polymers-12-01544-f005">Figure 5</xref>b with the Huggins equation (Equation (9)) [
+ <xref rid="B55-polymers-12-01544" ref-type="bibr">55</xref>]:
+ <disp-formula id="FD16-polymers-12-01544">
+  <label>(16)</label>
+  <math id="mm19">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi mathvariant="sans-serif">μ</mi>
+      <mtext> </mtext>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi mathvariant="normal">b</mi>
+       <mo>−</mo>
+       <mover>
+        <mi mathvariant="normal">b</mi>
+        <mo>¯</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mi mathvariant="normal">w</mi>
+          <mrow>
+           <mi>PVA</mi>
+          </mrow>
+         </msub>
+         <mo>⋅</mo>
+         <msub>
+          <mi mathvariant="normal">w</mi>
+          <mrow>
+           <mi>CAR</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>⋅</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <mi mathvariant="sans-serif">η</mi>
+             <msub>
+              <mo stretchy="false">]</mo>
+              <mrow>
+               <mi>CAR</mi>
+              </mrow>
+             </msub>
+             <mo>−</mo>
+            </mrow>
+            <mo>[</mo>
+           </mrow>
+           <mi mathvariant="sans-serif">η</mi>
+           <msub>
+            <mo stretchy="false">]</mo>
+            <mrow>
+             <mi>PVA</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>w</italic>
+ <sub>CAR</sub> and 
+ <italic>w</italic>
+ <sub>PVA</sub> = 1-
+ <italic>w</italic>
+ <sub>CAR</sub> represent the weight fraction of CAR, respectively, PVA in the blend, and 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mover accent="true">
+     <mi>b</mi>
+     <mo>¯</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> represents the ideal interaction parameter, calculated according to Krigbaum and Wall with the following expression (Equation (17)) [
+ <xref rid="B57-polymers-12-01544" ref-type="bibr">57</xref>]:
+ <disp-formula id="FD17-polymers-12-01544">
+  <label>(17)</label>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi mathvariant="normal">b</mi>
+      <mo>¯</mo>
+     </mover>
+     <mo>=</mo>
+     <msubsup>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="normal">w</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mi>PVA</mi>
+      </mrow>
+      <mn>2</mn>
+     </msubsup>
+     <mo>⋅</mo>
+     <msub>
+      <mi mathvariant="normal">b</mi>
+      <mrow>
+       <mi>PVA</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <msubsup>
+      <mi mathvariant="normal">w</mi>
+      <mrow>
+       <mi>CAR</mi>
+      </mrow>
+      <mn>2</mn>
+     </msubsup>
+     <mo>⋅</mo>
+     <msub>
+      <mi mathvariant="normal">b</mi>
+      <mrow>
+       <mi>CAR</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <mn>2</mn>
+     <msub>
+      <mi mathvariant="normal">w</mi>
+      <mrow>
+       <mi>PVA</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mi mathvariant="normal">w</mi>
+      <mrow>
+       <mi>CAR</mi>
+      </mrow>
+     </msub>
+     <mo>⋅</mo>
+     <mi mathvariant="normal">b</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

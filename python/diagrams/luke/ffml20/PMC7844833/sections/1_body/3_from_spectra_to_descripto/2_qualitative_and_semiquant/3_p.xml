@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A commonly used approach thus relies on simple fingerprinting, where the XANES spectra for the sample of interest are compared with the spectra for reference materials. Nonetheless, this approach relies on the availability of such reference spectra and thus requires guessing 
+ <italic>a-priori</italic> which material structures may be the most relevant references. A possible alternative solution would be to create large publicly accessible databases of experimental data that can be used for the identification of the collected spectra. While there is some progress during the last decades in the development of such databases (e.g., 
+ <uri xlink:href="https://cars.uchicago.edu/xaslib/" xmlns:xlink="http://www.w3.org/1999/xlink">https://cars.uchicago.edu/xaslib/</uri>,
+ <sup>
+  <xref ref-type="bibr" rid="ref126">126</xref>
+ </sup>
+ <uri xlink:href="http://www.cat.hokudai.ac.jp/catdb" xmlns:xlink="http://www.w3.org/1999/xlink">www.cat.hokudai.ac.jp/catdb</uri>,
+ <sup>
+  <xref ref-type="bibr" rid="ref127">127</xref>
+ </sup>
+ <uri xlink:href="https://eelsdb.eu/" xmlns:xlink="http://www.w3.org/1999/xlink">https://eelsdb.eu/</uri>),
+ <sup>
+  <xref ref-type="bibr" rid="ref128">128</xref>
+ </sup> currently they only contain a few hundred experimental spectra.
+ <sup>
+  <xref ref-type="bibr" rid="ref53">53</xref>
+ </sup> In many of the 
+ <italic>in situ</italic> and 
+ <italic>operando</italic> studies, the corresponding reference samples are also not easily available. In fact, some intermediate species and unique structural motifs that are present in catalysts under working conditions or ultradispersed NPs may not have analogues among bulk materials that are stable at ambient conditions. On the other hand, significant advances have also been made in 
+ <italic>ab initio</italic> XANES modeling, and codes like FEFF
+ <sup>
+  <xref ref-type="bibr" rid="ref42">42</xref>
+ </sup> and FDMNES
+ <sup>
+  <xref ref-type="bibr" rid="ref129">129</xref>
+ </sup> allow one to simulate XANES features for different structures with increasing accuracy and can be used to create large sets of reference spectra. For example, Zheng et al.
+ <sup>
+  <xref ref-type="bibr" rid="ref54">54</xref>
+ </sup> and Mathew et al.
+ <sup>
+  <xref ref-type="bibr" rid="ref53">53</xref>
+ </sup> used FEFF simulations to generate a database with ∼800 000 XANES spectra for bulk material structures from the Materials Project database,
+ <sup>
+  <xref ref-type="bibr" rid="ref130">130</xref>−
+  <xref ref-type="bibr" rid="ref132">132</xref>
+ </sup> and developed tools for the automatic comparison of experimentally acquired spectra with theoretical data in the database, leading to the identification of the most likely structures. Despite this progress, the practical applications of this approach are still limited by the necessary trade-off between the accuracy of XANES modeling and the required computational resources to generate extensive databases, and, more critically, by the fact that only well-ordered crystalline materials with well-known and well-defined structures are typically considered.
+</p>

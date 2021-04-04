@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The effective diffusion coefficients (
+ <italic>D</italic>) of water into the hydrogel matrix were calculated with Equation (12) [
+ <xref rid="B31-polymers-12-01544" ref-type="bibr">31</xref>,
+ <xref rid="B48-polymers-12-01544" ref-type="bibr">48</xref>]:
+ <disp-formula id="FD12-polymers-12-01544">
+  <label>(12)</label>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi mathvariant="normal">D</mi>
+      <mtext> </mtext>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mtext> </mtext>
+      <mi mathvariant="sans-serif">π</mi>
+     </mrow>
+     <mo>·</mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mi mathvariant="sans-serif">δ</mi>
+           <mo>·</mo>
+           <mi mathvariant="sans-serif">θ</mi>
+          </mrow>
+          <mrow>
+           <mn>4</mn>
+           <mo>·</mo>
+           <msub>
+            <mi mathvariant="normal">q</mi>
+            <mrow>
+             <mi>eq</mi>
+            </mrow>
+           </msub>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where δ is the initial thickness of the hydrogel (
+ <xref rid="polymers-12-01544-t001" ref-type="table">Table 1</xref>), 
+ <italic>q</italic>
+ <sub>eq</sub> represents the ratio between the mass of the swollen hydrogel at equilibrium and its initial mass (at the beginning of the swelling process), and θ is the slope of the swelling kinetic for the first 40% of data.
+</p>

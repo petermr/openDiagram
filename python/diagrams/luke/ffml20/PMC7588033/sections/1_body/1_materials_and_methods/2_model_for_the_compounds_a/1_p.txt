@@ -1,0 +1,12 @@
+0: A typical system consists of a lipid bilayer surrounded by water and one of the compounds ( Table S1), which is positioned in the water domain on the left of the lipid bilayer ( Figure   1).
+1: The total size of our systems was typically about 40,000 atoms.
+2: Following previous work, 6 the bilayer consists of 128 DOPC (1,2-dioleoyl- sn-glycero-3-phosphocholine) lipids 24,  25 modeled with the Berger force-field.
+3: 24  27 The so-called Berger lipids can be combined with the GROMOS representation of the compounds.
+4: 27 Hence, the GROMOS54a7 force-field was used to model the 26 compounds.
+5: Moreover, the CHARMM36 28  30 force-field was employed for both the bilayer by using the CHARMM-GUI server 31  33 and the 26 compounds ( Table S1).
+6: The parameters of the compounds were obtained from the ATB server 34  37 for the GROMOS54a7 force-field and the SwissParam server 38 in the case of the CHARMM36 force-field.
+7: In general, the ATB server combines a knowledge-based approach with quantum mechanical calculations.
+8: First, the ligand was optimized using the HF/STO-3G theory and then reoptimized at a more advanced level B3LYP/6-31G*.
+9: 39  41 To estimate the point charges of compound atoms, the electrostatic potential was fitted using the KollmanSingh procedure.
+10: 42 The bond and angle force constants were extracted from the Hessian matrix.
+11: All ligands were modeled in their neutral form.

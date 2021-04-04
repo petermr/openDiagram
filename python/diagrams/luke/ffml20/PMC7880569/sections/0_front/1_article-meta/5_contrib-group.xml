@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="ath1">
+  <name>
+   <surname>Cheng</surname>
+   <given-names>Wei</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath2">
+  <name>
+   <surname>Lindholm</surname>
+   <given-names>Jerry</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath3">
+  <name>
+   <surname>Holmboe</surname>
+   <given-names>Michael</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath4">
+  <name>
+   <surname>Luong</surname>
+   <given-names>N. Tan</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath5">
+  <name>
+   <surname>Shchukarev</surname>
+   <given-names>Andrey</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath6">
+  <name>
+   <surname>Ilton</surname>
+   <given-names>Eugene S.</given-names>
+  </name>
+  <xref rid="aff3" ref-type="aff">§</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath7">
+  <name>
+   <surname>Hanna</surname>
+   <given-names>Khalil</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath8">
+  <name>
+   <surname>Boily</surname>
+   <given-names>Jean-François</given-names>
+  </name>
+  <xref rid="cor1" ref-type="other">*</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <aff id="aff1">
+  <label>†</label>
+  <institution>University Rennes, École Nationale Supérieure de Chimie de Rennes, CNRS, UMR 6226</institution>, 11 Allée de Beaulieu, 35708 Rennes, 
+  <country>France</country>
+ </aff>
+ <aff id="aff2">
+  <label>‡</label>Department of Chemistry, 
+  <institution>Umeå University</institution>, SE-901 87 Umeå, 
+  <country>Sweden</country>
+ </aff>
+ <aff id="aff3">
+  <label>§</label>Physical Sciences Division, 
+  <institution>Pacific Northwest National Laboratory</institution>, Richland, Washington 99352, 
+  <country>United States</country>
+ </aff>
+</contrib-group>

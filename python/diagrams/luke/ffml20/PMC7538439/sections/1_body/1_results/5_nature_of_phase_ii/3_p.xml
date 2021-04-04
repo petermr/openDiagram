@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par30">The corresponding RDF indicates that the centre of each molecule remains close to the hcp lattice sites. Consequently, we define an order parameter 
+ <italic>O</italic> relating the structures of Phase II in our HMLP-MD simulations with the static-lattice DFT predictions of 
+ <italic>P</italic>2
+ <sub>1</sub>/
+ <italic>c-</italic>24. The average value 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\langle O\rangle$$\end{document}</tex-math>
+   <math id="M14">
+    <mo>⟨</mo>
+    <mi>O</mi>
+    <mo>⟩</mo>
+   </math>
+   <inline-graphic xlink:href="41467_2020_18788_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> exhibits a sharp change as the system transitions from the structured Phase II to the rotationally symmetric Phase I with increasing temperature. Transition temperatures were taken at discontinuous jumps in 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\langle O\rangle$$\end{document}</tex-math>
+   <math id="M16">
+    <mo>⟨</mo>
+    <mi>O</mi>
+    <mo>⟩</mo>
+   </math>
+   <inline-graphic xlink:href="41467_2020_18788_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. This produces the phase diagram shown in Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>b. Note that the transition temperatures obtained from analysis of 
+ <inline-formula id="IEq7">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\langle O\rangle$$\end{document}</tex-math>
+   <math id="M18">
+    <mo>⟨</mo>
+    <mi>O</mi>
+    <mo>⟩</mo>
+   </math>
+   <inline-graphic xlink:href="41467_2020_18788_Article_IEq7.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> agree with those obtained from peaks in the heat capacity calculated as 
+ <inline-formula id="IEq8">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\left(\frac{\partial H}{\partial T}\right)}_{P}$$\end{document}</tex-math>
+   <math id="M20">
+    <msub>
+     <mrow>
+      <mfenced close=")" open="(">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>∂</mi>
+          <mi>H</mi>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <mi>T</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfenced>
+     </mrow>
+     <mrow>
+      <mi>P</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2020_18788_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> from finite differences (see Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">5</xref>). The phase boundary agrees well with the experiment
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>, particularly for the more classically behaved deuterium. Similarity to experiments on deuterium rather than hydrogen is perhaps unsurprising, since nuclear quantum effects such as zero-point motion are significant at the low temperatures investigated here.
+</p>

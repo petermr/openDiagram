@@ -1,0 +1,11 @@
+0: For QM/MM calculations, the QM region is the chemically active part of the zeolite model and includes atoms up to the fifth oxygen atom ( i.e.
+1: AlOSiOSiO) from the central T12 site.
+2: The total number of atoms in the cluster model is 2165, including 74 QM atoms and 197 inner MM atoms.
+3: Atoms in the inner MM region can move during the geometry optimisation while, the outer MM region is frozen to ensure a bulk-like structure at a far limit from any chemical reactions.
+4: The inner and outer MM regions extend from the central T12 site to a radius of 10.58 A (20 a 0) and 21.17 A (40 a 0), respectively.
+5: The QM energy was calculated using spin unpolarised hybrid-DFT with the dispersion-corrected Becke97-3 exchange-correlation (XC) functional, B97-D, as provided in the GAMESS-UK code.
+6: 40 42 The atomic orbitals were represented by the Ahlrichs and Taylor TZVP Gaussian basis sets.
+7: 43 The self-consistent field (SCF) convergence criteria was set to an energy change of less than 2.72  10 6 eV (1  10 7 Hartrees) between SCF iterations.
+8: 44, 45 The MM energy was calculated using DL_POLY, 46 employing the forcefield of Hill and Sauer, 47, 48 with the coordination dependent charges in the original forcefield being replaced with fixed 1.2 and 0.6 e point charges for silicon and oxygen, respectively 49.
+9: Geometry optimisations (see ESI ) were performed in a Cartesian coordinate space using the Limited-Memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) algorithm, with a maximum gradient convergence threshold of 0.015 eV A 1.
+10: 50 53

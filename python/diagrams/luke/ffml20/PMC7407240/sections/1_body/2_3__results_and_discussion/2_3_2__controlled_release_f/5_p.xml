@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The diffusion coefficients for the period of diffusional release (
+ <italic>D</italic>
+ <sub>diff</sub>), respectively, for the relaxation-controlled release (
+ <italic>D</italic>
+ <sub>rel</sub>) were calculated from the slopes of the linear dependencies derived from Equations (14) (representing F
+ <sub>t</sub>/F
+ <sub>t,equil</sub> as a function of 
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi mathvariant="normal">t</mi>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) and (15) (representing ln (F
+ <sub>t</sub>/F
+ <sub>t,equil</sub>) as a function of t) [
+ <xref rid="B32-polymers-12-01544" ref-type="bibr">32</xref>,
+ <xref rid="B51-polymers-12-01544" ref-type="bibr">51</xref>]. The obtained values are expressed in 
+ <xref rid="polymers-12-01544-t004" ref-type="table">Table 4</xref>. 
+ <disp-formula id="FD14-polymers-12-01544">
+  <label>(14)</label>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi mathvariant="normal">F</mi>
+        <mi mathvariant="normal">t</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi mathvariant="normal">F</mi>
+        <mrow>
+         <mi mathvariant="normal">t</mi>
+         <mo>,</mo>
+         <mi>equil</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mn>4</mn>
+     <msqrt>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi mathvariant="normal">D</mi>
+          <mrow>
+           <mi>diff</mi>
+          </mrow>
+         </msub>
+         <mo>·</mo>
+         <mi mathvariant="normal">t</mi>
+        </mrow>
+        <mrow>
+         <mi mathvariant="sans-serif">π</mi>
+         <mo>·</mo>
+         <msup>
+          <mi mathvariant="sans-serif">δ</mi>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD15-polymers-12-01544">
+  <label>(15)</label>
+  <math id="mm18">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi mathvariant="normal">F</mi>
+        <mi mathvariant="normal">t</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi mathvariant="normal">F</mi>
+        <mrow>
+         <mi mathvariant="normal">t</mi>
+         <mo>,</mo>
+         <mi>equil</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mn>8</mn>
+        <mrow>
+         <msup>
+          <mi mathvariant="sans-serif">π</mi>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mi>exp</mi>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mo>−</mo>
+         <msup>
+          <mi mathvariant="sans-serif">π</mi>
+          <mn>2</mn>
+         </msup>
+         <mo>·</mo>
+         <msub>
+          <mi mathvariant="normal">D</mi>
+          <mrow>
+           <mi>rel</mi>
+          </mrow>
+         </msub>
+         <mo>·</mo>
+         <mi mathvariant="normal">t</mi>
+        </mrow>
+        <mrow>
+         <msup>
+          <mi mathvariant="sans-serif">δ</mi>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

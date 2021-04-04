@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <title>Visualizing Rad-6 with Kernel Principal Component Analysis (kPCA).</title>
+  <p>
+   <bold>a</bold> kPCA based on an intensive kernel. 
+   <bold>b</bold> kPCA based on an extensive kernel. Points are colored according to the DFT atomization energy per atom in (
+   <bold>a</bold>) and total atomization energy in (
+   <bold>b</bold>). The arrows provide a qualitative interpretation of the principal component (PC) axes and small black dots indicate the FPS-selected training configurations for a ML model with 1000 training molecules and using the corresponding distance criterion (
+   <italic>D</italic>
+   <sub>int</sub> (
+   <bold>a</bold>), 
+   <italic>D</italic>
+   <sub>ext</sub> (
+   <bold>b</bold>)), see text.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_19267_Fig3_HTML" id="d30e1170" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

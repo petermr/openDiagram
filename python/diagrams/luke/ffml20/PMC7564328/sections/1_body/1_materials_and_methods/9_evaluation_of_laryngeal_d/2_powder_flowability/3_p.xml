@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0135">An appropriate amount of SCU@CD-MOF were filled into the 10 mL graduated cylinder (
+ <italic>M</italic>
+ <sub>1</sub>) until its volume read as 9 ± 1 mL, recorded it as 
+ <italic>V</italic>
+ <sub>1</sub>, weighed as 
+ <italic>M</italic>
+ <sub>2.</sub> The graduated cylinder was allowed to fall freely from a prescribed height until its volume did not change significantly, which was recorded as the 
+ <italic>V</italic>
+ <sub>2</sub>. The bulk density (
+ <italic>ρ</italic>
+ <sub>b</sub>), tapped density (
+ <italic>ρ</italic>
+ <sub>t</sub>) and Carr's index (CI) were calculated as following Eqs. 
+ <xref rid="fd3" ref-type="disp-formula">(3)</xref>, 
+ <xref rid="fd4" ref-type="disp-formula">(4)</xref>, 
+ <xref rid="fd5" ref-type="disp-formula">(5)</xref>
+ <xref rid="bib48" ref-type="bibr">
+  <sup>48</sup>
+ </xref>:
+ <disp-formula id="fd3">
+  <label>(3)</label>
+  <math id="M3" altimg="si3.svg" alttext="Equation 3.">
+   <mrow>
+    <msub>
+     <mi>ρ</mi>
+     <mtext>b</mtext>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mi>M</mi>
+         <mn>2</mn>
+        </msub>
+        <mo linebreak="badbreak">−</mo>
+        <msub>
+         <mi>M</mi>
+         <mn>1</mn>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>V</mi>
+       <mn>1</mn>
+      </msub>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd4">
+  <label>(4)</label>
+  <math id="M4" altimg="si4.svg" alttext="Equation 4.">
+   <mrow>
+    <msub>
+     <mi>ρ</mi>
+     <mtext>t</mtext>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mi>M</mi>
+         <mn>2</mn>
+        </msub>
+        <mo linebreak="badbreak">−</mo>
+        <msub>
+         <mi>M</mi>
+         <mn>1</mn>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>V</mi>
+       <mn>2</mn>
+      </msub>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd5">
+  <label>(5)</label>
+  <math id="M5" altimg="si5.svg" alttext="Equation 5.">
+   <mrow>
+    <mtext>CI </mtext>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mo>%</mo>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mi>ρ</mi>
+         <mtext>t</mtext>
+        </msub>
+        <mo linebreak="badbreak">−</mo>
+        <msub>
+         <mi>ρ</mi>
+         <mtext>b</mtext>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>ρ</mi>
+       <mtext>t</mtext>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">×</mo>
+    <mn>100</mn>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

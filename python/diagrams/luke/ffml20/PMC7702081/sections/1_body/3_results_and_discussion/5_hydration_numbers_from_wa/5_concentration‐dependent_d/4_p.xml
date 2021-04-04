@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>where 
+ <italic>ϵ</italic>
+ <sub>s</sub>(0) is the static permittivity of pure water, 
+ <italic>ϵ</italic>
+ <sub>∞</sub>(
+ <italic>c</italic>) is the high‐frequency permittivity of the aqueous electrolyte solution, and σ(
+ <italic>c</italic>) is the conductivity of electrolyte solution with concentration 
+ <italic>c</italic>. The expression for the kinetic depolarization assumes that water dipoles rotate to the opposite direction of the external field and according to their reorientation time scale. Therefore, 
+ <italic>τ</italic>
+ <sub>1</sub>(0) is the reorientation time of the bulk water relaxation mode, and the 2/3 factor originates from the assumption that the flow of solvent at the ion surface is governed by the perfect slip boundary condition.
+ <xref rid="cphc202000498-bib-0097" ref-type="ref">
+  <sup>[97]</sup>
+ </xref> By considering the dilution effect, the number of slow water molecules (hydration number) is obtained using the following expression:
+ <disp-formula id="cphc202000498-disp-0009">
+  <label>(9)</label>
+  <math id="nlm-math-15">
+   <mstyle displaystyle="true">
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mrow>
+       <mi>h</mi>
+       <mi>y</mi>
+       <mi>d</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mfenced separators="" open="(" close=")">
+       <msub>
+        <mi mathvariant="normal">c</mi>
+        <mrow>
+         <msub>
+          <mi mathvariant="normal">H</mi>
+          <mn>2</mn>
+         </msub>
+         <mi mathvariant="normal">O</mi>
+        </mrow>
+       </msub>
+       <mfenced open="(" close=")">
+        <mi>c</mi>
+       </mfenced>
+       <mo>-</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="normal">S</mi>
+         <mfenced open="(" close=")">
+          <mn>0</mn>
+         </mfenced>
+         <mo>+</mo>
+         <mi>Δ</mi>
+         <msub>
+          <mi>S</mi>
+          <mrow>
+           <mi>s</mi>
+           <mi>t</mi>
+           <mi>a</mi>
+           <mi>t</mi>
+           <mi>i</mi>
+           <mi>c</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow>
+         <mi>S</mi>
+         <mfenced open="(" close=")">
+          <mn>0</mn>
+         </mfenced>
+        </mrow>
+       </mfrac>
+       <msub>
+        <mi mathvariant="normal">c</mi>
+        <mrow>
+         <msub>
+          <mi mathvariant="normal">H</mi>
+          <mn>2</mn>
+         </msub>
+         <mi mathvariant="normal">O</mi>
+        </mrow>
+       </msub>
+       <mfenced open="(" close=")">
+        <mn>0</mn>
+       </mfenced>
+      </mfenced>
+      <mi>c</mi>
+     </mfrac>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

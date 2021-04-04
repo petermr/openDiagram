@@ -1,0 +1,453 @@
+{
+  "id": [
+    "32874523"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32874523"
+  ],
+  "pmcid": [
+    "PMC7448526"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7448526"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1039/d0sc01924k"
+  ],
+  "title": [
+    "Methanol loading dependent methoxylation in zeolite H-ZSM-5."
+  ],
+  "authorString": [
+    "Matam SK, Nastase SAF, Logsdail AJ, Richard A Catlow C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Matam SK"
+          ],
+          "firstName": [
+            "Santhosh K"
+          ],
+          "lastName": [
+            "Matam"
+          ],
+          "initials": [
+            "SK"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6965-2945",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "UK Catalysis Hub, Research Complex at Harwell , Science and Technology Facilities Council , Rutherford Appleton Laboratory , Oxford , OX11 0FA , UK . Email: santhosh.matam@rc-harwell.ac.uk ; [http://www.ukcatalysishub.co.uk/]."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Cardiff Catalysis Institute , School of Chemistry , Cardiff University , Cardiff , CF10 3AT UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nastase SAF"
+          ],
+          "firstName": [
+            "Stefan A F"
+          ],
+          "lastName": [
+            "Nastase"
+          ],
+          "initials": [
+            "SAF"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "UK Catalysis Hub, Research Complex at Harwell , Science and Technology Facilities Council , Rutherford Appleton Laboratory , Oxford , OX11 0FA , UK . Email: santhosh.matam@rc-harwell.ac.uk ; [http://www.ukcatalysishub.co.uk/]."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Cardiff Catalysis Institute , School of Chemistry , Cardiff University , Cardiff , CF10 3AT UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Logsdail AJ"
+          ],
+          "firstName": [
+            "Andrew J"
+          ],
+          "lastName": [
+            "Logsdail"
+          ],
+          "initials": [
+            "AJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2277-415X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cardiff Catalysis Institute , School of Chemistry , Cardiff University , Cardiff , CF10 3AT UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Richard A Catlow C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Richard A Catlow"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1341-1541",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "UK Catalysis Hub, Research Complex at Harwell , Science and Technology Facilities Council , Rutherford Appleton Laboratory , Oxford , OX11 0FA , UK . Email: santhosh.matam@rc-harwell.ac.uk ; [http://www.ukcatalysishub.co.uk/]."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Cardiff Catalysis Institute , School of Chemistry , Cardiff University , Cardiff , CF10 3AT UK."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Chemistry , University College London , 20 Gordon St. , London WC1E 6BT , UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6965-2945",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1341-1541",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2277-415X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "26"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "3004651"
+      ],
+      "dateOfPublication": [
+        "2020 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Chemical science"
+          ],
+          "ISOAbbreviation": [
+            "Chem Sci"
+          ],
+          "medlineAbbreviation": [
+            "Chem Sci"
+          ],
+          "NLMid": [
+            "101545951"
+          ],
+          "ISSN": [
+            "2041-6520"
+          ],
+          "ESSN": [
+            "2041-6539"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "6805-6814"
+  ],
+  "abstractText": [
+    "We evaluate the effect of the number of methanol molecules per acidic site of H-ZSM-5 on the methoxylation reaction at room temperature by applying <i>operando</i> diffuse reflectance infrared Fourier transformed spectroscopy (DRIFTS) and mass spectrometry (MS), which capture the methoxylation reaction by simultaneously probing surface adsorbed species and reaction products, respectively. To this end, the methanol loading in H-ZSM-5 (Si/Al ≈ 25) pores is systematically varied between 32, 16, 8 and 4 molecules per unit cell, which corresponds to 8, 4, 2 and 1 molecules per Brønsted acidic site, respectively. The <i>operando</i> DRIFTS/MS data show that the room temperature methoxylation depends on the methanol loading: the higher the methanol loading, the faster the methoxylation. Accordingly, the reaction is more than an order of magnitude faster with 8 methanol molecules per Brønsted acidic site than that with 2 molecules, as evident from the evolution of the methyl rock band of the methoxy species and of water as a function of time. Significantly, no methoxylation is observed with ≤1 molecule per Brønsted acidic site. However, hydrogen bonded methanol occurs across all loadings studied, but the structure of hydrogen bonded methanol also depends on the loading. Methanol loading of ≤1 molecule per acidic site leads to the formation of hydrogen bonded methanol with no proton transfer (<i>i.e.</i> neutral geometry), while loading ≥2 molecules per acidic site results in a hydrogen bonded methanol with a net positive charge on the adduct (protonated geometry). The infrared vibrational frequencies of methoxy and hydrogen bonded methanol are corroborated by Density Functional Theory (DFT) calculations. Both the experiments and calculations reflect the methoxy bands at around 940, 1180, 2868-2876 and 2980-2973 cm<sup>-1</sup> which correspond to <i>ν</i>(C-O), <i>ρ</i>(CH<sub>3</sub>), <i>ν</i> <sub>s</sub>(C-H) and <i>ν</i> <sub>as</sub>(C-H), respectively."
+  ],
+  "affiliation": [
+    "UK Catalysis Hub, Research Complex at Harwell , Science and Technology Facilities Council , Rutherford Appleton Laboratory , Oxford , OX11 0FA , UK . Email: santhosh.matam@rc-harwell.ac.uk ; [http://www.ukcatalysishub.co.uk/]."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "EP/R026645/1"
+          ],
+          "agency": [
+            "Engineering and Physical Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "EP/R026939/1"
+          ],
+          "agency": [
+            "Engineering and Physical Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "EP/R026815/1"
+          ],
+          "agency": [
+            "Engineering and Physical Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1039/d0sc01924k"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7448526"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7448526?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-09-03"
+  ],
+  "firstIndexDate": [
+    "2020-09-03"
+  ],
+  "fullTextReceivedDate": [
+    "2020-09-02"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2020-06-17"
+  ],
+  "firstPublicationDate": [
+    "2020-06-17"
+  ]
+}

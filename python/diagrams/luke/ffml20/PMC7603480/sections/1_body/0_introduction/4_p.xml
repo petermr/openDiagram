@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par6">The central impediment towards a non-empirical construction of reduced reaction networks is the large computational cost of first-principles electronic structure methods such as density-functional theory (DFT). It is simply not feasible to routinely compute tens or hundreds of thousands of reaction energies (REs) and activation barriers. In this context, machine-learning (ML) models that are trained on a limited number of DFT calculations have recently emerged as powerful tools for the high-throughput prediction of molecular and materials properties
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>–
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>. Simply put, ML can be used to interpolate properties (such as energies) across chemical compound space. State-of-the-art methods actually surpass chemical accuracy (ca. 0.05 eV) when applied to standard benchmarks like the QM9 database
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>–
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup>. Similarly, ML models can be applied to conformational space (e.g., when trained on ab initio molecular dynamics trajectories) or even interpolate across chemical and conformational space at the same time
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>–
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup>.
+</p>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Similarly, the sensitivity of the XANES spectra to particle sizes and shapes, and the reduction of the amplitude in XANES features (see 
+ <xref rid="fig10" ref-type="fig">Figure 
+  <xref rid="fig10" ref-type="fig">10</xref>
+ </xref>a) with increasing fraction of undercoordinated sites have been reported decades ago.
+ <sup>
+  <xref ref-type="bibr" rid="ref35">35</xref>,
+  <xref ref-type="bibr" rid="ref36">36</xref>,
+  <xref ref-type="bibr" rid="ref194">194</xref>−
+  <xref ref-type="bibr" rid="ref197">197</xref>
+ </sup> However, a practical approach to extract the coordination numbers from the XANES spectra was lacking. It was recently demonstrated that this problem can be addressed by supervised machine learning and artificial neural networks (NNs).
+ <sup>
+  <xref ref-type="bibr" rid="ref37">37</xref>,
+  <xref ref-type="bibr" rid="ref38">38</xref>
+ </sup> In this approach, instead of trying to write an explicit analytic relationship between XANES features and the structure descriptors, such a relationship is established numerically, by exposing an algorithm to many thousands of spectra (training data), for which the corresponding structure is known. Such spectra can be obtained in theoretical XANES simulations with FEFF or FDMNES codes. In the case of the NN method, the relationship between the spectral features and the structure is parametrized as a network of nodes, 
+ <xref rid="fig10" ref-type="fig">Figure 
+  <xref rid="fig10" ref-type="fig">10</xref>
+ </xref>b, where each of the nodes performs a simple mathematical operation 
+ <italic>f</italic>({
+ <italic>x</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>},{θ
+ <sub>
+  <italic>i</italic>
+ </sub>}) on its inputs {
+ <italic>x</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>}, subject to parameters (weights) {θ
+ <sub>
+  <italic>i</italic>
+ </sub>}, and produces a single output that can be similarly processed by the nodes in the consequent layers. The values of the nodes in the first layer (input layer) are initialized by the normalized μ(
+ <italic>E</italic>) values measured at a set of different energy points {
+ <italic>E</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>}. The values of the nodes in the last layer (output layer) correspond to the structure parameter of interest (e.g., average coordination numbers). During the training step, all weights {θ
+ <sub>
+  <italic>i</italic>
+ </sub>} are optimized via a backpropagation algorithm
+ <sup>
+  <xref ref-type="bibr" rid="ref198">198</xref>
+ </sup> so that for the training spectra, the NN yields the structure parameters that match their known true values. It was demonstrated in ref (
+ <xref ref-type="bibr" rid="ref38">38</xref>) that the coordination numbers extracted by NN from XANES data for the first four coordination shells for model Pt NPs are in a good agreement with the results of the EXAFS data analysis (
+ <xref rid="fig10" ref-type="fig">Figure 
+  <xref rid="fig10" ref-type="fig">10</xref>
+ </xref>c). The ML-based approach, developed initially for the determination of coordination numbers in metallic NPs, was subsequently generalized for the determination of interatomic distances,
+ <sup>
+  <xref ref-type="bibr" rid="ref37">37</xref>
+ </sup> bonding angles,
+ <sup>
+  <xref ref-type="bibr" rid="ref34">34</xref>
+ </sup> the analysis of oxidized
+ <sup>
+  <xref ref-type="bibr" rid="ref199">199</xref>
+ </sup> and bimetallic
+ <sup>
+  <xref ref-type="bibr" rid="ref200">200</xref>
+ </sup> NPs, and the interpretation of polarization-dependent XANES spectra.
+ <sup>
+  <xref ref-type="bibr" rid="ref73">73</xref>
+ </sup> A similar approach was also used for the interpretation of EELS spectra.
+ <sup>
+  <xref ref-type="bibr" rid="ref201">201</xref>
+ </sup> See ref (
+ <xref ref-type="bibr" rid="ref12">12</xref>) for more details about ML-based XANES analysis and review of its recent applications.
+</p>

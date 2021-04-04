@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>LCA-XANES and EXAFS approaches are both limited by the fact that pure phases of the material need to correspond to well-defined bulk-like materials to determine the concentrations of the different species reliably. This implies being able to know in advance the reference spectra 
+ <italic>s</italic>
+ <sub>
+  <italic>j</italic>
+ </sub>(
+ <italic>E</italic>) or the number of neighbors in the pure phases (
+ <italic>n</italic>
+ <sub>
+  <italic>M</italic>
+ </sub> and 
+ <italic>n</italic>
+ <sub>
+  <italic>O</italic>
+ </sub>). This is, however, not always the case for catalysts under working conditions, where the active phases are often significantly disordered and undercoordinated. In addition, XANES and EXAFS features can be distorted by self-absorption effects, resulting in systematic errors in LCA-XANES and EXAFS data fitting. In these situations, advanced linear-algebra based approaches such as principal component analysis (PCA),
+ <sup>
+  <xref ref-type="bibr" rid="ref370">370</xref>−
+  <xref ref-type="bibr" rid="ref373">373</xref>
+ </sup> multivariate curve resolution with alternating least-squares (MCR-ALS),
+ <sup>
+  <xref ref-type="bibr" rid="ref374">374</xref>−
+  <xref ref-type="bibr" rid="ref376">376</xref>
+ </sup> and other blind signal separation (BSS) methods can be more promising.
+ <sup>
+  <xref ref-type="bibr" rid="ref202">202</xref>,
+  <xref ref-type="bibr" rid="ref377">377</xref>,
+  <xref ref-type="bibr" rid="ref378">378</xref>
+ </sup> In all of these methods, instead of an individual spectrum, a series of spectra are analyzed where the weights of different components change, and where the total number of experimental spectra is normally much larger than the number of pure components, allowing one to find the approximations of concentrations and spectra for reference compounds (in BSS and MCR-ALS) or at least the total number of different species (in PCA) present in the sample. Refs (
+ <xref ref-type="bibr" rid="ref12">12</xref> and 
+ <xref ref-type="bibr" rid="ref34">34</xref>) provide recent reviews of PCA, MCR-ALS, and BSS techniques and examples of their applications in catalysis.
+</p>

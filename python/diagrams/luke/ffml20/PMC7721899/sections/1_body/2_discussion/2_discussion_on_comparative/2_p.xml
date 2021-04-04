@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">From Tables 
+ <xref rid="Tab1" ref-type="table">1</xref> and 
+ <xref rid="Tab2" ref-type="table">2</xref>, it is observed that the RF algorithm yield the least MSE and highest R
+ <sup>2</sup> value for the train set. However, RF suffered from low-level prediction accuracy. A similar observation is also reported for silicate glass in the literature
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup>. Results in Tables 
+ <xref rid="Tab1" ref-type="table">1</xref> and 
+ <xref rid="Tab2" ref-type="table">2</xref> also suggest that RF offers better predictability than DT. This is because RF trains a large number of trees individually and its prediction accuracy depends on the decision trees ensemble. On the other hand, the DT algorithm depends on a nodal binary split. Also, in the DT algorithm, based on the selected features and values, the observations are placed to the left node or the daughter node. In the case of the RF algorithm, the output for all the trees is averaged which incorporates non-linearity especially when enough number of trees are used. This is the reason why RF could offer excellent interpolation for the training set but fair prediction of the test set.
+</p>

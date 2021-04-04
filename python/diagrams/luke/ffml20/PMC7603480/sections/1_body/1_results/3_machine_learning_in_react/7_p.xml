@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">We therefore decided not to follow this strict separation of training and prediction for the RE MAEs shown in Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>. This also explains why the RE error is in some cases actually lower than the AE error, contrary to expectation: The RE MAE benefits from the fact that the prediction error of all tested models is somewhat lower on the training sets (see SI). Indeed, KRR models can in practice display a negligible error on the training set if the regularization parameter is chosen to be very small, as is advocated by some authors
+ <sup>
+  <xref ref-type="bibr" rid="CR64">64</xref>
+ </sup>.
+</p>

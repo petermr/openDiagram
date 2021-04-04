@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The antibiotic release profiles were modeled with the Peppas–Sahlin equation (Equation (13)) [
+ <xref rid="B50-polymers-12-01544" ref-type="bibr">50</xref>]:
+ <disp-formula id="FD13-polymers-12-01544">
+  <label>(13)</label>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi mathvariant="normal">F</mi>
+        <mi mathvariant="normal">t</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi mathvariant="normal">F</mi>
+        <mrow>
+         <mi mathvariant="normal">t</mi>
+         <mo>,</mo>
+         <mi>equil</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mi mathvariant="normal">k</mi>
+       </mrow>
+      </mrow>
+      <mn>1</mn>
+     </msub>
+     <mo>·</mo>
+     <msup>
+      <mi mathvariant="normal">t</mi>
+      <mi mathvariant="normal">n</mi>
+     </msup>
+     <mo>+</mo>
+     <msub>
+      <mi mathvariant="normal">k</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>·</mo>
+     <msup>
+      <mi mathvariant="normal">t</mi>
+      <mrow>
+       <mn>2</mn>
+       <mi mathvariant="normal">n</mi>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

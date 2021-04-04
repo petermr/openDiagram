@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The application of this conventional EXAFS data fitting approach to real catalysts under working conditions is nevertheless hindered by the fact that the disorder in such materials can exceed significantly the range where a Gaussian approximation is valid. Small NPs, materials experiencing structural transformations, and materials operating at high temperature are catalytically relevant systems, and all exhibit significant static and thermal disorder. In addition, a non-Gaussian distribution of bond-lengths may be a result of a structure relaxation near the surface, interactions with adsorbates, particle-support interactions, or the coexistence of different populations of NPs with slightly different structures.
+ <sup>
+  <xref ref-type="bibr" rid="ref162">162</xref>−
+  <xref ref-type="bibr" rid="ref167">167</xref>
+ </sup> It has been demonstrated by Claussen and others that in this case EXAFS data fitting may result in significantly underestimated coordination numbers, interatomic distances, and disorder factors.
+ <sup>
+  <xref ref-type="bibr" rid="ref23">23</xref>,
+  <xref ref-type="bibr" rid="ref166">166</xref>−
+  <xref ref-type="bibr" rid="ref174">174</xref>
+ </sup> A dramatic illustration of this problem is the analysis of Zn K-edge EXAFS data of a bulk Zn foil, 
+ <xref rid="fig8" ref-type="fig">Figure 
+  <xref rid="fig8" ref-type="fig">8</xref>
+ </xref>. For this material, EXAFS fitting in Gaussian approximation applied to the first coordination shell contribution provides quite a good description of the experimental data (
+ <xref rid="fig8" ref-type="fig">Figure 
+  <xref rid="fig8" ref-type="fig">8</xref>
+ </xref>a). The obtained coordination number value (6.4 ± 0.8), however, is very far from the actual number of nearest neighbors (12) in this material. Thus, the error in the coordination number estimation even in the case of a perfectly homogeneous bulk sample (Zn foil) and very good signal-to-noise ratio can be almost 50%. The reason for this effect is the distorted hcp-structure of bulk Zn, which results in a very asymmetric shape of the Zn–Zn RDF peaks. When results of conventional EXAFS fitting are compared with those from more advanced reverse Monte Carlo (RMC) simulations (discussed in 
+ <xref rid="sec4.5" ref-type="other">Section 
+  <xref rid="sec4.5" ref-type="other">4.5</xref>
+ </xref>), one can note that the conventional EXAFS fitting tries to reproduce the region in the RDF around the most-probable interatomic distance, which has the largest influence on the agreement between experiment and simulations. Significant errors in the RDF further from the RDF peak maximum remain unnoticed by conventional analysis. This example illustrates that even a seemingly small misfit of the experimental data can actually indicate significant problems with the structure model. It also demonstrates clearly that coordination numbers and interatomic distances can be strongly underestimated by conventional EXAFS data fitting in the cases when large disorder (static or thermal) is present. This fact needs to be considered, when these EXAFS-derived descriptors are used, for instance, to determine particle sizes.
+</p>

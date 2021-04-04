@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The origin of the EXAFS signal is the interactions between the photoelectron excited from a deep core level of the absorbing atom by an incident X-ray photon, with the electrostatic potentials of neighboring atoms. The presence of neighboring atoms perturbs slightly the absorption probability, resulting in the oscillatory structure of the absorption coefficient μ(
+ <italic>E</italic>) on top of smooth variations of the absorption probability μ
+ <sub>0</sub>(
+ <italic>E</italic>) that are not related to the sample structure, 
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>a. Commonly, the normalization of the EXAFS component χ(
+ <italic>E</italic>) is carried out as
+ <disp-formula id="eq5">
+  <graphic xlink:href="cr0c00396_m005" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>5</label>
+ </disp-formula>where μ(
+ <italic>E</italic>) is the experimentally measured spectrum, and μ
+ <sub>0</sub>(
+ <italic>E</italic>) is the smooth background function that can be constructed by smoothing the experimental signal via polynomial fitting or spline interpolation.
+ <sup>
+  <xref ref-type="bibr" rid="ref55">55</xref>,
+  <xref ref-type="bibr" rid="ref56">56</xref>
+ </sup> Δμ
+ <sub>0</sub>(
+ <italic>E</italic>
+ <sub>0</sub>) is the absorption jump value, calculated as the difference between two smooth functions that describe the background before the absorption edge (pre-edge region) and after the absorption edge (postedge region), respectively, calculated at the reference energy value 
+ <italic>E</italic>
+ <sub>0</sub>.
+ <sup>
+  <xref ref-type="bibr" rid="ref55">55</xref>
+ </sup> As discussed above, 
+ <italic>E</italic>
+ <sub>0</sub> corresponds to the minimal necessary energy required to excite the photoelectron to a delocalized state. Commonly, the maximum point of the first derivative of μ(
+ <italic>E</italic>) is used as the approximation for the 
+ <italic>E</italic>
+ <sub>0</sub> value, although other conventions also may be employed. Next, the EXAFS signal is converted from energy space to photoelectron wavenumber (
+ <italic>k</italic>-) space by using the relation:
+ <disp-formula id="eq6">
+  <graphic xlink:href="cr0c00396_m006" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>6</label>
+ </disp-formula>Here 
+ <italic>ℏ</italic> is Planck’s constant, and 
+ <italic>m</italic>
+ <sub>
+  <italic>e</italic>
+ </sub> is the electron mass. As an example, 
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>b shows Cu K-edge EXAFS spectra for oxidized Cu NPs.
+ <sup>
+  <xref ref-type="bibr" rid="ref25">25</xref>
+ </sup> The choice of background fitting procedure and the 
+ <italic>E</italic>
+ <sub>0</sub> value selected can affect the appearance of the EXAFS features significantly, especially at low 
+ <italic>k</italic>-values, and therefore, it should be carried out systematically for all spectra in the analyzed series.
+</p>

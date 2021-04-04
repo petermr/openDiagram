@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All simulations were carried out with the Gromacs 5.1 package [
+ <xref rid="B68-molecules-25-05570" ref-type="bibr">68</xref>] within the NpT ensemble by adopting the leapfrog algorithm to integrate the equations of motion with a time step of 2 fs at a fixed temperature (323 K) and pressure (1 bar) [
+ <xref rid="B69-molecules-25-05570" ref-type="bibr">69</xref>]. The energy contributions in the potential energy function for bonded interactions were bond stretching, angle bending and dihedral torsion, whilst non-bonded inter-actions were modelled by Lennard–Jones (LJ) and Coulombic terms. The force-switch van der Waals potential modifier was employed for LJ, where the energy decays smoothly to zero between 0.9 and 1.2 nm, while long-range Coulombic interactions were evaluated by particlemesh Ewald (PME) [
+ <xref rid="B70-molecules-25-05570" ref-type="bibr">70</xref>], up to a cut-off radius of 1.2 nm. The temperature and pressure were fixed at 323 K and 1 bar through the Nose–Hoover thermostat [
+ <xref rid="B71-molecules-25-05570" ref-type="bibr">71</xref>] and the Parrinello–Rahman barostat [
+ <xref rid="B72-molecules-25-05570" ref-type="bibr">72</xref>], respectively. All bonds were constrained by the LINCS algorithm during the simulations [
+ <xref rid="B73-molecules-25-05570" ref-type="bibr">73</xref>]. The force field parameters for [P
+ <sub>44414</sub>]Cl were taken from the IL OPLS-AA all-atom force field developed by Canongia Lopes and Padua [
+ <xref rid="B74-molecules-25-05570" ref-type="bibr">74</xref>] and water molecules were represented by the SPC/E model [
+ <xref rid="B75-molecules-25-05570" ref-type="bibr">75</xref>]. In all simulations, acetic acid was considered as protonated and its parameter was taken from the OPLS-AA forcefield. Cubic boxes with periodic boundary conditions were used placing all the molecules randomly, followed by an equilibrium process. All systems contain 200 [P
+ <sub>44414</sub>]Cl ion pairs, 580 acetic acid molecules and a varied number of water molecules. The composition of the system simulated are summarised in 
+ <xref rid="molecules-25-05570-t002" ref-type="table">Table 2</xref>. For all simulations, the following equilibration protocol was followed: an energy minimization step using the steepest descent algorithm to prevent short-range contacts between atoms prior to two short equilibrium runs in the NVT and NpT ensembles, respectively. Afterwards, all systems were run for 100 ns of simulation time in the NpT ensemble. Simulation outputs were visualized using the VMD software package [
+ <xref rid="B76-molecules-25-05570" ref-type="bibr">76</xref>] and the spatial distribution functions (SDF) and domain analysis were analyzed using the TRAVIS package [
+ <xref rid="B54-molecules-25-05570" ref-type="bibr">54</xref>,
+ <xref rid="B55-molecules-25-05570" ref-type="bibr">55</xref>].
+</p>

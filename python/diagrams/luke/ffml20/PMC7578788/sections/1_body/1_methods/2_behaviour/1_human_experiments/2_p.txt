@@ -1,0 +1,11 @@
+0: Participants performed a visuomotor adaptation task requiring them to use a joystick to control an on-screen cursor 21,  27.
+1: Each trial was initiated by the participant depressing the joystick trigger.
+2: One of four possible black target dots (45, 135, 225, or 315 from vertical) immediately appeared at the edge of an invisible boundary circle centred on the starting position of the user-controlled green dot, forming the task arena (Fig.
+3: 1A,B).
+4: Targets were pseudorandomly presented in blocks of 20 trials, with each target location presented 5 times within each block.
+5: Participants were instructed to move the joystick as quickly and accurately as possible to the target, so the movements were effectively ballistic.
+6: Trials that exceeded 750 ms between target presentation and completion elicited an on-screen prompt to speed up the movements.
+7: The joystick was positioned in front of the dominant (right) hand to the right-hand side of the screen, enabling a comfortable grasp whilst removing the hand from the participants view whilst engaged in the task.
+8: The task was run with Matlab using Psychtoolbox version 3.
+9: Task code was modified from that made publicly available by D. Goldschmidt at  https://github.com/degoldschmidt/motor-experiments.
+10: At the end of each individual trial, the green cursor froze at the point of crossing the boundary of the task space until the participant began the next trial, delivering a stable accuracy marker after the rapid movement.

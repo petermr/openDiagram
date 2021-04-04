@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To assess further the effect of the membrane composition, we have altered the membrane composition by including cholesterol (
+ <xref rid="fig8" ref-type="fig">Figure 
+  <xref rid="fig8" ref-type="fig">8</xref>
+ </xref>) with a DOPC/cholesterol ratio of 2:1. Here, results of the maximum force and the nonequilibrium work in the case of pulling velocity 
+ <italic>v</italic> = 5 nm/ns and the CHARMM36 force-field as a function of the logBB and logPS experimental values are shown in 
+ <xref rid="fig9" ref-type="fig">Figure 
+  <xref rid="fig9" ref-type="fig">9</xref>
+ </xref>. The estimated 
+ <italic>R</italic>
+ <sup>2</sup> values for the correlation are in very good agreement with the membrane cases without the cholesterol. Indeed, the addition of cholesterol does not affect the correlation. The results of 
+ <xref rid="fig9" ref-type="fig">Figure 
+  <xref rid="fig9" ref-type="fig">9</xref>
+ </xref> are documented in 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Table S4</ext-link> for each compound. While the correlation of the maximum force, 
+ <italic>F</italic>
+ <sub>max</sub>, and the nonequilibrium work, 
+ <italic>W</italic>
+ <sub>neq</sub>, with the logBB and logPS experimental values is not affected by the membrane model, the absolute values of 
+ <italic>F</italic>
+ <sub>max</sub> (as a result also those of 
+ <italic>W</italic>
+ <sub>neq</sub>) have increased by a factor of two (an example of a force–time profile is shown in Figure S12 in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>). Hence, we conclude that the presence of cholesterol induces a larger resistance to the compound. In other words, the permittivity of the membrane is significantly reduced in a proportional way without affecting the correlation between the experimental and the simulation predictions.
+</p>

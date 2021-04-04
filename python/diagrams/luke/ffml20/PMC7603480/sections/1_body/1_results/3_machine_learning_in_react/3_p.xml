@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">These observations can be understood in light of the fact that not all molecules are equally weighted in a reaction network. As can be seen in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>, some molecules are central hubs in the network (dark green), whereas others lie on the periphery and only contribute to few reactions (white)
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>,
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. The existence of such hubs, which correspond to molecules with dramatically higher importance, is a fundamental difference between reaction space and the homogeneously weighted chemical compound space. In Rad-6-RE, the most important such hubs are small molecules that correspond to functional groups (OH, CH
+ <sub>3</sub>, etc.) and the isolated atoms C, H and O. As mentioned previously, the extensive kernel distance 
+ <italic>D</italic>
+ <sub>ext</sub> will consider all smaller molecules to be more similar in terms of their kernel distance (Eq. (
+ <xref rid="Equ5" ref-type="">5</xref>)), because the terms 
+ <italic>K</italic>
+ <sub>ext</sub>(
+ <italic>A</italic>, 
+ <italic>A</italic>) and 
+ <italic>K</italic>
+ <sub>ext</sub>(
+ <italic>B</italic>, 
+ <italic>B</italic>) scale with the number of atoms. Small molecules are therefore selected later in an extensive FPS selection, and are consequently absent from the smaller training sets. This can lead to relatively large errors on important hub molecules, which will consequently have an out-sized impact on the RE error.
+</p>

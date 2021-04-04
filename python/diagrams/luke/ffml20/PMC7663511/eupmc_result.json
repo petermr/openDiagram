@@ -1,0 +1,617 @@
+{
+  "id": [
+    "33153137"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33153137"
+  ],
+  "pmcid": [
+    "PMC7663511"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7663511"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ijms21218230"
+  ],
+  "title": [
+    "Kinetic and Equilibrium Studies of Doxorubicin Adsorption onto Carbon Nanotubes."
+  ],
+  "authorString": [
+    "Chudoba D, Łudzik K, Jażdżewska M, Wołoszczuk S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Chudoba D"
+          ],
+          "firstName": [
+            "Dorota"
+          ],
+          "lastName": [
+            "Chudoba"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2469-3046",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Physics, Adam Mickiewicz University, 61-614 Poznan, Poland."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Frank Laboratory of Neutron Physics, Joint Institute for Nuclear Research, 141980 Dubna, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Łudzik K"
+          ],
+          "firstName": [
+            "Katarzyna"
+          ],
+          "lastName": [
+            "Łudzik"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1749-808X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Frank Laboratory of Neutron Physics, Joint Institute for Nuclear Research, 141980 Dubna, Russia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Physical Chemistry, University of Lodz, 91-403 Lodz, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jażdżewska M"
+          ],
+          "firstName": [
+            "Monika"
+          ],
+          "lastName": [
+            "Jażdżewska"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Physics, Adam Mickiewicz University, 61-614 Poznan, Poland."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Frank Laboratory of Neutron Physics, Joint Institute for Nuclear Research, 141980 Dubna, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wołoszczuk S"
+          ],
+          "firstName": [
+            "Sebastian"
+          ],
+          "lastName": [
+            "Wołoszczuk"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0249-0907",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Physics, Adam Mickiewicz University, 61-614 Poznan, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2469-3046",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0249-0907",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1749-808X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "21"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "3046892"
+      ],
+      "dateOfPublication": [
+        "2020 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "abstractText": [
+    "This study provides deep insight into the adsorption process of doxorubicin onto different types of carbon nanotubes that have been proved to show attractive properties as a drug delivery system. The main aim of the work was to propose probable adsorption mechanisms and interactions between the anticancer drug and surface of modified and pristine carbon nanotubes at blood pH. The carbon nanotubes were oxidized to optimize the absorbance efficiency relative to that of pristine multiwalled carbon nanotubes. The adsorption isotherm of the modified system was well described by the Temkin equation. It confirms that the adsorption in the system studied involves also hydrogen and covalent bonding and is exothermic in nature. The experimental kinetic curves of adsorption were fitted to different mathematical models to check if the kinetics of doxorubicin adsorption onto the modified multiwalled carbon nanotubes follows a pseudo-second-order model and the chemical sorption is bound to be the rate-limiting. On the basis of the molecular dynamics simulation, it was shown that <i>in vacuo</i> the aggregation tendency of doxorubicin molecules is far more favorable than their adsorption on pristine carbon nanotubes (CNTs). It suggests that only functionalization of the nanotube surface can affect the interaction between doxorubicin and functional groups of the carriers and increases the efficiency of the drug loading process."
+  ],
+  "affiliation": [
+    "Faculty of Physics, Adam Mickiewicz University, 61-614 Poznan, Poland."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Nanotubes, Carbon"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Doxorubicin"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PK"
+                  ],
+                  "qualifierName": [
+                    "pharmacokinetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Water Pollutants, Chemical"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PK"
+                  ],
+                  "qualifierName": [
+                    "pharmacokinetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Calorimetry, Differential Scanning"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Spectrometry, X-Ray Emission"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Thermogravimetry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Kinetics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adsorption"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hydrogen-Ion Concentration"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Surface Properties"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computer Simulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Dynamics Simulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hydrophobic and Hydrophilic Interactions"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Molecular dynamics simulation",
+        "doxorubicin",
+        "Carbon nanotubes",
+        "adsorption",
+        "Drug Delivery"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Water Pollutants, Chemical"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Nanotubes, Carbon"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Doxorubicin"
+          ],
+          "registryNumber": [
+            "80168379AG"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms21218230"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7663511"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7663511?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2021-03-11"
+  ],
+  "dateOfCreation": [
+    "2020-11-06"
+  ],
+  "firstIndexDate": [
+    "2020-11-07"
+  ],
+  "fullTextReceivedDate": [
+    "2020-11-16"
+  ],
+  "dateOfRevision": [
+    "2021-03-11"
+  ],
+  "electronicPublicationDate": [
+    "2020-11-03"
+  ],
+  "firstPublicationDate": [
+    "2020-11-03"
+  ]
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl1">
+ <label>Table 1</label>
+ <caption>
+  <p>Flowability parameters of CD-MOF and SCU@CD-MOF powders.</p>
+ </caption>
+ <alt-text id="alttext0050">Table 1</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Sample</th>
+    <th>Angle of repose (°)</th>
+    <th>Bulk density (g/mL)</th>
+    <th>Tapped density (g/mL)</th>
+    <th>Carr's index (%)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>CD-MOF</td>
+    <td>48.10±2.50</td>
+    <td>0.21±0.01</td>
+    <td>0.43±0.01</td>
+    <td>50.10±0.02</td>
+   </tr>
+   <tr>
+    <td>SCU@CD-MOF</td>
+    <td>52.22±1.52</td>
+    <td>0.20±0.01</td>
+    <td>0.46±0.02</td>
+    <td>56.08±0.14
+     <xref rid="tbltblfn1fna" ref-type="table-fn">a</xref>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>
+    <italic>P</italic> &lt; 0.05. Data are presented as mean ± SD (
+    <italic>n</italic> = 3).
+   </p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbltblfn1fna">
+   <label>a</label>
+   <p id="ntpara0020">Significantly different compared to CD-MOF.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

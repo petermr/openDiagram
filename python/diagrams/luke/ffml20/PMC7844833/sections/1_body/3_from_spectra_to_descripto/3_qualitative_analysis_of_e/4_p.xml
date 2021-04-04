@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A convenient way to visualize the neighbor-specific information is to rely on a wavelet transformation (WT) of the EXAFS spectra.
+ <sup>
+  <xref ref-type="bibr" rid="ref144">144</xref>−
+  <xref ref-type="bibr" rid="ref146">146</xref>
+ </sup> Similarly to Fourier transform, the wavelet transform is also an integral transformation that provides information about the frequency content in the analyzed spectrum. Unlike the FT, the WT provides a two-dimensional representation of the analyzed spectrum in 
+ <italic>k</italic>- and 
+ <italic>R</italic>-spaces simultaneously and shows not only what frequencies are present but also to which part of the spectrum they contribute, thus allowing one to capture the variations of the 
+ <italic>F</italic>
+ <sub>
+  <italic>p</italic>
+ </sub> and ϕ
+ <sub>
+  <italic>p</italic>
+ </sub> functions and directly distinguish between different types of neighbors. The Pd K-edge EXAFS signal and its Fourier and wavelet-transformation for Pd
+ <sub>74</sub>Au
+ <sub>73</sub> NPs are shown in 
+ <xref rid="fig7" ref-type="fig">Figure 
+  <xref rid="fig7" ref-type="fig">7</xref>
+ </xref>.
+ <sup>
+  <xref ref-type="bibr" rid="ref147">147</xref>
+ </sup> Partial contributions of Pd–Au and Pd–Pd bonds to the WT-EXAFS spectrum are shown separately. Note that due to the random alloy structure of this model NP, the average number of Pd and Au neighbors around each Pd atom are roughly the same, and the corresponding Pd–Au and Pd–Pd distances are also similar. The wavelet transforms for Pd–Pd and Pd–Au bond contributions, however, are very different. In both cases, the main feature in the WT-EXAFS spectra (feature A in the Pd–Pd contribution and feature C in the Pd–Au contribution) due to the Ramsauer-Townsend effect is split in two branches. However, while for the Pd–Au contribution, both branches (C′ and C′′) have approximately the same intensity, for the Pd–Pd contribution branch, A′ at higher 
+ <italic>R</italic> values is much more intense. This difference thus allows an easy distinction between Pd-rich and Au-rich materials using their EXAFS spectra
+ <sup>
+  <xref ref-type="bibr" rid="ref147">147</xref>
+ </sup> and illustrates the usefulness of the WT method for the analysis of the materials composition.
+</p>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">A Gaussian process is defined as a collection of random variables among which a finite subset has a joint Gaussian distribution
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>. One can implement it to describe a distribution over a given set of input(x) and output datasets (y). For a linear regression model with noise 
+ <inline-formula id="IEq8">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\epsilon$$\end{document}</tex-math>
+   <math id="M18">
+    <mi>ϵ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>,
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ y = f\left( x \right) + \epsilon ; \epsilon \sim {\mathcal{N}}\left( {0,\sigma_{\epsilon }^{2} } \right) $$\end{document}</tex-math>
+   <math id="M20" display="block">
+    <mrow>
+     <mi>y</mi>
+     <mo>=</mo>
+     <mi>f</mi>
+     <mfenced close=")" open="(">
+      <mi>x</mi>
+     </mfenced>
+     <mo>+</mo>
+     <mi>ϵ</mi>
+     <mo>;</mo>
+     <mi>ϵ</mi>
+     <mo>∼</mo>
+     <mi mathvariant="script">N</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <msubsup>
+        <mi>σ</mi>
+        <mrow>
+         <mi>ϵ</mi>
+        </mrow>
+        <mn>2</mn>
+       </msubsup>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where the noise is assumed to follow an independent, identically distributed Gaussian distribution with zero mean and variance (
+ <inline-formula id="IEq9">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sigma_{\epsilon }^{2}$$\end{document}</tex-math>
+   <math id="M22">
+    <msubsup>
+     <mi>σ</mi>
+     <mrow>
+      <mi>ϵ</mi>
+     </mrow>
+     <mn>2</mn>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>). Without losing generality, a Gaussian process can be completely described by its mean function and covariance function,
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ f\left( x \right)\sim {\mathcal{G}\mathcal{P}}\left( {m\left( x \right),k\left( {x,x^{\prime}} \right)} \right) $$\end{document}</tex-math>
+   <math id="M24" display="block">
+    <mrow>
+     <mi>f</mi>
+     <mfenced close=")" open="(">
+      <mi>x</mi>
+     </mfenced>
+     <mo>∼</mo>
+     <mrow>
+      <mi mathvariant="script">G</mi>
+      <mi mathvariant="script">P</mi>
+     </mrow>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>m</mi>
+       <mfenced close=")" open="(">
+        <mi>x</mi>
+       </mfenced>
+       <mo>,</mo>
+       <mi>k</mi>
+       <mfenced close=")" open="(">
+        <mrow>
+         <mi>x</mi>
+         <mo>,</mo>
+         <msup>
+          <mi>x</mi>
+          <mo>′</mo>
+         </msup>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathcal{G}\mathcal{P}}\left( \cdot \right)$$\end{document}</tex-math>
+   <math id="M26">
+    <mrow>
+     <mrow>
+      <mi mathvariant="script">G</mi>
+      <mi mathvariant="script">P</mi>
+     </mrow>
+     <mfenced close=")" open="(">
+      <mo>·</mo>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the specified Gaussian process, 
+ <inline-formula id="IEq11">
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$m\left( x \right)$$\end{document}</tex-math>
+   <math id="M28">
+    <mrow>
+     <mi>m</mi>
+     <mfenced close=")" open="(">
+      <mi>x</mi>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the mean function which computed the expected values of output for a given input, and 
+ <inline-formula id="IEq12">
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$k\left( {x,x^{\prime } } \right)$$\end{document}</tex-math>
+   <math id="M30">
+    <mrow>
+     <mi>k</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <msup>
+        <mi>x</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq12.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the covariance function, a Gaussian prior function that captures the extent of correlation between function outputs for the given sets of inputs. The covariance function is expressed as:
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ k\left( {x,x^{\prime } } \right) = E\left[ {f\left( x \right) - m\left( x \right), f\left( {x^{\prime } } \right) - m\left( {x^{\prime } } \right)} \right] $$\end{document}</tex-math>
+   <math id="M32" display="block">
+    <mrow>
+     <mi>k</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <msup>
+        <mi>x</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <mi>E</mi>
+     <mfenced close="]" open="[">
+      <mrow>
+       <mi>f</mi>
+       <mfenced close=")" open="(">
+        <mi>x</mi>
+       </mfenced>
+       <mo>-</mo>
+       <mi>m</mi>
+       <mfenced close=")" open="(">
+        <mi>x</mi>
+       </mfenced>
+       <mo>,</mo>
+       <mi>f</mi>
+       <mfenced close=")" open="(">
+        <msup>
+         <mi>x</mi>
+         <mo>′</mo>
+        </msup>
+       </mfenced>
+       <mo>-</mo>
+       <mi>m</mi>
+       <mfenced close=")" open="(">
+        <msup>
+         <mi>x</mi>
+         <mo>′</mo>
+        </msup>
+       </mfenced>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

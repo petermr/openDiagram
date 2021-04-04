@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The recently developed approach that addresses these issues and, similarly as RMC, takes into account the non-Gaussian shapes of bond length distributions and the contributions of distant coordination shells, is a machine-learning based analysis of the EXAFS data. Similarly as in the case of the XANES data analysis discussed in 
+ <xref rid="sec4.4" ref-type="other">Section 
+  <xref rid="sec4.4" ref-type="other">4.4</xref>
+ </xref>, here the mathematical model (e.g., an artificial neural network) is created and trained to establish the relationship between spectral features and the materials structure. In the case of the EXAFS analysis, much richer information about the materials structure can be extracted as compared to the case of the ML-based XANES analysis approach. In particular, the structure can be directly described with a set of partial RDFs, parametrized as a histogram of bond lengths. The output of each of the nodes of the neural network output layer can then be assigned to a height of the corresponding histogram bin, 
+ <xref rid="fig11" ref-type="fig">Figure 
+  <xref rid="fig11" ref-type="fig">11</xref>
+ </xref>a. Once the RDF is obtained, the corresponding structural parameters can be calculated simply by RDF integration using 
+ <xref rid="eq9" ref-type="disp-formula">eq 
+  <xref rid="eq9" ref-type="disp-formula">9</xref>
+ </xref> (for coordination numbers) and analogous expressions for the average interatomic distances and disorder factors.
+ <sup>
+  <xref ref-type="bibr" rid="ref168">168</xref>
+ </sup>
+</p>

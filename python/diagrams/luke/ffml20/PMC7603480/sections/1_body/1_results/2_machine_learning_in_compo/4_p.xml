@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">Fully optimized DFT geometries will unfortunately not be available for ML training and prediction in a realistic application. If they were, the DFT energy would be known and the ML prediction would be redundant
+ <sup>
+  <xref ref-type="bibr" rid="CR60">60</xref>
+ </sup>. We therefore also used simple forcefield geometries (based on the universal forcefield, UFF)
+ <sup>
+  <xref ref-type="bibr" rid="CR61">61</xref>
+ </sup> for training and prediction, still using the ground-state energies of relaxed DFT geometries as the target property. As shown in Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>c and detailed in the SI, all trends discussed for the DFT geometries are unchanged, but the MAEs are somewhat higher, roughly by a factor of two. Such inferior performance of ML models using approximate geometries has also been observed for closed-shell data sets like QM9, but it is more pronounced here
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. This reflects the fact that general forcefields like UFF are not designed for the description of radicals, which make up a large part of Rad-6. In this context, semi-empirical electronic structure methods might offer an alternative low-cost method for more reliable geometries
+ <sup>
+  <xref ref-type="bibr" rid="CR62">62</xref>,
+  <xref ref-type="bibr" rid="CR63">63</xref>
+ </sup>. Note however that such methods will invariably afford some amount of rearrangement and decomposition upon geometry optimization, which would introduce a mismatch between the structure used to build the SOAP representation and the structure for which the target energies are computed. This could in principle be mitigated by using constrained relaxations, but defining universal geometrical constraints in a high-throughput setting is not trivial.
+</p>

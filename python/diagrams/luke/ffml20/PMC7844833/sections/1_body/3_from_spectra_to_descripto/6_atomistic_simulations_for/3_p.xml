@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Nevertheless, even the most sophisticated theoretical modeling approach cannot reproduce perfectly the complexity of the real materials structure, and even a small error in interatomic distances (few picometers) can result in a noticeable discrepancy between the experimental and modeled signals. A significantly better agreement with experimental data can be achieved if the atomic coordinates in the structure model are optimized to ensure an as good as possible match with the experimental measurements. This idea underlies a reverse Monte Carlo method for EXAFS data fitting. Originally employed by McGreevy and Puztai
+ <sup>
+  <xref ref-type="bibr" rid="ref227">227</xref>,
+  <xref ref-type="bibr" rid="ref228">228</xref>
+ </sup> for the interpretation of neutron and X-ray scattering data, the RMC is also getting increasingly popular for the interpretation of EXAFS data.
+ <sup>
+  <xref ref-type="bibr" rid="ref174">174</xref>,
+  <xref ref-type="bibr" rid="ref229">229</xref>−
+  <xref ref-type="bibr" rid="ref235">235</xref>
+ </sup> In this approach, atomic coordinates are optimized in an iterative stochastic process. At each iteration, an update to the structure is proposed, for example, small random displacements are applied to all atoms or a selected subset of atoms in the model, and the corresponding theoretical model-averaged EXAFS spectrum is recalculated and compared with the experimental data. If the agreement is improved, the proposed update is accepted. If the agreement gets worse, the proposed update can still be accepted with some probability to avoid being trapped in local minima, or else the model is returned to the previous state. After many thousands of such iterations, a good agreement between simulated and experimental data can be obtained, provided that the initial structure model was not too far away from the actual material structure. For bulk materials, a good strategy is to start with the equilibrium structure, known, for example, from XRD measurements. For nanomaterials and other disordered systems, however, the problem of having a relevant initial structure model is more severe and limits significantly the applications of the RMC method for studies of real catalysts. In some cases, a good result can be obtained by starting from ideal polyhedral structure models,
+ <sup>
+  <xref ref-type="bibr" rid="ref174">174</xref>
+ </sup> or structure models relaxed in MD-simulations.
+ <sup>
+  <xref ref-type="bibr" rid="ref147">147</xref>
+ </sup> A combination of MD and RMC is realized even more explicitly in the so-called hybrid-RMC approach, where the energy of the system and the discrepancy between experimental and simulated data are minimized simultaneously.
+ <sup>
+  <xref ref-type="bibr" rid="ref207">207</xref>,
+  <xref ref-type="bibr" rid="ref236">236</xref>,
+  <xref ref-type="bibr" rid="ref237">237</xref>
+ </sup>
+</p>

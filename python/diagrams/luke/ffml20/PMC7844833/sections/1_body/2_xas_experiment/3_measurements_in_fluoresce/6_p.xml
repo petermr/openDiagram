@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>An important factor to consider in XAS measurements in fluorescence mode is the self-absorption effect. For thick and concentrated samples, the energy-dependent attenuation of the incident and emitted X-ray photons results in distortions of the spectral features. Therefore, measurements in fluorescence mode are reliable only for thin or for dilute samples. While certain strategies are available to partially correct for the self-absorption effect in the collected data,
+ <sup>
+  <xref ref-type="bibr" rid="ref80">80</xref>
+ </sup> and some experimental geometries (e.g., so-called “grazing-exit” geometry) are less prone to this effect,
+ <sup>
+  <xref ref-type="bibr" rid="ref81">81</xref>,
+  <xref ref-type="bibr" rid="ref82">82</xref>
+ </sup> the only truly reliable option is to choose sample concentrations in a way such that the self-absorption is avoided. As a rule of thumb, self-absorption can be considered negligible if the absorption jump Δμ
+ <sub>0</sub>(
+ <italic>E</italic>
+ <sub>0</sub>)
+ <italic>d</italic> is below 0.1. It can be verified on a case by case basis by comparing the XAS signal collected in fluorescence mode with that from measurements in transmission mode in situations where both are available.
+</p>

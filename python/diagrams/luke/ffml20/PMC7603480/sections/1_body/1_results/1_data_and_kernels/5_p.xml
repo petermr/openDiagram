@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">Both average and sum kernels have been successfully used in ML models of the AE, but there is a crucial difference in their properties
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>,
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>: Specifically, the average kernel disregards size differences between molecules. It provides a measure for how similar the atoms in molecule 
+ <italic>A</italic> are to the ones in molecule 
+ <italic>B</italic>, on average. Meanwhile, the non-normalized sum kernel is sensitive to size differences. Consequently, models using the average kernel should be used to predict intensive quantities, and models using the sum kernel should predict extensive properties
+ <sup>
+  <xref ref-type="bibr" rid="CR53">53</xref>
+ </sup>. Herein, all models using the average kernel are therefore trained on the atomization energy per atom (AE/
+ <italic>N</italic>, an intensive quantity). The predicted AE/
+ <italic>N</italic> is afterwards simply multiplied with the number of atoms 
+ <italic>N</italic> to recover the AE. Meanwhile, the sum kernel can directly be trained on (and predict) the AE
+ <sup>
+  <xref ref-type="bibr" rid="CR53">53</xref>
+ </sup>. In the following we will refer to Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>) as the intensive kernel (
+ <italic>K</italic>
+ <sub>int</sub>) and to Eq. (
+ <xref rid="Equ4" ref-type="">4</xref>) as the extensive kernel (
+ <italic>K</italic>
+ <sub>ext</sub>). As an aside, it should be noted that using such linear combination kernels is equivalent to the partitioning of the total energy inherent, for instance, to Gaussian Approximation Potentials
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>,
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>.
+</p>

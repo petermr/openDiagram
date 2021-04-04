@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A number of different detectors can be used for the collection of fluorescence data. The so-called Lytle detector (Stern-Heald detector)
+ <sup>
+  <xref ref-type="bibr" rid="ref67">67</xref>,
+  <xref ref-type="bibr" rid="ref77">77</xref>
+ </sup> is essentially an ionization chamber optimized for the collection of fluorescence photons. Photodiode detectors such as PIPS (passivated implanted planar silicon) detectors are based on a similar principle, but instead of creating electron–ion pairs (as in ionization chambers), in the photodiodes, the passing X-rays create electron–hole pairs in a semiconducting material. The aforementioned detectors collect photons regardless of their energy. As an alternative, one may use energy-discriminating detectors,
+ <sup>
+  <xref ref-type="bibr" rid="ref78">78</xref>
+ </sup> such as germanium and silicon multichannel detectors and silicon drift detectors, which allow one to distinguish and count the number of photons with the desired energy only, with energy resolution typically around 100 eV. Such detectors allow one to minimize the background signal. However, an important limitation is that these detectors have finite counting rates and get easily saturated if the total number of incident photons increases beyond a certain threshold. Because of the finite detector dead-time (time needed by the detector after registering a photon before the next photon can be counted), the number of registered photons is always lower than the true number of incident photons, and a detector dead-time correction
+ <sup>
+  <xref ref-type="bibr" rid="ref79">79</xref>
+ </sup> is needed. These issues are especially problematic in the case of dilute samples on strongly fluorescing supports, or in cases where the components of the sample environment, such as the electrolyte layer, produce a high intensity of elastically scattered X-rays, which are also collected by the detector and have energies just slightly larger than the energy of the main fluorescence lines, thus cannot be filtered out or separated by energy-discriminating detectors.
+</p>

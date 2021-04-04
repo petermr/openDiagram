@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <title>Abstract</title>
+ <p>We present an atomistic simulation scheme for the determination of the hydration number (
+  <italic>h</italic>) of aqueous electrolyte solutions based on the calculation of the water dipole reorientation dynamics. In this methodology, the time evolution of an aqueous electrolyte solution generated from 
+  <italic>ab initio</italic> molecular dynamics simulations is used to compute the reorientation time of different water subpopulations. The value of 
+  <italic>h</italic> is determined by considering whether the reorientation time of the water subpopulations is retarded with respect to bulk‐like behavior. The application of this computational protocol to magnesium chloride (MgCl
+  <sub>2</sub>) solutions at different concentrations (0.6–2.8 mol kg
+  <sup>−1</sup>) gives 
+  <italic>h</italic> values in excellent agreement with experimental hydration numbers obtained using GHz‐to‐THz dielectric relaxation spectroscopy. This methodology is attractive because it is based on a well‐defined criterion for the definition of hydration number and provides a link with the molecular‐level processes responsible for affecting bulk solution behavior. Analysis of the 
+  <italic>ab initio</italic> molecular dynamics trajectories using radial distribution functions, hydrogen bonding statistics, vibrational density of states, water‐water hydrogen bonding lifetimes, and water dipole reorientation reveals that MgCl
+  <sub>2</sub> has a considerable influence on the hydrogen bond network compared with bulk water. These effects have been assigned to the specific strong Mg‐water interaction rather than the Cl‐water interaction.
+ </p>
+</abstract>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="polymers-12-02048-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">polymers-12-02048-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Barrier properties of Kapton, 2,7-CPPI and 2,7-CPI films.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">PIs</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">WVP
+     <break/>(g·mil·m
+     <sup>−2</sup>·day
+     <sup>−1</sup>)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">OP
+     <break/>(cm
+     <sup>3</sup>·mil·m
+     <sup>−2</sup>·day
+     <sup>−1</sup>)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">WVTR 
+     <break/>(g·m
+     <sup>−2</sup>·day
+     <sup>−1</sup>)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">OTR
+     <break/>(cm
+     <sup>3</sup>·m
+     <sup>−2</sup>·day
+     <sup>−1</sup>)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Kapton 
+     <sup>a</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">114.5 ± 2.12</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">330.7 ± 2.50</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">38.8 ± 0.72</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">112.0 ± 0.80</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,7-CPPI 
+     <sup>a</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.3 ± 0.02</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.5 ± 0.03</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.1 ± 0.01</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.2 ± 0.01</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2,7-CPI</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.15 ± 0.01</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.41 ± 0.02</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.05 ± 0.003</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.14 ± 0.007</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>
+    <sup>a</sup> The barrier properties values are obtained from Ref. [
+    <xref rid="B21-polymers-12-02048" ref-type="bibr">21</xref>].
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

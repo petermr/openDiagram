@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>An alternative approach to these analytical considerations is to rely on simulations of the particle structure. Tupy et al. used simple RMC-like methods to fit the coordination numbers extracted from conventional 
+ <italic>in situ</italic> EXAFS data fitting of PtNi catalysts for ethylene glycol reforming. The starting model was a spherical particle with a random distribution of Pt and Ni atoms, which was then iteratively updated by swapping randomly chosen atoms until a good agreement between model-averaged and experimentally obtained coordination numbers was achieved, revealing the segregation of Ni to the particle surface under reaction conditions.
+ <sup>
+  <xref ref-type="bibr" rid="ref315">315</xref>
+ </sup> A similar approach was recently applied for deciphering the distribution of Pd and Au atoms in PdAu NPs.
+ <sup>
+  <xref ref-type="bibr" rid="ref241">241</xref>
+ </sup> The advantages of this simulation-based approach are (i) its ability to account for coordination number uncertainties (e.g., misfits between experiment and model can be differently weighted, dependently on the error bar associated with a particular partial coordination number) and (ii) the possibility to include in the analysis the information about coordination numbers in more distant coordination shells. The latter are very challenging to extract for bimetallic systems using conventional approaches but can be obtained from machine-learning based EXAFS analysis. The examples of the PdAu particle models constructed based on NN-EXAFS analysis are shown in 
+ <xref rid="fig11" ref-type="fig">Figure 
+  <xref rid="fig11" ref-type="fig">11</xref>
+ </xref>d.
+</p>

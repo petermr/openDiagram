@@ -1,0 +1,13 @@
+0: Details of the electrolyte solutions considered in this study (number of ions and water molecules, average cell lengths and system concentrations) are reported in Table S2 (Supporting Information).
+1: First, classical MD simulations of 729 water molecules in the isothermalisobaric constant pressure, constant temperature (NPT) ensemble were conducted to generate an equilibrated aqueous solution.
+2: The last configuration was then used to generate MgCl 2(aq) with concentrations ranging from 0.1 to 2.8 mol kg 1 by randomly replacing  N water molecules with  N/3 Mg 2+ and 2 N/3 Cl  ions.
+3: As the formation of Mg 2+/Cl  contact ion pairs (CIPs) has been subject to some debate,[ 42,  43] for the 0.63 and 1.30 mol kg 1 solutions we generated two set of initial configurations,  with and  without CIPs.
+4: Each system was subject to 6 ns of classical MD (NPT) simulations to equilibrate the cell volume using the MgO and MgCl Lennard Jones potential parameterized by Aqvist [44] together with the SPC/E water model.
+5: [45] This combination of force fields has been shown to provide a reasonable description of the structure and dynamic properties of hydrated Mg 2+.
+6: [46] The last configuration was used to initiate  ab initio MD.
+7: Table S3 (Supporting Information) reports the percentages of contact ion pairs (CIP), solventshared ion pairs (SSHIP), and solventseparated ion pairs (SSIP) in the 0.12.8 mol kg 1 MgCl 2 solutions.
+8: The more diluted solutions (0.10.6 mol kg 1) display a nonmonotonous variation of the contact, solventshared and solventseparated ion pairs, which could be related to initial configuration effects because of the slow water dynamics around Mg 2+ (order of microseconds) [47] and the low number of ions in the simulation box.
+9: We have also conducted simulations of pure liquid water, of 0.63 mol kg 1 CsCl(aq), and of the hydrated ions Mg 2+, Ca 2+, Cs +, Na +, K + and Cl  (Table S1 in ESI).
+10: For the  ab initio MD simulations of MgCl 2(aq), each time step required, on average, 45 seconds on 288 cores of the ARCHER UK National Supercomputing Service.
+11: The  ab initio MD simulations reported herein required approximately 890k CPU hours (wallclock time  number of processors).
+12: Statistics were collected for a period of 20 ps.

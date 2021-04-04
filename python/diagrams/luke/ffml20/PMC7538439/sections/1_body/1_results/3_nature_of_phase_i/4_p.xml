@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18"> Figure 
+ <xref rid="Fig2" ref-type="fig">2</xref> plots the calculated total vibron spectra of solid and liquid hydrogen as a function of pressure from MD simulations. Both show a signature of vibron turnover above a critical pressure (about 54 GPa), consistent with the experimental observations
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>
+ </sup>. This proves that bond weakening is not required for the turnover, since our potential has a fixed bond strength. Notably, the mean bond length in Phase I decreases monotonically with pressure (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>c), again at odds with ideas of bond weakening. What appears to be happening is a competition between two effects: at higher pressures the compression of the bond causes an increase in the frequency due to anharmonicity in the potential, whereas above 54 GPa the frequency is lowered due to coupling between the molecules.
+</p>

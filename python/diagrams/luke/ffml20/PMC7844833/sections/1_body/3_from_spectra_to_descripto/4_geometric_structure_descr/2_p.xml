@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The popularity of the EXAFS method for quantitative structure analysis relies on the fact that 
+ <xref rid="eq7" ref-type="disp-formula">eqs 
+  <xref rid="eq7" ref-type="disp-formula">7</xref>
+ </xref> and 
+ <xref rid="eq8" ref-type="disp-formula">8</xref> provide an easy and accurate way to model the EXAFS spectrum. Note that such explicit equations do not exist for the description of the XANES region of the X-ray absorption spectra. To extract quantitative characteristics of the materials structure from EXAFS spectra, one needs to choose a proper model for 
+ <italic>g</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>(
+ <italic>R</italic>) in 
+ <xref rid="eq8" ref-type="disp-formula">eq 
+  <xref rid="eq8" ref-type="disp-formula">8</xref>
+ </xref> and then to fit the parameters of the distribution to match the experimental signal. Commonly, a Gaussian-shape is assumed for the distribution function 
+ <italic>g</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>(
+ <italic>R</italic>). In this approach, which works well for relatively ordered materials, and which constitutes the workhorse of XAS data analysis in the overwhelming majority of the published studies, the EXAFS equation can be rewritten as
+ <sup>
+  <xref ref-type="bibr" rid="ref27">27</xref>
+ </sup>
+ <disp-formula id="eq10">
+  <graphic xlink:href="cr0c00396_m014" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>10</label>
+ </disp-formula>where 
+ <italic>C</italic>
+ <sub>
+  <italic>p</italic>
+ </sub> is coordination number (number of atoms in a given coordination shell), 
+ <italic>R</italic>
+ <sub>
+  <italic>p</italic>
+ </sub> is the average interatomic distance (the radius of the coordination shell), and σ
+ <sub>
+  <italic>p</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> is the disorder factor, known also as Debye–Waller factor or parallel mean-square relative displacement (MSRD) factor, which accounts for both thermal and static disorder in the material: σ
+ <sub>
+  <italic>p</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> = σ
+ <sub>
+  <italic>p</italic>,
+  <italic>thermal</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> + σ
+ <sub>
+  <italic>p</italic>,
+  <italic>static</italic>
+ </sub>
+ <sup arrange="stagger">2</sup>. The MSRD factor from EXAFS analysis depends also on correlations between the atomic displacements and should not be confused with the Debye–Waller factor used in XRD data fitting or mean-square displacement (MSD) factor. For example, if the atomic displacements of neighboring atoms are large, but completely correlated, the EXAFS MSRD factor will be equal to 0, while the MSD extracted from XRD data can be quite significant.
+ <sup>
+  <xref ref-type="bibr" rid="ref152">152</xref>
+ </sup> Note also that the MSRD factor in 
+ <xref rid="eq10" ref-type="disp-formula">eq 
+  <xref rid="eq10" ref-type="disp-formula">10</xref>
+ </xref> is responsible for the exponential damping of the EXAFS signal at high 
+ <italic>k</italic>-values, which is getting more pronounced upon an increase of the disorder (static or thermal), limiting the information content available from EXAFS data collected at high temperatures or for statically distorted materials. The thermal contribution to the disorder factor is related to the density of vibrational states and bond strengths:
+ <sup>
+  <xref ref-type="bibr" rid="ref27">27</xref>,
+  <xref ref-type="bibr" rid="ref152">152</xref>−
+  <xref ref-type="bibr" rid="ref154">154</xref>
+ </sup>
+ <disp-formula id="eq11">
+  <graphic xlink:href="cr0c00396_m015" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>11</label>
+ </disp-formula>where μ
+ <sub>
+  <italic>p</italic>
+ </sub> is the reduced mass of atoms of the involved atomic pair, 
+ <italic>k</italic>
+ <sub>B</sub> is the Boltzmann’s constant, and ρ
+ <sub>p</sub>(ω) is the local projected phonon density of states. For example, within the so-called correlated Debye model, 
+ <inline-formula id="d33e2118">
+  <inline-graphic xlink:href="cr0c00396_m016.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, where 
+ <italic>c</italic> = ω
+ <sub>
+  <italic>D</italic>,
+  <italic>p</italic>
+ </sub>/
+ <italic>k</italic>
+ <sub>
+  <italic>D</italic>
+ </sub>, 
+ <inline-formula id="d33e2138">
+  <inline-graphic xlink:href="cr0c00396_m017.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, and 
+ <italic>V</italic>/
+ <italic>n</italic> is the crystal volume per atom. The Debye model provides a physically meaningful description of the phonon spectrum for simple monometallic systems with one atom per unit cell.
+ <sup>
+  <xref ref-type="bibr" rid="ref155">155</xref>
+ </sup> Alternatively, the correlated Einstein model can be used where the density of phonon states is approximated with a Dirac delta-function ρ
+ <sub>p</sub>(ω) = δ(ω – ω
+ <sub>
+  <italic>E</italic>,
+  <italic>p</italic>
+ </sub>), and 
+ <xref rid="eq11" ref-type="disp-formula">eq 
+  <xref rid="eq11" ref-type="disp-formula">11</xref>
+ </xref> can be rewritten as
+ <sup>
+  <xref ref-type="bibr" rid="ref27">27</xref>,
+  <xref ref-type="bibr" rid="ref152">152</xref>−
+  <xref ref-type="bibr" rid="ref154">154</xref>
+ </sup>
+ <disp-formula id="eq12">
+  <graphic xlink:href="cr0c00396_m018" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>12</label>
+ </disp-formula>Here ω
+ <sub>
+  <italic>E</italic>,
+  <italic>p</italic>
+ </sub> is a characteristic vibrational frequency (Einstein frequency), which can be associated with the centroid of a normal-mode frequency distribution.
+ <sup>
+  <xref ref-type="bibr" rid="ref155">155</xref>
+ </sup> The Einstein frequency can also be conveniently linked to the effective bond force constant as κ
+ <sub>
+  <italic>p</italic>
+ </sub> = μ
+ <sub>
+  <italic>p</italic>
+ </sub>ω
+ <sub>
+  <italic>E</italic>,
+  <italic>p</italic>
+ </sub>
+ <sup arrange="stagger">2</sup>. The Einstein model is believed to be more adequate than the Debye model for systems with strong contributions from optical phonons.
+ <sup>
+  <xref ref-type="bibr" rid="ref152">152</xref>
+ </sup> In practice, however, both the Debye and Einstein models can be used to describe the temperature-dependency of the Debye–Waller factor, and the difference between both approximations is typically less than the uncertainty of the σ
+ <sub>
+  <italic>p</italic>,
+  <italic>thermal</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> estimation from the experimental data.
+ <sup>
+  <xref ref-type="bibr" rid="ref155">155</xref>
+ </sup> In particular, the applicability of the Einstein model in a broad range of materials (including monometallic fcc materials) was demonstrated by Sanson et al.
+ <sup>
+  <xref ref-type="bibr" rid="ref154">154</xref>,
+  <xref ref-type="bibr" rid="ref156">156</xref>
+ </sup> Both Debye and Einstein frequencies (and the corresponding Debye and Einstein temperatures, defined as θ
+ <sub>
+  <italic>D</italic>,
+  <italic>p</italic>
+ </sub> = 
+ <italic>ℏω</italic>
+ <sub>
+  <italic>D</italic>,
+  <italic>p</italic>
+ </sub>/
+ <italic>k</italic>
+ <sub>
+  <italic>B</italic>
+ </sub> and θ
+ <sub>
+  <italic>E</italic>,
+  <italic>p</italic>
+ </sub> = 
+ <italic>ℏω</italic>
+ <sub>
+  <italic>E</italic>,
+  <italic>p</italic>
+ </sub>/
+ <italic>k</italic>
+ <sub>
+  <italic>B</italic>
+ </sub>, correspondingly) can thus be used to describe the temperature dependencies of the Debye–Waller factor and bond strengths.
+</p>

@@ -1,0 +1,413 @@
+{
+  "id": [
+    "33024105"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33024105"
+  ],
+  "pmcid": [
+    "PMC7538439"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7538439"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41467-020-18788-9"
+  ],
+  "title": [
+    "Understanding high pressure molecular hydrogen with a hierarchical machine-learned potential."
+  ],
+  "authorString": [
+    "Zong H, Wiebe H, Ackland GJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zong H"
+          ],
+          "firstName": [
+            "Hongxiang"
+          ],
+          "lastName": [
+            "Zong"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0139-4078",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Centre for Science at Extreme Conditions and School of Physics and Astronomy, University of Edinburgh, Edinburgh, EH9 3ET, UK. zonghust@mail.xjtu.edu.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "State Key Laboratory for Mechanical Behavior of Materials, Xi'an Jiaotong University, Xi'an, 710049, Shaanxi, China. zonghust@mail.xjtu.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wiebe H"
+          ],
+          "firstName": [
+            "Heather"
+          ],
+          "lastName": [
+            "Wiebe"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Centre for Science at Extreme Conditions and School of Physics and Astronomy, University of Edinburgh, Edinburgh, EH9 3ET, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ackland GJ"
+          ],
+          "firstName": [
+            "Graeme J"
+          ],
+          "lastName": [
+            "Ackland"
+          ],
+          "initials": [
+            "GJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1205-7675",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Centre for Science at Extreme Conditions and School of Physics and Astronomy, University of Edinburgh, Edinburgh, EH9 3ET, UK. gjackland@ed.ac.uk."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0139-4078",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1205-7675",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "3033764"
+      ],
+      "dateOfPublication": [
+        "2020 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "5014"
+  ],
+  "abstractText": [
+    "The hydrogen phase diagram has several unusual features which are well reproduced by density functional calculations. Unfortunately, these calculations do not provide good physical insights into why those features occur. Here, we present a fast interatomic potential, which reproduces the molecular hydrogen phases: orientationally disordered Phase I; broken-symmetry Phase II and reentrant melt curve. The H<sub>2</sub> vibrational frequency drops at high pressure because of increased coupling between neighbouring molecules, not bond weakening. Liquid H<sub>2</sub> is denser than coexisting close-packed solid at high pressure because the favored molecular orientation switches from quadrupole-energy-minimizing to steric-repulsion-minimizing. The latter allows molecules to get closer together, without the atoms getting closer, but cannot be achieved within in a close-packed layer due to frustration. A similar effect causes negative thermal expansion. At high pressure, rotation is hindered in Phase I, such that it cannot be regarded as a molecular rotor phase."
+  ],
+  "affiliation": [
+    "Centre for Science at Extreme Conditions and School of Physics and Astronomy, University of Edinburgh, Edinburgh, EH9 3ET, UK. zonghust@mail.xjtu.edu.cn."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "EP/K01465X/1"
+          ],
+          "agency": [
+            "Engineering and Physical Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "EP/P022790/1"
+          ],
+          "agency": [
+            "Engineering and Physical Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "HECATE"
+          ],
+          "agency": [
+            "EC | EU Framework Programme for Research and Innovation H2020 | H2020 Priority Excellent Science | H2020 European Research Council (H2020 Excellent Science - European Research Council)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-020-18788-9"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7538439"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7538439?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-10-07"
+  ],
+  "firstIndexDate": [
+    "2020-10-16"
+  ],
+  "fullTextReceivedDate": [
+    "2020-10-21"
+  ],
+  "dateOfRevision": [
+    "2020-10-20"
+  ],
+  "electronicPublicationDate": [
+    "2020-10-06"
+  ],
+  "firstPublicationDate": [
+    "2020-10-06"
+  ]
+}

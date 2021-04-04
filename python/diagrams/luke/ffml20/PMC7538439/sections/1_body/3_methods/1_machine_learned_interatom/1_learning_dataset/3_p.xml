@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par39">We emphasise that determining the suitable dataset is not straightforward. Numerous iterations of the potential were required to obtain a good fit to the phase diagram. A good fit to DFT energies of known phases is not evidence that other phases are unstable: we test each iteration of the potential by running MD simulations in NPT ensemble, cycling the pressure and temperature between the regions expected for Phases I, II, and III to ensure that all phase transitions were between the fitted phases. When a crystal structure different from the fitted one was found, this new phase was calculated using DFT. If this showed that the ML potential described the phase poorly, it was added to the training set and the training redone. The success of such strategy is supported by an example shown in Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">2</xref>.
+</p>

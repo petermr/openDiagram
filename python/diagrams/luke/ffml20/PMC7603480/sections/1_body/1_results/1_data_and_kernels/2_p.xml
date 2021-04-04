@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">Two central quantities that are needed to fully understand the overall kinetics of a reaction network are the RE (
+ <italic>E</italic>
+ <sub>reac</sub>, RE) and the activation energy (barrier) for each reaction. Indeed, REs provide the most important features of the reaction network and can in some cases even be used to predict activation energies via the Brønsted-Evans-Polanyi relation
+ <sup>
+  <xref ref-type="bibr" rid="CR47">47</xref>–
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>. Furthermore, while the activation energy is a property of each individual reaction (the edges in a graph), the RE can be computed from molecular atomization energies (
+ <italic>E</italic>
+ <sub>at</sub>, AE), i.e. information from pairs of nodes in a graph, meaning that much fewer calculations are required to predict the REs in a large reaction network. Specifically, to predict 1000 REs for 20 molecules, one only needs 20 ground-state geometries. In contrast, predicting the corresponding activation energies would require 1000 additional transition state (TS) geometries. Not only are there more TS geometries, but these are also much harder to obtain, both in terms of computational effort and in terms of the human intervention needed for successful transition state searches. This makes predicting REs the logical first step in the ML-driven exploration of reaction networks.
+</p>

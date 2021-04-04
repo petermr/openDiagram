@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Molecular simulation has also been employed to predict the permeability of the BBB by using simple membrane models and free-energy calculation techniques. For instance, Lombardo et al. have shown that the BBB partitioning in terms of logBB for a series of compounds ranging from simple solutes to histamine H
+ <sub>2</sub> antagonists was correlated with the computed solvation free energy in water without taking into account specificities that pertain to the membrane structure.
+ <sup>
+  <xref ref-type="bibr" rid="ref10">10</xref>
+ </sup> Furthermore, this correlation provided successful predictions of blood–brain partitioning for compounds outside of the training dataset, which highlights the potential of these methods as prescreening tools. In another study, Carpenter et al. have obtained very good agreement with experimental results on the logBB and the logPS of twelve drug-like compounds using the lipid bilayer as a simple BBB model and molecular dynamics (MD) simulation of all-atom models combined with free-energy methods.
+ <sup>
+  <xref ref-type="bibr" rid="ref6">6</xref>
+ </sup> Their predictions have correlated remarkably well with both the experimental logBB and logPS, obtaining values of the correlation coefficient close to 1. A similar approach has been adopted to express the membrane permeability of small compounds through the diffusion constant and the potential of mean force in MD simulation.
+ <sup>
+  <xref ref-type="bibr" rid="ref11">11</xref>
+ </sup> These studies have clearly underlined the predictive power of MD methods toward estimating energetic barriers associated with BBB permeability and identifying the physical mechanisms related to the translocation of various compounds through the BBB. Still, standard MD methods combined with free energy calculation methods are computationally expensive and often involve complex simulation protocols that require a delicate and iterative process in order to improve the accuracy of the results.
+</p>

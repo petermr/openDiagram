@@ -1,0 +1,15 @@
+0: Once the system was set up as shown in  Figure   1, the steepest descent and conjugate gradient methods were used for energy minimization, as is usually done.
+1: The energy-minimized system was then utilized as an initial configuration for the SMD simulation.
+2: The simulation was carried out at  T = 323 K, by employing the NoseHoover thermostat with an effective relaxation time parameter set to  T = 0.5 ps.
+3: The pressure was maintained at 1 bar using the semi-isotropic ParrinelloRahman barostat with relaxation time  P = 1 ps, and a compressibility of 4.5  10 5 bar 1.
+4: The LINCS algorithm 49,  50 was used to constrain bond lengths, thus allowing for a 2 fs time-step during simulation.
+5: A cutoff of 1.4 nm was chosen for nonbonded interactions, and the neighbor list was updated every 10 ps, while long-range electrostatic interactions were calculated using the particlemesh Ewald method.
+6: Here, the GROMACS 5.1 package was used to carry out all simulations.
+7: Simulations typically last from 1.8 to 18.0 ns depending on the pulling velocity.
+8: In our study, the considered range of pulling velocities span an order of magnitude, namely,  v = 0.5, 1.5, and 5.0 nm/ns.
+9: Average properties were calculated from an ensemble of five trajectories with different initial conditions by using a random initial velocity generation and changing the orientation of the pulled compound ( Figure S3).
+10: Examples of individual trajectories are shown in Figures S4 and S5 in the  Supporting Information as well as Tables S2 and S3 for different membrane models and force fields in the case of mannitol, which has the smallest experimental logBB and logPS values and the highest TPSA value.
+11: In fact, the logBB and the TPSA values for the 26 compounds of our study appear to be anticorrelated with  R2 = 0.53 ( R is the correlation coefficient), as shown in  Figure S6.
+12: Hence, the available values in the literature of logBB and TPSA for our compounds suggest that a larger polar surface area of the compounds is associated with a lower permeability of the BBB.
+13: Moreover, values of TPSA below 90 A 2 suggest an increased potential for BBB penetration, while larger values are usually associated with lower probability of crossing the BBB.
+14: 51

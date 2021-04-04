@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>One should note, however, that while the wavelet transform is a very useful tool for XAS data visualization, it needs to be used with caution to avoid overinterpretation of the results. Similarly as with a Fourier transform, many effects can influence the appearance of features in the WT-EXAFS, and their interpretation from their visual examination is straightforward only for the first or a first few peaks, which can be associated with distinct bonds. Contributions of more distant coordination shells, however, usually overlap and superpose with each other; thus, the corresponding features in the WT-EXAFS and FT-EXAFS spectra are impossible to interpret without modeling or data fitting. There have been some attempts in the literature to discriminate by wavelet analysis between the contributions to EXAFS spectra of light elements that are neighbors in the Periodic Table, as, for example, Co-based single-site catalysts for HER.
+ <sup>
+  <xref ref-type="bibr" rid="ref146">146</xref>,
+  <xref ref-type="bibr" rid="ref151">151</xref>
+ </sup> Nonetheless, in practice, such analysis may be very challenging because even small changes in the relative atomic positions and disorder can affect the WT-EXAFS features more significantly than the subtle difference between the scattering functions for similar elements.
+</p>

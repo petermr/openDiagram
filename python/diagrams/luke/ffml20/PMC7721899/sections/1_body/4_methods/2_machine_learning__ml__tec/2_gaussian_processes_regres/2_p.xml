@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">Instead of using a specified functional form (as in the case of deterministic model), Gaussian processes describe the input–output relationship through distributions over functions of the input space, 
+ <inline-formula id="IEq13">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$x \in {\mathcal{X}}$$\end{document}</tex-math>
+   <math id="M34">
+    <mrow>
+     <mi>x</mi>
+     <mo>∈</mo>
+     <mi mathvariant="script">X</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq13.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The designated random variables follow Gaussian distribution. For Gaussian distribution, the marginalization and conditioning properties can be fully utilized to obtain the marginal likelihood and the conditional probability via the designated mean and covariance. For the mean-subtracted data set, the mean function is set to zero and the prior’s covariance is specified by assigning trial kernel functions with a set of hyperparameters. The widely used kernel functions are exponential kernel and squared exponential kernel. To obtain the posterior distribution over functions, one must restrict the joint prior to containing only those functions which agree with the training data through conditioning of the Gaussian prior. The joint distribution of the training outputs, y, and the test outputs 
+ <inline-formula id="IEq14">
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f^{\prime}$$\end{document}</tex-math>
+   <math id="M36">
+    <msup>
+     <mi>f</mi>
+     <mo>′</mo>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> according to the prior is expressed as
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>:
+ <disp-formula id="Equ5">
+  <label>5</label>
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \left( {\begin{array}{*{20}c} y \\ {f^{\prime } } \\ \end{array} } \right)\sim {\mathcal{N}}\left( {\begin{array}{*{20}c} {0,} &amp; {\begin{array}{*{20}c} {K\left( {X,X} \right) + \sigma_{\epsilon }^{2} I} &amp; {K\left( {X,X^{\prime } } \right)} \\ {K\left( {X^{\prime } ,X} \right)} &amp; {K\left( {X^{\prime } ,X^{\prime } } \right)} \\ \end{array} } \\ \end{array} } \right) $$\end{document}</tex-math>
+   <math id="M38" display="block">
+    <mrow>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mi>y</mi>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mrow/>
+           <msup>
+            <mi>f</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+     </mfenced>
+     <mo>∼</mo>
+     <mi mathvariant="script">N</mi>
+     <mfenced close=")" open="(">
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mn>0</mn>
+           <mo>,</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mtable>
+            <mtr>
+             <mtd>
+              <mrow>
+               <mi>K</mi>
+               <mfenced close=")" open="(">
+                <mrow>
+                 <mi>X</mi>
+                 <mo>,</mo>
+                 <mi>X</mi>
+                </mrow>
+               </mfenced>
+               <mo>+</mo>
+               <msubsup>
+                <mi>σ</mi>
+                <mrow>
+                 <mi>ϵ</mi>
+                </mrow>
+                <mn>2</mn>
+               </msubsup>
+               <mi>I</mi>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mi>K</mi>
+               <mfenced close=")" open="(">
+                <mrow>
+                 <mi>X</mi>
+                 <mo>,</mo>
+                 <msup>
+                  <mi>X</mi>
+                  <mo>′</mo>
+                 </msup>
+                </mrow>
+               </mfenced>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mrow>
+               <mrow/>
+               <mrow>
+                <mi>K</mi>
+                <mfenced close=")" open="(">
+                 <mrow>
+                  <msup>
+                   <mi>X</mi>
+                   <mo>′</mo>
+                  </msup>
+                  <mo>,</mo>
+                  <mi>X</mi>
+                 </mrow>
+                </mfenced>
+               </mrow>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mi>K</mi>
+               <mfenced close=")" open="(">
+                <mrow>
+                 <msup>
+                  <mi>X</mi>
+                  <mo>′</mo>
+                 </msup>
+                 <mo>,</mo>
+                 <msup>
+                  <mi>X</mi>
+                  <mo>′</mo>
+                 </msup>
+                </mrow>
+               </mfenced>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

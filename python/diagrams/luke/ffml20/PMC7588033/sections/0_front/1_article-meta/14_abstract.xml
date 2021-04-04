@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <p content-type="toc-graphic">
+  <graphic xlink:href="ci9b00834_0010" id="ab-tgr1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </p>
+ <p>The blood–brain barrier (BBB) is a physical barrier that regulates the homeostasis of the neural microenvironment. A relative estimate of the BBB permeability, which is important for drug design, may be experimentally provided by the logBB (the blood–brain concentration ratio) and the logPS (permeability–surface-area product), while many computational methods aim to identify key properties that correlate well with these quantities. Although currently existing computational methods (e.g., quantitative structure activity relation) have made a significant contribution in screening various compounds that could potentially translocate through the BBB, they are unable to provide a physical explanation of the underlying processes and they can often be computationally demanding. Here, we use steered molecular dynamics simulation to estimate the BBB permeability of various compounds on the basis of simple lipid–membrane models by computing the nonequilibrium work, 
+  <italic>W</italic>
+  <sub>neq</sub>, produced by pulling the compounds through the membrane. We found that the values of 
+  <italic>W</italic>
+  <sub>neq</sub> correlate remarkably well with logBB and logPS for a range of compounds and different membrane types and pulling speeds, independently of the choice of force field. Moreover, our results provide insight into the role of hydrogen bonds, the energetic barriers, and the forces exerted on the ligands during their pulling. Our method is computationally easy to implement and fast. Therefore, we anticipate that it could provide a reliable prescreening tool for estimating the relative permeability of the BBB to various substances.
+ </p>
+</abstract>

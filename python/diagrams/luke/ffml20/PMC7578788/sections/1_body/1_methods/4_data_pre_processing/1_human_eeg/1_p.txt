@@ -1,0 +1,4 @@
+0: EEG data were offline pre-processed using EEGLab 33.
+1: For each participant, data were decomposed using the Infomax Independent Component Analysis Algorithm, with components representing noise artefacts (such as eye blinks or neck musculature) identified and removed before back-transforming the data into time-domain electrode signals 34,  35.
+2: Based on extensive prior work attributing movement related beta activity to the motor cortex 8,  36 and to better isolate signals originating from the motor cortex, a Hjorth approximation of the surface Laplacian 37 using the 4 nearest neighbour electrodes at C3 and C4 electrodes was computed to represent signals originating from contra-/ipsilateral motor cortex respectively 38  42.
+3: Trials were identified from the timestamps of the joystick trigger press (target presentation), and movement initiation was detected when the Euclidian distance of the cursor extended beyond a predetermined zero zone (5 pixels).

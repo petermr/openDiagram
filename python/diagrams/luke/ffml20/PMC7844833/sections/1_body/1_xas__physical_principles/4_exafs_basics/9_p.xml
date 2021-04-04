@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref rid="eq8" ref-type="disp-formula">Eq 
+  <xref rid="eq8" ref-type="disp-formula">8</xref>
+ </xref> can be generalized to account for the contributions of MS paths as well. In this case, the radial distribution function 
+ <italic>g</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>(
+ <italic>R</italic>) should be replaced by a many-atom distribution function, and the dependencies of the 
+ <italic>F</italic>
+ <sub>
+  <italic>p</italic>
+ </sub> and ϕ
+ <sub>
+  <italic>p</italic>
+ </sub> functions on the relative positions of all atoms involved (e.g., on bonding angles) need to be taken into account. The number of MS paths surpasses significantly the number of SS paths. The MS path amplitudes, especially in the structures with near-linear chains of atoms (e.g., fcc and bcc cubic structures, rock salt-type structures, perovskite-type structures, etc.), can be comparable or even higher to those for SS paths.
+ <sup>
+  <xref ref-type="bibr" rid="ref27">27</xref>,
+  <xref ref-type="bibr" rid="ref65">65</xref>
+ </sup> The contribution of the first-coordination shell (and, sometimes the second) has a significantly lower frequency (lower 
+ <italic>R</italic> value, see 
+ <xref rid="eq8" ref-type="disp-formula">eq 
+  <xref rid="eq8" ref-type="disp-formula">8</xref>
+ </xref>) than that of other SS and MS paths and thus can be singled out using Fourier-filtering and analyzed separately. Nevertheless, contributions of more distant coordination shells always overlap with the contributions of MS paths, and they need to be considered together with SS contributions. While the presence of MS paths complicates significantly the interpretation of EXAFS spectra, the sensitivity of MS paths to bonding angles provides also the possibility to use EXAFS to probe the 3D structure of the material rather than just radial distances.
+ <sup>
+  <xref ref-type="bibr" rid="ref66">66</xref>
+ </sup> This is especially relevant when advanced approaches to data analysis such as reverse Monte Carlo simulations are used
+ <sup>
+  <xref ref-type="bibr" rid="ref23">23</xref>
+ </sup> (see 
+ <xref rid="sec4.4" ref-type="other">Section 
+  <xref rid="sec4.4" ref-type="other">4.4</xref>
+ </xref>).
+</p>

@@ -1,0 +1,4 @@
+0: Further data analysis was performed using custom made Matlab functions.
+1: Pre-processed data from both human and animal experiments were low-pass (30 Hz) filtered, down-sampled to 500 Hz and high-pass (10 Hz) filtered (4th order Butterworth).
+2: Next, 2 s windows centred on the movement initiation (joystick movement or paw lift-off event marker) were extracted, and z-score normalised.
+3: The time-series were then decomposed into the timefrequency domain using a Morlet wavelet transform (k = 6) 43, and spectral power computed by taking the log normalised squared magnitude of the wavelet transform.

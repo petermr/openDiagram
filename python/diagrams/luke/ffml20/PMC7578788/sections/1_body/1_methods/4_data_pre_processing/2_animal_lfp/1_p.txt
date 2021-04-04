@@ -1,0 +1,4 @@
+0: Data captured during individual recording sessions were visually inspected in Spike2 (Cambridge Electronic Design) for recording quality and timestamps for reach trials were identified and extracted based on the paw contact signal.
+1: LFP recordings across the 16 motor cortical sites were highly similar.
+2: Consequently, an example channel was selected, and re-referenced to a second channel at the opposite end of the probe (reference site spacing 1.1 mm).
+3: This removed any low frequency artefact due to movement and provided a measure of local oscillatory activity within the brain.

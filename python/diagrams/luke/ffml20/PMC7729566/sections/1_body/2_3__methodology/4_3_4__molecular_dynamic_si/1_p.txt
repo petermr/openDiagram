@@ -1,0 +1,13 @@
+0: All simulations were carried out with the Gromacs 5.1 package [ 68] within the NpT ensemble by adopting the leapfrog algorithm to integrate the equations of motion with a time step of 2 fs at a fixed temperature (323 K) and pressure (1 bar) [ 69].
+1: The energy contributions in the potential energy function for bonded interactions were bond stretching, angle bending and dihedral torsion, whilst non-bonded inter-actions were modelled by LennardJones (LJ) and Coulombic terms.
+2: The force-switch van der Waals potential modifier was employed for LJ, where the energy decays smoothly to zero between 0.9 and 1.2 nm, while long-range Coulombic interactions were evaluated by particlemesh Ewald (PME) [ 70], up to a cut-off radius of 1.2 nm.
+3: The temperature and pressure were fixed at 323 K and 1 bar through the NoseHoover thermostat [ 71] and the ParrinelloRahman barostat [ 72], respectively.
+4: All bonds were constrained by the LINCS algorithm during the simulations [ 73].
+5: The force field parameters for [P 44414]Cl were taken from the IL OPLS-AA all-atom force field developed by Canongia Lopes and Padua [ 74] and water molecules were represented by the SPC/E model [ 75].
+6: In all simulations, acetic acid was considered as protonated and its parameter was taken from the OPLS-AA forcefield.
+7: Cubic boxes with periodic boundary conditions were used placing all the molecules randomly, followed by an equilibrium process.
+8: All systems contain 200 [P 44414]Cl ion pairs, 580 acetic acid molecules and a varied number of water molecules.
+9: The composition of the system simulated are summarised in  Table 2.
+10: For all simulations, the following equilibration protocol was followed: an energy minimization step using the steepest descent algorithm to prevent short-range contacts between atoms prior to two short equilibrium runs in the NVT and NpT ensembles, respectively.
+11: Afterwards, all systems were run for 100 ns of simulation time in the NpT ensemble.
+12: Simulation outputs were visualized using the VMD software package [ 76] and the spatial distribution functions (SDF) and domain analysis were analyzed using the TRAVIS package [ 54, 55].

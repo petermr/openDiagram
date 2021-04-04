@@ -1,0 +1,6 @@
+0: All simulations were carried out using GROMACS 50 with a 1 fs time step and a 1.0 nm cutoff for the direct van der Waals and for Coulombic interactions.
+1: Long-range Coulombic interactions were accounted for by the particle-mesh Ewald (PME) method.
+2: For practical reasons, the birnessite lattice was modeled with Mn 3.75+ as in Cygan  et al.
+3: ( 39) but with Lennard-Jones forcefield parameters recently reported by Newton and Kwon.
+4: 51 Water was described with the SPC/E model, 52 and K + ions were described with SPC/E compatible ion-pair potentials from Joung and Cheatham.
+5: 53

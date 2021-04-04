@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Overall, the XANES features contain very rich information about the atomic and electronic structure of a material. XANES analysis is also well suited for 
+ <italic>in situ</italic> and 
+ <italic>operando</italic> investigations due to the high signal-to-noise ratio in this portion of the X-ray absorption spectrum, its relative insensitivity to thermal disorder (which affects EXAFS data interpretation), and the short acquisition times required. These factors allow one to collect good quality XANES data with good time resolution and under harsh experimental conditions.
+ <sup>
+  <xref ref-type="bibr" rid="ref40">40</xref>,
+  <xref ref-type="bibr" rid="ref41">41</xref>
+ </sup> The quantitative analysis, however, has been limited by the lack of analytical models that would allow linking the XANES features to a particular structure motif. The interpretation of XANES spectra has thus remained in many cases qualitative, by adhering to a comparison of the obtained spectra with those for reference materials with known structure, or semiquantitative, when methods such as linear combination analysis were employed to fit the concentrations of different species contributing to the averaged spectrum of a mixture.
+ <sup>
+  <xref ref-type="bibr" rid="ref26">26</xref>
+ </sup> This situation has begun to change in the last years due to the advancements in XANES data modeling within different approximations
+ <sup>
+  <xref ref-type="bibr" rid="ref34">34</xref>
+ </sup> such as FMS,
+ <sup>
+  <xref ref-type="bibr" rid="ref33">33</xref>,
+  <xref ref-type="bibr" rid="ref42">42</xref>
+ </sup> time-dependent density-functional theory,
+ <sup>
+  <xref ref-type="bibr" rid="ref43">43</xref>,
+  <xref ref-type="bibr" rid="ref44">44</xref>
+ </sup> Bethe-Salpeter method,
+ <sup>
+  <xref ref-type="bibr" rid="ref45">45</xref>,
+  <xref ref-type="bibr" rid="ref46">46</xref>
+ </sup> and others.
+ <sup>
+  <xref ref-type="bibr" rid="ref47">47</xref>−
+  <xref ref-type="bibr" rid="ref50">50</xref>
+ </sup> Codes like FitIt
+ <sup>
+  <xref ref-type="bibr" rid="ref51">51</xref>
+ </sup> and MXAN
+ <sup>
+  <xref ref-type="bibr" rid="ref52">52</xref>
+ </sup> now provide the possibility to efficiently fit the parameters of simple structures and match theoretically simulated spectra to experimental data, while the recently developed machine learning approaches enable automatic spectra matching
+ <sup>
+  <xref ref-type="bibr" rid="ref53">53</xref>,
+  <xref ref-type="bibr" rid="ref54">54</xref>
+ </sup> and regression of structure parameters
+ <sup>
+  <xref ref-type="bibr" rid="ref12">12</xref>,
+  <xref ref-type="bibr" rid="ref34">34</xref>,
+  <xref ref-type="bibr" rid="ref38">38</xref>
+ </sup> based on the recognition of patterns in large data sets.
+</p>

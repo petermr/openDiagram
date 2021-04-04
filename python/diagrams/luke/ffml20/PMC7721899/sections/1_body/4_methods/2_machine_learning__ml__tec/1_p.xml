@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par33">The database of the stiffness matrix is computed from the MD simulations to predict composition-dependent elastic constants for C–S–H using various ML techniques. This paper primarily focuses on Gaussian process (GP), and neural network (NN) which are discussed in the forthcoming sub-sections. Besides, this paper also evaluates other common ML techniques such as polynomial regression, random forest, support vector machine, k-nearest neighbors, and decision trees for comparative assessment of prediction abilities. These common ML techniques are detailed in the 
+ <xref rid="MOESM1" ref-type="media">Supplementary document</xref> for ease of reference.
+</p>

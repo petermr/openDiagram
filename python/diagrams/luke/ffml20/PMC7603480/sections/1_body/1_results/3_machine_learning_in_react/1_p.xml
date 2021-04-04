@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">With the ML-predicted AEs, one can readily calculate REs using Eq. (
+ <xref rid="Equ2" ref-type="">2</xref>), in strict analogy to how they are computed with first-principles methods. In this case, errors in the predicted AEs will propagate to the predicted REs. Under the most basic assumptions (i.e., an uncorrelated, constant uncertainty 
+ <italic>σ</italic>
+ <sub>
+  <italic>A</italic>
+  <italic>E</italic>
+ </sub> for every AE prediction), one would expect the uncertainty in the RE prediction for a reaction 
+ <italic>A</italic> ⟶ 
+ <italic>B</italic> + 
+ <italic>C</italic> to be 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{3}{\sigma }_{\mathrm{AE}}$$\end{document}</tex-math>
+   <math id="M18">
+    <msqrt>
+     <mrow>
+      <mn>3</mn>
+     </mrow>
+    </msqrt>
+    <msub>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">AE</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2020_19267_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. While this is a very rough estimate, it indicates that we would generally expect the error on REs to correlate with the AE error, and that the former should be larger than the latter.
+</p>

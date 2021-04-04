@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The diffusivity of gas molecules through PI was estimated by first inserting ten molecules of each gas into the equilibrated simulation box. Then, minimization of the potential energy was performed using “smart minimizing method” run. After this, the cell was put through annealing and stage-wise equilibration procedures using the same parameters as described before. The resulting structure was then equilibrated by NVT and NPT simulations at 298 K in order to ensure that its minimized total energy remained approximately constant with respect to the simulation time. An NVE simulation of the system was performed for 10,000 ps. The diffusion coefficients can be calculated by means of the Einstein relation [
+ <xref rid="B31-polymers-12-02048" ref-type="bibr">31</xref>,
+ <xref rid="B32-polymers-12-02048" ref-type="bibr">32</xref>]:
+ <disp-formula id="FD2-polymers-12-02048">
+  <label>(2)</label>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <mi>D</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>6</mn>
+       <mi>N</mi>
+      </mrow>
+     </mfrac>
+     <munder>
+      <mrow>
+       <mi>lim</mi>
+      </mrow>
+      <mrow>
+       <mi>t</mi>
+       <mo>→</mo>
+       <mo>∞</mo>
+      </mrow>
+     </munder>
+     <mfrac>
+      <mi>d</mi>
+      <mrow>
+       <mi>d</mi>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <mstyle displaystyle="true">
+        <munderover>
+         <mo>∑</mo>
+         <mi>i</mi>
+         <mi>N</mi>
+        </munderover>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo>|</mo>
+           <mrow>
+            <msub>
+             <mi>r</mi>
+             <mi>i</mi>
+            </msub>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>−</mo>
+            <msub>
+             <mi>r</mi>
+             <mi>i</mi>
+            </msub>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mn>0</mn>
+             <mo stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+           <mo>|</mo>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>N</italic> is the number of penetrants, 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>r</mi>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>0</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>r</mi>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the initial and final positions of the center of mass of penetrant 
+ <italic>i</italic> over the time interval 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mi>t</mi>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <msup>
+        <mrow>
+         <mo>|</mo>
+         <mrow>
+          <msub>
+           <mi>r</mi>
+           <mi>i</mi>
+          </msub>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>t</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>−</mo>
+          <msub>
+           <mi>r</mi>
+           <mi>i</mi>
+          </msub>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mrow>
+         <mo>|</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the averaged mean-square displacement (MSD) of the penetrant. The diffusion coefficient was determined from the slope of MSD versus time data. In this work, MSD of H
+ <sub>2</sub>O and O
+ <sub>2</sub> were calculated from the trajectories of ten penetrant molecules in the PI microstructures.
+</p>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this study, we have chosen 26 small-molecule compounds, which were selected from the literature (Tables S1 in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>). The logBB and TPSA values are known for all compounds, while the logPS values are available in the literature only for a subset of the studied compounds. Moreover, many of them have been previously studied by standard MD simulation
+ <sup>
+  <xref ref-type="bibr" rid="ref6">6</xref>
+ </sup> by using the GROMOS54a7 force-field. Here, we have modeled a set of 26 small-molecule compounds not only with the GROMOS54a7 force-field, but, also, by using the CHARMM36 force-field. All the compounds have been previously used in experimental BBB permeability reports and are well studied. Hence, the 3D structures, a few common descriptors, and the logBB and logPS values of the selected compounds have been documented in the literature and obtained from the Collaborative Drug Discovery in PubChem
+ <sup>
+  <xref ref-type="bibr" rid="ref22">22</xref>,
+  <xref ref-type="bibr" rid="ref23">23</xref>
+ </sup> (Table S1 in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>). The selected 26 compounds have logBB values that are evenly distributed between −2.51 and 1.64. Fourteen out of the 26 compounds can cross the BBB by a diffusion mechanism, while the rest cannot translocate through the BBB.
+</p>

@@ -1,0 +1,414 @@
+{
+  "id": [
+    "33288786"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33288786"
+  ],
+  "pmcid": [
+    "PMC7721899"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7721899"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41598-020-78368-1"
+  ],
+  "title": [
+    "Elucidating the constitutive relationship of calcium-silicate-hydrate gel using high throughput reactive molecular simulations and machine learning."
+  ],
+  "authorString": [
+    "Lyngdoh GA, Li H, Zaki M, Krishnan NMA, Das S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lyngdoh GA"
+          ],
+          "firstName": [
+            "Gideon A"
+          ],
+          "lastName": [
+            "Lyngdoh"
+          ],
+          "initials": [
+            "GA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Civil and Environmental Engineering, University of Rhode Island, Kingston, RI, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li H"
+          ],
+          "firstName": [
+            "Hewenxuan"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Mechanical, Industrial and Systems Engineering, University of Rhode Island, Kingston, RI, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zaki M"
+          ],
+          "firstName": [
+            "Mohd"
+          ],
+          "lastName": [
+            "Zaki"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Civil Engineering, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, 110016, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Krishnan NMA"
+          ],
+          "firstName": [
+            "N M Anoop"
+          ],
+          "lastName": [
+            "Krishnan"
+          ],
+          "initials": [
+            "NMA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Civil Engineering, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, 110016, India. krishnan@iitd.ac.in."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, 110016, India. krishnan@iitd.ac.in."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Das S"
+          ],
+          "firstName": [
+            "Sumanta"
+          ],
+          "lastName": [
+            "Das"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5339-7708",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Civil and Environmental Engineering, University of Rhode Island, Kingston, RI, USA. sumanta_das@uri.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5339-7708",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3059590"
+      ],
+      "dateOfPublication": [
+        "2020 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "21336"
+  ],
+  "abstractText": [
+    "Prediction of material behavior using machine learning (ML) requires consistent, accurate, and, representative large data for training. However, such consistent and reliable experimental datasets are not always available for materials. To address this challenge, we synergistically integrate ML with high-throughput reactive molecular dynamics (MD) simulations to elucidate the constitutive relationship of calcium-silicate-hydrate (C-S-H) gel-the primary binding phase in concrete formed via the hydration of ordinary portland cement. Specifically, a highly consistent dataset on the nine elastic constants of more than 300 compositions of C-S-H gel is developed using high-throughput reactive simulations. From a comparative analysis of various ML algorithms including neural networks (NN) and Gaussian process (GP), we observe that NN provides excellent predictions. To interpret the predicted results from NN, we employ SHapley Additive exPlanations (SHAP), which reveals that the influence of silicate network on all the elastic constants of C-S-H is significantly higher than that of water and CaO content. Additionally, the water content is found to have a more prominent influence on the shear components than the normal components along the direction of the interlayer spaces within C-S-H. This result suggests that the in-plane elastic response is controlled by water molecules whereas the transverse response is mainly governed by the silicate network. Overall, by seamlessly integrating MD simulations with ML, this paper can be used as a starting point toward accelerated optimization of C-S-H nanostructures to design efficient cementitious binders with targeted properties."
+  ],
+  "affiliation": [
+    "Department of Civil and Environmental Engineering, University of Rhode Island, Kingston, RI, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-020-78368-1"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7721899"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7721899?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2020-12-14"
+  ],
+  "dateOfCreation": [
+    "2020-12-08"
+  ],
+  "firstIndexDate": [
+    "2020-12-09"
+  ],
+  "fullTextReceivedDate": [
+    "2020-12-11"
+  ],
+  "dateOfRevision": [
+    "2020-12-14"
+  ],
+  "electronicPublicationDate": [
+    "2020-12-07"
+  ],
+  "firstPublicationDate": [
+    "2020-12-07"
+  ]
+}

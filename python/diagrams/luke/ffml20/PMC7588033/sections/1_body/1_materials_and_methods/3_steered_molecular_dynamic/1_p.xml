@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>SMD offers the possibility of obtaining results much quicker than it might be possible with standard MD simulation.
+ <sup>
+  <xref ref-type="bibr" rid="ref44">44</xref>
+ </sup> In the case of the SMD simulation, a spring is attached from one side to a dummy atom and from the other side to the compound. Then, the dummy atom is pulled from its initial position toward the bilayer in the 
+ <italic>z</italic> direction with a constant velocity 
+ <italic>v</italic>, covering a distance Δ
+ <italic>z</italic>
+ <sub>c</sub> = 
+ <italic>vt</italic> (
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>) with 
+ <italic>t</italic> indicating time. Hence, the elastic force experienced by the compound at a certain time during pulling is 
+ <italic>F</italic> = 
+ <italic>k</italic>(Δ
+ <italic>z</italic> – 
+ <italic>vt</italic>)
+ <italic>,</italic> where Δ
+ <italic>z</italic> is the displacement of the compound’s atom connected with the spring in the direction of pulling. As in the case of atomic force microscopy experiments,
+ <sup>
+  <xref ref-type="bibr" rid="ref45">45</xref>
+ </sup> we chose 
+ <italic>k</italic> = 600 kJ/(mol·nm
+ <sup>2</sup>) and different pulling velocities (i.e
+ <italic>.</italic>, 
+ <italic>v</italic> = 0.5, 1.5, and 5.0 nm/ns). These values have been also used in our previous studies and are well-tested.
+ <sup>
+  <xref ref-type="bibr" rid="ref46">46</xref>−
+  <xref ref-type="bibr" rid="ref48">48</xref>
+ </sup> Moreover, the spring constant is suitable to carry out the pulling experiments, as can be verified by the average position–time profiles for the compounds (see Figure S1 in 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>). To prevent the membrane from drifting because of the external force, the phosphate atoms on both lipid layers were restrained by a harmonic potential with a spring constant of 1000 kJ/(mol·nm
+ <sup>2</sup>) in the 
+ <italic>z</italic> direction.
+</p>

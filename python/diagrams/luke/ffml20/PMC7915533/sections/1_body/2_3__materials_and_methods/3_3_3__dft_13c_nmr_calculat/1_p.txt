@@ -1,0 +1,8 @@
+0: A thorough conformer search was performed on  1a,  1a,  2a, and  2a using MCMM with the OPLS3 forcefield within the SchrOdinger Macromodel 2016 software suite operating on Windows 10.
+1: All conformers >21.0 kJ/mol from the energy minimum were discarded.
+2: The resultant conformational suites underwent DFT geometry optimization in the gas phase using the B3LYP/6-31G(d) functional and basis set in Gaussian 16 [ 24].
+3: Modified python scripts based on the Willoughby protocol [ 25] were used to confirm that the geometry-optimized conformers were true energy minima and to confirm the absence of negative vibrational frequencies.
+4: The DFT (GIAO)  13C NMR shielding values were calculated on the geometry-optimized structures using the B97xD/6-31G(d) level of theory.
+5: The subsequent DFT isotropic shielding values were then Boltzmann averaged across each of the conformational suites [ 25] and scaled (with carbons attached to sulfur adjusted binomially) using the procedure reported by Kutateladze et al.
+6: [ 16].
+7: Finally, the scaled  13C NMR chemical shifts for the structural isomers ( 1a and  1a;  2 and  2a) were analyzed using the sDP4+ method [ 26], however, the B97xD/6-31G(d) functional is not inherent to the Grimblat method, therefore a small amount of caution should be applied to this result (see  supplementary material).

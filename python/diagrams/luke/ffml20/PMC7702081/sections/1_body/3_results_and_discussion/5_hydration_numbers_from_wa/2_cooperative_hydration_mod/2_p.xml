@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Speciation analysis of the aqueous MgCl
+ <sub>2</sub> solutions (Table S2 in ESI) shows that Mg
+ <sup>2+</sup> and Cl
+ <sup>−</sup> ions are mainly present as free ions only in the most dilute solutions (0.08 and 0.15 mol kg
+ <sup>−1</sup>). Otherwise, they form contact, solvent shared, and solvent‐separated ion pairs. As cooperative effects of ions in the aqueous electrolyte can induce specific changes to the water dynamics,[
+ <xref rid="cphc202000498-bib-0087" ref-type="ref">
+  <sup>87</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0088" ref-type="ref">
+  <sup>88</sup>
+ </xref>] we have implemented a cooperative hydration model to categorize the water molecules in MgCl
+ <sub>2</sub>(aq) in different subpopulations (Figure 
+ <xref rid="cphc202000498-fig-0008" ref-type="fig">8</xref>A) and characterize the dynamic properties of water depending on the relative position from the ions. The hydrogen and oxygen atoms of each water molecule in the solution are labelled O
+ <sub>
+  <italic>a</italic>
+ </sub>H
+ <sub>
+  <italic>b</italic>
+ </sub>H
+ <sub>
+  <italic>c</italic>
+ </sub>, where 
+ <italic>a</italic>, 
+ <italic>b</italic>, 
+ <italic>c</italic>=1, 2, and B, depending on the position from the Mg
+ <sup>2+</sup> and Cl
+ <sup>−</sup> ions; the subscript is set to 1 when the oxygen or hydrogen atom is in the first coordination shell of the nearest ion, to 2 when the oxygen or hydrogen atom is in the second coordination shell of the nearest ion, and B when it is beyond the second shell. Assignments were made by comparing the distance between O
+ <sub>
+  <italic>a</italic>
+ </sub> and the nearest magnesium ion with the positions of the first and second minima of the Mg−O RDFs (Figure 
+ <xref rid="cphc202000498-fig-0002" ref-type="fig">2</xref>), and the distance between H
+ <sub>
+  <italic>b</italic>
+ </sub> (or H
+ <sub>
+  <italic>c</italic>
+ </sub>) and the nearest chlorine ion with first and second minima of the Cl−H RDF (Figure S9 in ESI). The application of these criteria to categorize water molecules in MgCl
+ <sub>2</sub> solutions is based on the semi‐rigid hydration scheme, where water dynamics are „locked” in two directions: the orientation of the water dipole is mainly affected by cations; the O−H orientation is mainly affected by anions.
+ <xref rid="cphc202000498-bib-0087" ref-type="ref">
+  <sup>[87]</sup>
+ </xref> Previous experimental and simulation work provide evidence for orientation ordering of water in extended hydration shells around the ion.[
+ <xref rid="cphc202000498-bib-0089" ref-type="ref">
+  <sup>89</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0090" ref-type="ref">
+  <sup>90</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0091" ref-type="ref">
+  <sup>91</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0092" ref-type="ref">
+  <sup>92</sup>
+ </xref>] Using this approach, the water molecules in the solution can be classified into 18 subpopulations, W
+ <sub>
+  <italic>abc</italic>
+ </sub>, where 
+ <italic>a</italic>, 
+ <italic>b</italic>, 
+ <italic>c</italic>=1, 2, B. For examples, W
+ <sub>112</sub> refers to the subpopulation O
+ <sub>1</sub>H
+ <sub>1</sub>H
+ <sub>2</sub> of molecules having the oxygen in the first coordination shell of Mg
+ <sup>2+</sup>, one hydrogen atoms in the first coordination shell of Cl
+ <sup>−</sup>, and the other hydrogen in the second shell of Cl
+ <sup>−</sup>. The number of water molecules in W
+ <sub>11B</sub>, W
+ <sub>21B</sub>, and W
+ <sub>B1B</sub> are zero because these subpopulations correspond to molecules where the O−H bond is dissociated, that is one hydrogen is in the first shell and the other hydrogen in the bulk.The computational procedure used to categorize the water molecules in MgCl
+ <sub>2</sub>(aq) into different water subpopulation is presented in ESI, together with a detailed analysis of the process of water „exchange” between different subpopulations. Figure 
+ <xref rid="cphc202000498-fig-0008" ref-type="fig">8</xref>C reports the distribution of water molecules among the fifteen subpopulations in the 1.3mol kg
+ <sup>−1</sup> MgCl
+ <sub>2</sub> solution. The subpopulation analysis has been conducted at each time step using four (non‐overlapping) simulation blocks each lasting 5 ps. The error bars in Figure 
+ <xref rid="cphc202000498-fig-0008" ref-type="fig">8</xref>C are &lt;1 % because of the small variation of the average number of water molecules in each subpopulation during the four consecutive time blocks 
+ <bold>(</bold>Figure S13 in ESI). From this population distribution is also possible to evaluate the number of water molecules that are in the bulk (or free water), coordinated to one ion, or coordinated to both Mg
+ <sup>2+</sup> and Cl
+ <sup>−</sup> (Figure 
+ <xref rid="cphc202000498-fig-0008" ref-type="fig">8</xref>D). The fraction of bulk and single‐coordinated ions per number of Mg
+ <sup>2+</sup> decreases as the MgCl
+ <sub>2</sub> concentration increases and beyond 1.3 mol kg
+ <sup>−1</sup> most molecules are coordinated to both ions. This makes cooperative ionic effects important in most solutions. 
+</p>

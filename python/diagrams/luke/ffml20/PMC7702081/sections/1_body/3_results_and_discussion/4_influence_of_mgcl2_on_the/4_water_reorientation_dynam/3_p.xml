@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>where 
+ <italic>
+  <bold>μ</bold>
+ </italic>(0) and 
+ <italic>
+  <bold>μ</bold>
+ </italic>(
+ <italic>t</italic>) are the unit vectors defining the orientation of the dipole moment of a water molecule at times 0 and 
+ <italic>t</italic>, respectively. The average in Eq. 4 was computed over all water molecules in the solution, using multiple time origins and overlapping intervals
+ <sup>[0,
+  <italic>t</italic>]
+ </sup> of equal time length (
+ <italic>t</italic>=16 ps) (Figures S4–S7 in ESI).
+ <xref rid="cphc202000498-bib-0078" ref-type="ref">
+  <sup>[78]</sup>
+ </xref> In Figure 
+ <xref rid="cphc202000498-fig-0006" ref-type="fig">6</xref>, the 
+ <bold>C</bold>
+ <sub>1</sub>(
+ <bold>t</bold>) function starts at 1 and decays asymptotically to zero because of the random and isotropic orientation of the water molecules in solution. The early stages of fast loss of correlation is caused by librational motion, whereas the long term decay is due to reorientational motion and can be fit by the bi‐exponential function 
+ <italic>a</italic>⋅exp(−
+ <italic>t</italic>/
+ <italic>τ</italic>
+ <sub>1</sub>)+
+ <italic>b</italic> ⋅ exp(−
+ <italic>t</italic>/
+ <italic>τ</italic>
+ <sub>2</sub>).
+ <xref rid="cphc202000498-bib-0084" ref-type="ref">
+  <sup>[84]</sup>
+ </xref> The relaxation time associated with the reorientational motion, 
+ <italic>τ</italic>
+ <sub>reor</sub>, is given by the weighted average of the fitting parameters 
+ <italic>τ</italic>
+ <sub>1</sub> and 
+ <italic>τ</italic>
+ <sub>2</sub>:
+ <disp-formula id="cphc202000498-disp-0005">
+  <label>(5)</label>
+  <math id="nlm-math-11">
+   <mstyle displaystyle="true">
+    <mrow>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mi>e</mi>
+       <mi>o</mi>
+       <mi>r</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>a</mi>
+       <mo>·</mo>
+       <mrow/>
+       <msub>
+        <mi>τ</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>+</mo>
+       <mi>b</mi>
+       <mo>·</mo>
+       <mrow/>
+       <msub>
+        <mi>τ</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>a</mi>
+       <mo>+</mo>
+       <mi>b</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The ability to collect XAS data quickly, combined with the advances in X-ray optics that allow now to focus the X-ray beam down to submicron dimensions, provides also the possibility to use XAS for 2D and 3D mapping of distributions of different species in nonhomogenous samples. A full XAS spectrum can be collected for each pixel and voxel in the image of the sample, using either a wide X-ray beam and a 2D detector (transmission measurements only) or point-by-point, by scanning the focused X-ray beam.
+ <sup>
+  <xref ref-type="bibr" rid="ref100">100</xref>
+ </sup> For example, Schroer et al. used tomography-based XAS and a scanning beam approach to map the 3D distributions of Cu species in different oxidation states in CuO/ZnO catalyst in a glass capillary,
+ <sup>
+  <xref ref-type="bibr" rid="ref101">101</xref>
+ </sup> and Grunwaldt et al. used a 2D detector to map the distribution of Rh species with different oxidation states in Rh/Al
+ <sub>2</sub>O
+ <sub>3</sub> catalyst during CH
+ <sub>4</sub> oxidation.
+ <sup>
+  <xref ref-type="bibr" rid="ref13">13</xref>,
+  <xref ref-type="bibr" rid="ref102">102</xref>,
+  <xref ref-type="bibr" rid="ref103">103</xref>
+ </sup> Clearly, the ability to probe and visualize directly inhomogeneities in the sample is especially relevant for complex multicomponent systems such as electrocatalysts at work. For example, Takao et al. recently demonstrated the possibility to use QXAFS and a scanning X-ray beam to map the distribution of different Pt species at the cathode of polymer electrolyte fuel cells, where the increased Pt oxidation state was associated with the degradation of the catalyst and correlated in space with the presence of microcracks in the cathode layer (
+ <xref rid="fig4" ref-type="fig">Figure 
+  <xref rid="fig4" ref-type="fig">4</xref>
+ </xref>).
+ <sup>
+  <xref ref-type="bibr" rid="ref104">104</xref>
+ </sup> Without doubt, the importance of spatially- and time-resolved XAS studies for the understanding of catalyst under working conditions will further increase in the future. However, one of the challenges to be addressed in these experiments includes the very large data sets produced, which requires some further development in automatic data processing and analysis. This can be based on unsupervised machine learning methods
+ <sup>
+  <xref ref-type="bibr" rid="ref12">12</xref>
+ </sup> to fully exploit the potential provided by the new exciting experimental capabilities.
+</p>

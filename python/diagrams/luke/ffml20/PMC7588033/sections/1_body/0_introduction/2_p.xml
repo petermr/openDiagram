@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In general, the blood–brain permeability can be experimentally determined by various 
+ <italic>in vivo</italic> methods, for example, by measuring the ratio between the compound concentration in brain tissues and blood samples (logBB).
+ <sup>
+  <xref ref-type="bibr" rid="ref1">1</xref>,
+  <xref ref-type="bibr" rid="ref13">13</xref>
+ </sup> These methods are very reliable, but they are laborious and relatively low throughput. Therefore, 
+ <italic>in vitro</italic> methods based on various cell assays have been employed to predict the BBB permeability.
+ <sup>
+  <xref ref-type="bibr" rid="ref14">14</xref>
+ </sup> Still, these methods are time-consuming and expensive rendering them practically inconvenient for screening large collections of chemicals. In contrast, various computational approaches
+ <sup>
+  <xref ref-type="bibr" rid="ref15">15</xref>,
+  <xref ref-type="bibr" rid="ref16">16</xref>
+ </sup> have already served as potential prescreening tools with the aim of reducing the cost and enhancing the speed of BBB-permeability analysis.
+ <sup>
+  <xref ref-type="bibr" rid="ref15">15</xref>
+ </sup> Examples of such approaches are the quantitative structure activity relation and the application of artificial intelligence algorithms (e.g., machine learning, genetic algorithms, and artificial neural networks),
+ <sup>
+  <xref ref-type="bibr" rid="ref3">3</xref>
+ </sup> which have elucidated the role of various parameters, such as lipophilicity, hydrogen-bonding,
+ <sup>
+  <xref ref-type="bibr" rid="ref17">17</xref>−
+  <xref ref-type="bibr" rid="ref19">19</xref>
+ </sup> and other physicochemical factors of the compounds (e.g., solubility, excess molar refraction, polarizability, hydrogen-bond acidity/basicity, and drug solvation free energy in water)
+ <sup>
+  <xref ref-type="bibr" rid="ref8">8</xref>,
+  <xref ref-type="bibr" rid="ref10">10</xref>,
+  <xref ref-type="bibr" rid="ref20">20</xref>,
+  <xref ref-type="bibr" rid="ref21">21</xref>
+ </sup> by assuming that the BBB permeability is governed by these descriptors (e.g., lipophilicity, hydrogen-bonding, polarizability, acidity/basicity, polar surface area, p
+ <italic>K</italic>
+ <sub>a</sub>, etc
+ <italic>.</italic>). The results of these studies have been corroborated on the basis of the high correlation coefficient between experimental and computational predictions for representative sets of compounds.
+ <sup>
+  <xref ref-type="bibr" rid="ref6">6</xref>,
+  <xref ref-type="bibr" rid="ref10">10</xref>,
+  <xref ref-type="bibr" rid="ref11">11</xref>
+ </sup>
+</p>

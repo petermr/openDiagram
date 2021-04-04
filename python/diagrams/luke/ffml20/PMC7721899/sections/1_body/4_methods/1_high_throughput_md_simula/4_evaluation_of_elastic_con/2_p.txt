@@ -1,0 +1,4 @@
+0: All the simulations are conducted using the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) package 49.
+1: Each CSH structure comprises at least 3000 atoms.
+2: ReaxFF is used as an interatomic potential.
+3: The process is repeated till all the elastic constants for different Ca/Si ratio with different water has been generated.

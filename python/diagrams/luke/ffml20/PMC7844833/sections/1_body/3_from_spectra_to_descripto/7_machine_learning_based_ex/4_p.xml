@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Another important difference between the ML-based XANES and EXAFS data analysis is the construction of training structure models. Since EXAFS is more sensitive to the atomic displacements, and, in particular, to atomic thermal vibrations, such a disorder needs to be included in the theoretical models used for the training of the ML routine. Classical MD simulations with empirical force field models were found to be instrumental for this purpose due to their ability to generate realistic-looking structure models in relatively computationally cheap calculations. Computational efficiency is important because thousands of structure models are needed to reliably fit the complex relationship that links EXAFS features to the corresponding partial RDFs.
+ <sup>
+  <xref ref-type="bibr" rid="ref214">214</xref>
+ </sup>
+</p>

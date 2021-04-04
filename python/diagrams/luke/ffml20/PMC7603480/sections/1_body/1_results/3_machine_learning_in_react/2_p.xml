@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">To test these expectations, a reaction network containing 32,515 bond-breaking reactions, Rad-6-RE, was generated using the Rad-6 molecules (see SI for details and the full dataset). In Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>, we show the relation between the performance of different ML models for AE and RE predictions, using both FPS training set selections (multiple points for each method correspond to the different training set sizes shown in Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>). These plots reveal several interesting trends. As expected, the RE error correlates with the AE error. However, there are significant differences both with respect to the FPS selection and the kernels. Most notably, all models display unexpectedly large errors for the smaller (
+ <italic>N</italic> ≤ 2000) extensive training sets. In contrast, the models trained on the intensive FPS display RE errors that are much closer to the corresponding AE errors. Strikingly, the combination of intensive kernel learning and intensive training set selection leads to RE errors that are almost identical to the corresponding AE errors across all training set sizes.
+</p>

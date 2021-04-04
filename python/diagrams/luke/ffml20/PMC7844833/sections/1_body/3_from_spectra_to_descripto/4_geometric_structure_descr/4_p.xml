@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Functions 
+ <italic>F</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>, ϕ
+ <sub>
+  <italic>p</italic>
+ </sub>, and λ
+ <sub>
+  <italic>p</italic>
+ </sub> can also be obtained experimentally from the analysis of EXAFS spectra in reference materials with known structure. This approach was mostly used in the older papers, when the accuracy of 
+ <italic>ab initio</italic> EXAFS simulations was limited. For example, this approach is applied in refs (
+ <xref ref-type="bibr" rid="ref157">157</xref> and 
+ <xref ref-type="bibr" rid="ref158">158</xref>) to analyze EXAFS spectra of Pt catalysts for methanol oxidation and Ru-based catalysts for ORR. However, even nowadays it can provide better accuracy if very subtle effects need to be analyzed such as thermal expansion
+ <sup>
+  <xref ref-type="bibr" rid="ref159">159</xref>
+ </sup> or isotopic effects on EXAFS spectra.
+ <sup>
+  <xref ref-type="bibr" rid="ref160">160</xref>,
+  <xref ref-type="bibr" rid="ref161">161</xref>
+ </sup> Today a more common approach, however, is to calculate the functions 
+ <italic>F</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>, ϕ
+ <sub>
+  <italic>p</italic>
+ </sub>, and λ
+ <sub>
+  <italic>p</italic>
+ </sub> theoretically, which can be achieved with a good accuracy with codes like FEFF
+ <sup>
+  <xref ref-type="bibr" rid="ref31">31</xref>,
+  <xref ref-type="bibr" rid="ref42">42</xref>,
+  <xref ref-type="bibr" rid="ref55">55</xref>
+ </sup> and GNXAS.
+ <sup>
+  <xref ref-type="bibr" rid="ref58">58</xref>,
+  <xref ref-type="bibr" rid="ref59">59</xref>
+ </sup>
+</p>

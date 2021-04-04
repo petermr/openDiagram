@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par42">The weights can be solved by formulating the above mapping into a constrained optimization problem as stated below,
+ <disp-formula id="Equ10">
+  <label>10</label>
+  <alternatives>
+   <tex-math id="M75">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {\varvec{argmin}}_{{{\varvec{A}}_{{\varvec{j}}} }} \left\{ {f_{{\varvec{N}}} \left( {{\varvec{A}}_{N} , \ldots {\varvec{f}}_{2} \left( {{\varvec{A}}_{2} ,\left( {{\varvec{f}}_{1} \left( {{\varvec{A}}_{1} ,{\varvec{x}}} \right)} \right) \ldots } \right) + {\mathbf{\lambda g}}\left( {{\mathbf{A}}_{{\mathbf{j}}} } \right)} \right)} \right\} $$\end{document}</tex-math>
+   <math id="M76" display="block">
+    <mrow>
+     <msub>
+      <mrow>
+       <mi mathvariant="bold-italic">argmin</mi>
+      </mrow>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold-italic">A</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="bold-italic">j</mi>
+       </mrow>
+      </msub>
+     </msub>
+     <mfenced close="}" open="{">
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mrow>
+         <mi mathvariant="bold-italic">N</mi>
+        </mrow>
+       </msub>
+       <mfenced close=")" open="(">
+        <mrow>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold-italic">A</mi>
+          </mrow>
+          <mi>N</mi>
+         </msub>
+         <mo>,</mo>
+         <mo>…</mo>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold-italic">f</mi>
+          </mrow>
+          <mn>2</mn>
+         </msub>
+         <mfenced close=")" open="(">
+          <mrow>
+           <msub>
+            <mrow>
+             <mi mathvariant="bold-italic">A</mi>
+            </mrow>
+            <mn>2</mn>
+           </msub>
+           <mo>,</mo>
+           <mfenced close=")" open="(">
+            <mrow>
+             <msub>
+              <mrow>
+               <mi mathvariant="bold-italic">f</mi>
+              </mrow>
+              <mn>1</mn>
+             </msub>
+             <mfenced close=")" open="(">
+              <mrow>
+               <msub>
+                <mrow>
+                 <mi mathvariant="bold-italic">A</mi>
+                </mrow>
+                <mn>1</mn>
+               </msub>
+               <mo>,</mo>
+               <mrow>
+                <mi mathvariant="bold-italic">x</mi>
+               </mrow>
+              </mrow>
+             </mfenced>
+            </mrow>
+           </mfenced>
+           <mo>…</mo>
+          </mrow>
+         </mfenced>
+         <mo>+</mo>
+         <mrow>
+          <mi>λ</mi>
+          <mi mathvariant="bold">g</mi>
+         </mrow>
+         <mfenced close=")" open="(">
+          <msub>
+           <mi mathvariant="bold">A</mi>
+           <mi mathvariant="bold">j</mi>
+          </msub>
+         </mfenced>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2020_78368_Article_Equ10.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where λ is the regularization intensity constant and 
+ <inline-formula id="IEq29">
+  <alternatives>
+   <tex-math id="M77">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$g\left( \cdot \right)$$\end{document}</tex-math>
+   <math id="M78">
+    <mrow>
+     <mi>g</mi>
+     <mfenced close=")" open="(">
+      <mo>·</mo>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq29.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is a functional form of the weights to be regularized. This optimization problem is usually solved by stochastic gradient descent or backward propagation algorithm. Since the non-convex nature of the neural network, the solution to this optimization problem is not unique. Moreover, the selection of the number of layers and the number of perceptron in each layer affects the result of the regression, and it is subjected to high variance problems when large numbers of neurons and layers are used. As such proper regularization is needed when the neural network is implemented. In this study, while training a neural network model, a rectified linear unit (ReLU) is implemented for performance-enhancement. Here, the data is trained using a feedforward multilayer perceptron where the weights are trained by the back propagation algorithm. Henceforth, the feedforward backpropagation multilayer perceptrons will be referred to as a neural network (NN), which is commonly used in the literature.
+</p>

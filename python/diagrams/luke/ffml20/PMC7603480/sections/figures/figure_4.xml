@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig4">
+ <label>Fig. 4</label>
+ <caption>
+  <title>Learning curves for atomization energies (AE).</title>
+  <p>
+   <bold>a</bold> Mean absolute error (MAE) of AE predictions on the test set, as a function of the number of training molecules 
+   <italic>n</italic>
+   <sub>train</sub>. The training sets were constructed using FPS with the extensive (
+   <bold>a</bold>) and intensive kernels (
+   <bold>b</bold>) (see text). 
+   <bold>c</bold> AE learning curves using molecular geometries obtained with the universal forcefield (UFF). The gray line represents a learning rate of 
+   <inline-formula id="IEq3">
+    <alternatives>
+     <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${n}_{{\rm{train}}}^{0.65}$$\end{document}</tex-math>
+     <math id="M16">
+      <msubsup>
+       <mrow>
+        <mi>n</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">train</mi>
+       </mrow>
+       <mrow>
+        <mn>0.65</mn>
+       </mrow>
+      </msubsup>
+     </math>
+     <inline-graphic xlink:href="41467_2020_19267_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </alternatives>
+   </inline-formula> and serves as a guide to the eye in all three panels.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_19267_Fig4_HTML" id="d30e1264" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

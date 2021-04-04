@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The concentration‐dependent dielectric loss spectra of MgCl
+ <sub>2</sub> solutions with concentrations ranging from 0.0 to 2.6 mol kg
+ <sup>−1</sup> (Figure 
+ <xref rid="cphc202000498-fig-0011" ref-type="fig">11</xref>) were analysed by simultaneously fitting the real and imaginary parts of the spectra to the double‐Debye dielectric relaxation model for the frequency dependent dielectric permittivity (
+ <italic>ϵ</italic>):[
+ <xref rid="cphc202000498-bib-0050" ref-type="ref">
+  <sup>50</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0097" ref-type="ref">
+  <sup>97</sup>
+ </xref>]
+ <disp-formula id="cphc202000498-disp-0007">
+  <label>(7)</label>
+  <math id="nlm-math-13">
+   <mstyle displaystyle="true">
+    <mrow>
+     <mi>ϵ</mi>
+     <mrow/>
+     <mfenced open="(" close=")">
+      <mi>ν</mi>
+     </mfenced>
+     <mo>=</mo>
+     <mfrac>
+      <msub>
+       <mi>S</mi>
+       <mn>1</mn>
+      </msub>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mi>i</mi>
+       <mi>ω</mi>
+       <msub>
+        <mi>τ</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mfrac>
+      <msub>
+       <mi>S</mi>
+       <mn>2</mn>
+      </msub>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mi>i</mi>
+       <mi>ω</mi>
+       <msub>
+        <mi>τ</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mi>ϵ</mi>
+       <mrow/>
+      </mrow>
+      <mi>∞</mi>
+     </msub>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

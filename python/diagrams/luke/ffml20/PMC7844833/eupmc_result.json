@@ -1,0 +1,343 @@
+{
+  "id": [
+    "32986414"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32986414"
+  ],
+  "pmcid": [
+    "PMC7844833"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7844833"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1021/acs.chemrev.0c00396"
+  ],
+  "title": [
+    "<i>In Situ</i>/<i>Operando</i> Electrocatalyst Characterization by X-ray Absorption Spectroscopy."
+  ],
+  "authorString": [
+    "Timoshenko J, Roldan Cuenya B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Timoshenko J"
+          ],
+          "firstName": [
+            "Janis"
+          ],
+          "lastName": [
+            "Timoshenko"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Interface Science, Fritz-Haber Institute of the Max-Planck Society, 14195 Berlin, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Roldan Cuenya B"
+          ],
+          "firstName": [
+            "Beatriz"
+          ],
+          "lastName": [
+            "Roldan Cuenya"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8025-307X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Interface Science, Fritz-Haber Institute of the Max-Planck Society, 14195 Berlin, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8025-307X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "121"
+      ],
+      "journalIssueId": [
+        "3100065"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Chemical reviews"
+          ],
+          "ISOAbbreviation": [
+            "Chem Rev"
+          ],
+          "medlineAbbreviation": [
+            "Chem Rev"
+          ],
+          "NLMid": [
+            "2985134R"
+          ],
+          "ISSN": [
+            "0009-2665"
+          ],
+          "ESSN": [
+            "1520-6890"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "882-961"
+  ],
+  "abstractText": [
+    "During the last decades, X-ray absorption spectroscopy (XAS) has become an indispensable method for probing the structure and composition of heterogeneous catalysts, revealing the nature of the active sites and establishing links between structural motifs in a catalyst, local electronic structure, and catalytic properties. Here we discuss the fundamental principles of the XAS method and describe the progress in the instrumentation and data analysis approaches undertaken for deciphering X-ray absorption near edge structure (XANES) and extended X-ray absorption fine structure (EXAFS) spectra. Recent usages of XAS in the field of heterogeneous catalysis, with emphasis on examples concerning electrocatalysis, will be presented. The latter is a rapidly developing field with immense industrial applications but also unique challenges in terms of the experimental characterization restrictions and advanced modeling approaches required. This review will highlight the new insight that can be gained with XAS on complex real-world electrocatalysts including their working mechanisms and the dynamic processes taking place in the course of a chemical reaction. More specifically, we will discuss applications of <i>in situ</i> and <i>operando</i> XAS to probe the catalyst's interactions with the environment (support, electrolyte, ligands, adsorbates, reaction products, and intermediates) and its structural, chemical, and electronic transformations as it adapts to the reaction conditions."
+  ],
+  "affiliation": [
+    "Department of Interface Science, Fritz-Haber Institute of the Max-Planck Society, 14195 Berlin, Germany."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "725915"
+          ],
+          "agency": [
+            "European Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1021/acs.chemrev.0c00396"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7844833"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7844833?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-09-28"
+  ],
+  "firstIndexDate": [
+    "2020-09-29"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-01"
+  ],
+  "dateOfRevision": [
+    "2021-01-30"
+  ],
+  "electronicPublicationDate": [
+    "2020-09-28"
+  ],
+  "firstPublicationDate": [
+    "2020-09-28"
+  ]
+}

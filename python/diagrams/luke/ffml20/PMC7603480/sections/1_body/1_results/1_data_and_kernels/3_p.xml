@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">Specifically, for a reaction of the type:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$A\,\longrightarrow\, B+C,$$\end{document}</tex-math>
+   <math id="M2">
+    <mi>A</mi>
+    <mspace width="0.25em"/>
+    <mo>→</mo>
+    <mspace width="0.25em"/>
+    <mi>B</mi>
+    <mo>+</mo>
+    <mi>C</mi>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2020_19267_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>the REs can be computed from molecular atomization energies via:
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{{\rm{reac}}}={E}_{{\rm{at}}}^{B}+{E}_{{\rm{at}}}^{C}-{E}_{{\rm{at}}}^{A},$$\end{document}</tex-math>
+   <math id="M4">
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">reac</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">at</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+    </msubsup>
+    <mo>+</mo>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">at</mi>
+     </mrow>
+     <mrow>
+      <mi>C</mi>
+     </mrow>
+    </msubsup>
+    <mo>−</mo>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">at</mi>
+     </mrow>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+    </msubsup>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2020_19267_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where we define the AE without loss of generality as the total energy of the molecule minus total energies of the isolated neutral atoms.
+</p>

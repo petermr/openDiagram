@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="ath1">
+  <name>
+   <surname>Thai</surname>
+   <given-names>Nguyen Quoc</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath2">
+  <name>
+   <surname>Theodorakis</surname>
+   <given-names>Panagiotis E.</given-names>
+  </name>
+  <xref rid="aff3" ref-type="aff">§</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath3">
+  <name>
+   <surname>Li</surname>
+   <given-names>Mai Suan</given-names>
+  </name>
+  <xref rid="cor1" ref-type="other">*</xref>
+  <xref rid="aff3" ref-type="aff">§</xref>
+ </contrib>
+ <aff id="aff1">
+  <label>†</label>Institute for Computational Science and Technology, 
+  <institution>Quang Trung Software City</institution>, Tan Chanh Hiep Ward, District 12, Ho Chi Minh City 700000, 
+  <country>Vietnam</country>
+ </aff>
+ <aff id="aff2">
+  <label>‡</label>
+  <institution>Dong Thap University</institution>, 783 Pham Huu Lau Street, Ward 6, Cao Lanh City 870000, Dong Thap, 
+  <country>Vietnam</country>
+ </aff>
+ <aff id="aff3">
+  <label>§</label>Institute of Physics, 
+  <institution>Polish Academy of Sciences</institution>, Al. Lotnikow 32/46, 02-668 Warsaw, 
+  <country>Poland</country>
+ </aff>
+</contrib-group>

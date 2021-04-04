@@ -1,0 +1,484 @@
+{
+  "id": [
+    "33087847"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33087847"
+  ],
+  "pmcid": [
+    "PMC7578788"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7578788"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41598-020-74833-z"
+  ],
+  "title": [
+    "Pre-movement changes in sensorimotor beta oscillations predict motor adaptation drive."
+  ],
+  "authorString": [
+    "Darch HT, Cerminara NL, Gilchrist ID, Apps R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Darch HT"
+          ],
+          "firstName": [
+            "Henry T"
+          ],
+          "lastName": [
+            "Darch"
+          ],
+          "initials": [
+            "HT"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3876-9002",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Physiology, Pharmacology and Neuroscience, University of Bristol, Bristol, BS8 1TD, UK."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "APC Microbiome Ireland, University College Cork, Cork, Ireland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cerminara NL"
+          ],
+          "firstName": [
+            "Nadia L"
+          ],
+          "lastName": [
+            "Cerminara"
+          ],
+          "initials": [
+            "NL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8207-5871",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Physiology, Pharmacology and Neuroscience, University of Bristol, Bristol, BS8 1TD, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gilchrist ID"
+          ],
+          "firstName": [
+            "Iain D"
+          ],
+          "lastName": [
+            "Gilchrist"
+          ],
+          "initials": [
+            "ID"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2070-6679",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Psychological Science, University of Bristol, Bristol, BS8 1TU, UK. I.D.Gilchrist@bristol.ac.uk."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Apps R"
+          ],
+          "firstName": [
+            "Richard"
+          ],
+          "lastName": [
+            "Apps"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2064-3359",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Physiology, Pharmacology and Neuroscience, University of Bristol, Bristol, BS8 1TD, UK. R.Apps@bristol.ac.uk."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8207-5871",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2064-3359",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2070-6679",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3876-9002",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3032300"
+      ],
+      "dateOfPublication": [
+        "2020 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "17946"
+  ],
+  "abstractText": [
+    "Beta frequency oscillations in scalp electroencephalography (EEG) recordings over the primary motor cortex have been associated with the preparation and execution of voluntary movements. Here, we test whether changes in beta frequency are related to the preparation of adapted movements in human, and whether such effects generalise to other species (cat). Eleven healthy adult humans performed a joystick visuomotor adaptation task. Beta (15-25 Hz) scalp EEG signals recorded over the motor cortex during a pre-movement preparatory phase were, on average, significantly reduced in amplitude during early adaptation trials compared to baseline, late adaptation, or aftereffect trials. The changes in beta were not related to measurements of reaction time or reach duration. We also recorded local field potential (LFP) activity within the primary motor cortex of three cats during a prism visuomotor adaptation task. Analysis of these signals revealed similar reductions in motor cortical LFP beta frequencies during early adaptation. This effect was present when controlling for any influence of the reaction time and reach duration. Overall, the results are consistent with a reduction in pre-movement beta oscillations predicting an increase in adaptive drive in upcoming task performance when motor errors are largest in magnitude and the rate of adaptation is greatest."
+  ],
+  "affiliation": [
+    "School of Physiology, Pharmacology and Neuroscience, University of Bristol, Bristol, BS8 1TD, UK."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "G1100626"
+          ],
+          "agency": [
+            "Medical Research Council"
+          ],
+          "acronym": [
+            "MRC_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "BB/J014400/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "acronym": [
+            "BB_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-020-74833-z"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7578788"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7578788?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR108797"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "CrossRef Pre-print loader"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-10-22"
+  ],
+  "firstIndexDate": [
+    "2020-10-23"
+  ],
+  "fullTextReceivedDate": [
+    "2020-10-25"
+  ],
+  "dateOfRevision": [
+    "2020-11-06"
+  ],
+  "electronicPublicationDate": [
+    "2020-10-21"
+  ],
+  "firstPublicationDate": [
+    "2020-10-21"
+  ]
+}

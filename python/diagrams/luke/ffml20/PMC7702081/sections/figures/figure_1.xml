@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig fig-type="Figure" xml:lang="en" id="cphc202000498-fig-0001" orientation="portrait" position="float">
+ <label>Figure 1</label>
+ <caption>
+  <p>Water reorientation dynamics from 
+   <italic>ab initio</italic> MD trajectories and determination of hydration numbers of aqueous electrolytes. The procedure involves generating the time evolution of aqueous electrolyte solution using 
+   <italic>ab initio</italic> MD (
+   <bold>A</bold>), from which the water hydration status is determined using the position of H
+   <sub>2</sub>O in the radially varying spherical coordination shell of cations and anions (
+   <bold>B</bold>). The characteristic reorientation time (
+   <italic>τ</italic>
+   <sub>reor</sub>) of each water subpopulation is computed from the bi‐exponential fit of the first‐order Legendre polynomial time correlation function of water dipole vectors (
+   <bold>C</bold>). The hydration number is determined as the number of water molecules, per dissolved salt units, that no longer participate in bulk‐like reorientation dynamics (
+   <bold>D</bold>).
+  </p>
+ </caption>
+ <graphic id="nlm-graphic-3" xlink:href="CPHC-21-2334-g001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

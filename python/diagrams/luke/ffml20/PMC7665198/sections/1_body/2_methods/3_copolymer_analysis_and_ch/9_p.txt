@@ -1,0 +1,9 @@
+0: Molecular dynamic (MD) simulations were conducted using Accelrys (BIOVIA) Materials Studio vs 5.5.
+1: Prior to simulations, seven identical chains with sixty number average of repeating units (X n) were placed within a unit cell at a density of 1.125 g/cm 3 and geometrically optimized using the Dreiding Forcefield.
+2: Each cell was filled with a discrete amount of water molecules to mimic different degrees of solvation with the repeating copolymer unit to water ratios ( Rw) of 1:4, 1:2, 1:1, 3:4, and 2:1.
+3: To simulate an unperturbed copolymer state, initial MD NVT simulation was conducted at 298 K for 100 ps at a time step of 0.33 fs using Berendsen thermostat and the previously selected Dreiding Forcefield.
+4: The CED, CE H, CE vdW, and  Rg values were calculated using the Forcite module.
+5: The Dreiding Forcefield was utilized with the build-in TIP3P water model.
+6: Due to the fact that each chain consisted of 60 repeating units, access of one monomer at the expense of another one results in changes in MMA/nBA molar ratio by two.
+7: Thus, MD simulations of p(MMA/nBA) copolymers were conducted on 50/50, 60/40, and 40/60 molar ratios.
+8: All data are available from the authors upon reasonable request.

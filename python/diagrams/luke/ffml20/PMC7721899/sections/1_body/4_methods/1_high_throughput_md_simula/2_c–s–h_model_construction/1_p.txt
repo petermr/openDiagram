@@ -1,0 +1,18 @@
+0: Here, the realistic molar percentages of SiO 2, CaO, and H 2O are adopted as 1138%, 2355%, and 766% (molar %) respectively.
+1: These ranges are chosen based on viable ranges (Ca/Si molar ratio) of constituents reported in the literature 16,  19,  20,  29 to form CSH.
+2: The CSH models are constructed by introducing defects in a layered 11 A tobermorite 40 structure.
+3: The 11 A tobermorite configuration contains pseudo-octahedral calcium oxide sheets surrounded by silicate tetrahedral chains, which consists of bridging oxygen (BO) atoms and  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${Q}^{2}$$\end{document}Q2 silicon atoms (i.e., Si atom connected to two bridging and two non-bridging terminal oxygen atoms) 41.
+4: Such configuration involves negatively charged calcium-silicate sheets which are separated from each other by interlayer spacings.
+5: The interlayer spacing is filled with interlayer water molecules and charged-balancing calcium cations.
+6: It is to be noted that the initial configuration of 11 A tobermorite consists of a Ca/Si ratio equal to 1, this ratio is increased to the range of 1.092.06 as constructed in the present models by randomly removing charge-neutral SiO 2 groups.
+7: This removal of SiO 2 introduces defects in the silicate chains and provides possible sites for adsorption of extra water molecules.
+8: To this end the adsorption of water molecules in the structurally defected tobermorite model is performed by implementing the Grand Canonical Monte Carlo (GCMC) 42 method, ensuring equilibrium with bulk water at constant volume, zero chemical potential, and room temperature.
+9: A similar model development procedure for CSH has been successfully implemented in the literature 19,  21  23,  30 and the procedure is adequately detailed in several published articles 22,  30.
+10: ReaxFF is used here in the MD simulations which has been successfully implemented to evaluate the behavior of CSH 21,  24,  30 and other similar materials 43  45.
+11: These studies have successfully leveraged the features of ReaxFF to evaluate the dynamics of nano-confined water in CSH 19, fracture toughness 24, structural properties of CSH 21,  30, and radiation damage in CSH 46.
+12: Besides, ReaxFF potential has been shown to model CSH 47 reliably in terms of the structural and elastic properties as it is based on the bond-formation/breakages, which is useful for reactive mechanisms such as dissociation of nano-confined water in CSH.
+13: The generated structure is further relaxed at 300 K and zero pressure for 500 ps in the  NVT and  NPT ensemble with a timestep of 0.25 fs before computing the stiffness components.
+14: The molar range of Ca/Si ratio is maintained consistent with those from the literature 16,  29,  48.
+15: To obtain different water content, water molecules are randomly removed from the saturated structure and equilibrated for 500 ps in  NVT and  NPT, respectively.
+16: All the simulations are performed in an open source code LAMMPS package 49.
+17: The methodology for model construction for CSH is adequately detailed in the literature 19,  22,  30.

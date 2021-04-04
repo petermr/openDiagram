@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Rotational motion of water molecules plays a crucial role in the breaking and making of HB (more strongly hydrogen‐bonded water molecules reorient more slowly).[
+ <xref rid="cphc202000498-bib-0082" ref-type="ref">
+  <sup>82</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0083" ref-type="ref">
+  <sup>83</sup>
+ </xref>] We have quantified the rotational relaxation of the water dipole by computing the first‐order Legendre polynomial time correlation function:
+ <xref rid="cphc202000498-bib-0084" ref-type="ref">
+  <sup>[84]</sup>
+ </xref>
+ <disp-formula id="cphc202000498-disp-0004">
+  <label>(4)</label>
+  <math id="nlm-math-10">
+   <mstyle displaystyle="true">
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mn>1</mn>
+     </msub>
+     <mfenced open="(" close=")">
+      <mi>t</mi>
+     </mfenced>
+     <mo>=</mo>
+     <mspace width="4pt"/>
+     <mfrac>
+      <mrow>
+       <mo>⟨</mo>
+       <mover accent="true">
+        <mi>μ</mi>
+        <mo>→</mo>
+       </mover>
+       <mfenced open="(" close=")">
+        <mn>0</mn>
+       </mfenced>
+       <mo>·</mo>
+       <mrow/>
+       <mover accent="true">
+        <mi>μ</mi>
+        <mo>→</mo>
+       </mover>
+       <mfenced open="(" close=")">
+        <mi>t</mi>
+       </mfenced>
+       <mo>⟩</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mover accent="true">
+         <mi>μ</mi>
+         <mo>→</mo>
+        </mover>
+        <mfenced open="(" close=")">
+         <mn>0</mn>
+        </mfenced>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+     </mfrac>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

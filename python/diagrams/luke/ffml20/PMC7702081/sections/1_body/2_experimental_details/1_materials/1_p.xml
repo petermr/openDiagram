@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Aqueous MgCl
+ <sub>2</sub> solutions were prepared by dissolving MgCl
+ <sub>2</sub> powder in deionized water. MgCl
+ <sub>2</sub> was purchased from Sigma‐Aldrich with a purity of over 98 % and used without further purification process. High purity deionized water with electrical resistance of 18.2 MΩ cm was prepared by Milli‐Q systems. Solutions were prepared by measuring the weight of MgCl
+ <sub>2</sub> powder using a balance with a precision of 0.1 mg and dissolving the powder in deionized water by measuring concentration volumetrically (mol kg
+ <sup>−1</sup>). The dielectric constant 
+ <italic>ϵ</italic> of liquid sample was determined from measured reflection coefficient 
+ <italic>ρs</italic> by applying the bilinear model (Eq. 1), which is recommended for open‐ended coaxial probe experiments.[
+ <xref rid="cphc202000498-bib-0048" ref-type="ref">
+  <sup>48</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0049" ref-type="ref">
+  <sup>49</sup>
+ </xref>]
+ <disp-formula id="cphc202000498-disp-0001">
+  <label>(1)</label>
+  <math id="nlm-math-1">
+   <mstyle displaystyle="true">
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>ϵ</mi>
+       <mrow/>
+      </mrow>
+      <mi>s</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>A</mi>
+       <msub>
+        <mi>ρ</mi>
+        <mi>s</mi>
+       </msub>
+       <mo>+</mo>
+       <mi>C</mi>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mi>B</mi>
+       <msub>
+        <mi>ρ</mi>
+        <mi>s</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

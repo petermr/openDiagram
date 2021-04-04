@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Here, the GPR model is trained using a train set by employing the rbf kernel along with white noise, and the model is updated till the hyperparameters converged to a global optimum. It is observed that the GPR model could predict for most of the elastic constants with a higher degree of accuracy except for 
+ <italic>C</italic>
+ <sub>44</sub>, 
+ <italic>C</italic>
+ <sub>13</sub>, and 
+ <italic>C</italic>
+ <sub>23</sub> for which the R
+ <sup>2</sup> values were relatively lower. The predicted results for the Matern kernel are provided in the 
+ <xref rid="MOESM1" ref-type="media">Supplementary document</xref>. A comparison between the predictions from both kernels (rbf and Matern) reveals that the results are independent of the choice of kernel.
+</p>

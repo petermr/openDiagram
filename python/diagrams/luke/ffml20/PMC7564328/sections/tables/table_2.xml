@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl2">
+ <label>Table 2</label>
+ <caption>
+  <p>The laryngeal deposition rates of CD-MOF, SCU@CD-MOF, DEX@CD-MOF and SCU@DEX@CD-MOF.</p>
+ </caption>
+ <alt-text id="alttext0055">Table 2</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Sample</th>
+    <th>Laryngeal deposition rate (%)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>CD-MOF</td>
+    <td>29.16 ± 3.11</td>
+   </tr>
+   <tr>
+    <td>SCU@CD-MOF</td>
+    <td>57.72 ± 2.19
+     <xref rid="tbltblfn2fna" ref-type="table-fn">a</xref>
+    </td>
+   </tr>
+   <tr>
+    <td>DEX@CD-MOF</td>
+    <td>36.64 ± 4.29</td>
+   </tr>
+   <tr>
+    <td>SCU@DEX@CD-MOF (feed molar ratio of 2:2:1)</td>
+    <td>47.35 ± 2.68
+     <xref rid="tbltblfn2fna" ref-type="table-fn">a</xref>
+    </td>
+   </tr>
+   <tr>
+    <td>SCU@DEX@CD-MOF (feed molar ratio of 1:2:1)</td>
+    <td>54.00 ± 4.34
+     <xref rid="tbltblfn2fna" ref-type="table-fn">a</xref>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>
+    <italic>P</italic> &lt; 0.01. Data are presented as mean ± SD (
+    <italic>n</italic> = 3).
+   </p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbltblfn2fna">
+   <label>a</label>
+   <p id="ntpara0025">Significantly different compared to CD-MOF.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

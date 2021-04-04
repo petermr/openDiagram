@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par28">Here, the realistic molar percentages of SiO
+ <sub>2</sub>, CaO, and H
+ <sub>2</sub>O are adopted as 11–38%, 23–55%, and 7–66% (molar %) respectively. These ranges are chosen based on viable ranges (Ca/Si molar ratio) of constituents reported in the literature
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>,
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR20">20</xref>,
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup> to form C–S–H. The CSH models are constructed by introducing defects in a layered 11 Å tobermorite
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup> structure. The 11 Å tobermorite configuration contains pseudo-octahedral calcium oxide sheets surrounded by silicate tetrahedral chains, which consists of bridging oxygen (BO) atoms and 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${Q}^{2}$$\end{document}</tex-math>
+   <math id="M2">
+    <msup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> silicon atoms (i.e., Si atom connected to two bridging and two non-bridging terminal oxygen atoms)
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup>. Such configuration involves negatively charged calcium-silicate sheets which are separated from each other by interlayer spacings. The interlayer spacing is filled with interlayer water molecules and charged-balancing calcium cations. It is to be noted that the initial configuration of 11 Å tobermorite consists of a Ca/Si ratio equal to 1, this ratio is increased to the range of 1.09–2.06 as constructed in the present models by randomly removing charge-neutral SiO
+ <sub>2</sub> groups. This removal of SiO
+ <sub>2</sub> introduces defects in the silicate chains and provides possible sites for adsorption of extra water molecules. To this end the adsorption of water molecules in the structurally defected tobermorite model is performed by implementing the Grand Canonical Monte Carlo (GCMC)
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup> method, ensuring equilibrium with bulk water at constant volume, zero chemical potential, and room temperature. A similar model development procedure for C–S–H has been successfully implemented in the literature
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR21">21</xref>–
+  <xref ref-type="bibr" rid="CR23">23</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup> and the procedure is adequately detailed in several published articles
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>. ReaxFF is used here in the MD simulations which has been successfully implemented to evaluate the behavior of C–S–H
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>,
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup> and other similar materials
+ <sup>
+  <xref ref-type="bibr" rid="CR43">43</xref>–
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup>. These studies have successfully leveraged the features of ReaxFF to evaluate the dynamics of nano-confined water in C–S–H
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>, fracture toughness
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>, structural properties of C–S–H
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>, and radiation damage in C–S–H
+ <sup>
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup>. Besides, ReaxFF potential has been shown to model C–S–H
+ <sup>
+  <xref ref-type="bibr" rid="CR47">47</xref>
+ </sup> reliably in terms of the structural and elastic properties as it is based on the bond-formation/breakages, which is useful for reactive mechanisms such as dissociation of nano-confined water in C–S–H. The generated structure is further relaxed at 300 K and zero pressure for 500 ps in the 
+ <italic>NVT</italic> and 
+ <italic>NPT</italic> ensemble with a timestep of 0.25 fs before computing the stiffness components. The molar range of Ca/Si ratio is maintained consistent with those from the literature
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>,
+  <xref ref-type="bibr" rid="CR29">29</xref>,
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>. To obtain different water content, water molecules are randomly removed from the saturated structure and equilibrated for 500 ps in 
+ <italic>NVT</italic> and 
+ <italic>NPT</italic>, respectively. All the simulations are performed in an open source code LAMMPS package
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>. The methodology for model construction for C–S–H is adequately detailed in the literature
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR22">22</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>.
+</p>

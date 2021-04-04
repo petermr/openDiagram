@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our analysis in the case of 26 compounds modeled with the GROMOS54a7 force-field and using the same pulling velocity (
+ <italic>v</italic> = 0.5 nm/ns) and the DOPC membrane model as in the case of the CHARMM36 model is shown in 
+ <xref rid="fig4" ref-type="fig">Figure 
+  <xref rid="fig4" ref-type="fig">4</xref>
+ </xref> and the corresponding values of the maximum force, 
+ <italic>F</italic>
+ <sub>max</sub>, and the nonequilibrium work, 
+ <italic>W</italic>
+ <sub>neq</sub>, as a function of the experimental logBB and logPS values as well as the TPSA are reported in Table S5 in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>. Overall, our results suggest a high correlation between the simulation and the experimental results. In all cases, the correlation coefficient, 
+ <italic>R</italic>, obtains large values for both 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub>. In particular, 
+ <italic>R</italic>
+ <sup>2</sup> obtains values larger than 0.80 for the correlation of 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with logBB. The correlation with the logPS is of the same magnitude but slightly smaller. Finally, the correlation of 
+ <italic>F</italic>
+ <sub>max</sub> and 
+ <italic>W</italic>
+ <sub>neq</sub> with the TPSA of the compounds is also significant. While 
+ <italic>F</italic>
+ <sub>max</sub> shows a correlation as large as in the case of logBB and logPS, 
+ <italic>W</italic>
+ <sub>neq</sub> manifests a smaller correlation with the TPSA values, that is, 
+ <italic>R</italic>
+ <sup>2</sup> = 0.58. This is expected given the correlation between the logBB and TPSA values (Figure S6 in 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>). Our study also suggests that the use of the Berger lipid force-field for the membrane model, which may be insufficient in some cases (e.g., when a cutoff of 1.0 nm is used),
+ <sup>
+  <xref ref-type="bibr" rid="ref52">52</xref>,
+  <xref ref-type="bibr" rid="ref53">53</xref>
+ </sup> yields consistent results with those obtained by using the CHARMM36 force-field (cf. 
+ <xref rid="fig3" ref-type="fig">Figure 
+  <xref rid="fig3" ref-type="fig">3</xref>
+ </xref>). Hence, our conclusions, which are validated for a large set of different compounds, are not affected by the choice of the force field for both the compounds and the membrane. Moreover, our results are in very good agreement with the results obtained in the study of Carpenter et al.
+ <italic>,</italic>
+ <sup>
+  <xref ref-type="bibr" rid="ref6">6</xref>
+ </sup> where twelve compounds were investigated by means of the potential of mean force between the compounds and the BBB. In summary, our results indicate a remarkable correlation between the simulation and the experimental results irrespective of the force field used to model the membrane and the compounds, which may justify the use of our approach as a method for prescreening compounds with the aim of estimating eventually the relative BBB permeability to different compounds.
+</p>

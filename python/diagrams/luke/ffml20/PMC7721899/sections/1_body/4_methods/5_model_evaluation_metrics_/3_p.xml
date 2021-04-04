@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par50">Here 
+ <inline-formula id="IEq33">
+  <alternatives>
+   <tex-math id="M89">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$y_{t} \left( i \right)$$\end{document}</tex-math>
+   <math id="M90">
+    <mrow>
+     <msub>
+      <mi>y</mi>
+      <mi>t</mi>
+     </msub>
+     <mfenced close=")" open="(">
+      <mi>i</mi>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq33.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the 
+ <italic>i</italic>th true output and 
+ <inline-formula id="IEq34">
+  <alternatives>
+   <tex-math id="M91">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$y_{p} \left( i \right) $$\end{document}</tex-math>
+   <math id="M92">
+    <mrow>
+     <msub>
+      <mi>y</mi>
+      <mi>p</mi>
+     </msub>
+     <mfenced close=")" open="(">
+      <mi>i</mi>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2020_78368_Article_IEq34.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the 
+ <italic>i</italic>th predicted output.
+</p>

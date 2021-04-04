@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The border between the XANES and EXAFS regions of the XAS spectra is not strictly defined and is related to the effective mean-free path for the excited electron λ(
+ <italic>k</italic>). The latter accounts for two different effects: finite lifetime of the core-hole, created by the X-ray absorption processes, and the inelastic interactions of the excited photoelectron. In the EXAFS region, that is, at large photoelectron energies (larger than the effective plasmon excitation energy), λ(
+ <italic>k</italic>) decreases significantly; thus, interactions with relatively few nearest neighbors need to be considered.
+ <sup>
+  <xref ref-type="bibr" rid="ref30">30</xref>
+ </sup> This limits the sensitivity of the EXAFS spectra to contributions of distant atoms and makes it essentially a very local method. On the other hand, it simplifies the mathematical description of the EXAFS part of the absorption spectrum. Using a commonly employed scattering formalism, the EXAFS signal can be expressed as a sum of contributions of different possible photoelectron scattering paths:
+ <disp-formula id="eq7">
+  <graphic xlink:href="cr0c00396_m007" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>7</label>
+ </disp-formula>Because of the low value of λ(
+ <italic>k</italic>) in the EXAFS region, only the shortest scattering paths need to be considered. Furthermore, due to disorder effects, the contributions of many long scattering paths are suppressed. As a result, the series in 
+ <xref rid="eq7" ref-type="disp-formula">eq 
+  <xref rid="eq7" ref-type="disp-formula">7</xref>
+ </xref> convergences quickly.
+ <sup>
+  <xref ref-type="bibr" rid="ref57">57</xref>
+ </sup> While formally the same approach can also be used to describe the postedge features in the XANES spectra, due to the significantly larger λ(
+ <italic>k</italic>) value, the presence of strong scattering events at low photoelectron energies, as well as the lower importance of disorder effects in the XANES region, the sum in 
+ <xref rid="eq7" ref-type="disp-formula">eq 
+  <xref rid="eq7" ref-type="disp-formula">7</xref>
+ </xref> converges poorly. Therefore, full multiple scattering approaches are needed to describe the XANES features accurately.
+ <sup>
+  <xref ref-type="bibr" rid="ref27">27</xref>,
+  <xref ref-type="bibr" rid="ref33">33</xref>,
+  <xref ref-type="bibr" rid="ref57">57</xref>
+ </sup> Note also that an alternative expansion of the χ(
+ <italic>k</italic>) function in terms of many-body distribution functions rather than scattering paths is possible and realized in the so-called GNXAS approach.
+ <sup>
+  <xref ref-type="bibr" rid="ref58">58</xref>,
+  <xref ref-type="bibr" rid="ref59">59</xref>
+ </sup>
+</p>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Water loadings (
+ <italic>w</italic>
+ <sub>tot</sub>) obtained by microgravimetry were predicted using our composite 
+ <italic>adsorption–condensation–intercalation</italic> model,
+ <sup>
+  <xref ref-type="bibr" rid="ref38">38</xref>
+ </sup> which was implemented in a MATLAB R2019b (The Mathworks, Inc.) code. The model accounts for coexisting water populations (i) on the external basal faces (adsorption; 
+ <italic>w</italic>
+ <sub>ads</sub>), (ii) condensed between particle (condensation; 
+ <italic>w</italic>
+ <sub>cond</sub>) water, and (ii) on the internal basal face (intercalation; 
+ <italic>w</italic>
+ <sub>int</sub>), such that
+ <disp-formula id="eq1">
+  <graphic xlink:href="la0c02592_m001" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>1</label>
+ </disp-formula>
+</p>

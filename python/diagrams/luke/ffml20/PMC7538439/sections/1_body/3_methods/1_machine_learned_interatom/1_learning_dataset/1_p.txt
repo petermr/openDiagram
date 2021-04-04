@@ -1,0 +1,6 @@
+0: Structures for reference atomic environments and benchmarks were accumulated from DFT-based ab initio MD runs.
+1: The DFT calculations were performed using the CASTEP package 51 within the PerdewBurkeErnzerhof generalised gradient approximation (PBE) 52 for the exchangecorrelation function.
+2: A cutoff energy of 1000 eV for the plane-wave basis set and a  k-point mesh of 1  1  1 were selected.
+3: To ensure the transferability of the potential to a wide variety of atomistic situations, H 2 in different geometric arrangements was considered, including modest-sized bulk samples in Phase I, II, and liquid, composed of 144 H 2 molecules.
+4: Moreover, unusual configurations found in HMLP-MD with preliminary versions of the potential were added to the DFT training set to improve performance and transferability.
+5: The final accumulated dataset includes up to 41,468 configurations, which are provided as a separated file in the  Supplementary Information.

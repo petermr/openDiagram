@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig4">
+ <label>Figure 4</label>
+ <caption>
+  <p>Comparison of the elastic constant C
+   <sub>33</sub> predicted by (
+   <bold>a</bold>) PR, (
+   <bold>b</bold>) DT, (
+   <bold>c</bold>) RF, (
+   <bold>d</bold>) SVM (with RBF kernel), (
+   <bold>e</bold>) k-NN, (
+   <bold>f</bold>) GPR (with Matern kernel), (
+   <bold>g</bold>) GPR (with RBF kernel) and (
+   <bold>h</bold>) NN with measured values computed by MD simulation. The error bars shown for each value represent the standard deviation around the mean values.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2020_78368_Fig4_HTML" id="MO4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

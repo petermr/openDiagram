@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par7">While exploring compound space is useful in its own right (e.g., for drug or materials design), chemistry is the science of transformations in chemical space. In contrast, virtually all ML models for organic molecules to date are trained on reference data derived from the chemical universe database of Reymond and coworkers, which enumerates potentially stable, drug-like molecules
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>–
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>. Almost by construction, these models therefore cannot describe elementary reactions such as the ones shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>, which typically involve radical or charged intermediates. In our view, the application of ML to areas like catalysis and combustion requires a shift of focus from stable molecules to radicals (i.e., the nodes in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>) and to reactions (the edges). The goal of this paper is therefore to begin the development of ML models for the exploration of reaction space, as opposed to compound space.
+</p>

@@ -1,0 +1,7 @@
+0: The simulations were performed using periodic boundary conditions and a time step of 0.5 fs.
+1: The NoseHoover thermostat and the ParrinelloRahman barostat 55 were used for controlling temperature and pressure, respectively.
+2: All simulations were carried out using the LAMMPS package and the atomic configurations were visualised with the AtomEye package.
+3: Typical models of the H 2 system was created with  P2 1/ c-24 structure containing up to 72,576 molecules.
+4: To reproduce the entire temperaturepressure phase diagram, the NPT simulations of 1152-atom supercells of  P2 1/ c-24 structure were carried out at selected temperatures and pressures, from which we can identify the corresponding stable phases and melting point via the Z-method 56.
+5: Furthermore, the phase-coexistence method 57 with co-existing 27,648 molecules of H 2 solid and liquid was adopted to determine the properties of solid and liquid phases at the melting curve.
+6: To probe the Phase III boundary, 2304 atom supercells of the Phase II  P2 1/ c-24 structure were allowed to equilibrate for 250 ps at a series of pressures and temperatures.

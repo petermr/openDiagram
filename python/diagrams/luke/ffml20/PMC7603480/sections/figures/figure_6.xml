@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig6">
+ <label>Fig. 6</label>
+ <caption>
+  <title>Correlation of mean absolute errors (MAE) for AE and RE prediction.</title>
+  <p>
+   <bold>a</bold> Correlation plot for the extensive FPS training set using the extensive and intensive kernels and DFT geometries. 
+   <bold>b</bold> Correlation plot for the intensive FPS training set using the extensive and intensive kernels and DFT geometries. Multiple points for each model represent the different training set sizes shown in Fig. 
+   <xref rid="Fig4" ref-type="fig">4</xref> (indicated in (
+   <bold>b</bold>)), with smaller AE errors corresponding to larger training sets.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_19267_Fig6_HTML" id="d30e1429" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

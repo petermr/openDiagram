@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here μ is the linear absorption coefficient, which depends on the energy of the incident radiation 
+ <italic>E</italic>. In the X-ray range for a homogeneous monatomic material, an empirical relation links the μ(
+ <italic>E</italic>) dependency to the density of the material ρ, atomic number 
+ <italic>Z</italic>, and relative atomic mass 
+ <italic>A</italic>:
+ <sup>
+  <xref ref-type="bibr" rid="ref24">24</xref>
+ </sup>
+ <disp-formula id="eq2">
+  <graphic xlink:href="cr0c00396_m002" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>2</label>
+ </disp-formula>However, at certain energies, when the energy of the incident photon matches the binding energy of an electron in one of the deep core levels of the atom, the behavior of μ(
+ <italic>E</italic>) deviates from the smooth dependency described by 
+ <xref rid="eq2" ref-type="disp-formula">eq 
+  <xref rid="eq2" ref-type="disp-formula">2</xref>
+ </xref>, and a sharp increase in the absorption is observed, the so-called absorption edge or absorption jump. For example, 
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>a shows an absorption edge at ∼9.0 keV due to the absorption of X-ray photons by K-shell (1s) electrons of Cu in an oxidized Cu nanoparticle (NP).
+ <sup>
+  <xref ref-type="bibr" rid="ref25">25</xref>
+ </sup> In this case, the X-ray photons absorbed excite the core electrons of Cu to available unoccupied states in the valence band, resulting in the absorption edge, which then is referred to as Cu K-edge. The position of the absorption edge 
+ <italic>E</italic>
+ <sub>0</sub> is element-specific, with the corresponding energies scaling approximately as 
+ <italic>Z</italic>
+ <sup>2</sup>. The amplitude of the absorption edge is determined by the number of atoms of a given type in the way of the X-ray beam, that is, by the sample thickness and the concentration of the absorbing element. The shape of the absorption edge and that of the features before and after the absorption edge are determined by the details of the electronic structure of the material (density of unoccupied states available for the excited core-level electron, further on referred to as photoelectron) as well as its atomistic structure due to the interactions between the photoelectron and the neighboring atoms. The oscillations of the absorption probability before and after the absorption edge are referred to as X-ray absorption fine-structure (XAFS) and are thus a very sensitive probe of the material structure and properties.
+</p>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Once the system was set up as shown in 
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>, the steepest descent and conjugate gradient methods were used for energy minimization, as is usually done. The energy-minimized system was then utilized as an initial configuration for the SMD simulation. The simulation was carried out at 
+ <italic>T</italic> = 323 K, by employing the Nosé–Hoover thermostat with an effective relaxation time parameter set to τ
+ <sub>T</sub> = 0.5 ps. The pressure was maintained at 1 bar using the semi-isotropic Parrinello–Rahman barostat with relaxation time τ
+ <sub>P</sub> = 1 ps, and a compressibility of 4.5 × 10
+ <sup>–5</sup> bar
+ <sup>–1</sup>. The LINCS algorithm
+ <sup>
+  <xref ref-type="bibr" rid="ref49">49</xref>,
+  <xref ref-type="bibr" rid="ref50">50</xref>
+ </sup> was used to constrain bond lengths, thus allowing for a 2 fs time-step during simulation. A cutoff of 1.4 nm was chosen for nonbonded interactions, and the neighbor list was updated every 10 ps, while long-range electrostatic interactions were calculated using the particle–mesh Ewald method. Here, the GROMACS 5.1 package was used to carry out all simulations. Simulations typically last from 1.8 to 18.0 ns depending on the pulling velocity. In our study, the considered range of pulling velocities span an order of magnitude, namely, 
+ <italic>v</italic> = 0.5, 1.5, and 5.0 nm/ns. Average properties were calculated from an ensemble of five trajectories with different initial conditions by using a random initial velocity generation and changing the orientation of the pulled compound (
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Figure S3</ext-link>). Examples of individual trajectories are shown in Figures S4 and S5 in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link> as well as Tables S2 and S3 for different membrane models and force fields in the case of mannitol, which has the smallest experimental logBB and logPS values and the highest TPSA value. In fact, the logBB and the TPSA values for the 26 compounds of our study appear to be anticorrelated with 
+ <italic>R</italic>
+ <sup>2</sup> = 0.53 (
+ <italic>R</italic> is the correlation coefficient), as shown in 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Figure S6</ext-link>. Hence, the available values in the literature of logBB and TPSA for our compounds suggest that a larger polar surface area of the compounds is associated with a lower permeability of the BBB. Moreover, values of TPSA below 90 Å
+ <sup>2</sup> suggest an increased potential for BBB penetration, while larger values are usually associated with lower probability of crossing the BBB.
+ <sup>
+  <xref ref-type="bibr" rid="ref51">51</xref>
+ </sup>
+</p>

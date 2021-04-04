@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Further insights into the effect of ions on the HB network were obtained from the vibrational density of states (VDOS) of the excitation spectrum of water (Figure 
+ <xref rid="cphc202000498-fig-0004" ref-type="fig">4</xref>), which was computed from the ab initio MD trajectories as the sum of the Fourier transform of the velocity‐autocorrelation function (VACF) of the oxygen and hydrogen atoms:
+ <xref rid="cphc202000498-bib-0070" ref-type="ref">
+  <sup>[70]</sup>
+ </xref>
+ <disp-formula id="cphc202000498-disp-0002">
+  <label>(2)</label>
+  <math id="nlm-math-8">
+   <mstyle displaystyle="true">
+    <mrow>
+     <mi>f</mi>
+     <mfenced open="(" close=")">
+      <mi>ω</mi>
+     </mfenced>
+     <mo>=</mo>
+     <mi>ℱ</mi>
+     <mfenced separators="" open="(" close=")">
+      <mi>γ</mi>
+      <mfenced open="(" close=")">
+       <mi>t</mi>
+      </mfenced>
+     </mfenced>
+     <mo>=</mo>
+     <mi>ℱ</mi>
+     <mfenced separators="" open="(" close=")">
+      <mfrac>
+       <mrow>
+        <mo>⟨</mo>
+        <mo>∑</mo>
+        <msub>
+         <mover accent="true">
+          <mi mathvariant="bold">v</mi>
+          <mo>→</mo>
+         </mover>
+         <mi>i</mi>
+        </msub>
+        <mfenced open="(" close=")">
+         <mn>0</mn>
+        </mfenced>
+        <msub>
+         <mover accent="true">
+          <mi mathvariant="bold">v</mi>
+          <mo>→</mo>
+         </mover>
+         <mi>i</mi>
+        </msub>
+        <mfenced open="(" close=")">
+         <mi mathvariant="normal">t</mi>
+        </mfenced>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mo>⟨</mo>
+        <mo>∑</mo>
+        <msub>
+         <mover accent="true">
+          <mi mathvariant="bold">v</mi>
+          <mo>→</mo>
+         </mover>
+         <mi>i</mi>
+        </msub>
+        <mfenced open="(" close=")">
+         <mn>0</mn>
+        </mfenced>
+        <msub>
+         <mover accent="true">
+          <mi mathvariant="bold">v</mi>
+          <mo>→</mo>
+         </mover>
+         <mi>i</mi>
+        </msub>
+        <mfenced open="(" close=")">
+         <mn>0</mn>
+        </mfenced>
+        <mo>⟩</mo>
+       </mrow>
+      </mfrac>
+     </mfenced>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">To train reactive ML models, a reference database of both open and closed-shell systems must be established. A large set of such structures was enumerated using a graph-based approach
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>, and the ground-state geometry and energy of each system was determined with DFT calculations using the hybrid PBE0 functional with Tkatchenko-Scheffler dispersion corrections
+ <sup>
+  <xref ref-type="bibr" rid="CR44">44</xref>–
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup>. The resulting Rad-6 reference database comprises 10,712 molecules containing carbon, oxygen and hydrogen, the largest of which consists of six non-hydrogen atoms. As illustrated in Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>, this dataset is rich in unconventional structural motifs, such as poly-radicals. As is commonly observed, the space of possible compounds scales exponentially with the system size (see Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>, left). This figure also reveals that radical fragments in fact dominate the database, as they are combinatorically much more frequent (by an order of magnitude) than closed-shell systems. Notably, this dominance of open-shell systems prevails, although more than half of the originally enumerated radicals decomposed or rearranged upon geometry optimization. Importantly, these unstable cases were not included in the database. This choice was made because the definition of a chemical reaction requires the specification of the molecular topologies of educts and products (and how they are transformed). The full Rad-6 database is provided in the supporting information to this article.
+</p>

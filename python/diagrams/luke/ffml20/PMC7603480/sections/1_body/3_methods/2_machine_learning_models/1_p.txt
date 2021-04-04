@@ -1,0 +1,4 @@
+0: All reported ML models are based on Kernel Ridge Regression and use the SOAP kernel 37,  50.
+1: SOAP representations were computed with the quippy code ( https://github.com/libAtoms/QUIP).
+2: Kernel matrices and training/test splits were generated with the mltools package ( https://github.com/simonwengert/mltools.git).
+3: The atomic simulation environment was used throughout to process molecular data 74.

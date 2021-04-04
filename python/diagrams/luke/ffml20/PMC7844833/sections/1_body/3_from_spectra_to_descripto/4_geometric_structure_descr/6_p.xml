@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A possible approach to address this problem is to use in the analysis model 
+ <italic>g</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>(
+ <italic>R</italic>) functions with a more complex shape. For example, for small NPs, liquids, and other disordered materials, the 
+ <italic>g</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>(
+ <italic>R</italic>) function can be better described with a Γ-like function, which better accounts for the asymmetry of the RDFs in disordered matter.
+ <sup>
+  <xref ref-type="bibr" rid="ref175">175</xref>
+ </sup> This fitting approach was used, for instance, by Witkowska et al. in studies of Pt NPs for fuel cell cathodes.
+ <sup>
+  <xref ref-type="bibr" rid="ref176">176</xref>
+ </sup> A more general approach relies on the expansion of 
+ <italic>g</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>(
+ <italic>R</italic>) in the so-called MacLaurin, or cumulant series:
+ <sup>
+  <xref ref-type="bibr" rid="ref152">152</xref>
+ </sup>
+ <disp-formula id="eq13">
+  <graphic xlink:href="cr0c00396_m019" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>13</label>
+ </disp-formula>
+</p>

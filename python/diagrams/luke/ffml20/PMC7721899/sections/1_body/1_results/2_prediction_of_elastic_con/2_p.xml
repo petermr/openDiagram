@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">Figure 
+ <xref rid="Fig4" ref-type="fig">4</xref> shows the comparison of the elastic constant C
+ <sub>33</sub> predicted by PR, DT, RF, SVM (with RBF kernel), kNN, GPR (with both Matern and RBF kernels), and NN. From Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>, it is clearly seen that GPR and NN perform the best among all the other models. Among GPR models, the RBF kernel shows better prediction than the Matern kernel. Henceforth, the forthcoming sections focus on GPR with RBF kernel and NN for a detailed evaluation of the constitutive relationships of C–S–H. The results and adopted methods for all other models are sufficiently detailed in the 
+ <xref rid="MOESM1" ref-type="media">Supplementary document</xref>.
+</p>

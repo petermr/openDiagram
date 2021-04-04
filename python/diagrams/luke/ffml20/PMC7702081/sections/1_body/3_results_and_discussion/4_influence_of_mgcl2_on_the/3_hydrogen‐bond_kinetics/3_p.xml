@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The hydrogen bond population variables 
+ <italic>h
+  <sub>ij</sub>
+ </italic>(
+ <italic>t</italic>) and 
+ <italic>H
+  <sub>ij</sub>
+ </italic>(
+ <italic>t</italic>) in Eq. 3 are defined in the following way: 
+ <italic>h
+  <sub>ij</sub>
+ </italic>(
+ <italic>t</italic>)=1 when a tagged water pair is HB at time 
+ <italic>t</italic> and 
+ <italic>h
+  <sub>ij</sub>
+ </italic>(
+ <italic>t</italic>)=0 otherwise; 
+ <italic>H
+  <sub>ij</sub>
+ </italic>(
+ <italic>t</italic>)=1 if the tagged water pair remains 
+ <italic>continuously</italic> HB in the time interval [0, 
+ <italic>t</italic>] and 
+ <italic>H
+  <sub>ij</sub>
+ </italic>(
+ <italic>t</italic>)=0 otherwise. To construct this correlation function, we have used the geometrical criteria of HB.
+ <xref rid="cphc202000498-bib-0064" ref-type="ref">
+  <sup>[64]</sup>
+ </xref> The brackets in Eq. 3 denote average over all water pairs in the solution. We obtained well convergent 
+ <italic>S
+  <sub>HB</sub>
+ </italic>(
+ <italic>t</italic>) profiles by using multiple time origins and overlapping intervals [0, 
+ <italic>t</italic>] of time length equal to 11 ps. The detailed protocol used to compute TCFs is explain in ESI (Calculation of time correlation functions and Figure S6–S9) and is based on the procedure outlined by Leach.
+ <xref rid="cphc202000498-bib-0078" ref-type="ref">
+  <sup>[78]</sup>
+ </xref> The average HB lifetime, 
+ <italic>τ</italic>
+ <sub>HB</sub>, can be determined from the integration of Eq. 3. Values of 
+ <italic>τ</italic>
+ <sub>HB</sub> equal to 1.56 ps and 1.31 ps were obtained from simulation boxes containing 729 and 64 water molecules, respectively, which are within the experimental range of 0.5–1.7 ps.
+ <xref rid="cphc202000498-bib-0079" ref-type="ref">
+  <sup>[79]</sup>
+ </xref> These results support the 
+ <italic>ab initio</italic> MD methodology used in this study to characterize the low‐frequency water dynamics. Figure 
+ <xref rid="cphc202000498-fig-0005" ref-type="fig">5</xref>A compares 
+ <italic>S</italic>
+ <sub>HB</sub>(
+ <italic>t</italic>) profiles obtained for pure liquid water and MgCl
+ <sub>2</sub>(aq) 
+ <italic>with</italic> Mg
+ <sup>2+</sup>−Cl
+ <sup>−</sup> contact ion pairs in solution; the analysis of the solutions 
+ <italic>without</italic> ion pairing gave very similar results. The HB dynamics are faster in MgCl
+ <sub>2</sub> solutions (faster decay of 
+ <italic>S</italic>
+ <sub>HB</sub>(
+ <italic>t</italic>) profiles) than in pure water and accelerates with the solute concentration. This is confirmed by the average HB lifetimes in aqueous MgCl
+ <sub>2</sub> solutions, which are lower than pure water; the fastest dynamics of HB making/breaking is observed for the 2.81 mol kg
+ <sup>−1</sup> MgCl
+ <sub>2</sub> solution 
+ <italic>with</italic> CIPs (Table S7 in ESI). Therefore, the presence of Mg
+ <sup>2+</sup> and Cl
+ <sup>−</sup>in solution weakens the water‐water strength of pairing. Further insights can be obtained from the characterization of the HB dynamics of the water molecules in the first hydration shells of Mg
+ <sup>2+</sup> and Cl
+ <sup>−</sup>. In Figure 
+ <xref rid="cphc202000498-fig-0005" ref-type="fig">5</xref>B, the 
+ <italic>S</italic>
+ <sub>HB</sub> (
+ <italic>t</italic>) profiles of the first hydration shell of Mg
+ <sup>2+</sup> has a slower decay (slower HB dynamics) than bulk water and the 
+ <italic>S</italic>
+ <sub>HB</sub> (
+ <italic>t</italic>) profiles of the second hydration shells of Mg
+ <sup>2+</sup> has faster decay (faster HB dynamics) than bulk water. The effects of Mg
+ <sup>2+</sup> on the surrounding water molecules follow, therefore, the ionic hydration model proposed by Frank and Wen:
+ <xref rid="cphc202000498-bib-0080" ref-type="ref">
+  <sup>[80]</sup>
+ </xref> in the innermost region the water molecules are tightly bound to Mg
+ <sup>2+</sup> and exhibit lower HB dynamics than those in pure water; in the second region the magnesium ion induces a „structure breaking effect“, wherein disruption of the hydrogen bonding network enhances the mobility of the water molecules.
+ <xref rid="cphc202000498-bib-0081" ref-type="ref">
+  <sup>[81]</sup>
+ </xref> Dissolved Mg
+ <sup>2+</sup> ions have a long‐range effect, which goes beyond the first hydration shell. In comparison, the 
+ <italic>S</italic>
+ <sub>HB</sub>(
+ <italic>t</italic>) profiles of the first and second hydration shells of Cl
+ <sup>−</sup> overlap with that of bulk water (Figure 
+ <xref rid="cphc202000498-fig-0005" ref-type="fig">5</xref>B) suggesting that the chloride ion does not have short‐ or long‐range effects on the HB dynamics of water. The computed values of the HB relaxation time of the solvent molecules in the first (1.35 ps) and second (1.25) shell of chloride, and in the bulk of the solution (1.28 ps) confirm this observation (Table S7 in ESI). The different influence of Mg
+ <sup>2+</sup> and Cl
+ <sup>−</sup> on the HB dynamics of the surrounding water molecules should be linked to the hydration numbers of these two ions, which have estimated values of 
+ <italic>h</italic>=15 for Mg
+ <sup>2+</sup> and 
+ <italic>h</italic>=0 for Cl
+ <sup>−</sup>, according to (thermodynamic) colligative
+ <xref rid="cphc202000498-bib-0001" ref-type="ref">
+  <sup>[1]</sup>
+ </xref> and isothermal compressibility data.
+ <xref rid="cphc202000498-bib-0017" ref-type="ref">
+  <sup>[17]</sup>
+ </xref> The long‐range effects of Mg
+ <sup>2+</sup> beyond its first shell also explains why the hydration number does not correspond to the coordination number (6). 
+</p>

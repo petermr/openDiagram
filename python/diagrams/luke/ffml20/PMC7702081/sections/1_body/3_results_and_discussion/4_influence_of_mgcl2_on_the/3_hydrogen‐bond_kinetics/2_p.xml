@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>According to the approached proposed by Rapaport,
+ <xref rid="cphc202000498-bib-0076" ref-type="ref">
+  <sup>[76]</sup>
+ </xref> the dynamics of breaking and making of hydrogen bonds can be quantified in terms of the continuous HB time correlation function (TCF), 
+ <bold>S</bold>
+ <sub>HB</sub>(
+ <bold>t</bold>), which gives the probability that a pair, 
+ <bold>i</bold> and 
+ <bold>j</bold>, remains continuously hydrogen‐bonded from 0 to 
+ <bold>t</bold>:[
+ <xref rid="cphc202000498-bib-0029" ref-type="ref">
+  <sup>29</sup>
+ </xref>, 
+ <xref rid="cphc202000498-bib-0077" ref-type="ref">
+  <sup>77</sup>
+ </xref>]
+ <disp-formula id="cphc202000498-disp-0003">
+  <label>(3)</label>
+  <math id="nlm-math-9">
+   <mstyle displaystyle="true">
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mrow>
+       <mi mathvariant="normal">H</mi>
+       <mi mathvariant="normal">B</mi>
+      </mrow>
+     </msub>
+     <mfenced open="(" close=")">
+      <mi>t</mi>
+     </mfenced>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>⟨</mo>
+       <msub>
+        <mi>h</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+       <mfenced open="(" close=")">
+        <mn>0</mn>
+       </mfenced>
+       <mo>·</mo>
+       <mrow/>
+       <msub>
+        <mi>H</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+       <mfenced open="(" close=")">
+        <mi>t</mi>
+       </mfenced>
+       <mo>⟩</mo>
+      </mrow>
+      <mrow>
+       <mo>⟨</mo>
+       <msup>
+        <mrow>
+         <msub>
+          <mi>h</mi>
+          <mrow>
+           <mi>i</mi>
+           <mi>j</mi>
+          </mrow>
+         </msub>
+         <mfenced open="(" close=")">
+          <mn>0</mn>
+         </mfenced>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>⟩</mo>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

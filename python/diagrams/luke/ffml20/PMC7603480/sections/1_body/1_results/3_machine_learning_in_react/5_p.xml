@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">In complete contrast to the situation in compound space, an intensive kernel with an intensively selected training set is therefore a better choice for ML models in reaction space. This indicates that some of the experience gathered hitherto for ML in chemical compound space (like the significant work on the QM9 database)
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>–
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup> will not necessarily carry over to reaction spaces. Realizing the particular relevance of hub molecules, a straightforward adaptation could for instance simply be to inversely scale the extensive distance used in the FPS selection by the degree of the node in the reaction network, i.e., by the number of reactions in which the molecule is involved (see Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>). Similarly, the least-squares problem for an extensive kernel could be adjusted by weighting the molecules according to their inverse size. With this work, we hope to initiate such dedicated methodological development for reaction spaces and will pursue corresponding research in the future.
+</p>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A common approach for the determination of metal particle sizes from XAS relies on the analysis of the CNs. CNs are usually extracted from EXAFS data fitting but can be obtained also from XANES data interpretation using machine learning methods. For a particle of a given shape, there exists a unique relationship between the particle size and the CN in any coordination shell of interest 
+ <italic>C</italic>
+ <sub>nano</sub>.
+ <sup>
+  <xref ref-type="bibr" rid="ref266">266</xref>
+ </sup> For example, for sufficiently large spherical particles, Calvin et al. proposed
+ <sup>
+  <xref ref-type="bibr" rid="ref267">267</xref>,
+  <xref ref-type="bibr" rid="ref268">268</xref>
+ </sup>
+ <disp-formula id="eq16">
+  <graphic xlink:href="cr0c00396_m023" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>16</label>
+ </disp-formula>where 
+ <italic>R</italic>
+ <sub>
+  <italic>nano</italic>
+ </sub> is the particle radius, 
+ <italic>C</italic>
+ <sub>bulk</sub> is the coordination number in the corresponding coordination shell in the bulk material, and 
+ <italic>R</italic> is the coordination shell radius. For particles of other shapes, similar relationships can be readily obtained from geometrical considerations.
+ <sup>
+  <xref ref-type="bibr" rid="ref268">268</xref>
+ </sup> However, it is often more convenient to analyze the relationship between coordination numbers and the particle sizes numerically, by generating simple models of NP clusters with different sizes, and calculating the coordination numbers for different shells explicitly (
+ <xref rid="fig13" ref-type="fig">Figure 
+  <xref rid="fig13" ref-type="fig">13</xref>
+ </xref>a).
+ <sup>
+  <xref ref-type="bibr" rid="ref258">258</xref>,
+  <xref ref-type="bibr" rid="ref269">269</xref>,
+  <xref ref-type="bibr" rid="ref270">270</xref>
+ </sup> For example, Choi et al. used this approach to interpret CNs extracted from EXAFS data to determine the size of Au NPs and found a good agreement with 
+ <italic>ex situ</italic> microscopy data. Interestingly, an increase in Au particle size was observed under reaction conditions during the electrochemical oxidation of 2-propanol.
+ <sup>
+  <xref ref-type="bibr" rid="ref271">271</xref>
+ </sup>
+</p>

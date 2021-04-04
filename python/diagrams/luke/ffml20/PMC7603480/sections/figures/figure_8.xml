@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig8">
+ <label>Fig. 8</label>
+ <caption>
+  <title>Comparison ML models trained on the Rad-6 and the Rad-6-BS databases.</title>
+  <p>
+   <bold>a</bold> Learning curves for AE predictions of using the extensive kernel with an extensive FPS split and DFT geometries. 
+   <bold>b</bold> Same as (
+   <bold>a</bold>) but for the intensive kernel with an intensive FPS split. 
+   <bold>c</bold> Correlation plot of MAE RE vs MAE AE for both Rad-6 and Rad-6-BS. Blue lines represent results obtained with the extensive kernel (crosses for Rad-6 and stars for Rad-6-BS) in (
+   <bold>a</bold>) and (
+   <bold>c</bold>). Red circles correspond to the intensive kernel with Rad-6 and orange diamonds to the intensive kernel with Rad-6-RE.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_19267_Fig8_HTML" id="d30e1673" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,22 @@
+0: For PR, the complexity is increased with respect to polynomial order from 1 to 6, and an optimum polynomial order of 3 is obtained (please refer to Supplementary Fig.
+1: 1).
+2: For SVM with RBF kernel, two parameters are considered, which are C and gamma ( \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\gamma$$\end{document}).
+3: The model complexity is varied by varying C from 0.001 to 1000 and gamma from 0.1 to 10.
+4: The parameters are optimized using a grid search approach so as to minimize the error.
+5: Thus, optimum values of 100 and 0.46 are obtained for C and  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\gamma$$\end{document} respectively (please refer to Supplementary Fig.
+6: 4).
+7: In the k-nearest neighbor method, the k-value is varied from 1 to 9 and an optimum value of 4 is achieved (please refer to Supplementary Fig.
+8: 6).
+9: In the decision tree algorithm, the model complexity is characterized by the maximum tree depth which is varied from 210.
+10: By evaluating the MSE and the R 2 values, an optimum value of 5 for the maximum tree depth is chosen (please refer to Supplementary Fig.
+11: 8 for more details).
+12: For the random forest algorithm, the model complexity is varied by varying the number of trees from 2 to 10 from which an optimal number of 9 for the number of trees is selected which shows the least error for the validation dataset (please refer to Supplementary Fig.
+13: 10 for more details).
+14: For the Gaussian process, two covariance functions (RBF and Matern) with noise are implemented and the parameters are converged when the log marginal likelihood is maximized.
+15: Lastly, for NN the hyperparameters include the number of hidden nodes, size of hidden layers, optimizer function, learning rate, epoch, and batch size.
+16: In this study, the Adam optimizer is implemented.
+17: The learning is optimized for learning rate equal to 10 3, epoch = 400, batch size of 32, and two hidden layers with a number of hidden nodes (or neurons) equal to 9 (please refer to sSpplementary Fig.
+18: 13 for more details).
+19: Overall, a rigorous hyperparametric optimization methodology employing a grid search was used for model refinement, thereby, ensuring the optimality of the model without underfitting or overfitting.
+20: To evaluate the performance of each model, the models are tested using the unseen test dataset.
+21: The performance of various methods is evaluated by comparing the MSE and R 2 values obtained from each model.

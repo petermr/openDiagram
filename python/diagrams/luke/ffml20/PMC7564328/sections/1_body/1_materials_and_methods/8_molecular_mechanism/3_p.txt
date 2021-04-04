@@ -1,0 +1,8 @@
+0: AutoDock Vina 1.1.2 was employed to perform the automatic docking procedure.
+1: The Visualizer module in Materials Studio 2017 (MS, Accelrys Inc., San Diego, CA, USA) was employed to perform the model construction and the Forcite module with cvff forcefield in MS was used to carry out the structure optimization.
+2: In the structure optimization procedure, the Ultra-fine quality was used.
+3: Firstly, the hydrogen atom was optimized with the heavy atom fixed; secondly, all of the atoms were optimized with the cell parameters fixed; finally, all the parameters were optimized to make symmetry to P1.
+4: The surface preparation procedure: The (0 1 0) surface of CD-MOF was selected as the most stable interface.
+5: The vacuum width of 100 A and a 3-layer slab (totally about 93.018 A) as the minimum thickness were needed to obtain meaningful results.
+6: During the relaxation of the (0 1 0) surface, a slab thickness of one layer (about 31.006 A) at the bottom of the periodicity box was fixed.
+7: Then the optimized SCU structure was located on the most stable surface to obtain two drug-loading surfaces, one was the glucose rings end of SCU inside the (0 1 0) surface, the other one was that outside the (0 1 0) surface.

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Fig. 1</label>
+ <caption>
+  <title>Machine learning interatomic potential simulated phase diagram of hydrogen.</title>
+  <p>Each datapoint represents a machine-learning interatomic potential based molecular dynamic simulation (HMLP-MD) which is itself in agreement with the equivalent DFT simulation. Blue squares represent the melting points form Z-method while the data of stable Phase I and Phase II appears as orange hexagon and red triangles, respectively. The dashed melt line and phase I–II boundary is to guide the eye. Experimental phase boundaries (solid lines) are taken from ref. 
+   <sup>
+    <xref ref-type="bibr" rid="CR15">15</xref>
+   </sup>.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_18788_Fig1_HTML" id="d30e398" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

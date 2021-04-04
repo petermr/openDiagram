@@ -1,0 +1,14 @@
+0: To distinguish between the broken-symmetry structure of Phase II and the free rotors of Phase I we introduce the orientational order parameter  O.
+1: 5\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$O\,=\left\langle\frac{\sum _{b}\sum _{i\ne j}({\hat{{\bf{r}}}}_{i,b}\cdot {\hat{{\bf{r}}}}_{j,b}){{\bf{R}}}_{ij,b}}{\sum _{b}\sum _{i\ne j}{{\bf{R}}}_{ij,b}}\right\rangle.$$\end{document}O=b i=j(r^i,br^j,b)Rij,b b i=jRij,b.Here the summation is over unit cells  i,  j, each containing a set of basis molecules  b.
+2: Unit vectors  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\hat{{\bf{r}}}}_{i,b}$$\end{document}r^i,b and  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\hat{{\bf{r}}}}_{j,b}$$\end{document}r^j,b are oriented along the the HH bond of the  bth molecule in the  ith and  jth unit cell, respectively, and  Rij,  b is the distance between the centre of mass of these two molecules.
+3: The angled brackets denote a time average.
+4: This parameter probes the long-range order in the system relative to the chosen basis, which in our case is the  P2 1/ c-24 unit cell 23.
+5: A value of 1 means that the system has the  P2 1/ c-24 structure, and a value of 0 suggests that the system is disordered.
+6: Note that this order parameter only detects similarity to the given basis and thus a phase change to a structure with a different unit cell will yield an erroneously low value.
+7: The trajectories were therefore visually inspected in addition to the order parameter analysis.
+8: A 4  6  4 supercell of  P2 1/ c-24 (2304 atoms) was used for Phase II, and the unit cells and basis for this system are illustrated in Supplementary Fig.
+9: 7.
+10: MD trajectories were calculated for temperatures ranging from 30 to 150 K and pressures from 20 to 160 GPa.
+11: After a 50 ps equilibration period, the order parameter  O was averaged over the remaining 200 ps of the trajectory.
+12: The results are shown in Fig.
+13: 6a.

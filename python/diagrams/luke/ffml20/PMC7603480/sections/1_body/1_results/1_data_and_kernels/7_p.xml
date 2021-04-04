@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Beyond their use in regression methods like KRR, kernels can also be used for dimensionality reduction and visualization of large data sets with the kernel principal component analysis (kPCA) method
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>,
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup>. In Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>, kPCA plots of the Rad-6 chemical compound space for the intensive and extensive kernels are shown. Here, the two principal components mainly reflect the degree of saturation (the number of hydrogen atoms) and the oxygen/carbon ratio. The main difference in both projections is that the extensive kernel additionally displays a size-dependence, with small molecules (up to 4 heavy atoms) concentrated in the bottom right corner (see SI for more details).
+</p>

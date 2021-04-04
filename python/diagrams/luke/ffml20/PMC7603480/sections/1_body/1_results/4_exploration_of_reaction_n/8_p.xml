@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">To demonstrate this, a second set of energies for Rad-6 was computed using broken-symmetry (BS) DFT (see SI for details). In BS-DFT, the DFT energy is further minimized by exploiting the breaking of spatial and spin-symmetry in the Kohn-Sham determinant. The resulting determinants consequently do not correspond to a predefined multiplicity but represent the lowest energy solution irrespective of the spin state. Importantly, we find that ML models trained on this data have very similar predictive accuracy to the ones discussed so far (see Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>). This shows that the Rad-6 database can serve as a benchmark for developing and improving ML models in reaction space, much like the popular QM9 set has done for chemical compound space.
+</p>

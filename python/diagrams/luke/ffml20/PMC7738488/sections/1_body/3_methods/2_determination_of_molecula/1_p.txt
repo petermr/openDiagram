@@ -1,0 +1,12 @@
+0: In an effort to retrieve knowledge about the molecular properties of dendrimer, the 3D simulations were carried out.
+1: The different generations of dendrimers were simulated using Avogadro software 60 and further studied for the estimation of various molecular dimensions.
+2: In the exploration of molecular simulations, the force field act as an essential key element.
+3: The force field proportionally studies the estimation of potential energy and computation of forces acting on the atom, of the system under assessment.
+4: In this work, the polymeric dendritic molecules were parameterized employing the UFF i.e.
+5: Universal Forcefield.
+6: This forcefield is a broad spectra and non-reactive approach towards introduction of weighted atom types and weighted bonds, used to update topologies and atom parameterizations at every time step of a simulation.
+7: Each molecular model was then subjected to an amalgamation of steepest descent and conjugate gradient energy minimization steps of 25,000 cycles, in order to relax close atomic distances.
+8: The minimization methods steepest descent and conjugate gradient were employed in combination for effective results, where, former is faster and latter productive.
+9: Moreover, the system was equilibrated by performing 812 ns MD simulations in the isobaric-isothermal (NPT) ensemble.
+10: In the MD simulation, the atoms included in molecules move according to the Newtonian equation of motions.
+11: Subsequently, the 1 fs time step algorithm was employed to achieve the process of integrating the equation of motion, as integration method.

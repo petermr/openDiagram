@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par7">To understand the high-temperature phases, one needs to examine non-harmonic behaviour, including rotation, which means going beyond a single unit cell, e.g. using molecular dynamics. Molecular dynamics requires forces on each atom based on the positions of all the atoms in the system, which requires a force model which is fast enough to allow large simulations. Here we use a machine-learning approach to derive a transferable force model based on an interatomic potential. There are several approaches to machine-learning interatomic forces
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>–
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>, which balance speed, transferability and accuracy. We adopt an approach focusing on transferability.
+</p>

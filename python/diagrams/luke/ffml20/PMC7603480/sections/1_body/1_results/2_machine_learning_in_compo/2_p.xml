@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">Additional ML models were trained on randomly sampled training sets, to provide a baseline for the FPS schemes. The corresponding AE learning curves are comparable to the extensive FPS (see SI). As has previously been noted, random sampling is actually advantageous for very small training sets, but the learning rate is lower than for both FPS schemes translating into inferior performance for larger training sets
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>.
+</p>

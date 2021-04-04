@@ -1,0 +1,455 @@
+{
+  "id": [
+    "33260955"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33260955"
+  ],
+  "pmcid": [
+    "PMC7729566"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7729566"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/molecules25235570"
+  ],
+  "title": [
+    "Integrated Leaching and Separation of Metals Using Mixtures of Organic Acids and Ionic Liquids."
+  ],
+  "authorString": [
+    "Vargas SJR, Passos H, Schaeffer N, Coutinho JAP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vargas SJR"
+          ],
+          "firstName": [
+            "Silvia J R"
+          ],
+          "lastName": [
+            "Vargas"
+          ],
+          "initials": [
+            "SJR"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "CICECO-Aveiro Institute of Materials, Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Passos H"
+          ],
+          "firstName": [
+            "Helena"
+          ],
+          "lastName": [
+            "Passos"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0573-093X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "CICECO-Aveiro Institute of Materials, Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Schaeffer N"
+          ],
+          "firstName": [
+            "Nicolas"
+          ],
+          "lastName": [
+            "Schaeffer"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0747-2532",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "CICECO-Aveiro Institute of Materials, Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Coutinho JAP"
+          ],
+          "firstName": [
+            "João A P"
+          ],
+          "lastName": [
+            "Coutinho"
+          ],
+          "initials": [
+            "JAP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3841-743X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "CICECO-Aveiro Institute of Materials, Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0573-093X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0747-2532",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3841-743X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "23"
+      ],
+      "volume": [
+        "25"
+      ],
+      "journalIssueId": [
+        "3058498"
+      ],
+      "dateOfPublication": [
+        "2020 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Molecules (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Molecules"
+          ],
+          "medlineAbbreviation": [
+            "Molecules"
+          ],
+          "NLMid": [
+            "100964009"
+          ],
+          "ISSN": [
+            "1420-3049"
+          ],
+          "ESSN": [
+            "1420-3049"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "abstractText": [
+    "In this work, the aqueous phase diagram for the mixture of the hydrophilic tributyltetradecyl phosphonium ([P<sub>44414</sub>]Cl) ionic liquid with acetic acid (CH<sub>3</sub>COOH) is determined, and the temperature dependency of the biphasic region established. Molecular dynamic simulations of the [P<sub>44414</sub>]Cl + CH<sub>3</sub>COOH + H<sub>2</sub>O system indicate that the occurrence of a closed \"type 0\" biphasic regime is due to a \"washing-out\" phenomenon upon addition of water, resulting in solvophobic segregation of the [P<sub>44414</sub>]Cl. The solubility of various metal oxides in the anhydrous [P<sub>44414</sub>]Cl + CH<sub>3</sub>COOH system was determined, with the system presenting a good selectivity for CoO. Integration of the separation step was demonstrated through the addition of water, yielding a biphasic regime. Finally, the [P<sub>44414</sub>]Cl + CH<sub>3</sub>COOH system was applied to the treatment of real waste, NiMH battery black mass, being shown that it allows an efficient separation of Co(II) from Ni(II), Fe(III) and the lanthanides in a single leaching and separation step."
+  ],
+  "affiliation": [
+    "CICECO-Aveiro Institute of Materials, Department of Chemistry, University of Aveiro, 3810-193 Aveiro, Portugal."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "UIDP/50011/2020"
+          ],
+          "agency": [
+            "Centro de Investigação em Materiais Cerâmicos e Compósitos"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "UIDB/50011/2020"
+          ],
+          "agency": [
+            "Centro de Investigação em Materiais Cerâmicos e Compósitos"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "CEECIND/00831/2017"
+          ],
+          "agency": [
+            "Fundação para a Ciência e a Tecnologia"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Solvent extraction",
+        "Process Intensification",
+        "Critical Metals",
+        "Metal Leaching",
+        "Solvometallurgy"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/molecules25235570"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7729566"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7729566?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-12-02"
+  ],
+  "firstIndexDate": [
+    "2020-12-03"
+  ],
+  "fullTextReceivedDate": [
+    "2020-12-14"
+  ],
+  "dateOfRevision": [
+    "2020-12-12"
+  ],
+  "electronicPublicationDate": [
+    "2020-11-27"
+  ],
+  "firstPublicationDate": [
+    "2020-11-27"
+  ]
+}

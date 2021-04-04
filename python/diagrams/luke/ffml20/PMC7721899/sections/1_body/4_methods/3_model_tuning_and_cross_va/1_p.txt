@@ -1,0 +1,10 @@
+0: To avoid the possibility of overfitting the data, 20% of the data is set aside from the models for its intended use as a test set to assess the performance of the ML algorithms on these unseen data.
+1: To this end, a  k-fold cross-validation (CV) technique is adopted in this study.
+2: In the CV technique, the dataset is split into  k number of smaller sets, where in each fold the model is trained on a fraction of data (train set) and tested on the remaining data.
+3: The final value obtained is the average value which is iteratively run on each of the  k-folds.
+4: To this end, this study adopts a nested two-level CV approach as detailed in the article by Cawley and Talbot 56.
+5: First, the dataset is split into the training set (which is 80% of the data) and test set (20% of the data).
+6: In outer CV the model is run for the number of iterations and the average value of the scores (i.e.
+7: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R^{2}$$\end{document}R2 and MSE) obtained from each fold is used to obtain a comparative performance-evaluation of various ML techniques.
+8: In order to obtain the appropriate hyperparameters, a fivefold inner CV is implemented for the training dataset.
+9: This nested CV technique alleviates some of the issues regarding the limitations of relatively smaller datasets.

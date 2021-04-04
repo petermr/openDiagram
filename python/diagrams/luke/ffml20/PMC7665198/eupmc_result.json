@@ -1,0 +1,347 @@
+{
+  "id": [
+    "33184268"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33184268"
+  ],
+  "pmcid": [
+    "PMC7665198"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7665198"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41467-020-19405-5"
+  ],
+  "title": [
+    "Water accelerated self-healing of hydrophobic copolymers."
+  ],
+  "authorString": [
+    "Davydovich D, Urban MW."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Davydovich D"
+          ],
+          "firstName": [
+            "Dmitriy"
+          ],
+          "lastName": [
+            "Davydovich"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Materials Science and Engineering, Clemson University, Clemson, SC, 29634, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Urban MW"
+          ],
+          "firstName": [
+            "Marek W"
+          ],
+          "lastName": [
+            "Urban"
+          ],
+          "initials": [
+            "MW"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1522-2736",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Materials Science and Engineering, Clemson University, Clemson, SC, 29634, USA. mareku@clemson.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1522-2736",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "3046907"
+      ],
+      "dateOfPublication": [
+        "2020 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "5743"
+  ],
+  "abstractText": [
+    "Previous studies have shown that copolymer compositions can significantly impact self-healing properties. This was accomplished by enhancement of van der Waals (vdW) forces which facilitate self-healing in relatively narrow copolymer compositional range. In this work we report the acceleration of self-healing in alternating/random hydrophobic acrylic-based copolymers in the presence of confined water molecules. Under these conditions competing vdW interactions do not allow H<sub>2</sub>O-diester H-bonding, thus forcing nBA side groups to adapt L-shape conformations, generating stronger dipole-dipole interactions resulting in shorter inter-chain distances compared to 'key-and-lock' associations without water. The perturbation of vdW forces upon mechanical damage in the presence of controllable amount of confined water is energetically unfavorable leading the enhancement of self-healing efficiency of hydrophobic copolymers by a factor of three. The concept may be applicable to other self-healing mechanisms involving reversible covalent bonding, supramolecular chemistry, or polymers with phase-separated morphologies."
+  ],
+  "affiliation": [
+    "Department of Materials Science and Engineering, Clemson University, Clemson, SC, 29634, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "DMR 1744306"
+          ],
+          "agency": [
+            "Center for Selective C-H Functionalization, National Science Foundation"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-020-19405-5"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7665198"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7665198?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-11-13"
+  ],
+  "firstIndexDate": [
+    "2020-11-14"
+  ],
+  "fullTextReceivedDate": [
+    "2020-11-20"
+  ],
+  "dateOfRevision": [
+    "2020-11-19"
+  ],
+  "electronicPublicationDate": [
+    "2020-11-12"
+  ],
+  "firstPublicationDate": [
+    "2020-11-12"
+  ]
+}

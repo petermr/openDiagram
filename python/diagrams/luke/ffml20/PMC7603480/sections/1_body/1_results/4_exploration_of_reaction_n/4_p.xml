@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par33">  Figure 
+ <xref rid="Fig7" ref-type="fig">7</xref> summarizes the results obtained based on the intensive kernel ML model trained with an intensively selected FPS set of 9582 UFF structures. Shown are the reduced reaction networks extracted as those parts of the full network that are accessed at increasing simulation times. These reduced networks are highly revealing, as they form a hierarchy of different chemistries relevant to combustion. For example, in line with general expectations
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>
+ </sup>, the smallest network contains peroxide chemistry, with the hydrogen transfer from methane to molecular oxygen as the dominant pathway. Subsequently formed CO
+ <sub>
+  <italic>y</italic>
+ </sub>H
+ <sub>
+  <italic>x</italic>
+ </sub> intermediates also comprise generally anticipated molecules like methanol (CH
+ <sub>3</sub>OH) or formic acid (HCOOH), but also more exotic species like the Criegee intermediate (CH
+ <sub>2</sub>OO). Interestingly, the formation of the main product CO
+ <sub>2</sub> only appears in larger subgraphs after dimerization reactions have already led to C
+ <sub>2</sub> intermediates like ethylene (C
+ <sub>2</sub>H
+ <sub>4</sub>) and ethane (C
+ <sub>2</sub>H
+ <sub>6</sub>). Finally, the largest subgraphs shown include already more complex molecules like propane (C
+ <sub>3</sub>H
+ <sub>8</sub>) and propene (C
+ <sub>3</sub>H
+ <sub>6</sub>) and comprise a total of 887 reactions.
+</p>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Lyngdoh</surname>
+   <given-names>Gideon A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Li</surname>
+   <given-names>Hewenxuan</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zaki</surname>
+   <given-names>Mohd</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Krishnan</surname>
+   <given-names>N. M. Anoop</given-names>
+  </name>
+  <address>
+   <email>krishnan@iitd.ac.in</email>
+  </address>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Das</surname>
+   <given-names>Sumanta</given-names>
+  </name>
+  <address>
+   <email>sumanta_das@uri.edu</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.20431.34</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0416 2242</institution-id>
+   <institution>Department of Civil and Environmental Engineering, </institution>
+   <institution>University of Rhode Island, </institution>
+  </institution-wrap>Kingston, RI USA 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.20431.34</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0416 2242</institution-id>
+   <institution>Department of Mechanical, Industrial and Systems Engineering, </institution>
+   <institution>University of Rhode Island, </institution>
+  </institution-wrap>Kingston, RI USA 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.417967.a</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0558 8755</institution-id>
+   <institution>Department of Civil Engineering, </institution>
+   <institution>Indian Institute of Technology Delhi, </institution>
+  </institution-wrap>Hauz Khas, New Delhi, 110016 India 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.417967.a</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0558 8755</institution-id>
+   <institution>Department of Materials Science and Engineering, </institution>
+   <institution>Indian Institute of Technology Delhi, </institution>
+  </institution-wrap>Hauz Khas, New Delhi, 110016 India 
+ </aff>
+</contrib-group>

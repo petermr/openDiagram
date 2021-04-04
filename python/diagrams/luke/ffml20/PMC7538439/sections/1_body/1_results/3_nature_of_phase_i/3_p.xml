@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">Since the molecules are rotating in Phase I, lattice dynamics cannot be used, so Raman phonon frequency is numerically characterised by the in-phase mode-projected velocity auto-correlation function (VAF)
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. Trajectories and velocities were produced from 150 K HMLP-MD simulations within the micro-canonical ensemble (NVT) initiated in the 
+ <italic>P</italic>2
+ <sub>1</sub>/
+ <italic>c-</italic>24 structure. A very fine time step of 0.05 fs was used and the trajectory and velocities were saved every ten time steps. By calculating the bond stretching velocities and Fourier transformation of the VAFs we calculate both the total vibron density of states
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>,
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup> from
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${g}_{\rm{tot}}(\omega )\,=\,\sum _{ik}\int[{r}_{ik}^{2}(t)]\exp i\omega t,$$\end{document}</tex-math>
+   <math id="M2">
+    <msub>
+     <mrow>
+      <mi>g</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">tot</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mspace width="0.25em"/>
+    <mo>=</mo>
+    <mspace width="0.25em"/>
+    <munder>
+     <mrow>
+      <mo mathsize="big"> ∑</mo>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>k</mi>
+     </mrow>
+    </munder>
+    <mo>∫</mo>
+    <mrow>
+     <mo>[</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>r</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+     <mo>]</mo>
+    </mrow>
+    <mi>exp</mi>
+    <mi>i</mi>
+    <mi>ω</mi>
+    <mi>t</mi>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2020_18788_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>and the signal from the most strongly Raman-active mode,
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${g}_{\rm{Raman}}(\omega )\,=\,\int\left[\sum _{ik}{r}_{ik}^{2}(t)\right]\exp i\omega t,$$\end{document}</tex-math>
+   <math id="M4">
+    <msub>
+     <mrow>
+      <mi>g</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">Raman</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mspace width="0.25em"/>
+    <mo>=</mo>
+    <mspace width="0.25em"/>
+    <mo>∫</mo>
+    <mfenced close="]" open="[">
+     <mrow>
+      <munder>
+       <mrow>
+        <mo mathsize="big">∑</mo>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <mi>k</mi>
+       </mrow>
+      </munder>
+      <msubsup>
+       <mrow>
+        <mi>r</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+    </mfenced>
+    <mi>exp</mi>
+    <mi>i</mi>
+    <mi>ω</mi>
+    <mi>t</mi>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2020_18788_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>i</italic>
+ <italic>k</italic> runs over all molecules (comprising atoms 
+ <italic>i</italic> and 
+ <italic>k</italic>). A similar projection method is used for the E2g phonon
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup>.
+</p>

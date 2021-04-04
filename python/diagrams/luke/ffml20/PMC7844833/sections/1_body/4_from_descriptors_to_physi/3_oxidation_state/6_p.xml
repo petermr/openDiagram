@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Independently, information about the materials oxidation state can be obtained also from EXAFS analysis. While EXAFS mostly probes the atomistic structure of the material, the 
+ <italic>E</italic>
+ <sub>0</sub> factor in the EXAFS equation, 
+ <xref rid="eq6" ref-type="disp-formula">eq 
+  <xref rid="eq6" ref-type="disp-formula">6</xref>
+ </xref>, is sensitive to the absorption edge position and, hence, to the oxidation state. The quantitative interpretation of the 
+ <italic>E</italic>
+ <sub>0</sub> from EXAFS data fitting with theoretical standards (e.g., FEFF program
+ <sup>
+  <xref ref-type="bibr" rid="ref31">31</xref>
+ </sup> and ARTEMIS software
+ <sup>
+  <xref ref-type="bibr" rid="ref55">55</xref>
+ </sup> that uses FEFF as a built-in code) is complicated by the fact that in the fitting, instead of the actual 
+ <italic>E</italic>
+ <sub>0</sub> value, one refines the difference Δ
+ <italic>E</italic>
+ <sub>0</sub> between the value of the onset of the absorption edge in the experimental data and the photoelectron reference energy in the theoretical simulations. The numerical Δ
+ <italic>E</italic>
+ <sub>0</sub> value will thus depend on the beamline calibration, conventions used in EXAFS data alignment and extraction, the structure model used for the FEFF simulations, FEFF code parameters, and version. While the obtained Δ
+ <italic>E</italic>
+ <sub>0</sub> values themselves are noninformative, their systematic change in a series of similarly processed EXAFS spectra (e.g., time-dependent data for electrocatalysts under reducing/oxidizing conditions) hints toward changes in the sample oxidation state.
+</p>

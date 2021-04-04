@@ -1,0 +1,8 @@
+0: In this study, we have chosen 26 small-molecule compounds, which were selected from the literature (Tables S1 in the  Supporting Information).
+1: The logBB and TPSA values are known for all compounds, while the logPS values are available in the literature only for a subset of the studied compounds.
+2: Moreover, many of them have been previously studied by standard MD simulation 6 by using the GROMOS54a7 force-field.
+3: Here, we have modeled a set of 26 small-molecule compounds not only with the GROMOS54a7 force-field, but, also, by using the CHARMM36 force-field.
+4: All the compounds have been previously used in experimental BBB permeability reports and are well studied.
+5: Hence, the 3D structures, a few common descriptors, and the logBB and logPS values of the selected compounds have been documented in the literature and obtained from the Collaborative Drug Discovery in PubChem 22,  23 (Table S1 in the  Supporting Information).
+6: The selected 26 compounds have logBB values that are evenly distributed between 2.51 and 1.64.
+7: Fourteen out of the 26 compounds can cross the BBB by a diffusion mechanism, while the rest cannot translocate through the BBB.

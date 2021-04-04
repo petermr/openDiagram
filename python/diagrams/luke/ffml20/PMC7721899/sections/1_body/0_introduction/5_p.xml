@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par6">To tackle such a multi-target problem, this paper employs both multiple single target (ST) approach (for PR, RF, SVM, k-NN, DT, and GP) and multi-target regression approach (for NN). While multiple single target (ST) regression splits the problem into multiple single-output regression problems where the outputs are assumed to be independent of each other, multi-target regression incorporates the statistical correlation among the outputs besides using the original input features. As such, multi-target regression is likely to offer superior response predictions for C–S–H due to its multivariate nature and the compound dependencies between the multiple feature and/or target variables
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>,
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup> which is explored in detail in this paper. Though NN can provide high accuracy of prediction, interpretation of results with NN alone challenging and it may not offer any new physical insights
+ <sup>
+  <xref ref-type="bibr" rid="CR4">4</xref>,
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. Along those lines, this study adopts a recent method called SHAP
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>,
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup> to address this challenging issue of interpretation of results from NN model. Overall, this paper, aimed at predicting composition-dependent multiple elastic constants for C–S–H, is expected to provide a valuable composition-property link for C–S–H which can help clarify efficient pathways to optimize the nanoscale C–S–H structures to enhance mechanical performance and, durability of cementitious materials.
+</p>

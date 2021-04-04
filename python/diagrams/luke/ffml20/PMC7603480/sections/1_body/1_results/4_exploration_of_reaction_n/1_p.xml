@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par30">Finally, we return to the original motivation of this work, namely the ML-aided exploration of complex reaction networks. To illustrate the use of ML-predicted REs, we consider a closed network of over 21,393 elementary reactions, containing a large variety of bond-breaking, transfer and rearrangement reactions for oxygen, carbon and hydrogen-containing molecules
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>. Note that this network is deliberately not a subset of Rad-6, although there is significant overlap (ca. 80% of the involved molecules are included in Rad-6). This is thus, at least partially, an out-of-sample application. The challenge lies in determining which of the elementary reactions are likely relevant to a chemical process of interest. As an exemplary process we consider the early stages of methane combustion
+ <sup>
+  <xref ref-type="bibr" rid="CR65">65</xref>–
+  <xref ref-type="bibr" rid="CR69">69</xref>
+ </sup>.
+</p>

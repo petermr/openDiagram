@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">Learning atomization energies across chemical compound space is a well-established practice in the ML literature. In a first approach, we can therefore apply such compound space models for predicting REs, as long as they are trained on a reactive database like Rad-6. Herein, we use Kernel Ridge Regression (KRR) with the SOAP
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup> representation, as a state-of-the-art ML method (see SI for details). In brief, KRR uses a kernel function 
+ <italic>k</italic>(
+ <italic>x</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>, 
+ <italic>x</italic>
+ <sub>
+  <italic>j</italic>
+ </sub>), to measure the similarity between representations 
+ <italic>x</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> and 
+ <italic>x</italic>
+ <sub>
+  <italic>j</italic>
+ </sub>. The herein used SOAP representation is one of a class of atom-density projections that have been found to yield highly accurate molecular ML models
+ <sup>
+  <xref ref-type="bibr" rid="CR51">51</xref>,
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>. With this type of model, the AE of an unknown molecule can be predicted according to its similarity with known molecules in a training set. Since the AE is a molecular property and SOAP is an atomic representation, an additional step is required for evaluating the similarity of molecules. This can, for example, be achieved with the average kernel
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup>:
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${K}_{{\rm{int}}}(A,B)=\mathop{\sum }\limits_{a\in A,b\in B}\frac{1}{{N}_{A}\ {N}_{B}}k({x}_{a},{x}_{b}),$$\end{document}</tex-math>
+   <math id="M6">
+    <msub>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">int</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>A</mi>
+      <mo>,</mo>
+      <mi>B</mi>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <munder>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+      <mo>∈</mo>
+      <mi>A</mi>
+      <mo>,</mo>
+      <mi>b</mi>
+      <mo>∈</mo>
+      <mi>B</mi>
+     </mrow>
+    </munder>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi>A</mi>
+       </mrow>
+      </msub>
+      <mspace width="0.33em"/>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi>B</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mi>k</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+       <mrow>
+        <mi>b</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2020_19267_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>N</italic>
+ <sub>
+  <italic>A</italic>
+ </sub> and 
+ <italic>N</italic>
+ <sub>
+  <italic>B</italic>
+ </sub> are the numbers of atoms 
+ <italic>a</italic> and 
+ <italic>b</italic> in molecules 
+ <italic>A</italic> and 
+ <italic>B</italic>, respectively, and 
+ <italic>x</italic>
+ <sub>
+  <italic>a</italic>
+ </sub> is the SOAP representation of the chemical environment of atom 
+ <italic>a</italic>. The lower-case 
+ <italic>k</italic> is used to differentiate the atomic from the molecular kernel function 
+ <italic>K</italic>. Alternatively, one can also use the sum kernel:
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${K}_{{\rm{ext}}}(A,B)=\mathop{\sum }\limits_{a\in A,b\in B}k({x}_{a},{x}_{b}).$$\end{document}</tex-math>
+   <math id="M8">
+    <msub>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">ext</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>A</mi>
+      <mo>,</mo>
+      <mi>B</mi>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <munder>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+      <mo>∈</mo>
+      <mi>A</mi>
+      <mo>,</mo>
+      <mi>b</mi>
+      <mo>∈</mo>
+      <mi>B</mi>
+     </mrow>
+    </munder>
+    <mi>k</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+       <mrow>
+        <mi>b</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41467_2020_19267_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

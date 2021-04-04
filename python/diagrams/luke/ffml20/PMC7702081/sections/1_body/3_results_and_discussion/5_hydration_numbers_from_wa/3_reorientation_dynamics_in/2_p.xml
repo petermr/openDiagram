@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For each water subpopulations, the orientation time correlation function was computed by tracking the dipole vectors of the water molecules belonging to that specific subpopulation. We used 1024 time origins to generate well convergent 
+ <italic>C</italic>
+ <sub>1</sub>(
+ <italic>t</italic>) profiles from which we computed the reorientation relaxation time of each water subpopulation. We define the 
+ <italic>retardation factor</italic> as the ratio between the reorientation relaxation time of the subpopulation 
+ <italic>i</italic> and bulk water:
+ <disp-formula id="cphc202000498-disp-0006">
+  <label>(6)</label>
+  <math id="nlm-math-12">
+   <mstyle displaystyle="true">
+    <mrow>
+     <msub>
+      <mi>f</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <msubsup>
+       <mi>τ</mi>
+       <mrow>
+        <msub>
+         <mi>W</mi>
+         <mrow>
+          <mi>O</mi>
+          <mi>H</mi>
+          <mi>H</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mi>i</mi>
+      </msubsup>
+      <msub>
+       <mi>τ</mi>
+       <msub>
+        <mi>W</mi>
+        <mrow>
+         <mi>b</mi>
+         <mi>u</mi>
+         <mi>l</mi>
+         <mi>k</mi>
+        </mrow>
+       </msub>
+      </msub>
+     </mfrac>
+    </mrow>
+   </mstyle>
+  </math>
+ </disp-formula>
+</p>

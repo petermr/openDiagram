@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the situation, where significant fraction of atoms of type A is at the surface, one should also expect 
+ <italic>C</italic>
+ <sub>
+  <italic>A</italic>
+ </sub> being smaller than the corresponding value of nearest neighbors in the bulk material (12 in fcc metals). Two possible reasons for that are the high surface-to-volume ratio in small NPs and the segregation of A atoms to the material surface. To distinguish between these scenarios, EXAFS analysis at the absorption edge for the B-type atom, and analysis of the corresponding 
+ <italic>C</italic>
+ <sub>
+  <italic>BA</italic>
+ </sub> and 
+ <italic>C</italic>
+ <sub>
+  <italic>BB</italic>
+ </sub> coordination numbers are helpful. If 
+ <italic>C</italic>
+ <sub>
+  <italic>A</italic>
+ </sub> is lower than the bulk value, while 
+ <italic>C</italic>
+ <sub>
+  <italic>B</italic>
+ </sub> = 
+ <italic>C</italic>
+ <sub>
+  <italic>BB</italic>
+ </sub> + 
+ <italic>C</italic>
+ <sub>
+  <italic>BA</italic>
+ </sub> is close to the bulk value, the segregation of A atoms to the particle surface is expected. If both 
+ <italic>C</italic>
+ <sub>
+  <italic>A</italic>
+ </sub> and 
+ <italic>C</italic>
+ <sub>
+  <italic>B</italic>
+ </sub> are smaller than the expected bulk value, this indicates the presence of small NPs. The effective coordination number, useful for the estimation of particle sizes as discussed in 
+ <xref rid="sec5.3.1" ref-type="other">Section 
+  <xref rid="sec5.3.1" ref-type="other">5.3.1</xref>
+ </xref>, can then be calculated as
+ <disp-formula id="eq18">
+  <graphic xlink:href="cr0c00396_m028" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>18</label>
+ </disp-formula>As a side remark, note here that if EXAFS data both for atoms of type A and B are available due to the fact that the total number of A–B and B–A bonds is the same, 
+ <italic>x</italic>
+ <sub>
+  <italic>A</italic>
+ </sub>
+ <italic>C</italic>
+ <sub>
+  <italic>AB</italic>
+ </sub> should be equal to 
+ <italic>x</italic>
+ <sub>
+  <italic>B</italic>
+ </sub>
+ <italic>C</italic>
+ <sub>
+  <italic>BA</italic>
+ </sub>, regardless of the material structure and the segregation trends. This relation can be used as an additional way for the estimation of the ratio of the A and B metals, or, if the latter is known from independent measurements, as a helpful constraint for EXAFS data fitting. Additional obvious constraints that help to reduce the number of unknowns in structure refinement are those for interatomic distances (
+ <italic>R</italic>) and disorder factors (σ
+ <sup>2</sup>): 
+ <italic>R</italic>
+ <sub>
+  <italic>AB</italic>
+ </sub> = 
+ <italic>R</italic>
+ <sub>
+  <italic>BA</italic>
+ </sub> and σ
+ <sub>
+  <italic>AB</italic>
+ </sub>
+ <sup arrange="stagger">2</sup> = σ
+ <sub>
+  <italic>BA</italic>
+ </sub>
+ <sup arrange="stagger">2</sup>.
+ <sup>
+  <xref ref-type="bibr" rid="ref184">184</xref>
+ </sup>
+</p>

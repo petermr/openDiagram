@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Nevertheless, the use of XANES analysis for the interpretation of the interatomic distances in more complex situations became possible only recently after the development of XANES 
+ <italic>ab initio</italic> theory codes, like FDMNES
+ <sup>
+  <xref ref-type="bibr" rid="ref129">129</xref>
+ </sup> and FEFF,
+ <sup>
+  <xref ref-type="bibr" rid="ref42">42</xref>
+ </sup> that enable quick and accurate calculations of XANES spectra for many relevant systems, and codes such as FitIt
+ <sup>
+  <xref ref-type="bibr" rid="ref51">51</xref>
+ </sup> and MXAN
+ <sup>
+  <xref ref-type="bibr" rid="ref52">52</xref>
+ </sup> that allow the direct fit of the structure parameters to experimental XANES features. For example, Guda et al. used FDMNES simulations coupled with a machine-learning (ML)-based interpolation scheme to fit the structure around Ni atoms in CPO-27-Ni metalorganic frameworks upon adsorption of CO, CO
+ <sub>2</sub>, and NO molecules (
+ <xref rid="fig9" ref-type="fig">Figure 
+  <xref rid="fig9" ref-type="fig">9</xref>
+ </xref>a).
+ <sup>
+  <xref ref-type="bibr" rid="ref34">34</xref>,
+  <xref ref-type="bibr" rid="ref193">193</xref>
+ </sup>
+ <xref rid="fig9" ref-type="fig">Figure 
+  <xref rid="fig9" ref-type="fig">9</xref>
+ </xref>b shows the difference (L
+ <sub>2</sub>-norm) between the calculated and experimentally measured XANES as a function of the distance between the Ni site and the adsorbate, and the binding angle (e.g., Ni–C–O angle in the case of CO adsorption). A clear minimum in the residual plot allows one to identify the most likely values of these structure parameters. FDMNES simulations and fitting of XANES spectra using MXAN were also applied recently to find the structures of Fe–N–C, Ni–N–C, and Co–N–C catalysts for ORR from the corresponding Fe, Ni, and Co K-edge XANES spectra.
+ <sup>
+  <xref ref-type="bibr" rid="ref149">149</xref>
+ </sup>
+</p>

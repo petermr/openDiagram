@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par46">The simulations were performed using periodic boundary conditions and a time step of 0.5 fs. The Nose–Hoover thermostat and the Parrinello–Rahman barostat
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup> were used for controlling temperature and pressure, respectively. All simulations were carried out using the LAMMPS package and the atomic configurations were visualised with the AtomEye package. Typical models of the H
+ <sub>2</sub> system was created with 
+ <italic>P</italic>2
+ <sub>1</sub>/
+ <italic>c-</italic>24 structure containing up to 72,576 molecules. To reproduce the entire temperature–pressure phase diagram, the NPT simulations of 1152-atom supercells of 
+ <italic>P</italic>2
+ <sub>1</sub>/
+ <italic>c-</italic>24 structure were carried out at selected temperatures and pressures, from which we can identify the corresponding stable phases and melting point via the Z-method
+ <sup>
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup>. Furthermore, the phase-coexistence method
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>
+ </sup> with co-existing 27,648 molecules of H
+ <sub>2</sub> solid and liquid was adopted to determine the properties of solid and liquid phases at the melting curve. To probe the Phase I–II boundary, 2304 atom supercells of the Phase II 
+ <italic>P</italic>2
+ <sub>1</sub>/
+ <italic>c-</italic>24 structure were allowed to equilibrate for 250 ps at a series of pressures and temperatures.
+</p>

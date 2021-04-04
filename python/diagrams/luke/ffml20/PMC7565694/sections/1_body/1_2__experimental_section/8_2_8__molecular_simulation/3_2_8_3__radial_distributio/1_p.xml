@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The radial distribution functions (RDF) refer to a measure of the probability that, given the presence of an atom at the origin of an arbitrary reference frame, there will be an atom with its center located in a spherical shell of infinitesimal thickness at a distance 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mi>r</mi>
+   </mrow>
+  </math>
+ </inline-formula> from the reference atom. The RDF was calculated by the average of the static relationship of every given pair of particles 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mi>B</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> using the following equation [
+ <xref rid="B30-polymers-12-02048" ref-type="bibr">30</xref>]:
+ <disp-formula id="FD1-polymers-12-02048">
+  <label>(1)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>〈</mo>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mrow>
+          <mi>A</mi>
+          <mi>B</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mi>r</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>〉</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>4</mn>
+       <mi>π</mi>
+       <msup>
+        <mi>r</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>Δ</mo>
+       <msub>
+        <mi>ρ</mi>
+        <mrow>
+         <mi>A</mi>
+         <mi>B</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <msub>
+        <mi>n</mi>
+        <mrow>
+         <mi>A</mi>
+         <mi>B</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the average number of atom pairs between 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mi>r</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>r</mi>
+     <mo>+</mo>
+     <mo>Δ</mo>
+     <mi>r</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msub>
+      <mi>ρ</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the density of atom pairs of type 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mi>B</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>.
+</p>

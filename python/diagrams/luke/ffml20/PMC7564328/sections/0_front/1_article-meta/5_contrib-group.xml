@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="au1">
+  <name>
+   <surname>Zhao</surname>
+   <given-names>Kena</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">a</xref>
+  <xref rid="aff2" ref-type="aff">b</xref>
+  <xref rid="fn1" ref-type="fn">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au2">
+  <name>
+   <surname>Guo</surname>
+   <given-names>Tao</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">b</xref>
+  <xref rid="fn1" ref-type="fn">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au3">
+  <name>
+   <surname>Wang</surname>
+   <given-names>Caifen</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">b</xref>
+  <xref rid="fn1" ref-type="fn">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au4">
+  <name>
+   <surname>Zhou</surname>
+   <given-names>Yong</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">b</xref>
+  <xref rid="aff4" ref-type="aff">d</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au5">
+  <name>
+   <surname>Xiong</surname>
+   <given-names>Ting</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">b</xref>
+  <xref rid="aff4" ref-type="aff">d</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au6">
+  <name>
+   <surname>Wu</surname>
+   <given-names>Li</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">b</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au7">
+  <name>
+   <surname>Li</surname>
+   <given-names>Xue</given-names>
+  </name>
+  <xref rid="aff5" ref-type="aff">e</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au8">
+  <name>
+   <surname>Mittal</surname>
+   <given-names>Priyanka</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">b</xref>
+  <xref rid="aff6" ref-type="aff">f</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au9">
+  <name>
+   <surname>Shi</surname>
+   <given-names>Senlin</given-names>
+  </name>
+  <email>pjstone@163.com</email>
+  <xref rid="aff1" ref-type="aff">a</xref>
+  <xref rid="cor1" ref-type="corresp">∗</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au10">
+  <name>
+   <surname>Gref</surname>
+   <given-names>Ruxandra</given-names>
+  </name>
+  <email>ruxandra.gref@universite-paris-saclay.fr</email>
+  <xref rid="aff5" ref-type="aff">e</xref>
+  <xref rid="cor1" ref-type="corresp">∗</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au11">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>Jiwen</given-names>
+  </name>
+  <email>jwzhang@simm.ac.cn</email>
+  <xref rid="aff2" ref-type="aff">b</xref>
+  <xref rid="aff3" ref-type="aff">c</xref>
+  <xref rid="aff4" ref-type="aff">d</xref>
+  <xref rid="aff6" ref-type="aff">f</xref>
+  <xref rid="cor1" ref-type="corresp">∗</xref>
+ </contrib>
+ <aff id="aff1">
+  <label>a</label>College of Pharmaceutical Sciences, Zhejiang Chinese Medical University, Hangzhou 311402, China
+ </aff>
+ <aff id="aff2">
+  <label>b</label>Center for Drug Delivery System, Shanghai Institute of Materia Medica, State Key Laboratory of Drug Research, Chinese Academy of Sciences, Shanghai 201203, China
+ </aff>
+ <aff id="aff3">
+  <label>c</label>NMPA Key Laboratory for Quality Research and Evaluation of Pharmaceutical Excipients, National Institutes for Food and Drug Control, Beijing 100050, China
+ </aff>
+ <aff id="aff4">
+  <label>d</label>Key Laboratory of Modern Chinese Medicine Preparations, Ministry of Education, Jiangxi University of Traditional Chinese Medicine, Nanchang 330004, China
+ </aff>
+ <aff id="aff5">
+  <label>e</label>Université Paris-Saclay, CNRS 8214, Institut des Sciences Moléculaires d'Orsay, Orsay 91405, France
+ </aff>
+ <aff id="aff6">
+  <label>f</label>University of Chinese Academy of Sciences, Beijing 100049, China
+ </aff>
+</contrib-group>

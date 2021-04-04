@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Fig. 1</label>
+ <caption>
+  <title>Visualization of chemical reaction spaces as graphs with molecules as nodes and reactions as edges.</title>
+  <p>
+   <bold>a</bold> Full network of bond dissociation reactions for carbon-, oxygen-, hydrogen-containing molecules with up to four heavy atoms. 
+   <bold>b</bold> Reduced reaction network of the initial steps of natural gas combustion. Nodes are colored according to the number of incident edges/reactions (their degree) from low (white) to high (dark green).
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_19267_Fig1_HTML" id="d30e376" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

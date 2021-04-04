@@ -1,0 +1,729 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xml:lang="EN" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Chem Inf Model</journal-id><journal-id journal-id-type="iso-abbrev">J Chem Inf Model</journal-id><journal-id journal-id-type="publisher-id">ci</journal-id><journal-id journal-id-type="coden">jcisd8</journal-id><journal-title-group><journal-title>Journal of Chemical Information and Modeling</journal-title></journal-title-group><issn pub-type="ppub">1549-9596</issn><issn pub-type="epub">1549-960X</issn><publisher><publisher-name>American Chemical
+Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7588033</article-id><article-id pub-id-type="doi">10.1021/acs.jcim.9b00834</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Fast Estimation of the Blood&#x02013;Brain Barrier
+Permeability by Pulling a Ligand through a Lipid Membrane</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Thai</surname><given-names>Nguyen
+Quoc</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Theodorakis</surname><given-names>Panagiotis E.</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath3"><name><surname>Li</surname><given-names>Mai Suan</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Institute
+for Computational Science and Technology, <institution>Quang Trung Software City</institution>, Tan Chanh
+Hiep Ward, District 12, Ho Chi Minh City 700000, <country>Vietnam</country></aff><aff id="aff2"><label>&#x02021;</label><institution>Dong
+Thap University</institution>, 783 Pham Huu Lau Street, Ward 6, Cao Lanh
+City 870000, Dong Thap, <country>Vietnam</country></aff><aff id="aff3"><label>&#x000a7;</label>Institute
+of Physics, <institution>Polish Academy of Sciences</institution>, Al. Lotnikow 32/46, 02-668 Warsaw, <country>Poland</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Email: <email>masli@ifpan.edu.pl</email>. Phone: <phone>+48 22 843 66 01</phone>.</corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>05</month><year>2020</year></pub-date><pub-date pub-type="ppub"><day>22</day><month>06</month><year>2020</year></pub-date><volume>60</volume><issue>6</issue><fpage>3057</fpage><lpage>3067</lpage><history><date date-type="received"><day>24</day><month>09</month><year>2019</year></date></history><permissions><copyright-statement/><copyright-year>2020</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder><license><license-p>This is an open access article published under a Creative Commons Attribution (CC-BY) <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html">License</ext-link>, which permits unrestricted use, distribution and reproduction in any medium, provided the author and source are cited.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0010" id="ab-tgr1"/></p><p>The blood&#x02013;brain barrier (BBB)
+is a physical barrier that
+regulates the homeostasis of the neural microenvironment. A relative
+estimate of the BBB permeability, which is important for drug design,
+may be experimentally provided by the logBB (the blood&#x02013;brain
+concentration ratio) and the logPS (permeability&#x02013;surface-area
+product), while many computational methods aim to identify key properties
+that correlate well with these quantities. Although currently existing
+computational methods (e.g., quantitative structure activity relation)
+have made a significant contribution in screening various compounds
+that could potentially translocate through the BBB, they are unable
+to provide a physical explanation of the underlying processes and
+they can often be computationally demanding. Here, we use steered
+molecular dynamics simulation to estimate the BBB permeability of
+various compounds on the basis of simple lipid&#x02013;membrane models
+by computing the nonequilibrium work, <italic>W</italic><sub>neq</sub>, produced by pulling the compounds through the membrane. We found
+that the values of <italic>W</italic><sub>neq</sub> correlate remarkably
+well with logBB and logPS for a range of compounds and different membrane
+types and pulling speeds, independently of the choice of force field.
+Moreover, our results provide insight into the role of hydrogen bonds,
+the energetic barriers, and the forces exerted on the ligands during
+their pulling. Our method is computationally easy to implement and
+fast. Therefore, we anticipate that it could provide a reliable prescreening
+tool for estimating the relative permeability of the BBB to various
+substances.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ci9b00834</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ci9b00834</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Millions
+of people around the world suffer from some kind of central
+nervous system (CNS) disorder.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> A well-known
+example of such condition is Alzheimer&#x02019;s disease and, as in
+many other cases, a possible cure may require the delivery of drugs
+to the brain. However, 98% of small-molecule drugs and almost all
+of the larger ones are unable to reach the brain because of the presence
+of the blood&#x02013;brain barrier (BBB), which, among others, protects
+the brain from toxins and pathogens while allowing for the delivery
+of necessary nutrients and oxygen to the brain.<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref></sup> The
+properties of the BBB are mainly determined by the endothelial cells,
+but they are induced and maintained by complex communication with
+other types of cells according to the needs of the CNS.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> In fact, the transfer of substances between the
+blood microcirculation system and the brain parenchyma can take place
+through a number of active (energy is required, e.g., ATP hydrolysis)
+and passive translocation mechanisms, where the latter are driven
+by concentration and electrostatic gradients.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> These mechanisms and the way that they apply to different substances
+eventually determine the BBB <italic>permeability</italic>, which
+can be expressed by two commonly used experimental descriptors: the
+steady-state concentration of a drug in the brain over the concentration
+in the blood (logBB) and the permeability&#x02013;surface-area product
+(logPS).<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> In general, the entry to the
+CNS depends on a range of factors characterizing a compound, such
+as molecular weight, lipid solubility, ability to form hydrogen bonds,
+amino acid composition, charge, and three-dimensional (3D) structure
+(conformation, flexibility, folding, and others).<sup><xref ref-type="bibr" rid="ref7">7</xref>&#x02212;<xref ref-type="bibr" rid="ref9">9</xref></sup> To this end,
+the role of many of these characteristics might manifest in model
+membranes because the rate of passive diffusion across a membrane
+is proportional to the partition coefficient of the compound between
+the membrane and the external medium.<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref10">10</xref>&#x02212;<xref ref-type="bibr" rid="ref12">12</xref></sup> In this respect, the difficulty in traversing such membranes may
+constitute a measure of the <italic>barrier</italic> that a substance
+needs to overcome, in this way providing important information for
+pharmacokinetics and rational drug design, which is the motivation
+of the current study. Thus, model membranes provide opportunities
+for prescreening various compounds with the aim of reducing the cost
+and enhancing the speed of the BBB-permeation analysis, for example,
+by estimating the partitioning free energy, which has been the focus
+of previous computational studies.<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref></sup></p><p>In general, the blood&#x02013;brain permeability
+can be experimentally
+determined by various <italic>in vivo</italic> methods, for example,
+by measuring the ratio between the compound concentration in brain
+tissues and blood samples (logBB).<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref13">13</xref></sup> These methods
+are very reliable, but they are laborious and relatively low throughput.
+Therefore, <italic>in vitro</italic> methods based on various cell
+assays have been employed to predict the BBB permeability.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> Still, these methods are time-consuming and
+expensive rendering them practically inconvenient for screening large
+collections of chemicals. In contrast, various computational approaches<sup><xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref16">16</xref></sup> have already served as potential prescreening tools with the aim
+of reducing the cost and enhancing the speed of BBB-permeability analysis.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> Examples of such approaches are the quantitative
+structure activity relation and the application of artificial intelligence
+algorithms (e.g., machine learning, genetic algorithms, and artificial
+neural networks),<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> which have elucidated
+the role of various parameters, such as lipophilicity, hydrogen-bonding,<sup><xref ref-type="bibr" rid="ref17">17</xref>&#x02212;<xref ref-type="bibr" rid="ref19">19</xref></sup> and other physicochemical factors of the compounds (e.g., solubility,
+excess molar refraction, polarizability, hydrogen-bond acidity/basicity,
+and drug solvation free energy in water)<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref20">20</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> by assuming that the
+BBB permeability is governed by these descriptors (e.g., lipophilicity,
+hydrogen-bonding, polarizability, acidity/basicity, polar surface
+area, p<italic>K</italic><sub>a</sub>, etc<italic>.</italic>). The
+results of these studies have been corroborated on the basis of the
+high correlation coefficient between experimental and computational
+predictions for representative sets of compounds.<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref></sup></p><p>Molecular simulation has also been
+employed to predict the permeability
+of the BBB by using simple membrane models and free-energy calculation
+techniques. For instance, Lombardo et al. have shown that the BBB
+partitioning in terms of logBB for a series of compounds ranging from
+simple solutes to histamine H<sub>2</sub> antagonists was correlated
+with the computed solvation free energy in water without taking into
+account specificities that pertain to the membrane structure.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> Furthermore, this correlation provided successful
+predictions of blood&#x02013;brain partitioning for compounds outside
+of the training dataset, which highlights the potential of these methods
+as prescreening tools. In another study, Carpenter et al. have obtained
+very good agreement with experimental results on the logBB and the
+logPS of twelve drug-like compounds using the lipid bilayer as a simple
+BBB model and molecular dynamics (MD) simulation of all-atom models
+combined with free-energy methods.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> Their
+predictions have correlated remarkably well with both the experimental
+logBB and logPS, obtaining values of the correlation coefficient close
+to 1. A similar approach has been adopted to express the membrane
+permeability of small compounds through the diffusion constant and
+the potential of mean force in MD simulation.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> These studies have clearly underlined the predictive power of MD
+methods toward estimating energetic barriers associated with BBB permeability
+and identifying the physical mechanisms related to the translocation
+of various compounds through the BBB. Still, standard MD methods combined
+with free energy calculation methods are computationally expensive
+and often involve complex simulation protocols that require a delicate
+and iterative process in order to improve the accuracy of the results.</p><p>In this article, we propose a <italic>simple</italic>, <italic>reliable</italic>, and <italic>fast</italic> method to provide a
+relative estimate of the BBB permeability to a representative set
+of compounds, which also includes compounds considered in previous
+computational studies.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> To achieve this,
+we pull the selected compounds through model membranes by using steered
+molecular dynamics (SMD) simulation and monitor the nonequilibrium
+work, <italic>W</italic><sub>neq</sub>, required to cross the membrane.
+We show that this approach obtains robust results (e.g., independent
+of the membrane model or the pulling speed) that correlate remarkably
+well with the experimental values of logBB, and logPS, as well as
+the values of the topological polar surface area (TPSA). Moreover,
+our method provides detailed information on the forces experienced
+by the compounds during the translocation process and the formation
+of hydrogen bonds between the compounds and both the model membrane
+and water molecules. We anticipate that the proposed approach will
+have broader implications in this research area as a simple, reliable,
+and fast prescreening tool for predicting the relative permeability
+of the BBB to various compounds.</p></sec><sec id="sec2"><title>Materials and Methods</title><sec id="sec2.1"><title>Choice
+of Compounds</title><p>In this study, we have chosen 26
+small-molecule compounds, which were selected from the literature
+(Tables S1 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>). The logBB and TPSA values are known for all compounds, while the
+logPS values are available in the literature only for a subset of
+the studied compounds. Moreover, many of them have been previously
+studied by standard MD simulation<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> by using
+the GROMOS54a7 force-field. Here, we have modeled a set of 26 small-molecule
+compounds not only with the GROMOS54a7 force-field, but, also, by
+using the CHARMM36 force-field. All the compounds have been previously
+used in experimental BBB permeability reports and are well studied.
+Hence, the 3D structures, a few common descriptors, and the logBB
+and logPS values of the selected compounds have been documented in
+the literature and obtained from the Collaborative Drug Discovery
+in PubChem<sup><xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref23">23</xref></sup> (Table S1 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>). The selected 26 compounds
+have logBB values that are evenly distributed between &#x02212;2.51
+and 1.64. Fourteen out of the 26 compounds can cross the BBB by a
+diffusion mechanism, while the rest cannot translocate through the
+BBB.</p></sec><sec id="sec2.2"><title>Model for the Compounds and the Lipid Bilayer</title><p>A typical
+system consists of a lipid bilayer surrounded by water and one of
+the compounds (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S1</ext-link>), which is positioned
+in the water domain on the left of the lipid bilayer (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). The total size of our systems
+was typically about 40,000 atoms. Following previous work,<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> the bilayer consists of 128 DOPC (1,2-dioleoyl-<italic>sn</italic>-glycero-3-phosphocholine) lipids<sup><xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref25">25</xref></sup> modeled with the Berger force-field.<sup><xref ref-type="bibr" rid="ref24">24</xref>&#x02212;<xref ref-type="bibr" rid="ref27">27</xref></sup> The so-called &#x0201c;Berger
+lipids&#x0201d; can be combined with the GROMOS representation of the
+compounds.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> Hence, the GROMOS54a7 force-field
+was used to model the 26 compounds. Moreover, the CHARMM36<sup><xref ref-type="bibr" rid="ref28">28</xref>&#x02212;<xref ref-type="bibr" rid="ref30">30</xref></sup> force-field was employed for both the bilayer by using the CHARMM-GUI
+server<sup><xref ref-type="bibr" rid="ref31">31</xref>&#x02212;<xref ref-type="bibr" rid="ref33">33</xref></sup> and the 26 compounds (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S1</ext-link>). The parameters of the compounds were obtained from the ATB server<sup><xref ref-type="bibr" rid="ref34">34</xref>&#x02212;<xref ref-type="bibr" rid="ref37">37</xref></sup> for the GROMOS54a7 force-field and the SwissParam server<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> in the case of the CHARMM36 force-field. In
+general, the ATB server combines a knowledge-based approach with quantum
+mechanical calculations. First, the ligand was optimized using the
+HF/STO-3G theory and then reoptimized at a more advanced level B3LYP/6-31G*.<sup><xref ref-type="bibr" rid="ref39">39</xref>&#x02212;<xref ref-type="bibr" rid="ref41">41</xref></sup> To estimate the point charges of compound atoms, the electrostatic
+potential was fitted using the Kollman&#x02013;Singh procedure.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> The bond and angle force constants were extracted
+from the Hessian matrix. All ligands were modeled in their neutral
+form.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Typical simulation setup of our system. The system consists of
+a lipid bilayer (green), water (blue), and one of the compounds (orange
+and green). The zero of the axis in the <italic>z</italic> direction
+is positioned at the center of the lipid bilayer. The SMD force that
+pulls the dummy atom through the bilayer in the <italic>z</italic> direction is indicated with a red arrow.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0001" id="gr1" position="float"/></fig><p>We have used a lipid bilayer with POPC lipids (2-oleoyl-1-pamlitoyl-<italic>sn</italic>-glyecro-3-phosphocholine) in addition to DOPC in order
+to assess the effect of the membrane composition on our conclusions
+regarding the translocation ability of the compounds. The model for
+POPC is also based on the CHARMM36 force-field and consists of 128
+POPC molecules. As in the case of the DOPC, the membrane topology
+for the POPC membrane model was created by using the CHARMM-GUI server,<sup><xref ref-type="bibr" rid="ref31">31</xref>,<xref ref-type="bibr" rid="ref33">33</xref>,<xref ref-type="bibr" rid="ref50">50</xref></sup> while the topology and the parameters
+for small compounds were obtained by the SwissParam server,<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> which is compatible with the CHARMM36 all-atom
+force-field. Also, a DOPC membrane model with cholesterol was studied
+with a DOPC/cholesterol ratio of 2:1 and using the CHARMM force-field.
+Finally, the simple point charge water model was used in the case
+of the GROMOS54a7 force-field, while the TIP3P water model was employed
+in the case of the CHARMM36 force-field.<sup><xref ref-type="bibr" rid="ref43">43</xref></sup></p></sec><sec id="sec2.3"><title>Steered Molecular Dynamics</title><p>SMD offers the possibility
+of obtaining results much quicker than it might be possible with standard
+MD simulation.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> In the case of the SMD
+simulation, a spring is attached from one side to a dummy atom and
+from the other side to the compound. Then, the dummy atom is pulled
+from its initial position toward the bilayer in the <italic>z</italic> direction with a constant velocity <italic>v</italic>, covering
+a distance &#x00394;<italic>z</italic><sub>c</sub> = <italic>vt</italic> (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>) with <italic>t</italic> indicating time. Hence, the elastic force experienced
+by the compound at a certain time during pulling is <italic>F</italic> = <italic>k</italic>(&#x00394;<italic>z</italic> &#x02013; <italic>vt</italic>)<italic>,</italic> where &#x00394;<italic>z</italic> is
+the displacement of the compound&#x02019;s atom connected with the
+spring in the direction of pulling. As in the case of atomic force
+microscopy experiments,<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> we chose <italic>k</italic> = 600 kJ/(mol&#x000b7;nm<sup>2</sup>) and different pulling
+velocities (i.e<italic>.</italic>, <italic>v</italic> = 0.5, 1.5,
+and 5.0 nm/ns). These values have been also used in our previous studies
+and are well-tested.<sup><xref ref-type="bibr" rid="ref46">46</xref>&#x02212;<xref ref-type="bibr" rid="ref48">48</xref></sup> Moreover, the spring constant is suitable to carry
+out the pulling experiments, as can be verified by the average position&#x02013;time
+profiles for the compounds (see Figure S1 in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>). To prevent the membrane from drifting because
+of the external force, the phosphate atoms on both lipid layers were
+restrained by a harmonic potential with a spring constant of 1000
+kJ/(mol&#x000b7;nm<sup>2</sup>) in the <italic>z</italic> direction.</p><p>The main output of the simulation is the force, <italic>F</italic>, as a function of time and the position, <italic>z</italic>, of
+the compound, from which we can readily calculate the work, <italic>W</italic><sub>neq</sub>, required to pull the compound through the
+bilayer over a distance <italic>L</italic><sub><italic>z</italic></sub> = &#x0222b;d<italic>z</italic>, where <italic>L</italic><sub><italic>z</italic></sub> is the width of the bilayer in the <italic>z</italic> direction. <italic>W</italic><sub>neq</sub> can be mathematically
+expressed as <italic>W</italic><sub>neq</sub> = &#x0222b;<italic>F</italic> d<italic>z</italic>. The average force&#x02013;time and force&#x02013;position
+profiles obtained from five individual trajectories for the 26 studied
+compounds are shown in Figure S2 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link> in the case of the GROMOS54a7 force-field and the
+DOPC membrane model.</p><p>Once the system was set up as shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>, the steepest descent
+and conjugate gradient
+methods were used for energy minimization, as is usually done. The
+energy-minimized system was then utilized as an initial configuration
+for the SMD simulation. The simulation was carried out at <italic>T</italic> = 323 K, by employing the Nos&#x000e9;&#x02013;Hoover thermostat
+with an effective relaxation time parameter set to &#x003c4;<sub>T</sub> = 0.5 ps. The pressure was maintained at 1 bar using the semi-isotropic
+Parrinello&#x02013;Rahman barostat with relaxation time &#x003c4;<sub>P</sub> = 1 ps, and a compressibility of 4.5 &#x000d7; 10<sup>&#x02013;5</sup> bar<sup>&#x02013;1</sup>. The LINCS algorithm<sup><xref ref-type="bibr" rid="ref49">49</xref>,<xref ref-type="bibr" rid="ref50">50</xref></sup> was used to constrain bond lengths, thus allowing for a 2 fs time-step
+during simulation. A cutoff of 1.4 nm was chosen for nonbonded interactions,
+and the neighbor list was updated every 10 ps, while long-range electrostatic
+interactions were calculated using the particle&#x02013;mesh Ewald
+method. Here, the GROMACS 5.1 package was used to carry out all simulations.
+Simulations typically last from 1.8 to 18.0 ns depending on the pulling
+velocity. In our study, the considered range of pulling velocities
+span an order of magnitude, namely, <italic>v</italic> = 0.5, 1.5,
+and 5.0 nm/ns. Average properties were calculated from an ensemble
+of five trajectories with different initial conditions by using a
+random initial velocity generation and changing the orientation of
+the pulled compound (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Figure S3</ext-link>). Examples
+of individual trajectories are shown in Figures S4 and S5 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link> as well as Tables S2 and
+S3 for different membrane models and force fields in the case of mannitol,
+which has the smallest experimental logBB and logPS values and the
+highest TPSA value. In fact, the logBB and the TPSA values for the
+26 compounds of our study appear to be anticorrelated with <italic>R</italic><sup>2</sup> = 0.53 (<italic>R</italic> is the correlation
+coefficient), as shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Figure S6</ext-link>. Hence,
+the available values in the literature of logBB and TPSA for our compounds
+suggest that a larger polar surface area of the compounds is associated
+with a lower permeability of the BBB. Moreover, values of TPSA below
+90 &#x000c5;<sup>2</sup> suggest an increased potential for BBB penetration,
+while larger values are usually associated with lower probability
+of crossing the BBB.<sup><xref ref-type="bibr" rid="ref51">51</xref></sup></p></sec></sec><sec id="sec3"><title>Results and Discussion</title><p>Correlation of the maximum force, <italic>F</italic><sub>max</sub>, and the nonequilibrium work, <italic>W</italic><sub>neq</sub>,
+with the experimental logBB and logPS values, as well as the TPSA
+values.</p><p><xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> shows typical
+snapshots that illustrate the translocation of a compound through
+the model membrane, in this case mannitol (see also movie in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_002.mp4">Supporting Information</ext-link>), where the pulling velocity <italic>v</italic> = 0.5 nm/ns and the GROMOS54a7 force-field for the model
+DOPC was used in this case. Obviously, the membrane remains stable
+during the simulation. Our analysis for each case of force field,
+membrane model, and pulling velocity, yields the maximum force, <italic>F</italic><sub>max</sub>, exerted on the compound, and the nonequilibrium
+work, <italic>W</italic><sub>neq</sub>, required to pull the compound
+through the membrane can be readily calculated from the force&#x02013;position
+profiles (e.g., Figure S2 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>) as discussed in our previous section. The values of <italic>F</italic><sub>max</sub>and <italic>W</italic><sub>neq</sub> are reported in
+Table S4 of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link> and
+plotted as a function of logBB in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> for the 26 compounds and the DOPC membrane
+model simulated with the CHARMM36 forcefield and pulling velocity <italic>v</italic> = 0.5 nm/ns. Our results indicate that the correlation
+between <italic>F</italic><sub>max</sub> and the logBB values of the
+compounds is high, namely, <italic>R</italic><sup>2</sup> = 0.85.
+In particular, the maximum force increases as the logBB values decrease.
+This result agrees well with the expectation that a larger force may
+be required to translocate a compound through the membrane when logBB
+is lower (e.g., mannitol). In the case of <italic>W</italic><sub>neq</sub>, the correlation of the simulation results with the experimental
+logBB values of the compounds is similarly high, namely, the correlation
+coefficient is <italic>R</italic><sup>2</sup> = 0.86. Hence, our results
+indicate a remarkable correlation between the experimentally measured
+logBB parameters and the reported maximum force values, <italic>F</italic><sub>max</sub>, and the nonequilibrium work, <italic>W</italic><sub>neq</sub>, despite the simplicity of our approach. Both quantities
+are larger when logBB is smaller.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Typical snapshots obtained from simulation
+at different times as
+indicated during the pulling of mannitol with velocity <italic>v</italic> = 0.5 nm/ns in the case of the GROMOS54a7 force-field and DOPC membrane
+model. Phosphate atoms are restrained in order to prevent the displacement
+of the whole membrane as the compound penetrates the bilayer.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0002" id="gr2" position="float"/></fig><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Correlation of <italic>F</italic><sub>max</sub> (left
+panel) and
+nonequilibrium work (right panel), <italic>W</italic><sub>neq</sub>, with logBB for the 26 compounds considered in this study (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S1</ext-link>) in the case of the CHARMM36 force-field
+for the DOPC membrane model and pulling velocity <italic>v</italic> = 0.5 nm/ns (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S4</ext-link>). The correlation
+coefficient <italic>R</italic><sup>2</sup> is indicated at the top
+right corner of each graph.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0003" id="gr3" position="float"/></fig><p>Our analysis in the case of 26 compounds modeled with the GROMOS54a7
+force-field and using the same pulling velocity (<italic>v</italic> = 0.5 nm/ns) and the DOPC membrane model as in the case of the CHARMM36
+model is shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> and the corresponding values of the maximum force, <italic>F</italic><sub>max</sub>, and the nonequilibrium work, <italic>W</italic><sub>neq</sub>, as a function of the experimental logBB and logPS
+values as well as the TPSA are reported in Table S5 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>. Overall, our results
+suggest a high correlation between the simulation and the experimental
+results. In all cases, the correlation coefficient, <italic>R</italic>, obtains large values for both <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub>. In particular, <italic>R</italic><sup>2</sup> obtains values larger than 0.80 for the correlation of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with logBB. The
+correlation with the logPS is of the same magnitude but slightly smaller.
+Finally, the correlation of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with the TPSA of the compounds is also significant.
+While <italic>F</italic><sub>max</sub> shows a correlation as large
+as in the case of logBB and logPS, <italic>W</italic><sub>neq</sub> manifests a smaller correlation with the TPSA values, that is, <italic>R</italic><sup>2</sup> = 0.58. This is expected given the correlation
+between the logBB and TPSA values (Figure S6 in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>). Our study also suggests that the
+use of the Berger lipid force-field for the membrane model, which
+may be insufficient in some cases (e.g., when a cutoff of 1.0 nm is
+used),<sup><xref ref-type="bibr" rid="ref52">52</xref>,<xref ref-type="bibr" rid="ref53">53</xref></sup> yields consistent results with those obtained
+by using the CHARMM36 force-field (cf. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>). Hence, our conclusions, which are validated
+for a large set of different compounds, are not affected by the choice
+of the force field for both the compounds and the membrane. Moreover,
+our results are in very good agreement with the results obtained in
+the study of Carpenter et al.<italic>,</italic><sup><xref ref-type="bibr" rid="ref6">6</xref></sup> where twelve compounds were investigated by means of the
+potential of mean force between the compounds and the BBB. In summary,
+our results indicate a remarkable correlation between the simulation
+and the experimental results irrespective of the force field used
+to model the membrane and the compounds, which may justify the use
+of our approach as a method for prescreening compounds with the aim
+of estimating eventually the relative BBB permeability to different
+compounds.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>The correlation between <italic>F</italic><sub>max</sub> and the
+nonequilibrium work, <italic>W</italic><sub>neq</sub>, with logBB,
+logPS, and TPSA for the compounds (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Tables S1 and S6</ext-link>) in the case of the GROMOS54a7 force-field for the DOPC
+membrane model and pulling velocity <italic>v</italic> = 0.5 nm/ns
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S5</ext-link>). The correlation coefficient <italic>R</italic><sup>2</sup> is indicated at the top of each graph. Note
+that logPS is only available for 8 compounds.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0004" id="gr4" position="float"/></fig><sec id="sec3.1"><title>Effect
+of Pulling Velocity and Membrane Type</title><p>In order
+to assess the influence of the pulling velocity, we carried out SMD
+simulations with a range of pulling velocities, that is, <italic>v</italic> = 0.5, 1.5, and 5 nm/ns, and different bilayer compositions (DOPC
+or POPC) for the 26 compounds of this study by using different force
+fields. Our results in the case of the GROMOS54a7 force-field for
+the DOPC membrane model (cf. <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>) indicate that the correlation remains high when the
+pulling velocity increases (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Figure S7 and Table S5</ext-link>), namely <italic>v</italic> = 1.5 nm/ns. Hence, the values
+of <italic>R</italic><sup>2</sup> for the correlation of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with logBB are
+not affected significantly by changing the pulling velocity. Similarly,
+the correlation of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with the logPS and TPSA is of the same order. Further
+increase of the velocity (i.e., <italic>v</italic> = 5.0 nm/ns) suggests
+that the correlation of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with logBB, logPS, and TPSA remains again
+of the same order (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Figure S8 and Table S5</ext-link>). Hence, changes in the pulling velocity do not affect our conclusions.
+Furthermore, we have verified our conclusions for both the GROMOS54a7
+and the CHARMM36 force-fields, as well as different membrane models
+(DOPC and POPC). Then, <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> shows the correlation of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with the experimental logBB
+and logPS values in the case of the CHARMM36 force-field and pulling
+velocity <italic>v</italic> = 5 nm/ns for the POPC membrane model.
+The values are also reported in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S6</ext-link>. We find that the correlation of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with logBB, logPS, and TPSA
+is similar, irrespective of the membrane type (DOPC or POPC). In particular,
+the maximum force and the nonequilibrium work remains highly correlated
+with the experimental logBB values, namely, <italic>R</italic><sup>2</sup> = 0.72 and <italic>R</italic><sup>2</sup> = 0.80, respectively.
+The correlation with the logPS is also high in the case of <italic>F</italic><sub>max</sub>, but it is much lower in the case of <italic>W</italic><sub>neq</sub><italic>versus</italic> logPS. The results
+for <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with the TPSA values show a much weaker correlation in comparison
+with the experimental logBB and logPS values. In the case of <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>, <italic>R</italic><sup>2</sup> = 0.47 and 0.43 for the correlation of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with TPSA, respectively.
+In summary, we conclude that the correlation between <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with logBB, logPS,
+and TPSA are robust because it is not affected by the employed forcefield
+for the compound and the membrane, the pulling velocity and the membrane
+model (POPC or DOPC). In all cases, our results suggest a significant
+correlation between <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with the experimental logBB and logPS values, as well
+as TPSA values, reported in the literature.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Correlation between <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub> with
+logBB (top panel) and logPS (bottom
+panel) for the compounds considered in this study (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S6</ext-link>) in the case of the CHARMM36 force-field, velocity <italic>v</italic> = 5 nm/ns, and the POPC membrane model.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0005" id="gr5" position="float"/></fig></sec><sec id="sec3.2"><title>Hydrogen Bonds</title><p>We have analyzed the hydrogen bond formation
+between the compounds and water (Figure S9 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>), as well as between the compounds
+and the lipids (Figure S10 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>), as a function of the compound position. A hydrogen bond is formed
+when the distance between the donor D and acceptor A is &#x02264; 3.5
+&#x000c5; and the D&#x02013;H&#x02013;A angle is &#x02265;135&#x000b0; (H denotes
+the hydrogen atom). The number of hydrogen bonds was estimated as
+the average number of hydrogen bonds from the ensemble of our trajectories
+separately for each compound. Analysis of the hydrogen-bond formation
+between compounds and water molecules (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Figure S9</ext-link>) suggests that hydrogen bonds are present in all cases,
+but compounds with lower logBB (smaller permeability) overall have
+higher tendency of forming hydrogen bonds with water. Moreover, the
+profiles are rather symmetric with water molecules being also present
+in the middle of the lipid membrane during simulations. The latter
+effect may be a consequence of water molecules being dragged by the
+compounds during the pulling process, which mostly takes place for
+compounds with low logBB (high tendency of forming hydrogen bonds).
+In the case of hydrogen-bond formation between the compound and the
+lipids, we can observe that the presence of hydrogen bonds is related
+to the barrier that a compound needs to overcome in order to translocate
+through the membrane. In particular, the hydrogen bonds formed between
+mannitol and the lipid molecules is the highest among all compounds
+reaching the value of 3.8 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Figure S10</ext-link>).
+Moreover, because of the apparent symmetric composition of the two
+membrane layers in lipids, the profiles seem to be symmetric with
+a first high peak in the number of hydrogen bonds appearing in the
+left layer (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Figure S10</ext-link>) and a subsequent
+lower peak. Finally, compounds that translocate easily through the
+membrane (high logBB values) do not form as many hydrogen bonds.</p><p>We further attempt to measure the correlation between the number
+of hydrogen bonds and the parameters logBB, logPS, and TPSA as we
+did previously in the case of <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub>. Although in the latter cases we had found
+a remarkable correlation, the correlation between the number of hydrogen
+bonds and the experimental logBB and logPS seems weaker (e.g., see <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>, where the case
+of GROMOS54a7 force-field for the DOPC membrane model and pulling
+velocity <italic>v</italic> = 0.5 nm/ns is illustrated. Similar results
+we have obtained for all cases considered in our study). This is clearly
+manifested by the values of the correlation coefficient (<italic>R</italic><sup>2</sup> = 0.24 and 0.42, for the number of hydrogen bonds vs
+logBB and logPS, respectively; <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>), which however clearly indicate that the number of
+hydrogen bonds decreases as the values of logBB and logPS increase.
+On the contrary, the number of hydrogen bonds increases with the increase
+of the TPSA with the correlation coefficient being <italic>R</italic><sup>2</sup> = 0.48, which is consistent with the correlation observed
+for the <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub>. Our results show that compounds with low logBB and logPS
+and high TPSA are able to form a larger number of hydrogen bonds with
+the lipids, which may suggest that the low BBB permeability be related
+to the ability of hydrogen-bond formation between the compounds and
+the lipids or the solvent. However, our results also suggest that
+this correlation be rather weaker than the one observed between <italic>F</italic><sub>max</sub> and <italic>W</italic><sub>neq</sub>, and
+logBB and logPS, which suggests that other factors might contribute
+to this correlation.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Number of hydrogen bonds at the position of the maximum
+force experienced
+by the compound in the case of the GROMOS54a7 force-field with the
+DOPC model and pulling velocity <italic>v</italic> = 0.5 nm/ns as
+a function of logBB, TPSA (top panel), and logPS (bottom panel). The
+square of the correlation coefficient, <italic>R</italic>, for each
+case is indicated on the top left corner of each graph.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0006" id="gr6" position="float"/></fig></sec><sec id="sec3.3"><title>Electrostatic and Van der Waals Interactions</title><p>SMD simulation
+allows for the analysis of the interactions between the compounds
+and the lipid bilayer into individual contributions, for example,
+van der Waals (vdW) and electrostatic interactions. Such interaction
+profiles with respect to the compound&#x02019;s position are provided
+in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link> (Figure S11).
+A careful look at these profiles suggests that the vdW interactions
+(short range) are more pronounced in the central region of the bilayer
+with a width of about 4 nm. In contrast, the electrostatic interactions
+(long range) between the compound and the lipids are less pronounced
+in the very central region between the two layers and within a region
+with width of about 2 nm in the <italic>z</italic> direction. By considering
+the magnitude of both the vdW and the electrostatic interactions for
+every position within the bilayer, we observe that these interactions
+are overall most pronounced at a distance &#x000b1;2 nm from the center
+of the lipid bilayer. However, the electrostatic energy profiles appear
+to be slightly asymmetric with the energy obtaining lower values in
+the left part of the lipid bilayer. In contrast, the vdW interactions
+indicate some asymmetry in the right part of the bilayer, which may
+indicate the effect of steric interactions between the compounds and
+the lipids as the compound enters the bilayer.</p><p>In <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>, we plot the average values
+of the vdW and electrostatic energies as a function of logBB, logPS,
+and TPSA and analyze their correlation on the basis of the correlation
+coefficient <italic>R</italic>, as we have done previously. While <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref> shows results for
+the GROMOS54a7 force-field and the DOPC membrane model for pulling
+velocity <italic>v</italic> = 0.5 nm/ns, our conclusions are similar
+for all cases of our study. In the case of the vdW interactions, we
+observe that the magnitude of these interactions barely correlates
+with the logBB and TPSA, while a more pronounced correlation is observed
+with the logPS values, that is, <italic>R</italic><sup>2</sup><italic>=</italic> 0.32. In particular, the larger the logPS, the greater
+the effect of the van der Waals interactions during the pulling of
+the compound. A higher degree of correlation is observed in the case
+of electrostatic interactions with respect to the experimental logBB
+and logPS as well as the TPSA. In this case, the correlation coefficient, <italic>R</italic>, obtains positive values, while <italic>R</italic><sup>2</sup> = 0<italic>.</italic>49 (logBB) and <italic>R</italic><sup>2</sup> = 0<italic>.</italic>70 (logPS). We find that larger values
+of logBB and logPS (higher permeability) correspond to smaller (absolute)
+values of electrostatic energies. Hence, a smaller effect of electrostatic
+forces is linked to a larger permeability of the BBB. On the contrary,
+as the TPSA increases electrostatic forces become more dominant (their
+absolute value increases) with <italic>R</italic><sup>2</sup> = 0.43
+(a small opposite effect is observed for the vdW forces). In summary,
+our results indicate a larger role of electrostatic interactions during
+the compound translocation in contrast to the van der Waals interaction.
+In the case of logBB and TPSA, the magnitude of correlation is of
+the same order as in the case of the hydrogen bonds. This may suggest
+that electrostatic interactions and hydrogen bonds play a more important
+role in the translocation of compounds than van der Waals interactions.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Correlation
+of the average vdW or electrostatic interaction energies
+with logBB, TPSA, and logPS at the position of the maximum force experienced
+by the compound in the case of the GROMOS54a7 force-field, the DOPC
+membrane model and pulling velocity <italic>v</italic> = 0.5 nm/ns.
+The correlation coefficient R for each case is indicated on the top
+left corner of each graph.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0007" id="gr7" position="float"/></fig></sec><sec id="sec3.4"><title>Effect of Cholesterol</title><p>To assess further the effect
+of the membrane composition, we have altered the membrane composition
+by including cholesterol (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>) with a DOPC/cholesterol ratio of 2:1. Here, results
+of the maximum force and the nonequilibrium work in the case of pulling
+velocity <italic>v</italic> = 5 nm/ns and the CHARMM36 force-field
+as a function of the logBB and logPS experimental values are shown
+in <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>. The estimated <italic>R</italic><sup>2</sup> values for the correlation are in very good
+agreement with the membrane cases without the cholesterol. Indeed,
+the addition of cholesterol does not affect the correlation. The results
+of <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref> are documented
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S4</ext-link> for each compound. While the
+correlation of the maximum force, <italic>F</italic><sub>max</sub>, and the nonequilibrium work, <italic>W</italic><sub>neq</sub>,
+with the logBB and logPS experimental values is not affected by the
+membrane model, the absolute values of <italic>F</italic><sub>max</sub> (as a result also those of <italic>W</italic><sub>neq</sub>) have
+increased by a factor of two (an example of a force&#x02013;time profile
+is shown in Figure S12 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>). Hence, we conclude that the presence of cholesterol induces a
+larger resistance to the compound. In other words, the permittivity
+of the membrane is significantly reduced in a proportional way without
+affecting the correlation between the experimental and the simulation
+predictions.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Snapshot of an equilibrium membrane of DOPC/cholesterol
+with a
+ratio of 2:1. Cholesterol molecules are highlighted with vdW spheres.
+Pymol software was used for the visualization of the molecules.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0008" id="gr8" position="float"/></fig><fig id="fig9" position="float"><label>Figure 9</label><caption><p>Correlation of <italic>F</italic><sub>max</sub> (left
+panel) and
+nonequilibrium work (right panel), <italic>W</italic><sub>neq</sub>, with logBB, TPSA, and logPS for compounds considered in this study
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S1</ext-link>) in the case of the CHARMM36
+force-field for the DOPC/cholesterol (2:1) membrane model and pulling
+velocity <italic>v</italic> = 5 nm/ns (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Table S4</ext-link>). The correlation coefficient <italic>R</italic><sup>2</sup> is
+indicated at the top right corner of each graph.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_0009" id="gr9" position="float"/></fig></sec></sec><sec id="sec4"><title>Conclusions</title><p>The ability of drugs to cross the BBB depends
+on their physicochemical
+characteristics, such as lipophilicity, 3D structure, and so on<italic>.</italic> Given that most of the drugs are unable to cross the BBB,
+a large number of substances may need to be tested in order to identify
+the ones that could translocate through the barrier. However, many
+of the current experimental approaches are low throughput and impractical
+for screening large sets of substances. Moreover, existing computational
+approaches can be computationally expensive or may neglect the physical
+mechanisms of the underlying translocation processes. Here, we have
+shown that the SMD simulation based on all-atom models may be a fast,
+reliable, and computationally inexpensive approach to determine the
+relative permeability of the BBB to various substances. To achieve
+this, simple model membranes were used. Our approach based on SMD
+was able to provide good agreement with the experimental results in
+terms of the relative permeability of the compounds. In particular,
+we have clearly shown that compounds with lower logBB are highly correlated
+with larger values of nonequilibrium work required to pull a compound
+through the bilayer, with correlation coefficient values close to
+unity. Moreover, the maximum force has also shown a remarkable correlation
+with the experimental logBB values. The correlation between the simulation
+and experimental data is consistent and parameters such as the forcefield,
+the number of independent trajectories, and orientation of compounds
+(Figure S3 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">Supporting Information</ext-link>), the number of compounds, the membrane model and composition, and
+the pulling velocity, do not affect our conclusions. We have also
+monitored the formation of hydrogen bonds between the compounds and
+both the lipids and the water molecules, where a weaker correlation
+between simulation and experiment was observed. Overall, the presence
+of a large number of hydrogen bonds was associated with experimentally
+low permeability of the BBB. Analysis of the van der Waals and electrostatic
+interactions between the compounds and the lipid bilayer have indicated
+a higher correlation between logBB/logPS and electrostatic interactions
+rather than between logBB/logPS and van der Waals interactions. Because
+all ligands of our study were in neutral form, the effect of the charge
+of the compounds<sup><xref ref-type="bibr" rid="ref54">54</xref></sup> on the membrane permeability
+can be further considered in future studies. Overall, we anticipate
+that our method opens new opportunities for estimating the relative
+permeability of the BBB to various compounds and future studies may
+involve more complex membranes and coarse-grained models, including
+models for the BBB.</p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acs.jcim.9b00834?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acs.jcim.9b00834</ext-link>.<list id="silist" list-type="simple"><list-item><p>List of all simulated
+compounds (CID), their logBB,
+logPS, TPSA, 3D structure, and selected descriptors, including references
+related to the compounds; values of <italic>F</italic>, <italic>F</italic><sub>max</sub>, and <italic>W</italic><sub>eq</sub> for mannitol
+for five individual trajectories; independent force profiles for mannitol
+from different trajectories and their average position&#x02013;time
+profile; force&#x02013;time profiles for compounds of this study; <italic>W</italic><sub>neq</sub> and <italic>F</italic><sub>max</sub><italic>versus</italic> logBB and logPS for different velocities in the case
+of 26 compounds simulated with the GROMOS54a7 force-field; number
+of hydrogen bonds versus time and position and electrostatic interaction
+and vdW interaction energy versus position for the studied compounds;
+and results with different membranes including cholesterol and an
+example of force&#x02013;time profile (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_001.pdf">PDF</ext-link>)</p></list-item><list-item><p>Translocation of mannitol through
+the DOPC membrane
+(cf. <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jcim.9b00834/suppl_file/ci9b00834_si_002.mp4">MP4</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_si_001.pdf"><caption><p>ci9b00834_si_001.pdf</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sifile2"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ci9b00834_si_002.mp4"><caption><p>ci9b00834_si_002.mp4</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes2"><title>Author Contributions</title><p>M.S.L. conceived
+the computer experiment. N.Q.T. conducted the experiment. N.Q.T.,
+P.E.T. and M.S.L. analysed the results. M.S.L., P.E.T., and N.Q.T.
+wrote the paper. All authors reviewed the manuscript.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e1395-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work
+was supported by the Department of Science
+and Technology at Ho Chi Minh city (grant No. 02/2018/D2/HD-KHCNTT),
+Vietnam, and the project B2019.SPD.03. This research has been supported
+by the National Science Centre, Poland, under grant no. 2015/19/B/ST4/02721
+and 2015/19/P/ST3/03541. This project has received funding from the
+European Union&#x02019;s Horizon 2020 research and innovation programme
+under the Marie Sk&#x00142;odowska-Curie Grant Agreement no. 665778.
+The above grants with id 2015/19/P/ST3/03541 and 665778 refer to the
+same POLONEZ 1 grant awarded to the P.E.T. Allocation of CPU time
+at the supercomputer center TASK in Gdansk (Poland) is highly appreciated.
+This research was supported in part by PLGrid Infrastructure.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Pardridge</surname><given-names>W. M.</given-names></name>
+<article-title>Blood-brain
+barrier delivery</article-title>. <source>Drug Discov. Today</source>
+<year>2007</year>, <volume>12</volume>, <fpage>54</fpage>&#x02013;<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1016/j.drudis.2006.10.013</pub-id>.<pub-id pub-id-type="pmid">17198973</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Eyal</surname><given-names>S.</given-names></name>; <name><surname>Hsiao</surname><given-names>P.</given-names></name>; <name><surname>Unadkat</surname><given-names>J. D.</given-names></name>
+<article-title>Drug interactions
+at the blood-brain
+barrier: Fact or fantasy?</article-title>. <source>Pharmacol. &#x00026;
+Ther.</source>
+<year>2009</year>, <volume>123</volume>, <fpage>80</fpage>&#x02013;<lpage>104</lpage>. <pub-id pub-id-type="doi">10.1016/j.pharmthera.2009.03.017</pub-id>.<pub-id pub-id-type="pmid">19393264</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Kumar</surname><given-names>R.</given-names></name>; <name><surname>Sharma</surname><given-names>A.</given-names></name>; <name><surname>Tiwari</surname><given-names>R. K.</given-names></name>
+<article-title>Can we
+Predict Blood Brain Barrier
+Permeability of Ligands using Computational Approaches?</article-title>. <source>Interdiscip. Sci.: Comput. Life Sci.</source>
+<year>2013</year>, <volume>5</volume>, <fpage>95</fpage>&#x02013;<lpage>101</lpage>. <pub-id pub-id-type="doi">10.1007/s12539-013-0158-9</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Zlokovic</surname><given-names>B. V.</given-names></name>
+<article-title>The Blood-Brain
+Barrier in Health and Chronic Neurodegenerative Disorders</article-title>. <source>Neuron</source>
+<year>2008</year>, <volume>57</volume>, <fpage>178</fpage>&#x02013;<lpage>201</lpage>. <pub-id pub-id-type="doi">10.1016/j.neuron.2008.01.003</pub-id>.<pub-id pub-id-type="pmid">18215617</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Theodorakis</surname><given-names>P. E.</given-names></name>; <name><surname>M&#x000fc;ller</surname><given-names>E. A.</given-names></name>; <name><surname>Craster</surname><given-names>R. V.</given-names></name>; <name><surname>Matar</surname><given-names>O. K.</given-names></name>
+<article-title>Physical insights
+into the blood-brain barrier translocation mechanisms</article-title>. <source>Phys. Biol.</source>
+<year>2017</year>, <volume>14</volume>, <fpage>041001</fpage><pub-id pub-id-type="doi">10.1088/1478-3975/aa708a</pub-id>.<pub-id pub-id-type="pmid">28586313</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Carpenter</surname><given-names>T. S.</given-names></name>; <name><surname>Kirshner</surname><given-names>D. A.</given-names></name>; <name><surname>Lau</surname><given-names>E. Y.</given-names></name>; <name><surname>Wong</surname><given-names>S. E.</given-names></name>; <name><surname>Nilmeier</surname><given-names>J. P.</given-names></name>; <name><surname>Lightstone</surname><given-names>F. C.</given-names></name>
+<article-title>A Method
+to Predict Blood-Brain Barrier Permeability
+of Drug-Like Compounds Using Molecular Dynamics Simulations</article-title>. <source>Biophys. J.</source>
+<year>2014</year>, <volume>107</volume>, <fpage>630</fpage>&#x02013;<lpage>641</lpage>. <pub-id pub-id-type="doi">10.1016/j.bpj.2014.06.024</pub-id>.<pub-id pub-id-type="pmid">25099802</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Brasnjevic</surname><given-names>I.</given-names></name>; <name><surname>Steinbusch</surname><given-names>H. W. M.</given-names></name>; <name><surname>Schmitz</surname><given-names>C.</given-names></name>; <name><surname>Martinez-Martinez</surname><given-names>P.</given-names></name>
+<article-title>Delivery of
+peptide and protein drugs over the blood-brain barrier</article-title>. <source>Prog. Neurobiol.</source>
+<year>2009</year>, <volume>87</volume>, <fpage>212</fpage>&#x02013;<lpage>251</lpage>. <pub-id pub-id-type="doi">10.1016/j.pneurobio.2008.12.002</pub-id>.<pub-id pub-id-type="pmid">19395337</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Abraham</surname><given-names>M. H.</given-names></name>; <name><surname>Chadha</surname><given-names>H. S.</given-names></name>; <name><surname>Mitchell</surname><given-names>R. C.</given-names></name>
+<article-title>Hydrogen
+bonding. 33. Factors that
+Influence the Distribution of Solutes between Blood and Brain</article-title>. <source>J. Pharm. Sci.</source>
+<year>1994</year>, <volume>83</volume>, <fpage>1257</fpage>&#x02013;<lpage>1268</lpage>. <pub-id pub-id-type="doi">10.1002/jps.2600830915</pub-id>.<pub-id pub-id-type="pmid">7830242</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Clark</surname><given-names>D. E.</given-names></name>; <name><surname>Doherty</surname><given-names>A.</given-names></name>; <name><surname>Bock</surname><given-names>M.</given-names></name>; <name><surname>Desai</surname><given-names>M.</given-names></name>; <name><surname>Overington</surname><given-names>J.</given-names></name>; <name><surname>Plattner</surname><given-names>J.</given-names></name>; <name><surname>Samford</surname><given-names>A.</given-names></name>; <name><surname>Wustrow</surname><given-names>D.</given-names></name>; <name><surname>Young</surname><given-names>H.</given-names></name>
+<article-title>Computational
+Prediction of Blood-brain Barrier Permeation</article-title>. <source>Annu. Rep. Med. Chem.</source>
+<year>2005</year>, <volume>40</volume>, <fpage>403</fpage><pub-id pub-id-type="doi">10.1016/s0065-7743(05)40026-3</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Lombardo</surname><given-names>F.</given-names></name>; <name><surname>Blake</surname><given-names>J. F.</given-names></name>; <name><surname>Curatolo</surname><given-names>W. J.</given-names></name>
+<article-title>Computation
+of Brain&#x02013;Blood
+Partitioning of Organic Solutes via Free Energy Calculations</article-title>. <source>J. Med. Chem.</source>
+<year>1996</year>, <volume>39</volume>, <fpage>4750</fpage>&#x02013;<lpage>4755</lpage>. <pub-id pub-id-type="doi">10.1021/jm960163r</pub-id>.<pub-id pub-id-type="pmid">8941388</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Lee</surname><given-names>C. T.</given-names></name>; <name><surname>Comer</surname><given-names>J.</given-names></name>; <name><surname>Herndon</surname><given-names>C.</given-names></name>; <name><surname>Leung</surname><given-names>N.</given-names></name>; <name><surname>Pavlova</surname><given-names>A.</given-names></name>; <name><surname>Swift</surname><given-names>R. V.</given-names></name>; <name><surname>Tung</surname><given-names>C.</given-names></name>; <name><surname>Rowley</surname><given-names>C. N.</given-names></name>; <name><surname>Amaro</surname><given-names>R. E.</given-names></name>; <name><surname>Chipot</surname><given-names>C.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Gumbart</surname><given-names>J. C.</given-names></name>
+<article-title>Simulation-based
+Approaches for Determining Membrane Permeability of Small Compounds</article-title>. <source>J. Chem. Inf. Model.</source>
+<year>2016</year>, <volume>56</volume>, <fpage>721</fpage>&#x02013;<lpage>733</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jcim.6b00022</pub-id>.<pub-id pub-id-type="pmid">27043429</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Tsinman</surname><given-names>O.</given-names></name>; <name><surname>Tsinman</surname><given-names>K.</given-names></name>; <name><surname>Sun</surname><given-names>N.</given-names></name>; <name><surname>Avdeef</surname><given-names>A.</given-names></name>
+<article-title>Physicochemical Selectivity
+of the BBB Microenvironment Governing Passive Diffusion-matching with
+a Porcine Brain Lipid Extract Artificial Membrane Permeability Model</article-title>. <source>Pharm. Res.</source>
+<year>2011</year>, <volume>28</volume>, <fpage>337</fpage>&#x02013;<lpage>363</lpage>. <pub-id pub-id-type="doi">10.1007/s11095-010-0280-x</pub-id>.<pub-id pub-id-type="pmid">20945153</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Smith</surname><given-names>QR</given-names></name>
+<article-title>A review of
+blood-brain barrier transport techniques</article-title>. <source>Methods
+Mol. Med.</source>
+<year>2003</year>, <volume>89</volume>, <fpage>193</fpage>&#x02013;<lpage>208</lpage>.<pub-id pub-id-type="pmid">12958421</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Gumbleton</surname><given-names>M.</given-names></name>; <name><surname>Audus</surname><given-names>K. L.</given-names></name>
+<article-title>Progress
+and limitations in the use of in vitro cell
+cultures to serve as a permeability screen for the blood-brain barrier</article-title>. <source>J. Pharm. Sci.</source>
+<year>2001</year>, <volume>90</volume>, <fpage>1681</fpage>&#x02013;<lpage>1698</lpage>. <pub-id pub-id-type="doi">10.1002/jps.1119</pub-id>.<pub-id pub-id-type="pmid">11745727</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Norinder</surname><given-names>U.</given-names></name>; <name><surname>Haeberlein</surname><given-names>M.</given-names></name>
+<article-title>Computational
+approaches to the prediction of the blood-brain
+distribution</article-title>. <source>Adv. Drug Deliv. Rev.</source>
+<year>2002</year>, <volume>54</volume>, <fpage>291</fpage>&#x02013;<lpage>313</lpage>. <pub-id pub-id-type="doi">10.1016/s0169-409x(02)00005-4</pub-id>.<pub-id pub-id-type="pmid">11922949</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Wolak</surname><given-names>D. J.</given-names></name>; <name><surname>Thorne</surname><given-names>R. G.</given-names></name>
+<article-title>Diffusion of Macromolecules in the
+Brain: Implications
+for Drug Delivery</article-title>. <source>Mol. Pharm.</source>
+<year>2013</year>, <volume>10</volume>, <fpage>1492</fpage><pub-id pub-id-type="doi">10.1021/mp300495e</pub-id>.<pub-id pub-id-type="pmid">23298378</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Mouritsen</surname><given-names>O. G.</given-names></name>; <name><surname>J&#x000f8;rgensen</surname><given-names>K.</given-names></name>
+<article-title>A New Look at Lipid-membrane Structure in Relation
+to Drug Research</article-title>. <source>Pharm. Res.</source>
+<year>1998</year>, <volume>15</volume>, <fpage>1507</fpage>&#x02013;<lpage>1519</lpage>. <pub-id pub-id-type="doi">10.1023/a:1011986613392</pub-id>.<pub-id pub-id-type="pmid">9794491</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Young</surname><given-names>R. C.</given-names></name>; <name><surname>Mitchell</surname><given-names>R. C.</given-names></name>; <name><surname>Brown</surname><given-names>T. H.</given-names></name>; <name><surname>Ganellin</surname><given-names>C. R.</given-names></name>; <name><surname>Griffiths</surname><given-names>R.</given-names></name>; <name><surname>Jones</surname><given-names>M.</given-names></name>; <name><surname>Rana</surname><given-names>K. K.</given-names></name>; <name><surname>Saunders</surname><given-names>D.</given-names></name>; <name><surname>Smith</surname><given-names>I. R.</given-names></name>; <name><surname>Sore</surname><given-names>N.</given-names></name>
+<article-title>Development of a new physicochemical
+model for brain penetration
+and its application to the design of centrally acting H2 receptor
+histamine antagonists</article-title>. <source>J. Med. Chem.</source>
+<year>1988</year>, <volume>31</volume>, <fpage>656</fpage>&#x02013;<lpage>671</lpage>. <pub-id pub-id-type="doi">10.1021/jm00398a028</pub-id>.<pub-id pub-id-type="pmid">2894467</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Subramanian</surname><given-names>G.</given-names></name>; <name><surname>Kitchen</surname><given-names>D. B.</given-names></name>
+<article-title>Computational models to predict blood-brain
+barrier
+permeation and CNS activity</article-title>. <source>J. Comput. Aid.
+Mol. Des.</source>
+<year>2003</year>, <volume>17</volume>, <fpage>643</fpage>&#x02013;<lpage>664</lpage>. <pub-id pub-id-type="doi">10.1023/b:jcam.0000017372.32162.37</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Abraham</surname><given-names>M.</given-names></name>; <name><surname>Chadha</surname><given-names>H.</given-names></name>; <name><surname>Mitchell</surname><given-names>R.</given-names></name>
+<article-title>Hydrogen-bonding.
+Part 36. Determination
+of blood brain distribution using octanol-water partition coefficients</article-title>. <source>Drug Des. Discov.</source>
+<year>1995</year>, <volume>13</volume>, <fpage>123</fpage>&#x02013;<lpage>31</lpage>.<pub-id pub-id-type="pmid">8872456</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Hemmateenejad</surname><given-names>B.</given-names></name>; <name><surname>Miri</surname><given-names>R.</given-names></name>; <name><surname>Safarpour</surname><given-names>M. A.</given-names></name>; <name><surname>Mehdipour</surname><given-names>A. R.</given-names></name>
+<article-title>Accurate
+prediction of the blood-brain partitioning of a large set of solutes
+usingab initiocalculations and genetic neural network modeling</article-title>. <source>J. Comput. Chem.</source>
+<year>2006</year>, <volume>27</volume>, <fpage>1125</fpage>&#x02013;<lpage>1135</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.20437</pub-id>.<pub-id pub-id-type="pmid">16721721</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Bolton</surname><given-names>E.
+E.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Thiessen</surname><given-names>P. A.</given-names></name>; <name><surname>Bryant</surname><given-names>S. H.</given-names></name>
+<article-title>PubChem: Integrated
+Platform of Small Molecules and Biological Activities</article-title>. <source>Annu. Rep. Comput. Chem.</source>
+<year>2008</year>, <volume>4</volume>, <fpage>217</fpage>&#x02013;<lpage>241</lpage>. <pub-id pub-id-type="doi">10.1016/s1574-1400(08)00012-1</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="computer-program" id="cit23"><source>PubChem</source>, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pubchem.ncbi.nlm.nih.gov">http://pubchem.ncbi.nlm.nih.gov</uri>, July 31, <year>2019</year>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Doma&#x00144;ski</surname><given-names>J.</given-names></name>; <name><surname>Stansfeld</surname><given-names>P. J.</given-names></name>; <name><surname>Sansom</surname><given-names>M. S.</given-names></name>; <name><surname>Beckstein</surname><given-names>O.</given-names></name>
+<article-title>Lipidbook:
+A Public Repository for Force-Field Parameters used in Membrane Simulations</article-title>. <source>J. Membr. Biol.</source>
+<year>2010</year>, <volume>236</volume>, <fpage>255</fpage>&#x02013;<lpage>258</lpage>. <pub-id pub-id-type="doi">10.1007/s00232-010-9296-8</pub-id>.<pub-id pub-id-type="pmid">20700585</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Siu</surname><given-names>S. W. I.</given-names></name>; <name><surname>V&#x000e1;cha</surname><given-names>R.</given-names></name>; <name><surname>Jungwirth</surname><given-names>P.</given-names></name>; <name><surname>B&#x000f6;ckmann</surname><given-names>R. A.</given-names></name>
+<article-title>Biomolecular
+Simulations of Membranes: Physical Properties from Different Force
+Fields</article-title>. <source>J. Chem. Phys.</source>
+<year>2008</year>, <volume>128</volume>, <fpage>125103</fpage><pub-id pub-id-type="doi">10.1063/1.2897760</pub-id>.<pub-id pub-id-type="pmid">18376978</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Berger</surname><given-names>O.</given-names></name>; <name><surname>Edholm</surname><given-names>O.</given-names></name>; <name><surname>J&#x000e4;hnig</surname><given-names>F.</given-names></name>
+<article-title>Molecular
+Dynamics Simulations of
+a Fluid Bilayer of Dipalmitoylphosphatidylcholine at Full Hydration,
+Constant Pressure, and Constant Temperature</article-title>. <source>Biophys. J.</source>
+<year>1997</year>, <volume>72</volume>, <fpage>2002</fpage>&#x02013;<lpage>2013</lpage>. <pub-id pub-id-type="doi">10.1016/s0006-3495(97)78845-3</pub-id>.<pub-id pub-id-type="pmid">9129804</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Oostenbrink</surname><given-names>C.</given-names></name>; <name><surname>Villa</surname><given-names>A.</given-names></name>; <name><surname>Mark</surname><given-names>A. E.</given-names></name>; <name><surname>van Gunsteren</surname><given-names>W. F.</given-names></name>
+<article-title>A Biomolecular
+Force Field Based on the Free Enthalpy of Hydration and Solvation:
+the GROMOS Force-field Parameter Sets 53A5 and 53A6</article-title>. <source>J. Comput. Chem.</source>
+<year>2004</year>, <volume>25</volume>, <fpage>1656</fpage>&#x02013;<lpage>1676</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.20090</pub-id>.<pub-id pub-id-type="pmid">15264259</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Klauda</surname><given-names>J.
+B.</given-names></name>; <name><surname>Venable</surname><given-names>R. M.</given-names></name>; <name><surname>Freites</surname><given-names>J. A.</given-names></name>; <name><surname>O&#x02019;Connor</surname><given-names>J. W.</given-names></name>; <name><surname>Tobias</surname><given-names>D. J.</given-names></name>; <name><surname>Mondragon-Ramirez</surname><given-names>C.</given-names></name>; <name><surname>Vorobyov</surname><given-names>I.</given-names></name>; <name><surname>MacKerell</surname><given-names>A. D.</given-names><suffix>Jr</suffix></name>; <name><surname>Pastor</surname><given-names>R. W.</given-names></name>
+<article-title>Update
+of the CHARMM All-atom Additive
+Force Field for Lipids: Validation on Six Lipid Types</article-title>. <source>J. Phys. Chem. B</source>
+<year>2010</year>, <volume>114</volume>, <fpage>7830</fpage>&#x02013;<lpage>7843</lpage>. <pub-id pub-id-type="doi">10.1021/jp101759q</pub-id>.<pub-id pub-id-type="pmid">20496934</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Venable</surname><given-names>R.
+M.</given-names></name>; <name><surname>Sodt</surname><given-names>A. J.</given-names></name>; <name><surname>Rogaski</surname><given-names>B.</given-names></name>; <name><surname>Rui</surname><given-names>H.</given-names></name>; <name><surname>Hatcher</surname><given-names>E.</given-names></name>; <name><surname>MacKerell</surname><given-names>A. D.</given-names><suffix>Jr</suffix></name>; <name><surname>Pastor</surname><given-names>R. W.</given-names></name>; <name><surname>Klauda</surname><given-names>J. B.</given-names></name>
+<article-title>CHARMM
+All-atom Additive Force Field for Sphingomyelin: Elucidation of Hydrogen
+Bonding and of Positive Curvature</article-title>. <source>Biophys.
+J.</source>
+<year>2014</year>, <volume>107</volume>, <fpage>134</fpage>&#x02013;<lpage>145</lpage>. <pub-id pub-id-type="doi">10.1016/j.bpj.2014.05.034</pub-id>.<pub-id pub-id-type="pmid">24988348</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Jo</surname><given-names>S.</given-names></name>; <name><surname>Lim</surname><given-names>J. B.</given-names></name>; <name><surname>Klauda</surname><given-names>J. B.</given-names></name>; <name><surname>Im</surname><given-names>W.</given-names></name>
+<article-title>CHARMM-GUI Membrane
+Builder for Mixed Bilayers and its Application to Yeast Membranes</article-title>. <source>Biophys. J.</source>
+<year>2009</year>, <volume>97</volume>, <fpage>50</fpage>&#x02013;<lpage>58</lpage>. <pub-id pub-id-type="doi">10.1016/j.bpj.2009.04.013</pub-id>.<pub-id pub-id-type="pmid">19580743</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Jo</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>T.</given-names></name>; <name><surname>Iyer</surname><given-names>V. G.</given-names></name>; <name><surname>Im</surname><given-names>W.</given-names></name>
+<article-title>CHARMM-GUI: A web-based graphical
+user interface for CHARMM</article-title>. <source>J. Comput. Chem.</source>
+<year>2008</year>, <volume>29</volume>, <fpage>1859</fpage>&#x02013;<lpage>1865</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.20945</pub-id>.<pub-id pub-id-type="pmid">18351591</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Jo</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>T.</given-names></name>; <name><surname>Im</surname><given-names>W.</given-names></name>
+<article-title>Automated Builder and Database of Protein/Membrane
+Complexes for Molecular Dynamics Simulations</article-title>. <source>PloS One</source>
+<year>2007</year>, <volume>2</volume>, <elocation-id>e880</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0000880</pub-id>.<pub-id pub-id-type="pmid">17849009</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Lee</surname><given-names>J.</given-names></name>; <name><surname>Cheng</surname><given-names>X.</given-names></name>; <name><surname>Swails</surname><given-names>J. M.</given-names></name>; <name><surname>Yeom</surname><given-names>M. S.</given-names></name>; <name><surname>Eastman</surname><given-names>P. K.</given-names></name>; <name><surname>Lemkul</surname><given-names>J. A.</given-names></name>; <name><surname>Wei</surname><given-names>S.</given-names></name>; <name><surname>Buckner</surname><given-names>J.</given-names></name>; <name><surname>Jeong</surname><given-names>J. C.</given-names></name>; <name><surname>Qi</surname><given-names>Y.</given-names></name>; <name><surname>Jo</surname><given-names>S.</given-names></name>; <name><surname>Pande</surname><given-names>V. S.</given-names></name>; <name><surname>Case</surname><given-names>D. A.</given-names></name>; <name><surname>Brooks</surname><given-names>C. L.</given-names></name>; <name><surname>MacKerell</surname><given-names>A. D.</given-names></name>; <name><surname>Klauda</surname><given-names>J. B.</given-names></name>; <name><surname>Im</surname><given-names>W.</given-names></name>
+<article-title>CHARMM-GUI Input Generator
+for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations using
+the CHARMM36 Additive Force Field</article-title>. <source>J. Chemical
+Theory Comput.</source>
+<year>2015</year>, <volume>12</volume>, <fpage>405</fpage>&#x02013;<lpage>413</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.5b00935</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Malde</surname><given-names>A. K.</given-names></name>; <name><surname>Zuo</surname><given-names>L.</given-names></name>; <name><surname>Breeze</surname><given-names>M.</given-names></name>; <name><surname>Stroet</surname><given-names>M.</given-names></name>; <name><surname>Poger</surname><given-names>D.</given-names></name>; <name><surname>Nair</surname><given-names>P. C.</given-names></name>; <name><surname>Oostenbrink</surname><given-names>C.</given-names></name>; <name><surname>Mark</surname><given-names>A. E.</given-names></name>
+<article-title>An Automated Force Field Topology
+Builder (ATB) and Repository: Version 1.0</article-title>. <source>J.
+Chemical Theory Comput.</source>
+<year>2011</year>, <volume>7</volume>, <fpage>4026</fpage>&#x02013;<lpage>4037</lpage>. <pub-id pub-id-type="doi">10.1021/ct200196m</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="weblink" id="cit35"><person-group person-group-type="allauthors"><collab>Automated Topology Builder</collab></person-group>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://compbio.chemistry.uq.edu.au/atb/">http://compbio.chemistry.uq.edu.au/atb/</uri>, accessed July 31, <year>2019</year>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Canzar</surname><given-names>S.</given-names></name>; <name><surname>El-Kebir</surname><given-names>M.</given-names></name>; <name><surname>Pool</surname><given-names>R.</given-names></name>; <name><surname>Elbassioni</surname><given-names>K.</given-names></name>; <name><surname>Malde</surname><given-names>A. K.</given-names></name>; <name><surname>Mark</surname><given-names>A. E.</given-names></name>; <name><surname>Geerke</surname><given-names>D. P.</given-names></name>; <name><surname>Stougie</surname><given-names>L.</given-names></name>; <name><surname>Klau</surname><given-names>G. W.</given-names></name>
+<article-title>Charge Group Partitioning in Biomolecular
+Simulation</article-title>. <source>J. Comput. Biol.</source>
+<year>2013</year>, <volume>20</volume>, <fpage>188</fpage>&#x02013;<lpage>198</lpage>. <pub-id pub-id-type="doi">10.1089/cmb.2012.0239</pub-id>.<pub-id pub-id-type="pmid">23461571</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Koziara</surname><given-names>K. B.</given-names></name>; <name><surname>Stroet</surname><given-names>M.</given-names></name>; <name><surname>Malde</surname><given-names>A. K.</given-names></name>; <name><surname>Mark</surname><given-names>A. E.</given-names></name>
+<article-title>Testing and Validation
+of the Automated Topology Builder (ATB) Version 2.0: Prediction of
+Hydration Free Enthalpies</article-title>. <source>J. Comput. Aid. Mol.
+Des.</source>
+<year>2014</year>, <volume>28</volume>, <fpage>221</fpage>&#x02013;<lpage>233</lpage>. <pub-id pub-id-type="doi">10.1007/s10822-014-9713-7</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Zoete</surname><given-names>V.</given-names></name>; <name><surname>Cuendet</surname><given-names>M. A.</given-names></name>; <name><surname>Grosdidier</surname><given-names>A.</given-names></name>; <name><surname>Michielin</surname><given-names>O.</given-names></name>
+<article-title>SwissParam:
+A Fast Force Field Generation Tool for Small Organic Molecules</article-title>. <source>J. Comput. Chem.</source>
+<year>2011</year>, <volume>32</volume>, <fpage>2359</fpage>&#x02013;<lpage>2368</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.21816</pub-id>.<pub-id pub-id-type="pmid">21541964</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Becke</surname><given-names>A. D.</given-names></name>
+<article-title>Density-functional
+thermochemistry. III. The role of exact exchange</article-title>. <source>J. Chem. Phys.</source>
+<year>1993</year>, <volume>98</volume>, <fpage>5648</fpage>&#x02013;<lpage>5652</lpage>. <pub-id pub-id-type="doi">10.1063/1.464913</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Lee</surname><given-names>C.</given-names></name>; <name><surname>Yang</surname><given-names>W.</given-names></name>; <name><surname>Parr</surname><given-names>R. G.</given-names></name>
+<article-title>Development
+of the Colle-Salvetti
+Correlation-energy Formula into a Functional of the Electron Density</article-title>. <source>Phys. Rev. B</source>
+<year>1988</year>, <volume>37</volume>, <fpage>785</fpage><pub-id pub-id-type="doi">10.1103/physrevb.37.785</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>
+<article-title>Accurate and Simple
+Analytic Representation of the Electron-gas Correlation
+Energy</article-title>. <source>Phys. Rev. B</source>
+<year>1992</year>, <volume>45</volume>, <fpage>13244</fpage><pub-id pub-id-type="doi">10.1103/physrevb.45.13244</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Singh</surname><given-names>U. C.</given-names></name>; <name><surname>Kollman</surname><given-names>P. A.</given-names></name>
+<article-title>An Approach to Computing Electrostatic Charges for
+Molecules</article-title>. <source>J. Comput. Chem.</source>
+<year>1984</year>, <volume>5</volume>, <fpage>129</fpage>&#x02013;<lpage>145</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.540050204</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="book" id="cit43"><person-group person-group-type="allauthors"><name><surname>Berendsen</surname><given-names>H. J. C.</given-names></name>; <name><surname>Postma</surname><given-names>J. P. M.</given-names></name>; <name><surname>van Gunsteren</surname><given-names>W. F.</given-names></name>; <name><surname>Hermans</surname><given-names>J.</given-names></name></person-group><article-title>Interaction
+Models for Water in Relation to Protein Hydration</article-title>.
+In <source>Intermolecular Forces</source>; <person-group person-group-type="editor"><name><surname>Reidel</surname><given-names>D.</given-names></name></person-group>, Ed.; <publisher-name>Springer</publisher-name>: <publisher-loc>Dordrecht, The Netherlands</publisher-loc>, <year>1981</year>; pp <fpage>331</fpage>&#x02013;<lpage>342</lpage>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Suan
+Li</surname><given-names>M.</given-names></name>; <name><surname>Khanh Mai</surname><given-names>B.</given-names></name>
+<article-title>Steered Molecular Dynamics-A Promising Tool for Drug
+Design</article-title>. <source>Curr. Bioinform.</source>
+<year>2012</year>, <volume>7</volume>, <fpage>342</fpage>&#x02013;<lpage>351</lpage>. <pub-id pub-id-type="doi">10.2174/157489312803901009</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Gibson</surname><given-names>C. T.</given-names></name>; <name><surname>Carnally</surname><given-names>S.</given-names></name>; <name><surname>Roberts</surname><given-names>C. J.</given-names></name>
+<article-title>Attachment of Carbon
+Nanotubes to
+Atomic Force Microscope Probes</article-title>. <source>Ultramicroscopy</source>
+<year>2007</year>, <volume>107</volume>, <fpage>1118</fpage>&#x02013;<lpage>1122</lpage>. <pub-id pub-id-type="doi">10.1016/j.ultramic.2007.02.045</pub-id>.<pub-id pub-id-type="pmid">17644251</pub-id></mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Mai</surname><given-names>B. K.</given-names></name>; <name><surname>Viet</surname><given-names>M. H.</given-names></name>; <name><surname>Li</surname><given-names>M. S.</given-names></name>
+<article-title>Top Leads
+for Swine Influenza A/H1N1
+Virus Revealed by Steered Molecular Dynamics Approach</article-title>. <source>J. Chem. Inf. Model.</source>
+<year>2010</year>, <volume>50</volume>, <fpage>2236</fpage>&#x02013;<lpage>2247</lpage>. <pub-id pub-id-type="doi">10.1021/ci100346s</pub-id>.<pub-id pub-id-type="pmid">21090736</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Mai</surname><given-names>B. K.</given-names></name>; <name><surname>Li</surname><given-names>M. S.</given-names></name>
+<article-title>Neuraminidase inhibitor
+R-125489 - A promising drug for treating
+influenza virus: Steered molecular dynamics approach</article-title>. <source>Biochem. Biophys. Res. Commun.</source>
+<year>2011</year>, <volume>410</volume>, <fpage>688</fpage>&#x02013;<lpage>691</lpage>. <pub-id pub-id-type="doi">10.1016/j.bbrc.2011.06.057</pub-id>.<pub-id pub-id-type="pmid">21693105</pub-id></mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Vuong</surname><given-names>Q. V.</given-names></name>; <name><surname>Nguyen</surname><given-names>T. T.</given-names></name>; <name><surname>Li</surname><given-names>M. S.</given-names></name>
+<article-title>A New Method for
+Navigating Optimal
+Direction for Pulling Ligand from Binding Pocket: Application to Ranking
+Binding Affinity by Steered Molecular Dynamics</article-title>. <source>J. Chem. Inf. Model.</source>
+<year>2015</year>, <volume>55</volume>, <fpage>2731</fpage>&#x02013;<lpage>2738</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jcim.5b00386</pub-id>.<pub-id pub-id-type="pmid">26595261</pub-id></mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Hess</surname><given-names>B.</given-names></name>; <name><surname>Bekker</surname><given-names>H.</given-names></name>; <name><surname>Berendsen</surname><given-names>H. J. C.</given-names></name>; <name><surname>Fraaije</surname><given-names>J. G. E. M.</given-names></name>
+<article-title>LINCS: A Linear
+Constraint Solver for Molecular Simulations</article-title>. <source>J. Comput. Chem.</source>
+<year>1997</year>, <volume>18</volume>, <fpage>1463</fpage>&#x02013;<lpage>1472</lpage>. <pub-id pub-id-type="doi">10.1002/(sici)1096-987x(199709)18:12&#x0003c;1463::aid-jcc4&#x0003e;3.0.co;2-h</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Brooks</surname><given-names>B. R.</given-names></name>; <name><surname>Brooks</surname><given-names>C. L.</given-names><suffix>III</suffix></name>; <name><surname>Mackerell</surname><given-names>A. D.</given-names><suffix>Jr</suffix></name>; <name><surname>Nilsson</surname><given-names>L.</given-names></name>; <name><surname>Petrella</surname><given-names>R. J.</given-names></name>; <name><surname>Roux</surname><given-names>B.</given-names></name>; <name><surname>Won</surname><given-names>Y.</given-names></name>; <name><surname>Archontis</surname><given-names>G.</given-names></name>; <name><surname>Bartels</surname><given-names>C.</given-names></name>; <name><surname>Boresch</surname><given-names>S.</given-names></name>; <name><surname>Caflisch</surname><given-names>A.</given-names></name>; <name><surname>Caves</surname><given-names>L.</given-names></name>; <name><surname>Cui</surname><given-names>Q.</given-names></name>; <name><surname>Dinner</surname><given-names>A. R.</given-names></name>; <name><surname>Feig</surname><given-names>M.</given-names></name>; <name><surname>Fischer</surname><given-names>S.</given-names></name>; <name><surname>Gao</surname><given-names>J.</given-names></name>; <name><surname>Hodoscek</surname><given-names>M.</given-names></name>; <name><surname>Im</surname><given-names>W.</given-names></name>; <name><surname>Kuczera</surname><given-names>K.</given-names></name>; <name><surname>Lazaridis</surname><given-names>T.</given-names></name>; <name><surname>Ma</surname><given-names>J.</given-names></name>; <name><surname>Ovchinnikov</surname><given-names>V.</given-names></name>; <name><surname>Paci</surname><given-names>E.</given-names></name>; <name><surname>Pastor</surname><given-names>R. W.</given-names></name>; <name><surname>Post</surname><given-names>C. B.</given-names></name>; <name><surname>Pu</surname><given-names>J. Z.</given-names></name>; <name><surname>Schaefer</surname><given-names>M.</given-names></name>; <name><surname>Tidor</surname><given-names>B.</given-names></name>; <name><surname>Venable</surname><given-names>R. M.</given-names></name>; <name><surname>Woodcock</surname><given-names>H. L.</given-names></name>; <name><surname>Wu</surname><given-names>X.</given-names></name>; <name><surname>Yang</surname><given-names>W.</given-names></name>; <name><surname>York</surname><given-names>D. M.</given-names></name>; <name><surname>Karplus</surname><given-names>M.</given-names></name>
+<article-title>CHARMM: The Biomolecular
+Simulation Program</article-title>. <source>J. Comput. Chem.</source>
+<year>2009</year>, <volume>30</volume>, <fpage>1545</fpage>&#x02013;<lpage>1614</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.21287</pub-id>.<pub-id pub-id-type="pmid">19444816</pub-id></mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Hitchcock</surname><given-names>S. A.</given-names></name>; <name><surname>Pennington</surname><given-names>L. D.</given-names></name>
+<article-title>Structure&#x02013;Brain Relationships</article-title>. <source>J. Med. Chem.</source>
+<year>2006</year>, <volume>49</volume>, <fpage>7559</fpage>&#x02013;<lpage>7583</lpage>. <pub-id pub-id-type="doi">10.1021/jm060642i</pub-id>.<pub-id pub-id-type="pmid">17181137</pub-id></mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Pluhackova</surname><given-names>K.</given-names></name>; <name><surname>Kirsch</surname><given-names>S. A.</given-names></name>; <name><surname>Han</surname><given-names>J.</given-names></name>; <name><surname>Sun</surname><given-names>L.</given-names></name>; <name><surname>Jiang</surname><given-names>Z.</given-names></name>; <name><surname>Unruh</surname><given-names>T.</given-names></name>; <name><surname>B&#x000f6;ckmann</surname><given-names>R. A.</given-names></name>
+<article-title>A Critical
+Comparison of Biomembrane
+Force Fields: Structure and Dynamics of Model DMPC, POPC, and POPE
+Bilayers</article-title>. <source>J. Phys. Chem. B</source>
+<year>2016</year>, <volume>120</volume>, <fpage>3888</fpage>&#x02013;<lpage>3903</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcb.6b01870</pub-id>.<pub-id pub-id-type="pmid">27035634</pub-id></mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Piggot</surname><given-names>T. J.</given-names></name>; <name><surname>Pi&#x000f1;eiro</surname><given-names>&#x000c1;.</given-names></name>; <name><surname>Khalid</surname><given-names>S.</given-names></name>
+<article-title>Molecular Dynamics
+Simulations of Phosphatidylcholine Membranes: A Comparative Force
+Field Study</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2012</year>, <volume>8</volume>, <fpage>4593</fpage>&#x02013;<lpage>4609</lpage>. <pub-id pub-id-type="doi">10.1021/ct3003157</pub-id>.<pub-id pub-id-type="pmid">26605617</pub-id></mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>MacCallum</surname><given-names>J. L.</given-names></name>; <name><surname>Bennett</surname><given-names>W. F. D.</given-names></name>; <name><surname>Tieleman</surname><given-names>D. P.</given-names></name>
+<article-title>Distribution of Amino Acids in a
+Lipid Bilayer from Computer Simulations</article-title>. <source>Biophys.
+J.</source>
+<year>2008</year>, <volume>94</volume>, <fpage>3393</fpage>&#x02013;<lpage>3404</lpage>. <pub-id pub-id-type="doi">10.1529/biophysj.107.112805</pub-id>.<pub-id pub-id-type="pmid">18212019</pub-id></mixed-citation></ref></ref-list></back></article>

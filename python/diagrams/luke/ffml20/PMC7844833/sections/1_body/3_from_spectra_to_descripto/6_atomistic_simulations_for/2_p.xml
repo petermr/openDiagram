@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As discussed in 
+ <xref rid="sec2.3" ref-type="other">Section 
+  <xref rid="sec2.3" ref-type="other">2.3</xref>
+ </xref>, the large number of fitting variables, the strong correlations between them, and the nonlinear nature of the EXAFS equation can make EXAFS data fitting challenging in many cases, especially when contributions beyond the first coordination shell or very disordered materials are considered. At the same time, while this “inverse” problem is challenging, direct calculations of EXAFS spectra for an arbitrary complicated structure can be carried out easily and quickly by relying on 
+ <xref rid="eq6" ref-type="disp-formula">eqs 
+  <xref rid="eq6" ref-type="disp-formula">6</xref>
+ </xref> and 
+ <xref rid="eq8" ref-type="disp-formula">8</xref>. Therefore, a viable alternative to EXAFS data fitting is to compare experimental spectra with theoretical spectra calculated for a given candidate structure. A good agreement between the experimental and theoretical spectra would then indicate a similarity between the simulated and experimentally probed structures. The recent impressive progress in the accuracy of 
+ <italic>ab initio</italic> simulations (e.g., within the DFT formalism) of catalysts structure
+ <sup>
+  <xref ref-type="bibr" rid="ref167">167</xref>,
+  <xref ref-type="bibr" rid="ref205">205</xref>,
+  <xref ref-type="bibr" rid="ref206">206</xref>
+ </sup> makes this approach attractive for the interpretation of EXAFS spectra. Note here, however, that the EXAFS spectra are sensitive to atomic displacements due to thermal motion. Therefore, such thermal vibrations need to be included in the theoretical models used to generate spectra for comparison with experimental measurements. Molecular dynamics (MD)
+ <sup>
+  <xref ref-type="bibr" rid="ref167">167</xref>,
+  <xref ref-type="bibr" rid="ref173">173</xref>,
+  <xref ref-type="bibr" rid="ref181">181</xref>,
+  <xref ref-type="bibr" rid="ref207">207</xref>−
+  <xref ref-type="bibr" rid="ref209">209</xref>
+ </sup> simulations or Monte Carlo sampling
+ <sup>
+  <xref ref-type="bibr" rid="ref210">210</xref>−
+  <xref ref-type="bibr" rid="ref213">213</xref>
+ </sup> can be used for this purpose. The interatomic forces required for such simulations
+ <sup>
+  <xref ref-type="bibr" rid="ref167">167</xref>,
+  <xref ref-type="bibr" rid="ref173">173</xref>
+ </sup> can be calculated either 
+ <italic>ab initio</italic> or based on empirical potential models.
+ <sup>
+  <xref ref-type="bibr" rid="ref181">181</xref>,
+  <xref ref-type="bibr" rid="ref207">207</xref>−
+  <xref ref-type="bibr" rid="ref209">209</xref>
+ </sup> A good agreement between time-averaged EXAFS spectra generated for MD structures has been demonstrated for bulk metals and alloys,
+ <sup>
+  <xref ref-type="bibr" rid="ref25">25</xref>,
+  <xref ref-type="bibr" rid="ref147">147</xref>,
+  <xref ref-type="bibr" rid="ref208">208</xref>,
+  <xref ref-type="bibr" rid="ref214">214</xref>
+ </sup> nonmetallic bulk materials,
+ <sup>
+  <xref ref-type="bibr" rid="ref25">25</xref>,
+  <xref ref-type="bibr" rid="ref215">215</xref>−
+  <xref ref-type="bibr" rid="ref218">218</xref>
+ </sup> metal ion solutions in water and ionic liquids,
+ <sup>
+  <xref ref-type="bibr" rid="ref219">219</xref>−
+  <xref ref-type="bibr" rid="ref222">222</xref>
+ </sup> as well as for well-defined metal and oxide nanoparticles.
+ <sup>
+  <xref ref-type="bibr" rid="ref147">147</xref>,
+  <xref ref-type="bibr" rid="ref174">174</xref>,
+  <xref ref-type="bibr" rid="ref181">181</xref>,
+  <xref ref-type="bibr" rid="ref209">209</xref>,
+  <xref ref-type="bibr" rid="ref223">223</xref>−
+  <xref ref-type="bibr" rid="ref226">226</xref>
+ </sup>
+</p>

@@ -1,0 +1,6 @@
+0: Vibrational frequencies were calculated using ChemShell, with a task-farmed finite-difference approach, 40 allowing us to confirm that geometries correspond to local minima.
+1: 54, 55 For the vibrational frequency calculations, the adsorbate, active site and second neighbouring framework atoms were displaced; comparison of this approximation against the displacement of all atoms in the QM region shows no differences, as previously reported.
+2: 56 Because our simulations aimed to calculate mainly vibrational frequencies of the CH 3 group, a scaling factor for the computed vibrational frequencies was calculated using data for the CH 3 asymmetric stretch of methanol at 93 K, which is the lowest experimental temperature reported.
+3: 57 The resulting scaling factors of 0.9306 and 0.9553 were used for normal and deuterated methanol, respectively.
+4: The scaling factors are well within the range previously employed of between 0.9 and 0.9614.
+5: 58 61

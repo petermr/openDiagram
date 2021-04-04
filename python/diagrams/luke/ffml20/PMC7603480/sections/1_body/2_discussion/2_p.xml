@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par39">We note that the extensive and intensive kernels used herein are merely interesting representatives of a wider range of possible models. Fundamentally, the observed differences in performance between the AE and RE prediction reflect that not all concepts established for the ML-based exploration of chemical compound space can be carried over to reaction space. Multiple methodological developments are required to establish reliable protocols, for example with respect to the weighting of molecules in the loss function of the ML model. If the topology of the reaction network of interest is known, these weights could for example be selected according to the connectivity of the molecule in the network (as shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>). Alternatively, weighting by size (or molecular weight) would likely be a useful heuristic to avoid the problems observed for the extensive kernel.
+</p>

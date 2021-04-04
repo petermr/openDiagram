@@ -1,0 +1,6 @@
+0: We have used a lipid bilayer with POPC lipids (2-oleoyl-1-pamlitoyl- sn-glyecro-3-phosphocholine) in addition to DOPC in order to assess the effect of the membrane composition on our conclusions regarding the translocation ability of the compounds.
+1: The model for POPC is also based on the CHARMM36 force-field and consists of 128 POPC molecules.
+2: As in the case of the DOPC, the membrane topology for the POPC membrane model was created by using the CHARMM-GUI server, 31,  33,  50 while the topology and the parameters for small compounds were obtained by the SwissParam server, 38 which is compatible with the CHARMM36 all-atom force-field.
+3: Also, a DOPC membrane model with cholesterol was studied with a DOPC/cholesterol ratio of 2:1 and using the CHARMM force-field.
+4: Finally, the simple point charge water model was used in the case of the GROMOS54a7 force-field, while the TIP3P water model was employed in the case of the CHARMM36 force-field.
+5: 43

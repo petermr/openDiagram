@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The Flory–Huggins polymer–solvent interaction parameter (χ) was calculated with Equation (5) [
+ <xref rid="B32-polymers-12-01544" ref-type="bibr">32</xref>]:
+ <disp-formula id="FD5-polymers-12-01544">
+  <label>(5)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi mathvariant="sans-serif">χ</mi>
+      <mtext> </mtext>
+     </mrow>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mi>ln</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mn>1</mn>
+         <mo>−</mo>
+         <msub>
+          <mi mathvariant="sans-serif">Φ</mi>
+          <mi mathvariant="normal">s</mi>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>+</mo>
+       <msub>
+        <mi mathvariant="sans-serif">Φ</mi>
+        <mi mathvariant="normal">s</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msubsup>
+        <mi mathvariant="sans-serif">Φ</mi>
+        <mi mathvariant="normal">s</mi>
+        <mn>2</mn>
+       </msubsup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

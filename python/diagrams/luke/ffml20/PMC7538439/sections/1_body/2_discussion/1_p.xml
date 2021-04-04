@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par33">In summary, we have introduced a heirarchical, iterative machine-learning based interatomic potential for atomistic simulations of H
+ <sub>2</sub> molecules, by directly learning from reference ab initio molecular dynamics simulations. The resultant HMLP-MD approach predicts angular energy dependence in the range of tens of meV/atom and demonstrates good transferability to various structural environments. Several applications have been presented for which our potential is particularly well suited. The fast, transferrable potential is also suitable for a wide range of further applications and extensions, including compounds, bond breaking, and path integral calculations.
+</p>

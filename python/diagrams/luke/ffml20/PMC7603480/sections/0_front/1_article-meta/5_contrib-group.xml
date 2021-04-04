@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4144-0371</contrib-id>
+  <name>
+   <surname>Stocker</surname>
+   <given-names>Sina</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8180-2034</contrib-id>
+  <name>
+   <surname>Csányi</surname>
+   <given-names>Gábor</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8473-8659</contrib-id>
+  <name>
+   <surname>Reuter</surname>
+   <given-names>Karsten</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0862-5289</contrib-id>
+  <name>
+   <surname>Margraf</surname>
+   <given-names>Johannes T.</given-names>
+  </name>
+  <address>
+   <email>johannes.margraf@ch.tum.de</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.6936.a</institution-id>
+   <institution-id institution-id-type="ISNI">0000000123222966</institution-id>
+   <institution>Chair of Theoretical Chemistry and Catalysis Research Center, </institution>
+   <institution>Technische Universität München, </institution>
+  </institution-wrap>Garching, Germany 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.5335.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000000121885934</institution-id>
+   <institution>Engineering Laboratory, </institution>
+   <institution>University of Cambridge, </institution>
+  </institution-wrap>Cambridge, CB2 1PZ UK 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.418028.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0565 1775</institution-id>
+   <institution>Fritz-Haber-Institut der Max-Planck-Gesellschaft, </institution>
+  </institution-wrap>Berlin, Germany 
+ </aff>
+</contrib-group>

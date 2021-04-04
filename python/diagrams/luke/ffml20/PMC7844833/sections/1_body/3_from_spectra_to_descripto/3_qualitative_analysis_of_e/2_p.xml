@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>While XANES characterizes the chemical state of the absorbing atom and the symmetry of its environment, EXAFS analysis provides much more detailed information about the local atomistic structure. In particular, it allows one to identify quickly the type of atoms that are nearest to the absorbing atom and the interatomic distances to them. Often it is possible to identify the local environment of absorbing atoms just by looking at the first peak in the Fourier-transformed EXAFS spectra. In XAS data collected at absorption edges of some metals, the first peak in the FT-EXAFS at distances 1.5–2.0 Å typically corresponds to the low-Z neighbors (O, N, C, etc.), indicating the cationic nature of the absorbing site, 
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>c. Because of the larger ionic size of the reduced ions, metal–metal bonds are normally longer and contribute to the FT-EXAFS at distances 2–2.5 Å (
+ <xref rid="fig7" ref-type="fig">Figure 
+  <xref rid="fig7" ref-type="fig">7</xref>
+ </xref>). Thus, the presence of such a feature in the FT-EXAFS spectra indicates the metallic nature of the absorbing species. It is important to note here that the positions of peaks in the FT-EXAFS spectra do not correspond to actual interatomic distances. Usually, the FT-EXAFS feature is located at an 
+ <italic>R</italic> value that is ∼0.5 Å shorter than the actual length of the corresponding bond. This can be noticed by comparing the position of the peaks in 
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>c, which shows the FT-EXAFS spectrum for CuO, and in 
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>d, which shows the actual RDF (histogram of bond-lengths). This difference arises due to the presence of a 
+ <italic>k</italic>-dependent phase function ϕ
+ <sub>
+  <italic>p</italic>
+ </sub>(
+ <italic>k</italic>) in the sinusoid-term in 
+ <xref rid="eq8" ref-type="disp-formula">eq 
+  <xref rid="eq8" ref-type="disp-formula">8</xref>
+ </xref>, which effectively changes the apparent frequency by ⟨ϕ
+ <sub>
+  <italic>p</italic>
+ </sub>(
+ <italic>k</italic>)/2
+ <italic>k</italic>⟩.
+</p>

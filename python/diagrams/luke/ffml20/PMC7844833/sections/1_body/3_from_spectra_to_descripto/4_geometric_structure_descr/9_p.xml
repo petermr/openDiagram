@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The correlations between fitting variables result also in another challenge in the EXAFS data fitting, namely the interpretation of contributions of distant coordination shells. As shown in 
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>c, all peaks in the FT-EXAFS spectrum beyond the first one are a result of the superposition of different SS and MS contributions. This means that the contributions of those photoelectron paths cannot be singled out by simple Fourier filtering, and it is necessary to fit them simultaneously. This results in an exponential increase in the number of required fitting variables with increasing 
+ <italic>R</italic>-range used for the fitting.
+ <sup>
+  <xref ref-type="bibr" rid="ref23">23</xref>,
+  <xref ref-type="bibr" rid="ref183">183</xref>
+ </sup> The correlations between these variables result in significant fit uncertainties. For simple monometallic systems, this problem can be addressed by using constraints that limit the number of degrees of freedom in the fit.
+ <sup>
+  <xref ref-type="bibr" rid="ref184">184</xref>,
+  <xref ref-type="bibr" rid="ref185">185</xref>
+ </sup> However, data of very good quality are required to fit reliably the contributions to EXAFS spectra from the coordination shells beyond the first one. Thus, such an analysis remains usually limited to the interpretation of 
+ <italic>ex situ</italic> EXAFS data, or EXAFS data collected at cryogenic conditions to reduce the EXAFS signal damping due to thermal disorder. The interpretation of more distant FT-EXAFS peaks using conventional fitting approaches, as well as the interpretation of EXAFS spectra in disordered materials, thus remain problematic. More advanced approaches may be useful to address these issues. Such approaches are discussed in 
+ <xref rid="sec4.4" ref-type="other">Sections 
+  <xref rid="sec4.4" ref-type="other">4.4</xref>
+ </xref>–
+ <xref rid="sec4.6" ref-type="other">4.6</xref>.
+</p>

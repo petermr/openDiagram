@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The cumulative fractional drug release (
+ <italic>F
+  <sub>t</sub>
+ </italic>) was calculated as the ratio between the amount of released antibiotic 
+ <italic>m
+  <sub>rel</sub>
+ </italic> and the initial amount of drug from the hydrogel (
+ <italic>m
+  <sub>in</sub>
+ </italic>, according to Equation (7)) at release time 
+ <italic>t</italic> = 0. 
+ <disp-formula id="FD7-polymers-12-01544">
+  <label>(7)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>m</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>m</mi>
+        <mi>l</mi>
+       </msub>
+       <mo>·</mo>
+       <mi>CS</mi>
+       <mo>·</mo>
+       <mn>0.250</mn>
+      </mrow>
+      <mrow>
+       <mn>100</mn>
+      </mrow>
+     </mfrac>
+     <mtext> </mtext>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="normal">g</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -297,5 +297,16 @@ class Util:
         if file is None:
             raise Exception("null file")
 
-        if not os.path.exists(file):
-            raise FileNotFoundError(str(file) + " should exist")
+        if os.path.isdir(file):
+            print(file, "is directory")
+            pass
+        elif os.path.isfile(file):
+            print(file, "is file")
+            pass
+        else:
+            try:
+                f = open(file, "r")
+                print("opened", file)
+                f.close()
+            except:
+                raise FileNotFoundError(str(file) + " should exist")

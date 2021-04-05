@@ -94,9 +94,12 @@ class AmiSearch:
         return ptit + ":   " + self.cur_section_type + ":   " + dict_name
 
     def use_dictionaries(self, args):
-        if args is not None:
+        if args is not None and len(args) > 0:
             for arg in args:
                 self.add_dictionary(arg)
+        else:
+            # print dictionaries
+            print("amidict keys: ", AmiDictionaries.DICT_LIST)
 
     def add_dictionary(self, name):
         print("name", name)
@@ -117,9 +120,14 @@ class AmiSearch:
         print (name, "=", regex)
         self.patterns.append(SearchPattern(regex, name))
 
+
     def use_projects(self, args):
-        for arg in args:
-            self.add_project(arg)
+        if args is None or len(args) == 0:
+            print("must give projects; here are some to test with")
+            print(AmiProjects().project_dict.keys())
+        else:
+            for arg in args:
+                self.add_project(arg)
 
     def add_project(self, name):
         AmiSearch._append_facet("project", name, self.ami_projects.project_dict, self.projects)
@@ -242,8 +250,15 @@ class AmiSearch:
 #        self.patterns = patterns
 
     def use_sections(self, sections):
-        AmiSection.check_sections(sections)
-        self.section_types = sections
+        if len(sections) == 0:
+            self.section_help()
+        else:
+            AmiSection.check_sections(sections)
+            self.section_types = sections
+
+    def section_help(self):
+        print("sections to be used; ALL uses whole document (Not yet tested)")
+        print(AmiSection.SECTION_LIST)
 
     def run_search(self):
         for proj in self.projects:
@@ -272,32 +287,32 @@ class AmiSearch:
     @staticmethod
     def plant_parts_demo():
         ami_search = AmiSearch()
-        ami_search.min_hits = 1
-        ami_search.wikidata_label_lang = "fr"
+        ami_search.min_hits = 2
+        ami_search.wikidata_label_lang = "en"
 
         ami_search.use_sections([
 #            "method",
             AmiSection.INTRO,
             AmiSection.METHOD,
-#            AmiSection.RESULTS,
+            AmiSection.RESULTS,
 #            AmiSection.TABLE,
             #            "fig_caption"
         ])
         ami_search.use_dictionaries([
             # intern dictionaries
-#            AmiDictionaries.ACTIVITY,
+            AmiDictionaries.ACTIVITY,
             AmiDictionaries.COMPOUND,
 #            AmiDictionaries.PLANT_COMPOUND,
             AmiDictionaries.PLANT_PART,
-#            AmiDictionaries.PLANT_GENUS,
+            AmiDictionaries.PLANT_GENUS,
 
 #            AmiDictionaries.PLANT,
 #            AmiDictionaries.PLANT_PART,
 
 #            AmiDictionaries.GENUS,
 #            AmiDictionaries.ELEMENT,
-#            AmiDictionaries.ORGANIZATION,
-#            AmiDictionaries.SOLVENT,
+            AmiDictionaries.ORGANIZATION,
+            AmiDictionaries.SOLVENT,
         ])
         ami_search.use_projects([
 #            AmiProjects.OIL26,
@@ -379,11 +394,12 @@ class AmiSearch:
         ami_search.run_search()
 
 
+
 class SimpleDict:
 
     def __init__(self, file=None):
         if file:
-            with open(file, "r") as f:
+            with open(file, "r", encoding="utf-8") as f:
                 self.lines = f.read().splitlines()
         print(self.lines)
 
@@ -758,12 +774,12 @@ def main():
     parser = argparse.ArgumentParser(description='Search sections with dictionaries and patterns')
     """
     """
-    parser.add_argument('--dict', nargs="+",
+    parser.add_argument('--dict', nargs="*",
                         help='dictionaries to search with (lookup table from JSON (NYI); empty gives list')
-    parser.add_argument('--sect', nargs="+",
+    parser.add_argument('--sect', nargs="*",
                         help='sections to search; empty gives all (Not yet tested')
-    parser.add_argument('--proj', nargs="+",
-                        help='projects to search; empty will exit')
+    parser.add_argument('--proj', nargs="*",
+                        help='projects to search; empty will give list')
     parser.add_argument('--patt', nargs="+",
                         help='patterns to search with; regex may need quoting')
 
@@ -779,10 +795,12 @@ def main():
         AmiSearch.plant_parts_demo()
 #        AmiSearch.worc_demo()
     else:
+        print("commandline args")
         print("dicts", args.dict, type(args.dict))
         print("sects", args.sect, type(args.sect))
         print("projs", args.proj, type(args.proj))
         print("patterns", args.patt, type(args.patt))
+        # TODO dict on keywords
         ami_search = AmiSearch()
         ami_search.use_sections(args.sect)
         ami_search.use_dictionaries(args.dict)

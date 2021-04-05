@@ -294,7 +294,6 @@ class AmiSearch:
 #            "method",
             AmiSection.INTRO,
             AmiSection.METHOD,
-            AmiSection.RESULTS,
 #            AmiSection.TABLE,
             #            "fig_caption"
         ])
@@ -302,7 +301,9 @@ class AmiSearch:
             # intern dictionaries
             AmiDictionaries.ACTIVITY,
             AmiDictionaries.COMPOUND,
-#            AmiDictionaries.PLANT_COMPOUND,
+            AmiDictionaries.INVASIVE_PLANT,
+            AmiDictionaries.PLANT,
+            AmiDictionaries.PLANT_COMPOUND,
             AmiDictionaries.PLANT_PART,
             AmiDictionaries.PLANT_GENUS,
 
@@ -311,8 +312,7 @@ class AmiSearch:
 
 #            AmiDictionaries.GENUS,
 #            AmiDictionaries.ELEMENT,
-            AmiDictionaries.ORGANIZATION,
-            AmiDictionaries.SOLVENT,
+#            AmiDictionaries.SOLVENT,
         ])
         ami_search.use_projects([
 #            AmiProjects.OIL26,
@@ -591,6 +591,7 @@ class AmiDictionaries:
     COUNTRY = "country"
     DISEASE = "disease"
     ELEMENT = "elements"
+    INVASIVE_PLANT = "invasive_plant"
     PLANT_GENUS = "plant_genus"
     ORGANIZATION = "organization"
     PLANT_COMPOUND = "plant_compound"
@@ -604,6 +605,7 @@ class AmiDictionaries:
         COUNTRY,
         DISEASE,
         ELEMENT,
+        INVASIVE_PLANT,
         PLANT_GENUS,
         ORGANIZATION,
         PLANT,
@@ -673,21 +675,28 @@ class AmiDictionaries:
         self.add_with_check(AmiDictionaries.COMPOUND,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
         # /Users/pm286/dictionary/cevopen/plant_genus/eo_plant_genus.xml
+#        self.add_with_check(AmiDictionaries.PLANT,
+#                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant.xml"))
+# latest dictionary
         self.add_with_check(AmiDictionaries.PLANT,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant.xml"))
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "Plant.xml"))
         self.add_with_check(AmiDictionaries.PLANT_GENUS,
                             os.path.join(CEV_OPEN_DICT_DIR, "plant_genus", "plant_genus.xml"))
         self.add_with_check(AmiDictionaries.ORGANIZATION,
                             os.path.join(OV21_DIR, "organization", "organization.xml"))
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoCompound / plant_compounds.xml
-#        self.add_with_check(AmiDictionaries.PLANT_COMPOUND,
-#                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
+        self.add_with_check(AmiDictionaries.PLANT_COMPOUND,
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
         # /Users/pm286/projects/CEVOpen/dictionary/eoPlantPart/eoplant_part.xml
         self.add_with_check(AmiDictionaries.PLANT_PART,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
 #        self.add_with_check(AmiDictionaries.PLANT,
 #                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant", "Plant.xml"))
+# invasive / Users / pm286 / projects / CEVOpen / dictionary / Invasive_species / invasive_species.xml
+        self.add_with_check(AmiDictionaries.INVASIVE_PLANT,
+                            os.path.join(CEV_OPEN_DICT_DIR, "Invasive_species", "invasive_species.xml"))
 
+        print ("core dicts", self.dictionary_dict.keys())
 # tests - will remove as soon as I have learnt how to do tests
         fail_test = False
         if fail_test:

@@ -42,14 +42,25 @@ FUNDER = os.path.join(MINIPROJ, "funder")
 # print(FUNDER, os.path.exists(FUNDER))
 
 
+
+
 class AmiSearch:
 
+    LUKE_DEMO = "luke"
+    ETHICS_DEMO = "ethics"
+    PLANT_DEMO = "plant_parts"
+    WORCESTER_DEMO = "worcester"
+    WORD_DEMO = "word"
+
     def __init__(self):
+        # these are the main facets
         self.dictionaries = []
         self.patterns = []
         self.projects = []
         self.section_types = []
-        self.word_counter = None
+
+
+#        self.word_counter = None
         self.debug = False
         self.do_search = True
         self.do_plot = True
@@ -70,6 +81,50 @@ class AmiSearch:
         # look up how sections work
 #        self.ami_sections = AmiSections()
         self.ami_dictionaries = AmiDictionaries()
+
+    @staticmethod
+    def run_demos(demos):
+        demo_dict = {
+            AmiSearch.ETHICS_DEMO : AmiSearch.ethics_demo,
+            AmiSearch.LUKE_DEMO : AmiSearch.luke_demo,
+            AmiSearch.PLANT_DEMO : AmiSearch.plant_parts_demo,
+            AmiSearch.WORCESTER_DEMO : AmiSearch.worc_demo,
+            AmiSearch.WORD_DEMO : AmiSearch.word_demo,
+        }
+        print("RUN DEMOS:", demos)
+        if demos is None or len(demos) == 0:
+            print("no demo given, choose from ", demo_dict.keys())
+        else:
+            for demo in demos:
+                AmiSearch.run_demo(demo_dict, demo)
+        print("END DEMO")
+
+    @staticmethod
+    def run_demo(demo_dict, demo):
+        if demo in demo_dict.keys():
+            demo_dict[demo]()
+        else:
+            demo_funct = Util.find_unique_dict_entry(demo_dict, demo)
+            if demo_funct is not None:
+                print("running:", demo_funct)
+                demo_funct()
+
+    """
+    def run_demos1(demos):
+        print("DEMO DICT", demos)
+        for demo in demos:
+            if AmiSearch.ETHICS_DEMO == demo:
+                AmiSearch.ethics_demo()
+            if  AmiSearch.LUKE_DEMO == demo:
+                AmiSearch.luke_demo()
+            if AmiSearch.PLANT_DEMO == demo:
+                AmiSearch.plant_parts_demo()
+            if AmiSearch.WORCESTER_DEMO == demo:
+                AmiSearch.worc_demo()
+            if AmiSearch.WORD_DEMO == demo:
+                AmiSearch.word_demo()
+        print("END DEMO DICT")
+    """
 
     def make_graph(self, counter, dict_name):
         import matplotlib as mpl
@@ -99,7 +154,9 @@ class AmiSearch:
                 self.add_dictionary(arg)
         else:
             # print dictionaries
+            print("\n==========AMI DICTIONARIES========")
             print("amidict keys: ", AmiDictionaries.DICT_LIST)
+            print("==================================\n")
 
     def add_dictionary(self, name):
         print("name", name)
@@ -123,8 +180,11 @@ class AmiSearch:
 
     def use_projects(self, args):
         if args is None or len(args) == 0:
-            print("must give projects; here are some to test with")
-            print(AmiProjects().project_dict.keys())
+            print("=================", "\n", "must give projects; here are some to test with, but they may need checking out")
+            for key in AmiProjects().project_dict.keys():
+                proj = AmiProjects().project_dict[key]
+                print(key, "=>", proj.description)
+            print("=================")
         else:
             for arg in args:
                 self.add_project(arg)
@@ -250,15 +310,22 @@ class AmiSearch:
 #        self.patterns = patterns
 
     def use_sections(self, sections):
-        if len(sections) == 0:
+        if sections is None or len(sections) == 0:
             self.section_help()
         else:
-            AmiSection.check_sections(sections)
-            self.section_types = sections
+            try:
+                AmiSection.check_sections(sections)
+                self.section_types = sections
+            except Exception as ex:
+                print("\n=============cannot find section============\n", ex)
+                self.section_help()
+                print("\n===========================")
 
     def section_help(self):
         print("sections to be used; ALL uses whole document (Not yet tested)")
+        print("\n========SECTIONS===========")
         print(AmiSection.SECTION_LIST)
+        print("===========================\n")
 
     def run_search(self):
         for proj in self.projects:
@@ -387,6 +454,16 @@ class AmiSearch:
         ami_search.use_dictionaries([AmiDictionaries.NMR])
         ami_search.use_projects([AmiProjects.WORC_EXPLOSION, AmiProjects.WORC_SYNTH])
 
+        ami_search.run_search()
+
+    @staticmethod
+    def word_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.METHOD])
+        ami_search.use_projects([AmiProjects.WORC_EXPLOSION, AmiProjects.WORC_SYNTH])
+
         ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
         ami_search.use_pattern("_ALLCAPS", "all_capz")
         ami_search.use_pattern("_ALL", "_all")
@@ -429,24 +506,25 @@ class AmiProjects:
 
     def create_project_dict(self):
         self.project_dict = {}
-        self.add_with_check(AmiProjects.LIION10, os.path.join(PHYSCHEM_RESOURCES, "liion10"))
-        self.add_with_check(AmiProjects.FFML20, os.path.join(DIAGRAMS_DIR, "luke", "ffml20"))
-        self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"))
-        self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"))
-        self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"))
-        self.add_with_check(AmiProjects.DISEASE, os.path.join(MINIPROJ, "disease", "1-part"))
-        self.add_with_check(AmiProjects.DIFFPROT, os.path.join(PROJECTS, "openDiagram/python/diagrams/rahul/diffprotexp"))
-        self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester", "synthesis"))
-        self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester", "explosion"))
+        self.add_with_check(AmiProjects.LIION10, os.path.join(PHYSCHEM_RESOURCES, "liion10"), "Li-ion batteries")
+        self.add_with_check(AmiProjects.FFML20, os.path.join(DIAGRAMS_DIR, "luke", "ffml20"), "forcefields + ML")
+        self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"), "26 oil plant papers")
+        self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"), "186 oil plant papers")
+        self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"), "steel cooling curves"),
+        self.add_with_check(AmiProjects.DISEASE, os.path.join(MINIPROJ, "disease", "1-part"), "disease papers")
+        self.add_with_check(AmiProjects.DIFFPROT, os.path.join(PROJECTS, "openDiagram/python/diagrams/rahul/diffprotexp"),
+                            "differential protein expression")
+        self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester", "synthesis"), "chemical synthesese")
+        self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester", "explosion"), "explosion hazards")
 
         # minicorpora
-        self.add_with_check(AmiProjects.C_ACTIVITY, os.path.join(MINICORPORA, "activity"))
-        self.add_with_check(AmiProjects.C_HYDRODISTIL, os.path.join(MINICORPORA, "hydrodistil"))
-        self.add_with_check(AmiProjects.C_INVASIVE, os.path.join(MINICORPORA, "invasive"))
-        self.add_with_check(AmiProjects.C_PLANT_PART, os.path.join(MINICORPORA, "plantpart"))
+        self.add_with_check(AmiProjects.C_ACTIVITY, os.path.join(MINICORPORA, "activity"), "biomedical activities")
+        self.add_with_check(AmiProjects.C_HYDRODISTIL, os.path.join(MINICORPORA, "hydrodistil"), "hydrodistillation")
+        self.add_with_check(AmiProjects.C_INVASIVE, os.path.join(MINICORPORA, "invasive"), "invasive plants")
+        self.add_with_check(AmiProjects.C_PLANT_PART, os.path.join(MINICORPORA, "plantpart"), "plant parts")
 
 
-    def add_with_check(self, key, file):
+    def add_with_check(self, key, file, desc=None):
         """checks for existence and adds filename to project_dict
         key: unique name for ami_dict , default ami_dict in AmiProjects"""
         if not os.path.isdir(file):
@@ -455,11 +533,12 @@ class AmiProjects:
         Util.check_exists(file)
         if key in self.project_dict:
             raise Exception (str(key) + " already exists in project_dict,  must be unique")
-        self.project_dict[key] = AmiProject(file)
+        self.project_dict[key] = AmiProject(file, desc)
 
 class AmiProject:
-    def __init__(self, dir):
+    def __init__(self, dir, desc=None):
         self.dir = dir
+        self.description = desc
 
 class SearchPattern:
 
@@ -538,7 +617,7 @@ class SearchDictionary:
         self.entries = list(self.root.findall("entry"))
         self.create_entry_by_term();
         self.term_set = set()
-        print("read dictionary", self.name, "with", len(self.entries), "entries")
+#        print("read dictionary", self.name, "with", len(self.entries), "entries")
 
     def get_or_create_term_set(self):
         if len(self.term_set) == 0:
@@ -663,7 +742,6 @@ class AmiDictionaries:
     def create_search_dictionary_dict(self):
         self.dictionary_dict = {}
 
-        self.make_ami3_dictionaries()
 
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
         self.add_with_check(AmiDictionaries.ACTIVITY,
@@ -697,6 +775,8 @@ class AmiDictionaries:
                             os.path.join(CEV_OPEN_DICT_DIR, "Invasive_species", "invasive_species.xml"))
 
         print ("core dicts", self.dictionary_dict.keys())
+        self.make_ami3_dictionaries()
+
 # tests - will remove as soon as I have learnt how to do tests
         fail_test = False
         if fail_test:
@@ -750,7 +830,7 @@ class AmiDictionaries:
 
 
     def add_with_check(self, key, file):
-        print("adding dictionary", file)
+#        print("adding dictionary", file)
         if key in self.dictionary_dict:
             raise Exception("duplicate dictionary key " + key + " in "+ str(self.dictionary_dict))
         Util.check_exists(file)
@@ -775,43 +855,43 @@ def test_profile1():
 
 
 
-
-
 def main():
     import argparse
+    import sys
 
     parser = argparse.ArgumentParser(description='Search sections with dictionaries and patterns')
     """
     """
-    parser.add_argument('--dict', nargs="*",
-                        help='dictionaries to search with (lookup table from JSON (NYI); empty gives list')
-    parser.add_argument('--sect', nargs="*",
-                        help='sections to search; empty gives all (Not yet tested')
-    parser.add_argument('--proj', nargs="*",
+    parser.add_argument('-d', '--dict', nargs="*", # default=[AmiDictionaries.COUNTRY],
+                        help='dictionaries to search with, empty gives list')
+    parser.add_argument('-s', '--sect', nargs="*", # default=[AmiSection.INTRO, AmiSection.RESULTS],
+                        help='sections to search; empty gives all')
+    parser.add_argument('-p', '--proj', nargs="*",
                         help='projects to search; empty will give list')
     parser.add_argument('--patt', nargs="+",
                         help='patterns to search with; regex may need quoting')
+    parser.add_argument('--demo', nargs="*",
+                        help='simple demos (NYI). empty gives list. May need downloading corpora')
+    parser.add_argument('-l', '--loglevel', default="foo",
+                        help='debug level (NYI)')
+    parser.add_argument('--plot', action="store_false",
+                        help='plot params (NYI)')
+    parser.add_argument('--nosearch', action="store_true",
+                        help='search (NYI)')
+    parser.add_argument('--maxbars', nargs="?", type=int, default=25,
+                        help='max bars on plot (NYI)')
+    parser.add_argument('--languages', nargs="+", default=["en"],
+                        help='languages (NYI)')
 
     args = parser.parse_args()
-    if      args.dict is None \
-        and args.sect is None \
-        and args.proj is None \
-        and args.patt is None \
-        :
-        print("DEMO")
-        print(parser.print_help())
-#        AmiSearch.ethics_demo()
-#        AmiSearch.luke_demo()
-#        AmiSearch.plant_parts_demo()
-#        AmiSearch.worc_demo()
+    if len(sys.argv) == 1:
+        print(parser.print_help(sys.stderr))
+    elif args.demo is not None:
+        print("DEMOS")
+        AmiSearch.run_demos(args.demo)
     else:
-        print_args(args)
-        # TODO dict on keywords
         ami_search = AmiSearch()
-        ami_search.use_sections(args.sect)
-        ami_search.use_dictionaries(args.dict)
-        ami_search.use_projects(args.proj)
-        ami_search.use_patterns(args.patt)
+        copy_args_to_ami_search(args, ami_search)
 
         if ami_search.do_search:
             ami_search.run_search()
@@ -822,12 +902,31 @@ def main():
 #    test_profile1()
     print("finished search")
 
+
+def copy_args_to_ami_search(args, ami_search):
+    print_args(args)
+    # TODO dict on keywords
+    ami_search.use_sections(args.sect)
+    ami_search.use_dictionaries(args.dict)
+    ami_search.use_projects(args.proj)
+    ami_search.use_patterns(args.patt)
+    if args.maxbars:
+        ami_search.max_bars = args.maxbars
+    if args.languages:
+        ami_search.languages = args.languages
+    for k, v in vars(args).items():
+#        print("k, v", k, "=", v)
+        pass
+    return ami_search
+
+
 def print_args(args):
     print("commandline args")
     print("dicts", args.dict, type(args.dict))
     print("sects", args.sect, type(args.sect))
     print("projs", args.proj, type(args.proj))
     print("patterns", args.patt, type(args.patt))
+    print("args>", args)
 
 
 if __name__ == "__main__":

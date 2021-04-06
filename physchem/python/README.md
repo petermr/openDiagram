@@ -1,5 +1,7 @@
 # alpha code for searching document corpus
 
+SEE ALSO <a href="SEARCH.md">SEARCH TUTORIAL</a>
+
 ## prerequisites
 
 - create getpapers output
@@ -32,6 +34,8 @@ python search_lib.py
 ```
 
 # demo
+
+
 
 ## section search
 

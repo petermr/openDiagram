@@ -261,7 +261,9 @@ class AmiSection:
     def check_sections(sections):
         for section in sections:
             if section not in AmiSection.SECTION_LIST:
-                print("allowed sections", AmiSection.SECTION_LIST)
+                print("\n===========allowed sections=========\n",
+                      AmiSection.SECTION_LIST,
+                      "\n====================================")
                 raise Exception ("unknown section: ", section)
 
 

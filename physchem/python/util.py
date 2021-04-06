@@ -275,9 +275,6 @@ class AmiConfig:
         ini_file = dict_section[ini_key] if ini_key in dict_section else None
         return ini_file
 
-
-
-
 def main():
 #    AmiConfig.test()
 #    AmiConfig.test2_debug()
@@ -298,15 +295,34 @@ class Util:
             raise Exception("null file")
 
         if os.path.isdir(file):
-            print(file, "is directory")
+#            print(file, "is directory")
             pass
         elif os.path.isfile(file):
-            print(file, "is file")
+#            print(file, "is file")
             pass
         else:
             try:
                 f = open(file, "r")
-                print("opened", file)
+                print("tried to open", file)
                 f.close()
             except:
                 raise FileNotFoundError(str(file) + " should exist")
+
+    @staticmethod
+    def find_unique_keystart(keys, start):
+        """finds keys that start with 'start'
+        return a list, empty if none found or null args"""
+        return [] if keys is None or start is None else [k for k in keys if k.startswith(start)]
+
+    @staticmethod
+    def find_unique_dict_entry(the_dict, start):
+        """
+        return None if 0 or >= keys found
+        """
+        keys = Util.find_unique_keystart(the_dict, start)
+        if len(keys) == 1:
+            return the_dict[keys[0]]
+        print("matching keys:", keys)
+        return None
+
+

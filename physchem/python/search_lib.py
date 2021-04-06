@@ -215,7 +215,7 @@ class AmiSearch:
     @staticmethod
     def print_file(file):
         print("file: ", file)
-        with open(file, "r") as f:
+        with open(file, "r", encoding="utf-8") as f:
             print("read", f.read())
 
     def search_and_count(self, section_files):
@@ -799,16 +799,13 @@ def main():
         and args.patt is None \
         :
         print("DEMO")
+        print(parser.print_help())
 #        AmiSearch.ethics_demo()
 #        AmiSearch.luke_demo()
-        AmiSearch.plant_parts_demo()
+#        AmiSearch.plant_parts_demo()
 #        AmiSearch.worc_demo()
     else:
-        print("commandline args")
-        print("dicts", args.dict, type(args.dict))
-        print("sects", args.sect, type(args.sect))
-        print("projs", args.proj, type(args.proj))
-        print("patterns", args.patt, type(args.patt))
+        print_args(args)
         # TODO dict on keywords
         ami_search = AmiSearch()
         ami_search.use_sections(args.sect)
@@ -824,6 +821,13 @@ def main():
 # this profiles it
 #    test_profile1()
     print("finished search")
+
+def print_args(args):
+    print("commandline args")
+    print("dicts", args.dict, type(args.dict))
+    print("sects", args.sect, type(args.sect))
+    print("projs", args.proj, type(args.proj))
+    print("patterns", args.patt, type(args.patt))
 
 
 if __name__ == "__main__":

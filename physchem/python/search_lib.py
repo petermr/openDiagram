@@ -16,12 +16,11 @@ HOME = os.path.expanduser("~")
 PYDIAG = "../../python/diagrams"
 #LIION = "../liion"
 DICT_DIR = os.path.join(HOME, "dictionary")
+PROJECTS = os.path.join(HOME, "projects")
 
 OV21_DIR = os.path.join(DICT_DIR, "openVirus20210120")
 CEV_DICT_DIR = os.path.join(DICT_DIR, "cevopen")
 PMR_DIR = os.path.join(DICT_DIR, "pmr")
-
-PROJECTS = os.path.join(HOME, "projects")
 
 OPEN_DIAGRAM = os.path.join(PROJECTS, "openDiagram")
 OPEN_DIAGRAM_SEARCH = os.path.join(OPEN_DIAGRAM, "searches")
@@ -29,19 +28,24 @@ OPEN_DIAGRAM_SEARCH = os.path.join(OPEN_DIAGRAM, "searches")
 PHYSCHEM = os.path.join(OPEN_DIAGRAM, "physchem")
 PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
 DIAGRAMS_DIR = os.path.join(PROJECTS, "openDiagram", "python", "diagrams")
+
+# require CEVOpen repo
+
 CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
 CEV_OPEN_DICT_DIR = os.path.join(CEV_OPEN_DIR, "dictionary")
+MINICORPORA = os.path.join(CEV_OPEN_DIR, "minicorpora")
+
+# require dictionary repo
 DICT_CEV_OPEN = os.path.join(DICT_DIR, "cevopen")
 DICT_AMI3 = os.path.join(DICT_DIR, "ami3")
+
+# require openVirus repo
 OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
 MINIPROJ = os.path.join(OPEN_VIRUS, "miniproject")
-MINICORPORA = os.path.join(CEV_OPEN_DIR, "minicorpora")
-WORCESTER_DIR = os.path.join(PROJECTS, "worcester")
 FUNDER = os.path.join(MINIPROJ, "funder")
 
-# print(FUNDER, os.path.exists(FUNDER))
-
-
+# requires Worcester repo
+WORCESTER_DIR = os.path.join(PROJECTS, "worcester")
 
 
 class AmiSearch:
@@ -59,15 +63,16 @@ class AmiSearch:
         self.projects = []
         self.section_types = []
 
+# working global variables
+        self.cur_section_type = None
+        self.cur_proj = None
 
 #        self.word_counter = None
         self.debug = False
         self.do_search = True
         self.do_plot = True
         self.ami_projects = AmiProjects()
-        self.cur_section_type = None
-#        self.cur_dict = None
-        self.cur_proj = None
+
         self.max_bars = 20
         self.wikidata_label_lang = "en"
 
@@ -427,6 +432,20 @@ class AmiSearch:
 
         ami_search.run_search()
 
+    @staticmethod
+    def species_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.INTRO, AmiSection.METHOD])
+#        ami_search.use_dictionaries([AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE,])
+        ami_search.use_projects([AmiProjects.OIL26, ])
+
+        ami_search.use_pattern("^[A-Z][en]?\.", "SPECIES_ABB")
+        ami_search.use_pattern("_ITALICS", "_italics")
+
+        ami_search.run_search()
+
 
     @staticmethod
     def luke_demo():
@@ -506,15 +525,17 @@ class AmiProjects:
 
     def create_project_dict(self):
         self.project_dict = {}
+        # in this repo
         self.add_with_check(AmiProjects.LIION10, os.path.join(PHYSCHEM_RESOURCES, "liion10"), "Li-ion batteries")
         self.add_with_check(AmiProjects.FFML20, os.path.join(DIAGRAMS_DIR, "luke", "ffml20"), "forcefields + ML")
         self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"), "26 oil plant papers")
-        self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"), "186 oil plant papers")
-        self.add_with_check(AmiProjects.CCT, os.path.join(PROJECTS, "openDiagram/python/diagrams/satish/cct"), "steel cooling curves"),
+        self.add_with_check(AmiProjects.CCT, os.path.join(DIAGRAMS_DIR, "satish", "cct"), "steel cooling curves"),
+        self.add_with_check(AmiProjects.DIFFPROT, os.path.join(DIAGRAMS_DIR, "rahul", "diffprotexp"),
+        # foreign resources
         self.add_with_check(AmiProjects.DISEASE, os.path.join(MINIPROJ, "disease", "1-part"), "disease papers")
-        self.add_with_check(AmiProjects.DIFFPROT, os.path.join(PROJECTS, "openDiagram/python/diagrams/rahul/diffprotexp"),
+        self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"), "186 oil plant papers")
                             "differential protein expression")
-        self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester", "synthesis"), "chemical synthesese")
+        self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester", "synthesis"), "chemical syntheses")
         self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester", "explosion"), "explosion hazards")
 
         # minicorpora
@@ -610,7 +631,7 @@ class SearchDictionary:
 
     def read_dictionary(self, file, ignorecase=True):
         self.file = file
-        self.amidict = ET.parse(file)
+        self.amidict = ET.parse(file, parser=ET.XMLParser(encoding="utf-8"))
         self.root = self.amidict.getroot()
         self.name = self.root.attrib["title"]
         self.ignorecase = ignorecase

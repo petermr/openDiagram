@@ -1,4 +1,4 @@
-from xml.etree import ElementTree
+from xml.etree import ElementTree as ET
 import os
 from collections import Counter
 from file_lib import FileLib
@@ -74,7 +74,8 @@ class XmlLib:
     def parse_file(self, file, section_dir):
         if not os.path.exists(file):
             raise IOError("file does not exist", file)
-        self.element_tree = ElementTree.parse(file)
+        xmlp = ET.XMLParser(encoding="utf-8")
+        self.element_tree = ET.parse(file, xmlp)
         root = self.element_tree.getroot()
         if not section_dir is None:
             print("making sections")

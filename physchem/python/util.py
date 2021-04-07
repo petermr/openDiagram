@@ -275,15 +275,6 @@ class AmiConfig:
         ini_file = dict_section[ini_key] if ini_key in dict_section else None
         return ini_file
 
-def main():
-#    AmiConfig.test()
-#    AmiConfig.test2_debug()
-    AmiConfig.test_dicts()
-
-#    TrieNode.test()
-
-if __name__ == "__main__":
-    main()
 
 class Util:
 
@@ -325,4 +316,49 @@ class Util:
         print("matching keys:", keys)
         return None
 
+class PdfReader:
 
+    def __init__(self):
+        pass
+
+    def test(self, file="/Users/pm286/projects/openDiagram/physchem/liion/PMC7040616/fulltext.pdf"):
+        from pdfminer3.layout import LAParams, LTTextBox
+        from pdfminer3.pdfpage import PDFPage
+        from pdfminer3.pdfinterp import PDFResourceManager
+        from pdfminer3.pdfinterp import PDFPageInterpreter
+        from pdfminer3.converter import PDFPageAggregator
+        from pdfminer3.converter import TextConverter
+        import io
+
+        resource_manager = PDFResourceManager()
+        fake_file_handle = io.StringIO()
+        converter = TextConverter(resource_manager, fake_file_handle, laparams=LAParams())
+        page_interpreter = PDFPageInterpreter(resource_manager, converter)
+
+        print("FILE", file)
+        with open(file, 'rb') as fh:
+            for page in PDFPage.get_pages(fh,
+                                          caching=True,
+                                          check_extractable=True):
+                page_interpreter.process_page(page)
+
+            text = fake_file_handle.getvalue()
+
+        # close open handles
+        converter.close()
+        fake_file_handle.close()
+
+        print(text)
+
+def main():
+#    AmiConfig.test()
+#    AmiConfig.test2_debug()
+#    AmiConfig.test_dicts()
+    pdfReader = PdfReader()
+    pdfReader.test();
+
+
+#    TrieNode.test()
+
+if __name__ == "__main__":
+    main()

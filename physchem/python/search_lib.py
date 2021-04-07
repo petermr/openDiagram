@@ -531,10 +531,10 @@ class AmiProjects:
         self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"), "26 oil plant papers")
         self.add_with_check(AmiProjects.CCT, os.path.join(DIAGRAMS_DIR, "satish", "cct"), "steel cooling curves"),
         self.add_with_check(AmiProjects.DIFFPROT, os.path.join(DIAGRAMS_DIR, "rahul", "diffprotexp"),
+                            "differential protein expression")
         # foreign resources
         self.add_with_check(AmiProjects.DISEASE, os.path.join(MINIPROJ, "disease", "1-part"), "disease papers")
         self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"), "186 oil plant papers")
-                            "differential protein expression")
         self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester", "synthesis"), "chemical syntheses")
         self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester", "explosion"), "explosion hazards")
 

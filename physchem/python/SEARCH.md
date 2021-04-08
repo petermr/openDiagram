@@ -2,15 +2,20 @@
 
 This outdates (2021-04-08) other docs
 
+## Overall objective is to combine `pygetpapers` and `pyami` (search_lib) into
+
+download PAPERS into PROJECTS , find SECTIONS and index with (DICTIONARIES and/or PATTERNS) into a searchable KNOWLEDGEBASE and analyse for new INSIGHTS.
+
+
 ## search_lib.py
 The scheme is:
 ````
-search SECTIONS in PROJECTS with (DICTIONARIES and/or PATTERNS) with DISPLAY options
+search SECTIONS in PROJECTS with (DICTIONARIES and/or PATTERNS) with (DISPLAY and/or ANALYSIS) options
 ````
 
 The command line is typically:
 ````
-python search_lib.py --proj p1 [p2...] --dict d1 [d2...] --sect s1 [s2...] --patt p1 [p2...]
+python search_lib.py --proj p1 [p2...] --dict d1 [d2...] --sect s1 [s2...] --patt p1 [p2...] [--plot pl1 [pl2...]]
 
 ````
 
@@ -37,7 +42,7 @@ optional arguments:
   -p [PROJ [PROJ ...]], --proj [PROJ [PROJ ...]]
                         projects to search; empty will give list
   --patt PATT [PATT ...]
-                        patterns to search with; regex may need quoting
+                        patterns to search with; regex may need quotingsearch SECTIONS in PROJECTS with (DICTIONARIES and/or PATTERNS) with DISPLAY options
   --demo [DEMO [DEMO ...]]
                         simple demos (NYI). empty gives list. May need
                         downloading corpora

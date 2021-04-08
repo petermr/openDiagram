@@ -52,6 +52,8 @@ class AmiSearch:
 
     LUKE_DEMO = "luke"
     ETHICS_DEMO = "ethics"
+    GENUS_DEMO = "ethics" # TODO
+    INVASIVE_DEMO = "invasive"
     PLANT_DEMO = "plant_parts"
     WORCESTER_DEMO = "worcester"
     WORD_DEMO = "word"
@@ -91,6 +93,7 @@ class AmiSearch:
     def run_demos(demos):
         demo_dict = {
             AmiSearch.ETHICS_DEMO : AmiSearch.ethics_demo,
+            AmiSearch.INVASIVE_DEMO : AmiSearch.invasive_demo,
             AmiSearch.LUKE_DEMO : AmiSearch.luke_demo,
             AmiSearch.PLANT_DEMO : AmiSearch.plant_parts_demo,
             AmiSearch.WORCESTER_DEMO : AmiSearch.worc_demo,
@@ -209,21 +212,35 @@ class AmiSearch:
     def search(self, file):
         words = TextUtil.get_words_in_section(file)
 #        print("words", len(words))
-        matches_by_amidict = self.match_words_against_dictionaries(words)
+        matches_by_amidict = self.match_single_words_against_dictionaries(words)
+        matches_by_multiple = self.match_multiple_words_against_dictionaries(words)
         matches_by_pattern = self.match_words_against_pattern(words)
 
         return matches_by_amidict, matches_by_pattern
 
-    def match_words_against_dictionaries(self, words):
+    def match_single_words_against_dictionaries(self, words):
         matches_by_amidict = {}
         found = False
         for dictionary in self.dictionaries:
             hits = dictionary.match(words)
-#            print("hits", len(hits))
+            #            print("hits", len(hits))
             if dictionary.entry_by_term is not None:
                 wid_hits = self.annotate_hits_with_wikidata(dictionary, hits)
             matches_by_amidict[dictionary.name] = wid_hits
         return matches_by_amidict
+
+    def match_multiple_words_against_dictionaries(self, words):
+        # really crude - we concatenate words into a giant string with
+        matches_by_multiple = {}
+        found = False
+
+        for dictionary in self.dictionaries:
+            hits = dictionary.match_multiple(words)
+            #            print("hits", len(hits))
+            if dictionary.entry_by_term is not None:
+                wid_hits = self.annotate_hits_with_wikidata(dictionary, hits)
+            matches_by_multiple[dictionary.name] = wid_hits
+        return matches_by_multiple
 
     def annotate_hits_with_wikidata(self, dictionary, hits):
         wid_hits = []
@@ -448,6 +465,18 @@ class AmiSearch:
 
 
     @staticmethod
+    def invasive_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.INTRO])
+        ami_search.use_dictionaries([AmiDictionaries.INVASIVE_PLANT])
+#        ami_search.use_dictionaries([AmiDictionaries.PLANT_GENUS]) # to check it works
+        ami_search.use_projects([AmiProjects.C_INVASIVE])
+
+        ami_search.run_search()
+
+    @staticmethod
     def luke_demo():
         ami_search = AmiSearch()
         ami_search.min_hits = 2
@@ -654,7 +683,26 @@ class SearchDictionary:
                             self.add_processed_term(term)
 
         #            print(len(self.term_set), list(sorted(self.term_set)))
-#        print ("terms", len(self.term_set))
+        #        print ("terms", len(self.term_set))
+        return self.term_set
+
+    def get_or_create_multiword_terms(self):
+        return
+        """NYI"""
+        if len(self.multiwords) == 0:
+            for entry in self.entries:
+                if SearchDictionary.TERM in entry.attrib:
+                    term = self.term_from_entry(entry)
+                    # single word terms
+                    if not " " in term:
+                        self.add_processed_term(term)
+                    elif self.split_terms:
+                        # multiword terms
+                        for term in " ".split(term):
+                            self.add_processed_term(term)
+
+        #            print(len(self.term_set), list(sorted(self.term_set)))
+        #        print ("terms", len(self.term_set))
         return self.term_set
 
     def term_from_entry(self, entry):
@@ -670,7 +718,17 @@ class SearchDictionary:
 
     def match(self, target_words):
         matched = []
-        self.get_or_create_term_set()
+        self.term_set = self.get_or_create_term_set()
+        for target_word in target_words:
+            target_word = target_word.lower()
+            if target_word in self.term_set:
+                matched.append(target_word)
+        return matched
+
+    def match_multiple(self, target_words):
+        """this will be slow with large dictionaries until we optimise the algorithm """
+        matched = []
+        self.get_or_create_multiword_terms()
         for target_word in target_words:
             target_word = target_word.lower()
             if target_word in self.term_set:
@@ -880,12 +938,34 @@ def main():
     import argparse
     import sys
 
+    parser = create_arg_parser()
+
+    args = parser.parse_args()
+    if len(sys.argv) == 1:
+        print(parser.print_help(sys.stderr))
+    elif args.demo is not None:
+        print("DEMOS")
+        AmiSearch.run_demos(args.demo)
+    else:
+        ami_search = AmiSearch()
+        copy_args_to_ami_search(args, ami_search)
+
+        if ami_search.do_search:
+            ami_search.run_search()
+
+# this profiles it
+#    test_profile1()
+    print("finished search")
+
+
+def create_arg_parser():
+    import argparse
     parser = argparse.ArgumentParser(description='Search sections with dictionaries and patterns')
     """
     """
-    parser.add_argument('-d', '--dict', nargs="*", # default=[AmiDictionaries.COUNTRY],
+    parser.add_argument('-d', '--dict', nargs="*",  # default=[AmiDictionaries.COUNTRY],
                         help='dictionaries to search with, empty gives list')
-    parser.add_argument('-s', '--sect', nargs="*", # default=[AmiSection.INTRO, AmiSection.RESULTS],
+    parser.add_argument('-s', '--sect', nargs="*",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
                         help='sections to search; empty gives all')
     parser.add_argument('-p', '--proj', nargs="*",
                         help='projects to search; empty will give list')
@@ -903,25 +983,7 @@ def main():
                         help='max bars on plot (NYI)')
     parser.add_argument('--languages', nargs="+", default=["en"],
                         help='languages (NYI)')
-
-    args = parser.parse_args()
-    if len(sys.argv) == 1:
-        print(parser.print_help(sys.stderr))
-    elif args.demo is not None:
-        print("DEMOS")
-        AmiSearch.run_demos(args.demo)
-    else:
-        ami_search = AmiSearch()
-        copy_args_to_ami_search(args, ami_search)
-
-        if ami_search.do_search:
-            ami_search.run_search()
-
-
-
-# this profiles it
-#    test_profile1()
-    print("finished search")
+    return parser
 
 
 def copy_args_to_ami_search(args, ami_search):

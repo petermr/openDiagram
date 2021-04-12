@@ -11,5 +11,7 @@
 * TESTS https://realpython.com/python-testing/
 * run from commandline
 * add debug level
+* strip LaTeX markup
+
 
 

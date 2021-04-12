@@ -138,7 +138,7 @@ class Document:
             print("skipping existing text")
         if ami_section.xml_file is not None:
             """read a file as an ami-section of larger document """
-            with open(ami_section.xml_file, "r") as f:
+            with open(ami_section.xml_file, "r", encoding="utf-8") as f:
                 ami_section.xml = f.read()
             # assumes this has been chunked to sections
             #        print("t", len(self.text), self.text[:50])
@@ -148,7 +148,7 @@ class Document:
             sentence_file = AmiSection.create_txt_filename_from_xml(ami_section.xml_file)
             if not os.path.exists(sentence_file):
 #                print("wrote sentence file", sentence_file)
-                Sentence.write_numbered_sentence_file(sentence_file, ami_section.sentences)
+                AmiSection.write_numbered_sentence_file(sentence_file, ami_section.sentences)
             ami_section.get_words_from_sentences()
         return ami_section.words
 
@@ -241,7 +241,7 @@ class AmiSection:
                 self.sentences = AmiSection.read_numbered_sentences_file(self.txt_file)
             elif os.path.exists(self.xml_file):
                 """read a file as an ami-section of larger document """
-                with open(self.xml_file, "r") as f:
+                with open(self.xml_file, "r", encoding="utf-8") as f:
                     try:
                         self.xml = f.read()
                     except Exception as ex:
@@ -284,7 +284,7 @@ class AmiSection:
     @staticmethod
     def write_numbered_sentence_file(file, sentences):
         """writes numbered sentences"""
-        with open(file, "w") as f:
+        with open(file, "w", encoding="utf-8") as f:
             for i, sentence in enumerate(sentences):
                 f.write(str(i) + Sentence.NUMBER_SPLIT + sentence.string + "\n")
 
@@ -294,7 +294,7 @@ class AmiSection:
 #        print("reading sentences")
         sentences = None
         if file is not None and os.path.exists(file):
-            with open(file, "r") as f:
+            with open(file, "r", encoding="utf-8") as f:
                 lines = f.readlines()
             if len(lines) == 0:
 #                print("warning empty file", file)

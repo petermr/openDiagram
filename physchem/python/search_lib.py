@@ -50,11 +50,13 @@ WORCESTER_DIR = os.path.join(PROJECTS, "worcester")
 
 class AmiSearch:
 
+    FIG_CAPTION_DEMO = "fig_caption"
     LUKE_DEMO = "luke"
     ETHICS_DEMO = "ethics"
-    GENUS_DEMO = "ethics" # TODO
+    GENUS_DEMO = "genus" # TODO
     INVASIVE_DEMO = "invasive"
-    PLANT_DEMO = "plant_parts"
+    MATTHEW_DEMO = "matthew"
+    PLANT_DEMO = "plant"
     WORCESTER_DEMO = "worcester"
     WORD_DEMO = "word"
 
@@ -93,8 +95,10 @@ class AmiSearch:
     def run_demos(demos):
         demo_dict = {
             AmiSearch.ETHICS_DEMO : AmiSearch.ethics_demo,
+            AmiSearch.FIG_CAPTION_DEMO : AmiSearch.fig_caption_demo,
             AmiSearch.INVASIVE_DEMO : AmiSearch.invasive_demo,
             AmiSearch.LUKE_DEMO : AmiSearch.luke_demo,
+            AmiSearch.MATTHEW_DEMO : AmiSearch.matthew_demo,
             AmiSearch.PLANT_DEMO : AmiSearch.plant_parts_demo,
             AmiSearch.WORCESTER_DEMO : AmiSearch.worc_demo,
             AmiSearch.WORD_DEMO : AmiSearch.word_demo,
@@ -116,23 +120,6 @@ class AmiSearch:
             if demo_funct is not None:
                 print("running:", demo_funct)
                 demo_funct()
-
-    """
-    def run_demos1(demos):
-        print("DEMO DICT", demos)
-        for demo in demos:
-            if AmiSearch.ETHICS_DEMO == demo:
-                AmiSearch.ethics_demo()
-            if  AmiSearch.LUKE_DEMO == demo:
-                AmiSearch.luke_demo()
-            if AmiSearch.PLANT_DEMO == demo:
-                AmiSearch.plant_parts_demo()
-            if AmiSearch.WORCESTER_DEMO == demo:
-                AmiSearch.worc_demo()
-            if AmiSearch.WORD_DEMO == demo:
-                AmiSearch.word_demo()
-        print("END DEMO DICT")
-    """
 
     def make_graph(self, counter, dict_name):
         import matplotlib as mpl
@@ -392,7 +379,7 @@ class AmiSearch:
             AmiDictionaries.COMPOUND,
             AmiDictionaries.INVASIVE_PLANT,
             AmiDictionaries.PLANT,
-            AmiDictionaries.PLANT_COMPOUND,
+ #           AmiDictionaries.PLANT_COMPOUND,
             AmiDictionaries.PLANT_PART,
             AmiDictionaries.PLANT_GENUS,
 
@@ -450,6 +437,36 @@ class AmiSearch:
         ami_search.run_search()
 
     @staticmethod
+    def fig_caption_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.FIG_CAPTION, ])
+#        ami_search.use_dictionaries([AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE, ])
+        ami_search.use_projects([AmiProjects.CCT, ])
+
+        ami_search.use_pattern("Fig(ure)?", "FIG")
+        ami_search.use_pattern("_ALL", "_all")
+
+        ami_search.run_search()
+
+    @staticmethod
+    def matthew_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.FIG_CAPTION, AmiSection.METHOD])
+        ami_search.use_dictionaries([AmiDictionaries.ELEMENT, AmiDictionaries.CRYSTAL, AmiDictionaries.MAGNETISM])
+        ami_search.use_projects([AmiProjects.LIION10, ])
+
+        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
+        ami_search.use_pattern("_ALLCAPS", "all_capz")
+        ami_search.use_pattern("_ALL", "_all")
+
+        ami_search.run_search()
+
+
+    @staticmethod
     def species_demo():
         ami_search = AmiSearch()
         ami_search.min_hits = 2
@@ -470,9 +487,11 @@ class AmiSearch:
         ami_search.min_hits = 2
 
         ami_search.use_sections([AmiSection.INTRO])
+        ami_search.use_sections([AmiSection.METHOD])
         ami_search.use_dictionaries([AmiDictionaries.INVASIVE_PLANT])
 #        ami_search.use_dictionaries([AmiDictionaries.PLANT_GENUS]) # to check it works
         ami_search.use_projects([AmiProjects.C_INVASIVE])
+        ami_search.use_projects([AmiProjects.OIL186])
 
         ami_search.run_search()
 
@@ -501,6 +520,10 @@ class AmiSearch:
         ami_search.use_dictionaries([AmiDictionaries.SOLVENT])
         ami_search.use_dictionaries([AmiDictionaries.NMR])
         ami_search.use_projects([AmiProjects.WORC_EXPLOSION, AmiProjects.WORC_SYNTH])
+
+        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
+        ami_search.use_pattern("_ALLCAPS", "all_capz")
+        ami_search.use_pattern("_ALL", "_all")
 
         ami_search.run_search()
 
@@ -674,13 +697,15 @@ class SearchDictionary:
             for entry in self.entries:
                 if SearchDictionary.TERM in entry.attrib:
                     term = self.term_from_entry(entry)
+#                    print("tterm", term)
                     # single word terms
                     if not " " in term:
                         self.add_processed_term(term)
                     elif self.split_terms:
                         # multiword terms
-                        for term in " ".split(term):
-                            self.add_processed_term(term)
+                        for termx in term.split(" "):
+                            print("term", termx)
+                            self.add_processed_term(termx)
 
         #            print(len(self.term_set), list(sorted(self.term_set)))
         #        print ("terms", len(self.term_set))
@@ -824,7 +849,7 @@ class AmiDictionaries:
 
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
         self.add_with_check(AmiDictionaries.ACTIVITY,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoActivity", "Activity.xml"))
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoActivity", "eo_activity", "activity.xml"))
         self.add_with_check(AmiDictionaries.COUNTRY,
                             os.path.join(OV21_DIR, "country", "country.xml"))
         self.add_with_check(AmiDictionaries.DISEASE,
@@ -836,7 +861,7 @@ class AmiDictionaries:
 #                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant.xml"))
 # latest dictionary
         self.add_with_check(AmiDictionaries.PLANT,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "Plant.xml"))
+                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "plant.xml"))
         self.add_with_check(AmiDictionaries.PLANT_GENUS,
                             os.path.join(CEV_OPEN_DICT_DIR, "plant_genus", "plant_genus.xml"))
         self.add_with_check(AmiDictionaries.ORGANIZATION,
@@ -851,7 +876,7 @@ class AmiDictionaries:
 #                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant", "Plant.xml"))
 # invasive / Users / pm286 / projects / CEVOpen / dictionary / Invasive_species / invasive_species.xml
         self.add_with_check(AmiDictionaries.INVASIVE_PLANT,
-                            os.path.join(CEV_OPEN_DICT_DIR, "Invasive_species", "invasive_species.xml"))
+                            os.path.join(CEV_OPEN_DICT_DIR, "Invasive_species", "invasive_plant.xml"))
 
         print ("core dicts", self.dictionary_dict.keys())
         self.make_ami3_dictionaries()

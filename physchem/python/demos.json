@@ -1,0 +1,70 @@
+{
+  "CLASSES" : [
+    AmiDictiomaries,
+    AmiProjects,
+    AmiSearch,
+    AmiSection,
+  ],
+  "PROJECTS" : [
+    AmiProjects.OIL26,
+    AmiProjects.OIL186,
+    AmiProjects.CCT,
+    AmiProjects.DIFFPROT,
+    AmiProjects.WORC_EXPLOSION,
+    AmiProjects.WORC_SYNTH,
+
+    # minipprjects
+    AmiProjects.C_ACTIVITY,
+    AmiProjects.C_INVASIVE,
+    AmiProjects.C_HYDRODISTIL,
+    AmiProjects.C_PLANT_PART,
+
+  ]
+  "DEMOS" : [
+    AmiProjects.OIL26,
+    ...
+
+  ]
+}
+  "plant_parts_demo": {
+    "FLAGS": {
+      "min_hits": 2,
+      "wikidata_label_lang": "en"
+    },
+    "SECTIONS": [
+      AmiSection.INTRO,
+      AmiSection.METHOD
+    ],
+    "DICTIONARIES" : [
+    AmiDictionaries.ACTIVITY,
+    AmiDictionaries.COMPOUND,
+    AmiDictionaries.INVASIVE_PLANT,
+    AmiDictionaries.PLANT,
+    AmiDictionaries.PLANT_PART,
+    AmiDictionaries.PLANT_GENUS
+  ],
+    "PROJECTS" : [
+        ami_search.use_projects([
+            AmiProjects.OIL186,
+
+#        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
+#        ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
+#        ami_search.use_pattern("^[A-Z]{1,}\d{1,}$", "AB12")
+#        ami_search.use_pattern("_ALLCAPS", "all_capz")
+#        ami_search.use_pattern("_NUMBERS", "numberz")
+
+    @staticmethod
+    def ethics_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.ETHICS, ])
+        ami_search.use_dictionaries([AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE, ])
+        ami_search.use_projects([AmiProjects.DISEASE, ])
+        ami_search.use_filters([WordFilter.ORG_STOP])
+
+        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
+        ami_search.use_pattern("_ALLCAPS", "all_capz")
+        ami_search.use_pattern("_ALL", "_all")
+
+        ami_search.run_search()

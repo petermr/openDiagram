@@ -11,6 +11,7 @@ from lxml import etree as ET
 from collections import Counter
 import re
 import unicodedata
+import json
 
 HOME = os.path.expanduser("~")
 PYDIAG = "../../python/diagrams"
@@ -27,6 +28,7 @@ OPEN_DIAGRAM_SEARCH = os.path.join(OPEN_DIAGRAM, "searches")
 
 PHYSCHEM = os.path.join(OPEN_DIAGRAM, "physchem")
 PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
+PHYSCHEM_PYTHON = os.path.join(PHYSCHEM, "python")   # where code and config lives
 DIAGRAMS_DIR = os.path.join(PROJECTS, "openDiagram", "python", "diagrams")
 
 # require CEVOpen repo
@@ -59,6 +61,9 @@ class AmiSearch:
     PLANT_DEMO = "plant"
     WORCESTER_DEMO = "worcester"
     WORD_DEMO = "word"
+
+    DEMOS_JSON = os.path.join(PHYSCHEM_PYTHON, "demos.json")
+
 
     def __init__(self):
         # these are the main facets
@@ -379,40 +384,17 @@ class AmiSearch:
             AmiDictionaries.COMPOUND,
             AmiDictionaries.INVASIVE_PLANT,
             AmiDictionaries.PLANT,
- #           AmiDictionaries.PLANT_COMPOUND,
             AmiDictionaries.PLANT_PART,
             AmiDictionaries.PLANT_GENUS,
-
-#            AmiDictionaries.PLANT,
-#            AmiDictionaries.PLANT_PART,
-
-#            AmiDictionaries.GENUS,
-#            AmiDictionaries.ELEMENT,
-#            AmiDictionaries.SOLVENT,
         ])
         ami_search.use_projects([
-#            AmiProjects.OIL26,
             AmiProjects.OIL186,
-#            AmiProjects.CCT,
-#            AmiProjects.DIFFPROT,
-#            AmiProjects.WORC_EXPLOSION,
-#            AmiProjects.WORC_SYNTH,
-
-            # minipprjects
-#            AmiProjects.C_ACTIVITY,
-#            AmiProjects.C_INVASIVE,
-#            AmiProjects.C_HYDRODISTIL,
-#            AmiProjects.C_PLANT_PART,
         ])
         ami_search.use_filters([
             WordFilter.ORG_STOP
         ])
 
 #        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
-#        ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
-#        ami_search.use_pattern("^[A-Z]{1,}\d{1,}$", "AB12")
-#        ami_search.use_pattern("_ALLCAPS", "all_capz")
-#        ami_search.use_pattern("_NUMBERS", "numberz")
 
         if ami_search.do_search:
             ami_search.run_search()
@@ -486,10 +468,12 @@ class AmiSearch:
         ami_search = AmiSearch()
         ami_search.min_hits = 2
 
-        ami_search.use_sections([AmiSection.INTRO])
-        ami_search.use_sections([AmiSection.METHOD])
+#        ami_search.use_sections([AmiSection.INTRO])
+#        ami_search.use_sections([AmiSection.METHOD])
+#        ami_search.use_sections([AmiSection.REF])
+        ami_search.use_sections([AmiSection.SECTIONS])
         ami_search.use_dictionaries([AmiDictionaries.INVASIVE_PLANT])
-#        ami_search.use_dictionaries([AmiDictionaries.PLANT_GENUS]) # to check it works
+        ami_search.use_dictionaries([AmiDictionaries.PLANT_GENUS]) # to check it works
         ami_search.use_projects([AmiProjects.C_INVASIVE])
         ami_search.use_projects([AmiProjects.OIL186])
 
@@ -541,6 +525,100 @@ class AmiSearch:
 
         ami_search.run_search()
 
+
+class AmiRun:
+
+    SECTIONS = "sections"
+    DICTIONARIES = "dictionaries"
+    PROJECTS = "projects"
+    PATTERNS = "patterns"
+    DEFAULTS = "defaults"
+
+    def __init__(self, params, ami_runner):
+        print("AMIRUNNER", dir(ami_runner))
+        self.params = params
+        self.sections = self._copy_params(__class__.SECTIONS)
+        self.ami_sections = AmiSection()
+        self.dictionaries = self._copy_params(__class__.DICTIONARIES)
+        self.ami_dictionaries = AmiDictionaries()
+        self.projects = self._copy_params(__class__.PROJECTS)
+        self.ami_projects = AmiProjects()
+        self.patterns = self._copy_params(__class__.PATTERNS)
+# copying defaults to be partially overridden
+        self.defalts = ami_runner.resources[__class__.DEFAULTS]
+        self.ami_runner = ami_runner
+
+        print("defaults", self.defalts)
+        print("sections", self.sections)
+        print("dictionaries", self.dictionaries)
+        print("projects", self.projects)
+        print("patterns", self.patterns)
+
+        return
+
+    def _copy_params(self, type):
+        return self.params[type] if type in self.params else []
+
+    def resolve_refs(self):
+
+        for section in self.sections:
+            if section not in self.ami_sections.SECTION_LIST:
+                print("sectionsx ", section, "not in", self.ami_sections.SECTION_LIST)
+
+        for dictionary in self.dictionaries:
+            if not dictionary in self.ami_dictionaries.dictionary_dict:
+                print("Cannot find dictionary:", dictionary, "\n", self.ami_dictionaries.dictionary_dict)
+
+        for defalt in self.defalts.items():
+            print("def", defalt)
+            self.__setattr__(defalt[0], defalt[1])
+        print("attrs", dir(self))
+
+        # check section_names
+
+
+class AmiRunner:
+
+    RESOURCES = "resources"
+    PROJECTS = "projects"
+    CLASSES = "classes"
+    PATTERNS = "patterns"
+    DEFAULTS = "defaults"
+    DEMOS = "demos"
+
+
+    def __init__(self):
+        self.runs = {}
+        self.ami_dicts = AmiDictionaries()
+
+    def read_config(self, file):
+        print("reading JSON", file)
+        with open(file, "r") as json_file:
+            data = json.load(json_file)
+
+        self.resources = data[__class__.RESOURCES]
+        print("RES keys", self.resources.keys())
+        self.classes   = self.resources[__class__.CLASSES]
+        self.projects  = self.resources[__class__.PROJECTS]
+        self.patterns  = self.resources[__class__.PATTERNS]
+        self.defalts  = self.resources[__class__.DEFAULTS]
+        self.demos     = data[__class__.DEMOS]
+
+        print("resources", self.resources)
+        print("classes", self.classes)
+        print("projects", self.projects)
+        print("patterns", self.patterns)
+        print("defaults", self.defalts)
+        print("demos", self.demos)
+
+        for key, val in self.demos.items():
+            print("======"+key+"======")
+            ami_run = AmiRun(val, self)
+            self.runs[key] = ami_run
+            ami_run.resolve_refs()
+            print("===================")
+
+        print("json", data)
 
 
 class SimpleDict:
@@ -687,6 +765,7 @@ class SearchDictionary:
         self.root = self.amidict.getroot()
         self.name = self.root.attrib["title"]
         self.ignorecase = ignorecase
+
         self.entries = list(self.root.findall("entry"))
         self.create_entry_by_term();
         self.term_set = set()
@@ -704,7 +783,7 @@ class SearchDictionary:
                     elif self.split_terms:
                         # multiword terms
                         for termx in term.split(" "):
-                            print("term", termx)
+#                            print("term", termx)
                             self.add_processed_term(termx)
 
         #            print(len(self.term_set), list(sorted(self.term_set)))
@@ -780,22 +859,8 @@ class AmiDictionaries:
     PLANT_COMPOUND = "plant_compound"
     PLANT = "plant"
     PLANT_PART = "plant_part"
-    SOLVENT = "solvent"
+    SOLVENT = "solvents"
 
-    DICT_LIST = [
-        ACTIVITY,
-        COMPOUND,
-        COUNTRY,
-        DISEASE,
-        ELEMENT,
-        INVASIVE_PLANT,
-        PLANT_GENUS,
-        ORGANIZATION,
-        PLANT,
-        PLANT_COMPOUND,
-        PLANT_PART,
-        SOLVENT,
-    ]
 
     ANIMAL_TEST = "animaltest"
     COCHRANE = "cochrane"
@@ -832,16 +897,72 @@ class AmiDictionaries:
     WETLANDS = "wetlands"
     WILDLIFE = "wildlife"
 
+    """
+    DICT_LIST = [
+        ACTIVITY,
+        COMPOUND,
+        COUNTRY,
+        DISEASE,
+        ELEMENT,
+        INVASIVE_PLANT,
+        PLANT_GENUS,
+        ORGANIZATION,
+        PLANT,
+        PLANT_COMPOUND,
+        PLANT_PART,
+        SOLVENT,
+        
+        ANIMAL_TEST = "animaltest"
+        COCHRANE = "cochrane"
+        COMP_CHEM = "compchem"
+        CRISPR = "crispr"
+        CRYSTAL = "crystal"
+        DISTRIBUTION = "distributions"
+        DITERPENE = "diterpene"
+        DRUG = "drugs"
+        EDGE_MAMMAL = "edgemammals"
+        CHEM_ELEMENT = "elements"
+        EPIDEMIC = "epidemic"
+        EUROFUNDER = "eurofunders"
+        ILLEGAL_DRUG = "illegaldrugs"
+        INN = "inn"
+        INSECTICIDE = "insecticide"
+        MAGNETISM = "magnetism"
+        MONOTERPENE = "monoterpene"
+        NAL = "nal"
+        NMR = "nmrspectroscopy"
+        OBESITY = "obesity"
+        OPTOGENETICS = "optogenetics"
+        PECTIN = "pectin"
+        PHOTOSYNTH = "photosynth"
+        PLANT_DEV = "plantDevelopment"
+        POVERTY = "poverty"
+        PROT_STRUCT = "proteinstruct"
+        PROT_PRED = "protpredict"
+        REFUGEE = "refugeeUNHCR"
+        SESQUITERPENE = "sesquiterpene"
+        SOLVENT = "solvents"
+        STATISTICS = "statistics"
+        TROPICAL_VIRUS = "tropicalVirus"
+        WETLANDS = "wetlands"
+        WILDLIFE = "wildlife"
+
+    ]
+
+    """
 
     def __init__(self):
         self.create_search_dictionary_dict()
 
+    """
     @staticmethod
+    #Not used?
     def check_dicts(dicts):
         for dikt in dicts:
             if dikt not in SearchDictionary.DICT_LIST:
                 print("allowed dictionaries", SearchDictionary.DICT_LIST)
                 raise Exception ("unknown dictionary: ", dikt)
+    """
 
     def create_search_dictionary_dict(self):
         self.dictionary_dict = {}
@@ -856,29 +977,19 @@ class AmiDictionaries:
                             os.path.join(OV21_DIR, "disease", "disease.xml"))
         self.add_with_check(AmiDictionaries.COMPOUND,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
-        # /Users/pm286/dictionary/cevopen/plant_genus/eo_plant_genus.xml
-#        self.add_with_check(AmiDictionaries.PLANT,
-#                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant.xml"))
-# latest dictionary
         self.add_with_check(AmiDictionaries.PLANT,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "plant.xml"))
         self.add_with_check(AmiDictionaries.PLANT_GENUS,
                             os.path.join(CEV_OPEN_DICT_DIR, "plant_genus", "plant_genus.xml"))
         self.add_with_check(AmiDictionaries.ORGANIZATION,
                             os.path.join(OV21_DIR, "organization", "organization.xml"))
-#        / Users / pm286 / projects / CEVOpen / dictionary / eoCompound / plant_compounds.xml
         self.add_with_check(AmiDictionaries.PLANT_COMPOUND,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
-        # /Users/pm286/projects/CEVOpen/dictionary/eoPlantPart/eoplant_part.xml
         self.add_with_check(AmiDictionaries.PLANT_PART,
                             os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
-#        self.add_with_check(AmiDictionaries.PLANT,
-#                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "eoPlant", "Plant.xml"))
-# invasive / Users / pm286 / projects / CEVOpen / dictionary / Invasive_species / invasive_species.xml
         self.add_with_check(AmiDictionaries.INVASIVE_PLANT,
                             os.path.join(CEV_OPEN_DICT_DIR, "Invasive_species", "invasive_plant.xml"))
 
-        print ("core dicts", self.dictionary_dict.keys())
         self.make_ami3_dictionaries()
 
 # tests - will remove as soon as I have learnt how to do tests
@@ -888,7 +999,15 @@ class AmiDictionaries:
             self.add_with_check(AmiDictionaries.PLANT_PART,
                     os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))  # should throw duplicate key
 
+#        self.print_dicts()
         return self.dictionary_dict
+
+    def print_dicts(self):
+        print("DICTIONARIES LOADED")
+        dd = dir(self)
+        for d in dd:
+            if d[0].isupper():
+                print(">>", d)
 
     def make_ami3_dictionaries(self):
 
@@ -964,9 +1083,13 @@ def main():
     import sys
 
     parser = create_arg_parser()
+    local_test = 1
 
     args = parser.parse_args()
-    if len(sys.argv) == 1:
+    if local_test is not None:
+        ami_runs = AmiRunner();
+        ami_runs.read_config(AmiSearch.DEMOS_JSON)
+    elif len(sys.argv) == 1:
         print(parser.print_help(sys.stderr))
     elif args.demo is not None:
         print("DEMOS")

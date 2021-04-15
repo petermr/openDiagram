@@ -180,7 +180,7 @@ class AmiPath:
                 glob += "." + AmiPath.convert_to_glob(value)
             else:
                 glob += AmiPath.convert_to_glob(value) + "/"
-        print("glob", glob)
+        print("glob", scheme, "=>", glob)
         return glob
 
     @staticmethod

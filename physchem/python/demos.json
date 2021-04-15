@@ -1,70 +1,110 @@
 {
-  "CLASSES" : [
-    AmiDictiomaries,
-    AmiProjects,
-    AmiSearch,
-    AmiSection,
-  ],
-  "PROJECTS" : [
-    AmiProjects.OIL26,
-    AmiProjects.OIL186,
-    AmiProjects.CCT,
-    AmiProjects.DIFFPROT,
-    AmiProjects.WORC_EXPLOSION,
-    AmiProjects.WORC_SYNTH,
+	"resources": {
+		"classes": [
+			"AmiDictionaries",
+			"AmiProjects",
+			"AmiSearch",
+			"AmiSection"
+		],
+		"projects": {
+			"OIL26":          "AmiProjects.OIL26",
+			"OIL186":         "AmiProjects.OIL186",
+			"CCT":            "AmiProjects.CCT",
+			"DIFFPROT":       "AmiProjects.DIFFPROT",
+			"WORC_EXPLOSION": "AmiProjects.WORC_EXPLOSION",
+			"WORC_SYNTH":     "AmiProjects.WORC_SYNTH",
+			"C_ACTIVITY":     "AmiProjects.C_ACTIVITY",
+			"C_INVASIVE":     "AmiProjects.C_INVASIVE",
+			"C_HYDRODISTIL":  "AmiProjects.C_HYDRODISTIL",
+			"C_PLANT_PART":   "AmiProjects.C_PLANT_PART"
+		},
+		"patterns": {
+			"genus_rx": "(^[A-Z].$)",
+			"all_caps_rx": "(^[A-Z]{3,}$)",
+			"cap_number_rx": "(^[A-Z]{1,}d{1,}$)",
+			"_ALLCAPS": "_ALLCAPS",
+			"_NUMBERS": "_NUMBERS",
+			"FIG": "Fig(ure)?",
+			"ALL": "_ALL"
+		},
+		"defaults": {
+			"max_files": "10000",
+			"min_hits": "2",
+			"wikidata_label_lang": "en",
+			"debug": "False",
+	        "do_search": "True",
+	        "do_plot": "True",
+			"max_bars": "20",
+	        "self.debug_cnt": "10000",
+        	"require_wikidata": "False"
+		}
+	},
+	"demos": {
+		"plant_demo": {
+			"min_hits": "2",
+			"wikidata_label_lang": "en",
+			"sections": ["INTRO", "METHOD"],
+			"dictionaries": ["activity", "compound", "invasive_plant", "plant",  "plant_part", "plant_genus"],
+			"projects": ["OIL186", "INVASIVE_PLANT"]
+		},
+		
+		"ethics_demo": {
+			"sections": ["ETHICS"],
+			"dictionaries": ["country",	"disease"],
+			"projects": ["DISEASE"],
+			"patterns": ["allcaps"]
+		},
 
-    # minipprjects
-    AmiProjects.C_ACTIVITY,
-    AmiProjects.C_INVASIVE,
-    AmiProjects.C_HYDRODISTIL,
-    AmiProjects.C_PLANT_PART,
+    	"fig_caption_demo": {
+			"sections": ["FIG_CAPTION"],
+			"dictionaries": ["country", "disease"],
+			"projects": ["CCT"],
+			"patterns": ["FIG"]
+		},
+		
+		"matthew_demo": {
+			"sections": ["FIG_CAPTION", "METHOD"],
+        	"dictionaries": ["elements", "crystal", "magnetism"],
+			"projects": ["LIION10"],
+			"patterns": ["AB12", "_ALLCAPS", "_ALL"]
+		},
 
-  ]
-  "DEMOS" : [
-    AmiProjects.OIL26,
-    ...
+    	"species_demo": {
+			"sections": ["INTRO", "METHOD"],
+        	"dictionaries": ["country", "disease"],
+        	"projects": ["OIL26"],
+			"patterns": ["SPECIES", "ITALICS"]
+		},
 
-  ]
+    	"invasive_demo": {
+			"sections": ["SECTIONS"],
+			"dictionaries": ["invasive_plant", "plant_genus"],
+        	"projects": ["C_INVASIVE", "OIL186"]
+		},
+
+		"luke_demo": {
+
+        	"sections": ["METHOD"],
+        	"dictionaries": ["elements"],
+        	"projects":  ["FFML20"],
+        	"patterns": ["AB12", "_ALLCAPS", "_ALL"]
+		},
+	
+		"worc_demo": {
+
+			"sections": ["METHOD"],
+        	"dictionaries": ["elements","solvents","nmrspectroscopy"],
+        	"projects": ["WORC_EXPLOSION", "ORC_SYNTH"],
+        	"patterns": ["AB12", "_ALLCAPS", "_ALL"]
+		},
+
+		"word_demo": {
+
+			"sections": ["METHOD"],
+        	"projects":["WORC_EXPLOSION", "WORC_SYNTH"],
+        	"patterns": ["AB12", "_ALLCAP", "_ALL"]
+
+		}
+	}
+
 }
-  "plant_parts_demo": {
-    "FLAGS": {
-      "min_hits": 2,
-      "wikidata_label_lang": "en"
-    },
-    "SECTIONS": [
-      AmiSection.INTRO,
-      AmiSection.METHOD
-    ],
-    "DICTIONARIES" : [
-    AmiDictionaries.ACTIVITY,
-    AmiDictionaries.COMPOUND,
-    AmiDictionaries.INVASIVE_PLANT,
-    AmiDictionaries.PLANT,
-    AmiDictionaries.PLANT_PART,
-    AmiDictionaries.PLANT_GENUS
-  ],
-    "PROJECTS" : [
-        ami_search.use_projects([
-            AmiProjects.OIL186,
-
-#        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
-#        ami_search.add_regex("all_caps", "^[A-Z]{3,}$")
-#        ami_search.use_pattern("^[A-Z]{1,}\d{1,}$", "AB12")
-#        ami_search.use_pattern("_ALLCAPS", "all_capz")
-#        ami_search.use_pattern("_NUMBERS", "numberz")
-
-    @staticmethod
-    def ethics_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.ETHICS, ])
-        ami_search.use_dictionaries([AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE, ])
-        ami_search.use_projects([AmiProjects.DISEASE, ])
-        ami_search.use_filters([WordFilter.ORG_STOP])
-
-        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
-        ami_search.use_pattern("_ALLCAPS", "all_capz")
-        ami_search.use_pattern("_ALL", "_all")
-
-        ami_search.run_search()

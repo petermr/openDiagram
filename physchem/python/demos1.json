@@ -1,0 +1,54 @@
+{
+	"resources": {
+		"classes": [
+			"AmiDictionaries",
+			"AmiProjects",
+			"AmiSearch",
+			"AmiSection"
+		],
+		"projects": [
+			"AmiProjects.OIL26",
+			"AmiProjects.OIL186",
+			"AmiProjects.CCT",
+			"AmiProjects.DIFFPROT",
+			"AmiProjects.WORC_EXPLOSION",
+			"AmiProjects.WORC_SYNTH",
+			"AmiProjects.C_ACTIVITY",
+			"AmiProjects.C_INVASIVE",
+			"AmiProjects.C_HYDRODISTIL",
+			"AmiProjects.C_PLANT_PART"
+		],
+		"patterns": {
+			"genus_rx": "(^[A-Z].$)",
+			"all_caps_rx": "(^[A-Z]{3,}$)",
+			"cap_number_rx": "(^[A-Z]{1,}d{1,}$)",
+			"_ALLCAPS": "_ALLCAPS",
+			"_NUMBERS": "_NUMBERS"
+		},
+		"default_values": {
+			"min_hits": "2",
+			"wikidata_label_lang": "en"
+		}
+	},
+	"demos": {
+		"plant_demo": {
+			"sections": [
+				"INTRO",
+				"METHOD"
+			],
+			"dictionaries": [
+				"ACTIVITY",
+				"COMPOUND",
+				"INVASIVE_PLANT",
+				"PLANT",
+				"PLANT_PART",
+				"PLANT_GENUS"
+			],
+			"projects": [
+				"OIL186",
+				"INVASIVE_PLANT"
+			]
+		},
+		"foo_demo": "bar"
+	}
+}

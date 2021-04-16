@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <p>The tumor microenvironment (TME) plays a critical role in the initiation and progression of cancer. However, the specific mechanism of its regulation in head and neck squamous cell carcinoma (HNSCC) remains unclear. In this study, we first applied the ESTIMATE method to calculate the immune and stromal scores in patients’ tumor tissues from The Cancer Genome Atlas (TCGA) database. GSE41613, GSE30784, and GSE37991 data sets from the Gene Expression Omnibus (GEO) database were recruited for further validation. Differentially expressed genes (DEGs) were identified and then analyzed by Cox regression analysis and protein-protein interaction (PPI) network construction. DEGs significantly associated with prognosis and TME will be identified as hub genes. These genes were also validated at the protein level by immunohistochemical analysis of 10 pairs of primary tumor tissues and the adjacent normal tissues from our institution. The relationship between hub genes expression and immune cell fraction estimated by CIBERSORT software was also examined. 275 DEGs were significantly associated with TME. 
+  <italic>CCR4, CCR8</italic>, and 
+  <italic>P2RY14</italic> have then identified as hub genes by intersection Cox and PPI analysis. Further investigation revealed that the expression of 
+  <italic>CCR4, CCR8</italic>, and 
+  <italic>P2RY14</italic> was negatively correlated with clinicopathological characteristics (clinical stage, T stage) and positively associated with survival in HNSCC patients, especially in male patients. The expression of 
+  <italic>CCR8</italic> and 
+  <italic>P2RY14</italic> was lower in males than in females. 
+  <italic>CCR8</italic> and 
+  <italic>P2RY14</italic> were differentially expressed in tumor tissues than normal tissues, and the results were validated at the protein level by immunohistochemistry experiments. Gene set enrichment analysis (GSEA) showed that the high expression groups’ hub genes were mainly enriched for immune-related activities. In the low-expression groups, genes were primarily enriched in metabolic pathways. CIBERSORT results showed that the expression of these genes was all negatively correlated with the fraction of memory B cells and positively correlated with the fraction of the other four cells, including naive B cells, resting T cells CD4 memory, T cells follicular helper, and T cells regulatory (Tregs). The results suggest that 
+  <italic>CCR4, CCR8</italic>, and 
+  <italic>P2RY14</italic> may be responsible for maintaining the immune dominance of TME, thus leading to a better prognosis.
+ </p>
+</abstract>

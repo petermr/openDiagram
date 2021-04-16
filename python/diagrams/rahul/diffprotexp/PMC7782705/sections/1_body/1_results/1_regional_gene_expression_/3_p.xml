@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">Next, we used gene set enrichment analyses (GSEA) to assess the functional profile of the DEGs identified in our analysis. Again, we used only genes commonly altered in two datasets (TLI or FLI) to avoid inaccurate results associated with the use of large gene sets in functional analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>. We found that TLI DEGs were significantly enriched for terms (GO:BP, GO:CC and KEGG) associated with generic biological processes, such as cell-signaling pathways and cell-cell signaling, whereas the small number of DEGs in the FLI were not significantly enriched for any term (Fig. 
+ <xref rid="Fig2" ref-type="fig">2C</xref> and Supplementary Table 
+ <xref rid="MOESM4" ref-type="media">3</xref>). The limited number of significant gene set enrichment observed in our analysis after inputting DEGs is in disagreement with results reported by Canchi et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup>. This discrepancy can likely be explained by the use of stringent criteria to detect TLI DEGs in our study (only genes detected in at least two independent datasets with FC &gt; 1.3 and FDR &lt; 0.01), which significantly reduce the number of genes used in the GSEA.
+</p>

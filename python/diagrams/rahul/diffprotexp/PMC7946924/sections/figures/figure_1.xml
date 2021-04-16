@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Figure 1</label>
+ <caption>
+  <p>Dry mass accumulation of apical (close symbols) and basal (open symbols) spikelets during post-anthesis period from 0 to 30 days at 5 days interval in SR-157, (
+   <bold>a</bold>) and SR-159, (
+   <bold>b</bold>) The graph has been plotted in terms of logistic growth curve equation, 
+   <inline-formula id="IEq1">
+    <alternatives>
+     <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\text{W}}\left( {\text{t}} \right) \, = {\text{ Wo M }}/ \, \left[ {{\text{Wo }} + \, \left( {{\text{M }} - {\text{ Wo}}} \right)^{{{-}{\text{kt}}}} } \right]$$\end{document}</tex-math>
+     <math id="M4">
+      <mrow>
+       <mtext>W</mtext>
+       <mfenced close=")" open="(">
+        <mtext>t</mtext>
+       </mfenced>
+       <mspace width="0.166667em"/>
+       <mo>=</mo>
+       <mrow>
+        <mspace width="0.333333em"/>
+        <mtext>Wo M</mtext>
+        <mspace width="0.333333em"/>
+       </mrow>
+       <mo stretchy="false">/</mo>
+       <mspace width="0.166667em"/>
+       <mfenced close="]" open="[">
+        <mrow>
+         <mrow>
+          <mtext>Wo</mtext>
+          <mspace width="0.333333em"/>
+         </mrow>
+         <mo>+</mo>
+         <mspace width="0.166667em"/>
+         <msup>
+          <mfenced close=")" open="(">
+           <mrow>
+            <mrow>
+             <mtext>M</mtext>
+             <mspace width="0.333333em"/>
+            </mrow>
+            <mo>-</mo>
+            <mrow>
+             <mspace width="0.333333em"/>
+             <mtext>Wo</mtext>
+            </mrow>
+           </mrow>
+          </mfenced>
+          <mrow>
+           <mo>-</mo>
+           <mtext>kt</mtext>
+          </mrow>
+         </msup>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </math>
+     <inline-graphic xlink:href="41598_2021_84663_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </alternatives>
+   </inline-formula>
+   <sup>
+    <xref ref-type="bibr" rid="CR48">48</xref>
+   </sup>, where W (t), grain weight at a particular time ‘t’; Wo, initial grain weight; M, maximum grain weight; k, growth rate constant calculated from Microsoft Excel solver, 2007; t, time.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_84663_Fig2_HTML" id="MO100" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

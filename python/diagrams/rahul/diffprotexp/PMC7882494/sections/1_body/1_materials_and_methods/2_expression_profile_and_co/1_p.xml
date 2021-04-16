@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The functional expression of COL11A1 gene in colon carcinoma is analyzed using UALCAN
+ <sup>
+  <xref ref-type="fn" rid="footnote3">3</xref>
+ </sup>, a public server to analyze the cancer OMICS data (TCGA and MET500), built upon PERL-CGI with high-quality graphics through javascript and CSS to provide graphs and plots depicting gene expression, survival information, epigenetic regulation, and also correlation among gene (
+ <xref rid="B4" ref-type="bibr">Chandrashekar et al., 2017</xref>). It is used here to analyze the expression and promoter methylations of the COL11A1 gene in colon adenocarcinoma based on clinicopathological features including sample type, individual cancer stage, patients’ sex and age, histological subtype, nodal metastasis status, and TP53 mutation status and are listed in 
+ <xref ref-type="supplementary-material" rid="DS1">Supplementary Tables 2</xref>,
+ <xref ref-type="supplementary-material" rid="DS1">3</xref>. The correlation of expression between the COL11A1 with THBS2, COL10A1, COL5A2, and COL1A2 genes for colon adenocarcinoma is performed using the GEPIA
+ <sup>
+  <xref ref-type="fn" rid="footnote4">4</xref>
+ </sup> and UCSC Xena
+ <sup>
+  <xref ref-type="fn" rid="footnote5">5</xref>
+ </sup> servers (
+ <xref rid="B27" ref-type="bibr">Tang et al., 2017</xref>; 
+ <xref rid="B9" ref-type="bibr">Goldman et al., 2020</xref>).
+</p>

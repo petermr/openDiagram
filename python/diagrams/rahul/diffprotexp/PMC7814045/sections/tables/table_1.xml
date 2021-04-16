@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>List of significant differentially expressed snoRNAs.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th colspan="8">Differential expression (log2 FC)</th>
+   </tr>
+   <tr>
+    <th>Gene ID</th>
+    <th>45 min</th>
+    <th>120 min</th>
+    <th>200 min</th>
+    <th>Class</th>
+    <th>Modification</th>
+    <th>Target</th>
+    <th>Position</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>snR5</td>
+    <td>1.580</td>
+    <td>-</td>
+    <td>1.094</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU; LSU</td>
+    <td>1004; 1124</td>
+   </tr>
+   <tr>
+    <td>snR8</td>
+    <td>-</td>
+    <td>-1.435</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU; LSU</td>
+    <td>960; 986</td>
+   </tr>
+   <tr>
+    <td>snR9</td>
+    <td>-</td>
+    <td>-1.780</td>
+    <td>-1.395</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU</td>
+    <td>2340</td>
+   </tr>
+   <tr>
+    <td>snR10</td>
+    <td>-</td>
+    <td>-2.982</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU</td>
+    <td>2923</td>
+   </tr>
+   <tr>
+    <td>snR11</td>
+    <td>-</td>
+    <td>-1.642</td>
+    <td>-1.277</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>snR13</td>
+    <td>1.049</td>
+    <td>-</td>
+    <td>-</td>
+    <td>C/D box</td>
+    <td>2′-O-methyladenosine</td>
+    <td>LSU; LSU</td>
+    <td>2280; 2281</td>
+   </tr>
+   <tr>
+    <td>snR17b</td>
+    <td>1.180</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Part of small ribosomal subunit processosome</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>snR19</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-1.142</td>
+    <td>U1 spliceosomal RNA</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>snR24</td>
+    <td>-1.106</td>
+    <td>-</td>
+    <td>-</td>
+    <td>C/D box</td>
+    <td>2′-O-methyladenosine; 2′-O-methylcytidine; 2′-O-methylguanosine</td>
+    <td>LSU; LSU; LSU</td>
+    <td>1437; 1449; 1450</td>
+   </tr>
+   <tr>
+    <td>snR30</td>
+    <td>-</td>
+    <td>-1.769</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU</td>
+    <td>1109</td>
+   </tr>
+   <tr>
+    <td>snR31</td>
+    <td>-</td>
+    <td>-1.745</td>
+    <td>-1.384</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>SSU</td>
+    <td>999</td>
+   </tr>
+   <tr>
+    <td>snR34</td>
+    <td>-</td>
+    <td>-2.254</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU; LSU</td>
+    <td>2826; 2880</td>
+   </tr>
+   <tr>
+    <td>snR36</td>
+    <td>-</td>
+    <td>-1.587</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>SSU</td>
+    <td>1187</td>
+   </tr>
+   <tr>
+    <td>snR37</td>
+    <td>1.351</td>
+    <td>-</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU</td>
+    <td>2944</td>
+   </tr>
+   <tr>
+    <td>snR39</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-1.528</td>
+    <td>C/D box</td>
+    <td>2′-O-methyladenosine</td>
+    <td>LSU</td>
+    <td>807</td>
+   </tr>
+   <tr>
+    <td>snR42</td>
+    <td>-</td>
+    <td>-1.339</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU</td>
+    <td>2975</td>
+   </tr>
+   <tr>
+    <td>snR44</td>
+    <td>-</td>
+    <td>-1.438</td>
+    <td>-1.684</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>SSUL; SU</td>
+    <td>106; 1056</td>
+   </tr>
+   <tr>
+    <td>snR45</td>
+    <td>1.345</td>
+    <td>-2.395</td>
+    <td>-</td>
+    <td>C/D box</td>
+    <td/>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>snR54</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-1.233</td>
+    <td>C/D box</td>
+    <td>2′-O-methyladenosine</td>
+    <td>SSU</td>
+    <td>974</td>
+   </tr>
+   <tr>
+    <td>snR64</td>
+    <td>-1.048</td>
+    <td>-1.936</td>
+    <td>-</td>
+    <td>C/D box</td>
+    <td>2′-O-methylcytidine</td>
+    <td>LSU</td>
+    <td>2337</td>
+   </tr>
+   <tr>
+    <td>snR67</td>
+    <td>1.725</td>
+    <td>-</td>
+    <td>-</td>
+    <td>C/D box</td>
+    <td>2′-O-methylguanosine; 2′-O-methyluridine</td>
+    <td>LSU; LSU</td>
+    <td>2619; 2724</td>
+   </tr>
+   <tr>
+    <td>snR70</td>
+    <td>-</td>
+    <td>-2.586</td>
+    <td>-1.171</td>
+    <td>C/D box</td>
+    <td>2′-O-methylcytidine</td>
+    <td>SSU</td>
+    <td>1639</td>
+   </tr>
+   <tr>
+    <td>snR81</td>
+    <td>-</td>
+    <td>-2.628</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>snRNAU2; snRNAU2</td>
+    <td>42; 93</td>
+   </tr>
+   <tr>
+    <td>snR82</td>
+    <td>1.612</td>
+    <td>-</td>
+    <td>1.559</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU; LSU; LSU</td>
+    <td>1110; 2349; 2351</td>
+   </tr>
+   <tr>
+    <td>snR86</td>
+    <td>1.151</td>
+    <td>-</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU</td>
+    <td>2314</td>
+   </tr>
+   <tr>
+    <td>snR87</td>
+    <td>-</td>
+    <td>-1.464</td>
+    <td>-</td>
+    <td>C/D box</td>
+    <td>2′-O-methyladenosine</td>
+    <td>SSU</td>
+    <td>436</td>
+   </tr>
+   <tr>
+    <td>snR128</td>
+    <td>-</td>
+    <td>-1.977</td>
+    <td>-</td>
+    <td>C/D box</td>
+    <td>2′-O-methylcytidine</td>
+    <td>SSU</td>
+    <td>414</td>
+   </tr>
+   <tr>
+    <td>snR161</td>
+    <td>-1.102</td>
+    <td>-</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>SSU; SSU</td>
+    <td>632; 766</td>
+   </tr>
+   <tr>
+    <td>snR191</td>
+    <td>-</td>
+    <td>-1.813</td>
+    <td>-</td>
+    <td>H/ACA box</td>
+    <td>Pseudouridine</td>
+    <td>LSU; LSU</td>
+    <td>2258; 2260</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>The log2 fold change (log2FC) of significant differentially expressed snoRNAs are reported per time after exposure (45 min, 120 min, and 200 min). The class (Class), the modification type (Modification), the target (Target), and the position (Position) of each modified rRNA nucleotide are also included.</p>
+ </table-wrap-foot>
+</table-wrap>

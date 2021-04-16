@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0355">Pathway activation level (PAL) characterizes cumulative changes in expression levels of genes belonging to a certain molecular pathway [
+ <xref rid="bib38" ref-type="bibr">38</xref>, 
+ <xref rid="bib39" ref-type="bibr">39</xref>, 
+ <xref rid="bib95" ref-type="bibr">95</xref>]. PAL is calculated as follows:
+ <disp-formula id="ufd1">
+  <math id="M1" altimg="si1.svg">
+   <mrow>
+    <mi>P</mi>
+    <mi>A</mi>
+    <msub>
+     <mi>L</mi>
+     <mi>p</mi>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <munder>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mi>n</mi>
+    </munder>
+    <mi>A</mi>
+    <mi>R</mi>
+    <msub>
+     <mi>R</mi>
+     <mrow>
+      <mi>n</mi>
+      <mi>p</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">∗</mo>
+    <mtext>lg</mtext>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mi>C</mi>
+     <mi>N</mi>
+     <msub>
+      <mi>R</mi>
+      <mi>n</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak">/</mo>
+    <munder>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mi>n</mi>
+    </munder>
+    <mrow>
+     <mo stretchy="false">|</mo>
+     <mi>A</mi>
+     <mi>R</mi>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>p</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">|</mo>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>PAL</italic>
+ <sub>
+  <italic>p</italic>
+ </sub> is PAL for pathway p, CNRn is case-to-normal ratio, the ratio of gene n expression level in a tumor sample under study to an average level in the control group; ARR (activator/repressor role) is a Boolean flag that depends on the function of gene 
+ <italic>n</italic> product in pathway 
+ <italic>p</italic>. ARR value is −1 if gene product n inhibits pathway p; 1 if n activates the pathway; 0 if n has ambiguous or unclear role in the pathway; 0.5 or −0.5, if n is more a pathway activator or its inhibitor, respectively. For convenience, in this article we use modified PAL = PAL∗100. PAL values for all samples under investigation are given in Supplementary File 6.
+</p>

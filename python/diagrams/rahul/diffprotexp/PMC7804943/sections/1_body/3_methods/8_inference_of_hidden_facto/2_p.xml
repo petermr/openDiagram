@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par45">To quantify the contribution of each sample in a latent factor, MOFA assigns factor weights such that similar samples (in terms of the variance explained in the low-dimensional latent space) will have similar weighting. To identify similar latent factors between the GE-only and AS, APA, and IR-only models (Fig. 
+ <xref rid="Fig5" ref-type="fig">5a</xref> and Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">4c</xref>), pairwise Pearson correlations were computed between latent factor weights using the R function cor.test().
+</p>

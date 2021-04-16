@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab4">
+ <label>Table 4</label>
+ <caption>
+  <p>Gene sets enriched in phenotype</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Gene set name</th>
+    <th align="left">NES</th>
+    <th align="left">NOM p-val</th>
+    <th align="left">FDR q-val</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" colspan="4">High expression</td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_CELL_CYCLE</td>
+    <td char="." align="char">2.480884</td>
+    <td align="left">0</td>
+    <td align="left">0</td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_P53_SIGNALING_PATHWAY</td>
+    <td char="." align="char">2.169725</td>
+    <td align="left">0</td>
+    <td align="left">4.86e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_BASAL_TRANSCRIPTION_FACTORS</td>
+    <td char="." align="char">2.162689</td>
+    <td align="left">0</td>
+    <td align="left">8.37e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_UBIQUITIN_MEDIATED_PROTEOLYSIS</td>
+    <td char="." align="char">2.126961</td>
+    <td align="left">0</td>
+    <td align="left">9.34e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_GLYCOLYSIS_GLUCONEOGENESIS</td>
+    <td char="." align="char">2.00116</td>
+    <td align="left">0</td>
+    <td align="left">6.15e
+     <bold>−</bold>03
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_CITRATE_CYCLE_TCA_CYCLE</td>
+    <td char="." align="char">1.926811</td>
+    <td align="left">0.004228</td>
+    <td align="left">1.19e
+     <bold>−</bold>02
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_OXIDATIVE_PHOSPHORYLATION</td>
+    <td char="." align="char">1.815468</td>
+    <td align="left">0.014706</td>
+    <td align="left">2.55e
+     <bold>−</bold>02
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_PANCREATIC_CANCER</td>
+    <td char="." align="char">1.753528</td>
+    <td align="left">0.012346</td>
+    <td align="left">3.90e
+     <bold>−</bold>02
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_RENAL_CELL_CARCINOMA</td>
+    <td char="." align="char">1.732231</td>
+    <td align="left">0.014553</td>
+    <td align="left">4.46e
+     <bold>−</bold>02
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> KEGG_BLADDER_CANCER</td>
+    <td char="." align="char">1.718563</td>
+    <td align="left">0.011858</td>
+    <td align="left">4.81e
+     <bold>−</bold>02
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_CELL_CYCLE_G2_M_PHASE_TRANSITION</td>
+    <td char="." align="char">2.451194</td>
+    <td align="left">0</td>
+    <td align="left">4.13e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_CELLULAR_RESPONSE_TO_OXYGEN_LEVELS</td>
+    <td char="." align="char">2.442309</td>
+    <td align="left">0</td>
+    <td align="left">2.06e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_CHROMOSOME_SEGREGATION</td>
+    <td char="." align="char">2.4354</td>
+    <td align="left">0</td>
+    <td align="left">1.65e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_INTERLEUKIN_1_MEDIATED_SIGNALING_PATHWAY</td>
+    <td char="." align="char">2.433667</td>
+    <td align="left">0</td>
+    <td align="left">1.50e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_MULTI_ORGANISM_LOCALIZATION</td>
+    <td char="." align="char">2.421357</td>
+    <td align="left">0</td>
+    <td align="left">2.64e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_CONDENSED_CHROMOSOME</td>
+    <td char="." align="char">2.415586</td>
+    <td align="left">0</td>
+    <td align="left">2.31e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_UBIQUITIN_LIKE_PROTEIN_CONJUGATING_ENZYME_ACTIVITY</td>
+    <td char="." align="char">2.389575</td>
+    <td align="left">0</td>
+    <td align="left">2.11e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_MICROTUBULE_CYTOSKELETON_ORGANIZATION_INVOLVED_IN_MITOSIS</td>
+    <td char="." align="char">2.380871</td>
+    <td align="left">0</td>
+    <td align="left">2.11e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_SISTER_CHROMATID_SEGREGATION</td>
+    <td char="." align="char">2.351018</td>
+    <td align="left">0</td>
+    <td align="left">2.04e
+     <bold>−</bold>04
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> GO_MITOTIC_SPINDLE_ORGANIZATION</td>
+    <td char="." align="char">2.344327</td>
+    <td align="left">0</td>
+    <td align="left">1.88e
+     <bold>−</bold>04
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

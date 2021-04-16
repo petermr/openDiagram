@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">We were prompted by these findings to further understand the impact of AS6 on the genome-wide gene expression in HUMEC and MCF7 cells using the RNA-seq analysis. Briefly, cells were treated with AS6 at a final concentration of 0.5 μM for 50 h, and the total RNA was collected in triplicates. To enhance the mRNA and ncRNA coverage, we depleted rRNAs before sequencing the collected RNA pool. A total of 81,702 and 91,152 protein-coding and non-protein coding genes in HUMEC and MCF7 cells were successfully sequenced (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S2</xref>A; Supplementary Data 
+ <xref rid="MOESM1" ref-type="media">1</xref>). The number of the genes, whose expression was increased or decreased more than twofold with statistical significance (|log
+ <sub>2</sub>fold-change|&gt; 1, p value &lt; 0.05) when compared to untreated control, was 1233 and 7374 in HUMEC and MCF7 cells, respectively (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>A,B; Supplementary Data 
+ <xref rid="MOESM1" ref-type="media">1</xref>). Of these, 1059 and 5297 genes were differentially expressed more than fourfold in HUMEC and MCF7 cells, respectively (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>B; Supplementary Data 
+ <xref rid="MOESM1" ref-type="media">2</xref>). The heat maps of the differentially expressed genes (|log
+ <sub>2</sub>fold-change|&gt; 1, p value &lt; 0.05, n = 1233 and 7374 in HUMEC and MCF7 cells, respectively) clearly showed that many more genes, exceeding six times, were significantly affected in MCF7 cells than HUMEC by AS6 (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>A,B; Supplementary Data 
+ <xref rid="MOESM1" ref-type="media">3</xref>). All and differentially expressed genes (|log
+ <sub>2</sub>fold-change|&gt; 1, p value &lt; 0.05) in HUMEC and MCF7 cells were compared in box plots (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>C). The genes that were up- and down-regulated (|log
+ <sub>2</sub>fold-change|&gt; 2, p value &lt; 0.05; n = 599 and 460, respectively) in HUMEC were categorized by Gene Ontology (GO) analysis. The upregulated genes were involved in membrane trafficking and assembly, cell cycle transition, stress response, and DNA double strand break repair by homologous recombination (n = 599; Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>D). A protein–protein interaction (PPI) network was constructed to identify the correlation among these differentially expressed protein-coding genes (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>E; Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S3</xref>A). The downregulated genes were constituents of Ras signal transduction, oxidative stress response, and apoptosis pathways (n = 460; Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>F). A PPI analysis of the downregulated protein-coding genes showed the networks and the degree of correlations of these genes (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>G; Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S3</xref>B).
+</p>

@@ -1,0 +1,5 @@
+0: The genes that were co-expressed with 5 core genes in EOC patients in the TCGA database were identified through cBioportal ( http://cbioportal.org).
+1: Then, the co-expressed gene pairs with the Pearson correlation coefficient  0.3 were selected for further KEGG analysis through the DAVID.
+2: The top ten enriched KEGG terms for each core gene were shown in the form of matrix bubble map based on -log10( P value) through the community-driven bioinformatics data visualization platform Hiplot ( https://hiplot.com.cn/basic/matrix-bubble).
+3: Meanwhile, GO biological process analysis for 5 core genes were also performed by the application of ClueGO [ 14] and CluePedia [ 15].
+4: kappa coefficient of 0.42 and  P < 0.05 were chosen as threshold values.

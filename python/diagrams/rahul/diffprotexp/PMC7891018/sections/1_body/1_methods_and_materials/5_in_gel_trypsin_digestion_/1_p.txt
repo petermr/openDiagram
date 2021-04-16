@@ -1,0 +1,7 @@
+0: The sample was mixed in an equal ratio with 10 mg/mL -cyano-4-hydroxcinnamic acid, directly spotted onto a spotting plate, and allowed to dry at room temperature.
+1: Peptide mass spectra were obtained with a 5800 MALDI TOF/TOF mass spectrometer (AB SCIEX, Foster City, USA).
+2: The MS/MS data of the peptide mass fingerprint (PMF) were submitted to the online software Mascot (Matrix Science, Boston, MA, USA) for identification according to the NCBIProt database.
+3: The parameters were as follows: taxonomy, Homo sapiens; enzyme, trypsin; allowed missed cleavages, two; variable modification, oxidation (M); fixed modification, carbamidomethylation (C); and number of peptide charges, + 1.
+4: The peptide and fragment mass tolerances were set at  1.2 Da and  0.6 Da, respectively.
+5: The data format was selected as Mascot generic, and the instrument was selected as MALDI-TOF-TOF.
+6: Proteins with a score greater than 30 were regarded as trustworthy proteins[ 17].

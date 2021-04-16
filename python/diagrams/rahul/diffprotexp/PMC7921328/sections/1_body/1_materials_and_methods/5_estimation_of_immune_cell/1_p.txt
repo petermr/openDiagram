@@ -1,0 +1,6 @@
+0: For each sample, the CIBERSORT ( Newman et al., 2015) algorithm was employed to evaluate the relative immune cell abundance from gene expression profiles.
+1: In particular, immune-cell-type gene expression was deconvolved based on predefined immune cell signatures.
+2: In this study, the LM22 immune cell signature was adopted.
+3: These immune cells were validated to differentially express in one certain leukocyte population compared to all other hematopoietic cell types.
+4: Specifically, LM22 signature includes 22 different immune cell types, i.e., B cells naive, B cells memory, Plasma cells, T cells CD8, T cells CD4 naive, T cells CD4 memory resting, T cells CD4 memory activated, T cell follicular helper, T cells regulatory (Tregs), NK cells resting, NK cells activated, Monocytes, Macrophages M0, Macrophages M1, Macrophages M2, Dendritic cells resting, Dendritic cells activated, Mast cells resting, Mast cells activated, Eosinophils, and Neutrophils.
+5: The correlation between expression level of each lncRNA and abundance of immune cells was then calculated to determine immune cell-related lncRNAs in prostate cancer.

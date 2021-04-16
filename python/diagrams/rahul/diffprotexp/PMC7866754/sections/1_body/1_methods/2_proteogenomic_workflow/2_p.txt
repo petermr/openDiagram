@@ -1,0 +1,10 @@
+0: Briefly, the quality of RNA-seq data from oocyst sporozoites and salivary gland sporozoites were assessed using FastQC to check for contamination from sequences from other species, which is essential given that separating the parasite from its mosquito vector still represents a significant technical challenge [ 43].
+1: The adapter sequences ligated to DNA fragments for library preparation were subsequently trimmed using Cutadapt [ 44].
+2: The processed reads were then aligned to the reference genome for  P. falciparum 3D7 strain retrieved from PlasmoDB ver.46 [ 40] using HISAT2 [ 45].
+3: The BAM files with sequence alignment data were used to assemble transcripts using StringTie [ 46], which was guided by the reference annotation GFF file (PlasmoDB ver.46) and also allow the assembly of novel transcripts including splice variants.
+4: The assembled transcripts, therefore, include known transcripts from reference annotation with PF3D7 as transcript ID prefix, and potentially novel transcripts with MSTRG prefix, which are constructed from reads that cannot be explained by reference transcripts.
+5: Compared to gene-level quantification where all reads are mapped to known genes, transcript-based approach taken by StringTie does not assume that genome annotation is complete and effectively expands the search space for matching MS/MS peptide spectra.
+6: The transcript nucleotide sequences were then extracted from the reference genome using BEDTools getfasta [ 47].
+7: The constructed transcriptome database was then searched in six-frames for matching to MS/MS spectra by Mascot, a search engine that identifies protein using the MS data [ 48].
+8: It matches all peptide spectra to the in silico translated proteins derived from the transcriptomic database on the fly, hence identifies which transcript is supported by peptide evidence.
+9: For each peptide-spectrum match (PSM), Mascot also computes a probability score which is higher for proteins with more peptides matched to it.

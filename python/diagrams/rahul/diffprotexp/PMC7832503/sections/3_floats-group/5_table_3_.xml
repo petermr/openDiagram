@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T0003" orientation="portrait" position="float">
+ <label>Table 3.</label>
+ <caption>
+  <p>The top 10 significant GO terms of gene set analysis using rare functional SNVs.</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*"/>
+   <col width="1*"/>
+  </colgroup>
+  <thead valign="bottom">
+   <tr>
+    <th align="left">Gene set</th>
+    <th align="center">
+     <italic toggle="yes">P-</italic>value
+     <xref ref-type="table-fn" rid="TF3">
+      <sup>a</sup>
+     </xref>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">GO_MF: JUN KINASE BINDING</td>
+    <td align="char" char=".">0.000358</td>
+   </tr>
+   <tr>
+    <td align="left">GO_BP: POSITIVE REGULATION OF RESPONSE TO INTERFERON GAMMA</td>
+    <td align="char" char=".">0.000540</td>
+   </tr>
+   <tr>
+    <td align="left">GO_BP: DENDRITIC CELL CYTOKINE PRODUCTION</td>
+    <td align="char" char=".">0.000775</td>
+   </tr>
+   <tr>
+    <td align="left">GO_BP: POSITIVE REGULATION OF METALLOENDOPEPTIDASE ACTIVITY</td>
+    <td align="char" char=".">0.00142</td>
+   </tr>
+   <tr>
+    <td align="left">GO_BP: RELEASE OF SEQUESTERED CALCIUM ION INTO CYTOSOL BY ENDOPLASMIC RETICULUM</td>
+    <td align="char" char=".">0.00164</td>
+   </tr>
+   <tr>
+    <td align="left">GO_MF: RRNA GUANINE METHYLTRANSFERASE ACTIVITY</td>
+    <td align="char" char=".">0.00174</td>
+   </tr>
+   <tr>
+    <td align="left">GO_BP: NEGATIVE REGULATION OF DNA TEMPLATED TRANSCRIPTION ELONGATION</td>
+    <td align="char" char=".">0.00210</td>
+   </tr>
+   <tr>
+    <td align="left">GO_MF: 3’,5’-CYCLIC-GMP PHOSPHODIESTERASE ACTIVITY</td>
+    <td align="char" char=".">0.00216</td>
+   </tr>
+   <tr>
+    <td align="left">GO_BP: AMINE METABOLIC PROCESS</td>
+    <td align="char" char=".">0.00249</td>
+   </tr>
+   <tr>
+    <td align="left">GO_BP: POSITIVE REGULATION OF DENDRITIC CELL CYTOKINE PRODUCTION</td>
+    <td align="char" char=".">0.00259</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="TF3">
+   <label>
+    <sup>a</sup>
+   </label>
+   <p>The optimal sequencing kernel association test (SKAT-O) was used for this gene set analysis.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

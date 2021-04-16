@@ -1,0 +1,4 @@
+0: To calculate the effective number of tests across phenotypes, we calculated the correlation matrix between the gene  p values for the four osteoarthritis phenotypes, and obtained the eigenvalues of this matrix.
+1: The effective number of tests  Neff for phenotypes was then calculated as  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$N_{eff} = N - \mathop {\sum}\nolimits_\lambda {I(\lambda > 1) \ast (\lambda - 1)}$$\end{document}Neff=NI(>1)*(1), where  N = 4 is the number of phenotypes, and   denotes the eigenvalues.
+2: Across the Pearson and Spearman correlation matrices, we obtained  Neff < 2.65.
+3: With 18,449 genes per phenotype, the significance threshold for gene-level  p values across genes and phenotypes was thus set as 0.05/(18,449  2.65) = 1.02  10 6.

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Of the four sets of sepsis data that we obtained, GSE13904 (children) and GSE154918 (adults) had the largest samples (
+ <xref ref-type="fig" rid="f0003">Figure 3A</xref>). In GSE13904 (children), we obtained 7850 DEGs between sepsis and control samples (
+ <xref ref-type="fig" rid="f0003">Figure 3B</xref>, 
+ <underline>
+  <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=301663.xlsx" xmlns:xlink="http://www.w3.org/1999/xlink">Table S1</ext-link>
+ </underline>). In GSE154918 (adults), we obtained 12496 DEGs between sepsis and control samples (
+ <xref ref-type="fig" rid="f0003">Figure 3B</xref>, 
+ <underline>
+  <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=301663.xlsx" xmlns:xlink="http://www.w3.org/1999/xlink">Table S2</ext-link>
+ </underline>). By comparing the DEGs between adult and pediatric sepsis, we found 5638 genes that were common to both, 2212 that may be specific to the pediatric condition and 6857 that may be specific to the adult condition (
+ <xref ref-type="fig" rid="f0003">Figure 3C</xref>). Genes at the intersection may be strongly associated with sepsis in adults and children. In addition, we screened 5143 DEGs that were simultaneously up- or down-regulated in GSE13904 (children) and GSE154918 (adults). Intersection analysis of these genes with module genes yielded 1274 common genes for subsequent analysis (
+ <xref ref-type="fig" rid="f0003">Figure 3D</xref>).
+</p>

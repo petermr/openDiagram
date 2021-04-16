@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F5" position="float">
+ <label>Figure 5</label>
+ <caption>
+  <p>
+   <bold> DEHP impacted transcriptome characteristics of two groups of PGs during follicular assembly. (A)</bold> Clustering of pre-granulosa cells based on UMAP colored by the sample groups. 
+   <bold>(B)</bold> Two groups of PGs. Seven clusters with high 
+   <italic>Amhr2</italic> expression (common marker gene of granulosa cell) are identified as PGs in the left panel; two groups of PGs are separated by the expression of 
+   <italic>Foxl2</italic> (cyan) and 
+   <italic>Lgr5</italic> (maroon). The color intensity represents gene expression level; grey refers to the double-negative cells with color threshold of gene expression at 0.5. 
+   <bold>(C)</bold> UMAP plot of bipotential PGs (BPGs) colored by sample groups (left) and cell clusters (right). 
+   <bold>(D)</bold> UMAP plot of epithelial PGs (EPGs) colored by sample groups (left) and cell clusters (right). 
+   <bold>(E)</bold> Volcano plots of gene differential expression at BPGs between pairs of PD0-DEHP 
+   <italic>vs.</italic> PD0 and PD3-DEHP 
+   <italic>vs.</italic> PD3. 
+   <bold>(F)</bold> Volcano plots of gene differential expression of EPGs between PD0-DEHP 
+   <italic>vs.</italic> PD0 and PD3-DEHP 
+   <italic>vs.</italic> PD3. 
+   <bold>(G)</bold> The GO term enrichment of key DEGs in BPGs. 
+   <bold>(H)</bold> The GO term enrichment of key DEGs in EPGs.
+  </p>
+ </caption>
+ <graphic xlink:href="thnov11p4992g005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

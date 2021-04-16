@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Summary of reads of Hu sheep transcriptome.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Sample</th>
+    <th align="left">Number of all reads</th>
+    <th align="left">Number of bases (in Gb)</th>
+    <th align="left">Number of mapped reads</th>
+    <th align="left">% mapped reads</th>
+    <th align="left">Number of uniquely mapped reads</th>
+    <th align="left">% uniquely mapped reads</th>
+    <th align="left">GC (%)</th>
+    <th align="left">Q30 (%)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">H1O1</td>
+    <td char=", ," align="char">101,573,406</td>
+    <td char="." align="char">15.24</td>
+    <td char=", ," align="char">93,452,236</td>
+    <td char="." align="char">92.00</td>
+    <td char=", ," align="char">90,565,997</td>
+    <td char="." align="char">89.16</td>
+    <td char="." align="char">44.42</td>
+    <td char="." align="char">94.85</td>
+   </tr>
+   <tr>
+    <td align="left">H1O2</td>
+    <td char=", ," align="char">99,943,620</td>
+    <td char="." align="char">14.99</td>
+    <td char=", ," align="char">90,234,408</td>
+    <td char="." align="char">90.29</td>
+    <td char=", ," align="char">86,858,329</td>
+    <td char="." align="char">86.91</td>
+    <td char="." align="char">45.70</td>
+    <td char="." align="char">93.30</td>
+   </tr>
+   <tr>
+    <td align="left">H1O3</td>
+    <td char=", ," align="char">109,737,692</td>
+    <td char="." align="char">16.46</td>
+    <td char=", ," align="char">97,741,027</td>
+    <td char="." align="char">89.07</td>
+    <td char=", ," align="char">94,687,726</td>
+    <td char="." align="char">86.29</td>
+    <td char="." align="char">46.16</td>
+    <td char="." align="char">92.86</td>
+   </tr>
+   <tr>
+    <td align="left">H3O2</td>
+    <td char=", ," align="char">93,652,970</td>
+    <td char="." align="char">14.05</td>
+    <td char=", ," align="char">84,794,180</td>
+    <td char="." align="char">90.54</td>
+    <td char=", ," align="char">76,905,319</td>
+    <td char="." align="char">82.12</td>
+    <td char="." align="char">49.37</td>
+    <td char="." align="char">93.43</td>
+   </tr>
+   <tr>
+    <td align="left">H3O3</td>
+    <td char=", ," align="char">101,226,522</td>
+    <td char="." align="char">15.18</td>
+    <td char=", ," align="char">90,445,904</td>
+    <td char="." align="char">89.35</td>
+    <td char=", ," align="char">82,257,380</td>
+    <td char="." align="char">81.26</td>
+    <td char="." align="char">49.52</td>
+    <td char="." align="char">93.79</td>
+   </tr>
+   <tr>
+    <td align="left">H3O4</td>
+    <td char=", ," align="char">102,358,914</td>
+    <td char="." align="char">15.35</td>
+    <td char=", ," align="char">88,602,145</td>
+    <td char="." align="char">86.56</td>
+    <td char=", ," align="char">81,416,284</td>
+    <td char="." align="char">79.54</td>
+    <td char="." align="char">50.61</td>
+    <td char="." align="char">93.48</td>
+   </tr>
+   <tr>
+    <td align="left">H8O1</td>
+    <td char=", ," align="char">99,549,070</td>
+    <td char="." align="char">14.93</td>
+    <td char=", ," align="char">91,578,596</td>
+    <td char="." align="char">91.99</td>
+    <td char=", ," align="char">86,481,421</td>
+    <td char="." align="char">86.87</td>
+    <td char="." align="char">45.78</td>
+    <td char="." align="char">93.40</td>
+   </tr>
+   <tr>
+    <td align="left">H8O2</td>
+    <td char=", ," align="char">102,949,620</td>
+    <td char="." align="char">15.44</td>
+    <td char=", ," align="char">93,260,211</td>
+    <td char="." align="char">90.59</td>
+    <td char=", ," align="char">90,178,208</td>
+    <td char="." align="char">87.59</td>
+    <td char="." align="char">46.22</td>
+    <td char="." align="char">93.62</td>
+   </tr>
+   <tr>
+    <td align="left">H8O3</td>
+    <td char=", ," align="char">110,137,398</td>
+    <td char="." align="char">16.52</td>
+    <td char=", ," align="char">99,138,982</td>
+    <td char="." align="char">90.01</td>
+    <td char=", ," align="char">97,211,757</td>
+    <td char="." align="char">88.26</td>
+    <td char="." align="char">44.14</td>
+    <td char="." align="char">93.33</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>H1O1–H1O3 refers to 3 ovaries of Hu sheep at 1 month old; H3O2–H3O4 refers to 3 ovaries of Hu sheep at 3 months old and H8O1–H8O3 refers to 3 ovaries of Hu sheep at 8 months old.</p>
+ </table-wrap-foot>
+</table-wrap>

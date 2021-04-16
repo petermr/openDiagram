@@ -1,0 +1,3 @@
+0: We used miRNet to construct regulatory network models ( https://www.mirnet.ca/), an open-access web-based tool that integrates multiple statistical tools, data mining, and visualization systems miRNA-target interaction studies [ 127, 128].
+1: In addition to implementing a flexible interface to filter, refine, and personalize data during network creation, miRNet contains a network visualization system with the possibility of functional enrichment analysis via KEGG, G.O., and Reactome signaling pathways.
+2: Tool fed with miRNAs I.D.s over or under-expressed by exposure to L-Tyr or 5-Brd-2-dU, and for functional enrichment, we used the KEGG signaling pathways and statistical analysis hypergeometric test.

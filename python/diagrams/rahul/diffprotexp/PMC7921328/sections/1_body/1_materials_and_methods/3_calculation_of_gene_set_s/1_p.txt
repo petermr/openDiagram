@@ -1,0 +1,4 @@
+0: The hallmark gene sets were first obtained from the Molecular Signature Database (MSigDB) ( Liberzon et al., 2015).
+1: Then, the hallmark scores in each sample were calculated based on Gene Set Variation Analysis (GSVA) ( Hanzelmann et al., 2013).
+2: Specifically, the GSVA algorithm was employed to evaluate the variation of hallmark activities over each sample in an unsupervised manner by utilizing expression profiles of genes annotated in corresponding hallmarks.
+3: Finally, the activity score of each hallmark was assigned to each sample.

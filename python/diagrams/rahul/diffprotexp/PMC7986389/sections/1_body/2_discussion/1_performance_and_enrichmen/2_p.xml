@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">First, we sorted all the genes from the network by weight from high to low. Then, for a certain cancer gene set 
+ <italic>S</italic>, we traversed the sorted gene list, increasing a running-sum statistic when we encountered a gene in 
+ <italic>S</italic> and decreasing it when we encountered a gene not in 
+ <italic>S</italic>. We modified the increment and decrement value to ensure that the running sum was 0 at the end of the gene list. The enrichment scores of the five data sets are shown in Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>.
+</p>

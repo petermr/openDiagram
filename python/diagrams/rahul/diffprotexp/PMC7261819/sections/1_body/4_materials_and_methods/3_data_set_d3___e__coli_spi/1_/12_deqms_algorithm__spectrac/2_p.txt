@@ -1,0 +1,7 @@
+0: In proteomics, a major determinant of quantification accuracy per sample, and therefore also of effective within-group variance, is the number of PSMs or peptides detected for a protein.
+1: We therefore modified the IBMT function of Sartor  et al.
+2: ( 16) by changing the regression covariate from intensity to PSM or peptide count.
+3: In our DEqMS package, this modified IBMT function is called spectraCounteBayes.
+4: For TMT or iTRAQ labeled data, the number of PSMs is used to estimate prior variance as the quantification is done at MS2 level.
+5: For label-free data, the protein abundances are summarized from peptides and therefore the number of peptides per protein is used to estimate prior variance.
+6: The remainder of the package provides wrapper functions to conveniently tie in this function with the necessary calls to limma's functions.

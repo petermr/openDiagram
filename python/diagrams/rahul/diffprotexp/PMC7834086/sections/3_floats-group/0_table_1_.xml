@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Sequence of primers used in this article</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Primers</th>
+    <th align="center">Sequence (5ʹ-3ʹ)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">PirB-F-28a</td>
+    <td align="left">agcaaatgggtcgcgTGACTAACGAATACGTTGTAAC</td>
+   </tr>
+   <tr>
+    <td align="left">PirB-R-28a</td>
+    <td align="left">cggagctcgaattcgCTACTTTTCTGTACCAAATTCA</td>
+   </tr>
+   <tr>
+    <td align="left">PirB-F-GST</td>
+    <td align="left">CCGGGATCCATGACTAACGAATACGT</td>
+   </tr>
+   <tr>
+    <td align="left">PirB – R-GST</td>
+    <td align="left">CGCCTCGAGCTACTTTTCTGTACCA</td>
+   </tr>
+   <tr>
+    <td align="left">PirB-EGFP-F</td>
+    <td align="left">CTTGGTACCGAGCTCGGATCCATGACTAACGAATACGT</td>
+   </tr>
+   <tr>
+    <td align="left">PirB-EGFP-R</td>
+    <td align="left">CCACACTGGACTAGTGGATCCCTTTTCTGTACCAAA</td>
+   </tr>
+   <tr>
+    <td align="left">PirA-F</td>
+    <td align="left">CCGGAATTCATGAGTAACAATATA</td>
+   </tr>
+   <tr>
+    <td align="left">PirA-R</td>
+    <td align="left">CCCAAGCTTTTAGTGGTAATAGATTGT</td>
+   </tr>
+   <tr>
+    <td align="left">Histone H4-F</td>
+    <td align="left">GGATCCATGACTGGACGTGGAAA</td>
+   </tr>
+   <tr>
+    <td align="left">Histone H4-R</td>
+    <td align="left">AAGCTTTTAACCTCCGAAACCGT</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

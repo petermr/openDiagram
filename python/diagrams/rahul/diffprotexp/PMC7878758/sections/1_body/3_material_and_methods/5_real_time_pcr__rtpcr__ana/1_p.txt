@@ -1,0 +1,5 @@
+0: Validation of fifty most significantly expressed genes having more than 2 log fold changes in any of its time points were selected for RTPCR analysis.
+1: Primers were designed using Primer3 software( https://bioinfo.ut.ee/primer3-0.4.0/).
+2: Amplification of 14-3-3 protein zeta/delta isoform X1 and NADH dehydrogenase 1 alpha sub complex subunit 11 were used as housekeeping gene.
+3: RTPCR were performed in biological and technical replicates for each genes from the cDNA synthesized from 1 g total RNA using Takara SYBR green assay master mix.
+4: The relative expressions of the genes were estimated based on the RTPCR Ct value against control (0-dpa) as the baseline.

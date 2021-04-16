@@ -1,0 +1,12 @@
+0: After infecting with BVDV for 48 h, with three parallel samples in each group, the MDBK cells were collected from the E and C groups, followed by total RNA extraction by TRIzol (Invitrogen, USA), according to the manufacturers instructions.
+1: The purity, concentration, and integrity of the total RNA was evaluated using Agilent Bioanalyzer 2100 (Agilent Technologies, Santa Clara, CA, USA).
+2: The samples with RNA integrity number (RIN) value of >9.7 and optical density 260:280 ratio of >2.0 were selected for library construction and deep sequencing.
+3: For the construction of lncRNA libraries, ribosomal RNAs (rRNAs) were removed from the total RNA extractions using Ribo-zero TM rRNA Removal Kit (Epicentre, Madison, WI, USA).
+4: The enriched messenger RNAs (mRNAs) and ncRNAs were fragmented into cDNA using random primers (Thermo Fisher Scientific, USA).
+5: With the synthetization of second-strand cDNA, the cDNA fragments were purified by QiaQuick PCR extraction kit (Qiagen, Germany) before adding the end-repaired poly (A), and then ligated to Illumina sequencing adapters.
+6: Subsequently, the second-strand cDNAs were digested by uracil-N-glycosylase, and the digested products were size-selected using agarose gel electrophoresis followed by PCR amplification.
+7: Gene sequencing was performed using Illumina HiSeq TM 4000 and bioinformatics analysis was supported by Gene Denovo Biotechnology Co., Ltd. (Guangzhou, China).
+8: The protocol for the transcript analysis is shown in  Figure 1(a).
+9: Briefly, after filtering the off-machine raw data, clean reads were obtained followed by alignment to the reference genome; Next, use Cufflinks to reconstruct transcripts to obtain the known transcripts and the new transcripts; Next, use CPC, CNCI and other software to predict the coding ability of the new transcripts to obtain the newly predicted lncRNAs; And then, perform analysis of the mRNAs and lncRNAs, respectively; Finally, perform the association analysis of lncRNAs-mRNAs.
+10: All raw sequence reads were deposited into the NCBI database as a BioProject (accession no.
+11: PRJNA596327).

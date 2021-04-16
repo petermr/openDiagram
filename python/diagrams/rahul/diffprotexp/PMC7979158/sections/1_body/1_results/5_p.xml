@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The WGCNA-resolved modules enabled mapping of DE signatures to neurodevelopmental processes that were acutely induced by MIA (
+ <xref ref-type="fig" rid="fig3">Figure 3</xref>, 
+ <xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>). There was significant association between genes in Grey (p = 0.007) and Green (p = 0.03) modules and MIA treatment, and marginal significance with MIA for the YeMaBl (p = 0.05) module (
+ <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1b</xref>). The acute, initiating signaling pathways, found 6 hr after poly(I:C) injection captured by the Green module and by a subset of genes within the Grey module, show a strong signature of upregulated DE genes from E12.5 to E14.5 (
+ <xref ref-type="fig" rid="fig3">Figure 3a</xref>). Analysis of the GO BP enrichment of upregulated DE genes in these modules identified activation of immune-related pathways, including defense response to virus, as well as angiogenesis and Vascular Endothelial Growth Factor A (VEGFA) signaling (
+ <xref ref-type="fig" rid="fig2">Figures 2c</xref> and 
+ <xref ref-type="fig" rid="fig3">3b</xref>, 
+ <xref ref-type="fig" rid="fig2s2">Figure 2—figure supplement 2a,c</xref>). We tested for protein-protein association networks among the acute E12.5 DE (FDR &lt; 0.05) genes using STRING (
+ <xref rid="bib77" ref-type="bibr">Szklarczyk et al., 2019</xref>), and found significantly more interactions than expected by chance (observed edges = 161, expected edges = 46, enrichment = 3.5, STRING p &lt; 1.0e-16) (
+ <xref ref-type="fig" rid="fig3">Figure 3c</xref>). This intersecting protein network was associated with metabolism, hypoxia, and stress (
+ <xref ref-type="fig" rid="fig3">Figure 3b</xref>). The network includes a highly interacting core gene set with hub nodes, such as 
+ <italic>Vegfa</italic>, that have many spokes and may be signaling factors that direct the MIA response (
+ <xref ref-type="fig" rid="fig3">Figure 3b,c</xref>). Developmental expression profiles for DE genes that were associated with this interaction network, are shown in 
+ <xref ref-type="fig" rid="fig3">Figure 3d</xref>, and stratified by sex in 
+ <xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1a</xref>. These signatures capture a complex but coherent transcriptional response involving hypoxia, immune, metabolic, and angiogenesis pathways that are strongly and transiently induced in fetal brain within 6 hr following mid-gestational MIA.
+</p>

@@ -1,0 +1,4 @@
+0: MannWhitney or KruskalWallis tests followed by Dunns multiple comparison tests correction were used to test the difference in gene expressions among subject groups.
+1: Mean, median, interquartile range (IQR), standard deviation (SD), area under the receiver operating characteristic curve (AUROCC) values and 95% confidence intervals (CI) were assessed using Prism 6 (GraphPad Software).
+2: The classification accuracy of the 12 gene signature was determined using the randomForest machine learning R package (v. 4.16) [ 17] applied to the qRT-PCR data.
+3: The AUROCC curve was visualised using the pROC package (v. 1.10).

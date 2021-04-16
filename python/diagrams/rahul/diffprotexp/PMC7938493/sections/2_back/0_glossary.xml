@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossary>
+ <title>Abbreviations</title>
+ <def-list>
+  <def-item>
+   <term>APOBEC3H</term>
+   <def>
+    <p id="Par5">Apolipoprotein B mRNA editing enzyme catalytic subunit 3H</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>AUC</term>
+   <def>
+    <p id="Par6">Area under the ROC curve</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>AZA</term>
+   <def>
+    <p id="Par7">5-azacytidine</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>BLCA</term>
+   <def>
+    <p id="Par8">Bladder cancer</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>BOP1</term>
+   <def>
+    <p id="Par9">Block of proliferation 1</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>BPs</term>
+   <def>
+    <p id="Par10">Biological processes</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>CASC3</term>
+   <def>
+    <p id="Par11">Cancer susceptibility candidate 3</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>CT</term>
+   <def>
+    <p id="Par12">Computed tomography</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>DARS2</term>
+   <def>
+    <p id="Par13">Aspartyl-tRNA synthetase 2, mitochondrial</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>DDX21</term>
+   <def>
+    <p id="Par14">DExD-box helicase 21</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>DHX37</term>
+   <def>
+    <p id="Par15">DEAH-box helicase 37</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>FC</term>
+   <def>
+    <p id="Par16">Fold-change</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>FDR</term>
+   <def>
+    <p id="Par17">False discovery rate</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GEMIN7</term>
+   <def>
+    <p id="Par18">Gem nuclear organelle associated protein 7</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GO</term>
+   <def>
+    <p id="Par19">Gene ontology</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>HPA</term>
+   <def>
+    <p id="Par20">Human Protein Atlas</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>IMP</term>
+   <def>
+    <p id="Par21">Insulin-like growth factor II messenger RNA binding protein</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>IPO4</term>
+   <def>
+    <p id="Par22">Importin 4</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>KEGG</term>
+   <def>
+    <p id="Par23">Kyoto Encyclopedia of Genes and Genomes</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>MEX-3C</term>
+   <def>
+    <p id="Par24">Mex-3 RNA binding family member C</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>MCODE</term>
+   <def>
+    <p id="Par25">Molecular Complex Detection</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>MLN51</term>
+   <def>
+    <p id="Par26">Metastatic lymph node 51</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>NBDY</term>
+   <def>
+    <p id="Par27">NoBody</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>OAS1</term>
+   <def>
+    <p id="Par28">2′-5′-oligoadenylate synthetase 1</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>OS</term>
+   <def>
+    <p id="Par29">Overall survival</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>PPI</term>
+   <def>
+    <p id="Par30">Protein-protein interaction</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>QK1</term>
+   <def>
+    <p id="Par31">Protein quaking</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>RBFA</term>
+   <def>
+    <p id="Par32">Ribosome binding factor A</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>RBMS3</term>
+   <def>
+    <p id="Par33">RNA-binding motif, single-stranded-interacting protein 3</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>RBPs</term>
+   <def>
+    <p id="Par34">RNA-binding proteins</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>ROC</term>
+   <def>
+    <p id="Par35">Receiver operator characteristic</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>TCGA</term>
+   <def>
+    <p id="Par36">The Cancer Genome Atlas</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>TRIM71</term>
+   <def>
+    <p id="Par37">Tripartite motif containing 71</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>YTHDC1</term>
+   <def>
+    <p id="Par38">YTH domain containing 1</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>YTHDF2</term>
+   <def>
+    <p id="Par39">YTH N6-methyladenosine RNA binding protein 2</p>
+   </def>
+  </def-item>
+ </def-list>
+</glossary>

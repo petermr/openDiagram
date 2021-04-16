@@ -1,0 +1,4 @@
+0: The annotation pipeline Dammit 82 was used for annotating the transcriptome using the default parameters.
+1: Protein databases Pfam-A 83, Rfam 84, OrthoDB 85 and uniref90 86 were used for the annotation process with a cutoff value of 1e-05.
+2: The protein sequences from the genome of the sea urchin  Strongylocentrotus purpuratus (Accession: GCA_000002235.4) were used as reference for the annotation process.
+3: Annotation completeness was evaluated with BUSCO 87.

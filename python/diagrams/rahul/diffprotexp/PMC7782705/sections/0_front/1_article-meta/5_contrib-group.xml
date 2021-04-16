@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9465-1327</contrib-id>
+  <name>
+   <surname>Marques-Coelho</surname>
+   <given-names>Diego</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Iohan</surname>
+   <given-names>Lukas da Cruz Carvalho</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Melo de Farias</surname>
+   <given-names>Ana Raquel</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Flaig</surname>
+   <given-names>Amandine</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author" id="IAu1">
+  <collab>The Brainbank Neuro–CEB Neuropathology Network
+   <contrib-group>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Letournel</surname>
+      <given-names>Franck</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff4">4</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Martin-Négrier</surname>
+      <given-names>Marie-Laure</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff5">5</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Chapon</surname>
+      <given-names>Françoise</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff6">6</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Faisant</surname>
+      <given-names>Maxime</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff6">6</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Godfraind</surname>
+      <given-names>Catherine</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff7">7</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Maurage</surname>
+      <given-names>Claude-Alain</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff8">8</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Deramecourt</surname>
+      <given-names>Vincent</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff8">8</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Duchesne</surname>
+      <given-names>Mathilde</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff9">9</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Meyronnet</surname>
+      <given-names>David</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff10">10</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Streichenberger</surname>
+      <given-names>Nathalie</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff10">10</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>de Paula</surname>
+      <given-names>André Mauès</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff11">11</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Rigau</surname>
+      <given-names>Valérie</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff12">12</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Vandenbos-Burel</surname>
+      <given-names>Fanny</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff13">13</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Duyckaerts</surname>
+      <given-names>Charles</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff14">14</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Seilhean</surname>
+      <given-names>Danielle</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff14">14</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Milin</surname>
+      <given-names>Serge</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff15">15</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Chiforeanu</surname>
+      <given-names>Dan Christian</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff16">16</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Laquerrière</surname>
+      <given-names>Annie</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff17">17</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Marguet</surname>
+      <given-names>Florent</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff17">17</xref>
+    </contrib>
+    <contrib contrib-type="author">
+     <name>
+      <surname>Lannes</surname>
+      <given-names>Béatrice</given-names>
+     </name>
+     <xref ref-type="aff" rid="Aff18">18</xref>
+    </contrib>
+   </contrib-group>
+  </collab>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0829-7817</contrib-id>
+  <name>
+   <surname>Lambert</surname>
+   <given-names>Jean-Charles</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4928-2163</contrib-id>
+  <name>
+   <surname>Costa</surname>
+   <given-names>Marcos Romualdo</given-names>
+  </name>
+  <address>
+   <email>marcos.costa@pasteur-lille.fr</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411233.6</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 9687 399X</institution-id>
+   <institution>Brain Institute, Federal University of Rio Grande do Norte, </institution>
+  </institution-wrap>Av. Nascimento de Castro, 2155 Natal, Brazil 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411233.6</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 9687 399X</institution-id>
+   <institution>Bioinformatics Multidisciplinary Environment (BioME), </institution>
+   <institution>Federal University of Rio Grande do Norte, </institution>
+  </institution-wrap>Natal, Brazil 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.503422.2</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2242 6780</institution-id>
+   <institution>Unité INSERM 1167, RID-AGE-Risk Factors and Molecular Determinants of Aging-Related Diseases, Institut Pasteur de Lille, </institution>
+   <institution>University of Lille, </institution>
+  </institution-wrap>Lille Cedex, France 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>CHU Hôpital St Jean, Angers, France 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>CHRU Pellegrin, Bordeaux, France 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411149.8</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0472 0160</institution-id>
+   <institution>CHU Côte de Nacre, </institution>
+  </institution-wrap>Caen, France 
+ </aff>
+ <aff id="Aff7">
+  <label>7</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411163.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0639 4151</institution-id>
+   <institution>CHU Gabriel Montpied, </institution>
+  </institution-wrap>Clermont-Ferrand, France 
+ </aff>
+ <aff id="Aff8">
+  <label>8</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.414293.9</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1795 1355</institution-id>
+   <institution>CHRU Hôpital Roger Salengro, </institution>
+  </institution-wrap>Lille, France 
+ </aff>
+ <aff id="Aff9">
+  <label>9</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.412212.6</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 1481 5225</institution-id>
+   <institution>CHRU Hôpital Dupuytren, </institution>
+  </institution-wrap>Limoges, France 
+ </aff>
+ <aff id="Aff10">
+  <label>10</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.413852.9</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2163 3825</institution-id>
+   <institution>Groupe Hospitalier Est. Hospices Civils de Lyon, </institution>
+  </institution-wrap>Lyon, France 
+ </aff>
+ <aff id="Aff11">
+  <label>11</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.414336.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0407 1584</institution-id>
+   <institution>CHU Hôpital de La Timone, APHM, </institution>
+  </institution-wrap>Marseille, France 
+ </aff>
+ <aff id="Aff12">
+  <label>12</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.157868.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 9961 060X</institution-id>
+   <institution>CHU de Montpellier, </institution>
+  </institution-wrap>Montpellier, France 
+ </aff>
+ <aff id="Aff13">
+  <label>13</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.464719.9</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0639 4696</institution-id>
+   <institution>CHU Hôpital Pasteur, </institution>
+  </institution-wrap>Nice, France 
+ </aff>
+ <aff id="Aff14">
+  <label>14</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411439.a</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2150 9058</institution-id>
+   <institution>GH Pitié-Salpêtrière, APHP, </institution>
+  </institution-wrap>Paris, France 
+ </aff>
+ <aff id="Aff15">
+  <label>15</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411162.1</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 9336 4276</institution-id>
+   <institution>CHU La Milétrie, </institution>
+  </institution-wrap>Poitiers, France 
+ </aff>
+ <aff id="Aff16">
+  <label>16</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.414271.5</institution-id>
+   <institution>CHU Hôpital Pontchaillou, </institution>
+  </institution-wrap>Rennes, France 
+ </aff>
+ <aff id="Aff17">
+  <label>17</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.417615.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2296 5231</institution-id>
+   <institution>CHU Hôpital Charles Nicolle, </institution>
+  </institution-wrap>Rouen, France 
+ </aff>
+ <aff id="Aff18">
+  <label>18</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.412201.4</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0593 6932</institution-id>
+   <institution>CHRU Hôpital de Hautepierre, </institution>
+  </institution-wrap>Strasbourg, France 
+ </aff>
+</contrib-group>

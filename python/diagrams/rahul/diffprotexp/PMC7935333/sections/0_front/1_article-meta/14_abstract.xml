@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <sec id="s2001">
+  <title>Purpose</title>
+  <p>Triple negative breast cancer (TNBC) is an intrinsic subtype of breast cancer with a poor prognosis, characterized by a lack of ER and PR expression and the absence of HER2 amplification. The aim of this study is to characterize hub genes (key genes in the molecular interaction network) expression in TNBC, which may serve as prognostic predictors for TNBC treatment.</p>
+ </sec>
+ <sec id="s2002">
+  <title>Methods</title>
+  <p>Four transcriptome microarray datasets GSE27447, GSE39004, GSE43358 and GSE45827 were obtained from the Gene Expression Omnibus (GEO) database, and R package limma and RobustRankAggreg were employed to identify common differentially expressed genes (DEGs). Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were conducted by DAVID and KOBAS database. Thereafter, protein–protein interaction (PPI) network was constructed according to STRING online database. Functional modules and hub genes were screened by MCODE and cytohubba plug-ins, and the Cancer Genome Atlas (TCGA) survival analysis and qRT-PCR were utilized to validate the expression of these hub genes on TNBC.</p>
+ </sec>
+ <sec id="s2003">
+  <title>Results</title>
+  <p>A total of 134 DEGs were identified by differential expression analysis, consisting of 88 up- and 46 down-regulated genes. GO and KEGG analyses showed that the terms and pathways enriched were mainly associated with cell adhesion, tumorigenesis and cellular immunity. From the PPI network, we identified six hub genes, including 
+   <italic>CD3D, CD3E, CD3G, FYN, GRAP2</italic> and 
+   <italic>ITK</italic>. Survival analysis and the qRT-PCR results confirmed the robustness of the identified hub genes.
+  </p>
+ </sec>
+ <sec id="s2004">
+  <title>Conclusion</title>
+  <p>This study provides a new insight into the understanding of the molecular mechanisms associated with TNBC and suggested that the hub genes may serve as prognostic predictors.</p>
+ </sec>
+</abstract>

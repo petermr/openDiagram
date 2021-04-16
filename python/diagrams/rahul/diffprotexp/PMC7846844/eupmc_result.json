@@ -1,0 +1,435 @@
+{
+  "id": [
+    "33514792"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33514792"
+  ],
+  "pmcid": [
+    "PMC7846844"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7846844"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41598-021-82126-2"
+  ],
+  "title": [
+    "Transcriptome analysis reveals the long intergenic noncoding RNAs contributed to skeletal muscle differences between Yorkshire and Tibetan pig."
+  ],
+  "authorString": [
+    "Huang Z, Li Q, Li M, Li C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Huang Z"
+          ],
+          "firstName": [
+            "Ziying"
+          ],
+          "lastName": [
+            "Huang"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory of Agricultural Animal Genetics, Breeding, and Reproduction of the Ministry of Education and Key Laboratory of Swine Genetics and Breeding of the Ministry of Agriculture, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li Q"
+          ],
+          "firstName": [
+            "Qianqian"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory of Agricultural Animal Genetics, Breeding, and Reproduction of the Ministry of Education and Key Laboratory of Swine Genetics and Breeding of the Ministry of Agriculture, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li M"
+          ],
+          "firstName": [
+            "Mengxun"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory of Agricultural Animal Genetics, Breeding, and Reproduction of the Ministry of Education and Key Laboratory of Swine Genetics and Breeding of the Ministry of Agriculture, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li C"
+          ],
+          "firstName": [
+            "Changchun"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory of Agricultural Animal Genetics, Breeding, and Reproduction of the Ministry of Education and Key Laboratory of Swine Genetics and Breeding of the Ministry of Agriculture, Huazhong Agricultural University, Wuhan, 430070, China. lichangchun@mail.hzau.edu.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Guangxi Yangxiang Co., Ltd. Production Center, Guigang, 537131, China. lichangchun@mail.hzau.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "3084089"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "2622"
+  ],
+  "abstractText": [
+    "The difference between the skeletal muscle growth rates of Western and domestic breeds is remarkable, but the potential regulatory mechanism involved is still unclear. Numerous studies have pointed out that long intergenic noncoding RNA (lincRNA) plays a key role in skeletal muscle development. This study used published Yorkshire (LW) and Tibetan pig (TP) transcriptome data to explore the possible role of lincRNA in the difference in skeletal muscle development between the two breeds. 138 differentially expressed lincRNAs (DELs) were obtained between the two breeds, and their potential target genes (PTGs) were predicted. The results of GO and KEGG analysis revealed that PTGs are involved in multiple biological processes and pathways related to muscle development. The quantitative trait loci (QTLs) of DELs were predicted, and the results showed that most QTLs are related to muscle development. Finally, we constructed a co-expression network between muscle development related PTGs (MDRPTGs) and their corresponding DELs on the basis of their expression levels. The expression of DELs was significantly correlated with the corresponding MDRPTGs. Also, multiple MDRPTGs are involved in the key regulatory pathway of muscle fiber hypertrophy, which is the IGF-1-AKT-mTOR pathway. In summary, multiple lincRNAs that may cause differences in skeletal muscle development between the two breeds were identified, and their possible regulatory roles were explored. The findings of this study may provide a valuable reference for further research on the role of lincRNA in skeletal muscle development."
+  ],
+  "affiliation": [
+    "Key Laboratory of Agricultural Animal Genetics, Breeding, and Reproduction of the Ministry of Education and Key Laboratory of Swine Genetics and Breeding of the Ministry of Agriculture, Huazhong Agricultural University, Wuhan, 430070, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "863, 2011AA100302"
+          ],
+          "agency": [
+            "National high technology research and development plan"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "NSFC, 31872322"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2662017PY030"
+          ],
+          "agency": [
+            "the Fundamental Research Funds for the Central Universities"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-021-82126-2"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7846844"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7846844?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR224823"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "Link created based on a title-first author match"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "geo",
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-01-30"
+  ],
+  "firstIndexDate": [
+    "2021-01-31"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-05"
+  ],
+  "dateOfRevision": [
+    "2021-02-06"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-29"
+  ],
+  "firstPublicationDate": [
+    "2021-01-29"
+  ]
+}

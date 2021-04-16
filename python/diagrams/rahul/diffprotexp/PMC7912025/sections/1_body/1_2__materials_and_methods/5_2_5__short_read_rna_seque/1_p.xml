@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Libraries were produced using the TruSeq Stranded mRNA and subjected to Illumina HiSeq 2000 paired-end sequencing. The trimming software skewer was used to process raw fastq files and QC statistics. The trimmed paired-end reads were aligned against human genome hg38 using Salmon 1.3 [
+ <xref rid="B27-viruses-13-00218" ref-type="bibr">27</xref>]. Mapped paired-end reads for both genes and transcripts (isoforms) were counted in each sample using RNA-Seq by Expectation Maximization (RSEM). Contrasts were compared for genotypes and treatment conditions using DESeq2 [
+ <xref rid="B28-viruses-13-00218" ref-type="bibr">28</xref>].
+</p>

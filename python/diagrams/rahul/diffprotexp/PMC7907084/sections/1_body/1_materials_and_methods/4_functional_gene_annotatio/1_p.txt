@@ -1,0 +1,4 @@
+0: Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses and Gene ontology (GO) analyses were performed by GOSeq Release2.12 and KOBAS v2.0 respectively 20,  21.
+1: The terms with q-value < 0.05 were considered significantly enriched.
+2: The online database resource search tool for the retrieval of interacting Genes/Proteins (STRING,  http://string-db.org/) was employed for proteinprotein interaction analyses.
+3: String score higher than 700 was collected and then subjected to further analyses by Cytoscape v3.3.0 software 22.

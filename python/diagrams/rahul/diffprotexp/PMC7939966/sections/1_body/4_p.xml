@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>A. castellanii</italic> was infected with 
+ <italic>L. pneumophila</italic> [
+ <xref rid="b14-kjp-59-1-67" ref-type="bibr">14</xref>], and the 
+ <italic>Legionella</italic>-infected 
+ <italic>Acanthamoeba</italic> (L+A) was incubated for 12 hr and 24 hr at 25°C incubator. mRNA-Seq reads were mapped using TopHat software [
+ <xref rid="b15-kjp-59-1-67" ref-type="bibr">15</xref>], and differentially expressed gene were determined based on BEDtools and EdgeR [
+ <xref rid="b16-kjp-59-1-67" ref-type="bibr">16</xref>–
+ <xref rid="b18-kjp-59-1-67" ref-type="bibr">18</xref>]. And we used the FPKM (fragments per kilobase of exon per million fragments) as the method of determining the expression level of the gene regions. Gene classification was based on searches done by DAVID (
+ <ext-link ext-link-type="uri" xlink:href="http://david.abcc.ncifcrf.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">http://david.abcc.ncifcrf.gov/</ext-link>).
+</p>

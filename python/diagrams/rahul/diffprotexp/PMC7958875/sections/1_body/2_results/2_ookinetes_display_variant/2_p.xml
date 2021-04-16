@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To identify genes that displayed different expression profiles between the midguts, we identified 682 genes that were highly variable after controlling for pseudotime. (
+ <xref ref-type="supplementary-material" rid="ST2">
+  <bold>Table S2</bold>
+ </xref>). We then performed differential expression analysis on these genes and identified 12 genes that vary depending on midgut origin (qval &lt;0.01, 
+ <xref ref-type="supplementary-material" rid="ST3">
+  <bold>Table S3</bold>
+ </xref>, 
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S6</bold>
+ </xref>, 
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>S7</bold>
+ </xref>). These 12 genes included PBANKA_1432300 (Cell-traversal protein for ookinetes and sporozoites, CelTOS) (
+ <xref ref-type="fig" rid="f2">
+  <bold>Figures 2E, F</bold>
+ </xref>) and PBANKA_1006300 (perforin-like protein 1, PLP1), which are both known to play a role in cell traversal (
+ <xref rid="B18" ref-type="bibr">Ishino et al., 2005</xref>; 
+ <xref rid="B21" ref-type="bibr">Kariu et al., 2006</xref>). This suggests that a particular vector environment may elicit a transcriptional response, including in midgut traversal genes, which may help to maximize transmission in a context-specific manner. We also identified three genes from multigene families that were differentially expressed in ookinetes originating from individual mosquitoes: a 
+ <italic>clag</italic> gene (PBANKA_1400600); LAP4, an LCCL domain containing protein that regulates cell division in the oocyst (PBANKA_1319500) (
+ <xref rid="B40" ref-type="bibr">Saeed et al., 2018</xref>); and a CPW-WPC containing protein (PBANKA_1245200). In asexual blood stage parasites, intra-stage variation is driven by transcriptional variation in large multigene families that are involved in host-parasite interactions (
+ <xref rid="B39" ref-type="bibr">Rovira-Graells et al., 2012</xref>). For example, members of the CLAG family have been implicated in invasion, cytoadherence and nutrient uptake, which are likely to be processes where optimal function may vary across host environments (
+ <xref rid="B16" ref-type="bibr">Gupta et al., 2015</xref>). Multigene family genes are often heterochromatically regulated; however, none of the differentially expressed genes we identified are from heterochromatic regions, potentially because expression of heterochromatic genes was lower in ookinetes relative to other parasite stages (
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S8</bold>
+ </xref>). Additionally, we did not find any differentially expressed ApiAP2 transcription factors (
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S9</bold>
+ </xref>), making it unclear how the identified genes are differently regulated.
+</p>

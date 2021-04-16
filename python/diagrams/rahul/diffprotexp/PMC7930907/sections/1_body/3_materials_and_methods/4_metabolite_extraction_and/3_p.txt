@@ -1,0 +1,4 @@
+0: MassHunter Workstation software (version B.07.00; Agilent Technologies) was used to export mzdata format from the acquired MS data (.d).
+1: Data pretreatment procedures were performed by using XCMS Online 2 for peak discrimination, filtering, and alignment.
+2: A table of the intensities of all the peaks was created with the retention time and the mass to ratio for each ion after being aligned by time domain, automatic integration, and extraction of the peak intensities.
+3: Then, metabolites were qualitatively analyzed with MS/MS spectra by retrieving and matching the data from Metlin, Massbank, and Human Metabolome Database (HMDB).

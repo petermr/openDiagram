@@ -1,0 +1,6 @@
+0: The variance of gene expression in GSE13904 (children) was first calculated, and the top 20% of the greatest variance was screened to construct a coexpression network through weighted gene coexpression network analysis (WGCNA) using the WGCNA package in R. 20 The connections among different pairs of genes were identified and weighted based on the correlated expression levels across patients and control samples.
+1: Then the adjacency matrix was converted into a topological overlap matrix (TOM) to detect gene connectivity in the network.
+2: Genes were separated into different clusters (modules) based on their connectivity and covariance coefficients, then hierarchically clustered.
+3: The WGCNA package was employed to test the independence and average connectivity of different modules under different power values, and the power values corresponding to an independence index of R 2 = 0.9 were selected.
+4: The minimum size of the gene dendrogram was 30.
+5: Potential correlations between modules and clinical characteristics of patients were explored through Pearson correlation analysis.

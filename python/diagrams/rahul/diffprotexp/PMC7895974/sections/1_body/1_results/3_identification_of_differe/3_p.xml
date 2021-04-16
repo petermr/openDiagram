@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">The inverse coverage patterns identified for CDX2, LEF1 versus RARA were consistent with the opposing expression patterns for WNT and RA pathway components within paraxial mesoderm along the anterior–posterior axis (Fig. 
+ <xref rid="Fig1" ref-type="fig">1g</xref>). To further dissect the roles of CDX2 and LEF1 in posterior axis elongation we determined genes associated with either CDX2 or LEF1 footprints in accessible regions within 10 kb upstream or downstream. GO terms for these genes were overlapping and include: anatomical structure morphogenesis/development, metabolic process and regulation, for both CDX2 (Fig. 
+ <xref rid="Fig3" ref-type="fig">3i</xref>) and LEF1 (Fig. 
+ <xref rid="Fig3" ref-type="fig">3j</xref>). We next performed STRING analysis, using a threshold of 0.700, to obtain a protein–protein interaction (PPI) map for genes identified with CDX2 (Fig. 
+ <xref rid="Fig3" ref-type="fig">3k</xref>) or LEF1 (Fig. 
+ <xref rid="Fig3" ref-type="fig">3l</xref>) footprints in accessible regions within 10 kb. This revealed genes with strong PPIs, including those associated with enriched biological processes such as embryonic morphogenesis for CDX2 and animal organ morphogenesis for LEF1. LEF1 footprints correlated with CDX2 consistent with CDX2 being regulated by the Wnt signalling pathway. Furthermore, the phenotypical traits of CDX2 mouse mutants
+ <sup>
+  <xref ref-type="bibr" rid="CR47">47</xref>
+ </sup> include posterior truncations reminiscent of those found in LEF1/TCF1 double mutants
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>. Thus, to explore whether CDX2 and LEF1 could regulate similar genes, we examined all differentially up-regulated genes in the PSM and investigated whether there are associated CDX2 and LEF1 footprints. We found 101 genes with a CDX2 footprint and 42 genes with a LEF1 footprint within 10 kb up- or downstream. Surprisingly, when comparing these sets of genes only four genes—
+ <italic>Msgn1</italic>, 
+ <italic>Sall4</italic>, 
+ <italic>Spry1 and DDC</italic>—were associated with both CDX2 and LEF1 footprints, and the majority of correlated genes was different (Fig. 
+ <xref rid="Fig3" ref-type="fig">3m</xref>). Our analysis suggests that CDX2 and LEF1 are part of discrete networks acting in parallel to govern similar processes (Fig. 
+ <xref rid="Fig3" ref-type="fig">3k, l</xref>), but they regulate different sets of genes important for these processes.
+</p>

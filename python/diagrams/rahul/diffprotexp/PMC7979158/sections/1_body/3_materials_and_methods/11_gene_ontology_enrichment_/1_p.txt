@@ -1,0 +1,7 @@
+0: Mouse Gene Ontology (GO) data was downloaded from Bioconductor (org.Mm.eg.db).
+1: We used the TopGO R package version 2.34.0 ( Alexa and Rahnenfuhrer, 2019) to test for enrichment of GO terms.
+2: For the analysis presented here, we restricted our testing to GO Biological Process annotations and required a minimal node size (number of genes annotated to GO terms) of 20.
+3: We used the internal weight01 testing framework and the Fisher test, a strategy recommended for gene set analysis that generally accounts for multiple testing comparisons.
+4: For GO BP analysis, we reported terms with p-value<0.05.
+5: For all enrichment analysis, the test set of DE genes was compared against the background set of genes expressed in our study based on minimum read-count cutoffs described above.
+6: Heatmaps showing positive log 2 (expected/observed) values were plotted for GO terms of interest.

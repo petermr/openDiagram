@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par28">Predicting enhancer gene interactions remains challenging, although new computational methods are becoming available. For example, the recent activity-by-contact model indicates that very long-range interactions are rare
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>,
+  <xref ref-type="bibr" rid="CR60">60</xref>
+ </sup>. Thus, in our footprint analysis we selected accessible chromatin regions within 10 kb of the transcription start site, or within 10 kb downstream of the gene. This approach combined with experimental validation and time-lapse imaging in gastrula-stage chick embryos identified CREs for 
+ <italic>TCF15</italic> and 
+ <italic>MEOX1</italic>, both of which are in close proximity of the transcription start site (Figs. 
+ <xref rid="Fig5" ref-type="fig">5</xref> and 
+ <xref rid="Fig6" ref-type="fig">6</xref>). For 
+ <italic>TCF15</italic> we identified two separate elements, 
+ <italic>TCF15</italic> Enh-1 and 
+ <italic>TCF15</italic> Enh-2, which are both active in presegmented mesoderm and somites. 
+ <italic>TCF15</italic> Enh-1 shows ectopic activity in the notochord. This expression was not seen when both elements were combined, suggesting that 
+ <italic>TCF</italic> Enh-2 may contain a repressor of notochord expression. However, both 
+ <italic>TCF</italic> Enh-2 and the combined CREs show ectopic activity in LPM, indicating additional repressive elements are missing. Alternatively, this CRE may interact with other gene(s) and direct their expression in the LPM. Footprint analysis identifies a RARA binding site as a highly relevant candidate TF binding site. Citrine activity is lost after mutation of the RARA site. Furthermore, dCas9-Krab epigenome modification
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup> leads to loss of 
+ <italic>TCF15</italic> expression. Although this is restricted to the region of the embryo that is targeted by electroporation at gastrula stages
+ <sup>
+  <xref ref-type="bibr" rid="CR1">1</xref>,
+  <xref ref-type="bibr" rid="CR2">2</xref>
+ </sup>, this finding suggests the endogenous CRE is essential. This element is not conserved at sequence level and might be chick specific. In contrast, the 
+ <italic>MEOX1</italic> enhancer identified here is conserved in avians, reptiles and mammals but not in amphibian or fish (Fig. 
+ <xref rid="Fig7" ref-type="fig">7a</xref>). In both chick and human CREs, TF binding sites for FOXO1 and ZIC3 are required for Citrine expression (Figs. 
+ <xref rid="Fig6" ref-type="fig">6</xref>e and 
+ <xref rid="Fig7" ref-type="fig">7c</xref>). In vivo epigenome modification of the 
+ <italic>MEOX1</italic> enhancer causes axial elongation phenotypes in embryos (Fig. 
+ <xref rid="Fig6" ref-type="fig">6g, h</xref>). RT-qPCR shows that genes involved in chondrogenesis and sclerotome polarity are affected in somites where expression of 
+ <italic>MEOX1</italic> is lost after targeting the dCas9-Krab repressor to the enhancer (Fig. 
+ <xref rid="Fig6" ref-type="fig">6j</xref>). Furthermore, the elongation phenotypes observed are consistent with mouse mutants
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>,
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup> and human Klippel-Feil patients who display skeletal abnormalities
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>,
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. Thus, it could be of interest to determine whether the 
+ <italic>MEOX1</italic> enhancer is affected in patients, who do not have a coding mutation in MEOX1.
+</p>

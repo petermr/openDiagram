@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par47">The BLCA patients were divided into low- and high-risk groups according to the median risk score. Survival differences between the two groups were evaluated by the Kaplan–Meier method using log-rank tests. In addition, receiver operating characteristic (ROC) curves were used to determine the accuracy of the prognostic model [
+ <xref ref-type="bibr" rid="CR13">13</xref>]. Subsequently, calibration curves and the concordance index (C-index) were calculated using the rms (
+ <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/rms/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://cran.r-project.org/web/packages/rms/index.html</ext-link>) and the survcomp (
+ <ext-link ext-link-type="uri" xlink:href="http://www.bioconductor.org/packages/release/bioc/html/survcomp.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioconductor.org/packages/release/bioc/html/survcomp.html</ext-link>) packages in R, respectively. A nomogram survival model was performed using the R package 
+ <italic>rms</italic> based on the eight independent prognosis-associated RBPs to predict the survival rate of BLCA patients at 1, 2, and 3 years. Univariable and multivariable Cox regression analyses were performed to assess the independent clinical prognostic factors in BLCA patients from TCGA.
+</p>

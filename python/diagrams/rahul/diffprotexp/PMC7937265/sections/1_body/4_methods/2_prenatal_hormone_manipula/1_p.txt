@@ -1,0 +1,13 @@
+0: We injected eggs from 20 breeding pairs with T (500 pg T in 5 l peanut oil; Sigma Aldrich, cat.
+1: #T1500) or the control vehicle (5 l peanut oil) on the morning eggs were laid ( n = 109 eggs).
+2: This dose corresponds with the range of yolk androgens a female naturally allocates [ 44] and has been used to elicit phenotypic responses in zebra finch offspring in past work [ 45,  46].
+3: The eggs were injected following the protocol in Winter et al.
+4: [ 31].
+5: Briefly, eggs were held vertically with the rounded end pointing down and illuminated from beneath to visualize the yolk.
+6: Eggs were cleaned with 70% ethanol and injections were administered ~ 2 mm down from the pointed end of the egg at a 45 o angle using a sterile 10 l Hamilton syringe.
+7: The hole was sealed with Loctite Ultra Gel Super Glue and allowed to remain vertical for 10 min before being returned to the nest.
+8: We randomized the treatment assignment to the first egg in a clutch with subsequent eggs receiving alternating treatments.
+9: We performed a binomial generalized linear mixed model (GLMM) with hatching success as a binary response and evaluated whether treatment influenced hatchability, while controlling for natal nest as a random effect.
+10: We also included laying order as a variable as this can affect egg hormone levels [ 47].
+11: We additionally recorded body mass ( 0.01 g) on the morning offspring hatched and used a LMM to test whether treatment or laying order affected this early condition metric, controlling for natal nest as a random effect.
+12: All mixed models were performed in R (version 3.5.2) with the lme4 package (version 1.125) [ 48].

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <disp-formula id="FD3">
+  <label>(3)</label>
+  <math id="M3">
+   <mrow>
+    <mi>F</mi>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mn>1</mn>
+      </msub>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <msub>
+             <mi>Y</mi>
+             <mrow>
+              <mi>G</mi>
+              <mn>1</mn>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo stretchy="true">¯</mo>
+          </mover>
+          <mo>−</mo>
+          <mover accent="true">
+           <mi>Y</mi>
+           <mo stretchy="true">¯</mo>
+          </mover>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <msub>
+       <mi>n</mi>
+       <mn>2</mn>
+      </msub>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <msub>
+             <mi>Y</mi>
+             <mrow>
+              <mi>G</mi>
+              <mn>2</mn>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo stretchy="true">¯</mo>
+          </mover>
+          <mo>−</mo>
+          <mover accent="true">
+           <mi>Y</mi>
+           <mo stretchy="true">¯</mo>
+          </mover>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+     </mrow>
+     <mrow>
+      <msubsup>
+       <mi>s</mi>
+       <mi>p</mi>
+       <mn>2</mn>
+      </msubsup>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD4">
+  <label>(4)</label>
+  <math id="M4">
+   <mrow>
+    <msubsup>
+     <mi>s</mi>
+     <mi>p</mi>
+     <mn>2</mn>
+    </msubsup>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>1</mn>
+        </msub>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+      <msubsup>
+       <mi>s</mi>
+       <mn>1</mn>
+       <mn>2</mn>
+      </msubsup>
+      <mo>+</mo>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <msub>
+         <mi>n</mi>
+         <mn>2</mn>
+        </msub>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+      <msubsup>
+       <mi>s</mi>
+       <mn>2</mn>
+       <mn>2</mn>
+      </msubsup>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mn>1</mn>
+      </msub>
+      <mo>+</mo>
+      <msub>
+       <mi>n</mi>
+       <mn>2</mn>
+      </msub>
+      <mo>−</mo>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+ <italic>
+  <span class="overline" xmlns="http://www.w3.org/1999/xhtml">Y</span>
+ </italic> denotes the overall mean of the data
+</p>

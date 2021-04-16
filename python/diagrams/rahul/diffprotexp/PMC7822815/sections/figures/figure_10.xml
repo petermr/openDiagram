@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig10">
+ <label>Fig. 10</label>
+ <caption>
+  <title>RUNX1/RUNX1T1 controls alternative splicing of 
+   <italic>PTK2B</italic> transcripts in t(8;21)-positive leukemia cells.
+  </title>
+  <p>
+   <bold>a</bold> Splicing graphs, representative Cufflinks assembled transcripts and in silico translated proteins of 
+   <italic>PTK2B</italic> gene. This panel is based on Kasumi-1 total RNA-Seq data. Exons and exon-exon junctions are designated by the letters E and J, respectively, and numbered. Differentially used junction J26 is highlighted in purple. For each transcript, Cuffdiff based log
+   <sub>2</sub> fold changes in expression and respective 
+   <italic>q</italic>-values are indicated in parentheses. a denotes amino acids. 
+   <bold>b</bold> Strip charts demonstrating normalized expression of exon-exon junctions J24 to J27 in Kasumi-1 cells. Genomic location of junctions is shown in 
+   <bold>a</bold>. Horizontal lines are arithmetic means. 
+   <italic>P</italic>-value was calculated with two-sided Student’s t test. 
+   <bold>c</bold> and 
+   <bold>d</bold> qPCR-based validation of the differential splicing of 
+   <italic>PTK2B</italic> transcripts under two siRNA treatment conditions. Binding positions of primers and structure of the expected amplicons are shown in 
+   <bold>c</bold>. Bars in 
+   <bold>d</bold> represent mean of two independent qPCR experiments. 
+   <bold>e</bold> Pearson correlation heatmap demonstrating relationship between expression of the 
+   <italic>SRSF7</italic>, 
+   <italic>RBFOX2</italic>, or 
+   <italic>PTK2</italic> genes and splicing events in the 
+   <italic>PTK2B</italic> gene. This map is based on TCGA-LAML dataset (
+   <italic>n</italic> = 173). 
+   <bold>f</bold> RBFOX2 and SRSF7 proteins bind 
+   <italic>PTK2B</italic> gene. This genome browser snapshot is based on ENCODE eCLIP data. 
+   <bold>g</bold> Effect of the siRNA-mediated knockdown of 
+   <italic>RBFOX2</italic> and 
+   <italic>SRSF7</italic> expression on splicing of the 
+   <italic>PTK2B</italic> gene in Kasumi-1 cells. Bars represent mean ± SD of three independent experiments.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20848_Fig10_HTML" id="d32e1886" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

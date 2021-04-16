@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T6" orientation="portrait" position="float">
+ <label>Table 6</label>
+ <caption>
+  <p>Partial representative GO terms of differentially expressed proteins between oncosphere and adult of 
+   <italic>E. granulosus</italic>.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr valign="top">
+    <th align="left" rowspan="1" colspan="1">Annotations number</th>
+    <th align="center" rowspan="1" colspan="1">Gene ontology term</th>
+    <th align="center" rowspan="1" colspan="1">
+     <italic>p</italic>-value
+    </th>
+    <th align="center" rowspan="1" colspan="1">Accession</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr valign="top">
+    <td align="left" rowspan="54" colspan="1">GO:0005198</td>
+    <td align="left" rowspan="54" colspan="1">Structural molecule activity</td>
+    <td align="left" rowspan="54" colspan="1">0.004745</td>
+    <td align="left" rowspan="1" colspan="1">hCG1990955, isoform CRA_a</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin beta</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin beta-2 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin alpha-1C chain-like isoform 2 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin alpha-1D chain </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin alpha-1C chain-like </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">alpha-Tubulin </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Putative ribosomal protein L30 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">40S ribosomal protein S4-like protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Ribosomal protein S3 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">60S ribosomal protein L21 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">40S ribosomal protein S6 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">60S ribosomal protein l11 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Ribosomal protein S5a </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">60S ribosomal protein L18</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Ribosomal protein L3 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Hypothetical protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Large subunit ribosomal protein 23 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">60S ribosomal protein l31 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Mitochondrial H+ transporting ATP synthase F1 complex alpha subunit 1 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Chaperonin GroEL </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Ornithine aminotransferase, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">T-complex protein 1 subunit gamma, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Molecular chaperone DnaK </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">T-complex protein 1 subunit alpha </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Elongation factor 2 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Adenylate kinase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Aspartate aminotransferase mitochondrial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Chaperonin containing t-complex protein 1 epsilon subunit tcpe </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">DEAD box ATP-dependent RNA helicase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Chain A, Gdp-Bound Rab14 Gtpase</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Similar to Drosophila melanogaster Cam, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Ras-related nuclear protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Pgd protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">DEAD box RNA helicase Me31B </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Nucleoside-diphosphate kinase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Translation initiation factor 2 subunit 3 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Cdc42-like protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Arl1 protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Putative ADP-ribosylation factor 6 variant 3 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Spliceosome RNA helicase bat1 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">cAMP-dependent protein kinase catalytic subunit </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">GF14408 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Glyceraldehyde-3-phosphate dehydrogenase</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Lactate dehydrogenase A </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Malate dehydrogenase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Pyruvate dehydrogenase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Putative malate dehydrogenase, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Lactate dehydrogenase B </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">ATP:guanidino kinase (Smc74) </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Gyceraldehyde-3-phosphate dehydrogenase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Succinate dehydrogenase iron-sulfur protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Thioredoxin glutathione reductase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Peroxiredoxin </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

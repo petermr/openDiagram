@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">To insert the ErmCL and H-NS peptides into the truncated ribosome we used a home-made program based on an optimization algorithm named Differential Evolution
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>. The input parameters for this program were set to a scaling factor F = 0.5 and crossover probability of P
+ <sub>c</sub> = 0.9, and were chosen based on trial and error attempts. The space occupied by the nascent peptide was divided into 60 × 60 × 60 discrete mesh points and the objective function defined as the number of mesh points that overlap with the ribosome. We used the additional constraint that the N-termini of the peptides be located near the base 2602 of the ribosome. As expected, after insertion the N-termini of the peptides was found to be closer to ERY than their C-termini (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>). The exit tunnel was aligned along the z-axis of the local coordinate system. The ribosome-peptide systems were then neutralized by adding 129 Mg
+ <sup>2+</sup> and 186 Na
+ <sup>+</sup> ions. Na
+ <sup>+</sup> ions were used instead of K
+ <sup>+</sup> ions because K
+ <sup>+</sup> and Cl
+ <sup>-</sup> can erroneously form salt crystals when using the AMBER force field. We then performed MD simulations in the gas phase for 2 × 10
+ <sup>5</sup> integration steps, which allowed the ions to rapidly diffuse to their binding sites on the ribosome. The heavy atoms of the peptide, ribosome and ERY were harmonically restrained during these simulations. The system was then solvated with TIP3P water molecules with an additional 0.1 M Na
+ <sup>+</sup> and Cl- ions. In total, about 30,000 water molecules were used in the simulations.
+</p>

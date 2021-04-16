@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par51">We integrated differential binding genes (
+ <italic>N</italic> = 3) from ChIP-seq with the corresponding RNA-seq data, respectively. For the captured three groups transcriptome genes, we performed the PCA of transcript levels using the Plot3D package in R. We utilized the heatmap.2 function in the package of ggplots to visualize the transcription expression levels of differential binding genes obtained from ChIP-seq.
+</p>

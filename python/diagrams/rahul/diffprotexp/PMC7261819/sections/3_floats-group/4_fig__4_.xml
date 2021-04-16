@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F4" orientation="portrait" position="float">
+ <label>Fig. 4.</label>
+ <caption>
+  <p>
+   <bold>Comparison of different PSM count metrics for data sets based on more than one TMT-experiment.</bold> For data sets based on more than one TMT-experiment, proteins are usually quantified with a different number of PSMs in different TMT experiments. In DEqMS these numbers has to be unified to a single PSM count metric for each protein. The plots show the residual sum of squares (RSS) analysis for different PSMcount metrics. Shown in the figure are RSS plots for breast cancer cell line data set (D5) for DEqMS using minimum, median, maximum, mean and sum PSMcount and for Limma.
+  </p>
+ </caption>
+ <graphic xlink:href="zjw0052061230004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

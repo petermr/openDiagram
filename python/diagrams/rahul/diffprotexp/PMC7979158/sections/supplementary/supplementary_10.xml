@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="supp4">
+ <label>Supplementary file 4.</label>
+ <caption>
+  <title>Differential gene expression data of control vs MIA samples, and WGCNA gene module assignment at E12.5.</title>
+  <p>Columns indicate gene symbols (gene_name), log
+   <sub>2</sub> fold change (LogFC), log
+   <sub>2</sub> counts per million (LogCPM), likelihood ratio statistics (LR), p value (PValue), false discovery rate adjusted p value (FDR), and WGCNA module assignment (moduleColors and moduleColors_merged). A total of 16,613 genes were tested.
+  </p>
+ </caption>
+ <media mime-subtype="zip" mimetype="application" xlink:href="elife-60100-supp4.zip" orientation="portrait" id="d39e2144" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</supplementary-material>

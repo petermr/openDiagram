@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To evaluate entire gene expression profiles in nitrogen-deprived vegetative cells (NDVs), nitrogen-deprived heterocysts (NDHs), and nitrogen-replete vegetative cells (NVs), nine digital gene expression (DGE) profiling libraries of 
+ <italic>Anabaena</italic> sp. strain PCC 7120 were sequenced using the Illumina HiSeq 4000 platform, which generated approximately 26 million clean reads for each library (
+ <xref ref-type="supplementary-material" rid="pone.0248155.s003">S1 Table</xref>), accounting for approximately 92% of the total obtained reads. In total, 243,139,646 clean reads were acquired, which were 36,714,086,546 bp in length; the average length of each clean read was 151 bp (
+ <xref ref-type="supplementary-material" rid="pone.0248155.s003">S1 Table</xref>). For all reads in the nine libraries, statistical analysis of the distribution results of RNA-Seq mapped events showed that approximately 7%, 93%, 78%, and 1% mapped reads were queried against the intergenic regions, genes, mRNA, and rRNA, respectively, of the reference genome, suggesting that most reads were from gene sequences (
+ <xref ref-type="supplementary-material" rid="pone.0248155.s004">S2 Table</xref>). For all nine libraries, clean read assembly generated 5,842 genes with a mean length of 988 bp.
+</p>

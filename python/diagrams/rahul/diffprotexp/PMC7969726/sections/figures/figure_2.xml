@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F2" position="float">
+ <label>FIGURE 2</label>
+ <caption>
+  <p>Increased CPSF1 in HCC correlates with unfavorable patient outcome. 
+   <bold>(A)</bold> CPSF1 expression was evaluated in TCGA LIHC samples according to different tumor grades. Two-way ANOVA tests showed statistically significant difference between groups (
+   <italic>P</italic> &lt; 2.2e-16). Significant differences between groups were indicated by Student’s 
+   <italic>t</italic>-test in Normal vs. Grade 1 (
+   <italic>P</italic> &lt; 0.01), Grade 1 vs. Grade 2 (
+   <italic>P</italic> = 0.011), Grade 2 vs. Grade 3 (
+   <italic>P</italic> = 0.033), but not in Grade 3 vs. Grade 4 (
+   <italic>P</italic> = 0.92). 
+   <bold>(B)</bold> Representative images of IHC staining of CPSF1 in tumor (T), and non-tumor (N) tissues. The IHC score for each case is shown on the right. 
+   <bold>(C,D)</bold> Correlation between CPSF1 expression and overall survival as well as disease-free survival was determined in the TCGA 
+   <bold>(C)</bold>, and SYSUCC cohorts 
+   <bold>(D)</bold> by Kaplan–Meier analysis. The high and low CPSF1 groups were separated based on median mRNA level in TCGA and median IHC score in SYSUCC cohorts. 
+   <italic>P</italic>-values in 
+   <bold>(C)</bold> and 
+   <bold>(D)</bold> were calculated by log-rank tests. **
+   <italic>P</italic> &lt; 0.01 and *
+   <italic>P</italic> &lt; 0.05.
+  </p>
+ </caption>
+ <graphic xlink:href="fcell-09-616835-g002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

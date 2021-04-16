@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00257-f003" orientation="portrait" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>Differential expression of LE genes in PCs and mPCs compared to prostate tissues and primary PCs, respectively. (
+   <bold>A</bold>) The analyses were performed using the GEPIA2 database. T: tumor (PC), N: normal prostate tissues, and TPM: transcripts per million. Statistical analyses were performed by GEPIA2, * 
+   <italic>p</italic> &lt; 0.05. (
+   <bold>B</bold>) Analyses were performed using the Sawyers dataset in R2: Genomics Analysis and Visualization Platform. Expressions were presented as log2-transformed data. Statistical analyses were performed by the R2 Platform using one-way ANOVA. * 
+   <italic>p</italic> &lt; 0.05; ** 
+   <italic>p</italic> &lt; 0.01; *** 
+   <italic>p</italic> &lt; 0.001.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00257-g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

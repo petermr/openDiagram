@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The annotated IRF7 gene includes 10 exons (
+ <xref ref-type="fig" rid="viruses-13-00218-f009">Figure 9</xref>A). Three variants have been annotated in RefSeq, corresponding to alternative splicing on exon 3 and occlusion of exon 7. Four of the most abundant IRF7 isoforms (PB.6624.7, PB123733, PB6624.10, and PB6624.20) were selected for validation, with primer sets and expected sequences shown in 
+ <xref ref-type="fig" rid="viruses-13-00218-f011">Figure 11</xref> and 
+ <xref rid="viruses-13-00218-t001" ref-type="table">Table 1</xref>. Qualitative RT-PCR assays were performed on RSV-infected hSAECs, as above, and fractionated by agarose gel electrophoresis. Primer set #4 detected an 82 nt fragment corresponding to the presence of an exon contained within intron 4 in PB6624.7 (
+ <xref ref-type="fig" rid="viruses-13-00218-f011">Figure 11</xref>B). However, we were not able to detect the inclusion of intron 6 using primer set #5. This discrepancy may be due to limitations in assigning short-read RNA sequencing counts to SMRT data or qualitative PCR optimization. Primer set #6 produced a 400 nt fragment, indicating the inclusion of exons 4–6. Primer set #7 produced two fragments, indicating the presence of exon occlusion within annotated exon 1. Finally, primer set #8 produced a 111 nt fragment corresponding to the splicing of intron 8 and a lower abundant 199 nt fragment corresponding to the inclusion of intron 8 in PB6624.10.
+</p>

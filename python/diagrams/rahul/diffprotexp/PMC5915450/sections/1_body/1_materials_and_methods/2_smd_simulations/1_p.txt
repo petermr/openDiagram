@@ -1,0 +1,14 @@
+0: Following the conventional SMD approach 25, the truncated ribosome was split into three regions.
+1: Bases and residues containing one or more atoms within 28 A of ERY comprised the dynamic region.
+2: The buffer region is between 28 and 34 A, while the remaining portion belongs to the outer region.
+3: Atoms within the dynamic region were not subject to any restraints during the SMD simulation course, but harmonic restraints were applied to non-hydrogen atoms within the buffer and outer regions with spring constants of 5 and 10 kcal mol 1 A 2, respectively.
+4: The ribosomes were solvated in a rectangular box with distances between the system and box edge of 12 A, 12 A and 28 A along the  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$x$$\end{document}x,  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$y$$\end{document}y and  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z$$\end{document}z axes, respectively.
+5: The AMBER99SB-ILDN force field was used in the SMD simulations, whereas force-field parameters for ERY were taken from the work of Solthiselvam and coworkers 13.
+6: The constant velocity and the cantilever spring constant were set to 5 m/s in the  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z$$\end{document}z-direction and 1,000 kJ mol 1 nm 2.
+7: The cantilever was connected to the center of mass of the N-terminal residue of the nascent peptide.
+8: Because there is no experimental evidence that ERY diffuses out the tunnel during protein synthesis, a harmonic restraint, with a force constant of 1000 kJ mol 1 nm 2, was applied to the heavy atom closest to the center of mass of ERY.
+9: The PME method 26 was applied to calculate electrostatic interactions using a 1 nm cutoff.
+10: We used only one starting structure for each peptide.
+11: In each SMD run, the system was first minimized by the steepest descent algorithm and equilibrated in the NVT 27 ensemble for 200 ps and then in the NPT 28 ensemble for 10 ns.
+12: The final structures from this NPT equilibration were used as starting structures for the production SMD simulations.
+13: A total of 30 and 34 SMD trajectories were performed for ErmCL and H-NS, respectively.

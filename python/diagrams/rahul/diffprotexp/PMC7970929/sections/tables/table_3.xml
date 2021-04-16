@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Statistics of transcriptome sequencing results in 
+   <italic>Urochondra setulosa.</italic>
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Sample</th>
+    <th align="left">Control</th>
+    <th align="left">EC ~ 30 dS/m</th>
+    <th align="left">EC 40 dS/m</th>
+    <th align="left">EC 50 dS/m</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Raw reads</td>
+    <td align="left">48,399,217</td>
+    <td align="left">45,882,055</td>
+    <td align="left">45,026,242</td>
+    <td align="left">45,046,274</td>
+   </tr>
+   <tr>
+    <td align="left">Processed Reads</td>
+    <td align="left">46,811,900</td>
+    <td align="left">44,368,130</td>
+    <td align="left">42,628,010</td>
+    <td align="left">42,582,319</td>
+   </tr>
+   <tr>
+    <td align="left">Alignment to clustered transcripts (%)</td>
+    <td align="left">94.10</td>
+    <td align="left">94.01</td>
+    <td align="left">84.88</td>
+    <td align="left">84.39</td>
+   </tr>
+   <tr>
+    <td align="left">% of high quality data</td>
+    <td align="left">96.72</td>
+    <td align="left">96.69</td>
+    <td align="left">94.67</td>
+    <td align="left">94.54</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

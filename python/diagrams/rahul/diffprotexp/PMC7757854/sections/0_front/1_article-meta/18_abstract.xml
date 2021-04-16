@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <title>ABSTRACT</title>
+ <p>Our understanding of adipose tissue has progressed from an inert tissue for energy storage to be one of the largest endocrine organs regulating metabolic homoeostasis through its ability to synthesize and release various adipokines that regulate a myriad of pathways. The field of adipose tissue biology is growing due to this association with various chronic metabolic diseases. An important process in the regulation of adipose tissue biology is adipogenesis, which is the formation of new adipocytes. Investigating adipogenesis in vitro is currently a focus for identifying factors that might be utilized in clinically. A powerful tool for such work is high-throughput sequencing which can rapidly identify changes at gene expression level. Various cell models exist for studying adipogenesis and has been used in high-throughput studies, yet little is known about transcriptome profile that underlies adipogenesis in mouse embryonic fibroblasts. This study utilizes RNA-sequencing and computational analysis with DESeq2, gene ontology, protein–protein networks, and robust rank analysis to understand adipogenesis in mouse embryonic fibroblasts in-depth. Our analyses confirmed the requirement of mitotic clonal expansion prior to adipogenesis in this cell model and highlight the role of 
+  <italic>Cebpa</italic> and 
+  <italic>Cebpb</italic> in regulating adipogenesis through interactions of large numbers of genes.
+ </p>
+</abstract>

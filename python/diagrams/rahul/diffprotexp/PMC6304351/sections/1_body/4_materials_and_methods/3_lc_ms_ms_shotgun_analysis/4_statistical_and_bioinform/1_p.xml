@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Differential expression analysis was performed by analysis of variance (ANOVA) and Tukey’s HSD test with Benjamini–Hochberg 
+ <italic>post hoc</italic> corrections (
+ <xref rid="B5" ref-type="bibr">Benjamini and Hochberg, 1995</xref>) within the XLSTAT-Premium Version 2016.1 (Addinsoft) ‘OMICs’ package. All proteins significantly (
+ <italic>P</italic> &lt; 0.05) upregulated during growth on a substrate compared to another were subjected to a BLAST (Basic Local Alignment Search Tool) (
+ <xref rid="B1" ref-type="bibr">Altschul et al., 1990</xref>) against the NCBI nr database. Protein family and domain analysis was carried out in Pfam v30.0 (
+ <xref rid="B25" ref-type="bibr">Finn et al., 2016</xref>). SCOOP (Simple Comparison of Outputs Program) (
+ <xref rid="B3" ref-type="bibr">Bateman and Finn, 2007</xref>) was used to detect relationships between families in the Pfam database. Proteins were assigned to functional families by hierarchical classification of protein domains based on their folding patterns in CATH v4.1 (Class, Architecture, Topology, Homology) (
+ <xref rid="B78" ref-type="bibr">Sillitoe et al., 2015</xref>). Full length secondary and tertiary structure predictions, functional annotations on ligand-binding sites, enzyme commissions numbers and gene ontology terms were generated using the I-TASSER SERVER (
+ <xref rid="B115" ref-type="bibr">Zhang, 2008</xref>).
+</p>

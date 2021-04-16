@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>
+   <bold>Twenty most characteristic proteins for macrophages (Ma) compared to heterophils (Het)</bold>
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Acc. no.</th>
+    <th align="left">Protein name</th>
+    <th align="left">Gene ID</th>
+    <th align="left">∆PSM
+     <sup>a</sup>
+    </th>
+    <th align="left">Fold ratio Ma:Het</th>
+    <th align="left">Response to the infection</th>
+    <th align="left">Function</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">M1XGZ4</td>
+    <td align="left">Macrophage mannose receptor 1 like</td>
+    <td align="left">MRC1L</td>
+    <td char="." align="char">993</td>
+    <td align="left">Only Ma</td>
+    <td align="left">No</td>
+    <td align="left">C-Type lectin</td>
+   </tr>
+   <tr>
+    <td align="left">P98157</td>
+    <td align="left">Low-density lipoprotein receptor-related protein 1</td>
+    <td align="left">LRP1</td>
+    <td char="." align="char">810</td>
+    <td align="left">Only Ma</td>
+    <td align="left">No</td>
+    <td align="left">Endocytic receptor</td>
+   </tr>
+   <tr>
+    <td align="left">P07583</td>
+    <td align="left">Galectin 1</td>
+    <td align="left">LGALS1</td>
+    <td char="." align="char">607</td>
+    <td align="left">Only Ma</td>
+    <td align="left">No</td>
+    <td align="left">Beta-galactoside-binding lectin</td>
+   </tr>
+   <tr>
+    <td align="left">P43233</td>
+    <td align="left">Cathepsin B</td>
+    <td align="left">CTSB</td>
+    <td char="." align="char">538</td>
+    <td align="left">8.42</td>
+    <td align="left">Increase</td>
+    <td align="left">Cysteine protease</td>
+   </tr>
+   <tr>
+    <td align="left">F1NZ86</td>
+    <td align="left">Heat shock 70 protein, mortalin</td>
+    <td align="left">HSP70</td>
+    <td char="." align="char">508</td>
+    <td align="left">5.30</td>
+    <td align="left">No</td>
+    <td align="left">Chaperon</td>
+   </tr>
+   <tr>
+    <td align="left">P05122</td>
+    <td align="left">Creatine kinase B-type</td>
+    <td align="left">CKB</td>
+    <td char="." align="char">467</td>
+    <td align="left">34.77</td>
+    <td align="left">No</td>
+    <td align="left">Energy transduction</td>
+   </tr>
+   <tr>
+    <td align="left">F1NDD6</td>
+    <td align="left">LDL receptor related protein associated protein 1</td>
+    <td align="left">LRPAP1</td>
+    <td char="." align="char">374</td>
+    <td align="left">Only Ma</td>
+    <td align="left">No</td>
+    <td align="left">LDL receptors trafficking</td>
+   </tr>
+   <tr>
+    <td align="left">F1NIX4</td>
+    <td align="left">Trans-2-enoyl-CoA reductase</td>
+    <td align="left">MECR</td>
+    <td char="." align="char">356</td>
+    <td align="left">33.16</td>
+    <td align="left">Increase</td>
+    <td align="left">Fatty acid elongation</td>
+   </tr>
+   <tr>
+    <td align="left">F1P180</td>
+    <td align="left">Aspartate aminotransferase</td>
+    <td align="left">GOT2</td>
+    <td char="." align="char">350</td>
+    <td align="left">7.27</td>
+    <td align="left">No</td>
+    <td align="left">Transaminase</td>
+   </tr>
+   <tr>
+    <td align="left">P13914</td>
+    <td align="left">Arylamine 
+     <italic>N</italic>-acetyltransferase
+    </td>
+    <td align="left">NAT3</td>
+    <td char="." align="char">350</td>
+    <td align="left">23.92</td>
+    <td align="left">No</td>
+    <td align="left">Conjugating enzyme</td>
+   </tr>
+   <tr>
+    <td align="left">H9KZK0</td>
+    <td align="left">Protein containing the scavenger receptor cysteine-rich (SRCR) domain</td>
+    <td align="left">DMBT1L</td>
+    <td char="." align="char">318</td>
+    <td align="left">Only Ma</td>
+    <td align="left">No</td>
+    <td align="left">Scavenger receptor</td>
+   </tr>
+   <tr>
+    <td align="left">E1BZF7</td>
+    <td align="left">Putative phospholipase B</td>
+    <td align="left">PLB</td>
+    <td char="." align="char">317</td>
+    <td align="left">6.23</td>
+    <td align="left">No</td>
+    <td align="left">Removing fatty acids from phospholipids</td>
+   </tr>
+   <tr>
+    <td align="left">Q6J613</td>
+    <td align="left">Invariant chain isoform p41</td>
+    <td align="left">Li</td>
+    <td char="." align="char">312</td>
+    <td align="left">6.87</td>
+    <td align="left">No</td>
+    <td align="left">Chaperone</td>
+   </tr>
+   <tr>
+    <td align="left">F1P582</td>
+    <td align="left">Mitochondrial ubiquinol-cytochrome-c reductase complex core protein 2</td>
+    <td align="left">UQCR</td>
+    <td char="." align="char">309</td>
+    <td align="left">4.36</td>
+    <td align="left">No</td>
+    <td align="left">Oxidative phosphorylation</td>
+   </tr>
+   <tr>
+    <td align="left">Q5ZMW1</td>
+    <td align="left">Aconitate hydratase, mitochondrial</td>
+    <td align="left">ACO2</td>
+    <td char="." align="char">306</td>
+    <td align="left">6.17</td>
+    <td align="left">No</td>
+    <td align="left">TCA cycle</td>
+   </tr>
+   <tr>
+    <td align="left">F1NAC6</td>
+    <td align="left">Cytochrome b-c1 complex subunit 1</td>
+    <td align="left">UQCRC1</td>
+    <td char="." align="char">289</td>
+    <td align="left">6.42</td>
+    <td align="left">No</td>
+    <td align="left">Oxidative phosphorylation</td>
+   </tr>
+   <tr>
+    <td align="left">F6R1X6</td>
+    <td align="left">Lupus la protein</td>
+    <td align="left">SSB</td>
+    <td char="." align="char">288</td>
+    <td align="left">6.90</td>
+    <td align="left">No</td>
+    <td align="left">Protecting of 3′ poly(U) terminus of transcribed RNA</td>
+   </tr>
+   <tr>
+    <td align="left">E1BTT4</td>
+    <td align="left">Trifunctional enzyme subunit beta, mitochondrial</td>
+    <td align="left">HADHB</td>
+    <td char="." align="char">287</td>
+    <td align="left">30.61</td>
+    <td align="left">Increase</td>
+    <td align="left">β-Oxidation of fatty acids</td>
+   </tr>
+   <tr>
+    <td align="left">Q5ZMN3</td>
+    <td align="left">Prohibitin-2</td>
+    <td align="left">PHB2</td>
+    <td char="." align="char">282</td>
+    <td align="left">10.52</td>
+    <td align="left">No</td>
+    <td align="left">Not clear</td>
+   </tr>
+   <tr>
+    <td align="left">F1NJD6</td>
+    <td align="left">Guanine deaminase, cypin</td>
+    <td align="left">GDA</td>
+    <td char="." align="char">275</td>
+    <td align="left">Only Ma</td>
+    <td align="left">No</td>
+    <td align="left">Oxidizes hypoxanthine to xanthine</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>The difference in PSM counts of particular protein in Ma and Het.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

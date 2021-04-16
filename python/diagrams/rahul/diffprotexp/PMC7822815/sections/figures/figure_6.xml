@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig6">
+ <label>Fig. 6</label>
+ <caption>
+  <title>Fusion protein-controlled differential splicing expands the protein space.</title>
+  <p>
+   <bold>a</bold> Enrichment map of the Gene Ontology-enriched gene sets across all the genes with differential expression and/or differential splicing. Nodes represent significantly enriched gene sets and node size is proportional to the number of members in a gene set. Edges indicate the gene overlap between the nodes, and the thickness of the edges is equivalent to the degree of the gene overlap between the nodes. Functionally related gene sets are clustered and named. 
+   <bold>b</bold> Box plot depicting the coding potential of 500 randomly selected transcripts each from housekeeping genes and lincRNA genes, and all 752 transcripts of genes affected by differential splicing in Kasumi-1 cells. In each boxplot, horizontal line represents the median of probability distribution, box shows the interquartile range, and whiskers are the minimum and maximum. 
+   <bold>c</bold> Column graphs depicting the classification of coding sequences in transcripts (upper panel) and of in silico translated proteins (lower panel) affected by differential splicing. In the upper panel, all transcripts were classified on non-coding (no significant open reading frames were found), protein-coding with premature termination codons and protein-coding with mature termination codons. In the bottom panel, all protein-coding transcripts were in silico translated and predicted proteins were blastp aligned against non-redundant set of human proteins. Protein identities are indicated at the bottom. 
+   <bold>d</bold> Column graphs showing the impact of RUNX1/RUNX1T1 on the frequency of protein variants. 
+   <bold>e</bold> Venn diagramme visualizing the distribution of the 118 domain superfamilies among the in silico predicted proteins. 
+   <bold>f</bold> Enrichment map of the domain-centered Gene Ontology-enriched superfamily sets across all the genes with differential splicing. Nodes represent significantly enriched superfamily sets and node size is proportional to the number of members in a superfamily set. Edges indicate the superfamily overlap between the nodes, and the thickness of the edges is equivalent to the degree of the superfamily overlap between the nodes. Functionally related superfamily sets are clustered and named. Pie chart coloring: (a) upregulated, (b) downregulated, and (c) no change.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20848_Fig6_HTML" id="d32e1123" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

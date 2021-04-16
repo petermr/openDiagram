@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">GO and KEGG analysis of DEGs were performed through the DAVID (
+ <ext-link ext-link-type="uri" xlink:href="https://david.ncifcrf.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://david.ncifcrf.gov/</ext-link>). The top 20 items of GO function pathways and all items of KEGG pathways were then displayed as bubble diagrams using the 
+ <italic>ggplot2</italic> R package based on 
+ <italic>P</italic>-value (
+ <italic>P</italic> &lt; 0.05 as statistically significant).
+</p>

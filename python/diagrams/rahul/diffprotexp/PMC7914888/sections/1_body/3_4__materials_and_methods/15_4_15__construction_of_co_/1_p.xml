@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the RC-miR construction, we used the previously proposed [
+ <xref rid="B123-ijms-22-01591" ref-type="bibr">123</xref>], all in R code. The structure of these networks began with creating a similarity matrix, followed by selecting the similarity threshold, constructing an adjacency matrix, and plotting the generated groupings. It found that the relationship between miRNAs was not linear, so the calculation of the similarity matrix of each of the expression matrices was made with the criterion of mutual information (M.I.) because M.I. is capable of detecting nonlinear correlations that are undetectable for other metrics such as the Pearson coefficient [
+ <xref rid="B124-ijms-22-01591" ref-type="bibr">124</xref>]. It was necessary to perform a discretization of the normalized expression data, and we used the “Equal Frequency” method. Finally, the values were adjusted to a correlation coefficient between [0, 1] [
+ <xref rid="B125-ijms-22-01591" ref-type="bibr">125</xref>]. We constructed six matrices of similarity by using the M.I. coefficient as a similarity metric and the expression matrix that included the normalized counts of the Small RNA-seq for the miRNAs with differential expression found in the B16F1 cells exposed or not to L-Tyr or 5-Brd-2′-dU, expressed in blocks or by groups: over or under-expressed. We established a similarity threshold to build the adjacency matrix from which the correlation (similarity) between two miRNAs was considered significant. We selected this threshold by comparing the grouping coefficient of the obtained network (
+ <italic>C</italic>(
+ <italic>τ</italic>)) and the expected grouping coefficient for a random network (
+ <italic>Co</italic>(
+ <italic>τv</italic>)), with different values of (tao) 
+ <italic>τ</italic> between 0.01 and 0.99 (Equation (1)) [
+ <xref rid="B123-ijms-22-01591" ref-type="bibr">123</xref>,
+ <xref rid="B126-ijms-22-01591" ref-type="bibr">126</xref>]. 
+ <disp-formula id="FD1-ijms-22-01591">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <msup>
+      <mtext> </mtext>
+      <mo>∗</mo>
+     </msup>
+     <mo>=</mo>
+     <mo>{</mo>
+     <msub>
+      <mi>τ</mi>
+      <mi>v</mi>
+     </msub>
+     <mo>:</mo>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <mi>C</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mi>τ</mi>
+          <mi>v</mi>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>−</mo>
+       <mi>C</mi>
+       <mi>r</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mi>τ</mi>
+          <mi>v</mi>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mrow>
+        <mo>|</mo>
+        <mtext> </mtext>
+        <mo>&gt;</mo>
+        <mtext> </mtext>
+       </mrow>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+     <mi>C</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>τ</mi>
+        <mrow>
+         <mi>v</mi>
+         <mo>+</mo>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>−</mo>
+     <mi>C</mi>
+     <mi>r</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>τ</mi>
+        <mrow>
+         <mi>v</mi>
+         <mo>+</mo>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>|</mo>
+     <mo>}</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

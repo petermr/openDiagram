@@ -1,0 +1,3 @@
+0: Gene ontology (GO) annotations of the genes were determined by the g:Profiler program ( http://biit.cs.ut.ee/gprofiler/).
+1: The g:Profiler internally uses g:GOSt which takes a list of genes and does functional profiling of them using different kinds of biological evidence.
+2: The tool performs statistical enrichment analysis to find information like Gene ontology terms and biological pathways.

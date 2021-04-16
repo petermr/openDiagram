@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Author’s response: 
+ <italic>We have used g: profiler for grouping the proteins functionally because it can handle much larger collection of features, for example, genes, proteins,</italic> etc.
+ <italic>, compared to DAVID. We have also used DAVID with KEGG database and got three “target pathways” in common with g: profiler and more than 93% of the proteins were common between the two results (details not shown). In addition, we have tried other pathway systems, namely, PANTHER and BIOCARTA and got, respectively, four and five “target pathways” in common with our results (details not shown).</italic>
+</p>

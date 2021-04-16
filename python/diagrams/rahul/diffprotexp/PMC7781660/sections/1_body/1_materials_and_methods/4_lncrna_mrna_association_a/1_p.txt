@@ -1,0 +1,11 @@
+0: LncRNAs are involved in many post-transcriptional regulation processes, where some anti-sense lncRNAs may regulate gene silencing, transcription, and mRNA stability.
+1: In order to reveal the interactions between antisense lncRNAs and mRNAs, RNAplex software ( http://www.tbi.univie.ac.at/RNA/RNAplex.1.html) was used to predict the complementary correlation of antisense lncRNAs and mRNAs.
+2: One of functions of lncRNAs is the cis-regulation of neighboring genes on the same allele.
+3: The up-stream lncRNAs that intersect with the promoter or other cis-elements may regulate gene expression at the transcriptional or post-transcriptional level.
+4: The downstream or 3UTR region lncRNAs may have other regulatory functions.
+5: For lncRNA cis-regulation analysis, the lncRNAs that had been annotated previously as unknown region were annotated again.
+6: LncRNAs found less than 100 kb up- or down-stream of a gene were likely to be cis-regulators.
+7: The cis target genes were then subjected to enrichment analysis of GO functions and KEGG pathways.
+8: For lncRNA trans-regulation of co-expressed gene analysis, which is another function of lncRNAs, the correlation of expression between lncRNAs and protein-coding genes was analyzed to identify the target genes of lncRNAs.
+9: Pearson correlation coefficient was used for samples 6 and protein-coding genes with absolute correlation >0.9 were then subjected to enrichment analysis of GO functions and KEGG pathways.
+10: The enrichment analysis of the GO functions and KEGG pathways were then conducted in protein-coding genes in the network.

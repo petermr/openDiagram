@@ -1,0 +1,379 @@
+{
+  "id": [
+    "33630960"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33630960"
+  ],
+  "pmcid": [
+    "PMC7906368"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7906368"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1371/journal.ppat.1009245"
+  ],
+  "title": [
+    "Five key aspects of metaproteomics as a tool to understand functional interactions in host-associated microbiomes."
+  ],
+  "authorString": [
+    "Salvato F, Hettich RL, Kleiner M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Salvato F"
+          ],
+          "firstName": [
+            "Fernanda"
+          ],
+          "lastName": [
+            "Salvato"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1650-5399",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, North Carolina, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hettich RL"
+          ],
+          "firstName": [
+            "Robert L"
+          ],
+          "lastName": [
+            "Hettich"
+          ],
+          "initials": [
+            "RL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7708-786X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Oak Ridge National Laboratory, Biosciences Division, Oak Ridge, Tennessee, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kleiner M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Kleiner"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6904-0287",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, North Carolina, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6904-0287",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7708-786X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1650-5399",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "3103700"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS pathogens"
+          ],
+          "ISOAbbreviation": [
+            "PLoS Pathog"
+          ],
+          "medlineAbbreviation": [
+            "PLoS Pathog"
+          ],
+          "NLMid": [
+            "101238921"
+          ],
+          "ISSN": [
+            "1553-7366"
+          ],
+          "ESSN": [
+            "1553-7374"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "e1009245"
+  ],
+  "affiliation": [
+    "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, North Carolina, United States of America."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.ppat.1009245"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7906368"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7906368?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc0"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-02-25"
+  ],
+  "firstIndexDate": [
+    "2021-02-26"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-05"
+  ],
+  "dateOfRevision": [
+    "2021-03-05"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-25"
+  ],
+  "firstPublicationDate": [
+    "2021-02-25"
+  ]
+}

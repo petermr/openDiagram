@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par53">We conducted a PERMANOVA based on Bray-Curtis distances of normalized counts (1000 permutations) using the adonis2 function in the R package vegan [
+ <xref ref-type="bibr" rid="CR64">64</xref>] to determine whether prenatal treatment or average aggression score explained significant variation in transcriptome-wide gene expression patterns in each tissue. We then performed a negative binomial generalized linear model with a local dispersion fit to determine differential gene expression within each tissue using DESeq2. Treatment was the fixed effect for each gene and we calculated per-gene Wald test statistics to identify significant differences. 
+ <italic>P</italic>-values were corrected using Benjamini-Hochberg corrections and FDR ≤ 0.10 (the default in DESeq2) were considered differentially expressed. Furthermore, because we had 3 biological replicates per treatment, we applied a log2 fold change cutoff of 0.5 (absolute value) based on recommendations in Schurch et al. [
+ <xref ref-type="bibr" rid="CR65">65</xref>].
+</p>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="CR46">
+ <label>46.</label>
+ <element-citation publication-type="journal">
+  <person-group person-group-type="author">
+   <name>
+    <surname>Pertea</surname>
+    <given-names>M</given-names>
+   </name>
+   <name>
+    <surname>Pertea</surname>
+    <given-names>GM</given-names>
+   </name>
+   <name>
+    <surname>Antonescu</surname>
+    <given-names>CM</given-names>
+   </name>
+   <name>
+    <surname>Chang</surname>
+    <given-names>TC</given-names>
+   </name>
+   <name>
+    <surname>Mendell</surname>
+    <given-names>JT</given-names>
+   </name>
+   <name>
+    <surname>Salzberg</surname>
+    <given-names>SL</given-names>
+   </name>
+  </person-group>
+  <article-title>StringTie enables improved reconstruction of a transcriptome from RNA-seq reads</article-title>
+  <source>Nat Biotechnol</source>
+  <year>2015</year>
+  <volume>33</volume>
+  <fpage>290</fpage>
+  <lpage>295</lpage>
+  <pub-id pub-id-type="doi">10.1038/nbt.3122</pub-id>
+  <?supplied-pmid 25690850?>
+  <pub-id pub-id-type="pmid">25690850</pub-id>
+ </element-citation>
+</ref>

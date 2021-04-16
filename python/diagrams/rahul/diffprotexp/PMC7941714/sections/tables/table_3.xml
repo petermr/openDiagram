@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Positive correlations between lncRNAs and mRNAs</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>lncRNA</th>
+    <th>mRNA</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>MIR4435-2HG</td>
+    <td>COL5A2, LOX, OSBPL3, PLAU, VCAN, ANGPT2, CBFB, COL3A1, COL4A1, EIF5A2, GPR180, RGS16, SLC7A11, TM4SF18, VMA21</td>
+   </tr>
+   <tr>
+    <td>ELFN1-AS1</td>
+    <td>E2F1, SRM, BIRC5, C20orf27, DUSP2, LMNB2, MYBL2</td>
+   </tr>
+   <tr>
+    <td>AL354836.1</td>
+    <td>FGFRL1</td>
+   </tr>
+   <tr>
+    <td>AC245884.8</td>
+    <td>VEGFA</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

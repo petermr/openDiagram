@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">The quantitative real-time PCR (qRT-PCR) analysis was performed as described previously
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>
+ </sup>. Briefly, a total of 1 μg of RNA was reverse transcribed using RT-reagent kits with gDNA Eraser (Takara, China) as per the manufacturer’s protocols. Total RNA (0.5 μg) was used to synthesize the first-strand cDNA using PrimerScript RT reagent Kit (TaKaRa Biotech, Dalian, China; code: DRR037A). Each cDNA sample was diluted 10 times in ddH
+ <sub>2</sub>O, and 1 μl of this dilution was used as a template for qRT-PCR. The qRT-PCR reactions were performed in a 10 μl volume containing 5 μl 2 × QuantiFast SYBR Green Master Mix (TIANGEN Biotech, Dalian, China; code: FP204), 1 μl cDNA, and 0.2 μl of forward and reverse primers (both in 5 μM) and 3.6 μl nuclease-free H
+ <sub>2</sub>O in a Roche HOLD CYCLE LightCycler 480 II ((Roche, Mannheim, Germany). The amplification conditions were 95 °C for 15 min of the initial stage, followed by 40 cycles of 95 °C for 10 s and 60 °C for 30 s. The relative gene expression levels were estimated using the 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${2}^{-\Delta \Delta Ct}\mathrm{ method}$$\end{document}</tex-math>
+   <math id="M2">
+    <mrow>
+     <msup>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+      <mrow>
+       <mo>-</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <mi mathvariant="normal">Δ</mi>
+       <mi>C</mi>
+       <mi>t</mi>
+      </mrow>
+     </msup>
+     <mi mathvariant="normal">method</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_85245_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>
+ <sup>
+  <xref ref-type="bibr" rid="CR77">77</xref>
+ </sup>. Data obtained were analyzed using GraphPad Prism (vers 7; GraphPad Software, San Diego California USA, 
+ <ext-link ext-link-type="uri" xlink:href="https://www.graphpad.com/scientific-software/prism/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.graphpad.com/scientific-software/prism/</ext-link>). The student t-test (
+ <italic>p</italic> &lt; 0.05) was used for mean comparisons. All results were presented in bar charts with the means and their standard deviation (± SD). Primers used for the qRT-PCR are listed in Supplementary Table 
+ <xref rid="MOESM1" ref-type="media">S1</xref>.
+</p>

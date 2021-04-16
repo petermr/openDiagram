@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Alcanivorax</italic> spp. has a cosmopolitan distribution with isolations or detection of its 16S rRNA gene sequences from many different oil‐impacted marine environments (Yakimov 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0081" ref-type="ref">2007</xref>). 
+ <italic>Alcanivorax borkumensis</italic> SK2
+ <sup>T</sup> (DSM 11573) was the first OHCB to have its genome sequenced revealing a plethora of genes accounting for its wide hydrocarbon substrate range and efficient oil‐degradation capabilities (Reva et al., 
+ <xref rid="emi14620-bib-0058" ref-type="ref">2008</xref>; Schneiker 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0064" ref-type="ref">2006</xref>). Analysis revealed proteins required to oxidize 
+ <italic>n</italic>‐alkanes up to the corresponding acyl‐CoA derivative are coded by the 
+ <italic>alk</italic>SB
+ <sub>1</sub>GJH operon which has &gt;80% amino acid similarity to the corresponding well‐characterized alkane degradation components in 
+ <italic>Pseudomonas putida</italic> Gpo1 (Kok 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0037" ref-type="ref">1989</xref>; van Beilen 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0006" ref-type="ref">2001</xref>; van Beilen 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0072" ref-type="ref">2003</xref>; van Beilen 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0007" ref-type="ref">2004</xref>). However, genomes only give insight into the genetic potential of an organism. Several transcriptomic studies hint even more at this potential. A microarray‐based study led to the identification of up‐regulated genes predicted to be involved in the terminal oxidation of 
+ <italic>n</italic>‐hexadecane (Sabirova 
+ <italic>et al</italic>., 
+ <xref rid="emi14620-bib-0083" ref-type="ref">2011</xref>). These included genes coding for two alkanes monooxygenases (
+ <italic>alkB1</italic> and 
+ <italic>alkB2</italic>), three flavin‐binding monooxygenases (ABO_0282, ABO_1097, ABO_2107), an alcohol dehydrogenase (ABO_2483) and an aldehyde reductase (
+ <italic>AKR1A1</italic>/ABO_2414). A subsequent microarray analysis identified genes that distinctly respond to solvent stress by the addition of 1‐octanol, a known toxic intermediate of 
+ <italic>n</italic>‐alkane degradation (Naether 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0048" ref-type="ref">2013</xref>). In accordance with Sabirova 
+ <italic>et al</italic>., 2011, the expression level of 
+ <italic>alkB1</italic> (ABO_2707) was increased during growth on the 
+ <italic>n‐</italic>hexadecane. In contrast, RNA‐sequencing surprisingly showed that only 1% of genes were up‐regulated while 
+ <italic>A.borkumensis</italic> was growing on 
+ <italic>n</italic>‐dodecane and none of these were involved in alkane metabolism (Barbato 
+ <italic>et al</italic>., 
+ <xref rid="emi14620-bib-0085" ref-type="ref">2016</xref>). The mRNA abundances presented in such studies may not directly correlate to the amount of protein within a cell, due to many factors. Large changes in gene expression may not necessarily result in similar changes in translated proteins as there can be a requirement for gene co‐regulation, controls on post‐translational modification or protein degradation, or protein translation may be highly dependent on translation initiation features and recruitment of ribosomes (Vogel and Marcotte, 
+ <xref rid="emi14620-bib-0074" ref-type="ref">2012</xref>). The proteins are the functional molecules in cells and it is the proteome, rather than the genome or transcriptome, that is, therefore most related to the phenotype of an organism, yet there is little knowledge or quantification of protein biosynthesis in 
+ <italic>Alcanivorax</italic> during alkane degradation. A previous study of 
+ <italic>A.borkumensis</italic> using two‐dimensional gel electrophoresis identified up‐regulation of two alkane hydroxylases AlkB1 and AlkB2 (Sabirova 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0061" ref-type="ref">2006</xref>), which have been shown to oxidize medium‐chain alkanes in the range of 
+ <italic>n</italic>‐C
+ <sub>5</sub>‐
+ <italic>n‐</italic>C
+ <sub>12</sub> and 
+ <italic>n</italic>‐C
+ <sub>8</sub>‐
+ <italic>n</italic>‐C
+ <sub>16</sub> (van Beilen 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0007" ref-type="ref">2004</xref>), respectively, three P450 cytochromes, and a flavin‐binding monooxygenase with a strong similarity to the AlmA enzyme, which hydroxylates long‐chain alkanes (
+ <italic>n‐</italic>C
+ <sub>22</sub>‐
+ <italic>n</italic>‐C
+ <sub>36</sub>) in 
+ <italic>A. dieselolei</italic> and 
+ <italic>A. hongdengensis</italic> (Liu 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0039" ref-type="ref">2011</xref>; Wang and Shao, 
+ <xref rid="emi14620-bib-0076" ref-type="ref">2012b</xref>, Wang and Shao, 
+ <xref rid="emi14620-bib-0077" ref-type="ref">2014</xref>). A downside of this proteomic technique is that it is only semiquantitative and often a relatively small number of proteins are detected (e.g. only 97 proteins were excised, sequenced and identified in Sabirova 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0061" ref-type="ref">2006</xref>.
+</p>

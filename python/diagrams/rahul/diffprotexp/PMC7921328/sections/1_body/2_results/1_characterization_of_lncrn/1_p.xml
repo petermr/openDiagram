@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To systematically investigate dysregulation of lncRNAs in prostate cancer, we retrieved gene expression matrix from TCGA PRAD cohort, including 499 tumor and 52 paired adjacent normal prostate samples. All lncRNAs annotated in GENCODE (release v22) were extracted from the obtained expression matrix of PRAD. In total, 13,676 lncRNAs were detected with expression of no less than 0.1 FPKM in at least one PRAD sample. Various expression cut-offs were used to examine the expression distributions of lncRNAs across PRAD samples. Despite universal low expression, lncRNAs were extensively expressed in PRAD samples. In particular, an average of 32.1% lncRNAs were detected in more than 90% samples and 22.7% lncRNAs were expressed in less than 10% samples (
+ <xref ref-type="supplementary-material" rid="TS1">Supplementary Figure 1A</xref>). On average, 29.5% lncRNAs exhibited expression levels more than 0.1 FPKM, and 7.78% lncRNAs expressed more than 1 FPKM (
+ <xref ref-type="supplementary-material" rid="TS1">Supplementary Figure 1B</xref>). Differential expression analysis was further performed, wherein 1,421 down-regulated and 2,517 up-regulated lncRNAs were identified in prostate cancer samples (
+ <xref ref-type="fig" rid="F1">Figure 1A</xref> and 
+ <xref ref-type="supplementary-material" rid="TS2">Supplementary Table 1</xref>). Most of PRAD differential lncRNAs were identified differential expression in multiple cancer types with over three quarters show differential expression in 4–10 cancer types (
+ <xref ref-type="supplementary-material" rid="TS1">Supplementary Figure 1C</xref> and 
+ <xref ref-type="supplementary-material" rid="TS2">Supplementary Table 2</xref>). Across 18 different cancer types, 77 lncRNAs were exclusively differentially expressed in PRAD cohort. For example, RP11-328K15.1 showed no significant differential expression in multiple cancer types except PRAD (
+ <xref ref-type="fig" rid="F1">Figure 1B</xref>), which might indicate specific biological functions in the tumor biology of prostate cancer. To further investigate the clinical relevance of PRAD differential lncRNAs, associations between lncRNA expression and patient survival time were assessed by Cox regression analysis. The expression level of most differential lncRNAs were negatively associated with prognosis of PRAD patients, wherein seven lncRNAs were associated with good prognosis, such as RP1-278O22.1, while 128 lncRNAs were associated with bad prognosis, such as RP5-1142A6.9 (
+ <xref ref-type="fig" rid="F1">Figure 1C</xref> and 
+ <xref ref-type="supplementary-material" rid="TS2">Supplementary Table 3</xref>). Higher expression level of RP11-627G23.1 (
+ <italic>P</italic> = 0.0039, log rank test) and RP11-465N4.5 (
+ <italic>P</italic> = 0.0058, log rank test) were significantly associated with decreased survival of patients with PRAD (
+ <xref ref-type="fig" rid="F1">Figure 1D</xref>). Similarly, the expression level of most differential lncRNAs were also negatively associated with disease-free survival of PRAD patients (
+ <xref ref-type="supplementary-material" rid="TS1">Supplementary Figure 2</xref>). Our results demonstrated that lncRNAs play important roles in PRAD and could be potential prognosis biomarkers.
+</p>

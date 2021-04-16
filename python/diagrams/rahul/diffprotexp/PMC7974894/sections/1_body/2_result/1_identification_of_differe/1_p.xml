@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here, to investigate the role of RBPs in tongue cancer, we conducted a systematic analysis of key roles and prognostic values of RBPs. The study design was illustrated in Figure 
+ <xref ref-type="fig" rid="F1">1</xref>. We first downloaded the RNA-seq and clinical datasets from TCGA, including 147 tumor tissues and 15 normal tissues. The “Limma” packages were implemented to handle the data and discovered the differently expressed genes. A total of 3823 RBPs were then included in the analysis (
+ <xref ref-type="supplementary-material" rid="SM0">Figure S1</xref>, 
+ <xref ref-type="supplementary-material" rid="SM0">Table S1</xref>), and 962 RBPs met the screening standard (
+ <italic>P</italic>&lt;0.05, |log2(FC)| &gt;1.0), which consist of 531 up-regulated and 431 down-regulated RBPs (Figure 
+ <xref ref-type="fig" rid="F2">2</xref>A, B, 
+ <xref ref-type="supplementary-material" rid="SM0">Table S2</xref>).
+</p>

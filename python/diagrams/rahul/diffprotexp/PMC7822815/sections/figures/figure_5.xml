@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig5">
+ <label>Fig. 5</label>
+ <caption>
+  <title>Formation of diffEEJs in Kasumi-1 cells is delayed compared to non-diffEEJs.</title>
+  <p>
+   <bold>a</bold> The basic alignment statistics for the nascent RNA and total RNA datasets obtained from the siMM-treated leukemia cells. Bars represent mean ± SD of three independent experiments. Very similar results were observed with siRR-treated cells. 
+   <bold>b</bold> siRNA-mediated knockdown of 
+   <italic>RUNX1/RUNX1T1</italic> as measured by nascent RNA expression. Bars represent mean ± SD of three independent experiments. 
+   <bold>c</bold> Multidensity plots of the abundance of EEJs identified in the nascent RNA (left panel) or total RNA (right panel). These plots are based on the RNA-Seq data obtained from the siMM-treated or siRR-treated leukemia cells. All EEJs identified at the level of nascent RNA and total RNA were grouped (see main text for further explanation of classification procedure) into non-diffEEJs or diffEEJs, and the abundance of these events was plotted. Each line represents the data averaged over the three independent biological replicas. 
+   <bold>d</bold> Expression of genes without (non-diffEEJs genes, 
+   <italic>n</italic> = 10851) or with differential splicing (upregulated or downregulated diffEEJs genes, 
+   <italic>n</italic> = 85) at nascent RNA level. 
+   <bold>e</bold> Expression of genes without (non-diffEEJs genes, 
+   <italic>n</italic> = 9836) or with differential splicing (upregulated or downregulated diffEEJs genes, 
+   <italic>n</italic> = 150) at total RNA level. 
+   <bold>f</bold> Comparison of intron lengths between non-diffEEJs (
+   <italic>n</italic> = 104925) and diffEEJs (
+   <italic>n</italic> = 177). In 
+   <bold>d</bold>, 
+   <bold>e</bold>, and 
+   <bold>f</bold>, boxplots summarize the expression data averaged over the three independent biological replicas. In each boxplot, horizontal line represents the median of expression distribution, box shows the interquartile range, and whiskers are the minimum and maximum. 
+   <italic>P</italic>-values were calculated with two-sided Mann–Whitney U test.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20848_Fig5_HTML" id="d32e1066" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

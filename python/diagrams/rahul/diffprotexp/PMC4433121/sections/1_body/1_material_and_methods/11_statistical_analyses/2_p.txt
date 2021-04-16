@@ -1,0 +1,4 @@
+0: Hierarchical clustering was performed using Genesis software ( http://www.genome.tugraz.at/genesisclient/genesisclient_description.shtml).
+1: Ingenuity Pathway Analysis (IPA) was used for pathway analysis (Ingenuity Systems,  http://www.ingenuity.com).
+2: In brief, Ingenuity uses Fishers exact test to calculate the probability that a set of proteins is associated to a pathway by chance.
+3: P-values<0.05 were taken as significant.

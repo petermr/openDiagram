@@ -1,0 +1,931 @@
+{
+  "id": [
+    "33666173"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33666173"
+  ],
+  "pmcid": [
+    "PMC7979158"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7979158"
+      ]
+    }
+  ],
+  "doi": [
+    "10.7554/elife.60100"
+  ],
+  "title": [
+    "Sequential perturbations to mouse corticogenesis following in utero maternal immune activation."
+  ],
+  "authorString": [
+    "Canales CP, Estes ML, Cichewicz K, Angara K, Aboubechara JP, Cameron S, Prendergast K, Su-Feher L, Zdilar I, Kreun EJ, Connolly EC, Seo JM, Goon JB, Farrelly K, Stradleigh TW, van der List D, Haapanen L, Van de Water J, Vogt D, McAllister AK, Nord AS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Canales CP"
+          ],
+          "firstName": [
+            "Cesar P"
+          ],
+          "lastName": [
+            "Canales"
+          ],
+          "initials": [
+            "CP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2505-8367",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Estes ML"
+          ],
+          "firstName": [
+            "Myka L"
+          ],
+          "lastName": [
+            "Estes"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cichewicz K"
+          ],
+          "firstName": [
+            "Karol"
+          ],
+          "lastName": [
+            "Cichewicz"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5926-3663",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Angara K"
+          ],
+          "firstName": [
+            "Kartik"
+          ],
+          "lastName": [
+            "Angara"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pediatrics & Human Development, Michigan State University, East Lansing, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Aboubechara JP"
+          ],
+          "firstName": [
+            "John Paul"
+          ],
+          "lastName": [
+            "Aboubechara"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cameron S"
+          ],
+          "firstName": [
+            "Scott"
+          ],
+          "lastName": [
+            "Cameron"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Prendergast K"
+          ],
+          "firstName": [
+            "Kathryn"
+          ],
+          "lastName": [
+            "Prendergast"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Su-Feher L"
+          ],
+          "firstName": [
+            "Linda"
+          ],
+          "lastName": [
+            "Su-Feher"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zdilar I"
+          ],
+          "firstName": [
+            "Iva"
+          ],
+          "lastName": [
+            "Zdilar"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kreun EJ"
+          ],
+          "firstName": [
+            "Ellie J"
+          ],
+          "lastName": [
+            "Kreun"
+          ],
+          "initials": [
+            "EJ"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Connolly EC"
+          ],
+          "firstName": [
+            "Emma C"
+          ],
+          "lastName": [
+            "Connolly"
+          ],
+          "initials": [
+            "EC"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Seo JM"
+          ],
+          "firstName": [
+            "Jin Myeong"
+          ],
+          "lastName": [
+            "Seo"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Goon JB"
+          ],
+          "firstName": [
+            "Jack B"
+          ],
+          "lastName": [
+            "Goon"
+          ],
+          "initials": [
+            "JB"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Farrelly K"
+          ],
+          "firstName": [
+            "Kathleen"
+          ],
+          "lastName": [
+            "Farrelly"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Stradleigh TW"
+          ],
+          "firstName": [
+            "Tyler W"
+          ],
+          "lastName": [
+            "Stradleigh"
+          ],
+          "initials": [
+            "TW"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "van der List D"
+          ],
+          "firstName": [
+            "Deborah"
+          ],
+          "lastName": [
+            "van der List"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Haapanen L"
+          ],
+          "firstName": [
+            "Lori"
+          ],
+          "lastName": [
+            "Haapanen"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Rheumatology, Allergy and Clinical Immunology, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Van de Water J"
+          ],
+          "firstName": [
+            "Judy"
+          ],
+          "lastName": [
+            "Van de Water"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Rheumatology, Allergy and Clinical Immunology, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Vogt D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Vogt"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pediatrics & Human Development, Michigan State University, East Lansing, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "McAllister AK"
+          ],
+          "firstName": [
+            "A Kimberley"
+          ],
+          "lastName": [
+            "McAllister"
+          ],
+          "initials": [
+            "AK"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9177-9889",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nord AS"
+          ],
+          "firstName": [
+            "Alex S"
+          ],
+          "lastName": [
+            "Nord"
+          ],
+          "initials": [
+            "AS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4259-7514",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Neuroscience, UC Davis, Davis, United States."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5926-3663",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9177-9889",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2505-8367",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4259-7514",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3120999"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "eLife"
+          ],
+          "ISOAbbreviation": [
+            "Elife"
+          ],
+          "medlineAbbreviation": [
+            "Elife"
+          ],
+          "NLMid": [
+            "101579614"
+          ],
+          "ISSN": [
+            "2050-084X"
+          ],
+          "ESSN": [
+            "2050-084X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "In utero exposure to maternal immune activation (MIA) is an environmental risk factor for neurodevelopmental and neuropsychiatric disorders. Animal models provide an opportunity to identify mechanisms driving neuropathology associated with MIA. We performed time-course transcriptional profiling of mouse cortical development following induced MIA via poly(I:C) injection at E12.5. MIA-driven transcriptional changes were validated via protein analysis, and parallel perturbations to cortical neuroanatomy were identified via imaging. MIA-induced acute upregulation of genes associated with hypoxia, immune signaling, and angiogenesis, by 6 hr following exposure. This acute response was followed by changes in proliferation, neuronal and glial specification, and cortical lamination that emerged at E14.5 and peaked at E17.5. Decreased numbers of proliferative cells in germinal zones and alterations in neuronal and glial populations were identified in the MIA-exposed cortex. Overall, paired transcriptomic and neuroanatomical characterization revealed a sequence of perturbations to corticogenesis driven by mid-gestational MIA."
+  ],
+  "affiliation": [
+    "Center for Neuroscience, UC Davis, Davis, United States."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P50 MH106438"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "5R21MH116681-02"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "T32MH112507"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2T32MH073124-16"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "GM119831"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Genetics",
+        "Mouse",
+        "Genomics",
+        "Neuroscience",
+        "Brain Development",
+        "Rna-seq",
+        "Transcriptomic",
+        "Mia",
+        "Wgcna"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7554/eLife.60100"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7979158"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7979158?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-05"
+  ],
+  "firstIndexDate": [
+    "2021-03-06"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-24"
+  ],
+  "dateOfRevision": [
+    "2021-03-23"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-05"
+  ],
+  "firstPublicationDate": [
+    "2021-03-05"
+  ]
+}

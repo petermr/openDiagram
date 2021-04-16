@@ -1,0 +1,8 @@
+0: MS/MS spectra were searched against Homo sapiens (human) SwissProt 2014_07 (546,000 sequences; 194,259,968 residues) using Sequest (version 27, rev 12), which is part of the BioWorks 3.3 data analysis package (Thermo Fisher, San Jose, CA, USA).
+1: MS/MS spectra were searched with a maximum allowed deviation of 10 ppm for the precursor mass and 1 amu for fragment masses.
+2: Methionine oxidation was allowed as variable modifications and cysteine pyridylethylation was allowed as fixed modifications, two missed cleavages were allowed and the minimum number of tryptic termini was 1.
+3: After database searching, the DTA and OUT files were imported into Scaffold (versions 1.07 and 2.01) (Proteome software, Portland, OR, USA).
+4: The scaffold was used to organize the data and to validate peptide identifications using the Peptide Prophet algorithm, and only identifications with a probability >95% were retained.
+5: Subsequently, the Protein-Prophet algorithm was applied and protein identifications with a probability of >99% with 1 or 2 peptides in at least one of the samples were retained.
+6: Proteins that contained similar peptides and could not be differentiated based on MS/MS analysis alone were grouped.
+7: For each protein identified, the number of spectral counts (the number of MS/MS associated with an identified protein) was exported to Excel.

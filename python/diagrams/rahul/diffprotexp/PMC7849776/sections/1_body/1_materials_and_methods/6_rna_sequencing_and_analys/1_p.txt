@@ -1,0 +1,6 @@
+0: The overnight culture of the strains was diluted 100-fold and incubated at 37C with aeration until A 600 was 1.0.
+1: RNA stabilization, extraction, and sequencing were performed, as explained in the previous report [ 28].
+2: Differentially expressed genes were identified using CLC Genomics Workbench software, version 12.0 (CLC Bio, Aarhus, Denmark).
+3: Reads were aligned to the USA300 genome allowing a minimum length fraction of 0.95 and minimum similarity fraction of 0.95.
+4: Genes with false discovery rate (FDR)  p< 0.05 and minimum fold expression 2 were classified as having significantly different expression.
+5: Functional analysis of differentially expressed genes was performed using GO enrichment analysis, as explained previously [ 29, 30].

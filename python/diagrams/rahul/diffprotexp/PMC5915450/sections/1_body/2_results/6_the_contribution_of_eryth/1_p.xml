@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">To identify the molecular origins of the differential behavior of ErmCL and H-NS in our simulations we need to decompose the interactions of their residues with the ribosome and ERY. To determine the relative contribution of the ERY-Ribosome complex to the forces acting on ErmCL and H-NS, we calculated the forces arising from interactions of the nascent chain with the tunnel wall, and with ERY. These forces were calculated as a time series and normalized by the number of atoms in each component, with all of the trajectories post-processed to align the occurrence of their 
+ <italic>F</italic>
+ <sub>max</sub> value at 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t$$\end{document}</tex-math>
+   <math id="M32">
+    <mi>t</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> = 0. We observe that when 
+ <italic>F</italic>
+ <sub>max</sub> occurs (at 
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t$$\end{document}</tex-math>
+   <math id="M34">
+    <mi>t</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> = 0), ErmCL experiences a higher interaction force with ERY than H-NS (Fig. 
+ <xref rid="Fig6" ref-type="fig">6A</xref>) as well as a 2-fold larger interaction force with the ribosome tunnel (Fig. 
+ <xref rid="Fig6" ref-type="fig">6B</xref>). This indicates that both ERY and the tunnel play a role in the force difference experienced by ErmCL and H-NS as they move through the exit tunnel, with the tunnel and ERY impinging more on ErmCL than H-NS.
+</p>

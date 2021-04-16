@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig6">
+ <label>Figure 6</label>
+ <caption>
+  <p>Network topology of co-expressed genes between control and nutrient restricted fetuses from the liver, muscle, and cerebrum tissues in bovine. (
+   <bold>A</bold>) Cumulative distribution functions of the gene connectivity. (
+   <bold>B</bold>) Central reference union networks. Only those gene pairs assigned as DEG or TF are shown. Unique nodes are shown in green (control) or red (restricted). Shared nodes are shown in white; (
+   <bold>C</bold>) Overlapping genes among the different analyses. TF—transcription factors; DE – differentially expressed gene; DC—differentially co-expressed; and DK—differentially connected. Cumulative distribution was created on R v.3.5.1
+   <sup>
+    <xref ref-type="bibr" rid="CR79">79</xref>
+   </sup>; Gene network was created on Cytoscape v.3.7
+   <sup>
+    <xref ref-type="bibr" rid="CR89">89</xref>
+   </sup>; and Venn diagram was created using Venny v.2.1.
+   <sup>
+    <xref ref-type="bibr" rid="CR94">94</xref>
+   </sup> (
+   <ext-link ext-link-type="uri" xlink:href="https://rb.gy/jxxufy" xmlns:xlink="http://www.w3.org/1999/xlink">https://rb.gy/jxxufy</ext-link>).
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_82156_Fig6_HTML" id="MO6" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

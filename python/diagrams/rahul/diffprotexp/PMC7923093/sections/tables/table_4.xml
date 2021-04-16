@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="animals-11-00535-t004" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">animals-11-00535-t004_Table 4</object-id>
+ <label>Table 4</label>
+ <caption>
+  <p>Predicted target genes of differently expressed miRNAs.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Gene ID</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Gene Symbol</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">NCBI Accession</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Description</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">miRNAs</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">296566</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Clic3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001013080.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chloride intracellular channel 3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">25321</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Ghrhr</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_012850.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">growth hormone releasing hormone receptor</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">360622</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Igfbp4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001004274.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">insulin-like growth factor binding protein 4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">60326</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Kcnv1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_021697.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">potassium channel, subfamily V, member 1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">291439</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Mbd1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001011924.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">methyl-CpG binding domain protein 1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">307271</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Mex3c</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001107377.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">mex-3 homolog C (C. elegans)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">297525</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Mkrn2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001008314.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">makorin, ring finger protein, 2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">25482</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Mras</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_012981.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">muscle RAS oncogene homolog</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">287962</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Mrpl40</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001024865.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">mitochondrial ribosomal protein L40</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">289482</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Naa11(Ard1b)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001024742.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ARD1 homolog B (S. cerevisiae)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">296318</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Ndrg3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001013923.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">N-myc downstream regulated gene 3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">360967</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Rnf185</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001024271.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ring finger protein 185</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">29503</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Slc22a2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_031584.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">solute carrier family 22 (organic cation transporter), member 2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">114247</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Slfn3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_053687.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">schlafen 3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">25033</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Sstr1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_012719.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">somatostatin receptor 1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-1-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">362453</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Crebl2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001015027.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">cAMP responsive element binding protein-like 2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-206-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">289693</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Dhx15</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001191597.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DEAH (Asp-Glu-Ala-His) box polypeptide 15</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-206-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">64124</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Adgrl4(Eltd1)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_022294.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">EGF, latrophilin and seven transmembrane domain containing 1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-206-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">362862</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Hsp90b1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001012197.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">heat shock protein 90kDa beta (Grp94), member 1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-206-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">192361</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Ppp1r2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_138823.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">protein phosphatase 1, regulatory (inhibitor) subunit 2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-206-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">54190</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Rabep1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_019124.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rabaptin, RAB GTPase binding effector protein 1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-206-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">192152</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Tgoln2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_138840.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">trans-golgi network protein</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-206-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">300857</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Tmem30a</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001004248.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">transmembrane protein 30A</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-206-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">113922</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">15-Sep</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_133297.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">selenoprotein</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133a-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">300677</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Atp5l</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_212516.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ATP synthase, H+ transporting, mitochondrial F0 complex, subunit G</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133a-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">24565</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Abcc1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_022281.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ATP-binding cassette, subfamily C (CFTR/MRP), member 1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133b-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">25402</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Casp3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_012922.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">caspase 3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133b-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">298098</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Pole3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001007652.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">polymerase (DNA directed), epsilon 3 (p17 subunit)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133b-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">295347</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Rap1a</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001005765.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">RAP1A, member of RAS oncogene family</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133b-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">54296</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Rgs7</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_019343.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">regulator of G-protein signaling 7</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133b-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">29726</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Slc22a5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_019269.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">solute carrier family 22 (organic cation/carnitine transporter), member 5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133b-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">362691</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Tmem178</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NM_001004282.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">transmembrane protein 178</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">rno-miR-133b-3p</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">24179</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Agt</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">NM_134432.2</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">angiotensinogen (serpin peptidase inhibitor, clade A, member 8)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">rno-miR-133a-5p</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

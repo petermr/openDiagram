@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Interestingly, the shortened transcripts included three upregulated and eight downregulated RNAs, whereas all four lengthened transcripts were upregulated. This suggested that the length of the 3′ UTR dynamically correlates with the expression of the transcripts due to various regulatory mechanisms involved at the mRNA level. For example, changes in the phosphorylation status of RNA polymerase II (RNAPII) affect its elongation rate within the transcription unit and its pausing at the end of 3′ UTR (
+ <xref rid="B33" ref-type="bibr">Tian and Manley, 2017</xref>). In addition, the 
+ <italic>cis-</italic>elements in the intron can induce longer 3′ ends in histone-globin chimeric genes or enhance polyadenylation rates (
+ <xref rid="B25" ref-type="bibr">Niwa et al., 1990</xref>; 
+ <xref rid="B27" ref-type="bibr">Pandey et al., 1990</xref>). Another reason is that post-transcriptional factors such as microRNAs and accessory RBPs bind to elements located near the regulated polyadenylation sites (
+ <xref rid="B42" ref-type="bibr">Zhu et al., 2007</xref>; 
+ <xref rid="B1" ref-type="bibr">An et al., 2013</xref>). To confirm the hypothesis that microRNAs and RBPs are involved in the regulation of the 3′ UTRs of the CPSF1-altered genes, we analyzed the sequences of the lengthened and shortened transcripts between distal and proximal polyadenylation sites. Using MEME suit analysis, we identified different motifs for lengthened and shortened transcripts. Tomtom analysis revealed that different RBPs and microRNAs bound to this region (
+ <xref rid="B13" ref-type="bibr">Gupta et al., 2007</xref>; 
+ <xref ref-type="supplementary-material" rid="FS6">Supplementary Figure 6A</xref> and 
+ <xref ref-type="supplementary-material" rid="DS2">Supplementary Data 2</xref>), supporting motif analysis in the TargetScan database (
+ <xref ref-type="supplementary-material" rid="FS6">Supplementary Figure 6B</xref>). Among the RBPs predicted by Tomtom analysis mentioned above, we found HNRNPL and HNRNPK that also interact with CPSF1 in the string database (
+ <xref ref-type="supplementary-material" rid="DS3">Supplementary Data 3</xref>). These results suggested that besides the conserved motifs (AAUAAA or AUUAAA), other motifs within the 3′ UTR transcripts may affect the binding of CPSF1.
+</p>

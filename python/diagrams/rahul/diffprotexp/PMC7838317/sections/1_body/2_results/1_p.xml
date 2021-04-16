@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">Illumina sequencing produced 169,278,906 raw reads. The final transcriptome assembly consisted of 312,705 transcripts with a mean length of 675 bp, N50 of 1033 bp (50% of transcripts are equal to or larger than this value), and guanine-cytosine (GC) content of 35.73% (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). Bowtie 2 calculated a 92.37% read alignment to the transcriptome assembly. BUSCO analysis indicated that the assembly produced 851 (87.0%) complete, 80 (8.2%) fragmented, and 47 (4.8%) missing BUSCOs. Raw data and transcriptome assemblies are archived in GenBank under BioProject PRJNA436349.
+</p>

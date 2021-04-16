@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F3" orientation="portrait" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>Heat map of interferon (IFN)-associated and CLE-associated gene expression by disease group. Log2 fold change from the mean of HV for each gene in the IFN-associated (blue boxes in top row) and CLE-associated (red boxes in top row) clusters. Log2 fold change for three housekeeping (HK) genes (
+   <italic>GAPDH, UBC, YWHAZ</italic>), and the average log2 fold change for these three HK genes (HK.AVE), are shown (black boxes in top row). Log2 fold changes are given by colour (red, increased; dark blue, decreased) and by value in each cell. Relatedness of gene expression log2 fold changes is depicted with a dendrogram across the top of the figure. Disease groups are listed along the y-axis. Genes are listed along the x-axis. CLE-A, cutaneous lupus erythematosus-affected skin; CLE-U, cutaneous lupus erythematosus-unaffected skin; HV-U, healthy volunteer-unaffected skin.
+  </p>
+ </caption>
+ <graphic xlink:href="lupus-2020-000428f03" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

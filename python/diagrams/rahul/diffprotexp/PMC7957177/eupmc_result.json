@@ -1,0 +1,556 @@
+{
+  "id": [
+    "33624385"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33624385"
+  ],
+  "pmcid": [
+    "PMC7957177"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7957177"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1002/cam4.3799"
+  ],
+  "title": [
+    "Discovery and validation of novel biomarkers for detection of cervical cancer."
+  ],
+  "authorString": [
+    "Li Z, Chen J, Zhao S, Li Y, Zhou J, Liang J, Tang H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Li Z"
+          ],
+          "firstName": [
+            "Zigang"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2244-138X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Anesthesiology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen J"
+          ],
+          "firstName": [
+            "Jianhua"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2560-3188",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhao S"
+          ],
+          "firstName": [
+            "Shaobo"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, School of Basic Medical Sciences, Zhejiang University, Hangzhou, Zhejiang, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li Y"
+          ],
+          "firstName": [
+            "Yajun"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8925-9999",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, School of Basic Medical Sciences, Zhejiang University, Hangzhou, Zhejiang, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhou J"
+          ],
+          "firstName": [
+            "Jie"
+          ],
+          "lastName": [
+            "Zhou"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0024-9485",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Anesthesiology, Tongde Hospital of Zhejang Province, Hangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liang J"
+          ],
+          "firstName": [
+            "Jianghong"
+          ],
+          "lastName": [
+            "Liang"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Stomatology, Guangzhou Hospital of Integrated Traditional and West Medicine, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tang H"
+          ],
+          "firstName": [
+            "Huifang"
+          ],
+          "lastName": [
+            "Tang"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9541-1352",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, School of Basic Medical Sciences, Zhejiang University, Hangzhou, Zhejiang, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8925-9999",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9541-1352",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0024-9485",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2244-138X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2560-3188",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3132726"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cancer medicine"
+          ],
+          "ISOAbbreviation": [
+            "Cancer Med"
+          ],
+          "medlineAbbreviation": [
+            "Cancer Med"
+          ],
+          "NLMid": [
+            "101595310"
+          ],
+          "ISSN": [
+            "2045-7634"
+          ],
+          "ESSN": [
+            "2045-7634"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "2063-2074"
+  ],
+  "abstractText": [
+    "<h4>Aims</h4>To investigate novel biomarker for diagnosis of cervical cancer, we analyzed the datasets in Gene Expression Omnibus (GEO) and confirmed the candidate biomarker in patient sample.<h4>Materials and methods</h4>We collected major datasets of cervical cancer in GEO, and analyzed the differential expression of normal and cancer samples online with GEO2R and tested the differences, then focus on the GSE63514 to screen the target genes in different histological grades by using the R-Bioconductor package and R-heatmap. Then human specimens from the cervix in different histological grades were used to confirm the top 8 genes expression by immunohistochemical staining using Ki67 as a standard control.<h4>Results</h4>We identified genes differentially expressed in normal and cervical cancer, 274 upregulated genes and 206 downregulated genes. After intersection with GSE63514, we found the obvious tendency in different histological grades. Then we screened the top 24 genes, and confirmed the top 8 genes in human cervix tissues. Immunohistochemical (IHC) results confirmed that keratin 17 (KRT17) was not expressed in normal cervical tissues and was over-expressed in cervical cancer. Cysteine-rich secretory protein-2 (CRISP2) was less expressed in high-grade squamous intraepithelial lesions (HSILs) than in other histological grades.<h4>Conclusion</h4>For the good repeatability and consistency of KRT17 and CRISP2, they may be good candidate biomarkers. Combined analysis of KRT17, CRISP2 expression at both genetic and protein levels can determine different histological grades of cervical squamous cell carcinoma. Such combined analysis is capable of improving diagnostic accuracy of cervical cancer."
+  ],
+  "affiliation": [
+    "Department of Anesthesiology, Women's Hospital, School of Medicine, Zhejiang University, Hangzhou, China."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "81170536"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "81570056"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Biomarker",
+        "Cervical cancer",
+        "GEO",
+        "Crisp2",
+        "Krt17"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/cam4.3799"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7957177"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7957177?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "geo"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-24"
+  ],
+  "firstIndexDate": [
+    "2021-02-25"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-22"
+  ],
+  "dateOfRevision": [
+    "2021-03-20"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-23"
+  ],
+  "firstPublicationDate": [
+    "2021-02-23"
+  ]
+}

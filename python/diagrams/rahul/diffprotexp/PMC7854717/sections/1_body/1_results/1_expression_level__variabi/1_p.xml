@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">Raw and processed microarray data were deposited as GSE45339 and GSE45348 at 
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/geo/</ext-link>. After grouping the spots probing redundantly the same transcript, we arrived at 16,886 unigenes that were adequately quantified in each of the four chambers from each of the four mice (total 16 samples). As designed, the experiment with four biological replicas provided three independent measures for each gene in each chamber: AVE, REV and expression COR with each other gene
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. Thus, in addition to the 16,886 expression levels of the quantified unigenes in each chamber, we analyzed also 16,866 variabilities + 142,222,545 (16,866*16,865/2) expression correlations of distinct gene pairs, a tremendous increase of the transcriptomic data. We have also analyzed the expression synchrony of all genes in any pair of adjacent chambers, i.e. 67,464 (= 16,866*4) pairs.
+</p>

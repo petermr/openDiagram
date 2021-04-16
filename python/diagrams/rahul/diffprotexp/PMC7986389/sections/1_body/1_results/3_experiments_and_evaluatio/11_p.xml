@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32">For a certain data set, denote the recall of WMFVS by 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R_{WMFVS}$$\end{document}</tex-math>
+   <math id="M8">
+    <msub>
+     <mi>R</mi>
+     <mrow>
+      <mi mathvariant="italic">WMFVS</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The recalls of all random MFVSs compose a set 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R_{random}$$\end{document}</tex-math>
+   <math id="M10">
+    <msub>
+     <mi>R</mi>
+     <mrow>
+      <mi mathvariant="italic">random</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Then the p-value of WMFVS is calculated by the following formula:
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{aligned} p_{WMFVS}=\frac{|\{R|R \ge R_{WMFVS}, R \in R_{random}\}|}{|R_{random}|} \end{aligned}$$\end{document}</tex-math>
+   <math id="M12" display="block">
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd columnalign="right">
+        <mrow>
+         <msub>
+          <mi>p</mi>
+          <mrow>
+           <mi mathvariant="italic">WMFVS</mi>
+          </mrow>
+         </msub>
+         <mo>=</mo>
+         <mfrac>
+          <mrow>
+           <mo stretchy="false">|</mo>
+           <mo stretchy="false">{</mo>
+           <mi>R</mi>
+           <mo stretchy="false">|</mo>
+           <mi>R</mi>
+           <mo>≥</mo>
+           <msub>
+            <mi>R</mi>
+            <mrow>
+             <mi mathvariant="italic">WMFVS</mi>
+            </mrow>
+           </msub>
+           <mo>,</mo>
+           <mi>R</mi>
+           <mo>∈</mo>
+           <msub>
+            <mi>R</mi>
+            <mrow>
+             <mi mathvariant="italic">random</mi>
+            </mrow>
+           </msub>
+           <mo stretchy="false">}</mo>
+           <mo stretchy="false">|</mo>
+          </mrow>
+          <mrow>
+           <mrow>
+            <mo stretchy="false">|</mo>
+           </mrow>
+           <msub>
+            <mi>R</mi>
+            <mrow>
+             <mi mathvariant="italic">random</mi>
+            </mrow>
+           </msub>
+           <mrow>
+            <mo stretchy="false">|</mo>
+           </mrow>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </math>
+   <graphic xlink:href="12859_2021_4062_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>The calculation of the p-value of WFVS is the same as above.
+</p>

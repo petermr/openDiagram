@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="cam43799-abs-0001">
+ <title>Abstract</title>
+ <sec id="cam43799-sec-0050">
+  <title>Aims</title>
+  <p>To investigate novel biomarker for diagnosis of cervical cancer, we analyzed the datasets in Gene Expression Omnibus (GEO) and confirmed the candidate biomarker in patient sample.</p>
+ </sec>
+ <sec id="cam43799-sec-0051">
+  <title>Materials and methods</title>
+  <p>We collected major datasets of cervical cancer in GEO, and analyzed the differential expression of normal and cancer samples online with GEO2R and tested the differences, then focus on the GSE63514 to screen the target genes in different histological grades by using the R‐Bioconductor package and R‐heatmap. Then human specimens from the cervix in different histological grades were used to confirm the top 8 genes expression by immunohistochemical staining using Ki67 as a standard control.</p>
+ </sec>
+ <sec id="cam43799-sec-0052">
+  <title>Results</title>
+  <p>We identified genes differentially expressed in normal and cervical cancer, 274 upregulated genes and 206 downregulated genes. After intersection with GSE63514, we found the obvious tendency in different histological grades. Then we screened the top 24 genes, and confirmed the top 8 genes in human cervix tissues. Immunohistochemical (IHC) results confirmed that keratin 17 (KRT17) was not expressed in normal cervical tissues and was over‐expressed in cervical cancer. Cysteine‐rich secretory protein‐2 (CRISP2) was less expressed in high‐grade squamous intraepithelial lesions (HSILs) than in other histological grades.</p>
+ </sec>
+ <sec id="cam43799-sec-0054">
+  <title>Conclusion</title>
+  <p>For the good repeatability and consistency of KRT17 and CRISP2, they may be good candidate biomarkers. Combined analysis of KRT17, CRISP2 expression at both genetic and protein levels can determine different histological grades of cervical squamous cell carcinoma. Such combined analysis is capable of improving diagnostic accuracy of cervical cancer.</p>
+ </sec>
+</abstract>

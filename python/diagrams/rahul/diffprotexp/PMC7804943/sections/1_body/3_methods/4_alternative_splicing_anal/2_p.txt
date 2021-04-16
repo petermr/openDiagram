@@ -1,0 +1,6 @@
+0: VAST-TOOLS was used to detect and quantify AS and IR events in the hippocampal datasets, as described previously 71.
+1: Briefly, reads were initially mapped to genome assemblies (mm9) using Bowtie, (m 1 c 2 parameters) with reads that mapped to the genome discarded for AS/IR quantificatio.
+2: For AS, unique EEJ (exonexon junction) libraries were generated to derive measurements of exon inclusion levels using the metric Percent Spliced In (PSI).
+3: This utilized all hypothetically possible EEJ combinations from annotated and de novo splice sites, including both cassette, mutually exclusive and microexon events.
+4: For intron retention (IR), a comprehensive set of reference sequences comprising each IR event was used: two exon-intron junctions (EIJs), intron mid-point sequences, and EEJs formed by intron removal 72.
+5: Each IR event requires multiple reads mapping to both the EIJ and the intron mid-point sequence, as described previously 72.

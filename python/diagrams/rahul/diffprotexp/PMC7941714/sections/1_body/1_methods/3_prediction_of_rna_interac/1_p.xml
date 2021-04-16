@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32">The online tool DIANA-LncBase version 3 (
+ <ext-link ext-link-type="uri" xlink:href="http://www.microrna.gr/LncBase" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.microrna.gr/LncBase</ext-link>) [
+ <xref ref-type="bibr" rid="CR14">14</xref>] was used to predict the potential miRNAs targeted by DElncRNAs and determine lncRNA–miRNA interaction pairs. MiRDB (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mirdb.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.mirdb.org/</ext-link>) [
+ <xref ref-type="bibr" rid="CR15">15</xref>], miRTarBase (
+ <ext-link ext-link-type="uri" xlink:href="http://mirtarbase.mbc.nctu.edu.tw/" xmlns:xlink="http://www.w3.org/1999/xlink">http://mirtarbase.mbc.nctu.edu.tw/</ext-link>) [
+ <xref ref-type="bibr" rid="CR16">16</xref>], and TargetScan (
+ <ext-link ext-link-type="uri" xlink:href="http://www.targetscan.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.targetscan.org/</ext-link>) [
+ <xref ref-type="bibr" rid="CR17">17</xref>] databases were used to predict the target genes of DEmiRNAs and miRNA–mRNA interaction pairs. The R package “VennDiagram” was used to compare the target genes with the DEmRNAs to obtain overlapping genes.
+</p>

@@ -1,0 +1,9 @@
+0: Protein spot digestion and protein identification were performed as previously described 38.
+1: The target protein spots in the 2-DE gels were selected and submitted to trypsin digestion using the Montage In-Gel DigestZP Kit (Millipore, Bedford, MA, USA).
+2: A Bruker REFLEX III MALDI-TOF-MS instrument (Bruker Daltonics, Bremen, Germany) was used for the analysis.
+3: The mass accuracy of the mass spectral peak was calibrated using the auto-digestion peak of trypsin.
+4: The mass spectrometry data were subjected to NCBI (version 18/09/2010) database searches using Mascot software (version 2.2.04; Matrix Science, London, UK).
+5: According to the input protein isoelectric point, molecular weight range, and PMF data, searches for proteins with matching parameters were performed in the database.
+6: The following procedure for database searching is provided at  http://www.matrixscience.com.
+7: MASCOT search parameters were as follows: no molecular weight restriction, 2 miscleavages allowed, enzyme = trypsin, variable modifications = oxidation (M)/carbamidomethyl (C), peptide tolerance = 0.3 Da, peptide charge = 1+.
+8: In the whole experiment, masks and gloves were worn to reduce keratin contamination.

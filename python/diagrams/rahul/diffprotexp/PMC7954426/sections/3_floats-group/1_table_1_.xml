@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Characteristics of some established ECM-binding adhesins</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <tbody>
+   <tr>
+    <td align="left">Species
+     <hr/>
+    </td>
+    <td align="left">Adhesin
+     <hr/>
+    </td>
+    <td align="center">Molecular weight
+     <break/>(KDa)
+     <hr/>
+    </td>
+    <td align="center">Antigenic variation
+     <hr/>
+    </td>
+    <td align="center">Fn
+     <hr/>
+    </td>
+    <td align="center">Plg
+     <hr/>
+    </td>
+    <td align="center">Heparin
+     <hr/>
+    </td>
+    <td align="center">References
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. pneumoniae</italic>
+    </td>
+    <td align="left">P1
+     <sup>a</sup>
+    </td>
+    <td align="center">169</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0004">4</xref>,
+     <xref ref-type="bibr" rid="cit0020">20</xref>,
+     <xref ref-type="bibr" rid="cit0087">87</xref>,
+     <xref ref-type="bibr" rid="cit0095">95</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">EF-Tu</td>
+    <td align="center">45</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0021">21</xref>,
+     <xref ref-type="bibr" rid="cit0022">22</xref>,
+     <xref ref-type="bibr" rid="cit0088">88</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">GAPDH
+     <sup>a,c</sup>
+    </td>
+    <td align="center">36.8</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0023">23</xref>,
+     <xref ref-type="bibr" rid="cit0089">89</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">PDHB
+     <sup>c</sup>
+    </td>
+    <td align="center">36</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0021">21</xref>,
+     <xref ref-type="bibr" rid="cit0024">24</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Eno</td>
+    <td align="center">49.2</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0024">24</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">DanK
+     <sup>a,c</sup>
+    </td>
+    <td align="center">65.1</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0030">30</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">GroEL
+     <sup>a,c</sup>
+    </td>
+    <td align="center">58.1</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0030">30</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. hyopneumoniae</italic>
+    </td>
+    <td align="left">P97</td>
+    <td align="center">97</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0090">90</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">P102</td>
+    <td align="center">102</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0091">91</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">P116</td>
+    <td align="center">116</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">P146</td>
+    <td align="center">148.2</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0042">42</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">P159</td>
+    <td align="center">159</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0041">41</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">P216</td>
+    <td align="center">216</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0040">40</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Mhp107</td>
+    <td align="center">104</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0045">45</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Mhp271</td>
+    <td align="center">118.8</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0044">44</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Mhp683</td>
+    <td align="center">135</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0046">46</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Eno</td>
+    <td align="center">49.4</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0054">54</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">EF-Tu</td>
+    <td align="center">43.6</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0047">47</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">GAPDH</td>
+    <td align="center">Unknown</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0048">48</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">FBA</td>
+    <td align="center">44</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0050">50</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">MHJ_0125</td>
+    <td align="center">~40</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0051">51</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">MHJ_0461</td>
+    <td align="center">51.4</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0052">52</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. bovis</italic>
+    </td>
+    <td align="left">P27</td>
+    <td align="center">27</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0069">69</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Eno</td>
+    <td align="center">49</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0070">70</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">TrmFO</td>
+    <td align="center">48.8</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0074">74</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">NOX</td>
+    <td align="center">49</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0075">75</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">FBA</td>
+    <td align="center">31.4</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0072">72</xref>,
+     <xref ref-type="bibr" rid="cit0073">73</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. gallisepticum</italic>
+    </td>
+    <td align="left">PlpA</td>
+    <td align="center">158</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0092">92</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Hlp3</td>
+    <td align="center">175</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0092">92</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">PDH complex
+     <sup>b</sup>
+    </td>
+    <td align="center">Unknown</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0065">65</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Eno</td>
+    <td align="center">50</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0061">61</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. suis</italic>
+    </td>
+    <td align="left">Eno</td>
+    <td align="center">59</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0053">53</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. fermentans</italic>
+    </td>
+    <td align="left">Eno</td>
+    <td align="center">~50</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0037">37</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. synoviae</italic>
+    </td>
+    <td align="left">Eno</td>
+    <td align="center">~53</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0093">93</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. conjunctivae</italic>
+    </td>
+    <td align="left">LppT</td>
+    <td align="center">105</td>
+    <td align="center">-</td>
+    <td align="center">+</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0083">83</xref>]
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tfn0001">
+   <p>a. can also bind to fibrinogen, vitronectin</p>
+  </fn>
+  <fn id="tfn0002">
+   <p>b. including PDHA and PDHB</p>
+  </fn>
+  <fn id="tfn0003">
+   <p>c. can also adhere to lactoferrin and laminin</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

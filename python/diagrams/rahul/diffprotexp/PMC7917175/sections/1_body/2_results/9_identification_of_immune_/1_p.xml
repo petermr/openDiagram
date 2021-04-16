@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par52">Immune gene co-expression modules were identified by clustering the samples by WGCNA 
+ <bold>(</bold>Fig. 
+ <xref rid="Fig10" ref-type="fig">10</xref>a
+ <bold>)</bold> with a soft threshold of 4 for scale-free network 
+ <bold>(</bold>Fig. 
+ <xref rid="Fig10" ref-type="fig">10</xref>b and c
+ <bold>)</bold>. The representation matrix was then converted to an adjacency and then to a topological matrix. We used the average-linkage hierarchy clustering method with minimum 30 genes for each network following the standard of hybrid dynamic shear tree. Eigengenes of each module were calculated and the close modules were merged into a new one with height = 0.25, deep split = 4 and min module size = 30. As shown in Fig. 
+ <xref rid="Fig10" ref-type="fig">10</xref>d, we obtained 10 co-expression modules with 1997 transcripts, of which the genes in grey module did not cluster with the rest 
+ <bold>(</bold>Fig. 
+ <xref rid="Fig10" ref-type="fig">10</xref>e
+ <bold>)</bold>. We further analyzed the distribution of 5 immune subtypes in the eigengenes of 9 (except grey) modules, and detected significantly different distribution in 8 modules 
+ <bold>(</bold>Fig. 
+ <xref rid="Fig10" ref-type="fig">10</xref>f
+ <bold>)</bold>. IS5 showed the lowest eigengenes in magenta, red, yellow, blue, brown and green modules and IS1 showed the highest eigengenes in the black, magenta, red, blue, brown and green modules. Thus, IS5 corresponded to immunologically cold and IS1 to inflamed tumors. Further prognostic correlation analysis showed that the blue and green modules were significantly associated with the prognosis of PAAD (Fig. 
+ <xref rid="Fig11" ref-type="fig">11</xref>a). Moreover, the blue module was related to T cell activation but was negatively associated with the component 1 of immune landscape 
+ <bold>(</bold>Fig. 
+ <xref rid="Fig11" ref-type="fig">11</xref>b and c
+ <bold>)</bold>. Likewise, the green module related to leukocyte migration showed consistent negative correlation as well 
+ <bold>(</bold>Fig. 
+ <xref rid="Fig11" ref-type="fig">11</xref>d and e
+ <bold>)</bold>. Analysis of prognostically relevant genes of the blue module showed that higher expression scores correlated with better prognosis in the ICGC and TCGA cohorts, which is consistent with abovementioned findings 
+ <bold>(</bold>Fig. 
+ <xref rid="Fig11" ref-type="fig">11</xref>f and g
+ <bold>)</bold>. The infiltration and activation of T cells and other immune cells in tumor tissues, as well as inhibition of immune-suppressive cells, largely determine the therapeutic potential of mRNA vaccine in cancer patients with specific immune subtype. Accordingly, mRNA vaccine might be not suitable to patients with high expression of genes clustered into blue and green modules. Finally, three hub genes with &gt; 90% relevance in blue module were identified, including MAP 4 K1, TBC1D10C and TRAF3IP3, which are potential biomarkers for mRNA vaccine. 
+</p>

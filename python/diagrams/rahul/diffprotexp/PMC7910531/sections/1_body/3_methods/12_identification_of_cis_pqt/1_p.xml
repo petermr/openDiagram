@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par50">We followed a similar protocol as for 
+ <italic>cis</italic>-eQTL analysis, also considering genetic variants within 1 Mb of the TSS (definition see below). For low-grade and high-grade cartilage, we included 1677 proteins that were measured across all samples. We normalised across samples using an inverse normalisation transformation for each gene separately in each tissue. To account for possible technical variation, we used PEER
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup> (with parameters as for the eQTL analysis above) and included 26 PEER factors, sex and genotype array as covariates using the GTEx modified version of FastQTL (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/francois-a/fastqtl" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/francois-a/fastqtl</ext-link>; v6p). We used the TSS established for the eQTL analysis, yielding a unique mapping for 1461 proteins, which were then taken forward. For each protein, we considered variants within a 1 Mb region in either direction from the TSS, restricting further to minor allele count of 10 or higher. We then followed the same procedure as for 
+ <italic>cis</italic>-eQTLs to identify variant-protein pairs with significant 
+ <italic>cis</italic>-pQTL effects.
+</p>

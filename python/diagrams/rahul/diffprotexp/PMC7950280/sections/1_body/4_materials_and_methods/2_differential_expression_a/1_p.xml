@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Taking the mean expression value of BDNF to be cut-off point, the included samples were divided into BDNF-low and high groups. To identify differentially expressed genes (DEGs) in HD / control and BDNF-low / high cohorts, we computed empirical Bayes moderated t-statistics using lmFit and 
+ <italic>eBayes</italic> functions in limma packages. False discovery rate (FDR)-adjusted P &lt; 0.05 and logarithm fold change (logFC) &gt; 0.15 were considered statistically significant in the analysis of DEGs [
+ <xref rid="r37" ref-type="bibr">37</xref>, 
+ <xref rid="r38" ref-type="bibr">38</xref>].
+</p>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f6" position="float">
+ <label>Figure 6</label>
+ <caption>
+  <p>Differential expression analysis of hub genes in tumor and normal tissues in GEO data sets. 
+   <bold>(A)</bold> There was no significant difference in the expression of 
+   <italic>CCR4</italic> in the GSE30784 data set. 
+   <bold>(B, C)</bold> Significant differences were observed in the expression of 
+   <italic>CCR8</italic> and 
+   <italic>P2RY14</italic> between tumor and normal tissues in the GSE30784 data set (
+   <italic>P</italic>&lt;0.001). 
+   <bold>(D)</bold> No significant difference in 
+   <italic>CCR4</italic> was observed in the GSE37991 data set. 
+   <bold>(E, F)</bold> In the GSE37991 data set, 
+   <italic>CCR8</italic> expression was increased in tumor tissues compared to normal tissues, while 
+   <italic>P2RY14</italic> expression was significantly decreased.
+  </p>
+ </caption>
+ <graphic xlink:href="fonc-11-618187-g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

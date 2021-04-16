@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par59">A gene was considered as significantly differentially expressed between the compared tissues if the absolute expression ratio |
+ <italic>x</italic>| (
+ <italic>x</italic> negative for down-regulation) exceeded the cut-off 
+ <italic>CUT</italic> computed for that gene and the p-value of the heteroscedastic 
+ <italic>t-</italic>test of means’ equality was p &lt; 0.05:
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \begin{gathered} \forall A,B = RA,\;LA,\;RV,\;LV \hfill \\ \left| {x_{i}^{(A \to B)} } \right| &gt; CUT_{i}^{(A \to B)} = 1 + \sqrt {2\left( {\left( {REV_{i}^{(A)} } \right)^{2} + \left( {REV_{i}^{(B)} } \right)^{2} } \right)} \quad ,\quad where: \hfill \\ x_{i}^{(A \to B)} = \left\{ {\begin{array}{*{20}l} {\sum\limits_{k = 1}^{{R_{i} }} {\mu_{ik}^{(B)} } /\sum\limits_{k = 1}^{{R_{i} }} {\mu_{ik}^{(A)} } } \hfill &amp; {if} \hfill &amp; {\sum\limits_{k = 1}^{{R_{i} }} {\mu_{ik}^{(B)} } \ge \sum\limits_{k = 1}^{{R_{i} }} {\mu_{ik}^{(A)} } } \hfill \\ { - \sum\limits_{k = 1}^{{R_{i} }} {\mu_{ik}^{(A)} } /\sum\limits_{k = 1}^{{R_{i} }} {\mu_{ik}^{(B)} } } \hfill &amp; {if} \hfill &amp; {\sum\limits_{k = 1}^{{R_{i} }} {\mu_{ik}^{(B)} } &lt; \sum\limits_{k = 1}^{{R_{i} }} {\mu_{ik}^{(A)} } } \hfill \\ \end{array} } \right. \hfill \\ \end{gathered} $$\end{document}</tex-math>
+   <math id="M16" display="block">
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mo>∀</mo>
+         <mi>A</mi>
+         <mo>,</mo>
+         <mi>B</mi>
+         <mo>=</mo>
+         <mi>R</mi>
+         <mi>A</mi>
+         <mo>,</mo>
+         <mspace width="0.277778em"/>
+         <mi>L</mi>
+         <mi>A</mi>
+         <mo>,</mo>
+         <mspace width="0.277778em"/>
+         <mi>R</mi>
+         <mi>V</mi>
+         <mo>,</mo>
+         <mspace width="0.277778em"/>
+         <mi>L</mi>
+         <mi>V</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mrow/>
+         <mfenced close="|" open="|">
+          <msubsup>
+           <mi>x</mi>
+           <mrow>
+            <mi>i</mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mi>A</mi>
+            <mo stretchy="false">→</mo>
+            <mi>B</mi>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </msubsup>
+         </mfenced>
+         <mo>&gt;</mo>
+         <mi>C</mi>
+         <mi>U</mi>
+         <msubsup>
+          <mi>T</mi>
+          <mrow>
+           <mi>i</mi>
+          </mrow>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>A</mi>
+           <mo stretchy="false">→</mo>
+           <mi>B</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </msubsup>
+         <mo>=</mo>
+         <mn>1</mn>
+         <mo>+</mo>
+         <msqrt>
+          <mrow>
+           <mn>2</mn>
+           <mfenced close=")" open="(">
+            <mrow>
+             <msup>
+              <mfenced close=")" open="(">
+               <mrow>
+                <mi>R</mi>
+                <mi>E</mi>
+                <msubsup>
+                 <mi>V</mi>
+                 <mrow>
+                  <mi>i</mi>
+                 </mrow>
+                 <mrow>
+                  <mo stretchy="false">(</mo>
+                  <mi>A</mi>
+                  <mo stretchy="false">)</mo>
+                 </mrow>
+                </msubsup>
+               </mrow>
+              </mfenced>
+              <mn>2</mn>
+             </msup>
+             <mo>+</mo>
+             <msup>
+              <mfenced close=")" open="(">
+               <mrow>
+                <mi>R</mi>
+                <mi>E</mi>
+                <msubsup>
+                 <mi>V</mi>
+                 <mrow>
+                  <mi>i</mi>
+                 </mrow>
+                 <mrow>
+                  <mo stretchy="false">(</mo>
+                  <mi>B</mi>
+                  <mo stretchy="false">)</mo>
+                 </mrow>
+                </msubsup>
+               </mrow>
+              </mfenced>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </mfenced>
+          </mrow>
+         </msqrt>
+         <mspace width="1em"/>
+         <mo>,</mo>
+         <mspace width="1em"/>
+         <mi>w</mi>
+         <mi>h</mi>
+         <mi>e</mi>
+         <mi>r</mi>
+         <mi>e</mi>
+         <mo>:</mo>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mrow/>
+         <msubsup>
+          <mi>x</mi>
+          <mrow>
+           <mi>i</mi>
+          </mrow>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>A</mi>
+           <mo stretchy="false">→</mo>
+           <mi>B</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </msubsup>
+         <mo>=</mo>
+         <mfenced open="{">
+          <mrow>
+           <mtable>
+            <mtr>
+             <mtd columnalign="left">
+              <mrow>
+               <munderover>
+                <mo movablelimits="false">∑</mo>
+                <mrow>
+                 <mi>k</mi>
+                 <mo>=</mo>
+                 <mn>1</mn>
+                </mrow>
+                <msub>
+                 <mi>R</mi>
+                 <mi>i</mi>
+                </msub>
+               </munderover>
+               <msubsup>
+                <mi>μ</mi>
+                <mrow>
+                 <mi mathvariant="italic">ik</mi>
+                </mrow>
+                <mrow>
+                 <mo stretchy="false">(</mo>
+                 <mi>B</mi>
+                 <mo stretchy="false">)</mo>
+                </mrow>
+               </msubsup>
+               <mo stretchy="false">/</mo>
+               <munderover>
+                <mo movablelimits="false">∑</mo>
+                <mrow>
+                 <mi>k</mi>
+                 <mo>=</mo>
+                 <mn>1</mn>
+                </mrow>
+                <msub>
+                 <mi>R</mi>
+                 <mi>i</mi>
+                </msub>
+               </munderover>
+               <msubsup>
+                <mi>μ</mi>
+                <mrow>
+                 <mi mathvariant="italic">ik</mi>
+                </mrow>
+                <mrow>
+                 <mo stretchy="false">(</mo>
+                 <mi>A</mi>
+                 <mo stretchy="false">)</mo>
+                </mrow>
+               </msubsup>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mi mathvariant="italic">if</mi>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <munderover>
+                <mo movablelimits="false">∑</mo>
+                <mrow>
+                 <mi>k</mi>
+                 <mo>=</mo>
+                 <mn>1</mn>
+                </mrow>
+                <msub>
+                 <mi>R</mi>
+                 <mi>i</mi>
+                </msub>
+               </munderover>
+               <msubsup>
+                <mi>μ</mi>
+                <mrow>
+                 <mi mathvariant="italic">ik</mi>
+                </mrow>
+                <mrow>
+                 <mo stretchy="false">(</mo>
+                 <mi>B</mi>
+                 <mo stretchy="false">)</mo>
+                </mrow>
+               </msubsup>
+               <mo>≥</mo>
+               <munderover>
+                <mo movablelimits="false">∑</mo>
+                <mrow>
+                 <mi>k</mi>
+                 <mo>=</mo>
+                 <mn>1</mn>
+                </mrow>
+                <msub>
+                 <mi>R</mi>
+                 <mi>i</mi>
+                </msub>
+               </munderover>
+               <msubsup>
+                <mi>μ</mi>
+                <mrow>
+                 <mi mathvariant="italic">ik</mi>
+                </mrow>
+                <mrow>
+                 <mo stretchy="false">(</mo>
+                 <mi>A</mi>
+                 <mo stretchy="false">)</mo>
+                </mrow>
+               </msubsup>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd columnalign="left">
+              <mrow>
+               <mrow/>
+               <mrow>
+                <mo>-</mo>
+                <munderover>
+                 <mo movablelimits="false">∑</mo>
+                 <mrow>
+                  <mi>k</mi>
+                  <mo>=</mo>
+                  <mn>1</mn>
+                 </mrow>
+                 <msub>
+                  <mi>R</mi>
+                  <mi>i</mi>
+                 </msub>
+                </munderover>
+                <msubsup>
+                 <mi>μ</mi>
+                 <mrow>
+                  <mi mathvariant="italic">ik</mi>
+                 </mrow>
+                 <mrow>
+                  <mo stretchy="false">(</mo>
+                  <mi>A</mi>
+                  <mo stretchy="false">)</mo>
+                 </mrow>
+                </msubsup>
+                <mo stretchy="false">/</mo>
+                <munderover>
+                 <mo movablelimits="false">∑</mo>
+                 <mrow>
+                  <mi>k</mi>
+                  <mo>=</mo>
+                  <mn>1</mn>
+                 </mrow>
+                 <msub>
+                  <mi>R</mi>
+                  <mi>i</mi>
+                 </msub>
+                </munderover>
+                <msubsup>
+                 <mi>μ</mi>
+                 <mrow>
+                  <mi mathvariant="italic">ik</mi>
+                 </mrow>
+                 <mrow>
+                  <mo stretchy="false">(</mo>
+                  <mi>B</mi>
+                  <mo stretchy="false">)</mo>
+                 </mrow>
+                </msubsup>
+               </mrow>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mi mathvariant="italic">if</mi>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <munderover>
+                <mo movablelimits="false">∑</mo>
+                <mrow>
+                 <mi>k</mi>
+                 <mo>=</mo>
+                 <mn>1</mn>
+                </mrow>
+                <msub>
+                 <mi>R</mi>
+                 <mi>i</mi>
+                </msub>
+               </munderover>
+               <msubsup>
+                <mi>μ</mi>
+                <mrow>
+                 <mi mathvariant="italic">ik</mi>
+                </mrow>
+                <mrow>
+                 <mo stretchy="false">(</mo>
+                 <mi>B</mi>
+                 <mo stretchy="false">)</mo>
+                </mrow>
+               </msubsup>
+               <mo>&lt;</mo>
+               <munderover>
+                <mo movablelimits="false">∑</mo>
+                <mrow>
+                 <mi>k</mi>
+                 <mo>=</mo>
+                 <mn>1</mn>
+                </mrow>
+                <msub>
+                 <mi>R</mi>
+                 <mi>i</mi>
+                </msub>
+               </munderover>
+               <msubsup>
+                <mi>μ</mi>
+                <mrow>
+                 <mi mathvariant="italic">ik</mi>
+                </mrow>
+                <mrow>
+                 <mo stretchy="false">(</mo>
+                 <mi>A</mi>
+                 <mo stretchy="false">)</mo>
+                </mrow>
+               </msubsup>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+          </mrow>
+         </mfenced>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow/>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_82383_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

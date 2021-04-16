@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">To define the weights of genes, we first downloaded the RNA-seq data from TCGA [
+ <xref ref-type="bibr" rid="CR26">26</xref>], which contains gene expression data from 1102 breast tumour samples and 113 normal samples. Next, the counts of level 3 RNASeqV2 data were processed and transformed before being used for further analysis [
+ <xref ref-type="bibr" rid="CR27">27</xref>]. Specifically, we used the fold change (FC) value (with the binary logarithm and absolute value) between tumour and normal samples as the weight of each vertex (gene). For a specific gene 
+ <italic>v</italic>, its weight is calculated by the following formula:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{aligned} v.w=\left| \frac{\Sigma _{i=1}^n \log _2 T_i}{n}-\frac{\Sigma _{j=1}^m \log _2 N_j}{m}\right| \end{aligned}$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd columnalign="right">
+        <mrow>
+         <mi>v</mi>
+         <mo>.</mo>
+         <mi>w</mi>
+         <mo>=</mo>
+         <mfenced close="|" open="|">
+          <mfrac>
+           <mrow>
+            <msubsup>
+             <mi mathvariant="normal">Σ</mi>
+             <mrow>
+              <mi>i</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+             </mrow>
+             <mi>n</mi>
+            </msubsup>
+            <msub>
+             <mo>log</mo>
+             <mn>2</mn>
+            </msub>
+            <msub>
+             <mi>T</mi>
+             <mi>i</mi>
+            </msub>
+           </mrow>
+           <mi>n</mi>
+          </mfrac>
+          <mo>-</mo>
+          <mfrac>
+           <mrow>
+            <msubsup>
+             <mi mathvariant="normal">Σ</mi>
+             <mrow>
+              <mi>j</mi>
+              <mo>=</mo>
+              <mn>1</mn>
+             </mrow>
+             <mi>m</mi>
+            </msubsup>
+            <msub>
+             <mo>log</mo>
+             <mn>2</mn>
+            </msub>
+            <msub>
+             <mi>N</mi>
+             <mi>j</mi>
+            </msub>
+           </mrow>
+           <mi>m</mi>
+          </mfrac>
+         </mfenced>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </math>
+   <graphic xlink:href="12859_2021_4062_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$T_i$$\end{document}</tex-math>
+   <math id="M4">
+    <msub>
+     <mi>T</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the expression value of tumour sample 
+ <italic>i</italic>, 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$N_j$$\end{document}</tex-math>
+   <math id="M6">
+    <msub>
+     <mi>N</mi>
+     <mi>j</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the expression value of a normal sample 
+ <italic>j</italic>, and 
+ <italic>n</italic> and 
+ <italic>m</italic> are the numbers of tumour and normal samples, respectively. Intuitively, a high FC value corresponds to a high possibility of a cancer gene. Thus, it is reasonable to use the FC values as the weights of genes.
+</p>

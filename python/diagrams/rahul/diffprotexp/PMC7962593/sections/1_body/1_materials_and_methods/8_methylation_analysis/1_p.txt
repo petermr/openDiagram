@@ -1,0 +1,2 @@
+0: The GSE138074 dataset contains array-based gene methylation profiles of monocytes from 14 adult septic patients and 11 healthy donors.
+1: Data were processed using the ChAMP package in R. 27 Differences in methylation levels between sepsis patients and healthy donors were calculated using the limma package in R.

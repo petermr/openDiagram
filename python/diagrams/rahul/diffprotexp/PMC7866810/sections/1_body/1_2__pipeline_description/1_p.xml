@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DIscBIO is a multi-algorithmic pipeline for an easy, fast and efficient analysis of sub-populations and the molecular signatures that characterize them. The pipeline consists of four successive steps: (1) data pre-processing; (2) cellular clustering and pseudo-temporal ordering; (3) determining differentially expressed genes (DEGs); and (4) biomarker identification, including decision trees, networking and gene enrichment analysis (
+ <xref ref-type="fig" rid="ijms-22-01399-f001">Figure 1</xref>). Below, we summarize the sections and algorithms used in the pipeline. Detailed information may also be found in each of the sections of the notebooks:
+</p>

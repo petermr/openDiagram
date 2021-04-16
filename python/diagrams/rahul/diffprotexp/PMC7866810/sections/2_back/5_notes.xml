@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes notes-type="data-availability">
+ <title>Data Availability Statement</title>
+ <p>DIscBIO is an open-source pipeline whose source code and Jupyter notebooks are deposited in a GitHub repository 
+  <uri xlink:href="https://github.com/ocbe-uio/DIscBIO" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/ocbe-uio/DIscBIO</uri>. Its CRAN-published R package can be downloaded from 
+  <uri xlink:href="https://cran.r-project.org/web/packages/DIscBIO/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://cran.r-project.org/web/packages/DIscBIO/index.html</uri> or installed directly from a regular R session. DIscBIO is also provided as a cloud version using Binder. Instructions to run our Binder notebooks can be found in the README on our GitHub repository.
+ </p>
+</notes>

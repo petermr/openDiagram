@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00257-f008" orientation="portrait" position="float">
+ <label>Figure 8</label>
+ <caption>
+  <p>LE gene expressions stratify the risk of prostate cancer recurrence. The Kaplan–Meier survival curves for the indicated genes were produced with the R survival package using data from the TCGA PanCancer (
+   <bold>A</bold>) and MSKCC (
+   <bold>B</bold>) cohorts. Cutoff points for individual genes were obtained using the R Maxstat package. Statistical analyses were performed using logrank test.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00257-g008" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

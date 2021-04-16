@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Schiller</surname>
+   <given-names>Philipp</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="author-notes" rid="an0002">
+   <sup>*</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Knödler</surname>
+   <given-names>Michael</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="author-notes" rid="an0002">
+   <sup>*</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0760-7177</contrib-id>
+  <name>
+   <surname>Berger</surname>
+   <given-names>Petya</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Greune</surname>
+   <given-names>Lilo</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9486-8358</contrib-id>
+  <name>
+   <surname>Fruth</surname>
+   <given-names>Angelika</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Mellmann</surname>
+   <given-names>Alexander</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8177-3280</contrib-id>
+  <name>
+   <surname>Dersch</surname>
+   <given-names>Petra</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Berger</surname>
+   <given-names>Michael</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9949-1898</contrib-id>
+  <name>
+   <surname>Dobrindt</surname>
+   <given-names>Ulrich</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>Institute of Hygiene, 
+  <institution-wrap>
+   <institution>University of Münster</institution>
+  </institution-wrap>, 
+  <city>Münster</city>, 
+  <country>Germany</country>
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>Institute for Infectiology, 
+  <institution-wrap>
+   <institution>University of Münster</institution>
+  </institution-wrap>, 
+  <city>Münster</city>, 
+  <country>Germany</country>
+ </aff>
+ <aff id="aff0003">
+  <label>c</label>Division of Enteropathogenic Bacteria and Legionella, 
+  <institution-wrap>
+   <institution>Robert Koch Institute</institution>
+  </institution-wrap>, 
+  <city>Wernigerode</city>, 
+  <country>Germany</country>
+ </aff>
+</contrib-group>

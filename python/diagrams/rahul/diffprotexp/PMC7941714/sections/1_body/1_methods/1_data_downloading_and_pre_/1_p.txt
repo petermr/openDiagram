@@ -1,0 +1,4 @@
+0: The mRNA, lncRNA, and miRNA expression profiles of the CRC patients were downloaded from TCGA database ( https://cancergenome.nih.gov/).
+1: We collected RNA-Seq data for 612 samples (568 CRC and 44 normal samples) in HTSeq-Counts files and miRNA-Seq data for 548 samples (539 CRC and nine normal samples).
+2: The sequence data were derived from Illumina HiSeq RNASeq and miRNASeq platforms, which were publicly available.
+3: GENCODE ( https://www.gencodegenes.org/) was used to convert the RNA-Seq data into lncRNAs (sense_overlapping, lincRNA, 3prime_overlapping_ncRNA, processed_transcript, antisense, and sense_intronic) and mRNAs (protein-coding).

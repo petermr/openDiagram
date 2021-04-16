@@ -1,0 +1,3 @@
+0: Gene expression profiles were measured using Clariom S mouse arrays (ThermoFisher Scientific, Waltham, MA, USA) in the Core Unit DNA Technologies of the University Leipzig Medical Faculty according to the manufacturers instructions.
+1: Data were background corrected and normalized by applying Robust Multi array Averaging (RMA) using the Affymetrix Expression ControlTM software (ThermoFisher Scientific).
+2: Subsequent analyses were performed in R v3.6.1 12 using  limma v3.40.6 13 and employing a linear fit model and Empirical Bayes statistics for differential expression.

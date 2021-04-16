@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In previous quantitative proteomics analysis, Student 
+ <italic>t</italic> test, ANOVA (
+ <xref rid="B2" ref-type="bibr">2</xref>), Limma (
+ <xref rid="B3" ref-type="bibr">3</xref>) and linear mixed models (
+ <xref rid="B2" ref-type="bibr">2</xref>, 
+ <xref rid="B4" ref-type="bibr">4</xref>
+ <xref rid="B5" ref-type="bibr"/>–
+ <xref rid="B6" ref-type="bibr">6</xref>), have been used to detect differentially expressed proteins (DEPs). In addition, other methods have been developed specifically for quantitative proteomics as exemplified by empirical Bayesian random censoring threshold model (EBRC) (
+ <xref rid="B7" ref-type="bibr">7</xref>) and reproducibility-optimized test statistic (ROTS) (
+ <xref rid="B8" ref-type="bibr">8</xref>). EBRC, developed for label-free MS-data, applies a random censoring threshold to achieve more accurate protein abundance estimates in the presence of missing values. ROTS is a modified form of t-statistics with a bootstrapping procedure to maximize the reproducibility of top ranked DEPs. In a previous analysis, ROTS was shown to outperform many statistical methods including Limma, 
+ <italic>t</italic> test, SAM and mixed models (
+ <xref rid="B9" ref-type="bibr">9</xref>).
+</p>

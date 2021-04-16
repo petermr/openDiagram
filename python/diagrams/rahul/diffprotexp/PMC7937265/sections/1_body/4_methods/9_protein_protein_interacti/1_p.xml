@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par55">Interaction associations of the proteins encoded by the DEGs were extracted from the STRING online database (
+ <ext-link ext-link-type="uri" xlink:href="https://string-db.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://string-db.org/</ext-link>) and were used to generate PPI networks of medium confidence (interaction scores &gt; 0.40) for each tissue [
+ <xref ref-type="bibr" rid="CR68">68</xref>]. The genes in the PPI network are represented as nodes and the interactions between nodes are edges. Nodes with a high number of edges (aka degrees) are defined as hub genes that likely have highly influential biological functions. The Cytoscape plug-in CytoHubba was used to identify hub genes through degree method (top 10 genes with ≥10 degrees). We then identified subnetworks within PPI networks using ClusterONE, a Cytoscape plugin that finds densely connected regions that can be considered protein complexes. We only included significant (
+ <italic>p</italic> &lt; 0.05) subnetworks with a minimum of 10 nodes. A GO enrichment analysis was performed on DEGs in subnetworks.
+</p>

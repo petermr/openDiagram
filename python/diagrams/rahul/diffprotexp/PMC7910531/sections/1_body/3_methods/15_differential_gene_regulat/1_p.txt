@@ -1,0 +1,4 @@
+0: To identify differential regulation of gene expression between high- and low-grade cartilage, we used Meta-Tissue v0.5 54 (downloaded from  http://genetics.cs.ucla.edu/metatissue/index.html), which implements METASOFT 55.
+1: The  m value calculated by METASOFT for gene-variant pair in each tissue provides a posterior probability ( m value) of an effect in that tissue.
+2: Consequently, we aimed to identify eQTLs present in one tissue (defined as  m > 0.9), and absent in the other (defined as  m < 0.1).
+3: We note that there were no  cis-eQTLs present in both tissues ( m > 0.9) with opposing direction of effect.

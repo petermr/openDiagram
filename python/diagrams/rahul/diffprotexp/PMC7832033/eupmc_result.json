@@ -1,0 +1,849 @@
+{
+  "id": [
+    "33256556"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33256556"
+  ],
+  "pmcid": [
+    "PMC7832033"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7832033"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/22221751.2020.1858176"
+  ],
+  "title": [
+    "Blood transcriptomics to characterize key biological pathways and identify biomarkers for predicting mortality in melioidosis."
+  ],
+  "authorString": [
+    "Yimthin T, Cliff JM, Phunpang R, Ekchariyawat P, Kaewarpai T, Lee JS, Eckold C, Andrada M, Thiansukhon E, Tanwisaid K, Chuananont S, Morakot C, Sangsa N, Silakun W, Chayangsu S, Buasi N, Day N, Lertmemongkolchai G, Chantratita W, Eoin West T, Chantratita N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Yimthin T"
+          ],
+          "firstName": [
+            "Thatcha"
+          ],
+          "lastName": [
+            "Yimthin"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Tropical Medicine, Department of Microbiology and Immunology, Mahidol University, Bangkok, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cliff JM"
+          ],
+          "firstName": [
+            "Jacqueline Margaret"
+          ],
+          "lastName": [
+            "Cliff"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Infectious and Tropical Diseases, Department of Immunology and Infection, London School of Hygiene & Tropical Medicine, London, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Phunpang R"
+          ],
+          "firstName": [
+            "Rungnapa"
+          ],
+          "lastName": [
+            "Phunpang"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Tropical Medicine, Mahidol-Oxford Tropical Medicine Research Unit, Mahidol University, Bangkok, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ekchariyawat P"
+          ],
+          "firstName": [
+            "Peeraya"
+          ],
+          "lastName": [
+            "Ekchariyawat"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Tropical Medicine, Department of Microbiology and Immunology, Mahidol University, Bangkok, Thailand."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Faculty of Public Health, Department of Microbiology, Mahidol University, Bangkok, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kaewarpai T"
+          ],
+          "firstName": [
+            "Taniya"
+          ],
+          "lastName": [
+            "Kaewarpai"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Tropical Medicine, Department of Microbiology and Immunology, Mahidol University, Bangkok, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lee JS"
+          ],
+          "firstName": [
+            "Ji-Sook"
+          ],
+          "lastName": [
+            "Lee"
+          ],
+          "initials": [
+            "JS"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Infectious and Tropical Diseases, Department of Immunology and Infection, London School of Hygiene & Tropical Medicine, London, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Eckold C"
+          ],
+          "firstName": [
+            "Clare"
+          ],
+          "lastName": [
+            "Eckold"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Medicine, Department of Surgery and Cancer, Imperial College London, London, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Andrada M"
+          ],
+          "firstName": [
+            "Megan"
+          ],
+          "lastName": [
+            "Andrada"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Tropical Medicine, Medical Microbiology, and Pharmacology, John A. Burns School of Medicine, University of Hawaii at Manoa, Honolulu, Hawaii, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Thiansukhon E"
+          ],
+          "firstName": [
+            "Ekkachai"
+          ],
+          "lastName": [
+            "Thiansukhon"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, Udon Thani Hospital, Udon Thani, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tanwisaid K"
+          ],
+          "firstName": [
+            "Kittisak"
+          ],
+          "lastName": [
+            "Tanwisaid"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, Nakhon Phanom Hospital, Nakhon Phanom, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chuananont S"
+          ],
+          "firstName": [
+            "Somchai"
+          ],
+          "lastName": [
+            "Chuananont"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, Nakhon Phanom Hospital, Nakhon Phanom, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Morakot C"
+          ],
+          "firstName": [
+            "Chumpol"
+          ],
+          "lastName": [
+            "Morakot"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, Mukdahan Hospital, Mukdahan, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sangsa N"
+          ],
+          "firstName": [
+            "Narongchai"
+          ],
+          "lastName": [
+            "Sangsa"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, Roi Et Hospital, Roi Et, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Silakun W"
+          ],
+          "firstName": [
+            "Wirayut"
+          ],
+          "lastName": [
+            "Silakun"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, Buriram Hospital, Buriram, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chayangsu S"
+          ],
+          "firstName": [
+            "Sunee"
+          ],
+          "lastName": [
+            "Chayangsu"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, Surin Hospital, Surin, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Buasi N"
+          ],
+          "firstName": [
+            "Noppol"
+          ],
+          "lastName": [
+            "Buasi"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, Sisaket Hospital, Sisaket, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Day N"
+          ],
+          "firstName": [
+            "Nicholas"
+          ],
+          "lastName": [
+            "Day"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Tropical Medicine, Mahidol-Oxford Tropical Medicine Research Unit, Mahidol University, Bangkok, Thailand."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Centre for Tropical Medicine, Nuffield Department of Medicine, University of Oxford, Oxford, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lertmemongkolchai G"
+          ],
+          "firstName": [
+            "Ganjana"
+          ],
+          "lastName": [
+            "Lertmemongkolchai"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Associated Medical Science, Department of Clinical Immunology, Khon Kaen University, Khon Kaen, Thailand."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "The Centre for Research and Development of Medical Diagnostic Laboratories, Khon Kaen University, Khon Kaen, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chantratita W"
+          ],
+          "firstName": [
+            "Wasun"
+          ],
+          "lastName": [
+            "Chantratita"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Medicine Ramathibodi Hospital, Center for Medical Genomics, Mahidol University, Bangkok, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Eoin West T"
+          ],
+          "firstName": [
+            "T"
+          ],
+          "lastName": [
+            "Eoin West"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5503-7204",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Pulmonary and Critical Care Medicine, Harborview Medical Center, University of Washington, Seattle, Washington, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chantratita N"
+          ],
+          "firstName": [
+            "Narisara"
+          ],
+          "lastName": [
+            "Chantratita"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3906-7379",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Tropical Medicine, Department of Microbiology and Immunology, Mahidol University, Bangkok, Thailand."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Faculty of Tropical Medicine, Mahidol-Oxford Tropical Medicine Research Unit, Mahidol University, Bangkok, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5503-7204",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3906-7379",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3092862"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Emerging microbes & infections"
+          ],
+          "ISOAbbreviation": [
+            "Emerg Microbes Infect"
+          ],
+          "medlineAbbreviation": [
+            "Emerg Microbes Infect"
+          ],
+          "NLMid": [
+            "101594885"
+          ],
+          "ISSN": [
+            "2222-1751"
+          ],
+          "ESSN": [
+            "2222-1751"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "8-18"
+  ],
+  "abstractText": [
+    "Melioidosis is an often lethal tropical disease caused by the Gram-negative bacillus, <i>Burkholderia pseudomallei</i>. The study objective was to characterize transcriptomes in melioidosis patients and identify genes associated with outcome. Whole blood RNA-seq was performed in a discovery set of 29 melioidosis patients and 3 healthy controls. Transcriptomic profiles of patients who did not survive to 28 days were compared with patients who survived and healthy controls, showing 65 genes were significantly up-regulated and 218 were down-regulated in non-survivors compared to survivors. Up-regulated genes were involved in myeloid leukocyte activation, Toll-like receptor cascades and reactive oxygen species metabolic processes. Down-regulated genes were hematopoietic cell lineage, adaptive immune system and lymphocyte activation pathways. RT-qPCR was performed for 28 genes in a validation set of 60 melioidosis patients and 20 healthy controls, confirming differential expression. <i>IL1R2, GAS7, S100A9, IRAK3,</i> and <i>NFKBIA</i> were significantly higher in non-survivors compared with survivors (<i>P</i> < 0.005) and healthy controls (<i>P</i> < 0.0001). The AUROCC of these genes for mortality discrimination ranged from 0.80-0.88. In survivors, expression of <i>IL1R2</i>, <i>S100A9</i> and <i>IRAK3</i> genes decreased significantly over 28 days (<i>P</i> < 0.05). These findings augment our understanding of this severe infection, showing expression levels of specific genes are potential biomarkers to predict melioidosis outcomes."
+  ],
+  "affiliation": [
+    "Faculty of Tropical Medicine, Department of Microbiology and Immunology, Mahidol University, Bangkok, Thailand."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Immune response",
+        "Burkholderia pseudomallei",
+        "Biomarkers",
+        "Melioidosis",
+        "Outcome",
+        "Transcriptomics",
+        "Rna-sequencing"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/22221751.2020.1858176"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7832033"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7832033?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-12-01"
+  ],
+  "firstIndexDate": [
+    "2020-12-02"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-05"
+  ],
+  "dateOfRevision": [
+    "2021-02-03"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

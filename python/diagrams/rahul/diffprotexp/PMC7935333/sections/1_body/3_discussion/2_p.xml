@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Due to the development and popularization of the next-generation sequencing technologies, multiple transcriptomics studies of TNBC have been carried out. For instance, in a study based on the original TNBC dataset GSE76275 from GEO,
+ <xref rid="cit0017" ref-type="bibr">17</xref> 207 DEGs were identified, and 
+ <italic>SOX8, AR, C9orf152, NRK</italic> and 
+ <italic>RAB30</italic> were proposed as hub genes. Another bioinformatics analysis on TNBC transcriptome involved three GEO datasets (GSE38959, GSE45827, and GSE65194), and CCND1 was considered as the potential key gene associated with TNBC prognosis.
+ <xref rid="cit0018" ref-type="bibr">18</xref> Comparing with these published similar studies, the present study has some advantages: First, we employed the RRA method to analyze the overlapping DEGs from the four datasets. To the best of our knowledge, this algorithm has not been used for TNBC vs non-TNBC transcriptomic expression analysis. The RRA method is parameter-free and robust to outliers, noise and errors. Secondly, the present study involved 77 TNBC and 186 non-TNBC samples from four microarray datasets, and this sample size is larger than most of the other similar studies. These features ensured the credibility of our results.
+</p>

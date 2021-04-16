@@ -1,0 +1,6 @@
+0: The SARSCOVIDB (available at:  https://sarscovidb.org/) comprises differential gene expression measurements, at mRNA and protein levels, built through four main steps ( Figure   2).
+1: The first step was a manual search by manual text mining to find all articles available in PubMed, Web of Science, Google Scholar, and ScienceDirect databases containing the terms SARS-CoV-2 and COVID-19.
+2: Only accepted/published manuscripts were used as the source of DEGs in SARS-CoV2 infection.
+3: This search retrieved 5554 articles, from December 2019 to date.
+4: The second step comprised a manual check of abstracts to select articles containing only differential gene expression measurements after SARS-CoV-2 infection.
+5: All references were double-checked by two independent individuals, resulting in the selection of 24 articles.

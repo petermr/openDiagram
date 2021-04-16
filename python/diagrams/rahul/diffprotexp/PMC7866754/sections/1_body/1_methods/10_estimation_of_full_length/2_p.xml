@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par31">
+ <disp-formula id="Equb">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$( {\text{NSAF)}}_{k} = \frac{{(SpC/Length)_{k} }}{{\mathop \sum \nolimits_{i = 1}^{N} (SpC/Length)_{i} }}$$\end{document}</tex-math>
+   <math id="M4" display="block">
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mtext>NSAF)</mtext>
+      <mi>k</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>S</mi>
+        <mi>p</mi>
+        <mi>C</mi>
+        <mo stretchy="false">/</mo>
+        <mi>L</mi>
+        <mi>e</mi>
+        <mi>n</mi>
+        <mi>g</mi>
+        <mi>t</mi>
+        <mi>h</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mi>k</mi>
+      </msub>
+      <mrow>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mi>N</mi>
+       </msubsup>
+       <msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mi>S</mi>
+         <mi>p</mi>
+         <mi>C</mi>
+         <mo stretchy="false">/</mo>
+         <mi>L</mi>
+         <mi>e</mi>
+         <mi>n</mi>
+         <mi>g</mi>
+         <mi>t</mi>
+         <mi>h</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </math>
+   <graphic xlink:href="12936_2021_3598_Article_Equb.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where (NSAF)
+ <sub>k</sub> is the NSAF value for protein k, SpC is spectral count and length is the protein length. This method adjusts for the protein length, because larger proteins tend to have higher probabilities of generating more PSMs; as well as the total protein abundance in one sample. However, for peptides that do not map to canonical coding sequences, the open reading frame in the mapped transcript from which they were translated needed to be estimated to obtain protein length. The estimated ORFs could also be used for downstream functional analysis.
+</p>

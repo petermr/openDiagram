@@ -1,0 +1,7 @@
+0: Meta-Tissue restricts covariates input to the same values for each patient across tissues, while different PEER covariates were provided for each tissue in the FastQTL analysis.
+1: Hence, for each tissue, we obtained residuals from regressing the normalised expression data on the 15 PEER factors, sex and array, then used the residuals as input for Meta-Tissue.
+2: We included genotype dosages based on both the low- and high-grade results for each analysis.
+3: We ran METASOFT using the default settings provided in the output script from Meta-Tissue.
+4: We only considered eQTLs that were identified in the FastQTL analysis in the appropriate tissue.
+5: To identify variants located in regulatory regions, we used Ensembl Variant Effect Predictor ( http://grch37.ensembl.org/Homo_sapiens/Tools/VEP/).
+6: For 32 genes with differential QTLs, we considered gene annotations from several sources: using Gene Ontology biological process terms, through gene annotations in GOSeq 56 (accessed on 31 May 2020), and from the summaries and functions sections on GeneCards gene pages ( https://www.genecards.org, accessed 3 June 2020).

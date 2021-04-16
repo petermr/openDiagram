@@ -1,0 +1,6 @@
+0: We used an unpaired Students  t-test to test for significant differences between each exposure and control.
+1: Except where otherwise noted, the number of independent replicates used in the statistical analyses was three; values reported as mean  S.D.
+2: and results were considered not significant (ns) with  p > 0.05, significant (*) with  p< 0.05, very significant (**) with  p< 0.01, highly significant (***) with  p< 0.001 and very highly significant (****) with  p< 0.0001.
+3: For multiple tests, the significance level (a two-tailed  t-multiple test was performed *), and the differences were considered statistically significant for a  p-value< 0.05 using the HolmSidak method with GraphPad Prism  (Graphpad Software Inc., La Jolla, CA, USA).
+4: The functional enrichment by KEGG signaling pathways in the miRNet web tool included hypergeometric tests and was considered statistically significant for  p< 0.05 values.
+5: Finally, the significance statistic of differentially expressed microRNAs from small RNAseq counts was carried out with DESeq2 algorithm in R code and included the correction of multiple tests.

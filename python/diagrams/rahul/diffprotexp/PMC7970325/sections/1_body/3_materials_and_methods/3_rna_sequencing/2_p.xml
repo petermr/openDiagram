@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0285">RNA libraries were generated, sequenced, and processed as described in [
+ <xref rid="bib45" ref-type="bibr">45</xref>]. RNA extraction was performed with the RecoverAll™ Total Nucleic Acid Isolation Kit (Invitrogen), following the manufacturer's protocol. RNA Integrity Number (RIN) was measured using Agilent 2100 bioanalyzer. RNA concentration was measured with Agilent RNA 6000 Nano or Qubit RNA Assay Kits. Depletion of ribosomal RNA was performed using RNA Hyper with RiboErase (KAPA Biosystem) Kit. Library concentrations and quality were measured with Qubit ds DNA HS Assay kit (Life Technologies) and Agilent Tapestation (Agilent). The samples were sequenced using Illumina HiSeq 3000 equipment for single end sequencing, 50 bp read length, for approximately 30 million raw reads per sample. Data quality check was conducted using Illumina SAV. De-multiplexing was performed using Illumina Bcl2fastq2 v 2.17 software [
+ <xref rid="bib45" ref-type="bibr">45</xref>].
+</p>

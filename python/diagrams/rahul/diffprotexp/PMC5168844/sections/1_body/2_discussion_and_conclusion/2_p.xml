@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Since genes act in consort during a biological process, a network analysis is essential for a system-wide understanding. Thus, a study of differential network connectivity could yield interesting findings that are not possible from a differential expression analysis of individual proteins. In addition, pathway level information should be incorporated in a differential network analysis whenever possible. It can be seen from Fig. 
+ <xref rid="Fig3" ref-type="fig">3(d)</xref> that on the basis of analysis of differential connectivity of individual proteins, PI3K emerged as the most important pathway overall. However, this could be partly due to the fact that PI3K pathway has the largest number of proteins compared to the other “target pathways”. On the other hand, the test statistic based on differential connectivity of pathways is automatically normalized by the size of the pathway and on the basis of this comparison, RAS turned out to be the most significant overall as shown in Table 
+ <xref rid="Tab2" ref-type="table">2</xref>.
+</p>

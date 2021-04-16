@@ -1,0 +1,6 @@
+0: Proteomic data were collected by Reverse Phase Protein Array (RPPA) based on TCGA data from cBioportal 3.
+1: For the enriched proteins, significant change in expression was determined by the standard of log 2 based ratio ( mean altered/ mean unaltered) (log > 0 for over-expression and log< 0 for under-expression) and queried event results in  P value<0.05.
+2: The -log 10P value >1.30 proteins were selected for further downstream pathway analysis.
+3: Differential proteins are shown by the volcano plot using GraphPad Prism 7.
+4: The selected proteins from this criterion were used to predict pathways by two conditions: (a) the sum of altered protein in each pathway and (b) the statistical  P value score of significant pathway ( Li D. et al., 2020).
+5: Finally, the screened differential proteins were used to predict the pathway in the DAVID function annotation tool 4.

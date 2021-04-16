@@ -1,0 +1,4 @@
+0: Enrichment of pathways and gene ontology (GO) terms was performed using the gometh function within the missMethyl (v1.16.0) package in R. Briefly, gometh considers the relatively uneven density of loci covered on the Infinium methylation arrays and utilizes this information when computing enrichment, similar to the approach goseq uses for RNA-seq.
+1: Significant CpGs were identified as described above and the background probe set was derived following pre-processing.
+2: Significant GO terms and KEGG pathways were determined using a  q < 0.05 threshold.
+3: Results were plotted using ggplot2 (v3.2.1).

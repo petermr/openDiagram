@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">We used the counting software Htseq
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>
+ </sup> to count the number of reads in the six samples, and then divided the six samples into two groups according to the variety, namely TP and LW, and compared them in R using the "Deseq2" package
+ <sup>
+  <xref ref-type="bibr" rid="CR60">60</xref>
+ </sup>. The gene of |log2FoldChange|&gt; 1, 
+ <italic>padj</italic> &lt; 0.05 is a differentially expressed gene. Then, it is calculated by taking the intersection of the potential lincRNA obtained from the pipeline to obtain the differentially expressed lincRNA (DELincRNA), at the same time, it is intersected with the protein coding gene expressed in the sample to obtain a differentially expressed protein encoding gene.
+</p>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32">Pairwise comparisons of beta-regressions calculated by betareg (v3.1–2) were done using emmeans (v1.4.2). For correlation analysis, normality was first assessed by a Shapiro–Wilk normality test. Data following a normal distribution were analyzed by Pearson’s product–moment correlation, while non-normally distributed data were analyzed by Spearman’s rank correlation rho. For all correlation plots, data were fit by stat_smooth using loess with span = 1 using ggplot2 (v3.2.1). All analyses were done using R (v3.6.1).</p>

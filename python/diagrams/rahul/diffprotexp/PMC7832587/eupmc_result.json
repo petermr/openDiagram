@@ -1,0 +1,567 @@
+{
+  "id": [
+    "33372863"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33372863"
+  ],
+  "pmcid": [
+    "PMC7832587"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7832587"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/22221751.2020.1870413"
+  ],
+  "title": [
+    "ATP2, The essential P4-ATPase of malaria parasites, catalyzes lipid-stimulated ATP hydrolysis in complex with a Cdc50 β-subunit."
+  ],
+  "authorString": [
+    "Lamy A, Macarini-Bruzaferro E, Dieudonné T, Perálvarez-Marín A, Lenoir G, Montigny C, le Maire M, Vázquez-Ibar JL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lamy A"
+          ],
+          "firstName": [
+            "Anaïs"
+          ],
+          "lastName": [
+            "Lamy"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Medical Biochemistry and Biophysics, Umeå University, Umeå, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Macarini-Bruzaferro E"
+          ],
+          "firstName": [
+            "Ewerton"
+          ],
+          "lastName": [
+            "Macarini-Bruzaferro"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Clinical Medicine (FMUSP), University of São Paulo, São Paulo, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dieudonné T"
+          ],
+          "firstName": [
+            "Thibaud"
+          ],
+          "lastName": [
+            "Dieudonné"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6988-4121",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "DANDRITE, Nordic EMBL Partnership for Molecular Medicine, Department of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Perálvarez-Marín A"
+          ],
+          "firstName": [
+            "Alex"
+          ],
+          "lastName": [
+            "Perálvarez-Marín"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3457-0875",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Biophysics Unit, Department of Biochemistry and Molecular Biology, School of Medicine, Universitat Autònoma de Barcelona, Cerdanyola del Vallés, Spain."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lenoir G"
+          ],
+          "firstName": [
+            "Guillaume"
+          ],
+          "lastName": [
+            "Lenoir"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8759-5179",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Montigny C"
+          ],
+          "firstName": [
+            "Cédric"
+          ],
+          "lastName": [
+            "Montigny"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0905-9861",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "le Maire M"
+          ],
+          "firstName": [
+            "Marc"
+          ],
+          "lastName": [
+            "le Maire"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Vázquez-Ibar JL"
+          ],
+          "firstName": [
+            "José Luis"
+          ],
+          "lastName": [
+            "Vázquez-Ibar"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8314-3378",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6988-4121",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3457-0875",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8314-3378",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8759-5179",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0905-9861",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3092862"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Emerging microbes & infections"
+          ],
+          "ISOAbbreviation": [
+            "Emerg Microbes Infect"
+          ],
+          "medlineAbbreviation": [
+            "Emerg Microbes Infect"
+          ],
+          "NLMid": [
+            "101594885"
+          ],
+          "ISSN": [
+            "2222-1751"
+          ],
+          "ESSN": [
+            "2222-1751"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "132-147"
+  ],
+  "abstractText": [
+    "Gene targeting approaches have demonstrated the essential role for the malaria parasite of membrane transport proteins involved in lipid transport and in the maintenance of membrane lipid asymmetry, representing emerging oportunites for therapeutical intervention. This is the case of ATP2, a <i>Plasmodium</i>-encoded 4 P-type ATPase (P4-ATPase or lipid flippase), whose activity is completely irreplaceable during the asexual stages of the parasite. Moreover, a recent chemogenomic study has situated ATP2 as the possible target of two antimalarial drug candidates. In eukaryotes, P4-ATPases assure the asymmetric phospholipid distribution in membranes by translocating phospholipids from the outer to the inner leaflet. In this work, we have used a recombinantly-produced <i>P. chabaudi</i> ATP2 (PcATP2), to gain insights into the function and structural organization of this essential transporter. Our work demonstrates that PcATP2 associates with two of the three <i>Plasmodium-</i>encoded Cdc50 proteins: PcCdc50B and PcCdc50A. Purified PcATP2/PcCdc50B complex displays ATPase activity in the presence of either phosphatidylserine or phosphatidylethanolamine. In addition, this activity is upregulated by phosphatidylinositol 4-phosphate. Overall, our work describes the first biochemical characterization of a <i>Plasmodium</i> lipid flippase, a first step towards the understanding of the essential physiological role of this transporter and towards its validation as a potential antimalarial drug target."
+  ],
+  "affiliation": [
+    "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Malaria",
+        "heterologous expression",
+        "P4-atpases",
+        "Membrane Transport Proteins",
+        "Lipid Flippase",
+        "Pfatp2"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/22221751.2020.1870413"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7832587"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7832587?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2020-12-29"
+  ],
+  "firstIndexDate": [
+    "2020-12-30"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-05"
+  ],
+  "dateOfRevision": [
+    "2021-02-03"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

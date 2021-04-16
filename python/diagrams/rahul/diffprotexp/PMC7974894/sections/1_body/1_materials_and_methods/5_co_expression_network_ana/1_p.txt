@@ -1,0 +1,7 @@
+0: The gene expression data profiles of TCGA were constructed to gene co-expression networks using the  WGCNA package in R  24.
+1: In our study, the most abundant 14334 genes were used in the co-expression network analysis.
+2: Low abundance genes were eliminated as their abundance tends to be highly biased.
+3: To build a scale-free network, soft powers  = 3 and 20 were selected using the function pickSoftThreshold.
+4: Next, the adjacency matrix was created by the following formula: aij = |Sij| (aij: adjacency matrix between gene i and gene j, Sij: similarity matrix which is done by Pearson correlation of all gene pairs, : softpower value), and was transformed into a topological overlap matrix (TOM) as well as the corresponding dissimilarity (1-TOM).
+5: Afterwards, a hierarchical clustering dendrogram of the 1-TOM matrix was constructed to classify the similar gene expressions into different gene co-expression modules.
+6: Modules with high correlation coefficient were considered candidates relevant to clinical traits, and were selected for subsequent analysis.

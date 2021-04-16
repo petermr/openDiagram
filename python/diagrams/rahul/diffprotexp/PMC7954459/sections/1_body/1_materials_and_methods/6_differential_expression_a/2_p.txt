@@ -1,0 +1,4 @@
+0: The number of reads representing unique miRNAs was obtained from the sequencing data for each sample.
+1: The read count was normalized using the DESeq2 package (Love et al.,  2014) in R for all the samples together and the expression level of each miRNA was determined.
+2: Differential expression of miRNAs between the same stages of seed development across the cultivars was performed using the DESeq2 package.
+3: The miRNAs showing at least twofold differential expression with corrected  P  0.05 estimated using nbinomWaldTest were considered as differentially expressed miRNAs.

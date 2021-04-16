@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">To identify TFs differentially regulating gene expression in CON and RES groups for each tissue, we used the regulatory impact factor (RIF) algorithms, RIF1 and RIF2
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>. These metrics assume that master regulators in a network change their behavior in different biological conditions contributing to differential gene expression
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. RIF algorithm was implemented in FORTRAN 90 based on the source code available from the RIF’s main author
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>. The RIF1 score highlights regulators differentially connected to the targets, whereas RIF2 measures those TFs with the potential to act as predictors of target abundance
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. To identify the regulators, we first downloaded 1396 TFs from the Animal Transcription Factor Database (Animal TFDB v3.0)
+ <sup>
+  <xref ref-type="bibr" rid="CR87">87</xref>
+ </sup>. After filtering out those TFs not expressed in our dataset, 1164 TFs were contrasted to a unique list of DEG and TS genes. The RIF comparisons were performed separately for each tissue, comparing CON 
+ <italic>versus</italic> RES groups.
+</p>

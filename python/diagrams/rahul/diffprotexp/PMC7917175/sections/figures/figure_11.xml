@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig11">
+ <label>Fig. 11</label>
+ <caption>
+  <p>Identification of immune hub genes of PAAD. 
+   <bold>a</bold> Forest maps of single factor survival analysis of 11 modules of PAAD. 
+   <bold>b</bold> Dot plot showing top 10 KEGG terms in the blue module. The dot size and color intensity represent the gene count and enrichment level respectively. 
+   <bold>c</bold> Correlation between blue module feature vector and second principal component in immune landscape. 
+   <bold>d</bold> Dot plot showing enriched terms in green module. 
+   <bold>e</bold> Correlation between green module feature vector and second principal component in immune landscape. 
+   <bold>f</bold> Differential prognosis in blue module with high and low mean. 
+   <bold>g</bold> Differential prognosis in green module with high and low mean
+  </p>
+ </caption>
+ <graphic xlink:href="12943_2021_1310_Fig11_HTML" id="MO11" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

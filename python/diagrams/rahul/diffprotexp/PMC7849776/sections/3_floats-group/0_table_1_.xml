@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Bacteria used in this study</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Bacteria</th>
+    <th align="center">Description</th>
+    <th align="center">Source</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Staphylococcus aureus</italic> JE2
+    </td>
+    <td align="left">Plasmid-cured derivative of USA300 CA-MRSA strain LAC, parent strain for 
+     <italic toggle="yes">bursa aurealis</italic> transposon insertion.
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0032">32</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbI</italic>::Tn
+    </td>
+    <td align="left">Strain derived from JE2 with transposon inserted in the 
+     <italic toggle="yes">yjbI</italic> (
+     <italic toggle="yes">SAUSA300_0904</italic>) gene
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0032">32</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbH</italic>::Tn
+    </td>
+    <td align="left">Strain derived from JE2 with transposon inserted in the 
+     <italic toggle="yes">yjbH</italic> (
+     <italic toggle="yes">SAUSA300_0903</italic>) gene
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0032">32</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">S. aureus</italic> RN4220
+    </td>
+    <td align="left">Restriction deficient strain derived from 
+     <italic toggle="yes">S. aureus</italic> NCTC8325-4
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0059">59</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbI</italic>::Tnp
+     <italic toggle="yes">yjbI</italic>
+    </td>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbI</italic>::Tn harboring intact 
+     <italic toggle="yes">yjbI</italic> gene with plasmid pSR515
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0014">14</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbI</italic>::Tnp
+     <italic toggle="yes">yjbIH</italic>
+    </td>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbI</italic>::Tn harboring intact 
+     <italic toggle="yes">yjbIH</italic> operon with plasmid pSR515
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0014">14</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbH</italic>::Tnp
+     <italic toggle="yes">yjbI</italic>
+    </td>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbH</italic>::Tn harboring intact 
+     <italic toggle="yes">yjbI</italic> gene with plasmid pSR515
+    </td>
+    <td align="center">This study</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbH</italic>::Tnp
+     <italic toggle="yes">yjbIH</italic>
+    </td>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbH</italic>::Tn harboring intact 
+     <italic toggle="yes">yjbIH</italic> operon with plasmid pSR515
+    </td>
+    <td align="center">This study</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbH</italic>::Tnp
+     <italic toggle="yes">yjbH</italic>
+    </td>
+    <td align="left">
+     <italic toggle="yes">S. aureus yjbH</italic>::Tn harboring intact 
+     <italic toggle="yes">yjbH</italic> gene with plasmid pND50pfbaA
+    </td>
+    <td align="center">This study</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Escherichia coli</italic> HST08
+    </td>
+    <td align="left">General purpose host strain for cloning</td>
+    <td align="center">Takara Bio</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

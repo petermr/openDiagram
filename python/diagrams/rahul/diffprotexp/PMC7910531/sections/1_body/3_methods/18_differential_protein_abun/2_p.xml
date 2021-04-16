@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par75">As batch effects in proteomics data can be pervasive
+ <sup>
+  <xref ref-type="bibr" rid="CR64">64</xref>,
+  <xref ref-type="bibr" rid="CR65">65</xref>
+ </sup>, paired samples from any patient were always assayed in the same 6-plex (cohort 1) or 10-plex (cohorts 2–4). As a sensitivity analysis, we carried out a differential abundance analysis for the proteomics data with explicit adjustment for the plexes, to confirm that adjustment for patient effects was captured between-plex batch effects. For each protein, we calculated the log2 of normalised abundance values plus 1. We then obtained residuals from linear regression of these values on the 13 batches used in the proteomics data. These residuals were quantile normalised. We then used limma to test for differential abundance between low-grade and high-grade cartilage using the quantile normalised residuals, applying a paired design and the same method as in the main analysis. The results were highly similar to the main analysis (see Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">4</xref>).
+</p>

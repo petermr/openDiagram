@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Ha</surname>
+   <given-names>Kevin C. H.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff7">7</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Sterne-Weiler</surname>
+   <given-names>Timothy</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Morris</surname>
+   <given-names>Quaid</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3716-1783</contrib-id>
+  <name>
+   <surname>Weatheritt</surname>
+   <given-names>Robert J.</given-names>
+  </name>
+  <address>
+   <email>r.weatheritt@garvan.org.au</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4461-0340</contrib-id>
+  <name>
+   <surname>Blencowe</surname>
+   <given-names>Benjamin J.</given-names>
+  </name>
+  <address>
+   <email>b.blencowe@utoronto.ca</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.17063.33</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2157 2938</institution-id>
+   <institution>Donnelly Centre for Cellular and Biomolecular Research, University of Toronto, </institution>
+  </institution-wrap>Toronto, ON M5S 3E1 Canada 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.17063.33</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2157 2938</institution-id>
+   <institution>Department of Molecular Genetics, </institution>
+   <institution>University of Toronto, </institution>
+  </institution-wrap>Toronto, ON M5A 1A8 Canada 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.494618.6</institution-id>
+   <institution>Vector Institute, </institution>
+  </institution-wrap>Toronto, ON M5G 1M1 Canada 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.17063.33</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2157 2938</institution-id>
+   <institution>Department of Computer Science, </institution>
+   <institution>University of Toronto, </institution>
+  </institution-wrap>Toronto, ON M5S 4G4 Canada 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.415306.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 9983 6924</institution-id>
+   <institution>EMBL Australia, Garvan Institute of Medical Research, </institution>
+  </institution-wrap>Darlinghurst, NSW 2010 Australia 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.415306.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 9983 6924</institution-id>
+   <institution>St. Vincent Clinical School, </institution>
+   <institution>University of New South Wales, </institution>
+  </institution-wrap>Darlinghurst, NSW 2010 Australia 
+ </aff>
+ <aff id="Aff7">
+  <label>7</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.446945.e</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1936 9238</institution-id>
+   <institution>Present Address: BioSymetrics, Inc., Huntington, </institution>
+  </institution-wrap>New York, NY USA 
+ </aff>
+</contrib-group>

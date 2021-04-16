@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="viruses-13-00218-f004" orientation="portrait" position="float">
+ <label>Figure 4</label>
+ <caption>
+  <p>Differential expression analysis. (
+   <bold>A</bold>) Principal component analysis (PCA) of replicate transcriptomes. Note that principal component 1 accounts for &gt;80% of the variance and represents the effect of RSV infection. (
+   <bold>B</bold>) Changes in gene expression for differentially expressed transcripts. (
+   <bold>C</bold>) distribution of differential isoform utilization (DIU) and major isoform shifting (MIS). (
+   <bold>D</bold>) Scatterplot of DIU and MIS in RSV induced differentially expressed transcripts. X axis is log 2 (Fold Change) RSV vs mock infected control. Y axis is Usage Change, an expression of the change in isoforms as a result of RSV infection. (
+   <bold>E</bold>) Functional categories of differential exon splicing in differentially expressed full splice matches (blue boxes) relative to those found in all splice forms (dot symbols). Note that the alternative splicing (AS) exons containing miRNA-binding sites decreased and exons encoding protein domains (coding sequences (CDS)) and exons that are targets for post-translational modifications (PTMs) increased in the RSV-induced DIUs.
+  </p>
+ </caption>
+ <graphic xlink:href="viruses-13-00218-g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

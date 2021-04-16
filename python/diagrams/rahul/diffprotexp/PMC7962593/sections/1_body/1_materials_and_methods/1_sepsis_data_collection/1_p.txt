@@ -1,0 +1,7 @@
+0: Data were downloaded from the Gene Expression Omnibus (GEO) database ( https://www.ncbi.nlm.nih.gov/geo/).
+1: The GSE13904 dataset included array-based gene expression profiles of whole blood from 18 normal children, 52 children with sepsis, and 106 children with septic shock.
+2: The GSE25504 dataset included array-based gene expression profiles of whole blood from 37 control and 25 infected human neonates.
+3: The GSE9960 dataset included array-based gene expression profiles of peripheral blood mononuclear cells from 54 adult sepsis patients and 16 controls.
+4: The raw data in these three datasets were processed using the lumi package in R. 18 The GSE154918 dataset included gene expression profiles based on high-throughput sequencing of peripheral blood from 65 adult sepsis patients and 40 controls.
+5: Raw counts were pre-processed and normalized using DESeq2.
+6: 19

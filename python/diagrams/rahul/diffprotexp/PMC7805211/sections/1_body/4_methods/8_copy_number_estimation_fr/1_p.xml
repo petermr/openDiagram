@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par28">Copy number alterations were computed using SeSAMe (v1.3.2) with minor modifications for plotting functionality [
+ <xref ref-type="bibr" rid="CR50">50</xref>]. Briefly, raw data were processed using the “open SeSAMe” procedure, producing a signal set object. Next, samples were segmented (50 kb bins) and called for copy number differences, comparing CNFs to normal skin and PNFs to normal nerve using the cnSegmentation function with default parameters in SeSAMe. The genome annotation used was hg19 and relevant annotations are pulled in automatically from the sesameData package by the cnSegmentation function. Data were visualized using the log2 ratio of per-sample signal over the reference.
+</p>

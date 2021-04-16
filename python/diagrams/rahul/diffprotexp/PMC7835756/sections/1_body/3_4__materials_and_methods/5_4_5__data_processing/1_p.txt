@@ -1,0 +1,10 @@
+0: Raw reads were pre-processed with the Fastp v0.20.0 [ 63] using c x y options for polyX trimming in 3 ends, base correction in overlapped regions, and low complexity filtering, respectively.
+1: Clean reads were aligned to the  N. tabacum reference genome (EBI: AWOJ01000000) using Bismark aligner v0.22.3 [ 64] under the parameters N 1 L 20 bowtie2 -nondirectional.
+2: The resulting BAM files were sorted and indexed using Samtools v1.9 [ 65].
+3: Subsequently, the differential methylation analysis was performed using Methylkit v1.14.2 [ 66] in R v4.0.0 [ 67] as follows: Methylated cytosines were extracted from aligned reads using processBismarkAln function.
+4: To filter bases above the background expected from inefficiencies in the bisulfite conversion reaction and sequencing errors, the filterByCoverage function was used to discard bases that have coverage below 10X and discard the bases that have more than 99.9th percentile of coverage in each sample.
+5: The parameters for the calculated DiffMeth function were slim = TRUE, weighted.
+6: mean = TRUE.
+7: Differential methylated cytosines (DmC) were defined as cytosines that had q-value< 0.01 and methylation difference > 25% between L1 (control) and L8 (test) methylation rates.
+8: Only was considered DmC present in the 3 biological replicates to made more rigorous our methylation changes detection.
+9: Gene ontology enrichment analysis was performed with R package clusterProfiler [ 68], selecting significant GO categories with q-value< 0.05.

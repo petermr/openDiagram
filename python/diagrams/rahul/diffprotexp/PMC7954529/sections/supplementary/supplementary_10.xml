@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="supp5">
+ <label>Supplementary file 5.</label>
+ <caption>
+  <title>Metadata for RNA-sequencing data.</title>
+  <p>Column names as described – Species: Cell line species, Lines: Cell line ID, Collection_person: Author initial for who processed cell harvest and nuclear isolation, UndilutedAverage: Average of two cell count measurements 1 × 10
+   <sup>6</sup>, AverageAlive: Average of two cell live dead counts – calculated with trypan blue stain, CollectionDate: Date of cell harvest and nuclear isolation, Extraction: Date of RNA extraction, RIN: RIN score for extracted RNA, BioAConc: RNA concentration (ng/µL), Reads: Number of Sequenced reads, Mapped: Number of mapped reads, AssignedOrtho: Number of mapped reads assigned to orthologous exons.
+  </p>
+ </caption>
+ <media mime-subtype="plain" mimetype="text" xlink:href="elife-62548-supp5.txt" orientation="portrait" id="d39e2246" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</supplementary-material>

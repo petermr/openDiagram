@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Subsequently, we investigated the impact on 
+ <italic>p</italic> values using DEqMS for DEP analysis between gefitinib treated cells and untreated controls (triplicates in both conditions), showing that lower 
+ <italic>p</italic> values were produced by DEqMS compared with Limma and 
+ <italic>t</italic> test (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. S2</ext-link>). In order to test if the increased sensitivity of DEqMS is accompanied with an increased false positive rate, we generated a simulated proteomics data set comprising nine samples and 6000 proteins (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. S3
+  <italic>A</italic>
+ </ext-link>). For each gene and each sample in the simulated data set, the log2 ratio was randomly sampled from a normal distribution. To keep the dependence of variance on PSM count like that observed in a real data set, the simulated data was generated separately for 6000 genes divided into 30 groups, quantified by 1–30 PSMs respectively. The number of genes in each group matches to that in a real data set (D4). The variance for genes in each group was determined by the fitted regression curve from the real data set D4 and the mean for all genes is centered at 0. The variance distribution of the simulation data mimics that of a real data set (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. S3
+  <italic>B</italic>
+ </ext-link>). Based on the simulated data we performed null comparisons by permutation of samples into two groups of three samples each, resulting in 84 possible comparisons without repetition. Importantly, this analysis showed that the false positive rate in DEqMS is slightly lower than that seen in Limma, whereas 
+ <italic>t</italic> test produce fewer false positives as expected, which is also evident form the 
+ <italic>p</italic> value distribution of the different methods (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. S3
+  <italic>C</italic> and S3
+  <italic>D</italic>
+ </ext-link>).
+</p>

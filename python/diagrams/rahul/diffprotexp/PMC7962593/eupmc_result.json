@@ -1,0 +1,562 @@
+{
+  "id": [
+    "33737824"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33737824"
+  ],
+  "pmcid": [
+    "PMC7962593"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7962593"
+      ]
+    }
+  ],
+  "doi": [
+    "10.2147/jir.s301663"
+  ],
+  "title": [
+    "Screening of Key Genes of Sepsis and Septic Shock Using Bioinformatics Analysis."
+  ],
+  "authorString": [
+    "Zeng X, Feng J, Yang Y, Zhao R, Yu Q, Qin H, Wei L, Ji P, Li H, Wu Z, Zhang J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zeng X"
+          ],
+          "firstName": [
+            "Xiaoliang"
+          ],
+          "lastName": [
+            "Zeng"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Feng J"
+          ],
+          "firstName": [
+            "Jihua"
+          ],
+          "lastName": [
+            "Feng"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yang Y"
+          ],
+          "firstName": [
+            "Yanli"
+          ],
+          "lastName": [
+            "Yang"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhao R"
+          ],
+          "firstName": [
+            "Ruzhi"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yu Q"
+          ],
+          "firstName": [
+            "Qiao"
+          ],
+          "lastName": [
+            "Yu"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4125-1263",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Qin H"
+          ],
+          "firstName": [
+            "Han"
+          ],
+          "lastName": [
+            "Qin"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wei L"
+          ],
+          "firstName": [
+            "Lile"
+          ],
+          "lastName": [
+            "Wei"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ji P"
+          ],
+          "firstName": [
+            "Pan"
+          ],
+          "lastName": [
+            "Ji"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li H"
+          ],
+          "firstName": [
+            "Hongyuan"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wu Z"
+          ],
+          "firstName": [
+            "Zimeng"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang J"
+          ],
+          "firstName": [
+            "Jianfeng"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4213-9310",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4125-1263",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4213-9310",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "3092270"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of inflammation research"
+          ],
+          "ISOAbbreviation": [
+            "J Inflamm Res"
+          ],
+          "medlineAbbreviation": [
+            "J Inflamm Res"
+          ],
+          "NLMid": [
+            "101512684"
+          ],
+          "ISSN": [
+            "1178-7031"
+          ],
+          "ESSN": [
+            "1178-7031"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "829-841"
+  ],
+  "abstractText": [
+    "<h4>Objective</h4>Sepsis is a disease associated with high mortality. We performed bioinformatic analysis to identify key biomarkers associated with sepsis and septic shock.<h4>Methods</h4>The top 20% of genes showing the greatest variance between sepsis and controls in the GSE13904 dataset (children) were screened by co-expression network analysis. The differentially expressed genes (DEGs) were identified through analyzing differential gene expression between sepsis patients and control in the GSE13904 (children) and GSE154918 (adult) data sets. Intersection analysis of module genes and DEGs was performed to identify common DEGs for enrichment analysis, protein-protein interaction network (PPI network) analysis, and Short Time-series Expression Miner (STEM) analysis. The PPI network genes were ranked by degree of connectivity, and the top 100 sepsis-associated genes were identified based on the area under the receiver operating characteristic curve (AUC). In addition, we evaluated differences in immune cell infiltration between sepsis patients and controls in children (GSE13904, GSE25504) and adults (GSE9960, GSE154918). Finally, we analyzed differences in DNA methylation levels between sepsis patients and controls in GSE138074 (adults).<h4>Results</h4>The common genes were associated mainly with up-regulated inflammatory and metabolic responses, as well as down-regulated immune responses. Sepsis patients showed lower infiltration by most types of immune cells. Genes in the PPI network with AUC values greater than 0.9 in both GSE13904 (children) and GSE154918 (adults) were screened as key genes for diagnosis. These key genes (MAPK14, FGR, RHOG, LAT, PRKACB, UBE2Q2, ITK, IL2RB, and CD247) were also identified in STEM analysis to be progressively dysregulated across controls, sepsis patients and patients with septic shock. In addition, the expression of MAPK14, FGR, and CD247 was modified by methylation.<h4>Conclusion</h4>This study identified several potential diagnostic genes and inflammatory and metabolic responses mechanisms associated with the development of sepsis."
+  ],
+  "affiliation": [
+    "Department of Emergency Medicine, The Second Affiliated Hospital of Guangxi Medical University, Nanning, 530007, People's Republic of China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Sepsis",
+        "Bioinformatics",
+        "Diagnosis",
+        "Septic shock",
+        "immunosuppression"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2147/JIR.S301663"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7962593"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7962593?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-19"
+  ],
+  "firstIndexDate": [
+    "2021-03-20"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-19"
+  ],
+  "dateOfRevision": [
+    "2021-03-20"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-11"
+  ],
+  "firstPublicationDate": [
+    "2021-03-11"
+  ]
+}

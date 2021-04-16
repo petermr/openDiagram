@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The STRING database is the one for analyzing and predicting protein functional associations and protein interactions. In this study, we utilized STRING (
+ <ext-link ext-link-type="uri" xlink:href="https://STRING-db.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://STRING-db.org/</ext-link>, version 11.0) to analyze protein functional associations and protein interactions (
+ <xref rid="B17" ref-type="bibr">17</xref>). The Cytoscape (version 3.7.2) was used to visualize PPI network, and the cytoHubba plug-in in Cytoscape was used to screen the key genes (hub genes) in the PPI network based on the Algorithm of Maximum neighborhood component (MNC) (
+ <xref rid="B18" ref-type="bibr">18</xref>).
+</p>

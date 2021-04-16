@@ -1,0 +1,17 @@
+0: High-throughput lncRNA-seq was used to identify novel genes in the spinal cord that regulate cardiac function in the rat MIRI model.
+1: Briefly, total RNA was isolated from the T1-T4 of spinal cord tissues from the three MIRI- and sham-group rats, and the concentration, purity and integrity of the RNA were assessed on an Agilent 2100 Bioanalyzer (Agilent Technologies, Inc.) and checked using RNase-free 1% agarose gel electrophoresis containing GelRed  (cat.
+2: no.
+3: 41003; Biotium, Inc.).
+4: Ribosomal RNA was then removed from the total RNA.
+5: The mRNA and ncRNA were mostly retained and the strand-specific library was then constructed using NEBNext  UltraTM RNA Library Prep Kit for Illumina  (cat.
+6: no.
+7: E7530L; New England BioLabs, Inc.) according to the manufacturer's protocols.
+8: Briefly, the mRNA was fragmented and used as a template to synthesize cDNA with random primers.
+9: The first strand cDNA was synthesized using the following progress: 25 C for 10 min, 42 C for 15 min, 70 C for 15 min and final holding at 4 C. A Second Strand Marking Master Mix was used to synthesize second strand cDNA at 16 C for 60 min.
+10: After using a ligate adapter, uracil-N-glycosylase treatment and PCR amplification were used to construct a sequencing library.
+11: The loading concentration of DNA was 12.182 nM.
+12: The PCR thermocycling parameters were set as follows: Initial denaturation at 98 C for 30 sec; followed by 15 cycles of 98 C for 10 sec, 60 C for 30 sec and 72 C for 30 sec; 1 cycle at 72 C for 5 min and final holding at 10 C. The library was then sequenced by Illumina HiSeqO 4000 with pair ends reads of 150 bp.
+13: The data were analyzed by Gene Denovo Biotechnology Co. ( https://www.genedenovo.com; Guangzhou, China).
+14: The differentially expressed mRNAs and lncRNAs were identified with |log 2 fold change (FC)| and P-values as calculated with a t-test.
+15: |log 2FC| >1 and P<0.05 were set as the up- and downregulated gene thresholds.
+16: Hierarchical clustering and volcano plots determined the different expression patterns of mRNAs and lncRNAs among the samples.

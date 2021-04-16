@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par39">To explore the biological pathways of genes in a subnetwork, Gene Set Enrichment Analysis (GSEA) analysis was performed based on TCGA dataset. According to the cutoff value, the samples were divided into high and low expression phenotypes. The gene set permutations were performed 1000 times per analysis. Gene sets with |normalized enrichment score (NES)| &gt; 1 and P &lt; 0.05 were considered significantly enriched.</p>

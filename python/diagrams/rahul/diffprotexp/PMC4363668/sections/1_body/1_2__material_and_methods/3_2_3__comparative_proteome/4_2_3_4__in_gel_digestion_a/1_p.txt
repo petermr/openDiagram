@@ -1,0 +1,11 @@
+0: The protein spots that were significant (|ratio| > 2.5,  P< 0.05) increased or decreased in samples compared with control samples were chosen for further analysis.
+1: The differential protein spots were excised from the gel and washed twice with water.
+2: The gels were then destained and washed in 25 mM NH 4HCO 3 and 50% (v/v) acetonitrile.
+3: Destaining was repeated two more times.
+4: The gel was subsequently dehydrated with 50  L acetonitrile and dried with a vacuum centrifuge.
+5: Digestion was done with 12.5 ng/ L of sequencing grade modified trypsin in 25 mM ammonium bicarbonate and incubated for 30 min at 4C, then 10  L 25 mM ammonium bicarbonate was added into each tube at 37C for 18 h. The digested peptides were concentrated by centrifugation and were moved into another tube.
+6: The digested peptides were mixed with freshly prepared matrix solution (1 mg of HCCA in 0.3 mL of 0.1% TFA and 0.7 mL acetonitrile) in a 1 : 1 (v/v) ratio and applied onto a target plate (MTP 600-384 anchor chip).
+7: All samples were analyzed using an Autoflex MALDI-TOF MS (Bruker Daltonik, Bremen, Germany).
+8: Peptide tolerance was set at 100 ppm with fixed modification of cysteine carbamidomethyl, variable modification of methionine oxidated, and permitted missed cleavage of up to 1.
+9: Trypsin cleavage of the protein is at the C-terminal side of KR unless next residue is P. Protein identification was achieved by a protein blast search using the NCBI protein database ( http://blast.ncbi.nlm.nih.gov/Blast.cgi).
+10: The significance of the change in spot intensities was analyzed by  2 test with 2 degrees of freedom (  = 0.05).

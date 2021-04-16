@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Chen</surname>
+   <given-names>Fengxia</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Wang</surname>
+   <given-names>Qingqing</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Zhou</surname>
+   <given-names>Yunfeng</given-names>
+  </name>
+  <address>
+   <email>yfzhouwhu@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.49470.3e</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2331 6153</institution-id>
+   <institution>Hubei Cancer Clinical Study Center, Hubei Key Laboratory of Tumor Biological Behaviors, Zhongnan Hospital, </institution>
+   <institution>Wuhan University, </institution>
+  </institution-wrap>Wuhan, China 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.49470.3e</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2331 6153</institution-id>
+   <institution>Department of Radiation Oncology and Medical Oncology, Zhongnan Hospital, </institution>
+   <institution>Wuhan University, </institution>
+  </institution-wrap>Wuhan, China 
+ </aff>
+</contrib-group>

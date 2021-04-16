@@ -1,0 +1,493 @@
+{
+  "id": [
+    "33570456"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33570456"
+  ],
+  "pmcid": [
+    "PMC7889207"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7889207"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/21623945.2021.1886697"
+  ],
+  "title": [
+    "Cafeteria diet induces global and <i>Slc27a3</i>-specific hypomethylation in male Wistar rats."
+  ],
+  "authorString": [
+    "Viraragavan A, Willmer T, Patel O, Basson A, Johnson R, Pheiffer C."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Viraragavan A"
+          ],
+          "firstName": [
+            "Amsha"
+          ],
+          "lastName": [
+            "Viraragavan"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4282-1371",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Biomedical Research and Innovation Platform, South African Medical Research Council , Tygerberg, South Africa."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Biochemistry and Microbiology, University of Zululand , Kwa-Dlangezwa, South Africa."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Willmer T"
+          ],
+          "firstName": [
+            "Tarryn"
+          ],
+          "lastName": [
+            "Willmer"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6191-7440",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Biomedical Research and Innovation Platform, South African Medical Research Council , Tygerberg, South Africa."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Division of Medical Physiology, Faculty of Health Sciences, Stellenbosch University , Tygerberg, South Africa."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Patel O"
+          ],
+          "firstName": [
+            "Oelfah"
+          ],
+          "lastName": [
+            "Patel"
+          ],
+          "initials": [
+            "O"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Biomedical Research and Innovation Platform, South African Medical Research Council , Tygerberg, South Africa."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Division of Clinical Pharmacology, Department of Medicine, Faculty of Medicine and Health Sciences, University of Stellenbosch , Tygerberg, South Africa."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Basson A"
+          ],
+          "firstName": [
+            "Albertus"
+          ],
+          "lastName": [
+            "Basson"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biochemistry and Microbiology, University of Zululand , Kwa-Dlangezwa, South Africa."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Johnson R"
+          ],
+          "firstName": [
+            "Rabia"
+          ],
+          "lastName": [
+            "Johnson"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Biomedical Research and Innovation Platform, South African Medical Research Council , Tygerberg, South Africa."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Division of Medical Physiology, Faculty of Health Sciences, Stellenbosch University , Tygerberg, South Africa."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Pheiffer C"
+          ],
+          "firstName": [
+            "Carmen"
+          ],
+          "lastName": [
+            "Pheiffer"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0707-1552",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Biomedical Research and Innovation Platform, South African Medical Research Council , Tygerberg, South Africa."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Division of Medical Physiology, Faculty of Health Sciences, Stellenbosch University , Tygerberg, South Africa."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0707-1552",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4282-1371",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6191-7440",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3078968"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Adipocyte"
+          ],
+          "ISOAbbreviation": [
+            "Adipocyte"
+          ],
+          "medlineAbbreviation": [
+            "Adipocyte"
+          ],
+          "NLMid": [
+            "101567863"
+          ],
+          "ISSN": [
+            "2162-3945"
+          ],
+          "ESSN": [
+            "2162-397X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "108-118"
+  ],
+  "abstractText": [
+    "Increased visceral adipose tissue (VAT) is associated with metabolic dysfunction, while subcutaneous adipose tissue (SAT) is considered protective. The mechanisms underlying these differences are not fully elucidated. This study aimed to investigate molecular differences in VAT and SAT of male Wistar rats fed a cafeteria diet (CD) or a standard rodent diet (STD) for three months. The expression of fatty acid metabolism genes was analysed by quantitative real-time PCR. Global and gene-specific DNA methylation was quantified using the Imprint® Methylated DNA Quantification Kit and pyrosequencing, respectively. Bodyweight, retroperitoneal fat mass, insulin resistance, leptin and triglyceride concentrations and adipocyte hypertrophy were higher in CD- compared to STD-fed rats. The expression of solute carrier family 27 member 3 (Slc27a3), a fatty acid transporter, was 9.6-fold higher in VAT and 6.3-fold lower in SAT of CD- versus STD-fed rats. Taqman probes confirmed increased Slc27a3 expression, while pyrosequencing showed Slc27a3 hypomethylation in VAT of CD- compared to STD-fed rats. The CD decreased global methylation in both VAT and SAT, although no depot differences were observed. Dysregulated fatty acid influx in VAT, in response to a CD, provides insight into the mechanisms underlying depot-differences in adipose tissue expansion during obesity and metabolic disease. <b>Abbreviations:</b> CD: cafeteria diet; E2F1: E2F Transcription Factor 1; EMSA: electrophoretic mobility shift assay; EGFR: epidermal growth factor receptor; GCF: GC-Rich Sequence DNA-Binding Factor; HOMA-IR: Homeostasis model for insulin resistance; NKX2-1: NK2 homeobox 1; PCR: Polymerase chain reaction; qRT-PCR: quantitative real-time PCR; RF: retroperitoneal fat; SAT: subcutaneous adipose tissue; Slc27a3: solute carrier family 27 member 3; STD: standard diet; TNFα: tumour necrosis factor alpha; TTS: transcriptional start site; T2D: Type 2 Diabetes; VAT: visceral adipose tissue; WT1 I: Wilms' tumour protein 1."
+  ],
+  "affiliation": [
+    "Biomedical Research and Innovation Platform, South African Medical Research Council , Tygerberg, South Africa."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Obesity",
+        "DNA methylation",
+        "Insulin resistance",
+        "Adipose tissue",
+        "Subcutaneous",
+        "Visceral",
+        "Slc27a3"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/21623945.2021.1886697"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7889207"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7889207?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-02-11"
+  ],
+  "firstIndexDate": [
+    "2021-02-12"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-25"
+  ],
+  "dateOfRevision": [
+    "2021-03-05"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

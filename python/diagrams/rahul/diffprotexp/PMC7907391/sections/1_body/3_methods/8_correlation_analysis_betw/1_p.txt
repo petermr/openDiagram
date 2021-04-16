@@ -1,0 +1,3 @@
+0: For a large cohort of COVID-19 (n = 100) and non-COVID-19 patients (n = 26), patients were stratified into groups based on severity: COVID-19-ICU (n = 50), COVID-19-Non-ICU (n = 50) and Non-COVID-19 (n = 26).
+1: Spearmans rank correlations were performed to determine the strength of the relationships between viral entry gene  CTSL and viral response genes  MX1,  SAMHD1,  IFITM3 and  TRIM25.
+2: A multiple linear regression model was also fitted using the lm function in R to determine whether the relationship between viral defense genes and  CTSL expression was statistically significant.

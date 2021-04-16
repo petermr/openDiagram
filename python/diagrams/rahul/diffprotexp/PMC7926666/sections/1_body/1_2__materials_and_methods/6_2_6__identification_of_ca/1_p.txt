@@ -1,0 +1,7 @@
+0: We set the following criteria to determine the potential drug target protein among DIPs in docking studies: (i) its interactions should be activated in the disease state, and (ii) it should have at least 5 interactions.
+1: Among DIP proteins of pRCC, MET protein satisfied all the criteria and came to the forefront as a potential drug target.
+2: Through virtual screening, potential molecules targeting MET were determined.
+3: To have an insight into the ligand-receptor interactions, the available X-ray crystal structures of MET were fetched from the Protein Data Bank (PDB) ( www.rcsb.org) [ 19].
+4: PDB entry 3DKF was chosen for all the docking studies according to the resolution, Ramchandran outliers, and structural similarity between the screened ligands and the co-crystallized ligands.
+5: Virtual Screening binding analysis was carried out on the assigned binding site of the X-ray crystal structure of MET [ 20] exploiting ZINC molecules described by the publicly available ZINC15 library [ 21].
+6: Molecular docking studies were executed for 703 substances retrieved from the ZINC15 library through AutoDock Vina [ 22] in the PyRx virtual screening tool (v. 0.8) [ 23].

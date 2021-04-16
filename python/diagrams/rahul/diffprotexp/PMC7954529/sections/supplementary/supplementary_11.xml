@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="supp6">
+ <label>Supplementary file 6.</label>
+ <caption>
+  <title>Differential expression results.</title>
+  <p>Column names as described – Differential expression results from limma. gene: tested gene, logFC: log twofold change in normalized gene expression, adj.P.Val: BH adjusted p-value from t test, B: Beta value, t: t statistic.</p>
+ </caption>
+ <media mime-subtype="plain" mimetype="text" xlink:href="elife-62548-supp6.txt" orientation="portrait" id="d39e2255" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</supplementary-material>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Figure 2</label>
+ <caption>
+  <p>Tissue-to-tissue co-expression network of the bovine fetal organ transcriptome. (
+   <bold>A</bold>) Heat map of 553 tissue-specific genes from the liver, muscle, and cerebrum tissues. (
+   <bold>B</bold>) Co-expression network of 992 significantly co-expressed genes. Only nodes with a correlation greater than |0.9| are shown. Overlapped genes between analysis were colored based on the tissue with its maximum expression. Transcription factors are represented by a diamond shape. Nodes with few connections not linked to the main network are not showed. Heat map was constructed using pheatmap v.1.010.
+   <sup>
+    <xref ref-type="bibr" rid="CR93">93</xref>
+   </sup> on R
+   <sup>
+    <xref ref-type="bibr" rid="CR79">79</xref>
+   </sup>, whereas gene network was created on Cytoscape v.3.7
+   <sup>
+    <xref ref-type="bibr" rid="CR89">89</xref>
+   </sup>.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_82156_Fig2_HTML" id="MO2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,6 @@
+0: The expression matrix of the study was Log2 normalized, used in principal component analysis (PCA) to investigate the relationship between samples.
+1: Outlier samples were determined by using the PCA plot and eliminated from the expression matrix before the differential gene expression analysis.
+2: Differential gene expression analysis was performed with the R package limma from Bioconductor with the contrast of each glioma grade versus non-tumor samples [ 33].
+3: Differentially expressed genes (DEGs) were determined with a Benjamini & Hochberg corrected  p-value< 0.05 significance level and absolute Log2 fold change > 0.6.
+4: DEGs were visualized with a volcano plot by using R package EnhancedVolcano from Bioconductor [ 34].
+5: Additionally, the intersection of DEGs was performed between limma results, Elk-1-VP16, and the PEA3-VP16 overexpression microarray, which were previously published from our laboratory for use in further analysis.

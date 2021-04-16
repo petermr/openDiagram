@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>
+   <bold>Proteins which increased in abundance in heterophils in response to</bold>
+   <bold>
+    <italic>S.</italic>
+   </bold>
+   <bold>Enteritidis infection</bold>
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Acc. no.</th>
+    <th align="left">Protein name</th>
+    <th align="left">Gene ID</th>
+    <th align="left">Fold ratio Inf: noninf</th>
+    <th align="left">Fold ratio vac: noninf</th>
+    <th align="left">Function</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">P02701</td>
+    <td align="left">Avidin</td>
+    <td align="left">AVD</td>
+    <td char="." align="char">55.57*</td>
+    <td char="." align="char">32.06*</td>
+    <td align="left">Biotin binding</td>
+   </tr>
+   <tr>
+    <td align="left">F1P4F4</td>
+    <td align="left">Translocon-associated protein</td>
+    <td align="left">SSR1</td>
+    <td char="." align="char">9.22*</td>
+    <td char="." align="char">6.36</td>
+    <td align="left">Protein translocase</td>
+   </tr>
+   <tr>
+    <td align="left">P17785</td>
+    <td align="left">Annexin A2</td>
+    <td align="left">ANXA2</td>
+    <td char="." align="char">6.44*</td>
+    <td char="." align="char">2.11</td>
+    <td align="left">Activates macrophages for cytokine production</td>
+   </tr>
+   <tr>
+    <td align="left">E1BWG1</td>
+    <td align="left">Coagulation factor XIIIA</td>
+    <td align="left">F13A</td>
+    <td char="." align="char">5.63*</td>
+    <td char="." align="char">2.60*</td>
+    <td align="left">Crosslinking of fibrin chains, entrapment of bacteria</td>
+   </tr>
+   <tr>
+    <td align="left">R4GJX3</td>
+    <td align="left">Interferon-induced transmembrane protein</td>
+    <td align="left">IFITM</td>
+    <td char="." align="char">4.99*</td>
+    <td char="." align="char">1.73</td>
+    <td align="left">Acidification of the endosomal compartments, mediator of the host antiviral response</td>
+   </tr>
+   <tr>
+    <td align="left">F1NK96</td>
+    <td align="left">Protein disulfide-isomerase A6</td>
+    <td align="left">PDIA6</td>
+    <td char="." align="char">4.33*</td>
+    <td char="." align="char">2.66*</td>
+    <td align="left">Protein foldase</td>
+   </tr>
+   <tr>
+    <td align="left">F1NVA4</td>
+    <td align="left">Nucleophosmin</td>
+    <td align="left">NPM1</td>
+    <td char="." align="char">3.68*</td>
+    <td char="." align="char">1.87</td>
+    <td align="left">Alarmin, nuclear chaperon</td>
+   </tr>
+   <tr>
+    <td align="left">F1NT28</td>
+    <td align="left">Inorganic pyrophosphatase</td>
+    <td align="left">PPA1</td>
+    <td char="." align="char">3.52*</td>
+    <td char="." align="char">1.67</td>
+    <td align="left">Hydrolysis of inorganic pyrophosphate (PPi)</td>
+   </tr>
+   <tr>
+    <td align="left">Q90593</td>
+    <td align="left">78 kDa glucose-regulated protein</td>
+    <td align="left">BiP</td>
+    <td char="." align="char">3.44*</td>
+    <td char="." align="char">1.94</td>
+    <td align="left">Chaperon</td>
+   </tr>
+   <tr>
+    <td align="left">F1NWB7</td>
+    <td align="left">Endoplasmin</td>
+    <td align="left">HSP90B1</td>
+    <td char="." align="char">3.33*</td>
+    <td char="." align="char">1.99</td>
+    <td align="left">Chaperon</td>
+   </tr>
+   <tr>
+    <td align="left">E1C1D1</td>
+    <td align="left">Annexin 7</td>
+    <td align="left">ANXA7</td>
+    <td char="." align="char">3.27*</td>
+    <td char="." align="char">2.68*</td>
+    <td align="left">Granular membranes fusion and degranulation</td>
+   </tr>
+   <tr>
+    <td align="left">P24367</td>
+    <td align="left">Peptidyl-prolyl cis–trans isomerase B</td>
+    <td align="left">PPIB</td>
+    <td char="." align="char">3.26*</td>
+    <td char="." align="char">2.23*</td>
+    <td align="left">Regulation of protein folding and maturation</td>
+   </tr>
+   <tr>
+    <td align="left">E1C2S1</td>
+    <td align="left">Talin-1</td>
+    <td align="left">TLN1</td>
+    <td char="." align="char">3.12*</td>
+    <td char="." align="char">2.56*</td>
+    <td align="left">Activation of neutrophils</td>
+   </tr>
+   <tr>
+    <td align="left">Q49B65</td>
+    <td align="left">EF hand-containing protein 1</td>
+    <td align="left">EFHD1</td>
+    <td char="." align="char">3.12*</td>
+    <td char="." align="char">1.72</td>
+    <td align="left">Calcium binding</td>
+   </tr>
+   <tr>
+    <td align="left">F1NWG2</td>
+    <td align="left">Cathepsin C</td>
+    <td align="left">CTSC</td>
+    <td char="." align="char">3.10*</td>
+    <td char="." align="char">1.99</td>
+    <td align="left">Activates serine proteases (elastase, cathepsin G and granzymes)</td>
+   </tr>
+   <tr>
+    <td align="left">F1NDY9</td>
+    <td align="left">Protein disulfide-isomerase A4</td>
+    <td align="left">PDIA4</td>
+    <td char="." align="char">2.93*</td>
+    <td char="." align="char">1.86</td>
+    <td align="left">Protein foldase</td>
+   </tr>
+   <tr>
+    <td align="left">E1C8M9</td>
+    <td align="left">Calnexin</td>
+    <td align="left">CANX</td>
+    <td char="." align="char">2.88*</td>
+    <td char="." align="char">1.75</td>
+    <td align="left">Integral protein of the endoplasmic reticulum</td>
+   </tr>
+   <tr>
+    <td align="left">E1BQN9</td>
+    <td align="left">Calcyclin-binding protein</td>
+    <td align="left">CACYBP</td>
+    <td char="." align="char">2.88*</td>
+    <td char="." align="char">2.38*</td>
+    <td align="left">Calcium-dependent ubiquitination</td>
+   </tr>
+   <tr>
+    <td align="left">H9L340</td>
+    <td align="left">ATP synthase subunit beta</td>
+    <td align="left">ATP5B</td>
+    <td char="." align="char">2.82*</td>
+    <td char="." align="char">1.56</td>
+    <td align="left">Energy metabolism</td>
+   </tr>
+   <tr>
+    <td align="left">F1NB92</td>
+    <td align="left">Endoplasmic reticulum aminopeptidase 1</td>
+    <td align="left">ERAP1</td>
+    <td char="." align="char">2.78*</td>
+    <td char="." align="char">0.89</td>
+    <td align="left">Antigen processing and presentation of endogenous peptide via MHC class I</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>* Significantly different from the expression in heterophils from the non-infected chickens.</p>
+ </table-wrap-foot>
+</table-wrap>

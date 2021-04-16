@@ -1,0 +1,10 @@
+0: Tissues were homogenized with a Mini-BeadBeater-16 (BioSpec Products) in genomic lysis buffer to extract total DNA (Quick-gDNA MicroPrep kit, Zymo Research) or in TRIzol/TRI Reagent to extract total RNA (Direct-zol RNA MicroPrep kit, Zymo Research) with a DNase treatment step to remove DNA.
+1: The quality of extracted DNA and RNA was checked on an Agilent Bioanalyzer 2100.
+2: We used 500 ng of total RNA to construct stranded mRNA-Seq libraries using a KAPA Stranded mRNA-Seq Kit (Kapa Biosystems).
+3: Library preparation for whole-genome bisulfite sequencing was performed using 100 ng of DNA according to the MethylC-seq protocol in Urich et al.
+4: [ 60].
+5: Library concentrations were checked with a Qubit 2.0 Fluorometer (Life Technologies) and size/quality was checked with a Fragment Analyzer (Advanced Analytical Technologies).
+6: RNA libraries were pooled and sequenced on two lanes of an Illumina NextSeq SE75 High Output Flow Cell.
+7: DNA libraries were run on one lane of an Illumina NextSeq PE150 High Output Flow Cell.
+8: Following initial analyses of mRNA expression, in which we discovered that HYPO was the most sensitive to the treatment, we ran HYPO samples on an additional lane of the NextSeq PE150 to improve coverage for methylome analyses.
+9: Sequencing was performed at the University of Georgia Genomics Facility.

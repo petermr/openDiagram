@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5725-9214</contrib-id>
+  <name>
+   <surname>Secchi</surname>
+   <given-names>Christian</given-names>
+  </name>
+  <address>
+   <email>chsecchi@health.ucsd.edu</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Benaglio</surname>
+   <given-names>Paola</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Mulas</surname>
+   <given-names>Francesca</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Belli</surname>
+   <given-names>Martina</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Stupack</surname>
+   <given-names>Dwayne</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Shimasaki</surname>
+   <given-names>Shunichi</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.266100.3</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2107 4242</institution-id>
+   <institution>Department of Obstetrics, Gynecology, and Reproductive Sciences, </institution>
+   <institution>University of California, San Diego School of Medicine, </institution>
+  </institution-wrap>9500 Gilman Drive, La Jolla, CA 92093 USA 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.266100.3</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2107 4242</institution-id>
+   <institution>Department of Pediatrics, </institution>
+   <institution>University of California San Diego, School of Medicine, </institution>
+  </institution-wrap>La Jolla, CA USA 
+ </aff>
+</contrib-group>

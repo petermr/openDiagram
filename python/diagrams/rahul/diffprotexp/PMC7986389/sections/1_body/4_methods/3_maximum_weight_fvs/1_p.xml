@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par69">In the WMFVS problem, we first restrict the size of the FVS to be minimal and then select the maximum-weight MFVS as the objective. However, sometimes the weight may be more important than the size of an FVS. As an example, in Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>, the WMFVS is 
+ <inline-formula id="IEq61">
+  <alternatives>
+   <tex-math id="M129">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\{b\}$$\end{document}</tex-math>
+   <math id="M130">
+    <mrow>
+     <mo stretchy="false">{</mo>
+     <mi>b</mi>
+     <mo stretchy="false">}</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq61.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, which has a total weight of 
+ <inline-formula id="IEq62">
+  <alternatives>
+   <tex-math id="M131">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$-20$$\end{document}</tex-math>
+   <math id="M132">
+    <mrow>
+     <mo>-</mo>
+     <mn>20</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq62.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. If we do not restrict the minimum size of the set, the FVS 
+ <inline-formula id="IEq63">
+  <alternatives>
+   <tex-math id="M133">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\{a,c\}$$\end{document}</tex-math>
+   <math id="M134">
+    <mrow>
+     <mo stretchy="false">{</mo>
+     <mi>a</mi>
+     <mo>,</mo>
+     <mi>c</mi>
+     <mo stretchy="false">}</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq63.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, which has weight 
+ <inline-formula id="IEq64">
+  <alternatives>
+   <tex-math id="M135">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$-4$$\end{document}</tex-math>
+   <math id="M136">
+    <mrow>
+     <mo>-</mo>
+     <mn>4</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq64.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, seems better.
+</p>

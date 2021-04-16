@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">DCM caused by LMNA mutations remains one of the most aggressive and lethal heart diseases because of the complexity of LMNA molecule and cellular heterogeneity. The novel insights into the molecular mechanisms underlying LMNA mutation-associated DCM have been reported, and the studies focused on hundreds of chromatin domains in heterochromatin, which are referred to as LADs [
+ <xref ref-type="bibr" rid="CR9">9</xref>, 
+ <xref ref-type="bibr" rid="CR20">20</xref>]. However, little is known about LMNA mutation on euchromatin and its role in LMNA mutation-associated DCM. Recently, accumulated evidences showed that lamin A/C also occupied euchromatin regions throughout the nucleoplasm and regulated euchromatin organization and gene expression by direct binding or depending on LAP2α [
+ <xref ref-type="bibr" rid="CR15">15</xref>]. However, the interaction between LMNA and euchromatin remains unclear in LMNA mutation-associated DCM. In this study, we enrolled 6 qualified datasets from 10 GEO datasets and identified many robust differential binding genes by ChIP-seq technology (Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>: Figures S1A and S1B, Additional file 
+ <xref rid="MOESM2" ref-type="media">2</xref>: Table Sheets 11–14). We found that the Gene Ontology of the differential binding genes was mainly involved in signal transduction by DAVID Bioinformatics Tool. However, because we could not obtain the enrichment results from the direct binding genes between LMNA and euchromatin (MACS) in DCM group, we further used the clusterProfiler package by R to validate the annotation results. As the same with DAVID enrichment, there were no referential enrichment results (Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>: Figure S5). In addition, enrichment analysis of the identified differential binding genes in some pathways, such as WNT signaling pathway, mTOR pathway, TGF-beta pathway, TNFR1 pathway, and FAS pathway (CD95), is consistent with the previous researches [
+ <xref ref-type="bibr" rid="CR7">7</xref>, 
+ <xref ref-type="bibr" rid="CR26">26</xref>–
+ <xref ref-type="bibr" rid="CR29">29</xref>]. For example, Le Dour C et al. demonstrated that the downregulated WNT/β-catenin pathway in the hearts contributed to the pathophysiology of LMNA cardiomyopathy [
+ <xref ref-type="bibr" rid="CR28">28</xref>]. Choi et al. confirmed that AKT-mTOR pathway was hyperactivated with cardiomyopathy caused by 
+ <italic>LMNA</italic> mutation [
+ <xref ref-type="bibr" rid="CR27">27</xref>]. Tan CY group indicated that cardiac myocyte-specific expression of pathogenic variations in LMNA, associated with DCM, led to abnormal activation of the TGF-beta pathway in the heart and induction of cardiac dysfunction, and premature death [
+ <xref ref-type="bibr" rid="CR7">7</xref>, 
+ <xref ref-type="bibr" rid="CR29">29</xref>]. Several studies have reported that strong activation of the pro-apoptotic TNF and Fas pathways in DCM patients [
+ <xref ref-type="bibr" rid="CR26">26</xref>].
+</p>

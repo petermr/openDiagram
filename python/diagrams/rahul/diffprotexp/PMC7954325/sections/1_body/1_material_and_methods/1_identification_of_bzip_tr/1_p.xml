@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A two-step identification process was performed to categorize bZIPs of potato. In the first step, the curated Hidden Markov Model profiles of the bZIP domain family, 
+ <italic>viz</italic>. PF00170 downloaded from Pfam [
+ <xref rid="pone.0247864.ref029" ref-type="bibr">29</xref>], was used as a query to search the bZIP proteins in the potato proteome Ensembl database (
+ <ext-link ext-link-type="uri" xlink:href="http://plants.ensembl.org/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://plants.ensembl.org/index.html</ext-link>) using HMMER3.0 [
+ <xref rid="pone.0247864.ref030" ref-type="bibr">30</xref>]. In the second step, a local BLASTp search was performed to identify the predicted potato bZIPs by HMMER3.0 from already known bZIPs in 
+ <italic>Arabidopsis</italic> [
+ <xref rid="pone.0247864.ref010" ref-type="bibr">10</xref>], maize [
+ <xref rid="pone.0247864.ref024" ref-type="bibr">24</xref>], rice [
+ <xref rid="pone.0247864.ref021" ref-type="bibr">21</xref>], and barley [
+ <xref rid="pone.0247864.ref031" ref-type="bibr">31</xref>] with the E-value of 0.00001. Such potential potato bZIPs were further explored with NCBI-CDD and InterproScan [
+ <xref rid="pone.0247864.ref032" ref-type="bibr">32</xref>] for the existence and integrity of the bZIP domain. CDD is the conserved domain database at NCBI for the annotation of protein sequences along with the location of conserved domain footprints within the sequence. InterproScan enables extensive scanning of protein sequences against the Interpro database by predicting domains and important sites and classify them into families [
+ <xref rid="pone.0247864.ref032" ref-type="bibr">32</xref>].
+</p>

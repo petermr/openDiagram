@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F6" position="float">
+ <label>FIGURE 6</label>
+ <caption>
+  <p>CPSF1 promotes alternative polyadenylation in the 3′UTR. 
+   <bold>(A)</bold> Scatterplot showing the percentage of distal polyA site usage index (PDUI) in the control and CPSF1-silenced groups identified by DaPars. Lengthened and shortened transcripts are highlighted with red and blue dots, respectively. 
+   <bold>(B)</bold> In the filtered transcripts (differential transcripts), the AAUAAA and AUUAAA polyadenylation signals were highly enriched upstream of the distal compared to the proximal polyadenylation sites following CPSF1 silencing. 
+   <bold>(C)</bold> Correlation between PDUI value and gene expression of control and CPSF1-silenced groups. 
+   <bold>(D)</bold> Genome browser plots showing the RNA-seq read coverage in representative genes regulated by CPSF1 with 3′ UTR lengthening (REEP5) or shortening (SLC9B2). Red box on the gene body indicates proximal polyadenylation sites predicted by DaPars. 
+   <bold>(E)</bold> Heatmap of PDUI showed the clustering of transcripts with both significantly altered mRNA expression and PDUI. 
+   <bold>(F)</bold> CPSF1-regulated transcripts are significantly associated with gene transcription, the endomembrane system, and cytoskeleton maintenance. Blue indicates downregulated, whereas red represents upregulated transcripts.
+  </p>
+ </caption>
+ <graphic xlink:href="fcell-09-616835-g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

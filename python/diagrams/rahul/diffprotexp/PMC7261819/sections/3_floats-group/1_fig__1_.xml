@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F1" orientation="portrait" position="float">
+ <label>Fig. 1.</label>
+ <caption>
+  <p>
+   <bold>Association between protein variance and the number of PSMs per protein used for quantification in MS proteomics data.</bold>
+   <italic>A,</italic> Boxplot showing the standard deviation of protein ratios within sample groups for proteins quantified with 1–20 PSMs in data set D1. 
+   <italic>B</italic>, Dependence of variance on the number of PSMs for all quantified proteins in data set D1. Gray and red curves indicate prior variance estimated by Limma and DEqMS respectively. Scatter points represent the pooled variance for individual proteins. PSM: peptide spectrum matches, (ln): natural logarithm.
+  </p>
+ </caption>
+ <graphic xlink:href="zjw0052061230001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

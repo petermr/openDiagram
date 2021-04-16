@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We then proceeded to a survival analysis to assess the predictive ability. 147 tongue cancer patients from TCGA, designated as TCGA train group, were classified as low-risk or high-risk subgroups according to the median risk score. Then, we conducted a survival analysis to assess the predictive ability in TCGA train group. Our results indicated that the patients' overall survival (OS) rate was dramatically lower in the high-risk group compared to patients in low-risk group (Figure 
+ <xref ref-type="fig" rid="F5">5</xref>A). To further evaluate the prognostic ability of the prognosis-related hub RBPs, we executed a time-dependent ROC analysis. As the area under the ROC curve (AUC) of this hub RBPs-based risk model was 0.829, the result indicated the model has a well diagnostic performance (Figure 
+ <xref ref-type="fig" rid="F5">5</xref>B). The expression heatmap of prognosis-related hub RBPs, survival status and risk score of patients were displayed in Figure 
+ <xref ref-type="fig" rid="F5">5</xref>C. Together, these data indicated a predictable power of the prognostic model based on the hub RBPs and risk scores.
+</p>

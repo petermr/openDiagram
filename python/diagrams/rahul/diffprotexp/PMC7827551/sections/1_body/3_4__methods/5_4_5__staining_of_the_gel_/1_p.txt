@@ -1,0 +1,10 @@
+0: Silver stain was used to stain the gels (2D-Silver Stain Reagent II, Cosmobio Co., Ltd., Tokyo, Japan) according to the manufacturers instruction.
+1: For gel imaging, the 2-DE protein patterns were recorded as digitalized images using a high-resolution scanner.
+2: Images were captured at 800 dpi as TIEF file for comparison.
+3: Scanned TIEF images were compared using Progenesis SameSpots software (Totallab, Newcastle, UK) to detect the significantly different spots between gel images.
+4: Briefly, SameSpot overlaid images and grouped them according to the predefined settings.
+5: Next, the landmark spots were automatically defined and confirmed manually.
+6: We selected a reference image where other images were normalized on it (usually the one contains the maximum number of spots).
+7: In a final step, the software calculated the intensities of all sots of the reference image and normalized other images based on that one.
+8: Significant spots were selected with ANOVA with  p  0.05 and cutoff spots 2-fold different.
+9: These spots were then cut out for mass spectrometric exploration.

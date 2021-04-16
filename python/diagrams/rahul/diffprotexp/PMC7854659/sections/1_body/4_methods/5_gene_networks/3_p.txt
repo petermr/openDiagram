@@ -1,0 +1,9 @@
+0: To identify changes in the gene network topology between conditions, we used PCIT to build CON and RES networks separately for each tissue from the same dataset used for DGCA analysis.
+1: Significantly correlated pairs were selected when DEGs or TFs were present and showed a partial correlation greater than |0.9| ( p < 0.01).
+2: To explore the DK genes between the maternal dietary intake conditions, we first standardized the connectivity (K) measures for each network by dividing each gene connectivity by the maximum connectivity 25.
+3: Next, the DK measure was defined as  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$DK_{i} = K_{CON} \left( i \right) - K_{RES} \left( i \right)$$\end{document}DKi=KCONi-KRESi.
+4: To assign a significance level, each score was transformed into a  Z-score, and values located  1.96 from the standard deviation (SD) were considered significant ( p < 0.05).
+5: The DyNet 27 Cytoscape plugin v.1.0 ( https://rb.gy/9vp9js) was used to visualize the most rewiring nodes between the conditions considering the Dn-score.
+6: This score ranks the variability of connections and highlights the most rewired nodes based on a central reference network 27 constructed from the union of RES and CON networks.
+7: Networks were visualized in Cytoscape (v.3.7) 89 ( https://cytoscape.org/).
+8: Highly connected genes or hubs were defined considering the degree measure (2 SD,  p < 0.05) retrieved from the Cytoscape Network Analyzer tool v.2.7 90 ( https://rb.gy/twossl).

@@ -1,0 +1,5 @@
+0: Expression variability within biological replicas allowed us to compute the Pearson product-moment correlation coefficient between the (log 2) expressions of each gene  i across biological replicas with each other gene  j in the same chamber or with the same gene in adjacent chambers.
+1: We used the correlation analysis to identify significantly (p-val < 0.05) synergistically, antagonistically and independently expressed genes in the same chamber as well synchronous and asynchronous expression of the same gene in adjacent chambers.
+2: The statistical significance of the correlation coefficient was determined with the publically available software  https://www.youtube.com/watch?v=Kc3M5x7125A (two-tail  t-test) for degrees of freedom df = 4 (biological replicas)*R (number of spots probing redundantly each of the correlated transcripts)  2.
+3: If each gene was probed by one spot, then df = 4  2 = 2, for two spots df = 8  2 = 6, for 3 spots df = 12  2 = 10.
+4: For unequal number of spots, we used for each biological replica the average expression level of all spots probing that gene.

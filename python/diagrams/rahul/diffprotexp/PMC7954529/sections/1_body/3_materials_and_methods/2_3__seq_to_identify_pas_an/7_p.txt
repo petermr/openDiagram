@@ -1,0 +1,5 @@
+0: We acknowledge the possibility that unlifted PAS may affect the downstream analyses; therefore, we removed genes for which PAS ratios may be affected.
+1: Specifically, we annotated and calculated usage for the human PAS, including the 10,077 PAS that do not reciprocally lift to the chimpanzee genome.
+2: After removing PAS in genes previously identified as lowly expressed and PAS with usage below 5%, 386 PAS in 353 genes remain ( Figure 2figure supplement 8).
+3: We removed these 353 genes and recreated main figures 3-6.
+4: ( Figures 3 6,  Figure 3figure supplement 3,  Figure 4figure supplement 1,  Figure 5figure supplement 4,  Figure 6figure supplement 2).

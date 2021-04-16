@@ -1,0 +1,792 @@
+{
+  "id": [
+    "33648452"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33648452"
+  ],
+  "pmcid": [
+    "PMC7923470"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7923470"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12870-021-02899-6"
+  ],
+  "title": [
+    "Transcriptome and metabolome profiling provide insights into molecular mechanism of pseudostem elongation in banana."
+  ],
+  "authorString": [
+    "Deng G, Bi F, Liu J, He W, Li C, Dong T, Yang Q, Gao H, Dou T, Zhong X, Peng M, Yi G, Hu C, Sheng O."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Deng G"
+          ],
+          "firstName": [
+            "Guiming"
+          ],
+          "lastName": [
+            "Deng"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China. guimingdeng2014@163.com."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China. guimingdeng2014@163.com."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China. guimingdeng2014@163.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Bi F"
+          ],
+          "firstName": [
+            "Fangcheng"
+          ],
+          "lastName": [
+            "Bi"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu J"
+          ],
+          "firstName": [
+            "Jing"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Horticulture and Landscape College, Hunan Agricultural University, Changsha, 410128, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "He W"
+          ],
+          "firstName": [
+            "Weidi"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li C"
+          ],
+          "firstName": [
+            "Chunyu"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dong T"
+          ],
+          "firstName": [
+            "Tao"
+          ],
+          "lastName": [
+            "Dong"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yang Q"
+          ],
+          "firstName": [
+            "Qiaosong"
+          ],
+          "lastName": [
+            "Yang"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gao H"
+          ],
+          "firstName": [
+            "Huijun"
+          ],
+          "lastName": [
+            "Gao"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dou T"
+          ],
+          "firstName": [
+            "Tongxin"
+          ],
+          "lastName": [
+            "Dou"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhong X"
+          ],
+          "firstName": [
+            "Xiaohong"
+          ],
+          "lastName": [
+            "Zhong"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Horticulture and Landscape College, Hunan Agricultural University, Changsha, 410128, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Peng M"
+          ],
+          "firstName": [
+            "Miao"
+          ],
+          "lastName": [
+            "Peng"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Horticulture and Landscape College, Hunan Agricultural University, Changsha, 410128, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yi G"
+          ],
+          "firstName": [
+            "Ganjun"
+          ],
+          "lastName": [
+            "Yi"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hu C"
+          ],
+          "firstName": [
+            "Chunhua"
+          ],
+          "lastName": [
+            "Hu"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sheng O"
+          ],
+          "firstName": [
+            "Ou"
+          ],
+          "lastName": [
+            "Sheng"
+          ],
+          "initials": [
+            "O"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of South Subtropical Fruit Biology and Genetic Resource Utilization, Ministry of Agriculture, Guangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Key Laboratory of Tropical and Subtropical Fruit Tree Research, Guangdong Province, Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "3122083"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC plant biology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Plant Biol"
+          ],
+          "medlineAbbreviation": [
+            "BMC Plant Biol"
+          ],
+          "NLMid": [
+            "100967807"
+          ],
+          "ISSN": [
+            "1471-2229"
+          ],
+          "ESSN": [
+            "1471-2229"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "125"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Banana plant height is an important trait for horticultural practices and semi-dwarf cultivars show better resistance to damages by wind and rain. However, the molecular mechanisms controlling the pseudostem height remain poorly understood. Herein, we studied the molecular changes in the pseudostem of a semi-dwarf banana mutant Aifen No. 1 (Musa spp. Pisang Awak sub-group ABB) as compared to its wild-type dwarf cultivar using a combined transcriptome and metabolome approach.<h4>Results</h4>A total of 127 differentially expressed genes and 48 differentially accumulated metabolites were detected between the mutant and its wild type. Metabolites belonging to amino acid and its derivatives, flavonoids, lignans, coumarins, organic acids, and phenolic acids were up-regulated in the mutant. The transcriptome analysis showed the differential regulation of genes related to the gibberellin pathway, auxin transport, cell elongation, and cell wall modification. Based on the regulation of gibberellin and associated pathway-related genes, we discussed the involvement of gibberellins in pseudostem elongation in the mutant banana. Genes and metabolites associated with cell wall were explored and their involvement in cell extension is discussed.<h4>Conclusions</h4>The results suggest that gibberellins and associated pathways are possibly developing the observed semi-dwarf pseudostem phenotype together with cell elongation and cell wall modification. The findings increase the understanding of the mechanisms underlying banana stem height and provide new clues for further dissection of specific gene functions."
+  ],
+  "affiliation": [
+    "Institute of Fruit Tree Research, Guangdong Academy of Agricultural Sciences, Guangzhou, China. guimingdeng2014@163.com."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "CARS-31-01"
+          ],
+          "agency": [
+            "National Banana Industry and Technology System Project"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R2018PY-QY004, R2017PY-QY001, R2017PY-JX002"
+          ],
+          "agency": [
+            "special fund for scientific innovation strategy-construction of high level Academy of Agriculture Science"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2018YFD1000102, 2019YFD1000200"
+          ],
+          "agency": [
+            "National Key Research and Development Project"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2018kczx06"
+          ],
+          "agency": [
+            "Guangzhou national modern agricultural industry science and technology innovation center project"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2019B030316007"
+          ],
+          "agency": [
+            "Guangdong Science and Technology Project"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Dwarfism",
+        "gibberellins",
+        "Banana Pseudostem",
+        "Ethylene Response Factors",
+        "Auxin Efflux Carrier Proteins"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12870-021-02899-6"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7923470"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7923470?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-02"
+  ],
+  "firstIndexDate": [
+    "2021-03-03"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-04"
+  ],
+  "dateOfRevision": [
+    "2021-03-05"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-01"
+  ],
+  "firstPublicationDate": [
+    "2021-03-01"
+  ]
+}

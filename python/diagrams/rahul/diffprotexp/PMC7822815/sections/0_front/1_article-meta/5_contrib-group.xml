@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9981-7333</contrib-id>
+  <name>
+   <surname>Grinev</surname>
+   <given-names>Vasily V.</given-names>
+  </name>
+  <address>
+   <email>grinev_vv@bsu.by</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Barneh</surname>
+   <given-names>Farnaz</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Ilyushonak</surname>
+   <given-names>Ilya M.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Nakjang</surname>
+   <given-names>Sirintra</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Smink</surname>
+   <given-names>Job</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>van Oort</surname>
+   <given-names>Anita</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6941-7881</contrib-id>
+  <name>
+   <surname>Clough</surname>
+   <given-names>Richard</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Seyani</surname>
+   <given-names>Michael</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>McNeill</surname>
+   <given-names>Hesta</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Reza</surname>
+   <given-names>Mojgan</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Martinez-Soria</surname>
+   <given-names>Natalia</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Assi</surname>
+   <given-names>Salam A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Ramanouskaya</surname>
+   <given-names>Tatsiana V.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4267-0825</contrib-id>
+  <name>
+   <surname>Bonifer</surname>
+   <given-names>Constanze</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5404-6483</contrib-id>
+  <name>
+   <surname>Heidenreich</surname>
+   <given-names>Olaf</given-names>
+  </name>
+  <address>
+   <email>o.t.heidenreich@prinsesmaximacentrum.nl</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.17678.3f</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 1092 255X</institution-id>
+   <institution>Department of Genetics, Faculty of Biology, </institution>
+   <institution>Belarusian State University, </institution>
+  </institution-wrap>220030 Minsk, Republic of Belarus 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.487647.e</institution-id>
+   <institution>Princess Maxima Center for Pediatric Oncology, </institution>
+  </institution-wrap>3584 CS Utrecht, The Netherlands 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.1006.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0462 7212</institution-id>
+   <institution>Wolfson Childhood Cancer Research Centre, Translational and Clinical Research Institute, </institution>
+   <institution>Newcastle University, </institution>
+  </institution-wrap>Newcastle upon Tyne, NE1 7RU UK 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.6572.6</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1936 7486</institution-id>
+   <institution>Institute of Cancer and Genomic Sciences, College of Medical and Dental Sciences, </institution>
+   <institution>University of Birmingham, </institution>
+  </institution-wrap>Birmingham, B15 2TT UK 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.1006.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0462 7212</institution-id>
+   <institution>Newcastle University Centre for Cancer, </institution>
+   <institution>Newcastle University, </institution>
+  </institution-wrap>Newcastle upon Tyne, NE1 7RU UK 
+ </aff>
+</contrib-group>

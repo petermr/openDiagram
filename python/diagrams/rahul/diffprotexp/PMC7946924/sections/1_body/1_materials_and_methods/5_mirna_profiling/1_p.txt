@@ -1,0 +1,13 @@
+0: Profiling of miRNA was done in the RNA extracts obtained from 12 spikelet samples, six each from groups 1 (SR-159) and 2 (SR-157) plants.
+1: Spikelets were sampled from apical and basal portions of the panicle separately on three occasions at 5-day intervals from 0 to 10 days after flowering.
+2: Each of these samples was a pooled mixture from spikelets of three individual panicles obtained from the three biological replicates.
+3: The 12 RNA samples from two different groups were sequenced followed by length filtering, adapter trimming and elimination having no match.
+4: After homology search, the resulting pool of miRNA were categorised into either common or unique miRNA based on their presence in the different days after flowering.
+5: Sequencing was done in Illumina single end read chemistry.
+6: The raw data of length 75 bp was generated on Illumina platform and received in FASTQ format.
+7: Srna workbench V3.0_ALPHA was used to trim adapter and performed length filtering in the range of minimum length 16 bp and maximum 40 bp.
+8: To obtain final reads, the exclusion criteria were as follows: (1) low quality reads (< q30), (2) reads without 3 or 5 adapters, (3) reads without insert, (4) reads < 16 bp and > 40 bp, (5) reads not matching to reference genome, (6) reads matching to other ncRNAs (rRNA, tRNA, snRNA, snoRNA and piRNA) by referring to NCBI nucleotide database and Rfam version-12 RNA family database which represent multiple sequence alignments, consensus secondary structures and covariance models 25.
+9: Maximum numbers of reads were obtained with sequences of 24 bp (Supplementary Fig.
+10: S1).
+11: Sequences  16 bp and  40 bp length were considered for further analysis.
+12: Reads were made unique and hence read count profile was generated (Supplementary Table  S1).

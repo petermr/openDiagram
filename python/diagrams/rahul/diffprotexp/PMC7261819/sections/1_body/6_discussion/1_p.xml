@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Until a few years ago, lack of convenient statistical tools impeded RNA- level differential expression analysis in the transcriptomics field for biologists with limited knowledge in statistics. Acknowledgment of this problem spawned research and development of methods by us (
+ <italic>DESeq (</italic>
+ <xref rid="B30" ref-type="bibr">30</xref>) and 
+ <italic>DESeq2</italic>(
+ <xref rid="B31" ref-type="bibr">31</xref>)) and others (
+ <italic>edgeR</italic>(
+ <xref rid="B32" ref-type="bibr">32</xref>) and 
+ <italic>Limma</italic>(
+ <xref rid="B33" ref-type="bibr">33</xref>, 
+ <xref rid="B33" ref-type="bibr">33</xref>)). These methods are optimized for the specific transcriptomics data structure, to allow accurate and powerful analysis of significant differences in RNA levels. Today, such methods form a standardized backbone for analysis of transcriptomics data. Although MS-based methods have similarly become widely used for protein quantification, the statistical methods for quantitative proteomics analysis are less well established.
+</p>

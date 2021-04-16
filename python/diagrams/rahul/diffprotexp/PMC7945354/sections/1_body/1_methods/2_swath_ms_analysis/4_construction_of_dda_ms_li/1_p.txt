@@ -1,0 +1,8 @@
+0: From each fraction, 6 L was removed and added to 2 L of 10  iRT standard peptide, and 2 L of each sample was separated with nano-LC and analyzed by online electrospray tandem MS.
+1: The complete liquid-mass tandem system consisted of a liquid system (Waters Acquity UPLC; Waters, MA, USA) and an MS system (Q-Exactive HF; Thermo Fisher Scientific, MA, USA).
+2: Buffer A consisted of 0.1% formic acid aqueous solution, and buffer B consisted of 0.1% formic acid acetonitrile aqueous solution (acetonitrile was 80%).
+3: The sample was separated by an analytical column (Thermo Fisher Scientific, MA, USA; Acclaim PepMap C18, 75 m  25 cm) at a flow rate of 200 nL/min with the following gradient: 05 min, 1% B; 595 min, 1% B to 28% B; 95110 min, 28% B to 38% B; 110115 min, 38% B to 100% B; and 115120 min, 100% B.
+4: The electrospray voltage was 2.0 kV.
+5: The MS parameters were set as follows: (1) MS: scan range (m/z) = 3501600, resolution = 60,000, AGC target = 3e6, maximum injection time = 50 ms and filter dynamic exclusion: exclusion duration = 30 s; and (2) dd-MS2: isolation window = 4 m/z, resolution = 15,000, AGC target = 5e5, maximum injection time = 80 ms and NCE = 30%.
+6: The MS raw data were analyzed and searched by Spectronaut Pulsar X (version 12, Biognosys AG), and a spectral database was established.
+7: The standard for library construction was 1% precursor FDR and 1% peptide FDR.

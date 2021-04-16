@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f4" position="float">
+ <label>Figure 4</label>
+ <caption>
+  <p>
+   <italic>P. falciparum</italic> gene expression in individual midgut transcriptomes 24 h post-infection. 
+   <bold>(A)</bold> PCA of 22 P
+   <italic>. falciparum</italic> transcriptomes from individual 
+   <italic>Anopheles</italic> midguts. Points are colored by antibiotic treatment and shaped by mating status. 
+   <bold>(B)</bold> The PCA colored by the proportion of ookinetes in each sample based on bulk deconvolution. The proportion of ookinetes increases along PC1. 
+   <bold>(C)</bold> A boxplot of the proportion of ookinetes in each sample by mating status and antibiotic treatment. Both antibiotic treatment, mating status, and the interaction between the two significantly impacted the proportion of ookinetes observed in each sample (ANOVA, 
+   <italic>p</italic> &lt; 0.05 for each model term). 
+   <bold>(D)</bold> Expression of PF3D7_1216600 (CelTOS) in bulk RNAseq data from individual 
+   <italic>An. coluzzii</italic> midguts with blood boli. CelTOS was more highly expressed in the antibiotic untreated condition. 
+   <bold>(E)</bold> The 12 genes that were identified as highly variable after correcting for the proportion of ookinetes observed are shown in a heatmap of the regularized log counts from DEseq2. Many of the highly variable genes were rRNA encoding genes. Other variable genes of more moderate expression included the 
+   <italic>var</italic> gene PF3D7_1255200 which has been shown to be the primary 
+   <italic>var</italic> in transmission stages (
+   <xref rid="B13" ref-type="bibr">Gómez-Díaz et al., 2017</xref>).
+  </p>
+ </caption>
+ <graphic xlink:href="fcimb-11-604129-g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

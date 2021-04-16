@@ -1,0 +1,531 @@
+{
+  "id": [
+    "32205417"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32205417"
+  ],
+  "pmcid": [
+    "PMC7261819"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7261819"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1074/mcp.tir119.001646"
+  ],
+  "title": [
+    "DEqMS: A Method for Accurate Variance Estimation in Differential Protein Expression Analysis."
+  ],
+  "authorString": [
+    "Zhu Y, Orre LM, Zhou Tran Y, Mermelekas G, Johansson HJ, Malyutina A, Anders S, Lehtiö J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zhu Y"
+          ],
+          "firstName": [
+            "Yafeng"
+          ],
+          "lastName": [
+            "Zhu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Science for Life Laboratory, Karolinska Institutet, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Orre LM"
+          ],
+          "firstName": [
+            "Lukas M"
+          ],
+          "lastName": [
+            "Orre"
+          ],
+          "initials": [
+            "LM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0384-1003",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Science for Life Laboratory, Karolinska Institutet, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhou Tran Y"
+          ],
+          "firstName": [
+            "Yan"
+          ],
+          "lastName": [
+            "Zhou Tran"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3500-8304",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Science for Life Laboratory, Karolinska Institutet, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mermelekas G"
+          ],
+          "firstName": [
+            "Georgios"
+          ],
+          "lastName": [
+            "Mermelekas"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Science for Life Laboratory, Karolinska Institutet, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Johansson HJ"
+          ],
+          "firstName": [
+            "Henrik J"
+          ],
+          "lastName": [
+            "Johansson"
+          ],
+          "initials": [
+            "HJ"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Science for Life Laboratory, Karolinska Institutet, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Malyutina A"
+          ],
+          "firstName": [
+            "Alina"
+          ],
+          "lastName": [
+            "Malyutina"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute for Molecular Medicine, University of Helsinki, Helsinki, Finland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Anders S"
+          ],
+          "firstName": [
+            "Simon"
+          ],
+          "lastName": [
+            "Anders"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4868-1805",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Centre for Molecular Biology of Heidelberg University (ZMBH), Heidelberg, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lehtiö J"
+          ],
+          "firstName": [
+            "Janne"
+          ],
+          "lastName": [
+            "Lehtiö"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Science for Life Laboratory, Karolinska Institutet, Stockholm, Sweden. Electronic address: janne.lehtio@ki.se."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0384-1003",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3500-8304",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4868-1805",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "6"
+      ],
+      "volume": [
+        "19"
+      ],
+      "journalIssueId": [
+        "2961417"
+      ],
+      "dateOfPublication": [
+        "2020 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Molecular & cellular proteomics : MCP"
+          ],
+          "ISOAbbreviation": [
+            "Mol Cell Proteomics"
+          ],
+          "medlineAbbreviation": [
+            "Mol Cell Proteomics"
+          ],
+          "NLMid": [
+            "101125647"
+          ],
+          "ISSN": [
+            "1535-9476"
+          ],
+          "ESSN": [
+            "1535-9484"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "pageInfo": [
+    "1047-1057"
+  ],
+  "abstractText": [
+    "Quantitative proteomics by mass spectrometry is widely used in biomarker research and basic biology research for investigation of phenotype level cellular events. Despite the wide application, the methodology for statistical analysis of differentially expressed proteins has not been unified. Various methods such as <i>t</i> test, linear model and mixed effect models are used to define changes in proteomics experiments. However, none of these methods consider the specific structure of MS-data. Choices between methods, often originally developed for other types of data, are based on compromises between features such as statistical power, general applicability and user friendliness. Furthermore, whether to include proteins identified with one peptide in statistical analysis of differential protein expression varies between studies. Here we present DEqMS, a robust statistical method developed specifically for differential protein expression analysis in mass spectrometry data. In all data sets investigated there is a clear dependence of variance on the number of PSMs or peptides used for protein quantification. DEqMS takes this feature into account when assessing differential protein expression. This allows for a more accurate data-dependent estimation of protein variance and inclusion of single peptide identifications without increasing false discoveries. The method was tested in several data sets including <i>E. coli</i> proteome spike-in data, using both label-free and TMT-labeled quantification. Compared with previous statistical methods used in quantitative proteomics, DEqMS showed consistently better accuracy in detecting altered protein levels compared with other statistical methods in both label-free and labeled quantitative proteomics data. DEqMS is available as an R package in Bioconductor."
+  ],
+  "affiliation": [
+    "Department of Oncology-Pathology, Science for Life Laboratory, Karolinska Institutet, Stockholm, Sweden."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Mass spectrometry",
+        "Statistics",
+        "Quantification",
+        "FDR",
+        "Label-free Quantification",
+        "Differential Analysis",
+        "Tmt",
+        "Data Evaluation",
+        "Quality Control And Metrics"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1074/mcp.TIR119.001646"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7261819"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7261819?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pxd"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2020-03-25"
+  ],
+  "firstIndexDate": [
+    "2020-03-25"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-12"
+  ],
+  "dateOfRevision": [
+    "2021-03-15"
+  ],
+  "electronicPublicationDate": [
+    "2020-03-23"
+  ],
+  "firstPublicationDate": [
+    "2020-03-23"
+  ]
+}

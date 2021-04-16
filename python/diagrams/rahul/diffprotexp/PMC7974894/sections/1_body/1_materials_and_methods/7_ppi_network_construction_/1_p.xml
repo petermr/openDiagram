@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The 171 DceRBPs were submitted to the STRING database 
+ <xref rid="B25" ref-type="bibr">25</xref>. Using the STRING database, genes with a score ≥ 0.4 were chosen to build a network model visualized by Cytoscape (v3.7.2) 
+ <xref rid="B26" ref-type="bibr">26</xref>. Maximal Clique Centrality (MCC) algorithm was reported to be the most effective method of finding hub nodes in a co-expression network 
+ <xref rid="B27" ref-type="bibr">27</xref>. Thus, in this study, the MCC of each node was calculated by CytoHubba, a plugin in Cytoscape. The genes with the top 30 MCC values were considered as hub genes. And the TOP30 hub RBPs and their first stage nodes are used for the following prognostic model construction step.
+</p>

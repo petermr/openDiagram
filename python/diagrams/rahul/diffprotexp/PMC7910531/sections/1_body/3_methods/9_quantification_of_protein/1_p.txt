@@ -1,0 +1,11 @@
+0: To carry out protein identification and quantification, we submitted the mass spectra to SequestHT search in Proteome Discoverer 2.1.
+1: The precursor mass tolerance was set at 30 ppm (Orbitrap Velos data, cohort 1) or 20 ppm (Fusion data, cohorts 24).
+2: For the CID spectra, we set the fragment ion mass tolerance to 0.5 Da; for the HCD spectra, to 0.02 Da.
+3: Spectra were searched for fully tryptic peptides with maximum two miss-cleavages and minimum length of six amino acids.
+4: We specified static modifications as TMT6plex at N-termimus, K and Carbamidomethyl at C; dynamic modifications included deamidation of N,Q and oxidation of M. For each peptide, we allowed for a maximum two different dynamic modifications with a maximum of two repetitions.
+5: We used the Percolator node to estimate peptide confidence.
+6: We set the peptide FDR at 1% and based validation on the  q value and decoy database search.
+7: We searched all spectra against a UniProt fasta file that contained 20,165 reviewed human entries.
+8: The Reporter Ion Quantifier node included a TMT-6plex (Velos data, cohort 1) or TMT-10plex (Fusion data, cohorts 24) custom Quantification Method with integration window tolerance at 20 or 15 ppm, respectively.
+9: As integration methods, we used the Most Confident Centroid at the MS2 or MS3 level.
+10: We only used peptides uniquely belonging to protein groups for quantification.

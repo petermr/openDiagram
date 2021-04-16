@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f2" position="float">
+ <label>Figure 2</label>
+ <caption>
+  <p>Ookinetes display variant gene expression depending on the mosquito individual. 
+   <bold>(A)</bold> A tSNE of 310 high-quality cells collected from four 
+   <italic>An. stephensi</italic> blood boli at 24 h after infectious blood meal. Cells are colored by individual mosquito origin. 
+   <bold>(B)</bold> Cells were staged using the Malaria Cell Atlas data as a reference index for scmap-cell. Cells that mapped to asexual stages (trophozoites and schizonts) were removed for further analyses. 
+   <bold>(C)</bold> 304 cells that matched ookinetes, possible retorts, or female gametocytes were ordered in pseudotime based on their scmap-cell assignment from the Malaria Cell Atlas. 
+   <bold>(D)</bold> A density plot of the distribution of cells over pseudotime from each mosquito. There was no difference in ookinete maturation across the 4 individual mosquitoes (ANOVA, 
+   <italic>p</italic> &gt; 0.05). Immature ookinetes were removed based on the distribution for further analysis (cut off at red vertical line). In total, 275 mature ookinetes were used for further analysis. 
+   <bold>(E)</bold> CelTOS was one of 12 genes identified as a highly variable gene across all cells and was differentially expressed across the four midguts. Expression of CelTOS (log CPM) is shown on the tSNE. 
+   <bold>(F)</bold> A boxplot of CelTOS expression (log CPM) by mosquito origin. Expression of all 12 genes differentially expressed across midguts can be found in 
+   <xref ref-type="supplementary-material" rid="SM1">
+    <bold>Figure S6</bold>
+   </xref> and 
+   <xref ref-type="supplementary-material" rid="SM1">
+    <bold>S7</bold>
+   </xref>.
+  </p>
+ </caption>
+ <graphic xlink:href="fcimb-11-604129-g002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

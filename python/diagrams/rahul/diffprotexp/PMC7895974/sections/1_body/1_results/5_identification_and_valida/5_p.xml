@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">MEOX1 is an important TF for early somite patterning and differentiation
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>,
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>. We examined accessible regions of chromatin and selected an element that is evolutionary conserved at sequence level between chicken, Zebra finch, American alligator, Chinese softshell turtle, lizard, human and mouse. We identified one candidate CRE of 1095 kb, ~1 kb upstream of 
+ <italic>MEOX1</italic> (Fig. 
+ <xref rid="Fig6" ref-type="fig">6a</xref>). This element displayed enhancer activity, with expression of the Citrine reporter restricted to the PSM and all somites (Fig. 
+ <xref rid="Fig6" ref-type="fig">6b, c</xref>). Expression in PSM was unexpected as chromatin was not accessible at that stage. It is possible that the citrine reporter is missing some repressive elements that are present endogenously. Time-lapse movies reveal Citrine fluorescence, which was first detected in the prospective paraxial mesoderm cells of a HH6 embryo. At HH7 signal was detected in the first somite and subsequently in all newly formed somites, as well as the PSM and prospective paraxial mesoderm cells. Overall the pattern was consistent with 
+ <italic>MEOX1</italic> gene expression detected in situ (Fig. 
+ <xref rid="Fig6" ref-type="fig">6d, f</xref> and Supplementary Movie 
+ <xref rid="MOESM3" ref-type="media">2</xref>). We identified two TF footprints within the enhancer, one for FOXO1 and one for ZIC3 (Fig. 
+ <xref rid="Fig6" ref-type="fig">6a</xref>). We next determined their requirement for the activation of fluorescent reporter expression. Mutation of FOXO1 or ZIC3 sites individually had no effect and reporter activity was still observed (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">6a, b</xref>). However, mutation of both sites led to loss of reporter activity (Fig. 
+ <xref rid="Fig6" ref-type="fig">6e</xref>). This suggests both TFs are able to activate this CRE and either FOXO1 or ZIC3 alone is sufficient. To investigate the significance of this element, we modified the endogenous enhancer using four gRNAs to target the dCas9-KRAB repressor to the 
+ <italic>MEOX1</italic> Enh. Scrambled gRNAs with dCas9-KRAB were used as control (Fig. 
+ <xref rid="Fig6" ref-type="fig">6f–h</xref>). Using a probe to detect 
+ <italic>MEOX1</italic> transcripts showed that 
+ <italic>MEOX1</italic> Enh enhancer perturbation led to loss of gene expression (Fig. 
+ <xref rid="Fig6" ref-type="fig">6g</xref>) (
+ <italic>n</italic> = 9/11). This was confirmed by RT-qPCR (Fig. 
+ <xref rid="Fig6" ref-type="fig">6j</xref>) and suggests the element is required.
+</p>

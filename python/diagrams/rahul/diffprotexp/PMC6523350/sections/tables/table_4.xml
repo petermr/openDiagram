@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="biomolecules-09-00130-t004" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">biomolecules-09-00130-t004_Table 4</object-id>
+ <label>Table 4</label>
+ <caption>
+  <p>Pathway enrichment analysis of differentially expressed proteins.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Pathway</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Number of Proteins</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Pathway ID</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Starch and sucrose metabolism</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">26</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO00500</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Glycolysis/gluconeogenesis</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">26</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO00010</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Protein processing in endoplasmic reticulum</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">20</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO04141</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Ribosome</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">19</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO03010</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Carbon fixation in photosynthetic organisms</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">15</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO00710</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Fructose and mannose metabolism</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">14</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO00051</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Galactose metabolism</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO00052</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Amino and nucleotide sugar metabolism</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO00520</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Purine metabolism</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KO00230</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Pyruvate metabolism</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">12</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">KO00620</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

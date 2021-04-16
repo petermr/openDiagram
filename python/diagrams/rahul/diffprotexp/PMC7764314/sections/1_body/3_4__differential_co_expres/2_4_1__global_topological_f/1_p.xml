@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From the analysis of topological differences between cancer and normal tissue co-expression networks, some general principles have emerged. In particular, network entropy (disorder), measured with different metrics, has been shown to increase in cancer [
+ <xref rid="B109-ijms-21-09461" ref-type="bibr">109</xref>,
+ <xref rid="B110-ijms-21-09461" ref-type="bibr">110</xref>,
+ <xref rid="B111-ijms-21-09461" ref-type="bibr">111</xref>], paralleling an overall decreased connectivity [
+ <xref rid="B112-ijms-21-09461" ref-type="bibr">112</xref>]. Interestingly, entropy is even higher in tumours that metastasise, at least in the breast [
+ <xref rid="B113-ijms-21-09461" ref-type="bibr">113</xref>]. This observation may help in explaining the underlying principles of cancer adaptability and resistance to perturbations, such as treatments with drugs and hypoxia. In fact, the entropy is correlated with the system’s robustness [
+ <xref rid="B114-ijms-21-09461" ref-type="bibr">114</xref>]. In line with this idea, cancer cell lines resistant to three different tyrosine kinase inhibitors have been shown to display higher network entropy than their sensitive counterparts [
+ <xref rid="B115-ijms-21-09461" ref-type="bibr">115</xref>]. This could be interpreted as cancer displaying a higher number of interconnections and possible regulatory relationships for each gene, which makes the whole network resistant to single nodes’ and edges’ disruptions. Moreover, the relationship between entropy and robustness can inform about promising drug targets, represented by low-entropy genes [
+ <xref rid="B109-ijms-21-09461" ref-type="bibr">109</xref>,
+ <xref rid="B116-ijms-21-09461" ref-type="bibr">116</xref>]; interestingly, entropy usually decreases for up-regulated genes in a cancer’s networks [
+ <xref rid="B109-ijms-21-09461" ref-type="bibr">109</xref>]. A second important concept arising from these studies is the differential usage of nodes and edges in cancer: a cancer’s networks tend to be less hub dependent, displaying signalling shortcuts in comparison with normal tissues [
+ <xref rid="B117-ijms-21-09461" ref-type="bibr">117</xref>,
+ <xref rid="B118-ijms-21-09461" ref-type="bibr">118</xref>]. These features, observed in 13 different cancer types, are suggestive of facilitated crosstalk between biological processes that are usually not interconnected, again supporting a higher robustness of cancer networks.
+</p>

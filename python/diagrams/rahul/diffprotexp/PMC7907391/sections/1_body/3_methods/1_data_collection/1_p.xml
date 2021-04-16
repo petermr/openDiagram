@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">The UCSC XenaTools platform
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup> was used to download gene expression data from TCGA, TARGET and GTEx. The UCSC XenaTools platform was also used to download clinical annotations for TCGA data. The GEOquery R package
+ <sup>
+  <xref ref-type="bibr" rid="CR53">53</xref>
+ </sup> was used to download gene expression data along with associated clinical data from the GEO database for GSE103412 and GSE15781. Genes of interest, which were found to be previously differentially regulated in COVID-19, were obtained from the data sets along with differentially regulated GO and KEGG pathways. Further gene sets were obtained from previous chemotherapy-focused studies: a list of differentially expressed genes was obtained from (GSE39324
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>).
+</p>

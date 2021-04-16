@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0090">Gene expression is regulated by the TF. Here, we inferred the TFs that regulate the DEGs by the TF motif enrichment analysis using the TF binding motif database, TRANSFAC (
+ <xref rid="bib42" ref-type="bibr">Matys et al., 2006</xref>; 
+ <xref rid="bib30" ref-type="bibr">Kel et al., 2003</xref>). In liver, we identified 7 TF motifs for the increased DEGs and 14 TF motifs for the decreased DEGs in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice; in skeletal muscle, we identified 17 TF motifs for the increased DEGs and 16 TF motifs for the decreased DEGs (
+ <xref rid="mmc7" ref-type="supplementary-material">Table S6</xref>). Of the TFs corresponding to inferred TF motifs, we identified those included in the DEGs and defined them as the differentially expressed TFs (DETFs). In liver, the increased DETFs included 
+ <italic>Srebf1</italic>, 
+ <italic>Pparg</italic>, 
+ <italic>Klf4</italic>, and 
+ <italic>Esr1</italic>, whereas the decreased DETFs included 
+ <italic>Sp1</italic> and 
+ <italic>Trim28</italic> (
+ <xref rid="fig2" ref-type="fig">Figure 2</xref>F; see also 
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S13</xref>). In skeletal muscle, the increased DETFs included 
+ <italic>Cebpa</italic>, 
+ <italic>Sp4</italic>, and 
+ <italic>Egr1</italic>, whereas the decreased DETFs included 
+ <italic>Xbp1</italic> and 
+ <italic>Trp53</italic> (
+ <xref rid="fig2" ref-type="fig">Figure 2</xref>F). We identified the Foxo1 motif for the decreased DEGs (
+ <xref rid="mmc7" ref-type="supplementary-material">Table S6</xref>) and identified the pFoxo1 as an increased DPP (
+ <xref rid="fig2" ref-type="fig">Figure 2</xref>A). We defined pFoxo1 as a differentially phosphorylated TF (DPTF). Together with the fact that transcriptional activity of Foxo1 decreased by phosphorylation-mediated nuclear export (
+ <xref rid="bib2" ref-type="bibr">Barthel et al., 2005</xref>), the transcriptional activity of Foxo1 is likely to be decreased in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice. Hereafter, we defined the DETFs and the DPTF as differentially regulated TFs (DRTFs). The skeletal-muscle-specific increased DRTFs included 
+ <italic>Egr1</italic>. Given that Foxo1 and 
+ <italic>Egr1</italic> are downstream molecules of Akt (
+ <xref rid="bib2" ref-type="bibr">Barthel et al., 2005</xref>) and Erk (
+ <xref rid="bib62" ref-type="bibr">Thiel and Cibelli, 2002</xref>), respectively, these identified DRTFs are consistent with the liver-specific increased phosphorylation of Akt and skeletal-muscle-specific increased phosphorylation of Erk (
+ <xref rid="fig2" ref-type="fig">Figure 2</xref>A).
+</p>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Alignment and phylogenetic analysis</italic>: For each query, sequences meeting the search criteria described above were aligned using MUSCLE [
+ <xref rid="cit0051" ref-type="bibr">51</xref>] version 3.8.1551 with default settings. Alignments were trimmed using alncut version 1.06 [
+ <xref rid="cit0052" ref-type="bibr">52</xref>] with gaps allowed in 25% of sequences per residue. Trimmed alignments were analyzed using FastTree version 2.1.10 [
+ <xref rid="cit0053" ref-type="bibr">53</xref>] using default settings. In general, branch supports ≥0.95 were considered significant support for bipartitions.
+</p>

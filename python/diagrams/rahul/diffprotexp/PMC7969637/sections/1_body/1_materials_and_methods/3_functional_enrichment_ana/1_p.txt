@@ -1,0 +1,2 @@
+0: For the obtained differentially expressed genes, we used the clusterProfiler function package in R language for enrichment analysis of GO (Gene Ontology, including Biological Process, Molecular Function, and Cellular Component) and KEGG (Kyoto Encyclopedia of Genes and Genomes, including key related pathways) analysis.
+1: When  p< 0.05, we considered the corresponding entries to be significantly enriched ( 16).

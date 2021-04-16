@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We performed ISO- and RNA-seq in control and CPSF1-siRNA transfected groups. The effect of CPSF1 siRNA transfection was confirmed by RNA-seq data (
+ <xref ref-type="supplementary-material" rid="FS3">Supplementary Figure 3</xref>). A total of 9,595 transcripts were identified based on the Iso-Seq pipeline analysis, and these transcripts were used to construct the transcriptome. Short reads were mapped to the hg19 reference genome and used to quantify gene expression based on the constructed transcriptome. Knockdown of CPSF1 resulted in 707 upregulated and 262 downregulated transcripts, filtered by a fold change ≥ 1.5, and a 
+ <italic>P</italic> &lt; 0.05 (
+ <xref ref-type="fig" rid="F5">Figure 5A</xref>). Gene set overrepresentation analysis identified significantly enriched KEGG pathways related to metabolism, cell cycle, protein processing, and nucleotide excision (
+ <xref ref-type="fig" rid="F5">Figure 5B</xref>) and GO biological processes such as cell division, protein folding, and mRNA splicing (
+ <xref ref-type="fig" rid="F5">Figure 5C</xref>). We performed GO functional enrichment analysis on the up- and downregulated transcripts separately. Results further indicated that the downregulated transcripts were mainly related to cell cycle, whereas the upregulated transcripts were related to RNA processing and protein folding (
+ <xref ref-type="supplementary-material" rid="FS4">Supplementary Figure 4</xref>). The top 10 representative up- and downregulated transcripts are listed in 
+ <xref ref-type="fig" rid="F5">Figure 5D</xref>.
+</p>

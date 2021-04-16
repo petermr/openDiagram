@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For protein identification, Mascot software (Version 2.2.1, Matrix Science, London, UK) was used to search the Swiss-Prot human protein sequence database. For proteolytic cleavages, only tryptic cleavage was allowed, and the number of maximal internal (missed) cleavage sites was set to two. Variable modifications of cysteine with carboxyamidomethylation, methionine with oxidation, serine/threonine/tyrosine with phosphorylation, and asparagine/glutamine with deamidation were allowed. Mass tolerances of the precursor peptide ion and fragment ion were set to 20 ppm and 1 Da, respectively. Positive protein identifications were defined when the Mowse scores greater than 100 were considered significant (
+ <italic>P</italic> &lt; 0.05). Proteins were initially annotated by similar searches using UniProtKB/Swiss-Prot databases.
+</p>

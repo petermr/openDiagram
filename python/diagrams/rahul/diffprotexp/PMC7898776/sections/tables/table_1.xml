@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Identification of differentially expressed gene based on transcriptome sequencing</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Gene name</th>
+    <th>W Expression</th>
+    <th>X-Expression</th>
+    <th>log
+     <sub>2</sub>FoldChange(X/W)
+    </th>
+    <th>KEGG map</th>
+    <th>Gene function</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Phosphatidate phosphatase LPIN1</td>
+    <td>43.18282</td>
+    <td>386.1148</td>
+    <td>3.160501</td>
+    <td>Glycerolipid metabolism, Glycerophospholipid metabolism, Metabolic pathways, mTOR signaling pathway.</td>
+    <td>Generating 1,2-Diacyl-sn-glycerol</td>
+   </tr>
+   <tr>
+    <td>3-keto-steroid reductase-like</td>
+    <td>1.127324</td>
+    <td>20.46541</td>
+    <td>4.182214</td>
+    <td>Steroid biosynthesis, Steroid hormone biosynthesis, Metabolic pathways.</td>
+    <td>Generating 4alpha-methylzymosterol or Hydroxyestrone</td>
+   </tr>
+   <tr>
+    <td>general transcription factor IIF subunit 2 isoform X2</td>
+    <td>1.302917</td>
+    <td>25.49286</td>
+    <td>4.290276</td>
+    <td>Basal transcription factors.</td>
+    <td>Transcription</td>
+   </tr>
+   <tr>
+    <td>sterol-4alpha-carboxylate 3-dehydrogenase</td>
+    <td>10.80255</td>
+    <td>140.7436</td>
+    <td>3.703626</td>
+    <td>Steroid biosynthesis, Metabolic pathways.</td>
+    <td>Generating 3-Keto-4-methylzymosterol</td>
+   </tr>
+   <tr>
+    <td>endothelial lipase</td>
+    <td>72.61555</td>
+    <td>753.4305</td>
+    <td>3.375124</td>
+    <td>Glycerolipid metabolism, Metabolic pathways.</td>
+    <td>Generating fatty acid</td>
+   </tr>
+   <tr>
+    <td>serum/glucocorticoid-regulated kinase 1</td>
+    <td>1.328233</td>
+    <td>33.50641</td>
+    <td>4.656857</td>
+    <td>mRNA surveillance pathway, cAMP signaling pathway, cGMP-PKG signaling pathway, Oocyte meiosis, Adrenergic signaling in cardiomyocytes, Vascular smooth muscle contraction, Hippo signaling pathway, Focal adhesion, Platelet activation, Long-term potentiation, Dopaminergic synapse, Inflammatory mediator regulation of TRP channels, Regulation of actin cytoskeleton, Insulin signaling pathway, Oxytocin signaling pathway.</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>ATP-binding cassette, subfamily C (CFTR/MRP), member 12</td>
+    <td>1.067294</td>
+    <td>25.75915</td>
+    <td>4.593055</td>
+    <td>ABC transporters.</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>stearoyl-CoA desaturase</td>
+    <td>863.601</td>
+    <td>10,415.86</td>
+    <td>3.592273</td>
+    <td>Biosynthesis of unsaturated fatty acids, Fatty acid metabolism, PPAR signaling pathway, AMPK signaling pathway, Longevity regulating pathway – worm.</td>
+    <td>Fatty acid desaturation</td>
+   </tr>
+   <tr>
+    <td>PH domain and leucine-rich repeat-containing protein phosphatase</td>
+    <td>4.106606</td>
+    <td>53.87121</td>
+    <td>3.713496</td>
+    <td>hospholipase D signaling pathway, Neuroactive ligand-receptor interaction, Glutamatergic synapse</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Retinol dehydrogenase 12</td>
+    <td>7.270524</td>
+    <td>99.28454</td>
+    <td>3.771438</td>
+    <td>Retinol metabolism, Metabolic pathways</td>
+    <td>Generating all-trans-Retinal</td>
+   </tr>
+   <tr>
+    <td>lymphokine-activated killer T-cell-originated protein kinase homolog</td>
+    <td>6.070951</td>
+    <td>145.7947</td>
+    <td>4.585872</td>
+    <td>Pancreatic secretion, Protein digestion and absorption</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>5-phosphohydroxy-L-lysine phospho-lyase</td>
+    <td>1.974891</td>
+    <td>34.93728</td>
+    <td>4.144922</td>
+    <td>Lysine degradation, Metabolic pathways</td>
+    <td>Generating Allysine</td>
+   </tr>
+   <tr>
+    <td>transcription factor CP2-like protein 1</td>
+    <td>33.3349</td>
+    <td>1.088583</td>
+    <td>−4.93651</td>
+    <td/>
+    <td/>
+   </tr>
+   <tr>
+    <td>serum/glucocorticoid regulated kinase 1</td>
+    <td>87.45664</td>
+    <td>1.841215</td>
+    <td>−5.56984</td>
+    <td>FoxO signaling pathway, mTOR signaling pathway, PI3K-Akt signaling pathway, Aldosterone-regulated sodium reabsorption</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>hypoxia up-regulated 1</td>
+    <td>135.8593</td>
+    <td>1.88101</td>
+    <td>−6.17446</td>
+    <td>Protein processing in endoplasmic reticulum</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Alcohol dehydrogenase [NADP(+)] A</td>
+    <td>550.9179</td>
+    <td>101.9587</td>
+    <td>−2.43385</td>
+    <td>Glycolysis / Gluconeogenesis, Pentose and glucuronate interconversions, Glycerolipid metabolism, Metabolic pathways</td>
+    <td>Generating glucuronate, ethanal or D-Glyceraldehyde</td>
+   </tr>
+   <tr>
+    <td>Phosphatidate phosphatase LPIN1</td>
+    <td>230.0628</td>
+    <td>21.91613</td>
+    <td>−3.39196</td>
+    <td>Glycerolipid metabolism, Glycerophospholipid metabolism, Metabolic pathways, mTOR signaling pathway</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Copper-transporting ATPase 2</td>
+    <td>923.8284</td>
+    <td>210.7988</td>
+    <td>−2.13176</td>
+    <td>Mineral absorption</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>calcium/calmodulin-dependent serine protein kinase</td>
+    <td>55.2038</td>
+    <td>1.86159</td>
+    <td>−4.89016</td>
+    <td>Tight junction</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>solute carrier family 2, facilitated glucose transporter member 5</td>
+    <td>16.81712</td>
+    <td>0.94255</td>
+    <td>−4.15722</td>
+    <td>Carbohydrate digestion and absorption</td>
+    <td>Froctose or glucose absorption</td>
+   </tr>
+   <tr>
+    <td>phosphoglycolate phosphatase</td>
+    <td>15.43525</td>
+    <td>0.934372</td>
+    <td>−4.04609</td>
+    <td>Glyoxylate and dicarboxylate metabolism, Metabolic pathways, Carbon metabolism</td>
+    <td>Generating glycolate</td>
+   </tr>
+   <tr>
+    <td>Nuclear receptor coactivator 7</td>
+    <td>31.91563</td>
+    <td>1.559127</td>
+    <td>−4.35545</td>
+    <td>RNA degradation</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Plasma kallikrein</td>
+    <td>20,520.24</td>
+    <td>418.6751</td>
+    <td>−5.61507</td>
+    <td>Complement and coagulation cascades</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>complement component 2</td>
+    <td>2119.225</td>
+    <td>73.06701</td>
+    <td>−4.85817</td>
+    <td>Complement and coagulation cascades,</td>
+    <td/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>False Discovery Rate (FDR) ≤ 0.001, Fold Change ≥1.00</p>
+ </table-wrap-foot>
+</table-wrap>

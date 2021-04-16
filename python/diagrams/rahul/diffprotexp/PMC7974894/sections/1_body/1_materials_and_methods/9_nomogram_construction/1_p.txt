@@ -1,0 +1,6 @@
+0: The clinically-relevant candidate variables (age, gender, tumor stage, and riskscore) were collected from the TCGA and GEO-retrieved tongue cancer patients.
+1: Cox regression analysis was performed to calculate the hazard ratios (HRs) and 95% confidence intervals (CIs) of the putative prognosticators.
+2: The result shows that only the continuous variable riskscore based on the six hub RBPs were independently associated with overall survival (OS) of TCGA- and GSE41613-retrieved tongue cancer patients ( Figure S4).
+3: Thus, the nomogram model based on the six hub RBPs was formulated by using rms R package to predict survival of tongue cancer patients  30.
+4: Based on the nomogram model, each RBP was ascribed a weighted point.
+5: Together, the six hub RBPs were applied for predicted the prognosticated survival.

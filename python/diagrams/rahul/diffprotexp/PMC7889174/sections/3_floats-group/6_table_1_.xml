@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Diseases associated with nuclear envelope-associated genes restricted to Metazoa</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Gene</th>
+    <th align="center">Protein</th>
+    <th align="center">Associated Disease</th>
+    <th align="center">Reference</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ergic1</italic>
+     <hr/>
+    </td>
+    <td align="left">Endoplasmic reticulum-Golgi intermediate compartment protein 1
+     <hr/>
+    </td>
+    <td align="left">Arthrogryposis multiplex congenita (AMC, neurophatic type), gastric cancer
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0119">119</xref>,
+     <xref ref-type="bibr" rid="cit0120">120</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nat10</italic>
+     <hr/>
+    </td>
+    <td align="left">N-acetyltransferase 10
+     <hr/>
+    </td>
+    <td align="left">Hepatocellular carcinoma
+     <break/>HGPS (Hutchinson-Gilford progeria syndrome), Muscular dystrophy
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0121 cit0122 cit0123 cit0124">121–124</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Alg2</italic>
+     <hr/>
+    </td>
+    <td align="left">α-1,3/1,6-mannosyltransferase
+     <hr/>
+    </td>
+    <td align="left">Congenital disorder of glycosylation (type Ii), Congenital myasthenic syndrome
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0125 cit0126 cit0127">125–127</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">AbcB1</italic>
+     <hr/>
+    </td>
+    <td align="left">ATP-binding cassette subfamily B, member 1
+     <hr/>
+    </td>
+    <td align="left">Inflammatory bowel disease 13, Encephalopathy
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0128">128</xref>,
+     <xref ref-type="bibr" rid="cit0129">129</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Tmem43</italic>
+     <hr/>
+    </td>
+    <td align="left">Transmembrane protein 43
+     <hr/>
+    </td>
+    <td align="left">Ventricular displasia 5 (ARVC5), Emery-Dreifuss muscular dystrophy 7
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0099">99</xref>, 
+     <xref ref-type="bibr" rid="cit0130 cit0131 cit0132">130–132</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Erlin2</italic>
+     <hr/>
+    </td>
+    <td align="left">ER lipid raft associated 2
+     <hr/>
+    </td>
+    <td align="left">Spastic paraplegia 18, Motor system conditions
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0103">103</xref>,
+     <xref ref-type="bibr" rid="cit0133">133</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Lbr</italic>
+     <hr/>
+    </td>
+    <td align="left">Lamin B receptor
+     <hr/>
+    </td>
+    <td align="left">Greenberg skeletal displasia, Pelger-Huet anomaly, Reynolds síndrome
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0134">134</xref>,
+     <xref ref-type="bibr" rid="cit0135">135</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Magt1</italic>
+     <hr/>
+    </td>
+    <td align="left">Magnesium transporter 1
+     <hr/>
+    </td>
+    <td align="left">Immunodeficiency with magnesium defect, Epstein-Barr virus infection and neoplasia (XMEN), Mental retardation (X-linked), Congenital disorder of glycosylation 1CC (CDG1CC)
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0136">136</xref>,
+     <xref ref-type="bibr" rid="cit0137">137</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Wfs1</italic>
+     <hr/>
+    </td>
+    <td align="left">Wolframin
+     <hr/>
+    </td>
+    <td align="left">Wolfram syndrome (diabetes mellitus, optic atrophy, deafness)
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0138">138</xref>,
+     <xref ref-type="bibr" rid="cit0139">139</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Tmem201</italic>
+     <hr/>
+    </td>
+    <td align="left">Transmembrane protein 201
+     <hr/>
+    </td>
+    <td align="left">Emery-Dreifuss muscular dystrophy
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0106">106</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Lrrc8A</italic>
+     <hr/>
+    </td>
+    <td align="left">Leucine rich repeat containing 8 family, member A
+     <hr/>
+    </td>
+    <td align="left">Agammaglobulinemia, Glaucoma
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0140">140</xref>,
+     <xref ref-type="bibr" rid="cit0141">141</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Sqstm1</italic>
+     <hr/>
+    </td>
+    <td align="left">Sequestosome 1
+     <hr/>
+    </td>
+    <td align="left">Paget disease (bone turnover), Dementia, Sclerosis, Neurodegeneration, Myopathy, Alzheimer’s disease, Lymphoblastic leukemia
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0142 cit0143 cit0144 cit0145 cit0146">142–146</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Tmem70</italic>
+     <hr/>
+    </td>
+    <td align="left">Transmembrane protein 70
+     <hr/>
+    </td>
+    <td align="left">Mitochondrial disease (ATP synthase deficiency)
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0147">147</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Lemd3</italic>
+     <hr/>
+    </td>
+    <td align="left">LEM domain containing 3
+     <hr/>
+    </td>
+    <td align="left">Buschke-Ollendorff syndrome (skin and bone disorders)
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0148">148</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ryr1</italic>
+    </td>
+    <td align="left">Ryanodine receptor 1</td>
+    <td align="left">Malignant hyperthermia, Myopathy, Neuromuscular disorder</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0149 cit0150 cit0151 cit0152">149–152</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">EGFR</italic>
+     <hr/>
+    </td>
+    <td align="left">Epidermal growth factor receptor
+     <hr/>
+    </td>
+    <td align="left">Lung cancer, Neonatal skin/bowel disease
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0153">153</xref>,
+     <xref ref-type="bibr" rid="cit0154">154</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Emd</italic>
+     <hr/>
+    </td>
+    <td align="left">Emerin
+     <hr/>
+    </td>
+    <td align="left">Emery-Dreifuss muscular dystrophy
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0098">98</xref>,
+     <xref ref-type="bibr" rid="cit0155">155</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">NET46</italic>
+     <hr/>
+    </td>
+    <td align="left">Steroid transmembrane transporter
+     <hr/>
+    </td>
+    <td align="left">Connotruncal heart defects (CTDs) in newborns
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0156">156</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Lemd2</italic>
+     <hr/>
+    </td>
+    <td align="left">LEM domain-containing protein 2
+     <hr/>
+    </td>
+    <td align="left">Juvenile-onset cataracts in Hutterties population
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0157">157</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">AMACO</italic>
+     <hr/>
+    </td>
+    <td align="left">A domain-containing protein similar to matrilin and collagen
+     <hr/>
+    </td>
+    <td align="left">Colon cancer
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0158">158</xref>,
+     <xref ref-type="bibr" rid="cit0159">159</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Tor1aip2</italic>
+     <hr/>
+    </td>
+    <td align="left">Torsin A-interacting protein 2
+     <hr/>
+    </td>
+    <td align="left">Dystonia
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0160">160</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">LAP2</italic>
+     <hr/>
+    </td>
+    <td align="left">Lamin A-associated polypeptide 2, Thymopoietin
+     <hr/>
+    </td>
+    <td align="left">Cardiomyopathy
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0161">161</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Syne-1</italic>
+     <hr/>
+    </td>
+    <td align="left">Nesprin 1
+     <break/>(Nuclear envelope spectrine repeat protein 1)
+     <hr/>
+    </td>
+    <td align="left">Spinocerebellar ataxia, Emery-Dreifuss muscular dystrophy, Arthrogryposis
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0098">98</xref>, 
+     <xref ref-type="bibr" rid="cit0112">112</xref>, 
+     <xref ref-type="bibr" rid="cit0162">162</xref>, 
+     <xref ref-type="bibr" rid="cit0163">163</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Syne-2</italic>
+     <hr/>
+    </td>
+    <td align="left">Nesprin 2
+     <break/>(Nuclear envelope spectrine repeat protein 2)
+     <hr/>
+    </td>
+    <td align="left">Emery-Dreifuss muscular dystrophy
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0098">98</xref>,
+     <xref ref-type="bibr" rid="cit0112">112</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Syne-3</italic>
+    </td>
+    <td align="left">Nesprin 3
+     <break/>(Nuclear envelope spectrine repeat protein 3)
+    </td>
+    <td align="left">Emery-Dreifuss muscular dystrophy</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0106">106</xref>]
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

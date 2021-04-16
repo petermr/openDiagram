@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig6">
+ <label>Fig. 6</label>
+ <caption>
+  <title>Identification of a regulatory element for MEOX1.</title>
+  <p>
+   <bold>a</bold> ATAC-seq profile at 
+   <italic>MEOX1</italic> locus. Grey box indicates putative enhancer identified. FOXO1 and ZIC3 footprints identified within enhancer element. Mutant reporter sequence for 
+   <italic>MEOX1</italic> Enh ZIC/FOXO mutant. 
+   <bold>b</bold>
+   <italic>MEOX1</italic> Enh reporter expression in presomitic mesoderm (Psm) and in somites (So) (
+   <italic>n</italic> = 13/13). 
+   <bold>c</bold> Transverse sections of embryo in 
+   <bold>b</bold> immunostained for Citrine showing 
+   <italic>MEOX1</italic> Enh expression in epithelial somites, white dashed line in 
+   <bold>b</bold> indicates location of section, representative of (
+   <italic>n</italic> = 4/4). Nuclei stained with DAPI (blue). 
+   <bold>d</bold> Still photographs from a time-lapse movie of 
+   <italic>MEOX1</italic> Enh with the primitive streak (Ps) indicated. Fluorescent activity first observed in prospective paraxial mesoderm (Pm) at HH6 and continuous expression in the presomitic mesoderm (Psm) at HH7 prior to expression in somites (So) at HH8 and HH10 (
+   <italic>n</italic> = 3/3). 
+   <bold>e</bold> FOXO1 and ZIC3 binding site mutation in 
+   <italic>MEOX1</italic> Enh Citrine reporter led to loss of expression (
+   <italic>n</italic> = 6/7). Epigenome engineering using dCas9-Krab with (
+   <bold>f</bold>) control scrambled sgRNAs resulted in no change (
+   <italic>n</italic> = 6/7) and (
+   <bold>g</bold>) sgRNAs targeting endogenous FOXO1 and ZIC3 binding sites led to loss of 
+   <italic>MEOX1</italic> expression (
+   <italic>n</italic> = 9/11) as shown by wholemount in situ hybridisation. 
+   <bold>h</bold> Percentage of embryos with normal (blue) or reduced (orange) MEOX1 expression after injection and electroporation of control scrambled sgRNA with dCas9-Krab or sgRNAs targeting MEOX1 Enh FOXO1 and ZIC3 binding sites with dCas9-Krab. 
+   <bold>i</bold> Protein–protein network analysis using STRING database. Interactions between genes identified with MEOX1 footprints in an accessible region, within 10 kb upstream or downstream. Highlighted in red are genes correlated with anatomical structural development based on GO analysis. 
+   <bold>j</bold> RT-qPCR on somites dissected from wild-type (WT) embryos, or embryos electroporated with control scrambled sgRNA and dCas9-Krab, or sgRNAs targeting 
+   <italic>MEOX1</italic> Enh FOXO1 and ZIC3 binding sites with dCas9-Krab. Statistical significance was determined by a two-tailed Student’s 
+   <italic>t</italic> test. **
+   <italic>p</italic> = 0.001–0.01; *
+   <italic>p</italic> = 0.01–0.1; ns not significant. All scale bars = 500 μm except for 
+   <bold>c</bold> scale bar = 100 μm.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2021_21426_Fig6_HTML" id="d32e1731" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

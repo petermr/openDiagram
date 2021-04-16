@@ -1,0 +1,5 @@
+0: The binding of heparin and BLF was monitored by DSF using a Thermal Fisher QuantStudio TM 5 Real-Time PCR System as previously described [ 57] with minor modifications.
+1: TSA plates were prepared by mixing BLF (final concentration of 100 g/ml) with different concentrations (0.02200 g/ml) of heparin and incubated at 30 C for 1 h. 1  SYPRO orange (Thermal Fisher) were added and the fluorescence of the plates were taken under a temperature gradient ranging from 20 to 95 C (incremental steps of 0.05 C/s).
+2: The melting temperature ( T  m) was calculated as the mid-log of the transition phase from the native to the denatured protein using a Boltzmann model in Protein Thermal Shift Software v1.3.
+3: T  m was calculated by subtracting reference melting temperature of proteins in the presence of H 2O from the  T  m in the presence of heparin.
+4: Curve fitting was performed using the Boltzmann sigmoidal equation in Prism (v8) software.

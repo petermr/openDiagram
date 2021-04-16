@@ -1,0 +1,572 @@
+{
+  "id": [
+    "33659194"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33659194"
+  ],
+  "pmcid": [
+    "PMC7890154"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7890154"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1016/j.btre.2021.e00597"
+  ],
+  "title": [
+    "Characterizing the putative mitogen-activated protein kinase (<i>MAPK</i>) and their protective role in oxidative stress tolerance and carbon assimilation in wheat under terminal heat stress."
+  ],
+  "authorString": [
+    "Kumar RR, Dubey K, Arora K, Dalal M, Rai GK, Mishra D, Chaturvedi KK, Rai A, Kumar SN, Singh B, Chinnusamy V, Praveen S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Kumar RR"
+          ],
+          "firstName": [
+            "Ranjeet R"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "RR"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biochemistry, Indian Agricultural Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dubey K"
+          ],
+          "firstName": [
+            "Kavita"
+          ],
+          "lastName": [
+            "Dubey"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biochemistry, Indian Agricultural Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Arora K"
+          ],
+          "firstName": [
+            "Kirti"
+          ],
+          "lastName": [
+            "Arora"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biochemistry, Indian Agricultural Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dalal M"
+          ],
+          "firstName": [
+            "Monika"
+          ],
+          "lastName": [
+            "Dalal"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR-National Institute for Plant Biotechnology, Pusa Campus, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rai GK"
+          ],
+          "firstName": [
+            "Gyanendra K"
+          ],
+          "lastName": [
+            "Rai"
+          ],
+          "initials": [
+            "GK"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Sher-e-Kashmir University of Agricultural Sciences and Technology, Jammu, 180009, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mishra D"
+          ],
+          "firstName": [
+            "Dwijesh"
+          ],
+          "lastName": [
+            "Mishra"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "CABin, Indian Agricultural Statistics Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chaturvedi KK"
+          ],
+          "firstName": [
+            "Krishna K"
+          ],
+          "lastName": [
+            "Chaturvedi"
+          ],
+          "initials": [
+            "KK"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "CABin, Indian Agricultural Statistics Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rai A"
+          ],
+          "firstName": [
+            "Anil"
+          ],
+          "lastName": [
+            "Rai"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "CABin, Indian Agricultural Statistics Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kumar SN"
+          ],
+          "firstName": [
+            "Soora Naresh"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "SN"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Centre for Environment Science and Climate Resilient Agriculture (CESCRA), Indian Agricultural Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Singh B"
+          ],
+          "firstName": [
+            "Bhupinder"
+          ],
+          "lastName": [
+            "Singh"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Centre for Environment Science and Climate Resilient Agriculture (CESCRA), Indian Agricultural Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chinnusamy V"
+          ],
+          "firstName": [
+            "Viswanathan"
+          ],
+          "lastName": [
+            "Chinnusamy"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Plant Physiology, Indian Agricultural Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Praveen S"
+          ],
+          "firstName": [
+            "Shelly"
+          ],
+          "lastName": [
+            "Praveen"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biochemistry, Indian Agricultural Research Institute, New Delhi, 110012, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "29"
+      ],
+      "journalIssueId": [
+        "3080413"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Biotechnology reports (Amsterdam, Netherlands)"
+          ],
+          "ISOAbbreviation": [
+            "Biotechnol Rep (Amst)"
+          ],
+          "medlineAbbreviation": [
+            "Biotechnol Rep (Amst)"
+          ],
+          "NLMid": [
+            "101637426"
+          ],
+          "ISSN": [
+            "2215-017X"
+          ],
+          "ESSN": [
+            "2215-017X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "e00597"
+  ],
+  "abstractText": [
+    "Wheat, being sensitive to terminal heat, causes drastic reduction in grain quality and yield. MAPK cascade regulates the network of defense mechanism operated inside plant system. Here, we have identified 21 novel MAPKs through gel-based proteomics and RNA-seq data analysis. Based on digital gene expression, two transcripts (transcript_2834 and transcript_8242) showing homology with MAPK were cloned and characterized from wheat (acc. nos. MK854806 and KT835664). Transcript_2834 was cloned in pET28a vector and recombinant MAPK protein of ∼40.3 kDa was isolated and characterized to have very high <i>in-vitro</i> kinase activity under HS. Native MAPK showed positive correlation with the expression of TFs, HSPs, genes linked with antioxidant enzyme (SOD, CAT, GPX), photosynthesis and starch biosynthesis pathways in wheat under HS. Wheat <i>cv</i>. HD3086 (thermotolerant) having higher expression and activity of MAPK under HS showed significant increase in accumulation of proline, H<sub>2</sub>O<sub>2</sub>, starch, and granule integrity, compared with BT-Schomburgk (thermosusceptible)."
+  ],
+  "affiliation": [
+    "Division of Biochemistry, Indian Agricultural Research Institute, New Delhi, 110012, India."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Starch",
+        "Triticum",
+        "Recombinant fusion proteins",
+        "Mitogen-activated protein kinases",
+        "Heat-shock response",
+        "thermotolerance",
+        "Mapk, Mitogen-activated Protein Kinase",
+        "Cat, Catalase",
+        "Hs, Heat Stress",
+        "2-De, 2-Dimensional Electrophoresis",
+        "Cd, Conserved Domain",
+        "Dge, Digital Gene Expression",
+        "Hsr, Heat Shock Response",
+        "Sags, Stress-associated Genes",
+        "Saps, Stress-associated Proteins"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.btre.2021.e00597"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7890154"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7890154?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject",
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-04"
+  ],
+  "firstIndexDate": [
+    "2021-03-05"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-04"
+  ],
+  "dateOfRevision": [
+    "2021-03-05"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-05"
+  ],
+  "firstPublicationDate": [
+    "2021-02-05"
+  ]
+}

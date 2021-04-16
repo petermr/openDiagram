@@ -1,0 +1,7 @@
+0: To compare the relative expression patterns and differentially expressed miRNAs, differential gene expression (DGE) analysis was carried out using DESeq8 tool.
+1: The variations in the reads were normalized by the library normalization method opted from DESeq library.
+2: Mean normalised read counts of the samples in a given condition were used for DGE calculation and heat map generation.
+3: Details on differential expression analysis were made according to Anders and Huber 27.
+4: DESeq was used to calculate size factor where the read counts were normalized to transcripts per million (TPM).
+5: Normalization was done using following formula: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {\text{Normalized Counts}} = {\text{Raw Count}}/{\text{Size factor}}.
+6: $$\end{document}Normalized Counts=Raw Count/Size factor.

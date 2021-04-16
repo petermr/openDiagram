@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00257-f007" orientation="portrait" position="float">
+ <label>Figure 7</label>
+ <caption>
+  <p>Associations of the indicated LE genes with prostate cancer relapse in The Cancer Genome Atlas (TCGA) PanCancer (
+   <italic>n</italic> = 492) and MSKCC (
+   <italic>n</italic> = 140) cohorts. Univariate Cox PH (proportional hazard) analyses were performed using R survival package. The PH assumption was violated for FBXO6 in the MSKCC cohort; the assumption for others was confirmed. The FBXO6 expression in the MSKCC cohort was presented as log2 transformed data. HR and 95% CI for TEME45B in the TCGA dataset are 1, respectively.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00257-g007" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

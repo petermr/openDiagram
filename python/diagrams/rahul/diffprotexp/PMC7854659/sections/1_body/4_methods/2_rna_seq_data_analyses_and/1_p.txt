@@ -1,0 +1,3 @@
+0: Data quality control was performed with FastQC v.0.11.8 74 ( https://rb.gy/lxqcwa) and MultiQC v.1.8 75 ( https://multiqc.info/) software.
+1: Filtered reads were mapped to the bovine reference genome (ARS-UCD 1.2) 76 and gene annotation file (release 100) from the  Ensembl database.
+2: The STAR aligner version 2.7.3a 77 ( https://rb.gy/dlgdva) using the  quantMode GeneCounts flag was used to obtain the raw counts per gene.

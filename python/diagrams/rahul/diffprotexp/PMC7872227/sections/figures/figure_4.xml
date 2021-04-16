@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pone.0246818.g004" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0246818.g004</object-id>
+ <label>Fig 4</label>
+ <caption>
+  <title>The DEGs’ volcano graph between group U and group B (the control group).</title>
+  <p>The x-axis represents the log
+   <sub>2</sub>(fold change) for each gene of the 
+   <italic>S</italic>. 
+   <italic>pasteurii</italic> transcriptome. The y-axis represents the negative log
+   <sub>10</sub> of the FDR-adjusted P-value. Green dots represent genes that were significantly down-regulated. Red dots represent genes that were significantly up-regulated.
+  </p>
+ </caption>
+ <graphic xlink:href="pone.0246818.g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

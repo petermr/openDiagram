@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Motivated by a desire to locate the 
+ <italic>Adipoq-Cre</italic> transgene insertion site, we performed whole-genome sequencing on a hemizygous 
+ <italic>Adipoq-Cre</italic>
+ <sup>±</sup>;
+ <italic>Adam10</italic>
+ <sup>WT/WT</sup> mouse. The data from 100-bp paired end sequencing yielded greater than 80X average coverage of the mouse genome (2,189,169,434 total clean reads) with a 99.28% alignment rate using the sequence aligner Bowtie2 [
+ <xref rid="cit0013" ref-type="bibr">13</xref>]. The mouse genome aligned data (BAM) was analysed using the program LUMPY, a probabilistic framework for structural variant discovery [
+ <xref rid="cit0014" ref-type="bibr">14</xref>]. Screened variants that included the region near the 
+ <italic>Adipoq</italic> locus on chromosome 16 and had a split-read or a mate pair that mapped to chromosome 9 were investigated further. Chromosome breakpoints and read specific evidence were visualized and confirmed using the Integrative Genomics Viewer [
+ <xref rid="cit0015" ref-type="bibr">15–17</xref>]. Strong evidence was found for the following structural variants: +[chr16:23,118,416]:-[chr9:87,704,340], +[chr16: 23,025,572]:+[chr9: 87,794,649], +[chr16: 23,070,260]:-[chr9: 87,794,381], where + and – denote chromosome strand orientation. To our surprise, these structural variants between chromosome 9 and chromosome 16 bracketed the transcription factor gene T-box18 (
+ <italic>Tbx18</italic>) on chromosome 9, with one breakpoint located in the final exon of 
+ <italic>Tbx18</italic> (
+ <xref ref-type="fig" rid="f0001">Figure 1a</xref>). Our results further suggested possible 
+ <italic>Tbx18</italic> gene expression changes that might have implications for data generated using the 
+ <italic>Adipoq-Cre</italic> transgenic mouse model. Furthermore, the identified 
+ <italic>Adipoq-Cre</italic> transgene insertion site is in close genetic proximity to relevant genes in adipocyte biology, including the long-chain fatty-acid elongation genes 
+ <italic>Elovl5</italic> and 
+ <italic>Elovl4</italic> and the classic brown adipocyte marker gene zinc finger protein of the cerebellum 1 (
+ <italic>Zic1</italic>) (
+ <xref rid="t0002" ref-type="table">Table 2</xref>). It is important to note that it would be difficult or impossible to generate conditional deletion models for these genes using the 
+ <italic>Adipoq-Cre</italic> mouse model. 
+</p>

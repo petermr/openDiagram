@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We want to emphasize here that DEqMS is developed on top of Limma. A core part of limma is its calculation of a so-called empirical-Bayesian prior variance, which describes one's prior expectation of the variance for a gene from the variance observed for all the other genes. By default, limma estimates a fixed prior distribution for all genes, but it has been shown by Sartor 
+ <italic>et al.</italic> (
+ <xref rid="B16" ref-type="bibr">16</xref>) that it is advantageous to let the priors mean depend on further covariates, specifically on the genes' expression strength (averaged over all samples), if the variance seems to depend on it. Sartor 
+ <italic>et al.</italic> provided an R function, called “intensity-based moderated t-statistic” (IBMT), which could be used within an analysis with the limma package to modify limma's workflow and include such an intensity-dependent prior variance. A similar functionality, dubbed “limma-trend” was later added natively to limma by the limma package's authors (
+ <xref rid="B15" ref-type="bibr">15</xref>).
+</p>

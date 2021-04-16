@@ -1,0 +1,5 @@
+0: In the current study, transcriptomic alignments were performed using Tophat v2.0.12 against the reference genome of  Gallus gallus ( ftp://ftp.ensembl.org/pub/release-72/fasta/gallus_gallus/dna) 16.
+1: Transcript counts were estimated using HTSeq v0.6.1 with default parameters 17.
+2: Based on the sequencing depth and gene length of the read count, FPKM (Fragment reads Per Kilobase per Million mapped reads) was chosen in this study as the key parameter in gene expression analyses.
+3: Differential gene expression was analyzed using count data from the TopHatHTSeq pipeline was by DESeq v1.42.0 18.
+4: A q-value of < 0.05, which was adjusted from p-value by the Benjamini&Hochberg method, was employed in this study and the 1.5-fold minimum differential expression was designated as the threshold of differentially expressed genes 19.

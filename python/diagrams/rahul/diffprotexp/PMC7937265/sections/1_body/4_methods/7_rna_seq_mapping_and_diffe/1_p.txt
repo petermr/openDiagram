@@ -1,0 +1,6 @@
+0: RNA-seq data were mapped using STAR version 2.7.3a [ 61] with a 2-pass mapping approach to the  T. guttata genome [ 62] version 3.2.4, downloaded from Ensembl ( http://www.ensembl.org) in March 2017.
+1: Samples were first mapped individually, and splice junctions were identified.
+2: Samples were then remapped with splice junctions provided as input.
+3: Approx.
+4: 32.9 million reads/sample ( 2.2 SE) were mapped (Supplementary Table S8, Additional file  1).
+5: Read counts for protein coding genes were quantified using STAR and normalized values were determined using the DESeq2 package [ 63] in R/Bioconductor (genes with less than 10 total reads across samples were filtered).

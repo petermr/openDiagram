@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="ppat.1009245.g002" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.ppat.1009245.g002</object-id>
+ <label>Fig 2</label>
+ <caption>
+  <title>Examples of different analysis approaches to extract and help the interpretation of biological information from metaproteome datasets.</title>
+  <p>(A) Table containing all proteins identified per taxon and associated PSMs. (B) Microbiome composition in terms of biomass contributions can be provided by the summed relative protein abundance of each taxon. (C) Volcano plots display abundance differences and thresholds derived from statistical tests corrected for multiple hypothesis testing and allow for the identification of differentially abundant proteins between treatments/conditions. (D) Multivariate analyses, visualized by PCA plots and hierarchical clustering, help to classify samples according to protein abundance differences. (E) COG represent functional protein groups across different microbes. (F) Pathway reconstruction supported by pathway databases. (G) Analyses of protein–protein interaction networks by mapping protein functional categories. These types of tests and visualizations are available through R packages [
+   <xref rid="ppat.1009245.ref030" ref-type="bibr">30</xref>] or the free GUI-based software Perseus [
+   <xref rid="ppat.1009245.ref031" ref-type="bibr">31</xref>] customized for proteomic data analysis. COG, Clusters of Ortholog Groups; PCA, principal component analysis; PSM, peptide-spectrum match.
+  </p>
+ </caption>
+ <graphic xlink:href="ppat.1009245.g002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

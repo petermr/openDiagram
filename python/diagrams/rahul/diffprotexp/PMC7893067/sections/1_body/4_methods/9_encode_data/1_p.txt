@@ -1,0 +1,3 @@
+0: Gene counts (hg19) of polyA and non-polyA RNAseq data of cytoplasmic and nuclear fractions for the cell lines: GM12878, HUVEC, HepG2, HeLa-S3, NHEK, K562, IMR90, MCF-7, A549, and SK-N-SH, were obtained from ENCODE project (GEO:GSE30567).
+1: For NEMPs and ribosomal protein-coding genes analyses, polyA data were normalized for protein-coding genes.
+2: For lncRNA analysis, gene counts (polyA) were normalized for protein-coding and lncRNA genes.

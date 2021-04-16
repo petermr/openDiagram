@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par68">
+ <bold>ILP2:</bold>
+ <disp-formula id="Equ4">
+  <alternatives>
+   <tex-math id="M125">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{*{20}c} \textbf{Maximize} &amp; \Sigma w_i x_i \\ \textbf{Subject to} &amp; \Sigma x_i=s \\ &amp; k_i-k_j+nx_i \ge 1 \: \forall (v_i,v_j)\in E \\ &amp; \textbf{where} \: 0 \le k_i \le n-1 \: \textbf{and} \: x_i \: \textbf{is \,Boolean} \end{array}$$\end{document}</tex-math>
+   <math id="M126" display="block">
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mi mathvariant="bold">Maximize</mi>
+       </mtd>
+       <mtd>
+        <mrow>
+         <mi mathvariant="normal">Σ</mi>
+         <msub>
+          <mi>w</mi>
+          <mi>i</mi>
+         </msub>
+         <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mrow/>
+         <mi mathvariant="bold">Subject</mi>
+         <mi mathvariant="bold">to</mi>
+        </mrow>
+       </mtd>
+       <mtd>
+        <mrow>
+         <mi mathvariant="normal">Σ</mi>
+         <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>=</mo>
+         <mi>s</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow/>
+       </mtd>
+       <mtd>
+        <mrow>
+         <msub>
+          <mi>k</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>-</mo>
+         <msub>
+          <mi>k</mi>
+          <mi>j</mi>
+         </msub>
+         <mo>+</mo>
+         <mi>n</mi>
+         <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>≥</mo>
+         <mn>1</mn>
+         <mspace width="0.222222em"/>
+         <mo>∀</mo>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <msub>
+           <mi>v</mi>
+           <mi>i</mi>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mi>v</mi>
+           <mi>j</mi>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mo>∈</mo>
+         <mi>E</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow/>
+       </mtd>
+       <mtd>
+        <mrow>
+         <mi mathvariant="bold">where</mi>
+         <mspace width="0.222222em"/>
+         <mn>0</mn>
+         <mo>≤</mo>
+         <msub>
+          <mi>k</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>≤</mo>
+         <mi>n</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+         <mspace width="0.222222em"/>
+         <mi mathvariant="bold">and</mi>
+         <mspace width="0.222222em"/>
+         <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+         </msub>
+         <mspace width="0.222222em"/>
+         <mi mathvariant="bold">is</mi>
+         <mspace width="0.166667em"/>
+         <mi mathvariant="bold">Boolean</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </math>
+   <graphic xlink:href="12859_2021_4062_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>The constraint 
+ <inline-formula id="IEq60">
+  <alternatives>
+   <tex-math id="M127">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Sigma x_i =s$$\end{document}</tex-math>
+   <math id="M128">
+    <mrow>
+     <mi mathvariant="normal">Σ</mi>
+     <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mi>s</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq60.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> ensures that the selected FVS is an MFVS, while the objective function selects the maximum-weight MFVS among all possible MFVSs.
+</p>

@@ -1,0 +1,9 @@
+0: To build the PcATP2 model, a divide and conquer strategy was taken.
+1: TOPCONS algorithm [ 34] was used to infer membrane protein topology, resulting in 10 TMs.
+2: The large intracellular domains (ICD) between TM2 and TM3 (ICD1) and TM4 and TM5 (ICD2) were aligned using MAFFT [ 35] and modeled independently in MODELLER [ 36].
+3: ICD1 was modeled against templates 6KG7, 6ROH, and 1IWO.
+4: ICD2 was modeled against templates 6K7G, 6ROH, 1IWO, 4HQJ, and 5MPM.
+5: All TMs were modeled by carbon alpha molecular replacement in UCSF Chimera [ 37] using 6K7G and 6ROH as templates.
+6: The whole PcATP2 sequence was realigned using MAFFT and manually refined against the ICD1, ICD2, and the TMs.
+7: This alignment was used as template to build the overall PcATP2 model in MODELLER.
+8: PcATP2 model was embedded in an POPC bilayer, energy minimized, and equilibrated for 10 ns using the CHARMM36F [ 38] force field.

@@ -1,0 +1,5 @@
+0: RNA sequencing analysis was carried out following our established conditions [ 39].
+1: RNA was extracted from LNCaP cells (stably expressing EV or CNTN1) using a miRNeasy Mini Kit (Qiagen, Toronto, ON, Canada; No.
+2: 217004) according to the manufacturers instructions; libraries were prepared with TruSeq Ribo Profile Mammalian Kit (Illumina, San Diego, CA, USA; RPHMR12126) following manufacturers instructions, and sequenced by BGI using the HiSeq 4000 system.
+3: RNA sequences were quantified by BGI ( http://www.genomics.cn/en/navigation/show_navigation?nid=2657 accessed on 19 December 2020) and expressed as fragments per kilobase of exon per million fragments mapped (FPKM) according to the formula: FPKM = 10 6C/(NL/10 3) with C being the number of fragments aligned to a specific gene, N representing the total number of fragments aligned, and L for the combined exon length of a gene.
+4: Differentially expressed genes (DEGs) were produced by BGI using the Poisson Distribution Method.

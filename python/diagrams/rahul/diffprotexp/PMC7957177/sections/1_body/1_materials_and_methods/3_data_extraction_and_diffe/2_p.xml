@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For comparisons among normal and cancer tissues, we analyzed all genes of normal and cancer samples online with GEO2R and tested the differences between the two categories in every dataset we selected, after then we downloaded corresponding files to screen differentially expressed genes, respectively. Then drawing two venn diagrams of genes with significantly (adjustment 
+ <italic>p</italic> value&lt;0.05) high and low expression in five datasets with the largest total sample size, and listing the expression in the five datasets above of these genes as the result, which was draw with an online tool on a website specialized to make venn diagrams (
+ <ext-link ext-link-type="uri" xlink:href="http://bioinformatics.psb.ugent.be/webtools/Venn/" xmlns:xlink="http://www.w3.org/1999/xlink">http://bioinformatics.psb.ugent.be/webtools/Venn/</ext-link>).
+</p>

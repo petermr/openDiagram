@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F5" position="float">
+ <label>FIGURE 5</label>
+ <caption>
+  <p>The interactions between PRAD differential lncRNAs and major immune cells and immune checkpoint genes. 
+   <bold>(A)</bold> The correlations between significant differential lncRNAs and major immune cell types. Colors indicate correlation coefficients and diamond sizes represent FDR values. 
+   <bold>(B)</bold> Comparison of relative abundance of memory resting T cells between high and low expression levels of MAGI2-AS3 in PRAD samples. 
+   <bold>(C)</bold> Comparison of relative abundance of memory resting T cells between high and low expression levels of CTD-3184A7.4 in PRAD samples. 
+   <bold>(D)</bold> Heatmap shows the correlations between the expression of immune checkpoint genes and differential lncRNAs. 
+   <bold>(E)</bold> Comparison of PD-1 expression between high and low LINC00861 expression levels in PRAD samples. 
+   <bold>(F)</bold> Comparison of CTLA4 expression between high and low LINC00861 expression levels in PRAD samples.
+  </p>
+ </caption>
+ <graphic xlink:href="fcell-09-641891-g005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

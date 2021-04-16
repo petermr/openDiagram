@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The detection of co-expression modules has been widely applied to retrieve gene categories relevant to cancer, identifying modules shared across cancer types [
+ <xref rid="B29-ijms-21-09461" ref-type="bibr">29</xref>]. Nevertheless, condition-specific modules detected through differential co-expression allow the study of features characterising, for example, a disease state or different stages of the same disease, and have been shown to outperform single-condition co-expression modules in identifying characterising features of the studied biological system [
+ <xref rid="B122-ijms-21-09461" ref-type="bibr">122</xref>]. The analysis of the differential co-regulation of groups of genes (modules or pathways) has been carried out either exclusively using unbiased network properties or feeding prior knowledge-related gene lists to the network structure. This latter approach, despite its higher robustness and interpretability, has been employed only in a few studies [
+ <xref rid="B82-ijms-21-09461" ref-type="bibr">82</xref>,
+ <xref rid="B84-ijms-21-09461" ref-type="bibr">84</xref>,
+ <xref rid="B88-ijms-21-09461" ref-type="bibr">88</xref>,
+ <xref rid="B123-ijms-21-09461" ref-type="bibr">123</xref>,
+ <xref rid="B124-ijms-21-09461" ref-type="bibr">124</xref>] and needs to be better explored, while the unbiased analysis has also been amply applied to cancer, as described thoroughly below.
+</p>

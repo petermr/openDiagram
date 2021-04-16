@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Little is known about the implications of circRNAs in the effects of melatonin (MEL) on bone marrow mesenchymal stem cell (BMSC) osteogenic differentiation and osteoporosis (OP) progression. The aim of our study was to investigate circRNAs in MEL-regulated BMSC differentiation and OP progression.</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">BMSC osteogenic differentiation was measured by qRT-PCR, western blot (WB), Alizarin Red, and alkaline phosphatase (ALP) staining. Differential circRNA and mRNA profiles of BMSCs treated by MEL were characterized by deep sequencing, followed by validation using RT-PCR, Sanger sequencing, and qRT-PCR. Silencing and overexpression of circ_0003865 were conducted for functional investigations. The sponged microRNAs and targeted mRNAs were predicted by bioinformatics and validated by qRT-PCR, RNA pull-down, and dual-luciferase reporter assay. The function of miR-3653-3p and circ_0003865/miR-3653-3p/growth arrest-specific gene 1 (GAS1) cascade was validated for the osteogenic differentiation of BMSCs by CCK-8, qRT-PCR, WB, Alizarin Red, and ALP staining. The effects of circ_0003865 on OP development were tested in murine OP model.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">MEL promoted osteogenic differentiation of BMSCs. RNA sequencing revealed significant alterations in circRNA and mRNA profiles associated with multiple biological processes and signaling pathways. Circ_0003865 expression in BMSCs was significantly decreased by MEL treatment. Silencing of circ_0003865 had no effect on proliferation while promoted osteogenic differentiation of BMSCs. Overexpression of circ_0003865 abrogated the promotion of BMSC osteogenic differentiation induced by MEL, but proliferation of BMSCs induced by MEL had no change whether circ_0003865 was overexpression or not. Furthermore, circ_0003865 sponged miR-3653-3p to promote GAS1 expression in BMSCs. BMSC osteogenic differentiation was enhanced by miR-3653-3p overexpression while BMSC proliferation was not affected. By contrast, miR-3653-3p silencing mitigated the promoted BMSC osteogenic differentiation caused by circ_0003865 silencing, but had no effect on proliferation. Finally, circ_0003865 silencing repressed OP development in mouse model.</p>
+ </sec>
+ <sec>
+  <title>Conclusion</title>
+  <p id="Par4">MEL promotes BMSC osteogenic differentiation and inhibits OP pathogenesis by suppressing the expression of circ_0003865, which regulates GAS1 gene expression via sponging miR-3653-3p.</p>
+ </sec>
+</abstract>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <title>Differential transcript usage analysis identifies gene expression alterations in AD associated with synapse transmission.</title>
+  <p>
+   <bold>A</bold> Volcano plots showing genes with differential transcript usage (gDTU, yellow dots; Differential isoform fraction (dIF) &gt;0.05 and FDR &lt; 0.05) in the frontal lobe (ROSMAP and MSBB_FL - BM10 and BM44) and temporal lobe (Mayo and MSBB_TL - BM22 and BM36). 
+   <bold>B</bold> Upset plot showing the total number of gDTUs identified in each dataset (horizontal bars) and the number of gDTUs exclusive of one dataset (first four vertical bars) or shared by different datasets (other vertical bars). Black dots below vertical bars indicate datasets quantified. Venn diagram illustrates the same results in colors and circle sizes. 
+   <bold>C</bold> Synapse-related terms enriched for gDTUs in the TLI are not observed in the FLI.
+  </p>
+ </caption>
+ <graphic xlink:href="41514_2020_52_Fig3_HTML" id="d31e894" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

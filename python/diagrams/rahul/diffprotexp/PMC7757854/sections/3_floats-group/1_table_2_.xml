@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0002" orientation="portrait" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>List of top 30 genes from the combined GO enriched terms related to fat or adipose development with the highest degrees</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">
+     <underline>Gene</underline>
+    </th>
+    <th align="center">
+     <underline>Degree</underline>
+    </th>
+    <th align="center">
+     <underline>Betweenness Centrality</underline>
+    </th>
+    <th align="center">
+     <underline>Closeness Centrality</underline>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Akt1</italic>
+    </td>
+    <td align="center">39</td>
+    <td align="center">0.349267949</td>
+    <td align="center">0.558282209</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Gsk3b</italic>
+    </td>
+    <td align="center">23</td>
+    <td align="center">0.230773486</td>
+    <td align="center">0.478947368</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Adipoq</italic>
+    </td>
+    <td align="center">21</td>
+    <td align="center">0.101481567</td>
+    <td align="center">0.484042553</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cebpa</italic>
+    </td>
+    <td align="center">21</td>
+    <td align="center">0.072597239</td>
+    <td align="center">0.484042553</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ccnd1</italic>
+    </td>
+    <td align="center">19</td>
+    <td align="center">0.037552824</td>
+    <td align="center">0.431279621</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ppargc1a</italic>
+    </td>
+    <td align="center">18</td>
+    <td align="center">0.058255074</td>
+    <td align="center">0.473958333</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ucp1</italic>
+    </td>
+    <td align="center">17</td>
+    <td align="center">0.069045931</td>
+    <td align="center">0.443902439</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Slc2a4</italic>
+    </td>
+    <td align="center">17</td>
+    <td align="center">0.041064493</td>
+    <td align="center">0.473958333</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Fabp4</italic>
+    </td>
+    <td align="center">16</td>
+    <td align="center">0.063222749</td>
+    <td align="center">0.443902439</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Retn</italic>
+    </td>
+    <td align="center">15</td>
+    <td align="center">0.073056209</td>
+    <td align="center">0.443902439</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Vegfa</italic>
+    </td>
+    <td align="center">15</td>
+    <td align="center">0.041259118</td>
+    <td align="center">0.446078431</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cebpb</italic>
+    </td>
+    <td align="center">14</td>
+    <td align="center">0.041960465</td>
+    <td align="center">0.455</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Lpl</italic>
+    </td>
+    <td align="center">14</td>
+    <td align="center">0.035363403</td>
+    <td align="center">0.433333333</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Scd1</italic>
+    </td>
+    <td align="center">14</td>
+    <td align="center">0.022728141</td>
+    <td align="center">0.433333333</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Xbp1</italic>
+    </td>
+    <td align="center">11</td>
+    <td align="center">0.027885025</td>
+    <td align="center">0.397379913</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Sod2</italic>
+    </td>
+    <td align="center">11</td>
+    <td align="center">0.020179777</td>
+    <td align="center">0.411764706</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Wnt10b</italic>
+    </td>
+    <td align="center">11</td>
+    <td align="center">0.01764364</td>
+    <td align="center">0.411764706</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Dgat2</italic>
+    </td>
+    <td align="center">10</td>
+    <td align="center">0.003315263</td>
+    <td align="center">0.380753138</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Sfrp1</italic>
+    </td>
+    <td align="center">9</td>
+    <td align="center">0.026403149</td>
+    <td align="center">0.402654867</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Klf4</italic>
+    </td>
+    <td align="center">9</td>
+    <td align="center">0.015950399</td>
+    <td align="center">0.40990991</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Snai2</italic>
+    </td>
+    <td align="center">9</td>
+    <td align="center">0.009428429</td>
+    <td align="center">0.399122807</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Adrb3</italic>
+    </td>
+    <td align="center">8</td>
+    <td align="center">0.043638075</td>
+    <td align="center">0.365461847</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Med1</italic>
+    </td>
+    <td align="center">8</td>
+    <td align="center">0.03520591</td>
+    <td align="center">0.364</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nr4a1</italic>
+    </td>
+    <td align="center">7</td>
+    <td align="center">0.032993776</td>
+    <td align="center">0.393939394</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Hdac6</italic>
+    </td>
+    <td align="center">7</td>
+    <td align="center">0.008801478</td>
+    <td align="center">0.399122807</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Sfrp2</italic>
+    </td>
+    <td align="center">7</td>
+    <td align="center">0.001072164</td>
+    <td align="center">0.393939394</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Trib3</italic>
+    </td>
+    <td align="center">6</td>
+    <td align="center">0.012293217</td>
+    <td align="center">0.400881057</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Gata2</italic>
+    </td>
+    <td align="center">6</td>
+    <td align="center">0.006169094</td>
+    <td align="center">0.380753138</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Atf2</italic>
+    </td>
+    <td align="center">6</td>
+    <td align="center">0.003927372</td>
+    <td align="center">0.40990991</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">E2f1</italic>
+    </td>
+    <td align="center">6</td>
+    <td align="center">1.14E-04</td>
+    <td align="center">0.397379913</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

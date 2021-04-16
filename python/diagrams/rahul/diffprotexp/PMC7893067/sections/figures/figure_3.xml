@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Figure 3</label>
+ <caption>
+  <p>Cytosolic and nuclear distribution of lncRNAs 
+   <bold>(A)</bold> MA plot showing global (all tissues) distribution of differentially localized lncRNA genes in the cytosol (blue) and nucleus (magenta). Non-significant lncRNA genes are highlighted as grey. 
+   <bold>(B)</bold> Venn diagram displaying overlapping lncRNA genes differentially localized in the fetal cerebellum (light blue), fetal cortex (yellow) and adult cortex (purple). 
+   <bold>(C)</bold> Strip chart showing localization of significantly cytosolic (blue) and nuclear (magenta) lncRNAs from our data (all tissues combined) and in ENCODE cell lines (baseMean ≥ 10). Only differentially expressed lncRNAs in cell lines overlapping with all-tissue DEGs are shown. Genes that remained consistently cytosolic or nuclear in the brain samples and cell lines are highlighted in gray.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_83541_Fig3_HTML" id="MO3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

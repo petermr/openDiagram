@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Differential expression analysis was performed by analysis of variance (ANOVA) and Tukey's HSD test with Benjamini‐Hochberg post‐hoc corrections (Benjamini and Hochberg, 
+ <xref rid="emi14620-bib-0009" ref-type="ref">1995</xref>) within the XLSTAT‐Premium Version 2016.1 (Addinsoft) ‘OMICs’ package. All proteins significantly (
+ <italic>P</italic> &lt; 0.05) up‐regulated during growth on hydrocarbons were subjected to a BLAST (Basic Local Alignment Search Tool) (Altschul 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0001" ref-type="ref">1990</xref>) against the NCBI nr database. Protein family and domain analysis was carried out in Pfam v30.0 (Finn 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0023" ref-type="ref">2016</xref>). Proteins were assigned to functional families by hierarchical classification of protein domains based on their folding patterns in CATH v4.1 (Class, Architecture, Topology, Homology) (Sillitoe 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0066" ref-type="ref">2015</xref>). Full length secondary and tertiary structure predictions, functional annotations on ligand‐binding sites, enzyme commission numbers and gene ontology terms were generated using the I‐TASSER SERVER (Zhang, 
+ <xref rid="emi14620-bib-0082" ref-type="ref">2008</xref>).
+</p>

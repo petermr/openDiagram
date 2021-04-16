@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The PSM table was aggregated into protein log2 ratio by median sweeping method described in the section of Data Set D1. The protein matrix of log2 ratios for proteins with no missing quant values (11,188 proteins) was used as input for subsequent 
+ <italic>t</italic> test, ROTS, Limma and DEqMS analysis. For Limma (vsn) method, PSM raw intensity table was first treated by variance stabilization normalization and then aggregated into protein ratio matrix. The statistical analysis was focused on the comparison between the 3 replicates with 7.5 μg and the 4 replicates with 15 μg of spiked in 
+ <italic>E. coli</italic> protein extract (the group with 45 μg spike-in had substantial global impact on protein ratios after normalization). The mass spectrometry proteomics data for data set D3 have been deposited to the ProteomeXchange Consortium via the JPOST partner repository with the data set identifier PXD013277.
+</p>

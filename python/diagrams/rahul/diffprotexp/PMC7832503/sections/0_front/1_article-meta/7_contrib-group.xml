@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9915-1348</contrib-id>
+  <name>
+   <surname>Li</surname>
+   <given-names>Mo</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="author-notes" rid="an1">*</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Chen</surname>
+   <given-names>Yongkun</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="author-notes" rid="an1">*</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Chen</surname>
+   <given-names>Tao</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Hu</surname>
+   <given-names>Shixiong</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF4">d</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Chen</surname>
+   <given-names>Luan</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Shen</surname>
+   <given-names>Lu</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Li</surname>
+   <given-names>Fangcai</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF4">d</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Yang</surname>
+   <given-names>Jing</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Sun</surname>
+   <given-names>Yan</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF5">e</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Wang</surname>
+   <given-names>Dayan</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>He</surname>
+   <given-names>Lin</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8458-5960</contrib-id>
+  <name>
+   <surname>Qin</surname>
+   <given-names>Shengying</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="author-notes" rid="an1">*</xref>
+  <xref ref-type="corresp" rid="cor2"/>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Shu</surname>
+   <given-names>Yuelong</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="aff" rid="AF3">c</xref>
+  <xref ref-type="author-notes" rid="an1">*</xref>
+  <xref ref-type="corresp" rid="cor1"/>
+ </contrib>
+ <aff id="AF1">
+  <label>a</label>Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, 
+  <institution>Shanghai Jiao Tong University</institution>, 
+  <city>Shanghai</city>, 
+  <country>People’s Republic of China</country>
+ </aff>
+ <aff id="AF2">
+  <label>b</label>School of Public Health (Shenzhen), 
+  <institution>Sun Yat-sen University</institution>, 
+  <city>Shenzhen</city>, 
+  <country>People’s Republic of China</country>
+ </aff>
+ <aff id="AF3">
+  <label>c</label>
+  <institution>National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention</institution>, 
+  <city>Beijing</city>, 
+  <country>People’s Republic of China</country>
+ </aff>
+ <aff id="AF4">
+  <label>d</label>
+  <institution>Hunan Provincial Center for Disease Control and Prevention</institution>, 
+  <city>Changsha</city>, 
+  <country>People’s Republic of China</country>
+ </aff>
+ <aff id="AF5">
+  <label>e</label>
+  <institution>Changsha Central Hospital</institution>, 
+  <city>Changsha</city>
+  <span class="postal-code" xmlns="http://www.w3.org/1999/xhtml">410004</span>, 
+  <country>People’s Republic of China</country>
+ </aff>
+</contrib-group>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Differential co-expression indicates changes in regulatory relationships between genes. This change can be mediated by a transcriptional regulatory mechanism that can be directly appreciated in transcriptional data (e.g., expression levels of a transcription factor or cofactor), as assessed in a set of works aiming at reconstructing GRNs [
+ <xref rid="B62-ijms-21-09461" ref-type="bibr">62</xref>,
+ <xref rid="B98-ijms-21-09461" ref-type="bibr">98</xref>,
+ <xref rid="B99-ijms-21-09461" ref-type="bibr">99</xref>,
+ <xref rid="B100-ijms-21-09461" ref-type="bibr">100</xref>]. Alternatively, changes can pertain to a different layer of molecular regulation (e.g., microRNA, DNA methylation, genomic mutations) and are hence not directly derived from transcriptional data. In any case, the integration of diverse data types regarding different regulatory layers can greatly improve the discovery and interpretation of altered gene regulatory networks, as reported in a comparative study showing an improved performance of almost all tested methods when integrating mRNA and miRNA data [
+ <xref rid="B107-ijms-21-09461" ref-type="bibr">107</xref>].
+</p>

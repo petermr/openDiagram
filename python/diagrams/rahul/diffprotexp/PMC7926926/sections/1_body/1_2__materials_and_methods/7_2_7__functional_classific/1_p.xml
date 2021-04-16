@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The proteins were annotated to Gene Ontology (GO) using blast2go (
+ <uri xlink:href="https://www.blast2go.com" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.blast2go.com</uri> (accessed on 12 January 2021)). Protein IDs were transformed to UniProt IDs to match the corresponding GO IDs, and the relative information was obtained. IDs with no information from UniProt were subjected to InterProScan to obtain predicted GO functions of the proteins. Fisher’s exact two-terminal test with a significance threshold of 
+ <italic>p</italic>  &lt;  0.05 was used to test the proteins. 
+</p>

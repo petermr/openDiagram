@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t2-kjp-59-1-67" orientation="portrait" position="float">
+ <label>Table 2</label>
+ <caption>
+  <p>Genes downregulated more than 10 fold in 
+   <italic>A. castellanii</italic> 12 hr pi
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th valign="middle" rowspan="3" align="left" colspan="1">Gene symbol</th>
+    <th colspan="2" valign="middle" align="center" rowspan="1">Fold change</th>
+    <th valign="middle" align="center" rowspan="1" colspan="1">Annotation</th>
+    <th valign="middle" align="center" rowspan="1" colspan="1">GO analysis</th>
+   </tr>
+   <tr>
+    <th colspan="2" valign="middle" align="left" rowspan="1">
+     <hr/>
+    </th>
+    <th valign="middle" align="left" rowspan="1" colspan="1">
+     <hr/>
+    </th>
+    <th valign="middle" align="left" rowspan="1" colspan="1">
+     <hr/>
+    </th>
+   </tr>
+   <tr>
+    <th valign="middle" align="center" rowspan="1" colspan="1">L+A(12)/A</th>
+    <th valign="middle" align="center" rowspan="1" colspan="1">L+A(24)/A</th>
+    <th valign="middle" align="center" rowspan="1" colspan="1">Product</th>
+    <th valign="middle" align="center" rowspan="1" colspan="1">Category (Term)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_113420</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.001</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.764</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112520</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.001</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.493</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Cysteine-rich 4 helical bundle widely conserved</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_111980</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.003</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.368</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">EF hand domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112090</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.003</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.454</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_111740</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.007</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.190</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112480</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.007</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.492</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Fbox domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_376130</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.007</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.386</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">xylosyltransferase 1, putative</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_058410</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.009</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.019</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_147740</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.010</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.006</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">CBS domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_113310</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.013</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.765</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_166550</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.017</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.318</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_374390</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.018</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.924</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_101570</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.019</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.673</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_392590</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.020</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.401</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_060120</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.021</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.548</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_400130</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.021</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.021</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_307550</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.022</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.084</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Fbox domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_230230</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.022</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.022</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_050390</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.024</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.233</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">3-oxoacyl-[acyl-carrier protein] reductase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112110</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.024</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.463</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">glycosyl transferase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112490</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.024</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.480</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_063680</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.026</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.072</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Reverse transcriptase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_390590</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.027</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.132</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Hsp20/alpha crystallin superfamily protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_063960</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.078</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112130</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.457</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">regulator of g protein signaling domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_111970</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.399</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">sulfiredoxin 1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_158820</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.646</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_064370</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">AT Hook plus PHD finger transcription factor family member (athp1), putative</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_064780</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_064790</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_340040</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.030</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.275</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">zinc finger, zz type domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_350050</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.030</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.298</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112530</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.031</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.499</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">NLPC_P60 super family</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112180</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.032</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.527</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">major facilitator subfamily transporter</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112590</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.034</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.474</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">WH2 motif domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_050380</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.036</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.885</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_230220</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.037</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.025</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_199000</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.038</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.229</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">SnoaL-like domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_077210</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.040</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.376</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_173000</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.043</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.352</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Predicted NAD/FAD-dependent oxidoreductase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_326260</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.043</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.073</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_060740</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.045</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.310</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_270160</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.046</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.071</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">fascin subfamily protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_200180</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.048</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.428</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_383480</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.051</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_155760</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.052</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.145</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">phosphoribosyltransferase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_207830</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.052</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.426</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">myotubularins and other putative membrane-associated proteins</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_133180</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.052</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.254</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Ser/Thr phosphatase family superfamily protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_077290</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.053</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.638</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">5′nucleotidase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_365080</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.053</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.367</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_383650</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.055</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.349</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Human glyoxalase domain-containing protein 5 and similar proteins</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_048480</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.056</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.616</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_055330</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.059</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.292</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">N-terminal region of Chorein or VPS13</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_346470</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.060</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.450</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">RUN domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_298420</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.062</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.056</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_197730</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.064</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.823</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_378930</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.064</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.329</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_214630</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.067</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.147</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_128200</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.068</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.051</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">CBS domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_052800</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.071</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.571</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">O-methyltransferase family 3 protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112560</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.071</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.499</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_322750</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.072</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.552</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Glycosyl hydrolases family 2, TIM barrel domain</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_383400</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.072</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.376</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_253630</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.073</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.947</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_391470</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.074</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.821</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Hsp20/alpha crystallin superfamily protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_066110</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.074</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.05</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">SCP-like extracellular protein domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_131790</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.075</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.133</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">protein from patent family protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_111930</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.075</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.311</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">carbonsulfur lyase, putative</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">BP (GO: 0008152)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_064380</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.077</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.052</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_064940</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.077</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.029</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Fbox domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_323370</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.077</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.011</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Hsp20/alpha crystallin superfamily protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_383750</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.078</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.236</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Ubiquitinconjugating enzyme subfamily protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_006080</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.079</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.210</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_180590</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.082</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.546</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">TRRAP family protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112980</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.083</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.755</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">protein kinase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_077300</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.083</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.247</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">serine/threonine kinase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_111880</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.084</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.225</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Small acidic protein family</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_372720</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.084</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.148</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">obtusifoliol 14alphademethylase, putative</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_046720</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.086</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.076</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Glycosyl hydrolase families</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_324050</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.088</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.646</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Vacuolar sorting-associated protein 13 [Intracellular trafficking and secretion]</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_400540</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.088</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.076</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">sphingosine hydroxylase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_290200</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.089</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.329</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_389110</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.09</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.016</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112500</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.094</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.535</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">TBC domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_311650</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.095</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.096</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112060</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.096</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.429</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">O-methyltransferase, putative</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_178260</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.097</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.118</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">cytochrome P450, putative</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">MF (GO: 0005506)</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_066960</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.098</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.036</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">hypothetical protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_046710</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.099</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.126</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">cytoplasmic protein, putative</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top" align="left" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ACA1_112640</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.100</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.498</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">MBOAT family protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">CC (GO: 0016021)</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

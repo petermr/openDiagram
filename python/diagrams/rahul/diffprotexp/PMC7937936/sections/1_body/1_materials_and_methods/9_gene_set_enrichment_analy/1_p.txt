@@ -1,0 +1,6 @@
+0: GSEA is used to assess genes distribution trends in a predefined set of genes in a gene set sequenced for phenotypic relevance and determine their contribution to the phenotype ( 18).
+1: We applied the GSEA software (Version 4.0.3,  http://software.broadinstitute.org/gsea/) with 1,000 phenotype permutations for GSEA enrichment analysis.
+2: The statistically significant gene sets threshold was set to Nominal  P-value< 0.05 with an FDR adjusted  P-value< 0.25.
+3: We classified the patients into two groups according to the median value of a target gene.
+4: We then performed a GESA analysis to compare the pathways of differential enrichment between the two groups.
+5: MSigDB oncogenic signatures gene sets (version 7.1,  https://www.gsea-msigdb.org/gsea/downloads.jsp) was applied in the GSEA analysis.

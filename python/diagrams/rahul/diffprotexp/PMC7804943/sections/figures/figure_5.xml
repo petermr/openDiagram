@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig5">
+ <label>Fig. 5</label>
+ <caption>
+  <title>Variable contributions of transcriptomic regulatory layers to the definition of neuronal identity.</title>
+  <p>
+   <bold>a</bold> Heatmap showing the Pearson correlation (
+   <italic>R</italic>
+   <sup>2</sup>) between pairs of latent factor weights assigned to each sample inferred when only GE data is analyzed (
+   <italic>y</italic>-axis) and when only APA_AS_IR data are analyzed (
+   <italic>x</italic>-axis). Latent factors that are highly correlated indicate neuronal population groupings identified by GE data only, and independently by APA_AS_IR data. 
+   <bold>b</bold> Combined scatter and contour plot comparing the latent factor weights between GE-LF1 and APA_AS_IR-LF5. Both factors identify a cluster of hippocampal neurons. However, each factor distinguishes the neurons differently (see Fig. 
+   <xref rid="Fig4" ref-type="fig">4c</xref> for description of contour plots). 
+   <bold>c</bold> Comparison between GE-LF4 and APA_AS_IR-LF4. Both factors identify a cluster of peripheral nervous system (PNS) neurons. However, GE-LF4 specifically identifies a subset of PNS neurons belonging to the olfactory system. 
+   <bold>d</bold> Multiple “layers” of coordinated transcriptomic regulatory networks collectively and differentially contribute to establishing neuronal identity throughout the nervous system. Brain schematic by Patrick Lynch
+   <sup>
+    <xref ref-type="bibr" rid="CR78">78</xref>
+   </sup>, distributed under a Cresative Commons Attribution License.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20483_Fig5_HTML" id="d31e1169" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

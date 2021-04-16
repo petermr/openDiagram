@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab4">
+ <label>Table 4</label>
+ <caption>
+  <p>
+   <bold>List of proteins which decreased in abundance in heterophils in response to</bold>
+   <bold>
+    <italic>S.</italic>
+   </bold>
+   <bold>Enteritidis infection</bold>
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Acc. no.</th>
+    <th align="left">Protein name</th>
+    <th align="left">Gene ID</th>
+    <th align="left">Fold ratio inf: noninf</th>
+    <th align="left">Fold ratio vac: noninf</th>
+    <th align="left">Function</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">F1P1U6</td>
+    <td align="left">Myeloperoxidase</td>
+    <td align="left">MPO</td>
+    <td char="." align="char">0.013*</td>
+    <td char="." align="char">0.071*</td>
+    <td align="left">Oxidative burst</td>
+   </tr>
+   <tr>
+    <td align="left">E1C677</td>
+    <td align="left">Natural killer cell activator</td>
+    <td align="left">Gga.18306</td>
+    <td char="." align="char">0.026*</td>
+    <td char="." align="char">0.21*</td>
+    <td align="left">GO prediction: regulation of cytokine biosynthetic process</td>
+   </tr>
+   <tr>
+    <td align="left">F1NJT3</td>
+    <td align="left">Fibronectin</td>
+    <td align="left">FN1</td>
+    <td char="." align="char">0.11*</td>
+    <td char="." align="char">0.56</td>
+    <td align="left">Binds components of extracellular matrix</td>
+   </tr>
+   <tr>
+    <td align="left">F1NFQ7</td>
+    <td align="left">Serine protease 57</td>
+    <td align="left">PRSSL1</td>
+    <td char="." align="char">0.15*</td>
+    <td char="." align="char">0.37*</td>
+    <td align="left">Serine-type endopeptidase activity</td>
+   </tr>
+   <tr>
+    <td align="left">P00698</td>
+    <td align="left">Lysozyme C</td>
+    <td align="left">LYZ</td>
+    <td char="." align="char">0.16*</td>
+    <td char="." align="char">0.37*</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">H9L027</td>
+    <td align="left">Cathepsin G</td>
+    <td align="left">CTSG</td>
+    <td char="." align="char">0.19*</td>
+    <td char="." align="char">0.30*</td>
+    <td align="left">Lysosomal cysteine protease</td>
+   </tr>
+   <tr>
+    <td align="left">Q6QLQ5</td>
+    <td align="left">Cathelicidin-1</td>
+    <td align="left">CATHL1</td>
+    <td char="." align="char">0.20*</td>
+    <td char="." align="char">0.51</td>
+    <td align="left">Bactericidal, fungicidal and immunomodulatory activity</td>
+   </tr>
+   <tr>
+    <td align="left">F1NZ37</td>
+    <td align="left">Cathepsin L1</td>
+    <td align="left">CTSL1</td>
+    <td char="." align="char">0.22*</td>
+    <td char="." align="char">0.48*</td>
+    <td align="left">Controlling element of neutrophil elastase activity</td>
+   </tr>
+   <tr>
+    <td align="left">P30374</td>
+    <td align="left">Ribonuclease homolog</td>
+    <td align="left">RSFR</td>
+    <td char="." align="char">0.23*</td>
+    <td char="." align="char">0.51</td>
+    <td align="left">Lysosomal cysteine protease</td>
+   </tr>
+   <tr>
+    <td align="left">P27042</td>
+    <td align="left">Lysozyme G</td>
+    <td align="left">LYG2</td>
+    <td char="." align="char">0.24*</td>
+    <td char="." align="char">0.60</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">F2Z4L6</td>
+    <td align="left">Serum albumin</td>
+    <td align="left">ALB</td>
+    <td char="." align="char">0.24*</td>
+    <td char="." align="char">0.67</td>
+    <td align="left">Plasma carrier</td>
+   </tr>
+   <tr>
+    <td align="left">P02789</td>
+    <td align="left">Ovotransferrin</td>
+    <td align="left">OTFB</td>
+    <td char="." align="char">0.26*</td>
+    <td char="." align="char">0.55</td>
+    <td align="left">Iron binding, immune response</td>
+   </tr>
+   <tr>
+    <td align="left">F1NGT3</td>
+    <td align="left">Matrix metallopeptidase 9</td>
+    <td align="left">MMP9</td>
+    <td char="." align="char">0.26*</td>
+    <td char="." align="char">0.77</td>
+    <td align="left">Degradation of the extracellular matrix</td>
+   </tr>
+   <tr>
+    <td align="left">F1NVM1</td>
+    <td align="left">G-protein coupled receptor 97</td>
+    <td align="left">GPR97</td>
+    <td char="." align="char">0.27*</td>
+    <td char="." align="char">0.66</td>
+    <td align="left">Regulates migration</td>
+   </tr>
+   <tr>
+    <td align="left">Q2IAL7</td>
+    <td align="left">Cathelicidin-2</td>
+    <td align="left">CATHL2</td>
+    <td char="." align="char">0.31*</td>
+    <td char="." align="char">0.78</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">Q2UZR2</td>
+    <td align="left">Phosphoglucomutase 1</td>
+    <td align="left">PGM1</td>
+    <td char="." align="char">0.35*</td>
+    <td char="." align="char">0.43*</td>
+    <td align="left">Glucose metabolic process</td>
+   </tr>
+   <tr>
+    <td align="left">E1BZS2</td>
+    <td align="left">Nucleosome assembly protein 1-like</td>
+    <td align="left">NAP1L1</td>
+    <td char="." align="char">0.36*</td>
+    <td char="." align="char">0.22*</td>
+    <td align="left">Chaperone for the linker histone</td>
+   </tr>
+   <tr>
+    <td align="left">P08940</td>
+    <td align="left">Myeloid protein 1</td>
+    <td align="left">LECT2</td>
+    <td char="." align="char">0.37*</td>
+    <td char="." align="char">0.62</td>
+    <td align="left">Chemotactic factor</td>
+   </tr>
+   <tr>
+    <td align="left">R4GH86</td>
+    <td align="left">Glutathione peroxidase</td>
+    <td align="left">GPX</td>
+    <td char="." align="char">0.41*</td>
+    <td char="." align="char">0.57</td>
+    <td align="left">Protects organism from oxidative damage</td>
+   </tr>
+   <tr>
+    <td align="left">F1NYH8</td>
+    <td align="left">Ena/VASP-like protein</td>
+    <td align="left">EVL</td>
+    <td char="." align="char">0.42*</td>
+    <td char="." align="char">0.70</td>
+    <td align="left">Regulators of the actin cytoskeleton and cell migration</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>* Significantly different from the expression in heterophils from the non-infected chickens.</p>
+ </table-wrap-foot>
+</table-wrap>

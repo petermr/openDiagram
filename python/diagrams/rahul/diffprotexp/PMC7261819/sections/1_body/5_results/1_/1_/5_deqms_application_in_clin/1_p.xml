@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In cell line studies as described above, the sample variance is relatively low compared with that in clinical samples. In order to demonstrate that the dependence of variance on the number of PSMs holds true also for clinical samples, we used a proteomics data set (D6, TMT-labeled) containing 32 post-mortem human brain samples from a study of dementia (
+ <xref rid="B25" ref-type="bibr">25</xref>). Samples in this study included; Parkinson's disease with dementia; dementia with Lewy bodies; Alzheimer's disease; and older adults without dementia. As demonstrated in 
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. S7
+  <italic>A</italic>
+ </ext-link>, even though variance within sample groups in the clinical samples is much larger than that in cell line studies, we could still see that protein variance gradually decreases with an increasing number of PSMs used for quantification. This result indicates that the benefits of DEqMS would apply also in clinical proteomics data, however not as pronounced as in cell-line data.
+</p>

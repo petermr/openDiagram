@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here, the CTC dataset was used to link Golgi alterations with cancer progression based on a list of 164 genes that are known to cause Golgi fragmentation (
+ <xref ref-type="app" rid="app1-ijms-22-01399">Supplementary Data S1</xref>). These 164 genes were considered to filter the CTC dataset. From 164, only 97 genes were expressed. Silencing each of these genes is known to cause Golgi fragmentation [
+ <xref rid="B79-ijms-22-01399" ref-type="bibr">79</xref>,
+ <xref rid="B80-ijms-22-01399" ref-type="bibr">80</xref>,
+ <xref rid="B81-ijms-22-01399" ref-type="bibr">81</xref>,
+ <xref rid="B82-ijms-22-01399" ref-type="bibr">82</xref>,
+ <xref rid="B83-ijms-22-01399" ref-type="bibr">83</xref>]. Using the k-means clustering approach based on these 97 genes, cells were classified in four stable clusters (
+ <xref ref-type="fig" rid="ijms-22-01399-f004">Figure 4</xref>a). Clusters 3 and 4 are highly consistent. Clusters 1 and 2, instead, have a low degree of consistency. 
+</p>

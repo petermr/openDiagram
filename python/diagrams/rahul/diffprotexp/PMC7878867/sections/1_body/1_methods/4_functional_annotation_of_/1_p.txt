@@ -1,0 +1,8 @@
+0: Gene Ontology (GO) annotation of  T. turgidum DEGs was performed regarding their biological processes, cellular components and molecular functions 28,  29.
+1: KEGG pathway 30  32 enrichment analysis was conducted to determine the functional pathways that DEGs were associated with.
+2: Integrated omics analysis combining sRNA-seq, transcriptome-seq and degradome-seq datasets was performed as previously described to identify significant miRNA-mRNA pairs with antagonistic regulatory patterns 28,  29.
+3: Briefly, all miRNA-mRNA pairs were first validated as evidenced by three types of sequencing datasets (i.e.
+4: miRNA candidates can be validated via sRNA sequencing, mRNA candidates can be validated via transcriptome sequencing, and miRNA-mRNA pairing can be validated by degradome sequencing).
+5: Secondly, from all validated miRNA-mRNA pairs, the ones where both miRNA and mRNA had shown significant differential expression were identified ( P < 0.05, subject to the progeny stress treatment or parent stress treatment factor).
+6: Thirdly, from the significantly expressed miRNA-mRNA pairs, those where miRNA and mRNA had shown antagonistic expression patterns were identified (i.e., significantly reduced miRNA expression corresponding to significantly increased mRNA expression, or significantly increased miRNA expression corresponding to significantly decreased mRNA expression).
+7: GO and KEGG pathway enrichment analysis were performed for these identified miRNA-mRNA modules.

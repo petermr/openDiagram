@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The two spike-in data sets (D2 and D3) represent simplified versions of normal quantitative proteomics data sets because all DEPs have equal, and quite large fold changes (2-fold or 3-fold in the tested labeled and label-free data set respectively), whereas there is no biological variation between replicate samples. To challenge the best performing methods further, we therefore applied them on a previously published data set where the impact of three different microRNA mimics on U1810 cells was investigated using quantitative proteomics and TMT 10-plex labeling (
+ <xref rid="B24" ref-type="bibr">24</xref>). This data set (D4) is representative of an in-depth quantitative proteomics analysis with 8625 proteins (PSM and protein FDR&lt;1%) quantified (see 
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. 4
+  <italic>A</italic>
+ </ext-link> for distribution of number of PSMs/protein). Here we focus on the comparison between cells treated with control siRNA and cells treated with miR-372 mimics, both present as triplicates in the proteomics data. The effects of microRNAs on protein levels are often relatively small, and the low number of expected direct targets of each microRNA makes it challenging to find biologically relevant significant hits. To evaluate the output of the DEP analysis, corresponding mRNA level analysis by RNA-Seq as well as microRNA target prediction algorithms were used as support for direct microRNA targets as previously described (
+ <xref rid="B24" ref-type="bibr">24</xref>). Comparing miR-372 mimic treated cells and controls, 
+ <italic>t</italic> test identified a single significant DEP after correction for multiple testing (1% FDR), whereas 21 DEPs were identified using ROTS. DEqMS and Limma generated 201 and 120 DEPs respectively, with 109 DEPs in common (
+ <xref ref-type="fig" rid="F3">Fig. 3</xref>
+ <italic>A</italic>, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. 4
+  <italic>B</italic>
+ </ext-link>). Importantly, both the 92 DEPs exclusively identified by DEqMS and the 109 DEPs identified by both methods were enriched in proteins where the corresponding mRNAs were downregulated and supported as direct miR-372 targets by prediction algorithms compared with the background (all proteins quantified in the experiment). In contrast, this was not true for the 11 proteins exclusively identified by Limma (
+ <xref ref-type="fig" rid="F3">Fig. 3</xref>
+ <italic>A</italic>). To explain the improved performance of DEqMS over Limma, we plotted the residual sum of squares and the posterior variance of the two methods. This analysis shows that the error of the estimated protein variance in Limma is dependent on the number of PSMs used for quantification (
+ <xref ref-type="fig" rid="F3">Fig. 3</xref>
+ <italic>B</italic>), whereas DEqMS was able to correct this bias (
+ <xref ref-type="fig" rid="F3">Fig. 3</xref>
+ <italic>C</italic>). Consequently, this leads to differences between methods in posterior variance, where DEqMS eliminates false significant proteins quantified by one or two PSMs because of stochastic extreme low variance (
+ <xref ref-type="fig" rid="F3">Fig. 3</xref>
+ <italic>D</italic>, 
+ <xref ref-type="fig" rid="F3">3</xref>
+ <italic>E</italic>). In addition, DEqMS rescues many proteins quantified by multiple PSMs that were missed by Limma because of overestimated variance (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. S4
+  <italic>C</italic>
+ </ext-link>).
+</p>

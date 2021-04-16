@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0002" orientation="portrait" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>Prediction results of trans-target genes</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th colspan="2" align="left">mRNAs
+     <hr/>
+    </th>
+    <th colspan="2" align="center">mRNAs
+     <hr/>
+    </th>
+    <th align="center"> </th>
+   </tr>
+   <tr>
+    <th align="center">lncRNA_id</th>
+    <th align="center">pos_cor_id</th>
+    <th align="center">pos_cor</th>
+    <th align="center">neg_cor_id</th>
+    <th align="center">neg_cor</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">XR_808337.3</td>
+    <td align="left">XM_024983717.1</td>
+    <td align="center">0.992696064</td>
+    <td align="center">XM_024994909.1</td>
+    <td align="center">−0.998651441</td>
+   </tr>
+   <tr>
+    <td align="left">XR_237807.3</td>
+    <td align="left">XM_024983720.1</td>
+    <td align="center">1</td>
+    <td align="center">NM_001077128.2</td>
+    <td align="center">−0.989386992</td>
+   </tr>
+   <tr>
+    <td align="left">XR_001501504.2</td>
+    <td align="left">XM_024983720.1</td>
+    <td align="center">1</td>
+    <td align="center">NM_001077128.2</td>
+    <td align="center">−0.989386992</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003032689.1</td>
+    <td align="left">XM_024983720.1</td>
+    <td align="center">1</td>
+    <td align="center">NM_001077128.2</td>
+    <td align="center">−0.989386992</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003031215.1</td>
+    <td align="left">XM_024983721.1</td>
+    <td align="center">0.998164806</td>
+    <td align="center">XM_010817975.3</td>
+    <td align="center">−0.990428328</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003029770.1</td>
+    <td align="left">XM_005204988.4</td>
+    <td align="center">1</td>
+    <td align="center">NM_001014887.1</td>
+    <td align="center">−0.994701364</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003034054.1</td>
+    <td align="left">XM_005204988.4</td>
+    <td align="center">1</td>
+    <td align="center">NM_001014887.1</td>
+    <td align="center">−0.994701364</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003031220.1</td>
+    <td align="left">XM_005204988.4</td>
+    <td align="center">1</td>
+    <td align="center">NM_001014887.1</td>
+    <td align="center">−0.994701364</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003030419.1</td>
+    <td align="left">XM_015467281.2</td>
+    <td align="center">1</td>
+    <td align="center">NM_001014887.1</td>
+    <td align="center">−0.994701364</td>
+   </tr>
+   <tr>
+    <td align="left">XR_001501114.2</td>
+    <td align="left">XM_015467281.3</td>
+    <td align="center">1</td>
+    <td align="center">NM_001014887.1</td>
+    <td align="center">−0.994701364</td>
+   </tr>
+   <tr>
+    <td align="left">XR_001501115.2</td>
+    <td align="left">XM_024997551.1</td>
+    <td align="center">0.997605551</td>
+    <td align="center">NM_001101148.2</td>
+    <td align="center">−0.994808587</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003032366.1</td>
+    <td align="left">XM_024997554.1</td>
+    <td align="center">1</td>
+    <td align="center">XM_002691498.5</td>
+    <td align="center">−1</td>
+   </tr>
+   <tr>
+    <td align="left">XR_236338.4</td>
+    <td align="left">XM_024997554.1</td>
+    <td align="center">1</td>
+    <td align="center">XM_002691498.5</td>
+    <td align="center">−1</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003037170.1</td>
+    <td align="left">XM_024997554.1</td>
+    <td align="center">1</td>
+    <td align="center">XM_002691498.5</td>
+    <td align="center">−1</td>
+   </tr>
+   <tr>
+    <td align="left">XR_233741.4</td>
+    <td align="left">XM_024997554.1</td>
+    <td align="center">1</td>
+    <td align="center">XM_002691498.5</td>
+    <td align="center">−1</td>
+   </tr>
+   <tr>
+    <td align="left">XR_001498511.2</td>
+    <td align="left">XM_024978143.1</td>
+    <td align="center">0.999999308</td>
+    <td align="center">XM_005209141.4</td>
+    <td align="center">−0.984748151</td>
+   </tr>
+   <tr>
+    <td align="left">XR_003029635.1</td>
+    <td align="left">XM_025001654.1</td>
+    <td align="center">1</td>
+    <td align="center">NM_001046128.1</td>
+    <td align="center">−0.977564113</td>
+   </tr>
+   <tr>
+    <td align="left">XR_807447.3</td>
+    <td align="left">XM_025001664.1</td>
+    <td align="center">0.999992755</td>
+    <td align="center">XM_024983362.1</td>
+    <td align="center">−0.985930072</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tfn0001">
+   <p>lncRNA_id: ID of long non-coding RNA.</p>
+  </fn>
+  <fn id="tfn0002">
+   <p>pos_cor_id: the co-expressed gene id of the largest positive correlation.</p>
+  </fn>
+  <fn id="tfn0003">
+   <p>pos_cor: the coefficient of the largest positive correlation.</p>
+  </fn>
+  <fn id="tfn0004">
+   <p>neg_cor_id: the co-expressed gene id with the largest negative correlation.</p>
+  </fn>
+  <fn id="tfn0005">
+   <p>neg_cor: the coefficient of the largest negative correlation.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

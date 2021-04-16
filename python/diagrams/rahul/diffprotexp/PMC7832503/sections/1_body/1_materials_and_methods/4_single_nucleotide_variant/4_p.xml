@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>At lastly, we also conducted gene set based testing of pathways using all rare functional SNVs. The used gene sets were downloaded from Molecular Signatures Database (MSigDB) (v7.1, 
+ <ext-link ext-link-type="uri" xlink:href="https://www.gsea-msigdb.org/gsea/downloads.jsp" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.gsea-msigdb.org/gsea/downloads.jsp</ext-link>) [
+ <xref rid="CIT0035" ref-type="bibr">35</xref>]: (1) canonical pathways collection contain 2232 gene sets that are canonical representations of a biological process compiled by domain experts; (2) gene ontology collection generated with 10192 gene sets that are derived from Gene Ontology (GO) annotations including molecular function (MF), cellular component (CC) and biological process (BP). The analyses strategy, as described above, used the same method as that single gene testing.
+</p>

@@ -1,0 +1,3 @@
+0: In each analysis design and method, we used a 5% FDR threshold to correct for multiple testing.
+1: As the final step, we applied a conservative approach and considered a gene significantly differentially expressed' between low-grade and high-grade cartilage if it showed significant differential expression across all analysis designs and testing methods (2557 genes, including 2418 with uniquely corresponding Ensembl gene ID and gene name).
+2: As discussed in the Supplementary Note  3, for each analysis design, the number of significant genes at 5% FDR was similar across all tests.

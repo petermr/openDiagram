@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig4">
+ <label>Fig. 4</label>
+ <caption>
+  <p>Functional enrichment analysis of candidate genes and visualization of the signal distribution of key genes. 
+   <bold>a</bold> Chord plot depicting the relationship between genes obtained from MACS and GO terms of biological process or pathway enrichment. 
+   <bold>b</bold> Chord plot showing the relationship between genes identified from SICER and GO terms of biological process. 
+   <bold>c</bold> Chord plot indicating the relationship between genes from SICER and pathway analysis. 
+   <bold>d</bold> Integrative Genomics Viewer tracks of PPP2R2B, BMP4, CREBBP, and BMP7 (hg19). Integrated Genomic Viewer browser image showing signals of the hub genes in Control (red) and DCM (blue)
+  </p>
+ </caption>
+ <graphic xlink:href="13148_2020_996_Fig4_HTML" id="MO4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

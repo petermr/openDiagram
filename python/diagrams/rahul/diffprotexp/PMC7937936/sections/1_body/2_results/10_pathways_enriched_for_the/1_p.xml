@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Given that the expression levels of all three key genes mentioned above were significantly correlated with the survival and T stage of patients in TCGA-HNSC data set, we categorized the patients into high and low expression groups according to their median expression levels and then performed GSEA analysis. The results showed that in the high-expression group, all three hub genes were significantly enriched in immune-related pathways such as “CYTOKINE_CYTOKINE_RECEPTOR_INTERACTION,” “JAK_STAT_SIGNALING_PATHWAY,” “CHEMOKINE_SIGNALING_PATHWAY,” “NATURAL_KILLER_CELL_MEDIATED_CYTOTOXICITY” (
+ <xref ref-type="fig" rid="f11">
+  <bold>Figures 11A–C</bold>
+ </xref>). In the low-expression group, all three genes are significantly enriched in metabolism-related pathways, including “OXIDATIVE_PHOSPHORYLATION,” “RNA_POLYMERASE,” “RIBOSOME,” and so on (
+ <xref ref-type="fig" rid="f11">
+  <bold>Figures 11D–F</bold>
+ </xref>).
+</p>

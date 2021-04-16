@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>ASIC Family Nomenclature. Identification of further ASIC subunits has led to the evolution of their nomenclature, finally resulting in the transition to the use of alpha numerical names. NaC – Sodium Chanel, ACCN – Amiloride-Sensitive Cation Channel, BNaC – Brain NaC, BASIC – Bile ASIC, (BL)INAC – (Brain, Liver and) Intestine NaC, DRASIC – Dorsal Root ASIC, MDEG – Mammalian and Degenerin Channel, SPASIC – Spinal Cord ASIC, and TNaC – Testis NaC</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Subunit Name</th>
+    <th align="center">Amiloride Gene Code</th>
+    <th align="center">Sodium Expression Code</th>
+    <th align="center">Other/Previous names</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">ASIC1a</td>
+    <td align="left">ACCN2</td>
+    <td align="left">BNaC2α</td>
+    <td align="left">ASICα</td>
+   </tr>
+   <tr>
+    <td align="left">ASIC1b</td>
+    <td align="left">ACCN2</td>
+    <td align="left">BNaC2β</td>
+    <td align="left">ASICβ</td>
+   </tr>
+   <tr>
+    <td align="left">ASIC2a</td>
+    <td align="left">ACCN1</td>
+    <td align="left">BNaC1α</td>
+    <td align="left">MDEG1</td>
+   </tr>
+   <tr>
+    <td align="left">ASIC2b</td>
+    <td align="left">ACCN1</td>
+    <td align="left">BNaC1β</td>
+    <td align="left">MDEG2</td>
+   </tr>
+   <tr>
+    <td align="left">ASIC3</td>
+    <td align="left">ACCN3</td>
+    <td align="left">TNaC1</td>
+    <td align="left">DRASIC</td>
+   </tr>
+   <tr>
+    <td align="left">ASIC4</td>
+    <td align="left">ACCN4</td>
+    <td align="left">BNaC4</td>
+    <td align="left">SPASIC</td>
+   </tr>
+   <tr>
+    <td align="left">ASIC5</td>
+    <td align="left">ACCN5</td>
+    <td align="left">(BL)INaC</td>
+    <td align="left">BASIC</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

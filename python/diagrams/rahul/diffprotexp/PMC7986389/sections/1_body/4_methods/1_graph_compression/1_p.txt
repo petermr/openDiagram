@@ -1,0 +1,3 @@
+0: In biological networks, a network usually contains tens of thousands of vertices and hundreds of thousands of arcs.
+1: In many cases, processing a large network is not practical because of the NP-hardness of the MFVS problem [ 12].
+2: Generally, we can compress the original graph to a simpler graph that maintains (or can restore) the size of the MFVS of the original graph.

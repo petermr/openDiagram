@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The PPI network of the DceRBPs was established by using the STRING database, which incorporated 134 nodes and 315 edges (Figure 
+ <xref ref-type="fig" rid="F3">3</xref>A). Then, we searched the hub genes from the PPI network by using the MCC algorithm of CytoHubba plugin (Figure 
+ <xref ref-type="fig" rid="F3">3</xref>B). According to the MCC score, the top 30 highest-scored genes were selected as the hub RBP genes (
+ <xref ref-type="supplementary-material" rid="SM0">Table S4</xref>).
+</p>

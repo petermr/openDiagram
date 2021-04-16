@@ -1,0 +1,13 @@
+0: Slide scanning was conducted using a PowerScanner (Tecan) with identical instrument laser power and adjusted photomultiplier tube (PMT) settings.
+1: Spot segmentation was performed with the GenePix Pro 6 software (Molecular Devices, San Jose, CA, USA).
+2: Acquired raw data were analyzed using the linear models for microarray data (LIMMA) package [ 45] of R-Bioconductor [ 46] after uploading the median signal intensities.
+3: For normalization, a specialized invariant Lowess method was applied [ 47].
+4: For the sample analysis, a one-factorial linear model was fitted with LIMMA resulting in a two-sided t-test or F-test, based on moderated statistics.
+5: All presented  p values were adjusted for multiple testing by controlling the false discovery rate according to Benjamini and Hochberg [ 48].
+6: Differences in protein abundance between samples were presented as log 2-fold changes (log 2FC).
+7: Proteins were defined as differentially expressed, if |log 2FC| were  0.5 or the adjusted  p values were  0.05.
+8: Proteins were defined as significantly differential for |log 2FC|  0.5 and a simultaneous adjusted  p value  0.05.
+9: All differential proteins that met one or both criteria were graphically displayed in an area-proportional Venn diagram using the BioVenn application [ 49] and were subjected to STRING (search tool for the retrieval of interacting genes/proteins) analysis for the visualization of protein networks [ 50].
+10: Protein clusters were identified for biological processes and molecular functions based on the gene ontology (GO) database [ 51,  52].
+11: The database for annotation, visualization, and integrated discovery (DAVID) [ 53 55] was used for a more targeted pathway analysis (GO and Kyoto encyclopedia of genes and genomes (KEGG) pathway database [ 56]) that distinguished between proteins regulated by either metformin or insulin treatment.
+12: Pathways with protein counts  10% of the total number of analyzed proteins that simultaneously displayed  p values  0.001 (from DAVID analysis) were presented.

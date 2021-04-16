@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To confirm that the majority of the transcriptional signature we detect at 24 h post bloodmeal originated from ookinetes, we deconvoluted the samples into cell-types using 
+ <italic>P. falciparum</italic> single-cell data from ookinetes, gametocytes and asexual blood stages (
+ <xref rid="B38" ref-type="bibr">Reid et al., 2018</xref>; 
+ <xref rid="B37" ref-type="bibr">Real et al., 2020</xref>). Indeed, ookinetes made up the largest proportion of cells in all bulk samples ranging from 73 to 99% of the total composition with a median of 93% (
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S10</bold>
+ </xref>). Female gametocytes made up the second largest proportion of cells with a median of 5%. We found the proportion of ookinetes increased along PC1 (
+ <xref ref-type="fig" rid="f4">
+  <bold>Figure 4B</bold>
+ </xref>), suggesting the relative ratios of stages across the samples was driving the variation in gene expression observed. The proportion of ookinetes in each sample was also dependent on mating status and to a lesser extent antibiotic treatment and the interaction between status and antibiotic treatment (
+ <xref ref-type="fig" rid="f4">
+  <bold>Figures 4B, C</bold>
+ </xref>, 
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S10</bold>
+ </xref>) (ANOVA; antibiotic treatment: 
+ <italic>F</italic>=8.01, 
+ <italic>p</italic>=0.01; mating status: 
+ <italic>F</italic>=21.91, 
+ <italic>p</italic> &lt; 0.001; interaction: 
+ <italic>F</italic>=8.06 
+ <italic>p</italic>=0.01). Midguts from virgin mosquitoes that were not treated with antibiotics had the lowest proportion of ookinetes, which corresponds with a lower intensity of infection in virgin relative to mated individuals seen at the oocyst stage (
+ <xref rid="B11" ref-type="bibr">Dahalan et al., 2019</xref>). This suggests that the lower susceptibility seen in virgin individuals may be a result of inhibition of ookinete development instead of, or in combination with, an increased failure rate in ookinetes crossing the midgut epithelium.
+</p>

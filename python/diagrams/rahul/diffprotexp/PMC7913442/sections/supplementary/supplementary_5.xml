@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="MOESM1">
+ <media xlink:href="12967_2021_2754_MOESM1_ESM.docx" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <caption>
+   <p>
+    <bold>Additional file 1: Fig. S1</bold>. FOXL2WT, FOXL2C134W and FOXO13A protein levels. After transfection with FOXL2WT, FOXL2C134W (both pCS2+ backbone) in presence/absence of FOXO13A (pCDNA3 backbone), cells were collected and lysate. (A) Immunoblot with anti-Flag tag antibody was performed to validate balanced FOXL2WT/C134W and FOXO1 protein expression. Anti β-Actin was used as loading control. (B) Quantification of protein levels was performed by IR fluorescence detection (Odyssey, Licor, USA) and analysis was performed with ImageJ. Fluorescence is expressed in arbitrary units.
+    <bold> Fig. S2</bold>. RNA quality control assay. Representative diagrams of the quality control assay performed with the RNA ScreenTape® platform (Agilent Technology). Samples (N=3) were loaded and run. The analysis was performed with TapeStation Analysis Software (Agilent Technology). 
+    <bold>Fig. S3. </bold>PCA analysis. Scatter plot of principal components from the top 500 variable genes across the samples (A-B) or from all expressed genes (C-D), showing clustering based on transfection condition and expression of the transfected genes. Samples are color-coded based on transfection condition (1st column), FOXL2 expression (2nd column), FOXO1 expression (3rd column) and SMAD3 expression (4th column).
+    <bold> Fig. S4</bold>. Top genes driving variability in the first 6 principal components. For PC 1 to 6, calculated on the top 500 most variable genes, we show the relative weight for each gene, ranked from highest to lowest. The top 8 genes contributing to each PC are indicated.
+    <bold> Fig. S5. </bold>Top 50 regulated genes between FOXL2C134W and FOXL2WT ordered by p-value. (A) Heatmaps of the top 50 up-regulated genes and (B) the top 50 down-regulated genes between FOXL2C134W and FOXL2WT. The genes FOXL2 and SMAD3 were omitted form the plot. Genes are ordered by p-value (DESeq&lt;0.05) and annotated for presence or absence of FOXL2C134W ChIP-seq binding site in TGFβ-treated HGrC1 (ChIP1) [
+    <xref ref-type="bibr" rid="CR37">37</xref>] and a FOXL2C134W ChIP-seq binding site in a SVOG3e cell line (ChIP 2) [
+    <xref ref-type="bibr" rid="CR28">28</xref>]. For each gene, expression values were z-score normalized across samples.
+    <bold> Fig. S6</bold>. Gene Ontology enrichment analysis of the selected subset of differentially expressed genes (DEGs) between FOXL2C134W and FOXL2WT. Gene ontology enrichment analysis in the subsets of upregulated (Cat_1, n=60, Cat_2, n=397) and downregulated (Cat_4, n=82, Cat_5, n=133) genes in which the expression in FOXL2C134W conditions was in the same (Cat_1 and Cat_4) or opposite (Cat_2 and Cat_5) direction of FOXL2WT with respect to the vector. The red line indicates p-value cutoff for p&lt;0.05. Gene ontology enrichment p-values were calculated using Metascape [
+    <xref ref-type="bibr" rid="CR51">51</xref>].
+    <bold> Fig. S7</bold>. qPCR validation of the RNAseq expression data in TGFB1, TGFB2, ZYX, NFKBIA and SDC4 genes. Graphs show fold change means +/- s.e.m relative expression to FOXLWT following normalization to the housekeeping gene. Data were analyzed using the two-tailed unpaired t-test (*p&lt;0.05, **p&lt;0.01 and ***p&lt;0.001).
+    <bold> Fig. S8</bold>. Comparison with the DEGs FOXL2C134W vs Vectors from Carles et al. 2020. FOXL2C134W vs Vector DEGs were compared to previous published data at the same condition (Carles et al. 2020) [
+    <xref ref-type="bibr" rid="CR28">28</xref>]. A) Venn diagram showing the number of differential genes (DESeq, q&lt;0.05) identified in FOXL2C134W vs Vectors (939 DEGs) from the present study and from Carles et al. 2020 (471 DEGs) [
+    <xref ref-type="bibr" rid="CR28">28</xref>]. B) Heatmaps of the top selected-50 of the total common 90 genes between FOXL2C134W and Vectors from our data and [
+    <xref ref-type="bibr" rid="CR28">28</xref>]. Genes are annotated for presence or absence of FOXL2C134W ChIP-seq binding site in TGFβ-treated HGrC1 (ChIP1) [
+    <xref ref-type="bibr" rid="CR37">37</xref>] and a FOXL2C134W ChIP-seq binding site in a SVOG3e cell line (ChIP 2) [
+    <xref ref-type="bibr" rid="CR28">28</xref>]. C) Metascape GO analysis of the 90 DEGs in both FOXL2C134W vs Vectors condition. The red line indicates p-value cutoff for p&lt;0.05.
+    <bold> Fig. S9</bold>. Comparison of the DEGs FOXL2C134W vs FOXL2WT from Weis-Banke S.E. et al. FOXL2C134W vs FOXL2WT DEGs were compared to previous published data at the same condition (Weis-Banke S.E. et al.) [
+    <xref ref-type="bibr" rid="CR37">37</xref>]. A) Venn diagram showing the number of differential genes (DESeq, q&lt;0.05) identified in FOXL2C134W vs FOXL2WT (717 DEGs) from the present study and from Weis-Banke S.E. et al. [
+    <xref ref-type="bibr" rid="CR37">37</xref>] (537 DEGs). B) Heatmaps of the common 29 genes between FOXL2C134W and FOXL2WT from our data and [
+    <xref ref-type="bibr" rid="CR37">37</xref>]. Genes are annotated for presence or absence of a FOXL2C134W ChIP-seq binding site in [
+    <xref ref-type="bibr" rid="CR28">28</xref>, 
+    <xref ref-type="bibr" rid="CR37">37</xref>]. C) Metascape GO analysis of the 29 DEGs in both FOXL2C134W vs FOXL2WT condition. The red line indicates p-value cutoff for p&lt;0.05.
+   </p>
+  </caption>
+ </media>
+</supplementary-material>

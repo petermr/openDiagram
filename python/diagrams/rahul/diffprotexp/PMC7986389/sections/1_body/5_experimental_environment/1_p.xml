@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par76">We implemented all the methods in Python 3.7.0 with an Intel(R) Core(TM) i7-7700 CPU and 32.0 GB RAM. The 
+ <italic>compress_scc</italic> procedure uses Gabow’s algorithm [
+ <xref ref-type="bibr" rid="CR33">33</xref>]. The ILP processing is based on Gurobi 8.1.0 [
+ <xref ref-type="bibr" rid="CR34">34</xref>].
+</p>

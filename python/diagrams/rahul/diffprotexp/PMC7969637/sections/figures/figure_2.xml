@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F2" position="float">
+ <label>Figure 2</label>
+ <caption>
+  <p>GO and KEGG enrichment results. 
+   <bold>(A)</bold> The top 20 GO term enrichment results with the largest number of genes. In the figure, the horizontal axis represents the number of enriched genes, and the vertical axis represents the name of each GO term. 
+   <bold>(B)</bold> The enrichment results of the 20 KEGG pathways with the largest number of genes. The horizontal axis in the figure indicates the number of genes enriched, and the vertical axis indicates the name of each KEGG pathway, respectively.
+  </p>
+ </caption>
+ <graphic xlink:href="fped-09-576585-g0002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

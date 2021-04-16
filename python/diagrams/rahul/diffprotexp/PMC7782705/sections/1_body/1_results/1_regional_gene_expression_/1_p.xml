@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par6">Several consortia have generated RNAseq data from brains of individuals with a clinical and/or pathological diagnostic of AD
+ <sup>
+  <xref ref-type="bibr" rid="CR2">2</xref>–
+  <xref ref-type="bibr" rid="CR4">4</xref>
+ </sup>. Considering the regional progression of AD pathology
+ <sup>
+  <xref ref-type="bibr" rid="CR8">8</xref>
+ </sup>, we set out to identify and compare differentially expressed genes (DEG) in the temporal lobe (TL), encompassing brain regions affect at early stages of the AD such as the hippocampus and entorhinal cortex, and in the frontal lobe (FL), affect at more advanced stages of the pathology (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>). Comparisons between control and AD individuals were performed independently for each dataset and only genes with fold change &gt;1.3 and FDR &gt; 0.01 were considered as DEGs. We found 3348 (1244 down- and 2104 upregulated genes) and 2172 (1170 down and 999 upregulated genes in BM22 and BM36; three genes regulated in opposite directions in these two areas) DEGs in the TL of AD individuals compared to their respective controls in the MSBB_TL and Mayo datasets, respectively (Fig. 
+ <xref rid="Fig2" ref-type="fig">2A, B</xref> and Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">1</xref>). Of those DEGs, 734 genes (145 down and 520 up) were commonly regulated in both Mayo and MSBB_TL (88.4% of genes altered in the same direction; 15.33% of overlap; 
+ <italic>P</italic> = 8.56 × 10
+ <sup>−59</sup>, hypergeometric test). In contrast, only 327 (113 down and 214 up) and 209 (97 down and 112 up) DEGs were detected in the MSBB_FL and ROSMAP, respectively. Of those, 31 genes (18 down and 13 up) were found in both datasets (7.34% of overlap; 
+ <italic>P</italic> = 1.67 × 10
+ <sup>−14</sup>, hypergeometric test) (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>A, B and Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">1</xref>). This small number of DEGs in the FL is in agreement with previous data obtained from the DLPFC (106 down- and 158 upregulated genes with FC &gt; 1.3)
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup>. Among DEGs detected in the FL, 62.5% were also detected in the TL (Fig. 
+ <xref rid="Fig2" ref-type="fig">2B</xref>), suggesting that similar molecular changes occur in these brain areas, but at different stages of the disease progression. The differences in the number of DEGs detected in the FL and TL can neither be attributed to lack of statistical power nor potential biases due to tissue processing, since the number of samples in the FL is larger than in the TL groups (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>) and differences are observed even in samples obtained from the same donors (compare MSBB_TL and MSBB_FL in Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>). Thus, changes in gene expression are much more prominent in brain areas affected at the early stages of AD pathology.
+</p>

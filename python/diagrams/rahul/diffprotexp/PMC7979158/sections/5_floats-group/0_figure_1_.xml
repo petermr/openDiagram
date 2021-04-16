@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig1" position="float" orientation="portrait">
+ <label>Figure 1.</label>
+ <caption>
+  <title>Differential expression across embryonic brain development following maternal immune activation via poly(I:C) injection at E12.5.</title>
+  <p>(
+   <bold>a</bold>) Schematic representation of MIA model and study design. E: embryonic day, P: postnatal day, IHC: immunohistochemistry, WB: western blot. Poly(I:C) was injected at E12.5. Samples for RNA-seq were collected at E12.5 + 6 hr, E14.5, E17.5, and at birth (P0). IHC and WB analysis were conducted on a separate animal cohort at E17.5 and P0. (
+   <bold>b, c</bold>) Principal component analysis (PCA) of RNA-seq data indicates that developmental age accounts for the majority of variance across samples. Age (DPC) or sex are represented as colored symbols in (
+   <bold>b</bold>) and (
+   <bold>c</bold>) respectively, and poly(I:C) or saline treatment indicated by circles or triangles, respectively (
+   <bold>d</bold>) Heatmap representing relative gene expression changes between control and MIA samples across time-points. Hierarchical clustering by relative fold changes shows stage-specific differential expression signatures (DE genes shown have FDR &lt; 0.05 and log
+   <sub>2</sub> fold change (log
+   <sub>2</sub>FC)&gt;1 or &lt; −1). (
+   <bold>e</bold>) Volcano plots of DE effect size and significance show stage-specific differences in number of DE genes and DE effect size, with the strongest dysregulation at E17.5. Colors represent directionality and statistical significance. (
+   <bold>f</bold>) Numbers of upregulated and downregulated DE genes at FDR &lt; 0.05 and p&lt;0.05 thresholds again show varying DE genes numbers with a peak of dysregulated genes at E17.5. (
+   <bold>g</bold>) Intersection of stage-specific DE genes with the 82 SFARI autism-associated mouse gene orthologs that were expressed at measurable levels in the RNA-seq data. E17.5 DE genes (FDR &lt; 0.05) were enriched for SFARI genes (p=3.9e-04, hypergeometric test). Concentric circles represent developmental time-points. Light red, upregulated DE genes (p&lt;0.05); dark red, upregulated DE genes (FDR &lt; 0.05); light blue, downregulated DE genes (p&lt;0.05); dark blue, downregulated DE genes (FDR &lt; 0.05).
+  </p>
+ </caption>
+ <graphic xlink:href="elife-60100-fig1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 1.</label>
+   <caption>
+    <title>Validation of responsiveness to poly(I:C) based on dam serum IL-6 levels.</title>
+    <p>Injection of poly(I:C) at E12.5 consistently elevates serum IL-6 in dams 4 hr following injection, compared with little response in dams injected with saline.</p>
+   </caption>
+   <graphic xlink:href="elife-60100-fig1-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s2" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 2.</label>
+   <caption>
+    <title>Males and females show largely concordant DE signatures following MIA.</title>
+    <p>(
+     <bold>a</bold>) Numbers of upregulated and downregulated DE genes with p &lt; 0.05 and FDR &lt; 0.05, in the DE analysis lacking the sex covariate, are similar to the DE model including the sex covariate (
+     <xref ref-type="fig" rid="fig2">Figure 2c</xref>). (
+     <bold>b</bold>) Numbers of upregulated and downregulated DE genes with p &lt; 0.05 and FDR &lt; 0.05, in a DE analysis testing for differential expression between sexes identifies few DE genes, suggesting limited sex dimorphism between samples. MIA conditions and sequencing lanes were set as covariates for the DE model. (
+     <bold>c, d</bold>) Numbers of upregulated and downregulated DE genes with p &lt; 0.05 and FDR &lt; 0.05, for the DE analysis performed on (
+     <bold>c</bold>) males and (
+     <bold>b</bold>) females demonstrate robust DE at E17.5 in both sexes.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-60100-fig1-figsupp2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s3" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 3.</label>
+   <caption>
+    <title>Sex-stratified comparison of DE genes and effect sizes suggest increased DE effect sizes in females.</title>
+    <p>(
+     <bold>a</bold>) Correlation of the relative effect sizes (log
+     <sub>2</sub>FC) for genes passing FDR &lt; 0.05 identifies high degree of concordance between MIA responses between sexes. Genes passing FDR threshold in either or both sexes are color coded. (
+     <bold>b</bold>) Venn diagrams illustrating overlap between DE gene sets passing FDR &lt; 0.05 at E14.5 and E17.5, in DE models containing samples from both sexes, males, or females. The DE model comprising individuals of both sexes includes most of the DE signature of each sex. Female DE analysis identifies limited and unique DE signature. (
+     <bold>c</bold>) Examples of E14.5 and E17.5 genes significant in females but not males. At E14.5 genes were selected to pass FDR &lt; 0.05 and logFC &gt; 0.5 or logFC &lt; −0.5 in females, but not logFC &gt; 0.5 or logFC &lt; −0.5 in males. The gene-set selection process was analogous for E17.5 with the addition of FDR &lt; 0.05 condition in males. After gene set filtering, twelve genes with the lowest FDR in females were plotted.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-60100-fig1-figsupp3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

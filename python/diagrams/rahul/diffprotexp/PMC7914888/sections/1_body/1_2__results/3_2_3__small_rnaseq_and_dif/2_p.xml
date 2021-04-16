@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The quality and integrity number (RIN) of the extracted RNA was within the values required for the Small RNAseq (
+ <xref ref-type="app" rid="app1-ijms-22-01591">Figure S2a</xref>). The average of readings obtained after sequencing for each experimental group (
+ <italic>n</italic> = 3) was 1.38 × 10
+ <sup>7</sup>, 8.0 × 10
+ <sup>6</sup>, and 1.03 × 10
+ <sup>7</sup> for control cells, exposed to L-Tyr or 5-Brd-2′-dU, respectively (
+ <xref ref-type="app" rid="app1-ijms-22-01591">Figure S2b</xref>); these readings presented Phred score values close to 40, indicating a 99.99% precision in the database call (data not shown, obtained by FastQC). With the readings, we constructed an expression matrix that contained in each row the identification number (I.D.) of the mature miRNA for sequences that presented 100% agreement with the sequences reported in miRBase version 21. We listed on each column the total number of counts for each miRNA. The principal component analysis (PCA) showed greater homogeneity in the control samples and a more significant variation in those exposed to 5-Brd-2′-dU. When running DESEq2 on the expression matrix’s normalized data, some miRNAs changed, measured as the Log
+ <sub>2</sub> Fold Change, which suggests differential expression (M.A. plot of 
+ <xref ref-type="app" rid="app1-ijms-22-01591">Figure S2d,e</xref>), some of them, when correcting multiple tests, maintained their statistical significance (
+ <xref rid="ijms-22-01591-t001" ref-type="table">Table 1</xref>). In cells exposed to L-Tyr, 35, 21 were under-expressed, and 14 over-expressed. In cells exposed to 5-Brd-2′-dU, the number of miRNAs with differential expression was 32, 11 of them under-expressed, and 21 over-expressed, all concerning control B16F1 cells (
+ <xref rid="ijms-22-01591-t001" ref-type="table">Table 1</xref>).
+</p>

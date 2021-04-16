@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tab1" orientation="portrait" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>Clinical profiles and demographics of healthy controls and lung adenocarcinoma patients with different stages.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">Demographics</th>
+    <th align="center" rowspan="1" colspan="1">Control</th>
+    <th align="center" rowspan="1" colspan="1">Stage Ia1</th>
+    <th align="center" rowspan="1" colspan="1">Stage Ia2</th>
+    <th align="center" rowspan="1" colspan="1">Stage Ia3</th>
+    <th align="center" rowspan="1" colspan="1">Stage Ib</th>
+    <th align="center" rowspan="1" colspan="1">Stage II</th>
+    <th align="center" rowspan="1" colspan="1">Stage III</th>
+    <th align="center" rowspan="1" colspan="1">Stage IV</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">n</td>
+    <td align="center" rowspan="1" colspan="1">30</td>
+    <td align="center" rowspan="1" colspan="1">10</td>
+    <td align="center" rowspan="1" colspan="1">10</td>
+    <td align="center" rowspan="1" colspan="1">10</td>
+    <td align="center" rowspan="1" colspan="1">10</td>
+    <td align="center" rowspan="1" colspan="1">10</td>
+    <td align="center" rowspan="1" colspan="1">10</td>
+    <td align="center" rowspan="1" colspan="1">10</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Age</td>
+    <td align="center" rowspan="1" colspan="1">55 ± 8.32</td>
+    <td align="center" rowspan="1" colspan="1">53 ± 5.91</td>
+    <td align="center" rowspan="1" colspan="1">55.9 ± 6.79</td>
+    <td align="center" rowspan="1" colspan="1">54.3 ± 4.06</td>
+    <td align="center" rowspan="1" colspan="1">57.4 ± 8.37</td>
+    <td align="center" rowspan="1" colspan="1">57.9 ± 6.35</td>
+    <td align="center" rowspan="1" colspan="1">57.2 ± 5.39</td>
+    <td align="center" rowspan="1" colspan="1">57.8 ± 9.96</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Male</td>
+    <td align="center" rowspan="1" colspan="1">21</td>
+    <td align="center" rowspan="1" colspan="1">7</td>
+    <td align="center" rowspan="1" colspan="1">7</td>
+    <td align="center" rowspan="1" colspan="1">7</td>
+    <td align="center" rowspan="1" colspan="1">7</td>
+    <td align="center" rowspan="1" colspan="1">7</td>
+    <td align="center" rowspan="1" colspan="1">7</td>
+    <td align="center" rowspan="1" colspan="1">7</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Female</td>
+    <td align="center" rowspan="1" colspan="1">9</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Smoking history</td>
+    <td align="center" rowspan="1" colspan="1">12</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Ethnicity</td>
+    <td align="center" rowspan="1" colspan="1">Han (30)</td>
+    <td align="center" rowspan="1" colspan="1">Han (10)</td>
+    <td align="center" rowspan="1" colspan="1">Han (10)</td>
+    <td align="center" rowspan="1" colspan="1">Han (10)</td>
+    <td align="center" rowspan="1" colspan="1">Han (10)</td>
+    <td align="center" rowspan="1" colspan="1">Han (10)</td>
+    <td align="center" rowspan="1" colspan="1">Han (10)</td>
+    <td align="center" rowspan="1" colspan="1">Han (10)</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>121: healthy control; 113: stage Ia 1; 114: stage Ia2; 115: stage Ia3; 116: stage Ib; 117: stage II; 118: stage III; 119: stage IV.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

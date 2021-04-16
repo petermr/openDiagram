@@ -1,0 +1,6 @@
+0: Differential expression analysis was performed by analysis of variance (ANOVA) and Tukeys HSD test with BenjaminiHochberg  post hoc corrections ( Benjamini and Hochberg, 1995) within the XLSTAT-Premium Version 2016.1 (Addinsoft) OMICs package.
+1: All proteins significantly ( P< 0.05) upregulated during growth on a substrate compared to another were subjected to a BLAST (Basic Local Alignment Search Tool) ( Altschul et al., 1990) against the NCBI nr database.
+2: Protein family and domain analysis was carried out in Pfam v30.0 ( Finn et al., 2016).
+3: SCOOP (Simple Comparison of Outputs Program) ( Bateman and Finn, 2007) was used to detect relationships between families in the Pfam database.
+4: Proteins were assigned to functional families by hierarchical classification of protein domains based on their folding patterns in CATH v4.1 (Class, Architecture, Topology, Homology) ( Sillitoe et al., 2015).
+5: Full length secondary and tertiary structure predictions, functional annotations on ligand-binding sites, enzyme commissions numbers and gene ontology terms were generated using the I-TASSER SERVER ( Zhang, 2008).

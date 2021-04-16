@@ -1,0 +1,422 @@
+{
+  "id": [
+    "33435591"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33435591"
+  ],
+  "pmcid": [
+    "PMC7827551"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7827551"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/molecules26020305"
+  ],
+  "title": [
+    "Differential Protein Expression in Exponential and Stationary Growth Phases of <i>Mycobacterium avium</i> subsp. <i>hominissuis</i> 104."
+  ],
+  "authorString": [
+    "Enany S, Ato M, Matsumoto S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Enany S"
+          ],
+          "firstName": [
+            "Shymaa"
+          ],
+          "lastName": [
+            "Enany"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7827-6504",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Microbiology and Immunology, Faculty of Pharmacy, Suez Canal University, Ismailia 41522, Egypt."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ato M"
+          ],
+          "firstName": [
+            "Manabu"
+          ],
+          "lastName": [
+            "Ato"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3178-2645",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Leprosy Research Center, Department of Mycobacteriology, National Institute of Infectious Diseases, Tokyo 189-0002, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Matsumoto S"
+          ],
+          "firstName": [
+            "Sohkichi"
+          ],
+          "lastName": [
+            "Matsumoto"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6106-7538",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Bacteriology, Niigata University Graduate School of Medicine, Niigata 951-8510, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3178-2645",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6106-7538",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7827-6504",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "26"
+      ],
+      "journalIssueId": [
+        "3087771"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Molecules (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Molecules"
+          ],
+          "medlineAbbreviation": [
+            "Molecules"
+          ],
+          "NLMid": [
+            "100964009"
+          ],
+          "ISSN": [
+            "1420-3049"
+          ],
+          "ESSN": [
+            "1420-3049"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "<i>Mycobacterium avium</i> complex (MAC) is the most common non-tuberculous mycobacterium (NTM) and causes different types of pulmonary diseases. While genomic and transcriptomic analysis of <i>Mycobacterium avium</i> 104 (<i>M. avium</i> 104) has been extensive, little is known about the proteomics of <i>M. avium</i> 104. We utilized proteomics technology to analyze the changes in the whole proteome of <i>M. avium</i> 104 during exponential and stationary growth phases. We found 12 dys-regulated proteins; the up-regulated protein hits in the stationary phase were involved in aminopeptidase, choline dehydrogenase, oxidoreductase, and ATP binding, while the down-regulated proteins in the stationary phase were acetyl-CoA acetyltransferase, universal stress protein, catalase peroxidase, and elongation factor (Tu). The differently expressed proteins between exponential and stationary phases were implicated in metabolism and stress response, pointing to the functional adaptation of the cells to the environment. Proteomic analysis in different growth phases could participate in understanding the course of infection, the mechanisms of virulence, the means of survival, and the possible targets for treatment."
+  ],
+  "affiliation": [
+    "Department of Microbiology and Immunology, Faculty of Pharmacy, Suez Canal University, Ismailia 41522, Egypt."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Proteins",
+        "Proteomics",
+        "Exponential",
+        "Growth Phases",
+        "Stationary",
+        "Mycobacterium Avium 104"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/molecules26020305"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7827551"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7827551?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR220148"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "CrossRef Pre-print loader"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "uniprot"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-01-13"
+  ],
+  "firstIndexDate": [
+    "2021-01-15"
+  ],
+  "fullTextReceivedDate": [
+    "2021-01-26"
+  ],
+  "dateOfRevision": [
+    "2021-01-26"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-08"
+  ],
+  "firstPublicationDate": [
+    "2021-01-08"
+  ]
+}

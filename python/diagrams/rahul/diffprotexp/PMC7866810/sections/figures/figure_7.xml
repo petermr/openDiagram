@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="ijms-22-01399-f007" orientation="portrait" position="float">
+ <label>Figure 7</label>
+ <caption>
+  <p>Biomarker discovery in Cluster 2. (
+   <bold>a</bold>) Volcano plot showing the upregulated markers in Cluster 2. These markers were detected using binomial differential expression. (
+   <bold>b</bold>) Network of downregulated DEGs in Cluster 2. (
+   <bold>c</bold>) PCA plot visualizing cells labeled based on their cluster ID and color-coded based on the expression of 
+   <italic>TYMS</italic>. (
+   <bold>d</bold>) Schematic figure explaining the RPART decision tree to predict the cluster identity of a target cell to belong to Cluster 2 or 3.
+  </p>
+ </caption>
+ <graphic xlink:href="ijms-22-01399-g007" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

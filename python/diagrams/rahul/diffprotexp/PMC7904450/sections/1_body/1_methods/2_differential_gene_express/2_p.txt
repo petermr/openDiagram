@@ -1,0 +1,13 @@
+0: Fig.
+1: 1 summarizes our methodological workflow.
+2: We collected transcriptomic data from the Library of Integrated Network-Based Cellular Signatures (LINCS).
+3: LINCS is a program initiated by the National Institute of Health (NIH) to create a comprehensive repository of molecular interactions and responses to internal and external stressors.
+4: The LINCS project uses the L1000 assay which measures the expression of 978 hub genes which represent ~82% of the information present in the transcriptome.
+5: The iLINCS Portal ( www.ilincs.org) provides a convenient gateway to access these signatures.
+6: We used the iLINCS application programing interface (API) to download differential gene expression signatures.
+7: We acquired all available signatures for fluoxetine (33), paroxetine (65), bupropion (29), or dexamethasone (309) treated cell lines.
+8: In total, 436 signatures were obtained for all 4 drug treatments, with data generated in 45 different cell lines, at different timepoints (624 h) and different doses (0.01uM - 80uM) ( Table S1).
+9: To create high-confidence gene signatures, differential gene expression data were filtered such that only those genes with a log-fold change (LFC)  0.85 or  0.85 in drug-treated versus corresponding control cell lines were included in downstream gene signature analyses.
+10: This LFC threshold was found to effectively reduce excess noise from low-difference genes and reduce signatures to their most significant components  ODonovan, 2021,  [30].
+11: The resulting signatures were searched against the iLINCS Consensus Gene Knockdown (CGS) database to generate similarity indices between (a) the drug treatment signatures within a given cell line and (b) individual inflammatory gene knockdown signatures for 27 inflammatory genes with a potential role in fluoxetines anti-inflammatory mechanism of action (i.e.
+12: drug treatment gene signatures were compared to gene knockdown signatures generated only in the same cell line).

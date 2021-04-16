@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="pntd.0005104.s004">
+ <label>S4 Table</label>
+ <caption>
+  <title>Statistical information on the significantly differentially expressed proteins from plasma.</title>
+  <p>MSstats output table including the protein identifier, label (group comparison), log
+   <sub>2</sub> fold change, standard error, T value, degree of freedom, raw p-value and adjusted p-value based on Benjamini and Hochberg method to collect multiple testing issue and further control false discovery rate (adj.pvalue).
+  </p>
+  <p>(XLSX)</p>
+ </caption>
+ <media xlink:href="pntd.0005104.s004.xlsx" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <caption>
+   <p>Click here for additional data file.</p>
+  </caption>
+ </media>
+</supplementary-material>

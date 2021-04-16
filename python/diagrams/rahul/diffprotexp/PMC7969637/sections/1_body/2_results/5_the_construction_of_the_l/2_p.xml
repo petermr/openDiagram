@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To further evaluate the importance of the 2 hub genes, we also constructed a random forest classification model. The GSE26440 was used as training set. The sample type was used as a dependent variable. The expression of 50 genes selected in the previous step was used as an independent variable. See 
+ <xref ref-type="fig" rid="F5">Figure 5C</xref> for details. The figure demonstrated the top 30 genes in the importance ranking of these 50 genes in the random variable model. The MeanDecreaseAccuracy indicated the decrease of model accuracy after variable replacement, while the MeanDecreaseGini indicated the decrease of model GINI coefficient after variable replacement. The larger the 2 values were, the more important the variable was. From the figure, it was clear that MMP9 and MPO were the top 2 genes in the MeanDecreaseAccuracy as well as MeanDecreaseGini's scores, indicating that these 2 genes were more crucial variables in the random forest model (
+ <xref ref-type="fig" rid="F5">Figure 5D</xref>).
+</p>

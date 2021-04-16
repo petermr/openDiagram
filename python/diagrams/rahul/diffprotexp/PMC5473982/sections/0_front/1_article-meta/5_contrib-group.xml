@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Sekelova</surname>
+   <given-names>Zuzana</given-names>
+  </name>
+  <address>
+   <email>sekelova@vri.cz</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Stepanova</surname>
+   <given-names>Hana</given-names>
+  </name>
+  <address>
+   <email>stepanova@vri.cz</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Polansky</surname>
+   <given-names>Ondrej</given-names>
+  </name>
+  <address>
+   <email>polansky@vri.cz</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Varmuzova</surname>
+   <given-names>Karolina</given-names>
+  </name>
+  <address>
+   <email>varmuzova@vri.cz</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Faldynova</surname>
+   <given-names>Marcela</given-names>
+  </name>
+  <address>
+   <email>faldynova@vri.cz</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Fedr</surname>
+   <given-names>Radek</given-names>
+  </name>
+  <address>
+   <email>fedr@ibp.cz</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Rychlik</surname>
+   <given-names>Ivan</given-names>
+  </name>
+  <address>
+   <phone>+420 533331201</phone>
+   <email>rychlik@vri.cz</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Vlasatikova</surname>
+   <given-names>Lenka</given-names>
+  </name>
+  <address>
+   <email>vlasatikova@vri.cz</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 2285 286X</institution-id>
+   <institution-id institution-id-type="GRID">grid.426567.4</institution-id>
+   <institution/>
+   <institution>Veterinary Research Institute, </institution>
+  </institution-wrap>Hudcova 70, 621 00 Brno, Czech Republic 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0004 0633 8512</institution-id>
+   <institution-id institution-id-type="GRID">grid.418859.9</institution-id>
+   <institution>Department of Cytokinetics, </institution>
+   <institution>Institute of Biophysics of the CAS, </institution>
+  </institution-wrap>Kralovopolska 135, 612 65 Brno, Czech Republic 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.428419.2</institution-id>
+   <institution>Center of Biomolecular and Cellular Engineering, International, Clinical Research Center, </institution>
+   <institution>St. Anne’s University Hospital Brno, </institution>
+  </institution-wrap>Pekarska 53, 656 91 Brno, Czech Republic 
+ </aff>
+</contrib-group>

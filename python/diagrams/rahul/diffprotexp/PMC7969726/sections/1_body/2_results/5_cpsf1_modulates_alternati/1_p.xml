@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In addition to APA, AS is a pre-mRNA processing event that leads to the diversity and maturation of RNA. Using GSEA of TCGA LIHC data, we found that CPSF1 positively correlated with the function of spliceosome, suggesting a possible role of CPSF1 in AS, in addition to APA (
+ <xref ref-type="fig" rid="F7">Figure 7A</xref>). To test this hypothesis, we further examined the effect of CPSF1 on AS in our RNA-seq data. Surprisingly, a total of 3,138 splicing events of seven types were identified, among which skipping exon (SE) was the most abundant type (
+ <xref ref-type="fig" rid="F7">Figure 7B</xref> and 
+ <xref ref-type="supplementary-material" rid="DS1">Supplementary Data 1</xref>). Next, we filtered the differentially expressed AS events according to 
+ <italic>P</italic> &lt; 0.05 and identified 197 significant events that met these criteria (
+ <xref ref-type="fig" rid="F7">Figure 7C</xref>).
+</p>

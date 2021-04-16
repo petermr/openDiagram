@@ -1,0 +1,11 @@
+0: In the present study, we acquired the expression profiles and clinical information for colon adenocarcinoma (COAD) and rectal adenocarcinoma (READ) from The Cancer Genome Atlas (TCGA).
+1: Differentially expressed mRNAs (DEmRNAs), lncRNAs (DElncRNAs), and miRNAs (DEmiRNAs) were then identified by comparing tumor samples and normal samples.
+2: We performed survival analysis and predicted RNA interaction pairs to construct a prognosis-related ceRNA network.
+3: The proteinprotein interaction (PPI) network was embodied in Cytoscape to identify module clusters and hub genes.
+4: Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis were performed to explore the biological functions of the mRNAs in the ceRNA and module network.
+5: In addition, we analyzed the correlations between key lncRNAs and the clinical features of CRC patients.
+6: Co-expression analysis between lncRNAs and target genes was performed to verify the ceRNA hypothesis.
+7: Eventually, we established ceRNA regulatory subnetworks based on the above results.
+8: GEPIA and immunohistochemistry were used to validate the differential expression of genes, whereas GSEA was used to predict the underlying functions of the genes in the subnetwork.
+9: The CIBERSORT algorithm was used to estimate the proportion of immune cells for further correlation analysis (Fig.
+10: 1).

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Lactoferricin and dp4 were chosen as structural models for BLF and HSPGs, respectively. AutoDock Vina was used for modeling of binding of lactoferricin to dp4 [
+ <xref rid="CIT0060" ref-type="bibr">60</xref>]. Bovine lactoferricin (PDB: 1LFC) was set as the receptor and the docking grid box parameters were defined as the following: center_x = 32.636, center_y = 76.438, center_z = 46.275; size_x = 106, size_y = 120, size_z = 104; exhaustiveness = 40. The heparin dp4 structure was downloaded from PDB code 5E9C. The final docking poses were generated in PyMOL. The protein electrostatistics surface was generated using the APBS Electrostatistics model in PyMOL.
+</p>

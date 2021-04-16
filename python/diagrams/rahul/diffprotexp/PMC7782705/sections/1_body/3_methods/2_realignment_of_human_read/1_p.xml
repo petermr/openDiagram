@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32">Using human GRCh38 cDNA release 94 (
+ <ext-link ext-link-type="uri" xlink:href="http://ftp.ensembl.org/pub/release-94/fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz" xmlns:xlink="http://www.w3.org/1999/xlink">ftp://ftp.ensembl.org/pub/release-94</ext-link>) as a reference, we built an index to align all our fastq files. Next, we used pseudoaligner Kallisto
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup> (version 0.43.1) with our pre-built index to align fastq files.
+</p>

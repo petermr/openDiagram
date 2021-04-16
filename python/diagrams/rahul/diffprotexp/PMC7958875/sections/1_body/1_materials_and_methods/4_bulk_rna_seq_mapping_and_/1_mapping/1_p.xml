@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Transcriptomes from individual 
+ <italic>Anopheles</italic> midguts infected with 
+ <italic>P. falciparum</italic> from a previous study (
+ <xref rid="B11" ref-type="bibr">Dahalan et al., 2019</xref>) were mapped to the 
+ <italic>P. falciparum</italic> v3 genome (
+ <uri xlink:type="simple" xlink:href="http://www.genedb.org/Homepage/Pfalciparum" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.genedb.org/Homepage/Pfalciparum</uri>, October 2016) with HISAT2 (v 2.1.0) (
+ <xref rid="B22" ref-type="bibr">Kim et al., 2015</xref>) using 
+ <italic>hisat2 –rna-strandness RF –max-intronlen 5000 p 12.</italic> Reads were summed against transcripts using featureCounts in the Subread package (v 2.0.0) (
+ <xref rid="B26" ref-type="bibr">Liao et al., 2014</xref>) using 
+ <italic>featureCounts -p -t CDS -g transcript_id -s 2</italic>. Two samples that had fewer than 5,000 reads were removed.
+</p>

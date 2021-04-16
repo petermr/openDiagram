@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Guha et al. (2018) have reported that metastasizing cells from a highly aggressive tumor exhibit a higher frequency of mitochondrial defects. To investigate the mitochondrial defects across the clusters, we plotted the expressions of two genes reported by Guha et al.: epithelial splicing regulatory protein (
+ <italic>ESRP1</italic>) and mitochondrial transcription factor A (
+ <italic>TFAM</italic>). Both genes were downregulated in Cluster 4 compared to their expression in Cluster 1 (
+ <xref ref-type="fig" rid="ijms-22-01399-f002">Figure 2</xref>d,e). The DEGs were extracted by a two-class unpaired response test using SAMseq, with a significantly false discovery rate (FDR) less than 0.05. The list of detected DEGs is the starting point of the biomarker discovery. The gene enrichment analysis and the networking analysis performed over the list of the upregulated DEGs in Cluster 4 showed that many of these genes are involved in the processes of relevance to cancer progression, such as exocytosis regulation, Rap1 signaling, and regulation of cell migration.
+</p>

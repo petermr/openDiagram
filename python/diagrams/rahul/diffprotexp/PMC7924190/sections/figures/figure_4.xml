@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00299-f004" orientation="portrait" position="float">
+ <label>Figure 4</label>
+ <caption>
+  <p>The antibody microarray identified differentially enriched proteins after the treatment of hTCEpi cells with AC EFs. The volcano plot visualizes the 
+   <italic>p</italic>-values (adjusted for multiple testing) and corresponding log-fold changes. The log-fold change of the difference in abundance is shown horizontally, whereas the vertical axis represents the significance level. The logFC cutoffs are depicted as vertical lines. The black dots represent analyzed proteins. The horizontal red line indicates an adjusted 
+   <italic>p</italic>-value of 0.05, above which all proteins are considered to vary significantly. Proteins with a positive log-fold change display higher abundance in EF-treated samples, whereas proteins with a negative value display higher abundance in control samples.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00299-g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

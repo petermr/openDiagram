@@ -1,0 +1,5 @@
+0: The mRNAlncRNA expression correlation networks in the TC-EC model and in EC alone were constructed using Affymetrix microarray profiling data.
+1: To assess network characteristics, we computed the degree of each node in both networks.
+2: We compared the values of each group and subtracted them to get the | Diff| value.
+3: Both mRNAlncRNA co-expression correlation networks were constructed using the top 10 mRNAs/lncRNAs arranged from large to small and visualized using Cytoscape v3.7.2.
+4: Those mRNA/lncRNAs without interaction relationships were not displayed in the network.

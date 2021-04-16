@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The length distribution of the curated hSAEC transcriptome had a median of approximately 1 kB in length with an asymmetric tail including transcripts of up to 10 kB (
+ <xref ref-type="fig" rid="viruses-13-00218-f002">Figure 2</xref>A). Multi-exon genes constituted the genes with the largest size; single-exon genes were substantially smaller (
+ <xref ref-type="fig" rid="viruses-13-00218-f002">Figure 2</xref>A). Interestingly, over 45% of genes encoded six or greater mRNA isoforms (
+ <xref ref-type="fig" rid="viruses-13-00218-f002">Figure 2</xref>B), with the majority of these genes corresponding to annotated genes (
+ <xref ref-type="fig" rid="viruses-13-00218-f002">Figure 2</xref>C). By contrast, novel genes were skewed toward a single isoform (
+ <xref ref-type="fig" rid="viruses-13-00218-f002">Figure 2</xref>C). During SMARTbell library synthesis, reverse transcriptase (RT) can jump across RNA secondary structures, producing artifacts in the interpretation of splicing events. SQANTI identifies these artifacts by an algorithm identifying RNA direct repeats upstream of a noncanonical intron [
+ <xref rid="B30-viruses-13-00218" ref-type="bibr">30</xref>,
+ <xref rid="B32-viruses-13-00218" ref-type="bibr">32</xref>]. Consequently, 0% of canonical and 3% of novel transcripts with canonical splice junctions show evidence of RT switching (
+ <xref ref-type="fig" rid="viruses-13-00218-f002">Figure 2</xref>D). By contrast, 9% of novel genes with noncanonical splice junctions were likely due to RT switching and therefore excluded from subsequent analysis. We further noted that &gt;60% of transcripts were mapped to ±50 nt of annotated transcription start sites (TSS; 
+ <xref ref-type="fig" rid="viruses-13-00218-f002">Figure 2</xref>E). Similarly, ~45% of polyadenylation (polyA) motifs were found within ±500 nt of the 3′ end of the gene. The median location was within 18 nt of the 3′ end of the gene (
+ <xref ref-type="fig" rid="viruses-13-00218-f002">Figure 2</xref>F). The median length and feature distribution of the hSAEC transcriptome is consistent with other reports of mammalian transcriptomes [
+ <xref rid="B33-viruses-13-00218" ref-type="bibr">33</xref>,
+ <xref rid="B34-viruses-13-00218" ref-type="bibr">34</xref>].
+</p>

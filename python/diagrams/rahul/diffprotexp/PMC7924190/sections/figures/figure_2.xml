@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00299-f002" orientation="portrait" position="float">
+ <label>Figure 2</label>
+ <caption>
+  <p>Hierarchical illustration of differentially expressed genes in hTCEpi cells after treatment with AC EFs for 24 h. Both two-fold upregulated and downregulated genes were clustered. Untreated hTCEpi cells served as control. After 24 h of treatment with AC EFs, RNA was isolated and transcriptome-wide gene level expression profiling was performed using Clariom
+   <sup>TM</sup> S arrays. Affymetrix
+   <sup>®</sup> Transcription Analysis Console
+   <sup>TM</sup> (TAC) software (v.4.0.1.36) was used for array scanning, data analysis, signal estimation, and quality control functionality for the expression arrays, which also allow statistical analysis and provide a list of differentially expressed genes. Expression level analysis was performed using the normalization method based on the processing algorithm called the robust multi-array average (RMA), which was improved by Signal Space Transformation (SST-RMA, Affymetrix). Each array was performed in triplicate. Blue indicates a relatively low expression, whereas red indicates a relatively high expression.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00299-g002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

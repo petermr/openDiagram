@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">Following the conventional SMD approach
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>, the truncated ribosome was split into three regions. Bases and residues containing one or more atoms within 28 Å of ERY comprised the dynamic region. The buffer region is between 28 and 34 Å, while the remaining portion belongs to the outer region. Atoms within the dynamic region were not subject to any restraints during the SMD simulation course, but harmonic restraints were applied to non-hydrogen atoms within the buffer and outer regions with spring constants of 5 and 10 kcal mol
+ <sup>−1</sup> Å
+ <sup>−2</sup>, respectively. The ribosomes were solvated in a rectangular box with distances between the system and box edge of 12 Å, 12 Å and 28 Å along the 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$x$$\end{document}</tex-math>
+   <math id="M2">
+    <mi>x</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$y$$\end{document}</tex-math>
+   <math id="M4">
+    <mi>y</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z$$\end{document}</tex-math>
+   <math id="M6">
+    <mi>z</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> axes, respectively. The AMBER99SB-ILDN force field was used in the SMD simulations, whereas force-field parameters for ERY were taken from the work of Solthiselvam and coworkers
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup>. The constant velocity and the cantilever spring constant were set to 5 m/s in the 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z$$\end{document}</tex-math>
+   <math id="M8">
+    <mi>z</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>-direction and 1,000 kJ mol
+ <sup>−1</sup> nm
+ <sup>−2</sup>. The cantilever was connected to the center of mass of the N-terminal residue of the nascent peptide. Because there is no experimental evidence that ERY diffuses out the tunnel during protein synthesis, a harmonic restraint, with a force constant of 1000 kJ mol
+ <sup>−1</sup> nm
+ <sup>−2</sup>, was applied to the heavy atom closest to the center of mass of ERY. The PME method
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup> was applied to calculate electrostatic interactions using a 1 nm cutoff. We used only one starting structure for each peptide. In each SMD run, the system was first minimized by the steepest descent algorithm and equilibrated in the NVT
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup> ensemble for 200 ps and then in the NPT
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup> ensemble for 10 ns. The final structures from this NPT equilibration were used as starting structures for the production SMD simulations. A total of 30 and 34 SMD trajectories were performed for ErmCL and H-NS, respectively.
+</p>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Dimensionality reduction was performed using tSNE in scater (v 1.16.0) based on the log CPM expression values of the top 500 variable features (
+ <xref rid="B30" ref-type="bibr">McCarthy et al., 2017</xref>). We then used scmap (v 1.10.0) (
+ <xref rid="B24" ref-type="bibr">Kiselev et al., 2018</xref>) to assign parasite stage and order cells in developmental time. The pseudotime value and parasite stage of the matched cell in the reference Malaria Cell Atlas data was given to the query cell in the single gut ookinete data.
+</p>

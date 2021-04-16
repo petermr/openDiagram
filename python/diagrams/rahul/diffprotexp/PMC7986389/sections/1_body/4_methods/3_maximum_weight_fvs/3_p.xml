@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par71">
+ <bold>ILP3:</bold>
+ <disp-formula id="Equ5">
+  <alternatives>
+   <tex-math id="M143">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{*{20}c} \textbf{Maximize} &amp; \Sigma w_i x_i \\ \textbf{Subject to} &amp; k_i-k_j+nx_i \ge 1 \: \forall (v_i,v_j)\in E \\ &amp; \textbf{where} \: 0 \le k_i \le n-1 \: \textbf{and} \: x_i \: \textbf{is\, Boolean} \end{array}$$\end{document}</tex-math>
+   <math id="M144" display="block">
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mi mathvariant="bold">Maximize</mi>
+       </mtd>
+       <mtd>
+        <mrow>
+         <mi mathvariant="normal">Σ</mi>
+         <msub>
+          <mi>w</mi>
+          <mi>i</mi>
+         </msub>
+         <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mrow/>
+         <mi mathvariant="bold">Subject</mi>
+         <mi mathvariant="bold">to</mi>
+        </mrow>
+       </mtd>
+       <mtd>
+        <mrow>
+         <msub>
+          <mi>k</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>-</mo>
+         <msub>
+          <mi>k</mi>
+          <mi>j</mi>
+         </msub>
+         <mo>+</mo>
+         <mi>n</mi>
+         <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>≥</mo>
+         <mn>1</mn>
+         <mspace width="0.222222em"/>
+         <mo>∀</mo>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <msub>
+           <mi>v</mi>
+           <mi>i</mi>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mi>v</mi>
+           <mi>j</mi>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mo>∈</mo>
+         <mi>E</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow/>
+       </mtd>
+       <mtd>
+        <mrow>
+         <mi mathvariant="bold">where</mi>
+         <mspace width="0.222222em"/>
+         <mn>0</mn>
+         <mo>≤</mo>
+         <msub>
+          <mi>k</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>≤</mo>
+         <mi>n</mi>
+         <mo>-</mo>
+         <mn>1</mn>
+         <mspace width="0.222222em"/>
+         <mi mathvariant="bold">and</mi>
+         <mspace width="0.222222em"/>
+         <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+         </msub>
+         <mspace width="0.222222em"/>
+         <mi mathvariant="bold">is</mi>
+         <mspace width="0.166667em"/>
+         <mi mathvariant="bold">Boolean</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </math>
+   <graphic xlink:href="12859_2021_4062_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>However, simply removing the constraint 
+ <inline-formula id="IEq68">
+  <alternatives>
+   <tex-math id="M145">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Sigma x_i =s$$\end{document}</tex-math>
+   <math id="M146">
+    <mrow>
+     <mi mathvariant="normal">Σ</mi>
+     <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mi>s</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq68.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> may lead to a trivial solution when the weights of the vertices are positive, since the set of all vertices will always be a WFVS. Here we consider two methods to avoid the trivial solution: 
+ <list list-type="order">
+  <list-item>
+   <p id="Par72">Modify all weights to be negative. Assume the maximum weight of the vertices is 
+    <inline-formula id="IEq69">
+     <alternatives>
+      <tex-math id="M147">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$w_m$$\end{document}</tex-math>
+      <math id="M148">
+       <msub>
+        <mi>w</mi>
+        <mi>m</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq69.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>; then, for each weight 
+    <inline-formula id="IEq70">
+     <alternatives>
+      <tex-math id="M149">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$w_i$$\end{document}</tex-math>
+      <math id="M150">
+       <msub>
+        <mi>w</mi>
+        <mi>i</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq70.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>, modify it to 
+    <inline-formula id="IEq71">
+     <alternatives>
+      <tex-math id="M151">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$w_i:=w_i-w_m-\epsilon$$\end{document}</tex-math>
+      <math id="M152">
+       <mrow>
+        <msub>
+         <mi>w</mi>
+         <mi>i</mi>
+        </msub>
+        <mo>:</mo>
+        <mo>=</mo>
+        <msub>
+         <mi>w</mi>
+         <mi>i</mi>
+        </msub>
+        <mo>-</mo>
+        <msub>
+         <mi>w</mi>
+         <mi>m</mi>
+        </msub>
+        <mo>-</mo>
+        <mi>ϵ</mi>
+       </mrow>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq71.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>. Here, 
+    <inline-formula id="IEq72">
+     <alternatives>
+      <tex-math id="M153">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\epsilon$$\end{document}</tex-math>
+      <math id="M154">
+       <mi>ϵ</mi>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq72.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula> is a small positive constant to ensure that all weights are negative. The ILP is the same as ILP3.
+   </p>
+  </list-item>
+  <list-item>
+   <p id="Par73">Reverse the weights to penalty values. We can simply do this by taking the inverse of each 
+    <inline-formula id="IEq73">
+     <alternatives>
+      <tex-math id="M155">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$w_i$$\end{document}</tex-math>
+      <math id="M156">
+       <msub>
+        <mi>w</mi>
+        <mi>i</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq73.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>, i.e., 
+    <disp-formula id="Equ6">
+     <alternatives>
+      <tex-math id="M157">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{aligned} p_i=\left\{ \begin{array}{ll} \frac{1}{w_i} &amp;{} \mathbf{if} \, w_i \ne 0 \\ \infty &amp;{} \mathbf{if} \, w_i = 0 \end{array} \right. \end{aligned}$$\end{document}</tex-math>
+      <math id="M158" display="block">
+       <mrow>
+        <mtable>
+         <mtr>
+          <mtd columnalign="right">
+           <mrow>
+            <msub>
+             <mi>p</mi>
+             <mi>i</mi>
+            </msub>
+            <mo>=</mo>
+            <mfenced open="{">
+             <mrow>
+              <mtable>
+               <mtr>
+                <mtd columnalign="left">
+                 <mfrac>
+                  <mn>1</mn>
+                  <msub>
+                   <mi>w</mi>
+                   <mi>i</mi>
+                  </msub>
+                 </mfrac>
+                </mtd>
+                <mtd columnalign="left">
+                 <mrow>
+                  <mrow/>
+                  <mi mathvariant="bold">if</mi>
+                  <mspace width="0.166667em"/>
+                  <msub>
+                   <mi>w</mi>
+                   <mi>i</mi>
+                  </msub>
+                  <mo>≠</mo>
+                  <mn>0</mn>
+                 </mrow>
+                </mtd>
+               </mtr>
+               <mtr>
+                <mtd columnalign="left">
+                 <mrow>
+                  <mrow/>
+                  <mi>∞</mi>
+                 </mrow>
+                </mtd>
+                <mtd columnalign="left">
+                 <mrow>
+                  <mrow/>
+                  <mi mathvariant="bold">if</mi>
+                  <mspace width="0.166667em"/>
+                  <msub>
+                   <mi>w</mi>
+                   <mi>i</mi>
+                  </msub>
+                  <mo>=</mo>
+                  <mn>0</mn>
+                 </mrow>
+                </mtd>
+               </mtr>
+              </mtable>
+             </mrow>
+            </mfenced>
+           </mrow>
+          </mtd>
+         </mtr>
+        </mtable>
+       </mrow>
+      </math>
+      <graphic xlink:href="12859_2021_4062_Article_Equ6.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </disp-formula> Then, modify the ILP3 formula as follows: 
+    <bold>ILP3’:</bold>
+    <disp-formula id="Equ7">
+     <alternatives>
+      <tex-math id="M159">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{*{20}c} \textbf{Minimize} &amp; \Sigma p_i x_i \\ \textbf{Subject to} &amp; k_i-k_j+nx_i \ge 1 \: \forall (v_i,v_j)\in E\\ &amp; \textbf{where} \: 0 \le k_i \le n-1 \: \textbf{and} \: x_i \: \textbf{is \,Boolean} \end{array}$$\end{document}</tex-math>
+      <math id="M160" display="block">
+       <mrow>
+        <mtable>
+         <mtr>
+          <mtd>
+           <mi mathvariant="bold">Minimize</mi>
+          </mtd>
+          <mtd>
+           <mrow>
+            <mi mathvariant="normal">Σ</mi>
+            <msub>
+             <mi>p</mi>
+             <mi>i</mi>
+            </msub>
+            <msub>
+             <mi>x</mi>
+             <mi>i</mi>
+            </msub>
+           </mrow>
+          </mtd>
+         </mtr>
+         <mtr>
+          <mtd>
+           <mrow>
+            <mrow/>
+            <mi mathvariant="bold">Subject</mi>
+            <mi mathvariant="bold">to</mi>
+           </mrow>
+          </mtd>
+          <mtd>
+           <mrow>
+            <msub>
+             <mi>k</mi>
+             <mi>i</mi>
+            </msub>
+            <mo>-</mo>
+            <msub>
+             <mi>k</mi>
+             <mi>j</mi>
+            </msub>
+            <mo>+</mo>
+            <mi>n</mi>
+            <msub>
+             <mi>x</mi>
+             <mi>i</mi>
+            </msub>
+            <mo>≥</mo>
+            <mn>1</mn>
+            <mspace width="0.222222em"/>
+            <mo>∀</mo>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <msub>
+              <mi>v</mi>
+              <mi>i</mi>
+             </msub>
+             <mo>,</mo>
+             <msub>
+              <mi>v</mi>
+              <mi>j</mi>
+             </msub>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>∈</mo>
+            <mi>E</mi>
+           </mrow>
+          </mtd>
+         </mtr>
+         <mtr>
+          <mtd>
+           <mrow/>
+          </mtd>
+          <mtd>
+           <mrow>
+            <mi mathvariant="bold">where</mi>
+            <mspace width="0.222222em"/>
+            <mn>0</mn>
+            <mo>≤</mo>
+            <msub>
+             <mi>k</mi>
+             <mi>i</mi>
+            </msub>
+            <mo>≤</mo>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mn>1</mn>
+            <mspace width="0.222222em"/>
+            <mi mathvariant="bold">and</mi>
+            <mspace width="0.222222em"/>
+            <msub>
+             <mi>x</mi>
+             <mi>i</mi>
+            </msub>
+            <mspace width="0.222222em"/>
+            <mi mathvariant="bold">is</mi>
+            <mspace width="0.166667em"/>
+            <mi mathvariant="bold">Boolean</mi>
+           </mrow>
+          </mtd>
+         </mtr>
+        </mtable>
+       </mrow>
+      </math>
+      <graphic xlink:href="12859_2021_4062_Article_Equ7.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </disp-formula>
+   </p>
+  </list-item>
+ </list>In our research, we examined both ways of calculating the weights in the WFVS method. We found that the first modification is more unstable when running the ILP process, i.e., more obviously wrong ILP results appeared. Thus, we chose to use the second method to compute the weights in the WFVS method; i.e., we reversed the weights to be penalty values, which are always positive values.
+</p>

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0004" orientation="portrait" position="float">
+ <label>Table 4.</label>
+ <caption>
+  <p>List of DEGs observed gene interaction network of 
+   <italic>Cebpa</italic> at MEFD3plu/MEFD3min highlighting interaction type, expression fold change (*) and its significance (**), and significance of interaction (***)
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">
+     <underline>Gene</underline>
+    </th>
+    <th align="center">
+     <underline>Interactor Type</underline>
+    </th>
+    <th align="center">
+     <underline>log2FC*</underline>
+    </th>
+    <th align="center">
+     <italic toggle="yes">
+      <underline>p-</underline>
+     </italic>
+     <underline>adj**</underline>
+    </th>
+    <th align="center">
+     <italic toggle="yes">
+      <underline>p</underline>
+     </italic>
+     <underline>-value***</underline>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Trib1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.2757261</td>
+    <td align="center">9.53E-23</td>
+    <td align="center">6.49E-24</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Trib2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.2484696</td>
+    <td align="center">0.04149</td>
+    <td align="center">0.01775</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Sptan1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.26594904</td>
+    <td align="center">0.00596</td>
+    <td align="center">0.002058</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ppp1cb</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.4120228</td>
+    <td align="center">5.99E-04</td>
+    <td align="center">1.71E-04</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rfc2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.2496849</td>
+    <td align="center">0.019862</td>
+    <td align="center">0.007769</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rfc3</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.8750908</td>
+    <td align="center">1.63E-12</td>
+    <td align="center">1.98E-13</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Hdac1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.231246</td>
+    <td align="center">0.022799</td>
+    <td align="center">0.009052</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rb1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.30318645</td>
+    <td align="center">1.01E-20</td>
+    <td align="center">7.64E-22</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nxf1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.63601371</td>
+    <td align="center">1.04E-09</td>
+    <td align="center">1.56E-10</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cebpa</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">4.81411526</td>
+    <td align="center">1.00E-217</td>
+    <td align="center">1.77E-220</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Smarca2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−1.3234689</td>
+    <td align="center">3.98E-26</td>
+    <td align="center">2.35E-27</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ftsj3</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.69734207</td>
+    <td align="center">3.12E-17</td>
+    <td align="center">2.79E-18</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Baz1a</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.99860891</td>
+    <td align="center">4.25E-116</td>
+    <td align="center">2.82E-118</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Myh9</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.7849686</td>
+    <td align="center">1.03E-05</td>
+    <td align="center">2.31E-06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rrp12</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.58576883</td>
+    <td align="center">1.57E-31</td>
+    <td align="center">7.57E-33</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Top1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.46255199</td>
+    <td align="center">1.14E-07</td>
+    <td align="center">2.08E-08</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nol10</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.13983894</td>
+    <td align="center">3.93E-30</td>
+    <td align="center">2.01E-31</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Myl6</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.7482239</td>
+    <td align="center">2.99E-06</td>
+    <td align="center">6.31E-07</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rbm39</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.18459507</td>
+    <td align="center">0.004078</td>
+    <td align="center">0.001357</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Safb2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.60948244</td>
+    <td align="center">0.004773</td>
+    <td align="center">0.001614</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Mogs</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.30945873</td>
+    <td align="center">0.003998</td>
+    <td align="center">0.001328</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Hdgfrp2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.62443954</td>
+    <td align="center">1.88E-09</td>
+    <td align="center">2.89E-10</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Thoc1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.39876251</td>
+    <td align="center">8.96E-04</td>
+    <td align="center">2.63E-04</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ddx54</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.39217318</td>
+    <td align="center">0.009873</td>
+    <td align="center">0.003584</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rps14</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.567406</td>
+    <td align="center">0.003773</td>
+    <td align="center">0.001246</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Dbt</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.59614098</td>
+    <td align="center">3.93E-72</td>
+    <td align="center">6.53E-74</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rad21</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.75176143</td>
+    <td align="center">4.90E-27</td>
+    <td align="center">2.78E-28</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Vcp</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.29103786</td>
+    <td align="center">1.91E-04</td>
+    <td align="center">5.04E-05</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Snrnp70</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.23742331</td>
+    <td align="center">0.013863</td>
+    <td align="center">0.00521</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rps4x</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.4086177</td>
+    <td align="center">0.03141</td>
+    <td align="center">0.012959</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Pycr2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.45103967</td>
+    <td align="center">3.71E-05</td>
+    <td align="center">8.92E-06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nup93</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.35399945</td>
+    <td align="center">1.82E-05</td>
+    <td align="center">4.23E-06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cdk1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.4306966</td>
+    <td align="center">0.006843</td>
+    <td align="center">0.002392</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rrp1b</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.66632741</td>
+    <td align="center">5.26E-07</td>
+    <td align="center">1.02E-07</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rps9</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.321918</td>
+    <td align="center">0.049547</td>
+    <td align="center">0.021691</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rpn1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.2017011</td>
+    <td align="center">0.034541</td>
+    <td align="center">0.014447</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Urb1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.60300755</td>
+    <td align="center">7.14E-21</td>
+    <td align="center">5.33E-22</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Prpf4</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.48240813</td>
+    <td align="center">2.17E-10</td>
+    <td align="center">3.07E-11</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Gnb2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.4569276</td>
+    <td align="center">2.17E-08</td>
+    <td align="center">3.67E-09</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cebpb</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">2.58063756</td>
+    <td align="center">2.81E-74</td>
+    <td align="center">4.55E-76</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cdk4</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.5755136</td>
+    <td align="center">2.25E-09</td>
+    <td align="center">3.49E-10</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nop56</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.69728026</td>
+    <td align="center">2.17E-17</td>
+    <td align="center">1.93E-18</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Wdr5</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.3714022</td>
+    <td align="center">0.001612</td>
+    <td align="center">4.95E-04</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ncoa3</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.5646985</td>
+    <td align="center">7.84E-04</td>
+    <td align="center">2.27E-04</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nat10</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.65085853</td>
+    <td align="center">1.00E-07</td>
+    <td align="center">1.82E-08</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Sap18</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.2742982</td>
+    <td align="center">0.011004</td>
+    <td align="center">0.004035</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Pdcd11</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.8869514</td>
+    <td align="center">1.21E-15</td>
+    <td align="center">1.20E-16</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rnps1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.20642294</td>
+    <td align="center">0.018317</td>
+    <td align="center">0.007094</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">D19Bwg1357e</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.4227897</td>
+    <td align="center">1.77E-05</td>
+    <td align="center">4.12E-06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ppp1ca</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.5479237</td>
+    <td align="center">2.22E-09</td>
+    <td align="center">3.44E-10</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Psmd10</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.4338942</td>
+    <td align="center">0.005316</td>
+    <td align="center">0.001815</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Asun</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.55150708</td>
+    <td align="center">4.18E-10</td>
+    <td align="center">6.09E-11</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Smarcd2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.53243808</td>
+    <td align="center">1.99E-09</td>
+    <td align="center">3.06E-10</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Jdp2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.3267</td>
+    <td align="center">2.78E-04</td>
+    <td align="center">7.52E-05</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Zfr</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.3860526</td>
+    <td align="center">1.97E-08</td>
+    <td align="center">3.32E-09</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Usp39</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.55563991</td>
+    <td align="center">9.52E-08</td>
+    <td align="center">1.72E-08</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Pnn</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.28073899</td>
+    <td align="center">3.49E-05</td>
+    <td align="center">8.37E-06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Lig3</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.3791107</td>
+    <td align="center">4.94E-06</td>
+    <td align="center">1.07E-06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Stag1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.2677141</td>
+    <td align="center">7.20E-06</td>
+    <td align="center">1.59E-06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nol6</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.06249421</td>
+    <td align="center">6.54E-10</td>
+    <td align="center">9.71E-11</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rpl27</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.52704131</td>
+    <td align="center">7.16E-04</td>
+    <td align="center">2.06E-04</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Lmnb1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.4357547</td>
+    <td align="center">3.02E-07</td>
+    <td align="center">5.74E-08</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Srsf5</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.54713539</td>
+    <td align="center">5.07E-08</td>
+    <td align="center">8.93E-09</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

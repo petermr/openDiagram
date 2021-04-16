@@ -1,0 +1,3 @@
+0: We performed a GO enrichment analysis to identify the biological processes over-represented in the DEGs found in each tissue.
+1: Up- and down-regulated DEGs were separately subjected to an over-representation analysis using PANTHER [ 66] with a Fishers Exact test and a cut-off of FDR  0.05 for statistical significance.
+2: The lists of GO terms were further summarized with REVIGO [ 67], which clusters GO terms based on semantic similarity (similarity threshold = 0.7).

@@ -1,0 +1,2 @@
+0: A minimal pre-filtering of features was performed to keep only transcripts that have at least 10 reads in total.
+1: We then performed differential gene expression analysis using Deseq2 ( Love et al., 2014) with a design that included mating status, antibiotic treatment, and the proportion of ookinetes as factors in the model.

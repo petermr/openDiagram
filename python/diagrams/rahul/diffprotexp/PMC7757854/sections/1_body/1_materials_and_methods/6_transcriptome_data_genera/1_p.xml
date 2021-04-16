@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The DESeq2 computational pipeline was used to estimate raw count reads aligned to the reference genome [
+ <xref rid="cit0035" ref-type="bibr">35</xref>]. Mouse genome (GRCm38/mm10) from the University of California Santa Cruz Genome Browser (
+ <underline>
+  <ext-link ext-link-type="uri" xlink:href="https://genome.ucsc.edu/" xmlns:xlink="http://www.w3.org/1999/xlink">https://genome.ucsc.edu/</ext-link>
+ </underline>) was utilized as a reference [
+ <xref rid="cit0036" ref-type="bibr">36</xref>]. Computing methods used a Linux-based command system on the New York University Abu Dhabi (NYUAD) high-performance computing (HPC) server platform Dalma (
+ <ext-link ext-link-type="uri" xlink:href="https://wikis.nyu.edu/display/ADRC/Cluster+-+Dalma" xmlns:xlink="http://www.w3.org/1999/xlink">https://wikis.nyu.edu/display/ADRC/Cluster+-+Dalma</ext-link>). Raw data counts were deposited at National Centre for Biotechnology Information (NCBI) database and are available under Gene Expression Omnibus (GEO) accession number GSE152750.
+</p>

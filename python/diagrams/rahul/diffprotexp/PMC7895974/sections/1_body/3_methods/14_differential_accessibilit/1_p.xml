@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">Analysis of ATAC-seq for differential accessibility was carried out in R (v.3.5.1)
+ <sup>
+  <xref ref-type="bibr" rid="CR73">73</xref>
+ </sup> using the DiffBind package (v.2.8.0)
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>,
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup> with default parameter settings. Differential accessibility across samples was calculated using the negative binomial distribution model implemented in DEseq2 (v1.4.5)
+ <sup>
+  <xref ref-type="bibr" rid="CR74">74</xref>
+ </sup>. Computational footprinting analysis was conducted across samples using HINT-ATAC which is part of the Regulatory Genomic Toolbox (v.0.12.3)
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup> also using default parameter settings and the galGal5 genome.
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Protein intensity was normalized first with quantile normalization and then the intensity of each protein was scaled by dividing by its mean intensity [
+ <xref rid="B31-proteomes-08-00027" ref-type="bibr">31</xref>] (
+ <xref ref-type="fig" rid="proteomes-08-00027-f003">Figure 3</xref>B). On average, ~700 protein groups were identified in each sample with a 1% FDR for peptides and proteins. Across all samples 714 protein groups were quantified with 685 (95.9%) proteins with no missing values in any of the four biological replicates for either the D1 or D2 samples (
+ <xref ref-type="app" rid="app1-proteomes-08-00027">Supplementary Table S1</xref>), and 29 (4.1%) proteins with from one (12 proteins, 1.7%) to six (6 proteins, 0.8%) missing values (
+ <xref ref-type="app" rid="app1-proteomes-08-00027">Supplementary Table S2</xref>). Reflecting consistency in the biological replicates, the overall coefficient of variations (CVs) among the four biological replicates for the 685 proteins in the D1 and D2 samples were 14.6% and 16.5% respectively. Cellular component analyses using the GOCC database in Perseus was used to annotate the 685 proteins without any missing values. These analyses indicated that 360, 242, and 239 proteins were derived from either the nucleus, the cytosol, or other cellular compartments (i.e., endoplasmic reticulum, Golgi apparatus, cytoplasmic vesicle, plasma membrane, mitochondria, and extracellular space), respectively (
+ <xref ref-type="fig" rid="proteomes-08-00027-f003">Figure 3</xref>C, 
+ <xref ref-type="app" rid="app1-proteomes-08-00027">Supplementary Table S1</xref>). There were 156 proteins that are present in both the cytosol and nucleus.
+</p>

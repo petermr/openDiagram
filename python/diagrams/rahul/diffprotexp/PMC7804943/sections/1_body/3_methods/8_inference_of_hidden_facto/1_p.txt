@@ -1,0 +1,5 @@
+0: MOFA 35 was used to infer the shared sources of variation between multiple data types.
+1: To prepare for model training, four sets of regulatory layers were used: GE, APA, AS, and IR.
+2: The AS layer included all exon-based events, including cassette exons and alternative 5 and 3 splice sites, while IR was treated as a separate layer.
+3: Each layer was filtered to include features with sufficient variation across samples, as summarized in Table  1 and described above.
+4: Training of the model was carried out using the following options: for hippocampal analysis, DropFactorThreshold = 0, tolerance = 0.01, maxiter = 6000; for whole-brain analysis, DropFactorThreshold = 0.02, tolerance = 0.01, maxiter = 5000.

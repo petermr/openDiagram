@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par47">The precise identification of differential splicing events using RNA-Seq data is not a trivial undertaking; there is no universal and perfectly reliable bioinformatics tool for this task
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>,
+  <xref ref-type="bibr" rid="CR60">60</xref>
+ </sup>. For this reason, we employed several algorithms to detect a comprehensive set of differential splicing events at exon or exon–exon junction levels with subsequent experimental validations. Using this approach, we identified 378 genes with significantly different RNA splicing maps in Kasumi-1 cells following the fusion oncogene knockdown. A part of the identified differential splicing events arises from the differential usage of alternative transcription starts and is mediated by fusion protein binding. This result agrees with the observation that transcription factors regulate alternative splicing by occupying and modulating alternative promoters
+ <sup>
+  <xref ref-type="bibr" rid="CR61">61</xref>–
+  <xref ref-type="bibr" rid="CR63">63</xref>
+ </sup>.
+</p>

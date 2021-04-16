@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F3" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>
+   <bold> Identification of the hub RBPs from the constructed DceRBPs' PPI networks.</bold> (A) Protein-protein interaction network of DeRBPs. Edges represent the protein-protein associations. The purple nodes represent up-regulated RBPs, while the green nodes represent down-regulated RBPs. (B) Identification of the hub genes from the PPI network using maximal clique centrality (MCC) algorithm. The red nodes represent RBPs with a high MCC score, while the yellow nodes represent RBPs with a low MCC score.
+  </p>
+ </caption>
+ <graphic xlink:href="jcav12p2230g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par82">Transcripts were analyzed by their function using BLASTn (
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov</ext-link>) on the NCBI NT database. A similar analysis was performed on the 
+ <italic>Oryza sativa</italic> database available at the Gramene webpage (
+ <ext-link ext-link-type="uri" xlink:href="http://www.gramene.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.gramene.org/</ext-link>). The GO numbers were obtained by using ClusterProfiler [
+ <xref ref-type="bibr" rid="CR93">93</xref>] (
+ <ext-link ext-link-type="uri" xlink:href="http://www.geneontology.org" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.geneontology.org</ext-link>) over the 
+ <italic>Arabidopsis</italic> database. Additionally, DETs were submitted to KEGG pathways analysis (KEGG: Kyoto Encyclopedia of Genes and Genomes) (
+ <ext-link ext-link-type="uri" xlink:href="https://www.genome.jp/kegg/ko.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.genome.jp/kegg/ko.html</ext-link>) [
+ <xref ref-type="bibr" rid="CR94">94</xref>–
+ <xref ref-type="bibr" rid="CR96">96</xref>] and classified with the single-directional best hit for transcriptional factors (plant transcriptional factors database, 
+ <ext-link ext-link-type="uri" xlink:href="http://planttfdb.cbi.pku.edu.cn" xmlns:xlink="http://www.w3.org/1999/xlink">http://planttfdb.cbi.pku.edu.cn</ext-link>, 
+ <ext-link ext-link-type="uri" xlink:href="http://planttfdb.gao-lab.org" xmlns:xlink="http://www.w3.org/1999/xlink">http://planttfdb.gao-lab.org</ext-link>) and hormone families (UniVIO: 
+ <ext-link ext-link-type="uri" xlink:href="http://univio.psc.riken.jp/" xmlns:xlink="http://www.w3.org/1999/xlink">http://univio.psc.riken.jp/</ext-link>, 
+ <ext-link ext-link-type="uri" xlink:href="http://hormones.psc.riken.jp/pathway_ja.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://hormones.psc.riken.jp/pathway_ja.html</ext-link>). Moreover, critical differentially expressed pathways were analyzed by STRING (
+ <ext-link ext-link-type="uri" xlink:href="https://string-db.org" xmlns:xlink="http://www.w3.org/1999/xlink">https://string-db.org</ext-link>) [
+ <xref ref-type="bibr" rid="CR62">62</xref>] to infer their possible function and association between them.
+</p>

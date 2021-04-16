@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">361 lincRNAs were screened based on established pipelines in our laboratory
+ <sup>
+  <xref ref-type="bibr" rid="CR8">8</xref>
+ </sup>. The complete pipeline follows the one shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>A. Step 1, Transcripts representing intergenic transcripts classified as "U" were screened using the gffcompare program Stringtie (version1.2.2). Step 2, based on the transcript characteristics of lincRNA, transcripts with transcript lengths greater than 200 bp and exon numbers greater than 2 were screened. Step 3, the coding potential of lincRNAs were verified using a coding potential calculator (Cpc) tool
+ <sup>
+  <xref ref-type="bibr" rid="CR58">58</xref>
+ </sup>, and the lincRNAs with Cpc value &lt; 0 was entered into the downstream screening program. Step 4, to improve the accuracy of lincRNA screening, we predicted the coding potential of transcripts from multiple perspectives. We translated the transcript into six possible protein sequences, which were then transcribed and compared to the Pfam database. Finally, no Pfam hit (E value &lt; 1e−5) transcripts are retained. Step 5, Transcripts were aligned with NCBI NR and UniRef90 databases using the Blastx program, and transcripts of similar proteins in known proteins were filtered (E value &lt; 1e-5). Step 6, to minimize the chance of false positives, transcripts that were not expressed (FPKM values) in all samples were removed.
+</p>

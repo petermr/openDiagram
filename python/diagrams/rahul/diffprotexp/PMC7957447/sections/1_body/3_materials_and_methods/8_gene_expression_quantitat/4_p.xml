@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">Genes with an absolute value of log2FC greater than 1 between Cluster 1 and Cluster 2 were clustered using R package Mfuzz after log2-transformation [
+ <xref ref-type="bibr" rid="CR28">28</xref>]. The minimum centroid distance (MCD) for a range of cluster numbers for estimation of optimized number of clusters was calculated. The MCD elbow was used to determine final number of clusters. Gene clusters that changed markedly from Cluster 1 to Cluster 2 in each individual were selected and intersected to identify genes that changed consistently in all patients with state transitions.
+</p>

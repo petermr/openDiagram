@@ -1,0 +1,2 @@
+0: To explore the potential biological functions and pathways of mRNAs in the ceRNA and module network, we performed Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis through the R package ClusterProfiler.
+1: GO terms and KEGG pathways with  P < 0.05 were considered significantly enriched.

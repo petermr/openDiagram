@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">For protein differential expression analysis, the spectral count method was used for protein expression analysis that compares the peptide-spectrum matches (PSM) for each protein between the two stages, which has the highest reproducibility for label-free proteomics data [
+ <xref ref-type="bibr" rid="CR56">56</xref>]; it is then combined with the G test statistics [
+ <xref ref-type="bibr" rid="CR57">57</xref>] for computing p-values. However, in this study the MS/MS spectra were matched against a customized transcriptome database instead of annotated protein database, definition of a protein was, therefore, adjusted. Because the protein sequence of a translated transcript is different for each frame, an assumption was made that a given peptide can only identify one frame of the matched transcript being translated, and that a maximum of one protein can be translated from each frame of a transcript. As a result, the sum of PSMs that identify one frame of a transcript are the spectral counts for the protein product from that frame of the transcript.
+</p>

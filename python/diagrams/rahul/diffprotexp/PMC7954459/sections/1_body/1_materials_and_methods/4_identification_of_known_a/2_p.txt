@@ -1,0 +1,7 @@
+0: To identify miRNAs, we used a plantspecific miRNA prediction tool miRDeepP2, which follows updated guidelines for plant miRNA identification (Axtell & Meyers,  2018; Kuang et al.,  2019).
+1: In this pipeline, smRNAs mapping to structural RNAs and length other than 2024 nt were removed.
+2: We used miRDeepP2 with rpm = 1 with kabuli chickpea genome (v1) as a reference to identify miRNAs in each sample.
+3: After the prediction of miRNAs in each sample, only the miRNAs with an average rpm of 10 in the biological replicates of each sample were retained for further analyses.
+4: The predicted miRNAs were mapped to the pmiREN database (Guo et al.,  2020; downloaded on June 30, 2020) for known miRNAs annotation using Bowtie (v1.1.2) allowing one mismatch.
+5: The miRNAs that did not map to known miRNAs were considered as novel miRNAs.
+6: The novel miRNAs were designated as CarnovmiR1 to CarnovmiR243.

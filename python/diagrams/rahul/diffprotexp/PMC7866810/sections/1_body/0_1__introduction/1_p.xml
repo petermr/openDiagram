@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Single-cell RNA sequencing (scRNA-seq) is a powerful technology that has already shown great potential and the field is rapidly expanding [
+ <xref rid="B1-ijms-22-01399" ref-type="bibr">1</xref>,
+ <xref rid="B2-ijms-22-01399" ref-type="bibr">2</xref>]. In animals, scRNA-seq is providing a leap forward in resolving cellular diversity and giving unprecedented insight into gene expression changes during development, regeneration and disease [
+ <xref rid="B3-ijms-22-01399" ref-type="bibr">3</xref>,
+ <xref rid="B4-ijms-22-01399" ref-type="bibr">4</xref>,
+ <xref rid="B5-ijms-22-01399" ref-type="bibr">5</xref>,
+ <xref rid="B6-ijms-22-01399" ref-type="bibr">6</xref>,
+ <xref rid="B7-ijms-22-01399" ref-type="bibr">7</xref>,
+ <xref rid="B8-ijms-22-01399" ref-type="bibr">8</xref>]. Recently, scRNA-seq also started to flourish in plant research [
+ <xref rid="B9-ijms-22-01399" ref-type="bibr">9</xref>,
+ <xref rid="B10-ijms-22-01399" ref-type="bibr">10</xref>]. The growing attention toward single-cell transcriptomics calls for the development of computational tools to interactively analyze scRNA-seq data for any target organism. Multiple tools for scRNA-seq analysis are being developed [
+ <xref rid="B11-ijms-22-01399" ref-type="bibr">11</xref>,
+ <xref rid="B12-ijms-22-01399" ref-type="bibr">12</xref>]. Some tools, such as Seurat [
+ <xref rid="B13-ijms-22-01399" ref-type="bibr">13</xref>], SC3 [
+ <xref rid="B14-ijms-22-01399" ref-type="bibr">14</xref>], ASAP [
+ <xref rid="B15-ijms-22-01399" ref-type="bibr">15</xref>], Granatum [
+ <xref rid="B16-ijms-22-01399" ref-type="bibr">16</xref>] and SC1 [
+ <xref rid="B17-ijms-22-01399" ref-type="bibr">17</xref>], provide integrated pipelines for single-cell data. However, many others are characterized by specific analytic scopes in the wide spectrum of scRNA-seq analysis [
+ <xref rid="B18-ijms-22-01399" ref-type="bibr">18</xref>], thus leading many researchers to integrate several tools to address their questions.
+</p>

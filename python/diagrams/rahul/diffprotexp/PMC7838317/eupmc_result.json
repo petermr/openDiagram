@@ -1,0 +1,395 @@
+{
+  "id": [
+    "33500457"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33500457"
+  ],
+  "pmcid": [
+    "PMC7838317"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7838317"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41598-021-81856-7"
+  ],
+  "title": [
+    "Freshwater mussels (Unionidae) brought into captivity exhibit up-regulation of genes involved in stress and energy metabolism."
+  ],
+  "authorString": [
+    "Roznere I, Sinn BT, Daly M, Watters GT."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Roznere I"
+          ],
+          "firstName": [
+            "Ieva"
+          ],
+          "lastName": [
+            "Roznere"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Evolution, Ecology, and Organismal Biology, The Ohio State University, Columbus, OH, 43210, USA. roznere.1@osu.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sinn BT"
+          ],
+          "firstName": [
+            "Brandon T"
+          ],
+          "lastName": [
+            "Sinn"
+          ],
+          "initials": [
+            "BT"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Earth Science, Otterbein University, Westerville, OH, 43081, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Daly M"
+          ],
+          "firstName": [
+            "Marymegan"
+          ],
+          "lastName": [
+            "Daly"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Evolution, Ecology, and Organismal Biology, The Ohio State University, Columbus, OH, 43210, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Watters GT"
+          ],
+          "firstName": [
+            "G Thomas"
+          ],
+          "lastName": [
+            "Watters"
+          ],
+          "initials": [
+            "GT"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Evolution, Ecology, and Organismal Biology, The Ohio State University, Columbus, OH, 43210, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "3084089"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "2241"
+  ],
+  "abstractText": [
+    "Approximately two thirds of freshwater mussel species in the United States and Canada are imperiled, and populations are declining rapidly. Translocation and captive management are commonly used to mitigate losses of freshwater mussel biodiversity, but these conservation tools may result in decreased growth and increased mortality. This study uses RNA-Seq to determine how translocation into captivity affects gene expression in Amblema plicata. Mussels were collected from the Muskingum River in Ohio, USA and brought into a captive holding facility. RNA was extracted from gill tissue 11 months post translocation from mussels in captivity and the Muskingum River on the same day. RNA was sequenced on an Illumina HiSeq 2500, and differential expression analysis was performed on de novo assembled transcripts. More than 1200 transcripts were up-regulated in captive mussels, and 246 were assigned functional annotations. Many up-regulated transcripts were involved in energy metabolism and the stress response, such as heat shock proteins and antioxidants. More than 500 transcripts were down-regulated in captive mussels, and 41 were assigned functional annotations. We observed an over-representation of down-regulated transcripts associated with immune response. Our work suggests that A. plicata experienced moderate levels of stress and altered energy metabolism and immune response for at least 11 months post translocation into captivity."
+  ],
+  "affiliation": [
+    "Department of Evolution, Ecology, and Organismal Biology, The Ohio State University, Columbus, OH, 43210, USA. roznere.1@osu.edu."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "6000194"
+          ],
+          "agency": [
+            "Columbus Zoo and Aquarium"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "FCSR04"
+          ],
+          "agency": [
+            "Ohio Division of Natural Resources Division of Wildlife"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-021-81856-7"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7838317"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7838317?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-01-27"
+  ],
+  "firstIndexDate": [
+    "2021-01-28"
+  ],
+  "fullTextReceivedDate": [
+    "2021-01-30"
+  ],
+  "dateOfRevision": [
+    "2021-01-30"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-26"
+  ],
+  "firstPublicationDate": [
+    "2021-01-26"
+  ]
+}

@@ -1,0 +1,8 @@
+0: Differential expression analysis was performed with RNA-seq [ 44].
+1: To quantify transcript abundance for each sample we used salmon (1.1.0) [ 45] with default parameters and using hg38 set as the reference genome for reads mapping.
+2: The data was subsequently imported in R using the tximport package [ 46] and processed with the DESeq2 package [ 47].
+3: A total of 37,787 genes were analyzed.
+4: For Principal Component Analysis we normalized the raw transcript counts using  variance stabilized transformation ( vst function from DESeq2) and applied the  plotPCA function from DESeq2, using the default 500 most variable genes to compute the principal components as well as using all expressed genes.
+5: Loadings for each gene and each PC were extracted from the rotation field using the  pca function in R from the top 500 most variable genes and divided by the sum of loadings for all genes in each PC.
+6: All heatmaps were generated using vst expression values and the heatmap package in R, excluding genes from over-expressed vectors.
+7: Differential expression analysis was performed using DESeq2 comparing different pairs of conditions, and a threshold of BenjaminiHochberg corrected p-value of 0.05 was chosen to define differentially expressed genes for each comparison.

@@ -1,0 +1,15 @@
+0: PSM, ES, MS and DS samples were dissected as stated above.
+1: Cell dissociation was performed using a protocol adapted from 50.
+2: Briefly, tissues were dissociated with Dispase at 37 C for 15 min with intermittent pipetting to attain a single cell suspension with 0.05% Trypsin at 37 C for a final 5 min at 37 C. The reaction was stopped, and cells were re-suspended in Hanks buffer (1X HBSS, 0.25% BSA, 10 mM HEPES pH8).
+3: Cells were centrifuged at 500   g for 5 min at 4 C, re-suspended in cold Hanks buffer, passed through 40 m cell strainers (Fisher Cat no.
+4: 11587522), and further centrifuged at 500   g for 5 min at 4 C. Pelleted cells were re-suspended in 50 l Hanks buffer, kept on ice and processed for ATAC library preparation.
+5: ATAC was performed using a protocol adapted from 31,  50.
+6: Briefly, cells were lysed in cold lysis buffer (10 mM Tris-HCl, Ph7.4, 10 mM NaCl, 3 mM MgCl2, 0.1% Igepal) and tagmentation performed using Illumina Nextera DNA kit (FC-121-1030) for 30 min at 37 C on a shaking thermomixer.
+7: Tagmented DNA was purified using Qiagen MinElute kit (Cat no.
+8: 28004) and amplified using NEB Next High-Fidelity 2X PCR Mast Mix (Cat no.
+9: M0543S) for 11 cycles as follows: 72 C, 5 min; 98 C, 30 s; 98 C, 10 s; 63 C, 30 s; 72 C, 1 min.
+10: Library preparation was complete after further clean up using Qiagen PCR MinElute kit (Cat no.
+11: 28004) and Beckman Coulter XP AMPpure beads (A63880).
+12: Tagmentation size was assessed using Agilent 2100 Bioanalyser.
+13: Libraries were quantified with Qubit 2.0 (Life Technologies) and sequenced using paired-end 150 bp reads on the Illumina HiSeq4000 platform at Novogene UK.
+14: Three biological replicates for each stage were used for analysis.

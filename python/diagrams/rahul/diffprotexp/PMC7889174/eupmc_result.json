@@ -1,0 +1,479 @@
+{
+  "id": [
+    "33435791"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33435791"
+  ],
+  "pmcid": [
+    "PMC7889174"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7889174"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/19491034.2021.1874135"
+  ],
+  "title": [
+    "Evolution and diversification of the nuclear envelope."
+  ],
+  "authorString": [
+    "Padilla-Mejia NE, Makarov AA, Barlow LD, Butterfield ER, Field MC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Padilla-Mejia NE"
+          ],
+          "firstName": [
+            "Norma E"
+          ],
+          "lastName": [
+            "Padilla-Mejia"
+          ],
+          "initials": [
+            "NE"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee , Dundee, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Makarov AA"
+          ],
+          "firstName": [
+            "Alexandr A"
+          ],
+          "lastName": [
+            "Makarov"
+          ],
+          "initials": [
+            "AA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee , Dundee, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Barlow LD"
+          ],
+          "firstName": [
+            "Lael D"
+          ],
+          "lastName": [
+            "Barlow"
+          ],
+          "initials": [
+            "LD"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee , Dundee, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Butterfield ER"
+          ],
+          "firstName": [
+            "Erin R"
+          ],
+          "lastName": [
+            "Butterfield"
+          ],
+          "initials": [
+            "ER"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee , Dundee, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Field MC"
+          ],
+          "firstName": [
+            "Mark C"
+          ],
+          "lastName": [
+            "Field"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4866-2885",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee , Dundee, UK."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Institute of Parasitology, Biology Centre, Czech Academy of Sciences , České, Czech Republic."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4866-2885",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3091023"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nucleus (Austin, Tex.)"
+          ],
+          "ISOAbbreviation": [
+            "Nucleus"
+          ],
+          "medlineAbbreviation": [
+            "Nucleus"
+          ],
+          "NLMid": [
+            "101518322"
+          ],
+          "ISSN": [
+            "1949-1034"
+          ],
+          "ESSN": [
+            "1949-1042"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "21-41"
+  ],
+  "abstractText": [
+    "Eukaryotic cells arose ~1.5 billion years ago, with the endomembrane system a central feature, facilitating evolution of intracellular compartments. Endomembranes include the nuclear envelope (NE) dividing the cytoplasm and nucleoplasm. The NE possesses universal features: a double lipid bilayer membrane, nuclear pore complexes (NPCs), and continuity with the endoplasmic reticulum, indicating common evolutionary origin. However, levels of specialization between lineages remains unclear, despite distinct mechanisms underpinning various nuclear activities. Several distinct modes of molecular evolution facilitate organellar diversification and  to understand which apply to the NE, we exploited proteomic datasets of purified nuclear envelopes from model systems for comparative analysis. We find enrichment of core nuclear functions amongst the widely conserved proteins to be less numerous than lineage-specific cohorts, but enriched in core nuclear functions. This, together with consideration of additional evidence, suggests that, despite a common origin, the NE has evolved as a highly diverse organelle with significant lineage-specific functionality."
+  ],
+  "affiliation": [
+    "Division of Biological Chemistry and Drug Discovery, School of Life Sciences, University of Dundee , Dundee, UK."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "MR/P009018/1"
+          ],
+          "agency": [
+            "Medical Research Council"
+          ],
+          "acronym": [
+            "MRC_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "MR/N010558/1"
+          ],
+          "agency": [
+            "Medical Research Council"
+          ],
+          "acronym": [
+            "MRC_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "acronym": [
+            "WT_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "204697/Z/16/Z"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "acronym": [
+            "WT_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Evolution",
+        "Lamina",
+        "Nuclear envelope",
+        "Proteome",
+        "Heterochromatin",
+        "Eukaryogenesis"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/19491034.2021.1874135"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7889174"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7889174?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-01-13"
+  ],
+  "firstIndexDate": [
+    "2021-01-15"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-25"
+  ],
+  "dateOfRevision": [
+    "2021-03-17"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

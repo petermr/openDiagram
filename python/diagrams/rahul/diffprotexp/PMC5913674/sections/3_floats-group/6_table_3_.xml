@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl3" orientation="portrait" position="float">
+ <label>Table 3:</label>
+ <caption>
+  <p>Differentially expressed membrane protein families in MtzR lines, including subgroups and protein and annotation features along with overall differential expression (DE) trends in MtzR lines</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th align="center" colspan="3" rowspan="1">Membrane association</th>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">Group</th>
+    <th align="left" rowspan="1" colspan="1">Subgroup</th>
+    <th align="left" rowspan="1" colspan="1">TMH
+     <sup>a</sup>
+    </th>
+    <th align="left" rowspan="1" colspan="1">Extra/Intracellular domains</th>
+    <th align="left" rowspan="1" colspan="1">Additional features</th>
+    <th align="left" rowspan="1" colspan="1">DE trends</th>
+    <th align="left" rowspan="1" colspan="1">Key DE ORFs</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">EGF-like proteins</td>
+    <td rowspan="1" colspan="1">VSP</td>
+    <td rowspan="1" colspan="1">Yes</td>
+    <td rowspan="1" colspan="1">CXXC-rich extracellular</td>
+    <td rowspan="1" colspan="1">S-Palmitoyl necessary for lipid raft localization and lipid signaling [
+     <xref rid="bib74" ref-type="bibr">74</xref>]
+    </td>
+    <td rowspan="1" colspan="1">Large DE in terms of proportion and magnitude, little specific variant overlap and variable directionality</td>
+    <td rowspan="1" colspan="1">GL50803_137 620</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">CRGKA cytoplasmic tail</td>
+    <td rowspan="1" colspan="1">Citrullination of arginine [
+     <xref rid="bib102" ref-type="bibr">102</xref>]
+    </td>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">GL50803_37 093</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">HCMP</td>
+    <td rowspan="1" colspan="1">Yes</td>
+    <td rowspan="1" colspan="1">CXC/CXXC extracellular</td>
+    <td rowspan="1" colspan="1">Possible organelle membrane localization.</td>
+    <td rowspan="1" colspan="1">Several highly upregulated/downregulated variants, little specific variant overlap</td>
+    <td rowspan="1" colspan="1">GL50803_112 673</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">GL50803_112 633</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">Tenascin/Notch-like</td>
+    <td rowspan="1" colspan="1">Yes</td>
+    <td rowspan="1" colspan="1">EGF-like conserved site (IPR013032); usually extracellular</td>
+    <td rowspan="1" colspan="1">Some possess IPR013111 (EGF-like domain, extracellular)</td>
+    <td rowspan="1" colspan="1">DE with varying directionality between lines</td>
+    <td rowspan="1" colspan="1">GL50803_11 420</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">GL50803_16 322</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Peptidases</td>
+    <td rowspan="1" colspan="1">Cysteine-rich</td>
+    <td rowspan="1" colspan="1">Yes*</td>
+    <td rowspan="1" colspan="1">Growth factor receptor cysteine-rich domain (IPR009030)</td>
+    <td rowspan="1" colspan="1">Separate from VSP/HCMP, do not contain IPR005127 or IPR006212 annotations</td>
+    <td rowspan="1" colspan="1">Downregulation</td>
+    <td rowspan="1" colspan="1">GL50803_14 225</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">GL50803_101 832</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">Dipeptidyl-peptidases</td>
+    <td rowspan="1" colspan="1">Yes*</td>
+    <td rowspan="1" colspan="1">Serine-type (GO: 0 008236), cysteine-type (GO:0 008234) or dipeptidyl-peptidase activity (GO:0 008239)</td>
+    <td rowspan="1" colspan="1">Can localize to plasma membrane in absence of TMH [
+     <xref rid="bib49" ref-type="bibr">49</xref>]
+    </td>
+    <td rowspan="1" colspan="1">Dipeptidyl-peptidase III upregulation [
+     <xref rid="bib106" ref-type="bibr">106</xref>]
+    </td>
+    <td rowspan="1" colspan="1">GL50803_15 574</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">Possible role in signal transduction, particularly during encystation [
+     <xref rid="bib49" ref-type="bibr">49</xref>]
+    </td>
+    <td rowspan="1" colspan="1">Alanyl dipeptidyl peptidase downregulation (713, WB)</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">Dipeptidyl-peptidase I downregulation (WB).</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">ABC transporters</td>
+    <td rowspan="1" colspan="1">Plasma membrane</td>
+    <td rowspan="1" colspan="1">Yes</td>
+    <td rowspan="1" colspan="1">IPR017871 (ABC transporter, conserved site)</td>
+    <td rowspan="1" colspan="1">Features some lipid-transporting ATPases</td>
+    <td rowspan="1" colspan="1">DE with varying directionality between lines</td>
+    <td rowspan="1" colspan="1">GL50803_115 052</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">GL50803_16 592</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Giardins</td>
+    <td rowspan="1" colspan="1">Alpha-Giardins</td>
+    <td rowspan="1" colspan="1">No</td>
+    <td rowspan="1" colspan="1">Calcium-depending phospholipid binding (GO:0 005544)</td>
+    <td rowspan="1" colspan="1">Localize to membrane and cytoskeletal structures, including as flagellar [
+     <xref rid="bib52" ref-type="bibr">52</xref>, 
+     <xref rid="bib103" ref-type="bibr">103–105</xref>]
+    </td>
+    <td rowspan="1" colspan="1">Downregulation</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">Evidence for dual acylation [
+     <xref rid="bib106" ref-type="bibr">106</xref>]
+    </td>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">Beta-Giardin</td>
+    <td rowspan="1" colspan="1">No</td>
+    <td rowspan="1" colspan="1">Cytoskeletal</td>
+    <td rowspan="1" colspan="1">Ventral disc localization [
+     <xref rid="bib53" ref-type="bibr">53</xref>]
+    </td>
+    <td rowspan="1" colspan="1">Downregulation</td>
+    <td rowspan="1" colspan="1">GL50803_4812</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tb3fn1">
+   <p>ORFs listed in the last column were observed to be differentially expressed in at least 2/3 MtzR lines. *Some, but not all, members possess annotated TMH.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

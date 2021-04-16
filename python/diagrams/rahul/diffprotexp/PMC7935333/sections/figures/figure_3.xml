@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0003" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>GO and KEGG pathway enrichment analyses for DEGs.</p>
+  <p>
+   <bold>Notes</bold>: (
+   <bold>A</bold>) Chord plot of GO enrichment analysis of up-regulated genes. (
+   <bold>B</bold>) Chord plot of GO enrichment analysis of down-regulated genes. (
+   <bold>C</bold>) Dot plot of KEGG enrichment analysis of up-regulated genes. (
+   <bold>D</bold>) Dot plot of KEGG enrichment analysis of down-regulated genes.
+  </p>
+  <p>
+   <bold>Abbreviations</bold>: GO, Gene Ontology; KEGG, Kyoto Encyclopedia of Genes and Genomes.
+  </p>
+ </caption>
+ <graphic content-type="print-only" xlink:href="CMAR-13-2095-g0003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32">Briefly, for all transcripts with peptide-spectrum matches, their spliced nucleotide sequences were first extracted and six frame translation was performed. Then, for each peptide-spectrum match, the frame of which the matched transcript it maps to was identified and the translated protein sequence was extracted. All possible open reading frames were subsequently determined from the protein sequence defined by the presence of start and stop codon, which is indicated by methionine and “*” respectively in the protein sequence. The matched peptide was then mapped to these possible ORFs and see if it matches to any of them. If not, the ORF will be defined as the sequence flanked by the start and stop codons closet to the matched peptide (Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>: Figure S3). An R script was written to perform this task and can be found in 
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/PrabakaranGroup/nORFs-in-malaria" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/PrabakaranGroup/nORFs-in-malaria</ext-link>.
+</p>

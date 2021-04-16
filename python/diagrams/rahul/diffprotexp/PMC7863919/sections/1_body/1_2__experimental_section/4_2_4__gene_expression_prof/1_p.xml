@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Gene expression profiles were determined in 24 FFPE samples of corticotroph tumors by sequencing of amplicon-based library representing whole transcriptome, as described in detail previously [
+ <xref rid="B1-jcm-10-00375" ref-type="bibr">1</xref>]. Ion AmpliSeq™ Transcriptome Human Gene Expression Kit (Thermo Fisher Scientific, Waltham, MA, USA) was used for library preparation and semiconductive sequencing technology with Ion Proton instrument, PI chip, and the sequencing reagents included in Ion PI™ Hi-Q™ Sequencing 200 Kit according to the manufacturer’s instructions (Thermo Fisher Scientific, Waltham, MA, USA). Data processing was performed using Bioconductor packages in R environment as described [
+ <xref rid="B1-jcm-10-00375" ref-type="bibr">1</xref>]. Differentially expressed genes (DEGs) were defined as those with adjusted 
+ <italic>p</italic>-value &lt; 0.05.
+</p>

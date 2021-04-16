@@ -1,0 +1,6 @@
+0: In total, we sequenced 113 mRNA samples.
+1: Transcriptome raw reads filtration was performed by SOAPnuke to remove low-quality reads (reads with low-quality base ratio (base quality < 5) > 20% and unknown base ('N' base) ratio > 5%).
+2: Reads were aligned to rRNA using Bowtie2 (v2.2.5) [ 23,  24].
+3: Clean reads were mapped to the human reference genome using HISAT2 [ 25].
+4: Gene expression (FPKM) was quantified by RSEM [ 26].
+5: Genes with FPKM > 0.1 in at least one sample were retained.

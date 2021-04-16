@@ -1,0 +1,2 @@
+0: Genomic coordinates of known QTLs for seed size/weight and associated genes available in the previous studies (Bajaj et al.,  2015; Das et al.,  2014; Kujur et al.,  2015; Saxena et al.,  2014; Singh et al.,  2016; Verma et al.,  2015), were used.
+1: We intersected the genomic position of miRNAs and their target genes with QTL genomic coordinates using bedtools to identify QTLassociated miRNAs and/or target genes.

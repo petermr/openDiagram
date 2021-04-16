@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>However, four genes (
+ <italic>CTNNB1</italic>, 
+ <italic>ILK</italic>, 
+ <italic>TGFB1</italic> and 
+ <italic>ZEB2</italic>) were classified as significantly upregulated in Cluster 4; these genes exhibit similar expression patterns to the genes in the second GF subset. 
+ <italic>TGFB1</italic> is a major inducer of EMT and is commonly used to induce EMT for research purposes [
+ <xref rid="B91-ijms-22-01399" ref-type="bibr">91</xref>]. 
+ <italic>TGFB1</italic> is highly expressed in all clusters except Cluster 3. Interestingly, we found a fairly strong negative correlation (r = −0.67, 
+ <italic>p</italic> &lt; 0.001) between 
+ <italic>TGFB1</italic> and 
+ <italic>KRT18</italic>, which is in line with previous findings [
+ <xref rid="B86-ijms-22-01399" ref-type="bibr">86</xref>]. Our data suggest that Golgi fragmentation is correlated with markers of EMT. On the other hand, others reported that EMT derives Golgi compaction through a strong correlation between 
+ <italic>MMD</italic> and 
+ <italic>Zeb1</italic> [
+ <xref rid="B92-ijms-22-01399" ref-type="bibr">92</xref>]. However, we found a weak negative correlation between the expression of 
+ <italic>MMD</italic> and 
+ <italic>Zeb1</italic> (r = −0.15, 
+ <italic>p</italic> &lt; 0.001). This discrepancy highlights the complexity of the link between Golgi structural alterations and cancer progression and indicates the need for more experimental efforts to clarify the role of the Golgi in cancer. The time for running the DIscBIO–CTCs–Binder notebooks (Parts 4 and 5) was 12 min, whereas the approximate time for running through the DIscBIO package, the analysis described above, using an Intel Core i5-8300H laptop, is about 2 h. The time difference is due to structural deviation. Some objects, such as fg and FgcdiffBinomial, were already precomputed and inserted into the Binder notebooks.
+</p>

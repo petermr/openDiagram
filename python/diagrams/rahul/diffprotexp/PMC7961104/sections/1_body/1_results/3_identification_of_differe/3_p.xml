@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0105">The activity of metabolic reactions is regulated not only by the expression of metabolic enzymes but also through allosteric regulation by metabolites and by changes in the amounts of substrates or products. We identified allosteric regulations connecting DEMs to metabolic reactions using the database BRENDA (
+ <xref rid="bib24" ref-type="bibr">Jeske et al., 2019</xref>) (
+ <xref rid="fig3" ref-type="fig">Figures 3</xref>C and 
+ <xref rid="mmc1" ref-type="supplementary-material">S4</xref>A). The differential regulations from DEMs were classified as either activating or inhibiting and were determined by combining the direction of the change in a DEM (increased or decreased) and the direction of its regulatory effect on the reaction (activator or inhibitor) (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S4</xref>A). In liver, we identified 372 metabolic enzymes that were controlled by DEMs that are allosteric regulators and total 1,129 allosteric regulations to metabolic reactions, with AMP contributing most of the activating allosteric regulation and ATP and ADP inhibiting many reactions through allostery (
+ <xref rid="fig3" ref-type="fig">Figures 3</xref>C and 
+ <xref rid="mmc1" ref-type="supplementary-material">S4</xref>B). In skeletal muscle, we identified 42 metabolic enzymes that were controlled by DEMs, and both activating and inhibiting allosteric regulations were mediated by DEMs that decreased in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice (
+ <xref rid="fig3" ref-type="fig">Figures 3</xref>C and 
+ <xref rid="mmc1" ref-type="supplementary-material">S4</xref>D). Among the DEMs, we also identified the substrates and products that can affect metabolic reactions using the database KEGG (
+ <xref rid="bib27" ref-type="bibr">Kanehisa et al., 2017</xref>) (
+ <xref rid="fig3" ref-type="fig">Figures 3</xref>D and 
+ <xref rid="mmc1" ref-type="supplementary-material">S4</xref>A). In liver, we identified 465 metabolic enzymes affected by DEMs that are substrates or products and 873 regulations between those enzymes and the DEMs that are substrates or products (
+ <xref rid="fig3" ref-type="fig">Figures 3</xref>D and 
+ <xref rid="mmc1" ref-type="supplementary-material">S4</xref>C). Some DEMs, including ATP, ADP, and NAD
+ <sup>+</sup>, were involved in both allosteric regulations and regulations by substrate or product in the liver of 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice. In skeletal muscle, we identified 32 metabolic enzymes affected by changes of the substrates or products and 40 differential regulations by substrate or product DEMs (
+ <xref rid="fig3" ref-type="fig">Figures 3</xref>D and 
+ <xref rid="mmc1" ref-type="supplementary-material">S4</xref>E).
+</p>

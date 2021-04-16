@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">MSTRG transcripts that contain the introns of overlapping reference genes are determined by GffCompare [
+ <xref ref-type="bibr" rid="CR50">50</xref>] that compares their intron–exon structures. The exons of these transcripts were subsequently intersected with the introns of reference genes to extract the retained intron region, which were six frame translated by Transeq and mapped by the peptides to see if they fall into the introns The intronic peptides were then checked manually to see if they are in-frame with the neighbouring exon on genome visualizer, Artemis [
+ <xref ref-type="bibr" rid="CR51">51</xref>]; if not, they are classified as AltORFs instead.
+</p>

@@ -1,0 +1,5 @@
+0: To validate the oncogenetic effect of the identified hub genes, we performed survival analyses of TCGA (URL:  https://cancergenome.nih.gov/) samples by using the Gene Expression Profiling Interactive Analysis (GEPIA; URL:  https://gepia.cancer-pku.cn/) online database.
+1: TNBC samples were derived into high- and low-expression groups for each hub gene.
+2: The median transcript per million (TPM) value was used as a cutoff.
+3: To further verify the association between the hub genes and breast cancer outcome, Cox regression analysis was performed in TCGA samples from multiple malignancies, including breast cancer (BRCA), cervical squamous cell carcinoma (CESC), liver hepatocellular carcinoma (LIHC), head and neck squamous cell carcinoma (HNSC), lung adenocarcinoma (LUAD), sarcoma (SARC) and skin cutaneous melanoma (SKCM).
+4: P-value<0.05 was considered statistically significant.

@@ -1,0 +1,9 @@
+0: Flag leaf RNA and developing grain RNA samples from DBA Artemis were used for small RNA, transcriptome and degradome sequencing analysis (Supplementary Table  S2).
+1: The sRNA libraries were prepared using the NEBNext Multiplex Small RNA Library Prep Kit and multiplex primers, as previously described 26,  28,  29. sRNA-seq was performed on Illumina HiSeq 2500 at LC-Bio in Hangzhou, China.
+2: Original datasets of sRNA-seq, transcriptome-seq, and degradome-seq generated in the current study were submitted to NCBI GEO database (accession number GSE162008).
+3: Conserved and novel durum wheat miRNAs were identified using the ACGT101-miR program as previously described 26,  28,  29.
+4: All miRNAs were categorised into five groups (G1-5), where G1 to G4 represent different categories of conserved miRNAs, while G5 represents novel miRNAs.
+5: For details, see Methods  S1.
+6: Normalised reads count was used to represent the expression level of miRNAs in each library.
+7: Chi-square (n  n) was used to identify differentially expressed miRNAs (DEMs) across treatment groups at  P < 0.05.
+8: Fold-change calculations were performed for paired-comparisons made between treatment groups.

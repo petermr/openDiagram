@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0009" orientation="portrait" position="float">
+ <label>Table 9.</label>
+ <caption>
+  <p>List of DEGs from Venn diagram (Supplementary 
+   <xref ref-type="fig" rid="f0001">Figure 1</xref>) highlighting common and unique genes under interactions with 
+   <italic>Cebpa</italic> (Table 9) and 
+   <italic>Cebpb</italic> (Table 10) in timepoints MEFD3plu/MEFD3min and MEFD5plu/MEFD5min
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">
+     <underline>Conditions</underline>
+    </th>
+    <th align="center">
+     <underline>DEGs</underline>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Common between MEFD3plu/MEF3min and MEFD5plu/MEFD5min</td>
+    <td align="left">
+     <italic toggle="yes">Rfc3, Cebpa, Baz1a, Mogs, Dbt, Vcp, Rrp1b, Cebpb</italic>, and 
+     <italic toggle="yes">Zfr</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Unique in MEFD3plu/MEF3min</td>
+    <td align="left">
+     <italic toggle="yes">Trib1, Trib2, Sptan1, Ppp1cb, Rfc2, Hdac1, Rb1, Nxf1, Smarca2, Ftsj3, Myh9, Rrp12, Top1, Nol10, Myl6, Rbm39, Safb2, Hdgfrp2, Thoc1, Ddx54, Rps14, Rad21, Snrnp70, Rps4x, Pycr2, Nup93, Cdk1, Rps9, Rpn1, Urb1, Prpf4, Gnb2, Cdk4, Nop56, Wdr5, Ncoa3, Nat10, Sap18, Pdcd11, Rnps1, D19Bwg1357e, Ppp1ca, Psmd10, Asun, Smarcd2, Jdp2, Usp39, Pnn, Lig3, Stag1, Nol6, Rpl27, Lmnb1</italic> and 
+     <italic toggle="yes">Srsf5</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Unique in MEFD5plu/MEFD5min</td>
+    <td align="left">
+     <italic toggle="yes">Trib3, Ppp2r1a, Srsf4, Rbl2, Ncoa6, Myh10, Sin3a, Top2a, Lbr, Noc2l, Thoc2, Sox9, Cdk2, Rfc5, Rpn2, Urb2, Cdk5, Wdr6, Ncoa4, Psmd11, Polr2a, Mcm5, Med24, Stag2</italic>, and 
+     <italic toggle="yes">Lmnb2</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Common between MEFD3plu/MEF3min and MEFD5plu/MEFD5min</td>
+    <td align="left">
+     <italic toggle="yes">Gsk3b, Cebpa, Cebpb, Zbtb7b</italic> and 
+     <italic toggle="yes">Ptges2</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Unique in MEFD3plu/MEF3min</td>
+    <td align="left">
+     <italic toggle="yes">Rnf41, Mapk14, Med1, Hdac1, Rb1</italic> and 
+     <italic toggle="yes">Runx1t1</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Unique in MEFD5plu/MEFD5min</td>
+    <td align="left">
+     <italic toggle="yes">Sin3a, Kmt2d</italic> and 
+     <italic toggle="yes">Bhlhe40</italic>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,340 @@
+{
+  "id": [
+    "PMC7957709"
+  ],
+  "source": [
+    "PMC"
+  ],
+  "pmcid": [
+    "PMC7957709"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7957709"
+      ]
+    }
+  ],
+  "title": [
+    "Identification of Novel Transcriptome Signature as a Potential Prognostic Biomarker for Anti-Angiogenic Therapy in Glioblastoma Multiforme"
+  ],
+  "authorString": [
+    "Zheng S, Tao W, Wakimoto H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zheng S"
+          ],
+          "firstName": [
+            "Shuhua"
+          ],
+          "lastName": [
+            "Zheng"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 College of Osteopathic Medicine, Nova Southeastern University, Fort Lauderdale, FL 33314, USA"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tao W"
+          ],
+          "firstName": [
+            "Wensi"
+          ],
+          "lastName": [
+            "Tao"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "2 Department of Radiation Oncology, University of Miami-Miller School of Medicine, Miami, FL 33136, USA"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wakimoto H"
+          ],
+          "firstName": [
+            "Hiroaki"
+          ],
+          "lastName": [
+            "Wakimoto"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "3133647"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cancers"
+          ],
+          "ISOAbbreviation": [
+            "Cancers (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Cancers (Basel)"
+          ],
+          "NLMid": [
+            "101526829"
+          ],
+          "ISSN": [
+            "2072-6694"
+          ],
+          "ESSN": [
+            "2072-6694"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "Glioblastoma multiforme (GBM) is the most common and devastating type of primary brain tumor, with a median survival time of only 15 months. Having a clinically applicable genetic biomarker would lead to a paradigm shift in precise diagnosis, personalized therapeutic decisions, and prognostic prediction for GBM. Radiogenomic profiling connecting radiological imaging features with molecular alterations will offer a noninvasive method for genomic studies of GBM. To this end, we analyzed over 3800 glioma and GBM cases across four independent datasets. The Chinese Glioma Genome Atlas (CGGA) and The Cancer Genome Atlas (TCGA) databases were employed for RNA-Seq analysis, whereas the Ivy Glioblastoma Atlas Project (Ivy-GAP) and The Cancer Imaging Archive (TCIA) provided clinicopathological data. The Clinical Proteomic Tumor Analysis Consortium Glioblastoma Multiforme (CPTAC-GBM) was used for proteomic analysis. We identified a simple three-gene transcriptome signature—SOCS3, VEGFA, and TEK—that can connect GBM’s overall prognosis with genes’ expression and simultaneously correlate radiographical features of perfusion imaging with SOCS3 expression levels. More importantly, the rampant development of neovascularization in GBM offers a promising target for therapeutic intervention. However, treatment with bevacizumab failed to improve overall survival. We identified SOCS3 expression levels as a potential selection marker for patients who may benefit from early initiation of angiogenesis inhibitors."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Undetermined"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Angiogenesis",
+        "SOCS3",
+        "Glioblastoma Multiforme",
+        "Bevacizumab",
+        "Vegfa"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7957709/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7957709/pdf/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7957709"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7957709?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "hpa"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-17"
+  ],
+  "firstIndexDate": [
+    "2021-03-17"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-17"
+  ],
+  "dateOfRevision": [
+    "2021-03-17"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-01"
+  ],
+  "firstPublicationDate": [
+    "2021-03-01"
+  ]
+}

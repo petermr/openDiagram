@@ -1,0 +1,390 @@
+{
+  "id": [
+    "23635033"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "23635033"
+  ],
+  "pmcid": [
+    "PMC3682907"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC3682907"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/1477-5956-11-19"
+  ],
+  "title": [
+    "A SELDI mass spectrometry study of experimental autoimmune encephalomyelitis: sample preparation, reproducibility, and differential protein expression patterns."
+  ],
+  "authorString": [
+    "Azzam S, Broadwater L, Li S, Freeman EJ, McDonough J, Gregory RB."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Azzam S"
+          ],
+          "firstName": [
+            "Sausan"
+          ],
+          "lastName": [
+            "Azzam"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, USA. rgregory@kent.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Broadwater L"
+          ],
+          "firstName": [
+            "Laurie"
+          ],
+          "lastName": [
+            "Broadwater"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Li S"
+          ],
+          "firstName": [
+            "Shuo"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Freeman EJ"
+          ],
+          "firstName": [
+            "Ernest J"
+          ],
+          "lastName": [
+            "Freeman"
+          ],
+          "initials": [
+            "EJ"
+          ]
+        },
+        {
+          "fullName": [
+            "McDonough J"
+          ],
+          "firstName": [
+            "Jennifer"
+          ],
+          "lastName": [
+            "McDonough"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Gregory RB"
+          ],
+          "firstName": [
+            "Roger B"
+          ],
+          "lastName": [
+            "Gregory"
+          ],
+          "initials": [
+            "RB"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2034674"
+      ],
+      "dateOfPublication": [
+        "2013 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Proteome science"
+          ],
+          "ISOAbbreviation": [
+            "Proteome Sci"
+          ],
+          "medlineAbbreviation": [
+            "Proteome Sci"
+          ],
+          "NLMid": [
+            "101170539"
+          ],
+          "ISSN": [
+            "1477-5956"
+          ],
+          "ESSN": [
+            "1477-5956"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "19"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Experimental autoimmune encephalomyelitis (EAE) is an autoimmune, inflammatory disease of the central nervous system that is widely used as a model of multiple sclerosis (MS). Mitochondrial dysfunction appears to play a role in the development of neuropathology in MS and may also play a role in disease pathology in EAE. Here, surface enhanced laser desorption ionization mass spectrometry (SELDI-MS) has been employed to obtain protein expression profiles from mitochondrially enriched fractions derived from EAE and control mouse brain. To gain insight into experimental variation, the reproducibility of sub-cellular fractionation, anion exchange fractionation as well as spot-to-spot and chip-to-chip variation using pooled samples from brain tissue was examined.<h4>Results</h4>Variability of SELDI mass spectral peak intensities indicates a coefficient of variation (CV) of 15.6% and 17.6% between spots on a given chip and between different chips, respectively. Thinly slicing tissue prior to homogenization with a rotor homogenizer showed better reproducibility (CV = 17.0%) than homogenization of blocks of brain tissue with a Teflon® pestle (CV = 27.0%). Fractionation of proteins with anion exchange beads prior to SELDI-MS analysis gave overall CV values from 16.1% to 18.6%. SELDI mass spectra of mitochondrial fractions obtained from brain tissue from EAE mice and controls displayed 39 differentially expressed proteins (p≤ 0.05) out of a total of 241 protein peaks observed in anion exchange fractions. Hierarchical clustering analysis showed that protein fractions from EAE animals with severe disability clearly segregated from controls. Several components of electron transport chain complexes (cytochrome c oxidase subunit 6b1, subunit 6C, and subunit 4; NADH dehydrogenase flavoprotein 3, alpha subcomplex subunit 2, Fe-S protein 4, and Fe-S protein 6; and ATP synthase subunit e) were identified as possible differentially expressed proteins. Myelin Basic Protein isoform 8 (MBP8) (14.2 kDa) levels were lower in EAE samples with advanced disease relative to controls, while an MBP fragment (12. 4kDa), likely due to calpain digestion, was increased in EAE relative to controls. The appearance of MBP in mitochondrially enriched fractions is due to tissue freezing and storage, as MBP was not found associated with mitochondria obtained from fresh tissue.<h4>Conclusions</h4>SELDI mass spectrometry can be employed to explore the proteome of a complex tissue (brain) and obtain protein profiles of differentially expressed proteins from protein fractions. Appropriate homogenization protocols and protein fractionation using anion exchange beads can be employed to reduce sample complexity without introducing significant additional variation into the SELDI mass spectra beyond that inherent in the SELDI- MS method itself. SELDI-MS coupled with principal component analysis and hierarchical cluster analysis provides protein patterns that can clearly distinguish the disease state from controls. However, identification of individual differentially expressed proteins requires a separate purification of the proteins of interest by polyacrylamide electrophoresis prior to trypsin digestion and peptide mass fingerprint analysis, and unambiguous identification of differentially expressed proteins can be difficult if protein bands consist of several proteins with similar molecular weights."
+  ],
+  "affiliation": [
+    "Department of Chemistry and Biochemistry, Kent State University, Kent, Ohio 44242, USA. rgregory@kent.edu."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R21 NS058921"
+          ],
+          "agency": [
+            "NINDS NIH HHS"
+          ],
+          "acronym": [
+            "NS"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23635033/pdf/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23635033/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/1477-5956-11-19"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC3682907"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC3682907?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2013-06-18"
+  ],
+  "dateOfCreation": [
+    "2013-05-03"
+  ],
+  "firstIndexDate": [
+    "2013-05-03"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-12"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2013-05-01"
+  ],
+  "firstPublicationDate": [
+    "2013-05-01"
+  ]
+}

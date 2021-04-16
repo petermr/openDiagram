@@ -1,0 +1,6 @@
+0: The gels of 2DE were recorded as digitalized images using a Calibrated Densitometer (GS-800, Bio-Rad, USA), and the search for differentially expressed proteins was carried out using the software of PDQuest Advanced 8.0.1.
+1: Protein spots were obtained from the silver-stained gels, detained, and subjected to tryptic digestion as described by Gokulakannan and Niehaus [ 23] for MS.
+2: The peptides mixtures were re-dissolved in matrix solution, dried, and analyzed by a 4800 matrix assisted laser desorption/ionization time of flight mass spectrometry (MALDI-TOF/TOF)(Applied Biosystems, Carlsbad, CA, USA).
+3: Combined MS and MS/MS spectra were subjected to MASCOT (version 2.1, Matrix Science, London, UK) by the GPS Explorer software (version 3.6, Applied Biosystems) and searched with the following parameters, National Center for Biotechnology Information Non-redundant (NCBInr) and EST databases.
+4: Known contaminant ions (tryptic auto-digest peptides) were excluded.
+5: The individual MS/MS spectrum, with a statistically significant (confidence interval 95%) ion scores (based on MS/MS spectra), was accepted.

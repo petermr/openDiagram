@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-meta-group>
+ <custom-meta>
+  <meta-name>PLOS Publication Stage</meta-name>
+  <meta-value>vor-update-to-uncorrected-proof</meta-value>
+ </custom-meta>
+ <custom-meta>
+  <meta-name>Publication Update</meta-name>
+  <meta-value>2021-03-02</meta-value>
+ </custom-meta>
+ <custom-meta id="data-availability">
+  <meta-name>Data Availability</meta-name>
+  <meta-value>All Taenia solium genomic data available are deposited in: 
+   <ext-link ext-link-type="uri" xlink:href="https://www.genedb.org/#/species/Tsolium" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.genedb.org/#/species/Tsolium</ext-link> Additional data are available on request to the corresponding author of the following paper: Isheng J Tsai The genomes of four tapeworm species reveal adaptations to parasitism Nature 2013 Apr 4;496(7443):57-63. 
+   <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature12031" xmlns:xlink="http://www.w3.org/1999/xlink">10.1038/nature12031</ext-link> The Mexican consortium sponsored by the UNAM deposited their data on T. solium genome in: 
+   <ext-link ext-link-type="uri" xlink:href="https://parasite.wormbase.org/Taenia_solium_prjna170813/Info/Index/" xmlns:xlink="http://www.w3.org/1999/xlink">https://parasite.wormbase.org/Taenia_solium_prjna170813/Info/Index/</ext-link> The most relevant data to replicate this study is the T. solium secretome, published in: Gomez et al., Genome analysis of Excretory/Secretory proteins in Taenia solium reveals their Abundance of Antigenic Regions (AAR) Sci Rep. 2015 May 19;5:9683. doi:
+   <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/srep09683" xmlns:xlink="http://www.w3.org/1999/xlink">10.1038/srep09683</ext-link> The T solium secretome is deposited in: 
+   <ext-link ext-link-type="uri" xlink:href="http://microbiomics.ibt.unam.mx/tools/aar/toolblast.php" xmlns:xlink="http://www.w3.org/1999/xlink">http://microbiomics.ibt.unam.mx/tools/aar/toolblast.php</ext-link> These repositories contain all relevant data used for this paper, and are freely accessible.
+  </meta-value>
+ </custom-meta>
+</custom-meta-group>

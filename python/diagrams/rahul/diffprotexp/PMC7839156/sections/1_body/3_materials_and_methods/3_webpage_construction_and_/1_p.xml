@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The last step in the SARSCOVIDB was webpage development (
+ <xref rid="fig1" ref-type="fig">Figure 
+  <xref rid="fig1" ref-type="fig">1</xref>
+ </xref>). MySQL v5.0, PHP v.5.2.99, and HTML10 were used to build the database and the graphical user interface. The data were stored and maintained by the relational database management system (RDBMS) server, with the SQL language used for data management. The search can be customized easily by the user, combining specific proteins with hosts or selecting a specific viral strain or geographic origin. The database also provides step-by-step links to instruct the user how to search. A list containing all genes deposited in the SARSCOVIDB is available through direct download (
+ <uri xlink:href="https://sarscovidb.org/download/" xmlns:xlink="http://www.w3.org/1999/xlink">https://sarscovidb.org/download/</uri>).
+</p>

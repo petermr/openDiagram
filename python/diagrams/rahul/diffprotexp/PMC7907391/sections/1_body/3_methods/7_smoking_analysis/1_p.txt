@@ -1,0 +1,4 @@
+0: TCGA data for five smoking related cancers (lung squamous cell carcinoma, lung adenocarcinoma, cervical cancer, bladder and esophageal) were extracted using the XenaTools platform, then filtered based on smoking status (n = 873).
+1: The remaining data consisted of two categories: current smokers (smokers) or lifelong non-smokers (non-smokers); values and definitions were obtained from the TCGA data dictionary ( https://cdebrowser.nci.nih.gov/cdebrowserClient/cdeBrowser.html#/valueDomain).
+2: Analysis was further stratified by age.
+3: Wilcoxon signed-rank tests were performed to determine the difference in expression for viral entry genes  ACE2, TMPRSS2 and  CTSL.

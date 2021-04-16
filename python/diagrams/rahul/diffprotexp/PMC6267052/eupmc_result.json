@@ -1,0 +1,701 @@
+{
+  "id": [
+    "30497455"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "30497455"
+  ],
+  "pmcid": [
+    "PMC6267052"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC6267052"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12891-018-2346-6"
+  ],
+  "title": [
+    "Differential protein expression in human knee articular cartilage and medial meniscus using two different proteomic methods: a pilot analysis."
+  ],
+  "authorString": [
+    "Folkesson E, Turkiewicz A, Englund M, Önnerfjord P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Folkesson E"
+          ],
+          "firstName": [
+            "Elin"
+          ],
+          "lastName": [
+            "Folkesson"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6119-5804",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Clinical Sciences Lund, Orthopaedics, Clinical Epidemiology Unit, Lund University, Faculty of Medicine, Lund, Sweden. elin.folkesson@med.lu.se."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Clinical Sciences Lund, Rheumatology and Molecular Skeletal Biology, Lund University, Faculty of Medicine, Lund, Sweden. elin.folkesson@med.lu.se."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Turkiewicz A"
+          ],
+          "firstName": [
+            "Aleksandra"
+          ],
+          "lastName": [
+            "Turkiewicz"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Clinical Sciences Lund, Orthopaedics, Clinical Epidemiology Unit, Lund University, Faculty of Medicine, Lund, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Englund M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Englund"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Clinical Sciences Lund, Orthopaedics, Clinical Epidemiology Unit, Lund University, Faculty of Medicine, Lund, Sweden."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Clinical Epidemiology Research and Training Unit, Boston University School of Medicine, Boston, MA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Önnerfjord P"
+          ],
+          "firstName": [
+            "Patrik"
+          ],
+          "lastName": [
+            "Önnerfjord"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2345-2937",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Clinical Sciences Lund, Rheumatology and Molecular Skeletal Biology, Lund University, Faculty of Medicine, Lund, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2345-2937",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6119-5804",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "19"
+      ],
+      "journalIssueId": [
+        "2744847"
+      ],
+      "dateOfPublication": [
+        "2018 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC musculoskeletal disorders"
+          ],
+          "ISOAbbreviation": [
+            "BMC Musculoskelet Disord"
+          ],
+          "medlineAbbreviation": [
+            "BMC Musculoskelet Disord"
+          ],
+          "NLMid": [
+            "100968565"
+          ],
+          "ISSN": [
+            "1471-2474"
+          ],
+          "ESSN": [
+            "1471-2474"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "416"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Proteomics is an emerging field in the study of joint disease. Our two aims with this pilot analysis were to compare healthy human knee articular cartilage with meniscus, two tissues both known to become affected in the osteoarthritic disease process, and to compare two mass spectrometry (MS)-based methods: data-dependent acquisition (DDA) and data-independent acquisition (DIA).<h4>Methods</h4>Healthy knee articular cartilage taken from the medial tibial condyle and medial meniscus samples taken from the body region were obtained from three adult forensic medicine cases. Proteins were extracted from tissue pieces and prepared for MS analysis. Each sample was subjected to liquid chromatography (LC)-MS/MS analysis using an Orbitrap mass spectrometer, and run in both DDA and DIA mode. Linear mixed effects models were used for statistical analysis.<h4>Results</h4>A total of 653 proteins were identified in the DDA analysis, of which the majority was present in both tissue types. Only proteins with quantitation information in both tissues (n = 90) were selected for more detailed analysis, of which the majority did not statistically significantly differ in abundance between the two tissue types, in either of the MS analyses. However, 21 proteins were statistically significantly different (p < 0.05) between meniscus and cartilage in the DIA analysis. Out of these, 11 proteins were also significantly different in the DDA analysis. Aggrecan core protein was the most abundant protein in articular cartilage and significantly differed between the two tissues in both methods. The corresponding protein in meniscus was serum albumin. Dermatopontin exhibited the highest meniscus vs articular cartilage ratio among the statistically significant proteins. The DIA method led to narrower confidence intervals for the abundance differences between the two tissue types than DDA.<h4>Conclusions</h4>Although articular cartilage and meniscus had similar proteomic composition, we detected several differences by MS. Between the two analyses, DIA yielded more precise estimates and more statistically significant different proteins than DDA, and had no missing values, which makes it preferable for future LC-MS/MS analyses."
+  ],
+  "affiliation": [
+    "Department of Clinical Sciences Lund, Orthopaedics, Clinical Epidemiology Unit, Lund University, Faculty of Medicine, Lund, Sweden. elin.folkesson@med.lu.se."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Comparative Study",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "2014-2348"
+          ],
+          "agency": [
+            "Vetenskapsrådet"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2014-3303"
+          ],
+          "agency": [
+            "Vetenskapsrådet (SE)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cartilage, Articular"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Menisci, Tibial"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteome"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chromatography, High Pressure Liquid"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pilot Projects"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tandem Mass Spectrometry"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Healthy Volunteers"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Knee",
+        "Proteomics",
+        "Meniscus",
+        "Articular cartilage",
+        "Osteoarthritis",
+        "Data-independent Acquisition",
+        "Data-dependent Acquisition"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Proteome"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12891-018-2346-6"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6267052"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6267052?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "5"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "go"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2019-03-20"
+  ],
+  "dateOfCreation": [
+    "2018-12-01"
+  ],
+  "firstIndexDate": [
+    "2018-12-01"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-09"
+  ],
+  "dateOfRevision": [
+    "2019-03-20"
+  ],
+  "electronicPublicationDate": [
+    "2018-11-29"
+  ],
+  "firstPublicationDate": [
+    "2018-11-29"
+  ]
+}

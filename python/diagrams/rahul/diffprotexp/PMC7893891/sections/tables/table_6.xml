@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab6">
+ <label>Table 6</label>
+ <caption>
+  <p>MN specification based on log
+   <sub>2</sub>-fold change in RNA-Seq transcript levels at D28 versus D0 of the differentiation protocol. The 
+   <italic>p</italic>-values were calculated with the R-package. Negative log
+   <sub>2</sub>-fold change corresponds to gene downregulation and the positive values indicate gene activation. 
+   <italic>↓</italic> indicates the gene is expected to be downregulated in the MN subtype
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th/>
+    <th>Gene Biomarkers</th>
+    <th>Fold change</th>
+    <th>
+     <bold>
+      <italic>p</italic>
+     </bold>-value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="4">
+     <bold>General motor neuron</bold>
+    </td>
+    <td>
+     <italic>HB9</italic>
+    </td>
+    <td>4.29740102</td>
+    <td>0.03478379</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL1</italic>
+    </td>
+    <td>9.38120075</td>
+    <td>1.39E-11</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL2</italic>
+    </td>
+    <td>−2.71940491</td>
+    <td>0.12115956</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>LHX3</italic>
+    </td>
+    <td>5.98518477</td>
+    <td>1.09E-05</td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <bold>Hypaxial motor column</bold>
+    </td>
+    <td>
+     <italic>ETV1</italic>
+    </td>
+    <td>−4.14432026</td>
+    <td>8.33E-05</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>HB9</italic>
+    </td>
+    <td>4.29740102</td>
+    <td>0.03478379</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL1</italic>
+    </td>
+    <td>9.38120075</td>
+    <td>1.39E-11</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL2</italic>
+    </td>
+    <td>−2.71940491</td>
+    <td>0.12115956</td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <bold>Pre-ganglionic column</bold>
+    </td>
+    <td>
+     <italic>SMAD1</italic>
+    </td>
+    <td>1.61250783</td>
+    <td>3.71E-10</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>NOS1</italic>
+    </td>
+    <td>−1.1688341</td>
+    <td>0.1409026</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ZEB2</italic>
+    </td>
+    <td>4.94457944</td>
+    <td>9.71E-19</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FOXP1</italic>
+    </td>
+    <td>0.76366376</td>
+    <td>0.10008361</td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <bold>Spinal accessory column</bold>
+    </td>
+    <td>
+     <italic>ALCAM</italic>
+    </td>
+    <td>0.82274029</td>
+    <td>0.14709124</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL1</italic>
+    </td>
+    <td>9.38120075</td>
+    <td>1.39E-11</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>RUNX1</italic>
+    </td>
+    <td>4.90888056</td>
+    <td>1.01E-20</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>PHOX2B</italic>
+    </td>
+    <td>9.18779756</td>
+    <td>1.30E-06</td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <bold>Medial LMC</bold>
+    </td>
+    <td>
+     <italic>↓ HB9</italic>
+    </td>
+    <td>4.29740102</td>
+    <td>0.03478379</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL2</italic>
+    </td>
+    <td>−2.71940491</td>
+    <td>0.12115956</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FOXP2</italic>
+    </td>
+    <td>5.83531355</td>
+    <td>9.82E-56</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ALDH1A2</italic>
+    </td>
+    <td>5.96267067</td>
+    <td>8.55E-13</td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <bold>Lateral LMC</bold>
+    </td>
+    <td>
+     <italic>↓ ISL1</italic>
+    </td>
+    <td>9.38120075</td>
+    <td>1.39E-11</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL2</italic>
+    </td>
+    <td>−2.71940491</td>
+    <td>0.12115956</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FOXP2</italic>
+    </td>
+    <td>5.83531355</td>
+    <td>9.82E-56</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ALDH1A2</italic>
+    </td>
+    <td>5.96267067</td>
+    <td>8.55E-13</td>
+   </tr>
+   <tr>
+    <td rowspan="4">
+     <bold>Median motor column</bold>
+    </td>
+    <td>
+     <italic>HB9</italic>
+    </td>
+    <td>4.29740102</td>
+    <td>0.03478379</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL1</italic>
+    </td>
+    <td>9.38120075</td>
+    <td>1.39E-11</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ISL2</italic>
+    </td>
+    <td>−2.71940491</td>
+    <td>0.12115956</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>LHX3</italic>
+    </td>
+    <td>5.98518477</td>
+    <td>1.09E-05</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

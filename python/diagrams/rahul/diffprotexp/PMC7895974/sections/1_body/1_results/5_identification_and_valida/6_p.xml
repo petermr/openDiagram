@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">To determine the genes potentially regulated by MEOX1 in paraxial mesoderm, we identified accessible chromatin regions within 10 kb of an expressed gene, which comprised a MEOX1 footprint (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">6c–e</xref>). STRING analysis of these putative MEOX1 regulated genes revealed PPI networks including genes enriched with the GO term anatomical structural development, and also included components of signalling pathways, such as Wnt and TGFbeta (Fig. 
+ <xref rid="Fig6" ref-type="fig">6i</xref>). To confirm that some of these genes are involved in mediating the function of MEOX1 in paraxial mesoderm, we used RT-qPCR to assess their expression in normal and epigenome edited somites (Fig. 
+ <xref rid="Fig6" ref-type="fig">6j</xref>). First, we showed that 
+ <italic>MEOX1</italic> expression in wild-type somites was unaffected after introducing control gRNAs together with the dCAS9-KRAB repressor. However, electroporation of sgRNAs targeting the dCAS9-KRAB repressor to the 
+ <italic>MEOX1</italic> enhancer led to suppression of 
+ <italic>MEOX1</italic>. Expression of the closely related 
+ <italic>MEOX2</italic> gene was not affected, similarly 
+ <italic>PAX3</italic> expression remained unchanged. Next, we assessed a number of genes involved in chondrogenesis and setting up the polarity of the sclerotome. Epigenome editing of the endogenous 
+ <italic>MEOX1</italic> enhancer led to down-regulation of 
+ <italic>Uncx4.1</italic>, 
+ <italic>TBX18</italic>, 
+ <italic>FAT4</italic> and 
+ <italic>TGFb2</italic>, which are all associated with a MEOX1 footprint, indicating that they could be direct targets. Expression of 
+ <italic>NKX3-2</italic>, which is not associated with a MEOX1 footprint within 10 kb up- or downstream of the gene, was also inhibited after negative regulation of 
+ <italic>MEOX1</italic> by epigenome editing of the 
+ <italic>MEOX1</italic> enhancer.
+</p>

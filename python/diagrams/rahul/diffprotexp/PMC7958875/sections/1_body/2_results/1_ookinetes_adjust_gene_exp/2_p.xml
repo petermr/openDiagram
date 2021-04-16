@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the remainder of our analyses, we focused only on cluster 1 cells that we identified as ookinetes (30 from 
+ <italic>An. coluzzii</italic> and 84 from 
+ <italic>An. stephensi</italic>). To control for developmental differences within the identified ookinetes, we first calculated pseudotime and then corrected the expression values using a generalized linear model with pseudotime as a covariate in the model (
+ <xref ref-type="fig" rid="f1">
+  <bold>Figure 1C</bold>
+ </xref>). Indeed, using this approach revealed that the ookinetes can be further divided into three subgroups (i.e. cluster 1.1, cluster 1.2 and cluster 1.3) (
+ <xref ref-type="fig" rid="f1">
+  <bold>Figure 1D</bold>
+ </xref>). We continued our analysis with cluster 1.3 that contained 49 mature ookinetes from both mosquito species (27 from 
+ <italic>An. stephensi</italic> and 22 
+ <italic>An. coluzzii</italic>) as they represented the most mature ookinetes according to pseudotime and had the highest proportion of cells that were collected at 24 h. To identify genes that had an altered expression profile based on vector species, we first identified 159 genes to be highly variably expressed using M3drop (qval &lt; 0.05) (
+ <xref ref-type="supplementary-material" rid="ST2">
+  <bold>Table S2</bold>
+ </xref>). We used these 159 genes as an input to identify differentially expressed genes based on mosquito host species with pseudotime as a covariate in the model. We found 11 genes that appeared to be differentially expressed depending on the mosquito species the parasite was sampled from (qval &lt; 0.01) (
+ <xref ref-type="supplementary-material" rid="ST2">
+  <bold>Table S2</bold>
+ </xref>). Expression profiles of all 11 genes are shown in 
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figures S3</bold>
+ </xref>, 
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>S4</bold>
+ </xref>. While some differential expression of genes may be driven by expression in a small number of cells, most genes show a robust bias towards one vector species that is independent of development. One of the most prominent examples is PBANKA_1338900, the putative glideosome associated protein with multiple membrane spans 1 (GAPM1) also known as PSOP23 (
+ <xref rid="B12" ref-type="bibr">Ecker et al., 2008</xref>) (
+ <xref ref-type="fig" rid="f1">
+  <bold>Figure 1E</bold>
+ </xref>). GAPM1 is predominantly expressed in ookinetes collected from 
+ <italic>An. coluzzii</italic> midguts but nearly completely absent in the context of an 
+ <italic>An. stephensi</italic> midgut. In 
+ <italic>P. falciparum</italic> erythrocytic stages, GAPM1 is part of the inner membrane complex (IMC) and seems to be essential for asexual proliferation in both 
+ <italic>P. falciparum</italic> and 
+ <italic>P. berghei</italic> (
+ <xref rid="B8" ref-type="bibr">Bullen et al., 2009</xref>). The ubiquitin fusion degradation protein (UFD1) (PBANKA_1024700) shows a very similar pattern being predominantly expressed in ookinetes collected from 
+ <italic>An. coluzzii</italic> midguts, suggesting ubiquitination could support differential protein regulation between the two species. Interestingly, the inner membrane complex sub-compartment protein 3 (ISP3) (PBANKA_1324300), another IMC-related protein (
+ <xref rid="B25" ref-type="bibr">Kono et al., 2012</xref>) is almost exclusively expressed in ookinetes originating from 
+ <italic>An. stephensi</italic> midguts.
+</p>

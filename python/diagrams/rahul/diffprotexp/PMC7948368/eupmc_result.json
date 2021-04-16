@@ -1,0 +1,587 @@
+{
+  "id": [
+    "33691749"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33691749"
+  ],
+  "pmcid": [
+    "PMC7948368"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7948368"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s13075-021-02451-9"
+  ],
+  "title": [
+    "Transcriptome-wide study of TNF-inhibitor therapy in rheumatoid arthritis reveals early signature of successful treatment."
+  ],
+  "authorString": [
+    "OIiver J, Nair N, Orozco G, Smith S, Hyrich KL, Morgan A, Isaacs J, Wilson AG, BRAGGSS, Barton A, Plant D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "OIiver J"
+          ],
+          "firstName": [
+            "James"
+          ],
+          "lastName": [
+            "OIiver"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5052-5628",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Versus Arthritis Centre for Genetics and Genomics, Centre for Musculoskeletal Research, Manchester Academic Health Sciences Centre, The University of Manchester, Manchester, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nair N"
+          ],
+          "firstName": [
+            "Nisha"
+          ],
+          "lastName": [
+            "Nair"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Versus Arthritis Centre for Genetics and Genomics, Centre for Musculoskeletal Research, Manchester Academic Health Sciences Centre, The University of Manchester, Manchester, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Orozco G"
+          ],
+          "firstName": [
+            "Gisela"
+          ],
+          "lastName": [
+            "Orozco"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Versus Arthritis Centre for Genetics and Genomics, Centre for Musculoskeletal Research, Manchester Academic Health Sciences Centre, The University of Manchester, Manchester, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Smith S"
+          ],
+          "firstName": [
+            "Samantha"
+          ],
+          "lastName": [
+            "Smith"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Versus Arthritis Centre for Genetics and Genomics, Centre for Musculoskeletal Research, Manchester Academic Health Sciences Centre, The University of Manchester, Manchester, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hyrich KL"
+          ],
+          "firstName": [
+            "Kimme L"
+          ],
+          "lastName": [
+            "Hyrich"
+          ],
+          "initials": [
+            "KL"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "NIHR Manchester BRC, Manchester University Foundation Trust, Manchester, UK."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Versus Arthritis Centre for Epidemiology, Centre for Musculoskeletal Research, Manchester Academic Health Sciences Centre, The University of Manchester, Manchester, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Morgan A"
+          ],
+          "firstName": [
+            "Ann"
+          ],
+          "lastName": [
+            "Morgan"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Leeds Institute of Rheumatic and Musculoskeletal Medicine, University of Leeds and NIHR Leeds Musculoskeletal Biomedical Research Unit, Leeds Teaching Hospitals NHS Trust, Leeds, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Isaacs J"
+          ],
+          "firstName": [
+            "John"
+          ],
+          "lastName": [
+            "Isaacs"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cellular Medicine, Newcastle University, Newcastle upon Tyne, UK."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "National Institute for Health Research Newcastle Biomedical Research Centre at Newcastle upon Tyne Hospitals NHS Foundation Trust and Newcastle University, Newcastle upon Tyne, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wilson AG"
+          ],
+          "firstName": [
+            "Anthony G"
+          ],
+          "lastName": [
+            "Wilson"
+          ],
+          "initials": [
+            "AG"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "UCD School of Medicine and Medical Science, Conway Institute, University College Dublin, Dublin, Ireland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "collectiveName": [
+            "BRAGGSS"
+          ]
+        },
+        {
+          "fullName": [
+            "Barton A"
+          ],
+          "firstName": [
+            "Anne"
+          ],
+          "lastName": [
+            "Barton"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Versus Arthritis Centre for Genetics and Genomics, Centre for Musculoskeletal Research, Manchester Academic Health Sciences Centre, The University of Manchester, Manchester, UK."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "NIHR Manchester BRC, Manchester University Foundation Trust, Manchester, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Plant D"
+          ],
+          "firstName": [
+            "Darren"
+          ],
+          "lastName": [
+            "Plant"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Versus Arthritis Centre for Genetics and Genomics, Centre for Musculoskeletal Research, Manchester Academic Health Sciences Centre, The University of Manchester, Manchester, UK. darren.plant@manchester.ac.uk."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "NIHR Manchester BRC, Manchester University Foundation Trust, Manchester, UK. darren.plant@manchester.ac.uk."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5052-5628",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "23"
+      ],
+      "journalIssueId": [
+        "3123456"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Arthritis research & therapy"
+          ],
+          "ISOAbbreviation": [
+            "Arthritis Res Ther"
+          ],
+          "medlineAbbreviation": [
+            "Arthritis Res Ther"
+          ],
+          "NLMid": [
+            "101154438"
+          ],
+          "ISSN": [
+            "1478-6354"
+          ],
+          "ESSN": [
+            "1478-6362"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "80"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Despite the success of TNF-inhibitor therapy in rheumatoid arthritis treatment, up to 40% of patients fail to respond adequately. This study aimed to identify transcriptome-based biomarkers of adalimumab response in rheumatoid arthritis (RA) to aid timely switching in non-responder patients and provide a better mechanistic understanding of the pathways involved in response/non-response.<h4>Methods</h4>The Affymetrix Human Transcriptome Array 2.0 (HTA) was used to measure the transcriptome in whole blood at pre-treatment and at 3 months in EULAR good- and non-responders to adalimumab therapy. Differential expression of transcripts was analysed at the transcript level using multiple linear regression. Differentially expressed genes were validated in independent samples using OpenArray™ RT-qPCR.<h4>Results</h4>In total, 813 transcripts were differentially expressed between pre-treatment and 3 months in adalimumab good-responders. No significant differential expression was observed between good- and non-responders at either time-point and no significant changes were observed in non-responders between time-points. OpenArray™ RT-qPCR was performed for 104 differentially expressed transcripts in good-responders, selected based on magnitude of effect or p value or based on prior association with RA or the immune system, validating differential expression for 17 transcripts.<h4>Conclusions</h4>An early transcriptome signature of DAS28 response to adalimumab has been identified and replicated in independent datasets. Whilst treat-to-target approaches encourage early switching in non-responsive patients, registry evidence suggests that this does not always occur. The results herein could guide the development of a blood test to distinguish responders from non-responders at 3 months and support clinical decisions to switch non-responsive patients to an alternative therapy."
+  ],
+  "affiliation": [
+    "Versus Arthritis Centre for Genetics and Genomics, Centre for Musculoskeletal Research, Manchester Academic Health Sciences Centre, The University of Manchester, Manchester, UK."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "21754"
+          ],
+          "agency": [
+            "Versus Arthritis"
+          ],
+          "acronym": [
+            "VAC_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Rheumatoid arthritis",
+        "Biomarkers",
+        "Gene Expression",
+        "Longitudinal Studies",
+        "Adalimumab",
+        "Tnf-inhibitor"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13075-021-02451-9"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7948368"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7948368?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-11"
+  ],
+  "firstIndexDate": [
+    "2021-03-12"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-13"
+  ],
+  "dateOfRevision": [
+    "2021-03-14"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-10"
+  ],
+  "firstPublicationDate": [
+    "2021-03-10"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="supp2">
+ <label>Supplementary file 2.</label>
+ <caption>
+  <title>Polyadenylation sites (PAS) differential usage results.</title>
+  <p>Column names as described – PAS: polyadenylation site, gene: gene (cluster in leafcutter), PAS_logeffectsize: log effect size for differential usage of the PAS between human and chimpanzee, PAS_deltaPAU: difference in polyadenylation site usage between human and chimpanzee (delta PSI in leafcutter), Gene_logLR: log likelihood ratio for differential usage of any PAS in the gene (cluster likelihood ratio in leafcutter), Gene_adjustedP-value: adjusted p-value for differential usage of the any PAS in the gene (cluster p-value in leafcutter).</p>
+ </caption>
+ <media mime-subtype="plain" mimetype="text" xlink:href="elife-62548-supp2.txt" orientation="portrait" id="d39e2213" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</supplementary-material>

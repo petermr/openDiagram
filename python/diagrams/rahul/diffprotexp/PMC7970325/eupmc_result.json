@@ -1,0 +1,794 @@
+{
+  "id": [
+    "33748479"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33748479"
+  ],
+  "pmcid": [
+    "PMC7970325"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7970325"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1016/j.heliyon.2021.e06408"
+  ],
+  "title": [
+    "DNA repair pathway activation features in follicular and papillary thyroid tumors, interrogated using 95 experimental RNA sequencing profiles."
+  ],
+  "authorString": [
+    "Vladimirova U, Rumiantsev P, Zolotovskaia M, Albert E, Abrosimov A, Slashchuk K, Nikiforovich P, Chukhacheva O, Gaifullin N, Suntsova M, Zakharova G, Glusker A, Nikitin D, Garazha A, Li X, Kamashev D, Drobyshev A, Kochergina-Nikitskaya I, Sorokin M, Buzdin A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Vladimirova U"
+          ],
+          "firstName": [
+            "Uliana"
+          ],
+          "lastName": [
+            "Vladimirova"
+          ],
+          "initials": [
+            "U"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "I.M. Sechenov First Moscow State Medical University, Moscow, 119991, Russia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Pirogov Russian National Research Medical University, Moscow, 117997, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rumiantsev P"
+          ],
+          "firstName": [
+            "Pavel"
+          ],
+          "lastName": [
+            "Rumiantsev"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Endocrinology Research Centre, Moscow, 117312, Russia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Pirogov Russian National Research Medical University, Moscow, 117997, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zolotovskaia M"
+          ],
+          "firstName": [
+            "Marianna"
+          ],
+          "lastName": [
+            "Zolotovskaia"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Pirogov Russian National Research Medical University, Moscow, 117997, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Albert E"
+          ],
+          "firstName": [
+            "Eugene"
+          ],
+          "lastName": [
+            "Albert"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Omicsway Corp., Walnut, CA, 91789, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Abrosimov A"
+          ],
+          "firstName": [
+            "Aleksander"
+          ],
+          "lastName": [
+            "Abrosimov"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Endocrinology Research Centre, Moscow, 117312, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Slashchuk K"
+          ],
+          "firstName": [
+            "Konstantin"
+          ],
+          "lastName": [
+            "Slashchuk"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Endocrinology Research Centre, Moscow, 117312, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nikiforovich P"
+          ],
+          "firstName": [
+            "Petr"
+          ],
+          "lastName": [
+            "Nikiforovich"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Endocrinology Research Centre, Moscow, 117312, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chukhacheva O"
+          ],
+          "firstName": [
+            "Olga"
+          ],
+          "lastName": [
+            "Chukhacheva"
+          ],
+          "initials": [
+            "O"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Endocrinology Research Centre, Moscow, 117312, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gaifullin N"
+          ],
+          "firstName": [
+            "Nurshat"
+          ],
+          "lastName": [
+            "Gaifullin"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Faculty of Fundamental Medicine, Lomonosov Moscow State University, Moscow, 119992, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Suntsova M"
+          ],
+          "firstName": [
+            "Maria"
+          ],
+          "lastName": [
+            "Suntsova"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "I.M. Sechenov First Moscow State Medical University, Moscow, 119991, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zakharova G"
+          ],
+          "firstName": [
+            "Galina"
+          ],
+          "lastName": [
+            "Zakharova"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Endocrinology Research Centre, Moscow, 117312, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Glusker A"
+          ],
+          "firstName": [
+            "Alexander"
+          ],
+          "lastName": [
+            "Glusker"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "I.M. Sechenov First Moscow State Medical University, Moscow, 119991, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nikitin D"
+          ],
+          "firstName": [
+            "Daniil"
+          ],
+          "lastName": [
+            "Nikitin"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Omicsway Corp., Walnut, CA, 91789, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Garazha A"
+          ],
+          "firstName": [
+            "Andrew"
+          ],
+          "lastName": [
+            "Garazha"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Omicsway Corp., Walnut, CA, 91789, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li X"
+          ],
+          "firstName": [
+            "Xinmin"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology and Laboratory Medicine, University of California, Los Angeles, CA, 90095, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kamashev D"
+          ],
+          "firstName": [
+            "Dmitriy"
+          ],
+          "lastName": [
+            "Kamashev"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "I.M. Sechenov First Moscow State Medical University, Moscow, 119991, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Drobyshev A"
+          ],
+          "firstName": [
+            "Alexei"
+          ],
+          "lastName": [
+            "Drobyshev"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "I.M. Sechenov First Moscow State Medical University, Moscow, 119991, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kochergina-Nikitskaya I"
+          ],
+          "firstName": [
+            "Irina"
+          ],
+          "lastName": [
+            "Kochergina-Nikitskaya"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sorokin M"
+          ],
+          "firstName": [
+            "Maxim"
+          ],
+          "lastName": [
+            "Sorokin"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "I.M. Sechenov First Moscow State Medical University, Moscow, 119991, Russia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Omicsway Corp., Walnut, CA, 91789, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Moscow Institute of Physics and Technology, Dolgoprudny, Moscow Region, 141701, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Buzdin A"
+          ],
+          "firstName": [
+            "Anton"
+          ],
+          "lastName": [
+            "Buzdin"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "I.M. Sechenov First Moscow State Medical University, Moscow, 119991, Russia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Omicsway Corp., Walnut, CA, 91789, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Moscow Institute of Physics and Technology, Dolgoprudny, Moscow Region, 141701, Russia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Moscow, 117997, Russia."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "3126948"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Heliyon"
+          ],
+          "ISOAbbreviation": [
+            "Heliyon"
+          ],
+          "medlineAbbreviation": [
+            "Heliyon"
+          ],
+          "NLMid": [
+            "101672560"
+          ],
+          "ISSN": [
+            "2405-8440"
+          ],
+          "ESSN": [
+            "2405-8440"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "e06408"
+  ],
+  "abstractText": [
+    "DNA repair can prevent mutations and cancer development, but it can also restore damaged tumor cells after chemo and radiation therapy. We performed RNA sequencing on 95 human pathological thyroid biosamples including 17 follicular adenomas, 23 follicular cancers, 3 medullar cancers, 51 papillary cancers and 1 poorly differentiated cancer. The gene expression profiles are annotated here with the clinical and histological diagnoses and, for papillary cancers, with <i>BRAF</i> gene V600E mutation status. DNA repair molecular pathway analysis showed strongly upregulated pathway activation levels for most of the differential pathways in the papillary cancer and moderately upregulated pattern in the follicular cancer, when compared to the follicular adenomas. This was observed for the BRCA1, ATM, p53, excision repair, and mismatch repair pathways. This finding was validated using independent thyroid tumor expression dataset PRJEB11591. We also analyzed gene expression patterns linked with the radioiodine resistant thyroid tumors (n = 13) and identified 871 differential genes that according to Gene Ontology analysis formed two functional groups: (i) response to topologically incorrect protein and (ii) aldo-keto reductase (NADP) activity. We also found RNA sequencing reads for two hybrid transcripts: one in-frame fusion for well-known <i>NCOA4-RET</i> translocation, and another frameshift fusion of <i>ALK</i> oncogene with a new partner <i>ARHGAP12</i>. The latter could probably support increased expression of truncated <i>ALK</i> downstream from 4<sup>th</sup> exon out of 28. Both fusions were found in papillary thyroid cancers of follicular histologic subtype with node metastases, one of them (<i>NCOA4-RET</i>) for the radioactive iodine resistant tumor. The differences in DNA repair activation patterns may help to improve therapy of different thyroid cancer types under investigation and the data communicated may serve for finding additional markers of radioiodine resistance."
+  ],
+  "affiliation": [
+    "I.M. Sechenov First Moscow State Medical University, Moscow, 119991, Russia."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "DNA repair",
+        "systems biology",
+        "Thyroid cancer",
+        "Personalized Medicine",
+        "Papillary Thyroid Cancer",
+        "Rna Sequencing",
+        "Follicular Thyroid Adenoma",
+        "Molecular Biomarkers",
+        "Molecular Pathway Analysis",
+        "Radiation Iodine Therapy Resistance"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.heliyon.2021.e06408"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7970325"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7970325?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-22"
+  ],
+  "firstIndexDate": [
+    "2021-03-23"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-22"
+  ],
+  "dateOfRevision": [
+    "2021-03-23"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-13"
+  ],
+  "firstPublicationDate": [
+    "2021-03-13"
+  ]
+}

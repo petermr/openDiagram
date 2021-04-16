@@ -1,0 +1,8 @@
+0: Twelve samples (two genotypes  two tissues  three biological replicates) were sent to the Macrogen sequencing service (Seoul, Korea).
+1: Once in destination they were checked for total RNA integrity using a Bioanalyzer RNA Nano 6000 chip.
+2: All the samples qualified to proceed with the library construction having an RNA Integrity Number (RIN)  7.
+3: NGS transcriptomic libraries were constructed using a TruSeq Stranded mRNA LT Sample Prep Kit (Illumina).
+4: To verify the size of PCR enriched fragments, the template size distribution was checked on an Agilent Technologies 2100 Bioanalyzer using a DNA 1000 chip.
+5: The sequencing of libraries was performed as paired-end 101 bp reads on an Illumina HiSeq 2500 platform.
+6: The quality of the raw reads in the FastQ files was checked through FastQC 64 and were then trimmed for sequencing adaptor and low quality sequences using Trimmomatic 65 using ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:21 TRAILING:21 MINLEN:30 as parameters.
+7: For removing reads corresponding to remaining ribosomal RNA, trimmed reads were mapped to the rRNA reference using SortMeRNA 66 using -ref silva-bac-16s-id90.fasta --ref silva-bac-23s-id98.fasta --ref silva-euk-18 s-id95.fasta --ref silva-euk-28s-id98.fasta --paired_in --fastx --log -e 1e07 -a 4 -v as parameters.

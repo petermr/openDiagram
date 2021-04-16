@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="jpm-11-00138-f007" orientation="portrait" position="float">
+ <label>Figure 7</label>
+ <caption>
+  <p>GO enrichment analysis of individual regulons and their (
+   <bold>A</bold>). positively and (
+   <bold>B</bold>). negatively regulated targets. GO analysis was performed by clusterProfiler with an adjusted 
+   <italic>p</italic>-value &lt; 0.05. The gene ratio indicates the number of genes enriched with corresponding GO terms among the total gene number introduced into the enrichment analysis.
+  </p>
+ </caption>
+ <graphic xlink:href="jpm-11-00138-g007" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

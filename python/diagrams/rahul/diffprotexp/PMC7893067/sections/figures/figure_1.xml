@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Figure 1</label>
+ <caption>
+  <p>Characterization of the cytosol and nuclear transcriptomes. 
+   <bold>(A)</bold> Hierarchical clustering analysis of cerebellum (fetal), frontal cortex (fetal and adult) and SHSY-5 cytosolic and nuclear samples using DESeq2 rlog-normalized counts. The Euclidean distance values used for clustering are represented by a color code from brown (low correlation) to purple (maximum correlation). 
+   <bold>(B)</bold> Principal component analysis performed using the same rlog-normalized expression data. Contribution to variance for principal components, PC1 and PC2, are reported in the graph. 
+   <bold>(C)</bold> Expression means versus log
+   <sub>2</sub> fold changes (log
+   <sub>2</sub>FC) showing global (all tissues) cytosolic and nuclear expression differences for protein-coding, lncRNA and snoRNA genes. Each point with log
+   <sub>2</sub>FC &gt; 0 corresponds to cytosolic localization whereas log
+   <sub>2</sub>FC &lt; 0 corresponds to nuclear localization of the genes. 
+   <bold>(D)</bold> Violin plot of gene biotypes in 
+   <bold>(C)</bold> displays log
+   <sub>2</sub>FC (y-axis) distribution between cytosolic and nuclear fractions in all brain samples combined. White dots indicate mean, box edges represent the interquartile range, and the colored region and curve show the probability density function. Each group is composed of genes with log
+   <sub>10</sub> mean expression higher than one (M &gt; 1), and shown in similar colors as in 
+   <bold>(A)</bold>.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_83541_Fig1_HTML" id="MO1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

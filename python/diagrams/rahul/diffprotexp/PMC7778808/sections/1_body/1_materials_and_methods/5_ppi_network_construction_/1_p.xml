@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">STRING (Search Tool for the Retrieval of Interacting Genes, 
+ <ext-link ext-link-type="uri" xlink:href="https://string-db.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://string-db.org/</ext-link>) database [
+ <xref ref-type="bibr" rid="CR16">16</xref>] can construct protein-protein interaction network to evaluate functional genomics data. We used STRING online database to construct PPI network of DEGs, the obtained source files were imported into Cytoscape software for visual analysis and hub gene screening. Meanwhile, MCC algorithm was used to select the top 10 hub genes.
+</p>

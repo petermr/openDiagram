@@ -1,0 +1,7 @@
+0: MS analysis was performed on a Q Exactive Orbitrap (Thermo Scientific) coupled to an EASY-nLC1000 (Thermo Scientific) as previously described [ 41].
+1: Reversed-phase chromatographic separation was performed on a 75 m id.
+2: 100 mm, C18 HALO column, 2.7 m bead size, 160 A pore size.
+3: Samples were run on a linear gradient of 130% solvent B (99.9% acetonitrile/0.1% formic acid) over 170 minutes, with the Q Exactive operating in the data-dependent mode to automatically switch between Orbitrap MS and ion trap MS/MS acquisition.
+4: Survey full-scan MS spectra (from m/z 350 to 1850) were acquired with a resolution of 70,000 at m/z 400 and an automatic gain control target value of 1  10 6 ions.
+5: The top 10 most abundant ions were selected for higher-energy collisional dissociation (HCD) fragmentation, with the HCD normalized collision energy set to 35% and fragmentation ions detected in the Orbitrap at a resolution of 70,000.
+6: Dynamic exclusion of target ions selected for MS/MS was set to 90 seconds, and the lock mass option was enabled using the polydimethylcyclosiloxane ion (m/z 445.12003) as an internal calibrant.

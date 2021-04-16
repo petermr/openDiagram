@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The survival analysis for overall survival and disease-free survival is determined by generating Kaplan-Meier (KM) plot using the GEPIA server. It is a web server for analyzing the RNA sequencing expression data of 9,736 tumors and 8,587 normal samples from the TCGA and the GTEx projects (
+ <xref rid="B27" ref-type="bibr">Tang et al., 2017</xref>). On the other hand, the KM-plot for disease-specific and overall survival of these genes in the TCGA COAD dataset is performed using the UCSC Xena server.
+</p>

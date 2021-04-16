@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>“Target pathways” along with the p-values obtained from differential network analysis for each cancer type</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="2">Target Pathway</th>
+    <th colspan="3">Cancer Type</th>
+   </tr>
+   <tr>
+    <th>HNSC</th>
+    <th>LUAD</th>
+    <th>KIRC</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>RAS signaling pathway</td>
+    <td char="." align="char">0.026</td>
+    <td char="." align="char">0.507</td>
+    <td char="." align="char">0.156</td>
+   </tr>
+   <tr>
+    <td>MAPK signaling pathway</td>
+    <td char="." align="char">0.082</td>
+    <td char="." align="char">0.759</td>
+    <td char="." align="char">0.517</td>
+   </tr>
+   <tr>
+    <td>PI3K signaling pathway</td>
+    <td char="." align="char">0.241</td>
+    <td char="." align="char">0.013</td>
+    <td char="." align="char">0.774</td>
+   </tr>
+   <tr>
+    <td>Apoptosis</td>
+    <td char="." align="char">0.407</td>
+    <td char="." align="char">0.417</td>
+    <td char="." align="char">0.487</td>
+   </tr>
+   <tr>
+    <td>Cell Cycle</td>
+    <td char="." align="char">0.410</td>
+    <td char="." align="char">0.238</td>
+    <td char="." align="char">0.997</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

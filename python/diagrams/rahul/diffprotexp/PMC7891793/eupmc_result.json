@@ -1,0 +1,485 @@
+{
+  "id": [
+    "33600498"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33600498"
+  ],
+  "pmcid": [
+    "PMC7891793"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7891793"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1371/journal.pone.0246695"
+  ],
+  "title": [
+    "Analysis of lung transcriptome in calves infected with Bovine Respiratory Syncytial Virus and treated with antiviral and/or cyclooxygenase inhibitor."
+  ],
+  "authorString": [
+    "Lebedev M, McEligot HA, Mutua VN, Walsh P, Carvallo Chaigneau FR, Gershwin LJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lebedev M"
+          ],
+          "firstName": [
+            "Maxim"
+          ],
+          "lastName": [
+            "Lebedev"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3188-1595",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Microbiology and Immunology, School of Veterinary Medicine, University of California Davis, Davis, California, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "McEligot HA"
+          ],
+          "firstName": [
+            "Heather A"
+          ],
+          "lastName": [
+            "McEligot"
+          ],
+          "initials": [
+            "HA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Microbiology and Immunology, School of Veterinary Medicine, University of California Davis, Davis, California, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mutua VN"
+          ],
+          "firstName": [
+            "Victoria N"
+          ],
+          "lastName": [
+            "Mutua"
+          ],
+          "initials": [
+            "VN"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Microbiology and Immunology, School of Veterinary Medicine, University of California Davis, Davis, California, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Walsh P"
+          ],
+          "firstName": [
+            "Paul"
+          ],
+          "lastName": [
+            "Walsh"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Pediatric Emergency Medicine, Sutter Medical Center Sacramento, Sacramento, California, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Carvallo Chaigneau FR"
+          ],
+          "firstName": [
+            "Francisco R"
+          ],
+          "lastName": [
+            "Carvallo Chaigneau"
+          ],
+          "initials": [
+            "FR"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biomedical Sciences & Pathobiology, Virginia-Maryland College of Veterinary Medicine, Virginia Tech., Blacksburg, VA, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gershwin LJ"
+          ],
+          "firstName": [
+            "Laurel J"
+          ],
+          "lastName": [
+            "Gershwin"
+          ],
+          "initials": [
+            "LJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4961-9210",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Microbiology and Immunology, School of Veterinary Medicine, University of California Davis, Davis, California, United States of America."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3188-1595",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4961-9210",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "3103698"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS One"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "e0246695"
+  ],
+  "abstractText": [
+    "Bovine Respiratory Syncytial virus (BRSV) is one of the major infectious agents in the etiology of the bovine respiratory disease complex. BRSV causes a respiratory syndrome in calves, which is associated with severe bronchiolitis. In this study we describe the effect of treatment with antiviral fusion protein inhibitor (FPI) and ibuprofen, on gene expression in lung tissue of calves infected with BRSV. Calves infected with BRSV are an excellent model of human RSV in infants: we hypothesized that FPI in combination with ibuprofen would provide the best therapeutic intervention for both species. The following experimental treatment groups of BRSV infected calves were used: 1) ibuprofen day 3-10, 2) ibuprofen day 5-10, 3) placebo, 4) FPI day 5-10, 5) FPI and ibuprofen day 5-10, 6) FPI and ibuprofen day 3-10. All calves were infected with BRSV on day 0. Daily clinical evaluation with monitoring of virus shedding by qRT-PCR was conducted. On day10 lung tissue with lesions (LL) and non-lesional (LN) was collected at necropsy, total RNA extracted, and RNA sequencing performed. Differential gene expression analysis was conducted with Gene ontology (GO) and KEGG pathway enrichment analysis. The most significant differential gene expression in BRSV infected lung tissues was observed in the comparison of LL with LN; oxidative stress and cell damage was especially noticeable. Innate and adaptive immune functions were reduced in LL. As expected, combined treatment with FPI and Ibuprofen, when started early, made the most difference in gene expression patterns in comparison with placebo, especially in pathways related to the innate and adaptive immune response in both LL and LN. Ibuprofen, when used alone, negatively affected the antiviral response and caused higher virus loads as shown by increased viral shedding. In contrast, when used with FPI Ibuprofen enhanced the specific antiviral effect of FPI, due to its ability to reduce the damaging effect of prostanoids and oxidative stress."
+  ],
+  "affiliation": [
+    "Department of Pathology, Microbiology and Immunology, School of Veterinary Medicine, University of California Davis, Davis, California, United States of America."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "S10 OD010786"
+          ],
+          "agency": [
+            "NIH HHS"
+          ],
+          "acronym": [
+            "OD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "T32 OD011147"
+          ],
+          "agency": [
+            "NIH HHS"
+          ],
+          "acronym": [
+            "OD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0246695"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7891793"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7891793?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "go"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-18"
+  ],
+  "firstIndexDate": [
+    "2021-02-20"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-03"
+  ],
+  "dateOfRevision": [
+    "2021-03-04"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-18"
+  ],
+  "firstPublicationDate": [
+    "2021-02-18"
+  ]
+}

@@ -1,0 +1,3 @@
+0: Gene set enrichment analysis (GSEA) was performed on the normalized RNA-Seq data, which was obtained from TCGA database [ 22].
+1: The gene ontology (GO) terms and the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways were used to investigate the possible biological functions of TUBA1C.
+2: A false discovery rate (FDR) < 0.050 and a nominal P < 0.050 were considered to be statistically significant.

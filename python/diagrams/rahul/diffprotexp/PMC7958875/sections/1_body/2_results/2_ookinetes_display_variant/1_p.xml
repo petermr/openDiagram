@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Above, we identify differences in ookinete gene expression based on the species of mosquito from which the ookinetes were sampled. We next addressed whether ookinetes exhibit differences in gene expression when infecting different mosquito individuals all from the same mosquito species. Here, we used the 
+ <italic>Pb single-gut data set</italic> comprising 310 
+ <italic>P. berghei</italic> single-cell transcriptomes that were collected from four individual 
+ <italic>An. stephensi</italic> midgut boli 24 h after infection. Initial t-SNE analysis did not reveal any clustering of cells based on midgut origin (
+ <xref ref-type="fig" rid="f2">
+  <bold>Figure 2A</bold>
+ </xref>) suggesting that ookinetes tend to display overall largely consistent gene expression between different mosquito individuals from the same species. To further investigate more subtle patterns of expression differences, we staged the ookinetes using the Malaria Cell Atlas data (
+ <xref rid="B17" ref-type="bibr">Howick et al., 2019</xref>) as a reference index for scmap (
+ <xref rid="B24" ref-type="bibr">Kiselev et al., 2018</xref>). 86% of cells mapped to ookinetes (
+ <xref ref-type="fig" rid="f2">
+  <bold>Figure 2B</bold>
+ </xref>), suggesting a much more homogenous population of parasites compared to the 
+ <italic>Pb vector species data set</italic>. Additional comparison of the two data sets with PCA confirmed the vast majority of single-gut ookinetes overlap with cluster 1 from the 
+ <italic>vector species data set</italic> (
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S5</bold>
+ </xref>). Cells that mapped to asexual stages (trophozoites and schizonts) were removed from further analyses (
+ <xref ref-type="fig" rid="f2">
+  <bold>Figure 2B</bold>
+ </xref>). We next assigned a pseudotime value to each cell based on the scmap assignment and found that there were no differences in developmental timing of the parasites across the four mosquito individuals (ANOVA: 
+ <italic>p</italic> &gt; 0.05, 
+ <xref ref-type="fig" rid="f2">
+  <bold>Figures 2C, D</bold>
+ </xref>). We subsetted the most mature ookinetes based on the pseudotime distribution to use for further analysis (
+ <xref ref-type="fig" rid="f2">
+  <bold>Figures 2D, E</bold>
+ </xref>). Although the financial cost associated with single-cell RNA-seq limited our study to only four mosquitoes, each individual yielded more than 50 high-quality transcriptomes from mature ookinetes allowing us to understand patterns of variability both within and between vector hosts.
+</p>

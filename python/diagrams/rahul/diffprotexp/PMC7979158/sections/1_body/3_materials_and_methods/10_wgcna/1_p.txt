@@ -1,0 +1,14 @@
+0: We used the WGCNA R package, version 1.66 ( Langfelder and Horvath, 2012;  Langfelder and Horvath, 2008) to construct signed co-expression networks using the entire dataset containing 24,015 genes.
+1: After the network construction, the gene set was filtered for minimal gene expression at an RPKM value of 0.25 or higher in at least two sample, resulting in a dataset consisting 17,195 genes.
+2: A correlation matrix using the biweight midcorrelation between all genes was computed for all relevant samples.
+3: The soft thresholding power was estimated and used to derive an adjacency matrix exhibiting approximate scale-free topology ( R2 >0.85).
+4: The adjacency matrix was transformed to a topological overlap matrix (TOM).
+5: The matrix 1-TOM was used as the input to calculate co-expression modules using hierarchical clustering.
+6: Modules were branches of the hierarchical cluster tree base, with minimum module size set to 10 genes.
+7: Pearsons correlation coefficients were used to calculate correlation between sample traits (e.g., sex, treatment) and modules.
+8: The expression profile of a given module was summarized by the module eigengene (ME).
+9: Modules with highly correlated MEs (correlation >0.80) were merged together.
+10: The module connectivity (kME) of each gene was calculated by correlating the gene expression profile with module eigengenes.
+11: The module connectivity (kME) of each gene was calculated by correlating the gene expression profile with module eigengenes.
+12: Genes with no network correlation were placed into the module Grey.
+13: Following manual data inspection further highly correlated modules were merged: BrRePi: Brown, Red, and Pink, YeMaBl: Yellow, Magenta, and Black.

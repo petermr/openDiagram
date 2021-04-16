@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>List of antibodies used for immunohistochemistry</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Antibody</th>
+    <th align="center">Dilution</th>
+    <th align="center">Manufacturer</th>
+    <th align="center">Catalog #</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Rabbit anti-GluN2A</td>
+    <td align="center">1:2000</td>
+    <td align="left">Alomone Labs</td>
+    <td align="center">ACG-002</td>
+   </tr>
+   <tr>
+    <td align="left">Rabbit anti-GluN2B</td>
+    <td align="center">1:1000</td>
+    <td align="left">Alomone Labs</td>
+    <td align="center">ACG-003</td>
+   </tr>
+   <tr>
+    <td align="left">Rabbit anti-GluN2D</td>
+    <td align="center">1:1000</td>
+    <td align="left">Alomone Labs</td>
+    <td align="center">ACG-020</td>
+   </tr>
+   <tr>
+    <td align="left">Mouse anti-CGRP</td>
+    <td align="center">1:5000</td>
+    <td align="left">Sigma-Aldrich</td>
+    <td align="center">C-7113</td>
+   </tr>
+   <tr>
+    <td align="left">Goat anti-mouse IgG (H + L) AlexaFluor647</td>
+    <td align="center">1:1000</td>
+    <td align="left">ThermoFisher
+     <break/>Scientific
+    </td>
+    <td align="center">A-21235</td>
+   </tr>
+   <tr>
+    <td align="left">Goat anti-rabbit IgG (H + L) HRP</td>
+    <td align="center">1:500</td>
+    <td align="left">Jackson ImmunoResearch Laboratories</td>
+    <td align="center">111–035-003</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

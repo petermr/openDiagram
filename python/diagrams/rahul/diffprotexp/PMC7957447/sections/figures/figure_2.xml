@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Fig. 2</label>
+ <caption>
+  <p>Transcriptome features of phase transition between Cluster 1 and Cluster 2. 
+   <bold>a</bold> Left, PCA map for transcriptomics of 113 samples; right, the percentage of terminal status in each cluster. Dots represent samples. Three colors represent three clusters. Round, triangle, and square shapes represent patients’ terminal status. 
+   <bold>b</bold> Longitudinal distribution of samples in colors of clusters. 113 transcriptomic data were represented at time-points. Scatter plot shows the RNA sample collection time with dots colored by clusters. Red box-shadow represents Cluster 1-to-2 transition. Blue box-shadow represents Cluster 2-to-1 transition. 
+   <bold>c</bold> Heatmap of differential expression genes (logFC &gt; 1) between Cluster 1 and Cluster 2. 
+   <bold>d</bold> Soft clustering of longitudinal gene dynamics in six patients containing Cluster 1-to-2 transition (FDR &lt; 0.05). Each patient is individually analyzed by using mfuzz. X-axis represents the sampling time. 
+   <bold>e</bold> Validation of differential expressed gene from Cluster 1-to-2 by using Cluster 2-to-1 transcriptome data. Color represents the patient id. 85.2% up-regulated genes and 99.2% down-regulated genes show reversed expression levels. 
+   <bold>f</bold> GO terms and KEGG pathways for differentially expressed genes between Cluster 1 and Cluster 2. Top 3 terms and pathways are displayed. The size of dots denotes the -log
+   <sub>10</sub> of the p-value, the color denotes the expression level
+  </p>
+ </caption>
+ <graphic xlink:href="40635_2021_373_Fig2_HTML" id="MO2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

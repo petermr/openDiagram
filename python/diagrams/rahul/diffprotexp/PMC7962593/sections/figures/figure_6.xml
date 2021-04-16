@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0006" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 6</label>
+ <caption>
+  <p>Identification of potential diagnostic genes for sepsis. (
+   <bold>A</bold>) PPI network of common genes (top 100 with highest degree of connection). Darker color indicates higher degree of connectivity. (
+   <bold>B</bold>) Heatmap of the top 100 genes based on degree of connectivity in the PPI network. Data from sepsis patients are shown in yellow; sepsis shock patients, green; and controls, brown. (
+   <bold>C</bold>) Genes with areas under the receiver operating characteristic curve (AUCs) greater than 0.9 in GSE13904 (children) and GSE154918 (adults). Red represents genes with up-regulated expression in sepsis; blue, genes with down-regulated expression. The lengths of the bars represent the mean AUC values of the genes. (
+   <bold>D</bold>) Differential expression of key genes between sepsis patients and controls. Red nodes represent genes with up-regulated expression in sepsis; blue nodes, genes with down-regulated expression; grey nodes, no significant difference from controls. (
+   <bold>E</bold>) Correlation between key genes and immune infiltrating cells, based on Pearson correlation analysis. Red nodes represent positive correlations; blue nodes, negative correlations. *
+   <italic>P</italic> &lt; 0.05, **
+   <italic>P</italic> &lt; 0.01.
+  </p>
+ </caption>
+ <graphic content-type="print-only" xlink:href="JIR-14-829-g0006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

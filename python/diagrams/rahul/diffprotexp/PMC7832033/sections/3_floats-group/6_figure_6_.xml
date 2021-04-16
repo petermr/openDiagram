@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F0006" orientation="portrait" position="float">
+ <label>Figure 6.</label>
+ <caption>
+  <p>Area under the receiver operating characteristic curve (AUROCC) of DEGs in discrimination among non-survivors, survivors and healthy controls. (A) AUROCC of 10 DEGs between non-survivors versus survivors. (B) AUROCC of 10 DEGs between non-survivors versus healthy controls. (C) AUROCC of 10 DEGs between survivors versus healthy controls. (D). Random Forest model of a combined gene signature discriminates survivors and non-survivors. The 12 genes which individually discriminated clinical groups with AUROCC &gt; 0.80 in qRT-PCR were combined to create a single model, which was used to classify the separation between survivors (S), non-survivors (NS) and healthy controls (HC) in the qRT-PCR dataset.</p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="TEMI_A_1858176_F0006_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="TEMI_A_1858176_F0006_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

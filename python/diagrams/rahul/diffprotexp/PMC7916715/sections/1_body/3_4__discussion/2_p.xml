@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our research contributes to this effort. Our initial attempt in the characterization of DEGs relative to CNTN1 overexpression in LNCaP cells led to the identification of an enriched gene set: CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_3. The enrichment analysis was performed using a recently-developed FGSEA platform (
+ <uri xlink:href="https://www.biorxiv.org/content/10.1101/060012v2.full" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.biorxiv.org/content/10.1101/060012v2.full</uri> accessed on 19 December 2020), a system similar to the most popular GSEA system developed by the Broad Institute [
+ <xref rid="B45-genes-12-00257" ref-type="bibr">45</xref>]. However, gene set enrichment analysis is understandably associated with numerous limitations, including the lack of gold standard dataset to capture the complex nature of gene expression, a single-gene analysis method (the most popular one), and others [
+ <xref rid="B62-genes-12-00257" ref-type="bibr">62</xref>,
+ <xref rid="B63-genes-12-00257" ref-type="bibr">63</xref>]. This study has additional limitations. The functionality of CNTN1 in CRPC development in vitro and in vivo needs to be investigated; some LE genes display differential expression in PC vs. normal prostate tissues (
+ <xref ref-type="fig" rid="genes-12-00257-f003">Figure 3</xref>A), mPCs vs. local PCs (
+ <xref ref-type="fig" rid="genes-12-00257-f003">Figure 3</xref>B), TMPRSS2-ERG+ vs.TMPRSS2-ERG+ (
+ <xref ref-type="fig" rid="genes-12-00257-f004">Figure 4</xref>), as well as following a course of disease progression (
+ <xref ref-type="fig" rid="genes-12-00257-f005">Figure 5</xref>). While these LE genes have a relationship with CNTN1 (
+ <xref ref-type="fig" rid="genes-12-00257-f002">Figure 2</xref>A), CNTN1 mRNA expression is complex. The curated GEO GDS2546 dataset used to examine LE gene expression following a PC course (
+ <xref ref-type="fig" rid="genes-12-00257-f005">Figure 5</xref>) did not support a similar analysis on CNTN1 mRNA. While CNTN1 mRNA expression is significantly increased in TMPRSS2-ERG+ PCs compared to the negative counterparts, its mRNA expression is reduced in PCs vs. prostate tissues and mPCs vs. local PCs. These analyses may present a mixed message regarding CNTN1′s association with PC progression. Nonetheless, mRNA expression status is not equivalent to gene’s physiological roles mediated by proteins. For instance, whilst CNTN1 mRNA expression does not correlate with PC recurrence, its protein expression was reported to associate with PC relapse [
+ <xref rid="B34-genes-12-00257" ref-type="bibr">34</xref>]. Importantly, CNTN1 promotes PC metastasis [
+ <xref rid="B34-genes-12-00257" ref-type="bibr">34</xref>]. CNTN1-facilitated PC progression was also observed by others [
+ <xref rid="B35-genes-12-00257" ref-type="bibr">35</xref>]. Despite a complex relationship between CNTN1 and the LE genes, our analyses nonetheless clearly reveal the novel and robust prognostic biomarker potentials of LE genes not only in PC but also in other cancer types.
+</p>

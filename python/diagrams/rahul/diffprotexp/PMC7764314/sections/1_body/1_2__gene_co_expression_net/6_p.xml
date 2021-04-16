@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>However, gene and protein networks provide a static snapshot of molecular interactions within a tissue, while biological systems are highly dynamic. Perturbations caused by evolutionary changes, disease, environmental stresses and oncogene activation result in rewiring the network’s topology [
+ <xref rid="B30-ijms-21-09461" ref-type="bibr">30</xref>,
+ <xref rid="B31-ijms-21-09461" ref-type="bibr">31</xref>]. A simple example of changes in co-expression is Max, a transcription factor, which acts either as an activator or a suppressor on the same target genes depending on whether it binds to Myc or Mad [
+ <xref rid="B32-ijms-21-09461" ref-type="bibr">32</xref>]. Accordingly, Max expression exhibits either positive or negative correlation with its targets depending on the conditions. The study of such changes can give valuable insights on disease mechanisms and altered pathways [
+ <xref rid="B33-ijms-21-09461" ref-type="bibr">33</xref>], providing information on those weakly differentially expressed genes that are regulated at a different level [
+ <xref rid="B34-ijms-21-09461" ref-type="bibr">34</xref>]. In fact, several reports confirmed that differentially expressed and differentially co-expressed (DC) genes tend not to overlap, and hence reflect distinct regulatory processes [
+ <xref rid="B35-ijms-21-09461" ref-type="bibr">35</xref>]. Additionally, the differential expression of genes with low levels of expression, such as TFs, might be difficult to retrieve, while it could be evidenced by the coherent change in co-regulation of a group of its targets, identified as a DC module. These motivations led to the definition of several methods for differential co-expression analysis, aimed at identifying changes in networks’ structure across conditions [
+ <xref rid="B36-ijms-21-09461" ref-type="bibr">36</xref>]. Similarly, differential network methods have been successfully applied to other types of molecular network models, including genetic interaction networks [
+ <xref rid="B37-ijms-21-09461" ref-type="bibr">37</xref>] and PPI networks [
+ <xref rid="B38-ijms-21-09461" ref-type="bibr">38</xref>].
+</p>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Esteves</surname>
+   <given-names>A. R.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Cardoso</surname>
+   <given-names>S. M.</given-names>
+  </name>
+  <address>
+   <email>cardoso.sandra.m@gmail.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0000 9511 4342</institution-id>
+   <institution-id institution-id-type="GRID">grid.8051.c</institution-id>
+   <institution>CNC–Center for Neuroscience and Cell Biology, </institution>
+   <institution>University of Coimbra, </institution>
+  </institution-wrap>Largo Marquês de Pombal, 3004-517 Coimbra, Portugal 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0000 9511 4342</institution-id>
+   <institution-id institution-id-type="GRID">grid.8051.c</institution-id>
+   <institution>CIBB-Centre for Innovative Biomedicine and Biotechnology, </institution>
+   <institution>University of Coimbra, </institution>
+  </institution-wrap>Coimbra, Portugal 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0000 9511 4342</institution-id>
+   <institution-id institution-id-type="GRID">grid.8051.c</institution-id>
+   <institution>Institute of Cellular and Molecular Biology, Faculty of Medicine, </institution>
+   <institution>University of Coimbra, </institution>
+  </institution-wrap>Coimbra, Portugal 
+ </aff>
+</contrib-group>

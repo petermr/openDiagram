@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="ijms-21-09461-t003" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">ijms-21-09461-t003_Table 3</object-id>
+ <label>Table 3</label>
+ <caption>
+  <p>“Module-based” methods.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <bold>Method</bold>
+    </td>
+    <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <bold>Module Definition</bold>
+    </td>
+    <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <bold># of Conditions</bold>
+    </td>
+    <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <bold>Citation</bold>
+    </td>
+    <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <bold>Availability</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DICER</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Multiple</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B63-ijms-21-09461" ref-type="bibr">63</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Bioconductor R package (dcanr)
+     <break/>Java software at 
+     <break/>
+     <uri xlink:href="http://acgt.cs.tau.ac.il/dicer/" xmlns:xlink="http://www.w3.org/1999/xlink">http://acgt.cs.tau.ac.il/dicer/</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DiffCoEx</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Multiple</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B64-ijms-21-09461" ref-type="bibr">64</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package at 
+     <break/>
+     <uri xlink:href="https://github.com/ddeweerd/MODifieRDev.git" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/ddeweerd/MODifieRDev.git</uri>
+     <break/>Bioconductor R package (dcanr)
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">M-Modules</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Multiple</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B65-ijms-21-09461" ref-type="bibr">65</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">NIPD</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Multiple</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B66-ijms-21-09461" ref-type="bibr">66</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">C3D</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Multiple</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B67-ijms-21-09461" ref-type="bibr">67</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CoXpress</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B68-ijms-21-09461" ref-type="bibr">68</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package at 
+     <uri xlink:href="http://coxpress.sourceforge.net/" xmlns:xlink="http://www.w3.org/1999/xlink">http://coxpress.sourceforge.net/</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DiffCorr</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B69-ijms-21-09461" ref-type="bibr">69</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CRAN R package (DiffCorr)</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ModMap</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B70-ijms-21-09461" ref-type="bibr">70</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Java executable at
+     <break/>
+     <uri xlink:href="http://acgt.cs.tau.ac.il/modmap/" xmlns:xlink="http://www.w3.org/1999/xlink">http://acgt.cs.tau.ac.il/modmap/</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ALPACA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B71-ijms-21-09461" ref-type="bibr">71</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package at 
+     <break/>
+     <uri xlink:href="https://github.com/meghapadi/ALPACA" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/meghapadi/ALPACA</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">BFDCA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B59-ijms-21-09461" ref-type="bibr">59</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package at 
+     <break/>
+     <uri xlink:href="http://dx.doi.org/10.17632/jdz4vtvnm3.1" xmlns:xlink="http://www.w3.org/1999/xlink">http://dx.doi.org/10.17632/jdz4vtvnm3.1</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DiffCoMO</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B72-ijms-21-09461" ref-type="bibr">72</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">SCDA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B73-ijms-21-09461" ref-type="bibr">73</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">MATLAB implementation at 
+     <break/>
+     <uri xlink:href="http://vk.cs.umn.edu/SDC/" xmlns:xlink="http://www.w3.org/1999/xlink">http://vk.cs.umn.edu/SDC/</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CODC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B60-ijms-21-09461" ref-type="bibr">60</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package at 
+     <break/>
+     <uri xlink:href="https://github.com/Snehalikalall/CODC" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/Snehalikalall/CODC</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">EgoNet</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B74-ijms-21-09461" ref-type="bibr">74</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">BicMix</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B75-ijms-21-09461" ref-type="bibr">75</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package at 
+     <break/>
+     <uri xlink:href="https://github.com/chuangao/BicMix" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/chuangao/BicMix</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">MODA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B76-ijms-21-09461" ref-type="bibr">76</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Bioconductor R package (MODA)</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">COSINE</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B77-ijms-21-09461" ref-type="bibr">77</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CRAN R package (COSINE)</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DECluster</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B78-ijms-21-09461" ref-type="bibr">78</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DEDC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B79-ijms-21-09461" ref-type="bibr">79</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DCN</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B57-ijms-21-09461" ref-type="bibr">57</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package at 
+     <break/>
+     <uri xlink:href="https://github.com/weiliu123/DCN-package" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/weiliu123/DCN-package</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Contrast Subgraph</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B80-ijms-21-09461" ref-type="bibr">80</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DCIM</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unbiased</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">De novo</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B81-ijms-21-09461" ref-type="bibr">81</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GSCA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">A priori</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B82-ijms-21-09461" ref-type="bibr">82</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Bioconductor R package (GSCA)</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ScorePAGE</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">A priori</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B83-ijms-21-09461" ref-type="bibr">83</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IB-GSA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">A priori</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B84-ijms-21-09461" ref-type="bibr">84</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Gill</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">A priori</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B48-ijms-21-09461" ref-type="bibr">48</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package at 
+     <break/>
+     <uri xlink:href="http://www.somnathdatta.org/Supp/DNA" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.somnathdatta.org/Supp/DNA</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CoGa</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">A priori</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B85-ijms-21-09461" ref-type="bibr">85</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">dCoxS</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">A priori pairs of gene sets</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B86-ijms-21-09461" ref-type="bibr">86</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R function at 
+     <break/>
+     <uri xlink:href="http://www.snubi.org/publication/dCoxS/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.snubi.org/publication/dCoxS/</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">MAGIC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">A priori pairs of gene sets</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B44-ijms-21-09461" ref-type="bibr">44</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Bioconductor R package (dcanr)
+     <break/>MATLAB implementation at 
+     <break/>
+     <uri xlink:href="https://github.com/chiuyc/MAGIC" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/chiuyc/MAGIC</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ESEA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Structured pathway</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B87-ijms-21-09461" ref-type="bibr">87</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package on CRAN (ESEA)</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">PWEA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Structured pathway</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B88-ijms-21-09461" ref-type="bibr">88</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">R package on Bioconductor (ToPASeq)</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">KEDDY</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Structured pathway</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B89-ijms-21-09461" ref-type="bibr">89</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Java implementation at
+     <break/>
+     <uri xlink:href="https://sites.google.com/site/sjunggsm/keddy" xmlns:xlink="http://www.w3.org/1999/xlink">https://sites.google.com/site/sjunggsm/keddy</uri>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">kDDN</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Structured pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[
+     <xref rid="B90-ijms-21-09461" ref-type="bibr">90</xref>]
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MATLAB implementation at
+     <break/>
+     <uri xlink:href="http://www.cbil.ece.vt.edu/software.htm" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.cbil.ece.vt.edu/software.htm</uri>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par36">Based on the Search Tool for the Retrieval of Interacting Genes/Proteins (STRING) database, protein-protein interaction (PPI) networks were constructed using Cytoscape and the plug-ins cytoHubba and ClusterONE were used to identify important DEGs (i.e., potential hub genes) and subnetworks, respectively. For the DEGs in the HYPO, a network with 419 nodes and 787 edges was obtained (PPI enrichment: 
+ <italic>p</italic> &lt; 0.001) and 10 potential hub genes were identified, including up-regulated DEGs in aggression-related GO terms, like brain-derived neurotrophic factor (BDNF, 
+ <italic>n</italic> = 31 degrees) and neurexin-1 (NRXN1, 
+ <italic>n</italic> = 19), as well as important signaling genes, like glutamate metabotropic receptor 2 (GRM2, 
+ <italic>n</italic> = 17) and adenylate cyclase 2 (ADCY2, 
+ <italic>n</italic> = 16) (Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>a). Within the larger network, one subnetwork was identified containing 14 nodes (density = 0.66, 
+ <italic>p</italic> &lt; 0.001; Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>b). The GO processes enriched with the greatest number of DEGs in this subnetwork included G-protein-coupled receptor signaling (GPCR), neuropeptide signaling, regulation of hormone levels, and behavior (Supplementary Table S3, Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>). A network with 13 nodes and 2 edges was obtained in the TnA, but it was not significant (PPI enrichment: 
+ <italic>p</italic> = 0.274). 
+</p>

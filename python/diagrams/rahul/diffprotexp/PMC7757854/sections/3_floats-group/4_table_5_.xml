@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0005" orientation="portrait" position="float">
+ <label>Table 5.</label>
+ <caption>
+  <p>List of DEGs observed gene interaction network of 
+   <italic>Cebpb</italic> at MEFD3plu/MEFD3min highlighting interaction type, expression fold change (*) and its significance (**), and significance of interaction (***)
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">
+     <underline>Gene</underline>
+    </th>
+    <th align="center">
+     <underline>Interactor Type</underline>
+    </th>
+    <th align="center">
+     <underline>log2FC*</underline>
+    </th>
+    <th align="center">
+     <italic toggle="yes">
+      <underline>p</underline>
+     </italic>
+     <underline>-adj**</underline>
+    </th>
+    <th align="center">
+     <italic toggle="yes">
+      <underline>p</underline>
+     </italic>
+     <underline>-value***</underline>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Gsk3b</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.335455</td>
+    <td align="center">0.032383</td>
+    <td align="center">0.013407</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rnf41</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.54613</td>
+    <td align="center">5.60E-10</td>
+    <td align="center">8.27E-11</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cebpa</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">4.814115</td>
+    <td align="center">1.00E-217</td>
+    <td align="center">1.77E-220</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cebpb</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">2.580638</td>
+    <td align="center">2.81E-74</td>
+    <td align="center">4.55E-76</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Mapk14</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.916537</td>
+    <td align="center">5.96E-16</td>
+    <td align="center">5.79E-17</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Zbtb7b</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.591735</td>
+    <td align="center">2.56E-10</td>
+    <td align="center">3.65E-11</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Med1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">0.428216</td>
+    <td align="center">1.34E-04</td>
+    <td align="center">3.47E-05</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ptges2</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.653227</td>
+    <td align="center">4.54E-71</td>
+    <td align="center">7.80E-73</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Hdac1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.23125</td>
+    <td align="center">0.022799</td>
+    <td align="center">0.009052</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Rb1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">1.303186</td>
+    <td align="center">1.01E-20</td>
+    <td align="center">7.64E-22</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Runx1t1</italic>
+    </td>
+    <td align="center">protein</td>
+    <td align="center">−0.9588</td>
+    <td align="center">3.32E-10</td>
+    <td align="center">4.78E-11</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

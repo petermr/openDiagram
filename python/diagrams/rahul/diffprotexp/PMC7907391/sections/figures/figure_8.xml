@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig8">
+ <label>Figure 8</label>
+ <caption>
+  <p>Functional analysis of downregulated genes during chemotherapy and COVID-19. Functional analysis using Cytoscape ClueGo App
+   <sup>
+    <xref ref-type="bibr" rid="CR57">57</xref>–
+    <xref ref-type="bibr" rid="CR59">59</xref>
+   </sup> was performed on genes differentially downregulated by peripheral mononuclear blood cells that are shared between chemotherapy treatment (GSE39324) and COVID-19
+   <sup>
+    <xref ref-type="bibr" rid="CR35">35</xref>
+   </sup>. The response to cyclophosphamide was analyzed in one patient with T-cell prolymphocytic leukemia, one patient with plasma cell leukemia, and eight patients with multiple myeloma (as in Fig. 
+   <xref rid="Fig7" ref-type="fig">7</xref>). (
+   <bold>a</bold>) Network of functional groups derived from ClueGO enrichment analysis. There were 16 functional groups derived by Kappa statistics. The leading functional term for each group, defined by the term with the lowest adjusted p-value (Bonferonni step down method) within each cluster is coloured in bold. An overall q-value threshold of &lt; 0.05 was used. Nodes are coloured by functional group, and the size of nodes are proportional to q-value. (
+   <bold>b</bold>) Bar chart of functional groups derived from ClueGO enrichment analysis. Terms are ordered by q-value, which is also presented on the upper y-axis. The q-value for each term is marked with a black circle. The lower x-axis defines the number of genes within each functional term. Terms are coloured by group and the group is labelled to the right of each bar for clarity. The bar chart is also separated into 2 facets: GO Biological Process (top) and KEGG (bottom).
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_83366_Fig8a_HTML" id="MO9" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <graphic xlink:href="41598_2021_83366_Fig8b_HTML" id="MO10" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

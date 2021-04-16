@@ -1,0 +1,3 @@
+0: Initial quality control was performed using FastQC ( http://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
+1: To ensure accurate AS and IR quantification, when necessary datasets were combined to ensure a minimum depth of 40M paired-end reads.
+2: One amygdala sample (SRR2229946) was discarded from this analysis, as it appeared to be a distinct outlier in preliminary analysis by PCA.

@@ -1,0 +1,5 @@
+0: One microgram of purified RNA was used as starting material for qRT-PCR assay.
+1: cDNA synthesis was performed according to Agilent High Specificity 1st strand cDNA synthesis protocol.
+2: The assay was performed in Stratagene Mx3005P using Eva Green relative quantification (BioRad) according to manufacturers protocol.
+3: Data calculation was done using Delta Ct method 31.
+4: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \begin{gathered} {\text{Fold change of target gene}} = 2^{{ - \Delta \Delta^{\text{CT}}}} \hfill \\ \Delta {\text{CT }} = {\text{CT }}\left( {{\text{a target gene}}} \right) - {\text{CT }}\left( {{\text{a reference gene}}} \right) \hfill \\ \end{gathered} $$\end{document}Fold change of target gene=2-CTCT=CTa target gene-CTa reference gene

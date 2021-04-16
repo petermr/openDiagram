@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">Gene Expression Profiling Interactive Analysis (GEPIA; 
+ <ext-link ext-link-type="uri" xlink:href="http://gepia.cancer-pku.cn/" xmlns:xlink="http://www.w3.org/1999/xlink">http://gepia.cancer-pku.cn/</ext-link>) is an online analysis tool based on TCGA and the Genotype-Tissue Expression (GTEx) dataset [
+ <xref ref-type="bibr" rid="CR20">20</xref>]. Differential expression boxplot in GEPIA was used to compare the expression levels of genes between tumor samples and normal samples. The Human Protein Atlas (THPA; 
+ <ext-link ext-link-type="uri" xlink:href="https://www.proteinatlas.org" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.proteinatlas.org</ext-link>) is a database that provides immunohistochemistry-based maps of human protein profiles for cancer tissues and normal tissues and cells [
+ <xref ref-type="bibr" rid="CR21">21</xref>]. We obtained immunohistochemistry images and data from this database to validate gene expression at the protein level. Staining intensity was evaluated as follows: no staining, 0; low staining, 1; medium staining, 2; high staining, 3. Staining quantity was scored as follows: none, 0; &lt; 25%, 1; 25–50%, 2; 51–75%, 3; &gt; 75%, 4. The total staining score was calculated by multiplying these two scores. Differences in the total staining scores between normal and CRC tissues were evaluated using the unpaired t-test. 
+ <italic>P</italic> &lt; 0.05 was considered statistically significant.
+</p>

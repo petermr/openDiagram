@@ -1,0 +1,3 @@
+0: The online tool DIANA-LncBase version 3 ( http://www.microrna.gr/LncBase) [ 14] was used to predict the potential miRNAs targeted by DElncRNAs and determine lncRNAmiRNA interaction pairs.
+1: MiRDB ( http://www.mirdb.org/) [ 15], miRTarBase ( http://mirtarbase.mbc.nctu.edu.tw/) [ 16], and TargetScan ( http://www.targetscan.org/) [ 17] databases were used to predict the target genes of DEmiRNAs and miRNAmRNA interaction pairs.
+2: The R package VennDiagram was used to compare the target genes with the DEmRNAs to obtain overlapping genes.

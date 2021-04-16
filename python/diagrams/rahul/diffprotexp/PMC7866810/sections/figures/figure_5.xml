@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="ijms-22-01399-f005" orientation="portrait" position="float">
+ <label>Figure 5</label>
+ <caption>
+  <p>Discovery and exploration of the patterns in gene expression across the clusters, ordered from right to left based on pseudo-time ordering. The log10 gene expression values are shown on the vertical axis. Generalized additive mode smoothing is used to smooth the expression values per gene. (
+   <bold>a</bold>) Gene expression profiling of the Golgi fragmentation gene list (97 genes). (
+   <bold>b</bold>) Gene expression profiling of the EM gene list (20 genes).
+  </p>
+ </caption>
+ <graphic xlink:href="ijms-22-01399-g005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

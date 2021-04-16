@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Comparative genomics</italic>. Sequence analyses were performed on the University of Dundee High Performance Computing Cluster. Predicted peptide sequences of selected genes encoding nuclear envelope proteins were used as queries for searching across eukaryotes using the Basic Local Alignment Search Tool for Proteins (BLASTp, version 2.9.0+) [
+ <xref rid="cit0050" ref-type="bibr">50</xref>] with an E-value &lt;0.1. The top three hits per query per organism were extracted and further filtered by an alignment coverage of greater than 10% of the query sequence. Redundant, 100% identical sequences were not included in the hit count. Reverse BLASTp of hit sequences against the original query organism was performed and orthology predicted if the original query was within the top three hits, had an alignment coverage of greater than 10% and an E-value &lt;0.1.
+</p>

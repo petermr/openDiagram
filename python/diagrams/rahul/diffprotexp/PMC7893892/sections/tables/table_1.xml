@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Summary of raw reads after quality control and mapping to the reference genome</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Sample name</th>
+    <th>Raw reads number</th>
+    <th>Clean reads number</th>
+    <th>Clean reads rate (%)</th>
+    <th>Mapped reads</th>
+    <th>Mapping rate (%)</th>
+    <th>Q30 (%)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>MM_F_P_1</td>
+    <td>99,577,992</td>
+    <td>96,579,902</td>
+    <td>96.99</td>
+    <td>89,494,204</td>
+    <td>92.66</td>
+    <td>95.25</td>
+   </tr>
+   <tr>
+    <td>MM_F_P_2</td>
+    <td>98,042,002</td>
+    <td>95,083,618</td>
+    <td>96.98</td>
+    <td>88,326,891</td>
+    <td>92.89</td>
+    <td>95.38</td>
+   </tr>
+   <tr>
+    <td>MM_F_P_3</td>
+    <td>99,359,596</td>
+    <td>96,678,930</td>
+    <td>97.30</td>
+    <td>89,144,759</td>
+    <td>92.21</td>
+    <td>93.97</td>
+   </tr>
+   <tr>
+    <td>MM_L_P_1</td>
+    <td>94,117,268</td>
+    <td>90,374,994</td>
+    <td>96.02</td>
+    <td>80,877,361</td>
+    <td>89.49</td>
+    <td>91.91</td>
+   </tr>
+   <tr>
+    <td>MM_L_P_2</td>
+    <td>84,813,806</td>
+    <td>81,105,250</td>
+    <td>95.63</td>
+    <td>69,833,669</td>
+    <td>86.10</td>
+    <td>92.63</td>
+   </tr>
+   <tr>
+    <td>MM_L_P_3</td>
+    <td>81,967,646</td>
+    <td>78,592,818</td>
+    <td>95.88</td>
+    <td>71,911,716</td>
+    <td>91.50</td>
+    <td>93.18</td>
+   </tr>
+   <tr>
+    <td>ww_F_P_1</td>
+    <td>90,655,762</td>
+    <td>88,791,808</td>
+    <td>97.94</td>
+    <td>81,552,108</td>
+    <td>91.85</td>
+    <td>94.37</td>
+   </tr>
+   <tr>
+    <td>ww_F_P_2</td>
+    <td>98,121,998</td>
+    <td>95,381,100</td>
+    <td>97.21</td>
+    <td>85,822,614</td>
+    <td>89.98</td>
+    <td>94.40</td>
+   </tr>
+   <tr>
+    <td>ww_F_P_3</td>
+    <td>108,614,426</td>
+    <td>105,051,936</td>
+    <td>96.72</td>
+    <td>94,957,100</td>
+    <td>90.39</td>
+    <td>93.18</td>
+   </tr>
+   <tr>
+    <td>ww_L_P_1</td>
+    <td>99,462,864</td>
+    <td>95,491,444</td>
+    <td>96.01</td>
+    <td>87,266,138</td>
+    <td>91.39</td>
+    <td>93.35</td>
+   </tr>
+   <tr>
+    <td>ww_L_P_2</td>
+    <td>85,154,530</td>
+    <td>83,228,220</td>
+    <td>97.74</td>
+    <td>75,517,349</td>
+    <td>90.74</td>
+    <td>93.11</td>
+   </tr>
+   <tr>
+    <td>ww_L_P_3</td>
+    <td>102,394,760</td>
+    <td>99,115,258</td>
+    <td>96.80</td>
+    <td>90,525,511</td>
+    <td>91.33</td>
+    <td>93.19</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

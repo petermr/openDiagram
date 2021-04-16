@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">To uncover the functional relationship between gene pairs across conditions, we applied a differential gene co-expression analysis for each tissue separately. From muscle, we identified 17,282 differentially co-expressed (DC) gene pairs (corresponding to 7,479 unique genes out of 11,439 tested; 
+ <italic>q</italic> ≤ 0.05; Table 
+ <xref rid="MOESM2" ref-type="media">S1</xref>). Among them, 101 and 91 genes were identified as DEGs and TFs, respectively. Figure 
+ <xref rid="Fig3" ref-type="fig">3</xref> shows the network of DC genes filtered by those gene pairs assigned either DEG or TF for muscle. We used the connectivity as a measure of centrality to select the genes topologically important in the network (“hubs”). Accordingly, 225 DC genes were identified as hubs (
+ <italic>p</italic> &lt; 0.05). The top five hub genes included 
+ <italic>IGSF10</italic>, 
+ <italic>ZBTB33</italic>, 
+ <italic>CD2AP</italic>, 
+ <italic>PLEKHG1</italic>, and 
+ <italic>ZBTB1</italic>, and were associated with more than 120 genes in muscle. The DEGs were mainly differentially co-expressed with the genes 
+ <italic>ZBTB33</italic> (
+ <italic>n</italic> = 24), 
+ <italic>IGSF10</italic> (
+ <italic>n</italic> = 24), 
+ <italic>HACD3</italic> (
+ <italic>n</italic> = 16), and 
+ <italic>ZNF131</italic> (
+ <italic>n</italic> = 8). Interestingly, the co-expression of 
+ <italic>ZBTB33</italic> and 
+ <italic>ZNF131</italic> with the DEGs were classified as inversely correlated between the maternal diet groups based on the correlation classes proposed by the R-package DGCA
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup> (Figs. 
+ <xref rid="Fig3" ref-type="fig">3</xref>, 
+ <xref rid="MOESM1" ref-type="media">S5</xref>).
+</p>

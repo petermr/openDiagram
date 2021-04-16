@@ -1,0 +1,531 @@
+{
+  "id": [
+    "33728331"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33728331"
+  ],
+  "pmcid": [
+    "PMC7937045"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7937045"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1155/2021/5561569"
+  ],
+  "title": [
+    "LC-MS/MS-Based Quantitative Proteomics Analysis of Different Stages of Non-Small-Cell Lung Cancer."
+  ],
+  "authorString": [
+    "Zhou M, Kong Y, Wang X, Li W, Chen S, Wang L, Wang C, Zhang Q."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zhou M"
+          ],
+          "firstName": [
+            "Murong"
+          ],
+          "lastName": [
+            "Zhou"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9634-8164",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Physics and Optoelectronic Engineering, Shenzhen University, Shenzhen, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kong Y"
+          ],
+          "firstName": [
+            "Yi"
+          ],
+          "lastName": [
+            "Kong"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Medical School of Chinese PLA & Medical Laboratory Center, First Medical Center of Chinese PLA General Hospital, Beijing, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang X"
+          ],
+          "firstName": [
+            "Xiaobin"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Shenzhen University Health Science Center, Shenzhen, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li W"
+          ],
+          "firstName": [
+            "Wen"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Shenzhen University Health Science Center, Shenzhen, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen S"
+          ],
+          "firstName": [
+            "Si"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Shenzhen University Health Science Center, Shenzhen, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Immunology, Shenzhen University Health Science Center, Shenzhen, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang L"
+          ],
+          "firstName": [
+            "Li"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4770-6292",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Dermatology, Shenzhen University General Hospital, Shenzhen University, Shenzhen, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang C"
+          ],
+          "firstName": [
+            "Chengbin"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6535-5967",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Medical School of Chinese PLA & Medical Laboratory Center, First Medical Center of Chinese PLA General Hospital, Beijing, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang Q"
+          ],
+          "firstName": [
+            "Qian"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4516-3455",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Dermatology, Huazhong University of Science and Technology Union Shenzhen Hospital, Shenzhen, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9634-8164",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4770-6292",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6535-5967",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4516-3455",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2021"
+      ],
+      "journalIssueId": [
+        "3099104"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "5561569"
+  ],
+  "abstractText": [
+    "Lung cancer has a higher incidence rate and mortality rate than all other cancers. Early diagnosis and treatment of lung cancer remain a major challenge, and the 5-year survival rate of its patients is only 15%. Basic and clinical research, especially the discovery of biomarkers, is crucial for improving the diagnosis and treatment of lung cancer patients. To identify novel biomarkers for lung cancer, we used the iTRAQ8-plex labeling technology combined with liquid chromatography-tandem mass spectrometry (LC-MS/MS) to analyze the serum and urine of patients with different stages of lung adenocarcinoma and healthy individuals. A total of 441 proteins were identified in the serum, and 1,161 proteins were identified in the urine. The levels of elongation factor 1-alpha 2, proteasome subunit alpha type, and spermatogenesis-associated protein increased significantly in the serum of patients with lung cancer compared with those in healthy controls. The levels of transmembrane protein 143, cadherin 5, fibronectin 1, and collectin-11 decreased significantly in the serum of patients with metastases compared with those of nonmetastatic lung cancer patients. In the urine of stage III and IV lung cancer patients, the prostate-specific antigen and prostatic acid phosphatase decreased significantly, whereas neutrophil defensin 1 increased significantly. The results of LC-MS/MS were confirmed by enzyme-linked immunosorbent assay (ELISA) for transmembrane protein 143, cadherin 5, fibronectin 1, and collectin-11 in the serum. These proteins may be a potential early diagnosis and metastasis biomarkers for lung adenocarcinoma. Furthermore, the relative content of these markers in the serum and urine could be used to determine the progression of lung adenocarcinoma and achieve accurate staging and diagnosis."
+  ],
+  "affiliation": [
+    "College of Physics and Optoelectronic Engineering, Shenzhen University, Shenzhen, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2021/5561569"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7937045"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7937045?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "uniprot"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-17"
+  ],
+  "firstIndexDate": [
+    "2021-03-18"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-17"
+  ],
+  "dateOfRevision": [
+    "2021-03-18"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-26"
+  ],
+  "firstPublicationDate": [
+    "2021-02-26"
+  ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Considering the cellular diversity in the brain, we took an indirect approach to sort DEGs and gDTUs according to individual cell types. To that, we used scRNAseq data obtained from the adult human brain to identify cell types expressing the genes altered in our DEG/gDTU analysis (Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref> and Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">1</xref>). We found that, out of the 1135 genes with altered expression, i.e., gDTU + DEG, in the TLI (Figs. 
+ <xref rid="Fig2" ref-type="fig">2</xref> and 
+ <xref rid="Fig3" ref-type="fig">3</xref>), 839 were found in at least one cell-type using as cutoff the expression in more than 10% of cells assigned for a specific cell-type (Supplementary Table 
+ <xref rid="MOESM8" ref-type="media">7</xref>). From these, 239 were identified in unique cell-types/subtypes, 396 in multiple (2–4 cell-types), and 211 in all cell-types analyzed (Fig. 
+ <xref rid="Fig7" ref-type="fig">7A</xref>, Supplementary Figs. 
+ <xref rid="MOESM1" ref-type="media">1</xref> and 
+ <xref rid="MOESM1" ref-type="media">2</xref>, Supplementary Table 
+ <xref rid="MOESM8" ref-type="media">7</xref>). Confirming the efficacy of our strategy, GO analyses using cell-type-specific genes revealed that DEGs/gDTUs in the TLI of AD patients were significantly enriched for biological processes associated with inflammation in microglial cells, whereas those associated with cell adhesion were enriched in endothelial cells (Fig. 
+ <xref rid="Fig7" ref-type="fig">7B</xref> and Supplementary Table 
+ <xref rid="MOESM9" ref-type="media">8</xref>). Similarly, DEGs/gDTUs identified in neuronal cells were enriched for GO terms such as synaptic signaling, synaptic plasticity, and synapse vesicle cycle (Fig. 
+ <xref rid="Fig7" ref-type="fig">7C</xref>). Notably, these enrichments were more significant in GABAergic neurons, which could suggest a more pronounced pathological burden on these cells compared to glutamatergic neurons (Fig. 
+ <xref rid="Fig7" ref-type="fig">7C</xref>). Comparison of the cell-type gene expression signatures identified in our work with previous studies using scRNAseq in AD
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>,
+  <xref ref-type="bibr" rid="CR7">7</xref>
+ </sup> showed a similar degree of overlap (Supplementary Figs. 
+ <xref rid="MOESM1" ref-type="media">3</xref> and 
+ <xref rid="MOESM1" ref-type="media">4</xref>; Supplementary Table 
+ <xref rid="MOESM10" ref-type="media">9</xref>), further supporting the effectiveness of our strategy to assign gene expression alterations to unique cell types in the AD brain.
+</p>

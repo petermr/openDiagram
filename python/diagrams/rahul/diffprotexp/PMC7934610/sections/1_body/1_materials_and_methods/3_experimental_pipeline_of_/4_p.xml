@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The clean data were used to calculate the distribution of reads on reference genes and perform coverage analysis. Gene coverage was calculated as the percentage of a gene covered by reads. This value is equal to the ratio of the base number in a gene covered by unique mapping reads to the total base number of that gene by the SAMtools program.</p>

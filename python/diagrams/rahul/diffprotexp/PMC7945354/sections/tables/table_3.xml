@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Comparison of general information between two groups</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">General information</th>
+    <th align="left">T2DM</th>
+    <th align="left">T2DM + LAC</th>
+    <th align="left">P value</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Gender (male/female)</td>
+    <td align="left">23/17</td>
+    <td align="left">19/21</td>
+    <td align="left">0.371</td>
+   </tr>
+   <tr>
+    <td align="left">Hypoglycemic therapy (A/B)
+     <sup>a</sup>
+    </td>
+    <td align="left">27/13</td>
+    <td align="left">26/14</td>
+    <td align="left">0.813</td>
+   </tr>
+   <tr>
+    <td align="left">Age (years)</td>
+    <td align="left">61.05 ± 9.78</td>
+    <td align="left">64.68 ± 7.10</td>
+    <td align="left">0.137</td>
+   </tr>
+   <tr>
+    <td align="left">AFP (ng/ml)</td>
+    <td align="left">2.70 ± 1.17</td>
+    <td align="left">3.21 ± 1.57</td>
+    <td align="left">0.101</td>
+   </tr>
+   <tr>
+    <td align="left">CEA (ng/ml)</td>
+    <td align="left">2.11 ± 1.09</td>
+    <td align="left">3.27 ± 3.72</td>
+    <td align="left">0.304</td>
+   </tr>
+   <tr>
+    <td align="left">CA125 (U/ml)</td>
+    <td align="left">9.50 ± 4.86</td>
+    <td align="left">12.34 ± 15.66</td>
+    <td align="left">0.693</td>
+   </tr>
+   <tr>
+    <td align="left">CA199 (U/ml)</td>
+    <td align="left">14.41 ± 10.44</td>
+    <td align="left">27.51 ± 68.25</td>
+    <td align="left">0.994</td>
+   </tr>
+   <tr>
+    <td align="left">FPG (mmol/L)</td>
+    <td align="left">7.95 ± 1.91</td>
+    <td align="left">7.41 ± 2.55</td>
+    <td align="left">0.287</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>A, insulin or insulin-dependent therapies; B, insulin-independent therapies or no treatment
+  </p>
+ </table-wrap-foot>
+</table-wrap>

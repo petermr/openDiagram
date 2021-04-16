@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0365">Fusion transcripts were initially screened using STAR-Fusion software. Preliminary files containing fusion candidates for genes 
+ <italic>ALK, ROS1, RET, NTRK1, NTRK2, NTRK3, FGFR1, FGFR2, FGFR3, BCR, ABL1</italic> were generated and the corresponding RNA sequencing reads were extracted. The output data were manually inspected using UCSC BLAT and UCSC Browser (
+ <ext-link ext-link-type="uri" xlink:href="https://genome.ucsc.edu/" id="intref0015" xmlns:xlink="http://www.w3.org/1999/xlink">https://genome.ucsc.edu/</ext-link>) to interrogate fusion candidates according to the following criteria: (i) does the read cover exon junction of two different transcripts, (ii) if the junction point exactly corresponds to exon termini of known genes with canonic splice sites, (iii) if both transcripts are in the same orientation. The inputs with three positive flags were considered as those supporting fusion transcripts.
+</p>

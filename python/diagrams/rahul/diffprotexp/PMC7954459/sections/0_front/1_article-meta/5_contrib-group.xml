@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib id="pld3299-cr-0001" contrib-type="author">
+  <name>
+   <surname>Khemka</surname>
+   <given-names>Niraj</given-names>
+  </name>
+  <xref ref-type="aff" rid="pld3299-aff-0001">
+   <sup>1</sup>
+  </xref>
+ </contrib>
+ <contrib id="pld3299-cr-0002" contrib-type="author">
+  <name>
+   <surname>Singh Rajkumar</surname>
+   <given-names>Mohan</given-names>
+  </name>
+  <xref ref-type="aff" rid="pld3299-aff-0001">
+   <sup>1</sup>
+  </xref>
+ </contrib>
+ <contrib id="pld3299-cr-0003" contrib-type="author">
+  <name>
+   <surname>Garg</surname>
+   <given-names>Rohini</given-names>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7265-2276</contrib-id>
+  <xref ref-type="aff" rid="pld3299-aff-0002">
+   <sup>2</sup>
+  </xref>
+ </contrib>
+ <contrib id="pld3299-cr-0004" contrib-type="author" corresp="yes">
+  <name>
+   <surname>Jain</surname>
+   <given-names>Mukesh</given-names>
+  </name>
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7622-1083</contrib-id>
+  <xref ref-type="aff" rid="pld3299-aff-0001">
+   <sup>1</sup>
+  </xref>
+  <xref ref-type="aff" rid="pld3299-aff-0003">
+   <sup>3</sup>
+  </xref>
+  <address>
+   <email>mjain@jnu.ac.in</email>
+  </address>
+ </contrib>
+</contrib-group>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0585-2312</contrib-id>
+  <name>
+   <surname>Steinberg</surname>
+   <given-names>Julia</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Southam</surname>
+   <given-names>Lorraine</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Roumeliotis</surname>
+   <given-names>Theodoros I.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2152-2257</contrib-id>
+  <name>
+   <surname>Clark</surname>
+   <given-names>Matthew J.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Jayasuriya</surname>
+   <given-names>Raveen L.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Swift</surname>
+   <given-names>Diane</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9909-6409</contrib-id>
+  <name>
+   <surname>Shah</surname>
+   <given-names>Karan M.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5209-7508</contrib-id>
+  <name>
+   <surname>Butterfield</surname>
+   <given-names>Natalie C.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff7">7</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Brooks</surname>
+   <given-names>Roger A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff8">8</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>McCaskie</surname>
+   <given-names>Andrew W.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff8">8</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0817-0082</contrib-id>
+  <name>
+   <surname>Bassett</surname>
+   <given-names>J. H. Duncan</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff7">7</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8555-8219</contrib-id>
+  <name>
+   <surname>Williams</surname>
+   <given-names>Graham R.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff7">7</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0881-5477</contrib-id>
+  <name>
+   <surname>Choudhary</surname>
+   <given-names>Jyoti S.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5577-3674</contrib-id>
+  <name>
+   <surname>Wilkinson</surname>
+   <given-names>J. Mark</given-names>
+  </name>
+  <address>
+   <email>j.m.wilkinson@sheffield.ac.uk</email>
+  </address>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+  <xref ref-type="aff" rid="Aff9">9</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4238-659X</contrib-id>
+  <name>
+   <surname>Zeggini</surname>
+   <given-names>Eleftheria</given-names>
+  </name>
+  <address>
+   <email>eleftheria.zeggini@helmholtz-muenchen.de</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff10">10</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.4567.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0483 2525</institution-id>
+   <institution>Institute of Translational Genomics, </institution>
+   <institution>Helmholtz Zentrum München – German Research Center for Environmental Health, </institution>
+  </institution-wrap>Neuherberg, Germany 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.420082.c</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2166 6280</institution-id>
+   <institution>Cancer Research Division, </institution>
+   <institution>Cancer Council NSW, </institution>
+  </institution-wrap>Sydney, NSW Australia 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.10306.34</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0606 5382</institution-id>
+   <institution>Wellcome Sanger Institute, </institution>
+  </institution-wrap>Hinxton, United Kingdom 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.1013.3</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1936 834X</institution-id>
+   <institution>School of Public Health, </institution>
+   <institution>The University of Sydney, </institution>
+  </institution-wrap>Sydney, NSW Australia 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.18886.3f</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 1271 4623</institution-id>
+   <institution>The Institute of Cancer Research, </institution>
+  </institution-wrap>London, United Kingdom 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.11835.3e</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1936 9262</institution-id>
+   <institution>Department of Oncology and Metabolism, </institution>
+   <institution>University of Sheffield, </institution>
+  </institution-wrap>Sheffield, United Kingdom 
+ </aff>
+ <aff id="Aff7">
+  <label>7</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.7445.2</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2113 8111</institution-id>
+   <institution>Molecular Endocrinology Laboratory, Department of Metabolism, Digestion and Reproduction, </institution>
+   <institution>Imperial College London, </institution>
+  </institution-wrap>London, United Kingdom 
+ </aff>
+ <aff id="Aff8">
+  <label>8</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.5335.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000000121885934</institution-id>
+   <institution>Division of Trauma &amp; Orthopaedic Surgery, Department of Surgery, </institution>
+   <institution>University of Cambridge, </institution>
+  </institution-wrap>Cambridge, United Kingdom 
+ </aff>
+ <aff id="Aff9">
+  <label>9</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.11835.3e</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1936 9262</institution-id>
+   <institution>Centre for Integrated Research into Musculoskeletal Ageing and Sheffield Healthy Lifespan Institute, </institution>
+   <institution>University of Sheffield, </institution>
+  </institution-wrap>Sheffield, United Kingdom 
+ </aff>
+ <aff id="Aff10">
+  <label>10</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.15474.33</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0477 2438</institution-id>
+   <institution>TUM School of Medicine, Technical University of Munich and Klinikum Rechts der Isar, </institution>
+  </institution-wrap>Munich, Germany 
+ </aff>
+</contrib-group>

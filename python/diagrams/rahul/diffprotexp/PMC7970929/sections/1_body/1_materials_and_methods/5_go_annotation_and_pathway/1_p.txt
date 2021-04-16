@@ -1,0 +1,4 @@
+0: Uniprot and KEGG pathway databases were used for functional annotation of the transcripts for homology approach through BLAST against  viridiplantae data.
+1: Transcripts were assigned with a homolog protein from other organisms, if the match was found at e-value less than e-5 and minimum similarity greater than 30%.
+2: KAAS server was explored for assigning pathway analysis.
+3: Since no reference genome is available for the halophyte,  Urochondra setulosa, hence for pathway identification  Zea mays,  Oryza sativa japonica,  Musa acuminata and  Dendrobium officinale were considered as reference organisms being monocots from same family  Poaceae.

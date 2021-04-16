@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The single cells were then loaded onto a 10× Chromium chip B (10× Genomics, Pleasanton, CA, USA) to generate single-cell gel beads in emulsion (GEMs), which was followed by cDNA amplification. A 3ʹ gene expression library was then constructed using a 10× Genomics Chromium Single Cell system with v3 chemistry (10× Genomics) according to the manufacturer's instructions. Sequencing was performed on a NovaSeq 6000 (Illumina) by Berry Genomics (Chengdu, China). Output reads (150 bp pair-ended) were yielded through Cell Ranger v3.1.5 using default parameters, including “mkfastq” and “count” pipelines. The detailed information of captured cells for each sample after “count” flow is shown in 
+ <xref ref-type="supplementary-material" rid="SM0">Figure S1</xref>B.
+</p>

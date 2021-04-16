@@ -1,0 +1,6 @@
+0: Total RNA was extracted using TRIzol (Thermo Fisher Scientific) and cDNA was obtained from 1 g of RNA using the iScript cDNA Synthesis Kit (Bio-Rad, Hercules, CA).
+1: DNA was isolated using the PureLink Genomic DNA Mini Kit (Thermo Fisher Scientific) with optional RNase A digestion.
+2: Quantitative PCR was performed using target-specific primers.
+3: PCR reactions consisted of 1X PowerUp SYBR Green Master Mix (Thermo Fisher Scientific), 0.5 M forward and reverse primers, 520 ng cDNA (mRNA analysis) or 2550 ng DNA (mitochondrial or genomic DNA analysis) in a total reaction volume of 10 L. Reactions were amplified as technical duplicates or triplicates on a QuantStudio 3 real-time PCR system (Thermo Fisher Scientific).
+4: The instrument cover was set to 105C and the PCR program included a hold stage (1 cycle: 50C/2 min, 95C/2 min), a PCR stage (45 cycles: 95C/1 sec, 60C/20 sec with data collection), and a final melting curve stage (95C/1 sec, 60C/20 sec, 95C/1 sec with a temperature transition of 0.15C/sec and continuous data acquisition during the melting transition).
+5: Data were analysed using the Thermo Fisher Cloud analysis platform with an efficiency-corrected relative quantification (2^Cq) methodology utilizing  Tbp as a reference gene for mRNA analysis [ 9].

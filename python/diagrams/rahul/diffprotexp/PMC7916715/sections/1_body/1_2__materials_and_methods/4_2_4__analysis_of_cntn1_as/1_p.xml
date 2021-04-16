@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Fast Gene set enrichment analysis (FGSEA) on CNTN1-associated DEGs was performed using Galaxy (
+ <uri xlink:href="https://usegalaxy.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://usegalaxy.org/</uri> accessed on 19 December 2020). Gene expression in PC and normal prostate tissues was carried out using GEPIA2 database [
+ <xref rid="B40-genes-12-00257" ref-type="bibr">40</xref>]. Analyses of gene expression in mPCs and primary PCs were determined with using R2: Genomics Analysis and Visualization Platform (
+ <uri xlink:href="http://r2.amc.nl" xmlns:xlink="http://www.w3.org/1999/xlink">http://r2.amc.nl</uri>
+ <uri xlink:href="http://r2platform.com" xmlns:xlink="http://www.w3.org/1999/xlink">http://r2platform.com</uri> accessed on 19 December 2020). A curated GEO dataset (GDS2546: GEO DataSet Browser (
+ <uri>nih.gov</uri> accessed on 19 December 2020)) was also used to analyze leading-edge (LE) gene expression following PC progression.
+</p>

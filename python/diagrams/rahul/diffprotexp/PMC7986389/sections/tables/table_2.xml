@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>The graph-level results of each method</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left"/>
+    <th align="left">Output size</th>
+    <th align="left">Run time (s)</th>
+    <th align="left">Sum weight</th>
+    <th align="left">Average weight of each vertex</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">MFVS</td>
+    <td align="left">463</td>
+    <td align="left">4.0</td>
+    <td align="left">319.5</td>
+    <td align="left">0.69</td>
+   </tr>
+   <tr>
+    <td align="left">WMFVS</td>
+    <td align="left">463</td>
+    <td align="left">35.9</td>
+    <td align="left">379.3</td>
+    <td align="left">0.82</td>
+   </tr>
+   <tr>
+    <td align="left">WFVS</td>
+    <td align="left">528</td>
+    <td align="left">23.6</td>
+    <td align="left">496.4</td>
+    <td align="left">0.94</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

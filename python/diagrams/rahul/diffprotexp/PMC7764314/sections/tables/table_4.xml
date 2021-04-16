@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="ijms-21-09461-t004" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">ijms-21-09461-t004_Table 4</object-id>
+ <label>Table 4</label>
+ <caption>
+  <p>“Single-gene” methods.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Method</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Description</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"># of Conditions</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Citation</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Availability</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">DEDC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Looks for the “best” DC gene</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B79-ijms-21-09461" ref-type="bibr">79</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ECF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Given a pre-defined gene, selects others having differential co-expression with it</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">[
+     <xref rid="B91-ijms-21-09461" ref-type="bibr">91</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CRAN R package (COSINE)</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Gill</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Given a pre-defined gene, tests whether its connectivity changes</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Two</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[
+     <xref rid="B48-ijms-21-09461" ref-type="bibr">48</xref>]
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">R package at 
+     <break/>
+     <uri xlink:href="http://www.somnathdatta.org/Supp/DNA" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.somnathdatta.org/Supp/DNA</uri>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

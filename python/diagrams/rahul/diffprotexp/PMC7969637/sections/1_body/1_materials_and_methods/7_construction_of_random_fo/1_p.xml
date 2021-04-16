@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this study, the sample type was considered as a dependent variable, and the selected gene expression value was considered as an independent variable. The method of bootstrap sampling and the method of Bagging were utilized to generate multiple decision tree classifiers (implemented by the “randomForest” function package in R) and the final random forest model.</p>

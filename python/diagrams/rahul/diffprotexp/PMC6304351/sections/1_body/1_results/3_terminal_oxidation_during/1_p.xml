@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Five proteins identified as being involved in the terminal oxidation of medium-chain alkanes were significantly differentially expressed during growth on 
+ <italic>n</italic>-C
+ <sub>14</sub> compared to both 
+ <italic>n</italic>-C
+ <sub>28</sub> and Tween 80 (Figure 
+ <xref ref-type="fig" rid="F2">2A</xref>). An alkane 1-monooxygenase (TOL_1175; 
+ <italic>P</italic> &lt; 0.001) was exclusively expressed on 
+ <italic>n</italic>-C
+ <sub>14</sub>. This protein has a 99% identity to an alkane 1-monooxygenase (R615_11545) from 
+ <italic>T. oleivorans</italic> R6-15 and 65% identity to an alkane 1-monooxygenase (OLEAN_C23040) from 
+ <italic>Oleispira antarctica</italic> RB-8 encoded by the 
+ <italic>alkB2</italic> gene. The expression of a second alkane 1-monooxygenase (TOL_2658; 
+ <italic>P</italic> = 0.002) was 11-fold greater in abundance during growth on 
+ <italic>n</italic>-C
+ <sub>14</sub> compared to 
+ <italic>n-</italic>C
+ <sub>28</sub> with no detection in the non-hydrocarbon control, Tween 80. This monooxygenase has 77% identity to an alkane 1-monooxygenase (WP_076515071) from the marine aliphatic alkane-degrader 
+ <italic>Oleibacter marinus</italic>. An oxidoreductase (TOL_2659; 
+ <italic>P</italic> = 0.001) coded by a gene located adjacent to the alkane 1-monooxygenase was also upregulated in a similar ratio (12-fold higher on 
+ <italic>n</italic>-C
+ <sub>14</sub> compared to both 
+ <italic>n</italic>-C
+ <sub>28</sub> and Tween 80). Domain analysis revealed this oxidoreductase is a ferredoxin that contains a 2Fe–2S iron–sulfur cluster binding domain and it is a member of the Fer2 (PF00111) family. This protein is known to shuttle electrons to the monooxygenase. Expression of a ferredoxin reductase (TOL_2371; 
+ <italic>P</italic> = 0.035) was also 14-fold higher during growth on 
+ <italic>n</italic>-C
+ <sub>14.</sub> This protein has a 100% and 86% identity to a ferredoxin reductase in 
+ <italic>T. oleivorans</italic> R6-15 (W8G014) and 
+ <italic>Oleispira marina</italic> (A0A1N7MYW0), respectively. Ferredoxin reductase oxidizes NAD(P)H to NAD(P)
+ <sup>+</sup> capturing electrons to transfer to the ferredoxin. The Normalized Spectral Abundance Factor (Supplementary Table 
+ <xref ref-type="supplementary-material" rid="SM1">1</xref>) was higher for the ferredoxin (0.0802%) and ferredoxin reductase (0.1250%) compared to either alkane monooxygenases (TOL_1175-0.0792%; TOL_2658-0.0647%) indicating 
+ <italic>T. oleivorans</italic> requires more electron transporters than monooxygenases by themselves. The combination of an alkane monooxygenase and a ferredoxin/ferredoxin reductase indicates a non-heme iron alkane monooxygenase system (Figure 
+ <xref ref-type="fig" rid="F2">2B</xref>) was upregulated during medium-chain alkane degradation. Finally, expression of an aldehyde dehydrogenase (TOL_0223; 
+ <italic>P</italic> = 0.001) was at least sevenfold greater during growth on 
+ <italic>n-</italic>C
+ <sub>14</sub> compared to 
+ <italic>n-</italic>C
+ <sub>28</sub> and Tween 80. This combination of proteins makes up a near complete pathway for the terminal oxidation of 
+ <italic>n-</italic>alkanes, however, we did not observe the upregulation of a specific alcohol dehydrogenase that would convert the primary alcohol produced by the monooxygenase into the corresponding aldehyde. An alcohol dehydrogenase (TOL_2772) was, however, expressed on all three growth substrates, although it was significantly more abundant during growth on 
+ <italic>n</italic>-C
+ <sub>28</sub> (TOL_2772). In addition to this, an additional three alcohol dehydrogenases (TOL_1420, TOL_2068, TOL_2458) were expressed equally across the three growth substrates and could potentially be constitutively expressed and catalyze the conversion of the primary alcohol to an aldehyde. The metabolite from terminal oxidation of an alkane, the primary alcohol 1-tetradecanol, was detected by GC-MS after 4 days of growth on 
+ <italic>n</italic>-C
+ <sub>14</sub>, confirming a terminal oxidation of the alkane, and no secondary alcohols were detected.
+</p>

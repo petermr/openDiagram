@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">The impact of using transcriptome data obtained from either cytosolic or nuclear RNA as a reliable proxy for gene expression analysis is an active topic of investigation. Recently, single nucleus RNA sequencing has been introduced as an alternative to whole single-cell sequencing, particularly in tissues where it is challenging or impossible to recover intact cells
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>,
+  <xref ref-type="bibr" rid="CR44">44</xref>,
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup>. In addition to the data presented in this study, several other studies demonstrated significant differences between the nuclear and the cytosolic transcriptome
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>,
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup>. Also, the compartmentalization of mRNA transcripts in the nucleus was shown to play an active role in regulating gene expression in different biological contexts and to prevent fluctuations arising from bursts in gene transcription
+ <sup>
+  <xref ref-type="bibr" rid="CR12">12</xref>,
+  <xref ref-type="bibr" rid="CR47">47</xref>
+ </sup>. On the same note, several studies revealed a higher correlation between RNA-seq data from the cytosol and whole-cell RNA-seq compared with RNA-seq data from nuclei
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>,
+  <xref ref-type="bibr" rid="CR47">47</xref>
+ </sup>. On the other hand, several studies comparing data from single-nuclei and single-cell concluded that nuclear RNA sequencing faithfully replicates data from the whole-cell
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>,
+  <xref ref-type="bibr" rid="CR36">36</xref>,
+  <xref ref-type="bibr" rid="CR44">44</xref>
+ </sup>. In light of this, we sought to analyze gene expression differences between fetal and adult brain cortex, and compare the results from cytosol vs cytosol RNA-seq to the results from nucleus vs nucleus RNA-seq. We identified almost twice the number of differentially expressed genes in the cyto vs cyto analysis compared to the nuc vs nuc analysis. Our data show that even though there was an overlap between the lists of DEGs between two analyses, almost 50% of the cyto vs cyto and 35% of the nuc vs nuc DEGs were unique for each analysis. We also note that 61 transcripts showed contradictory differential expression patterns between the two analyses.
+</p>

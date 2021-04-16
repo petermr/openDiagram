@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone.0246695.t003" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0246695.t003</object-id>
+ <label>Table 3</label>
+ <caption>
+  <title>Enriched GO terms related to the immune functions in lung lesion tissue.</title>
+ </caption>
+ <alternatives>
+  <graphic id="pone.0246695.t003g" xlink:href="pone.0246695.t003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups" cellspacing="0" style="border-collapse:collapse">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="left" rowspan="1" colspan="1">Treatment Group</th>
+     <th align="center" rowspan="1" colspan="1">Increased function</th>
+     <th align="center" rowspan="1" colspan="1">Decreased function</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="left" rowspan="5" colspan="1">1 –Ibuprofen, day 3–10</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">monocyte chemotaxis</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">response to toxic substance</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">chemokine-mediated signaling pathway</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">positive regulation of B cell proliferation</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">macrophage chemotaxis</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">adaptive immune response</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">neutrophil chemotaxis</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">regulation of entry of bacterium into host cell</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">lymphocyte chemotaxis</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of interleukin-17 production</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="3" colspan="1">2 –Ibuprofen, day 5–10</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">defense response to virus</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">medium-chain fatty acid metabolic process</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">(RSAD2 (Viperin) increased 2.4 times)</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">leukocyte tethering or rolling</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Chemotaxis</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of interferon-gamma production</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="5" colspan="1">3 –Placebo</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">regulation of angiogenesis</td>
+     <td align="left" rowspan="5" colspan="1">regulation of protein processing</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">oxidation-reduction process</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">respiratory electron transport chain</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">cellular response to oxidative stress</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">positive regulation of T cell migration</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="2" colspan="1">4 –FPI, day 5–10</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">cytokine-mediated signaling pathway</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">T cell costimulation</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">positive regulation of T-helper 2 cell cytokine production</td>
+     <td align="left" rowspan="1" colspan="1">defense response to Gram-positive bacterium</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="3" colspan="1">5 –FPI+Ibuprofen, day 5–10</td>
+     <td align="left" rowspan="3" colspan="1">No terms</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">positive regulation of interferon-beta production</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">negative regulation of cell proliferation</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">positive regulation of cytokine production</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="4" colspan="1">6 –FPI+Ibuprofen, day 3–10</td>
+     <td align="left" rowspan="4" colspan="1">induction of positive chemotaxis</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">type I interferon biosynthetic process</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">positive regulation of TOR signaling</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">response to type I interferon</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">antigen processing and presentation of exogenous peptide antigen via MHC class I</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">Nonspecific terms (Enriched in groups 1 and 2)</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">negative regulation of viral genome replication</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">No terms</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="6" colspan="1">Nonspecific terms (enriched in 2 or more groups)</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">negative regulation of autophagosome assembly</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">neutrophil activation</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">response to antibiotic</td>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">cellular response to interleukin-4</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">antimicrobial humoral immune response mediated by antimicrobial peptide</td>
+     <td align="left" rowspan="4" colspan="1">cytokine production</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">prostaglandin biosynthetic process</td>
+    </tr>
+    <tr>
+     <td align="left" style="border-bottom:dotted" rowspan="1" colspan="1">antibacterial humoral response</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">positive regulation of toll-like receptor 3 signaling pathway</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+</table-wrap>

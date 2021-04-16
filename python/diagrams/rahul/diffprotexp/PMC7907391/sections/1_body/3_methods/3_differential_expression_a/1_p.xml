@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par31">The limma
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup> package was used to perform differential expression analysis on GSE103412 and GSE15781. Oral buccal mucosa data from GSE103412 was obtained for the initial analysis. Gene expression was visualised using ggplot2, depicting overall log
+ <sub>2</sub> probe intensity for all patients. Subsequent paired t-tests were performed on gene expression values for patients to determine whether gene expression was significantly impacted by treatment. For both GSE103412 and GSE15781, a linear model was fit for the 3 genes of interest using the limma package
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup> to calculate log
+ <sub>2</sub> fold change, the patient ID was used as a blocking factor, which accounts for within patient bias. Expression was compared between different time points (before, during, and after treatments). For the oral mucosa dataset, GSE103412, gene expression of ISGs (
+ <italic>MX1, SAMHD1, IFITM3,</italic> and 
+ <italic>TRIM25</italic>) were also visualized using ggplot2, depicting overall log
+ <sub>2</sub> probe intensity for all patients, subsequent paired t-test were performed for on expression values and compared between different time points.
+</p>

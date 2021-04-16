@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F1" position="float">
+ <label>FIGURE 1</label>
+ <caption>
+  <p>Dysregulation and clinical relevance of lncRNAs in prostate cancer. 
+   <bold>(A)</bold> Volcano plot shows the expression difference of lncRNA in prostate cancer samples compared to those paired adjacent normal samples. 
+   <bold>(B)</bold> The expression changes of top 30 differential lncRNAs of prostate cancer across 18 TCGA cancer types. 
+   <bold>(C)</bold> The survival risk assessment of differential lncRNAs, showing top significant lncRNAs (FPKM &gt;1) in univariate regression analysis. 
+   <bold>(D)</bold> Kaplan–Meier curve of RP11-627G23.1 and RP11-465N4.5 in PRAD cohort.
+  </p>
+ </caption>
+ <graphic xlink:href="fcell-09-641891-g001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

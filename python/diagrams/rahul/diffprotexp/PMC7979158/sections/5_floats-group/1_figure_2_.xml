@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig2" position="float" orientation="portrait">
+ <label>Figure 2.</label>
+ <caption>
+  <title>Weighted gene co-expression network analysis (WGCNA) reveals discrete gene networks perturbed by MIA across embryonic cortical neurodevelopment.</title>
+  <p>(
+   <bold>a</bold>) WGCNA cluster dendrogram of time series samples identifies genes that were assigned into co-expression modules. Based on similarities in module gene expression, six of the original 10 modules were grouped into two larger modules, BrRePi: Brown, Red and Pink; YeMaBl: Yellow, Magenta and Black. (
+   <bold>b</bold>) Heatmap of correlation between gene expression modules and experimental traits; age, condition (saline vs poly(I:C)), and sex. Blue and Turquoise modules are strongly associated with age; Green and Grey modules are significantly associated with MIA condition. Numerical values represent signed Pearson’s correlation coefficients, with Student asymptotic p values in brackets. Green represents negative and red represents positive correlation. Color intensity signifies the strength of the correlation. (
+   <bold>c</bold>) Module eigengene expression for MIA and control groups plotted by time-point illustrates expression trajectories across developmental stages, capturing module- and stage-specific differences between MIA and control groups. (
+   <bold>d</bold>) Heatmap of enrichment of DE genes for representative gene ontology biological processes (GO BP) by developmental time-point shows stage- and module-specific transcriptional pathology. Y-axis rows show enrichment for GO BP terms among module-specific DE genes (FDR &lt; 0.05). Heatmap color scale represents relative fold enrichment for the GO terms among DE genes. P0 not shown due to insufficient DE gene numbers and absence of GO BP terms passing enrichment criteria.
+  </p>
+ </caption>
+ <graphic xlink:href="elife-60100-fig2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 1.</label>
+   <caption>
+    <title>Summary of WGCNA module eigengene expression, association with experimental variables, and overlap with DE genes.</title>
+    <p>(
+     <bold>a</bold>) Eigengene trajectories across neurodevelopment of the ten original co-expression modules. (
+     <bold>b</bold>) DE (p &lt; 0.05) gene set enrichment analysis in WGCNA modules across the developmental time-points of the study. Values representing the number of upregulated and downregulated genes are plotted above and below 0, respectively. Asterisks indicate statistically significant enrichment of DE genes (p &lt; 0.05) in a module (p &lt; 0.05; hypergeometric test).
+    </p>
+   </caption>
+   <graphic xlink:href="elife-60100-fig2-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s2" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 2.</label>
+   <caption>
+    <title>Stage-specific heatmaps of GO BP enrichment analysis of upregulated and downregulated differentially expressed genes in WGCNA modules.</title>
+    <p>(
+     <bold>a</bold>) E12.5 upregulated DE genes (FDR &lt; 0.05). (
+     <bold>b</bold>) E12.5 downregulated DE genes (FDR &lt; 0.05). (
+     <bold>c</bold>) E14.5 upregulated DE genes (FDR &lt; 0.05). (
+     <bold>d</bold>) E14.5 downregulated DE genes (FDR &lt; 0.05). (
+     <bold>e</bold>) E17.5 upregulated DE genes (FDR &lt; 0.05). (
+     <bold>f</bold>) E17.5 downregulated DE genes (FDR &lt; 0.05). (
+     <bold>g</bold>) P0 upregulated DE genes (FDR &lt; 0.05). (
+     <bold>h</bold>) P0 downregulated DE genes (FDR &lt; 0.05). Only modules with more than five DE genes (FDR &lt; 0.05) are shown in the heatmaps.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-60100-fig2-figsupp2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

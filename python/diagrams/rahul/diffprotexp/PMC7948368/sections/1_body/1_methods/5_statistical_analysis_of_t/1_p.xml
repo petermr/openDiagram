@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par36">Raw CEL files were quality control assessed using the Affymetrix Expression Console software (version 1.1). All array files were then processed in the programming language ‘R’ using Bioconductor packages: The 
+ <italic>pd.hta.2.0</italic> package was used for platform design information annotation and the 
+ <italic>affy</italic> package was used to summarise probe-level data into a single expression measure for each individual transcript and pre-process the data. The 
+ <italic>affy</italic> package was used to perform normalisation and probe specific background correction before summarising the probe set values into a single expression measure according to default settings. Highly variable probes were used to cluster samples and produce a dissimilarity matrix. The highly variable probes were used to create a cluster dendrogram of samples based on both transcript- and probe-level differences and illustrate how samples cluster to identify any major outliers of which there were none. 
+ <italic>The PCAmethods</italic> library was used to conduct principal component analysis (PCA) to test for run order effects and 
+ <italic>limma</italic> was used for differential expression analysis. The arrayWeights function in limma was used to assess array quality using default parameters. Differential expression analysis was adjusted for baseline DAS28, age, gender, concurrent DMARD use, and array weights. Pathway analysis was performed using the Ingenuity Pathway Analysis (IPA) tool (version 33559992) according to default settings.
+</p>

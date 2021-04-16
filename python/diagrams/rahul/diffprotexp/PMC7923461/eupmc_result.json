@@ -1,0 +1,573 @@
+{
+  "id": [
+    "33653340"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33653340"
+  ],
+  "pmcid": [
+    "PMC7923461"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7923461"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12935-021-01849-4"
+  ],
+  "title": [
+    "Prognostic biomarker TUBA1C is correlated to immune cell infiltration in the tumor microenvironment of lung adenocarcinoma."
+  ],
+  "authorString": [
+    "Bian T, Zheng M, Jiang D, Liu J, Sun H, Li X, Liu L, Zhang J, Liu Y."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bian T"
+          ],
+          "firstName": [
+            "Tingting"
+          ],
+          "lastName": [
+            "Bian"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5577-9216",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zheng M"
+          ],
+          "firstName": [
+            "Miaosen"
+          ],
+          "lastName": [
+            "Zheng"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "School of Medicine, Nantong University, Nantong, Jiangsu, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jiang D"
+          ],
+          "firstName": [
+            "Daishan"
+          ],
+          "lastName": [
+            "Jiang"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Emergency Medicine, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu J"
+          ],
+          "firstName": [
+            "Jian"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Chemotherapy, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sun H"
+          ],
+          "firstName": [
+            "Hui"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li X"
+          ],
+          "firstName": [
+            "Xiaoli"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu L"
+          ],
+          "firstName": [
+            "Lei"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang J"
+          ],
+          "firstName": [
+            "Jianguo"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China. 13815212431@163.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu Y"
+          ],
+          "firstName": [
+            "Yifei"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China. ntdxliuyifei@sina.com."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "School of Medicine, Nantong University, Nantong, Jiangsu, China. ntdxliuyifei@sina.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5577-9216",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "3122110"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cancer cell international"
+          ],
+          "ISOAbbreviation": [
+            "Cancer Cell Int"
+          ],
+          "medlineAbbreviation": [
+            "Cancer Cell Int"
+          ],
+          "NLMid": [
+            "101139795"
+          ],
+          "ISSN": [
+            "1475-2867"
+          ],
+          "ESSN": [
+            "1475-2867"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "144"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>TUBA1C is a microtubule component that is involved in a variety of cancers. Our main objective was to investigate TUBA1C expression, its prognostic value, its potential biological functions, and its impact on the immune system of patients with lung adenocarcinoma (LUAD).<h4>Methods</h4>The Cancer Genome Atlas (TCGA), Gene Expression Profiling Interactive Analysis (GEPIA) and Immunohistochemistry Analysis were used to analyze TUBA1C expression, its clinicopathology, overall survival (OS), and disease-free survival (DFS) in LUAD patients. We also determined the correlation between TUBA1C and tumor-infiltrating immune cells (TIICs) by using CIBERSORT and GEPIA databases. To determine the expression of TUBA1C in LUAD, we analyzed a collection of immune infiltration levels and cumulative survival of LUAD tissues in TIMER database. By using UALCAN, STRING, and GeneMANIA databases, we investigated the protein-coding genes related to TUBA1C and its co-expression genes in LUAD tissues. Gene set enrichment analysis (GSEA) was performed by using the TCGA dataset.<h4>Results</h4>The mRNA and the protein expression of TUBA1C were found to be up-regulated in LUAD tissues. The univariate analysis indicated that an increased expression of TUBA1C was significantly correlated to the following parameters: age, stage, and lymph node metastasis. An over-expression of TUBA1C was associated with a poor prognosis of LUAD. In TIMER and CIBERSORT databases, we found that TUBA1C is correlated with 13 types of TIICs: activated B cell, activated CD4 T cell, central memory CD4 T cell, effector memory CD8 T cell, eosinophils, immature B cell, gamma-delta T cell, immature dendritic cell, mast cell, memory B cell, natural killer T cell, regulatory T cell, and type 2T helper cell. By performing GSEA, we found that TUBA1C is closely correlated to cell cycle, p53 signaling pathway, glycolysis, and gluconeogenesis.<h4>Conclusions</h4>Our findings indicate that TUBA1C is associated with TIICs in tumor microenvironment. Therefore, it serves as a novel prognostic biomarker and a target for future treatment methods of LUAD."
+  ],
+  "affiliation": [
+    "Department of Pathology, Affiliated Hospital of Nantong University, Nantong, Jiangsu, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "No. 2019JQ001"
+          ],
+          "agency": [
+            "Nantong university clinical medicine special clinical basic research youth project"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "No. QNRC2016682"
+          ],
+          "agency": [
+            "Key Talents of Medical Science in Jiangsu Province, China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "No.MSZ19164"
+          ],
+          "agency": [
+            "Nantong Municipal Science and technology project"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "No.2019Z142"
+          ],
+          "agency": [
+            "Jiangsu Post-doctoral Foundation Research Project"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "No.JCZ0001"
+          ],
+          "agency": [
+            "Nantong Municipal Science and technology project"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Diagnosis",
+        "Prognosis",
+        "Lung adenocarcinoma",
+        "Tumor-infiltrating Immune Cells",
+        "Tuba1c"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12935-021-01849-4"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7923461"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7923461?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-03"
+  ],
+  "firstIndexDate": [
+    "2021-03-04"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-04"
+  ],
+  "dateOfRevision": [
+    "2021-03-06"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-02"
+  ],
+  "firstPublicationDate": [
+    "2021-03-02"
+  ]
+}

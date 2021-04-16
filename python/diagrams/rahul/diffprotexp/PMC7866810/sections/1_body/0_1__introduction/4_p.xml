@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DIscBIO is open source, and it is freely available at 
+ <uri xlink:href="https://github.com/ocbe-uio/DIscBIO" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/ocbe-uio/DIscBIO</uri>. Its R package can be downloaded from 
+ <uri xlink:href="https://cran.r-project.org/package=DIscBIO" xmlns:xlink="http://www.w3.org/1999/xlink">https://cran.r-project.org/package=DIscBIO</uri>. To fully harness the potential of transcriptome analysis in deciphering complex diseases at the single-cell level, we showcase DIscBIO over two scRNA-seq datasets. The first dataset consists of circulating tumor cells (CTCs) from patients with breast cancer, the second one is from a myxoid liposarcoma cell line. In the first case, we investigate the connection between the Golgi apparatus and oncogenesis of breast cancer to demonstrate how our analysis pipeline can be used to study this link based on current knowledge. In the second case, we focus on defining the molecular signature of the sub-populations of myxoid liposarcoma cells in association with their cell cycle phases. Additionally, we showcase the analysis of a mouse scRNA-seq dataset with accession number GSE41265 [
+ <xref rid="B37-ijms-22-01399" ref-type="bibr">37</xref>] to demonstrate how to load and analyze datasets from the conquer repository [
+ <xref rid="B11-ijms-22-01399" ref-type="bibr">11</xref>]. The conquer repository provides access to analysis-ready scRNA-seq datasets from different species, including humans, mice and zebrafish. 
+</p>

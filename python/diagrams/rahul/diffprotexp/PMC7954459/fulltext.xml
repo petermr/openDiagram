@@ -1,0 +1,934 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Plant Direct</journal-id><journal-id journal-id-type="iso-abbrev">Plant Direct</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2475-4455</journal-id><journal-id journal-id-type="publisher-id">PLD3</journal-id><journal-title-group><journal-title>Plant Direct</journal-title></journal-title-group><issn pub-type="epub">2475-4455</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7954459</article-id><article-id pub-id-type="doi">10.1002/pld3.299</article-id><article-id pub-id-type="publisher-id">PLD3299</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Genome&#x02010;wide profiling of miRNAs during seed development reveals their functional relevance in seed size/weight determination in chickpea</article-title><alt-title alt-title-type="left-running-head">KHEMKA et al.</alt-title></title-group><contrib-group><contrib id="pld3299-cr-0001" contrib-type="author"><name><surname>Khemka</surname><given-names>Niraj</given-names></name><xref ref-type="aff" rid="pld3299-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="pld3299-cr-0002" contrib-type="author"><name><surname>Singh Rajkumar</surname><given-names>Mohan</given-names></name><xref ref-type="aff" rid="pld3299-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="pld3299-cr-0003" contrib-type="author"><name><surname>Garg</surname><given-names>Rohini</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7265-2276</contrib-id><xref ref-type="aff" rid="pld3299-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="pld3299-cr-0004" contrib-type="author" corresp="yes"><name><surname>Jain</surname><given-names>Mukesh</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7622-1083</contrib-id><xref ref-type="aff" rid="pld3299-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="pld3299-aff-0003">
+<sup>3</sup>
+</xref><address><email>mjain@jnu.ac.in</email></address></contrib></contrib-group><aff id="pld3299-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">School of Computational &#x00026; Integrative Sciences</named-content>
+<institution>Jawaharlal Nehru University</institution>
+<city>New Delhi</city>
+<country country="IN">India</country>
+</aff><aff id="pld3299-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Life Sciences</named-content>
+<named-content content-type="organisation-division">School of Natural Sciences</named-content>
+<institution>Shiv Nadar University</institution>
+<city>Gautam Buddha Nagar</city>
+<named-content content-type="country-part">Uttar Pradesh</named-content>
+<country country="IN">India</country>
+</aff><aff id="pld3299-aff-0003">
+<label><sup>3</sup></label>
+<institution>National Institute of Plant Genome Research (NIPGR)</institution>
+<city>New Delhi</city>
+<country country="IN">India</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Mukesh Jain, School of Computational &#x00026; Integrative Sciences, Jawaharlal Nehru University, New Delhi &#x02010; 110067, India.<break/>
+Email: <email>mjain@jnu.ac.in</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>12</day><month>3</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2021</year></pub-date><volume>5</volume><issue>3</issue><issue-id pub-id-type="doi">10.1002/pld3.v5.3</issue-id><elocation-id>e00299</elocation-id><history><date date-type="received"><day>16</day><month>1</month><year>2020</year></date><date date-type="rev-recd"><day>04</day><month>12</month><year>2020</year></date><date date-type="accepted"><day>07</day><month>12</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright">&#x000a9; 2021 American Society of Plant Biologists, Society for Experimental Biology and John Wiley & Sons<copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2021 The Authors. <italic>Plant Direct</italic> published by American Society of Plant Biologists, Society for Experimental Biology and John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy-nc"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:PLD3-5-e00299.pdf"/><abstract id="pld3299-abs-0001"><title>Abstract</title><p>MicroRNAs (miRNAs) are non&#x02010;coding small RNAs that regulate gene expression at transcriptional and post&#x02010;transcriptional levels. The role of miRNAs in seed development and seed size/weight determination is poorly understood in legumes. In this study, we profiled miRNAs at seven successive stages of seed development in a small&#x02010;seeded and a large&#x02010;seeded chickpea cultivar via small RNA sequencing. In total, 113 known and 243 novel miRNAs were identified. Gene ontology analysis revealed the enrichment of seed/reproductive/post&#x02010;embryonic development and signaling pathways processes among the miRNA target genes. A large fraction of the target genes exhibited antagonistic correlation with miRNA expression. The sets of co&#x02010;expressed miRNAs showing differential expression between the two cultivars were recognized. Known transcription factor (TF) encoding genes involved in seed size/weight determination, including <italic>SPL</italic>, <italic>GRF</italic>, <italic>MYB</italic>, <italic>ARF, HAIKU1</italic>, <italic>SHB1, KLUH/CYP78A5,</italic> and <italic>E2Fb</italic> along with novel genes were found to be targeted by the predicted miRNAs. Differential expression analysis revealed higher transcript levels of members of <italic>SPL</italic> and <italic>REVOLUTA</italic> TF families and lower expression of their corresponding miRNAs in the large&#x02010;seeded cultivar. At least 19 miRNAs known to be involved in seed development or differentially expressed between small&#x02010;seeded and large&#x02010;seeded cultivars at late&#x02010;embryogenesis and/or mid&#x02010;maturation stages were located within known quantitative trait loci (QTLs) associated with seed size/weight determination. Moreover, 41 target genes of these miRNAs were also located within these QTLs. Altogether, we revealed important roles of miRNAs in seed development and identified candidate miRNAs and their target genes that have functional relevance in determining seed size/weight in chickpea.</p></abstract><kwd-group><kwd id="pld3299-kwd-0001"><italic>Cicer arietinum</italic></kwd><kwd id="pld3299-kwd-0002">co&#x02010;expression network</kwd><kwd id="pld3299-kwd-0003">miRNA</kwd><kwd id="pld3299-kwd-0004">modules</kwd><kwd id="pld3299-kwd-0005">seed development</kwd><kwd id="pld3299-kwd-0006">seed size/weight</kwd><kwd id="pld3299-kwd-0007">transcription factors</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Department of Biotechnology, Government of India, New Delhi</funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="0"/><page-count count="14"/><word-count count="8915"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>March 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.9 mode:remove_FC converted:12.03.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="pld3299-cit-1001">
+<string-name>
+<surname>Khemka</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Singh Rajkumar</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Garg</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Jain</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Genome&#x02010;wide profiling of miRNAs during seed development reveals their functional relevance in seed size/weight determination in chickpea</article-title>. <source xml:lang="en">Plant Direct</source>. <year>2021</year>;<volume>5</volume>:<elocation-id>e00299</elocation-id>. <pub-id pub-id-type="doi">10.1002/pld3.299</pub-id>
+</mixed-citation>
+</p></notes></front><body id="pld3299-body-0001"><sec id="pld3299-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Seed development ensures the continuation of next generation, which is initiated after fertilization and terminates with breakage of seed dormancy or germination (Huijser &#x00026; Schmid,&#x000a0;<xref rid="pld3299-bib-0015" ref-type="ref">2011</xref>; Le et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0026" ref-type="ref">2007</xref>). Seed provides the primary source of dietary intake in humans and livestock (Nambara &#x00026; Nonogaki,&#x000a0;<xref rid="pld3299-bib-0038" ref-type="ref">2012</xref>; Sabelli &#x00026; Larkins,&#x000a0;<xref rid="pld3299-bib-0045" ref-type="ref">2015</xref>). To fulfill the requirements of the exponentially increasing population, crop yield needs to be increased proportionately. Numerous studies have been performed to understand the molecular mechanisms underlying seed development (Jones &#x00026; Vodkin,&#x000a0;<xref rid="pld3299-bib-0017" ref-type="ref">2013</xref>; Kurdyukov et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0023" ref-type="ref">2014</xref>; Le et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0025" ref-type="ref">2010</xref>; Rangan et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0041" ref-type="ref">2017</xref>; Xu et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0057" ref-type="ref">2012</xref>).</p><p>MicroRNAs (miRNAs) are 20&#x02013;24 nt non&#x02010;coding small RNAs that provide specificity to Argonaute (AGO) protein(s) to repress gene expression via transcript cleavage or DNA methylation (Bartel,&#x000a0;<xref rid="pld3299-bib-0004" ref-type="ref">2004</xref>; Krol et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0020" ref-type="ref">2010</xref>; Wu et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0056" ref-type="ref">2010</xref>). In plants, roles of miRNAs in regulating the expression of genes involved in the development, hormone biosynthesis, and signaling pathways have been analyzed during various stages of development (Reinhart et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0042" ref-type="ref">2002</xref>; Rogers &#x00026; Chen,&#x000a0;<xref rid="pld3299-bib-0044" ref-type="ref">2013</xref>; Tang &#x00026; Chu,&#x000a0;<xref rid="pld3299-bib-0051" ref-type="ref">2017</xref>). In particular, miRNAs belonging to miR156, miR166, miR172, miR319, and miR396 families, were shown to play an important role during seed development (D&#x02019;Ario et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0008" ref-type="ref">2017</xref>; Rodrigues &#x00026; Miguel,&#x000a0;<xref rid="pld3299-bib-0043" ref-type="ref">2017</xref>). Recently, miR396&#x02010; and miR397&#x02010;mediated regulation of seed size/weight determination in Arabidopsis and rice has been revealed (Debernardi et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0011" ref-type="ref">2014</xref>; Duan et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0012" ref-type="ref">2015</xref>; Li, Gao, et al., <xref rid="pld3299-bib-0030" ref-type="ref">2016</xref>; Wang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0054" ref-type="ref">2014</xref>; Zhang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0060" ref-type="ref">2013</xref>). Moreover, the role of a few miRNAs has been analyzed in regulating cell growth and division during seed development in legumes (Bandyopadhyay et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0003" ref-type="ref">2016</xref>; Song et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0049" ref-type="ref">2011</xref>).</p><p>Chickpea being the second most cultivated legume crop world&#x02010;wide, understanding of seed development and seed size/weight traits is important to provide a foundation for its improvement. Recently, transcriptome analysis during seed development in two chickpea cultivars with contrasting seed size/weight suggested that extended period of cell division at late&#x02010;embryogenesis and high level of endoreduplication at mid&#x02010;maturation stages are the possible factors that determine large seed size/weight in chickpea (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>). Although miRNAs and their targets have been analyzed in different tissues/organs (mostly vegetative) in chickpea (Jain et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0016" ref-type="ref">2014</xref>; Khandal et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0018" ref-type="ref">2017</xref>; Khemka et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0019" ref-type="ref">2016</xref>; Srivastava et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0050" ref-type="ref">2015</xref>), their analysis during seed development and role in seed size/weight determination remains to be explored.</p><p>In this study, we sought to analyze the role of miRNAs in seed development and seed size/weight determination using a small&#x02010;seeded (Himchana 1) and a large&#x02010;seeded (JGK 3) chickpea cultivar. Small RNAs (smRNAs) from seven successive stages of seed development and leaf tissue were sequenced from both the cultivars. Several known and novel miRNAs were identified and their differential expression at different stage(s) of seed development within and between the cultivars was determined. To understand the influence of miRNAs on gene regulation, the correlation between expression and/or differential expression of miRNAs with their target genes was analyzed. The sets of co&#x02010;expressed miRNAs and their functional relevance in seed size/weight determination were also interrogated. Further, we investigated the role of miRNAs in regulating sets of genes encoding transcription factors and genes located within known quantitative trait loci (QTLs) associated with seed size/weight determination. Overall, we provide a comprehensive analysis of miRNAs and revealed their roles in seed development and seed size/weight determination in chickpea.</p></sec><sec sec-type="materials-and-methods" id="pld3299-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="pld3299-sec-0003"><label>2.1</label><title>Plant materials and RNA isolation</title><p>Seeds at different stages of development (S1&#x02013;S7) in a small&#x02010;seeded (Himchana 1) and a large&#x02010;seeded (JGK 3) chickpea (<italic>Cicer arietinum</italic> L.) cultivar were collected from the field&#x02010;grown plants as described in the previous study (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>). Seeds from 5 to 40&#x000a0;days after pollination (DAP), representing S1&#x02013;S7 stages, along with mature leaves were collected from both cultivars. These stages of seed development represent, early embryogenesis (S1), mid&#x02010;embryogenesis (S2), late&#x02010;embryogenesis (S3) early maturation (S4), mid&#x02010;maturation (S5), late&#x02010;maturation (S6), and just before dry (S7) as described previously (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>). Total RNA was extracted from two biological replicates of these tissues/samples using TRI reagent (Sigma Life Science) as described (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>).</p></sec><sec id="pld3299-sec-0004"><label>2.2</label><title>Library preparation, sequencing, and data preprocessing</title><p>SmRNA libraries were prepared using TrueSeq Small RNA Sample Prep Kit (Illumina Technologies) as per the manufacturer's instructions. Each smRNA library was sequenced on the Illumina platform to generate 50 nt long single&#x02010;end reads. The sequencing data obtained in FASTQ files were used for further processing. Cutadapt was used to remove adapter sequences (Martin,&#x000a0;<xref rid="pld3299-bib-0035" ref-type="ref">2011</xref>). Quality of reads was verified using qrqc package (<ext-link ext-link-type="uri" xlink:href="http://github.com/vsbuffalo/qrqc">http://github.com/vsbuffalo/qrqc</ext-link>) in R Bioconductor. FASTQ format reads were converted to FASTA format and redundant reads were merged for further processing. The high&#x02010;quality non&#x02010;redundant set of reads were used for miRNA identification in each sample.</p></sec><sec id="pld3299-sec-0005"><label>2.3</label><title>Identification of known and novel miRNAs</title><p>To identify miRNAs, we used a plant&#x02010;specific miRNA prediction tool miRDeep&#x02010;P2, which follows updated guidelines for plant miRNA identification (Axtell &#x00026; Meyers,&#x000a0;<xref rid="pld3299-bib-0001" ref-type="ref">2018</xref>; Kuang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0021" ref-type="ref">2019</xref>). In this pipeline, smRNAs mapping to structural RNAs and length other than 20&#x02013;24 nt were removed. We used miRDeep&#x02010;P2 with rpm&#x000a0;=&#x000a0;1 with kabuli chickpea genome (v1) as a reference to identify miRNAs in each sample. After the prediction of miRNAs in each sample, only the miRNAs with an average rpm of &#x02265;10 in the biological replicates of each sample were retained for further analyses. The predicted miRNAs were mapped to the pmiREN database (Guo et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0014" ref-type="ref">2020</xref>; downloaded on June 30, 2020) for known miRNAs annotation using Bowtie (v1.1.2) allowing one mismatch. The miRNAs that did not map to known miRNAs were considered as novel miRNAs. The novel miRNAs were designated as Car&#x02010;novmiR1 to Car&#x02010;novmiR243.</p></sec><sec id="pld3299-sec-0006"><label>2.4</label><title>Target prediction and functional annotation</title><p>Putative targets of miRNAs were predicted using psRNATarget (v2) webserver with an expectation (e) cut&#x02010;off of 3 (Dai et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0009" ref-type="ref">2018</xref>). The transcriptome assembly generated from RNA&#x02010;seq data of different stages of seed development (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>) was used for the prediction of putative targets of identified miRNAs. GO enrichment analysis of target genes was performed using BiNGO plug&#x02010;in of Cytoscape (v3.4) (Maere et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0034" ref-type="ref">2005</xref>). EuKaryotic Orthologous Groups (KOG) based classification of target genes was performed using COGNITOR (Tatusov et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0052" ref-type="ref">2000</xref>).</p></sec><sec id="pld3299-sec-0007"><label>2.5</label><title>Differential expression analysis of miRNAs</title><p>The number of reads representing unique miRNAs was obtained from the sequencing data for each sample. The read count was normalized using the DESeq2 package (Love et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0032" ref-type="ref">2014</xref>) in R for all the samples together and the expression level of each miRNA was determined. Differential expression of miRNAs between the same stages of seed development across the cultivars was performed using the DESeq2 package. The miRNAs showing at least two&#x02010;fold differential expression with corrected <italic>P</italic>&#x000a0;&#x02264; 0.05 estimated using nbinomWaldTest were considered as differentially expressed miRNAs.</p></sec><sec id="pld3299-sec-0008"><label>2.6</label><title>Co&#x02010;expression network analysis and construction of co&#x02010;expressed modules</title><p>Co&#x02010;expression network analysis was performed using WGCNA (Weighted Gene Co&#x02010;expression Network Analysis) package in R (Langfelder &#x00026; Horvath,&#x000a0;<xref rid="pld3299-bib-0024" ref-type="ref">2008</xref>). The normalized expression values of miRNAs obtained from DESeq2 were used as input for co&#x02010;expression analysis. To identify modules, Pearson's correlation coefficient for all miRNAs in all the samples was calculated and an adjacency matrix was generated by raising correlation to a power &#x003b2;. The &#x003b2; value of 16 was selected based on the scale&#x02010;free topology criterion as described (Langfelder &#x00026; Horvath,&#x000a0;<xref rid="pld3299-bib-0024" ref-type="ref">2008</xref>). The miRNAs were clustered using the degree of overlap with shared neighbors between them. A clustering tree (dendrogram) was created based on average linkage hierarchical clustering using the dynamic tree&#x02010;cutting algorithm. Each branch of the tree represented a module and modules with at least five miRNAs were considered and assigned a color code. The miRNAs included in each module and their target mRNAs were subjected to further analysis.</p></sec><sec id="pld3299-sec-0009"><label>2.7</label><title>Identification of miRNAs in QTLs</title><p>Genomic coordinates of known QTLs for seed size/weight and associated genes available in the previous studies (Bajaj et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0002" ref-type="ref">2015</xref>; Das et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0010" ref-type="ref">2014</xref>; Kujur et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0022" ref-type="ref">2015</xref>; Saxena et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0046" ref-type="ref">2014</xref>; Singh et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0048" ref-type="ref">2016</xref>; Verma et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0053" ref-type="ref">2015</xref>), were used. We intersected the genomic position of miRNAs and their target genes with QTL genomic coordinates using bedtools to identify QTL&#x02010;associated miRNAs and/or target genes.</p></sec><sec id="pld3299-sec-0010"><label>2.8</label><title>Validation of miRNA differential expression</title><p>To validate the expression profile of miRNAs, we selected miRNAs that showed differential expression between JGK 3 and Himchana 1 at S3 and/or S5 stages of seed development based on the smRNA&#x02010;seq data. The expression levels of miRNAs at S3 and S5 stages of seed development in JGK 3 and Himchana 1 cultivars were analyzed via RT&#x02010;qPCR as described previously (Jain et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0016" ref-type="ref">2014</xref>). Total RNA was isolated from these seed tissue samples using TRIzol reagent (Thermo Fisher Scientific, USA). The total RNA samples were quantified using NanoDrop Spectrophotometer (NanoDrop Technologies) and their quality was assessed based on absorbance ratios of 260/280 and 260/230. The miRNA&#x02010;specific stem&#x02010;loop RT and forward primers, and a universal reverse primer from stem&#x02010;loop region were designed (Table&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S1</xref>). About 50&#x000a0;ng of total RNA was used to perform reverse transcription with the help of stem&#x02010;loop RT primer for each miRNA using mirVana&#x02122; qRT&#x02010;PCR miRNA Detection Kit (Thermo Fisher Scientific) as per manufacturer's recommendations for three biological replicates of each sample. To quantify the expression of each miRNA, qPCR reactions were performed in three technical replicates using cDNA along with miRNA&#x02010;specific forward and universal reverse primers using Fast SYBR Green Master Mix (Thermo Fisher Scientific). The relative expression levels of each miRNA in the chickpea cultivars were determined as described previously (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>).</p></sec></sec><sec sec-type="results" id="pld3299-sec-0011"><label>3</label><title>RESULTS</title><sec id="pld3299-sec-0012"><label>3.1</label><title>Small RNA sequencing during seed development in chickpea cultivars</title><p>We sequenced smRNAs from seven successive stages of seed development and leaves from a small&#x02010;seeded (Himchana 1 with seed weight of 13.1&#x000a0;&#x000b1;&#x000a0;0.15&#x000a0;g per 100 seeds) and a large&#x02010;seeded (JGK 3 with seed weight of 53.3&#x000a0;&#x000b1;&#x000a0;1.48&#x000a0;g per 100 seeds) chickpea cultivar. The stages of seed development included embryogenesis (S1&#x02013;S3), mid&#x02010;maturation (S4 and S5), and late&#x02010;maturation (S6 and S7) stages as described earlier (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>). In total, about 1 billion raw reads were obtained after sequencing representing an average of 34 million raw reads for each sample (Table&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S2</xref>). About 70% of the total reads of different lengths were obtained after removing low&#x02010;quality reads and those with adapter contamination (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S1</xref>). The high&#x02010;quality filtered reads were made non&#x02010;redundant, which represented smRNAs (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S2</xref>a). We detected highest fraction of 24&#x02010;nt smRNAs in all the samples analyzed (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S2</xref>b) as reported in previous studies (Jain et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0016" ref-type="ref">2014</xref>; Liu et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0031" ref-type="ref">2014</xref>; Ma et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0033" ref-type="ref">2018</xref>).</p></sec><sec id="pld3299-sec-0013"><label>3.2</label><title>Identification and analysis of miRNAs during seed development</title><p>To identify miRNAs, 20&#x02013;24 nt smRNA sequences from each sample were processed using miRDeep&#x02010;P2 (Kuang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0021" ref-type="ref">2019</xref>). A total of 445 unique miRNAs were detected in all the samples. We found a high correlation (Pearson correlation coefficient of 0.82&#x02013;0.93 except for S5 in Himchana 1 with a correlation value of 0.71) between the biological replicates of each sample (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S3</xref>). To remove low&#x02010;confidence miRNAs, we retained only the miRNAs represented by an average of at least 10&#x000a0;rpm (reads per million) in the biological replicates of each stage. Overall, a total of 356 high&#x02010;confidence miRNAs, including 113 known and 243 novel miRNAs were identified in all the samples (Figure&#x000a0;<xref rid="pld3299-fig-0001" ref-type="fig">1a</xref>, Table&#x000a0;<xref rid="pld3299-sup-0002" ref-type="supplementary-material">S3</xref>). The total number of miRNAs identified was 288 in Himchana 1 and 266 in JGK 3 (Figure&#x000a0;<xref rid="pld3299-fig-0001" ref-type="fig">1a</xref>). Majority (88%) of known miRNAs were expressed commonly in both the cultivars at different stages of seed development (Figure&#x000a0;<xref rid="pld3299-fig-0001" ref-type="fig">1a</xref>, Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S4</xref>a). However, majority (66% in JGK 3 and 58% in Himchana 1) of novel miRNAs were cultivar&#x02010;specific, largest being at the S5 stage (Figure&#x000a0;<xref rid="pld3299-fig-0001" ref-type="fig">1a</xref>, Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S4</xref>b). Further, expression profiles of all known and novel miRNAs revealed tissue/stage&#x02010;specific expression pattern of a large number of miRNAs within each cultivar (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S5</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="pld3299-fig-0001" orientation="portrait" position="float"><label>FIGURE 1</label><caption><p>Number of identified miRNAs and their size distribution during various stages of seed development in the chickpea cultivars. (a) Number of total, known, and novel miRNAs identified in JGK 3 and Himchana 1. (b) Length and 5&#x02019;&#x02010;end base distribution in the identified miRNAs. (c, d) Size (20&#x02013;22 nt) distribution of known and novel miRNAs identified in leaf and stages of seed development (S1&#x02013;S7) in Himchana 1 (c) and JGK 3 (d)</p></caption><graphic id="nlm-graphic-1" xlink:href="PLD3-5-e00299-g006"/></fig><p>Most (64.6%) of identified miRNAs were of 21&#x02010;nt length, while 20 nt (17.1%) and 22 nt (18.3%) long miRNAs represented a smaller fraction (Figure&#x000a0;<xref rid="pld3299-fig-0001" ref-type="fig">1b&#x02010;d</xref>). About 80% of the miRNAs were found to be originated from intergenic regions and remaining 20% from the genic regions (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S6</xref>a). To gain more insights into structural and functional aspects of miRNAs, we determined nucleotide base at their 5&#x02019;&#x02010;end (Figure&#x000a0;<xref rid="pld3299-fig-0001" ref-type="fig">1b</xref>). We found that majority (55%) of miRNAs harbored uracil at 5&#x02019;&#x02010;end, while&#x000a0;~&#x000a0;19% miRNAs had adenine at their 5&#x02019;&#x02010;end (Figure&#x000a0;<xref rid="pld3299-fig-0001" ref-type="fig">1b</xref>). It has been suggested that miRNAs with 5&#x02019;&#x02010;uracil exhibit higher affinity for AGO1, which is involved in the cleavage of transcripts (Borges &#x00026; Martienssen,&#x000a0;<xref rid="pld3299-bib-0005" ref-type="ref">2015</xref>). However, siRNAs harboring adenine at 5&#x02019;&#x02010;end exhibit greater affinity for AGO4 that result in gene repression via DNA methylation (Borges &#x00026; Martienssen,&#x000a0;<xref rid="pld3299-bib-0005" ref-type="ref">2015</xref>; Mi et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0037" ref-type="ref">2008</xref>). The higher fraction (~19%) of miRNAs harboring adenine at the 5&#x02019;&#x02010;end in chickpea as compared to that reported in Arabidopsis (~7&#x02013;8%; Mi et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0037" ref-type="ref">2008</xref>) may represent a species&#x02010;specific feature, which needs to be investigated further. These results suggest that miRNAs identified in this study might be involved in gene regulation via post&#x02010;transcriptional gene silencing (PTGS) and/or RNA&#x02010;directed DNA methylation (RdDM) pathway(s) during seed development in chickpea.</p><p>Next, we analyzed features of miRNAs, including GC content and minimum free energy (MFE) that may determine their secondary structure. The GC content was about 30&#x02013;40% in the identified miRNAs (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S6</xref>b). A similar proportion of GC content was found in miRNAs detected from vegetative organs in chickpea (Jain et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0016" ref-type="ref">2014</xref>). Moreover, most of the predicted miRNAs showed low MFE, suggesting their high stability (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S6</xref>c). About 21% of miRNAs identified in this study were found to be conserved between seed stages and vegetative tissues/organs reported in previous studies (Jain et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0016" ref-type="ref">2014</xref>; Srivastava et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0050" ref-type="ref">2015</xref>). A comparative analysis revealed that a small fraction (&#x0003c;10%) of chickpea miRNAs were conserved in other plant species (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S7</xref>). The low level of conservation may be due to the adoption of stringent criteria for the identification of miRNAs according to the new guidelines (Axtell &#x00026; Meyers,&#x000a0;<xref rid="pld3299-bib-0001" ref-type="ref">2018</xref>) in our study.</p><p>The members of miRNA167, miR319, miR399, miR156, and miR172 families had greater representation among all the known miRNA families detected (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S8</xref>). The role of some of these miRNAs during seed development has been reported in previous studies (Chen,&#x000a0;<xref rid="pld3299-bib-0006" ref-type="ref">2009</xref>; Rodrigues &#x00026; Miguel,&#x000a0;<xref rid="pld3299-bib-0043" ref-type="ref">2017</xref>).</p></sec><sec id="pld3299-sec-0014"><label>3.3</label><title>miRNA targets and their functional annotation</title><p>Putative targets of miRNAs were predicted using the psRNATarget web&#x02010;server (Dai et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0009" ref-type="ref">2018</xref>). In total, 3,571 unique transcripts (genes hereafter) were identified as the targets of 354 miRNAs. About 96% (341) miRNAs targeted more than one gene resulting in the identification of 5,475 miRNA&#x02010;target gene pairs, whereas only 4% (13) miRNAs were found to target a single gene (Figure&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S9</xref>, Table&#x000a0;<xref rid="pld3299-sup-0003" ref-type="supplementary-material">S4</xref>). We analyzed the enrichment of gene ontology (GO) terms among the genes targeted by miRNAs. GO terms, including embryonic/post&#x02010;embryonic development, cell morphogenesis/differentiation, tissue development, transport, and response to stimuli, were most significantly enriched among the target genes (Figure&#x000a0;<xref rid="pld3299-fig-0002" ref-type="fig">2a</xref>). KOG analysis revealed higher representation of genes involved in post&#x02010;translational modification, signal transduction, transcription, carbohydrate transport, and metabolism among the target genes (Table&#x000a0;<xref rid="pld3299-sup-0001" ref-type="supplementary-material">S5</xref>). Interestingly, at least 336 genes encoding for transcription factors were identified as targets of miRNAs, and <italic>MYB</italic>, <italic>AP2&#x02010;EREBP</italic>, <italic>bHLH</italic>, <italic>HB</italic>, <italic>SPL, ARF</italic> and <italic>NAC</italic> families were found to be most represented (Figure&#x000a0;<xref rid="pld3299-fig-0002" ref-type="fig">2c</xref>). Moreover, homologs of known seed size/weight regulators genes, such as <italic>SHB1, HAIKU1, BIGSEED1, E2Fa/b, KLUH/CYP78A5,</italic> and <italic>LACCASE</italic> were also represented among the identified miRNA target genes.</p><fig fig-type="FIGURE" xml:lang="en" id="pld3299-fig-0002" orientation="portrait" position="float"><label>FIGURE 2</label><caption><p>Functional annotation of miRNA target genes. (a) Top 10 enriched biological process and molecular function gene ontology (GO) terms associated with the targets of miRNAs. Left panel represents <italic>P&#x02010;</italic>value of enrichment and right panel represents the fraction of targets for each biological process and molecular function GO term. (b) Distribution of various transcription factor families represented among the predicted target genes is given</p></caption><graphic id="nlm-graphic-3" xlink:href="PLD3-5-e00299-g004"/></fig><p>To analyze the influence of miRNAs on target gene expression, we determined the correlation between the expression of miRNAs with their target genes in both chickpea cultivars. Majority (&#x0003e;55%) of miRNA&#x02010;mRNA pairs showed a negative correlation in both the cultivars (Figure&#x000a0;<xref rid="pld3299-fig-0003" ref-type="fig">3a</xref>, Table&#x000a0;<xref rid="pld3299-sup-0003" ref-type="supplementary-material">S4</xref>), suggesting that miRNAs negatively regulate target gene expression. We selected the pairs of miRNAs and their target genes that exhibited a negative correlation (&#x02264;&#x02212;0.25). This set of miRNAs and their target gene pairs represented about 35% of the total miRNAs and their target genes. The target genes in these pairs that showed differential expression between the two cultivars revealed a significant enrichment of GO terms, such as anatomical structure development, post&#x02010;embryonic development, seed development along with cell division related processes (Figure&#x000a0;<xref rid="pld3299-fig-0003" ref-type="fig">3b</xref>), while target genes involved in cell proliferation, cell cycle and cell maturation were enriched in a cultivar&#x02010;specific manner. These results suggest miRNA&#x02010;mediated differential regulation of target genes involved in seed development&#x02010;related biological processes in the two chickpea cultivars.</p><fig fig-type="FIGURE" xml:lang="en" id="pld3299-fig-0003" orientation="portrait" position="float"><label>FIGURE 3</label><caption><p>Correlation of expression of miRNAs and their target genes. (a) Density plot showing correlation between expression levels of miRNAs and their target genes in Himchana 1 and JGK 3. The solid straight line represents a negative correlation value of &#x02264;&#x02212;0.25. (b) Enriched GO (biological process) terms among the target genes showing negative correlation (&#x02264;&#x02212;0.25) with miRNA expression in the two chickpea cultivars. The enriched GO terms for up&#x02010; and down&#x02010;regulated genes in Himchana 1 and JGK 3 are shown separately. The color scale and values in the colored boxes represent <italic>P&#x02010;</italic>value of enrichment</p></caption><graphic id="nlm-graphic-5" xlink:href="PLD3-5-e00299-g005"/></fig></sec><sec id="pld3299-sec-0015"><label>3.4</label><title>Differential expression of miRNAs between the chickpea cultivars</title><p>To understand the role of miRNAs in determining seed size/weight, we estimated the differential expression of miRNAs between the two chickpea cultivars at all the stages of seed development analyzed. In total, 33 miRNAs were found to be differentially expressed between the two cultivars at all the seed development stages (Figure&#x000a0;<xref rid="pld3299-fig-0004" ref-type="fig">4a</xref>). Majority (23) of them were detected at the S5 stage. However, 1&#x02013;11 miRNAs exhibited differential expression at other stages. Differentially expressed miRNAs included members of miR156, miR167, miR170, and miR319 families, which are known to regulate seed development and reproductive processes in various plants (Rodrigues &#x00026; Miguel,&#x000a0;<xref rid="pld3299-bib-0043" ref-type="ref">2017</xref>). At least 10 novel miRNAs were found to be differentially expressed between the two cultivars. Interestingly, genes encoding transcription factors belonging to <italic>SPL, ARF, HB,</italic> and <italic>MYB</italic> families were found to be the targets of many of these differentially expressed miRNAs between the cultivars.</p><fig fig-type="FIGURE" xml:lang="en" id="pld3299-fig-0004" orientation="portrait" position="float"><label>FIGURE 4</label><caption><p>Differentially expressed miRNAs between JGK 3 and Himchana 1 and their targets. (a) Number of differentially expressed miRNAs between Himchana 1 and JGK 3 at each stage of seed development. (b) Boxplot showing expression of genes that are targeted by differentially expressed (upregulated and downregulated) miRNAs. (c) Enriched GO (biological process) terms in the target genes of differentially expressed miRNAs at each stage of seed development. Differential expression (up or down&#x02010;regulation) in JGK 3 at different stages of seed development are given on the top of each column. The color scale and values in the colored boxes represent <italic>P&#x02010;</italic>value of enrichment. (d) Number of differentially expressed miRNAs and their differentially expressed target genes in stages of seed development showing positive and antagonistic correlation. (e) Heatmap showing the differential expression of miRNAs and their target genes at the given stage (indicated on the right). The values in colored boxes (green, up&#x02010;regulated, and red, down&#x02010;regulated) represent a fold&#x02010;change expression of miRNAs and their target genes between the cultivars</p></caption><graphic id="nlm-graphic-7" xlink:href="PLD3-5-e00299-g001"/></fig><p>Additionally, we compared the differential expression of target genes vis&#x02010;&#x000e0;&#x02010;vis their corresponding miRNAs between the cultivars (JGK 3/Himchana 1) at each stage of seed development analyzed. An antagonistic correlation was observed for a larger fraction of miRNAs (Figure&#x000a0;<xref rid="pld3299-fig-0004" ref-type="fig">4b</xref>), i.e., targets of up&#x02010;regulated (higher expression) miRNAs in JGK 3 showed lower expression in JGK 3 as compared to Himchana 1 and vice versa (Figure&#x000a0;<xref rid="pld3299-fig-0004" ref-type="fig">4b</xref>). GO analysis of target genes of differentially expressed miRNAs between the two cultivars revealed a significant enrichment of specific terms, including cell division, cell differentiation, embryonic/post&#x02010;embryonic development along with seed development processes (Figure&#x000a0;<xref rid="pld3299-fig-0004" ref-type="fig">4c</xref>). Interestingly, the target genes of down&#x02010;regulated miRNAs in JGK 3 as compared to Himchana 1, showed a significant enrichment of functional terms, including cell cycle and cell/nuclear division at S3 and/or S5 stage(s) (Figure&#x000a0;<xref rid="pld3299-fig-0004" ref-type="fig">4c</xref>). GO terms related to seed development, including post&#x02010;embryonic development, cell differentiation were enriched at many of the seed stages (Figure&#x000a0;<xref rid="pld3299-fig-0004" ref-type="fig">4c</xref>). This suggested miRNA&#x02010;mediated differential regulation of these biological processes during seed development in the chickpea cultivars, which might be involved in the determination of seed size/weight too.</p><p>Further, we analyzed the influence of miRNA expression on differential expression of their target genes between the cultivars. A total of 31 miRNA&#x02010;target gene pairs (69%) among the differentially expressed miRNAs and their differentially expressed target genes exhibited antagonistic correlation (Figure&#x000a0;<xref rid="pld3299-fig-0004" ref-type="fig">4d</xref>). In the above set, 22 miRNA&#x02010;mRNA pairs exhibited the down&#x02010;regulation of miRNAs and higher expression of their target genes at stage(s) of seed development in JGK 3. For the remaining nine miRNA&#x02010;mRNA pairs, upregulation of miRNAs and down&#x02010;regulation of their respective target genes in JGK 3 was observed (Figure&#x000a0;<xref rid="pld3299-fig-0004" ref-type="fig">4e</xref>). Among the 31 target genes represented in these pairs, the genes encoding transcription factors, signaling proteins, and metabolic enzymes were included. Interestingly, the transcription factors belonging to bZIP and homeobox&#x02010;<italic>REVOLUTA</italic> families were included. These transcription factors showed upregulation in JGK 3 cultivar, whereas their corresponding miRNAs such as Car&#x02010;miR319 and Car&#x02010;miR166 family members were expressed at lower levels in JGK 3. This observation suggests the possible role of miRNA&#x02010;mediated regulation of <italic>bZIP</italic> and <italic>REVOLUTA</italic> family of transcription factors in determining seed size/weight in chickpea.</p></sec><sec id="pld3299-sec-0016"><label>3.5</label><title>Co&#x02010;expression network and modules of miRNAs involved in seed development</title><p>To gain more insights into miRNA&#x02010;mediated regulation of seed development and seed size/weight determination, we identified sets of miRNAs co&#x02010;expressed at a specific stage and/or with similar expression patterns at one or more stages of seed development via WGCNA using the whole miRNA dataset. In total, 24 co&#x02010;expressed modules were identified based on the dynamic tree cut algorithm, and were assigned with different colors (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5a</xref>). The number of miRNAs ranged from 5 (red) to 38 (turquoise) in different modules (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5b</xref>). The expression pattern of miRNAs in modules revealed stage&#x02010;specific or cultivar&#x02010;specific expression of several miRNAs. For example, brown and black modules were cultivar&#x02010;specific; miRNAs in these modules were specifically expressed at the S4 stage in Himchana 1 and JGK 3, respectively. However, the miRNAs clustered in the dark green module were expressed in both the cultivars at the S4 stage. Some modules showed broader expression pattern at multiple stages of seed development, such as miRNAs in cyan and gery60 modules were found to be expressed at early and mid&#x02010;embryogenesis (S1&#x02013;S3) stages in both the cultivars (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5b</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="pld3299-fig-0005" orientation="portrait" position="float"><label>FIGURE 5</label><caption><p>Co&#x02010;expression network and stage&#x02010;specificity of miRNAs modules, and GO enrichment analysis. (a) Dendrogram showing the hierarchical clustering of miRNAs based on co&#x02010;expression network analysis. The color rows below the dendrogram indicate module membership. (b) Heatmap showing stage&#x02010;specificity of co&#x02010;expressed miRNA modules based on their eigengene expression values. The colors on the left represent different modules. (c) Bar&#x02010;plot of the modules exhibiting opposite eigengene expression pattern at S3 or S5 stages of seed development between Himchana 1 (HS3/HS5) and JGK 3 (JS3/JS5) cultivars. (d) Heatmap showing expression profiles of miRNAs (included in the modules shown in c) at S3 and S5 stages in the two cultivars. (e) Heatmaps showing expression profiles of the selected miRNAs at S3 and S5 stages of seed development in JGK 3 and Himchana 1 chickpea cultivars based on the smRNA&#x02010;seq (left) and RT&#x02010;qPCR (right) methods. Correlation between the expression values obtained in smRNA&#x02010;seq and RT&#x02010;qPCR data is given in the middle. (f,g) Enriched GO (biological process) terms among the targets of miRNAs included in modules showing opposite eigengene expression pattern at S3 (f) and S5 (g) stages. The color scale and values in the colored boxes represent <italic>P&#x02010;</italic>value of enrichment</p></caption><graphic id="nlm-graphic-9" xlink:href="PLD3-5-e00299-g002"/></fig><p>In our previous study, we found that late&#x02010;embryogenesis (S3) and mid&#x02010;maturation(S5) stages are most crucial for determining seed size/weight in chickpea (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>). We identified four modules showing a significant difference in expression patterns of miRNAs between the two cultivars at S3 and/or S5 stage(s) for further analyses (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5c</xref>). Among them, dark red and pink modules showed higher expression at the S3 stage in JGK 3. In contrast, two modules (green and dark green) exhibited lower expression at the S3 stage in JGK 3 (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5c&#x02010;d</xref>). At the S5 stage, modules (light cyan and turquoise) showed lower expression in JGK 3, whereas modules (purple and dark red) showed higher expression at the S5 stage in JGK 3 (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5c&#x02010;d</xref>).</p><p>We validated the differential expression of at least five randomly selected miRNAs between JGK 3 and Himchana 1 at S3 and S5 stages of seed development via RT&#x02010;qPCR. Most of the miRNAs showed a good correlation between smRNA&#x02010;seq and RT&#x02010;qPCR based expression levels (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5e</xref>).</p><p>Further, GO enrichment of target genes of miRNAs included in these modules revealed their involvement in various developmental processes (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5f, g</xref>). The target genes of miRNAs included in the pink module were enriched in the cell differentiation process GO term (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5f</xref>). This suggests that these miRNAs may play a role in seed development and determination of seed size/weight. Delayed differentiation at embryonic stages is one of the crucial factors for determining larger seed size/weight (Zhou et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0062" ref-type="ref">2009</xref>). In addition, miRNAs included in dark red module targeted the genes involved in cell wall modification. This may be another probable reason for bigger seed size/weight in JGK 3 via limiting the mechanical resistance of the cell wall (Zhang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0060" ref-type="ref">2013</xref>). Green module miRNAs were downregulated in JGK 3 at the S3 stage and were found to target genes involved in the regulation of the cell cycle, auxin&#x02010;mediated signaling pathway, and biomolecule synthetic pathway, which were upregulated at the S3 stage in JGK 3. These results suggest the possibility of the activation of genes involved in cell cycle processes due to the downregulation of their cognate miRNAs in JGK 3. This observation is in agreement with our previous study, which showed that higher degree of cell division at the S3 stage is associated with large seed size (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>).</p><p>Further, we analyzed the enrichment of GO terms among target genes of miRNAs showing opposite expression pattern between JGK 3 and Himchana 1 at the S5 stage (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5g</xref>). Targets of miRNAs in these modules showed the enrichment of organ growth and cell proliferation terms, suggesting that growth/proliferation may be negatively regulated by miRNAs in Himchana 1 (Figure&#x000a0;<xref rid="pld3299-fig-0005" ref-type="fig">5g</xref>). Our previous study suggested higher level of endoreduplication, grain filling, and cell expansion at the S5 stage as the probable reasons for larger seed size/weight in JGK 3 (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>).</p></sec><sec id="pld3299-sec-0017"><label>3.6</label><title>miRNAs and their target genes located in QTLs</title><p>QTLs are the genomic loci that are associated with phenotype of an organism and harbor important genes or molecular signatures that govern agronomic traits. To identify candidate miRNAs and/or their target genes important for seed size/weight determination, we analyzed the set of miRNAs and their targets genes located within the known QTLs associated with seed size/weight. Interestingly, a total of 40 miRNAs and 472 target genes were found to be located within the known seed size/weight associated QTLs (Table&#x000a0;<xref rid="pld3299-sup-0004" ref-type="supplementary-material">S6</xref>). Among them, genes encoding for transcription factors, such as <italic>SPL</italic>, <italic>HB</italic>, <italic>GRF, TCP,</italic> and <italic>AP2,</italic> were included. Further, 19 miRNAs known to be involved in seed development or exhibiting differential expression at S3 and/or S5 stages between the two cultivars were located within the known QTLs (Figure&#x000a0;<xref rid="pld3299-fig-0006" ref-type="fig">6a</xref>). These included members of miR156, miR159, miR160, miR170, and miR1511 families, along with several novel miRNAs. The target genes of these miRNAs were enriched in GO terms, such as seed development, cell division, cell differentiation, developmental process, regulation of transcription, biosynthetic processes, along with different signaling pathways (Figure&#x000a0;<xref rid="pld3299-fig-0006" ref-type="fig">6b</xref>). Among the QTL originated miRNAs, 15 of them targeted at least 41 genes located within the same or other QTL(s) (Figure&#x000a0;<xref rid="pld3299-fig-0006" ref-type="fig">6a,c</xref>,d). Interestingly, known genes involved in seed development and size/weight determination, such as <italic>ARF, SBP, MYB</italic>, tetratricopeptide repeat (TPR), leucine&#x02010;rich repeat (LRR) protein, TIR&#x02010;NBS&#x02010;LRR proteins, and early nodulin&#x02010;like protein 2, were found to be targeted by these miRNAs (Figure&#x000a0;<xref rid="pld3299-fig-0006" ref-type="fig">6c,d</xref>). In addition, genes with unknown function were also included among the targets of these miRNAs. These results suggest plausible role of miRNAs in regulating candidate genes involved in biosynthetic processes and organ development, which eventually may determine seed size/weight in chickpea cultivars.</p><fig fig-type="FIGURE" xml:lang="en" id="pld3299-fig-0006" orientation="portrait" position="float"><label>FIGURE 6</label><caption><p>miRNAs and their target genes located in the known seed size/weight associated QTLs. (a) Heatmap showing expression of miRNAs located within the known seed size/weight associated QTLs and exhibit differential expression between S3 and/or S5 stages of chickpea cultivars. (b) Enriched biological process GO terms among the targets of QTLs located miRNAs shown in (a). (c) The network of miRNAs (red triangles) given in (a) and their targets (green ovals) are shown. (d) Heatmap showing expression profile of the target genes of the QTL located miRNAs along with their annotation. The color scales shown in (a) and (d) represent Z&#x02010;score determined based on the normalized expression values of miRNAs and target genes, respectively</p></caption><graphic id="nlm-graphic-11" xlink:href="PLD3-5-e00299-g003"/></fig></sec></sec><sec sec-type="discussion" id="pld3299-sec-0018"><label>4</label><title>DISCUSSION</title><p>MiRNAs are important regulators of gene expression in plants and animals. The role of miRNAs during seed development has been interrogated via genome&#x02010;wide approach in some model/crop plants (Li, Liu, et al., <xref rid="pld3299-bib-0027" ref-type="ref">2016</xref>; Nodine &#x00026; Bartel,&#x000a0;<xref rid="pld3299-bib-0039" ref-type="ref">2010</xref>; Peng et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0040" ref-type="ref">2014</xref>; Xue et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0058" ref-type="ref">2009</xref>). However, the roles of miRNAs in chickpea seed development have not been analyzed yet. In this study, we analyzed the role of miRNAs in chickpea seed development and seed size/weight determination via analyzing high&#x02010;throughput smRNA sequencing data obtained from a small&#x02010;seeded and a large&#x02010;seeded chickpea cultivar. We used the major landmark seed development stages along with high sequencing depth to provide a comprehensive list and expression profiling of high&#x02010;confidence known and novel miRNAs at different stages of seed development in chickpea.</p><p>The miRNAs have been demonstrated to play a significant role during seed development in plants (Rodrigues &#x00026; Miguel,&#x000a0;<xref rid="pld3299-bib-0043" ref-type="ref">2017</xref>). Functional analysis of miR156 revealed its important role during embryogenesis in Arabidopsis via regulating <italic>SPL</italic> (Nodine &#x00026; Bartel,&#x000a0;<xref rid="pld3299-bib-0039" ref-type="ref">2010</xref>) and grain filling associated with seed size/weight determination in rice (Wang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0055" ref-type="ref">2012</xref>). miR156 was also identified and shown to target <italic>SPL</italic> during seed development in soybean, maize, barley, and wheat (Curaba et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0007" ref-type="ref">2012</xref>; Li, Liu, et al., <xref rid="pld3299-bib-0027" ref-type="ref">2016</xref>; Meng et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0036" ref-type="ref">2013</xref>; Shamimuzzaman &#x00026; Vodkin,&#x000a0;<xref rid="pld3299-bib-0047" ref-type="ref">2012</xref>), suggesting the conserved roles of miR156 in seed development across diverse plant species. In this study, we also found that members of the miR156 family were differentially expressed between the two chickpea cultivars. Moreover, their target <italic>SPL</italic> genes exhibited the antagonistic expression pattern between the two cultivars, suggesting the possible role of miR156 in the regulation of seed development and seed size/weight in chickpea too. The role of another transcription factor, <italic>GRF4,</italic> is well established to govern seed development and seed size/weight determination in Arabidopsis and rice (Zhang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0060" ref-type="ref">2013</xref>; Debernardi et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0011" ref-type="ref">2014</xref>; Li, Gao, et al., <xref rid="pld3299-bib-0030" ref-type="ref">2016</xref>). GRF regulates cell growth and division via activating the brassinosteroid signaling pathway (Tang &#x00026; Chu,&#x000a0;<xref rid="pld3299-bib-0051" ref-type="ref">2017</xref>). The overexpression of miR396 at embryogenesis stages was associated with smaller seed size, whereas reduced expression of miR396 resulted in larger seed size in Arabidopsis and rice (Debernardi et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0011" ref-type="ref">2014</xref>; Li, Gao, et al., <xref rid="pld3299-bib-0030" ref-type="ref">2016</xref>). In chickpea, miR396 showed higher expression at the embryonic (S1) stage of the small&#x02010;seeded cultivar as compared to large&#x02010;seeded cultivar and its target gene, <italic>GRF4,</italic> exhibited antagonistic expression pattern with respect to miRNA, i.e., greater expression in the larger&#x02010;seeded cultivar. This observation suggests a role of miR396&#x02010;GRF in seed size/weight determination in chickpea. Interestingly, miR397 has been reported to positively regulate seed yield in rice and Arabidopsis (Wang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0054" ref-type="ref">2014</xref>; Zhang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0060" ref-type="ref">2013</xref>). In these studies, over&#x02010;expression of miR397 exhibited increased seed yield via repression of <italic>LACCASE</italic> (<italic>LAC</italic>) like gene (Wang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0054" ref-type="ref">2014</xref>; Zhang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0060" ref-type="ref">2013</xref>). Higher expression of the <italic>LAC</italic> gene has been shown to accumulate higher lignin content in the cell wall (Zhang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0060" ref-type="ref">2013</xref>). Lignin provides rigidity to the cell wall and thereby may regulate seed size in smaller&#x02010;seeded cultivar showing higher expression of <italic>LAC</italic>. In chickpea, miR397 was found to be highly expressed in the large&#x02010;seeded cultivar and shown to target <italic>LAC</italic> transcript. Additionally, miR398 was found to target multiple genes, including those encoding copper ion binding proteins and transporters. miR398 has been widely studied and increased stress tolerance by modulating copper/zinc superoxide dismutase and transporter proteins in plants (Zhao et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0061" ref-type="ref">2016</xref>). In a recent study, overexpression of miR398 increased seed yield in rice (Zhang et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0059" ref-type="ref">2017</xref>).</p><p>A few conserved master regulators of seed development and seed size/weight, namely <italic>HAIKU1, SHB1, LEC, ABI3</italic> and <italic>ABI5, KLUH/CYP78A5</italic> have been identified in plants, such as Arabidopsis, rice, and soybean (Li &#x00026; Li,&#x000a0;<xref rid="pld3299-bib-0028" ref-type="ref">2016</xref>; Li et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0029" ref-type="ref">2019</xref>; Zhou et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0062" ref-type="ref">2009</xref>). Although several studies identified the roles of these regulators in seed size in plants, knowledge about the miRNA&#x02010;mediated regulation of these master regulators has remained elusive. This may be due to the non&#x02010;availability of high&#x02010;confidence large&#x02010;scale miRNA datasets from various stages of seed development in other plants. However, the possibility of the miRNA&#x02010;mediated regulation of these set of target genes specifically in chickpea can also not be ruled out. We identified homologs of <italic>HAIKU1</italic> (<italic>Ca_11517), SHB1</italic> (<italic>Ca_12109</italic>), and <italic>KLUH/CYP78A5 (Ca_18561)</italic> in chickpea, and these genes were found to be targeted by novel miRNAs Car&#x02010;novmiR61, Car&#x02010;novmiR1, and Car&#x02010;novmiR218, respectively. In addition, genes, such as <italic>E2Fa/b</italic>, <italic>GRAS,</italic> and <italic>Kinases</italic> were suggested to be involved in seed size/weight determination in chickpea based on transcriptome analysis (Garg et&#x000a0;al.,&#x000a0;<xref rid="pld3299-bib-0013" ref-type="ref">2017</xref>). We found that these genes were targeted by Car&#x02010;miR172b, Car&#x02010;miR5770, and Car&#x02010;novmiR232, respectively. It would be interesting to study their exact role in the miRNA&#x02010;mediated regulation of seed development and/or seed weight/size determination.</p><p>Genes associated with QTLs are known to govern agronomic traits. We investigated the miRNAs and their target genes located within known QTLs associated with seed size/weight. We identified several known genes involved in seed development processes, such as <italic>SPL</italic>, <italic>MYB</italic>, and <italic>ARF</italic> (Rodrigues &#x00026; Miguel,&#x000a0;<xref rid="pld3299-bib-0043" ref-type="ref">2017</xref>) originated from the known QTLs and targeted by miR156, miR159, and miR160, respectively. Interestingly, many miRNAs that targeted known seed size regulators genes were also found to be originated from these QTLs. Moreover, we detected few target genes encoding TPR domain protein, LRR repeat protein, cysteine proteinases, and early nodulin&#x02010;like protein 2, originated from QTLs that are involved in various biosynthetic processes, transport, and signaling pathways. These genes were targeted by differentially expressed miRNAs that originated from the QTLs. These target genes along with conserved seed size regulators represent important candidate genes involved in miRNA&#x02010;mediated seed size/weight determination in chickpea. These miRNAs and targets need to be investigated further for understanding the molecular mechanism underlying seed size/weight determination process.</p><p>In conclusion, we identified 356 high&#x02010;confidence miRNAs from different stages of seed development in a small&#x02010;seeded and a large&#x02010;seeded chickpea cultivar. Integration with transcriptome data of the same stages of seed development in these cultivars showed antagonistic correlation between miRNAs expression levels and/or differential expression of their target genes. Sets of co&#x02010;expressed miRNAs were detected and some of them were found to target genes involved in seed size/weight determination. Further, quite a few genes located in the known QTLs associated with seed size/weight were found to be the targets of miRNAs, suggesting their possible role in seed seed size/weight determination. Overall, our study provides new insights into the miRNA&#x02010;mediated regulation of seed development and seed size/weight determination in chickpea and provides few candidate genes for further functional analysis. In addition, miRNA data from different stages of seed development can serve as a useful resource for better understanding the biology of seed development in legumes and other crop plants.</p></sec><sec sec-type="COI-statement" id="pld3299-sec-0020"><title>CONFLICT OF INTEREST</title><p>The authors have declared no competing interests.</p></sec><sec id="pld3299-sec-0021"><title>AUTHOR CONTRIBUTION</title><p>M.J. and R.G. conceived the study and designed experiments. N.K. and M.S.R. performed the experiments and analyses. N.K. and M.J. wrote the manuscript with assistance from other authors.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="pld3299-sup-0001"><caption><p>Supplementary Material</p></caption><media xlink:href="PLD3-5-e00299-s003.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pld3299-sup-0002"><caption><p>Table S3</p></caption><media xlink:href="PLD3-5-e00299-s001.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pld3299-sup-0003"><caption><p>Table S4</p></caption><media xlink:href="PLD3-5-e00299-s002.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pld3299-sup-0004"><caption><p>Table S6</p></caption><media xlink:href="PLD3-5-e00299-s004.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="pld3299-sec-0019"><title>ACKNOWLEDGEMENTS</title><p>This work was supported by the Department of Biotechnology, Government of India, New Delhi (BT/AB/NIPGR/SEED BIOLOGY/2012 and BT/AGR/CG&#x02010;Phase II/01/2014). NK acknowledges DBT&#x02010;BINC fellowship from the Department of Biotechnology, Government of India, New Delhi. MSR gratefully acknowledges financial support from the DBT&#x02010;RA program in Biotechnology and Life Sciences. We thank Dr. V. K. Singh and Dr. V. Kumar for help with tissue collection and RNA isolation.</p></ack><sec sec-type="data-availability" id="pld3299-sec-0023"><title>DATA AVAILABILITY STATEMENT</title><p>The smRNA sequencing data generated in this study have been deposited in the Gene Expression Omnibus database at NCBI under the series accession numbers GSE131424 and GSE131431.</p></sec><ref-list content-type="cited-references" id="pld3299-bibl-0001"><title>REFERENCES</title><ref id="pld3299-bib-0001"><mixed-citation publication-type="journal" id="pld3299-cit-0001">
+<string-name>
+<surname>Axtell</surname>, <given-names>M. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Meyers</surname>, <given-names>B. C.</given-names>
+</string-name> (<year>2018</year>). <article-title>Revisiting criteria for plant microRNA annotation in the era of big data</article-title>. <source xml:lang="en">The Plant Cell</source>, <volume>30</volume>, <fpage>272</fpage>&#x02013;<lpage>284</lpage>. <pub-id pub-id-type="doi">10.1105/tpc.17.00851</pub-id>
+<pub-id pub-id-type="pmid">29343505</pub-id></mixed-citation></ref><ref id="pld3299-bib-0002"><mixed-citation publication-type="journal" id="pld3299-cit-0002">
+<string-name>
+<surname>Bajaj</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Upadhyaya</surname>, <given-names>H. D.</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Das</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Badoni</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Shree</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Tripathi</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gowda</surname>, <given-names>C. L. L.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Sharma</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Tyagi</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Chattopdhyay</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Parida</surname>, <given-names>S. K.</given-names>
+</string-name> (<year>2015</year>). <article-title>A combinatorial approach of comprehensive QTL&#x02010;based comparative genome mapping and transcript profiling identified a seed weight&#x02010;regulating candidate gene in chickpea</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>5</volume>, <elocation-id>9264</elocation-id>. <pub-id pub-id-type="doi">10.1038/srep09264</pub-id>
+<pub-id pub-id-type="pmid">25786576</pub-id></mixed-citation></ref><ref id="pld3299-bib-0003"><mixed-citation publication-type="journal" id="pld3299-cit-0003">
+<string-name>
+<surname>Bandyopadhyay</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Ulu&#x000e7;ay</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>&#x0015e;akiro&#x0011f;lu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Udvardi</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Verdier</surname>, <given-names>J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Analysis of large seeds from three different <italic>Medicago truncatula</italic> ecotypes reveals a potential role of hormonal balance in final size determination of legume grains</article-title>. <source xml:lang="en">International Journal of Molecular Sciences</source>, <volume>17</volume>, <elocation-id>1472</elocation-id>. <pub-id pub-id-type="doi">10.3390/ijms17091472</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0004"><mixed-citation publication-type="journal" id="pld3299-cit-0004">
+<string-name>
+<surname>Bartel</surname>, <given-names>D. P.</given-names>
+</string-name> (<year>2004</year>). <article-title>MicroRNAs: Genomics, biogenesis, mechanism, and function</article-title>. <source xml:lang="en">Cell</source>, <volume>116</volume>, <fpage>281</fpage>&#x02013;<lpage>297</lpage>. <pub-id pub-id-type="doi">10.1016/S0092-8674(04)00045-5</pub-id>
+<pub-id pub-id-type="pmid">14744438</pub-id></mixed-citation></ref><ref id="pld3299-bib-0005"><mixed-citation publication-type="journal" id="pld3299-cit-0005">
+<string-name>
+<surname>Borges</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Martienssen</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>2015</year>). <article-title>The expanding world of small RNAs in plants</article-title>. <source xml:lang="en">Nature Reviews Molecular Cell Biology</source>, <volume>16</volume>, <fpage>727</fpage>&#x02013;<lpage>741</lpage>. <pub-id pub-id-type="doi">10.1038/nrm4085</pub-id>
+<pub-id pub-id-type="pmid">26530390</pub-id></mixed-citation></ref><ref id="pld3299-bib-0006"><mixed-citation publication-type="journal" id="pld3299-cit-0006">
+<string-name>
+<surname>Chen</surname>, <given-names>X.</given-names>
+</string-name> (<year>2009</year>). <article-title>Small RNAs and their roles in plant development</article-title>. <source xml:lang="en">Annual Review of Cell and Developmental Biology</source>, <volume>25</volume>, <fpage>21</fpage>&#x02013;<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1146/annurev.cellbio.042308.113417</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0007"><mixed-citation publication-type="journal" id="pld3299-cit-0007">
+<string-name>
+<surname>Curaba</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Spriggs</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>Z.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Helliwell</surname>, <given-names>C.</given-names>
+</string-name> (<year>2012</year>). <article-title>miRNA regulation in the early development of barley seed</article-title>. <source xml:lang="en">BMC Plant Biology</source>, <volume>12</volume>, <elocation-id>120</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2229-12-120</pub-id>
+<pub-id pub-id-type="pmid">22838835</pub-id></mixed-citation></ref><ref id="pld3299-bib-0008"><mixed-citation publication-type="journal" id="pld3299-cit-0008">
+<string-name>
+<surname>D&#x02019;Ario</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Griffiths&#x02010;Jones</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kim</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Small RNAs: Big impact on plant development</article-title>. <source xml:lang="en">Trends in Plant Science</source>, <volume>22</volume>, <fpage>1056</fpage>&#x02013;<lpage>1068</lpage>. <pub-id pub-id-type="doi">10.1016/j.tplants.2017.09.009</pub-id>
+<pub-id pub-id-type="pmid">29032035</pub-id></mixed-citation></ref><ref id="pld3299-bib-0009"><mixed-citation publication-type="journal" id="pld3299-cit-0009">
+<string-name>
+<surname>Dai</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhuang</surname>, <given-names>Z.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zhao</surname>, <given-names>P. X.</given-names>
+</string-name> (<year>2018</year>). <article-title>psRNATarget: A plant small RNA target analysis server (2017 release)</article-title>. <source xml:lang="en">Nucleic Acids Research</source>, <volume>46</volume>, <fpage>W49</fpage>&#x02013;<lpage>W54</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gky316</pub-id>
+<pub-id pub-id-type="pmid">29718424</pub-id></mixed-citation></ref><ref id="pld3299-bib-0010"><mixed-citation publication-type="journal" id="pld3299-cit-0010">
+<string-name>
+<surname>Das</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Upadhyaya</surname>, <given-names>H. D.</given-names>
+</string-name>, <string-name>
+<surname>Bajaj</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Kujur</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Badoni</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Tripathi</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gowda</surname>, <given-names>C. L. L.</given-names>
+</string-name>, <string-name>
+<surname>Sharma</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Tyagi</surname>, <given-names>A. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Parida</surname>, <given-names>S. K.</given-names>
+</string-name> (<year>2014</year>). <article-title>Deploying QTL&#x02010;seq for rapid delineation of a potential candidate gene underlying major trait&#x02010;associated QTL in chickpea</article-title>. <source xml:lang="en">DNA Research</source>, <volume>22</volume>, <fpage>193</fpage>&#x02013;<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1093/dnares/dsv004</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0011"><mixed-citation publication-type="journal" id="pld3299-cit-0011">
+<string-name>
+<surname>Debernardi</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Mecchia</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Vercruyssen</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Smaczniak</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Kaufmann</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Inze</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>, <given-names>R. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Palatnik</surname>, <given-names>J. F.</given-names>
+</string-name> (<year>2014</year>). <article-title>Post&#x02010;transcriptional control of GRF transcription factors by microRNA miR396 and GIF co&#x02010;activator affects leaf size and longevity</article-title>. <source xml:lang="en">The Plant Journal</source>, <volume>79</volume>, <fpage>413</fpage>&#x02013;<lpage>426</lpage>.<pub-id pub-id-type="pmid">24888433</pub-id></mixed-citation></ref><ref id="pld3299-bib-0012"><mixed-citation publication-type="journal" id="pld3299-cit-0012">
+<string-name>
+<surname>Duan</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Ni</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2015</year>). <article-title>Regulation of OsGRF4 by OsmiR396 controls grain size and yield in rice</article-title>. <source xml:lang="en">Nature Plants</source>, <volume>2</volume>, <elocation-id>15203</elocation-id>.<pub-id pub-id-type="pmid">27250749</pub-id></mixed-citation></ref><ref id="pld3299-bib-0013"><mixed-citation publication-type="journal" id="pld3299-cit-0013">
+<string-name>
+<surname>Garg</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>V. K.</given-names>
+</string-name>, <string-name>
+<surname>Rajkumar</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>V.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jain</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Global transcriptome and coexpression network analyses reveal cultivar&#x02010;specific molecular signatures associated with seed development and seed size/weight determination in chickpea</article-title>. <source xml:lang="en">The Plant Journal</source>, <volume>91</volume>, <fpage>1088</fpage>&#x02013;<lpage>1107</lpage>. <pub-id pub-id-type="doi">10.1111/tpj.13621</pub-id>
+<pub-id pub-id-type="pmid">28640939</pub-id></mixed-citation></ref><ref id="pld3299-bib-0014"><mixed-citation publication-type="journal" id="pld3299-cit-0014">
+<string-name>
+<surname>Guo</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Kuang</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Tao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Cheng</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Lu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Hao</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Cao</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Wei</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yang</surname>, <given-names>X.</given-names>
+</string-name> (<year>2020</year>). <article-title>PmiREN: A comprehensive encyclopedia of plant miRNAs</article-title>. <source xml:lang="en">Nucleic Acids Research</source>, <volume>48</volume>, <fpage>D1114</fpage>&#x02013;<lpage>D1121</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkz894</pub-id>
+<pub-id pub-id-type="pmid">31602478</pub-id></mixed-citation></ref><ref id="pld3299-bib-0015"><mixed-citation publication-type="journal" id="pld3299-cit-0015">
+<string-name>
+<surname>Huijser</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Schmid</surname>, <given-names>M.</given-names>
+</string-name> (<year>2011</year>). <article-title>The control of developmental phase transitions in plants</article-title>. <source xml:lang="en">Development</source>, <volume>138</volume>, <fpage>4117</fpage>&#x02013;<lpage>4129</lpage>. <pub-id pub-id-type="doi">10.1242/dev.063511</pub-id>
+<pub-id pub-id-type="pmid">21896627</pub-id></mixed-citation></ref><ref id="pld3299-bib-0016"><mixed-citation publication-type="journal" id="pld3299-cit-0016">
+<string-name>
+<surname>Jain</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Chevala</surname>, <given-names>V. V. S. N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Garg</surname>, <given-names>R.</given-names>
+</string-name> (<year>2014</year>). <article-title>Genome&#x02010;wide discovery and differential regulation of conserved and novel microRNAs in chickpea via deep sequencing</article-title>. <source xml:lang="en">Journal of Experimental Botany</source>, <volume>65</volume>, <fpage>5945</fpage>&#x02013;<lpage>5958</lpage>. <pub-id pub-id-type="doi">10.1093/jxb/eru333</pub-id>
+<pub-id pub-id-type="pmid">25151616</pub-id></mixed-citation></ref><ref id="pld3299-bib-0017"><mixed-citation publication-type="journal" id="pld3299-cit-0017">
+<string-name>
+<surname>Jones</surname>, <given-names>S. I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vodkin</surname>, <given-names>L. O.</given-names>
+</string-name> (<year>2013</year>). <article-title>Using RNA&#x02010;Seq to profile soybean seed development from fertilization to maturity</article-title>. <source xml:lang="en">PLoS One</source>, <volume>8</volume>, <elocation-id>e59270</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0059270</pub-id>
+<pub-id pub-id-type="pmid">23555009</pub-id></mixed-citation></ref><ref id="pld3299-bib-0018"><mixed-citation publication-type="journal" id="pld3299-cit-0018">
+<string-name>
+<surname>Khandal</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Parween</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Roy</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Meena</surname>, <given-names>M. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chattopadhyay</surname>, <given-names>D.</given-names>
+</string-name> (<year>2017</year>). <article-title>MicroRNA profiling provides insights into post&#x02010;transcriptional regulation of gene expression in chickpea root apex under salinity and water deficiency</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>7</volume>, <fpage>4632</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-017-04906-z</pub-id>
+<pub-id pub-id-type="pmid">28680071</pub-id></mixed-citation></ref><ref id="pld3299-bib-0019"><mixed-citation publication-type="journal" id="pld3299-cit-0019">
+<string-name>
+<surname>Khemka</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>V. K.</given-names>
+</string-name>, <string-name>
+<surname>Garg</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jain</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Genome&#x02010;wide analysis of long intergenic non&#x02010;coding RNAs in chickpea and their potential role in flower development</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>6</volume>, <elocation-id>33297</elocation-id>. <pub-id pub-id-type="doi">10.1038/srep33297</pub-id>
+<pub-id pub-id-type="pmid">27628568</pub-id></mixed-citation></ref><ref id="pld3299-bib-0020"><mixed-citation publication-type="journal" id="pld3299-cit-0020">
+<string-name>
+<surname>Krol</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Loedige</surname>, <given-names>I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Filipowicz</surname>, <given-names>W.</given-names>
+</string-name> (<year>2010</year>). <article-title>The widespread regulation of microRNA biogenesis, function and decay</article-title>. <source xml:lang="en">Nature Reviews Genetics</source>, <volume>11</volume>, <fpage>597</fpage>&#x02013;<lpage>610</lpage>. <pub-id pub-id-type="doi">10.1038/nrg2843</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0021"><mixed-citation publication-type="journal" id="pld3299-cit-0021">
+<string-name>
+<surname>Kuang</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yang</surname>, <given-names>X.</given-names>
+</string-name> (<year>2019</year>). <article-title>miRDeep&#x02010;P2: Accurate and fast analysis of the microRNA transcriptome in plants</article-title>. <source xml:lang="en">Bioinformatics</source>, <volume>35</volume>, <fpage>2521</fpage>&#x02013;<lpage>2522</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/bty972</pub-id>
+<pub-id pub-id-type="pmid">30521000</pub-id></mixed-citation></ref><ref id="pld3299-bib-0022"><mixed-citation publication-type="journal" id="pld3299-cit-0022">
+<string-name>
+<surname>Kujur</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Upadhyaya</surname>, <given-names>H. D.</given-names>
+</string-name>, <string-name>
+<surname>Shree</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Bajaj</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Das</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Saxena</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Badoni</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Tripathi</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gowda</surname>, <given-names>C. L. L.</given-names>
+</string-name>, <string-name>
+<surname>Sharma</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Tyagi</surname>, <given-names>A. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Parida</surname>, <given-names>S. K.</given-names>
+</string-name> (<year>2015</year>). <article-title>Ultra&#x02010;high density intra&#x02010;specific genetic linkage maps accelerate identification of functionally relevant molecular tags governing important agronomic traits in chickpea</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>5</volume>, <elocation-id>9468</elocation-id>. <pub-id pub-id-type="doi">10.1038/srep09468</pub-id>
+<pub-id pub-id-type="pmid">25942004</pub-id></mixed-citation></ref><ref id="pld3299-bib-0023"><mixed-citation publication-type="journal" id="pld3299-cit-0023">
+<string-name>
+<surname>Kurdyukov</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Song</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Sheahan</surname>, <given-names>M. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rose</surname>, <given-names>R. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Transcriptional regulation of early embryo development in the model legume Medicago truncatula</article-title>. <source xml:lang="en">Plant Cell Reports</source>, <volume>33</volume>, <fpage>349</fpage>&#x02013;<lpage>362</lpage>. <pub-id pub-id-type="doi">10.1007/s00299-013-1535-x</pub-id>
+<pub-id pub-id-type="pmid">24258241</pub-id></mixed-citation></ref><ref id="pld3299-bib-0024"><mixed-citation publication-type="journal" id="pld3299-cit-0024">
+<string-name>
+<surname>Langfelder</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Horvath</surname>, <given-names>S.</given-names>
+</string-name> (<year>2008</year>). <article-title>WGCNA: An R package for weighted correlation network analysis</article-title>. <source xml:lang="en">BMC Bioinformatics</source>, <volume>9</volume>, <elocation-id>559</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2105-9-559</pub-id>
+<pub-id pub-id-type="pmid">19114008</pub-id></mixed-citation></ref><ref id="pld3299-bib-0025"><mixed-citation publication-type="journal" id="pld3299-cit-0025">
+<string-name>
+<surname>Le</surname>, <given-names>B. H.</given-names>
+</string-name>, <string-name>
+<surname>Cheng</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Bui</surname>, <given-names>A. Q.</given-names>
+</string-name>, <string-name>
+<surname>Wagmaister</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Henry</surname>, <given-names>K. F.</given-names>
+</string-name>, <string-name>
+<surname>Pelletier</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Kwong</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Belmonte</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kirkbride</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Horvath</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Drews</surname>, <given-names>G. N.</given-names>
+</string-name>, <string-name>
+<surname>Fischer</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name>
+<surname>Okamuro</surname>, <given-names>J. K.</given-names>
+</string-name>, <string-name>
+<surname>Harada</surname>, <given-names>J. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Goldberg</surname>, <given-names>R. B.</given-names>
+</string-name> (<year>2010</year>). <article-title>Global analysis of gene activity during Arabidopsis seed development and identification of seed&#x02010;specific transcription factors</article-title>. <source xml:lang="en">Proceedings of the National Academy of Sciences</source>, <volume>107</volume>, <fpage>8063</fpage>&#x02013;<lpage>8070</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1003530107</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0026"><mixed-citation publication-type="journal" id="pld3299-cit-0026">
+<string-name>
+<surname>Le</surname>, <given-names>B. H.</given-names>
+</string-name>, <string-name>
+<surname>Wagmaister</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Kawashima</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Bui</surname>, <given-names>A. Q.</given-names>
+</string-name>, <string-name>
+<surname>Harada</surname>, <given-names>J. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Goldberg</surname>, <given-names>R. B.</given-names>
+</string-name> (<year>2007</year>). <article-title>Using genomics to study legume seed development</article-title>. <source xml:lang="en">Plant Physiology</source>, <volume>144</volume>, <fpage>562</fpage>&#x02013;<lpage>574</lpage>. <pub-id pub-id-type="doi">10.1104/pp.107.100362</pub-id>
+<pub-id pub-id-type="pmid">17556519</pub-id></mixed-citation></ref><ref id="pld3299-bib-0027"><mixed-citation publication-type="journal" id="pld3299-cit-0027">
+<string-name>
+<surname>Li</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Gao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Gao</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Jiao</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Qiao</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Yao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kan</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2016</year>). <article-title>Genome&#x02010;wide identification and characterization of microRNAs in developing grains of <italic>Zea mays L</italic>
+</article-title>. <source xml:lang="en">PLoS One</source>, <volume>11</volume>, <elocation-id>e0153168</elocation-id>.<pub-id pub-id-type="pmid">27082634</pub-id></mixed-citation></ref><ref id="pld3299-bib-0028"><mixed-citation publication-type="journal" id="pld3299-cit-0028">
+<string-name>
+<surname>Li</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2016</year>). <article-title>Signaling pathways of seed size control in plants</article-title>. <source xml:lang="en">Current Opinion in Plant Biology</source>, <volume>33</volume>, <fpage>23</fpage>&#x02013;<lpage>32</lpage>. <pub-id pub-id-type="doi">10.1016/j.pbi.2016.05.008</pub-id>
+<pub-id pub-id-type="pmid">27294659</pub-id></mixed-citation></ref><ref id="pld3299-bib-0029"><mixed-citation publication-type="journal" id="pld3299-cit-0029">
+<string-name>
+<surname>Li</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2019</year>). <article-title>Molecular networks of seed size control in plants</article-title>. <source xml:lang="en">Annual Review of Plant Biology</source>, <volume>70</volume>, <fpage>435</fpage>&#x02013;<lpage>463</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-arplant-050718-095851</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0030"><mixed-citation publication-type="journal" id="pld3299-cit-0030">
+<string-name>
+<surname>Li</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gao</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Xie</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Zeng</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Cao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Zeng</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>He</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Ren</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Deng</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Zheng</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>P.</given-names>
+</string-name> (<year>2016</year>). <article-title>The OsmiR396c&#x02010;OsGRF4&#x02010;OsGIF1 regulatory module determines grain size and yield in rice</article-title>. <source xml:lang="en">Plant Biotechnology Journal</source>, <volume>14</volume>, <fpage>2134</fpage>&#x02013;<lpage>2146</lpage>. <pub-id pub-id-type="doi">10.1111/pbi.12569</pub-id>
+<pub-id pub-id-type="pmid">27107174</pub-id></mixed-citation></ref><ref id="pld3299-bib-0031"><mixed-citation publication-type="journal" id="pld3299-cit-0031">
+<string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Qin</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Zuo</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Cao</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Shen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>He</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Ding</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>L&#x000fc;bberstedt</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>Z.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pan</surname>, <given-names>G.</given-names>
+</string-name> (<year>2014</year>). <article-title>Identification of miRNAs and their target genes in developing maize ears by combined small RNA and degradome sequencing</article-title>. <source xml:lang="en">BMC Genomics</source>, <volume>15</volume>, <elocation-id>25</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2164-15-25</pub-id>
+<pub-id pub-id-type="pmid">24422852</pub-id></mixed-citation></ref><ref id="pld3299-bib-0032"><mixed-citation publication-type="journal" id="pld3299-cit-0032">
+<string-name>
+<surname>Love</surname>, <given-names>M. I.</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Anders</surname>, <given-names>S.</given-names>
+</string-name> (<year>2014</year>). <article-title>Moderated estimation of fold change and dispersion for RNA&#x02010;seq data with DESeq2</article-title>. <source xml:lang="en">Genome Biology</source>, <volume>15</volume>, <elocation-id>550</elocation-id>. <pub-id pub-id-type="doi">10.1186/s13059-014-0550-8</pub-id>
+<pub-id pub-id-type="pmid">25516281</pub-id></mixed-citation></ref><ref id="pld3299-bib-0033"><mixed-citation publication-type="journal" id="pld3299-cit-0033">
+<string-name>
+<surname>Ma</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Ning</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>He</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Xin</surname>, <given-names>Z.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yin</surname>, <given-names>D.</given-names>
+</string-name> (<year>2018</year>). <article-title>Small RNA and degradome deep sequencing reveals the roles of microRNAs in seed expansion in Peanut (<italic>Arachis hypogaea L</italic>.). <italic>Frontiers</italic>
+</article-title>. <source xml:lang="en">Plant Science</source>, <volume>9</volume>, <elocation-id>349</elocation-id>. <pub-id pub-id-type="doi">10.3389/fpls.2018.00349</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0034"><mixed-citation publication-type="journal" id="pld3299-cit-0034">
+<string-name>
+<surname>Maere</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Heymans</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kuiper</surname>, <given-names>M.</given-names>
+</string-name> (<year>2005</year>). <article-title>BiNGO: A Cytoscape plugin to assess overrepresentation of gene ontology categories in biological networks</article-title>. <source xml:lang="en">Bioinformatics</source>, <volume>21</volume>, <fpage>3448</fpage>&#x02013;<lpage>3449</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/bti551</pub-id>
+<pub-id pub-id-type="pmid">15972284</pub-id></mixed-citation></ref><ref id="pld3299-bib-0035"><mixed-citation publication-type="journal" id="pld3299-cit-0035">
+<string-name>
+<surname>Martin</surname>, <given-names>M.</given-names>
+</string-name> (<year>2011</year>). <article-title>Cutadapt removes adapter sequences from high&#x02010;throughput sequencing reads</article-title>. <source xml:lang="en">EMBnet.journal</source>, <volume>17</volume>, <fpage>10</fpage>&#x02013;<lpage>12</lpage>. <pub-id pub-id-type="doi">10.14806/ej.17.1.200</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0036"><mixed-citation publication-type="journal" id="pld3299-cit-0036">
+<string-name>
+<surname>Meng</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Yin</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2013</year>). <article-title>Development&#x02010;associated microRNAs in grains of wheat (<italic>Triticum aestivum L</italic>.)</article-title>. <source xml:lang="en">BMC Plant Biology</source>, <volume>13</volume>, <elocation-id>140</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2229-13-140</pub-id>
+<pub-id pub-id-type="pmid">24060047</pub-id></mixed-citation></ref><ref id="pld3299-bib-0037"><mixed-citation publication-type="journal" id="pld3299-cit-0037">
+<string-name>
+<surname>Mi</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Cai</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Hu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Hodges</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Ni</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Long</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Hannon</surname>, <given-names>G. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Qi</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2008</year>). <article-title>Sorting of small RNAs into Arabidopsis argonaute complexes is directed by the 5&#x02019; terminal nucleotide</article-title>. <source xml:lang="en">Cell</source>, <volume>133</volume>, <fpage>116</fpage>&#x02013;<lpage>127</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2008.02.034</pub-id>
+<pub-id pub-id-type="pmid">18342361</pub-id></mixed-citation></ref><ref id="pld3299-bib-0038"><mixed-citation publication-type="journal" id="pld3299-cit-0038">
+<string-name>
+<surname>Nambara</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nonogaki</surname>, <given-names>H.</given-names>
+</string-name> (<year>2012</year>). <article-title>Seed biology in the 21st century: Perspectives and new directions</article-title>. <source xml:lang="en">Plant &#x00026; Cell Physiology</source>, <volume>53</volume>, <fpage>1</fpage>&#x02013;<lpage>4</lpage>. <pub-id pub-id-type="doi">10.1093/pcp/pcr184</pub-id>
+<pub-id pub-id-type="pmid">22241887</pub-id></mixed-citation></ref><ref id="pld3299-bib-0039"><mixed-citation publication-type="journal" id="pld3299-cit-0039">
+<string-name>
+<surname>Nodine</surname>, <given-names>M. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bartel</surname>, <given-names>D. P.</given-names>
+</string-name> (<year>2010</year>). <article-title>MicroRNAs prevent precocious gene expression and enable pattern formation during plant embryogenesis</article-title>. <source xml:lang="en">Genes and Development</source>, <volume>24</volume>, <fpage>2678</fpage>&#x02013;<lpage>2692</lpage>. <pub-id pub-id-type="doi">10.1101/gad.1986710</pub-id>
+<pub-id pub-id-type="pmid">21123653</pub-id></mixed-citation></ref><ref id="pld3299-bib-0040"><mixed-citation publication-type="journal" id="pld3299-cit-0040">
+<string-name>
+<surname>Peng</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Qiao</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Du</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Tang</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zhao</surname>, <given-names>Q.</given-names>
+</string-name> (<year>2014</year>). <article-title>Differentially expressed microRNA cohorts in seed development may contribute to poor grain filling of inferior spikelets in rice</article-title>. <source xml:lang="en">BMC Plant Biology</source>, <volume>14</volume>, <elocation-id>196</elocation-id>. <pub-id pub-id-type="doi">10.1186/s12870-014-0196-4</pub-id>
+<pub-id pub-id-type="pmid">25052585</pub-id></mixed-citation></ref><ref id="pld3299-bib-0041"><mixed-citation publication-type="journal" id="pld3299-cit-0041">
+<string-name>
+<surname>Rangan</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Furtado</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Henry</surname>, <given-names>R. J.</given-names>
+</string-name> (<year>2017</year>). <article-title>The transcriptome of the developing grain: A resource for understanding seed development and the molecular control of the functional and nutritional properties of wheat</article-title>. <source xml:lang="en">BMC Genomics</source>, <volume>18</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1186/s12864-017-4154-z</pub-id>
+<pub-id pub-id-type="pmid">28049423</pub-id></mixed-citation></ref><ref id="pld3299-bib-0042"><mixed-citation publication-type="journal" id="pld3299-cit-0042">
+<string-name>
+<surname>Reinhart</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<surname>Weinstein</surname>, <given-names>E. G.</given-names>
+</string-name>, <string-name>
+<surname>Rhoades</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name>
+<surname>Bartel</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bartel</surname>, <given-names>D. P.</given-names>
+</string-name> (<year>2002</year>). <article-title>MicroRNAs in plants</article-title>. <source xml:lang="en">Genes &#x00026; Development</source>, <volume>16</volume>, <fpage>1616</fpage>&#x02013;<lpage>1626</lpage>. <pub-id pub-id-type="doi">10.1101/gad.1004402</pub-id>
+<pub-id pub-id-type="pmid">12101121</pub-id></mixed-citation></ref><ref id="pld3299-bib-0043"><mixed-citation publication-type="journal" id="pld3299-cit-0043">
+<string-name>
+<surname>Rodrigues</surname>, <given-names>A. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Miguel</surname>, <given-names>C. M.</given-names>
+</string-name> (<year>2017</year>). <article-title>The pivotal role of small non&#x02010;coding RNAs in the regulation of seed development</article-title>. <source xml:lang="en">Plant Cell Reports</source>, <volume>36</volume>, <fpage>653</fpage>&#x02013;<lpage>667</lpage>. <pub-id pub-id-type="doi">10.1007/s00299-017-2120-5</pub-id>
+<pub-id pub-id-type="pmid">28289886</pub-id></mixed-citation></ref><ref id="pld3299-bib-0044"><mixed-citation publication-type="journal" id="pld3299-cit-0044">
+<string-name>
+<surname>Rogers</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chen</surname>, <given-names>X.</given-names>
+</string-name> (<year>2013</year>). <article-title>Biogenesis, turnover, and mode of action of plant microRNAs</article-title>. <source xml:lang="en">The Plant Cell</source>, <volume>25</volume>, <fpage>2383</fpage>&#x02013;<lpage>2399</lpage>. <pub-id pub-id-type="doi">10.1105/tpc.113.113159</pub-id>
+<pub-id pub-id-type="pmid">23881412</pub-id></mixed-citation></ref><ref id="pld3299-bib-0045"><mixed-citation publication-type="journal" id="pld3299-cit-0045">
+<string-name>
+<surname>Sabelli</surname>, <given-names>P. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Larkins</surname>, <given-names>B. A.</given-names>
+</string-name> (<year>2015</year>). <article-title>New insights into how seeds are made</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>6</volume>, <elocation-id>196</elocation-id>. <pub-id pub-id-type="doi">10.3389/fpls.2015.00196</pub-id>
+<pub-id pub-id-type="pmid">25859256</pub-id></mixed-citation></ref><ref id="pld3299-bib-0046"><mixed-citation publication-type="journal" id="pld3299-cit-0046">
+<string-name>
+<surname>Saxena</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Bajaj</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Das</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kujur</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Bansal</surname>, <given-names>K. C.</given-names>
+</string-name>, <string-name>
+<surname>Tyagi</surname>, <given-names>A. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Parida</surname>, <given-names>S. K.</given-names>
+</string-name> (<year>2014</year>). <article-title>An integrated genomic approach for rapid delineation of candidate genes regulating agro&#x02010;morphological traits in chickpea</article-title>. <source xml:lang="en">DNA Research</source>, <volume>21</volume>, <fpage>695</fpage>&#x02013;<lpage>710</lpage>. <pub-id pub-id-type="doi">10.1093/dnares/dsu031</pub-id>
+<pub-id pub-id-type="pmid">25335477</pub-id></mixed-citation></ref><ref id="pld3299-bib-0047"><mixed-citation publication-type="journal" id="pld3299-cit-0047">
+<string-name>
+<surname>Shamimuzzaman</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vodkin</surname>, <given-names>L.</given-names>
+</string-name> (<year>2012</year>). <article-title>Identification of soybean seed developmental stage&#x02010;specific and tissue&#x02010;specific miRNA targets by degradome sequencing</article-title>. <source xml:lang="en">BMC Genomics</source>, <volume>13</volume>, <elocation-id>310</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2164-13-310</pub-id>
+<pub-id pub-id-type="pmid">22799740</pub-id></mixed-citation></ref><ref id="pld3299-bib-0048"><mixed-citation publication-type="journal" id="pld3299-cit-0048">
+<string-name>
+<surname>Singh</surname>, <given-names>V. K.</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>, <given-names>A. W.</given-names>
+</string-name>, <string-name>
+<surname>Jaganathan</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Thudi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Roorkiwal</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Takagi</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Garg</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Chitikineni</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Gaur</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Sutton</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Terauchi</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Varshney</surname>, <given-names>R. K.</given-names>
+</string-name> (<year>2016</year>). <article-title>QTL&#x02010;seq for rapid identification of candidate genes for 100&#x02010;seed weight and root/total plant dry weight ratio under rainfed conditions in chickpea</article-title>. <source xml:lang="en">Plant Biotechnology Journal</source>, <volume>14</volume>, <fpage>2110</fpage>&#x02013;<lpage>2119</lpage>. <pub-id pub-id-type="doi">10.1111/pbi.12567</pub-id>
+<pub-id pub-id-type="pmid">27107184</pub-id></mixed-citation></ref><ref id="pld3299-bib-0049"><mixed-citation publication-type="journal" id="pld3299-cit-0049">
+<string-name>
+<surname>Song</surname>, <given-names>Q.&#x02010;X.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Y.&#x02010;F.</given-names>
+</string-name>, <string-name>
+<surname>Hu</surname>, <given-names>X.&#x02010;Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>W.&#x02010;K.</given-names>
+</string-name>, <string-name>
+<surname>Ma</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>S.&#x02010;Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zhang</surname>, <given-names>J.&#x02010;S.</given-names>
+</string-name> (<year>2011</year>). <article-title>Identification of miRNAs and their target genes in developing soybean seeds by deep sequencing</article-title>. <source xml:lang="en">BMC Plant Biology</source>, <volume>11</volume>, <elocation-id>5</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2229-11-5</pub-id>
+<pub-id pub-id-type="pmid">21219599</pub-id></mixed-citation></ref><ref id="pld3299-bib-0050"><mixed-citation publication-type="journal" id="pld3299-cit-0050">
+<string-name>
+<surname>Srivastava</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Zheng</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Kudapa</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Jagadeeswaran</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Hivrale</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Varshney</surname>, <given-names>R. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sunkar</surname>, <given-names>R.</given-names>
+</string-name> (<year>2015</year>). <article-title>High throughput sequencing of small RNA component of leaves and inflorescence revealed conserved and novel miRNAs as well as phasiRNA loci in chickpea</article-title>. <source xml:lang="en">Plant Science</source>, <volume>235</volume>, <fpage>46</fpage>&#x02013;<lpage>57</lpage>. <pub-id pub-id-type="doi">10.1016/j.plantsci.2015.03.002</pub-id>
+<pub-id pub-id-type="pmid">25900565</pub-id></mixed-citation></ref><ref id="pld3299-bib-0051"><mixed-citation publication-type="journal" id="pld3299-cit-0051">
+<string-name>
+<surname>Tang</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chu</surname>, <given-names>C.</given-names>
+</string-name> (<year>2017</year>). <article-title>MicroRNAs in crop improvement: Fine&#x02010;tuners for complex traits</article-title>. <source xml:lang="en">Nature Plants</source>, <volume>3</volume>, <fpage>17077</fpage>. <pub-id pub-id-type="doi">10.1038/nplants.2017.77</pub-id>
+<pub-id pub-id-type="pmid">28665396</pub-id></mixed-citation></ref><ref id="pld3299-bib-0052"><mixed-citation publication-type="journal" id="pld3299-cit-0052">
+<string-name>
+<surname>Tatusov</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name>
+<surname>Galperin</surname>, <given-names>M. Y.</given-names>
+</string-name>, <string-name>
+<surname>Natale</surname>, <given-names>D. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Koonin</surname>, <given-names>E. V.</given-names>
+</string-name> (<year>2000</year>). <article-title>The COG database: A tool for genome&#x02010;scale analysis of protein functions and evolution</article-title>. <source xml:lang="en">Nucleic Acids Research</source>, <volume>28</volume>, <fpage>33</fpage>&#x02013;<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1093/nar/28.1.33</pub-id>
+<pub-id pub-id-type="pmid">10592175</pub-id></mixed-citation></ref><ref id="pld3299-bib-0053"><mixed-citation publication-type="journal" id="pld3299-cit-0053">
+<string-name>
+<surname>Verma</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gupta</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Bandhiwal</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Bharadwaj</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bhatia</surname>, <given-names>S.</given-names>
+</string-name> (<year>2015</year>). <article-title>High&#x02010;density linkage map construction and mapping of seed trait QTLs in chickpea (<italic>Cicer arietinum L</italic>.) using Genotyping&#x02010;by&#x02010;Sequencing (GBS)</article-title>. <source xml:lang="en">Scientific Reports</source>, <volume>5</volume>, <elocation-id>17512</elocation-id>.<pub-id pub-id-type="pmid">26631981</pub-id></mixed-citation></ref><ref id="pld3299-bib-0054"><mixed-citation publication-type="journal" id="pld3299-cit-0054">
+<string-name>
+<surname>Wang</surname>, <given-names>C. Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Luo</surname>, <given-names>Y.&#x02010;C.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Ju</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>Y.&#x02010;C.</given-names>
+</string-name>, <string-name>
+<surname>Qu</surname>, <given-names>L.&#x02010;H.</given-names>
+</string-name>, <string-name>
+<surname>Lucas</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chen</surname>, <given-names>Y.&#x02010;Q.</given-names>
+</string-name> (<year>2014</year>). <article-title>MiR397b regulates both lignin content and seed number in Arabidopsis via modulating a laccase involved in lignin biosynthesis</article-title>. <source xml:lang="en">Plant Biotechnology Journal</source>, <volume>12</volume>, <fpage>1132</fpage>&#x02013;<lpage>1142</lpage>. <pub-id pub-id-type="doi">10.1111/pbi.12222</pub-id>
+<pub-id pub-id-type="pmid">24975689</pub-id></mixed-citation></ref><ref id="pld3299-bib-0055"><mixed-citation publication-type="journal" id="pld3299-cit-0055">
+<string-name>
+<surname>Wang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Yuan</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zeng</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Dong</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Qian</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Fu</surname>, <given-names>X.</given-names>
+</string-name> (<year>2012</year>). <article-title>Control of grain size, shape and quality by OsSPL16 in rice</article-title>. <source xml:lang="en">Nature Genetics</source>, <volume>44</volume>, <fpage>950</fpage>&#x02013;<lpage>954</lpage>. <pub-id pub-id-type="doi">10.1038/ng.2327</pub-id>
+<pub-id pub-id-type="pmid">22729225</pub-id></mixed-citation></ref><ref id="pld3299-bib-0056"><mixed-citation publication-type="journal" id="pld3299-cit-0056">
+<string-name>
+<surname>Wu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Ni</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Qi</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2010</year>). <article-title>DNA methylation mediated by a microRNA pathway</article-title>. <source xml:lang="en">Molecular Cell</source>, <volume>38</volume>, <fpage>465</fpage>&#x02013;<lpage>475</lpage>. <pub-id pub-id-type="doi">10.1016/j.molcel.2010.03.008</pub-id>
+<pub-id pub-id-type="pmid">20381393</pub-id></mixed-citation></ref><ref id="pld3299-bib-0057"><mixed-citation publication-type="journal" id="pld3299-cit-0057">
+<string-name>
+<surname>Xu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Gao</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wang</surname>, <given-names>J.</given-names>
+</string-name> (<year>2012</year>). <article-title>Transcriptomic analysis of rice (<italic>Oryza sativa</italic>) developing embryos using the RNA&#x02010;Seq technique</article-title>. <source xml:lang="en">PLoS One</source>, <volume>7</volume>, <elocation-id>e30646</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0030646</pub-id>
+<pub-id pub-id-type="pmid">22347394</pub-id></mixed-citation></ref><ref id="pld3299-bib-0058"><mixed-citation publication-type="journal" id="pld3299-cit-0058">
+<string-name>
+<surname>Xue</surname>, <given-names>L.&#x02010;J.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>J.&#x02010;J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Xue</surname>, <given-names>H.&#x02010;W.</given-names>
+</string-name> (<year>2009</year>). <article-title>Characterization and expression profiles of miRNAs in rice seeds</article-title>. <source xml:lang="en">Nucleic Acids Research</source>, <volume>37</volume>, <fpage>916</fpage>&#x02013;<lpage>930</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkn998</pub-id>
+<pub-id pub-id-type="pmid">19103661</pub-id></mixed-citation></ref><ref id="pld3299-bib-0059"><mixed-citation publication-type="journal" id="pld3299-cit-0059">
+<string-name>
+<surname>Zhang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Yan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Gou</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Mao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Tang</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Botella</surname>, <given-names>J. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zhu</surname>, <given-names>J.&#x02010;K.</given-names>
+</string-name> (<year>2017</year>). <article-title>Short tandem target mimic rice lines uncover functions of miRNAs in regulating important agronomic traits</article-title>. <source xml:lang="en">Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>114</volume>, <fpage>5277</fpage>&#x02013;<lpage>5282</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1703752114</pub-id>
+<pub-id pub-id-type="pmid">28461499</pub-id></mixed-citation></ref><ref id="pld3299-bib-0060"><mixed-citation publication-type="journal" id="pld3299-cit-0060">
+<string-name>
+<surname>Zhang</surname>, <given-names>Y. C.</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>C. Y.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>Z. Y.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Liao</surname>, <given-names>J. Y.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>X. J.</given-names>
+</string-name>, <string-name>
+<surname>Qu</surname>, <given-names>L. H.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Xin</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Yan</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Chu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>H. Q.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chen</surname>, <given-names>Y. Q.</given-names>
+</string-name> (<year>2013</year>). <article-title>Overexpression of microRNA OsmiR397 improves rice yield by increasing grain size and promoting panicle branching</article-title>. <source xml:lang="en">Nature Biotechnology</source>, <volume>31</volume>, <fpage>848</fpage>&#x02013;<lpage>852</lpage>. <pub-id pub-id-type="doi">10.1038/nbt.2646</pub-id>
+</mixed-citation></ref><ref id="pld3299-bib-0061"><mixed-citation publication-type="journal" id="pld3299-cit-0061">
+<string-name>
+<surname>Zhao</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>He</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jin</surname>, <given-names>B.</given-names>
+</string-name> (<year>2016</year>). <article-title>Regulation of non&#x02010;coding RNAs in heat stress responses of plants</article-title>. <source xml:lang="en">Frontiers in Plant Science</source>, <volume>7</volume>, <elocation-id>1213</elocation-id>. <pub-id pub-id-type="doi">10.3389/fpls.2016.01213</pub-id>
+<pub-id pub-id-type="pmid">27588021</pub-id></mixed-citation></ref><ref id="pld3299-bib-0062"><mixed-citation publication-type="journal" id="pld3299-cit-0062">
+<string-name>
+<surname>Zhou</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Kang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>, <given-names>X.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>X.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ni</surname>, <given-names>M.</given-names>
+</string-name> (<year>2009</year>). <article-title>SHORT HYPOCOTYL UNDER BLUE1 associates with MINISEED3 and HAIKU2 promoters in vivo to regulate Arabidopsis seed development</article-title>. <source xml:lang="en">The Plant Cell</source>, <volume>21</volume>, <fpage>106</fpage>&#x02013;<lpage>117</lpage>.<pub-id pub-id-type="pmid">19141706</pub-id></mixed-citation></ref></ref-list></back></article>

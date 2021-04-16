@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The differential expression analysis, for each of the selected GEO datasets, was performed using R package limma (URL: 
+ <underline>
+  <ext-link ext-link-type="uri" xlink:href="https://www.bioconductor.org/packages/release/bioc/html/limma.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.bioconductor.org/packages/release/bioc/html/limma.html</ext-link>
+ </underline>), and the robust multi-array average (RMA) method was used to do the background correction. The PAM50 molecular subtyping was performed by using R package genefu (URL: 
+ <underline>
+  <ext-link ext-link-type="uri" xlink:href="https://www.bioconductor.org/packages/release/bioc/html/genefu.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.bioconductor.org/packages/release/bioc/html/genefu.html</ext-link>
+ </underline>). Furthermore, to screen out the common DEGs from all these datasets, we employed the robust rank aggregation (RRA) analysis by applying R package RobustRankAggreg (
+ <underline>
+  <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/RobustRankAggreg/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://cran.r-project.org/web/packages/RobustRankAggreg/index.html</ext-link>
+ </underline>). This algorithm is more credible for DEG identification from different datasets, since it is robust to outliers, noise and errors. Adjusted P-value (Adj.P) &lt;0.05 and |log2 fold-change (FC)| &gt; 1 were used as a threshold.
+</p>

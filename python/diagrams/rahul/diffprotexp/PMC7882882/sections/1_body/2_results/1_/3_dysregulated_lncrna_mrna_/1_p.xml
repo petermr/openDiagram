@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on Pearson's correlation test, a differential coexpression network of lncRNAs and mRNAs was constructed, selecting genes with P&lt;0.05 and a Pearson's coefficient absolute value of &gt;0.9 (lncRNA/mRNA quantity, 78/104; 
+ <xref rid="f3-ol-0-0-12525" ref-type="fig">Fig. 3A</xref>). This network was transferred to the differential PCG PPI parent network. Subsequently, the lncRNA-mRNA interaction network was obtained by combining these two networks (
+ <xref rid="SD3-ol-0-0-12525" ref-type="supplementary-material">Table SII</xref>). The lncRNA-mRNA network for the DEGLs contained a total of 4,490 nodes and 6,933 interactions. 
+ <xref rid="f3-ol-0-0-12525" ref-type="fig">Fig. 3B</xref> shows that the degrees of the genes followed a power-law distribution, further illustrating that the network was similar to most biological networks, and the network is scale-free. The average path length of the network was also calculated, and it indicated that the characteristic path length of the network was much longer compared with the path length of the random network (1,000 times longer; P&lt;0.001; 
+ <xref rid="f3-ol-0-0-12525" ref-type="fig">Fig. 3C</xref>), which implied that the network had reduced global efficiency.
+</p>

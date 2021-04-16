@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">In ONGene, TSGene and MSigDB, both WMFVS and WFVS have good p-values, but for CGC and NCG, the p-value is relatively high. One major reason is that there exists some correlation between the classification metric of the data set and the defined gene weight. To analyse this correlation, we utilized the enrichment score (ES) from GSEA [
+ <xref ref-type="bibr" rid="CR25">25</xref>], which reflects the degree to which a set 
+ <italic>S</italic> is overrepresented at the extremes (top or bottom) of an entire ranked list.
+</p>

@@ -1,0 +1,7 @@
+0: The differential expression of circRNAs and mRNA profiles for human BMSCs between BMSC osteogenic differentiation induction group and BMSC osteogenic differentiation induction with 100 M MEL treatment at the same time group were determined by the deep RNA sequencing method.
+1: Briefly, total RNA samples from each group were prepared using TRIzol reagent (Thermo Fisher Scientific) according to the manufacturers instructions, and the concentration of the RNA was measured using the Nanodrop 2000 instrument.
+2: RNA integrity was evaluated using the Agilent 2100 Bioanalyzer instrument.
+3: Then, the rRNA components were removed from the RNA samples using the RiboMinusTM Eukaryote Kit for RNA-Seq (#A1083708; Thermo Fisher Scientific) according to the manufacturers instructions.
+4: For circRNA sequencing, the digestion of linear RNAs was done using RNase R. For mRNA sequencing, the eukaryotic mRNA samples were enriched using Oligo-dT beads (Thermo Fisher Scientific) according to the manufacturers instructions.
+5: An RNA library was generated from the collected RNA samples using the NEBNext Ultra II RNA Library Prep Kit (#E7770S; NEB) according to the manufacturers instructions.
+6: Subsequently, the RNA library was sequenced using the HiSeq 2000 sequencing system (Illumina, USA).

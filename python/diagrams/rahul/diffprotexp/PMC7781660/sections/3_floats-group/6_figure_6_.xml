@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0006" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 6.</label>
+ <caption>
+  <p>Volcano plot map of lncRNAs expression in BVDV-infected MDBK cells compared to mock-infected cells. The abscissa indicates the log of the difference multiple between two samples; the ordinate indicates the negative Log
+   <sub>10</sub> value of the FDR of two samples; the red points (up-regulation) and green points (down-regulation) indicate the differences in gene expression (judgment criteria: FDR &lt; 0.05; the difference multiple is more than twice). Black dots indicate that there is no difference
+  </p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="KVIR_A_1857572_F0006_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="KVIR_A_1857572_F0006_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

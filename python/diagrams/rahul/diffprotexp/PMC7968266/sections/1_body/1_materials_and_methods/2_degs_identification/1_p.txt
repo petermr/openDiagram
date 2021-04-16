@@ -1,0 +1,3 @@
+0: The DEGs were identified between LMP tumors and EOC in GEO database by the Bioconductor package  limma [ 9].
+1: We set the |log 2FC| > 1.0 and adjusted  P < 0.05 for cutoff criteria.
+2: Then, the Venny online tool ( https://bioinfogp.cnb.csic.es/tools/venny/) was applied to identify the overlapping DEGs among GSE9899, GSE57477 and GSE27651.

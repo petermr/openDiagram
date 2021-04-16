@@ -1,0 +1,8 @@
+0: Nunc Lab-Tek chamber slides (ThermoFisher Scientific) were coated with vitronectin, seeded, and subsequently fixed with 4% paraformaldehyde, permeabilized with 0.4% Triton X-100, blocked with 3% BSA in PBS for at least 1 h. Samples were incubated overnight at 4 C with primary antibody solutions (Table  6) diluted in PBS containing Image-iT FX signal enhancer.
+1: Cells were washed with PBS three times prior to incubation with NucBlue Fixed Cell Reagent, Image-iT FX signal enhancer, and secondary Alexa-488-, Alexa 555-, or Alexa 647-conjugated antibodies at 37 C for 2 h (1:1000 dilution, ThermoFisher Scientific and Jackson ImmunoResearch).
+2: Table  7 summarizes the antibodies and their concentrations applied in this study.
+3: After three PBS washes, the media chambers were removed from the glass slide, coverslips were mounted using ProLong Diamond Antifade Mountant and cells were examined using fluorescence microscopy (Zeiss Observer Z.1).
+4: For biomarker quantification, images were acquired with an AxioCam camera connected to Axio Observer Z1 microscope, using ZEN software.
+5: For each culture, images were taken with a 20X objective choosing fields with > 100 cells.
+6: Images from 5 random fields per culture condition were analyzed with Image J with the following parameters: (i) manual threshold, (ii) fill holes, (iii) enhance contrast and saturated pixels at 0.3%, (iv) watershed separation, and (v) particle analysis at size 100-infinity and circularity at 0.20.1.
+7: The fraction of cells expressing biomarker proteins was calculated as percent of total cells labeled with DAPI.

@@ -1,0 +1,4 @@
+0: The most fine-grained analysis of differential co-expression aims at identifying pairs of genes that change their co-expression across conditions, losing, gaining or switching the sign of their correlation.
+1: Often, single genes with overall large changes in connectivity across the whole network are identified.
+2: This approach has the advantage of providing easily testable hypotheses, involving one or two specific genes, at the cost of lower interpretability.
+3: Therefore, most studies combine the gene-specific approach with the identification of modules as ensembles of DC genes or built from a single gene changing its connectivity, which is used as a seed for a modules construction.

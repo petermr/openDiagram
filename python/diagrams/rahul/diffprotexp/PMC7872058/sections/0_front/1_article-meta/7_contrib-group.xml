@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Bernal-Martínez</surname>
+   <given-names>L</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Gonçalves</surname>
+   <given-names>SM</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0004">
+   <sup>d</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>de Andres</surname>
+   <given-names>B</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0005">
+   <sup>e</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Cunha</surname>
+   <given-names>C</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0004">
+   <sup>d</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Gonzalez Jimenez</surname>
+   <given-names>I</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Lagrou</surname>
+   <given-names>K</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0006">
+   <sup>f</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0007">
+   <sup>g</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Mellado</surname>
+   <given-names>E</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Gaspar</surname>
+   <given-names>ML</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0005">
+   <sup>e</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Maertens</surname>
+   <given-names>JA</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0006">
+   <sup>f</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0008">
+   <sup>h</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Carvalho</surname>
+   <given-names>A</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0004">
+   <sup>d</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Alcazar-Fuoli</surname>
+   <given-names>L</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>
+  <institution-wrap>
+   <institution>Mycology Reference Laboratory, National Centre for Microbiology, Instituto De Salud Carlos III</institution>
+  </institution-wrap>, 
+  <state>Madrid</state>, 
+  <country>Spain</country>
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>
+  <institution-wrap>
+   <institution>Spanish Network for the Research in Infectious Diseases (REIPI), Instituto de Salud Carlos III</institution>
+  </institution-wrap>, 
+  <state>Madrid</state>, 
+  <country>Spain</country>
+ </aff>
+ <aff id="aff0003">
+  <label>c</label>
+  <institution-wrap>
+   <institution>Life and Health Sciences Research Institute (ICVS), School of Medicine, University of Minho</institution>
+  </institution-wrap>, 
+  <city>Braga</city>, 
+  <country>Portugal</country>
+ </aff>
+ <aff id="aff0004">
+  <label>d</label>ICVS/3B’s-PT Government Associate Laboratory, 
+  <institution-wrap>
+   <institution>Braga/Guimarães</institution>
+  </institution-wrap>, 
+  <country>Portugal</country>
+ </aff>
+ <aff id="aff0005">
+  <label>e</label>Department of Immunology, 
+  <institution-wrap>
+   <institution>National Centre for Microbiology, Instituto De Salud Carlos III</institution>
+  </institution-wrap>, 
+  <state>Madrid</state>, 
+  <country>Spain</country>
+ </aff>
+ <aff id="aff0006">
+  <label>f</label>Department of Microbiology, 
+  <institution-wrap>
+   <institution>Immunology, and Transplantation, Laboratory of Clinical Bacteriology and Mycology</institution>
+  </institution-wrap>, 
+  <city>KU Leuven</city>, 
+  <state>Leuven</state>, 
+  <country>Belgium</country>
+ </aff>
+ <aff id="aff0007">
+  <label>g</label>Department of Laboratory Medicine and National Reference Center for Medical Mycology, 
+  <institution-wrap>
+   <institution>University Hospitals Leuven</institution>
+  </institution-wrap>, 
+  <city>Leuven</city>, 
+  <country>Belgium</country>
+ </aff>
+ <aff id="aff0008">
+  <label>h</label>Department of Haematology, 
+  <institution-wrap>
+   <institution>University Hospitals Leuven</institution>
+  </institution-wrap>, 
+  <city>Leuven</city>, 
+  <country>Belgium</country>
+ </aff>
+</contrib-group>

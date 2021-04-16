@@ -1,0 +1,4 @@
+0: A list of 2550 genes reported to be localized in dendrites and axons was obtained from Cajigas et al.
+1: 46.
+2: This was compared with the top APA features in each factor ( \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left| Z \right| \le 1.96$$\end{document}Z1.96,  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$p \le 0.05$$\end{document}p0.05).
+3: To test for statistically significant enrichment, a hypergeometric test was performed using the R function phyper().

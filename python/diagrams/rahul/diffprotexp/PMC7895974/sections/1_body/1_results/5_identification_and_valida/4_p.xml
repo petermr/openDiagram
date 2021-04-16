@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">Because reporter activity observed with 
+ <italic>TCF15</italic> Enh-2 reflected more closely the spatial gene expression pattern of 
+ <italic>TCF15</italic>, we next sought to identify TFs that regulate this element. HINT-ATAC identified a TF footprint for RARA within 
+ <italic>TCF15</italic> Enh-2, consistent with RARA expression and coverage of binding sites across the anterior–posterior axis (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">3i–l</xref>). Introducing mutations into the RARA binding site (Fig. 
+ <xref rid="Fig5" ref-type="fig">5a</xref>) led to loss of reporter activity in the embryo (Fig. 
+ <xref rid="Fig5" ref-type="fig">5f</xref>), suggesting RARA is indeed required to activate 
+ <italic>TCF15</italic> Enh-2. To determine the potential significance of RARA-mediated regulation of 
+ <italic>TCF15</italic> Enh-2 in vivo, we used the conventional dCas9-KRAB repressor to modify the endogenous enhancer
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>. Two CRISPR guide RNAs (gRNA) designed to target the repressor to the 
+ <italic>TCF15</italic> Enh-2 RARA binding site, or scrambled gRNA controls were electroporated together with dCas9-KRAB (Fig. 
+ <xref rid="Fig5" ref-type="fig">5g, h</xref>). Detection of 
+ <italic>TCF15</italic> expression by in situ showed that epigenome modification of the endogenous 
+ <italic>TCF15</italic> Enh-2 alone led to reduced 
+ <italic>TCF15</italic> expression and concomitantly a drastic truncation of the body axis (
+ <italic>n </italic>= 6/8 embryos), whilst control scrambled gRNAs/dCas9-KRAB repressor has no effect on 
+ <italic>TCF15</italic> expression or axis elongation (
+ <italic>n</italic> = 8/9 embryos, Fig. 
+ <xref rid="Fig5" ref-type="fig">5g–i</xref>). These data suggest that RA signalling is crucial for 
+ <italic>TCF15</italic> gene expression as RARA binding site perturbation led to loss of reporter activity and epigenome editing of the endogenous CRE resulted in disruption of anterior–posterior axis elongation. This is consistent with mouse mutants of 
+ <italic>TCF15</italic> or mutants affecting RA signalling, in which ES formation is disrupted and the embryonic axis truncated
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>,
+  <xref ref-type="bibr" rid="CR53">53</xref>,
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup>. Whilst it has been shown that Wnt signalling is important for 
+ <italic>TCF15</italic> expression in early somites
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup>, there is no evidence of direct regulatory interactions. However, we cannot exclude the possibility that Wnt signalling, via LEF/β-catenin, contributes to 
+ <italic>TCF15</italic> expression potentially via a different CRE, which alone is not sufficient. It is also worth noting that 
+ <italic>TCF15</italic> Enh-1 and Enh-2 are not conserved across mammalian species.
+</p>

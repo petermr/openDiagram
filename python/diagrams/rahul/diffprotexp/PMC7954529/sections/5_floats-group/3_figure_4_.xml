@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig4" position="float" orientation="portrait">
+ <label>Figure 4.</label>
+ <caption>
+  <title>Difference in dominant polyadenylation sites (PAS) between species likely drives differences in expression.</title>
+  <p>(
+   <bold>a</bold>) Enrichment of genes with the different (left) of same (right) dominant PAS by dominant cutoff in differentially expressed genes. (
+   <bold>b</bold>) −log
+   <sub>10 </sub>(p-values) for enrichments in (a) calculated with hypergeometric tests. Horizontal line represents a p-value of 0.05. The bars are colored by the dominance cutoff on the X axis.
+  </p>
+ </caption>
+ <graphic xlink:href="elife-62548-fig4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig4s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 4—figure supplement 1.</label>
+   <caption>
+    <title>
+     <xref ref-type="fig" rid="fig4">Figure 4</xref> without genes affected by liftover.
+    </title>
+    <p>(
+     <bold>A</bold>) Enrichment of genes with the different (left) or same (right) dominant polyadenylation sites (PAS) by dominant cutoff in differentially expressed genes after removing genes likely affected by liftover. (
+     <bold>B</bold>) -log
+     <sub>10 </sub>(p-values) for enrichments in (A) calculated with hypergeometric tests. Horizontal line represents p=0.05.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig4-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

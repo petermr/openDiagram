@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">RUNX1/RUNX1T1 binding sites are enriched in promoter and intronic regions indicating that the fusion protein directly affects transcription of multiple genes
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>,
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>. Consistently, in our dataset of diffUEs and diffEEJs, we found that 38% of genes with differential splicing were also enriched for fusion protein binding sites (Supplementary Data 
+ <xref rid="MOESM9" ref-type="media">6</xref>, 
+ <xref rid="MOESM10" ref-type="media">7</xref>). This enrichment was significantly higher than that for non-differentially spliced genes (odds ratio 2.47 and 
+ <italic>p</italic> = 2.5 × 10
+ <sup>−15</sup> according to two-sided Fisher’s exact test). Based on these data, we hypothesized that differential splicing events can arise from the selection of alternative TSSs under the control of the fusion protein. Indeed, we identified 775 TSS associated with differential transcription (more than 2-fold change, q &lt; 0.1) in the genome of Kasumi-1 cells following 
+ <italic>RUNX1/RUNX1T1</italic> knockdown (Fig. 
+ <xref rid="Fig7" ref-type="fig">7a</xref>). Among those, knockdown of the 
+ <italic>RUNX1/RUNX1T1</italic> led to differential usage of 112 alternative TSSs (more than 2-fold change, 
+ <italic>q</italic> &lt; 0.1) (Fig. 
+ <xref rid="Fig7" ref-type="fig">7b</xref>). Loss of RUNX1/RUNX1T1 increased chromatin accessibility and RUNX1 occupation at alternative TSSs to a similar extend as in the total group of TSSs driving differential transcription (Fig. 
+ <xref rid="Fig7" ref-type="fig">7a</xref>, Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">3a</xref>). Thus, perturbation of RUNX1/RUNX1T1 reorganizes the chromatin structure of alternative TSSs leading to their transcriptional activation.
+</p>

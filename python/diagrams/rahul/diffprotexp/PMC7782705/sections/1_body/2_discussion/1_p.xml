@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">Comprehensive knowledge of gene expression alterations associated with the onset and progression of human diseases is a key step toward the understanding of their cellular and molecular mechanisms
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. In this work, we provide a novel framework to identify cell-type-specific gene expression alterations in AD using patient-derived bulk RNAseq. Comparing RNA sequencing data obtained from distinct brain regions of control and AD patients, we show that changes in gene expression are more significant in the temporal than frontal lobe. We also show that a large number of genes present isoform switches without changes in the global expression levels. As a consequence, these genes are overlooked in classical differential expression analysis but can be detected through differential transcript usage analysis. Gene isoform switches are mostly evident at late stages of the pathology and correlate with altered expression of genes encoding for splicing-related proteins. Using an indirect approach to assign genes to unique cell types, we are also able to map DEGs/gDTUs to unique cell populations of the adult brain, and our results are comparable to previously published scRNAseq data
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>,
+  <xref ref-type="bibr" rid="CR7">7</xref>
+ </sup>. Finally, we show that a subset of AD causal/risk factors such as APP or BIN1 is differentially expressed in the AD brain. Altogether, our work provides a comprehensive description of regional and cell-type-specific gene expression changes in the AD brain and suggests that alternative splicing could be an important mechanism for pathological progression.
+</p>

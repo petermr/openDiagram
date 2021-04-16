@@ -1,0 +1,5 @@
+0: We used Cufflinks with the strand-specific library option, -library-type = fr-firststrand, and other default options to quantify the mapped reads on the reference genome into gene expression values [ 16].
+1: The gene annotation of the reference genome hg19 from the UCSC genome browser database ( https://genome.ucsc.edu) in GTF format was used as the gene model, and the expression values were calculated in fragments per kilobase of transcript per million fragments mapped reads.
+2: The DEGs between the CI and control groups, and between the CI-preterm and CI-term groups were analyzed using Cuffdiff software in the Cufflinks package [ 17].
+3: To compare the expression profiles among the samples, the normalized expression values of the selected DEGs were unsupervised clustered by in-house R scripts.
+4: Volcano plots for the expression-fold changes and adjusted  P values between the two groups were also drawn using in-house R scripts.

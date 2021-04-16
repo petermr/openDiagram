@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The most pervasive WGCNA-resolved DE signatures following MIA impacted a large proportion of genes in the Blue and Turquoise modules by E14.5 and peaked at E17.5 (
+ <xref ref-type="fig" rid="fig1">Figure 1c</xref>). GO terms related to proliferation and cell cycle were enriched in the Blue module among downregulated DE genes, and terms related to neuronal differentiation and synapses were enriched in the Turquoise module among upregulated DE genes (
+ <xref ref-type="fig" rid="fig2">Figure 2c</xref>). Considering the changes in proliferative and lamination markers associated with Blue and Turquoise genes, we sought to validate such changes at the protein level in independent samples (
+ <xref ref-type="fig" rid="fig4">Figure 4</xref>, 
+ <xref ref-type="fig" rid="fig4s1">Figure 4—figure supplement 1</xref>). Four out of five DE genes tested validated with concordant changes at the protein level as determined by western blot (WB) analysis at E17.5, showing either statistical significance or trends in the same direction as observed in our transcriptomic analysis (
+ <xref ref-type="fig" rid="fig4">Figure 4a–b</xref>, 
+ <xref ref-type="fig" rid="fig4s1">Figure 4—figure supplement 1</xref>). The DE signatures associated with Blue and Turquoise modules were evidenced by separation between MIA and saline samples in PCA plots at E14.5 and E17.5, with E17.5 MIA samples clustered closer to the P0 samples than saline age-matched counterparts (
+ <xref ref-type="fig" rid="fig1">Figure 1b</xref>). To test for MIA-associated perturbation to temporal full transcriptome expression patterns, we generated a linear regression model using RNA-seq data principal components 1–5 and RNA-seq covariates to model age in saline samples. We then used this model to predict age in MIA samples (
+ <xref ref-type="fig" rid="fig4">Figure 4c</xref>). E17.5 MIA samples exhibited older predicted age values relative to E17.5 saline controls (p = 4.5e-06, T-test), and E14.5 MIA samples showed a similar trend (p = 0.07, T-test). These findings suggest that mid-gestational MIA at E12.5 perturbs the timing of major downstream neurodevelopmental processes at E14.5 and E17.5 in embryonic cerebral cortex.
+</p>

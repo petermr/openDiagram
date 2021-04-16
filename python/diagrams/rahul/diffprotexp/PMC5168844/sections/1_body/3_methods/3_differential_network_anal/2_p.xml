@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>This process is repeated 1000 times and the observed level of significance (
+ <italic>p</italic>-value) is obtained using
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ pval\left(\mathrm{\mathcal{F}}\right)=\frac{1}{1000}{\displaystyle \sum_{i=1}^{1000}}I\left(\Delta \left(\mathrm{\mathcal{F}},i\right)\ge \Delta \left(\mathrm{\mathcal{F}}\right)\right) $$\end{document}</tex-math>
+   <math id="M16">
+    <mi mathvariant="italic">pval</mi>
+    <mfenced close=")" open="(">
+     <mi mathvariant="normal">ℱ</mi>
+    </mfenced>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mn>1000</mn>
+    </mfrac>
+    <mstyle displaystyle="true">
+     <munderover>
+      <mo stretchy="true">∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mn>1000</mn>
+     </munderover>
+    </mstyle>
+    <mi>I</mi>
+    <mfenced close=")" open="(">
+     <mrow>
+      <mi mathvariant="normal">Δ</mi>
+      <mfenced close=")" open="(" separators=",">
+       <mi mathvariant="normal">ℱ</mi>
+       <mi>i</mi>
+      </mfenced>
+      <mo>≥</mo>
+      <mi mathvariant="normal">Δ</mi>
+      <mfenced close=")" open="(">
+       <mi mathvariant="normal">ℱ</mi>
+      </mfenced>
+     </mrow>
+    </mfenced>
+   </math>
+   <graphic xlink:href="13062_2016_168_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

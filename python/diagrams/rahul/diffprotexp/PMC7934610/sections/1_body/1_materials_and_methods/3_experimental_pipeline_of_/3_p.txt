@@ -1,0 +1,4 @@
+0: Primary sequencing data produced using Illumina HiSeq 2000, called raw reads, were filtered with the  SOAPnuke program (version 1.5.0) [ 27] by (1) removing reads containing sequencing adapters; (2) removing reads whose low quality base ratio (base quality less than or equal to 5) was more than 20%; and (3) removing reads whose unknown base (N base) ratio was more than 5%, after clean reads were obtained and stored in FASTQ format.
+1: After the above quality control (QC) step, raw reads were filtered into clean reads.
+2: Because the CE-R group contained the clean data from three individual libraries (for three samples), these data were combined to form the clean data of the CE-R group, and were aligned to the reference genome with  SOAPaligner/SOAP2 [ 26], like in the CE-NR group.
+3: In this search, the sheep oar3.1 database of livestock genomics was selected as the reference genome ( http://www.livestockgenomics.csiro.au/sheep/oar3.1.php/).

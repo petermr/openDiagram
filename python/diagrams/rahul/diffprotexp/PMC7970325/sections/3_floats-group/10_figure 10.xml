@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig10">
+ <label>Figure 10</label>
+ <caption>
+  <p>Reconstructed differential DNA repair molecular network for the comparison of Papillary cancer (PC) vs Follicular adenoma (FA). Node Fold Change for each node was calculated as the sum of fold changes of the genes which were included in the node. Fold change for each gene was calculated by taking logarithm base 2 of ratio of geometric means of gene expression in compared groups. Green nodes represent genes that are up-regulated in PC (down-regulated in FA); red nodes – genes that are down-regulated in PC (up-regulated in FA). Arrow color indicates type of interaction. Shape of a node reflects source molecular pathway(s). Asterisks (∗) indicate nodes which include differential genes (PC vs FA) with q-value &lt;0.05; double asterisks (∗∗) - nodes which include differential genes with q &lt; 0.01. ATM pathway, NCI ATM pathway, and p53 signaling pathway represented here also include their differentially regulated branches that can be considered as separate pathways: 
+   <italic>Cell Survival, G1 S transition checkpoint</italic>, and 
+   <italic>Gene Expression DNA Replication and Repair via TP53</italic>, accordingly.
+  </p>
+ </caption>
+ <alt-text id="alttext0100">Figure 10</alt-text>
+ <graphic xlink:href="gr10" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

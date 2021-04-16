@@ -1,0 +1,4 @@
+0: After filtering reads with an adaptor at the 3 end and quality values less than Q20 using Cutadapt [ 43], clean reads were assembled.
+1: Functional annotation was performed using five databases including Non-Redundant Protein Sequence Database (NR), GO, KEGG, and evolutionary genealogy of genes: Non-supervised Orthologous Groups (eggnog) databases [ 44].
+2: Three pairs of DEG profiles for different sample libraries (NV vs. NDH, NV vs. NDV, and NDV vs. NDH; in each paired comparison, the former was used as a control and the latter as the experimental group) were compared to identify DEGs in vegetative cells and heterocysts of  Anabaena sp.
+3: strain PCC 7120.

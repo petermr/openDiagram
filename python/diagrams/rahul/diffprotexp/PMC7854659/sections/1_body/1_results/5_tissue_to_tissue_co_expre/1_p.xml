@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">To build a network across tissues based on the PCIT framework, we prioritized 1,160 unique informative genes considering the following criteria: (1) DEG between RES and CON groups; (2) tissue-specific; and (3) key TFs based on RIF1 or RIF2. Based on that, a significant network with 992 nodes and 105,449 interactions (r &gt;|0.9|) was retrieved (Table 
+ <xref rid="MOESM5" ref-type="media">S4</xref>, Fig. 
+ <xref rid="MOESM1" ref-type="media">S3</xref>). The network had a high clustering coefficient (0.8) and was clustered by tissue (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>B), mainly driven by TS genes, followed by DEGs and TFs. Genes from the liver showed higher average connectivity (284.5) compared to the cerebrum (144.7) or muscle (100.06). The 
+ <italic>GATA1</italic>, 
+ <italic>HSF2</italic>, and 
+ <italic>PLEK</italic> TFs showed the greatest connectivity within liver, muscle, and cerebrum tissues, respectively. Furthermore, these genes shared all the first neighbors of one another, creating a sub-network with 427 nodes and 81,308 connections (Fig. 
+ <xref rid="MOESM1" ref-type="media">S4</xref>).
+</p>

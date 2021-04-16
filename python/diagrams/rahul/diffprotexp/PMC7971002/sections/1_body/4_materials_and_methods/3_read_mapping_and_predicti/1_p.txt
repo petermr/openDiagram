@@ -1,0 +1,6 @@
+0: RNA-Seq reads from each of the samples were matched by TopHat to the Oar_4.0-sheep reference genome using the default settings 23.
+1: LncRNAs were identified following the procedure by 67.
+2: Briefly, transcripts were blasted to known mRNAs, and other types of non-coding RNAs (including pseudogenes, pre-microRNA, tRNA) were eliminated.
+3: Then, the transcripts with single exon and length < 200 bp were excluded from further analyses.
+4: PLEK 68, CNCI 69, CPC 70 and Pfam 71 were used to identify the protein-coding potential of the above-obtained transcripts and the intersection of the results were taken as the final results.
+5: Finally, in order to identify known lncRNAs, BLASTN tool was used to align lncRNA candidates to ALDB (a domestic animal extended non-coding RNA database), a database with a focus on domestic animal lncRNAs with the following settings, identity = 100%, mismatch = 0, E value < 1e10 and gap_opening = 0 72.

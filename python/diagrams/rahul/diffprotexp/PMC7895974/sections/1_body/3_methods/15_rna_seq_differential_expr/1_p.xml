@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par44">Adaptors were removed from raw paired-end sequencing reads and trimmed for quality using Trim Galore! (v.0.5.0) using default parameters. QC was performed before and after read trimming using FastQC (v.0.11.6) and no data quality issues were identified after checking the resultant QC reports. Processed reads were mapped to galGal5 cDNA using kallisto (v.0.44.0)
+ <sup>
+  <xref ref-type="bibr" rid="CR75">75</xref>
+ </sup>. Resultant quantification files were collated to generate an expression matrix. Differential expression, GO term and pathway analyses were then conducted using DESeq2
+ <sup>
+  <xref ref-type="bibr" rid="CR74">74</xref>
+ </sup> and default settings within the iDEP (v.9.0)
+ <sup>
+  <xref ref-type="bibr" rid="CR76">76</xref>
+ </sup> web interface. GO term analysis used PGSEA method for GO Biological Process with a minimum of 15 and maximum of 2000 geneset and &lt;0.2 FDR. For STRING analysis, version 11.0 was used
+ <sup>
+  <xref ref-type="bibr" rid="CR77">77</xref>
+ </sup> to identify PPI networks with a high threshold (0.700) selected for positive interactions between pairs of genes.
+</p>

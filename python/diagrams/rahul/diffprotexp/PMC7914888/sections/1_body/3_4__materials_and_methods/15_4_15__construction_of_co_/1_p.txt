@@ -1,0 +1,12 @@
+0: For the RC-miR construction, we used the previously proposed [ 123], all in R code.
+1: The structure of these networks began with creating a similarity matrix, followed by selecting the similarity threshold, constructing an adjacency matrix, and plotting the generated groupings.
+2: It found that the relationship between miRNAs was not linear, so the calculation of the similarity matrix of each of the expression matrices was made with the criterion of mutual information (M.I.)
+3: because M.I.
+4: is capable of detecting nonlinear correlations that are undetectable for other metrics such as the Pearson coefficient [ 124].
+5: It was necessary to perform a discretization of the normalized expression data, and we used the Equal Frequency method.
+6: Finally, the values were adjusted to a correlation coefficient between [0, 1] [ 125].
+7: We constructed six matrices of similarity by using the M.I.
+8: coefficient as a similarity metric and the expression matrix that included the normalized counts of the Small RNA-seq for the miRNAs with differential expression found in the B16F1 cells exposed or not to L-Tyr or 5-Brd-2-dU, expressed in blocks or by groups: over or under-expressed.
+9: We established a similarity threshold to build the adjacency matrix from which the correlation (similarity) between two miRNAs was considered significant.
+10: We selected this threshold by comparing the grouping coefficient of the obtained network ( C( )) and the expected grouping coefficient for a random network ( Co( v)), with different values of (tao)   between 0.01 and 0.99 (Equation (1)) [ 123, 126].
+11: (1) ={v:|C(v)Cr(v)| > |C(v+1)Cr(v+1)|}

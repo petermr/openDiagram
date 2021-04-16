@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To identify differentially expressed transcripts, quantitation of mRNA isoforms in the curated transcriptome was first performed using short-read expression in DESeq2 using independent hypothesis weighting [
+ <xref rid="B28-viruses-13-00218" ref-type="bibr">28</xref>]. This information, including the experimental design matrix and the genome annotation file from the curated transcriptome characterized previously, was subjected to functional isotranscriptomics (FIT) analysis in tappAS (
+ <xref ref-type="fig" rid="viruses-13-00218-f001">Figure 1</xref>) [
+ <xref rid="B31-viruses-13-00218" ref-type="bibr">31</xref>].
+</p>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Uniprot database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.uniprot.org" xmlns:xlink="http://www.w3.org/1999/xlink">www.uniprot.org</ext-link>) was used to identify protein localization and function. Ingenuity pathways analysis (IPA) knowledge base (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ingenuity.com" xmlns:xlink="http://www.w3.org/1999/xlink">www.ingenuity.com</ext-link>) was used to identify predominant interaction networks and biological functions of differentially expressed proteins [
+ <xref rid="pone.0180409.ref036" ref-type="bibr">36</xref>]. This software uses computational algorithms to identify networks consisting of proteins of interest and their interactions with other proteins in the knowledge base. The network scores (negative log of the P value) are calculated according to the fit of the network to the focus proteins. In addition, IPA knowledge base identifies global function and canonical pathways of the entire data set of proteins. The significance values for the canonical pathways are calculated by Fisher's exact test right-tailed. Specifically, this test compares the number of proteins that contribute in a given pathway or process, relative to the total number of occurrences of these proteins in all pathway annotations stored in the IPA knowledge base.
+</p>

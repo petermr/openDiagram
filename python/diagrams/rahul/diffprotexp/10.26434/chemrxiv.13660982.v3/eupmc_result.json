@@ -1,0 +1,280 @@
+{
+  "id": [
+    "PPR285236"
+  ],
+  "source": [
+    "PPR"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PPR285236"
+      ]
+    }
+  ],
+  "doi": [
+    "10.26434/chemrxiv.13660982.v3"
+  ],
+  "title": [
+    "Large Scale Profiling of SARS-CoV-2-Infected Patients Identified Potential Therapeutic Host Targets and Drug Candidates for COVID-19"
+  ],
+  "authorString": [
+    "Jain S, Rego S, Dakshanamurthy S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Jain S"
+          ],
+          "firstName": [
+            "Sidharth"
+          ],
+          "lastName": [
+            "Jain"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Rego S"
+          ],
+          "firstName": [
+            "Samantha"
+          ],
+          "lastName": [
+            "Rego"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Dakshanamurthy S"
+          ],
+          "firstName": [
+            "Sivanesan"
+          ],
+          "lastName": [
+            "Dakshanamurthy"
+          ],
+          "initials": [
+            "S"
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "Given the rapid spread of SARS-CoV-2 and rising death toll of COVID-19 in the current absence of effective treatments, it is imperative that therapeutics are developed and made available to patients as quickly as possible. Publicly available COVID-19 patient data can be used to identify host therapeutic targets, tailoring treatments to the disease signatures observed in patients. In this study, we identify potential host therapeutic targets based on gene expression alterations observed in COVID-19 patients. We analyzed RNAseq data from airway samples of COVID-19 patients and healthy controls to detect significantly differentially expressed genes and pathways that present potential therapeutic targets. Our analysis revealed expression changes in key genes involved in activation of immune pathways, as well as genes targeted by SARS-CoV2 to interfere with normal host cell functioning. Critical changes were observed in a number of genes, including EIF2AK2, which was shown to play important roles in activating the interferon response and interfering with host cell translational machinery in SARS-CoV-2 infection, presenting a prospective therapeutic target. We also identified drugs with potential to modulate multiple therapeutic targets within the most significant pathways. Our results both validate key genes, pathways, and drug candidates that have been reported by other studies and suggest others that have not been well-characterized and warrant further investigation by future studies. Further investigation of these therapeutic targets and their drug interactions may lead to effective therapeutic strategies to combat the current COVID-19 pandemic and protect against future outbreaks.<br>"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  ],
+  "bookOrReportDetails": [
+    {
+      "publisher": [
+        "ChemRxiv"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.26434/chemrxiv.13660982.v3"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/article/PPR/PPR285236"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/api/fulltextRepo?pprId=PPR285236&type=FILE&fileName=EMS117043-pdf.pdf&mimeType=application/pdf"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "versionList": [
+    {
+      "version": [
+        {
+          "id": [
+            "PPR278349"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "firstPublishDate": [
+            "2021-02-05"
+          ],
+          "versionNumber": [
+            "1"
+          ]
+        },
+        {
+          "id": [
+            "PPR279613"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "firstPublishDate": [
+            "2021-02-08"
+          ],
+          "versionNumber": [
+            "2"
+          ]
+        },
+        {
+          "id": [
+            "PPR285236"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "firstPublishDate": [
+            "2021-02-18"
+          ],
+          "versionNumber": [
+            "3"
+          ]
+        }
+      ]
+    }
+  ],
+  "versionNumber": [
+    "3"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "geo"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-19"
+  ],
+  "firstIndexDate": [
+    "2021-02-19"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-16"
+  ],
+  "firstPublicationDate": [
+    "2021-02-18"
+  ]
+}

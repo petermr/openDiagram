@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The small RNA sequencing of 36 samples resulted in 364.31 million raw reads. After the trimming step, the surviving reads (327.84 M) were mapped to 
+ <italic>C</italic>. 
+ <italic>quinoa</italic> reference genome with an average successful alignment percentage rate of 97.93 (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s013">S2 Table</xref>). Exclusion of transfer (tRNA), ribosomal (rRNA), small nuclear (snRNA), and small nucleolar (snoRNA) RNAs from mapped reads resulted in the remaining reads (198.11 M) that were further used for miRNA or siRNA analyses. All raw data are available from NCBI SRA database under Bioproject accessions PRJNA541979 and PRJNA541982.
+</p>

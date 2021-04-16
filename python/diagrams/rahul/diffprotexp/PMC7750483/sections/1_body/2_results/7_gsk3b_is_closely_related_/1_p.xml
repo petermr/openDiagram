@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to determine the importance of functional annotations between different proteins, we conducted analysis by using the R/Bioconductor package GOSemSim. According to the ranking results of importance, the results showed that among downstream pathway-associated proteins, 
+ <italic>GSK3B</italic> plays a crucial role in the three major categories of GO, including biological processes, cell components, and molecular functions. Other important proteins included AKT1S1, RAF1, ERBB2, SRC, MAPK3, MAP2K1, BRAF, AKT1, and MAPK1 (
+ <xref ref-type="fig" rid="F8">Figure 8A</xref>). Next, we used the expression level of these genes to map the correlation between them. The results showed that 
+ <italic>GSK3B</italic> was positively correlated with most genes (
+ <xref ref-type="fig" rid="F8">Figure 8B</xref>). Then, we analyzed the correlation of GSK3B with m
+ <sup>5</sup>C regulators (
+ <xref ref-type="fig" rid="F8">Figure 8C</xref>). The result showed that 
+ <italic>GSK3B</italic> was significantly and positively correlated with all m
+ <sup>5</sup>C regulators except for 
+ <italic>NSUN6</italic> for which it showed negative correlation, indicating that 
+ <italic>GSK3B</italic> protein may be closely related to m
+ <sup>5</sup>C writer and reader. In the human disease methylation database (DiseaseMeth version 2.0), we found that 
+ <italic>GSK3B</italic> is not influenced by DNA methylation in GI cancer (
+ <xref ref-type="supplementary-material" rid="FS2">Supplementary Figure S2</xref>). In conclusion, we believe that m
+ <sup>5</sup>C writer and reader mainly affect genes in the ErbB/PI3K–Akt signaling pathway, and that 
+ <italic>GSK3B</italic> may be an important downstream target of m
+ <sup>5</sup>C regulators.
+</p>

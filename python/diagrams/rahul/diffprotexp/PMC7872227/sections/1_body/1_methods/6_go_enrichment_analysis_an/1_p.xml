@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Gene Ontology (GO) enrichment analysis of differentially expressed genes was implemented by the clusterProfiler R package, in which gene length bias was corrected [
+ <xref rid="pone.0246818.ref025" ref-type="bibr">25</xref>]. GO terms with corrected p-value less than 0.05 were considered significantly enriched by DEGs.
+</p>

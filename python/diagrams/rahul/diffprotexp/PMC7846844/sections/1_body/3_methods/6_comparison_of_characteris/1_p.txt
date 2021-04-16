@@ -1,0 +1,3 @@
+0: We selected 45,788 "gene_biotype = protein_coding" transcripts from the pig's genome annotation file (SusScrofa 11.1) to define them as transcripts of protein coding genes.
+1: In addition, we use the "blastn" instruction to divide lincRNA into known lincRNA and novel lincRNA.
+2: We then identified and compared the transcript lengths, exon lengths, exon numbers, and FPKM averages for these three categories.

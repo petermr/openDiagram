@@ -1,0 +1,7 @@
+0: Clean filtered reads were aligned on the  D. carota genome 42 using the STAR aligner 67 using --alignIntronMin 20 --alignIntronMax 20,000 --outSAMtype BAM SortedByCoordinate --outReadsUnmapped Fastx as parameters.
+1: Subsequently, the aligned reads were assembled by means of StringTie 68 and new transcripts were extracted and annotated using the GffCompare 69 program (GffCompare classes u, x, to adjust).
+2: Only new transcripts whose length was greater than 200 nt were kept.
+3: The classification of the newly predicted transcript was performed as follow: (1) coding, if their predicted open reading frame (ORF) was greater than 120 aa or if they were predicted as coding by CPC2 70 calculator; (2) structural, in case of homology with structural RNA (tRNA, rRNA, snRNA or snoRNA) after the analysis against Rfam 71; and (3) non-coding, if they were predicted as non-coding by CPC2 calculator or in case of homology with known structured non-coding RNA in Rfam (miRNA precursors, lncRNA).
+4: For each transcript, the longest ORF on the forward strand with at least 70 amino acid was predicted using TransDecoder ("-S -m 50", v5.5.0) 72.
+5: Each ORFs was then search against UniRef90 using DIAMOND v2.0.6 73.
+6: Hits with an e-value lower than 1e10 were considered as positive.

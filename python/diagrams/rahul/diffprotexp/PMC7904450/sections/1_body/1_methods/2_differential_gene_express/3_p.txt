@@ -1,0 +1,7 @@
+0: A concordance score is an adjusted correlation coefficient that can range from 1 to 1. iLINCS only reports a match if the concordance score is  0.2 or  0.2.
+1: Concordance scores outside of those parameters are considered statistically insignificant.
+2: In this way, we identified 779 total signatures (concordance  0.2 or  0.2) derived from comparisons of the 168 drug treatment gene signatures to CGS for 27 inflammatory genes in 11 different cell lines ( Table S2).
+3: We again filtered our list to include only the highest absolute concordance score (range 0.7166 to 0.7982) for each drug treatment, knockdown, and cell line combination.
+4: This resulted in 395 concordance scores comparing 27 inflammatory genes and 4 drugs of interest across 11 cell lines ( Table S3).
+5: Mean concordance scores are calculated by averaging the concordance scores for a given drug-gene comparison across cell lines.
+6: Statistically significant outliers (P < 0.5) within the list of drug-gene concordance scores among cell lines containing calculated concordance scores for less than 3 drugs of interest were identified using the extreme studentized deviate method (Grubbs test) and subsequently excluded.

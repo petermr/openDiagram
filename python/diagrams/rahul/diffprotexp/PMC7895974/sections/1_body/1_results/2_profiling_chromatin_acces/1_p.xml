@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">To identify genomic regulatory elements that control paraxial mesoderm and somite differentiation programmes, we used Assay for Transposase-Accessible Chromatin using sequencing (ATAC-seq)
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup>. This mapped chromatin accessibility across the paraxial mesoderm along the axis, in PSM, ES, MS and DS (Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>). Distinct chromatin accessibility profiles were evident at different stages of somite development, indicative of the dynamic progression of axial development. PCA showed a high reproducibility between biological triplicates of each sample type (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">2g–l</xref>), but dynamic changes in chromatin accessibility were observed between them. Using DiffBind
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>,
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup> we show the densities and clustering of differentially accessible chromatin regions (peak sites) (rows), as well as the sample clustering (columns) for PSM against ES, ES against MS, and MS against DS. We identified differentially accessible peaks with differential densities showing clusters of peak sites with distinct patterns of chromatin accessibility levels for PSM against ES (Fig. 
+ <xref rid="Fig2" ref-type="fig">2a</xref>), ES against MS (Fig. 
+ <xref rid="Fig2" ref-type="fig">2b</xref>), and MS against DS (Fig. 
+ <xref rid="Fig2" ref-type="fig">2c</xref>). MA plots show the highest number of differentially accessible peaks is evident when comparing PSM and ES (
+ <italic>n</italic> = 27,692, Fig. 
+ <xref rid="Fig2" ref-type="fig">2d</xref>). The number of differentially accessible peaks is lower when comparing ES against MS, and MS against DS (
+ <italic>n</italic> = 4670, 
+ <italic>n</italic> = 1965, Fig. 
+ <xref rid="Fig2" ref-type="fig">2e, f</xref>). This is in line with the transcriptome data, where greater differences were seen between PSM and ES compared to the differences observed between different stages of somite maturation.
+</p>

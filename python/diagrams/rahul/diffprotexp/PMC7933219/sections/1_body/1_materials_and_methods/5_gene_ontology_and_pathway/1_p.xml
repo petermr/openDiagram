@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To understand the underlying biological processes between differentially expressed mRNAs, the gene ontology (GO) database by DAVID (Database for Annotation, Visualization, and Integrated Discovery)
+ <sup>
+  <xref ref-type="fn" rid="footnote1">1</xref>
+ </sup> was used to perform functional enrichment analysis. Pathway analysis was conducted using the Kyoto Encyclopedia of Genes and Genomes (KEGG)
+ <sup>
+  <xref ref-type="fn" rid="footnote2">2</xref>
+ </sup>. The relationships among the enriched clusters from the GO and KEGG pathway analyses were visualized using R ggplot2 package and Cytoscape v3.7.2.
+</p>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To further decipher 
+ <italic>Cebpa</italic> and 
+ <italic>Cebpb</italic> interactions, PPI networks of the DEGs detected in each timepoint were constructed using STRING. Design of construct, formulated via Cytoscape, were restricted on direct interactions of DEG nodes with either 
+ <italic>Cebpa</italic> and 
+ <italic>Cebpb</italic> in each timepoint. The genes were ranked in degree of interaction in each timepoint after merging 
+ <italic>Cebpa</italic> and 
+ <italic>Cebpb</italic> profiles (left panels: 
+ <xref ref-type="fig" rid="f0006">Figure 6a</xref> and B). Based on the network maps, there were more direct interactions at day 3 (8 ranked orders) than that of day 5 (4 ranked orders). At day 3, 
+ <italic>Cebpa</italic> showed the highest level of interaction at 12 degree; whereas 
+ <italic>Cebpb</italic> was ranked in the fourth order, along with 
+ <italic>Cdk1</italic> and 
+ <italic>Psmb10</italic>, at 5 degrees (right panel: 
+ <xref ref-type="fig" rid="f0006">Figure 6a</xref>). Interestingly, 
+ <italic>Hdac1</italic> and 
+ <italic>Cdk4</italic> were ranked in the second and third order at 9 and 6 degrees, respectively. Moreover, 
+ <italic>Wrd5</italic> was ranked at the fifth order at 4 degrees; whereas 
+ <italic>Smarca2, Trib1, Rb1, Mapk14</italic>, and 
+ <italic>Gsk3b</italic> were collectively ranked in the sixth order with 3 degrees each. Further to those, 
+ <italic>Jpr2, Runx1t1</italic>, and 
+ <italic>Med1</italic> were also collectively ranked at seventh order at 2 degree; whereas 
+ <italic>Pteg2</italic> and 
+ <italic>Rnf1</italic> were ranked at the eighth order with a degree level of 1. Inversely, at day 3, 
+ <italic>Cebpb</italic> showed the highest level of interaction at 6 degrees followed by 
+ <italic>Cebpa</italic> at 4 degrees (right panel: 
+ <xref ref-type="fig" rid="f0006">Figure 6b</xref>). Genes 
+ <italic>Bhlhe41</italic> and 
+ <italic>Gsk3b</italic> were ranked at third order at 3 degrees each; whereas 
+ <italic>Cdk2, Sin3a</italic>, and 
+ <italic>Kmt2d</italic> were ranked at the fourth order with 2 degrees each. The expression of the genes was further analysed using a metric heatmaps, which showed variable patterns among the genes at different timepoints (MEFD0 – day 0, MEFD3min – untreated day 3, MEFD5min – untreated day 5, MEFD3plu – treated day 3, and MEFD5plu – treated day 5) (
+ <xref ref-type="fig" rid="f0006">Figure 6c</xref>). As previously shown, 
+ <italic>Cebpa, Cebpb</italic>, and 
+ <italic>Ptge2</italic> were observed to be differentially upregulated in the treated conditions of day 3 and 5. Interesting, 
+ <italic>Psmb10</italic> and 
+ <italic>Hdac1</italic> were observed to be differentially upregulated in treated MEF at day 5 as opposed to that at day 3. Whereas, 
+ <italic>Mapk14, Gsk3b, Trib1, Kmt2d</italic>, and 
+ <italic>Rb1</italic> were differentially upregulated in treated MEFs at day 3 rather than day 5. There were also number of genes that were observed to be differentially downregulated due to the potency effect of differentiation treated, which included 
+ <italic>Cdk2, Med19, Cdk4, Jdp2, Rnf41, Ncoa3, Wdr5, Sin3a, Cdk1</italic>, and 
+ <italic>Bhlhe41</italic>. Overall, these variable observations between the different timepoints may suggest that specific interactions occur in a time-dependent manner for 
+ <italic>Cebpa</italic> and 
+ <italic>Cebpb</italic>.
+</p>

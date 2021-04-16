@@ -1,0 +1,6 @@
+0: Differential expression analysis was performed on counts of mapped reads for each gene in R version 3.2.1 51.
+1: Strand-specific read counts were used with the R package DESeq2 (v1.12.4) 52 to identify differentially expressed genes (adjusted  p-value < 0.05, BenjaminiHochberg correction).
+2: Gene counts were normalized prior to differential analysis using the normalization method implemented in DESeq2.
+3: To identify differentially expressed snoRNA genes, all the rRNA and tRNA genes were removed from the quantified genes prior to performing differential analysis.
+4: For the cytocyto and nucnuc differential gene expression analysis, we subsampled the read counts from the samples to obtain equal library sizes using metaseqR 53.
+5: Differential expression analysis was performed in the similar way as mentioned earlier.

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <title>Differential footprints identified for CDX2 and LEF1 during somite development.</title>
+  <p>
+   <bold>a</bold> Gene expression from mRNA-seq (error bars = SEM, 
+   <italic>n</italic> = 3) for 
+   <italic>CDX2</italic>. 
+   <bold>b</bold> Tn5 insertion frequency across all accessible regions containing at least one CDX2 motif, at nucleotide resolution in PSM, ES, MS and DS reveals the presence of a footprint centred on the CDX2 motif. Differential footprinting for CDX2 motif comparing PSM and ES, 
+   <bold>c</bold> PSM and MS, and 
+   <bold>d</bold> PSM and DS. 
+   <bold>e</bold> Gene expression for 
+   <italic>LEF1</italic> (error bars = SEM, 
+   <italic>n</italic> = 3). 
+   <bold>f</bold> Differential footprinting for LEF1 motif comparing PSM and ES, 
+   <bold>g</bold> PSM and MS, and 
+   <bold>h</bold> PSM and DS. Similar GO terms for genes associated with (
+   <bold>i</bold>) CDX2 footprints and (
+   <bold>j</bold>) LEF1 footprints. For enriched GO terms, 
+   <italic>p</italic> values were obtained from a modified Fisher exact test. 
+   <bold>k</bold>, 
+   <bold>l</bold> Protein–protein network analysis using STRING database. Interactions between genes identified with (
+   <bold>k</bold>) CDX2 and (
+   <bold>l</bold>) LEF1 footprints in an accessible region, within 10 kb upstream or downstream. Highlighted in red are genes correlated with embryonic morphogenesis in CDX2-associated genes and animal organ morphogenesis in LEF1-associated genes. 
+   <bold>m</bold> Venn diagram of CDX2-associated genes against LEF1-associated genes identified only four common genes—
+   <italic>Msgn1</italic>, 
+   <italic>Sall4</italic>, 
+   <italic>Spry1</italic> and 
+   <italic>DDC</italic>.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2021_21426_Fig3_HTML" id="d32e1011" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

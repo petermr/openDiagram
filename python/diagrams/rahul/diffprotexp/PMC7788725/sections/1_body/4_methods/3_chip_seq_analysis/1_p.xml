@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par50">The quality of the ChIP-seq dataset was inspected using FastQC. Reads were aligned to human reference genome hg19 (GRCh37) using Bowtie 2 [
+ <xref ref-type="bibr" rid="CR43">43</xref>]. Artifactual read duplicates were removed prior to further analysis. The deduplicated reads were indexed and sorted using SAMtools for further processing. MACS2 [
+ <xref ref-type="bibr" rid="CR44">44</xref>] was run with the p value of 0.01 to perform the peak calling against the corresponding input sample to identify the LMNA alone. BamCoverage was used to convert sorted BAM files into BW format. Principle component analysis calculated and drawn correlation by deeptools [
+ <xref ref-type="bibr" rid="CR45">45</xref>]. We obtained the genomic annotation files using the ChIPseeker package in R/Bioconductor [
+ <xref ref-type="bibr" rid="CR46">46</xref>]. We performed identification of the enriched sequence motifs within ChIP-Seq peak regions using HOMER software package [
+ <xref ref-type="bibr" rid="CR47">47</xref>]. Integrated Genomic Viewer browser was used to visualize peaks between different groups. We integrated the overlapping gene symbol names from the annotation file for further differential binding genes analysis. Overlapping gene symbols were uploaded into the DAVID web (
+ <ext-link ext-link-type="uri" xlink:href="https://david.ncifcrf.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://david.ncifcrf.gov/</ext-link>). Gene Ontology terms and pathway enrichment analysis with parameter 
+ <italic>p</italic> &lt; 0.05 were performed with DAVID database and visualized by ggplot2 (R package). Meanwhile, we used SICER software [
+ <xref ref-type="bibr" rid="CR48">48</xref>] with FDR = 0.001 and other default parameters to identify the nucleoplasmic LAP2α-lamin A/C complexes. The other procedures are the same as those of MACS, including the following steps.
+</p>

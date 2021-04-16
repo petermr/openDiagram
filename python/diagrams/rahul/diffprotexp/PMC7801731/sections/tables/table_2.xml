@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Top 10 downregulated DEGs at day 1 of regeneration.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">ID</th>
+    <th align="left">E-value</th>
+    <th align="left">GeneID</th>
+    <th align="left">Description</th>
+    <th align="left">Log2FC</th>
+    <th align="left">Adjusted 
+     <italic>p</italic>-value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Transcript_236563</td>
+    <td align="left">3.10E−94</td>
+    <td align="left">105439658</td>
+    <td align="left">protein FAM166B</td>
+    <td align="left">− 19.48↓</td>
+    <td align="left">1.92e−05*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_386663</td>
+    <td align="left">8.80E−89</td>
+    <td align="left">592851</td>
+    <td align="left">pancreatic lipase-related protein 2</td>
+    <td align="left">− 11.15↓</td>
+    <td align="left">4.67e−06*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_182900</td>
+    <td align="left">6.00E−233</td>
+    <td align="left">580845</td>
+    <td align="left">sodium-coupled monocarboxylate transporter 1</td>
+    <td align="left">− 10.09↓</td>
+    <td align="left">2.33e−12*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_383623</td>
+    <td align="left">1.40E−245</td>
+    <td align="left">583726</td>
+    <td align="left">histidine ammonia-lyase</td>
+    <td align="left">− 9.94↓</td>
+    <td align="left">1.30e−04*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_258721</td>
+    <td align="left">3.80E−80</td>
+    <td align="left">755759</td>
+    <td align="left">glutamyl aminopeptidase</td>
+    <td align="left">− 9.73↓</td>
+    <td align="left">1.03e−11*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_395355</td>
+    <td align="left">4.00E−22</td>
+    <td align="left">105438405</td>
+    <td align="left">echinoidin-like</td>
+    <td align="left">− 9.46↓</td>
+    <td align="left">3.23e−02*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_236625</td>
+    <td align="left">1.90E−46</td>
+    <td align="left">584191</td>
+    <td align="left">homeobox protein CDX-2</td>
+    <td align="left">− 8.64↓</td>
+    <td align="left">2.33e−03*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_427783</td>
+    <td align="left">2.00E−171</td>
+    <td align="left">575162</td>
+    <td align="left">uncharacterized protein LOC575162</td>
+    <td align="left">− 8.20↓</td>
+    <td align="left">7.09e−10*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_264429</td>
+    <td align="left">0</td>
+    <td align="left">583122</td>
+    <td align="left">sushi domain-containing protein 2</td>
+    <td align="left">− 7.92↓</td>
+    <td align="left">4.74e−21*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_246361</td>
+    <td align="left">7.3E−77</td>
+    <td align="left">762564</td>
+    <td align="left">aquaporin-8</td>
+    <td align="left">− 7.86↓</td>
+    <td align="left">2.44e−07*</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>↓: Downregulated (Log2FC &lt;  − 2); *: Significant (
+   <italic>p</italic> value &lt; 0.01); Log2FC: Log
+   <sub>2</sub> Fold Change.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To assess sequence conservation in PAS regions, we downloaded PhyloP scores computed over 100 vertebrate genomes from the UCSC Genome Browser and calculated mean PhyloP scores in PAS regions. Higher mean PhyloP scores correspond to regions of higher sequence conservation and thus slower evolution (
+ <xref rid="bib63" ref-type="bibr">Pollard et al., 2010</xref>). Overall, sequence elements at PAS are more conserved than 200 base pair surrounding regions 1 kb on either side of the PAS (
+ <xref ref-type="fig" rid="fig1">Figure 1B</xref>, Wilcoxon rank sum test, p&lt;2.2×10
+ <sup>−16</sup>). This pattern also holds independently for PAS in all genic locations other than introns (
+ <xref ref-type="fig" rid="fig1s8">Figure 1—figure supplement 8</xref>). By repeating these analyses with PhyloP score computed over 20 vertebrates, we show the PAS are also conserved compared to the surrounding regions in the mammalian lineage (
+ <xref ref-type="fig" rid="fig1s9">Figure 1—figure supplement 9</xref>).
+</p>

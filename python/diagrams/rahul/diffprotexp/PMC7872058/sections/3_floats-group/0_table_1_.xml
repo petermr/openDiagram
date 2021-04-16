@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Baseline characteristics of patients enrolled in the study</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">
+     <bold>Variables</bold>
+    </th>
+    <th align="center">
+     <bold>IPA</bold>
+     <break/>
+     <bold>(n = 50)</bold>
+    </th>
+    <th align="center">
+     <bold>No IPA</bold>
+     <break/>
+     <bold>(n = 48)</bold>
+    </th>
+    <th align="center">
+     <bold>P value</bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <bold>Age, no (%)</bold>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">≤50 years</td>
+    <td align="center">9 (18.0)</td>
+    <td align="center">13 (27.1)</td>
+    <td align="center">0.34</td>
+   </tr>
+   <tr>
+    <td align="left">&gt;50 years</td>
+    <td align="center">41 (82.0)</td>
+    <td align="center">35 (72.9)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Gender, no (%)</bold>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Female</td>
+    <td align="center">23 (46.0)</td>
+    <td align="center">21 (43.8)</td>
+    <td align="center">0.84</td>
+   </tr>
+   <tr>
+    <td align="left">Male</td>
+    <td align="center">27 (54.0)</td>
+    <td align="center">27 (56.2)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Underlying disease, no (%)</bold>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">SOT*</td>
+    <td align="center">12 (24.0)</td>
+    <td align="center">20 (41.7)</td>
+    <td align="center">0.22</td>
+   </tr>
+   <tr>
+    <td align="left">Acute leukemia</td>
+    <td align="center">9 (18.0)</td>
+    <td align="center">10 (20.8)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Allogeneic HSCT</td>
+    <td align="center">9 (18.0)</td>
+    <td align="center">6 (12.5)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Chronic lymphoproliferative diseases</td>
+    <td align="center">7 (14.0)</td>
+    <td align="center">6 (12.5)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Influenza A (H1N1)</td>
+    <td align="center">6 (12.0)</td>
+    <td align="center">0 (0.0)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Chronic lung diseases</td>
+    <td align="center">2 (4.0)</td>
+    <td align="center">1 (2.1)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Solid tumors</td>
+    <td align="center">2 (4.0)</td>
+    <td align="center">1 (2.1)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Other</td>
+    <td align="center">3 (6.0)</td>
+    <td align="center">4 (8.3)</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Severe neutropenia, no (%)†</bold>
+    </td>
+    <td align="center">15 (30.0)</td>
+    <td align="center">5 (10.4)</td>
+    <td align="center">0.023</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>BAL cell counts, mean (range)‡</bold>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Neutrophils</td>
+    <td align="center">5.5 (0.0–30.3)</td>
+    <td align="center">4.5 (0.1–17.3)</td>
+    <td align="center">0.30</td>
+   </tr>
+   <tr>
+    <td align="left">Lymphocytes</td>
+    <td align="center">4.2 (0–175.7)</td>
+    <td align="center">1.8 (0.2–17.4)</td>
+    <td align="center">&lt;0.001</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>GMI, mean (range)</bold>
+    </td>
+    <td align="center">5.1 (1.0–6.9)</td>
+    <td align="center">0.11 (0.1–0.2)</td>
+    <td align="center">&lt;0.001</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Other pathogens detected in BAL, no (%)</bold>
+     <break/>Virus
+     <break/>Bacteria
+     <break/>Fungi
+    </td>
+    <td align="center">
+     <break/>25 (50.0)
+     <break/>10 (20.0)
+     <break/>8 (16.0)
+    </td>
+    <td align="center">
+     <break/>16 (33.3)
+     <break/>8 (16.7)
+     <break/>5 (10.4)
+    </td>
+    <td align="center">
+     <break/>0.92
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tfn0001">
+   <p>SOT, solid organ transplantation; HSCT, hematopoietic stem-cell transplantation; BAL, bronchoalveolar lavage; GMI, galactomannan index; P values were calculated by Fisher’s exact probability t-test for categorical variables, or by Student’s t-test or Mann–Whitney U test for continuous variables. *The study included 32 patients who received a SOT from lung (n = 26), kidney (n = 2), and liver (n = 2). Among those, 12 were diagnosed with IPA (lung, n = 8; kidney, n = 2; and liver, n = 2). †Severe neutropenia was defined as ≤0.5 × 10
+    <sup>9</sup> cells/L. ‡Cell counts in BAL were expressed as the number ×10
+    <sup>3</sup> cells/µL.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

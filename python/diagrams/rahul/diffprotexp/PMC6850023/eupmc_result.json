@@ -1,0 +1,740 @@
+{
+  "id": [
+    "30951249"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "30951249"
+  ],
+  "pmcid": [
+    "PMC6850023"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC6850023"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1111/1462-2920.14620"
+  ],
+  "title": [
+    "Differential protein expression during growth on linear versus branched alkanes in the obligate marine hydrocarbon-degrading bacterium Alcanivorax borkumensis SK2<sup>T</sup>."
+  ],
+  "authorString": [
+    "Gregson BH, Metodieva G, Metodiev MV, McKew BA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gregson BH"
+          ],
+          "firstName": [
+            "Benjamin H"
+          ],
+          "lastName": [
+            "Gregson"
+          ],
+          "initials": [
+            "BH"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8337-227X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Biological Sciences, University of Essex, Colchester, Essex, CO4 3SQ, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Metodieva G"
+          ],
+          "firstName": [
+            "Gergana"
+          ],
+          "lastName": [
+            "Metodieva"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Biological Sciences, University of Essex, Colchester, Essex, CO4 3SQ, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Metodiev MV"
+          ],
+          "firstName": [
+            "Metodi V"
+          ],
+          "lastName": [
+            "Metodiev"
+          ],
+          "initials": [
+            "MV"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Biological Sciences, University of Essex, Colchester, Essex, CO4 3SQ, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "McKew BA"
+          ],
+          "firstName": [
+            "Boyd A"
+          ],
+          "lastName": [
+            "McKew"
+          ],
+          "initials": [
+            "BA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Biological Sciences, University of Essex, Colchester, Essex, CO4 3SQ, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8337-227X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "2832831"
+      ],
+      "dateOfPublication": [
+        "2019 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Environmental microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Environ Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Environ Microbiol"
+          ],
+          "NLMid": [
+            "100883692"
+          ],
+          "ISSN": [
+            "1462-2912"
+          ],
+          "ESSN": [
+            "1462-2920"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "2347-2359"
+  ],
+  "abstractText": [
+    "Alcanivorax borkumensis SK2<sup>T</sup> is an important obligate hydrocarbonoclastic bacterium (OHCB) that can dominate microbial communities following marine oil spills. It possesses the ability to degrade branched alkanes which provides it a competitive advantage over many other marine alkane degraders that can only degrade linear alkanes. We used LC-MS/MS shotgun proteomics to identify proteins involved in aerobic alkane degradation during growth on linear (n-C<sub>14</sub> ) or branched (pristane) alkanes. During growth on n-C<sub>14</sub> , A. borkumensis expressed a complete pathway for the terminal oxidation of n-alkanes to their corresponding acyl-CoA derivatives including AlkB and AlmA, two CYP153 cytochrome P450s, an alcohol dehydrogenase and an aldehyde dehydrogenase. In contrast, during growth on pristane, an alternative alkane degradation pathway was expressed including a different cytochrome P450, an alcohol oxidase and an alcohol dehydrogenase. A. borkumensis also expressed a different set of enzymes for β-oxidation of the resultant fatty acids depending on the growth substrate utilized. This study significantly enhances our understanding of the fundamental physiology of A. borkumensis SK2<sup>T</sup> by identifying the key enzymes expressed and involved in terminal oxidation of both linear and branched alkanes. It has also highlights the differential expression of sets of β-oxidation proteins to overcome steric hinderance from branched substrates."
+  ],
+  "affiliation": [
+    "School of Biological Sciences, University of Essex, Colchester, Essex, CO4 3SQ, UK."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "agency": [
+            "Eastern Academic Research Consortium (Eastern ARC)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "DBG4000"
+          ],
+          "agency": [
+            "Natural Environment Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "NE/R016569/1"
+          ],
+          "agency": [
+            "Natural Environment Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alkanes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Terpenes"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cytochrome P-450 Enzyme System"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alcohol Oxidoreductases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alcohol Dehydrogenase"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Fatty Acids"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chromatography, Liquid"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteomics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biodegradation, Environmental"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tandem Mass Spectrometry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Alcanivoraceae"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EN"
+                  ],
+                  "qualifierName": [
+                    "enzymology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GD"
+                  ],
+                  "qualifierName": [
+                    "growth & development"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "alcohol oxidase"
+          ],
+          "registryNumber": [
+            "EC 1.1.3.13"
+          ]
+        },
+        {
+          "name": [
+            "cytochrome P-450 CYP153 (Acinetobacter)"
+          ],
+          "registryNumber": [
+            "EC 1.14.-"
+          ]
+        },
+        {
+          "name": [
+            "Fatty Acids"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Alkanes"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Terpenes"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Cytochrome P-450 Enzyme System"
+          ],
+          "registryNumber": [
+            "9035-51-2"
+          ]
+        },
+        {
+          "name": [
+            "Alcohol Dehydrogenase"
+          ],
+          "registryNumber": [
+            "EC 1.1.1.1"
+          ]
+        },
+        {
+          "name": [
+            "Alcohol Oxidoreductases"
+          ],
+          "registryNumber": [
+            "EC 1.1.-"
+          ]
+        },
+        {
+          "name": [
+            "pristane"
+          ],
+          "registryNumber": [
+            "26HZV48DT1"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1111/1462-2920.14620"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6850023"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6850023?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "5"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pfam"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2020-04-20"
+  ],
+  "dateOfCreation": [
+    "2019-04-06"
+  ],
+  "firstIndexDate": [
+    "2019-04-11"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-08"
+  ],
+  "dateOfRevision": [
+    "2020-04-20"
+  ],
+  "electronicPublicationDate": [
+    "2019-04-21"
+  ],
+  "firstPublicationDate": [
+    "2019-04-21"
+  ]
+}

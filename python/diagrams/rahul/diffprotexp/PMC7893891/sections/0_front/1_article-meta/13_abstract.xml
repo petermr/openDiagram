@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Human induced pluripotent stem cells (iPSC) have opened new avenues for regenerative medicine. Consequently, iPSC-derived motor neurons have emerged as potentially viable therapies for spinal cord injuries and neurodegenerative disorders including Amyotrophic Lateral Sclerosis. However, direct clinical application of iPSC bears in itself the risk of tumorigenesis and other unforeseeable genetic or epigenetic abnormalities.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par2">Employing RNA-seq technology, we identified and characterized gene regulatory networks triggered by in vitro chemical reprogramming of iPSC into cells with the molecular features of motor neurons (MNs) whose function in vivo is to innervate effector organs. We present meta-transcriptome signatures of 5 cell types: iPSCs, neural stem cells, motor neuron progenitors, early motor neurons, and mature motor neurons. In strict response to the chemical stimuli, along the MN differentiation axis we observed temporal downregulation of tumor growth factor-β signaling pathway and consistent activation of sonic hedgehog, Wnt/β-catenin, and Notch signaling. Together with gene networks defining neuronal differentiation (neurogenin 2, microtubule-associated protein 2, Pax6, and neuropilin-1), we observed steady accumulation of motor neuron-specific regulatory genes, including Islet-1 and homeobox protein HB9. Interestingly, transcriptome profiling of the differentiation process showed that Ca
+   <sup>2+</sup> signaling through cAMP and LPC was downregulated during the conversion of the iPSC to neural stem cells and key regulatory gene activity of the pathway remained inhibited until later stages of motor neuron formation. Pathways shaping the neuronal development and function were well-represented in the early motor neuron cells including, neuroactive ligand-receptor interactions, axon guidance, and the cholinergic synapse formation. A notable hallmark of our in vitro motor neuron maturation in monoculture was the activation of genes encoding G-coupled muscarinic acetylcholine receptors and downregulation of the ionotropic nicotinic acetylcholine receptors expression. We observed the formation of functional neuronal networks as spontaneous oscillations in the extracellular action potentials recorded on multi-electrode array chip after 20 days of differentiation.
+  </p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par3">Detailed transcriptome profile of each developmental step from iPSC to motor neuron driven by chemical induction provides the guidelines to novel therapeutic approaches in the re-construction efforts of muscle innervation.</p>
+ </sec>
+ <sec>
+  <title>Supplementary Information</title>
+  <p>The online version contains supplementary material available at 10.1186/s12860-021-00343-z.</p>
+ </sec>
+</abstract>

@@ -1,0 +1,452 @@
+{
+  "id": [
+    "33445417"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33445417"
+  ],
+  "pmcid": [
+    "PMC7827558"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7827558"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/cancers13020251"
+  ],
+  "title": [
+    "DNA-Damage-Induced Alternative Splicing of p53."
+  ],
+  "authorString": [
+    "Chen J, Zhang D, Qin X, Owzar K, McCann JJ, Kastan MB."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Chen J"
+          ],
+          "firstName": [
+            "Jing"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology and Cancer Biology, Duke University School of Medicine, Durham, NC 27710, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Current Address-Crown Bioscience, Inc., San Diego, CA 92127, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang D"
+          ],
+          "firstName": [
+            "Dadong"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Duke Cancer Institute, Durham, NC 27710, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Qin X"
+          ],
+          "firstName": [
+            "Xiaodi"
+          ],
+          "lastName": [
+            "Qin"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Duke Cancer Institute, Durham, NC 27710, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Owzar K"
+          ],
+          "firstName": [
+            "Kouros"
+          ],
+          "lastName": [
+            "Owzar"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3340-1287",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Duke Cancer Institute, Durham, NC 27710, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Biostatistics and Bioinformatics, Duke University Medical Center, Durham, NC 27710, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "McCann JJ"
+          ],
+          "firstName": [
+            "Jennifer J"
+          ],
+          "lastName": [
+            "McCann"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4956-1880",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology and Cancer Biology, Duke University School of Medicine, Durham, NC 27710, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kastan MB"
+          ],
+          "firstName": [
+            "Michael B"
+          ],
+          "lastName": [
+            "Kastan"
+          ],
+          "initials": [
+            "MB"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology and Cancer Biology, Duke University School of Medicine, Durham, NC 27710, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Duke Cancer Institute, Durham, NC 27710, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3340-1287",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4956-1880",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "3087770"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cancers"
+          ],
+          "ISOAbbreviation": [
+            "Cancers (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Cancers (Basel)"
+          ],
+          "NLMid": [
+            "101526829"
+          ],
+          "ISSN": [
+            "2072-6694"
+          ],
+          "ESSN": [
+            "2072-6694"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "Cellular responses to DNA damage and other stresses are important determinants of mutagenesis and impact the development of a wide range of human diseases. TP53 is highly mutated in human cancers and plays an essential role in stress responses and cell fate determination. A central dogma of p53 induction after DNA damage has been that the induction results from a transient increase in the half-life of the p53 protein. Our laboratory recently demonstrated that this long-standing paradigm is an incomplete picture of p53 regulation by uncovering a critical role for protein translational regulation in p53 induction after DNA damage. These investigations led to the discovery of a DNA-damage-induced alternative splicing (AS) pathway that affects p53 and other gene products. The damage-induced AS of p53 pre-mRNA generates the beta isoform of p53 (p53β) RNA and protein, which is specifically required for the induction of cellular senescence markers after ionizing irradiation (IR). In an attempt to elucidate the mechanisms behind the differential regulation and apparent functional divergence between full-length (FL) p53 and the p53β isoform (apoptosis versus senescence, respectively), we identified the differential transcriptome and protein interactome between these two proteins that may result from the unique 10-amino-acid tail in p53β protein."
+  ],
+  "affiliation": [
+    "Department of Pharmacology and Cancer Biology, Duke University School of Medicine, Durham, NC 27710, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Aging",
+        "Transcription",
+        "Cancer",
+        "Protein interaction"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/cancers13020251"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7827558"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7827558?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-01-15"
+  ],
+  "firstIndexDate": [
+    "2021-01-16"
+  ],
+  "fullTextReceivedDate": [
+    "2021-01-26"
+  ],
+  "dateOfRevision": [
+    "2021-01-26"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-12"
+  ],
+  "firstPublicationDate": [
+    "2021-01-12"
+  ]
+}

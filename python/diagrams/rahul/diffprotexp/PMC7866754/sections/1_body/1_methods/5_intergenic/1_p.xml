@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">The intergenic regions were extracted by using BEDtools complement [
+ <xref ref-type="bibr" rid="CR47">47</xref>] to subtract the genome from all annotated regions and return genome intervals with no genes identified. The MSTRG transcripts were mapped to these intervals with BEDtools intersect, returning transcripts that overlap completely are classified as intergenic. Intergenic transcripts with peptides from any frame that identified them are intergenic ORFs.
+</p>

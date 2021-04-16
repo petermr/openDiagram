@@ -1,0 +1,5 @@
+0: Transcripts were analyzed by their function using BLASTn ( https://www.ncbi.nlm.nih.gov) on the NCBI NT database.
+1: A similar analysis was performed on the  Oryza sativa database available at the Gramene webpage ( http://www.gramene.org/).
+2: The GO numbers were obtained by using ClusterProfiler [ 93] ( http://www.geneontology.org) over the  Arabidopsis database.
+3: Additionally, DETs were submitted to KEGG pathways analysis (KEGG: Kyoto Encyclopedia of Genes and Genomes) ( https://www.genome.jp/kegg/ko.html) [ 94 96] and classified with the single-directional best hit for transcriptional factors (plant transcriptional factors database,  http://planttfdb.cbi.pku.edu.cn,  http://planttfdb.gao-lab.org) and hormone families (UniVIO:  http://univio.psc.riken.jp/,  http://hormones.psc.riken.jp/pathway_ja.html).
+4: Moreover, critical differentially expressed pathways were analyzed by STRING ( https://string-db.org) [ 62] to infer their possible function and association between them.

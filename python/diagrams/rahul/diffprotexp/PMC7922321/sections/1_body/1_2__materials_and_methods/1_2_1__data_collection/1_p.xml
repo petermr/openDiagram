@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Microarray datasets related to glioma were searched from the Gene Expression Omnibus data repository [
+ <xref rid="B30-jpm-11-00138" ref-type="bibr">30</xref>], and GSE4290 datasets, including expression data of brain tissue from glioma patients, were selected in this study [
+ <xref rid="B31-jpm-11-00138" ref-type="bibr">31</xref>]. The dataset contains the brain tissue of three glioma grades (grade 2–4) from glioma patients and epilepsy patients as a non-tumor control by obtaining brain tissue from surgery patients from Henry Ford Hospital. Patient classification and tissue preparation for microarray were described in [
+ <xref rid="B30-jpm-11-00138" ref-type="bibr">30</xref>]. A preprocessed expression matrix was imported into an R programming interface by using R package GEOquery from the Bioconductor project [
+ <xref rid="B32-jpm-11-00138" ref-type="bibr">32</xref>]. The methodological flow chart of the study is shown in 
+ <xref ref-type="fig" rid="jpm-11-00138-f001">Figure 1</xref>.
+</p>

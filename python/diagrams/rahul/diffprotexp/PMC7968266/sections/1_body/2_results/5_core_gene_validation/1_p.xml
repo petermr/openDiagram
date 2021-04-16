@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">To further verify the role of the top 20 genes, we performed the expression analysis of LMP tumors versus EOC in GSE12172 dataset. The results showed that all 20 hub genes were higher in EOC (Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>a). Meanwhile, ROC curve analysis was used to assess the capacity of these genes in differential diagnosis of LMP tumors and EOC in GSE12172, and almost all hub genes exhibited excellent diagnostic efficiency (AUC &gt; 0.90) except for CENPF (AUC = 0.848) (Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>b). Meanwhile, the prognostic value of the 20 genes for EOC was also assessed through the Kaplan-Meier plotter analysis. A prognostic forest map based on those genes is shown in Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>c and 15 genes were significantly correlated to the overall survival (OS) of EOC patients. Moreover, EOC patients with higher levels of CCNB1 [HR = 1.92 (1.55–2.38), 
+ <italic>P</italic> = 1.1E-09], KIF20A [HR = 1.34 (1.14–1.56), 
+ <italic>P</italic> = 0.0003], ASPM [HR = 1.33 (1.14–1.55), 
+ <italic>P</italic> = 0.0002], AURKA [HR = 1.33 (1.17–1.53), 
+ <italic>P</italic> = 0.000029] and KIF23 [HR = 1.31 (1.13–1.52), 
+ <italic>P</italic> = 0.0004] were significantly related to worse OS. 
+</p>

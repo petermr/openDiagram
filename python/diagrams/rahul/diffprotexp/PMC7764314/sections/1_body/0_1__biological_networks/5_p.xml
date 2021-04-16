@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>High-throughput gene expression assays are often used to infer functional relationships between genes from correlations between their expression levels, building the so-called gene co-expression networks (
+ <xref ref-type="fig" rid="ijms-21-09461-f001">Figure 1</xref>). The potential relevance of this method to estimate GRNs is supported by the knowledge that genes with similar transcriptional expression profiles are likely to be regulated through the same mechanisms and to participate in the same functions, or to physically interact [
+ <xref rid="B6-ijms-21-09461" ref-type="bibr">6</xref>,
+ <xref rid="B7-ijms-21-09461" ref-type="bibr">7</xref>,
+ <xref rid="B8-ijms-21-09461" ref-type="bibr">8</xref>,
+ <xref rid="B9-ijms-21-09461" ref-type="bibr">9</xref>]. This information can also be combined with other information such as, for example, transcription factor binding and/or PPIs, to obtain a more complete and accurate representation of molecular elements’ interrelationships [
+ <xref rid="B10-ijms-21-09461" ref-type="bibr">10</xref>]. Specific open-access databases have been created to store physical and functional networks. Some of the most popular are summarised in 
+ <xref rid="ijms-21-09461-t001" ref-type="table">Table 1</xref>.
+</p>

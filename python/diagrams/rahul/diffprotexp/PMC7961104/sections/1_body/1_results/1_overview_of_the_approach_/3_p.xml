@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0060">To identify molecules (phosphorylated proteins, transcripts, proteins, metabolites, and lipids) that were differentially abundant between WT and 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice, we set the FDR-adjusted p value (q value) of less than 0.1 (
+ <xref rid="fig1" ref-type="fig">Figure 1</xref>: Step1). We classified the differentially expressed molecules as either increased or decreased in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice relative to their abundance in WT mice. We identified the regulatory connections for differentially expressed molecules using multiple databases and defined those as “differential regulations” (
+ <xref rid="fig1" ref-type="fig">Figure 1</xref>: Step2). We classified the differential regulations as either activating or inhibiting in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice compared with WT mice. By integrating the differentially expressed molecules and the differential regulations that are involved in “metabolic reaction,” we constructed a liver trans-omic network and a skeletal muscle trans-omic network for differentially regulated metabolic reactions (
+ <xref rid="fig1" ref-type="fig">Figure 1</xref>: Step3). We grouped differentially expressed molecules from each type of data into layers connected by the differential regulations. The top layer represented signaling input from insulin (Insulin Signal) connected to a TF layer connected to layer representing the differentially expressed genes encoding metabolic enzymes (Enzyme mRNA) connected to layer representing the differentially expressed metabolic enzymes (Enzyme Protein) connected to a metabolic reactions layer (Metabolic Reaction). The Metabolic Reaction layer included regulatory input from both the Enzyme Protein layer and a metabolites (Metabolite) layer through allosteric regulation by metabolites and by changes in the amounts of substrates or products. Together with the blood metabolomic data, we used the trans-omic networks to identify dysfunction and dysregulation of inter-organ metabolic cycles between liver and skeletal muscle of 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice (
+ <xref rid="fig1" ref-type="fig">Figure 1</xref>: Step4).
+</p>

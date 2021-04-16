@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig1">
+ <label>Figure 1</label>
+ <caption>
+  <p>Overview of the approach for constructing trans-omic networks from WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice
+  </p>
+  <p>We used WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice and collected the liver, skeletal muscle, and the blood from 16-h-fasted mice. We measured signaling molecules, genes, proteins, metabolites, and lipids in the liver and skeletal muscle and identified differentially expressed molecules that significantly increased or decreased in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice compared with WT mice in each omic layer (Step 1). We also measured metabolites in the blood. We identified the regulations connecting regulating differentially expressed molecules with regulated differentially expressed molecules using bioinformatic methods and multiple databases and defined those as “differential regulations” (Step 2). The differential regulations are classified into either activating regulation in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice compared with WT mice (red arrow) or inhibiting regulation in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice compared with WT mice (blue arrow). By integrating differentially expressed molecules and differential regulations that are involved in “metabolic reactions,” we constructed the trans-omic network for differentially regulated metabolic reactions in the liver and skeletal muscle (Step 3). Together with the blood metabolomic data, we examined dysfunction of inter-organ metabolic cycles and their dysregulation in the trans-omic network in the liver and skeletal muscle of 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice (Step 4). We used the following number of mouse replicates for each analysis: n = 5 both in WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice for the identification of phosphorylated molecules, n = 11 (WT mice) and n = 12 (
+   <italic>ob</italic>/
+   <italic>ob</italic> mice) for transcriptomics, n = 5 both in WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice for proteomics, n = 5 both in WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice for metabolomics, and n = 3 both in WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice for lipidomics.
+  </p>
+ </caption>
+ <graphic xlink:href="gr1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

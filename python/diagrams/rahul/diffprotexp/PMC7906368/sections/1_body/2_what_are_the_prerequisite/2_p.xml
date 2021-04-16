@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For instrumentation, it is critical to have access to both a high-resolution liquid chromatography (LC) system and high-resolution mass spectrometry (MS). Although there are several experimental LC-MS/MS approaches for metaproteomics, 1 particularly powerful approach is 1D-LC with long analytical columns and stationary phases with small particle size. Long columns allow separating the complex metaproteomic peptide mixtures with high resolution using long LC gradients [
+ <xref rid="ppat.1009245.ref020" ref-type="bibr">20</xref>]. To work with long columns, the nano-LC system must be able to sustain high back pressures, which can range from 200 to 1,000 bar depending on the flow and column used. If particularly complex samples (soil and intestinal microbiomes) are analyzed, it can be critical to use an LC system that enables two-dimensional separations of peptide mixtures [
+ <xref rid="ppat.1009245.ref020" ref-type="bibr">20</xref>]. The mass spectrometer must provide high resolution (&gt;25,000), accuracy (&lt;10 ppm), sensitivity, and fast scan speed (&gt;10 Hz). Currently, the most suitable instrument types are hybrid Orbitrap mass spectrometers, certain Q-TOF instruments, and recently developed instruments that combine ion mobility with time of flight [
+ <xref rid="ppat.1009245.ref021" ref-type="bibr">21</xref>]. More recently, data independent acquisition (DIA) has been applied in metaproteomics studies [
+ <xref rid="ppat.1009245.ref022" ref-type="bibr">22</xref>,
+ <xref rid="ppat.1009245.ref023" ref-type="bibr">23</xref>] with the promise of increasing metaproteome coverage and improving protein quantification.
+</p>

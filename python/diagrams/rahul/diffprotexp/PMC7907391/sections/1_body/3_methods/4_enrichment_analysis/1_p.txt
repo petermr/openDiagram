@@ -1,0 +1,4 @@
+0: For GSE103412, enrichment analysis was performed on 65 significantly downregulated genes using clusterprofiler 55.
+1: The enrichGO and enrichKEGG functions was used to infer supressed GO and KEGG pathways in patients during radiation treatment  vs. prior treatment.
+2: The Benjamin & Hochberg 56 adjusted p-value method was implemented, and a threshold of 0.05 was set, significantly supressed GO and KEGG pathways were thus obtained.
+3: These pathways were merged with known coronavirus pathways 35 using R to obtain overlapping GO pathways.

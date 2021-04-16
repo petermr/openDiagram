@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <sec id="s2001">
+  <title>Objective</title>
+  <p>Sepsis is a disease associated with high mortality. We performed bioinformatic analysis to identify key biomarkers associated with sepsis and septic shock.</p>
+ </sec>
+ <sec id="s2002">
+  <title>Methods</title>
+  <p>The top 20% of genes showing the greatest variance between sepsis and controls in the GSE13904 dataset (children) were screened by co-expression network analysis. The differentially expressed genes (DEGs) were identified through analyzing differential gene expression between sepsis patients and control in the GSE13904 (children) and GSE154918 (adult) data sets. Intersection analysis of module genes and DEGs was performed to identify common DEGs for enrichment analysis, protein-protein interaction network (PPI network) analysis, and Short Time-series Expression Miner (STEM) analysis. The PPI network genes were ranked by degree of connectivity, and the top 100 sepsis-associated genes were identified based on the area under the receiver operating characteristic curve (AUC). In addition, we evaluated differences in immune cell infiltration between sepsis patients and controls in children (GSE13904, GSE25504) and adults (GSE9960, GSE154918). Finally, we analyzed differences in DNA methylation levels between sepsis patients and controls in GSE138074 (adults).</p>
+ </sec>
+ <sec id="s2003">
+  <title>Results</title>
+  <p>The common genes were associated mainly with up-regulated inflammatory and metabolic responses, as well as down-regulated immune responses. Sepsis patients showed lower infiltration by most types of immune cells. Genes in the PPI network with AUC values greater than 0.9 in both GSE13904 (children) and GSE154918 (adults) were screened as key genes for diagnosis. These key genes (MAPK14, FGR, RHOG, LAT, PRKACB, UBE2Q2, ITK, IL2RB, and CD247) were also identified in STEM analysis to be progressively dysregulated across controls, sepsis patients and patients with septic shock. In addition, the expression of MAPK14, FGR, and CD247 was modified by methylation.</p>
+ </sec>
+ <sec id="s2004">
+  <title>Conclusion</title>
+  <p>This study identified several potential diagnostic genes and inflammatory and metabolic responses mechanisms associated with the development of sepsis.</p>
+ </sec>
+</abstract>

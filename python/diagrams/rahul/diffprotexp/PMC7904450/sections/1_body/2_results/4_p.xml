@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0070">To further develop the relationship between our drugs of interest, 
+ <italic>IL6ST</italic>, and inflammatory pathways, we again analyzed differential gene expression signatures caused by drug treatments in A375 and HEPG2 cell lines. This time however, we compared drug treatment signatures to those produced by 
+ <italic>NFKB1</italic> knockdown (
+ <xref rid="fig0010" ref-type="fig">Fig. 2</xref>B). As before, comparisons of these signatures generated concordance scores quantifying the degree of similarity between a drug treatment and 
+ <italic>NFKB1</italic> knockdown. In A375 cells, these concordance scores are as follows: 0.2407 for bupropion treated cells, and 0.3509 for paroxetine treated cells. In HEPG2 cells, concordance scores for the same comparisons are as follows: 0.3255 for dexamethasone treated cells, and 0.2615 for paroxetine treated cells. Given our previously discussed statistical cut-off parameter for similarity, neither A375 nor HEPG2 cell lines were able to generate concordance scores for all four drugs of interest and 
+ <italic>NFKB1</italic> knockdown. Thus, to increase the power of our 
+ <italic>NFKB1</italic> analysis, we expanded our iLINCS query to include additional cell lines reporting transcriptomic signatures resulting from 
+ <italic>NFKB1</italic> knockdown and at least three of our four drug treatments (
+ <xref rid="fig0010" ref-type="fig">Fig. 2</xref>B). In A549 cells, concordance scores quantifying the degree of similarity between drug-treated cells and 
+ <italic>NFBK1</italic> knockdown cells are as follows: 0.3313 for fluoxetine treated cells, 0.3067 for dexamethasone treated cells, and 0.3189 for paroxetine treated cells. Mean concordance scores for these comparisons are as follows: 0.3313 (N: 1) for comparisons of fluoxetine treated cells and 
+ <italic>NFKB1</italic> knockdown cells; 0.3161 (SD: 0.133; N: 2) for comparisons of dexamethasone treated cells and 
+ <italic>NFKB1</italic> knockdown cells; 0.2407 (N: 1) for comparisons of bupropion treated cells and 
+ <italic>NFKB1</italic> knockdown cells; and 0.3104 (SD: 0.453; N: 3) for comparisons of paroxetine treated cells and 
+ <italic>NFKB1</italic> knockdown cells.
+</p>

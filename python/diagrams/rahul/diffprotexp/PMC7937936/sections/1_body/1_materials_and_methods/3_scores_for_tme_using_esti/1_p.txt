@@ -1,0 +1,4 @@
+0: The ratio of immune and stromal cells in the TME of each sample was calculated using the ESTIMATE package (Version 1.0.13) based on the R software version 3.6.1.
+1: The data used were HTSeq-FPKM RNA-seq expression data.
+2: Results are presented in the form of three scores, including ImmuneScore, StromalScore, and ESTIMATEScore.The higher the respective score, the greater the ratios of the corresponding components in the TME.
+3: If the overall score is higher, the proportion of tumor cells in the tumor tissue is lower with lower tumor purity.

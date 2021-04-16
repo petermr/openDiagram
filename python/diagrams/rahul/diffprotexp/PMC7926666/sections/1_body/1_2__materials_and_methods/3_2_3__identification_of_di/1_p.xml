@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The gene expression profiles of RCC subtypes were analyzed together with the obtained PPI data through the differential interactome algorithm revised in the study of Gulfidan et al. [
+ <xref rid="B8-jpm-11-00158" ref-type="bibr">8</xref>] using R (version 3.6.1). This algorithm presents the differential PPIs (dPPIs) between the tumor phenotype and normal phenotype, taking into account the relative observation frequencies (
+ <italic>q</italic>-value) of each PPI as described earlier [
+ <xref rid="B8-jpm-11-00158" ref-type="bibr">8</xref>,
+ <xref rid="B9-jpm-11-00158" ref-type="bibr">9</xref>]. The criteria of the algorithm for obtaining significant dPPIs were set as 
+ <italic>q</italic>-value &lt; 0.10 (significantly repressed in tumor phenotype), 
+ <italic>q</italic>-value &gt; 0.90 (significantly activated in tumor phenotype), and a normalized observation frequency either in normal or tumor phenotype &gt; 20%.
+</p>

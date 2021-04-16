@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fn-group>
+ <fn id="footnote1">
+  <label>1</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="http://cancergenome.nih.gov" xmlns:xlink="http://www.w3.org/1999/xlink">http://cancergenome.nih.gov</ext-link>
+  </p>
+ </fn>
+ <fn id="footnote2">
+  <label>2</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="https://xenabrowser.net/" xmlns:xlink="http://www.w3.org/1999/xlink">https://xenabrowser.net/</ext-link>
+  </p>
+ </fn>
+ <fn id="footnote3">
+  <label>3</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="http://www.cbioportal.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.cbioportal.org/</ext-link>
+  </p>
+ </fn>
+ <fn id="footnote4">
+  <label>4</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="https://david.ncifcrf.gov" xmlns:xlink="http://www.w3.org/1999/xlink">https://david.ncifcrf.gov</ext-link>
+  </p>
+ </fn>
+</fn-group>

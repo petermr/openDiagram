@@ -1,0 +1,12 @@
+0: RSM is an empirical modeling technique used to evaluate the relationship between a set of controllable experimental factors and observed results (Bhattacharya et al.
+1: 2011).
+2: This optimization process involves three major steps: (i) performing statistically designed experiments, (ii) estimating the coefficients in a mathematical model and (iii) predicting the response and checking the adequacy of the model (Box and Behnken  1960).
+3: RSM allows us to use DOE and central composite design (CCD) to approximate the values of our explanatory variables (PG, EtOH, and 4-MU) which will give the greatest reduction in dermal HA.
+4: This design was applied to our study using Minitab , with three variables at four levels.
+5: The three significant variables can be approximated by the quadratic model equation as follows:  (1)Y = k0+ kaA + kbB + kcC + kaaA2+ kbbB2+ kccC2+ kabAB+kacAC+kbcBC where Y is the predicted response; k 0 is a constant; k a, k b, k c are the linear coefficients; k ab, k ac, k bc are the cross-coefficients; k aa, k bb, and k cc are the quadratic coefficients.
+6: A total number of 15 experimental formulations were necessarily carried out to estimate the optimal reduction in HA ( Table 2).
+7: 150 l of topical drug formulation was massaged into the dorsum of experimental mice (both male and female at 610 weeks of age) for 7 days, after which animals were euthanized and dorsal skin was excised.
+8: Skin tissue was homogenized and the content of HA was evaluated using HA ELISA as described below.
+9: For all the experimental formulations, at least 2 mice were tested and the average value of HA level in the skin after application of the formulation was obtained, except at the midpoint composition where the DOE included several mice being tested already.
+10: Data were analyzed using Minitab  and Design Expert 7  programs including analysis of variance (ANOVA) to determine the interaction between the variables and the response.
+11: The quality of the fit of this model was expressed by the coefficient of determination ( R2) and studentized plot in the same program.

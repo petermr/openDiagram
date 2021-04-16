@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par52">RNA-seq data were mapped using STAR version 2.7.3a [
+ <xref ref-type="bibr" rid="CR61">61</xref>] with a 2-pass mapping approach to the 
+ <italic>T. guttata</italic> genome [
+ <xref ref-type="bibr" rid="CR62">62</xref>] version 3.2.4, downloaded from Ensembl (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ensembl.org</ext-link>) in March 2017. Samples were first mapped individually, and splice junctions were identified. Samples were then remapped with splice junctions provided as input. Approx. 32.9 million reads/sample (± 2.2 SE) were mapped (Supplementary Table S8, Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>). Read counts for protein coding genes were quantified using STAR and normalized values were determined using the DESeq2 package [
+ <xref ref-type="bibr" rid="CR63">63</xref>] in R/Bioconductor (genes with less than 10 total reads across samples were filtered).
+</p>

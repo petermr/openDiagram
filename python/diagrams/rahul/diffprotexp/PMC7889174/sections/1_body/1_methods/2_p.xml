@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>Selection of genes for analysis</italic>. Inclusive sets of NE and NE-associated (collectively NEA) proteins were selected for investigation. Given issues concerning with purity of subcellular fractions, we sought to minimize likely contaminants within NE proteome databases and no selection based on function was made. First Seventy-five relatively high-confidence rat liver NEA protein-encoding genes were selected from a much larger cohort of potential NEA proteins identified previously [
+ <xref rid="cit0041" ref-type="bibr">41</xref>,
+ <xref rid="cit0042" ref-type="bibr">42</xref>]. These were not limited to nuclear envelope transmembrane (NET) proteins and both inner and outer nuclear envelope proteins were included; importantly many have been identified at the NE of mammalian cells in subsequent studies and we excluded proteins subsequently demonstrated to have no NE-association [
+ <xref rid="cit0043" ref-type="bibr">43–45</xref>]. Second, eighty-nine 
+ <italic>Trypanosoma brucei</italic> NE protein-coding genes were selected based on previous studies [
+ <xref rid="cit0046" ref-type="bibr">46</xref>,
+ <xref rid="cit0047" ref-type="bibr">47</xref>]. In this case, proteins containing at least one predicted transmembrane domain were included. TMHMM version 2.0 c transmembrane domain predictions from TriTrypDB were used for this purpose (accessed April 2020) [
+ <xref rid="cit0048" ref-type="bibr">48</xref>,
+ <xref rid="cit0049" ref-type="bibr">49</xref>]. We chose this selection criterion to maximize the likelihood that the included proteins were indeed associated stably with the NE and not a peripheral interactor.
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Gene Ontology (GO) enrichment analysis of differentially expressed genes was implemented by the Cluster Profiler R package, in which gene length bias was corrected. GO terms with corrected 
+ <italic>P</italic>-value &lt;0.05 were considered significantly enriched by differentially expressed genes.
+</p>

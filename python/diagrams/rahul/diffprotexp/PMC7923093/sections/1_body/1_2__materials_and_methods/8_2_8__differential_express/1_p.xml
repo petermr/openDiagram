@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After the miRNA reads were quality checked, clean reads were used to calculate the abundance of miRNAs which were recorded as TPM (Transcripts Per Kilobase Million). We first divided the read counts by the length of each gene in kilobases (RPK). Next, we counted up all the RPK values in a sample and divided this number by 1,000,000. The DEGseq R language package in conjunction with a perl script were used to compare sample expression differences and the logarithm of relative changes in log base 2 taken; after comparing with the 
+ <italic>p</italic>-value by fisher test, an FDR adjustment was performed.
+</p>

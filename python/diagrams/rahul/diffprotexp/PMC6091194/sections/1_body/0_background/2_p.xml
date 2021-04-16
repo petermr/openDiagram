@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">Proteomics can provide insights into understanding complex biological systems by analyzing expression, function, modifications, and interactions. To determine the relative differences in protein expression in a cell or tissue, at a given time or under a particular condition, one can use quantitative MS-based proteomics that uses labeled or label-free proteins [
+ <xref ref-type="bibr" rid="CR17">17</xref>]. Commonly used labeling techniques include isobaric tags for relative and absolute quantitation (iTRAQ) [
+ <xref ref-type="bibr" rid="CR18">18</xref>], isotope-coded affinity tags (ICAT) [
+ <xref ref-type="bibr" rid="CR19">19</xref>], tandem mass tags (TMT) [
+ <xref ref-type="bibr" rid="CR20">20</xref>] and stable isotope labeling by amino acids in cell culture (SILAC) [
+ <xref ref-type="bibr" rid="CR21">21</xref>]. These techniques are relatively accurate but have limitations, since they are costly, limited by the number of samples that can be analyzed per experiment, and have incomplete labeling efficiencies [
+ <xref ref-type="bibr" rid="CR17">17</xref>, 
+ <xref ref-type="bibr" rid="CR22">22</xref>]. In label-free quantitation, two approaches can be used, (i) measurement of the chromatographic elution peak area [
+ <xref ref-type="bibr" rid="CR23">23</xref>] or (ii) spectral counting [
+ <xref ref-type="bibr" rid="CR24">24</xref>]. Measurement of peak area involves calculating and comparing the mean intensity of peak areas for all peptides from each protein in the biological sample [
+ <xref ref-type="bibr" rid="CR25">25</xref>]. In contrast, spectral counting is based on the number of MS/MS spectra generated from a protein. The more abundant the protein in the biological sample, the more peptides will be selected for fragmentation [
+ <xref ref-type="bibr" rid="CR17">17</xref>]. Both techniques are useful for quantifying differences between proteins, especially for proteins of low abundance [
+ <xref ref-type="bibr" rid="CR26">26</xref>].
+</p>

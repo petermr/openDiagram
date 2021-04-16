@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40">We next assessed the effect of FOXO1 overexpression in addition to FOXL2
+ <sup>C134W</sup> on gene expression profiles. Interestingly, the number of DEGs between FOXL2
+ <sup>C134W</sup> in the presence of FOXO1, and FOXL2
+ <sup>WT</sup> were much lower (230) relative to the number of DEGs between FOXL2
+ <sup>C134W</sup> and FOXL2
+ <sup>WT</sup> (717, of which 130 in common), suggesting that the transcriptional changes of FOXL2
+ <sup>C134W</sup> compared to FOXL2
+ <sup>WT</sup> are largely mitigated by the co-expression of FOXO1 (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>a). This notion is supported by comparing the overall effect size for DEG between FOXL2
+ <sup>C134W</sup> and FOXL2
+ <sup>WT</sup> (n = 717), with or without FOXO1 (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>b). While the log2FC are generally consistent across the two comparisons (FOXL2
+ <sup>C134W</sup> + FOXO1 vs FOXL2
+ <sup>WT</sup> and FOXL2
+ <sup>C134W</sup> vs FOXL2
+ <sup>WT</sup>), the linear regression slope ß was 0.58 (less than 1), suggesting that up- or down-regulation of genes relative to the FOXL2
+ <sup>WT</sup> is attenuated by approximately 40% in presence of FOXO1, in our model system. A different estimation of this effect was measured by the absolute fold change of FOXL2
+ <sup>C134W</sup> + FOXO1 vs FOXL2
+ <sup>C134W</sup> at the 230 genes and resulted in an average of 15% modulation (± 19%, standard deviation). To further identify potential targets of FOXL2
+ <sup>C134W</sup> that are significantly modulated by FOXO1, we identified DEGs between FOXL2
+ <sup>C134W</sup> + FOXO1 and FOXL2
+ <sup>C134W</sup> and obtained 58 genes, having an average absolute fold change of 44%. Thirty-nine of these genes were in common with those between FOXL2
+ <sup>C134W</sup> and FOXL2
+ <sup>WT</sup> (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>c). These 39 genes (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>d), were downregulated in the FOXL2
+ <sup>C134W</sup> + FOXO1 vs FOXL2
+ <sup>C134W</sup> comparison, and vice versa. These genes were also compared against FOXL2 ChIP-seq from the recent studies by Weis-Banke et al. [
+ <xref ref-type="bibr" rid="CR37">37</xref>] and by Carles et al
+ <italic>.</italic> [
+ <xref ref-type="bibr" rid="CR28">28</xref>]. Among these, 10 members were 
+ <italic>bona fide</italic> targets (including HSPG2, COL4A2 and BAZ2A). In particular, we identified the GO peptidyl-lysine modification pathway, implying that FOXO1 acts upon the chromatin remodeling triggered by FOXL2
+ <sup>C134W</sup>. Moreover, other genes recognized in the ECM regulation were detected (HSPG2, COL4A2, COL5A1, COL18A1, DLG5). Independent qPCR validation of the BAZ2A, SMARCA4, COL4A2, and HSPG2 mRNA levels, modulated in presence of FOXO1, is depicted in Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>f. These data build on our prior identification of FOXO1 as a modulator of FOXL2 and provide the first molecular basis for FOXO1 in aGCT reprogramming.
+</p>

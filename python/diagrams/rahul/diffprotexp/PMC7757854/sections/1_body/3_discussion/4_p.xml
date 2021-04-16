@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Comparative pairwise analysis between treatments versus their undertreated counterpart (i.e. MEFD3plu/MEFD3min and MEFD5plu/MEFD5min) was used to identify DEGs. A 
+ <italic>p</italic>-adj cut-off value &lt;0.05 was applied to eliminate nonsignificant fold expression and select genes in an unbiased fashion. The approach selects significant changes regardless of fold induction. A total of 9186 and 8226 DEGs were identified in MEFD3plu/MEFD3min and MEFD5plu/MEFD5min, respectively. These slight yet variable numbers between timepoints suggest that some genes are expressed at specific times during adipogenesis. Previous studies illustrate the formation of different subtypes of adipocytes (i.e. brown, white, and beige) during adipogenesis. White adipocytes are formed earlier than brown adipocytes [
+ <xref rid="cit0002" ref-type="bibr">2</xref>,
+ <xref rid="cit0005" ref-type="bibr">5</xref>,
+ <xref rid="cit0062" ref-type="bibr">62</xref>,
+ <xref rid="cit0063" ref-type="bibr">63</xref>]. Data from the present study will require further analysis to determine if the same is true for MEFs as they differentiate into adipocytes in vitro. Moreover, linking the latter to epigenetic regulation would be useful for complete understanding of MEF adipogenic potential [
+ <xref rid="cit0011" ref-type="bibr">11</xref>,
+ <xref rid="cit0064" ref-type="bibr">64</xref>,
+ <xref rid="cit0065" ref-type="bibr">65</xref>]. However, this study focused on DEGs (5314) that commonly changed globally at different timepoints. GO term analysis of these DEGs showed significant enrichment for genes involved in fat cell differentiation and adipose tissue development. The GO terms associated with fat differentiation and AT development, 119 DEGs, was further analysed. The generated heatmap showed significant upregulation exclusively in treated cells for key genes known to be involved in adipogenesis [
+ <xref rid="cit0066" ref-type="bibr">66–82</xref>], including 
+ <italic>Mrap, Adig, Ffar2, Fabp4</italic> (
+ <italic>aP2), Slc2a4, Lrg1, Zbtb16, Rorc, Lpl, Rarres2, Wfdc21, Adrb2, Adrb3, Steap4, Retn, Adipoq, Cebpa, Cebpb, Cebpd, Lamb3, Rgs2, Scd1</italic> and 
+ <italic>Fam57b</italic>. Interesting, when filtering key terms associated towards differentiation, there was significant enrichment terms that were linked towards fat development. This can suggest the potent effectiveness of inducing and driving the expression of pro-adipogenic genes at the biological level. However, analysis of other categories, such cellular components and/or molecular function, would further shed light mechanistically of adipogenesis in MEFs.
+</p>

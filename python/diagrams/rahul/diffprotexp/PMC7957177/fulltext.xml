@@ -1,0 +1,665 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Cancer Med</journal-id><journal-id journal-id-type="iso-abbrev">Cancer Med</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7634</journal-id><journal-id journal-id-type="publisher-id">CAM4</journal-id><journal-title-group><journal-title>Cancer Medicine</journal-title></journal-title-group><issn pub-type="epub">2045-7634</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7957177</article-id><article-id pub-id-type="pmid">33624385</article-id><article-id pub-id-type="doi">10.1002/cam4.3799</article-id><article-id pub-id-type="publisher-id">CAM43799</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Clinical Cancer Research</subject><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></subj-group></article-categories><title-group><article-title>Discovery and validation of novel biomarkers for detection of cervical cancer</article-title><alt-title alt-title-type="left-running-head">LI et al.</alt-title></title-group><contrib-group><contrib id="cam43799-cr-0001" contrib-type="author" corresp="yes"><name><surname>Li</surname><given-names>Zigang</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2244-138X</contrib-id><xref ref-type="aff" rid="cam43799-aff-0001">
+<sup>1</sup>
+</xref><address><email>lizigang@zju.edu.cn</email></address></contrib><contrib id="cam43799-cr-0002" contrib-type="author"><name><surname>Chen</surname><given-names>Jianhua</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2560-3188</contrib-id><xref ref-type="aff" rid="cam43799-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cam43799-cr-0003" contrib-type="author"><name><surname>Zhao</surname><given-names>Shaobo</given-names></name><xref ref-type="aff" rid="cam43799-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="cam43799-cr-0004" contrib-type="author"><name><surname>Li</surname><given-names>Yajun</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8925-9999</contrib-id><xref ref-type="aff" rid="cam43799-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="cam43799-cr-0005" contrib-type="author"><name><surname>Zhou</surname><given-names>Jie</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0024-9485</contrib-id><xref ref-type="aff" rid="cam43799-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="cam43799-cr-0006" contrib-type="author"><name><surname>Liang</surname><given-names>Jianghong</given-names></name><xref ref-type="aff" rid="cam43799-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="cam43799-cr-0007" contrib-type="author"><name><surname>Tang</surname><given-names>Huifang</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9541-1352</contrib-id><address><email>tanghuifang@zju.edu.cn</email></address><xref ref-type="aff" rid="cam43799-aff-0003">
+<sup>3</sup>
+</xref></contrib></contrib-group><aff id="cam43799-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Anesthesiology</named-content>
+<named-content content-type="organisation-division">Women&#x02019;s Hospital</named-content>
+<named-content content-type="organisation-division">School of Medicine</named-content>
+<institution>Zhejiang University</institution>
+<city>Hangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="cam43799-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Pathology</named-content>
+<named-content content-type="organisation-division">Women&#x02019;s Hospital</named-content>
+<named-content content-type="organisation-division">School of Medicine</named-content>
+<institution>Zhejiang University</institution>
+<city>Hangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="cam43799-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Pharmacology</named-content>
+<named-content content-type="organisation-division">School of Basic Medical Sciences</named-content>
+<institution>Zhejiang University</institution>
+<city>Hangzhou</city>
+<named-content content-type="country-part">Zhejiang</named-content>
+<country country="CN">China</country>
+</aff><aff id="cam43799-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Anesthesiology</named-content>
+<institution>Tongde Hospital of Zhejang Province</institution>
+<city>Hangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="cam43799-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Department of Stomatology</named-content>
+<institution>Guangzhou Hospital of Integrated Traditional and West Medicine</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Dr Zigang Li, Department of Anesthesiology, Women's Hospital, Zhejiang University School of Medicine.<break/>
+Email: <email>lizigang@zju.edu.cn</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>23</day><month>2</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2021</year></pub-date><volume>10</volume><issue>6</issue><issue-id pub-id-type="doi">10.1002/cam4.v10.6</issue-id><fpage>2063</fpage><lpage>2074</lpage><history><date date-type="rev-recd"><day>30</day><month>1</month><year>2021</year></date><date date-type="received"><day>20</day><month>10</month><year>2020</year></date><date date-type="accepted"><day>07</day><month>2</month><year>2021</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright">&#x000a9; 2021 Published by John Wiley & Sons Ltd.<copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2021 The Authors. <italic>Cancer Medicine</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:CAM4-10-2063.pdf"/><abstract id="cam43799-abs-0001"><title>Abstract</title><sec id="cam43799-sec-0050"><title>Aims</title><p>To investigate novel biomarker for diagnosis of cervical cancer, we analyzed the datasets in Gene Expression Omnibus (GEO) and confirmed the candidate biomarker in patient sample.</p></sec><sec id="cam43799-sec-0051"><title>Materials and methods</title><p>We collected major datasets of cervical cancer in GEO, and analyzed the differential expression of normal and cancer samples online with GEO2R and tested the differences, then focus on the GSE63514 to screen the target genes in different histological grades by using the R&#x02010;Bioconductor package and R&#x02010;heatmap. Then human specimens from the cervix in different histological grades were used to confirm the top 8 genes expression by immunohistochemical staining using Ki67 as a standard control.</p></sec><sec id="cam43799-sec-0052"><title>Results</title><p>We identified genes differentially expressed in normal and cervical cancer, 274 upregulated genes and 206 downregulated genes. After intersection with GSE63514, we found the obvious tendency in different histological grades. Then we screened the top 24 genes, and confirmed the top 8 genes in human cervix tissues. Immunohistochemical (IHC) results confirmed that keratin 17 (KRT17) was not expressed in normal cervical tissues and was over&#x02010;expressed in cervical cancer. Cysteine&#x02010;rich secretory protein&#x02010;2 (CRISP2) was less expressed in high&#x02010;grade squamous intraepithelial lesions (HSILs) than in other histological grades.</p></sec><sec id="cam43799-sec-0054"><title>Conclusion</title><p>For the good repeatability and consistency of KRT17 and CRISP2, they may be good candidate biomarkers. Combined analysis of KRT17, CRISP2 expression at both genetic and protein levels can determine different histological grades of cervical squamous cell carcinoma. Such combined analysis is capable of improving diagnostic accuracy of cervical cancer.</p></sec></abstract><abstract abstract-type="graphical" id="cam43799-abs-0002"><p>To investigate novel biomarker for diagnosis of cervical cancer, we analysed the datasets in Gene Expression Omnibus (GEO) and confirmed the candidate biomarker in patient sample. And we found the good repeatability and consistency of KRT17 and CRISP2, they may be good candidate biomarkers. Combined analysis of KRT17, CRISP2 expression at both genetic and protein levels can determine different histological grades of cervical squamous cell carcinoma. Such combined analysis is capable of improving diagnostic accuracy of cervical cancer.
+<boxed-text position="anchor" content-type="graphic" id="cam43799-blkfxd-0001" orientation="portrait"><graphic xlink:href="CAM4-10-2063-g001.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group><kwd id="cam43799-kwd-0001">biomarker</kwd><kwd id="cam43799-kwd-0002">cervical cancer</kwd><kwd id="cam43799-kwd-0003">CRISP2</kwd><kwd id="cam43799-kwd-0004">GEO</kwd><kwd id="cam43799-kwd-0005">KRT17</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Natural Science Foundation of China </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>81170536</award-id><award-id>81570056</award-id></award-group></funding-group><counts><fig-count count="6"/><table-count count="3"/><page-count count="12"/><word-count count="6929"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>March 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.9 mode:remove_FC converted:15.03.2021</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="cam43799-body-0001"><sec id="cam43799-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Cervical cancer is one of the leading causes of death in women worldwide, with 12,990 new cases and 4120 cancer deaths reported in the United States in 2016.<xref rid="cam43799-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref> The development of cervical cancer is a multi&#x02010;step biological process initiated by a series of genetic and transcriptional changes. Cervical cancer in early stages is overwhelmingly likely to be cured through a combined treatment of surgery, radiotherapy or chemotherapy. In contrast, options for patients in late stages involve alternative treatment such chemo&#x02010;radiotherapy, with a poor prognosis.<xref rid="cam43799-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref> Therefore, diagnosing cervical cancer at an early stage allows for effective treatment and substantially improves outcomes. In nearly all cases, human papilloma virus (HPV) infection is the primary risk factor for the development of cervical cancer, and HPV16 and HPV18 account for 70% of cervical cancer and precancerous cervical lesions.<xref rid="cam43799-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref> Although routine Pap smears and HPV tests have largely improved the outcome of cervical cancer in developed countries, in many developing areas, the disease is often not identified until advanced stages.<xref rid="cam43799-bib-0004" ref-type="ref">
+<sup>4</sup>
+</xref> Furthermore, HPV tests have low specificity for cervical cancer because many HPV infections are transient and are not prone to malignant transformation.<xref rid="cam43799-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref> Squamous cell carcinoma antigen (SCC&#x02010;Ag) is used clinically to predict squamous cell carcinoma (SCC); however, it lacks specificity for cervical cancer.<xref rid="cam43799-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref> Therefore, identification of specific biomarkers remains an urgent need for increasing diagnostic accuracy.</p><p>In this study, to distinguish specific biomarkers among different histological grades, we first collected all datasets in the Gene Expression Omnibus (GEO) database, and select the analyzed a microarray (NO: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link>), and then confirmed the results by immunohistochemical (IHC) staining in specimens from patients. This microarray included 24 normal specimens, 14 cervical intraepithelial neoplasia 1 (CIN1) lesions, 22 CIN2 lesions, 40 CIN3 lesions and 28 cancer specimens, and found top 24 candidate biomarkers which were highly or lowly expressed in different histological grades, with KRT17 and CRISP2 being the most significant. The further IHC results suggested that KRT17 was dominantly expressed in the cervical squamous cancer and barely expressed in the normal cervix; while CRISP2 was specifically lowly expressed in HSIL. Combined with Ki67 is gradual up&#x02010;regulation with tumor progression,<xref rid="cam43799-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref> our results indicated that KRT17 and CRISP2 are possible biomarkers for different histological stages of cervical squamous cancer, this findings that may provide new targets for mechanistic studies and adjuvant diagnosis or therapy for cervical cancer.</p></sec><sec sec-type="materials-and-methods" id="cam43799-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="cam43799-sec-0003"><label>2.1</label><title>Cervical cancer microarray acquisition from the GEO database</title><p>To find cervical cancer related gene chip data, we collected all sets in GEO database of the National Center of Biotechnology Information (NCBI), the search query &#x0201c;("uterine cervical neoplasms"[MeSH Terms] OR cervical cancer [All Fields]) AND (&#x0201c;gse&#x0201d;[Filter] AND "Expression profiling by array"[Filter] AND (&#x0201c;10&#x0201d; [n_samples]: &#x0201c;1000&#x0201d;[n_samples])&#x0201d; was used to select the series.</p></sec><sec id="cam43799-sec-0004"><label>2.2</label><title>Data extraction and differential gene expression analysis between normal and cervical cancer</title><p>For comparisons among normal and cancer tissues, we analyzed all genes of normal and cancer samples online with GEO2R and tested the differences between the two categories in every dataset we selected, after then we downloaded corresponding files to screen differentially expressed genes, respectively. Then drawing two venn diagrams of genes with significantly (adjustment <italic>p</italic> value&#x0003c;0.05) high and low expression in five datasets with the largest total sample size, and listing the expression in the five datasets above of these genes as the result, which was draw with an online tool on a website specialized to make venn diagrams (<ext-link ext-link-type="uri" xlink:href="http://bioinformatics.psb.ugent.be/webtools/Venn/">http://bioinformatics.psb.ugent.be/webtools/Venn/</ext-link>).</p></sec><sec id="cam43799-sec-0005"><label>2.3</label><title>Differential gene expression analysis of various histological grade of cervical cancer</title><p>In the all GEO datasets, only one dataset (registration number <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link>, originated from the University of Wisconsin&#x02013;Madison, the National Cancer Institute and the University of Oklahoma Health Sciences Center) includes different histological grades of cervical: 24 normal specimens, 14 CIN1 lesions, 22 CIN2 lesions, 40 CIN3 lesions and 28 cancer specimens.<xref rid="cam43799-bib-0008" ref-type="ref">
+<sup>8</sup>
+</xref> The female patients had been recruited into Study to Understand Cervical Cancer Early Endpoints and Determinants (SUCCEED); the average age was 31.7, 67% were white, 15% were African&#x02010;American, 5% were Indian/Alaskan Natives, 1% were Asian and 15% were Hispanic. Specimens that were initially classified as CIN1 were reclassified as LSIL and specimens that were classified as CIN2 or CIN3 were reclassified as HSIL. All other specimens were classified as originally reported without revision of the initial diagnoses.</p><p>In order to further explore the regularity of some possible key genes during the progression from normal cervix to cervical cancer, we extracted the dataset of <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link> on GEO Datasets, then respectively gathered intersections of five datasets above in venn diagrams and top 100 genes (here we only analysed individual probes) with significantly (adjustment <italic>p</italic> value &#x0003c;0.05) high or low expression in <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link> as possible key genes, and used MEV 4.9.0 (<ext-link ext-link-type="uri" xlink:href="http://www.tm4.org">www.tm4.org</ext-link>) to produce heatmaps to analyse the expression of these possible key genes among five categories that represent different periods of cervical cancer: normal, CIN I, CIN II, CIN III, SCC. Meantime hierarchical clustering analysis of genes based on Euclidean distance was conducted with MEV 4.9.0.</p><p>Using R statistical programming and BiocLite of Bioconductor <xref rid="cam43799-bib-0009" ref-type="ref">
+<sup>9</sup>
+</xref> to assess differences in gene expression, we summarized probe&#x02010;level data to log2&#x02010;scale values and identified the strongest changes associated with each histopathological tissue class. The log2 values were decomposed as a sum of fixed and random effects. The result of differential expression analysis was the logarithm of the gene expression changes (logFC) in the experimental group multiplied by the control group. The <italic>t</italic>&#x02010;test was performed for statistical analysis of variance. The absolute logFC value of the difference between the two groups &#x0003e;1 and <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.05 was the standard for significantly differential expression, and the top 24 up&#x02010; or down&#x02010;regulated genes during carcinogenesis were revealed via R&#x02010;heatmap for cluster analysis. At last, take advantage of Panther (<ext-link ext-link-type="uri" xlink:href="http://www.pantherdb.org">http://www.pantherdb.org</ext-link>) to functional cluster analysis between mutual groups from controls, CIN1,2,3 to cancers.</p></sec><sec id="cam43799-sec-0006"><label>2.4</label><title>Resource of cervical tissue specimens</title><p>To validate the results of genetic analysis at the transcriptional level, human cervical tissues were collected from the outpatient or surgical divisions of the Department of Gynaecology in Women's Hospital School of Medicine Zhejiang University between June and December 2017. We collected a total of 69 specimens for analysis according to the 4th Edition of WHO Classification of Tumours of the Female Reproductive Organs (IARC WHO Classification of Tumours). The histopathologic diagnosis was made by five pathologists and included normal tissues in 15 patients, LSIL in 19 patients, HSIL in 18 patients and SCC in 17 patients. We excluded patients with any other malignancies or a history of preoperative anticancer treatment. Unstained paraffin sections from all specimens were prepared to do IHC staining, after which the specimens were diagnosed again by the same pathologists.</p></sec><sec id="cam43799-sec-0007"><label>2.5</label><title>Immunohistochemical (IHC) staining</title><p>The IHC staining was performed as follows. First, paraffin sections were treated twice with xylene for 10&#x000a0;min each, re&#x02010;hydrated through 100%, 95%, 85% and 75% ethanol each for 5&#x000a0;min and washed three times with PBS. The slices were incubated in 3% hydrogen peroxide for 10&#x000a0;min to remove endogenous peroxidase, washed three times with PBS, boiled in 10&#x000a0;mM sodium citrate buffer solution (pH 6.0) for 20&#x000a0;min for antigen retrieval and washed three times with PBS after bringing to room temperature. After blocking the nonspecific binding site with 5% bovine serum albumin (BSA) for 10&#x000a0;min, the slices were incubated with a specific antibody (as shown in Table&#x000a0;<xref rid="cam43799-tbl-0001" ref-type="table">1</xref>) overnight at 4&#x000b0;C. The slices were then washed three times with PBS and incubated for 30&#x000a0;min at room temperature with a sheep anti&#x02010;mouse or anti&#x02010;rabbit antibody conjugated with HRP (Boster, Wuhan, China) (1:100 dilution in 1% BSA in PBS). The slices were then washed three times with PBS and treated with 3&#x02019;3&#x02010;diaminobenzidine tetra&#x02010;hydrochloride (DAB) followed by counterstaining with haematoxylin for 5&#x000a0;min. After being dehydrated through 75%, 85%, 95% and 100% ethanol for 5&#x000a0;min each and incubated in xylene for 10&#x000a0;min twice, the slices were finally mounted with neutral gum. The tissue sections were observed under an Olympus microscope (Olympus Corporation, Japan) and images were taken at 200&#x000d7; magnification using the same light intensity and exposure time. Before we examined the images, we excluded non&#x02010;lesional contamination and nonspecific staining sections based on the judgments of the five certified pathologists. Image&#x02010;Pro Plus (IPP) image analysis software (Media Cybernetics, USA) was used to analyse the integrated optical density (IOD) value of each image, blinded to the corresponding clinical data.</p><table-wrap id="cam43799-tbl-0001" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 1</label><caption><p>Primary antibody used in the study</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Gene name</th><th align="left" valign="top" rowspan="1" colspan="1">Antibody (company&#x02010;catlog)</th><th align="left" valign="top" rowspan="1" colspan="1">Dilution</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Ki67</td><td align="left" rowspan="1" colspan="1">Gentex&#x02010; GX16667</td><td align="left" rowspan="1" colspan="1">1:100</td></tr><tr><td align="left" rowspan="1" colspan="1">CDKN2A</td><td align="left" rowspan="1" colspan="1">Santa cruz &#x02010;Sc&#x02212;73434</td><td align="left" rowspan="1" colspan="1">1:50</td></tr><tr><td align="left" rowspan="1" colspan="1">SYCP2</td><td align="left" rowspan="1" colspan="1">Santa cruz &#x02010;Sc&#x02212;20841</td><td align="left" rowspan="1" colspan="1">1:50</td></tr><tr><td align="left" rowspan="1" colspan="1">KRT17</td><td align="left" rowspan="1" colspan="1">Santa cruz &#x02010;Sc&#x02212;393091</td><td align="left" rowspan="1" colspan="1">1:25</td></tr><tr><td align="left" rowspan="1" colspan="1">NEFH</td><td align="left" rowspan="1" colspan="1">Santa cruz &#x02010;Sc&#x02212;22909</td><td align="left" rowspan="1" colspan="1">1:25</td></tr><tr><td align="left" rowspan="1" colspan="1">CRISP3</td><td align="left" rowspan="1" colspan="1">Santa cruz &#x02010;Sc&#x02212;377505</td><td align="left" rowspan="1" colspan="1">1:25</td></tr><tr><td align="left" rowspan="2" colspan="1">CRISP2</td><td align="left" rowspan="1" colspan="1">Abnova PAB19289/</td><td align="left" rowspan="1" colspan="1">1:100</td></tr><tr><td align="left" rowspan="1" colspan="1">Santa cruz &#x02010;Sc&#x02212;390914</td><td align="left" rowspan="1" colspan="1">1:50</td></tr><tr><td align="left" rowspan="1" colspan="1">DSG1</td><td align="left" rowspan="1" colspan="1">Santa cruz &#x02010;Sc&#x02212;20114</td><td align="left" rowspan="1" colspan="1">1:25</td></tr><tr><td align="left" rowspan="1" colspan="1">PPP1R3C(PTG)</td><td align="left" rowspan="1" colspan="1">Santa cruz &#x02010;Sc&#x02212;6582</td><td align="left" rowspan="1" colspan="1">1:50</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="cam43799-sec-0008"><label>2.6</label><title>Statistical analysis</title><p>The absolute logFC value of the difference between the two group &#x0003e;1, and <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.05 is the standard of significantly differential expression. Due to the heterogeneity of IOD variance in different groups, the post hoc test was performed for the IHC results. Error bars for the experiments represent the standard deviation of the mean value (mean value &#x000b1;S.D.). SPSS24 software was used to analyse all IHC results and <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.05 was regarded as statistically significant.</p></sec></sec><sec sec-type="results" id="cam43799-sec-0009"><label>3</label><title>RESULTS</title><sec id="cam43799-sec-0010"><label>3.1</label><title>Cervical cancer in GEO datasets</title><p>To investigate the cervical cancer in GEO, we collected all results in GEO database listed in Table&#x000a0;<xref rid="cam43799-tbl-0001" ref-type="table">1</xref>. The key words we used to search in GEO datasets: "uterine cervical neoplasms"[MeSH Terms] OR cervical cancer [All Fields]) AND ("gse"[Filter] AND "Expression profiling by array"[Filter]. There are total 17 datasets in GEO database. All datasets have two groups: normal and cancer, common used datasets were GPL6244 and GPL570, only one dataset, <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link> contains the all grades of cervical cancer from normal, CIN 1~III, to SCC. Meanwhile, in all datasets, the sample size is another obstacle, for the smaller size limited the further analysis, so, in the next step, we selected five datasets which the minimum sample size beyond 50, marked by red in Table&#x000a0;<xref rid="cam43799-tbl-0002" ref-type="table">2</xref>.</p><table-wrap id="cam43799-tbl-0002" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 2</label><caption><p>Cervical cancer in GEO datasets (updated by July 6, 2019)</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Order</th><th align="left" valign="top" rowspan="1" colspan="1">GSE number</th><th align="left" valign="top" rowspan="1" colspan="1">Platforms</th><th align="left" valign="top" rowspan="1" colspan="1">NORMAL</th><th align="left" valign="top" rowspan="1" colspan="1">CANCER</th><th align="left" valign="top" rowspan="1" colspan="1">CIN I</th><th align="left" valign="top" rowspan="1" colspan="1">CIN II</th><th align="left" valign="top" rowspan="1" colspan="1">CIN III</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">89657</td><td align="left" rowspan="1" colspan="1">GPL6244</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">75132</td><td align="left" rowspan="1" colspan="1">GPL570</td><td align="char" char="." rowspan="1" colspan="1">21</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">63678</td><td align="left" rowspan="1" colspan="1">GPL571</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">63514</td><td align="left" rowspan="1" colspan="1">GPL570</td><td align="char" char="." rowspan="1" colspan="1">24</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">22</td><td align="left" rowspan="1" colspan="1">40</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">52903</td><td align="left" rowspan="1" colspan="1">GPL6244</td><td align="char" char="." rowspan="1" colspan="1">17</td><td align="char" char="." rowspan="1" colspan="1">55</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">67522</td><td align="left" rowspan="1" colspan="1">GPL10558</td><td align="char" char="." rowspan="1" colspan="1">22</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">46857</td><td align="left" rowspan="1" colspan="1">GPL7025</td><td align="char" char="." rowspan="1" colspan="1">4</td><td align="char" char="." rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="left" rowspan="2" colspan="1">39001</td><td align="left" rowspan="1" colspan="1">GPL201</td><td align="char" char="." rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">43</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">GPL6244</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">29570</td><td align="left" rowspan="1" colspan="1">GPL6244</td><td align="char" char="." rowspan="1" colspan="1">17</td><td align="char" char="." rowspan="1" colspan="1">45</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">14404</td><td align="left" rowspan="1" colspan="1">GPL6699</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">28</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">9750</td><td align="left" rowspan="1" colspan="1">GPL96</td><td align="char" char="." rowspan="1" colspan="1">24</td><td align="char" char="." rowspan="1" colspan="1">33</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">7410</td><td align="left" rowspan="1" colspan="1">GPL1708</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">40</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">7803</td><td align="left" rowspan="1" colspan="1">GPL96</td><td align="char" char="." rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">6791</td><td align="left" rowspan="1" colspan="1">GPL570</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">4482</td><td align="left" rowspan="1" colspan="1">GPL3515</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1">17</td><td align="left" rowspan="1" colspan="1">527</td><td align="left" rowspan="1" colspan="1">GPL355</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">25</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="cam43799-sec-0011"><label>3.2</label><title>Differential gene expression between normal and cervical cancer</title><p>For comparisons among normal and cancer tissues, we analyzed all genes of normal and cancer samples online with GEO2R and tested the differences between the two categories in the five datasets we selected, after that we downloaded corresponding result files that differentially expressed genes, and gathered intersections by an online tool (<ext-link ext-link-type="uri" xlink:href="http://bioinformatics.psb.ugent.be/webtools/Venn/">http://bioinformatics.psb.ugent.be/webtools/Venn/</ext-link>) to make venn diagrams of genes with significantly (adjustment <italic>p</italic> value &#x0003c;0.05) high and low expression in the five datasets (Figure&#x000a0;<xref rid="cam43799-fig-0001" ref-type="fig">1</xref>). The intersection contains 274 high expression genes and 206 low expression genes in five datasets. For the specificity of <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link>, we further analyzed the intersections in <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link>, and gathered top 100 gene of high and low expression in <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link> by online tool MEV 4.9.0 (<ext-link ext-link-type="uri" xlink:href="http://www.tm4.org">www.tm4.org</ext-link>) (Figure&#x000a0;<xref rid="cam43799-fig-0002" ref-type="fig">2</xref>), and found that there are obvious tendency in up&#x02010;regulation and down&#x02010;regulation during cervical cancer carcinogenesis. These results indicated that the predominantly differential genes in different histological grades may be important during cervical cancer carcinogenesis.</p><fig fig-type="FIGURE" xml:lang="en" id="cam43799-fig-0001" orientation="portrait" position="float"><label>FIGURE 1</label><caption><p>Differential gene expression during carcinogenesis in the five GEO datasets. (A) The total up&#x02010;regulated genes. (B) The total down&#x02010;regulated genes</p></caption><graphic id="nlm-graphic-3" xlink:href="CAM4-10-2063-g003"/></fig><fig fig-type="FIGURE" xml:lang="en" id="cam43799-fig-0002" orientation="portrait" position="float"><label>FIGURE 2</label><caption><p>Heatmap of differential gene expression of <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link> in the normal cervix, CIN1, &#x02212;2 and &#x02212;3 lesions, and cancer. (A) The top 100 up&#x02010;regulated differentially expressed genes from 276 genes in the Intersection of five GEO datasets. (B) The top 100 down&#x02010;regulated differentially expressed genes from 206 genes in the Intersection of five GEO datasets</p></caption><graphic id="nlm-graphic-5" xlink:href="CAM4-10-2063-g002"/></fig></sec><sec id="cam43799-sec-0012"><label>3.3</label><title>Differential gene expression in different histological grade of cervical cancer</title><p>To further find the useful biomarker, we used R statistical programming and BiocLite of Bioconductor to examine the data in <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514">GSE63514</ext-link> and found the top genes to be differentially expressed in various histological grades of cervical cancer. According to the amplitude of variation with grade, all the genes with significant changes are shown in Figure&#x000a0;<xref rid="cam43799-fig-0003" ref-type="fig">3A,B</xref>. Affymetrix Human Genome U133 Plus 2.0 Array has complete coverage of the Human Genome U133 Set, with over 47,000 transcripts. Comparing CIN1 with normal tissue, there were 35 genes that were significantly up&#x02010;regulated and 16 genes that were significantly down&#x02010;regulated. In the comparison of CIN2 with normal tissue, 120 genes were significantly up&#x02010;regulated and 24 genes were significantly down&#x02010;regulated. The CIN3 comparison with normal tissue revealed 290 genes that were significantly up&#x02010;regulated and 128 genes that were significantly down&#x02010;regulated. When comparing CIN2 with CIN1, we found 27 genes that were significantly up&#x02010;regulated and 39 that were significantly down&#x02010;regulated. In the CIN3 versus CIN1 comparison, 77 genes were significantly up&#x02010;regulated and 95 genes were significantly down&#x02010;regulated, and in the CIN3 versus CIN2 comparison, 8 genes were significantly up&#x02010;regulated and 33 genes were significantly down&#x02010;regulated. Compared with normal tissues, tumor tissues showed 660 significantly up&#x02010;regulated genes and 432 significantly down&#x02010;regulated genes. Compared with CIN1, 298 genes were up&#x02010;regulated and 392 genes significantly down&#x02010;regulated in tumors. Compared with CIN2, 290 genes were significantly up&#x02010;regulated and 419 genes down&#x02010;regulated in tumors. Compared with CIN3, 376 genes were significantly up&#x02010;regulated and 259 genes down&#x02010;regulated in tumors. These results indicate that the predominantly differentially expressed genes in different histological grades may be important during cervical cancer carcinogenesis (Figure&#x000a0;<xref rid="cam43799-fig-0003" ref-type="fig">3A,B</xref>).</p><fig fig-type="FIGURE" xml:lang="en" id="cam43799-fig-0003" orientation="portrait" position="float"><label>FIGURE 3</label><caption><p>Differential gene expression during carcinogenesis. (A) The total and top 4 significantly differentially expressed genes from inter&#x02010;comparisons between the normal cervix and CIN1, &#x02212;2 and &#x02212;3 lesions. (B) The total and top 4 significantly differentially expressed genes in cervical cancer compared to normal tissue and CIN1, &#x02212;2 and &#x02212;3 lesions. Blue represents up&#x02010;regulation; green represents down&#x02010;regulation. (C) Heatmap presentations of gene expression levels of 12 genes with predominantly increasing expression level. (D) Heatmap presentations of 12 genes with predominantly decreasing expression level. Red color represents the highest expression; green color represents the lowest expression</p></caption><graphic id="nlm-graphic-7" xlink:href="CAM4-10-2063-g006"/></fig><p>To screen the differential expression of genes at different histological grade, we further used R&#x02010;heatmap for cluster analysis and visualized the top 12 up&#x02010;regulated genes (CDKN2A, SYCP2, KRT17, NEFH, ZIC2, CTHRC1, INHBA, GREM1, FN1, MMP1, SULF1, SPP1) (Figure&#x000a0;<xref rid="cam43799-fig-0003" ref-type="fig">3C</xref>) and down&#x02010;regulated genes (CRISP3, CRISP2, PPP1R3C, DSG1, CRNN, TMRSS11B, MAL, CLCA4, SRPP3, KRT13, PIGR, KRT24) during carcinogenesis (Figure&#x000a0;<xref rid="cam43799-fig-0003" ref-type="fig">3D</xref>).</p></sec><sec id="cam43799-sec-0013"><label>3.4</label><title>Immunohistochemical staining profile of the top genes</title><p>To confirm the significance of the up&#x02010;regulated and down&#x02010;regulated genes, we used the IHC staining to determine the 4 top up&#x02010;regulated genes (CDKN2A, KRT17, SYCP2, NEFH) and the 4&#x02010;top down&#x02010;regulated genes (CRISP3, CRISP2, DSG1, PTG) for verification of protein expression, and Ki67 as control. All eight genes, the positive responses were not good as shown in Table&#x000a0;<xref rid="cam43799-tbl-0003" ref-type="table">3</xref>, only the repeatability of KRT17 and CRISP2 were good. These results suggested that KRT17 and CRISP2 may be used to differential different histological grades.</p><table-wrap id="cam43799-tbl-0003" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 3</label><caption><p>The frequency of immunohistochemical staining reactivity of top gene in cervical intraepithelial neoplasm and cervical carcinoma</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="left" valign="top" rowspan="1" colspan="1">n</th><th align="left" valign="top" rowspan="1" colspan="1">Ki67 (%)</th><th align="left" valign="top" rowspan="1" colspan="1">CDKN2A (%)</th><th align="left" valign="top" rowspan="1" colspan="1">KRT17(%)</th><th align="left" valign="top" rowspan="1" colspan="1">SYCP2 (%)</th><th align="left" valign="top" rowspan="1" colspan="1">NEFH(%)</th><th align="left" valign="top" rowspan="1" colspan="1">CRISP3(%)</th><th align="left" valign="top" rowspan="1" colspan="1">CRISP2(%)</th><th align="left" valign="top" rowspan="1" colspan="1">DSG1(%)</th><th align="left" valign="top" rowspan="1" colspan="1">PTG (%)</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Normal</td><td align="char" char="." rowspan="1" colspan="1">15</td><td align="left" rowspan="1" colspan="1">54.5</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">42</td><td align="char" char="." rowspan="1" colspan="1">40</td><td align="char" char="." rowspan="1" colspan="1">50</td><td align="char" char="." rowspan="1" colspan="1">100</td><td align="char" char="." rowspan="1" colspan="1">25</td><td align="char" char="." rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">LSIL</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">64.7</td><td align="char" char="." rowspan="1" colspan="1">25</td><td align="char" char="." rowspan="1" colspan="1">100</td><td align="char" char="." rowspan="1" colspan="1">75</td><td align="char" char="." rowspan="1" colspan="1">67</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">100</td><td align="char" char="." rowspan="1" colspan="1">60</td><td align="char" char="." rowspan="1" colspan="1">33</td></tr><tr><td align="left" rowspan="1" colspan="1">HSIL</td><td align="char" char="." rowspan="1" colspan="1">18</td><td align="left" rowspan="1" colspan="1">100</td><td align="char" char="." rowspan="1" colspan="1">25</td><td align="char" char="." rowspan="1" colspan="1">90</td><td align="char" char="." rowspan="1" colspan="1">50</td><td align="char" char="." rowspan="1" colspan="1">38</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">95</td><td align="char" char="." rowspan="1" colspan="1">40</td><td align="char" char="." rowspan="1" colspan="1">0</td></tr><tr><td align="left" rowspan="1" colspan="1">SCC</td><td align="char" char="." rowspan="1" colspan="1">17</td><td align="left" rowspan="1" colspan="1">100</td><td align="char" char="." rowspan="1" colspan="1">50</td><td align="char" char="." rowspan="1" colspan="1">92</td><td align="char" char="." rowspan="1" colspan="1">86</td><td align="char" char="." rowspan="1" colspan="1">60</td><td align="char" char="." rowspan="1" colspan="1">0</td><td align="char" char="." rowspan="1" colspan="1">93</td><td align="char" char="." rowspan="1" colspan="1">57</td><td align="char" char="." rowspan="1" colspan="1">0</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="cam43799-sec-0014"><label>3.5</label><title>Gradual Up&#x02010;regulation of Ki67 with tumor progression</title><p>Ki&#x02010;67 is a nuclear protein that is expressed in G1, S, G2 and M phases of the cell cycle and is then rapidly catabolized at the end of M phase and not detectable in cells in G0 and early G1. Ki&#x02010;67 is commonly used as a marker of cell proliferation. P16(+)/Ki67(+) nuclei have been classified with respective precisions of 77.1% and 82.6%.<xref rid="cam43799-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref> As the specificity of p16/Ki67 dual staining for HSIL/CC is 90.9% and 72.1%,<xref rid="cam43799-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref> Ki67 expression is also associated with the lesion grade of CIN.<xref rid="cam43799-bib-0012" ref-type="ref">
+<sup>12</sup>
+</xref> Many studies have indicated that cell proliferation in cancer patients and activation of Ki67 leads to cervical cancer progression.<xref rid="cam43799-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref> Therefore, Ki67 can be used as a positive control for auxiliary pathological staging diagnosis, and we evaluated Ki67 protein expression in normal, LISL, HISL and SCC samples by IHC. As shown in Figure&#x000a0;<xref rid="cam43799-fig-0004" ref-type="fig">4</xref>, Ki67 was expressed in the nucleus, the intensity increased with histological cancer progression and the quality increased following the histological progress. Significantly high expression of Ki67 in cervical SCC was observed, and these results were consistent with those of previous reports.<xref rid="cam43799-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref>, <xref rid="cam43799-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref>, <xref rid="cam43799-bib-0015" ref-type="ref">
+<sup>15</sup>
+</xref>, <xref rid="cam43799-bib-0016" ref-type="ref">
+<sup>16</sup>
+</xref>
+</p><fig fig-type="FIGURE" xml:lang="en" id="cam43799-fig-0004" orientation="portrait" position="float"><label>FIGURE 4</label><caption><p>Representative immunohistochemical (IHC) staining (A) and semiquantitative analysis (B) of Ki67, KRT17 and CRISP2 during carcinogenesis. Bar scale: 50&#x000a0;&#x003bc;m. IHC results are presented with IOD value/area in different groups. The Kruskal&#x02013;Wallis rank test was performed on the IHC results and <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.05 was regarded as statistically significant</p></caption><graphic id="nlm-graphic-9" xlink:href="CAM4-10-2063-g004"/></fig></sec><sec id="cam43799-sec-0015"><label>3.6</label><title>Specific high expression of KRT17 in cervical cancer and non&#x02010;expression in normal tissue</title><p>KRT17, a stem cell marker, is also a positive marker used for grading CIN. KRT17 immunostaining differs according to the degree of cervical intraepithelial lesions and SCC, and surprisingly, staining is significantly correlated with increasing lesion grade of CIN and SCC.<xref rid="cam43799-bib-0017" ref-type="ref">
+<sup>17</sup>
+</xref> Additionally, KRT17 and p16 expression patterns have been used to distinguish (atypical) immature squamous metaplasia from high&#x02010;grade cervical intraepithelial neoplasia (CIN III).<xref rid="cam43799-bib-0018" ref-type="ref">
+<sup>18</sup>
+</xref> As shown in Figure&#x000a0;<xref rid="cam43799-fig-0002" ref-type="fig">2B</xref>, KRT17 was mainly distributed in the cytoplasm. Normal squamous epithelium, normal cervical gland epithelium and mature squamous metaplastic cells were negative for KRT17 staining. KRT17 was also associated with increasing lesion grade in cervical intraepithelial lesions, as follows: LSIL&#x0003e;HSIL&#x0003e;SCC. KRT17 was extremely over&#x02010;expressed in SCC samples but was barely expressed in normal samples, which corresponded to the results of gene expression analysis. Expression of KRT17 was not significantly different in LSIL and HSIL (Figure&#x000a0;<xref rid="cam43799-fig-0004" ref-type="fig">4</xref>). Therefore, KRT17 may be a good biomarker for cervical cancer and a lack of KRT17 expression strongly suggests a normal cervix.</p></sec><sec id="cam43799-sec-0016"><label>3.7</label><title>Specific low expression of CRISP2 in HSIL</title><p>CRISP2, previously known as testis&#x02010;specific protein 1, belongs to a family of cysteine&#x02010;rich secretory proteins (CRISPs) and is strongly expressed in male reproductive tissues, including the testis, prostate and epididymis.<xref rid="cam43799-bib-0019" ref-type="ref">
+<sup>19</sup>
+</xref> CRISP2 mediates spermatogenesis, modulation of flagellar motility, acrosome reaction and gamete fusion.<xref rid="cam43799-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref> CRISP2 is mainly expressed in the cytoplasm of the lesion but is localized around the nucleus. As indicated in Figure&#x000a0;<xref rid="cam43799-fig-0004" ref-type="fig">4</xref>, CRISP2 was significantly highly expressed in LSIL but less expressed in HSIL, which corresponds to the results of gene expression analysis. In contrast to its expression in other histological grades, CRISP2 is a specific lowly expressed biomarker for HSIL.</p></sec><sec id="cam43799-sec-0017"><label>3.8</label><title>Repeatability of the expression of KRT17 and CRISP2 in other GEO datasets</title><p>To confirm the significance of KRT17 and CRISP2 during the period of tumor progression, we further analyzed their expression among normal and cancer samples in 6 datasets with larger sample size. The extracted data of these two genes&#x02019; expression in GEO datasets suggested the same tendency (Figure&#x000a0;<xref rid="cam43799-fig-0005" ref-type="fig">5</xref>), so that means that combination of KRT17 and CRISP2 may be used as diagnostic biomarker to distinguish the different histologic grades of cervical cancer.</p><fig fig-type="FIGURE" xml:lang="en" id="cam43799-fig-0005" orientation="portrait" position="float"><label>FIGURE 5</label><caption><p>The expression of KRT17 and CRISP2 in the GEO datasets of cervical cancer. Log&#x02010;Fold changes of biomarker candidates are shown. Left is down&#x02010;regulation, and right is up&#x02010;regulation</p></caption><graphic id="nlm-graphic-11" xlink:href="CAM4-10-2063-g005"/></fig></sec></sec><sec sec-type="discussion" id="cam43799-sec-0018"><label>4</label><title>DISCUSSION</title><p>In this study, we analyzed GEO microarrays to identify differentially expressed genes as candidate targets for further IHC confirmation. We found that the expression of Ki67 was increased according to histopathological stage, whereby high expression of KRT17 was specifically found in cervical cancer and low expression of CRISP2 was specifically observed in HSIL. Therefore, we proposed that combined analysis of KRT17 and CRISP2 expression to determine different histological stages of cervical cancer, it would be helpful for accurate histological diagnosis.</p><p>Ki67 is a well&#x02010;known proliferation marker used for the independent evaluation of the prediction of cancer progression.<xref rid="cam43799-bib-0021" ref-type="ref">
+<sup>21</sup>
+</xref> Oncoprotein E7 of HPV inactivates the function of pRb, leading to P16ink4a accumulation.<xref rid="cam43799-bib-0022" ref-type="ref">
+<sup>22</sup>
+</xref> P16ink4a/Ki67 immunocytochemistry can achieve a sensitivity of 86% for LSIL and 88% for HSIL.<xref rid="cam43799-bib-0023" ref-type="ref">
+<sup>23</sup>
+</xref> Accordingly, we used Ki67 as a positive control for histopathological staging in our study and compared it with our novel biomarkers, but the obvious insufficiency of Ki67 is that it cannot recognize the different histological stages of cervical cancer. Therefore, more effective and affordable screening methods are needed. Protein&#x02010;based biomarkers, such as SCC&#x02010;Ag,<xref rid="cam43799-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref> p16,<xref rid="cam43799-bib-0024" ref-type="ref">
+<sup>24</sup>
+</xref> CEA,<xref rid="cam43799-bib-0025" ref-type="ref">
+<sup>25</sup>
+</xref> CYFRA,<xref rid="cam43799-bib-0026" ref-type="ref">
+<sup>26</sup>
+</xref> sCD44, MMP&#x02010;9,<xref rid="cam43799-bib-0027" ref-type="ref">
+<sup>27</sup>
+</xref> GINS2,<xref rid="cam43799-bib-0028" ref-type="ref">
+<sup>28</sup>
+</xref> HBXIP <xref rid="cam43799-bib-0029" ref-type="ref">
+<sup>29</sup>
+</xref> and Pin1 <xref rid="cam43799-bib-0030" ref-type="ref">
+<sup>30</sup>
+</xref> had reported, are relevant to cervical cancer. Unfortunately, most of them are applied for prognosis or efficacy evaluation, whereas specific biomarkers for various histological stages of cervical cancer for early diagnosis and treatment remain unknown.</p><p>During the progression of cervical cancer, from normal cervical tissues to CIN 1, 2 and 3, the gradually down&#x02010;regulated genes we confirmed were CRISP3, CRISP2, PPP1R3C, and DSG1. CRISP2 (gene ID: 7180) also belonging to the CRISP family, is strongly expressed in male reproductive tissues, including the testis, prostate and epididymis,<xref rid="cam43799-bib-0031" ref-type="ref">
+<sup>31</sup>
+</xref> mediating the adhesion between cells and cells, and participate in the fertilization process together with CRISP1,<xref rid="cam43799-bib-0032" ref-type="ref">
+<sup>32</sup>
+</xref> and spermatogenesis, modulation of flagellar motility, acrosome reaction and gamete fusion.<xref rid="cam43799-bib-0033" ref-type="ref">
+<sup>33</sup>
+</xref> Those results suggested that the decrease in CRISP2 expression may lead to decreased sperm motility. As there is no evidence of a connection between CRISP2 and cervical cancer to date, so, our finding that CRISP2 is specifically expressed at low levels in HSIL is novel.</p><p>During the progression of cervical cancer, from normal cervical tissues to CIN 1, 2 and 3, the up&#x02010;regulated genes we confirmed were SYCP2, NEFH, CDKN2A and KRT17. KRT17 (Gene ID: 3872) is located on chromosome 17q21.2, encoding keratin, type I cytoskeleton 17 (Keratin, type I cytoskeletal 17, UniProtKB&#x02010;Q04695), expressed in the outer root sheath and medulla region of hair follicles, where it is involved in the formation and maintenance of various skin appendages.<xref rid="cam43799-bib-0019" ref-type="ref">
+<sup>19</sup>
+</xref> KRT17 is considered a marker of basal cell differentiation in complex epithelia.<xref rid="cam43799-bib-0034" ref-type="ref">
+<sup>34</sup>
+</xref> The absence of KRT17 delays basaloid follicular hamartoma tumor initiation and growth in mice with constitutive Hh signaling in the epidermis.<xref rid="cam43799-bib-0020" ref-type="ref">
+<sup>20</sup>
+</xref> KRT17 is also associated with cell polarization and the recruitment of effector immune cells to lesion&#x02010;prone cervical epithelia. Escobar&#x02010;Hoyos et al. found KRT17 to be highly expressed in premalignant and malignant squamous lesions of the cervix,<xref rid="cam43799-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref> and Kim et al. showed KRT17 to be differentially expressed in adenocarcinoma and SCC.<xref rid="cam43799-bib-0035" ref-type="ref">
+<sup>35</sup>
+</xref> Our results are consistent with the results of those studies. Most importantly, we found that expression of KRT17 was stronger than that of Ki67 in cervical cancer, indicating that KRT17 is a more specific and suitable marker for cervical cancer.</p><p>During the progression of cervical cancer, other up&#x02010;regulated genes, such as CRISP3 (gene ID: 10321) belongs to the family of cysteine&#x02010;rich secreted proteins (CRSP), which is involved in the defense response against foreign material damage and the natural immune response of the reproductive system. CRISP3&#x000a0;has been found to be a prominent marker of prostate cancer gene expression,<xref rid="cam43799-bib-0036" ref-type="ref">
+<sup>36</sup>
+</xref> ovarian cancer.<xref rid="cam43799-bib-0037" ref-type="ref">
+<sup>37</sup>
+</xref> Ko WC et al. found that CRISP3 copy number was down&#x02010;regulated in oral squamous cell carcinoma T1/T2 phase, and did not change in T3/T4 phase.<xref rid="cam43799-bib-0038" ref-type="ref">
+<sup>38</sup>
+</xref> PPP1R3C (PTG, Gene ID: 5507) is highly methylated in colon cancer and is a feature of colon cancer epigenetics, which may play an important role in tumor cell growth associated with blood glucose levels.<xref rid="cam43799-bib-0039" ref-type="ref">
+<sup>39</sup>
+</xref> Desmoglein&#x02010;1 (DSG1) (Gene ID: 1828) is associated with severe dermatitis, multiple allergies and metabolic wasting syndrome.<xref rid="cam43799-bib-0040" ref-type="ref">
+<sup>40</sup>
+</xref> Negative expression of DSG1 on the cell membrane can be used as a marker for anal squamous cell carcinoma.<xref rid="cam43799-bib-0041" ref-type="ref">
+<sup>41</sup>
+</xref>
+</p><p>During the progression of cervical cancer, other down&#x02010;regulated genes, such as synaptonemal complex protein 2 (SYCP2)(Gene ID: 10388) has been found that it is expressed uncontrolled in early oral cancer of human HPV infection,<xref rid="cam43799-bib-0042" ref-type="ref">
+<sup>42</sup>
+</xref> and SYCP2 gene alternative splicing events may be involved in the occurrence and development of uterine CSCC, and can be used as a bio&#x02010;diagnostic marker for CSCC.<xref rid="cam43799-bib-0043" ref-type="ref">
+<sup>43</sup>
+</xref> NEFH (Gene ID: 4744) involved in the generation, development and regeneration of axons. NEFH highly methylated esophageal squamous carcinoma cells can be destroyed by specific inhibitors of downstream signaling pathways.<xref rid="cam43799-bib-0044" ref-type="ref">
+<sup>44</sup>
+</xref> Cycle&#x02010;dependent kinase inhibitor 2A (CDKN2A) (Gene ID: 1029) controls G1 phase by regulating CDK4 and P53, is an important tumor suppressor gene. Recently, Viloria ME et al. reported that the decreased frequency of p16 (CDKN2A) expression accompanied by decreased frequency of TGF&#x02010;&#x003b2;1 in CIN III and cancer.<xref rid="cam43799-bib-0045" ref-type="ref">
+<sup>45</sup>
+</xref> This report suggested that CDKN2A could be involved in the neoplasia progression, as we predicted before. In our study, we found that all of them regulated in cervical cancer. But their reactivity in our study is no good. There exists internal and external reason. For those analysis are based on gene chips, no protein analysis, the internal reason may threaten the validity of this study, such as post&#x02010;transcriptional modification of protein, and system error of the determination of gene chips. The external reason maybe change the validity of this study, such as our experimental conditions, antibody batches, etc. Although we did not confirm their expressions, its do not hinder them to be the candidate biomarker in the future.</p><p>In summary, using a gene&#x02010;level to protein&#x02010;level analysis, our results demonstrate that KRT17 and CRISP2 are specifically expressed in various histological stages of cervical carcinoma. Therefore, combined analysis of KRT17 and CRISP2 expression is greatly helpful for early histological diagnosis of cervical precancerous lesions. Some novel methods may provide more convenient indicators, including serum biomarkers, circulating auto&#x02010;antibodies against P16,<xref rid="cam43799-bib-0046" ref-type="ref">
+<sup>46</sup>
+</xref> and Th2 and Th3 cytokines.<xref rid="cam43799-bib-0047" ref-type="ref">
+<sup>47</sup>
+</xref>
+</p></sec><sec sec-type="COI-statement" id="cam43799-sec-0020"><title>DISCLOSURE</title><p>The authors declare no conflict of interest.</p></sec><sec id="cam43799-sec-0021"><title>AUTHORS&#x02019; CONTRIBUTIONS</title><p>LZG participated in all the experiments, interpreted the result and was responsible for the approval of the Ethics Committee of the Women's Hospital of School of Medicine. CJH contributed to the collection and diagnosis of clinical cervical tissue specimens and interpreted the results. ZSB contributed to sectional GEO datasets analysis and write sectional manuscript. LYJ contributed expertise regarding immunohistochemical staining. ZJ participated in image production. LJH and THF conceived of all the experiments and participated in the interpretation of the results and manuscript production.</p></sec><sec id="cam43799-sec-0022"><title>ETHICS APPROVAL AND CONSENT TO PARTICIPATE</title><p>The collection of human samples from patients obtained the consent from the Medical Ethics Committee of Woman's Hospital, and all patients signed the informed consent for research.</p></sec><sec id="cam43799-sec-0023"><title>CONSENT FOR PUBLICATION</title><p>All patients signed the informed consent for publication.</p></sec></body><back><ack id="cam43799-sec-0019"><title>ACKNOWLEDGEMENTS</title><p>The study was supported by the National Natural Science Foundation of China (81170536 and 81570056). We appreciate chenggong Li for her most dedicated help in the course of this experiment. We also sincerely acknowledge the help and guidance of Professor Ming Chen and his team, and the assistance of Jiali Wang and Jiawei Shu in R language regarding microarray analyses, meanwhile the help of pathological experts for the histological diagnosis of cervical cancer.</p></ack><sec sec-type="data-availability" id="cam43799-sec-0025"><title>DATA AVAILABILITY STATEMENT</title><p>The datasets used and analyzed during the current study are available from the corresponding author upon reasonable request.</p></sec><ref-list content-type="cited-references" id="cam43799-bibl-0001"><title>REFERENCES</title><ref id="cam43799-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cam43799-cit-0001">
+<string-name>
+<surname>Siegel</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>KD</given-names>
+</string-name>, <string-name>
+<surname>Jemal</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Cancer statistics, 2016</article-title>. <source xml:lang="en">CA Cancer J Clin</source>. <year>2016</year>;<volume>66</volume>(<issue>1</issue>):<fpage>7</fpage>&#x02010;<lpage>30</lpage>.<pub-id pub-id-type="pmid">26742998</pub-id></mixed-citation></ref><ref id="cam43799-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cam43799-cit-0002">
+<string-name>
+<surname>Kang</surname>
+<given-names>Y&#x02010;J</given-names>
+</string-name>, <string-name>
+<surname>O&#x02019;Connell</surname>
+<given-names>DL</given-names>
+</string-name>, <string-name>
+<surname>Lotocki</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Effect of changes in treatment practice on survival for cervical cancer: results from a population&#x02010;based study in Manitoba, Canada</article-title>. <source xml:lang="en">BMC Cancer</source>. <year>2015</year>;<volume>15</volume>:<fpage>642</fpage>.<pub-id pub-id-type="pmid">26394749</pub-id></mixed-citation></ref><ref id="cam43799-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cam43799-cit-0003">
+<string-name>
+<surname>Wright</surname>
+<given-names>TC</given-names>
+<suffix>Jr</suffix>
+</string-name>. <article-title>Natural history of HPV infections</article-title>. <source xml:lang="en">J Fam Pract</source>. <year>2009</year>;<volume>58</volume>(<issue>9 Suppl HPV</issue>):<fpage>S3</fpage>&#x02010;<lpage>S7</lpage>.</mixed-citation></ref><ref id="cam43799-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cam43799-cit-0004">
+<string-name>
+<surname>Marx</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Human papilloma virus and cervical cancer</article-title>. <source xml:lang="en">Science (New York, NY)</source>. <year>1986</year>;<volume>231</volume>(<issue>4741</issue>):<fpage>920</fpage>.</mixed-citation></ref><ref id="cam43799-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cam43799-cit-0005">
+<string-name>
+<surname>Hopman</surname>
+<given-names>AHN</given-names>
+</string-name>, <string-name>
+<surname>Smedts</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Dignef</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Transition of high&#x02010;grade cervical intraepithelial neoplasia to micro&#x02010;invasive carcinoma is characterized by integration of HPV 16/18 and numerical chromosome abnormalities</article-title>. <source xml:lang="en">J Pathol</source>. <year>2004</year>;<volume>202</volume>(<issue>1</issue>):<fpage>23</fpage>&#x02010;<lpage>33</lpage>.<pub-id pub-id-type="pmid">14694518</pub-id></mixed-citation></ref><ref id="cam43799-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cam43799-cit-0006">
+<string-name>
+<surname>Gaarenstroom</surname>
+<given-names>KN</given-names>
+</string-name>, <string-name>
+<surname>Kenter</surname>
+<given-names>GG</given-names>
+</string-name>, <string-name>
+<surname>Bonfrer</surname>
+<given-names>JMG</given-names>
+</string-name>, et al. <article-title>Can initial serum cyfra 21&#x02013;1, SCC antigen, and TPA levels in squamous cell cervical cancer predict lymph node metastases or prognosis?</article-title>
+<source xml:lang="en">Gynecol Oncol</source>. <year>2000</year>;<volume>77</volume>(<issue>1</issue>):<fpage>164</fpage>&#x02010;<lpage>170</lpage>.<pub-id pub-id-type="pmid">10739706</pub-id></mixed-citation></ref><ref id="cam43799-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cam43799-cit-0007">
+<string-name>
+<surname>Escobar&#x02010;Hoyos</surname>
+<given-names>LF</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Keratin 17 in premalignant and malignant squamous lesions of the cervix: proteomic discovery and immunohistochemical validation as a diagnostic and prognostic biomarker</article-title>. <source xml:lang="en">Modern Pathol</source>. <year>2014</year>;<volume>27</volume>(<issue>4</issue>):<fpage>621</fpage>&#x02010;<lpage>630</lpage>.</mixed-citation></ref><ref id="cam43799-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cam43799-cit-0008">
+<string-name>
+<surname>den Boon</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Pyeon</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>SS</given-names>
+</string-name>, et al. <article-title>Molecular transitions from papillomavirus infection to cervical precancer and cancer: Role of stromal estrogen receptor signaling</article-title>. <source xml:lang="en">Proc Natl Acad Sci USA</source>. <year>2015</year>;<volume>112</volume>(<issue>25</issue>):<fpage>E3255</fpage>&#x02010;<lpage>E3264</lpage>.<pub-id pub-id-type="pmid">26056290</pub-id></mixed-citation></ref><ref id="cam43799-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cam43799-cit-0009">
+<string-name>
+<surname>Gentleman</surname>
+<given-names>RC</given-names>
+</string-name>, <string-name>
+<surname>Carey</surname>
+<given-names>VJ</given-names>
+</string-name>, <string-name>
+<surname>Bates</surname>
+<given-names>DM</given-names>
+</string-name>, et al. <article-title>Bioconductor: open software development for computational biology and bioinformatics</article-title>. <source xml:lang="en">Genome Biol</source>. <year>2004</year>;<volume>5</volume>(<issue>10</issue>):<fpage>R80</fpage>.<pub-id pub-id-type="pmid">15461798</pub-id></mixed-citation></ref><ref id="cam43799-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cam43799-cit-0010">
+<string-name>
+<surname>Gertych</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Joseph</surname>
+<given-names>AO</given-names>
+</string-name>, <string-name>
+<surname>Walts</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name>
+<surname>Bose</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Automated detection of dual p16/Ki67 nuclear immunoreactivity in liquid&#x02010;based Pap tests for improved cervical cancer risk stratification</article-title>. <source xml:lang="en">Ann Biomed Eng</source>. <year>2012</year>;<volume>40</volume>(<issue>5</issue>):<fpage>1192</fpage>&#x02010;<lpage>1204</lpage>.<pub-id pub-id-type="pmid">22215277</pub-id></mixed-citation></ref><ref id="cam43799-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cam43799-cit-0011">
+<string-name>
+<surname>Ordi</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Sagasta</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Munmany</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez&#x02010;Carunchio</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Torne</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>del Pino</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Usefulness of p16/Ki67 immunostaining in the triage of women referred to colposcopy</article-title>. <source xml:lang="en">Cancer cytopathology</source>. <year>2014</year>;<volume>122</volume>(<issue>3</issue>):<fpage>227</fpage>&#x02010;<lpage>235</lpage>.<pub-id pub-id-type="pmid">24757722</pub-id></mixed-citation></ref><ref id="cam43799-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cam43799-cit-0012">
+<string-name>
+<surname>Calil</surname>
+<given-names>LN</given-names>
+</string-name>, <string-name>
+<surname>Edelweiss</surname>
+<given-names>MI</given-names>
+</string-name>, <string-name>
+<surname>Meurer</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Igansi</surname>
+<given-names>CN</given-names>
+</string-name>, <string-name>
+<surname>Bozzetti</surname>
+<given-names>MC</given-names>
+</string-name>. <article-title>p16 INK4a and Ki67 expression in normal, dysplastic and neoplastic uterine cervical epithelium and human papillomavirus (HPV) infection</article-title>. <source xml:lang="en">Pathol Res Pract</source>. <year>2014</year>;<volume>210</volume>(<issue>8</issue>):<fpage>482</fpage>&#x02010;<lpage>487</lpage>.<pub-id pub-id-type="pmid">24793773</pub-id></mixed-citation></ref><ref id="cam43799-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cam43799-cit-0013">
+<string-name>
+<surname>Wang</surname>
+<given-names>H&#x02010;Y</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Cho</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Diagnostic performance of HPV E6/E7, hTERT, and Ki67 mRNA RT&#x02010;qPCR assays on formalin&#x02010;fixed paraffin&#x02010;embedded cervical tissue specimens from women with cervical cancer</article-title>. <source xml:lang="en">Exp Mol Pathol</source>. <year>2015</year>;<volume>98</volume>(<issue>3</issue>):<fpage>510</fpage>&#x02010;<lpage>516</lpage>.<pub-id pub-id-type="pmid">25835783</pub-id></mixed-citation></ref><ref id="cam43799-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cam43799-cit-0014">
+<string-name>
+<surname>Gustinucci</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Giorgi Rossi</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Cesarini</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Use of cytology, E6/E7 mRNA, and p16INK4a&#x02010;Ki&#x02010;67 to define the management of human papillomavirus (HPV)&#x02010;positive women in cervical cancer screening</article-title>. <source xml:lang="en">Am J Clin Pathol</source>. <year>2016</year>;<volume>145</volume>(<issue>1</issue>):<fpage>35</fpage>&#x02010;<lpage>45</lpage>.<pub-id pub-id-type="pmid">26712869</pub-id></mixed-citation></ref><ref id="cam43799-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cam43799-cit-0015">
+<string-name>
+<surname>Rokita</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Skawinski</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Zmelonek&#x02010;Znamirowska</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Results of pap smears and immunocytochemical detection of the p16 and Ki67 proteins in women with cervical intraepithelial neoplasia and cervical cancer</article-title>. <source xml:lang="en">Ginekol Pol</source>. <year>2012</year>;<volume>83</volume>(<issue>11</issue>):<fpage>822</fpage>&#x02010;<lpage>826</lpage>.<pub-id pub-id-type="pmid">23379189</pub-id></mixed-citation></ref><ref id="cam43799-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cam43799-cit-0016">
+<string-name>
+<surname>Stoenescu</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Ivan</surname>
+<given-names>LD</given-names>
+</string-name>, <string-name>
+<surname>Stoenescu</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Azoicai</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Assessment tumor markers by immunohistochemistry (Ki67, p53 and Bcl&#x02010;2) on a cohort of patients with cervical cancer in various stages of evolution</article-title>. <source xml:lang="en">Rev Med Chir Soc Med Nat Iasi</source>. <year>2011</year>;<volume>115</volume>(<issue>2</issue>):<fpage>485</fpage>&#x02010;<lpage>492</lpage>.<pub-id pub-id-type="pmid">21870745</pub-id></mixed-citation></ref><ref id="cam43799-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cam43799-cit-0017">
+<string-name>
+<surname>Ikeda</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Tate</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Suzuki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Mitsuya</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Coordinate expression of cytokeratin 8 and cytokeratin 17 immunohistochemical staining in cervical intraepithelial neoplasia and cervical squamous cell carcinoma: an immunohistochemical analysis and review of the literature</article-title>. <source xml:lang="en">Gynecol Oncol</source>. <year>2008</year>;<volume>108</volume>(<issue>3</issue>):<fpage>598</fpage>&#x02010;<lpage>602</lpage>.<pub-id pub-id-type="pmid">18191996</pub-id></mixed-citation></ref><ref id="cam43799-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cam43799-cit-0018">
+<string-name>
+<surname>Regauer</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Reich</surname>
+<given-names>O</given-names>
+</string-name>. <article-title>CK17 and p16 expression patterns distinguish (atypical) immature squamous metaplasia from high&#x02010;grade cervical intraepithelial neoplasia (CIN III)</article-title>. <source xml:lang="en">Histopathology</source>. <year>2007</year>;<volume>50</volume>(<issue>5</issue>):<fpage>629</fpage>&#x02010;<lpage>635</lpage>.<pub-id pub-id-type="pmid">17394499</pub-id></mixed-citation></ref><ref id="cam43799-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cam43799-cit-0019">
+<string-name>
+<surname>McGowan</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name>
+<surname>Coulombe</surname>
+<given-names>PA</given-names>
+</string-name>. <article-title>Keratin 17 expression in the hard epithelial context of the hair and nail, and its relevance for the pachyonychia congenita phenotype</article-title>. <source xml:lang="en">J Invest Dermatol</source>. <year>2000</year>;<volume>114</volume>(<issue>6</issue>):<fpage>1101</fpage>&#x02010;<lpage>1107</lpage>.<pub-id pub-id-type="pmid">10844551</pub-id></mixed-citation></ref><ref id="cam43799-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cam43799-cit-0020">
+<string-name>
+<surname>Depianto</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Kerns</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Dlugosz</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name>
+<surname>Coulombe</surname>
+<given-names>PA</given-names>
+</string-name>. <article-title>Keratin 17 promotes epithelial proliferation and tumor growth by polarizing the immune response in skin</article-title>. <source xml:lang="en">Nat Genet</source>. <year>2010</year>;<volume>42</volume>(<issue>10</issue>):<fpage>910</fpage>&#x02010;<lpage>914</lpage>.<pub-id pub-id-type="pmid">20871598</pub-id></mixed-citation></ref><ref id="cam43799-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cam43799-cit-0021">
+<string-name>
+<surname>Yang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ding</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Ki67 targeted strategies for cancer therapy</article-title>. <source xml:lang="en">Clin Transl Oncol</source>. <year>2017</year>.</mixed-citation></ref><ref id="cam43799-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cam43799-cit-0022">
+<string-name>
+<surname>Zhang</surname>
+<given-names>HS</given-names>
+</string-name>, <string-name>
+<surname>Postigo</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name>
+<surname>Dean</surname>
+<given-names>DC</given-names>
+</string-name>. <article-title>Active transcriptional repression by the Rb&#x02010;E2F complex mediates G1 arrest triggered by p16INK4a, TGFbeta, and contact inhibition</article-title>. <source xml:lang="en">Cell</source>. <year>1999</year>;<volume>97</volume>(<issue>1</issue>):<fpage>53</fpage>&#x02010;<lpage>61</lpage>.<pub-id pub-id-type="pmid">10199402</pub-id></mixed-citation></ref><ref id="cam43799-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cam43799-cit-0023">
+<string-name>
+<surname>Bergeron</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Ikenberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Sideri</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Prospective evaluation of p16/Ki&#x02010;67 dual&#x02010;stained cytology for managing women with abnormal Papanicolaou cytology: PALMS study results</article-title>. <source xml:lang="en">Cancer Cytopathol</source>. <year>2015</year>;<volume>123</volume>(<issue>6</issue>):<fpage>373</fpage>&#x02010;<lpage>381</lpage>.<pub-id pub-id-type="pmid">25891096</pub-id></mixed-citation></ref><ref id="cam43799-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cam43799-cit-0024">
+<string-name>
+<surname>Sarwath</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Bansal</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Husain</surname>
+<given-names>NE</given-names>
+</string-name>, <string-name>
+<surname>Mohamed</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Sultan</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name>
+<surname>Bedri</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Introduction of p16(INK4a) as a surrogate biomarker for HPV in women with invasive cervical cancer in Sudan</article-title>. <source xml:lang="en">Infect Agents Cancer</source>. <year>2017</year>;<volume>12</volume>:<fpage>50</fpage>.</mixed-citation></ref><ref id="cam43799-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cam43799-cit-0025">
+<string-name>
+<surname>DiSaia</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Morrow</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Haverback</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Dyce</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>Carcinoembryonic antigen in cancer of the female reproductive system. Serial plasma values correlated with disease state</article-title>. <source xml:lang="en">Cancer</source>. <year>1977</year>;<volume>39</volume>(<issue>6</issue>):<fpage>2365</fpage>&#x02010;<lpage>2370</lpage>.<pub-id pub-id-type="pmid">194665</pub-id></mixed-citation></ref><ref id="cam43799-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cam43799-cit-0026">
+<string-name>
+<surname>Kainz</surname>
+<given-names>CH</given-names>
+</string-name>, <string-name>
+<surname>Sliutz</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Mustafa</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Cytokeratin subunit 19 measured by CYFRA 21&#x02013;1 assay in follow&#x02010;up of cervical cancer</article-title>. <source xml:lang="en">Gynecol Oncol</source>. <year>1995</year>;<volume>56</volume>(<issue>3</issue>):<fpage>402</fpage>&#x02010;<lpage>405</lpage>.<pub-id pub-id-type="pmid">7535720</pub-id></mixed-citation></ref><ref id="cam43799-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cam43799-cit-0027">
+<string-name>
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Yao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Yin</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Matrix metalloproteinase&#x02010;9 is a prognostic marker for patients with cervical cancer</article-title>. <source xml:lang="en">Med Oncol</source>. <year>2012</year>;<volume>29</volume>(<issue>5</issue>):<fpage>3394</fpage>&#x02010;<lpage>3399</lpage>.<pub-id pub-id-type="pmid">22752570</pub-id></mixed-citation></ref><ref id="cam43799-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cam43799-cit-0028">
+<string-name>
+<surname>Ouyang</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Xia</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>GINS2 is a novel prognostic biomarker and promotes tumor progression in early&#x02010;stage cervical cancer</article-title>. <source xml:lang="en">Oncol Rep</source>. <year>2017</year>;<volume>37</volume>(<issue>5</issue>):<fpage>2652</fpage>&#x02010;<lpage>2662</lpage>.<pub-id pub-id-type="pmid">28405687</pub-id></mixed-citation></ref><ref id="cam43799-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cam43799-cit-0029">
+<string-name>
+<surname>Li</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Che</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>HBXIP over expression as an independent biomarker for cervical cancer</article-title>. <source xml:lang="en">Exp Mol Pathol</source>. <year>2017</year>;<volume>102</volume>(<issue>1</issue>):<fpage>133</fpage>&#x02010;<lpage>137</lpage>.<pub-id pub-id-type="pmid">28093193</pub-id></mixed-citation></ref><ref id="cam43799-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cam43799-cit-0030">
+<string-name>
+<surname>Hongyu</surname>
+<given-names>LI</given-names>
+</string-name>, <string-name>
+<surname>Hongling</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Qian</surname>
+<given-names>XU</given-names>
+</string-name>, et al. <article-title>Expression of Pin1 and Ki67 in cervical cancer and their significance</article-title>. <source xml:lang="en">J Huazhong Univ Sci Technolog Med Sci</source>. <year>2006</year>;<volume>26</volume>(<issue>1</issue>):<fpage>120</fpage>&#x02010;<lpage>122</lpage>.<pub-id pub-id-type="pmid">16711024</pub-id></mixed-citation></ref><ref id="cam43799-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cam43799-cit-0031">
+<string-name>
+<surname>Da Ros</surname>
+<given-names>VG</given-names>
+</string-name>, <string-name>
+<surname>Munoz</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Battistone</surname>
+<given-names>MA</given-names>
+</string-name>, et al. <article-title>From the epididymis to the egg: participation of CRISP proteins in mammalian fertilization</article-title>. <source xml:lang="en">Asian J Androl</source>. <year>2015</year>;<volume>17</volume>(<issue>5</issue>):<fpage>711</fpage>&#x02010;<lpage>715</lpage>.<pub-id pub-id-type="pmid">26112483</pub-id></mixed-citation></ref><ref id="cam43799-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cam43799-cit-0032">
+<string-name>
+<surname>Munoz</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Ernesto</surname>
+<given-names>JI</given-names>
+</string-name>, <string-name>
+<surname>Bluguermann</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Evaluation of testicular sperm CRISP2 as a potential target for contraception</article-title>. <source xml:lang="en">J Androl</source>. <year>2012</year>;<volume>33</volume>(<issue>6</issue>):<fpage>1360</fpage>&#x02010;<lpage>1370</lpage>.<pub-id pub-id-type="pmid">22653965</pub-id></mixed-citation></ref><ref id="cam43799-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cam43799-cit-0033">
+<string-name>
+<surname>Foster</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Gerton</surname>
+<given-names>GL</given-names>
+</string-name>. <article-title>Autoantigen 1 of the guinea pig sperm acrosome is the homologue of mouse Tpx&#x02010;1 and human TPX1 and is a member of the cysteine&#x02010;rich secretory protein (CRISP) family</article-title>. <source xml:lang="en">Mol Reprod Dev</source>. <year>1996</year>;<volume>44</volume>(<issue>2</issue>):<fpage>221</fpage>&#x02010;<lpage>229</lpage>.<pub-id pub-id-type="pmid">9115720</pub-id></mixed-citation></ref><ref id="cam43799-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cam43799-cit-0034">
+<string-name>
+<surname>Troyanovsky</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Leube</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name>
+<surname>Franke</surname>
+<given-names>WW</given-names>
+</string-name>. <article-title>Characterization of the human gene encoding cytokeratin 17 and its expression pattern</article-title>. <source xml:lang="en">Eur J Cell Biol</source>. <year>1992</year>;<volume>59</volume>(<issue>1</issue>):<fpage>127</fpage>&#x02010;<lpage>137</lpage>.<pub-id pub-id-type="pmid">1281771</pub-id></mixed-citation></ref><ref id="cam43799-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cam43799-cit-0035">
+<string-name>
+<surname>Kim</surname>
+<given-names>Y&#x02010;W</given-names>
+</string-name>, <string-name>
+<surname>Bae</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>YW</given-names>
+</string-name>, et al. <article-title>Target&#x02010;based molecular signature characteristics of cervical adenocarcinoma and squamous cell carcinoma</article-title>. <source xml:lang="en">Int J Oncol</source>. <year>2013</year>;<volume>43</volume>(<issue>2</issue>):<fpage>539</fpage>&#x02010;<lpage>547</lpage>.<pub-id pub-id-type="pmid">23707988</pub-id></mixed-citation></ref><ref id="cam43799-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cam43799-cit-0036">
+<string-name>
+<surname>Grupp</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Kohl</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Sirma</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Cysteine&#x02010;rich secretory protein 3 overexpression is linked to a subset of PTEN&#x02010;deleted ERG fusion&#x02010;positive prostate cancers with early biochemical recurrence</article-title>. <source xml:lang="en">Modern Pathol</source>. <year>2013</year>;<volume>26</volume>(<issue>5</issue>):<fpage>733</fpage>&#x02010;<lpage>742</lpage>.</mixed-citation></ref><ref id="cam43799-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cam43799-cit-0037">
+<string-name>
+<surname>Henriksen</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Lundwall</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Udby</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Fernlund</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>The expression of beta&#x02010;microseminoprotein but not CRISP3 is reduced in ovarian cancer and correlates to survival</article-title>. <source xml:lang="en">Anticancer Res</source>. <year>2012</year>;<volume>32</volume>(<issue>9</issue>):<fpage>3993</fpage>&#x02010;<lpage>3999</lpage>.<pub-id pub-id-type="pmid">22993349</pub-id></mixed-citation></ref><ref id="cam43799-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cam43799-cit-0038">
+<string-name>
+<surname>Ko</surname>
+<given-names>W&#x02010;C</given-names>
+</string-name>, <string-name>
+<surname>Sugahara</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Sakuma</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Copy number changes of CRISP3 in oral squamous cell carcinoma</article-title>. <source xml:lang="en">Oncol Lett</source>. <year>2012</year>;<volume>3</volume>(<issue>1</issue>):<fpage>75</fpage>&#x02010;<lpage>81</lpage>.<pub-id pub-id-type="pmid">22740859</pub-id></mixed-citation></ref><ref id="cam43799-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cam43799-cit-0039">
+<string-name>
+<surname>Lee</surname>
+<given-names>SK</given-names>
+</string-name>, <string-name>
+<surname>Moon</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>YW</given-names>
+</string-name>, et al. <article-title>The effect of high glucose levels on the hypermethylation of protein phosphatase 1 regulatory subunit 3C (PPP1R3C) gene in colorectal cancer</article-title>. <source xml:lang="en">J Genet</source>. <year>2015</year>;<volume>94</volume>(<issue>1</issue>):<fpage>75</fpage>&#x02010;<lpage>85</lpage>.<pub-id pub-id-type="pmid">25846879</pub-id></mixed-citation></ref><ref id="cam43799-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cam43799-cit-0040">
+<string-name>
+<surname>Samuelov</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Sarig</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Harmon</surname>
+<given-names>RM</given-names>
+</string-name>, et al. <article-title>Desmoglein 1 deficiency results in severe dermatitis, multiple allergies and metabolic wasting</article-title>. <source xml:lang="en">Nat Genet</source>. <year>2013</year>;<volume>45</volume>(<issue>10</issue>):<fpage>1244</fpage>&#x02010;<lpage>1248</lpage>.<pub-id pub-id-type="pmid">23974871</pub-id></mixed-citation></ref><ref id="cam43799-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cam43799-cit-0041">
+<string-name>
+<surname>Myklebust</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Fluge</surname>
+<given-names>&#x000d8;</given-names>
+</string-name>, <string-name>
+<surname>Immervoll</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Expression of DSG1 and DSC1 are prognostic markers in anal carcinoma patients</article-title>. <source xml:lang="en">Br J Cancer</source>. <year>2012</year>;<volume>106</volume>(<issue>4</issue>):<fpage>756</fpage>&#x02010;<lpage>762</lpage>.<pub-id pub-id-type="pmid">22333708</pub-id></mixed-citation></ref><ref id="cam43799-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cam43799-cit-0042">
+<string-name>
+<surname>Masterson</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Sorgeloos</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Winder</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Deregulation of SYCP2 predicts early stage human papillomavirus&#x02010;positive oropharyngeal carcinoma: a prospective whole transcriptome analysis</article-title>. <source xml:lang="en">Cancer Sci</source>. <year>2015</year>;<volume>106</volume>(<issue>11</issue>):<fpage>1568</fpage>&#x02010;<lpage>1575</lpage>.<pub-id pub-id-type="pmid">26334652</pub-id></mixed-citation></ref><ref id="cam43799-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cam43799-cit-0043">
+<string-name>
+<surname>Guo</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>The landscape of alternative splicing in cervical squamous cell carcinoma</article-title>. <source xml:lang="en">OncoTargets Ther</source>. <year>2015</year>;<volume>8</volume>:<fpage>73</fpage>&#x02010;<lpage>79</lpage>.</mixed-citation></ref><ref id="cam43799-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cam43799-cit-0044">
+<string-name>
+<surname>Kim</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Chang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>LeBron</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Neurofilament heavy polypeptide regulates the Akt&#x02010;beta&#x02010;catenin pathway in human esophageal squamous cell carcinoma</article-title>. <source xml:lang="en">PLoS One</source>. <year>2010</year>;<volume>5</volume>(<issue>2</issue>):<elocation-id>e9003</elocation-id>.<pub-id pub-id-type="pmid">20140245</pub-id></mixed-citation></ref><ref id="cam43799-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cam43799-cit-0045">
+<string-name>
+<surname>Viloria</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Bravo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Carrero</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Mosquera</surname>
+<given-names>JA</given-names>
+</string-name>. <article-title>In situ expressions of protein 16 (p16(CDKN2A)) and transforming growth factor beta&#x02010;1 in patients with cervical intraepithelial neoplasia and cervical cancer</article-title>. <source xml:lang="en">Eur J Obstet Gynecol Reprod Biol</source>. <year>2018</year>;<volume>228</volume>:<fpage>303</fpage>&#x02010;<lpage>307</lpage>.<pub-id pub-id-type="pmid">30059872</pub-id></mixed-citation></ref><ref id="cam43799-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cam43799-cit-0046">
+<string-name>
+<surname>Huangfu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Detecting of p16 autoantibody as a potential early diagnostic serum biomarker in patients with cervical cancer</article-title>. <source xml:lang="en">Clin Lab</source>. <year>2016</year>;<volume>62</volume>(<issue>6</issue>):<fpage>1117</fpage>&#x02010;<lpage>1120</lpage>.<pub-id pub-id-type="pmid">27468574</pub-id></mixed-citation></ref><ref id="cam43799-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="cam43799-cit-0047">
+<string-name>
+<surname>Torres&#x02010;Poveda</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Burguete&#x02010;Garc&#x000ed;a</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name>
+<surname>Bahena&#x02010;Rom&#x000e1;n</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Risk allelic load in Th2 and Th3 cytokines genes as biomarker of susceptibility to HPV&#x02010;16 positive cervical cancer: a case control study</article-title>. <source xml:lang="en">BMC Cancer</source>. <year>2016</year>;<volume>16</volume>:<fpage>330</fpage>.<pub-id pub-id-type="pmid">27220278</pub-id></mixed-citation></ref></ref-list></back></article>

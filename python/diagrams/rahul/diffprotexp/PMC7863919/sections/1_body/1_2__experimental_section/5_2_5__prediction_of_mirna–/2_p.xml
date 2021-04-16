@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The MicroRNA Data Integration Portal (mirDIP) algorithm, which combines multiple sources for miRNA target prediction [
+ <xref rid="B23-jcm-10-00375" ref-type="bibr">23</xref>], was used for the identification of possible mRNA targets. Only mRNAs that were predicted as targets with a probability scored as VeryHigh, according to the mirDIP criterion, were taken into account and included into downstream analyses.
+</p>

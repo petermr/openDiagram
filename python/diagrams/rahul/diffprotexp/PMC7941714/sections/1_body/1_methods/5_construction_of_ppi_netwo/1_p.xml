@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">To better understand the interactions of DEmRNAs in the ceRNA network, we constructed a PPI network using the Search Tool for the Retrieval of Interacting Genes (STRING; 
+ <ext-link ext-link-type="uri" xlink:href="https://string-db.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://string-db.org/</ext-link>) [
+ <xref ref-type="bibr" rid="CR19">19</xref>] database. The median confidence score (0.4) was used to filter protein interactions. Cytoscape 3.6.0 was used to embody the constructed PPI networks. In addition, we used the plugin cytoHubba to identify hub genes in the PPI network according to degree of connectivity. The top 30 hub genes were identified through the Degree ranking method. The MCODE plugin was used to analyze the PPI network and select the top module for subnetwork analysis.
+</p>

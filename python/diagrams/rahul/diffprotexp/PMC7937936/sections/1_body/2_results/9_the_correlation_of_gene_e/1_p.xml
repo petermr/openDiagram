@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>CCR4</italic> showed a significant correlation with survival in TCGA-HNSC data set (
+ <italic>P</italic>&lt;0.001), and the higher the gene expression, the better the patient’s prognosis (
+ <xref ref-type="fig" rid="f8">
+  <bold>Figure 8A</bold>
+ </xref>). To eliminate the non-proportional hazard, according to the survival period of the patients, we classified those with less than 5 years as a group and those with more than 5 years were included in another group for separate analysis of 
+ <italic>CCR8</italic> and 
+ <italic>P2RY14</italic>. We found the vast majority (447/499) of patients with a survival of less than 5 years. The results of the survival analysis showed that the expression of 
+ <italic>CCR8</italic>, 
+ <italic>P2RY14</italic> were significantly associated with survival in patients with OS less than 5 years (
+ <xref ref-type="fig" rid="f8">
+  <bold>Figures 8B, C</bold>
+ </xref>). However, the results were not significant in patients with OS more than 5 years (n=52) (
+ <xref ref-type="supplementary-material" rid="SF4">
+  <bold>Figures S4A, B</bold>
+ </xref>).
+</p>

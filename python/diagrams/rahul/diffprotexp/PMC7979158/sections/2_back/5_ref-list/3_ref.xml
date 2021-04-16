@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="bib3">
+ <element-citation publication-type="software">
+  <person-group person-group-type="author">
+   <name>
+    <surname>Andrews</surname>
+    <given-names>S</given-names>
+   </name>
+  </person-group>
+  <year>2010</year>
+  <data-title>FastQC A Quality Control tool for High Throughput Sequence Data</data-title>
+  <source>Babraham Bioinformatics</source>
+  <version designator="3"> GPL v3</version>
+  <ext-link ext-link-type="uri" xlink:href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.bioinformatics.babraham.ac.uk/projects/fastqc/</ext-link>
+ </element-citation>
+</ref>

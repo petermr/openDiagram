@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig005" orientation="portrait" position="anchor">
+ <label>Figure 5.</label>
+ <caption>
+  <p>
+   <bold>Analysis of differentially expressed and alternatively spliced genes in 
+    <italic>SF3B1</italic> mutated samples identified enrichment in important pathways.
+   </bold> (A) The normalized enrichment score (NES) results of the Gene Set Enrichment Analysis (GSEA). (B) A network diagram produced by STRING, which uses known and predicted protein-protein interactions. Using the genes that are the most significantly alternatively spliced by JunctionSeq or DEXSeq and setting the minimum required interaction score of 0.9, the resulting network diagram is shown with highly confident interactions. Sub clusters with fewer than three nodes were removed.
+  </p>
+ </caption>
+ <graphic xlink:href="106736.fig5" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

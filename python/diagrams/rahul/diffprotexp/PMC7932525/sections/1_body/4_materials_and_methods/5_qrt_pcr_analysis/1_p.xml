@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DEGs obtained by Illumina sequencing were verified by qRT-PCR. The RNA samples used for qRT-PCR were identical to those used for the DEG experiments. cDNA was synthesized using the TUREscript One Step RT-PCR Kit (Aidlab) according to the manufacturer’s instructions. Primers were designed using Premier 6.0 software (Premier Biosoft, Palo Alto, CA, USA) and synthesized commercially (Sangon Biotech Shanghai Co., Ltd., Shanghai, China) (
+ <xref ref-type="supplementary-material" rid="pone.0248155.s007">S5 Table</xref>). The 20-μL reaction mixture contained 1 μL cDNA template, 1 μL each primer (10 μM), and 10 μL 2× SYBR Green qPCR (Aidlab); qRT-PCR was performed using the 2× SYBR Green qPCR kit (Aidlab) according to the manufacturer’s protocol, and relative expression levels of the genes were calculated by the 2
+ <sup>−ΔΔCT</sup> method [
+ <xref rid="pone.0248155.ref046" ref-type="bibr">46</xref>]. In this calculation, the relative mRNA levels of target genes were normalized by 
+ <italic>rnpB</italic> [
+ <xref rid="pone.0248155.ref047" ref-type="bibr">47</xref>] using the ΔCT method [ΔCT = av CT(target gene)–av CT (
+ <italic>rnpB</italic>)]. To determine the fold-change, gene expression in NVs was used as a control, and the results were calculated using the ΔΔCT (comparative threshold cycle) method: ΔΔCT = (av CT(target gene)–av CT(
+ <italic>rnpB</italic>))sample–(av CT(target gene)–av CT(
+ <italic>rnpB</italic>))control. In three paired comparisons, X vs. Y refers to Y/X. Y was used as the target gene and X was used as a control.
+</p>

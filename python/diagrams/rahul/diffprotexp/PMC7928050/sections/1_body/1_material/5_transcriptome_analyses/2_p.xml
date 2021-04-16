@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Pathways analyses were performed in GSEA v4.0.3
+ <sup>
+  <xref rid="cit0014" ref-type="bibr">14</xref>
+ </sup> with standard parameters, 1000 phenotype permutations and using KEGG pathways database as reference[
+ <xref rid="cit0015" ref-type="bibr">15</xref>]. Additionally, gene ontology analyses were performed using the web-based GOrilla platform[
+ <xref rid="cit0016" ref-type="bibr">16</xref>]. Multiple testing problems were addressed by employing Benjamini-Hochberg correction[
+ <xref rid="cit0017" ref-type="bibr">17</xref>] and a q value below 0.05 was considered significant in all cases. All figures were made using 
+ <italic>ggplot2</italic> v3.3.0
+ <sup>
+  <xref rid="cit0018" ref-type="bibr">18</xref>
+ </sup> or 
+ <italic>VennDiagram</italic> v.1.6.20[
+ <xref rid="cit0019" ref-type="bibr">19</xref>].
+</p>

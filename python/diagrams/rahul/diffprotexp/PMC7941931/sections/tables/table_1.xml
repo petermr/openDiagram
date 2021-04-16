@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Identified key miRNA-mRNA interaction pairs for tartary buckwheat seed development</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>miRNA</th>
+    <th>Target gene ID</th>
+    <th>Annotation of targets</th>
+    <th>Function of targets</th>
+    <th>Orthologs</th>
+    <th>Pearson</th>
+    <th>
+     <bold>
+      <italic>P</italic>
+     </bold>-value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>fta-miR156c-5p</td>
+    <td>
+     <italic>FtPinG0000496000.01</italic>
+    </td>
+    <td>Squamosa promoter binding-like protein 16</td>
+    <td>Grain size and quality</td>
+    <td>
+     <italic>OsSPL16/Os08g0531600</italic>
+    </td>
+    <td>−0.70892</td>
+    <td>0.00340</td>
+   </tr>
+   <tr>
+    <td rowspan="5">fta-miR156h-5p</td>
+    <td>
+     <italic>FtPinG0001940300.01</italic>
+    </td>
+    <td>Nodulin MtN21-like transporter family protein</td>
+    <td>NA</td>
+    <td>
+     <italic>AT1G21890.1</italic>
+    </td>
+    <td>−0.86151</td>
+    <td>0.00021</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0005289100.01</italic>
+    </td>
+    <td>Ceramide synthase</td>
+    <td>Long chain fatty acid biosynthesis</td>
+    <td>
+     <italic>AT1G13580.1</italic>
+    </td>
+    <td>−0.91146</td>
+    <td>0.00033</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0005522500.01</italic>
+    </td>
+    <td>JAZ protein 9</td>
+    <td>Response to jasmonic acid</td>
+    <td>
+     <italic>AT1G70700.1</italic>
+    </td>
+    <td>−0.91696</td>
+    <td>0.00024</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0005624200.01</italic>
+    </td>
+    <td>CELLULOSE SYNTHASE-INTERACTIVE PROTEIN 1</td>
+    <td>Cell elongation</td>
+    <td>
+     <italic>AT2G22125.1</italic>
+    </td>
+    <td>−0.80006</td>
+    <td>0.00044</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0009120200.01</italic>
+    </td>
+    <td>Sulfite exporter TauE/SafE family protein</td>
+    <td>NA</td>
+    <td>
+     <italic>AT1G61740.1</italic>
+    </td>
+    <td>−0.93448</td>
+    <td>0.00228</td>
+   </tr>
+   <tr>
+    <td rowspan="2">fta-miR157-5p</td>
+    <td>
+     <italic>FtPinG0007350700.01</italic>
+    </td>
+    <td>DNA replication protein</td>
+    <td>Cell proliferation, embryo development, pollen development,</td>
+    <td>
+     <italic>AT2G16440.1</italic>
+    </td>
+    <td>−0.87897</td>
+    <td>0.00077</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0008009600.01</italic>
+    </td>
+    <td>NPH3-like protein</td>
+    <td>Involved in auxin-mediated organogenesis</td>
+    <td>
+     <italic>AT4G37590.1</italic>
+    </td>
+    <td>−0.92728</td>
+    <td>0.00073</td>
+   </tr>
+   <tr>
+    <td rowspan="3">fta-miR164a-5p</td>
+    <td>
+     <italic>FtPinG0000240100.01</italic>
+    </td>
+    <td>NAC domain-containing protein 1</td>
+    <td>Involved in shoot apical meristem formation and auxin-mediated lateral root formation, auxin response, plant growth and abiotic stress resistance</td>
+    <td>
+     <italic>AT1G56010.1</italic>
+    </td>
+    <td>−0.89303</td>
+    <td>0.00275</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0003134600.01</italic>
+    </td>
+    <td>NAC domain-containing protein 1</td>
+    <td>Involved in shoot apical meristem formation and auxin-mediated lateral root formation, auxin response, plant growth and abiotic stress resistance</td>
+    <td>
+     <italic>AT1G56010.1</italic>
+    </td>
+    <td>−0.818700</td>
+    <td>0.00281</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0002339300.01</italic>
+    </td>
+    <td>NAC domain-containing protein 5</td>
+    <td>NA</td>
+    <td>
+     <italic>AT5G61430.1</italic>
+    </td>
+    <td>−0.83097</td>
+    <td>0.00842</td>
+   </tr>
+   <tr>
+    <td>fta-miR164c-5p</td>
+    <td>
+     <italic>FtPinG0006614900.01</italic>
+    </td>
+    <td>Putative ligands homologous to the Clavata3 gene</td>
+    <td>Regulates stomatal and vascular development, stomatal closure</td>
+    <td>
+     <italic>AT1G26600.1</italic>
+    </td>
+    <td>−0.75278</td>
+    <td>0.00301</td>
+   </tr>
+   <tr>
+    <td rowspan="3">fta-miR166b-3p</td>
+    <td>
+     <italic>FtPinG0006632200.01</italic>
+    </td>
+    <td>Mn transporter 8</td>
+    <td>Mn transport, Mn and Fe enrichment in seed embryos</td>
+    <td>
+     <italic>AT3G58060.1</italic>
+    </td>
+    <td>−0.68351</td>
+    <td>0.00137</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0006851000.01</italic>
+    </td>
+    <td>Glutathione transferase 8</td>
+    <td>Auxin, cytokinin, drought, and oxidative stress response</td>
+    <td>
+     <italic>AT1G78380.1</italic>
+    </td>
+    <td>−0.84863</td>
+    <td>0.02431</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0009174800.01</italic>
+    </td>
+    <td>Uncharacterized protein</td>
+    <td>NA</td>
+    <td>
+     <italic>AT5G54980.1</italic>
+    </td>
+    <td>−0.82859</td>
+    <td>0.00233</td>
+   </tr>
+   <tr>
+    <td>fta-miR166c-3p</td>
+    <td>
+     <italic>FtPinG0008845600.01</italic>
+    </td>
+    <td>Homeodomain-leucine zipper protein 8</td>
+    <td>Involved in cell differentiation and proliferation, auxin response</td>
+    <td>
+     <italic>AT4G32880.1</italic>
+    </td>
+    <td>−0.77425</td>
+    <td>0.00131</td>
+   </tr>
+   <tr>
+    <td>fta-miR166g-3p</td>
+    <td>
+     <italic>FtPinG0008326500.01</italic>
+    </td>
+    <td>NA</td>
+    <td>NA</td>
+    <td>
+     <italic>NA</italic>
+    </td>
+    <td>−0.64002</td>
+    <td>0.00146</td>
+   </tr>
+   <tr>
+    <td>fta-miR166i-5p</td>
+    <td>
+     <italic>FtPinG0004865100.01</italic>
+    </td>
+    <td>Pentatricopeptide repeat protein</td>
+    <td>Cell proliferation during embryogenesis, embryo development</td>
+    <td>
+     <italic>AT3G06430.1</italic>
+    </td>
+    <td>−0.95992</td>
+    <td>0.000002</td>
+   </tr>
+   <tr>
+    <td>fta-miR166j-3p</td>
+    <td>
+     <italic>FtPinG0009852300.01</italic>
+    </td>
+    <td>Clathrin adaptor complexes medium subunit family protein</td>
+    <td>Vesicle-mediated transport</td>
+    <td>
+     <italic>AT1G10730.1</italic>
+    </td>
+    <td>−0.66005</td>
+    <td>0.00071</td>
+   </tr>
+   <tr>
+    <td rowspan="2">fta-miR167c-5p</td>
+    <td>
+     <italic>FtPinG0002560000.01</italic>
+    </td>
+    <td>NAC domain-containing protein</td>
+    <td>Grain size</td>
+    <td>
+     <italic>NAC024/Os05g0415400</italic>
+    </td>
+    <td>−0.73942</td>
+    <td>0.00003</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0005477800.01</italic>
+    </td>
+    <td>RING/U-box superfamily protein</td>
+    <td>NA</td>
+    <td>
+     <italic>AT1G24440.1</italic>
+    </td>
+    <td>−0.79803</td>
+    <td>0.00003</td>
+   </tr>
+   <tr>
+    <td>fta-miR390a-5p</td>
+    <td>
+     <italic>FtPinG0008213400.01</italic>
+    </td>
+    <td>Polygalacturonase inhibiting protein</td>
+    <td>Involved in defense response</td>
+    <td>
+     <italic>AT5G06860.1</italic>
+    </td>
+    <td>−0.82038</td>
+    <td>0.00261</td>
+   </tr>
+   <tr>
+    <td rowspan="3">fta-miR396a-5p</td>
+    <td>
+     <italic>FtPinG0000680700.01</italic>
+    </td>
+    <td>Sucrose synthase</td>
+    <td>Starch and cellulose biosynthesis, grain size and grain weight</td>
+    <td>
+     <italic>SUS3/Os07g0616800</italic>
+    </td>
+    <td>−0.72690</td>
+    <td>0.00059</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0003172000.01</italic>
+    </td>
+    <td>Neutral ceramidase</td>
+    <td>Sphingolipid homeostasis, oxidative stress responses, ceramide catabolic process, long-chain fatty acid biosynthetic</td>
+    <td>
+     <italic>AT1G07380.1</italic>
+    </td>
+    <td>−0.78815</td>
+    <td>0.00060</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0005517700.01</italic>
+    </td>
+    <td>Phosphoglucomutase 2</td>
+    <td>Plant growth; seed, root, male and female gametophyte development, and carbohydrate partitioning</td>
+    <td>
+     <italic>AT1G70730.1</italic>
+    </td>
+    <td>−0.69606</td>
+    <td>0.00076</td>
+   </tr>
+   <tr>
+    <td>fta-miR396c-3p</td>
+    <td>
+     <italic>FtPinG0005040200.01</italic>
+    </td>
+    <td>Sulfur dioxygenase</td>
+    <td>Embryo and endosperm development, abiotic stress resistance,</td>
+    <td>
+     <italic>T1G53580.1</italic>
+    </td>
+    <td>−0.778492</td>
+    <td>0.00799</td>
+   </tr>
+   <tr>
+    <td>fta-miR396d-3p</td>
+    <td>
+     <italic>FtPinG0007060600.01</italic>
+    </td>
+    <td>Kinase interacting (KIP1-like) family protein</td>
+    <td>NA</td>
+    <td>
+     <italic>AT2G22560.1</italic>
+    </td>
+    <td>−0.65160</td>
+    <td>0.01957</td>
+   </tr>
+   <tr>
+    <td rowspan="2">fta-miR396g-5p</td>
+    <td>
+     <italic>FtPinG0005901900.01</italic>
+    </td>
+    <td>Chloroplast-localized protein with a zinc finger motif and four GTP-binding domains</td>
+    <td>Brassinosteroid responses, positive regulation of carotenoid and chlorophyll biosynthetic process</td>
+    <td>
+     <italic>AT3G57180.1</italic>
+    </td>
+    <td>−0.59428</td>
+    <td>0.00063</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0009355400.01</italic>
+    </td>
+    <td>Chloroplast RNA editing factor</td>
+    <td>NA</td>
+    <td>
+     <italic>AT1G08070.1</italic>
+    </td>
+    <td>−0.54344</td>
+    <td>0.00062</td>
+   </tr>
+   <tr>
+    <td rowspan="2">fta-miR399b-3p</td>
+    <td>
+     <italic>FtPinG0002932000.01</italic>
+    </td>
+    <td>Alkaline/neutral invertase</td>
+    <td>Modulating hormone balance, sucrose catabolic</td>
+    <td>
+     <italic>AT3G06500.1</italic>
+    </td>
+    <td>−0.57593</td>
+    <td>0.00190</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0003424700.01</italic>
+    </td>
+    <td>Phosphate transporter</td>
+    <td>Phosphate transport and homeostasis</td>
+    <td>
+     <italic>AT3G54700.1</italic>
+    </td>
+    <td>−0.81570</td>
+    <td>0.00232</td>
+   </tr>
+   <tr>
+    <td>fta-miR530c-5p</td>
+    <td>
+     <italic>FtPinG0002594600.01</italic>
+    </td>
+    <td>GRF1-interacting factor 3</td>
+    <td>Regulates the sizes of stems, leaves, and grains</td>
+    <td>
+     <italic>OsGIF1/Os03g0733600</italic>
+    </td>
+    <td>−0.59617</td>
+    <td>0.01955</td>
+   </tr>
+   <tr>
+    <td rowspan="10">fta-miR858a-5p</td>
+    <td>
+     <italic>FtPinG0000919400.01</italic>
+    </td>
+    <td>MYB transcription factor 13</td>
+    <td>Regulation of flower development, responses to cold stress</td>
+    <td>
+     <italic>AT1G06180.1</italic>
+    </td>
+    <td>−0.91268</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0001149900.01</italic>
+    </td>
+    <td>RNA recognition motif (RRM)-containing protein</td>
+    <td>Involved in phytochrome B signal transduction</td>
+    <td>
+     <italic>AT5G25060.1</italic>
+    </td>
+    <td>−0.53630</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0002607600.01</italic>
+    </td>
+    <td>Parallel spindle 1</td>
+    <td>Pollen development</td>
+    <td>
+     <italic>AT1G34355.1</italic>
+    </td>
+    <td>−0.71400</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0003084400.01</italic>
+    </td>
+    <td>DNA-binding bromodomain-containing protein</td>
+    <td>NA</td>
+    <td>
+     <italic>AT5G55040.1</italic>
+    </td>
+    <td>−0.54089</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0003543800.01</italic>
+    </td>
+    <td>MYB transcription factor 7</td>
+    <td>Inhibition of seed germination</td>
+    <td>
+     <italic>AT2G16720.1</italic>
+    </td>
+    <td>−0.76017</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0005011800.01</italic>
+    </td>
+    <td>MYB transcription factor 5</td>
+    <td>Regulation trichome and endosperm development</td>
+    <td>
+     <italic>AT3G13540.1</italic>
+    </td>
+    <td>−0.79056</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0007213700.01</italic>
+    </td>
+    <td>MYB transcription factor 123</td>
+    <td>Regulation the proanthocyanidin accumulation of developing seed</td>
+    <td>
+     <italic>AT5G35550.1</italic>
+    </td>
+    <td>−0.89174</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0007214000.01</italic>
+    </td>
+    <td>MYB transcription factor 23</td>
+    <td>Regulate trichome formation</td>
+    <td>
+     <italic>AT5G40330.1</italic>
+    </td>
+    <td>−0.797669</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0008420900.01</italic>
+    </td>
+    <td>MYB transcription factor 103</td>
+    <td>Regulate cellulose and lignin biosynthesis</td>
+    <td>
+     <italic>AT1G63910.1</italic>
+    </td>
+    <td>−0.934255</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0009153900.01</italic>
+    </td>
+    <td>MYB transcription factor 12</td>
+    <td>Regulate flavonol biosynthesis</td>
+    <td>
+     <italic>AT2G47460.1</italic>
+    </td>
+    <td>−0.935509</td>
+    <td>0.00001</td>
+   </tr>
+   <tr>
+    <td rowspan="5">fta_novel_miR17</td>
+    <td>
+     <italic>FtPinG0000491900.01</italic>
+    </td>
+    <td>receptor-like kinase</td>
+    <td>Regulation of secondary growth, protein phosphorylation</td>
+    <td>
+     <italic>AT5G67280.1</italic>
+    </td>
+    <td>−0.98523</td>
+    <td>0.00002</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0000612500.01</italic>
+    </td>
+    <td>Calcium binding protein</td>
+    <td>Involved in photomorphogensis</td>
+    <td>
+     <italic>AT4G08810.1</italic>
+    </td>
+    <td>−0.75677</td>
+    <td>0.00002</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0001194500.01</italic>
+    </td>
+    <td>Calcium binding protein</td>
+    <td>Involved in photomorphogensis</td>
+    <td>
+     <italic>AT4G08810.1</italic>
+    </td>
+    <td>−0.98204</td>
+    <td>0.00002</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0005891600.01</italic>
+    </td>
+    <td>SUMO protease</td>
+    <td>Regulation flowering, shoot and inflorescence development.</td>
+    <td>
+     <italic>AT4G15880.1</italic>
+    </td>
+    <td>−0.96316</td>
+    <td>0.00002</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0007576600.01</italic>
+    </td>
+    <td>Argonaute protein</td>
+    <td>Regulate the development of embryo and shoot meristem development, embryo development, seed size</td>
+    <td>
+     <italic>AGO17/AK240838</italic>
+    </td>
+    <td>−0.54760</td>
+    <td>0.00002</td>
+   </tr>
+   <tr>
+    <td rowspan="2">fta_novel_miR37</td>
+    <td>
+     <italic>FtPinG0004072300.01</italic>
+    </td>
+    <td>CBL-interacting protein kinase</td>
+    <td>Response to salt and osmotic stress, protein phosphorylation</td>
+    <td>
+     <italic>AT5G57630.1</italic>
+    </td>
+    <td>−0.56995</td>
+    <td>0.00126</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0004651400.01</italic>
+    </td>
+    <td>Intrinsic thylakoid membrane protein</td>
+    <td>NA</td>
+    <td>
+     <italic>AT2G17750.1</italic>
+    </td>
+    <td>−0.87363</td>
+    <td>0.00773</td>
+   </tr>
+   <tr>
+    <td rowspan="2">fta_novel_miR41</td>
+    <td>
+     <italic>FtPinG0002471300.01</italic>
+    </td>
+    <td>Carboxyesterase 13</td>
+    <td>NA</td>
+    <td>
+     <italic>AT3G48700.1</italic>
+    </td>
+    <td>−0.55115</td>
+    <td>0.00159</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0007248800.01</italic>
+    </td>
+    <td>Receptor-like protein kinase</td>
+    <td>Defense response to bacterium, protein phosphorylation</td>
+    <td>
+     <italic>AT4G23180.1</italic>
+    </td>
+    <td>−0.79183</td>
+    <td>0.00150</td>
+   </tr>
+   <tr>
+    <td>fta_novel_miR55</td>
+    <td>
+     <italic>FtPinG0005410000.01</italic>
+    </td>
+    <td>MYB transcription factor 73</td>
+    <td>Auxin and abiotic stress responses a</td>
+    <td>
+     <italic>MYB73/AT4G37260.1</italic>
+    </td>
+    <td>−0.63527</td>
+    <td>0.01789</td>
+   </tr>
+   <tr>
+    <td>fta_novel_miR118</td>
+    <td>
+     <italic>FtPinG0003617400.01</italic>
+    </td>
+    <td>GRAS transcription factor 15</td>
+    <td>Cell differentiation, repressing the seed maturation programme,</td>
+    <td>
+     <italic>AT4G36710.1</italic>
+    </td>
+    <td>−0.88771</td>
+    <td>0.01772</td>
+   </tr>
+   <tr>
+    <td rowspan="3">fta_novel_miR123</td>
+    <td>
+     <italic>FtPinG0000299300.01</italic>
+    </td>
+    <td>C2H2 zinc finger protein</td>
+    <td>Transfer cell differentiation</td>
+    <td>
+     <italic>AT4G27240.1</italic>
+    </td>
+    <td>−0.65706</td>
+    <td>0.00569</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0003531700.01</italic>
+    </td>
+    <td>CONSTANS-like 5</td>
+    <td>Flower development, and flowering</td>
+    <td>
+     <italic>AT5G57660.1</italic>
+    </td>
+    <td>−0.65534</td>
+    <td>0.00585</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>FtPinG0006913600.01</italic>
+    </td>
+    <td>Galactosyltransferase family protein</td>
+    <td>Embryo development</td>
+    <td>
+     <italic>GALT31A/AT1G32930.1</italic>
+    </td>
+    <td>−0.64824</td>
+    <td>0.00570</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

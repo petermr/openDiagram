@@ -1,0 +1,5 @@
+0: Skyline was used for extraction of SWATH-MS data and peptide quantification [ 49].
+1: Spectral libraries and raw files (.
+2: wiff) from SWATH-MS experiments were directly imported into Skyline.
+3: All possible precursor and fragment ions used for quantitation were selected automatically from the library based on only unique identified peptides for a given protein, typically b- and y-ions, as well as peptides with modifications (Carbamidomethylation and Oxidation).
+4: Peptides matching the common contaminant database and decoy sequences were removed from the data set before analysis.

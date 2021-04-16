@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The basic process of proteome identification based on mass spectrometry was adopted. The liquid chromatography-tandem mass spectrometry data was optimized by series and then compared with the database to score the protein for protein identification. MS/MS data for peptides were searched in the rice transcriptome database using Proteinpilot
+ <sup>TM</sup> V4.5. Unique peptide shows the number of unique peptide sequences for the proteome. Only proteins with at least one unique peptide and unused value more than 1.3 were considered for further analysis [
+ <xref rid="B23-biomolecules-09-00130" ref-type="bibr">23</xref>] and t-test was applied to it. When the difference was 1.5 times or more, (i.e., up-regulate ≥ 1.5 and down-regulate ≤ 0.67), it was regarded as a significantly different protein (
+ <italic>p</italic>-value ≤ 0.05). The annotation function was used to perform gene function clustering (GO analysis) of differential proteins. The Kyoto encyclopedia of genes and genomes pathway database was used to analyze the metabolic pathways involved in differential proteins. The physical, chemical properties and distribution of the identified protein were graphically represented by Excel.
+</p>

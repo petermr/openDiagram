@@ -1,0 +1,9 @@
+0: The pipeline used to analyze RNASeq data was followed as described previously [ 45].
+1: In summary, the quality of obtained raw data was checked by FastQC v0.11.5 [ 46].
+2: Adapters, low quality reads, and sequences shorter than 30 nucleotides were trimmed by Trimmomatic v0.38 [ 47].
+3: High quality clean reads were mapped to  C.  quinoa reference transcripts by Salmon v0.12.0 [ 48] to obtain normalized transcripts per kilobase mapped million reads (TPM) values.
+4: Normalized transcript-level read counts were transformed to gene-level abundance in order to use in differential gene expression R package, DESeq2 [ 49].
+5: The DEGs were determined in two modes: 1) with a full design model (timevarietytreatment) where DEGs were determined across quinoa varieties (Jessie as reference level) in time-series inoculation (1 dpi as reference level) between CMV-inoculated and mock-inoculated samples, and 2) individual variety with a time-specific treatment design (time+treatment+time:treatment), where DEGs were identified in each variety in time-series inoculation (4 dpi vs 1 dpi) between CMV-inoculated and mock-inoculated samples.
+6: The DEGs with adjusted  p-value  0.05 were considered significant.
+7: To identify Gene Ontology (GO) annotation and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways of DEGs, KOBAS v3.0 [ 50] was used.
+8: Significant enriched GO terms and KEGG pathways were chosen based on the corrected  p-value  0.05 obtained through Benjamini and Hochbergs method for controlling false discovery rate (FDR).

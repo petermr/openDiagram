@@ -1,0 +1,7 @@
+0: The single-cell samples were collected in tubes containing lysis components and ribonuclease inhibitors.
+1: Amplification was then performed by using the Smart-Seq2 method [ 63].
+2: An Oligo-dT primer was introduced to the reverse transcription reaction for first-strand cDNA synthesis, followed by PCR amplification to enrich the cDNA and a magnetic bead purification step to clean up the synthesized material.
+3: Next, the cDNA product was checked by a Qubit 3.0 Fluorometer and Agilent 2100 Bioanalyzer (Thermo Fisher Scientific) to ensure the expected output of length approximately 12 kbp.
+4: Subsequently, cDNA was sheared randomly by ultrasonic waves for Illumina library preparation, including DNA fragmentation, end-repair, 3 end A-tailing, adapter ligation, PCR amplification, and library validation.
+5: PerkinElmer LabChip GX Touch and Step OnePlusTM Real-Time PCR System were introduced for library quality inspection after library preparation.
+6: Qualified libraries were then loaded on the Illumina Hiseq platform for PE150 sequencing.

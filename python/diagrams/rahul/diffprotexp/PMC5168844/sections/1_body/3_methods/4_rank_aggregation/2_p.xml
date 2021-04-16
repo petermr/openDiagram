@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here, 
+ <italic>Y</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the 
+ <italic>i</italic>
+ <sup>
+  <italic>th</italic>
+ </sup> ordered list, 
+ <italic>x</italic> is the proposed ordered list, 
+ <italic>d</italic> is a distance measure and 
+ <italic>w</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> denotes the weight associated with the ordered list 
+ <italic>Y</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>. The aim here is to find 
+ <italic>x*</italic> for which the objective function O(
+ <italic>x</italic>), given in Equation 
+ <xref rid="Equ6" ref-type="">6</xref>, is minimum. In other words,
+ <disp-formula id="Equ7">
+  <label>7</label>
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {x}^{*}= argmin{\displaystyle \sum_{i=1}^m}{w}_id\left(x,{Y}_i\right) $$\end{document}</tex-math>
+   <math id="M28">
+    <msup>
+     <mi>x</mi>
+     <mo>*</mo>
+    </msup>
+    <mo>=</mo>
+    <mi mathvariant="italic">argmin</mi>
+    <mstyle displaystyle="true">
+     <munderover>
+      <mo stretchy="true">∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>m</mi>
+     </munderover>
+    </mstyle>
+    <msub>
+     <mi>w</mi>
+     <mi>i</mi>
+    </msub>
+    <mi>d</mi>
+    <mfenced close=")" open="(" separators=",">
+     <mi>x</mi>
+     <msub>
+      <mi>Y</mi>
+      <mi>i</mi>
+     </msub>
+    </mfenced>
+   </math>
+   <graphic xlink:href="13062_2016_168_Article_Equ7.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

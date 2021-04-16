@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">Enrichment analysis was also performed on genes that were differentially expressed in 1–2 days of treatment with chemotherapy (GSE39324)
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>
+ <italic>vs</italic>. prior treatment using clusterprofiler
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup>. The enrichGO and enrichKEGG function was applied with the Benjamin &amp; Hochberg
+ <sup>
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup> method enforced (threshold 0.05). The output was merged with known COVID-19 pathways using R to identify overlapping upregulated and downregulated GO and KEGG pathways.
+</p>

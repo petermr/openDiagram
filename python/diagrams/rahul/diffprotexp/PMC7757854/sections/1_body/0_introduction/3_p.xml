@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Global gene profile changes in various murine cell models are reported in the literature that show the biological and clinical significance of adipogenesis through comprehensive analysis of differentially expressed genes (DEGs) using tools such as RNA sequencing (RNA-Seq) [
+ <xref rid="cit0018" ref-type="bibr">18–24</xref>]. Through statistical significance and fold induction, the final lists of DEGs are further analysed using gene ontology (GO) analysis, and can assist in construction of protein–protein interactions (PPI) and gene networks. However, RNA-Seq data are variable, and biased analyses are possible. Thus, unbiased methods are necessary for generating transcriptome data to increase confidence of DEG lists. The robust rank aggregation (RRA) method that relies on algorithms that produce a significant score for genes that consistently rank better than expected has been applied to transcriptome data [
+ <xref rid="cit0025" ref-type="bibr">25</xref>,
+ <xref rid="cit0026" ref-type="bibr">26</xref>]. In this method estimates of significance are provided as 
+ <italic>p</italic>-values that assign probabilities showing that the differential expression of a given gene is related to adipogenesis [
+ <xref rid="cit0025" ref-type="bibr">25</xref>,
+ <xref rid="cit0027" ref-type="bibr">27</xref>]. 
+ <italic>p</italic>-values can be used to rank DEGs, where the lower the value, the higher its rank. An RRA approach allows multiple transcriptome profiles to be characterized by more reliable molecular targets.
+</p>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">Nevertheless, our failure to detect key functional annotations associated with AD pathology while inputting TLI DEGs is puzzling and could suggest that DEG analysis fails to detect relevant alterations in gene expression in the AD brain. Indeed, classical DEG analysis using DESeq or edgeR, which rank all gene transcripts, including noncoding sequences
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup>, are insensitive to the dynamics of gene expression that could, for example, lead to isoform switches with important functional consequences
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>. Therefore, important gene expression alterations could occur at the level of transcripts, without significant changes in the global expression of genes. According to this possibility, we provide convincing evidence that a high number of genes in the AD brain show isoform switches (DTU) but are not detected by DEG analysis, including several genes associated with the regulation of synapse transmission, such as APP, NSG1, RELN, GABRA1
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>–
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. Moreover, gDTUs identified in two independent datasets (TLI), alone or in combination with TLI DEGs, were enriched for key biological processes involved in AD pathogenesis, such as synaptic communication, immune response, inflammation, endocytosis, and cell-signaling
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup>. Similar gene set enrichment has been described using the analysis of co-expression modules in bulk RNAseq
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>,
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup> or DEG analysis DEGs in unique cell types in scRNAseq
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>,
+  <xref ref-type="bibr" rid="CR7">7</xref>
+ </sup>. This could suggest that the combination of DEG and DTU to analyze bulk RNAseq is comparable to scRNAseq regarding the sensitivity to detect gene expression alteration in AD brains. In agreement with this possibility, we were able to assign DEGs and gDTUs to unique cell types and confirm the similarities among cell-type-specific functional annotations observed in our work compared to previous scRNAseq studies
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>,
+  <xref ref-type="bibr" rid="CR7">7</xref>
+ </sup>.
+</p>

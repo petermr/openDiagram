@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">The lyophilized peptides were reconstituted in 0.1% formic acid, and loaded into a nanoViper C18 trap column (3 μm, 100 Å). The online chromatographic separation was performed on Thermo Scientific Easy-nLC 1200 system. Post trapped and desalted with 100% solution A (0.1% formic acid), the peptides were separated with solution B (80% acetonitrile/0.1% formic acid) elution gradient from 8 to 38% in 50 min on an analytical column (50 μm × 150 mm, 3 μm C18 100 Å). Mass spectrometry (MS) experiment was performed on a ThermoFisher Q-Exactive Orbitrap mass spectrometer fitted with a Nano Flex ion source. The MS was operated using an ion spray voltage of 1.9 kV and an interface heater temperature of 275 °C. A data-dependent acquisition mode with full MS scans was used to acquire tandem MS data. MS1 spectra were acquired in the 
+ <italic>m</italic>/
+ <italic>z</italic> range of 350–1200, and MS2 spectra were acquired in the 
+ <italic>m</italic>/
+ <italic>z</italic> range of 110–1200. The acquisition survey scans of 250 ms were followed by up to 14 product ion scans of 50 ms. The MS spectra with charge state 2 and above were selected for fragmentation by higher-energy collision dissociation. The dynamic exclusion time was set for 25 s.
+</p>

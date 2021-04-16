@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Antibody microarrays were performed using scioDiscover Protein Expression Array (Sciomics GmbH, Germany) to identify putative alterations in hTCEpi cells at the protein level after treatment with AC EFs for 24 h (
+ <xref ref-type="fig" rid="genes-12-00299-f004">Figure 4</xref>). Regarding the antibody array, hierarchical clustering of the protein extracts based on differentially expressed proteins is shown in 
+ <xref ref-type="app" rid="app1-genes-12-00299">Supplementary Figure S2B</xref>. Identification of the functional associations between proteins on a genome-wide scale and construction of a protein–protein interaction (PPI) networks for analysis was performed using the STRING database (Available online: 
+ <uri xlink:href="https://string-db.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://string-db.org/</uri> (accessed on 14 December 2020)). Analysis of the protein array data revealed that the treatment of cells with AC EFs altered the expression of various protein products and the resulting heatmap of the protein differential expression is depicted in 
+ <xref ref-type="fig" rid="genes-12-00299-f005">Figure 5</xref>. A list of proteins that are upregulated and downregulated after treatment with AC EFs is shown in 
+ <xref ref-type="app" rid="app1-genes-12-00299">Supplementary Table S2</xref>. The PPI network consisted of 173 nodes interacting through 1261 edges. Of all the differentially abundant proteins, 132 proteins displayed positive logFC values &gt; 0.2 in AC EF-stimulated cells, whereas 63 proteins showed logFC values &gt; 0.2 in untreated control cells.
+</p>

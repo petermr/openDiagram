@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Summary of co-expression of differential genes closely related to reproductive cycle (follicular phase vs luteal phase) in MM sheep</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>lncRNA_id</th>
+    <th>mRNA_id</th>
+    <th>mRNA_gene symbol</th>
+    <th>pathway_term</th>
+    <th>Pearson_correlation</th>
+    <th>
+     <bold>
+      <italic>P</italic>
+     </bold>_value
+    </th>
+    <th>regulation</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>XLOC_466330</td>
+    <td>101,123,639</td>
+    <td>RRM2B</td>
+    <td>Glutathione metabolism</td>
+    <td>0.975416236</td>
+    <td>6.78601E-08</td>
+    <td>up</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,114,517</td>
+    <td>GSTK1</td>
+    <td>i-</td>
+    <td>0.9556985</td>
+    <td>1.24739E-06</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>XLOC_391199</td>
+    <td>101,113,917</td>
+    <td>STMN1</td>
+    <td>MAPK signaling pathway</td>
+    <td>0.966221936</td>
+    <td>3.27202E-07</td>
+    <td>down</td>
+   </tr>
+   <tr>
+    <td>XLOC_503926</td>
+    <td>101,107,628</td>
+    <td>RAG2</td>
+    <td>FoxO signaling pathway</td>
+    <td>0.962879183</td>
+    <td>5.21528E-07</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>XLOC_517836</td>
+    <td>i-</td>
+    <td/>
+    <td>i-</td>
+    <td>0.960254429</td>
+    <td>7.30644E-07</td>
+    <td>i-</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Note: “i-” represents the identical information with previous one in the same column</p>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>
+   <bold>Twenty most characteristic proteins of heterophils (Het) compared to macrophages (Ma)</bold>
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Acc. no.</th>
+    <th align="left">Protein name</th>
+    <th align="left">Gene ID</th>
+    <th align="left">∆PSM
+     <sup>a</sup>
+    </th>
+    <th align="left">Fold ratio Het:Ma</th>
+    <th align="left">Response to the infection</th>
+    <th align="left">Function</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">P28318</td>
+    <td align="left">MRP126, calprotectin</td>
+    <td align="left">MRP126</td>
+    <td char="." align="char">7170</td>
+    <td align="left">9.07</td>
+    <td align="left">No</td>
+    <td align="left">Calcium and zinc binding</td>
+   </tr>
+   <tr>
+    <td align="left">P08940</td>
+    <td align="left">Myeloid protein 1</td>
+    <td align="left">LECT2</td>
+    <td char="." align="char">5532</td>
+    <td align="left">6.32</td>
+    <td align="left">Decrease</td>
+    <td align="left">Chemotactic factor for Het</td>
+   </tr>
+   <tr>
+    <td align="left">P02789</td>
+    <td align="left">Ovotransferrin</td>
+    <td align="left">OTFB</td>
+    <td char="." align="char">2351</td>
+    <td align="left">4.87</td>
+    <td align="left">Decrease</td>
+    <td align="left">Iron binding, immune response</td>
+   </tr>
+   <tr>
+    <td align="left">O73790</td>
+    <td align="left">Heterochromatin-associated protein MENT</td>
+    <td align="left">SERPINB10</td>
+    <td char="." align="char">1760</td>
+    <td align="left">6.00</td>
+    <td align="left">No</td>
+    <td align="left">DNA condensation, cysteine protease inhibitor</td>
+   </tr>
+   <tr>
+    <td align="left">E1C0K1</td>
+    <td align="left">Extracellular fatty acid-binding protein</td>
+    <td align="left">ExFABP</td>
+    <td char="." align="char">1742</td>
+    <td align="left">4.94</td>
+    <td align="left">No</td>
+    <td align="left">Fatty acid and bacterial siderophores binding</td>
+   </tr>
+   <tr>
+    <td align="left">F1NG13</td>
+    <td align="left">Transglutaminase 3</td>
+    <td align="left">TGM3</td>
+    <td char="." align="char">1572</td>
+    <td align="left">19.94</td>
+    <td align="left">No</td>
+    <td align="left">Transglutaminase</td>
+   </tr>
+   <tr>
+    <td align="left">Q2IAL7</td>
+    <td align="left">Cathelicidin 2</td>
+    <td align="left">CATHL2</td>
+    <td char="." align="char">1402</td>
+    <td align="left">7.49</td>
+    <td align="left">Decrease</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">P27042</td>
+    <td align="left">Lysozyme G</td>
+    <td align="left">LYG2</td>
+    <td char="." align="char">989</td>
+    <td align="left">4.57</td>
+    <td align="left">Decrease</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">Q2IAL6</td>
+    <td align="left">Cathelicidin 3</td>
+    <td align="left">CATHL3</td>
+    <td char="." align="char">936</td>
+    <td align="left">5.37</td>
+    <td align="left">No</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">P00698</td>
+    <td align="left">Lysozyme C</td>
+    <td align="left">LYZ</td>
+    <td char="." align="char">839</td>
+    <td align="left">5.17</td>
+    <td align="left">Decrease</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">Q6QLQ5</td>
+    <td align="left">Cathelicidin 1</td>
+    <td align="left">CATHL1</td>
+    <td char="." align="char">833</td>
+    <td align="left">4.62</td>
+    <td align="left">Decrease</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">E1BTH1</td>
+    <td align="left">Leukocyte elastase inhibitor</td>
+    <td align="left">SERPINB1</td>
+    <td char="." align="char">627</td>
+    <td align="left">Only Het</td>
+    <td align="left">Decrease</td>
+    <td align="left">Protection against own proteases</td>
+   </tr>
+   <tr>
+    <td align="left">F1P284</td>
+    <td align="left">Leukotriene A(4) hydrolase</td>
+    <td align="left">LTA4H</td>
+    <td char="." align="char">603</td>
+    <td align="left">5.78</td>
+    <td align="left">Decrease</td>
+    <td align="left">Epoxide hydrolase and aminopeptidase</td>
+   </tr>
+   <tr>
+    <td align="left">F1NGT3</td>
+    <td align="left">Matrix metallopeptidase 9</td>
+    <td align="left">MMP9</td>
+    <td char="." align="char">600</td>
+    <td align="left">Only Het</td>
+    <td align="left">Decrease</td>
+    <td align="left">Degradation of the extracellular matrix</td>
+   </tr>
+   <tr>
+    <td align="left">F2Z4L6</td>
+    <td align="left">Serum albumin</td>
+    <td align="left">ALB</td>
+    <td char="." align="char">557</td>
+    <td align="left">4.79</td>
+    <td align="left">Decrease</td>
+    <td align="left">Plasma carrier</td>
+   </tr>
+   <tr>
+    <td align="left">P30374</td>
+    <td align="left">Ribonuclease homolog</td>
+    <td align="left">RSFR</td>
+    <td char="." align="char">548</td>
+    <td align="left">6.89</td>
+    <td align="left">Decrease</td>
+    <td align="left">Lysosomal cysteine protease</td>
+   </tr>
+   <tr>
+    <td align="left">R9PXN7</td>
+    <td align="left">Hematopoietic prostaglandin D synthase</td>
+    <td align="left">HPGDS</td>
+    <td char="." align="char">504</td>
+    <td align="left">17.79</td>
+    <td align="left">No</td>
+    <td align="left">Cytosolic glutathione S-transferases</td>
+   </tr>
+   <tr>
+    <td align="left">E1BTV1</td>
+    <td align="left">Stomatin</td>
+    <td align="left">STOM</td>
+    <td char="." align="char">502</td>
+    <td align="left">23.82</td>
+    <td align="left">No</td>
+    <td align="left">Integral membrane protein</td>
+   </tr>
+   <tr>
+    <td align="left">D2D3P4</td>
+    <td align="left">Rab27a</td>
+    <td align="left">Rab27a</td>
+    <td char="." align="char">435</td>
+    <td align="left">88.08</td>
+    <td align="left">No</td>
+    <td align="left">Small GTPase, exocytosis</td>
+   </tr>
+   <tr>
+    <td align="left">R4GI24</td>
+    <td align="left">Integrin alpha-D</td>
+    <td align="left">ITGAD</td>
+    <td char="." align="char">379</td>
+    <td align="left">7.73</td>
+    <td align="left">No</td>
+    <td align="left">Adhesion of leukocytes</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>The difference in PSM counts of particular protein in Het and Ma.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

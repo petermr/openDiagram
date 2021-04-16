@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0120">We repeated the above comparative analysis with greater amount of control samples by using normal thyroid RNA sequencing profiles from public databases GTEx (446 samples) and TCGA (58 samples) which showed, however, strong platform-specific bias (
+ <xref rid="fig7" ref-type="fig">Figure 7</xref>). Unlike for the ANTE dataset, different equipment, reagents and protocols for RNA isolation, ribosomal RNA depletion, library preparation and sequencing were used for the GTEx and TCGA data. This led to significant changes of the absolute pathway activation levels when calculated using GTEx and TCGA norms (Supplementary File 4). However, the intratumoral comparisons resulted in the same conclusions as before, and we obtained the same 15 differential pathways using both types of new normal datasets (
+ <xref rid="tbl1" ref-type="table">Table 1</xref>, Supplementary File 4). Although pathway activation level (PAL) values depended on the normal dataset used, the trends of PAL expression in thyroid tumor types was consistent regardless of the normal set used: minimal overall activation of DNA repair pathways in FA samples (
+ <xref rid="fig6" ref-type="fig">Figure 6</xref> A, B, C), medium in FC samples (
+ <xref rid="fig6" ref-type="fig">Figure 6</xref> D,E,F), and maximal in PC samples (
+ <xref rid="fig6" ref-type="fig">Figure 6 G,H,</xref>I).
+</p>

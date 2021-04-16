@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par44">The mRNAs in the ceRNA network were used to construct a PPI network based on the STRING database. The PPI network was visualized by Cytoscape and included 265 nodes and 1109 edges (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>). The cytoHubba plugin was used to identify the top 30 hub genes with the highest degrees (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>), of which 7 genes (VEGFA, BIRC5, CDC25A, KPNA2, DLGAP5, CCNE1, and CCNF) were significantly related to OS using Kaplan-Meier analysis (Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>). The MCODE plugin was used in the PPI network to identify the top module, which contained 31 nodes and 341 PPIs (Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>a). 
+</p>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">LMP, as a semi-malignant ovarian tumor, was identified by FIGO in 1971 and accounts for 15–20% of epithelial ovarian tumors [
+ <xref ref-type="bibr" rid="CR16">16</xref>, 
+ <xref ref-type="bibr" rid="CR17">17</xref>]. Moreover, LMP tumors often behave as a local epithelial lesions of the ovary [
+ <xref ref-type="bibr" rid="CR18">18</xref>]. By comparison, EOC often shows strong invasive characteristics and represents about 70% of epithelial ovarian tumors [
+ <xref ref-type="bibr" rid="CR6">6</xref>]. Thus, the prognosis of LMP and EOC differ considerably due to their different invasiveness. Additionally, the treatments of LMP and EOC are also signifi- cantly different. For EOC, total hysterectomy and bilateral salpingo-oophorectomy are the recommended surgical procedures and chemotherapy will also be administered to improve the curative effect [
+ <xref ref-type="bibr" rid="CR7">7</xref>]. But for LMP, hysterectomy is the standard therapy and unilateral oophorectomy will also be considered in view of the patients’ desire to maintain fertility [
+ <xref ref-type="bibr" rid="CR6">6</xref>]. However, although most LMP tumors will be in a mild state over a long period of time, a certain proportion of them display non-invasive extra-ovarian implants [
+ <xref ref-type="bibr" rid="CR19">19</xref>]. And the accurate identification of LMP tumors is a continuously challenging and controversial field in gynecological pathology due to difficulty in accurate classification of implants [
+ <xref ref-type="bibr" rid="CR20">20</xref>]. From this, accurate diagnosis of LMP and EOC is very important for the appropriate therapy selection and prognosis of patients, and the lack of accurate markers for distinguishing EOC from LMP will lead to incorrect diagnosis, inappropriate treatment and adverse consequences. In our study, we integrated three GEO databases and identified 234 DEGs between LMP and EOC samples, and further functional analysis was performed. The KEGG analysis displayed that the common up-regulated DEGs were mainly enriched in Cell cycle and Oocyte meiosis, while the common down-regulated genes were enriched in Huntington’s disease. In addition, the GO analysis showed that the common up-regulated DEGs were mainly associated with Protein binding, Nucleoplasm and Nucleus, while the common downregulated genes were mainly associated with Cilium, Microtubule, and Motile cilium. In fact, many studies have shown that the Cell cycle [
+ <xref ref-type="bibr" rid="CR21">21</xref>], Oocyte meiosis [
+ <xref ref-type="bibr" rid="CR22">22</xref>], Protein binding [
+ <xref ref-type="bibr" rid="CR23">23</xref>], Nucleoplasm [
+ <xref ref-type="bibr" rid="CR24">24</xref>], Nucleus [
+ <xref ref-type="bibr" rid="CR25">25</xref>], Microtubule [
+ <xref ref-type="bibr" rid="CR26">26</xref>], Cilium and Motile cilium [
+ <xref ref-type="bibr" rid="CR27">27</xref>] are closely related to EOC occurrence and development. However, the association between Huntington’s disease and EOC still remains unclear. In brief, these functional enrichment results have certain guiding significance. Furthermore, a PPI network analysis was performed for the DEGs, and then the MCODE plug-in filtered out three related clusters. We further analyzed the function of cluster 1 and found that the results are consistent with the previous analysis. Next, the top 20 genes in PPI network were identified by CytoHubba plug-in. Subsequently, the GSE12172 dataset was used to further verify their expression in LMP and EOC samples, and the results showed that all 20 genes were higher expressed in EOC compared with LMP tumors, meaning that these genes may play a key role in EOC tumorigenesis. Meanwhile, ROC curve analysis revealed that all these genes had perfect diagnostic efficiency for differentiating EOC from LMP tumors. In addition, survival analysis of these 20 genes showed that 5 genes (CCNB1, KIF20A, ASPM, AURKA, and KIF23) were significantly related to a poorer OS in EOC patients, which may be partly attributed to the tumor immunosuppressive microenvironment when performing the Pearson correlation analysis between 5 core genes’ expression and the level of different immune checkpoint proteins. Then, NetworkAnalyst was applied to screen the chemicals that were associated with the 5 core genes and we found that CCNB1, AURKA, and KIF20A were clearly the three interactive core genes that link most chemicals. Moreover, the top 15 chemicals screened by Cytoscape were found to be related with all 5 genes. Among them, valproic acid [
+ <xref ref-type="bibr" rid="CR28">28</xref>], Calcitriol [
+ <xref ref-type="bibr" rid="CR29">29</xref>], cobaltous chloride [
+ <xref ref-type="bibr" rid="CR30">30</xref>], Copper Sulfate [
+ <xref ref-type="bibr" rid="CR31">31</xref>], Genistein [
+ <xref ref-type="bibr" rid="CR32">32</xref>], 7,8-Dihydro-7,8-dihydroxybenzo(a) pyrene 9,10-oxide [
+ <xref ref-type="bibr" rid="CR33">33</xref>], Methotrexate [
+ <xref ref-type="bibr" rid="CR34">34</xref>], Mustard Gas [
+ <xref ref-type="bibr" rid="CR35">35</xref>] and Cyclosporine [
+ <xref ref-type="bibr" rid="CR36">36</xref>] all have been showed to have antitumor activity against EOC in vitro or vivo, whereas bisphenol A [
+ <xref ref-type="bibr" rid="CR37">37</xref>], cadmium [
+ <xref ref-type="bibr" rid="CR38">38</xref>], Aflatoxin B1 [
+ <xref ref-type="bibr" rid="CR39">39</xref>] and Estradiol [
+ <xref ref-type="bibr" rid="CR40">40</xref>] all have cancer-promoting activity in EOC. However, Lucanthone and Latex have not been studied in EOC till now despite they showed anti-cancer effects in other cancers [
+ <xref ref-type="bibr" rid="CR41">41</xref>]. Thus, further clinical trials and studies are needed to identify and explore their impact on EOC in future.
+</p>

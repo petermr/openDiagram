@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Ordinary 
+ <italic>t</italic>-Statistics Is Calculated as 
+ <disp-formula id="FD1">
+  <label>(1)</label>
+  <math id="M1">
+   <mrow>
+    <mi>t</mi>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <msub>
+         <mi>Y</mi>
+         <mrow>
+          <mi>G</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">¯</mo>
+      </mover>
+      <mo>−</mo>
+      <mover accent="true">
+       <mrow>
+        <msub>
+         <mi>Y</mi>
+         <mrow>
+          <mi>G</mi>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">¯</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msubsup>
+           <mi>s</mi>
+           <mn>1</mn>
+           <mn>2</mn>
+          </msubsup>
+         </mrow>
+         <mrow>
+          <msub>
+           <mi>n</mi>
+           <mn>1</mn>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <msubsup>
+           <mi>s</mi>
+           <mn>2</mn>
+           <mn>2</mn>
+          </msubsup>
+         </mrow>
+         <mrow>
+          <msub>
+           <mi>n</mi>
+           <mn>2</mn>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+ <list list-type="simple">
+  <list-item>
+   <p>
+    <italic>n</italic>
+    <sub>1</sub>, 
+    <italic>n</italic>
+    <sub>2</sub> is the number of replicates in group 1 and group 2
+   </p>
+  </list-item>
+  <list-item>
+   <p>
+    <italic>s</italic>
+    <sub>1</sub>, 
+    <italic>s</italic>
+    <sub>2</sub> is standard deviation in group 1 and 2
+   </p>
+  </list-item>
+  <list-item>
+   <p>
+    <italic>G</italic>1, 
+    <italic>G</italic>2 are the two groups
+   </p>
+  </list-item>
+  <list-item>
+   <p>
+    <div class="overline" xmlns="http://www.w3.org/1999/xhtml">
+     <italic xmlns="">Y</italic>
+     <sub xmlns="">
+      <italic>G</italic>1
+     </sub>
+    </div>, 
+    <div class="overline" xmlns="http://www.w3.org/1999/xhtml">
+     <italic xmlns="">Y</italic>
+     <sub xmlns="">
+      <italic>G</italic>2
+     </sub>
+    </div> are the mean of two groups 
+    <disp-formula id="FD2">
+     <label>(2)</label>
+     <math id="M2">
+      <mrow>
+       <msup>
+        <mi>s</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>=</mo>
+       <mfrac>
+        <mrow>
+         <mstyle displaystyle="true">
+          <msub>
+           <mo>∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mi>ϵ</mi>
+            <mi>G</mi>
+           </mrow>
+          </msub>
+          <mrow>
+           <msup>
+            <mrow>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <msub>
+                <mi>y</mi>
+                <mrow>
+                 <mi>i</mi>
+                 <mi>j</mi>
+                </mrow>
+               </msub>
+               <mo>−</mo>
+               <mover accent="true">
+                <mrow>
+                 <msub>
+                  <mi>Y</mi>
+                  <mi>G</mi>
+                 </msub>
+                </mrow>
+                <mo stretchy="true">¯</mo>
+               </mover>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mstyle>
+        </mrow>
+        <mrow>
+         <mi>n</mi>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </math>
+    </disp-formula>
+   </p>
+  </list-item>
+ </list>
+</p>

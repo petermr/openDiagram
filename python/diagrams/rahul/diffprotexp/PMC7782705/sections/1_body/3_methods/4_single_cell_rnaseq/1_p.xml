@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">Using R library 
+ <italic>seurat</italic>
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup>, we created a seurat object (
+ <italic>CreateSeuratObject</italic>), normalized data (
+ <italic>NormalizeData</italic>), found variable genes (
+ <italic>FindVariableFeatures</italic>), and rescaled data using a linear model (
+ <italic>ScaleData, use.umi</italic> = 
+ <italic>F</italic>). After that, we generated 50 PC’s (
+ <italic>RunPCA</italic>) but only used 35 of them based on the PC’s visualization distribution (
+ <italic>ElbowPlot</italic>). Since Allen data were already annotated, we only used tSNE (
+ <italic>RunTSNE</italic>) to facilitate visualization. A group classified as “None” by Allen metadata were removed from our analysis. This strategy generated 7 main different cell types: Astrocytes, Endothelial cells, Glutamatergic Neurons, GABAergic Neurons, Microglia, Oligodendrocytes and oligodendrocyte precursor cells (OPCs). To assign genes to specific cell types, we used the AverageExpression function. Using pct.exp bigger than 0.1, we created a list of genes that were expressed by each cell type.
+</p>

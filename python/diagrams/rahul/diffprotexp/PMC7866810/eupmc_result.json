@@ -1,0 +1,623 @@
+{
+  "id": [
+    "33573289"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33573289"
+  ],
+  "pmcid": [
+    "PMC7866810"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7866810"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ijms22031399"
+  ],
+  "title": [
+    "DIscBIO: A User-Friendly Pipeline for Biomarker Discovery in Single-Cell Transcriptomics."
+  ],
+  "authorString": [
+    "Ghannoum S, Leoncio Netto W, Fantini D, Ragan-Kelley B, Parizadeh A, Jonasson E, Ståhlberg A, Farhan H, Köhn-Luque A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ghannoum S"
+          ],
+          "firstName": [
+            "Salim"
+          ],
+          "lastName": [
+            "Ghannoum"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1455-5835",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular Medicine, Institute of Basic Medical Sciences, University of Oslo, 0372 Oslo, Norway."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Leoncio Netto W"
+          ],
+          "firstName": [
+            "Waldir"
+          ],
+          "lastName": [
+            "Leoncio Netto"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Oslo Centre for Biostatistics and Epidemiology, Faculty of Medicine, University of Oslo, 0372 Oslo, Norway."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Fantini D"
+          ],
+          "firstName": [
+            "Damiano"
+          ],
+          "lastName": [
+            "Fantini"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Urology, Northwestern University, Chicago, IL 60611, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ragan-Kelley B"
+          ],
+          "firstName": [
+            "Benjamin"
+          ],
+          "lastName": [
+            "Ragan-Kelley"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Simula Research Laboratory, 1325 Lysaker, Norway."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Parizadeh A"
+          ],
+          "firstName": [
+            "Amirabbas"
+          ],
+          "lastName": [
+            "Parizadeh"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular Medicine, Institute of Basic Medical Sciences, University of Oslo, 0372 Oslo, Norway."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jonasson E"
+          ],
+          "firstName": [
+            "Emma"
+          ],
+          "lastName": [
+            "Jonasson"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Sahlgrenska Center for Cancer Research, Department of Laboratory Medicine, Institute of Biomedicine, Sahlgrenska Academy at University of Gothenburg, SE-41390 Gothenburg, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ståhlberg A"
+          ],
+          "firstName": [
+            "Anders"
+          ],
+          "lastName": [
+            "Ståhlberg"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4243-0191",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Sahlgrenska Center for Cancer Research, Department of Laboratory Medicine, Institute of Biomedicine, Sahlgrenska Academy at University of Gothenburg, SE-41390 Gothenburg, Sweden."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Wallenberg Centre for Molecular and Translational Medicine, University of Gothenburg, SE-41390 Gothenburg, Sweden."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Clinical Genetics and Genomics, Sahlgrenska University Hospital, SE-41390 Gothenburg, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Farhan H"
+          ],
+          "firstName": [
+            "Hesso"
+          ],
+          "lastName": [
+            "Farhan"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular Medicine, Institute of Basic Medical Sciences, University of Oslo, 0372 Oslo, Norway."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Köhn-Luque A"
+          ],
+          "firstName": [
+            "Alvaro"
+          ],
+          "lastName": [
+            "Köhn-Luque"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Oslo Centre for Biostatistics and Epidemiology, Faculty of Medicine, University of Oslo, 0372 Oslo, Norway."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1455-5835",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4243-0191",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "22"
+      ],
+      "journalIssueId": [
+        "3099283"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "The growing attention toward the benefits of single-cell RNA sequencing (scRNA-seq) is leading to a myriad of computational packages for the analysis of different aspects of scRNA-seq data. For researchers without advanced programing skills, it is very challenging to combine several packages in order to perform the desired analysis in a simple and reproducible way. Here we present DIscBIO, an open-source, multi-algorithmic pipeline for easy, efficient and reproducible analysis of cellular sub-populations at the transcriptomic level. The pipeline integrates multiple scRNA-seq packages and allows biomarker discovery with decision trees and gene enrichment analysis in a network context using single-cell sequencing read counts through clustering and differential analysis. DIscBIO is freely available as an R package. It can be run either in command-line mode or through a user-friendly computational pipeline using Jupyter notebooks. We showcase all pipeline features using two scRNA-seq datasets. The first dataset consists of circulating tumor cells from patients with breast cancer. The second one is a cell cycle regulation dataset in myxoid liposarcoma. All analyses are available as notebooks that integrate in a sequential narrative R code with explanatory text and output data and images. R users can use the notebooks to understand the different steps of the pipeline and will guide them to explore their scRNA-seq data. We also provide a cloud version using Binder that allows the execution of the pipeline without the need of downloading R, Jupyter or any of the packages used by the pipeline. The cloud version can serve as a tutorial for training purposes, especially for those that are not R users or have limited programing skills. However, in order to do meaningful scRNA-seq analyses, all users will need to understand the implemented methods and their possible options and limitations."
+  ],
+  "affiliation": [
+    "Department of Molecular Medicine, Institute of Basic Medical Sciences, University of Oslo, 0372 Oslo, Norway."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "2017-0043"
+          ],
+          "agency": [
+            "Swedish Childhood Cancer Foundation"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2016-438"
+          ],
+          "agency": [
+            "Swedish Cancer Society"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2017-01392"
+          ],
+          "agency": [
+            "Swedish Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "716321"
+          ],
+          "agency": [
+            "the Swedish state under the agreement between the Swedish government and the county councils, the ALF-agreement"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Biomarkers",
+        "binder",
+        "Normalization",
+        "Decision trees",
+        "Network Analysis",
+        "Degs",
+        "Single-cell Sequencing",
+        "Gene Filtering",
+        "Jupyter Notebook",
+        "Ercc Spike-Ins"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms22031399"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7866810"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7866810?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR85647"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "Link created based on a title-first author match"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "geo",
+        "arrayexpress"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-12"
+  ],
+  "firstIndexDate": [
+    "2021-02-12"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-08"
+  ],
+  "dateOfRevision": [
+    "2021-02-15"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-30"
+  ],
+  "firstPublicationDate": [
+    "2021-01-30"
+  ]
+}

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossary>
+ <title>Abbreviations</title>
+ <def-list>
+  <def-item>
+   <term>ACL</term>
+   <def>
+    <p id="Par4">Apospory controlling locus</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>AES</term>
+   <def>
+    <p id="Par5">Aposporous embryo sac</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>AI</term>
+   <def>
+    <p id="Par6">Apospory initial</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>AP2</term>
+   <def>
+    <p id="Par7">Apetala2</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>ARF</term>
+   <def>
+    <p id="Par8">Auxin response factor</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>bHLH</term>
+   <def>
+    <p id="Par9">Basic helix-loop-helix</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>BLAST</term>
+   <def>
+    <p id="Par10">Basic local alignment search tool</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>BP</term>
+   <def>
+    <p id="Par11">Biological process</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>bZIP</term>
+   <def>
+    <p id="Par12">Basic leucine zipper domain</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>C2H2</term>
+   <def>
+    <p id="Par13">Cys2His2 zinc-finger domain</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>C3H</term>
+   <def>
+    <p id="Par14">Cys3His zinc finger domain</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>CC</term>
+   <def>
+    <p id="Par15">Cellular component</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>DE</term>
+   <def>
+    <p id="Par16">Differentially expressed</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>DEAT</term>
+   <def>
+    <p id="Par17">Differentially expressed antisense transcript</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>DET</term>
+   <def>
+    <p id="Par18">Differentially expressed transcript</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>ERF</term>
+   <def>
+    <p id="Par19">Ethylene response factor</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>FAR1</term>
+   <def>
+    <p id="Par20">Far-red impaired responsive 1</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>FC</term>
+   <def>
+    <p id="Par21">Fold change</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>FDR</term>
+   <def>
+    <p id="Par22">False discovery rate</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>G2-like</term>
+   <def>
+    <p id="Par23">Golden2-like</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GDEA</term>
+   <def>
+    <p id="Par24">Global differential expression analysis</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GO</term>
+   <def>
+    <p id="Par25">Gene ontology</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GRAS</term>
+   <def>
+    <p id="Par26">GAI, RGA, SCR genes family</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GTA</term>
+   <def>
+    <p id="Par27">Global transcriptome assembly</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>KEGG</term>
+   <def>
+    <p id="Par28">Kyoto encyclopedia of genes and genomes</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>LBD</term>
+   <def>
+    <p id="Par29">Lateral organ boundaries domain</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>LFY</term>
+   <def>
+    <p id="Par30">Leafy</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>lncRNA</term>
+   <def>
+    <p id="Par31">Long non-coding RNA</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>MAPK</term>
+   <def>
+    <p id="Par32">Mitogen-activated protein kinase</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>MF</term>
+   <def>
+    <p id="Par33">Molecular function</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>miRNA</term>
+   <def>
+    <p id="Par34">microRNA</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>MMC</term>
+   <def>
+    <p id="Par35">Megaspore mother cell</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>mRNA</term>
+   <def>
+    <p id="Par36">Messenger RNA</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>M-type MADS</term>
+   <def>
+    <p id="Par37">MCM1, AG, DEFA and SRF genes family</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>NAC</term>
+   <def>
+    <p id="Par38">NAM, ATAF and CUC family</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>NZZ/SPL</term>
+   <def>
+    <p id="Par39">Sporocyteless/nozzle</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>SAP</term>
+   <def>
+    <p id="Par40">Sterile apetala</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>sRNA</term>
+   <def>
+    <p id="Par41">Small RNA</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>SSDEA</term>
+   <def>
+    <p id="Par42">Stage-specific differential expression analysis</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>TF</term>
+   <def>
+    <p id="Par43">Transcription factor</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>TPM</term>
+   <def>
+    <p id="Par44">Transcripts per million, the number of reads per transcript normalized to the library size</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>TRPN</term>
+   <def>
+    <p id="Par45">Trinity 
+     <italic>Paspalum notatum</italic> assembly
+    </p>
+   </def>
+  </def-item>
+ </def-list>
+</glossary>

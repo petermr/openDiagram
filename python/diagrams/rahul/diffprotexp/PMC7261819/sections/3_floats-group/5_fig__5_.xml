@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F5" orientation="portrait" position="float">
+ <label>Fig. 5.</label>
+ <caption>
+  <p>
+   <bold>Application DEqMS in a data set based on multiple TMT-experiments.</bold>
+   <italic>A</italic>, Distribution of 
+   <italic>p</italic> values (not adjusted) from statistical analysis using different methods for comparing breast cancer cell lines MCF7 and T47D. Indicated in parenthesis for each method are the number of DEPs identified with 
+   <italic>p</italic> value&lt;0.01 after correcting for multiple testing by Benjamini-Hochberg method. 
+   <italic>B</italic>, Output from in total 153 different comparisons between breast cancer cell lines in data set D5. Left figure indicate for each comparison the method that identified the highest number of DEPs. Right figure indicate for each comparison the method that identified the highest proportion of DEPs with low (
+   <xref rid="B1" ref-type="bibr">1</xref>–
+   <xref rid="B2" ref-type="bibr">2</xref>) number of PSMs used for quantification.
+  </p>
+ </caption>
+ <graphic xlink:href="zjw0052061230005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

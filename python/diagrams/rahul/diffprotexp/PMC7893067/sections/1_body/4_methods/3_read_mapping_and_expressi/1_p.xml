@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">Quality metrics of the raw data were determined with RSeqC 2.6.1
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>. Reads shorter than 36 bp were filtered out and adaptor sequences were trimmed from the remaining data using Cutadapt v1.9.1. Read alignment was done with STAR v2.4.2
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>, with default parameters using the human reference genome (hg19). Gene expression was quantified from the alignments using HTSeq count (v0.6.1)
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup> by providing Ensembl gene annotation (v75) in GTF format. Only uniquely mapped reads overlapping with exonic regions of a single gene were considered for quantification. Gene biotype annotation was extracted from the Ensembl GTF file.
+</p>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F0001" orientation="portrait" position="float">
+ <label>Figure 1.</label>
+ <caption>
+  <p>Phylogenetic tree of SARS-CoV-2 full genome sequences from Auvergne-Rhône-Alpes (ARA) patients (
+   <italic>n</italic> = 229). The phylogenetic tree was constructed using R software with ape package and the neighbour joining evolutionary method (hCoV-19/Wuhan/IPBCAMSWH01/2019 (EPI_ISL_402123) as the root). The coloured branches denote the hospital unit origin of the sequence and ORF6 status. On the right, multiple sequence alignment from nucleotide position 27267–27303 (Wuhan-Hu-1 numbering) is illustrated, with the 26-nt and 34-nt deletions depicted in black. The deletion sites of interest were not included for genetic distance calculation. GISAID accession number for the four GRU3 WT (EPI_ISL_508986, EPI_ISL_418431, EPI_ISL_508987, EPI_ISL_419180), six GRU3 D34 sequences (EPI_ISL_508992, EPI_ISL_508971, EPI_ISL_508920, EPI_ISL_508989, EPI_ISL_508988, EPI_ISL_508919) and one D26 sequence (EPI_ISL_508941). GRU = geriatric rehabilitation unit.
+  </p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="TEMI_A_1872351_F0001_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="TEMI_A_1872351_F0001_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

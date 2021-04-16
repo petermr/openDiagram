@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Proteomics is an emerging field in the study of joint disease. Our two aims with this pilot analysis were to compare healthy human knee articular cartilage with meniscus, two tissues both known to become affected in the osteoarthritic disease process, and to compare two mass spectrometry (MS)-based methods: data-dependent acquisition (DDA) and data-independent acquisition (DIA).</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">Healthy knee articular cartilage taken from the medial tibial condyle and medial meniscus samples taken from the body region were obtained from three adult forensic medicine cases. Proteins were extracted from tissue pieces and prepared for MS analysis. Each sample was subjected to liquid chromatography (LC)-MS/MS analysis using an Orbitrap mass spectrometer, and run in both DDA and DIA mode. Linear mixed effects models were used for statistical analysis.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">A total of 653 proteins were identified in the DDA analysis, of which the majority was present in both tissue types. Only proteins with quantitation information in both tissues (
+   <italic>n</italic> = 90) were selected for more detailed analysis, of which the majority did not statistically significantly differ in abundance between the two tissue types, in either of the MS analyses. However, 21 proteins were statistically significantly different (
+   <italic>p</italic> &lt; 0.05) between meniscus and cartilage in the DIA analysis. Out of these, 11 proteins were also significantly different in the DDA analysis. Aggrecan core protein was the most abundant protein in articular cartilage and significantly differed between the two tissues in both methods. The corresponding protein in meniscus was serum albumin. Dermatopontin exhibited the highest meniscus vs articular cartilage ratio among the statistically significant proteins. The DIA method led to narrower confidence intervals for the abundance differences between the two tissue types than DDA.
+  </p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par4">Although articular cartilage and meniscus had similar proteomic composition, we detected several differences by MS. Between the two analyses, DIA yielded more precise estimates and more statistically significant different proteins than DDA, and had no missing values, which makes it preferable for future LC-MS/MS analyses.</p>
+ </sec>
+ <sec>
+  <title>Electronic supplementary material</title>
+  <p>The online version of this article (10.1186/s12891-018-2346-6) contains supplementary material, which is available to authorized users.</p>
+ </sec>
+</abstract>

@@ -1,0 +1,6 @@
+0: After obtaining the list of the differentially expressed proteins at 72 and 120 hours of the queen and worker larvae sample from the MALDI-TOF/MS analysis, proteins of interests were generated from this protein list.
+1: Proteins of interest were further analyzed by Pathway Studio software (Ariadne Genomics).
+2: Briefly, the protein list was blasted against the  Drosophila database that was implemented with the functional relationships of protein molecules supported by the scientific literature.
+3: The filter, all shortest paths between selected entities, was applied and the data analysis information received was narrowed down to our protein list of interest, namely, proteins whose involvement and regulatory functions had been observed.
+4: Each link was built with evidence from at least 3 publications.
+5: Protein entities which belong to different functional groups were represented by different shapes according to the default settings of the software.

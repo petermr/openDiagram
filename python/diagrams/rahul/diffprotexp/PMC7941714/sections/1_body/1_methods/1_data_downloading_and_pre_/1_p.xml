@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par30">The mRNA, lncRNA, and miRNA expression profiles of the CRC patients were downloaded from TCGA database (
+ <ext-link ext-link-type="uri" xlink:href="https://cancergenome.nih.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://cancergenome.nih.gov/</ext-link>). We collected RNA-Seq data for 612 samples (568 CRC and 44 normal samples) in HTSeq-Counts files and miRNA-Seq data for 548 samples (539 CRC and nine normal samples). The sequence data were derived from Illumina HiSeq RNASeq and miRNASeq platforms, which were publicly available. GENCODE (
+ <ext-link ext-link-type="uri" xlink:href="https://www.gencodegenes.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.gencodegenes.org/</ext-link>) was used to convert the RNA-Seq data into lncRNAs (sense_overlapping, lincRNA, 3prime_overlapping_ncRNA, processed_transcript, antisense, and sense_intronic) and mRNAs (protein-coding).
+</p>

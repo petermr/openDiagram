@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To quantify protein abundance between drug-resistant (MtzR) and drug-susceptible (MtzS) isolates, 9 ratios were calculated with each MtzR replicate over all 3 MtzS replicates, and the geometric mean was calculated as a measure of fold change. Reporter ion intensity for each protein was calculated using the pooled control as a common denominator for each TMT channel for normalization and was analyzed statistically via a 1-sample 
+ <italic>t</italic> test between treatments. Differential expression was contingent on proteins meeting both fold change and 
+ <italic>P</italic> value cutoffs, as previously described for isobaric label quantitation [
+ <xref rid="bib36" ref-type="bibr">36</xref>, 
+ <xref rid="bib37" ref-type="bibr">37</xref>] and as depicted in 
+ <xref ref-type="supplementary-material" rid="sup1">Supplementary Fig. S1</xref>, panel A. Principal component analysis (PCA) of each of the 3 10plexes indicated good separation between MtzS parent isolates and their isogenic MtzR lines (
+ <xref ref-type="supplementary-material" rid="sup1">Supplementary Fig. S1</xref>, panel B), with control MtzS replicates clustering together tightly in all 3 isolates. Clustering of MtzR lines in the PCA indicated that all 3 MtzR lines were more variable between replicates than MtzS isogenic parents. Nonetheless, analysis of 
+ <italic>P</italic> value distribution revealed an inverse exponential distribution (
+ <xref ref-type="supplementary-material" rid="sup1">Supplementary Fig. S1</xref>, panel C), consistent with the existence of an underlying signal of differential expression between MtzS and MtzR populations in all 3 isolates [
+ <xref rid="bib38" ref-type="bibr">38</xref>].
+</p>

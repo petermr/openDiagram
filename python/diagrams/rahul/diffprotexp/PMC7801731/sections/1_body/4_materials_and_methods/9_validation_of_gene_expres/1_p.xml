@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">Gene expression values (Log2FC) obtained from RNA-seq data were verified using the QuantStudio 3 Real-Time PCR system (Applied Biosystems, USA) and SYBR Green I as the DNA intercalating agent. A total of 7 genes were used for the analysis (see Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S4</xref> online) among which there was the mortalin gene analyzed in a previous study using the same RT-qPCR methodology
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. Reaction volumes comprised 12 μL SYBR Green I, 0.6 μL of each primer and 1 μL of DNA, the rest of the volume was adjusted to 20 μL with nuclease-free water. The Ct values (see Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S5</xref> online) were analyzed with the 2
+ <sup>−ΔΔCt</sup> (Livak)
+ <sup>
+  <xref ref-type="bibr" rid="CR93">93</xref>
+ </sup> method using NADH as the housekeeping gene and the normal stage as the calibrator. A total of 12 expression values from day 1 and 3 regenerating intestine were compared between RNA-seq and RT-qPCR using equivalent measuring units of Log2FC.
+</p>

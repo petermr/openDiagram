@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par82">To calculate the effective number of tests across phenotypes, we calculated the correlation matrix between the gene 
+ <italic>p</italic> values for the four osteoarthritis phenotypes, and obtained the eigenvalues of this matrix. The effective number of tests 
+ <italic>N</italic>
+ <sub>eff</sub> for phenotypes was then calculated as 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$N_{eff} = N - \mathop {\sum}\nolimits_\lambda {I(\lambda &gt; 1) \ast (\lambda - 1)}$$\end{document}</tex-math>
+   <math id="M2">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+      <mi>f</mi>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>N</mi>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi>λ</mi>
+     </mrow>
+    </msub>
+    <mi>I</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>λ</mi>
+      <mo>&gt;</mo>
+      <mn>1</mn>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>*</mo>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>λ</mi>
+      <mo>−</mo>
+      <mn>1</mn>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41467_2021_21593_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where 
+ <italic>N</italic> = 4 is the number of phenotypes, and 
+ <italic>λ</italic> denotes the eigenvalues. Across the Pearson and Spearman correlation matrices, we obtained 
+ <italic>N</italic>
+ <sub>eff</sub> &lt; 2.65. With 18,449 genes per phenotype, the significance threshold for gene-level 
+ <italic>p</italic> values across genes and phenotypes was thus set as 0.05/(18,449 × 2.65) = 1.02 × 10
+ <sup>−6</sup>.
+</p>

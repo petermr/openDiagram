@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">RNA-binding proteins (RBPs) play crucial and multifaceted roles in post-transcriptional regulation. While RBPs dysregulation is involved in tumorigenesis and progression, little is known about the role of RBPs in bladder cancer (BLCA) prognosis. This study aimed to establish a prognostic model based on the prognosis-related RBPs to predict the survival of BLCA patients.</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">We downloaded BLCA RNA sequence data from The Cancer Genome Atlas (TCGA) database and identified RBPs differentially expressed between tumour and normal tissues. Then, functional enrichment analysis of these differentially expressed RBPs was conducted. Independent prognosis-associated RBPs were identified by univariable and multivariable Cox regression analyses to construct a risk score model. Subsequently, Kaplan–Meier and receiver operating characteristic curves were plotted to assess the performance of this prognostic model. Finally, a nomogram was established followed by the validation of its prognostic value and expression of the hub RBPs.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">The 385 differentially expressed RBPs were identified included 218 and 167 upregulated and downregulated RBPs, respectively. The eight independent prognosis-associated RBPs (
+   <italic>EFTUD2</italic>, 
+   <italic>GEMIN7</italic>, 
+   <italic>OAS1</italic>, 
+   <italic>APOBEC3H</italic>, 
+   <italic>TRIM71</italic>, 
+   <italic>DARS2</italic>, 
+   <italic>YTHDC1</italic>, and 
+   <italic>RBMS3</italic>) were then used to construct a prognostic prediction model. An in-depth analysis showed lower overall survival (OS) in patients in the high-risk subgroup compared to that in patients in the low-risk subgroup according to the prognostic model. The area under the curve of the time-dependent receiver operator characteristic (ROC) curve were 0.795 and 0.669 for the TCGA training and test datasets, respectively, showing a moderate predictive discrimination of the prognostic model. A nomogram was established, which showed a favourable predictive value for the prognosis of BLCA.
+  </p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par4">We developed and validated the performance of a prognostic model for BLCA that might facilitate the development of new biomarkers for the prognostic assessment of BLCA patients.</p>
+ </sec>
+</abstract>

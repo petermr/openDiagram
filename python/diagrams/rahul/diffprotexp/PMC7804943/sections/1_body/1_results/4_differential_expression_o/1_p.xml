@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">We next investigated LF2, which captures differences between neurons on the proximal-distal axis versus the other axes (i.e., dorsal-ventral and superficial-deep). Interestingly, APA is the primary layer contributing to this factor, followed by GE (Fig. 
+ <xref rid="Fig1" ref-type="fig">1b</xref>, see below). We first examined the contributions of GE by inspecting the top genes weighted by MOFA. GO analysis identified significantly enriched terms related to the ribosome and metabolism (Fig. 
+ <xref rid="Fig3" ref-type="fig">3a</xref>, FDR &lt; 0.05, FDR-corrected hypergeometric test). To more generally assess whether the top genes regulated by APA, as weighted by MOFA, relate to functions associated with post-transcriptional regulation and translation, we asked whether these overlap with annotated RNA-binding proteins (RBPs) using data from Castello et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup> and Ray et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup>. Interestingly, among the genes upregulated in the proximal-distal group, we observe significant enrichment for RBPs (27/298, 
+ <italic>p</italic> = 4.19 × 10
+ <sup>−6</sup>, hypergeometric test; Fig. 
+ <xref rid="Fig3" ref-type="fig">3b</xref>). This enrichment is unique to LF2, as no such enrichment was detected among the top-weighted genes belonging to the other factors. Interestingly, the majority (
+ <italic>n</italic> = 15) of the RBP genes encode ribosomal proteins, confirming the initial GO analysis results (Fig. 
+ <xref rid="Fig3" ref-type="fig">3c</xref>). Additionally, eight of these ribosomal protein genes show statistically significant upregulation in proximal and distal neurons compared to dorsal, ventral, superficial, and deep neurons (
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left| {{\mathrm{log}}_2\,\phi } \right| \, &gt; \, 1s$$\end{document}</tex-math>
+   <math id="M6">
+    <mfenced close="∣" open="∣">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">log</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mspace width="0.25em"/>
+      <mi>ϕ</mi>
+     </mrow>
+    </mfenced>
+    <mspace width="0.25em"/>
+    <mo>&gt;</mo>
+    <mspace width="0.25em"/>
+    <mn>1</mn>
+    <mi>s</mi>
+   </math>
+   <inline-graphic xlink:href="41467_2020_20483_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, FDR &lt; 0.05, where 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\phi$$\end{document}</tex-math>
+   <math id="M8">
+    <mi>ϕ</mi>
+   </math>
+   <inline-graphic xlink:href="41467_2020_20483_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the fold change in gene expression between these two groups).
+</p>

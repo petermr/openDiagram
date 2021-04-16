@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">To further investigate how GE, AS, and APA are coordinated in the definition of temporally and spatially distinct subpopulations of pyramidal neurons, we employed multiomics factor analysis (MOFA)
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>, a statistical framework for identifying principal sources of variation from multiple data types in an unsupervised manner. Briefly, MOFA jointly analyzes multiple data types using group factor analysis to infer a set of hidden, latent factors unobserved by the data
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>. In a manner similar to PCA, each latent factor represents a component of the unobserved structure of the data that is jointly dependent on multiple input data sources. MOFA has distinct advantages over other multiomics approaches, as it can handle missing values, integrate data from multiple modalities, is robust to differences in measurement scales across inputs, and identify hidden sub-groups underlying the data, for example, those that explain biological and technical sources of variablilty
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>. In the present study, we sought to identify distinct neuronal populations based on one or more underlying data modalities. By interrogating the latent factor scores or loadings assigned by MOFA, the variation explained by each latent factor could be interpreted and annotated, as described below.
+</p>

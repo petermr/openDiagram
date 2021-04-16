@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="B30">
+ <mixed-citation publication-type="journal">
+  <person-group person-group-type="author">
+   <name>
+    <surname>McCarthy</surname>
+    <given-names>D. J.</given-names>
+   </name>
+   <name>
+    <surname>Campbell</surname>
+    <given-names>K. R.</given-names>
+   </name>
+   <name>
+    <surname>Lun</surname>
+    <given-names>A. T. L.</given-names>
+   </name>
+   <name>
+    <surname>Wills</surname>
+    <given-names>Q. F.</given-names>
+   </name>
+  </person-group> (
+  <year>2017</year>). 
+  <article-title>Scater: pre-processing, quality control, normalization and visualization of single-cell RNA-seq data in R</article-title>. 
+  <source>Bioinformatics</source>
+  <volume>33</volume>, 
+  <fpage>1179</fpage>–
+  <lpage>1186</lpage>. 
+  <pub-id pub-id-type="doi">10.1093/bioinformatics/btw777</pub-id>
+  <pub-id pub-id-type="pmid">28088763</pub-id>
+ </mixed-citation>
+</ref>

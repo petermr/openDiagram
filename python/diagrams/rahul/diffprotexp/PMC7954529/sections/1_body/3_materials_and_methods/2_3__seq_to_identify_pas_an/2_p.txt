@@ -1,0 +1,5 @@
+0: We mapped human 3' Seq libraries to GRCh38 ( Schneider et al., 2017) and chimpanzee libraries to panTro6 ( Chimpanzee Sequencing and Analysis Consortium, 2005) using the STAR RNA-seq aligner with default settings ( Dobin et al., 2013).
+1: Similar to our previous work, we removed reads with evidence of internal priming resulting from the poly(dT) primer.
+2: We filtered reads proceeded by 6 As or 7 of 10 As in the base pairs directly upstream of the mapped location ( Mittleman et al., 2020;  Sheppard et al., 2013;  Tian et al., 2005).
+3: To ensure that differences in low quality bases would not bias our results, we treated any N in the genome annotation as an A.
+4: All raw read counts, mapped read counts, and filtered read counts can be found in  Supplementary file 4.

@@ -1,0 +1,5 @@
+0: The sequencing data and TCGA data were standardized using rlogTransformation and varianceStabilizingTransformation of the DESeq2 package ( 26), respectively.
+1: DESeq of the DESeq2 package was used for differentially expressed genes analysis.
+2: Genes with P value adjusted by the false discovery rate (FDR)<0.01 were considered significant, and differentially expressed genes (DEGs) with opposite expressions in sequencing data and TCGA data were defined to be the genes affected by RSV in the treatment of breast cancer.
+3: In terms of genes affecting RSV in the treatment of breast cancer, an enrichment analysis was performed using enrichGO and enrichKEGG of the clusterProfiler package ( 27).
+4: The pathway with a P Value<0.05 was considered to be significant.

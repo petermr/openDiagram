@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Fig. 1</label>
+ <caption>
+  <title>Multi-layered RNA-seq analysis for investigating neuronal subtype diversity.</title>
+  <p>
+   <bold>a</bold> Schematic of the mouse hippocampus (center) and the various anatomical regions assayed by RNA-seq from Cembrowski et al.
+   <sup>
+    <xref ref-type="bibr" rid="CR28">28</xref>
+   </sup>. The hippocampus is broadly segmented into three subfields: CA1 (purple), CA3 (green), and DG (orange, unlabeled). Computational methods were applied to generate multi-dimensional profiles of each transcriptome, including gene expression (GE), exon sequence alternative splicing (AS), intron retention (IR), and alternative polyadenylation (APA). Hippocampus schematic by Rayna Harris
+   <sup>
+    <xref ref-type="bibr" rid="CR77">77</xref>
+   </sup>, distributed under a Creative Commons Attribution License. 
+   <bold>b</bold> MOFA was applied to investigate the sources of variation that describe the differences between neuronal types. The total contributions of each layer, measured by total variance explained (
+   <italic>R</italic>
+   <sup>2</sup>), are summarized in the bar-plot (top panel). The individual contributions of each layer to each latent factor (LF) are summarized in the heatmap (bottom panel). 
+   <bold>c</bold> Beeswarm plots (one-dimensional scatterplots) illustrating the variation described by the top four latent factors inferred by MOFA. Each sample is assigned a factor weight (
+   <italic>y</italic>-axis) signifying its involvement in explaining the factor. MOFA captures sources of variability found between different regions (color).
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20483_Fig1_HTML" id="d31e561" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

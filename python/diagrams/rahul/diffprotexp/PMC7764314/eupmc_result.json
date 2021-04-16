@@ -1,0 +1,626 @@
+{
+  "id": [
+    "33322692"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33322692"
+  ],
+  "pmcid": [
+    "PMC7764314"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7764314"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ijms21249461"
+  ],
+  "title": [
+    "Differential Co-Expression Analyses Allow the Identification of Critical Signalling Pathways Altered during Tumour Transformation and Progression."
+  ],
+  "authorString": [
+    "Savino A, Provero P, Poli V."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Savino A"
+          ],
+          "firstName": [
+            "Aurora"
+          ],
+          "lastName": [
+            "Savino"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0783-7191",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Molecular Biotechnology Center, Department of Molecular Biotechnology and Health Sciences, University of Turin, Via Nizza 52, 10126 Turin, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Provero P"
+          ],
+          "firstName": [
+            "Paolo"
+          ],
+          "lastName": [
+            "Provero"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8664-8630",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosciences \"Rita Levi Montalcini\", University of Turin, Corso Massimo D'Ázeglio 52, 10126 Turin, Italy."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Center for Omics Sciences, Ospedale San Raffaele IRCCS, Via Olgettina 60, 20132 Milan, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Poli V"
+          ],
+          "firstName": [
+            "Valeria"
+          ],
+          "lastName": [
+            "Poli"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Molecular Biotechnology Center, Department of Molecular Biotechnology and Health Sciences, University of Turin, Via Nizza 52, 10126 Turin, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8664-8630",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0783-7191",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "24"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "3065878"
+      ],
+      "dateOfPublication": [
+        "2020 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "abstractText": [
+    "Biological systems respond to perturbations through the rewiring of molecular interactions, organised in gene regulatory networks (GRNs). Among these, the increasingly high availability of transcriptomic data makes gene co-expression networks the most exploited ones. <i>Differential</i> co-expression networks are useful tools to identify changes in response to an external perturbation, such as mutations predisposing to cancer development, and leading to changes in the activity of gene expression regulators or signalling. They can help explain the robustness of cancer cells to perturbations and identify promising candidates for targeted therapy, moreover providing higher specificity with respect to standard co-expression methods. Here, we comprehensively review the literature about the methods developed to assess differential co-expression and their applications to cancer biology. Via the comparison of normal and diseased conditions and of different tumour stages, studies based on these methods led to the definition of pathways involved in gene network reorganisation upon oncogenes' mutations and tumour progression, often converging on immune system signalling. A relevant implementation still lagging behind is the integration of different data types, which would greatly improve network interpretability. Most importantly, performance and predictivity evaluation of the large variety of mathematical models proposed would urgently require experimental validations and systematic comparisons. We believe that future work on differential gene co-expression networks, complemented with additional omics data and experimentally tested, will considerably improve our insights into the biology of tumours."
+  ],
+  "affiliation": [
+    "Molecular Biotechnology Center, Department of Molecular Biotechnology and Health Sciences, University of Turin, Via Nizza 52, 10126 Turin, Italy."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "MIUR-PRIN 2017"
+          ],
+          "agency": [
+            "Ministero dell'Istruzione, dell'Università e della Ricerca"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2011-2015"
+          ],
+          "agency": [
+            "the Truus and Gerrit van Riemsdijk Foundation, Liechtenstein"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "AIRC IG16930"
+          ],
+          "agency": [
+            "Associazione Italiana per la Ricerca sul Cancro"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "Deflect POLV_SALU_BEN_18_01"
+          ],
+          "agency": [
+            "Regione Piemonte"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Progression"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Signal Transduction"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Neoplastic"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Regulatory Networks"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Cancer",
+        "Bioinformatics",
+        "computational biology",
+        "Biological Networks",
+        "Tumour Progression",
+        "Differential Co-expression"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms21249461"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7764314"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7764314?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2021-03-19"
+  ],
+  "dateOfCreation": [
+    "2020-12-16"
+  ],
+  "firstIndexDate": [
+    "2020-12-24"
+  ],
+  "fullTextReceivedDate": [
+    "2020-12-28"
+  ],
+  "dateOfRevision": [
+    "2021-03-19"
+  ],
+  "electronicPublicationDate": [
+    "2020-12-12"
+  ],
+  "firstPublicationDate": [
+    "2020-12-12"
+  ]
+}

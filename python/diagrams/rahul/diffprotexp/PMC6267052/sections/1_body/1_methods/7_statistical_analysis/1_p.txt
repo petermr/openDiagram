@@ -1,0 +1,10 @@
+0: Only MS1 data from the DIA and DDA analysis was included in the statistical analysis which was performed in Stata (Release 14, StataCorp, 2015).
+1: All peak area intensity values for each precursor ion were added together, resulting in one peak area value for each protein in each fraction.
+2: In order to get one peak area value for each patient, the two fractions for each sample were added together and this value was used for further analysis.
+3: By selecting the top 3 peptides for each protein in the DIA analysis and calculating a mean value, we received a peak area value comparable to the DDA data.
+4: Only proteins with quantitative information in all patients from both tissues ( n = 90 proteins) were included in the statistical analysis.
+5: Data was analysed using a linear mixed-effect model fitted through restricted maximum likelihood using the ANOVA method for computing degrees of freedom.
+6: The tissue donor was included as a random effect and the tissue (meniscus or articular cartilage) was included as fixed effect.
+7: Data was log2 transformed before the analysis.
+8: To mimic a typical analysis of data in proteome studies, we also performed an analysis with a control of the false discovery rate (FDR), using the method of Benjamini and Hochberg [ 16].
+9: We considered a two-tailed  p-value less or equal to 0.05 to be statistically significant.

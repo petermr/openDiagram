@@ -1,0 +1,4 @@
+0: PLINK software was first used to perform a logistic regression association analysis of all observed common SNVs (minor allele frequency  1%), correcting for the first 5 principal components (PCs) of genetic ancestry.
+1: The genome-wide significance threshold for multiple test correction was set at 510 8.
+2: Furthermore, Genome-wide Complex Trait Analysis (GCTA, v1.91.6beta,  https://cnsgenomics.com/software/gcta/#Overview) software [ 30] was used to perform the chi-square tests of subgroup common SNVs on a gene +/50 kb of UTRs or a 100Kb segment region.
+3: A standard Bonferroni correction would yield a significance level of  2  10 6 for the common SNVs set based tests.

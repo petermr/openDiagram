@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par28">
+ <italic>Urochondra setulosa</italic> is a native halophyte of extreme saline lands which is still unexplored for its salt tolerance mechanism. Few reports are available for its physiological and biochemical attributes at high salinity
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup> still the transcriptomic analysis at saline conditions is lacking. This study is the first report of transcriptomic studies of 
+ <italic>Urochondra</italic> at high salt levels for functional categorization of differentially expressed genes. Illumina paired-end transcriptome sequencing generated approximately 368.70 million raw reads with 95.66% of high quality reads having Phred score &gt; q30. Compared with the other EST sequencing technologies, the RNA-Seq provides assembled and annotated high quality reads as studied in a number of plants such as 
+ <italic>Suaeda salsa</italic>
+ <sup>
+  <xref ref-type="bibr" rid="CR8">8</xref>,
+  <xref ref-type="bibr" rid="CR9">9</xref>
+ </sup>, 
+ <italic>Spartina spp</italic>
+ <sup>
+  <xref ref-type="bibr" rid="CR10">10</xref>,
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>, pearl millet
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>, 
+ <italic>Halogeton glomeratus</italic>
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>
+ <italic>, Iris lacteal</italic>
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup>
+ <italic>,</italic> sugar beet
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup> and 
+ <italic>Withania Somnifera</italic>
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>. Normalization of the library improves a number of annotated genes significantly and reduces the oversampling of ample transcripts
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>. DESeq normalized expression values were used to calculate fold change for a given transcript. The genes exhibiting a significant difference between treatment and control samples are considered to be differentially expressed.
+</p>

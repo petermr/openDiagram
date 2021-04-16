@@ -1,0 +1,4 @@
+0: Quantitative proteomics data of lung cancer cell line U1810 treated with miRNA mimics as previously described ( 24).
+1: Search results of the associated data (gene symbol centric search; PSMs and proteins filtered at 1% FDR; 369,273 PSMs; 107,509 unique peptides; 8,677 proteins) was downloaded from ProteomeXchange with identifier PXD004163.
+2: Same as data set D1, median sweeping method was used to summarize PSM level intensities to protein log2 ratio.
+3: The data was filtered to remove proteins with missing quant values (resulting in 8625 proteins), and analysis was performed using biological triplicates of miR-372 mimics and control siRNA treated cells.

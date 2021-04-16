@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par28">Differential expression analysis was performed on counts of mapped reads for each gene in R version 3.2.1
+ <sup>
+  <xref ref-type="bibr" rid="CR51">51</xref>
+ </sup>
+ <italic>.</italic> Strand-specific read counts were used with the R package DESeq2 (v1.12.4)
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup> to identify differentially expressed genes (adjusted 
+ <italic>p-value</italic> &lt; 0.05, Benjamini–Hochberg correction). Gene counts were normalized prior to differential analysis using the normalization method implemented in DESeq2. To identify differentially expressed snoRNA genes, all the rRNA and tRNA genes were removed from the quantified genes prior to performing differential analysis. For the cyto–cyto and nuc–nuc differential gene expression analysis, we subsampled the read counts from the samples to obtain equal library sizes using metaseqR
+ <sup>
+  <xref ref-type="bibr" rid="CR53">53</xref>
+ </sup>. Differential expression analysis was performed in the similar way as mentioned earlier.
+</p>

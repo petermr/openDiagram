@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Except for differential gene expression analysis, Weighted Gene Co-expression Network Analysis (WGCNA) is another powerful method to study transcriptomics 
+ <xref rid="B24" ref-type="bibr">24</xref>. WGCNA can be used to detect co-expression modules of highly correlated genes and interested modules associated with clinical traits providing profound insight into predicting the functions of co-expression genes and finding genes that play key roles in human diseases 
+ <xref rid="B31" ref-type="bibr">31</xref>, 
+ <xref rid="B32" ref-type="bibr">32</xref>. In order to find the tumor related functional clusters in tongue cancer patients, we constructed the gene co-expression networks from the TCGA datasets with the 
+ <italic>WGCNA</italic> package. We totally obtained 12 distinct modules with each module assigned a color (Figure 
+ <xref ref-type="fig" rid="F2">2</xref>C). Genes clustering in each module were shown in 
+ <xref ref-type="supplementary-material" rid="SM0">Table S3</xref>. Next, we plotted a heatmap of module-trait relationships to evaluate the association between each module and two clinical traits (Cancer and Normal) (Figure 
+ <xref ref-type="fig" rid="F2">2</xref>D). The result shown that among the 12 modules, the black and tan modules have the highest association value of either normal tissues or cancer tissues (Trait-Normal: black module: r = 0.71, p = 4e-26; Trait-Cancer: tan module: r = 0.6, p = 5e-17).
+</p>

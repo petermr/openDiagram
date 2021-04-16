@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>An intriguing approach consists in using co-expression to identify clusters of samples, e.g., subsets of tumours differing in the co-expression of TF targets, leading to the identification of modulators of differential co-expression [
+ <xref rid="B62-ijms-21-09461" ref-type="bibr">62</xref>,
+ <xref rid="B98-ijms-21-09461" ref-type="bibr">98</xref>,
+ <xref rid="B99-ijms-21-09461" ref-type="bibr">99</xref>,
+ <xref rid="B100-ijms-21-09461" ref-type="bibr">100</xref>] (
+ <xref rid="ijms-21-09461-t006" ref-type="table">Table 6</xref>). Most of the algorithms are implemented in R and freely available, to facilitate their usage, together with network visualisation tools (e.g., Cytoscape and Gephi [
+ <xref rid="B101-ijms-21-09461" ref-type="bibr">101</xref>,
+ <xref rid="B102-ijms-21-09461" ref-type="bibr">102</xref>]).
+</p>

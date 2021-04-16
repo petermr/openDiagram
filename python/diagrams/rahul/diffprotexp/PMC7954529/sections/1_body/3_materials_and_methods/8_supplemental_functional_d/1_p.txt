@@ -1,0 +1,5 @@
+0: We downloaded human protein length (in number of amino acids) for proteins annotated as reviewed for high confidence from UniProtKB ( UniProt Consortium, 2019).
+1: We downloaded ubiquitination protein modification data from PhoshoSitePlus version 050320 ( Hornbeck et al., 2015).
+2: For all analyses in which we used interaction or ubiquitination data, we normalized the values by number of amino acids.
+3: To identify 3' UTR AREs in human RefSeq annotated 3' UTRs, we used the transcriptome_properties.py script published in  Floor and Doudna, 2016, available at  https://github.com/stephenfloor/tripseq-analysis ( Mittleman, 2021b; copy archived at  swh:1:rev:3e823abcca5b8c1e5e89dd9bd4c49e8673b3e957) with the au-elements flag ( Floor, 2017;  Floor and Doudna, 2016).
+4: According to  Floor and Doudna, 2016, the fraction of AU elements is the percentage of the 3' UTR with repeating AU elements of 5nt or more ( Floor and Doudna, 2016).

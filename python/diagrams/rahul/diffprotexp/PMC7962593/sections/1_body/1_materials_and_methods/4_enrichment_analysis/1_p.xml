@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We used the clusterProfiler package in R
+ <xref rid="cit0022" ref-type="bibr">22</xref> to perform gene ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis of common genes. 
+ <italic>P</italic> &lt; 0.05 was considered statistically significant for enrichment. The significantly enriched terms were subjected to gene set variation analysis (GSVA)
+ <xref rid="cit0023" ref-type="bibr">23</xref> to calculate the score for the enrichment using the gene expression profile. The up-regulation or down-regulation of enrichment terms in septic patients relative to controls was evaluated using the GSVA score in the limma package in R. Gene set enrichment analysis (GSEA) was used to identify KEGG pathway using GSEA software. The fgsea package in R was used to display the results of the GSEA.
+</p>

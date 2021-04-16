@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6784-5214</contrib-id>
+  <name>
+   <surname>Dulai</surname>
+   <given-names>Jasdip Singh</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001"/>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2699-1979</contrib-id>
+  <name>
+   <surname>Smith</surname>
+   <given-names>Ewan St. John</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001"/>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3830-5160</contrib-id>
+  <name>
+   <surname>Rahman</surname>
+   <given-names>Taufiq</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001"/>
+ </contrib>
+ <aff id="aff0001">Department of Pharmacology, 
+  <institution-wrap>
+   <institution>University of Cambridge</institution>
+  </institution-wrap>, 
+  <city>Cambridge</city>, 
+  <country>UK</country>
+ </aff>
+</contrib-group>

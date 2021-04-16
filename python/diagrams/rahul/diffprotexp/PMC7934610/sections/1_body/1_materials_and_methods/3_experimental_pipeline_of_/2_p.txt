@@ -1,0 +1,9 @@
+0: During the RNA-seq process, after DNase I treatment, magnetic beads with Oligo (dT) were used to isolate mRNA.
+1: Mixed with the fragmentation buffer, the mRNA was fragmented into short fragments.
+2: Then, cDNA was synthesized using mRNA fragments as templates.
+3: cDNA fragments were purified and resolved with EB buffer for end reparation and adenine addition.
+4: After that, the fragments were connected to adapters.
+5: After agarose gel electrophoresis, the suitable fragments were selected for the polymerase chain reaction (PCR) amplification as templates.
+6: During the quality control (QC) steps, an Agilent 2100 Bioanalyzer and ABI StepOnePlus Real-Time PCR System were used for the quantification and qualification of the sample library.
+7: In this process, the intestinal tissue of every sheep in the CE-R group was prepared to an individual paired-end library for RNA-seq, like in the CE-NR group.
+8: Each library was sequenced using Illumina HiSeq 2000 (BGI, Huada Genomics Institute, Shenzhen, China).

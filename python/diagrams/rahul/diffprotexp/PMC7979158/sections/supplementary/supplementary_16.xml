@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="supp10">
+ <label>Supplementary file 10.</label>
+ <caption>
+  <title>Differential gene expression data of control vs MIA female samples at E12.5.</title>
+  <p>Columns indicate gene symbols (gene_name), log
+   <sub>2</sub> fold change (LogFC), log
+   <sub>2</sub> counts per million (LogCPM), likelihood ratio statistics (LR), p value (PValue), and false discovery rate adjusted p value (FDR). A total of 16,161 genes were tested.
+  </p>
+ </caption>
+ <media mime-subtype="zip" mimetype="application" xlink:href="elife-60100-supp10.zip" orientation="portrait" id="d39e2234" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</supplementary-material>

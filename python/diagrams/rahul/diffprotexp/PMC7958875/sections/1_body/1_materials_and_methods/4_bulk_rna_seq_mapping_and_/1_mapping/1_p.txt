@@ -1,0 +1,3 @@
+0: Transcriptomes from individual  Anopheles midguts infected with  P. falciparum from a previous study ( Dahalan et al., 2019) were mapped to the  P. falciparum v3 genome ( http://www.genedb.org/Homepage/Pfalciparum, October 2016) with HISAT2 (v 2.1.0) ( Kim et al., 2015) using  hisat2 rna-strandness RF max-intronlen 5000 p 12.
+1: Reads were summed against transcripts using featureCounts in the Subread package (v 2.0.0) ( Liao et al., 2014) using  featureCounts -p -t CDS -g transcript_id -s 2.
+2: Two samples that had fewer than 5,000 reads were removed.

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">All of the above findings indicate a close association between chromatin state and differential splicing following 
+ <italic>RUNX1/RUNX1T1</italic> knockdown. Since the epigenetic landscape affects alternative splicing only in cooperation with sequence features of pre-mRNA
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>, we integrated epigenetic data with multivariate sequence data and calculated the partial dependence for each epigenetic mark using a random forest approach (see Supplementary Methods for further details). This analysis demonstrates that differential splicing is promoted by proximity to RUNX1/RUNX1T1, RNA pol II, and H3K9Ac sites, as well as DNase I hypersensitivity sites (Fig. 
+ <xref rid="Fig4" ref-type="fig">4d</xref>) and highlights the influence of the chromatin state on differential splicing following RUNX1/RUNX1T1 knockdown.
+</p>

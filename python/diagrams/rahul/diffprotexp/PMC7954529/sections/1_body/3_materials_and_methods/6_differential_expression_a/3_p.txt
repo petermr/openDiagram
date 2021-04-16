@@ -1,0 +1,9 @@
+0: We mapped on average 18.6 million reads to orthologous exons.
+1: We collapsed orthologous exons to quantify raw gene expression for each gene in each individual.
+2: We standardized counts and filtered out genes that did not pass the criteria of log 2(CPM) values greater than 1 in 8 of the 12 individuals.
+3: To prepare counts for differential expression modeling, we used the Voom function with the quantile normalization method in the limma R package ( Ritchie et al., 2015).
+4: We used principal component analysis (PCA) to test for batch effects.
+5: PC1 explains 35.1% of the variation and is highly correlated with species (R 2 = 0.98) ( Figure 3figure supplement 4).
+6: Collected metadata such as the percent of live cells at collection, cell concentration at collection, RIN score, and RNA concentration do not segregate by species ( Figure 3figure supplement 4).
+7: We modeled species as a fixed effect and called genes as differentially expressed at a 5% FDR.
+8: The results from our differential expression analysis, including effect sizes and significance values, are available in  Supplementary file 6.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To identify genes that varied in expression independently of developmental progression, we used a generalized linear model to regress out the effect of pseudotime as described in (
+ <xref rid="B17" ref-type="bibr">Howick et al., 2019</xref>). We then used M3Drop (
+ <xref rid="B3" ref-type="bibr">Andrews and Hemberg, 2018</xref>) on this corrected expression matrix to identify genes that still showed a variable pattern of expression (qval &lt; 0.05). This method was used prior to differential expression analysis as a feature selection process to reduce the signal to noise ratio and identify genes that are likely to be biologically relevant. To identify genes that were variable independent of the midgut environment and could be potential bet-hedging genes, we used this method in the 
+ <italic>Pb single-gut data set</italic> by selecting features that were highly variable within each gut and identifying the intersection of the highly variable features across all four guts.
+</p>

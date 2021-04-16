@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A minimal pre-filtering of features was performed to keep only transcripts that have at least 10 reads in total. We then performed differential gene expression analysis using Deseq2 (
+ <xref rid="B29" ref-type="bibr">Love et al., 2014</xref>) with a design that included mating status, antibiotic treatment, and the proportion of ookinetes as factors in the model.
+</p>

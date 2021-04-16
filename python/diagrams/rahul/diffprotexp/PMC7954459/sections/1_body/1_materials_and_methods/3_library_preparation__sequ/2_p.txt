@@ -1,0 +1,7 @@
+0: SmRNA libraries were prepared using TrueSeq Small RNA Sample Prep Kit (Illumina Technologies) as per the manufacturer's instructions.
+1: Each smRNA library was sequenced on the Illumina platform to generate 50 nt long singleend reads.
+2: The sequencing data obtained in FASTQ files were used for further processing.
+3: Cutadapt was used to remove adapter sequences (Martin,  2011).
+4: Quality of reads was verified using qrqc package ( http://github.com/vsbuffalo/qrqc) in R Bioconductor.
+5: FASTQ format reads were converted to FASTA format and redundant reads were merged for further processing.
+6: The highquality nonredundant set of reads were used for miRNA identification in each sample.

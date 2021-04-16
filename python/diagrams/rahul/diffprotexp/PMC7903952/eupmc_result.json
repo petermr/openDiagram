@@ -1,0 +1,415 @@
+{
+  "id": [
+    "33642868"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33642868"
+  ],
+  "pmcid": [
+    "PMC7903952"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7903952"
+      ]
+    }
+  ],
+  "doi": [
+    "10.2147/ott.s273264"
+  ],
+  "title": [
+    "LINC00466 Impacts Cell Proliferation, Metastasis and Sensitivity to Temozolomide of Glioma by Sponging miR-137 to Regulate PPP1R14B Expression."
+  ],
+  "authorString": [
+    "Zhao M, Shao Y, Xu J, Zhang B, Li C, Gong J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zhao M"
+          ],
+          "firstName": [
+            "Mingfei"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosurgery, Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Shao Y"
+          ],
+          "firstName": [
+            "Yijie"
+          ],
+          "lastName": [
+            "Shao"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosurgery, Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Xu J"
+          ],
+          "firstName": [
+            "Jinfang"
+          ],
+          "lastName": [
+            "Xu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1827-8145",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosurgery, Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang B"
+          ],
+          "firstName": [
+            "Buyi"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li C"
+          ],
+          "firstName": [
+            "Chenguang"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosurgery, Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gong J"
+          ],
+          "firstName": [
+            "Jie"
+          ],
+          "lastName": [
+            "Gong"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurointerventional, Zhejiang Hospital of Zhejiang Province, Hangzhou, Zhejiang, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1827-8145",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "3092265"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "OncoTargets and therapy"
+          ],
+          "ISOAbbreviation": [
+            "Onco Targets Ther"
+          ],
+          "medlineAbbreviation": [
+            "Onco Targets Ther"
+          ],
+          "NLMid": [
+            "101514322"
+          ],
+          "ISSN": [
+            "1178-6930"
+          ],
+          "ESSN": [
+            "1178-6930"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "1147-1159"
+  ],
+  "abstractText": [
+    "<h4>Purpose</h4>LINC00466 is a newfound long non-coding RNA (lncRNA) that has been rarely explored in cancers. However, the specific role and molecular mechanism of LINC00466 in glioma remain to be further elucidated.<h4>Methods</h4>Bioinformatic analysis was used to screen differentially expressed genes. Quantitative real-time PCR (qRT-PCR) was used to determine the expression of LINC00466, microRNA-137 (miR-137) and protein phosphatase 1 regulatory subunit 14B (PPP1R14B). Dual-luciferase reporter gene assay and RNA binding protein Immunoprecipitation (RIP) assays were employed to verify the binding relationship among LINC00466, miR-137 and PPP1R14B. The sensitivity of glioma cells to temozolomide (TMZ) was measured by cell counting kit-8 (CCK8) assay. The xenograft nude models were used to test the effects of LINC00466 on glioma tumor growth <i>in vivo</i>.<h4>Results</h4>Highly expressed LINC00466 and PPP1R14B and lowly expressed miR-137 were eventually revealed in glioma tissues. Overexpression of LINC00466 could promote proliferation, metastasis and drug sensitivity to TMZ of glioma cells. LINC00466 could bind to miR-137, and up-regulation of miR-137 could attenuate the enhancing effects caused by LINC00466 overexpression. We took a further step and found that miR-137 could bind to PPP1R14B. Besides, LINC00466 could function as a sponge to miR-137 to regulate PPP1R14B. In addition, overexpression of LINC00466 could promote tumor growth <i>in vivo</i>.<h4>Conclusion</h4>These findings validate LINC00466 could restrain the miR-137 expression to up-regulate PPP1R14B and therefore promote proliferation, metastasis and resistance to TMZ of glioma."
+  ],
+  "affiliation": [
+    "Department of Neurosurgery, Second Affiliated Hospital, School of Medicine, Zhejiang University, Hangzhou, Zhejiang, People's Republic of China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Glioma",
+        "Proliferation And Metastasis",
+        "Linc00466/Mir-137/Ppp1r14b",
+        "Temozolomide; Tmz"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2147/OTT.S273264"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7903952"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7903952?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-01"
+  ],
+  "firstIndexDate": [
+    "2021-03-02"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-27"
+  ],
+  "dateOfRevision": [
+    "2021-03-03"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-19"
+  ],
+  "firstPublicationDate": [
+    "2021-02-19"
+  ]
+}

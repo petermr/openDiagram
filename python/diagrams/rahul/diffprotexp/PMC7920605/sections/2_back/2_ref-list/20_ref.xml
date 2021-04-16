@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="cit0020">
+ <label>20.</label>
+ <mixed-citation publication-type="journal">
+  <string-name>
+   <surname>Kim</surname>
+   <given-names>D</given-names>
+  </string-name>, 
+  <string-name>
+   <surname>Langmead</surname>
+   <given-names>B</given-names>
+  </string-name>, 
+  <string-name>
+   <surname>Salzberg</surname>
+   <given-names>SL</given-names>
+  </string-name>. 
+  <article-title>HISAT: a fast spliced aligner with low memory requirements</article-title>. 
+  <source>
+   <italic toggle="yes">Nat Methods</italic>
+  </source>. 
+  <year>2015</year>;
+  <volume>12</volume>(
+  <issue>4</issue>):
+  <fpage>357</fpage>–
+  <lpage>360</lpage>. doi:
+  <pub-id pub-id-type="doi">10.1038/nmeth.3317</pub-id>
+  <pub-id pub-id-type="pmid">25751142</pub-id>
+ </mixed-citation>
+</ref>

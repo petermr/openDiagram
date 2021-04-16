@@ -1,0 +1,5 @@
+0: Consistent with previous research.
+1: Because lincRNA can regulate its potential target genes in cis.
+2: Based on this, we used Bedtools software (version 2.17.0) to search protein-coding gene in the 100 kb upstream and downstream of the lincRNA locus, and used R to calculate the Pearson correlation coefficient between DEL and protein-coding genes.
+3: Finally, protein-coding gene with a correlation coefficient greater than 0.9 were identified as potential target genes for DEL.
+4: At the same time, if the protein-coding gene is differentially expressed in the two groups, this protein-coding gene is a potential target gene for differential expression.

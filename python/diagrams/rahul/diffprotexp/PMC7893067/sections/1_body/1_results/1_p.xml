@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par7">To characterize the abundance of transcripts in the nuclear and cytosolic RNA fractions from brain tissue we sequenced fractionated total RNA extracted from six adult frontal cortex samples, three fetal frontal cortex samples, and cerebellum from the same three fetal samples. The nuclear and cytosolic RNA was also sequenced from the human neuroblastoma cell line (SHSY-5Y) for reference. Total RNA sequencing was carried out using IonProton whole transcriptome with an average of 80.5 million mapped reads per nuclear sample and 46.9 million reads per cytosolic sample. The cytosolic sequence reads mapped primarily to exons (84.1% exonic mapping) while the nuclear reads, as expected, had a large proportion aligned to intron and intergenic sequences (19.81% exonic mapping). As we demonstrated in our previous studies
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>,
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>, the lower percentage of exonic reads and higher percentage of intronic reads in the nucleus compared to the cytosol are primarily due to the presence of nascent transcripts. Details about the samples and sequencing of each sample are provided in Supplementary Table 
+ <xref rid="MOESM1" ref-type="media">1</xref>. Hierarchical clustering of all samples based on the expression of protein-coding genes and lncRNAs showed brain tissues clustering together with their corresponding subcellular fraction (a cytosolic cluster and a nuclear cluster), while both fractions from the SHSY-5Y cell line formed a separate cluster (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>A). Similarly, principal component analysis (PCA) separated all the samples according to their subcellular fractions and tissue sources along the PC1 and PC2, respectively (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>B).
+</p>

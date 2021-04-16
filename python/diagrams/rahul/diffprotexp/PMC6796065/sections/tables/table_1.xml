@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Characteristics of postmortem brain samples.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th/>
+    <th>Schizophrenia</th>
+    <th>Bipolar Disorder</th>
+    <th>Control</th>
+    <th>Cont vs Sz (p value)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="5">
+     <bold>First sample set</bold>
+    </td>
+   </tr>
+   <tr>
+    <td>Number of samples</td>
+    <td>21</td>
+    <td>6</td>
+    <td>22</td>
+    <td>—</td>
+   </tr>
+   <tr>
+    <td>Sex (M/F)</td>
+    <td>13/8</td>
+    <td>3/3</td>
+    <td>14/8</td>
+    <td>χ
+     <sup>2</sup>-test p = 0.907
+    </td>
+   </tr>
+   <tr>
+    <td>Mean age at death (year)</td>
+    <td>68.9</td>
+    <td>66.0</td>
+    <td>63.7</td>
+    <td>Welch’s 
+     <italic>t</italic>-test p = 0.195
+    </td>
+   </tr>
+   <tr>
+    <td>Mean PMI (h)</td>
+    <td>16.1</td>
+    <td>17.0</td>
+    <td>14.7</td>
+    <td>Welch’s 
+     <italic>t</italic>-test p = 0.770
+    </td>
+   </tr>
+   <tr>
+    <td>Mean CP-eq (mg/day)</td>
+    <td>653.5</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+   </tr>
+   <tr>
+    <td colspan="5">
+     <bold>Second sample set</bold>
+    </td>
+   </tr>
+   <tr>
+    <td/>
+    <td>
+     <bold>Schizophrenia</bold>
+    </td>
+    <td>
+     <bold>Others</bold>
+    </td>
+    <td>
+     <bold>Control</bold>
+    </td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Number of samples</td>
+    <td>2</td>
+    <td>6</td>
+    <td>26</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Sex (M/F)</td>
+    <td>1/1</td>
+    <td>4/2</td>
+    <td>12/14</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Mean age at death (year)</td>
+    <td>72</td>
+    <td>70.8</td>
+    <td>85.8</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Mean PMI (h)</td>
+    <td>20.7</td>
+    <td>4.3</td>
+    <td>9.6</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Mean CP-eq (mg/day)</td>
+    <td>1012.5</td>
+    <td>—</td>
+    <td>—</td>
+    <td/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>First sample set was used protein expression study in diagnostic groups as well as genotyping. Second sample set was used to confirm the association between rs1801028 and protein expression. PMI, postmortem interval; CP eq, chlorpromazine equivalent dose.</p>
+ </table-wrap-foot>
+</table-wrap>

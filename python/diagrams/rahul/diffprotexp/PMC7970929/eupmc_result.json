@@ -1,0 +1,534 @@
+{
+  "id": [
+    "33692429"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33692429"
+  ],
+  "pmcid": [
+    "PMC7970929"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7970929"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41598-021-85220-7"
+  ],
+  "title": [
+    "de novo transcriptomic profiling of differentially expressed genes in grass halophyte Urochondra setulosa under high salinity."
+  ],
+  "authorString": [
+    "Mann A, Kumar N, Kumar A, Lata C, Kumar A, Meena BL, Mishra D, Grover M, Gaba S, Parameswaran C, Mantri N."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mann A"
+          ],
+          "firstName": [
+            "Anita"
+          ],
+          "lastName": [
+            "Mann"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR-Central Soil Salinity Research Institute, Karnal, Haryana, India. anitadgr13@gmail.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kumar N"
+          ],
+          "firstName": [
+            "Naresh"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR-Central Soil Salinity Research Institute, Karnal, Haryana, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kumar A"
+          ],
+          "firstName": [
+            "Ashwani"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR-Central Soil Salinity Research Institute, Karnal, Haryana, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lata C"
+          ],
+          "firstName": [
+            "Charu"
+          ],
+          "lastName": [
+            "Lata"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR-Central Soil Salinity Research Institute, Karnal, Haryana, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kumar A"
+          ],
+          "firstName": [
+            "Arvind"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR-Central Soil Salinity Research Institute, Karnal, Haryana, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Meena BL"
+          ],
+          "firstName": [
+            "Babu Lal"
+          ],
+          "lastName": [
+            "Meena"
+          ],
+          "initials": [
+            "BL"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR-Central Soil Salinity Research Institute, Karnal, Haryana, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mishra D"
+          ],
+          "firstName": [
+            "Dwijesh"
+          ],
+          "lastName": [
+            "Mishra"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR- Indian Agricultural Statistical Research Institute, New Delhi, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Grover M"
+          ],
+          "firstName": [
+            "Monendra"
+          ],
+          "lastName": [
+            "Grover"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR- Indian Agricultural Statistical Research Institute, New Delhi, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gaba S"
+          ],
+          "firstName": [
+            "Sonam"
+          ],
+          "lastName": [
+            "Gaba"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR- Indian Agricultural Statistical Research Institute, New Delhi, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Parameswaran C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Parameswaran"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "ICAR- National Rice Research Institute, Cuttack, Odisha, India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mantri N"
+          ],
+          "firstName": [
+            "Nitin"
+          ],
+          "lastName": [
+            "Mantri"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Science, RMIT University, Victoria, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "3122224"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "5548"
+  ],
+  "abstractText": [
+    "Soil salinity is one of the major limiting factors for crop productivity across the world. Halophytes have recently been a source of attraction for exploring the survival and tolerance mechanisms at extreme saline conditions. Urochondra setulosa is one of the obligate grass halophyte that can survive in up to 1000 mM NaCl. The de novo transcriptome of Urochondra leaves at different salt concentrations of 300-500 mM NaCl was generated on Illumina HiSeq. Approximately 352.78 million high quality reads with an average contig length of 1259 bp were assembled de novo. A total of 120,231 unigenes were identified. On an average, 65% unigenes were functionally annotated to known proteins. Approximately 35% unigenes were specific to Urochondra. Differential expression revealed significant enrichment (P < 0.05) of transcription factors, transporters and metabolites suggesting the transcriptional regulation of ion homeostasis and signalling at high salt concentrations in this grass. Also, about 143 unigenes were biologically related to salt stress responsive genes. Randomly selected genes of important pathways were validated for functional characterization. This study provides useful information to understand the gene regulation at extremely saline levels. The study offers the first comprehensive evaluation of Urochondra setulosa leaf transcriptome. Examining non-model organisms that can survive in harsh environment can provide novel insights into the stress coping mechanisms which can be useful to develop improved agricultural crops."
+  ],
+  "affiliation": [
+    "ICAR-Central Soil Salinity Research Institute, Karnal, Haryana, India. anitadgr13@gmail.com."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-021-85220-7"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7970929"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7970929?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-11"
+  ],
+  "firstIndexDate": [
+    "2021-03-12"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-22"
+  ],
+  "dateOfRevision": [
+    "2021-03-20"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-10"
+  ],
+  "firstPublicationDate": [
+    "2021-03-10"
+  ]
+}

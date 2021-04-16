@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We mapped human 3' Seq reads to the GRCh38 reference genome (
+ <xref rid="bib71" ref-type="bibr">Schneider et al., 2017</xref>) and chimpanzee 3' Seq reads to the panTro6 reference genome (
+ <xref rid="bib16" ref-type="bibr">Chimpanzee Sequencing and Analysis Consortium, 2005</xref>) (see 'Materials and methods'). 3' Seq relies on a poly(dT) primer to target the poly(A) tail of mRNA molecules; however, it can also misprime by binding a sequence of genomic adenines. To account for mispriming of off-target genomic sequences, we removed reads that mapped to genomic regions containing ≥70% adenine or six consecutive adenine bases in the 10 bp directly upstream of the mapped location (
+ <xref rid="bib51" ref-type="bibr">Mittleman et al., 2020</xref>; 
+ <xref rid="bib72" ref-type="bibr">Sheppard et al., 2013</xref>; 
+ <xref rid="bib75" ref-type="bibr">Tian et al., 2005</xref>) (see 'Materials and methods'). In addition, we treated all ambiguous nucleotide positions as adenines to ensure that differences in reference genome quality did not bias the detection of PAS or mispriming events (see 'Materials and methods'). As expected, the filtered aligned sequences, in both species, were enriched at transcription end sites and showed a similar distribution along orthologous 3' UTRs (see 'Materials and methods', 
+ <xref ref-type="fig" rid="fig1s1">Figure 1—figure supplement 1</xref>). Next, we used a custom peak calling method to ascertain PAS in humans and chimpanzees separately (see 'Materials and methods').
+</p>

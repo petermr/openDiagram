@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0001" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 1.</label>
+ <caption>
+  <p>Identification of the 
+   <italic>Adipoq-Cre</italic> transgene insertion site and estimation of passenger gene copy number. (a) Abbreviated ideogram of mouse chromosome 9 with red highlighted region in 9qE3.1 expanded to show the genomic context surrounding the gene 
+   <italic>Tbx18</italic>. The grey triangles indicate locations where reads mapped to mouse chromosome 16 and had strong evidence for insertion of the 
+   <italic>Adipoq-Cre</italic> transgene. (b) Abbreviated ideogram of mouse chromosome 16 with red highlighted region in 16qB1 expanded to show sequencing read coverage (0–304 reads) of genes close to the native 
+   <italic>Adipoq</italic> gene locus and were likely included in the BAC used for transgene construction. Genes are shown in blue below the read coverage graph. Gray arrows highlight locations where reads mapped to mouse chromosome 9 near or within the gene 
+   <italic>Tbx18</italic> and correspond from left-to-right with genes 
+   <italic>Kng2</italic> and 
+   <italic>Kng1</italic> (map to far-right triangle in A), and 
+   <italic>Rfc4</italic> (maps to exon 8 of 
+   <italic>Tbx18</italic>). (c) Quantification of genomic DNA sequencing reads that aligned to the coding sequence of genes which are close to the native 
+   <italic>Adipoq</italic> gene. Genome average is the average of 27,180 genes. kb, kilobase. TPM, transcripts per million. Results are from whole genome sequencing of an 8-week-old male 
+   <italic>Adipoq-Cre</italic>
+   <sup>±</sup> mouse. (d) ddPCR results are shown normalized to copies per genome. All values are mean + SD (n = 3/group); ns, not significant; *
+   <italic>p</italic> &lt; 0.05;****
+   <italic>p</italic> &lt; 0.0001
+  </p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="KADI_A_1880083_F0001_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="KADI_A_1880083_F0001_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

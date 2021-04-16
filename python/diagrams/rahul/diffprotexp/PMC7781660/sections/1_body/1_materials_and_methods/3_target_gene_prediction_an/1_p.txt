@@ -1,0 +1,4 @@
+0: RNAhybrid (v2.1.2) + svm_light (v6.01), Miranda (v3.3a), and TargetScan (v7.0) software were used to predict target genes.
+1: Next, the predicted genes were submitted to Gene Ontology (GO) database analysis for functional annotation analysis, and Kyoto Encyclopedia of Genes and Genomes (KEGG) database analysis to identify the enriched pathways involved.
+2: And, fishers exact test and chi-square test were used to determine the significance of the GO terms and pathways.
+3: The false discovery rate (FDR) was calculated to correct the P-value, and only the GO terms and pathways with an adjusted P-value of 0.05 and an FDR<0.05 were selected.

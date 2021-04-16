@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par36">To process the ICGC data, the microarray probes with null gene test value were first removed and the remaining probes were mapped to human genes. A total of 239 immune cell-related genes were retained from 1982 expressed genes. TCGA tumor samples lacking clinical information and the normal tissue data were first excluded, followed by genes with 0 FPKM in &gt; 50% of the samples. Finally, 103 immune cell-related genes with log2(FPKM + 1) fold-change were included for the subsequent analysis.</p>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone.0248155.t002" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0248155.t002</object-id>
+ <label>Table 2</label>
+ <caption>
+  <title>DEGs encoding gas vesicle proteins in three comparison pairs.</title>
+ </caption>
+ <alternatives>
+  <graphic id="pone.0248155.t002g" xlink:href="pone.0248155.t002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="center" rowspan="1" colspan="1">Gene ID</th>
+     <th align="center" rowspan="1" colspan="1">ORF ID</th>
+     <th align="center" rowspan="1" colspan="1">Log
+      <sub>2</sub>FC (NV vs. NDV)
+     </th>
+     <th align="center" rowspan="1" colspan="1">Log
+      <sub>2</sub>FC (NV vs. NDH)
+     </th>
+     <th align="center" rowspan="1" colspan="1">Log
+      <sub>2</sub>FC (NDV vs. NDH)
+     </th>
+     <th align="center" rowspan="1" colspan="1">Length bp</th>
+     <th align="center" rowspan="1" colspan="1">Gene annotation</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">gene2239</td>
+     <td align="center" rowspan="1" colspan="1">all2247</td>
+     <td align="char" char="." rowspan="1" colspan="1">-1.25
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-0.48</td>
+     <td align="char" char="." rowspan="1" colspan="1">0.76</td>
+     <td align="center" rowspan="1" colspan="1">377</td>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>GvpG</italic>
+     </td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">gene2240</td>
+     <td align="center" rowspan="1" colspan="1">all2248</td>
+     <td align="char" char="." rowspan="1" colspan="1">-1.59
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-0.84</td>
+     <td align="char" char="." rowspan="1" colspan="1">0.75</td>
+     <td align="center" rowspan="1" colspan="1">734</td>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>GvpF</italic>
+     </td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">gene2241</td>
+     <td align="center" rowspan="1" colspan="1">all2249</td>
+     <td align="char" char="." rowspan="1" colspan="1">-3.15
+      <xref ref-type="table-fn" rid="t002fn003">**</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-1.76
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">1.38
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="center" rowspan="1" colspan="1">473</td>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>GvpK</italic>
+     </td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">gene2242</td>
+     <td align="center" rowspan="1" colspan="1">all2251</td>
+     <td align="char" char="." rowspan="1" colspan="1">-3.05
+      <xref ref-type="table-fn" rid="t002fn003">**</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-1.30
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">1.74
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="center" rowspan="1" colspan="1">446</td>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>GvpN</italic>
+     </td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">gene2243</td>
+     <td align="center" rowspan="1" colspan="1">all2250</td>
+     <td align="char" char="." rowspan="1" colspan="1">-1.67
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-1.76
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-0.10</td>
+     <td align="center" rowspan="1" colspan="1">1232</td>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>GvpJ</italic>
+     </td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">gene2244</td>
+     <td align="center" rowspan="1" colspan="1">all2252</td>
+     <td align="char" char="." rowspan="1" colspan="1">-3.87
+      <xref ref-type="table-fn" rid="t002fn003">**</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-1.00
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">2.86
+      <xref ref-type="table-fn" rid="t002fn002">*</xref>
+     </td>
+     <td align="center" rowspan="1" colspan="1">389</td>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>GvpC</italic>
+     </td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">gene2245</td>
+     <td align="center" rowspan="1" colspan="1">asl2253</td>
+     <td align="char" char="." rowspan="1" colspan="1">-3.52
+      <xref ref-type="table-fn" rid="t002fn003">**</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-0.54</td>
+     <td align="center" rowspan="1" colspan="1">-</td>
+     <td align="center" rowspan="1" colspan="1">215</td>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>GvpB</italic>
+     </td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">gene2246</td>
+     <td align="center" rowspan="1" colspan="1">asl2254</td>
+     <td align="char" char="." rowspan="1" colspan="1">-3.86
+      <xref ref-type="table-fn" rid="t002fn003">**</xref>
+     </td>
+     <td align="char" char="." rowspan="1" colspan="1">-0.78</td>
+     <td align="center" rowspan="1" colspan="1">-</td>
+     <td align="center" rowspan="1" colspan="1">215</td>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>GvpA</italic>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+ <table-wrap-foot>
+  <fn id="t002fn001">
+   <p>Note: Log
+    <sub>2</sub>FC, Log
+    <sub>2</sub>fold-change.
+   </p>
+  </fn>
+  <fn id="t002fn002">
+   <p>*, differently expressed gene with 1 &lt; |Log
+    <sub>2</sub>FC| &lt; 3;
+   </p>
+  </fn>
+  <fn id="t002fn003">
+   <p>**, highly differently expressed gene with Log
+    <sub>2</sub>FC ≥ 3. 
+    <italic>Gvp</italic>, gas vesicle synthesis protein gene. In three paired comparisons, X vs. Y refers to Y/X.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

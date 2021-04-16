@@ -1,0 +1,392 @@
+{
+  "id": [
+    "33662009"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33662009"
+  ],
+  "pmcid": [
+    "PMC7932525"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7932525"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1371/journal.pone.0248155"
+  ],
+  "title": [
+    "Vegetative cells may perform nitrogen fixation function under nitrogen deprivation in Anabaena sp. strain PCC 7120 based on genome-wide differential expression analysis."
+  ],
+  "authorString": [
+    "He H, Miao R, Huang L, Jiang H, Cheng Y."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "He H"
+          ],
+          "firstName": [
+            "Hongli"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Jilin Provincial Key Laboratory of Plant Resource Science and Green Production, Jilin Normal University, Siping, Jilin Province, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Miao R"
+          ],
+          "firstName": [
+            "Runyu"
+          ],
+          "lastName": [
+            "Miao"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Jilin Provincial Key Laboratory of Plant Resource Science and Green Production, Jilin Normal University, Siping, Jilin Province, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Huang L"
+          ],
+          "firstName": [
+            "Lilong"
+          ],
+          "lastName": [
+            "Huang"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Jilin Provincial Key Laboratory of Plant Resource Science and Green Production, Jilin Normal University, Siping, Jilin Province, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jiang H"
+          ],
+          "firstName": [
+            "Hongshan"
+          ],
+          "lastName": [
+            "Jiang"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Jilin Provincial Key Laboratory of Plant Resource Science and Green Production, Jilin Normal University, Siping, Jilin Province, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cheng Y"
+          ],
+          "firstName": [
+            "Yunqing"
+          ],
+          "lastName": [
+            "Cheng"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Jilin Provincial Key Laboratory of Plant Resource Science and Green Production, Jilin Normal University, Siping, Jilin Province, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "3121343"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS One"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "e0248155"
+  ],
+  "abstractText": [
+    "Nitrogen assimilation is strictly regulated in cyanobacteria. In an inorganic nitrogen-deficient environment, some vegetative cells of the cyanobacterium Anabaena differentiate into heterocysts. We assessed the photosynthesis and nitrogen-fixing capacities of heterocysts and vegetative cells, respectively, at the transcriptome level. RNA extracted from nitrogen-replete vegetative cells (NVs), nitrogen-deprived vegetative cells (NDVs), and nitrogen-deprived heterocysts (NDHs) in Anabaena sp. strain PCC 7120 was evaluated by transcriptome sequencing. Paired comparisons of NVs vs. NDHs, NVs vs. NDVs, and NDVs vs. NDHs revealed 2,044 differentially expressed genes (DEGs). Kyoto Encyclopedia of Genes and Genomes enrichment analysis of the DEGs showed that carbon fixation in photosynthetic organisms and several nitrogen metabolism-related pathways were significantly enriched. Synthesis of Gvp (Gas vesicle synthesis protein gene) in NVs was blocked by nitrogen deprivation, which may cause Anabaena cells to sink and promote nitrogen fixation under anaerobic conditions; in contrast, heterocysts may perform photosynthesis under nitrogen deprivation conditions, whereas the nitrogen fixation capability of vegetative cells was promoted by nitrogen deprivation. Immunofluorescence analysis of nitrogenase iron protein suggested that the nitrogen fixation capability of vegetative cells was promoted by nitrogen deprivation. Our findings provide insight into the molecular mechanisms underlying nitrogen fixation and photosynthesis in vegetative cells and heterocysts at the transcriptome level. This study provides a foundation for further functional verification of heterocyst growth, differentiation, and water bloom control."
+  ],
+  "affiliation": [
+    "Jilin Provincial Key Laboratory of Plant Resource Science and Green Production, Jilin Normal University, Siping, Jilin Province, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0248155"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7932525"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7932525?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-04"
+  ],
+  "firstIndexDate": [
+    "2021-03-05"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-17"
+  ],
+  "dateOfRevision": [
+    "2021-03-16"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-04"
+  ],
+  "firstPublicationDate": [
+    "2021-03-04"
+  ]
+}

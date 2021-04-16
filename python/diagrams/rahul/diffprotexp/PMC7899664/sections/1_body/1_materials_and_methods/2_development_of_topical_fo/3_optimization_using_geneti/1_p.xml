@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The genetic algorithm is a stochastic optimization tool that belongs to the class of evolutionary algorithms that use techniques inspired by the Evolutionary theory of Darwin such as inheritance, crossover, mutation, and natural selection. The genetic algorithm is typically implemented in the form of computer simulations where a population of abstract representations (called chromosomes) of candidate solutions (called individuals) to an optimization problem evolves gradually toward better solutions. Our input variables (4-MU, PG, and EtOH) were treated like genes “embedded” in a chromosome. The fitness function (
+ <xref ref-type="disp-formula" rid="M0001">Equation (1)</xref>) obtained from the RSM was used as an input in GA, as previously described (Bhattacharya et al. 
+ <xref rid="CIT0005" ref-type="bibr">2013</xref>), to create the initial population of the solutions (HA reduction) and genetic variants (of the parameters) in the offspring using genetic operators (crossover and mutation), evaluation of these candidate solutions in light of feasibility, and finally evaluating the altered offspring (parameter combination variants). These randomizations in the GA were more likely to overcome the constraints of local optima, thereby attaining the global optima for the reduction of HA. Minitab 13
+ <sup>®</sup> and Matlab
+ <sup>®</sup> (version 9) softwares were used in the present investigation. Optimtool
+ <sup>®</sup> add-on program was used for Matlab
+ <sup>®</sup> for the optimization using Genetic Algorithm.
+</p>

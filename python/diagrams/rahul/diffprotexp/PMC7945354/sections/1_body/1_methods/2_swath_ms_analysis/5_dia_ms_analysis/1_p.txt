@@ -1,0 +1,9 @@
+0: From each fraction, 6 L was removed and added to 2 L of 10  iRT standard peptide, and 2 L of each sample was separated with nano-LC and analyzed by online electrospray tandem MS.
+1: The entire experimental system was an Orbitrap Q Exactive HF mass spectrometer (Thermo Fisher Scientific, MA, USA) connected in series with a Waters Acquity UPLC (Waters, MA, USA) system.
+2: Buffer A consisted of 0.1% formic acid aqueous solution, and buffer B consisted of 0.1% formic acid acetonitrile aqueous solution (acetonitrile was 80%).
+3: The sample was separated by an analytical column (Thermo Fisher Scientific, MA, USA; Acclaim PepMap C18, 75 m  25 cm) at a flow rate of 200 nL/min using the following nonlinear increasing gradient: 05 min, 1% B; 595 min, 1% B to 28% B; 95110 min, 28% B to 38% B; 110115 min, 38% B to 100% B; and 115120 min, 100% B.
+4: The electrospray voltage was 2.0 kV.
+5: The MS parameters were set as follows: (1) MS: scan range (m/z) = 3501250, resolution = 120,000, AGC target = 3e6 and maximum injection time = 20 ms; and (2) DIA: resolution = 30,000, AGC target = 1e6, maximum injection time = auto and NCE = 25.5,27,30.
+6: The original MS data and the default parameters of Spectronaut Pulsar X were used to analyze the DIA data.
+7: The protein qualitative standard was a precursor threshold of 1.0% FDR.
+8: Serum proteins compared between the two specified groups with a threshold of fold change (FC)  1.50 or  0.67 and P value  0.05 were considered as differentially-expressed proteins (DEPs).

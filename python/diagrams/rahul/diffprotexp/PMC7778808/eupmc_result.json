@@ -1,0 +1,447 @@
+{
+  "id": [
+    "33388092"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33388092"
+  ],
+  "pmcid": [
+    "PMC7778808"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7778808"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s41065-020-00166-6"
+  ],
+  "title": [
+    "Immunological analysis and differential genes screening of venous thromboembolism."
+  ],
+  "authorString": [
+    "Gao LN, Li Q, Xie JQ, Yang WX, You CG."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gao LN"
+          ],
+          "firstName": [
+            "Li-Na"
+          ],
+          "lastName": [
+            "Gao"
+          ],
+          "initials": [
+            "LN"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Laboratory Medicine Center, Lanzhou University Second Hospital, Lanzhou, 730030, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li Q"
+          ],
+          "firstName": [
+            "Qiang"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Gastroenterology, The First Hospital of Lanzhou University, Lanzhou, 730030, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Xie JQ"
+          ],
+          "firstName": [
+            "Jian-Qin"
+          ],
+          "lastName": [
+            "Xie"
+          ],
+          "initials": [
+            "JQ"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Anesthesiology, Lanzhou University Second Hospital, Lanzhou, 730030, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yang WX"
+          ],
+          "firstName": [
+            "Wan-Xia"
+          ],
+          "lastName": [
+            "Yang"
+          ],
+          "initials": [
+            "WX"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Laboratory Medicine Center, Lanzhou University Second Hospital, Lanzhou, 730030, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "You CG"
+          ],
+          "firstName": [
+            "Chong-Ge"
+          ],
+          "lastName": [
+            "You"
+          ],
+          "initials": [
+            "CG"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Laboratory Medicine Center, Lanzhou University Second Hospital, Lanzhou, 730030, China. youchg@lzu.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "158"
+      ],
+      "journalIssueId": [
+        "3082706"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Hereditas"
+          ],
+          "ISOAbbreviation": [
+            "Hereditas"
+          ],
+          "medlineAbbreviation": [
+            "Hereditas"
+          ],
+          "NLMid": [
+            "0374654"
+          ],
+          "ISSN": [
+            "0018-0661"
+          ],
+          "ESSN": [
+            "1601-5223"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "2"
+  ],
+  "abstractText": [
+    "<h4>Purpose</h4>To explore the pathogenesis of venous thromboembolism (VTE) and provide bioinformatics basis for the prevention and treatment of VTE.<h4>Methods</h4>The R software was used to obtain the gene expression profile data of GSE19151, combining with the CIBERSORT database, obtain immune cells and differentially expressed genes (DEGs) of blood samples of VTE patients and normal control, and analyze DEGs for GO analysis and KEGG pathway enrichment analysis. Then, the protein-protein interaction (PPI) network was constructed by using the STRING database, the key genes (hub genes) and immune differential genes were screened by Cytoscape software, and the transcription factors (TFs) regulating hub genes and immune differential genes were analyzed by the NetworkAnalyst database.<h4>Results</h4>Compared with the normal group, monocytes and resting mast cells were significantly expressed in the VTE group, while regulatory T cells were significantly lower. Ribosomes were closely related to the occurrence of VTE. 10 hub genes and immune differential genes were highly expressed in VTE. MYC, SOX2, XRN2, E2F1, SPI1, CREM and CREB1 can regulate the expressions of hub genes and immune differential genes.<h4>Conclusions</h4>Ribosomal protein family genes are most relevant to the occurrence and development of VTE, and the immune differential genes may be the key molecules of VTE, which provides new ideas for further explore the pathogenesis of VTE."
+  ],
+  "affiliation": [
+    "Laboratory Medicine Center, Lanzhou University Second Hospital, Lanzhou, 730030, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "18YF1FA108"
+          ],
+          "agency": [
+            "Gansu Science and Technology Department"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "1506RJZA230"
+          ],
+          "agency": [
+            "Key Science and Technology Foundation of Gansu Province"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Differentially expressed genes",
+        "Ribosome",
+        "Bioinformatics analysis",
+        "immune cell",
+        "Venous Thromboembolism",
+        "Immune Differential Gene"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s41065-020-00166-6"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7778808"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7778808?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR250395"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "CrossRef Pre-print loader"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-01-03"
+  ],
+  "firstIndexDate": [
+    "2021-01-05"
+  ],
+  "fullTextReceivedDate": [
+    "2021-01-06"
+  ],
+  "dateOfRevision": [
+    "2021-01-05"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-02"
+  ],
+  "firstPublicationDate": [
+    "2021-01-02"
+  ]
+}

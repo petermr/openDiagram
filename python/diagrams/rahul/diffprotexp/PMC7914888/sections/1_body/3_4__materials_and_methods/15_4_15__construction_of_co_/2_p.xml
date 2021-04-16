@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As the RC-miRs are non-directed networks, we generated an adjacency matrix (A), indicating which nodes were connected and composed only of ones and zeros generated following Equation (2). 
+ <disp-formula id="FD2-ijms-22-01591">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mn>0</mn>
+     <mtext> </mtext>
+     <mi>f</mi>
+     <mi>o</mi>
+     <mi>r</mi>
+     <mtext> </mtext>
+     <mi>a</mi>
+     <mi>l</mi>
+     <mi>l</mi>
+     <mtext> </mtext>
+     <mi>i</mi>
+     <mi>i</mi>
+     <mtext> </mtext>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mtext> </mtext>
+     <mi>i</mi>
+     <mi>f</mi>
+     <mtext> </mtext>
+     <msub>
+      <mo>|</mo>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo>|</mo>
+     <mtext> </mtext>
+     <mo>&gt;</mo>
+     <mtext> </mtext>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mn>0</mn>
+     <mtext> </mtext>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mtext> </mtext>
+     <mi>o</mi>
+     <mi>t</mi>
+     <mi>h</mi>
+     <mi>e</mi>
+     <mi>r</mi>
+     <mtext> </mtext>
+     <mi>c</mi>
+     <mi>a</mi>
+     <mi>s</mi>
+     <mi>e</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,8 @@
+0: Data from GTEx and TCGA were log 2 transformed.
+1: The cohorts from GTEx and TCGA were matched based on anatomical site, in total there were 20 sites.
+2: Mean log 2 TPM expression of  ACE2,  TMPRSS2 and  CTSL was calculated for each tissue for both databases.
+3: The tissues were then ranked using the R function rank, 1 being the highest expression, 20 the lowest.
+4: The ranks were visualized using ggplot2.
+5: Wilcoxon signed rank tests were performed to compare  ACE2,  TMPRSS2 and  CTSL expression for tissues of interest, normal tissues (GTEx) compared to cancerous tissues (TCGA).
+6: Overall expression of  ACE, TMPRSS2, and  CTSL was visualised for all tissues from TCGA and TARGET.
+7: Tukeys test was performed in R to determine significance.

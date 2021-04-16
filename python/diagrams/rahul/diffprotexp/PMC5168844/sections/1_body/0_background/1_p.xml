@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Several studies have found that there are approximately 140 “driver” genes which can promote the formation of tumors if affected by intragenic mutations. These “driver genes” are known to be directly or indirectly responsible for causing selective growth advantage. These “driver genes” are classified into twelve signaling pathways. This selective growth advantage can occur only through these twelve signaling pathways [
+ <xref ref-type="bibr" rid="CR1">1</xref>]. We refer these twelve signaling pathways as “target pathways”. It is also found that the “target pathways” regulate three core cellular processes - “cell fate”, “cell survival” and “genome maintenance” [
+ <xref ref-type="bibr" rid="CR1">1</xref>] . We believe understanding the roles of these twelve pathways can result into novel therapeutic intervention strategy. In this paper, we undertake a novel investigation of the roles of these “target pathways” using a differential network analysis of the protein expression datasets on three cancers namely, Head and Neck Squamous Cell Carcinoma (HNSC), Lung Adenocarcinoma (LUAD) and Kidney Renal Clear Cell Carcinoma (KIRC). We find the study of protein expressions is justified as the mutations of the previously mentioned “driver genes” alter the protein products. These datasets are available to us from International Cancer Genomic Consortium (ICGC) as part of the CAMDA 2015 challenge data. We pursue an integrative analysis of protein expressions of all these three cancer datasets to investigate whether each of these “target pathways” plays a significant role in these three cancers. For example, we determine whether the proteins associated with these pathways interact differently between the two clinical groups (“progression” or “complete remission”) of patients. The differentially expressed pathways between the two disease groups allow us to gain more insights about the functional working mechanism of the cells than just the individual differentially expressed genes/proteins [
+ <xref ref-type="bibr" rid="CR2">2</xref>]. The process begins with grouping of the proteins according to their biological pathways, as described in the section- 
+ <xref rid="Sec8" ref-type="sec">
+  <italic>Pathway analysis</italic>
+ </xref>. Then, in the Section- 
+ <xref rid="Sec9" ref-type="sec">
+  <italic>Differential network analysis</italic>
+ </xref>, we examine whether the network structures of all the proteins in these “target pathways” have changed from the “complete remission” group of patients to the “progression” group. We also examine whether the connectivity of each single protein in the networks of proteins in these “target pathways” has changed between the two groups. Then we rank the “target pathways” as well as the constituent proteins to get overall ranked lists which would then rank the pathways by their global order of importance with respect to all the three cancers (section- 
+ <xref rid="Sec10" ref-type="sec">
+  <italic>Rank aggregation</italic>
+ </xref>). This ranking may shed light to the regulatory roles of individual proteins in the context of all others in the pathway. The rest of the article is organized as follows. In 
+ <xref rid="Sec2" ref-type="sec">Results</xref> section, we report the results of each of the analysis. Then, we conclude with a 
+ <xref rid="Sec6" ref-type="sec">Discussion</xref> section. Then in 
+ <xref rid="Sec7" ref-type="sec">Methods</xref> section, we describe the datasets used and all the methods used for the analysis.
+</p>

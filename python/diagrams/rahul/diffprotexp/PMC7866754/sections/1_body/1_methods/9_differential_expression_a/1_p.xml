@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">To identify novel ORFs that may be involved in the development of infectivity to human hosts, differential expression analysis between the two stages studied was conducted at both transcript and protein levels. For RNA-seq data, DESeq 2 [
+ <xref ref-type="bibr" rid="CR53">53</xref>] was chosen to perform differential expression analysis, which is an R package available within the Bioconductor project [
+ <xref ref-type="bibr" rid="CR54">54</xref>]. This is because DESeq 2 is widely used by the community, including Lindner et al. that published the analysed dataset [
+ <xref ref-type="bibr" rid="CR37">37</xref>], and it has also been recently proved to have the best overall performance among 12 methods [
+ <xref ref-type="bibr" rid="CR55">55</xref>]. Since DESeq2 requires read counts as an input, while StringTie outputs coverage values for transcript abundance, these were first converted from coverage to counts for each transcript, using the formula 
+ <italic>reads_per_transcript </italic>=
+ <italic> coverage * transcript_len/read_len</italic> with a python script (available at 
+ <ext-link ext-link-type="uri" xlink:href="http://ccb.jhu.edu/software/stringtie/dl/prepDE.py" xmlns:xlink="http://www.w3.org/1999/xlink">http://ccb.jhu.edu/software/stringtie/dl/prepDE.py</ext-link>). DESeq2 then normalizes the counts internally and compares them between oocyst sporozoites and salivary gland, producing statistics metrics including adjusted p-values and log-transformed fold changes. Transcripts with adjusted p-values &lt; 0.1 were called differentially expressed between the two stages.
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The 502 tumor samples were labeled as high scores or low scores based on the median value of ImmuneScore or StromalScore, respectively. DEGs were obtained by performing differential analysis of gene expression between groups using the “limma” package based on R software. DEGs with a log2(folder change) &gt;1 and a false discovery rate (FDR) adjusted 
+ <italic>P</italic>-value &lt; 0.05 were considered statistically significant. Genes that were differentially expressed in both immune and stromal components were included in the next step of the analysis. A total of 275 DEGs associated with changes in the TME were included in the next stage of analysis after matching.
+</p>

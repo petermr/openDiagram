@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The CEL files generated following the Affymetrix Clariom
+ <sup>TM</sup> S Arrays were analyzed using R [
+ <xref rid="B31-genes-12-00299" ref-type="bibr">31</xref>]. The CEL files were read using the “oligo” R package. Raw data were normalized using the robust multichip algorithm (RMA) method of “oligo” R package. This normalized data were used to generate heatmap and PCA plots. Differential expression analysis was done using “limma” R package [
+ <xref rid="B32-genes-12-00299" ref-type="bibr">32</xref>]. Differentially expressed genes were defined as genes with adjusted 
+ <italic>p</italic>-values &lt; 0.05 and absolute log2 foldchanges &gt; 2. GO and KEGG enrichment analysis was performed using the “clusterProfiler” R package [
+ <xref rid="B33-genes-12-00299" ref-type="bibr">33</xref>]. Transcriptome Analysis Console (TAC) software (v.4.0.1.36) and ShinyGO enrichment tool [
+ <xref rid="B34-genes-12-00299" ref-type="bibr">34</xref>] were also used to analyze and graphical representation the data.
+</p>

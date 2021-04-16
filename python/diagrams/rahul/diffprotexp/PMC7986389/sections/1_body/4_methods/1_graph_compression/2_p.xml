@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par48">In the following sections, we define 
+ <italic>v</italic>.
+ <italic>suc</italic> and 
+ <italic>v</italic>.
+ <italic>pre</italic> as the sets of successors and predecessors of vertex 
+ <italic>v</italic>, respectively. Let 
+ <inline-formula id="IEq8">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M20">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> be a vertex in a network 
+ <italic>S</italic>. Consider the following three cases [
+ <xref ref-type="bibr" rid="CR18">18</xref>]: 
+ <list list-type="order">
+  <list-item>
+   <p id="Par49">
+    <inline-formula id="IEq9">
+     <alternatives>
+      <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i \in v_i.suc$$\end{document}</tex-math>
+      <math id="M22">
+       <mrow>
+        <msub>
+         <mi>v</mi>
+         <mi>i</mi>
+        </msub>
+        <mo>∈</mo>
+        <msub>
+         <mi>v</mi>
+         <mi>i</mi>
+        </msub>
+        <mo>.</mo>
+        <mi>s</mi>
+        <mi>u</mi>
+        <mi>c</mi>
+       </mrow>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>, i.e., 
+    <inline-formula id="IEq10">
+     <alternatives>
+      <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+      <math id="M24">
+       <msub>
+        <mi>v</mi>
+        <mi>i</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula> has a self-loop; then, 
+    <inline-formula id="IEq11">
+     <alternatives>
+      <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+      <math id="M26">
+       <msub>
+        <mi>v</mi>
+        <mi>i</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula> should be in all FVSs, otherwise the self-loop cannot be removed.
+   </p>
+  </list-item>
+  <list-item>
+   <p id="Par50">
+    <inline-formula id="IEq12">
+     <alternatives>
+      <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i.suc=\emptyset$$\end{document}</tex-math>
+      <math id="M28">
+       <mrow>
+        <msub>
+         <mi>v</mi>
+         <mi>i</mi>
+        </msub>
+        <mo>.</mo>
+        <mi>s</mi>
+        <mi>u</mi>
+        <mi>c</mi>
+        <mo>=</mo>
+        <mi mathvariant="normal">∅</mi>
+       </mrow>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq12.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula> (or 
+    <inline-formula id="IEq13">
+     <alternatives>
+      <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i.pre=\emptyset$$\end{document}</tex-math>
+      <math id="M30">
+       <mrow>
+        <msub>
+         <mi>v</mi>
+         <mi>i</mi>
+        </msub>
+        <mo>.</mo>
+        <mi>p</mi>
+        <mi>r</mi>
+        <mi>e</mi>
+        <mo>=</mo>
+        <mi mathvariant="normal">∅</mi>
+       </mrow>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq13.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>); then, 
+    <inline-formula id="IEq14">
+     <alternatives>
+      <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+      <math id="M32">
+       <msub>
+        <mi>v</mi>
+        <mi>i</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula> is not in any MFVS, since it is not in any cycle.
+   </p>
+  </list-item>
+  <list-item>
+   <p id="Par51">
+    <inline-formula id="IEq15">
+     <alternatives>
+      <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|v_i.suc|=1$$\end{document}</tex-math>
+      <math id="M34">
+       <mrow>
+        <mrow>
+         <mo stretchy="false">|</mo>
+        </mrow>
+        <msub>
+         <mi>v</mi>
+         <mi>i</mi>
+        </msub>
+        <mrow>
+         <mo>.</mo>
+         <mi>s</mi>
+         <mi>u</mi>
+         <mi>c</mi>
+         <mo stretchy="false">|</mo>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+       </mrow>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula> (or 
+    <inline-formula id="IEq16">
+     <alternatives>
+      <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|v_i.pre|=1$$\end{document}</tex-math>
+      <math id="M36">
+       <mrow>
+        <mrow>
+         <mo stretchy="false">|</mo>
+        </mrow>
+        <msub>
+         <mi>v</mi>
+         <mi>i</mi>
+        </msub>
+        <mrow>
+         <mo>.</mo>
+         <mi>p</mi>
+         <mi>r</mi>
+         <mi>e</mi>
+         <mo stretchy="false">|</mo>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+       </mrow>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>); let 
+    <inline-formula id="IEq17">
+     <alternatives>
+      <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_j$$\end{document}</tex-math>
+      <math id="M38">
+       <msub>
+        <mi>v</mi>
+        <mi>j</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula> be the only successor (or predecessor, respectively) of 
+    <inline-formula id="IEq18">
+     <alternatives>
+      <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+      <math id="M40">
+       <msub>
+        <mi>v</mi>
+        <mi>i</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>; then, any cycle containing 
+    <inline-formula id="IEq19">
+     <alternatives>
+      <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+      <math id="M42">
+       <msub>
+        <mi>v</mi>
+        <mi>i</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula> also contains 
+    <inline-formula id="IEq20">
+     <alternatives>
+      <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_j$$\end{document}</tex-math>
+      <math id="M44">
+       <msub>
+        <mi>v</mi>
+        <mi>j</mi>
+       </msub>
+      </math>
+      <inline-graphic xlink:href="12859_2021_4062_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </alternatives>
+    </inline-formula>.
+   </p>
+  </list-item>
+ </list>For C1, we use a temporary list 
+ <inline-formula id="IEq21">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Delta M$$\end{document}</tex-math>
+   <math id="M46">
+    <mrow>
+     <mi mathvariant="normal">Δ</mi>
+     <mi>M</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> to record 
+ <inline-formula id="IEq22">
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M48">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq22.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>; we add 
+ <inline-formula id="IEq23">
+  <alternatives>
+   <tex-math id="M49">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M50">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq23.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> to 
+ <inline-formula id="IEq24">
+  <alternatives>
+   <tex-math id="M51">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Delta M$$\end{document}</tex-math>
+   <math id="M52">
+    <mrow>
+     <mi mathvariant="normal">Δ</mi>
+     <mi>M</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq24.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and remove 
+ <inline-formula id="IEq25">
+  <alternatives>
+   <tex-math id="M53">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M54">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq25.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and all its incoming and outgoing arcs from the graph. We use 
+ <inline-formula id="IEq26">
+  <alternatives>
+   <tex-math id="M55">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$remove(v_i)$$\end{document}</tex-math>
+   <math id="M56">
+    <mrow>
+     <mi>r</mi>
+     <mi>e</mi>
+     <mi>m</mi>
+     <mi>o</mi>
+     <mi>v</mi>
+     <mi>e</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>v</mi>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq26.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> to denote this removing process.
+</p>

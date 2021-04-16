@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0110">To elucidate the regulatory networks controlling the differences in metabolic reactions in liver and skeletal muscle between fasted WT and 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice, we constructed trans-omic networks for differentially regulated metabolic reactions in both organs (
+ <xref rid="fig4" ref-type="fig">Figure 4</xref>A). The trans-omic networks consisted of two parts, the differentially expressed molecules, which are the nodes in each layer (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S5</xref>, upper left), and the differential regulations, which are edges connecting nodes in different layers (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S5</xref>, upper right). The Enzyme mRNA layer contained DEGs for all metabolic enzymes in the pathways in “Metabolism” from the KEGG database (
+ <xref rid="bib27" ref-type="bibr">Kanehisa et al., 2017</xref>). The Enzyme Protein layer contained the DEMEs. The Metabolic Reaction layer contained the metabolic reactions directly regulated by the DEMEs or DEMs and defined them as the differentially regulated metabolic reactions. Some metabolic enzymes mediate more than one reaction; thus, the number of reactions exceeds the number of enzyme proteins. The final trans-omic networks contained the differentially expressed molecules organized in six layers: insulin signaling molecules in DPPs in the Insulin Signal layer, DRTFs in the TF layer, DEGs encoding metabolic enzymes in the Enzyme mRNA layer, DEMEs in the Enzyme Protein layer, differentially regulated metabolic reactions in the Metabolic Reaction layer, and DEMs in the Metabolite layer, with the differential regulations connecting the layers. We classified the differential regulations as either activating or inhibiting the downstream molecules or reactions in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice by combining the direction of changes of differentially expressed molecules (increased or decreased) and the direction of regulation (activation or inhibition) (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S5</xref> lower table). The trans-omic network included the differential regulations for various metabolic pathways: glycogen metabolism (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S6</xref>A), TCA cycle (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S6</xref>B), glycolysis/gluconeogenesis (see 
+ <xref rid="fig6" ref-type="fig">Figures 6</xref>A and 6B), fatty acid synthesis (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S7</xref>), fatty acid degradation (see 
+ <xref rid="fig7" ref-type="fig">Figures 7</xref>A and 7B), arginine synthesis (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S8</xref>), BCAA degradation (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S9</xref>), purine metabolism (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S10</xref>A), and pyrimidine metabolism (
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S10</xref>B).
+</p>

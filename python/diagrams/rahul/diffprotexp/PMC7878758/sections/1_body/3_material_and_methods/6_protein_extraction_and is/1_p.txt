@@ -1,0 +1,10 @@
+0: The total protein from the control and regenerating tail tissues were extracted using protein extraction buffer (7 M urea, 2 M thiourea, 18 mM TrisHCl, 4% CHAPS, 14 mM Trizmabase, 2 Tablets EDTA protease Inhibitor, Triton X 0.2%, 50 mM DTT) upon homogenization and sonication 34,  51.
+1: The proteins were quantified using Amido black method 52 against BSA as standard.
+2: iTRAQ based quantitative proteomics analysis was performed in duplicates between the control (0-dpa) and regenerating time points (1-dpa, 2-dpa and 5-dpa) by loading 50 g of total proteins in a 10% SDS-PAGE gel.
+3: The gel was stained, destained, documented and fractionated into four sequential groups.
+4: The gel fractions were washed; trypsin digested, labelled with isobaric tags iTRAQ 4-plex labelling and purified with the help of C-18 spin columns (Thermo Scientific).
+5: The purified/labelled peptides were vacuum dried and constituted in 5% acetonitrile (ACN) and 0.2% formic acid to the peptides for the LCMS/MSMS (Liquid chromatography mass spectrometry/Tandem mass spectrometry) analysis 51.
+6: The LCMS/MSMS run was performed in Orbitrap Velos Nano analyzer (Thermo) involving High Collision Dissociation (HCD) mode of acquisition with 50% normalized collision energy.
+7: The raw files were analysed with Sequest HT proteome discoverer 1.4 (Thermo Scientific), with 1% FDR (False discovery rate) using percolator and XCorr (Score Vs Charge) against the NGS generated lizard database.
+8: All the proteins, in duplicates, were analysed against the control (0-dpa).
+9: Differentially regulated expression by more than 1-log fold changes were selected as proteins associated with regeneration.

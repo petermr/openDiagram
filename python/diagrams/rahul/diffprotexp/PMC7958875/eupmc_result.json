@@ -1,0 +1,481 @@
+{
+  "id": [
+    "33732658"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33732658"
+  ],
+  "pmcid": [
+    "PMC7958875"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7958875"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3389/fcimb.2021.604129"
+  ],
+  "title": [
+    "Using scRNA-seq to Identify Transcriptional Variation in the Malaria Parasite Ookinete Stage."
+  ],
+  "authorString": [
+    "Witmer K, Dahalan FA, Metcalf T, Talman AM, Howick VM, Lawniczak MKN."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Witmer K"
+          ],
+          "firstName": [
+            "Kathrin"
+          ],
+          "lastName": [
+            "Witmer"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dahalan FA"
+          ],
+          "firstName": [
+            "Farah Aida"
+          ],
+          "lastName": [
+            "Dahalan"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Life Sciences, Imperial College London, London, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Metcalf T"
+          ],
+          "firstName": [
+            "Tom"
+          ],
+          "lastName": [
+            "Metcalf"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Talman AM"
+          ],
+          "firstName": [
+            "Arthur M"
+          ],
+          "lastName": [
+            "Talman"
+          ],
+          "initials": [
+            "AM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "MIVEGEC, IRD, CNRS, University of Montpellier, Montpellier, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Howick VM"
+          ],
+          "firstName": [
+            "Virginia M"
+          ],
+          "lastName": [
+            "Howick"
+          ],
+          "initials": [
+            "VM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Institute of Biodiversity, Animal Health and Comparative Medicine, College of Medical Veterinary and Life Sciences, University of Glasgow, Glasgow, United Kingdom."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Wellcome Centre for Integrative Parasitology, College of Medical Veterinary and Life Sciences, University of Glasgow, Glasgow, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lawniczak MKN"
+          ],
+          "firstName": [
+            "Mara K N"
+          ],
+          "lastName": [
+            "Lawniczak"
+          ],
+          "initials": [
+            "MKN"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "3115205"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cellular and infection microbiology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Infect Microbiol"
+          ],
+          "NLMid": [
+            "101585359"
+          ],
+          "ISSN": [
+            "2235-2988"
+          ],
+          "ESSN": [
+            "2235-2988"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "604129"
+  ],
+  "abstractText": [
+    "The crossing of the mosquito midgut epithelium by the malaria parasite motile ookinete form represents the most extreme population bottleneck in the parasite life cycle and is a prime target for transmission blocking strategies. However, we have little understanding of the clonal variation that exists in a population of ookinetes in the vector, partially because the parasites are difficult to access and are found in low numbers. Within a vector, variation may result as a response to specific environmental cues or may exist independent of those cues as a potential bet-hedging strategy. Here we use single-cell RNA-seq to profile transcriptional variation in <i>Plasmodium berghei</i> ookinetes across different vector species, and between and within individual midguts. We then compare our results to low-input transcriptomes from individual <i>Anopheles coluzzii</i> midguts infected with the human malaria parasite <i>Plasmodium falciparum</i>. Although the vast majority of transcriptional changes in ookinetes are driven by development, we have identified candidate genes that may be responding to environmental cues or are clonally variant within a population. Our results illustrate the value of single-cell and low-input technologies in understanding clonal variation of parasite populations."
+  ],
+  "affiliation": [
+    "Parasites and Microbes Programme, Wellcome Sanger Institute, Hinxton, United Kingdom."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "acronym": [
+            "WT_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "206194/Z/17/Z"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "220185/Z/20/Z"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Plasmodium",
+        "Malaria",
+        "Anopheles",
+        "Transcriptomics",
+        "Ookinete",
+        "Scrna-seq"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcimb.2021.604129"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7958875"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7958875?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen",
+        "go"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-18"
+  ],
+  "firstIndexDate": [
+    "2021-03-19"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-17"
+  ],
+  "dateOfRevision": [
+    "2021-03-21"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-01"
+  ],
+  "firstPublicationDate": [
+    "2021-03-01"
+  ]
+}

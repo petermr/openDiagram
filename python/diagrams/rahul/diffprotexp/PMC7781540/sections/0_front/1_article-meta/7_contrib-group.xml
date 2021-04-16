@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Fomina</surname>
+   <given-names>Alla F.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Nguyen</surname>
+   <given-names>Hai M.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Wulff</surname>
+   <given-names>Heike</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0002"/>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>Department of Physiology and Membrane Biology, 
+  <institution-wrap>
+   <institution>University of California</institution>
+  </institution-wrap>, 
+  <city>Davis</city>, 
+  <state>CA</state>, 
+  <country>USA</country>
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>Department of Pharmacology, 
+  <institution-wrap>
+   <institution>University of California</institution>
+  </institution-wrap>, 
+  <city>Davis</city>, 
+  <state>CA</state>, 
+  <country>USA</country>
+ </aff>
+</contrib-group>

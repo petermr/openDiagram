@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Secondary alcohols generated can be converted to the corresponding ketone via an alcohol dehydrogenase (TOl_2772 was 2.5-fold upregulated), which would then be subsequently oxidized by the Baeyer-Villiger monooxygenase (BVMO) that was 18-fold upregulated (TOL_0709) to render an ester. The esterase (TOL_0906) would then hydrolyse the ester to generate an alcohol and a fatty acid that enters the tricarboxylic acid (TCA) cycle. Similar esterases are also present in 
+ <italic>T. oleivorans</italic> R6-15 (W8G2U9; 100%), 
+ <italic>Oleibacter marinus</italic> (WP_076513796.1; 56%) and 
+ <italic>Oleispira antarctica</italic> RB-8 (Q6A2S8; 52.5%). Our sequence analysis of the BVMO (TOL_0709) that was upregulated, shows that the amino acid sequence clusters phylogenetically with the BMVO subclass of the group B flavoprotein monooxygenases (Supplementary Figure 
+ <xref ref-type="supplementary-material" rid="SM2">3</xref>), including the prodrug activator ethionamide monooxygenase (EthA), a 
+ <italic>bona fide</italic> BVMO capable of oxidizing several ketones from 
+ <italic>Mycobacterium tuberculosis</italic> (
+ <xref rid="B26" ref-type="bibr">Fraaije et al., 2004</xref>; 
+ <xref rid="B85" ref-type="bibr">Throne-Holst et al., 2007</xref>). BLASTp analysis revealed that an identical copy of this BVMO is also present in the other two strains of 
+ <italic>Thalassolituus</italic> that recently had their genomes sequenced (
+ <italic>T. oleivorans</italic> K188/CP017810.1; 
+ <italic>T. oleivorans</italic> R6-15/CP006829.1). An identical protein sequence (CUS41955.1) has also been detected in a metagenome from a marine hydrothermal vent, and the sequence also shares 71% and 64% identity to putative EthA type BVMOs from the OHCBs 
+ <italic>Oleibacter</italic> sp. HI0075 (KZZ04053.1) and 
+ <italic>Oleispira antarctica</italic> RB-8 (OLEAN_C10660), respectively, suggesting sub-terminal BMVO type alkane degradation may be more widespread in the marine environment than is currently known. TOL_0709 groups phylogenetically with numerous EthA type BVMO monooxygenases (Supplementary Figure 
+ <xref ref-type="supplementary-material" rid="SM2">4</xref>) but also has homology with AlmA genes from many species. AlmA has been implicated in both terminal (
+ <xref rid="B105" ref-type="bibr">Wang and Shao, 2014</xref>) and subterminal (
+ <xref rid="B58" ref-type="bibr">Minerdi et al., 2012</xref>) oxidation of alkanes, but there is still poor understanding of the exact role of AlmA in alkane degradation (
+ <xref rid="B103" ref-type="bibr">Wang and Shao, 2012</xref>). All AlmA sequences within the phylogenetic tree (Supplementary Figure 
+ <xref ref-type="supplementary-material" rid="SM2">4</xref>) do also contain both BMVO fingerprint motifs (Supplementary Figure 
+ <xref ref-type="supplementary-material" rid="SM2">2</xref>) (
+ <xref rid="B27" ref-type="bibr">Fraaije et al., 2002</xref>; 
+ <xref rid="B73" ref-type="bibr">Riebel et al., 2013</xref>) suggesting that many AlmA proteins may catalyzes subterminal BMVO reactions rather than terminal monooxygenase reactions.
+</p>

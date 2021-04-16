@@ -1,0 +1,440 @@
+{
+  "id": [
+    "23455465"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "23455465"
+  ],
+  "pmcid": [
+    "PMC3634427"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC3634427"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/ijms14034912"
+  ],
+  "title": [
+    "Differential Protein Expression in Response to Abiotic Stress in Two Potato Species: Solanum commersonii Dun and Solanum tuberosum L."
+  ],
+  "authorString": [
+    "Folgado R, Panis B, Sergeant K, Renaut J, Swennen R, Hausman JF."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Folgado R"
+          ],
+          "firstName": [
+            "Raquel"
+          ],
+          "lastName": [
+            "Folgado"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7715-3679",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department Environment and Agro-biotechnologies (EVA), Centre de Recherche Public-Gabriel Lippmann, 41, rue du Brill, L-4422 Belvaux, Luxembourg. hausman@lippmann.lu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Panis B"
+          ],
+          "firstName": [
+            "Bart"
+          ],
+          "lastName": [
+            "Panis"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6717-947X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sergeant K"
+          ],
+          "firstName": [
+            "Kjell"
+          ],
+          "lastName": [
+            "Sergeant"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2071-3510",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Renaut J"
+          ],
+          "firstName": [
+            "Jenny"
+          ],
+          "lastName": [
+            "Renaut"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0450-3866",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Swennen R"
+          ],
+          "firstName": [
+            "Rony"
+          ],
+          "lastName": [
+            "Swennen"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Hausman JF"
+          ],
+          "firstName": [
+            "Jean-Francois"
+          ],
+          "lastName": [
+            "Hausman"
+          ],
+          "initials": [
+            "JF"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6717-947X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7715-3679",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0450-3866",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2071-3510",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2472060"
+      ],
+      "dateOfPublication": [
+        "2013 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "International journal of molecular sciences"
+          ],
+          "ISOAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "medlineAbbreviation": [
+            "Int J Mol Sci"
+          ],
+          "NLMid": [
+            "101092791"
+          ],
+          "ISSN": [
+            "1422-0067"
+          ],
+          "ESSN": [
+            "1422-0067"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "4912-4933"
+  ],
+  "abstractText": [
+    "Better knowledge on responses to dehydration stress could help to improve the existing cryopreservation protocols for potato, since plant tissues processed for cryopreservation are often submitted to similar in vitro stress conditions. Cryopreservation (the best method of conservation for vegetatively propagated plants) of potato still needs to be standardized to make it available and to conserve the wide diversity of this crop. In the present work, the response to osmotic stress and chilling temperature was investigated in two potato species, Solanum tuberosum and its relative, frost-tolerant S. commersonii. After 14 days of exposure, different growth parameters, such as shoot length and number of leaves, were measured. Furthermore, differentially abundant proteins were identified after performing 2-fluorescence difference gel electrophoresis (2-DIGE) experiments, and soluble carbohydrates were analyzed by High Performance Anion Exchange Chromatography with Pulsed Amperometric Detection (HPAEC-PAD). The results show different responses in both species depending on the stress treatment. Focusing on the differences in growth parameters during the treatments, Solanum commersonii seems to be more affected than S. tuberosum cv. Désirée. At the molecular level, there are some differences and similarities between the two potato species studied that are dependent on the type of stressor."
+  ],
+  "affiliation": [
+    "Department Environment and Agro-biotechnologies (EVA), Centre de Recherche Public-Gabriel Lippmann, 41, rue du Brill, L-4422 Belvaux, Luxembourg. hausman@lippmann.lu."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23455465/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23455465/pdf/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ijms14034912"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC3634427"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC3634427?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "12"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2013-03-05"
+  ],
+  "dateOfCreation": [
+    "2013-03-05"
+  ],
+  "firstIndexDate": [
+    "2013-03-07"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-10"
+  ],
+  "dateOfRevision": [
+    "2018-11-13"
+  ],
+  "electronicPublicationDate": [
+    "2013-03-01"
+  ],
+  "firstPublicationDate": [
+    "2013-03-01"
+  ]
+}

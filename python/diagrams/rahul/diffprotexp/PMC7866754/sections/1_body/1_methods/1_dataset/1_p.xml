@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">A literature review was conducted to identify the datasets suitable for proteogenomic analysis, which should consist of a pair of proteomes and transcriptomes from the same developmental stage. Thanks to the substantial research efforts devoted to 
+ <italic>P. falciparum</italic>, several transcriptome and proteome datasets have been deposited in the NCBI Sequence Read Archive (NCBI-SRA) and the PRIDE database, respectively [
+ <xref ref-type="bibr" rid="CR38">38</xref>]. However, it was difficult to find both transcriptomes and proteomes from the same stage, and some are not available in retrievable format. For instance, a study by Lasonder et al. [
+ <xref ref-type="bibr" rid="CR39">39</xref>] reported the transcriptomes and associated proteomes of female and male gametocytes, but the proteomic data was submitted to PlasmoDB [
+ <xref ref-type="bibr" rid="CR40">40</xref>], which could not be retrieved as raw data. Additionally, omics-data for 
+ <italic>P. falciparum</italic> are usually generated from different, independent studies, making the downstream analysis susceptible to batch effects.
+</p>

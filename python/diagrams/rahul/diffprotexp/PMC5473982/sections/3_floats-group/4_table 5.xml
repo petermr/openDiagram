@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab5">
+ <label>Table 5</label>
+ <caption>
+  <p>
+   <bold>Proteins of increased or decreased abundance in macrophages in response to</bold>
+   <bold>
+    <italic>S.</italic>
+   </bold>
+   <bold>Enteritidis infection</bold>
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Acc. no.</th>
+    <th align="left">Protein name</th>
+    <th align="left">Gene ID</th>
+    <th align="left">Fold ratio inf:noninf</th>
+    <th align="left">Fold ratio vac:noninf</th>
+    <th align="left">Function</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">P28318</td>
+    <td align="left">MRP126, calprotectin</td>
+    <td align="left">MRP126</td>
+    <td char="." align="char">15.67*</td>
+    <td char="." align="char">5.01*</td>
+    <td align="left">Calcium and zinc binding</td>
+   </tr>
+   <tr>
+    <td align="left">Q6QLQ5</td>
+    <td align="left">Cathelicidin-1</td>
+    <td align="left">CATHL1</td>
+    <td char="." align="char">7.32*</td>
+    <td char="." align="char">2.95*</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">P30374</td>
+    <td align="left">Ribonuclease homolog</td>
+    <td align="left">RSFR</td>
+    <td char="." align="char">5.84*</td>
+    <td char="." align="char">1.66</td>
+    <td align="left">Lysosomal cysteine protease</td>
+   </tr>
+   <tr>
+    <td align="left">F1NIX4</td>
+    <td align="left">Trans-2-enoyl-CoA reductase</td>
+    <td align="left">MECR</td>
+    <td char="." align="char">5.47*</td>
+    <td char="." align="char">3.99*</td>
+    <td align="left">Fatty acid elongation</td>
+   </tr>
+   <tr>
+    <td align="left">P46156</td>
+    <td align="left">Gallinacin 1</td>
+    <td align="left">GAL1</td>
+    <td char="." align="char">4.15*</td>
+    <td char="." align="char">1.12</td>
+    <td align="left">Antimicrobial protein</td>
+   </tr>
+   <tr>
+    <td align="left">F1N8Q1</td>
+    <td align="left">Superoxide dismutase</td>
+    <td align="left">SOD1</td>
+    <td char="." align="char">4.01*</td>
+    <td char="." align="char">2.58</td>
+    <td align="left">Oxygen scavenger</td>
+   </tr>
+   <tr>
+    <td align="left">P08940</td>
+    <td align="left">Myeloid protein 1</td>
+    <td align="left">LECT2</td>
+    <td char="." align="char">3.87*</td>
+    <td char="." align="char">1.35</td>
+    <td align="left">Chemotactic factor for Het</td>
+   </tr>
+   <tr>
+    <td align="left">F1P4F3</td>
+    <td align="left">Lymphocyte antigen 86, MD-1</td>
+    <td align="left">LY86</td>
+    <td char="." align="char">3.53*</td>
+    <td char="." align="char">3.03</td>
+    <td align="left">Inhibits LPS response of immune cells</td>
+   </tr>
+   <tr>
+    <td align="left">F1NS91</td>
+    <td align="left">60S ribosomal protein L9</td>
+    <td align="left">RPL9</td>
+    <td char="." align="char">3.51*</td>
+    <td char="." align="char">3.82</td>
+    <td align="left">Structural part of ribosome</td>
+   </tr>
+   <tr>
+    <td align="left">E1BTT4</td>
+    <td align="left">Trifunctional enzyme subunit beta, mitochondrial</td>
+    <td align="left">HADHB</td>
+    <td char="." align="char">3.38*</td>
+    <td char="." align="char">3.54*</td>
+    <td align="left">β-Oxidation of fatty acids</td>
+   </tr>
+   <tr>
+    <td align="left">P43233</td>
+    <td align="left">Cathepsin B</td>
+    <td align="left">CTSB</td>
+    <td char="." align="char">2.88*</td>
+    <td char="." align="char">2.57*</td>
+    <td align="left">Lysosomal cysteine protease</td>
+   </tr>
+   <tr>
+    <td align="left">B4X9P4</td>
+    <td align="left">Microsomal glutathione S-transferase 1</td>
+    <td align="left">MGST1</td>
+    <td char="." align="char">2.87*</td>
+    <td char="." align="char">1.46</td>
+    <td align="left">Membrane protection from oxidative stress</td>
+   </tr>
+   <tr>
+    <td align="left">Q5ZMP2</td>
+    <td align="left">Syntaxin 7</td>
+    <td align="left">STX7</td>
+    <td char="." align="char">2.72*</td>
+    <td char="." align="char">2.94*</td>
+    <td align="left">Late endosome–lysosome fusion</td>
+   </tr>
+   <tr>
+    <td align="left">E1C0F3</td>
+    <td align="left">Ras-related protein Rab-7a</td>
+    <td align="left">RAB7A</td>
+    <td char="." align="char">2.69*</td>
+    <td char="." align="char">2.38*</td>
+    <td align="left">Involved in endocytosis, phagosome–lysosome fusion</td>
+   </tr>
+   <tr>
+    <td align="left">F1N9J7</td>
+    <td align="left">Tubulin alpha-3 chain</td>
+    <td align="left">Tuba3a</td>
+    <td char="." align="char">2.63*</td>
+    <td char="." align="char">1.96</td>
+    <td align="left">Major constituent of microtubules</td>
+   </tr>
+   <tr>
+    <td align="left">P08267</td>
+    <td align="left">Ferritin heavy chain</td>
+    <td align="left">FTH</td>
+    <td char="." align="char">2.62*</td>
+    <td char="." align="char">2.33*</td>
+    <td align="left">Storage of iron in a soluble, nontoxic state</td>
+   </tr>
+   <tr>
+    <td align="left">P02263</td>
+    <td align="left">Histone H2A-IV</td>
+    <td align="left">H2A4</td>
+    <td char="." align="char">2.61*</td>
+    <td char="." align="char">3.64*</td>
+    <td align="left">Formation of nucleosome</td>
+   </tr>
+   <tr>
+    <td align="left">F1NWG2</td>
+    <td align="left">Cathepsin C</td>
+    <td align="left">CTSC</td>
+    <td char="." align="char">2.48*</td>
+    <td char="." align="char">2.46*</td>
+    <td align="left">Activates serine proteases</td>
+   </tr>
+   <tr>
+    <td align="left">Q2IAL7</td>
+    <td align="left">Cathelicidin-2</td>
+    <td align="left">CATHL2</td>
+    <td char="." align="char">2.45*</td>
+    <td char="." align="char">1.01</td>
+    <td align="left">Antimicrobial peptide</td>
+   </tr>
+   <tr>
+    <td align="left">Q6EE32</td>
+    <td align="left">Calreticulin</td>
+    <td align="left">CALR</td>
+    <td char="." align="char">2.33*</td>
+    <td char="." align="char">2.21*</td>
+    <td align="left">Molecular chaperon</td>
+   </tr>
+   <tr>
+    <td align="left">Q9I9D1</td>
+    <td align="left">Voltage-dependent anion-selective channel protein 2</td>
+    <td align="left">VDAC2</td>
+    <td char="." align="char">2.27*</td>
+    <td char="." align="char">2.07*</td>
+    <td align="left">Inhibits mitochondrial way of apoptosis</td>
+   </tr>
+   <tr>
+    <td align="left">P02607</td>
+    <td align="left">Myosin light polypeptide 6</td>
+    <td align="left">MYL6</td>
+    <td char="." align="char">2.7*</td>
+    <td char="." align="char">1.66</td>
+    <td align="left">Found in phagosome</td>
+   </tr>
+   <tr>
+    <td align="left">F1NB92</td>
+    <td align="left">Endoplasmic reticulum aminopeptidase 1</td>
+    <td align="left">ERAP1</td>
+    <td char="." align="char">2.21*</td>
+    <td char="." align="char">2.04</td>
+    <td align="left">Antigen processing and presentation of endogenous peptide via MHC class I</td>
+   </tr>
+   <tr>
+    <td align="left">E1BTT8</td>
+    <td align="left">Lactate dehydrogenase A</td>
+    <td align="left">LDHA</td>
+    <td char="." align="char">2.07*</td>
+    <td char="." align="char">1.71</td>
+    <td align="left">Glycolysis</td>
+   </tr>
+   <tr>
+    <td align="left">R4GM10</td>
+    <td align="left">Fructose-bisphosphate aldolase C</td>
+    <td align="left">ALDOC</td>
+    <td char="." align="char">2.07*</td>
+    <td char="." align="char">2.33</td>
+    <td align="left">Glycolysis</td>
+   </tr>
+   <tr>
+    <td align="left">P24367</td>
+    <td align="left">Peptidyl-prolyl cis–trans isomerase B</td>
+    <td align="left">PPIB</td>
+    <td char="." align="char">2.00*</td>
+    <td char="." align="char">0.97</td>
+    <td align="left">Regulation of protein folding and maturation</td>
+   </tr>
+   <tr>
+    <td align="left">Q5ZKQ9</td>
+    <td align="left">RNA binding motif protein, X-linked</td>
+    <td align="left">RBMX</td>
+    <td char="." align="char">0.49*</td>
+    <td char="." align="char">0.59</td>
+    <td align="left">Regulation of pre- and post-transcriptional processes</td>
+   </tr>
+   <tr>
+    <td align="left">R4GGZ2</td>
+    <td align="left">NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 4</td>
+    <td align="left">NDUFA4</td>
+    <td char="." align="char">0.38*</td>
+    <td char="." align="char">0.65</td>
+    <td align="left">Oxidative phosphorylation</td>
+   </tr>
+   <tr>
+    <td align="left">E1BYF8</td>
+    <td align="left">Formin-binding protein 1</td>
+    <td align="left">FNBP1</td>
+    <td char="." align="char">0.33*</td>
+    <td char="." align="char">0.47*</td>
+    <td align="left">Role in late stage of clathrin-mediated endocytosis</td>
+   </tr>
+   <tr>
+    <td align="left">R4GJP1</td>
+    <td align="left">Family with sequence similarity 107, member B</td>
+    <td align="left">FAM107</td>
+    <td char="." align="char">0.32*</td>
+    <td char="." align="char">0.30*</td>
+    <td align="left">Candidate tumor suppressor gene</td>
+   </tr>
+   <tr>
+    <td align="left">P31395</td>
+    <td align="left">Stathmin 1</td>
+    <td align="left">STMN1</td>
+    <td char="." align="char">0.27*</td>
+    <td char="." align="char">0.51</td>
+    <td align="left">Promotes disassembly of microtubules</td>
+   </tr>
+   <tr>
+    <td align="left">E1BQI4</td>
+    <td align="left">Glyoxalase domain-containing protein 4</td>
+    <td align="left">GLOD4</td>
+    <td char="." align="char">0.21*</td>
+    <td char="." align="char">0.18*</td>
+    <td align="left">Unknown</td>
+   </tr>
+   <tr>
+    <td align="left">Q5ZM25</td>
+    <td align="left">Obg-like ATPase 1</td>
+    <td align="left">OLA1</td>
+    <td char="." align="char">0.12*</td>
+    <td char="." align="char">0.11</td>
+    <td align="left">Negative role in cell adhesion and spreading</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>* Significantly different from the expression in macrophages from the non-infected chickens.</p>
+ </table-wrap-foot>
+</table-wrap>

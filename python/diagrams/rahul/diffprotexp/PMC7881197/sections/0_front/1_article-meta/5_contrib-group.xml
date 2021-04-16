@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Kim</surname>
+   <given-names>Donguk</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Park</surname>
+   <given-names>Na Yeon</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Kang</surname>
+   <given-names>Keunsoo</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Calderwood</surname>
+   <given-names>Stuart K.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Cho</surname>
+   <given-names>Dong-Hyung</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Bae</surname>
+   <given-names>Ill Ju</given-names>
+  </name>
+  <address>
+   <email>cjsbij@gmail.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Bunch</surname>
+   <given-names>Heeyoun</given-names>
+  </name>
+  <address>
+   <email>heeyounbunch@gmail.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.258803.4</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0661 1556</institution-id>
+   <institution>School of Applied Biosciences, College of Agriculture and Life Sciences, </institution>
+   <institution>Kyungpook National University, </institution>
+  </institution-wrap>Daegu, 41566 Republic of Korea 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.258803.4</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0661 1556</institution-id>
+   <institution>School of Life Sciences, </institution>
+   <institution>BK21 Four KNU Creative Bioresearch Group, Kyungpook National University, </institution>
+  </institution-wrap>Daegu, 41566 Republic of Korea 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411982.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0705 4288</institution-id>
+   <institution>Department of Microbiology, College of Natural Sciences, </institution>
+   <institution>Dankook University, </institution>
+  </institution-wrap>Cheonan, 31116 Republic of Korea 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>Department of Radiation Oncology, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA 02115 USA 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>Department of Drug Development, Chemas Pharmaceuticals, Seoul, 06163 Republic of Korea 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.258803.4</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0661 1556</institution-id>
+   <institution>Department of Applied Biosciences, College of Agriculture and Life Sciences, </institution>
+   <institution>Kyungpook National University, </institution>
+  </institution-wrap>Daegu, 41566 Republic of Korea 
+ </aff>
+</contrib-group>

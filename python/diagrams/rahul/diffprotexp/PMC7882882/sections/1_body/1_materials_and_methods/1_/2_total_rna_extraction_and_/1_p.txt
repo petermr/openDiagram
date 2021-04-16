@@ -1,0 +1,8 @@
+0: The Phenol-free mirVanaTM miRNA Isolation kit (cat.
+1: no.
+2: AM1561; Ambion; Thermo Fisher Scientific, Inc.) was used to extract and purify total RNA to generate fluorescently labeled cRNA targets (4180 K), following the manufacturer's protocol.
+3: The labeled cRNA targets were then hybridized to a glass slide.
+4: After hybridization, the slides were scanned using an Agilent microarray scanner (Agilent Technologies, Inc.).
+5: After extracting data using Feature Extraction software 10.7 (Agilent Technologies), the Quantum algorithm was used to normalize the raw data using the limma software package of the R program ( http://www.R-project.org).
+6: The analysis was performed by version 3.6.1.
+7: ( http://www.rstudio.com/).

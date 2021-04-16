@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par52">To establish a relationship between different levels of molecules i.e. transcriptome and metabolome, we first visually compared the separate results of PCA. The PC1 of DEGs and DAMs had 23.07 and 26.11% variation, respectively. The PC2 of DEGs and DAMs showed 36.41 and 37.51% variation, respectively, suggesting that the amount of variation was more or less same (Additional Fig. 
+ <xref rid="MOESM1" ref-type="media">7</xref>). The co-joint KEGG pathway analysis showed that the DEGs and DAMs were mapped onto fifteen pathways (Additional Table 
+ <xref rid="MOESM2" ref-type="media">6</xref>; Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>a). The co-joint KEGG pathway enrichment analysis showed that the same pathways were enriched as of transcriptome or metabolome based individual enrichment analysis. The significantly enriched pathways are shown in Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>a. Log2 conversion data for the DAMs and DEGs were selected that had a PCC &gt; 0.8. We then generated nine-quadrant diagrams to visualize corresponding variations between DAMs and DEGs having PCC as given above (Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>b; Additional Fig. 
+ <xref rid="MOESM1" ref-type="media">8</xref>). Transcript-metabolite correlation was determined by constructing subnetworks. These networks revealed both the regulatory and synthetic characteristics of genes and metabolites (Additional Fig. 
+ <xref rid="MOESM1" ref-type="media">9</xref>). The correlation networks showed that transcripts and metabolites were correlated in four pathways i.e., Ascorbate and aldarate metabolism, cysteine and methionine metabolism, phenylpropanoid biosynthesis, and biosynthesis of amino acids. Furthermore, the relatively higher number of DAMs and DEGs in the 3rd and 7th quadrant indicates that the differential expression pattern of genes and differential accumulation of metabolites are consistent; genes and metabolites have a positive correlation, and the changes in metabolites may be positively regulated by genes (Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>a). 
+</p>

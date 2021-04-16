@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig fig-type="figure" id="f4" orientation="portrait" position="float">
+ <label>Figure 4</label>
+ <caption>
+  <p>
+   <bold>Module-pathway regulatory network and AUC analysis.</bold> Scatterplot of module membership vs. gene significance (
+   <bold>A</bold>). Global regulatory network of blue and turquoise modules (
+   <bold>B</bold>): red represents high expression; blue and yellow indicate low expression; node size indicates the degree of gene connectivity. Enrichment analyses of BDNF intersection pathways (
+   <bold>C</bold>): yellow indicates the low BDNF expression. Performance evaluation of low BDNF in HD prediction (
+   <bold>D</bold>). AUC: area under the curve, HD: Huntington’s disease.
+  </p>
+ </caption>
+ <graphic xlink:href="aging-13-202603-g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,2 @@
+0: Define  e  g as the non-constant part of formula ( 7) for each gene after  s02 solved.
+1: (9)eg=logVAR(dg/2)+log(dg/2) The expected mean of  e  g(10)E(eg)=logs02(d0/2)+log(d0/2) Based on this,  s02 can be calculated as  (11)s02=eE(eg)+(d0/2)log(d0/2) Substituting  E( e  g) with the predicted  e  g, which is calculated as  (12)pred(eg)=fitted(logVAR)(dg/2)+log(dg/2)

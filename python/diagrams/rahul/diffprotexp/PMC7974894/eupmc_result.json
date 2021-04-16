@@ -1,0 +1,329 @@
+{
+  "id": [
+    "33758601"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33758601"
+  ],
+  "pmcid": [
+    "PMC7974894"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7974894"
+      ]
+    }
+  ],
+  "doi": [
+    "10.7150/jca.52156"
+  ],
+  "title": [
+    "Identification of Prognosis-related Hub RNA Binding Proteins Function through Regulating Metabolic Processes in Tongue Cancer."
+  ],
+  "authorString": [
+    "Shen T, Wang M, Wang X."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Shen T"
+          ],
+          "firstName": [
+            "Tao"
+          ],
+          "lastName": [
+            "Shen"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Geriatrics, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Hefei National Laboratory for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, 230026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang M"
+          ],
+          "firstName": [
+            "Meiting"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Liren, Yanshan University, Qinhuangdao, 066004, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Neurobiology and Biophysics, School of Life Sciences, University of Science and Technology of China, Hefei, 230026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang X"
+          ],
+          "firstName": [
+            "Xiangting"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Geriatrics, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Hefei National Laboratory for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, 230026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "8"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3137862"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of Cancer"
+          ],
+          "ISOAbbreviation": [
+            "J Cancer"
+          ],
+          "medlineAbbreviation": [
+            "J Cancer"
+          ],
+          "NLMid": [
+            "101535920"
+          ],
+          "ISSN": [
+            "1837-9664"
+          ],
+          "ESSN": [
+            "1837-9664"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "2230-2242"
+  ],
+  "abstractText": [
+    "RNA binding proteins (RBPs) are dysregulated and associated with the occurrence and development in various malignant tumors. However, the role of RBPs in tongue cancer are largely unclear. Here, by integrating the differential gene expression analysis and the Weighted Gene Co-expression Network Analysis (WGCNA) of TCGA-retrieved RNA-seq data, we identified a total of 171 differential co-expression RBPs. Then, in a protein-protein interaction (PPI) network containing 134 nodes (RBPs) and 315 network edges (RBP-RBP interacting networks), the top 30 hub RBPs were identified using the CytoHubba plugin of Cytoscape. Furthermore, we investigated the expression and prognostic value of these RBPs and their highly correlated networks. Among them, six RBPs (PGK1, SLC20A1, LEPR, CYP19A1, ZC3H12D, and PFKM) were shown to be the prognosis-related hub RBPs (prhRBPs). Based on these hub RBPs, we constructed a prognostic model and found that the patients in the high-risk group had dramatically poor overall survival compared to those in low-risk group. In addition, we validated the prognostic model in GSE41613, another tongue cancer patient cohort from GEO datasets. The time-dependent receiver operating characteristic (ROC) analysis of the prognostic model further confirmed the predictive capability of the risk model for tongue cancer. As suggested in functional annotation analysis, we found an intensive enrichment of these prhRBPs in metabolic pathways, including AMPK, HIF-1 signaling pathway, Glycolysis, and steroid hormone biosynthesis. Together, our study revealed the underlying role of RBP in tongue cancer biology and potentially unveiled novel targets for cancer therapy."
+  ],
+  "affiliation": [
+    "Department of Geriatrics, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Hefei National Laboratory for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, 230026, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "RNA binding protein",
+        "Metabolic process",
+        "Risk Score",
+        "Tongue Cancer",
+        "Prognostic Model."
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.7150/jca.52156"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7974894"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7974894?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-24"
+  ],
+  "firstIndexDate": [
+    "2021-03-25"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-24"
+  ],
+  "dateOfRevision": [
+    "2021-03-25"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-22"
+  ],
+  "firstPublicationDate": [
+    "2021-02-22"
+  ]
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Panigrahi</surname>
+   <given-names>Sonam</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Panigrahy</surname>
+   <given-names>Madhusmita</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Kariali</surname>
+   <given-names>Ekamber</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Dash</surname>
+   <given-names>Sushanta Kumar</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Sahu</surname>
+   <given-names>Binod Bihari</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Sahu</surname>
+   <given-names>Sushil Kumar</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Mohapatra</surname>
+   <given-names>Pravat Kumar</given-names>
+  </name>
+  <address>
+   <email>pravat1948@rediffmail.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Panigrahi</surname>
+   <given-names>Kishore Chandra Sekhar</given-names>
+  </name>
+  <address>
+   <email>panigrahi@niser.ac.in</email>
+  </address>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+  <xref ref-type="aff" rid="Aff7">7</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.444716.4</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0354 3420</institution-id>
+   <institution>School of Life Sciences, </institution>
+   <institution>Sambalpur University, </institution>
+  </institution-wrap>Jyoti vihar, Sambalpur, 768019 India 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.412612.2</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1760 9349</institution-id>
+   <institution>Siksha ‘O’ Anusandhan University, </institution>
+  </institution-wrap>Bhubaneswar, 751030 India 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.418371.8</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2183 1039</institution-id>
+   <institution>ICAR-National Rice Research Institute, </institution>
+  </institution-wrap>Cuttack, 753006 India 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.444703.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0744 7946</institution-id>
+   <institution>Department of Life Science, </institution>
+   <institution>National Institute of Technology, </institution>
+  </institution-wrap>Rourkela, 769008 India 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.444392.c</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0429 813X</institution-id>
+   <institution>School of Life Sciences, </institution>
+   <institution>Ravenshaw University, </institution>
+  </institution-wrap>Cuttack, 753003 India 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.419643.d</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1764 227X</institution-id>
+   <institution>School of Biological Sciences, </institution>
+   <institution>National Institute of Science Education and Research, </institution>
+  </institution-wrap>Khordha, 752050 India 
+ </aff>
+ <aff id="Aff7">
+  <label>7</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.450257.1</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1775 9822</institution-id>
+   <institution>Homi Bhabha National Institute (HBNI), </institution>
+  </institution-wrap>Anushakti Nagar, Mumbai, 400094 India 
+ </aff>
+</contrib-group>

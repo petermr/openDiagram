@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The 
+ <italic>Adipoq-Cre</italic> transgenic mouse model [
+ <xref rid="cit0005" ref-type="bibr">5</xref>] was generated using a 245 kb mouse BAC (RP23-90G21) containing the 
+ <italic>Adipoq</italic> gene and several other mouse genes. The start site and 222 bp of the 
+ <italic>Adipoq</italic> gene were replaced with the 
+ <italic>Cre</italic> recombinase coding sequence in the BAC. It is not known whether copies of the 
+ <italic>Adipoq-Cre</italic> transgene were inserted into multiple chromosomes during generation of the mouse line, but extensive backcrossing onto the C57BL/6 J strain has now fixed the transgenic insertion site to chromosome 9. To investigate the 
+ <italic>Adipoq-Cre</italic> transgene further, we next identified the additional insertion of passenger genes which were alongside the 
+ <italic>Adipoq-Cre</italic> transgene in the BAC construct. Aligned sequencing data were explored using the Integrative Genomics Viewer and a region surrounding the 
+ <italic>Adipoq</italic> gene locus was viewed to determine read coverage and identify potential gene copy number increases due to the 
+ <italic>Adipoq-Cre</italic> transgene (
+ <xref ref-type="fig" rid="f0001">Figure 1b</xref>). The identified genes with likely copy number changes were, kininogen 2 (
+ <italic>Kng2</italic>), kininogen 1 (
+ <italic>Kng1</italic>), eukaryotic translation initiation factor 4A2 (
+ <italic>Eif4a2</italic>), replication factor C (activator 1) 4 (
+ <italic>Rfc4</italic>), and 
+ <italic>Adipoq</italic>. We next used featureCounts [
+ <xref rid="cit0018" ref-type="bibr">18</xref>], a read summarization program to count sequencing reads to each identified gene in order to quantify read coverage for each gene. The results showed increased gene-wide reads for the genes 
+ <italic>Kng2, Kng1, Eif4a2, Rfc4</italic>, and 
+ <italic>Adipoq</italic> compared to neighbouring genes and the average of the entire mouse genome (
+ <xref ref-type="fig" rid="f0001">Figure 1c</xref>). Primers were designed and optimized to confirm passenger gene copy number and gene expression using droplet digital PCR [
+ <xref rid="cit0010" ref-type="bibr">10</xref>] and are shown in Supplemental Table 2. Copy number analysis using ddPCR showed increased copy number for the genes 
+ <italic>Kng2, Eif4a2</italic>, and 
+ <italic>Rfc4</italic> (
+ <xref ref-type="fig" rid="f0001">Figure 1d</xref>). Primers designed to determine copy number for 
+ <italic>Tbx18</italic> additionally showed a significant increase (
+ <xref ref-type="fig" rid="f0001">Figure 1d</xref>).
+</p>

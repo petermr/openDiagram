@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We analyzed 598 newly diagnosed MM (NDMM) samples from the CoMMpass dataset which contains whole exome sequencing and RNA-seq data that were uniformly processed. 
+ <xref ref-type="fig" rid="fig001">Figure 1</xref> shows a CONSORT flow diagram of the breakdown of available samples for the four different analyses performed on the data. WES data were analyzed for mutations using a previously described pipeline.
+ <sup>
+  <xref rid="ref1" ref-type="bibr">1</xref>,
+  <xref rid="ref19" ref-type="bibr">19</xref>
+ </sup> RNA-seq data was analyzed using a pipeline that included the transcript aligner STAR
+ <sup>
+  <xref rid="ref20" ref-type="bibr">20</xref>
+ </sup> (v2.5.1b). Salmon
+ <sup>
+  <xref rid="ref21" ref-type="bibr">21</xref>
+ </sup> (v0.7.2) was used to align reads to the transcriptome and quantify expression at the gene and transcript level.
+</p>

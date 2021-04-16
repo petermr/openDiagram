@@ -1,0 +1,4 @@
+0: We used the software CIBERSORT ( https://cibersort.stanford.edu) to calculate the relative proportions and  p-values of 22 immune infiltrating cells in each sample.
+1: This software provided a pre-convolution algorithm to characterize the composition of immune invading cells based on the gene expression matrix using a deconvolution algorithm.
+2: CIBERSORT calculated the relative proportion of 22 immune infiltrating cells in each sample based on the expression of these 547 barcode genes as well as the  p-value.
+3: The smaller the  p-value, the higher the content of immune infiltrating cells in the sample.

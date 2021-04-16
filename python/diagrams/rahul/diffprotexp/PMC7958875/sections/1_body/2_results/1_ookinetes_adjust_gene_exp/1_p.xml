@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to understand if ookinetes can respond to the host environment, we compared single-cell transcriptomes collected from 
+ <italic>An. coluzzii</italic> and 
+ <italic>An. stephensi</italic> midgut blood boli using our 
+ <italic>Pb vector species data set</italic>. Cells originating from 
+ <italic>An. stephensi</italic> midguts are originally from the Malaria Cell Atlas data set (
+ <xref rid="B17" ref-type="bibr">Howick et al., 2019</xref>) and were collected 18 and 24 h after mosquito infection. Cells collected from 
+ <italic>An. coluzzii</italic> midguts were collected only at 24 h after mosquito infection. Out of 286 single-cells sequenced, 253 passed quality control (
+ <xref rid="T1" ref-type="table">
+  <bold>Table 1</bold>
+ </xref>, 
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S1</bold>
+ </xref>). Parasite transcriptomes were visualized using the first two components of principal components analysis (PCA) (
+ <xref ref-type="fig" rid="f1">
+  <bold>Figure 1</bold>
+ </xref>). K-means clustering identified 5 clusters of cells based on gene expression profile (
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S2</bold>
+ </xref>). Clusters were assigned cell-types based on marker gene expression and mapping to the Malaria Cell Atlas data. Seven hundred fifty-nine marker genes were identified across all clusters and visual inspection of the top twenty marker genes for each cluster revealed that mature ookinetes belong to cluster 1, with the ookinete-specific 
+ <italic>Pbs25</italic>, 
+ <italic>soap</italic>, 
+ <italic>cap380</italic> and 
+ <italic>warp</italic> genes among the marker genes with a total of 114 cells (
+ <xref ref-type="supplementary-material" rid="ST1">
+  <bold>Table S1</bold>
+ </xref>). Additionally, we staged the data using the Malaria Cell Atlas (
+ <xref rid="B17" ref-type="bibr">Howick et al., 2019</xref>) as a reference index for scmap (
+ <xref rid="B24" ref-type="bibr">Kiselev et al., 2018</xref>). We found that cluster 1 represents ookinetes, while the other four clusters represented a variety of different stages including asexual blood stages, male gametocytes, (unfertilized) female gametocytes, and possible retorts (
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S2</bold>
+ </xref>, 
+ <xref ref-type="fig" rid="f1">
+  <bold>Figure 1B</bold>
+ </xref>).
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Raw data were analysed using the Proteome Discoverer (v.1.4). MS/MS spectra identification was performed by SEQUEST using the 
+ <italic>Gallus gallus</italic> protein sequences obtained from Uniprot database. Precursor and fragment mass tolerance were 10 ppm and 0.6 Da, respectively. Carbamidomethylation (C) and oxidation (M) were set as static and dynamic modifications, respectively. Dimethylation (N-term and K) was set as static modification in the label-based analysis. Only peptides with a false discovery rate FDR ≤ 5% were used for protein identification.
+</p>

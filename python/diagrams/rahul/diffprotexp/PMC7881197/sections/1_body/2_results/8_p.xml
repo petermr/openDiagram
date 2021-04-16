@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par42">Next, we examined and validated the genes known to regulate cell cycle progression that were differentially expressed between HUMEC and MCF7 cells in RNA-seq analysis (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>D). Of such genes, 
+ <italic>CDC20</italic>, BUB1 mitotic checkpoint serine/threonine kinase B (
+ <italic>BUB1B</italic>), polo-like kinase 1 (
+ <italic>PLK1</italic>), 
+ <italic>CDK1</italic>, checkpoint kinase 1 (
+ <italic>CHEK1</italic>), mini-chromosome maintenance protein 4 (
+ <italic>MCM4</italic>), and 
+ <italic>CDC25A</italic> were selected for validation through the real-time PCR and immunoblotting analysis (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>E,F; Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S4</xref>B). CDC20 is an important regulator of cell division that activates anaphase promoting complex (APC/C) and also interacts with BUB1B
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>,
+  <xref ref-type="bibr" rid="CR53">53</xref>
+ </sup>. BUB1B encodes a kinase that functions in mitosis by inhibiting APC/C and ensuring kinetochore localization in CENPE and thus is required for a proper progression of mitosis
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup>. PLK1 functions throughout the M phase of the cell cycle, phosphorylating many cell-cycle regulators, including BUB1B and cyclin B1
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>,
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup>. PLK1 is important for the initiation of anaphase, the removal of cohesins, and spindle assembly
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>
+ </sup>. CDK1 is a central cyclin-dependent kinase required for progression through the G
+ <sub>2</sub> and M phases
+ <sup>
+  <xref ref-type="bibr" rid="CR58">58</xref>
+ </sup>. CHEK1 is an essential protein that senses DNA damage to activate DNA repair machinery and cell cycle checkpoints throughout the cell cycle
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>
+ </sup>. CDC25A is a phosphatase that removes the inhibitory phosphorylation from CDKs and controls the entry into the S and M phases
+ <sup>
+  <xref ref-type="bibr" rid="CR60">60</xref>
+ </sup>. MCM4 is a DNA helicase, an essential factor initiating genome replication in the S phase
+ <sup>
+  <xref ref-type="bibr" rid="CR61">61</xref>
+ </sup>. mRNA levels of these genes were compared in control and AS6-treated HUMEC and MCF7 cells. The results showed that mRNA expression of 
+ <italic>CDC20</italic>, 
+ <italic>CDK1</italic>, 
+ <italic>MCM4</italic>, 
+ <italic>CHEK1</italic>, and 
+ <italic>BUB1B</italic> was markedly reduced in MCF7 cells (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>E), which suggests a mechanism for the marked inhibition of cell cycle progression. By contrast, these mRNA levels were upregulated or less affected in HUMEC (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>E). These findings are consistent with the results of the cytotoxicity data (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>), which showed a deteriorated cell growth caused by AS6 in MCF7 cells. Immunoblotting results clearly showed that BUB1B, PLK1,CDC20, cyclin B1, CHEK1, and MCM4 were downregulated in AS6-treated MCF7 cells (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>F; Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S4</xref>B). The mRNA expression of 
+ <italic>CDC25A</italic> was modestly increased in both HUMEC and MCF7 cells. However, its protein level was decreased in MCF7 cells (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>E, F; Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S4</xref>B). Consistent with the RT-PCR results (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>D, 
+ <xref rid="Fig4" ref-type="fig">4</xref>F), protein levels of p21 were moderately increased in these cells. These data demonstrate that AS6 effectively deregulates the cell cycle in MCF7 cells. It potently interferes with the gene expression of central cell cycle regulators, important for the progression through the S and M phases, inhibiting the cell growth and proliferation in MCF7 cells.
+</p>

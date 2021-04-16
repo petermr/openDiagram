@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Principal component analysis (PCA) of MIA and control RNA-seq samples showed developmental age accounts for the majority of variance across samples, with some additional separation between MIA and control groups (
+ <xref ref-type="fig" rid="fig1">Figure 1b–c</xref>). We performed stage-specific differential expression analysis for male and female samples and for both sexes with sex as a covariate. For each time-point, DE genes were defined using a stringent false discovery rate (FDR) &lt; 0.05 threshold and a more inclusive p &lt; 0.05 threshold (
+ <xref ref-type="fig" rid="fig1">Figure 1d,e</xref>, 
+ <xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref>–
+ <xref ref-type="supplementary-material" rid="supp5">5</xref>). Sex-stratified analysis indicated generally concordant DE differences between male and female samples following MIA, although DE effect sizes appeared stronger in females at E14.5 and E17.5, leading to a larger number of DE genes identified independently in females compared to males (
+ <xref ref-type="fig" rid="fig1s2">Figure 1—figure supplement 2</xref>, 
+ <xref ref-type="supplementary-material" rid="supp6">Supplementary files 6</xref>–
+ <xref ref-type="supplementary-material" rid="supp15">15</xref>). Overall, sex-stratified differences in DE genes were generally subtle, as demonstrated by high DE correlation and shared DE gene sets between sexes, with consistent findings across sexes among key DE genes (
+ <xref ref-type="fig" rid="fig1s3">Figure 1—figure supplement 3</xref>). Samples from both male and female offspring were used for overall DE analysis models, with sex included as a covariate.
+</p>

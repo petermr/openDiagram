@@ -1,0 +1,19 @@
+0: The pipeline used to analyze sRNASeq data was followed as described previously [ 51].
+1: Briefly, after inspecting raw reads quality by FastQC, adapters and low-quality bases were trimmed by Trimmomatic.
+2: Afterwards, tRNA, rRNA, snRNA, snoRNA retrieved from NCBI, Rfam, and RepBase databases were removed to obtain clean reads.
+3: In miRNA analysis, clean reads were mapped to  C.  quinoa reference genome by Bowtie2 [ 52] to recover quinoa sequences.
+4: Then, miRDeep2 [ 53] was employed to detect known miRNAs based on miRBase v22 database, and predict novel miRNAs based on the randfold with a  p-value< 0.05.
+5: Read counts of known and novel miRNAs obtained by quantifier module of miRDeep2 were used in DESeq2 for detection of differential expressed miRNAs (DEmiRNA) based on the same design formula as DEG analysis.
+6: The DEmiRNA with adjusted  p-value  0.05 were considered significant and further analyzed by TargetFinder [ 54] to predict their target genes.
+7: Significant GO terms and KEGG pathways of target genes were obtained by KOBAS as described above.
+8: Characterization of endogenous siRNAs and vsiRNAs was carried out by alignment of miRNA-free clean reads to  C.  quinoa reference genome and three RNAs of CMV, respectively, using Bowtie2 with alignment options of very sensitive, zero mismatch, and 18 nucleotides as the minimum sequence size.
+9: The 5 base enrichment and nucleotide size distribution analyses were carried out by reformat module of BBMap [ 55] software.
+10: To prepare the read counts for differential expression of siRNA, miRNA-free clean reads were used as input in ShortStack 3.7 [ 56]; this was used to determine siRNA clusters accumulating in genomic loci.
+11: The parameters used in ShortStack were nohp mode, mismatch 0, dicermin 18, dicermax 30, DicerCall cut-off of 80%, and mincov 0.5.
+12: Differential expression of siRNAs was determined in two modes as the same as DEG analysis of RNASeq.
+13: DE-siRNA clusters from full design and variety-specific models were considered significant based on Benjamini Hochberg adjusted  p-value  0.05.
+14: To predict putative genes, transposable elements (TEs), and transcription factor binding sites (TFBSs) as potential targets of DE-siRNA clusters, a window frame of 2 kb upstream of the gene was inspected.
+15: Targeted sequences were retrieved and searched using CENSOR [ 57] algorithm to find candidate TE from RepBase database.
+16: Also, the retrieved sequences were subjected to PlantRegMap [ 58] database against  Arabidopsis thaliana,  Beta vulgaris and  Spinacia oleracea to perform an exhaustive search on transcription factor binding sites with a  p-value cut-off of 1e-7.
+17: Finally, to annotate the biological function of the targeted gene, KOBAS was used to perform GO and KEGG pathway enrichment analyses.
+18: All coding used in the study is available upon request.

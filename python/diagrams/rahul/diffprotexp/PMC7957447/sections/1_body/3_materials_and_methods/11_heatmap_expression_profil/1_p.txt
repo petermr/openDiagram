@@ -1,0 +1,2 @@
+0: All expression profiles, including mRNA, protein, metabolite, and lipid, removed confounders of sex and age using removeBatchEffect in R package limma.
+1: Processed expression matrix was used to plot a heatmap with the R package pheatmap.

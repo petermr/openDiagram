@@ -1,0 +1,394 @@
+{
+  "id": [
+    "29983616"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29983616"
+  ],
+  "pmcid": [
+    "PMC6026366"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC6026366"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1016/j.jgr.2017.04.006"
+  ],
+  "title": [
+    "A proteomic approach reveals the differential protein expression in <i>Drosophila melanogaster</i> treated with red ginseng extract (<i>Panax ginseng</i>)."
+  ],
+  "authorString": [
+    "Liu QX, Zhang W, Wang J, Hou W, Wang YP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Liu QX"
+          ],
+          "firstName": [
+            "Qing-Xiu"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "QX"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, Jilin, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang W"
+          ],
+          "firstName": [
+            "Wei"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, Jilin, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "State Key Laboratory for Molecular Biology of Special Economic Animals, Changchun, Jilin, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang J"
+          ],
+          "firstName": [
+            "Jia"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, Jilin, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hou W"
+          ],
+          "firstName": [
+            "Wei"
+          ],
+          "lastName": [
+            "Hou"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, Jilin, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang YP"
+          ],
+          "firstName": [
+            "Ying-Ping"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "YP"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, Jilin, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "related_data",
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "42"
+      ],
+      "journalIssueId": [
+        "2704456"
+      ],
+      "dateOfPublication": [
+        "2018 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of ginseng research"
+          ],
+          "ISOAbbreviation": [
+            "J Ginseng Res"
+          ],
+          "medlineAbbreviation": [
+            "J Ginseng Res"
+          ],
+          "NLMid": [
+            "100890690"
+          ],
+          "ISSN": [
+            "1226-8453"
+          ],
+          "ESSN": [
+            "2093-4947"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "343-351"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Red ginseng is a popularly used traditional medicine with antiaging effects in Asian countries. The present study aimed to explore the changes in protein expression underlying the mechanisms of life span extension and antiaging caused by red ginseng extract (RGE) in <i>Drosophila melanogaster</i>.<h4>Methods</h4>A proteomic approach of two-dimensional polyacrylamide gel electrophoresis (2-DE) was used to identify the differential abundance of possible target proteins of RGE in <i>D. melanogaster</i>. The reliability of the 2-DE results was confirmed via Western blotting to measure the expression levels of selected proteins. Proteins altered at the expression level after RGE treatment (1 mg/mL) were identified by matrix-assisted laser desorption/ionization-time of flight tandem mass spectrometry and by searching against the National Center for Biotechnology nonredundant and Uniprot protein databases. The differentially expressed proteins were analyzed using bioinformatics methods.<h4>Results</h4>The average survival life span of <i>D. melanogaster</i> was significantly extended by 12.60% with RGE treatment (1 mg/mL) compared to untreated flies. This followed increased superoxide dismutase level and decreased methane dicarboxylic aldehyde content. Based on the searching strategy, 23 differentially expressed proteins were identified (16 up-regulated and 7 down-regulated) in the RGE-treated <i>D. melanogaster</i>. Transduction pathways were identified using the Kyoto Encyclopedia of Genes and Genomes database, and included the hippo and oxidative phosphorylation pathways that play important roles in life span extension and antiaging process of <i>D. melanogaster</i>.<h4>Conclusion</h4>Treatment with RGE in <i>D. melanogaster</i> demonstrated that mechanisms of life span extension and antiaging are regulated by multiple factors and complicated signal pathways."
+  ],
+  "affiliation": [
+    "Institute of Special Animal and Plant Sciences, Chinese Academy of Agricultural Sciences, Changchun, Jilin, China."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Proteome",
+        "Antiaging",
+        "Red Ginseng Extract",
+        "Life Span Extension"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.jgr.2017.04.006"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6026366"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6026366?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "uniprot"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-07-10"
+  ],
+  "firstIndexDate": [
+    "2018-07-09"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-10"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2017-04-22"
+  ],
+  "firstPublicationDate": [
+    "2017-04-22"
+  ]
+}

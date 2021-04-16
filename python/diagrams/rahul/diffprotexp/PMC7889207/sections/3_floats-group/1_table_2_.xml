@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0002" orientation="portrait" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>List of genes and their fold regulation assessed using a Rat Fatty Acid Metabolism PCR array in VAT and SAT</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Gene</th>
+    <th align="center">VAT</th>
+    <th align="center">p-value</th>
+    <th align="center">SAT</th>
+    <th align="center">p-value</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Acot7</italic>
+    </td>
+    <td align="center">14.0</td>
+    <td align="center">
+     <bold>0.002</bold>
+    </td>
+    <td align="center">−8.0</td>
+    <td align="center">0.592</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Acox3</italic>
+    </td>
+    <td align="center">3.2</td>
+    <td align="center">
+     <bold>0.036</bold>
+    </td>
+    <td align="center">−1.1</td>
+    <td align="center">0.851</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Acsl1</italic>
+    </td>
+    <td align="center">4.2</td>
+    <td align="center">
+     <bold>0.016</bold>
+    </td>
+    <td align="center">−4.5</td>
+    <td align="center">0.310</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Bdh2</italic>
+    </td>
+    <td align="center">5.7</td>
+    <td align="center">
+     <bold>0.005</bold>
+    </td>
+    <td align="center">−1.9</td>
+    <td align="center">0.568</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Decr1</italic>
+    </td>
+    <td align="center">2.4</td>
+    <td align="center">
+     <bold>0.038</bold>
+    </td>
+    <td align="center">1.4</td>
+    <td align="center">0.390</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Lpl</italic>
+    </td>
+    <td align="center">2.1</td>
+    <td align="center">
+     <bold>0.034</bold>
+    </td>
+    <td align="center">−1.1</td>
+    <td align="center">0.538</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Ppa1</italic>
+    </td>
+    <td align="center">2.9</td>
+    <td align="center">
+     <bold>0.038</bold>
+    </td>
+    <td align="center">−1.7</td>
+    <td align="center">0.707</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Prkag1</italic>
+    </td>
+    <td align="center">7.7</td>
+    <td align="center">
+     <bold>0.012</bold>
+    </td>
+    <td align="center">−4.7</td>
+    <td align="center">0.273</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Slc27a3</italic>
+    </td>
+    <td align="center">9.6</td>
+    <td align="center">
+     <bold>0.019</bold>
+    </td>
+    <td align="center">−6.3</td>
+    <td align="center">
+     <bold>0.048</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Acsbg1</italic>
+    </td>
+    <td align="center">−5.0</td>
+    <td align="center">
+     <bold>0.037</bold>
+    </td>
+    <td align="center">7.4</td>
+    <td align="center">0.177</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Acadm</italic>
+    </td>
+    <td align="center">2.6</td>
+    <td align="center">0.217</td>
+    <td align="center">−10.2</td>
+    <td align="center">
+     <bold>0.036</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Acsl5</italic>
+    </td>
+    <td align="center">1.8</td>
+    <td align="center">0.254</td>
+    <td align="center">−5.8</td>
+    <td align="center">
+     <bold>0.045</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Slc27a1</italic>
+    </td>
+    <td align="center">2.0</td>
+    <td align="center">0.311</td>
+    <td align="center">2.2</td>
+    <td align="center">
+     <bold>0.045</bold>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tfn0002">
+   <p>Fold change refers to gene expression in CD-fed rats compared to STD-fed rats.</p>
+  </fn>
+  <fn id="tfn0003">
+   <p>Abbreviations: VAT, visceral adipose tissue, SAT, subcutaneous adipose tissue</p>
+  </fn>
+  <fn id="tfn0004">
+   <p>P-values in bold indicate statistical significance.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

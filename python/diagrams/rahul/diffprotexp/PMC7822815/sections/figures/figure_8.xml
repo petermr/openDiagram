@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig8">
+ <label>Fig. 8</label>
+ <caption>
+  <title>Knockdown of 
+   <italic>RUNX1/RUNX1T1</italic> leads to differential splicing of 
+   <italic>RPS6KA1</italic> transcripts in Kasumi-1 cells.
+  </title>
+  <p>
+   <bold>a</bold> IGV screen shot showing the RUNX1/RUNX1T1 binding and RNA reads from nascent and total RNA-Seq at the 5’-terminal region of 
+   <italic>RPS6KA1</italic> locus for siMM-treated and siRR-treated Kasumi-1 cells. E, exons; J, exon-exon junctions. Bottom scheme depicting 
+   <italic>RPS6KA1</italic> transcripts. diffEEJs are boxed and highlighted in yellow. 
+   <bold>b</bold> qPCR-based quantitation of the change in the activity of various transcription start sites of 
+   <italic>RPS6KA1</italic> gene following 
+   <italic>RUNX1/RUNX1T1</italic> knockdown. The overall expression level (“total”) of 
+   <italic>RPS6KA1</italic> gene is also indicated. *
+   <italic>p</italic> = 0.029, **
+   <italic>p</italic> = 0.025, 
+   <sup>#</sup>
+   <italic>p</italic> = 0.022, and 
+   <sup>##</sup>
+   <italic>p</italic> = 0.014 with one-tailed one sample Student’s t-test. Bars represent mean ± SD of three independent experiments. 
+   <bold>c</bold> Knockdown of 
+   <italic>RUNX1/RUNX1T1</italic> leads to statistically significant (
+   <italic>p</italic> = 0.00504 (*)) changes in the RPS6KA1 protein level in leukemic cells. 
+   <italic>P</italic>-value was calculated using one-tailed one sample Student’s t-test with μ
+   <sub>0</sub> = 1. Bars represent mean ± SD of three independent experiments. 
+   <bold>d</bold> Differential expression of 
+   <italic>RPS6KA1</italic> gene in t(8;21) positive and negative AMLs. Gene expression levels were taken from the TGCA-LAML (
+   <italic>n</italic> = 173) and GEO/ENA-AML (
+   <italic>n</italic> = 80) datasets. For the TGCA-LAML dataset, RSEM values of normalized gene expression were used. Normalized expression of genes from GEO/ENA-AML dataset was calculated as RPKM. In each violin plot, horizontal yellow line represents the median of expression distribution, box shows the interquartile range, and whiskers are the minimum and maximum. 
+   <italic>P</italic>-values were calculated with two-sided Mann–Whitney U test. 
+   <bold>e</bold> Survival of AML patients depending on expression of 
+   <italic>RPS6KA1</italic> gene. This survival plot is based on TCGA-LAML dataset (
+   <italic>n</italic> = 173). The dependence of patient survival on gene expression was calculated according to the Cox proportional hazards regression model. 
+   <bold>f</bold> Impact of RPS6KA1 inhibition on clonogenicity of t(8;21) AML cells. Kasumi-1 cells were electroporated with the indicated siRNAs followed by plating into semisolid medium containing the indicated concentrations of RPS6KA1 inhibitor. Data was normalized relative to clonogenicity of the siMM electroporated and BI-D1870 untreated leukemia cells. Bars represent mean ± SD of four independent experiments. *
+   <italic>p</italic> = 0.053, **
+   <italic>p</italic> = 0.012, 
+   <sup>#</sup>
+   <italic>p</italic> = 0.008, and 
+   <sup>##</sup>
+   <italic>p</italic> = 0.001 with one-tailed Student’s t-test against respective baseline in untreated cells.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20848_Fig8_HTML" id="d32e1542" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

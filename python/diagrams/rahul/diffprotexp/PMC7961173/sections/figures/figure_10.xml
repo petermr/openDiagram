@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig10">
+ <label>Fig. 10</label>
+ <caption>
+  <p>Effects of DCVC on placental villous explant gene expression. First-trimester placental villous explants were treated in vitro with 0 (control) or 20 µM DCVC for 12 h. Differential gene expression was measured with edgeR using quasi-likelihood general linear modeling. 
+   <italic>N</italic> = 5 independent experiments, each performed with tissue obtained from a different placental donor. 
+   <bold>a</bold> Volcano plot comparing differential gene expression between non-treated and DCVC-treated villous explants. No genes were differentially expressed (FDR &lt; 0.05). Genes fulfilling the following criteria are denoted by dark pink color: logFC magnitude &gt; 0.35 [FC &gt; 1.3]. 
+   <bold>b</bold> Upregulated and downregulated gene sets from the MSigDB hallmark collection identified through GSEA as enriched after DCVC treatment. Gene sets are ordered according to the magnitude of normalized enrichment score (NES) and were considered significantly enriched with an FDR &lt; 0.05. Gene sets with an asterisk indicate that the pathways contained ISR/ATF4-regulated enriched genes (detailed information found in suppl. Table 6). Columns within grid denote biological categories to which gene sets belong (indicated by black square)
+  </p>
+ </caption>
+ <graphic xlink:href="204_2021_3011_Fig10_HTML" id="MO10" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

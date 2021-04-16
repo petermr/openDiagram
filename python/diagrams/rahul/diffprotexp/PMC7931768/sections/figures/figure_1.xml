@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F1" orientation="portrait" position="float">
+ <label>Figure 1</label>
+ <caption>
+  <p>Principal component (PC) analysis separates disease groups, and unbiased K-means clustering segregates genes by differential gene expression. (A) PC analysis. Using RNA collected with tape and relative expression of 94 immune genes, participants with CLE are differentiated from HVs. Compared with unaffected skin from participants with CLE and HVs, CLE-affected skin is shifted forward on the x-axis of PC1. (B) K-means clustering of expression for 94 candidate genes. Expression of genes amplified from skin RNA collected with tape was segregated into four clusters. Two of four clusters resulted in differential expression between both CLE-affected skin and HV, and between CLE-affected skin and CLE-unaffected skin: cluster 3, named interferon (IFN) dominant, and cluster 1, named CLE associated. Item consensus (x-axis) represents the percentage of instances that expression of a gene falls within the represented cluster after bootstrapping 1000 times. CLE-A, cutaneous lupus erythematosus-affected skin; CLE-U, cutaneous lupus erythematosus-unaffected skin; HV-U, healthy volunteer-unaffected skin; var, variance.</p>
+ </caption>
+ <graphic xlink:href="lupus-2020-000428f01" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

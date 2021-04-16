@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Summary of upregulated proteins in A549 cells infected with influenza A H5N1 virus compared to H9N2-infected cells at 24 hpi (r &gt; 2, 
+   <italic>p</italic> &lt; 0.05)
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Spot no.
+     <sup>a</sup>
+    </th>
+    <th align="left">Accession No.
+     <sup>b</sup>
+    </th>
+    <th align="left">GENE</th>
+    <th align="left">Protein name</th>
+    <th align="left">MW (Da)</th>
+    <th align="left">pI</th>
+    <th align="left">Score
+     <sup>c</sup>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">17
+     <sup>*</sup>
+    </td>
+    <td align="left">P30084</td>
+    <td align="left">ECHS1</td>
+    <td align="left">Enoyl-CoA hydratase, mitochondrial</td>
+    <td align="left">31,716</td>
+    <td char="." align="char">6.05</td>
+    <td align="left">68</td>
+   </tr>
+   <tr>
+    <td align="left">18</td>
+    <td align="left">P02768</td>
+    <td align="left">ALB</td>
+    <td align="left">Serum albumin</td>
+    <td align="left">47,098</td>
+    <td char="." align="char">5.92</td>
+    <td align="left">64</td>
+   </tr>
+   <tr>
+    <td align="left">19</td>
+    <td align="left">P35527</td>
+    <td align="left">KRT9</td>
+    <td align="left">Keratin, type I cytoskeletal 9</td>
+    <td align="left">62,255</td>
+    <td char="." align="char">5.14</td>
+    <td align="left">72</td>
+   </tr>
+   <tr>
+    <td align="left">20</td>
+    <td align="left">Q9HC85</td>
+    <td align="left">MB2</td>
+    <td align="left">Metastasis related protein</td>
+    <td align="left">10,414</td>
+    <td char="." align="char">5.16</td>
+    <td align="left">35</td>
+   </tr>
+   <tr>
+    <td align="left">21</td>
+    <td align="left">P11021</td>
+    <td align="left">HSPA5</td>
+    <td align="left">Endoplasmic reticulum chaperone BiP</td>
+    <td align="left">71,002</td>
+    <td char="." align="char">5.23</td>
+    <td align="left">155</td>
+   </tr>
+   <tr>
+    <td align="left">22</td>
+    <td align="left">AIZ70879</td>
+    <td align="left">N/A</td>
+    <td align="left">immunoglobulin heavy chain variable region, partial</td>
+    <td align="left">8328</td>
+    <td char="." align="char">11.84</td>
+    <td align="left">42</td>
+   </tr>
+   <tr>
+    <td align="left">23
+     <sup>*</sup>
+    </td>
+    <td align="left">P34931</td>
+    <td align="left">HSPA1L</td>
+    <td align="left">heat shock 70-kDa protein 1-like</td>
+    <td align="left">77,913</td>
+    <td char="." align="char">7.55</td>
+    <td align="left">64</td>
+   </tr>
+   <tr>
+    <td align="left">24</td>
+    <td align="left">A0A1L1UHR1</td>
+    <td align="left">HTL-T-186e</td>
+    <td align="left">Homo sapiens sperm binding protein 1aing mRNA</td>
+    <td align="left">30,868</td>
+    <td char="." align="char">8.62</td>
+    <td align="left">46</td>
+   </tr>
+   <tr>
+    <td align="left">25</td>
+    <td align="left">P09651</td>
+    <td align="left">HNRNPA1</td>
+    <td align="left">Heterogeneous nuclear ribonucleoprotein A1</td>
+    <td align="left">34,289</td>
+    <td char="." align="char">9.27</td>
+    <td align="left">58</td>
+   </tr>
+   <tr>
+    <td align="left">26</td>
+    <td align="left">P22626</td>
+    <td align="left">HNRNPA2B1</td>
+    <td align="left">Heterogeneous nuclear ribonucleoproteins A2/B1</td>
+    <td align="left">36,041</td>
+    <td char="." align="char">8.67</td>
+    <td align="left">52</td>
+   </tr>
+   <tr>
+    <td align="left">27</td>
+    <td align="left">P08670</td>
+    <td align="left">VIM</td>
+    <td align="left">vimentin isoform 1, partial</td>
+    <td align="left">53,676</td>
+    <td char="." align="char">5.06</td>
+    <td align="left">56</td>
+   </tr>
+   <tr>
+    <td align="left">28</td>
+    <td align="left">Q8N1N4</td>
+    <td align="left">KRT78</td>
+    <td align="left">Keratin, type II cytoskeletal 78</td>
+    <td align="left">57,728</td>
+    <td char="." align="char">5.79</td>
+    <td align="left">51</td>
+   </tr>
+   <tr>
+    <td align="left">29</td>
+    <td align="left">Q86Y46</td>
+    <td align="left">KRT73</td>
+    <td align="left">Keratin, type II cytoskeletal 73</td>
+    <td align="left">42,270</td>
+    <td char="." align="char">8.42</td>
+    <td align="left">51</td>
+   </tr>
+   <tr>
+    <td align="left">30</td>
+    <td align="left">D9YZU9</td>
+    <td align="left">HBG2</td>
+    <td align="left">TPA: globin B2</td>
+    <td align="left">16,173</td>
+    <td char="." align="char">6.64</td>
+    <td align="left">50</td>
+   </tr>
+   <tr>
+    <td align="left">31</td>
+    <td align="left">P68871</td>
+    <td align="left">HBB</td>
+    <td align="left">Beta globin</td>
+    <td align="left">11,534</td>
+    <td char="." align="char">5.9</td>
+    <td align="left">46</td>
+   </tr>
+   <tr>
+    <td align="left">32</td>
+    <td align="left">P69905</td>
+    <td align="left">HBA1</td>
+    <td align="left">Hemoglobin subunit alpha</td>
+    <td align="left">15,174</td>
+    <td char="." align="char">8.73</td>
+    <td align="left">65</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>Spot No. is the unique sample spot protein number
+  </p>
+  <p>
+   <sup>b</sup>Accession No is the MASCOT result of MALDI-TOF/TOF searched from the NCBI database
+  </p>
+  <p>
+   <sup>c</sup>Protein score (based on combined MS and MS/MS spectra) and best ion score (based on MS/MS spectra) were from MALDI-TOF/TOF identification
+  </p>
+  <p>
+   <sup>*</sup>Indicating that the differential proteins were validated by western blot analysis
+  </p>
+ </table-wrap-foot>
+</table-wrap>

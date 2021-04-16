@@ -1,0 +1,8 @@
+0: Sequenced reads were trimmed to remove portions of poor sequenced quality (Phred score < 20) and/or contaminated adapter sequences using Trim Galore (version 0.6.4;  https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/).
+1: Trimmed reads were aligned to the human reference genome (hg38 assembly) using STAR (version 2.7.3a) 34 with default parameters.
+2: The abundance of transcripts was quantified using StringTie (version 2.0.6) 35 by means of transcripts per million (TPM).
+3: Then, differentially expressed genes (DEGs) were identified using DESeq2 (version 1.24.0) 35 with an adjusted p-value cutoff of 0.05.
+4: Among the identified DEGs, transcripts showing less than two fold-change between comparisons and average TPM value of 1 across samples were further discarded.
+5: Heatmaps were generated using the Morpheus web application ( https://software.broadinstitute.org/morpheus/) with the minmax normalization.
+6: Hierarchical clustering of genes in the heatmaps was conducted by the average linkage algorithm with the one-minus pearson correlation metric.
+7: GO and PPI analyses of DEGs were performed using Metascape 36 ( https://metascape.org).

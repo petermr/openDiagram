@@ -69,6 +69,13 @@
 			"patterns": ["AB12", "_ALLCAPS", "_ALL"]
 		},
 
+		"rahul_demo": {
+			"sections": ["FIG_CAPTION", "METHOD"],
+        	"dictionaries": ["elements", "crystal", "magnetism"],
+			"projects": ["LIION10"],
+			"patterns": ["AB12", "_ALLCAPS", "_ALL"]
+		},
+
     	"species_demo": {
 			"sections": ["INTRO", "METHOD"],
         	"dictionaries": ["country", "disease"],

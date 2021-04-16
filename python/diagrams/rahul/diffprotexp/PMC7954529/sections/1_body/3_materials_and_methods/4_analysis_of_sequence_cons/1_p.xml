@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We used PhyloP scores to measure sequence-level conservation. We downloaded the hg38 100-way vertebrate PhyloP bigwig file from the UCSC table browser (
+ <xref rid="bib63" ref-type="bibr">Pollard et al., 2010</xref>). We computed scores for PAS regions as well as 200 bp intervals by taking the mean of the base pair scores. We removed any region with missing data from the analysis. We tested for differences in mean phloP scores using Wilcoxon rank sum tests.
+</p>

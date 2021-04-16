@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The PDB files for the five POLD1 domains (6s1m, 6s1n, 6s1o, 6tny, 6tnz) (
+ <xref rid="B29" ref-type="bibr">29</xref>) were downloaded from the Protein data bank database (PDB, 
+ <uri xlink:type="simple" xlink:href="http://www.rcsb.org/pdb/results/results.do?tabtoshow=Current&amp;qrid=9D5B948E" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.rcsb.org/pdb/results/results.do?tabtoshow=Current&amp;qrid=9D5B948E</uri>) (
+ <xref rid="B30" ref-type="bibr">30</xref>). The sdf file of RSV was downloaded from the PubChem database (
+ <uri xlink:type="simple" xlink:href="https://pubchem.ncbi.nlm.nih.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://pubchem.ncbi.nlm.nih.gov/</uri>) and converted to pdb using Open Babel (
+ <xref rid="B31" ref-type="bibr">31</xref>). Then, AutoDockTools (
+ <xref rid="B32" ref-type="bibr">32</xref>) was used to predict the docking model of resveratrol and POLD1, eventually attaining the pdbqt file. Open Babel was used to convert pdbqt files into pdb files and visualize the molecular docking results using PyMOL (
+ <xref rid="B33" ref-type="bibr">33</xref>). In addition, based on the String database (
+ <xref rid="B34" ref-type="bibr">34</xref>), a comprehensive regulation network of the POLD1-targets-pathway was constructed, which was visualized using Cytoscape (
+ <xref rid="B35" ref-type="bibr">35</xref>).
+</p>

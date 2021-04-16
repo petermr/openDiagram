@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">We used the OmicsBean tool (
+ <ext-link ext-link-type="uri" xlink:href="http://www.omicsbean.cn/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.omicsbean.cn/</ext-link>) for enrichments of biological processes (BP), molecular functions (MF), and cellular components (CC) based on Gene Ontology (GO, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.geneontology.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.geneontology.org/</ext-link>) terms
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>,
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. Kyoto Encyclopedia of Genes and Genomes (KEGG, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.genome.jp/kegg/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.genome.jp/kegg/</ext-link>) analysis was conducted for pathway enrichment, with a 
+ <italic>p</italic> value of &lt;0.1 considered significant, as previously described
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup>. Furthermore, protein–protein interaction (PPI) was assessed using the database of the Search Tool for the Retrieval of Interacting Genes/Proteins (STRING) under the medium confidence (STRING score = 0.4), and the yielded network was visualized with Cytoscape tool, as reported previously
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>. To explore the drug relevance of these differential proteins, we performed a phenotype-target-drug network analysis. The antidepression and antianxiety drugs and their primary targets were searched and collected from the DrugBank database (Version 5.1.4; 
+ <ext-link ext-link-type="uri" xlink:href="https://www.drugbank.ca/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.drugbank.ca/</ext-link>). Species type for these target proteins was converted from 
+ <italic>Homo sapiens</italic> to rattus norvegicus. Through the use of the STRING detection, the interactions between the differential proteins and the target proteins were obtained. To construct the phenotype-target-drug network, the direct interactions were further mapped to the corresponding drugs using Cytoscape software.
+</p>

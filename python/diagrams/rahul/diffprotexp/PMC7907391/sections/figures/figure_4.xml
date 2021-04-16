@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig4">
+ <label>Figure 4</label>
+ <caption>
+  <p>Effect of smoking and sex on ACE2, TMPRSS2, and CTSL expression. (
+   <bold>a</bold>) Expression of 
+   <italic>ACE2 (left)</italic>, 
+   <italic>TMPRSS2 (middle)</italic>, and 
+   <italic>CTSL (right)</italic> in TCGA data for males and females for 33 cancer types (n = 12,736) with available annotations in TCGA. Wilcoxon signed rank tests were performed and significant differential expression between groups was labelled ****
+   <italic>p</italic> &lt; 0.0001 between males and females. (
+   <bold>b</bold>) Expression of 
+   <italic>ACE2 (left)</italic>, 
+   <italic>TMPRSS2 (middle)</italic>, and 
+   <italic>CTSL (right)</italic> in TCGA data for non-smokers and smokers with lung squamous cell carcinoma, lung adenocarcinoma, cervical cancer, bladder urothelial carcinoma or esophageal carcinoma (n = 873). Wilcoxon signed rank tests were performed and significant differential expression between groups was labelled. ***
+   <italic>p</italic> &lt; 0.001 between non-smokers and smokers. (
+   <bold>c</bold>) Expression of 
+   <italic>ACE2 (left)</italic>, 
+   <italic>TMPRSS2 (middle)</italic>, and 
+   <italic>CTSL (right)</italic> in TCGA data for non-smokers and smokers with lung squamous cell carcinoma, lung adenocarcinoma, cervical cancer, bladder urothelial carcinoma or esophageal carcinoma split into age groups: below 40 years (n = 68), between 40 and 60 years (n = 328), above 60 years (n = 477). Wilcoxon signed rank tests were performed and significant differential expression between groups was labelled *
+   <italic>p</italic> &lt; 0.05; **
+   <italic>p</italic> &lt; 0.01 between non-smokers and smokers.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_83366_Fig4_HTML" id="MO4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

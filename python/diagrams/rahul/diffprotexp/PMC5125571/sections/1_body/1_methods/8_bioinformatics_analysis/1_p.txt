@@ -1,0 +1,6 @@
+0: A linear mixed effects model implemented in the open source R package, MSstats (v/3.3.11) was employed to evaluate protein abundance, and only proteins with a  P-value<0.05 were taken into consideration for further analyses.
+1: The gene ontology (GO) terms of proteins with a significant differential expression pattern were studied using Blast2Go [ 50] and a protein family (Pfam) analysis was performed using HMMER [ 51].
+2: The enrichment in annotations was calculated for every GO annotation in the three ontologies according to biological processes and molecular functions.
+3: Bar charts were generated using different levels of the GO hierarchy and then plotted using the WEGO tool [ 52].
+4: Heatmaps representing the differentially expressed proteins were generated in R using ggplot2 and clustering was performed using Euclidean distances.
+5: The mass spectrometry proteomics data have been deposited in the ProteomeXchange Consortium ( http://proteomecentral.proteomexchange.org) via the PRIDE partner repository [ 53] with the dataset identifier PXD004121.

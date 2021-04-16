@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl2" position="float">
+ <label>Table 2</label>
+ <caption>
+  <p>Differentially expressed proteins identified by MALDI-TOF-MS.</p>
+ </caption>
+ <alt-text id="alttext0050">Table 2</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Spot No.</th>
+    <th>Target protein</th>
+    <th>Aliases</th>
+    <th>Nominal mass (Mr) KD</th>
+    <th>Calculated pI</th>
+    <th>Protein score</th>
+    <th>Sequence coverage (%)</th>
+    <th>Expression</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>10</td>
+    <td>Serotransferrin</td>
+    <td>TF</td>
+    <td>79.294</td>
+    <td>6.81</td>
+    <td>88</td>
+    <td>7</td>
+    <td>Decreased</td>
+   </tr>
+   <tr>
+    <td>19</td>
+    <td>Serum amyloid A-1 protein</td>
+    <td>SAA1</td>
+    <td>13.581</td>
+    <td>6.28</td>
+    <td>341</td>
+    <td>63</td>
+    <td>Increased</td>
+   </tr>
+   <tr>
+    <td>2</td>
+    <td>Transthyretin</td>
+    <td>TTR</td>
+    <td>15.877</td>
+    <td>5.52</td>
+    <td>68</td>
+    <td>8</td>
+    <td>Decreased</td>
+   </tr>
+   <tr>
+    <td>19</td>
+    <td>Apolipoprotein L1</td>
+    <td>APOL1</td>
+    <td>44.004</td>
+    <td>5.60</td>
+    <td>119</td>
+    <td>15</td>
+    <td>Increased</td>
+   </tr>
+   <tr>
+    <td>24</td>
+    <td>Ceruloplasmin</td>
+    <td>CP</td>
+    <td>122.983</td>
+    <td>5.44</td>
+    <td>53</td>
+    <td>4</td>
+    <td>Increased</td>
+   </tr>
+   <tr>
+    <td>31</td>
+    <td>Haptoglobin</td>
+    <td>HP</td>
+    <td>45.861</td>
+    <td>6.13</td>
+    <td>69</td>
+    <td>9</td>
+    <td>Increased</td>
+   </tr>
+   <tr>
+    <td>26</td>
+    <td>Antithrombin-III</td>
+    <td>SERPINC1</td>
+    <td>53.025</td>
+    <td>6.32</td>
+    <td>280</td>
+    <td>15</td>
+    <td>Increased</td>
+   </tr>
+   <tr>
+    <td>9</td>
+    <td>Prothrombin</td>
+    <td>F2</td>
+    <td>71.475</td>
+    <td>5.64</td>
+    <td>70</td>
+    <td>7</td>
+    <td>Increased</td>
+   </tr>
+   <tr>
+    <td>30</td>
+    <td>Alpha-2-macroglobulin</td>
+    <td>A2M</td>
+    <td>163.188</td>
+    <td>6.03</td>
+    <td>26</td>
+    <td>0</td>
+    <td>Decreased</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

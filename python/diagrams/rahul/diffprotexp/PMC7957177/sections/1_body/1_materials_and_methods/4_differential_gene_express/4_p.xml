@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Using R statistical programming and BiocLite of Bioconductor 
+ <xref rid="cam43799-bib-0009" ref-type="ref">
+  <sup>9</sup>
+ </xref> to assess differences in gene expression, we summarized probe‐level data to log2‐scale values and identified the strongest changes associated with each histopathological tissue class. The log2 values were decomposed as a sum of fixed and random effects. The result of differential expression analysis was the logarithm of the gene expression changes (logFC) in the experimental group multiplied by the control group. The 
+ <italic>t</italic>‐test was performed for statistical analysis of variance. The absolute logFC value of the difference between the two groups &gt;1 and 
+ <italic>p</italic> &lt; 0.05 was the standard for significantly differential expression, and the top 24 up‐ or down‐regulated genes during carcinogenesis were revealed via R‐heatmap for cluster analysis. At last, take advantage of Panther (
+ <ext-link ext-link-type="uri" xlink:href="http://www.pantherdb.org" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.pantherdb.org</ext-link>) to functional cluster analysis between mutual groups from controls, CIN1,2,3 to cancers.
+</p>

@@ -1,0 +1,630 @@
+{
+  "id": [
+    "33498176"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33498176"
+  ],
+  "pmcid": [
+    "PMC7863919"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7863919"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/jcm10030375"
+  ],
+  "title": [
+    "Differential microRNA Expression in <i>USP8</i>-Mutated and Wild-Type Corticotroph Pituitary Tumors Reflect the Difference in Protein Ubiquitination Processes."
+  ],
+  "authorString": [
+    "Bujko M, Kober P, Boresowicz J, Rusetska N, Zeber-Lubecka N, Paziewska A, Pekul M, Zielinski G, Styk A, Kunicki J, Ostrowski J, Siedlecki JA, Maksymowicz M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bujko M"
+          ],
+          "firstName": [
+            "Mateusz"
+          ],
+          "lastName": [
+            "Bujko"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5826-8446",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular and Translational Oncology, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kober P"
+          ],
+          "firstName": [
+            "Paulina"
+          ],
+          "lastName": [
+            "Kober"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular and Translational Oncology, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Boresowicz J"
+          ],
+          "firstName": [
+            "Joanna"
+          ],
+          "lastName": [
+            "Boresowicz"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular and Translational Oncology, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rusetska N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Rusetska"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular and Translational Oncology, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zeber-Lubecka N"
+          ],
+          "firstName": [
+            "Natalia"
+          ],
+          "lastName": [
+            "Zeber-Lubecka"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Gastroenterology, Hepatology and Clinical Oncology, Medical Centre for Postgraduate Education, 01-813 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Paziewska A"
+          ],
+          "firstName": [
+            "Agnieszka"
+          ],
+          "lastName": [
+            "Paziewska"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neuroendocrinology, Centre of Postgraduate Medical Education, 01-813 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Pekul M"
+          ],
+          "firstName": [
+            "Monika"
+          ],
+          "lastName": [
+            "Pekul"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology and Laboratory Diagnostics, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zielinski G"
+          ],
+          "firstName": [
+            "Grzegorz"
+          ],
+          "lastName": [
+            "Zielinski"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosurgery, Military Institute of Medicine, 04-141 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Styk A"
+          ],
+          "firstName": [
+            "Andrzej"
+          ],
+          "lastName": [
+            "Styk"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosurgery, Military Institute of Medicine, 04-141 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kunicki J"
+          ],
+          "firstName": [
+            "Jacek"
+          ],
+          "lastName": [
+            "Kunicki"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosurgery, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ostrowski J"
+          ],
+          "firstName": [
+            "Jerzy"
+          ],
+          "lastName": [
+            "Ostrowski"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Gastroenterology, Hepatology and Clinical Oncology, Medical Centre for Postgraduate Education, 01-813 Warsaw, Poland."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Genetics, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Siedlecki JA"
+          ],
+          "firstName": [
+            "Janusz A"
+          ],
+          "lastName": [
+            "Siedlecki"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular and Translational Oncology, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Maksymowicz M"
+          ],
+          "firstName": [
+            "Maria"
+          ],
+          "lastName": [
+            "Maksymowicz"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology and Laboratory Diagnostics, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5826-8446",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3099291"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of clinical medicine"
+          ],
+          "ISOAbbreviation": [
+            "J Clin Med"
+          ],
+          "medlineAbbreviation": [
+            "J Clin Med"
+          ],
+          "NLMid": [
+            "101606588"
+          ],
+          "ISSN": [
+            "2077-0383"
+          ],
+          "ESSN": [
+            "2077-0383"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>\n                                                                                                                                                                                                                                                                        <i>USP8</i> mutations are the most common driver changes in corticotroph pituitary tumors. They have direct effect on cells' proteome through disturbance of ubiquitination process and also influence gene expression. The aim of this study was to compare microRNA profiles in <i>USP8</i>-mutated and wild-type tumors and determine the probable role of differential microRNA expression by integrative microRNA and mRNA analysis.<h4>Methods</h4>Patients with Cushing's disease (<i>n</i> = 28) and silent corticotroph tumors (<i>n</i> = 20) were included. <i>USP8</i> mutations were identified with Sanger sequencing. MicroRNA and gene expression was determined with next-generation sequencing.<h4>Results</h4>\n                                                                                                                                                                                                                                                                            <i>USP8</i>-mutated patients with Cushing's disease showed higher rate of clinical remission and trend towards lower tumor volume than wild-type patients. Comparison of microRNA profiles of <i>USP8</i>-mutated and wild-type tumors revealed 68 differentially expressed microRNAs. Their target genes were determined by in silico prediction and microRNA/mRNA correlation analysis. GeneSet Enrichment analysis of putative targets showed that the most significantly overrepresented genes are involved in protein ubiquitination-related processes. Only few microRNAs influence the expression of genes differentially expressed between <i>USP8</i>-mutated and wild-type tumors.<h4>Conclusions</h4>Differences in microRNA expression in corticotropinomas stratified according to <i>USP8</i> status reflect disturbed ubiquitination processes, but do not correspond to differences in gene expression between these tumors."
+  ],
+  "affiliation": [
+    "Department of Molecular and Translational Oncology, Maria Sklodowska-Curie Institute-Oncology Center, 02-781 Warsaw, Poland."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "SN/GW09/2017"
+          ],
+          "agency": [
+            "Maria Sklodowska-Curie Institute - Oncology Center internal grant programm"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Mutation",
+        "Gene Expression",
+        "Next Generation Sequencing",
+        "Cushing’s Disease",
+        "Mirna Expression",
+        "Usp8",
+        "Usp48",
+        "Corticotroph Pitnet"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/jcm10030375"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7863919"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7863919?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "go"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-01-27"
+  ],
+  "firstIndexDate": [
+    "2021-01-27"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-08"
+  ],
+  "dateOfRevision": [
+    "2021-02-18"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-20"
+  ],
+  "firstPublicationDate": [
+    "2021-01-20"
+  ]
+}

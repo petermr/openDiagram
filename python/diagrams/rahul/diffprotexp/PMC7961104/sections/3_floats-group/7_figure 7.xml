@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig7">
+ <label>Figure 7</label>
+ <caption>
+  <p>Potential mechanisms of dysfunction of inter-organ metabolic cycles of ketone body and their dysregulation in trans-omic network in liver and skeletal muscle of 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice
+  </p>
+  <p>(A and B) The trans-omic subnetwork for differentially regulated metabolic reactions in fatty acid degradation in the liver (A) and skeletal muscle (B). The information for fatty acid degradation were obtained from “fatty acid degradation” (mmu00071) and “glycerolipid metabolism” (mmu00561) in the KEGG database. Bar plots of measured molecules in WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice are shown for corresponding nodes as the means and standard error of the means (SEMs) of mice replicate (number indicated in 
+   <xref rid="mmc1" ref-type="supplementary-material">transparent methods</xref>). The definitions of color, edges, arrows, and frames in 
+   <xref rid="fig7" ref-type="fig">Figures 7</xref>A and 7B are the same as in 
+   <xref rid="fig6" ref-type="fig">Figures 6</xref>A and 6B, except lipidome data. In the lipidomic analysis, the significance of differences was tested by a two-tailed Welch's t test for each measured lipid (see also 
+   <xref rid="mmc1" ref-type="supplementary-material">transparent methods</xref>). TAG and DAG in the liver and TAG in the skeletal muscle were differentially expressed lipids (DELs) with a q value less than 0.1 and were identified as the increased DELs. The q values for lipid were calculated by Benjamini–Hochberg procedure. See also 
+   <xref rid="mmc1" ref-type="supplementary-material">Figures S12</xref>C and S12D.
+  </p>
+  <p>(C) A summarized diagram of ketone body cycle between the liver and skeletal muscle via the blood of WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice. The definitions of color, edges, arrows, and frames in 
+   <xref rid="fig7" ref-type="fig">Figure 7</xref>C are the same as in 
+   <xref rid="fig6" ref-type="fig">Figure 6</xref>C. Bar plots of measured molecules in WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice are shown for corresponding nodes as the means and SEMs of mice replicate (number indicated in 
+   <xref rid="mmc1" ref-type="supplementary-material">transparent methods</xref>).
+  </p>
+ </caption>
+ <graphic xlink:href="gr7" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

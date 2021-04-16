@@ -1,0 +1,609 @@
+{
+  "id": [
+    "33525982"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33525982"
+  ],
+  "pmcid": [
+    "PMC7872058"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7872058"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/21505594.2021.1879471"
+  ],
+  "title": [
+    "TREM1 regulates antifungal immune responses in invasive pulmonary aspergillosis."
+  ],
+  "authorString": [
+    "Bernal-Martínez L, Gonçalves SM, de Andres B, Cunha C, Gonzalez Jimenez I, Lagrou K, Mellado E, Gaspar ML, Maertens JA, Carvalho A, Alcazar-Fuoli L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bernal-Martínez L"
+          ],
+          "firstName": [
+            "L"
+          ],
+          "lastName": [
+            "Bernal-Martínez"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Mycology Reference Laboratory, National Centre for Microbiology, Instituto De Salud Carlos III , Madrid, Spain."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Spanish Network for the Research in Infectious Diseases (REIPI), Instituto de Salud Carlos III , Madrid, Spain."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gonçalves SM"
+          ],
+          "firstName": [
+            "S M"
+          ],
+          "lastName": [
+            "Gonçalves"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Life and Health Sciences Research Institute (ICVS), School of Medicine, University of Minho , Braga, Portugal."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "ICVS/3B's-PT Government Associate Laboratory, Braga/Guimarães , Portugal."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "de Andres B"
+          ],
+          "firstName": [
+            "B"
+          ],
+          "lastName": [
+            "de Andres"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Immunology, National Centre for Microbiology, Instituto De Salud Carlos III , Madrid, Spain."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cunha C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Cunha"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6002-5782",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Life and Health Sciences Research Institute (ICVS), School of Medicine, University of Minho , Braga, Portugal."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "ICVS/3B's-PT Government Associate Laboratory, Braga/Guimarães , Portugal."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez Jimenez I"
+          ],
+          "firstName": [
+            "I"
+          ],
+          "lastName": [
+            "Gonzalez Jimenez"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Mycology Reference Laboratory, National Centre for Microbiology, Instituto De Salud Carlos III , Madrid, Spain."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lagrou K"
+          ],
+          "firstName": [
+            "K"
+          ],
+          "lastName": [
+            "Lagrou"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Microbiology, Immunology, and Transplantation, Laboratory of Clinical Bacteriology and Mycology , KU Leuven, Leuven, Belgium."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Laboratory Medicine and National Reference Center for Medical Mycology, University Hospitals Leuven , Leuven, Belgium."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mellado E"
+          ],
+          "firstName": [
+            "E"
+          ],
+          "lastName": [
+            "Mellado"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Mycology Reference Laboratory, National Centre for Microbiology, Instituto De Salud Carlos III , Madrid, Spain."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Spanish Network for the Research in Infectious Diseases (REIPI), Instituto de Salud Carlos III , Madrid, Spain."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gaspar ML"
+          ],
+          "firstName": [
+            "M L"
+          ],
+          "lastName": [
+            "Gaspar"
+          ],
+          "initials": [
+            "ML"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Immunology, National Centre for Microbiology, Instituto De Salud Carlos III , Madrid, Spain."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Maertens JA"
+          ],
+          "firstName": [
+            "J A"
+          ],
+          "lastName": [
+            "Maertens"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Microbiology, Immunology, and Transplantation, Laboratory of Clinical Bacteriology and Mycology , KU Leuven, Leuven, Belgium."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Haematology, University Hospitals Leuven , Leuven, Belgium."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Carvalho A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Carvalho"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Life and Health Sciences Research Institute (ICVS), School of Medicine, University of Minho , Braga, Portugal."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "ICVS/3B's-PT Government Associate Laboratory, Braga/Guimarães , Portugal."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Alcazar-Fuoli L"
+          ],
+          "firstName": [
+            "L"
+          ],
+          "lastName": [
+            "Alcazar-Fuoli"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Mycology Reference Laboratory, National Centre for Microbiology, Instituto De Salud Carlos III , Madrid, Spain."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Spanish Network for the Research in Infectious Diseases (REIPI), Instituto de Salud Carlos III , Madrid, Spain."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6002-5782",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3080655"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Virulence"
+          ],
+          "ISOAbbreviation": [
+            "Virulence"
+          ],
+          "medlineAbbreviation": [
+            "Virulence"
+          ],
+          "NLMid": [
+            "101531386"
+          ],
+          "ISSN": [
+            "2150-5594"
+          ],
+          "ESSN": [
+            "2150-5608"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "570-583"
+  ],
+  "abstractText": [
+    "Pattern recognition receptors (PRRs) are responsible for <i>Aspergillus fumigatus</i> recognition by innate immunity and its subsequent immune signaling. The triggering receptor expressed on myeloid cells 1 (TREM1) is a recently characterized pro-inflammatory receptor constitutively expressed on the surface of neutrophils and macrophages. A soluble form (sTREM1) of this protein that can be detected in human body fluids has been identified. Here we investigated the role of TREM1 during invasive pulmonary aspergillosis (IPA). IPA patients displayed significantly higher levels of sTREM1 in bronchoalveolar lavages when compared to control patients. Functional analysis in TREM1 showed that the levels of sTREM1 and TREM1 pathway-related cytokines were influenced by single nucleotide polymorphisms in TREM1. In addition, we confirmed a role of TREM1 on antifungal host defense against <i>A. fumigatus</i> in a murine model of IPA. TREM1 deficiency increased susceptibility to infection in the immunosuppressed murine host. Deletion of TREM1 showed delayed innate and adaptive immune responses and impaired pro-inflammatory cytokine responses. The absence of TREM1 in primary macrophages attenuated the TLR signaling by altering the expression of both receptor and effector proteins that are critical to the response against <i>A. fumigatus</i>. In this study, and for the first time, we demonstrate the key role for the TREM1 receptor pathway during IPA."
+  ],
+  "affiliation": [
+    "Mycology Reference Laboratory, National Centre for Microbiology, Instituto De Salud Carlos III , Madrid, Spain."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Aspergillus fumigatus",
+        "Trem1",
+        "Diagnostic Biomarkers And Fungal Immune Response"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/21505594.2021.1879471"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7872058"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7872058?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refsnp"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-02"
+  ],
+  "firstIndexDate": [
+    "2021-02-03"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-01"
+  ],
+  "dateOfRevision": [
+    "2021-03-22"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

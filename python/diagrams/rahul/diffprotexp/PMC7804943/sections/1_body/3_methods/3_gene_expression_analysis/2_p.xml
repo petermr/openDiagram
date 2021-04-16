@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par36">For downstream analysis, variance-stabilized read counts were computed using the DESeq2 function varianceStabilizingTransformation()
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup>. After removing genes with a median read count of &lt;5, the top 5000 most variably expressed genes based on standard deviation were retained for downstream analysis.
+</p>

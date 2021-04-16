@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig7">
+ <label>Fig. 7</label>
+ <caption>
+  <p>DCVC effect on ISR-associated ATF4 regulation of gene expression in HTR-8/SVneo cells. Because ATF4 transcriptional regulation is a key regulator of the ISR, ATF4 gene targets were tested for overrepresentation among DCVC-induced differentially expressed genes using a statistical enrichment test. 
+   <bold>a</bold> Venn diagram depicting overlap between the number of ATF4 gene targets and genes differentially expressed (FDR &lt; 0.05 + logFC &gt; 0.35[FC &gt; 1.3]) after a 12-h exposure to 20 µM DCVC compared with control (
+   <italic>P</italic> = 5.52 × 10
+   <sup>–22</sup>). 
+   <bold>b</bold> Heatmap visualizing hierarchical clustering and logFC expression of 47 genes differentially expressed (FDR &lt; 0.05 + logFC &gt; 0.35[FC &gt; 1.3]), after exposure to 20 µM DCVC for 12 h. Expression levels of other comparisons were included for reference purposes. 
+   <bold>c</bold> Visualization of 
+   <italic>ATF4</italic> expression, along with the same 47 significantly expressed ATF4 and ATF4 + CHOP gene targets grouped by function and cell fate, with single gene-level logFC displayed. Genes displayed in blue are regulated by ATF4 alone, whereas genes displayed in salmon are co-regulated by ATF4 and CHOP
+  </p>
+ </caption>
+ <graphic xlink:href="204_2021_3011_Fig7a_HTML" id="MO7" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <graphic xlink:href="204_2021_3011_Fig7b_HTML" id="MO70" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

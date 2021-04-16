@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tIII-etm-0-0-09783" orientation="portrait" position="float">
+ <label>Table III</label>
+ <caption>
+  <p>Details of the downregulated and upregulated long non-coding RNAs in the T1-T4 spinal cord between MIRI and sham group.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" valign="middle" colspan="4" rowspan="1">A, Downregulation</th>
+   </tr>
+   <tr>
+    <th align="left" valign="middle" rowspan="1" colspan="1">ID</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Log2FC (MIRI/sham)</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">P-value</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Symbol</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000080713</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-9.98726</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.000442</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">LOC102550026</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000090564</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-8.10329</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.040576</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07050135.1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000082588</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-7.49185</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.01x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07000385.2</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000091080</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.9542</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.14x10
+     <sup>-6</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07044980.1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000091570</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.71425</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.025341</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07071198.1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000077319</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.22882</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.005841</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07071383.1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000077509</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-5.32193</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.048185</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07027371.1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000089288</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-4.16993</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.01174</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07044001.4</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000083187</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-3.52356</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.024012</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07060560.4</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000091435</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-3.38082</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.016282</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07042668.1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" colspan="4" rowspan="1">B, Upregulation</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ID</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Log2FC (MIRI/sham)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">P-value</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Symbol</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000086475</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.797662</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.013366</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07070801.2</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000087028</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.129283</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.027308</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">LOC103692514</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000091108</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.058894</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.020796</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07006724.1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000031815</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.297681</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.041965</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Rn50_X_0744.6</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000082061</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.966833</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.034871</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07071395.1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000087777</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.917538</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.024331</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AABR07016845.1</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>FC, fold change; T, thoracic; MIRI, Myocardial ischemia-reperfusion injury.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

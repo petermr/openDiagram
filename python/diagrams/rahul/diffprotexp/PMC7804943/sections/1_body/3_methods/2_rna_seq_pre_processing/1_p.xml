@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">Initial quality control was performed using FastQC (
+ <ext-link ext-link-type="uri" xlink:href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioinformatics.babraham.ac.uk/projects/fastqc/</ext-link>). To ensure accurate AS and IR quantification, when necessary datasets were combined to ensure a minimum depth of 40M paired-end reads. One amygdala sample (SRR2229946) was discarded from this analysis, as it appeared to be a distinct outlier in preliminary analysis by PCA.
+</p>

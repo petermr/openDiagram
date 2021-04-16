@@ -1,0 +1,5 @@
+0: We downloaded RNA sequence and corresponding clinical data from the TCGA database (TCGA,  https://portal.gdc.cancer.gov/), including 19 normal samples and 414 BLCA samples.
+1: The negative binomial distribution method was used to identify differentially expressed RBPs between normal and BLCA samples [ 10].
+2: The  limma package ( http://www.bioconductor.org/packages/release/bioc/html/limma.html) was used for analysis.
+3: Differentially expressed RBPs were screened using the criteria of false discovery rate (FDR) < 0.05 and |log2 fold-change (FC)| > 1.
+4: The R package  pheatmap ( https://cran.r-project.org/web/packages/pheatmap/index.html) was used to perform bidirectional hierarchical clustering of the expression values of the differentially expressed RBPs.

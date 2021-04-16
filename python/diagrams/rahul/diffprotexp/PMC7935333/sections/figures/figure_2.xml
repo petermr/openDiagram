@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0002" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 2</label>
+ <caption>
+  <p>Identification of DEGs in four TNBC microarray datasets from GEO.</p>
+  <p>
+   <bold>Notes</bold>: (
+   <bold>A</bold>–
+   <bold>D</bold>) Volcano plots of differential expression analysis for GSE27447, GSE39004, GSE43358 and GSE45827. (
+   <bold>E</bold>) Upset plot of DEGs overlapped in the four datasets. (
+   <bold>F</bold>) Expression heatmap of top 10 up- and down-regulated genes.
+  </p>
+  <p>
+   <bold>Abbreviations</bold>: TNBC, triple negative breast cancer; GEO, Genome Expression Omnibus; DEGs, differentially expressed genes.
+  </p>
+ </caption>
+ <graphic content-type="print-only" xlink:href="CMAR-13-2095-g0002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

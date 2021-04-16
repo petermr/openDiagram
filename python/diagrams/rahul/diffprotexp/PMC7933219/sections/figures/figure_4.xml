@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F4" position="float">
+ <label>FIGURE 4</label>
+ <caption>
+  <p>Differential mRNA–mRNA interaction network. 
+   <bold>(A)</bold> The network graph of mRNA–mRNA interaction. The circle represents mRNA; the size of the circle represents the betweenness centrality value. The bigger the value, the more signal transmission is involved, indicating that the mRNA has greater ability to regulate mRNA interactions. 
+   <bold>(B)</bold> Expression level of the top 10 differential mRNAs between the TC–EC model and EC according to the differential mRNA–mRNA interaction network analysis.
+  </p>
+ </caption>
+ <graphic xlink:href="fcell-09-604038-g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

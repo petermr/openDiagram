@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To investigate the interactions between proteins encoded by the DEGs, a PPI network was constructed according to STRING database, which involved 59 nodes and 142 edges (
+ <xref ref-type="fig" rid="f0004">Figure 4A</xref>). Thereafter, A plug-in of Cytoscape, MCODE was employed to conduct clustering analysis. Four functional modules were screened out from the PPI network (
+ <xref ref-type="fig" rid="f0004">Figure 4B</xref>–
+ <xref ref-type="fig" rid="f0004">E</xref>). To further understand the potential biological functions of these modules, we performed another KEGG pathway enrichment analyses. The results demonstrated that these modules play roles in cell adhesion, ECM–receptor interaction, pathways in cancer and T-cell immunity (
+ <xref rid="t0001" ref-type="table">Table 1</xref>). 
+</p>

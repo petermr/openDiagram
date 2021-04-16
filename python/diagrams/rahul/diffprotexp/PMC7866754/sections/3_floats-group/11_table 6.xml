@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab6">
+ <label>Table 6</label>
+ <caption>
+  <p>High quality novel ORFs that have significantly (
+   <italic>p</italic>-value &lt; 0.05) correlated protein expression (calculated in NSAF) with their associated reference genes
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Transcript ID</th>
+    <th align="left">Frame</th>
+    <th align="left">Category of nORF</th>
+    <th align="left">Reference gene</th>
+    <th align="left">
+     <italic>p-</italic>value
+    </th>
+    <th align="left">Correlation coefficient</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">MSTRG.4605.2</td>
+    <td align="left">2</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_1467600</td>
+    <td char="." align="char">0.0251</td>
+    <td char="." align="char">− 0.868</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.2092.1</td>
+    <td align="left">6</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_0927900</td>
+    <td char="." align="char">0.0425</td>
+    <td char="." align="char">− 0.827</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.1076.2</td>
+    <td align="left">2</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_0606600</td>
+    <td char="." align="char">0.0480</td>
+    <td char="." align="char">0.815</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.1556.1</td>
+    <td align="left">2</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_0728700</td>
+    <td char="." align="char">0.0457</td>
+    <td char="." align="char">0.820</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.3171.1</td>
+    <td align="left">1</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_1225600</td>
+    <td char="." align="char">0.0367</td>
+    <td char="." align="char">0.839</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.2151.1</td>
+    <td align="left">6</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_0934500</td>
+    <td char="." align="char">0.0149</td>
+    <td char="." align="char">0.898</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.2472.1</td>
+    <td align="left">2</td>
+    <td align="left">3p UTR</td>
+    <td align="left">PF3D7_1033500</td>
+    <td char="." align="char">0.0134</td>
+    <td char="." align="char">0.904</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.2472.1</td>
+    <td align="left">6</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_1033500</td>
+    <td char="." align="char">0.0134</td>
+    <td char="." align="char">0.904</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.4173.1</td>
+    <td align="left">2</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_1417600</td>
+    <td char="." align="char">0.00838</td>
+    <td char="." align="char">0.924</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.370.1</td>
+    <td align="left">1</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_0311100</td>
+    <td char="." align="char">0.00560</td>
+    <td char="." align="char">0.938</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.3602.1</td>
+    <td align="left">6</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_1322400</td>
+    <td char="." align="char">0.00098</td>
+    <td char="." align="char">0.974</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.4140.1</td>
+    <td align="left">1</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_1414500</td>
+    <td char="." align="char">0.000685</td>
+    <td char="." align="char">0.979</td>
+   </tr>
+   <tr>
+    <td align="left">MSTRG.2185.1</td>
+    <td align="left">2</td>
+    <td align="left">AltORF</td>
+    <td align="left">PF3D7_1004300</td>
+    <td char="." align="char">0.000073</td>
+    <td char="." align="char">0.993</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

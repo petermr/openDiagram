@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par50">To investigate the potential molecular mechanisms through which TUBA1C elicits tumorigenesis in LUAD, we identified the protein-coding genes of TUBA1C and its co-expression genes in LUAD. As shown in Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>, UALCAN database was used to identify genes that showed a positive and negative correlation with TUBA1C in LUAD tissues. The two-sided Pearson’s correlation coefficient analysis and z-test were performed by using R language, which is based on the gene expression data extracted from TCGA. The top 10 protein-coding genes that positively correlated with TUBA1C were as follows: TUBA1B, PLK1, BIRC5, CCNA2, CCNB1, EPR1, MAD2L1, RAN, SKA3, and PACGAP1. On the other hand, the top ten protein-coding genes that negatively correlated with TUBA1C were as follows: CIRBP, VAMP2, CBX7, NICN1, C5orf53, FRY, CRY2, GNG7, CD302, and FXYD1. Furthermore, STRING and GeneMANIA tools were used to analyze the interaction between TUBA1C and protein-coding genes mentioned earlier. Figure 
+ <xref rid="Fig6" ref-type="fig">6</xref> illustrates the results of the analysis.
+</p>

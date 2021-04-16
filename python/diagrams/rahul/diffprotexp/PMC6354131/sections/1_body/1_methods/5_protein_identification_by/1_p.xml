@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0035">MALDI-TOF MS/MS analysis of protein spots was conducted on an Applied Biosystems 4700 Proteomics Analyzer (Framingham, MA, USA). Differentially expressed protein spots were excised from the 2-DE gels and washed with water before digestion. Digestion and peptide extraction were performed according to previous methods.
+ <xref rid="bib6" ref-type="bibr">
+  <sup>6</sup>
+ </xref> Mass spectra of peptide mixtures were obtained using an Applied Biosystems 4700 Proteomics Analyzer operated in delayed reflector mode with an accelerated voltage of 20 kV. Spectra were calibrated using trypsin auto-digested ion peaks (
+ <italic>m</italic>/
+ <italic>z</italic> = 842.5 and 2211.1) as internal standards. Peptide mass finger printing (PMF) data were used to search for candidate proteins using the MASCOT (
+ <ext-link ext-link-type="uri" xlink:href="http://www.matrixscience.com" id="intref0015" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.matrixscience.com</ext-link>) software. A hit was considered to be positive when MASCOT revealed a global score exceeding 60 (
+ <italic>p</italic> &lt; 0.05).
+</p>

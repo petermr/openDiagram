@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" orientation="portrait" position="float">
+ <label>Table 1:</label>
+ <caption>
+  <p>IC
+   <sub>50</sub> and resistance factor for metronidazole in the 3 isogenic isolates used in this study
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th align="left" rowspan="1" colspan="1">Resistance</th>
+   </tr>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">Isolate</th>
+    <th align="left" rowspan="1" colspan="1">Strain</th>
+    <th align="left" rowspan="1" colspan="1">Abbreviation</th>
+    <th align="left" rowspan="1" colspan="1">Reference</th>
+    <th align="left" rowspan="1" colspan="1">Mtz IC
+     <sub>50</sub>
+    </th>
+    <th align="left" rowspan="1" colspan="1">factor</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">WB</td>
+    <td rowspan="1" colspan="1">WB1B</td>
+    <td rowspan="1" colspan="1">WB-MtzS</td>
+    <td rowspan="1" colspan="1">[
+     <xref rid="bib26" ref-type="bibr">26</xref>]
+    </td>
+    <td rowspan="1" colspan="1">8.28 μM</td>
+    <td rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">WB1B-M3</td>
+    <td rowspan="1" colspan="1">WB-MtzR</td>
+    <td rowspan="1" colspan="1">[
+     <xref rid="bib31" ref-type="bibr">31</xref>]
+    </td>
+    <td rowspan="1" colspan="1">22.79 μM</td>
+    <td rowspan="1" colspan="1">2.8</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">106</td>
+    <td rowspan="1" colspan="1">106</td>
+    <td rowspan="1" colspan="1">106-MtzS</td>
+    <td rowspan="1" colspan="1">[
+     <xref rid="bib101" ref-type="bibr">101</xref>]
+    </td>
+    <td rowspan="1" colspan="1">9.39 μM</td>
+    <td rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">106-2ID10</td>
+    <td rowspan="1" colspan="1">106-MtzR</td>
+    <td rowspan="1" colspan="1">[
+     <xref rid="bib30" ref-type="bibr">30</xref>]
+    </td>
+    <td rowspan="1" colspan="1">23.99 μM</td>
+    <td rowspan="1" colspan="1">2.6</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">713</td>
+    <td rowspan="1" colspan="1">713</td>
+    <td rowspan="1" colspan="1">713-MtzS</td>
+    <td rowspan="1" colspan="1">[
+     <xref rid="bib26" ref-type="bibr">26</xref>]
+    </td>
+    <td rowspan="1" colspan="1">7.79 μM</td>
+    <td rowspan="1" colspan="1">-</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1">713-M3</td>
+    <td rowspan="1" colspan="1">713-MtzR</td>
+    <td rowspan="1" colspan="1">[
+     <xref rid="bib31" ref-type="bibr">31</xref>]
+    </td>
+    <td rowspan="1" colspan="1">42.33 μM</td>
+    <td rowspan="1" colspan="1">5.4</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

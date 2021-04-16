@@ -1,0 +1,8 @@
+0: We used the OmicsBean tool ( http://www.omicsbean.cn/) for enrichments of biological processes (BP), molecular functions (MF), and cellular components (CC) based on Gene Ontology (GO,  http://www.geneontology.org/) terms 22,  26.
+1: Kyoto Encyclopedia of Genes and Genomes (KEGG,  http://www.genome.jp/kegg/) analysis was conducted for pathway enrichment, with a  p value of<0.1 considered significant, as previously described 27.
+2: Furthermore, proteinprotein interaction (PPI) was assessed using the database of the Search Tool for the Retrieval of Interacting Genes/Proteins (STRING) under the medium confidence (STRING score = 0.4), and the yielded network was visualized with Cytoscape tool, as reported previously 22.
+3: To explore the drug relevance of these differential proteins, we performed a phenotype-target-drug network analysis.
+4: The antidepression and antianxiety drugs and their primary targets were searched and collected from the DrugBank database (Version 5.1.4;  https://www.drugbank.ca/).
+5: Species type for these target proteins was converted from  Homo sapiens to rattus norvegicus.
+6: Through the use of the STRING detection, the interactions between the differential proteins and the target proteins were obtained.
+7: To construct the phenotype-target-drug network, the direct interactions were further mapped to the corresponding drugs using Cytoscape software.

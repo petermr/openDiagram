@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>List of the Top 10 Hypermethylated Genes and the Top 10 Hypomethylated Genes</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="1" colspan="1">Genes</th>
+    <th rowspan="1" colspan="1">Gene Description</th>
+    <th rowspan="1" colspan="1">Chromosome</th>
+    <th rowspan="1" colspan="1">Peak Start</th>
+    <th rowspan="1" colspan="1">Peak End</th>
+    <th rowspan="1" colspan="1">Fold Change</th>
+    <th rowspan="1" colspan="1">P-value</th>
+    <th rowspan="1" colspan="1">Up/Down</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>TNFAIP3</italic>
+    </td>
+    <td rowspan="1" colspan="1">TNF alpha induced protein 3</td>
+    <td rowspan="1" colspan="1">6</td>
+    <td rowspan="1" colspan="1">137,867,214</td>
+    <td rowspan="1" colspan="1">137,883,312</td>
+    <td rowspan="1" colspan="1">0.016</td>
+    <td rowspan="1" colspan="1">0.012</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>IFNAR2</italic>
+    </td>
+    <td rowspan="1" colspan="1">Interferon alpha and beta receptor subunit 2</td>
+    <td rowspan="1" colspan="1">21</td>
+    <td rowspan="1" colspan="1">33,229,901</td>
+    <td rowspan="1" colspan="1">33,265,675</td>
+    <td rowspan="1" colspan="1">0.043</td>
+    <td rowspan="1" colspan="1">0.042</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>CD83</italic>
+    </td>
+    <td rowspan="1" colspan="1">CD83 molecule</td>
+    <td rowspan="1" colspan="1">6</td>
+    <td rowspan="1" colspan="1">14,117,256</td>
+    <td rowspan="1" colspan="1">14,136,918</td>
+    <td rowspan="1" colspan="1">0.070</td>
+    <td rowspan="1" colspan="1">0.049</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>NUAK2</italic>
+    </td>
+    <td rowspan="1" colspan="1">NUAK family kinase 2</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">205,302,063</td>
+    <td rowspan="1" colspan="1">205,321,745</td>
+    <td rowspan="1" colspan="1">0.101</td>
+    <td rowspan="1" colspan="1">0.002</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>OAS1</italic>
+    </td>
+    <td rowspan="1" colspan="1">2ʹ-5ʹ-oligoadenylate synthetase 1</td>
+    <td rowspan="1" colspan="1">12</td>
+    <td rowspan="1" colspan="1">112,906,783</td>
+    <td rowspan="1" colspan="1">112,933,222</td>
+    <td rowspan="1" colspan="1">0.105</td>
+    <td rowspan="1" colspan="1">0.012</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>DCAF16</italic>
+    </td>
+    <td rowspan="1" colspan="1">DDB1 and CUL4 associated factor 16</td>
+    <td rowspan="1" colspan="1">4</td>
+    <td rowspan="1" colspan="1">17,800,655</td>
+    <td rowspan="1" colspan="1">17,810,758</td>
+    <td rowspan="1" colspan="1">0.132</td>
+    <td rowspan="1" colspan="1">0.047</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>RIPK2</italic>
+    </td>
+    <td rowspan="1" colspan="1">Receptor interacting serine/threonine kinase 2</td>
+    <td rowspan="1" colspan="1">8</td>
+    <td rowspan="1" colspan="1">89,757,806</td>
+    <td rowspan="1" colspan="1">89,791,064</td>
+    <td rowspan="1" colspan="1">0.149</td>
+    <td rowspan="1" colspan="1">0.001</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>SMPD2</italic>
+    </td>
+    <td rowspan="1" colspan="1">Sphingomyelin phosphodiesterase 2</td>
+    <td rowspan="1" colspan="1">6</td>
+    <td rowspan="1" colspan="1">109,440,724</td>
+    <td rowspan="1" colspan="1">109,443,919</td>
+    <td rowspan="1" colspan="1">0.149</td>
+    <td rowspan="1" colspan="1">0.022</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>RGS20</italic>
+    </td>
+    <td rowspan="1" colspan="1">Regulator of G protein signaling 20</td>
+    <td rowspan="1" colspan="1">8</td>
+    <td rowspan="1" colspan="1">53,851,795</td>
+    <td rowspan="1" colspan="1">53,959,303</td>
+    <td rowspan="1" colspan="1">0.155</td>
+    <td rowspan="1" colspan="1">0.030</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>MCOLN2</italic>
+    </td>
+    <td rowspan="1" colspan="1">Mucolipin 2</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">84,925,583</td>
+    <td rowspan="1" colspan="1">84,997,113</td>
+    <td rowspan="1" colspan="1">0.156</td>
+    <td rowspan="1" colspan="1">0.024</td>
+    <td rowspan="1" colspan="1">Down</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>FGF1</italic>
+    </td>
+    <td rowspan="1" colspan="1">Fibroblast growth factor 1</td>
+    <td rowspan="1" colspan="1">5</td>
+    <td rowspan="1" colspan="1">142,592,178</td>
+    <td rowspan="1" colspan="1">142,698,070</td>
+    <td rowspan="1" colspan="1">34.908</td>
+    <td rowspan="1" colspan="1">0.046</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>PRDM16</italic>
+    </td>
+    <td rowspan="1" colspan="1">PR/SET domain 16</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">3,069,168</td>
+    <td rowspan="1" colspan="1">3,438,621</td>
+    <td rowspan="1" colspan="1">10.500</td>
+    <td rowspan="1" colspan="1">0.045</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>PMF1-BGLAP</italic>
+    </td>
+    <td rowspan="1" colspan="1">PMF1-BGLAP readthrough</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">156,212,982</td>
+    <td rowspan="1" colspan="1">156,243,332</td>
+    <td rowspan="1" colspan="1">9.404</td>
+    <td rowspan="1" colspan="1">0.021</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>SPCS2</italic>
+    </td>
+    <td rowspan="1" colspan="1">Signal peptidase complex subunit 2</td>
+    <td rowspan="1" colspan="1">11</td>
+    <td rowspan="1" colspan="1">74,949,247</td>
+    <td rowspan="1" colspan="1">74,979,033</td>
+    <td rowspan="1" colspan="1">9.080</td>
+    <td rowspan="1" colspan="1">0.049</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>TRIB2</italic>
+    </td>
+    <td rowspan="1" colspan="1">Tribbles pseudokinase 2</td>
+    <td rowspan="1" colspan="1">2</td>
+    <td rowspan="1" colspan="1">12,716,889</td>
+    <td rowspan="1" colspan="1">12,742,734</td>
+    <td rowspan="1" colspan="1">7.610</td>
+    <td rowspan="1" colspan="1">0.008</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>TGFBR3</italic>
+    </td>
+    <td rowspan="1" colspan="1">Transforming growth factor beta receptor 3</td>
+    <td rowspan="1" colspan="1">1</td>
+    <td rowspan="1" colspan="1">91,680,343</td>
+    <td rowspan="1" colspan="1">91,906,335</td>
+    <td rowspan="1" colspan="1">7.566</td>
+    <td rowspan="1" colspan="1">0.033</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>PIR</italic>
+    </td>
+    <td rowspan="1" colspan="1">Pirin</td>
+    <td rowspan="1" colspan="1">X</td>
+    <td rowspan="1" colspan="1">15,384,799</td>
+    <td rowspan="1" colspan="1">15,493,564</td>
+    <td rowspan="1" colspan="1">7.201</td>
+    <td rowspan="1" colspan="1">0.036</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>TMEM8B</italic>
+    </td>
+    <td rowspan="1" colspan="1">Transmembrane protein 8B</td>
+    <td rowspan="1" colspan="1">9</td>
+    <td rowspan="1" colspan="1">35,814,451</td>
+    <td rowspan="1" colspan="1">35,865,518</td>
+    <td rowspan="1" colspan="1">6.825</td>
+    <td rowspan="1" colspan="1">0.033</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>TGM2</italic>
+    </td>
+    <td rowspan="1" colspan="1">Transglutaminase 2</td>
+    <td rowspan="1" colspan="1">20</td>
+    <td rowspan="1" colspan="1">38,127,385</td>
+    <td rowspan="1" colspan="1">38,166,578</td>
+    <td rowspan="1" colspan="1">5.890</td>
+    <td rowspan="1" colspan="1">0.035</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <italic>DEPTOR</italic>
+    </td>
+    <td rowspan="1" colspan="1">DEP domain containing mTOR interacting protein</td>
+    <td rowspan="1" colspan="1">8</td>
+    <td rowspan="1" colspan="1">119,873,717</td>
+    <td rowspan="1" colspan="1">120,050,918</td>
+    <td rowspan="1" colspan="1">5.833</td>
+    <td rowspan="1" colspan="1">0.022</td>
+    <td rowspan="1" colspan="1">Up</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

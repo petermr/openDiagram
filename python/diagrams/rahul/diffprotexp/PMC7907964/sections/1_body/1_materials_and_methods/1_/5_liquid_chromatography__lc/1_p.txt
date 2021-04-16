@@ -1,0 +1,11 @@
+0: A nanoACQUITY UPLC system (Waters Corporation) coupled with an amaZon speed Ion Trap mass spectrometer (Bruker Corporation) was used to identify peptides/proteins, as described previously ( 23).
+1: The tryptic-digested peptides were dissolved in 0.1% formic acid in H 2O and injected into a nanoACQUITY UPLC column (1.7 m BEH, 75 m x 200 mm C 18, Water Corporation) at a flow rate of 300 nl/min.
+2: The column temperature was maintained at 40 C. The LC gradient used 0.1% formic acid in H 2O as solvent A and 0.1% formic acid in acetonitrile as solvent B, and was performed as follows: 1-50% solvent B for 70 min, 50-90% solvent B for 5 min and 15 min with 90% solvent B.
+3: The eluted peptides were analysed directly via MS/MS on an amaZon speed Ion Trap mass spectrometer equipped with a captive-electrospray ion source.
+4: The positive mode was used with a spray voltage of 1,300 V, and the capillary temperature was set at 150 C. Mass spectra were acquired from 400 to 1,400 m/z using parameters optimized at 922 m/z with a target of 500,000 set for ion charge control and a maximum acquisition time of 100 msec.
+5: The scan range was 50-3,000 m/z.
+6: The MS/MS data were processed using Bruker Compass version 1.4 (Bruker Corporation).
+7: Each sample was analysed in triplicate by LC-MS/MS for the normalization of the quantity of protein injected.
+8: Mascot software version 2.4.0 was used for the identification of peptides using the Swiss-Prot human protein database (Matrix Science, Ltd.).
+9: The Mascot parameters were as follows: The MS/MS mass tolerance was set at 0.6 Da; the peptide mass tolerance was set to 1.2 Da; carbamidomethylation was set as a fixed modification; and 1 missed cleavage was allowed.
+10: A false discovery rate threshold of 1% was applied.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">To further investigate the importance of interconnections between the analyzed regulatory layers, we overlapped each latent factor used with manually annotated phenotypic data associated with individual neuronal datasets (Supplementary Data 
+ <xref rid="MOESM3" ref-type="media">2</xref>). This analysis revealed that developmental stage was the major contributor to distinctions between neuronal populations (LF1 in Fig. 
+ <xref rid="Fig4" ref-type="fig">4b, c</xref>). However, whereas previous work focused on the role of GE in defining differences between neuronal subtypes
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>, our analysis suggests that each surveyed regulatory layer contributes substantially to neuronal specification, thus highlighting the contribution of multiple levels of regulatory coordination in neuronal development and specialization (Fig. 
+ <xref rid="Fig4" ref-type="fig">4a</xref> and Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">5b</xref>). For example, APA differences predominantly characterize the separation of inhibitory cortical GABA interneurons from other neuronal subtype populations (LF2), GE differences drive the clustering of the excitatory neurons of the hippocampus and limbic system from other neuronal populations (LF3), and AS is the main regulatory layer separating populations of neurons from the central and peripheral nervous systems (LF4) (Fig. 
+ <xref rid="Fig4" ref-type="fig">4c</xref>). Altogether, this analysis reveals that through a combined analysis of multiple layers of gene regulation we can identify, in an unsupervised manner, distinct transcriptomic signatures that distinguish neuronal populations on the basis of age, brain region and electrophysiology.
+</p>

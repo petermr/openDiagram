@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Next, we rank the relative importance of the “target pathways” based on the p-values, obtained using Equation 
+ <xref rid="Equ3" ref-type="">3</xref> from the differential network analysis, so that we can get an idea about the ordering of importance of the “target pathways”. Since, the ordering vary from one cancer to another; we obtain a rank aggregated list of the “target pathways” using 
+ <italic>RankAggreg</italic> [
+ <xref ref-type="bibr" rid="CR12">12</xref>, 
+ <xref ref-type="bibr" rid="CR13">13</xref>]. Table 
+ <xref rid="Tab2" ref-type="table">2</xref> shows the ordering of the five “target pathways” for the three cancers along with the rank aggregated list. Thus overall, the RAS signaling pathway appears to be most important followed by the PI3K signaling pathway, based on our integrative analysis of the available data on three cancers. 
+</p>

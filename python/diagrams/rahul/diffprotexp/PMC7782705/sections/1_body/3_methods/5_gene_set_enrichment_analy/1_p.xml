@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">For gene ontology analysis, R library 
+ <italic>gprofiler2</italic>
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup> was used. Using 
+ <italic>gost</italic> function, correction_method = “fdr” and significant=TRUE. To minimize the enrichment of gene ontologies based on a small set of genes, we used three conditions for significance assessment: false discovery rate (FDR) &lt; 0.01; intersection size (intersection between gene set vs. a number of genes in a term) &gt;3; and precision (intersection size divided by gene set) &gt;0.03. We used Gene Ontology (GO or by branch GO:MF, GO:BP, GO:CC), Kyoto Encyclopedia of Genes and Genomes (KEGG), Reactome (REAC), WikiPathways (WP), TRANSFAC (TF), miRTarBase (MIRNA), Human Protein Atlas (HPA), CORUM (CORUM), Human phenotype ontology (HP) as sources. For improved visualization, we plotted results only for GO:BP, GO:CC and KEGG and show only FDR related to terms reaching all criteria of significance.
+</p>

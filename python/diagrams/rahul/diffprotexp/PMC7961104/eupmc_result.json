@@ -1,0 +1,926 @@
+{
+  "id": [
+    "33748705"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33748705"
+  ],
+  "pmcid": [
+    "PMC7961104"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7961104"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1016/j.isci.2021.102217"
+  ],
+  "title": [
+    "Trans-omic analysis reveals obesity-associated dysregulation of inter-organ metabolic cycles between the liver and skeletal muscle."
+  ],
+  "authorString": [
+    "Egami R, Kokaji T, Hatano A, Yugi K, Eto M, Morita K, Ohno S, Fujii M, Hironaka KI, Uematsu S, Terakawa A, Bai Y, Pan Y, Tsuchiya T, Ozaki H, Inoue H, Uda S, Kubota H, Suzuki Y, Matsumoto M, Nakayama KI, Hirayama A, Soga T, Kuroda S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Egami R"
+          ],
+          "firstName": [
+            "Riku"
+          ],
+          "lastName": [
+            "Egami"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8562, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kokaji T"
+          ],
+          "firstName": [
+            "Toshiya"
+          ],
+          "lastName": [
+            "Kokaji"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hatano A"
+          ],
+          "firstName": [
+            "Atsushi"
+          ],
+          "lastName": [
+            "Hatano"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Laboratory for Integrated Cellular Systems, RIKEN Center for Integrative Medical Sciences, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Omics and Systems Biology, Graduate School of Medical and Dental Sciences, Niigata University, 757 Ichibancho, Asahimachi-dori, Chuo-ku, Niigata City, Niigata 951-8510, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yugi K"
+          ],
+          "firstName": [
+            "Katsuyuki"
+          ],
+          "lastName": [
+            "Yugi"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Laboratory for Integrated Cellular Systems, RIKEN Center for Integrative Medical Sciences, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Institute for Advanced Biosciences, Keio University, Fujisawa, 252-8520, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "PRESTO, Japan Science and Technology Agency, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Eto M"
+          ],
+          "firstName": [
+            "Miki"
+          ],
+          "lastName": [
+            "Eto"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Morita K"
+          ],
+          "firstName": [
+            "Keigo"
+          ],
+          "lastName": [
+            "Morita"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ohno S"
+          ],
+          "firstName": [
+            "Satoshi"
+          ],
+          "lastName": [
+            "Ohno"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Molecular Genetics Research Laboratory, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Fujii M"
+          ],
+          "firstName": [
+            "Masashi"
+          ],
+          "lastName": [
+            "Fujii"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Molecular Genetics Research Laboratory, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Mathematical and Life Sciences, Graduate School of Integrated Sciences for Life, Hiroshima University, 1-3-1 Kagamiyama, Higashi-hiroshima City, Hiroshima, 739-8526, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hironaka KI"
+          ],
+          "firstName": [
+            "Ken-Ichi"
+          ],
+          "lastName": [
+            "Hironaka"
+          ],
+          "initials": [
+            "KI"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Uematsu S"
+          ],
+          "firstName": [
+            "Saori"
+          ],
+          "lastName": [
+            "Uematsu"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8562, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Terakawa A"
+          ],
+          "firstName": [
+            "Akira"
+          ],
+          "lastName": [
+            "Terakawa"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Bai Y"
+          ],
+          "firstName": [
+            "Yunfan"
+          ],
+          "lastName": [
+            "Bai"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8562, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Pan Y"
+          ],
+          "firstName": [
+            "Yifei"
+          ],
+          "lastName": [
+            "Pan"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8562, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tsuchiya T"
+          ],
+          "firstName": [
+            "Takaho"
+          ],
+          "lastName": [
+            "Tsuchiya"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Bioinformatics Laboratory, Faculty of Medicine, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8575, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Center for Artificial Intelligence Research, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8577, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ozaki H"
+          ],
+          "firstName": [
+            "Haruka"
+          ],
+          "lastName": [
+            "Ozaki"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Bioinformatics Laboratory, Faculty of Medicine, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8575, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Center for Artificial Intelligence Research, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8577, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Inoue H"
+          ],
+          "firstName": [
+            "Hiroshi"
+          ],
+          "lastName": [
+            "Inoue"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Metabolism and Nutrition Research Unit, Institute for Frontier Science Initiative, Kanazawa University, 13-1 Takaramachi, Kanazawa, Ishikawa, 920-8641, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Uda S"
+          ],
+          "firstName": [
+            "Shinsuke"
+          ],
+          "lastName": [
+            "Uda"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Integrated Omics, Research Center for Transomics Medicine, Medical Institute of Bioregulation, Kyushu University, 3-1-1 Maidashi, Higashi-ku, Fukuoka 812-8582, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kubota H"
+          ],
+          "firstName": [
+            "Hiroyuki"
+          ],
+          "lastName": [
+            "Kubota"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Integrated Omics, Research Center for Transomics Medicine, Medical Institute of Bioregulation, Kyushu University, 3-1-1 Maidashi, Higashi-ku, Fukuoka 812-8582, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Suzuki Y"
+          ],
+          "firstName": [
+            "Yutaka"
+          ],
+          "lastName": [
+            "Suzuki"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8562, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Matsumoto M"
+          ],
+          "firstName": [
+            "Masaki"
+          ],
+          "lastName": [
+            "Matsumoto"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Omics and Systems Biology, Graduate School of Medical and Dental Sciences, Niigata University, 757 Ichibancho, Asahimachi-dori, Chuo-ku, Niigata City, Niigata 951-8510, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nakayama KI"
+          ],
+          "firstName": [
+            "Keiichi I"
+          ],
+          "lastName": [
+            "Nakayama"
+          ],
+          "initials": [
+            "KI"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular and Cellular Biology, Medical Institute of Bioregulation, Kyushu University, 3-1-1 Maidashi, Higashi-ku, Fukuoka 812-8582, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hirayama A"
+          ],
+          "firstName": [
+            "Akiyoshi"
+          ],
+          "lastName": [
+            "Hirayama"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute for Advanced Biosciences, Keio University, 246-2 Mizukami, Kakuganji, Tsuruoka, Yamagata, 997-0052, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Soga T"
+          ],
+          "firstName": [
+            "Tomoyoshi"
+          ],
+          "lastName": [
+            "Soga"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute for Advanced Biosciences, Keio University, 246-2 Mizukami, Kakuganji, Tsuruoka, Yamagata, 997-0052, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kuroda S"
+          ],
+          "firstName": [
+            "Shinya"
+          ],
+          "lastName": [
+            "Kuroda"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8562, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Biological Sciences, Graduate School of Science, University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Core Research for Evolutional Science and Technology (CREST), Japan Science and Technology Agency, Bunkyo-ku, Tokyo 113-0033, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "24"
+      ],
+      "journalIssueId": [
+        "3114514"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "iScience"
+          ],
+          "ISOAbbreviation": [
+            "iScience"
+          ],
+          "medlineAbbreviation": [
+            "iScience"
+          ],
+          "NLMid": [
+            "101724038"
+          ],
+          "ISSN": [
+            "2589-0042"
+          ],
+          "ESSN": [
+            "2589-0042"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "102217"
+  ],
+  "abstractText": [
+    "Systemic metabolic homeostasis is regulated by inter-organ metabolic cycles involving multiple organs. Obesity impairs inter-organ metabolic cycles, resulting in metabolic diseases. The systemic landscape of dysregulated inter-organ metabolic cycles in obesity has yet to be explored. Here, we measured the transcriptome, proteome, and metabolome in the liver and skeletal muscle and the metabolome in blood of fasted wild-type and leptin-deficient obese (<i>ob</i>/<i>ob</i>) mice, identifying components with differential abundance and differential regulation in <i>ob</i>/<i>ob</i> mice. By constructing and evaluating the trans-omic network controlling the differences in metabolic reactions between fasted wild-type and <i>ob</i>/<i>ob</i> mice, we provided potential mechanisms of the obesity-associated dysfunctions of metabolic cycles between liver and skeletal muscle involving glucose-alanine, glucose-lactate, and ketone bodies. Our study revealed obesity-associated systemic pathological mechanisms of dysfunction of inter-organ metabolic cycles."
+  ],
+  "affiliation": [
+    "Department of Computational Biology and Medical Sciences, Graduate School of Frontier Sciences, University of Tokyo, 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8562, Japan."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Proteomics",
+        "systems biology",
+        "Metabolomics",
+        "Biological sciences",
+        "endocrinology",
+        "Omics",
+        "Transcriptomic"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.isci.2021.102217"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7961104"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7961104?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-22"
+  ],
+  "firstIndexDate": [
+    "2021-03-23"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-22"
+  ],
+  "dateOfRevision": [
+    "2021-03-23"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-20"
+  ],
+  "firstPublicationDate": [
+    "2021-02-20"
+  ]
+}

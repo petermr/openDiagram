@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0095">We identified the differential regulations connecting regulating differentially expressed molecules with regulated differentially expressed molecules. To identify differential regulations linking DPPs in the insulin signaling molecules to DRTFs, we searched KEGG (
+ <xref rid="bib27" ref-type="bibr">Kanehisa et al., 2017</xref>) for kinase-substrate relationships between the DPPs and DRTFs. The only differential regulations we found was from Akt, an increased DPP in liver, to Foxo1, an increased DRTF in liver (
+ <xref rid="fig2" ref-type="fig">Figure 2</xref>A). The differential regulations between DRTFs and DEGs were determined based on the relationship between the DRTF and the change in expression of the DEG. To identify differential regulations from DEGs to DEPs, we examined the DEP and DEG datasets for protein-encoding gene pairs that showed consistent changes in gene expression and protein expression in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice (
+ <xref rid="fig3" ref-type="fig">Figure 3</xref>A; see also 
+ <xref rid="mmc1" ref-type="supplementary-material">Figure S3</xref> and 
+ <xref rid="mmc8" ref-type="supplementary-material">Table S7</xref>). In liver, 394 increased DEPs (60% of the total 565 increased DEPs) had upregulated DEGs, and 296 decreased DEPs (40% of the total 743 decreased DEPs) had downregulated DEGs. In skeletal muscle, 29 increased DEPs (59% of total 49 increased DEPs) had correspondingly increased DEGs, whereas 7 decreased DEPs (37% of total 19 decreased DEPs) had decreased DEGs. These data suggested that, although more DEPs were regulated in liver than in skeletal muscle, similar proportions of DEPs were regulated at the level of gene expression in both liver and skeletal muscle in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice.
+</p>

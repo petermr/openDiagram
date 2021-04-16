@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="cam43799-tbl-0001" xml:lang="en" content-type="TABLE" orientation="portrait" position="float">
+ <label>TABLE 1</label>
+ <caption>
+  <p>Primary antibody used in the study</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <col style="border-right:solid 1px #000000" span="1"/>
+  <thead valign="top">
+   <tr style="border-bottom:solid 1px #000000">
+    <th align="left" valign="top" rowspan="1" colspan="1">Gene name</th>
+    <th align="left" valign="top" rowspan="1" colspan="1">Antibody (company‐catlog)</th>
+    <th align="left" valign="top" rowspan="1" colspan="1">Dilution</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Ki67</td>
+    <td align="left" rowspan="1" colspan="1">Gentex‐ GX16667</td>
+    <td align="left" rowspan="1" colspan="1">1:100</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">CDKN2A</td>
+    <td align="left" rowspan="1" colspan="1">Santa cruz ‐Sc−73434</td>
+    <td align="left" rowspan="1" colspan="1">1:50</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">SYCP2</td>
+    <td align="left" rowspan="1" colspan="1">Santa cruz ‐Sc−20841</td>
+    <td align="left" rowspan="1" colspan="1">1:50</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">KRT17</td>
+    <td align="left" rowspan="1" colspan="1">Santa cruz ‐Sc−393091</td>
+    <td align="left" rowspan="1" colspan="1">1:25</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">NEFH</td>
+    <td align="left" rowspan="1" colspan="1">Santa cruz ‐Sc−22909</td>
+    <td align="left" rowspan="1" colspan="1">1:25</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">CRISP3</td>
+    <td align="left" rowspan="1" colspan="1">Santa cruz ‐Sc−377505</td>
+    <td align="left" rowspan="1" colspan="1">1:25</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2" colspan="1">CRISP2</td>
+    <td align="left" rowspan="1" colspan="1">Abnova PAB19289/</td>
+    <td align="left" rowspan="1" colspan="1">1:100</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Santa cruz ‐Sc−390914</td>
+    <td align="left" rowspan="1" colspan="1">1:50</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">DSG1</td>
+    <td align="left" rowspan="1" colspan="1">Santa cruz ‐Sc−20114</td>
+    <td align="left" rowspan="1" colspan="1">1:25</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">PPP1R3C(PTG)</td>
+    <td align="left" rowspan="1" colspan="1">Santa cruz ‐Sc−6582</td>
+    <td align="left" rowspan="1" colspan="1">1:50</td>
+   </tr>
+  </tbody>
+ </table>
+ <permissions>
+  <copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder>
+ </permissions>
+</table-wrap>

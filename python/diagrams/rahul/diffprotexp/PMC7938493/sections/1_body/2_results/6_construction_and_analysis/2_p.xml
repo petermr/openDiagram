@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par56">We then applied survival analysis to assess the predictive performance of this model. A total of 407 BLCA patients from TCGA were divided into the training and test datasets containing 204 cases and 203 cases, respectively. We then divided the 204 BLCA patients in the training dataset into low- and high-risk groups according to the median risk score. The result showed that patients in the high-risk group had a poor OS compared with those in the low-risk group (Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>a). In addition, we constructed calibration plots and calculated the C-index, which was respectively 0.6368, 0.6967 and 0.6995 for OS prediction at the 1-, 2-and 3-year, suggesting a good conformity between the predicted and observed outcomes (Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>b). Furthermore, a time-dependent ROC analysis [
+ <xref ref-type="bibr" rid="CR13">13</xref>], performed to further assess the prognostic power of the risk score model, showed an area under the ROC curve (AUC) of 0.795 (95% confidence interval, 0.707–0.876) (Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>c), indicating the favourable predictive discrimination of the prognostic model. Subsequently, BLCA patients in the training dataset were ranked by risk score to analyse their survival distribution. The heatmap showed the expression profile of the hub RBPs with increasing numbers of dead patients (Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>d). The scatter plot showed that the mortality rate of the patients increased with increasing risk score (Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>e). We also validated the prognostic ability of this model in the test dataset, observing consistent results between the test and training datasets (Fig. 
+ <xref rid="Fig9" ref-type="fig">9</xref>a-e). These results showed acceptable sensitivity and specificity of the prognostic model. 
+</p>

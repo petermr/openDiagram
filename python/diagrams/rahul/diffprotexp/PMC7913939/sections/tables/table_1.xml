@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="ijms-22-01566-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">ijms-22-01566-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>List of primer sequences used in qRT-PCR experiments.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Name</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Forward Sequence</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Reverse Sequence</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>LDH-A</italic>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CAGTGGCTTTGCCAAAAACCGAGT</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CCATCAGGTAACGGAACCGCG</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>LDH-B</italic>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CCTGCTGACTTTGCAGTGGCTCC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">TCGCCGCGGCAGCCTCATCAT</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>Basigin</italic>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CAAGGTACTGCAGGAGGACACTCT</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">TCAGGAAGGAAGATGCAGGAATATT</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>Na
+      <sup>+</sup>/K
+      <sup>+</sup>-ATPase α2
+     </italic>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GAGACGCGCAATATCTGTTTCTT</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ACCTGTGGCAATCACAATGC</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>MCT1</italic>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">TTGGACCCCAGAGGTTCTCC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">AGGCGGCCTAAAAGTGGTG</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>MCT2</italic>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CAGCAACAGCGTGATAGAGCTT</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">TGGTTGCAGGTTGAATGCTAAT</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>MCT4</italic>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CGGCTGGCGGTAACAGAGTA</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CGGCCTCGGACCTGAGTATT</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>β-Actin</italic>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">GCTTCTTTGCAGCTCCTTCGT</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">ATATCGTCATCCATGGCGAAC</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

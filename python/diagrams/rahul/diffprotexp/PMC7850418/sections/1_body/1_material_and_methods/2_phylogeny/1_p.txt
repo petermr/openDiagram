@@ -1,0 +1,5 @@
+0: Multiple sequence alignment was performed using the DECIPHER package in R [ 24].
+1: Pairwise distances were computed using the Kimura (K80) model implemented in the function dist.dna, deleting the sites with missing data in a pairwise way.
+2: The phylogenetic tree was constructed using R software using ape package and the neighbour joining evolutionary method (hCoV19/Wuhan/IPBCAMSWH01/2019 as the root).
+3: CoV-GLUE resource [ http://cov-glue.cvr.gla.ac.uk, [ 25]] was used to generate phylogenetic placement of the mutants, annotate the sequences, and check the prevalence of the deletions among worldwide sequences.
+4: Codon numbering is based on the Wuhan-Hu-1 sequence.

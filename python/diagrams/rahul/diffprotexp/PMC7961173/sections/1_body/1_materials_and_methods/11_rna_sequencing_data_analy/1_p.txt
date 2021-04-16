@@ -1,0 +1,25 @@
+0: The Flux high-performance computer cluster at the University of Michigan was used for computational analysis.
+1: Sequencing read quality was assessed using FastQC (Andrews  2010).
+2: Reads were aligned to the human genome using STAR (Dobin et al.
+3: 2013), with the options outFilterMultimapNmax 10 and sjdbScore 2.
+4: Aligned reads were assigned to GRCh37 genes using featureCounts (Liao et al.
+5: 2014).
+6: HTR-8/SVneo had 85.38% uniquely mapped reads.
+7: Villous explants had 82.46% uniquely mapped reads.
+8: Prior to differential gene expression testing, genes with mean read counts-per-million less than four (HTR-8/SVneo) or five (explants) across all samples were filtered out and excluded from the analysis to reduce dispersion due to low expression levels.
+9: After filtering, 12,855 (HTR-8/SVneo) or 13,972 (explants) genes were included in the analyses.
+10: Data were normalized using the trimmed mean of M values (TMM) method (Robinson and Oshlack  2010).
+11: Differential gene expression testing was performed using the edgeR package (version 3.1) for R statistical computing (Robinson et al.
+12: 2010).
+13: Quasi-likelihood general linear modeling was used for differential gene expression testing (Lun et al.
+14: 2016).
+15: For HTR-8/SVneo cells, comparisons were made within each time point between 0 (control) and 10 or 20 M DCVC, respectively, adjusting for experiment day as a covariate using the glmQLFit function in edgeR.
+16: For villous explants, comparisons were made between 0 (control) and 20 M DCVC, adjusting for a placental donor as a covariate.
+17: The log 2fold change/fold change values reported for each gene were calculated from normalized (TMM method) gene expression counts averaged from each matching treatment/exposure replicate and directly compared to the average normalized gene expression counts of time-matched controls.
+18: Genes were considered differentially expressed between non-treated and treated samples with an adjusted  p-value < 0.05 using the BenjaminiHochberg false discovery rate (FDR) method (Benjamini and Hochberg  1995).
+19: DCVC-induced upregulation > 1.3-fold or downregulation <  1.3-fold are denoted throughout the results section.
+20: These fold-change (FC) values equate to log 2 fold-change (logFC) > 0.35 (upregulation) or <  0.35 (downregulation).
+21: We selected a relatively inclusive log 2 fold change threshold to facilitate discussion of our genome-wide discovery results.
+22: This selection was a balance of prioritizing genes with larger comparative gene expression changes, while still conducting a thorough evaluation of differential gene expression.
+23: Moreover, we conducted sensitive analyses to demonstrate that using a more conservative logFC cutoff does not change the overall conclusions of the paper (Suppl.
+24: Table 7).

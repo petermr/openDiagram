@@ -1,0 +1,12 @@
+0: Proteome Discoverer (v2.1, ThermoFisher) software and the Sequest HT search engine were used to identify and quantify peptides and proteins based on the UniProt_Rat release 2017_12 database.
+1: The search parameters allowed for trypsin missed cleavages of two, 10 p.p.m.
+2: precursor fragment mass tolerance, and 0.05 Da fragment mass tolerance.
+3: Fixed modifications were set for iTRAQ 8-plex on N-term and Lys and Carbamidomethylation on Cys.
+4: Variable modification settings included oxidation on Met, acetylation on protein N-term, deamidation on Asn and Gln, and Pyro-Glu.
+5: For identification of proteins and peptides, the peptide-spectrum-match false discovery rate was controlled<1.0% with the Percolator module, as previously described 24.
+6: The relative ratios of peptides and proteins across samples were computed and quantified using Reporter Ions Quantifier and Peptide and Protein Quantifier nodes.
+7: This data was imported into Microsoft Excel for manual interpretation.
+8: Afterward, a two-tailed Students  t test was performed on the ratios of the identified proteins.
+9: The proteins with a 1.2-fold change and  p < 0.05 were considered to be significantly differentially expressed.
+10: The raw data have been deposited to the ProteomeXchange Consortium ( http://proteomecentral.proteomexchange.org) via the iProX partner repository with the dataset identifier PXD022045 (ref.
+11: 25).

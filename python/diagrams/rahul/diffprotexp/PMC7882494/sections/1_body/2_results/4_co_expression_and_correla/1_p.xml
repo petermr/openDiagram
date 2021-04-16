@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The top 25 positively co-expressed genes were analyzed via cBioPortal, containing the Spearman’s correlation coefficient, 
+ <italic>p</italic>-value from two-sided 
+ <italic>t</italic>-test, and also 
+ <italic>q</italic>-value derived from the Benjamini-Hochberg FDR correction procedure (
+ <xref ref-type="supplementary-material" rid="DS1">Supplementary Table 4</xref>). Further mRNA expression data was used for generating a clustered heatmap showing expression between +3/−3 with mean-centered to 0 (
+ <xref ref-type="fig" rid="F4">Figure 4A</xref>). From these above two analyses, it is found that the co-expression of THBS2, COL10A1, COL5A2, and COL1A2 is most likely to be positively correlated with the COL11A1 gene in colorectal cancer (
+ <xref rid="T1" ref-type="table">Table 1</xref>). To further validate the co-expression, another heatmap was generated using UCSC XENA server to correlate the gene expression of the associated genes with respect to the COL11A1 gene, represented as a histogram with the z score transformation (
+ <xref ref-type="supplementary-material" rid="DS1">Supplementary Figure 1</xref>). Moreover, correlation graph was obtained using the Pearson’s correlation coefficient amongst COL11A1 gene with THBS2 (
+ <italic>R</italic>-value- 0.90), COL10A1 (
+ <italic>R</italic>-value- 0.89), COL5A2 (
+ <italic>R</italic>-value- 0.69) and COL1A2 (
+ <italic>R</italic>-value- 0.65) (
+ <xref ref-type="fig" rid="F4">Figures 4B–E</xref>). Collectively all these results reveal that the COL11A1 gene has a positive association and correlation with THBS2, COL10A1, COL5A2, and COL1A2 to upregulate the gene expression to induce the development of colorectal cancer.
+</p>

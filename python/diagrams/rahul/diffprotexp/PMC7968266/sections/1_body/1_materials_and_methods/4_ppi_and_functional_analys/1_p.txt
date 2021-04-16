@@ -1,0 +1,4 @@
+0: STRING ( http://www.string-db.org/) was utilized to build PPI network of the identified DEGs [ 10].
+1: Moreover, MCODE plugin from Cytoscape software (version 3.8.0) was performed to detect clusters of DEGs.
+2: Then, functional analysis of the genes in the hub module 1 were performed through the DAVID.
+3: Meanwhile, the top 20 hub genes were screened by the topological algorithm Maximal Clique Centrality (MCC) using the CytoHubba [ 11].

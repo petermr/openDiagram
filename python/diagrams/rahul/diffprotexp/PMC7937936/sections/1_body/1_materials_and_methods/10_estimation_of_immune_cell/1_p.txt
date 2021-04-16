@@ -1,0 +1,7 @@
+0: To analyze whether there were differences in the immune cell abundance of tumor tissue between High and low expression groups of hub genes, we used CIBERSORT ( https://cibersort.stanford.edu/) to evaluate the relative abundance of predefined cell types in mixed solid tissues.
+1: The data used were normalized FPKM gene expression data of tumor tissue.
+2: We used the default LM22 leukocyte gene signature matrix from the CIBERSORT website.
+3: LM22 contains 547 genes distinguishing 22 types of immune-related cells.
+4: Disabling quantile normalization was checked.
+5: We set the number of permutations to 1000 for robust analyses.
+6: CIBERSORT enumerated the relative proportions of the 22 infiltrating immune cells, including B cells, dendritic cells, T cells, natural killer cells, macrophages, and others.

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par7">In order to thoroughly identify and annotate lncRNAs related to anthocyanin biosynthesis regulation in carrot roots, we performed a whole transcriptome RNA-seq analysis of specific tissues from the carrot genotypes ‘Nightbird’ (purple phloem and xylem) and ‘Musica’ (orange phloem and xylem) (Supplementary Figure 
+ <xref rid="MOESM2" ref-type="media">S1</xref>). We generated an average of 51.4 million of reads per sample from the 12 carrot root samples (i.e., two phenotypes × two tissues × three biological replicates), ranging from 43.5 million to 60.3 million. The average GC content (%) was 44.8% and the average ratio of bases that have phred
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup> quality score of over 30 (Q30) was 94.1%. The average mapping rate to the carrot genome was 90.9% (Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S1</xref>). We identified and annotated 8484 new transcripts, including 2095 new protein-coding and 6373 non-coding transcripts (1521 lncNATs, 4852 lincRNAs and 16 structural transcripts) (Supplementary Table 
+ <xref rid="MOESM3" ref-type="media">S2</xref> and Supplementary File 
+ <xref rid="MOESM1" ref-type="media">S1</xref>). Those were added to the 34,263 known carrot transcripts
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup> to complete the final set of 42,747 transcripts used for this work. The set contains 34,204 coding transcripts and 7288 noncoding transcripts (1521 lncNATs, 5767 lincRNAs) and 1255 structural transcripts (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>A and Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S3</xref>). As expected, the newly predicted protein-coding genes carry ORFs presenting strong homologies with already annotated ones. In contrary, the great majority of the newly predicted non-coding transcripts present no conservation of their predicted ORFs
+ <sup>
+  <xref ref-type="bibr" rid="CR43">43</xref>,
+  <xref ref-type="bibr" rid="CR44">44</xref>
+ </sup> (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>B). Most non-coding transcripts presented less than 1000 bp long, being 400–800 bp the most frequent length class. Coding transcripts between 500 and 1000 bp long were the most frequent, while most structural transcripts presented less than 200 bp (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>C). Noncoding transcripts predominantly presented one exon and unexpectedly
+ <sup>
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup>, only one exon was also the most frequent class for coding transcripts (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>D). Additionally, we found no particular bias for the distribution of the noncoding transcripts along the nine carrot chromosomes (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>E). Finally, the expression level of the coding sequences (measured as normalized counts) was similar within the known, novel and total transcripts. This was also observed for the noncoding transcripts. As expected, the expression level of the coding genes was higher than that of the noncoding ones independently if they were already known or newly predicted (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>F). Normalized counts for each of the 12 sequenced libraries were included in Supplementary Table 
+ <xref rid="MOESM4" ref-type="media">S4</xref>.
+</p>

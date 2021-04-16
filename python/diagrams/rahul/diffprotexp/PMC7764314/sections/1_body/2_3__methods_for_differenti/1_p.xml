@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The main methods proposed for the study of differential co-expression can be distinguished into three broad classes, based on the principles they rely on and on their application (
+ <xref rid="ijms-21-09461-t002" ref-type="table">Table 2</xref>, 
+ <xref rid="ijms-21-09461-t003" ref-type="table">Table 3</xref> and 
+ <xref rid="ijms-21-09461-t004" ref-type="table">Table 4</xref>, 
+ <xref ref-type="fig" rid="ijms-21-09461-f003">Figure 3</xref>):
+ <list list-type="order">
+  <list-item>
+   <p>“global network” approaches aim at reconstructing the whole differential co-expression network between two or multiple conditions. Global features of the differential network can be studied, such as edge distribution, modularity or entropy.</p>
+  </list-item>
+  <list-item>
+   <p>“module-based” approaches aim at identifying groups of co-regulated genes that are differentially interconnected under specific conditions. Usually, differences in connectivity within a module are analysed, but also methods for the identification of pairs of DC modules (connectivity between modules) have been proposed. Additionally, modules can be either identified unbiasedly from data, or pre-specified based on prior knowledge (here defined as “pathway-based” methods).</p>
+  </list-item>
+  <list-item>
+   <p>“single-gene” approaches study the change in co-expression between pairs of genes or between a gene and its neighbours in the network. These approaches are particularly suited to select experimentally testable hypotheses. In principle, all “global network” methods can be used to drive “gene-specific” outputs using node-centred metrics that summarise the relevance of a gene within the differential network. On the other side, single genes thus identified can be used as seeds to build differential modules with neighbouring genes within the network.</p>
+  </list-item>
+ </list>
+</p>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00257-f012" orientation="portrait" position="float">
+ <label>Figure 12</label>
+ <caption>
+  <p>Prediction of poor OS of pRCC and bladder cancer using the LE multigene panel. Kaplan–Meier survival curves of pRCC (
+   <bold>A</bold>) and bladder cancer (
+   <bold>B</bold>). The TCGA pRCC (
+   <italic>n</italic> = 278) and bladder cancer (
+   <italic>n</italic> = 390) datasets were organized by SurvExpress. Risk scores of LE panel were calculated using multivariate Cox fitting; cutoff points were optimized to stratify low-risk and high-risk populations.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00257-g012" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

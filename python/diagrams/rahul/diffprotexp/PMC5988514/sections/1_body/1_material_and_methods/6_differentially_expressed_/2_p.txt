@@ -1,0 +1,6 @@
+0: Data analysis was performed using the freely available software Perseus (version 1.5.8.2) and R  [19].
+1: The LFQ intensities of proteins from the MaxQuant analysis were imported and transformed to logarithmic scale with base two.
+2: Valid values were considered to have at least 4 out of 6 LFQ intensity values in at least one of the three groups.
+3: Missing values were replaced (imputated) with the value of the lowest LFQ intensity in the whole dataset.
+4: The protein quantification and calculation of statistical significance was done with a Welch test and correction of the alpha error was performed using the FDR correction described by Benjamini Hochberg.
+5: Protein-protein interactions were visualized by String V10.5  [20].

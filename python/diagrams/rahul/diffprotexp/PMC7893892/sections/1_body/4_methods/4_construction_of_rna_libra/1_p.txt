@@ -1,0 +1,4 @@
+0: A total amount of 3 g RNA per sample was used as input material for the RNA sample preparation.
+1: Firstly, rRNA was removed by Epicentre Ribo-zeroTM rRNA Removal Kit (Epicentre, USA) and rRNA free residue was cleaned up by ethanol precipitation.
+2: Subsequently, libraries were generated using the rRNA-depleted RNA by NEBNext UltraTM Directional RNA Library Prep Kit for Illumina (NEB, USA) following manufacturers recommendation.
+3: After the clustering of the index-coded samples was performed on a cBot Cluster Generation System using TruSeq PE Cluster Kit v3-cBot-HS (Illumia), libraries were then sequenced through an Illumina Hiseq 4000 platform and 150 bp paired-end reads were generated.

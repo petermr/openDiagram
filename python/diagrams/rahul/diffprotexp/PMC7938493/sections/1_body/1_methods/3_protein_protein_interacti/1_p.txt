@@ -1,0 +1,4 @@
+0: Differently expressed RBPs were submitted to the STRING database ( http://www.string-db.org/) to detect PPIs [ 11].
+1: The PPI network was then constructed and visualized using Cytoscape 3.7.0.
+2: The Molecular Complex Detection (MCODE) plug-in was used to screen the key modules from the PPI network with both MCODE scores and node counts > 5 [ 12].
+3: P < 0.05 was considered statistically significant.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To characterize sub-populations of CTCs, the dataset was filtered based on the median expression of all the genes in the dataset. Genes with less expression than the overall median expression in at least 10% of the cells were excluded. Cells with less than 1000 read counts were removed. In total, 215 genes and 1448 cells were used for further analysis. After filtering and computing gap statistics through RaceID, four clusters were obtained based on k-means clustering (
+ <xref ref-type="fig" rid="ijms-22-01399-f002">Figure 2</xref>a). The clustering outcome can serve as a guide for assessing the robustness of the clusters, computing the pseudo-time ordering and detecting differentially expressed genes (DEGs). Clusters 2 and 4 were stable and consistent. Clusters 1 and 3, instead, had a low degree of stability and consistency. Pseudo-time ordering showed a clear separation between Clusters 1 and 4 (
+ <xref ref-type="fig" rid="ijms-22-01399-f002">Figure 2</xref>b). Likewise, the heatmap portrayal of cell-to-cell distances, where the cluster centers were ordered by hierarchic clustering (
+ <xref ref-type="fig" rid="ijms-22-01399-f002">Figure 2</xref>c), also exhibited a clear separation between Clusters 1 and 4.
+</p>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">Here we provide detailed molecular profiles of paraxial mesoderm of cranial and trunk regions by RNA-seq and ATAC-seq
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup>. Using samples from along the axis we identify differential gene expression signatures consistent with axial patterning and differentiation, including the appearance of chondrogenic and myogenic markers in more anterior differentiating somites (Fig. 
+ <xref rid="Fig1" ref-type="fig">1c, d, j</xref>)
+ <sup>
+  <xref ref-type="bibr" rid="CR5">5</xref>,
+  <xref ref-type="bibr" rid="CR8">8</xref>,
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR28">28</xref>,
+  <xref ref-type="bibr" rid="CR51">51</xref>
+ </sup>. We show that genes correlated with cell fate specification and muscle development are enriched in differentiating somites, and that the TF binding motifs found upstream of differentially expressed genes include the motif for myogenin consistent with its role in myogenic differentiation (Fig. 
+ <xref rid="Fig2" ref-type="fig">2h, i</xref>). Components of signalling pathways involved in anterior–posterior axis patterning are also differentially expressed, such as FGF, Wnt and RA pathways (Fig. 
+ <xref rid="Fig1" ref-type="fig">1g, k</xref>)
+ <sup>
+  <xref ref-type="bibr" rid="CR53">53</xref>,
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup> and the motif for RXRA is enriched in differentiating somites (Fig. 
+ <xref rid="Fig2" ref-type="fig">2i</xref>). Furthermore, we uncover genome-wide dynamic changes in chromatin accessibility across the spatiotemporal series. Using HINT-ATAC, an improved method to predict TF binding sites with footprints
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup>, we show differential coverage of several binding sites along the anterior–posterior axis, including sites for RARA and LEF1, transcriptional effectors of the RA and Wnt pathways. Furthermore, we identify differential footprints for CDX2, a readout for WNT and a TF required for axial elongation (Fig. 
+ <xref rid="Fig3" ref-type="fig">3a–h</xref> and Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">3j–l</xref>). The observed coverage patterns correlate well with gene expression and with the known functions of RA and Wnt signalling in anterior–posterior axis patterning. Interestingly, despite their similar function in posterior axis extension our network analysis shows that CDX2 and LEF1 footprints are largely correlated with different genes. Only four genes are associated with both CDX2 and LEF1 footprints, suggesting that posteriorization driven by Wnt signalling involves at least two parallel acting protein–protein networks. Three of the shared proteins identified—Msgn1, Sall4 and Spry1 are involved in posteriorization. Msgn1 is a master regulator of paraxial mesoderm formation
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>
+ </sup>, Sall4 has recently been shown to regulate the balance between NMP maintenance and differention
+ <sup>
+  <xref ref-type="bibr" rid="CR58">58</xref>
+ </sup>, and Spry1 is a negative feedback regulator of FGF signalling. Our finding that Msgn1, Sall4 and Spry1 are associated with both CDX2 and LEF1 footprints in PSM is highly consistent with their known function. The fourth shared gene, DCC (aromatic amino acid decarboxylase) is mutated in a rare genetic disorder and deficiency of this enzyme affects neurotransmitter production. However, its possible role in axial elongation, indicated here, was previously not recognised.
+</p>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T0001" orientation="landscape" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Clinical data from patients infected with the D34 ORF6 deletion variant compared with related patients infected with WT SARS-CoV-2.</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+   <col width="1*"/>
+  </colgroup>
+  <thead valign="bottom">
+   <tr>
+    <th align="left"> </th>
+    <th align="center">Patient #68</th>
+    <th align="center">Patient #38</th>
+    <th align="center">Patient #46</th>
+    <th align="center">Patient #65</th>
+    <th align="center">Patient #25</th>
+    <th align="center">Patient #8</th>
+    <th align="center">HCW #63</th>
+    <th align="center">Patient #60</th>
+    <th align="center">Patient #47</th>
+    <th align="center">Patient #50</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <bold>Sequence name</bold>
+     <xref ref-type="table-fn" rid="TF2">
+      <sup>a</sup>
+     </xref>
+    </td>
+    <td align="left">ARA10968/2020</td>
+    <td align="left">ARA12238/2020</td>
+    <td align="left">ARA13746/2020</td>
+    <td align="left">ARA16665/2020</td>
+    <td align="left">ARA18625/2020</td>
+    <td align="left">ARA2068/2020</td>
+    <td align="left">ARA21163/2020</td>
+    <td align="left">ARA21360/2020</td>
+    <td align="left">ARA22647/2020</td>
+    <td align="left">ARA22650/2020</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Age (years)</bold>
+    </td>
+    <td align="left">89</td>
+    <td align="left">78</td>
+    <td align="left">84</td>
+    <td align="left">89</td>
+    <td align="left">97</td>
+    <td align="left">82</td>
+    <td align="left">31</td>
+    <td align="left">94</td>
+    <td align="left">81</td>
+    <td align="left">85</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Sex</bold>
+    </td>
+    <td align="left">F</td>
+    <td align="left">M</td>
+    <td align="left">F</td>
+    <td align="left">F</td>
+    <td align="left">M</td>
+    <td align="left">F</td>
+    <td align="left">F</td>
+    <td align="left">F</td>
+    <td align="left">M</td>
+    <td align="left">F</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Comorbidities</bold>
+    </td>
+    <td align="left">Hypertension</td>
+    <td align="left">None</td>
+    <td align="left">None</td>
+    <td align="left">Cardiovascular disease, Hypertension</td>
+    <td align="left">Cardiovascular disease, Hypertension</td>
+    <td align="left">Cardiovascular disease, Hypertension, Obesity</td>
+    <td align="left">NA</td>
+    <td align="left">Cardiovascular disease, Hypertension</td>
+    <td align="left">None</td>
+    <td align="left">Cardiovascular disease</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Respiratory manifestations</bold>
+    </td>
+    <td align="left">URTI</td>
+    <td align="left">LRTI</td>
+    <td align="left">LRTI</td>
+    <td align="left">Asymptomatic</td>
+    <td align="left">Asymptomatic</td>
+    <td align="left">LRTI</td>
+    <td align="left">URTI</td>
+    <td align="left">URTI</td>
+    <td align="left">Not specified</td>
+    <td align="left">LRTI</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Hospitalization
+      <break/>(Yes / No)
+     </bold>
+    </td>
+    <td align="left">Yes</td>
+    <td align="left">Yes</td>
+    <td align="left">Yes</td>
+    <td align="left">Yes</td>
+    <td align="left">Yes</td>
+    <td align="left">Yes</td>
+    <td align="left">No</td>
+    <td align="left">Yes</td>
+    <td align="left">Yes</td>
+    <td align="left">Yes</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Hospitalization Unit</bold>
+    </td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+    <td align="left">GRU-3</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>ORF6 deletion</bold>
+    </td>
+    <td align="left">None</td>
+    <td align="left">None</td>
+    <td align="left">None</td>
+    <td align="left">None</td>
+    <td align="left">D34</td>
+    <td align="left">D34</td>
+    <td align="left">D34</td>
+    <td align="left">D34</td>
+    <td align="left">D34</td>
+    <td align="left">D34</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Date of diagnosis</bold>
+    </td>
+    <td align="left">2020/03/18</td>
+    <td align="left">2020/03/22</td>
+    <td align="left">2020/03/25</td>
+    <td align="left">2020/03/30</td>
+    <td align="left">2020/04/02</td>
+    <td align="left">2020/04/06</td>
+    <td align="left">2020/04/07</td>
+    <td align="left">2020/04/07</td>
+    <td align="left">2020/04/09</td>
+    <td align="left">2020/04/09</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Duration of excretion</bold>
+     <xref ref-type="table-fn" rid="TF3">
+      <sup>b</sup>
+     </xref>
+    </td>
+    <td align="left">Respiratory sample positive at D21</td>
+    <td align="left">Not monitored</td>
+    <td align="left">Not monitored</td>
+    <td align="left">Respiratory sample positive at D14</td>
+    <td align="left">Not monitored</td>
+    <td align="left">Not monitored</td>
+    <td align="left">Not monitored</td>
+    <td align="left">Not monitored</td>
+    <td align="left">Respiratory and stool samples positive at D14</td>
+    <td align="left">Not monitored</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <bold>Outcome</bold>
+     <xref ref-type="table-fn" rid="TF3">
+      <sup>b</sup>
+     </xref>
+    </td>
+    <td align="left">Favorable</td>
+    <td align="left">Favorable</td>
+    <td align="left">Favorable</td>
+    <td align="left">Favorable</td>
+    <td align="left">Deceased, unrelated to COVID-19 (D5)</td>
+    <td align="left">Deceased from COVID-19 (D6)</td>
+    <td align="left">Favorable</td>
+    <td align="left">Favorable</td>
+    <td align="left">Favorable</td>
+    <td align="left">Deceased from COVID-19 (D9)</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="TF1">
+   <p>HCW = health care worker; COPD = chronic obstructive pulmonary disease; URTI: Upper Respiratory Tract Infection; LRTI: Lower Respiratory Tract Infection; HCL = Hospices Civils de Lyon; GRU-3 = geriatric rehabilitation unit within HCL; D26 = 26-nt deletion; D34 = 34-nt deletion; D = Day.</p>
+  </fn>
+  <fn id="TF2">
+   <label>
+    <sup>a</sup>
+   </label>
+   <p>Sequence names in the table are preceded by hCoV-19/France/; example: hCoV-19/France/ARA10968/2020.</p>
+  </fn>
+  <fn id="TF3">
+   <label>
+    <sup>b</sup>
+   </label>
+   <p>Duration of excretion and death are calculated from the date of diagnosis.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

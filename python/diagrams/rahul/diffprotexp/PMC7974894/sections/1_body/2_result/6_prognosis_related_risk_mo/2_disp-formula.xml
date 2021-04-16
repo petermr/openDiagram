@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula>
+ <italic>Risk Score</italic> = (0.7021×
+ <italic>Exp</italic>PGK1) + (0.5942×
+ <italic>Exp</italic>SLC20A1) + (0.4919×
+ <italic>Exp</italic>LEPR) + (3.1028×
+ <italic>Exp</italic>CYP19A1) + (-1.1087×
+ <italic>Exp</italic>ZC3H12D) + (0.3301×
+ <italic>Exp</italic>PFKM)
+</disp-formula>

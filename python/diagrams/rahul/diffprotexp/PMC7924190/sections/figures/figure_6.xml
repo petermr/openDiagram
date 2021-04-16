@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00299-f006" orientation="portrait" position="float">
+ <label>Figure 6</label>
+ <caption>
+  <p>Enriched biological processes after treatment of hTCEpi cells with AC EFs for 24 h. Significantly enriched biological processes following analysis of the gene array data are highlighted as an interactive hierarchical clustering tree using ShinyGO. Biological processes with many shared genes are clustered together. Bigger dots indicate more significant 
+   <italic>p</italic>-values. Enriched biological processes that were similar after analysis of both gene and proteins array data are marked and highlighted. Analysis was performed using ShinyGO (v.0.61) (Available online: 
+   <uri xlink:href="http://bioinformatics.sdstate.edu/go/" xmlns:xlink="http://www.w3.org/1999/xlink">http://bioinformatics.sdstate.edu/go/</uri> (accessed on 6 January 2021)).
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00299-g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

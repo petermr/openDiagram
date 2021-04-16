@@ -1,0 +1,4 @@
+0: The biological functions of DeRBPs and Differential co-expression RBPs (DceRBPs) were comprehensively detected by GO enrichment and kyoto encyclopedia of genes and genomes (KEGG) pathway analysis.
+1: The GO analysis terms including cellular component (CC), molecular function (MF), and biological process (BP).
+2: All enrichment analyses were carried out by R package  clusterProfiler,  org.Hs.eg.db, and  enrichplot ( https://bioconductor.org/packages/clusterProfiler/; https://bioconductor.org/packages/org.Hs.eg.db/;  https://bioconductor.org/packages/enrichplot/).
+3: Both P and FDR values were less than 0.05 as statistically significant.

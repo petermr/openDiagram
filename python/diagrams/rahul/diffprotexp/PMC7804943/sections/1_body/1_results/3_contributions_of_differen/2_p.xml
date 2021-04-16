@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">Next, to investigate whether the top scoring features associated with LF1 are enriched for specific biological functions, we performed Gene Ontology (GO) analysis for each regulatory layer using the set of input features as background. Interestingly, significant GO term enrichment was observed for GE and AS. For GE, we observe enrichment for the GO term “transcription factor activity” (FDR &lt; 0.05, FDR-corrected hypergeometric test). This prompted us to ask whether the top genes are enriched for annotated transcription factors among a recently curated list of 1,816 transcription factors
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. Indeed, of 213 genes that were upregulated in CA1 neurons as detected by DESeq2
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup> (
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\left| {{\mathrm{log}}_2\phi } \right| \, &gt; \, 1$$\end{document}</tex-math>
+   <math id="M2">
+    <mfenced close="∣" open="∣">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">log</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mi>ϕ</mi>
+     </mrow>
+    </mfenced>
+    <mspace width="0.25em"/>
+    <mo>&gt;</mo>
+    <mspace width="0.25em"/>
+    <mn>1</mn>
+   </math>
+   <inline-graphic xlink:href="41467_2020_20483_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, FDR &lt; 0.05, where 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\phi$$\end{document}</tex-math>
+   <math id="M4">
+    <mi>ϕ</mi>
+   </math>
+   <inline-graphic xlink:href="41467_2020_20483_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the fold change in gene expression between CA1 and CA3), 21 are annotated transcription factors, which represents a significant enrichment (
+ <italic>p</italic> = 0.00844, hypergeometric test; Fig. 
+ <xref rid="Fig2" ref-type="fig">2a</xref>, b).
+</p>

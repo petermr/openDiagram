@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>Characteristics of healthy controls and KD patients with different coronary artery status.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr style="border-bottom: thin solid #000000;">
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th valign="top" align="center" colspan="2" rowspan="1">
+     <bold>KD(40)</bold>
+    </th>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1"/>
+    <th valign="top" align="center" rowspan="1" colspan="1">
+     <bold>CAL+</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1">
+     <bold>CAL-</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1">
+     <bold>HC</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1">
+     <bold>
+      <xref ref-type="table-fn" rid="TN1">
+       <sup>*</sup>
+      </xref>
+     </bold>
+     <italic>
+      <bold>P</bold>
+     </italic>
+     <bold>-value</bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">Sex</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Male, 
+     <italic>n</italic>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">13</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">12</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">7</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.74</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td valign="top" align="left" rowspan="1" colspan="1">Female, 
+     <italic>n</italic>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">7</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">8</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">13</td>
+    <td rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td valign="top" align="left" colspan="2" rowspan="1">Age, month</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">25</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">34.4</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">58.6</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.2</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" colspan="2" rowspan="1">IVIG resistance, 
+     <italic>n</italic> (%)
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2 (10%)</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">NA</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.15</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" colspan="2" rowspan="1">WBC (×10
+     <sup>9</sup>/L), median
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">15.3</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">13.4</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">8.7</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.11</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" colspan="2" rowspan="1">PLT (×10
+     <sup>9</sup>/L), median
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">401</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">396</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">307</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.26</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" colspan="2" rowspan="1">HB (g/L), median</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">98</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">106</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">113</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.97</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" colspan="2" rowspan="1">CRP (mg/L), median</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">45</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">37</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">NA</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.64</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" colspan="2" rowspan="1">ESR (mm/h), median</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">74</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">56</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">NA</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.73</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="TN1">
+   <label>*</label>
+   <p>
+    <italic>P-values were calculated by Man-Whitney U test for continuous variables and chi square test for categorical variables between CAL+ and CAL– group. KD, Kawasaki disease; CAL, coronary artery lesion; IVIG, intravenous immunoglobulin; CRP, C-reactive protein; ESR, erythrocyte sedimentation rate; WBC, white blood cell count; NA, not applicable</italic>.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,2 @@
+0: Based on the crucial differentially expressed genes obtained by m6A-seq and RNA-seq, Gene Ontology (GO) 26 and Kyoto Encyclopedia of Genes and Genomes (KEGG) 26 analyses were performed by the clusterProfifiler of R package.
+1: Then, the top 30 GO terms and pathways were selected according to the P-value and the degree of enrichment.

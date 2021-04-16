@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <sec id="s2001" sec-type="intro">
+  <title>Introduction</title>
+  <p>N6-methyladenosine (m6A) is the most frequent internal modification in eukaryotic mRNAs and is closely related to the occurrence and development of many diseases, especially tumors. However, the relationship between m6A methylation and rheumatoid arthritis (RA) is still a mystery.</p>
+ </sec>
+ <sec id="s2002">
+  <title>Methods</title>
+  <p>Two high-throughput sequencing methods, namely, m6A modified RNA immunoprecipitation sequence (m6A-seq) and RNA sequence (RNA-seq) were performed to identify the differentially expressed m6A methylation in human rheumatoid arthritis fibroblast-like synoviocytes cell line MH7A after stimulation with TNF-α. Gene Ontology (GO) analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were used to obtain enriched GO terms and significant KEGG pathways. Then, four candidate genes, Wilms tumor 1-associating protein (WTAP), receptor-interacting serine/threonine protein kinase 2 (RIPK2), Janus kinase 3 (JAK3) and tumor necrosis factor receptor SF10A (TNFRSF10A) were selected to further validate the m6A methylation, mRNA and protein expression levels in MH7A cells and synovial tissues of adjuvant arthritis (AA) rats by RT-qPCR and Western blot.</p>
+ </sec>
+ <sec id="s2003">
+  <title>Results</title>
+  <p>Using m6A-seq, we identified a total of 206 genes with differentially expressed m6A methylation, of which 118 were significantly upregulated and 88 genes were significantly downregulated. Likewise, 1207 differentially mRNA expressed mRNAs were obtained by RNA-seq, of which 793 were upregulated and 414 downregulated. Further joint analysis showed that the m6A methylation and mRNA expression levels of 88 genes changed significantly, of which 30 genes displayed increased m6A methylation and decreased mRNA expression, 57 genes displayed decreased m6A methylation and increased mRNA expression increased, and 1 gene displayed increased m6A methylation and increased mRNA expression. GO and KEGG analyses indicated that these unique genes were mainly enriched in inflammation-related pathways, cell proliferation and apoptosis. In addition, the validations of WTAP, RIPK2, JAK3 and TNFRSF10A were in accordance with the m6A and RNA sequencing results.</p>
+ </sec>
+ <sec id="s2004">
+  <title>Conclusion</title>
+  <p>This study established the transcriptional map of m6A in MH7A cells and revealed the potential relationship between RNA methylation modification and RA related genes. The results suggested that m6A modification was associated with the occurrence and course of RA to some extent.</p>
+ </sec>
+</abstract>

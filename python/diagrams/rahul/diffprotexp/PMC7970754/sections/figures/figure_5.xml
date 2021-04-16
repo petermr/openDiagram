@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f5" position="float">
+ <label>Figure 5</label>
+ <caption>
+  <p>Comprehensive regulatory network for resveratrol in treating MDA-MB-231 cells. 
+   <bold>(A)</bold> (a) POLD1 expression in BRCA samples of TCGA database. (b) POLD1 expression in MDA-MB-231 cells samples after resveratrol treatment. 
+   <bold>(B)</bold> Protein expression of POLD1 after treatment with different concentrations of resveratrol (*
+   <italic>P</italic>=0.043, **
+   <italic>P</italic>=0.004, ***
+   <italic>P</italic>&lt;0.001). 
+   <bold>(C)</bold> Combined prediction model of resveratrol and POLD1 domain. 
+   <bold>(D)</bold> POLD1-differential apoptotic pathway gene-apoptotic pathway correlation pathway map. 
+   <bold>(E)</bold> Comprehensive regulatory network diagram. Red represents POLD1, yellow represents genes that interact with POLD1, blue represents genes that are affected by other resveratrol treatments for TNBC, and green represents pathways.
+  </p>
+ </caption>
+ <graphic xlink:href="fonc-11-569295-g005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

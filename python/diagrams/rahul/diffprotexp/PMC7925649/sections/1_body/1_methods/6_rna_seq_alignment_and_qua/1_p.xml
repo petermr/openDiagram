@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">Fastq data files were trimmed using Trim Galore (version 0.5.0)
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. The trimmed sequences were aligned against the human genome (GRCH38) using HISAT2 before sorting reads using samtools
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>,
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>. Finally, reads were quantified using featureCounts (version 1.6.4) against the GENCODE gene reference
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>,
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>.
+</p>

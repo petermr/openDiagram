@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">To better characterize differential gene expression between FOXL2
+ <sup>C134W</sup> and FOXL2
+ <sup>WT</sup> conditions, we performed enrichment analysis for differences in binding between FOXL2
+ <sup>C134W</sup> and FOXL2
+ <sup>WT</sup>. To identify differential binding sites, we downloaded triplicate ChIP-Seq data from TGFβ-treated HGrC1 cells ectopically expressing FOXL2
+ <sup>WT</sup>, FOXL2
+ <sup>C134W</sup> or empty vectors from GEO (GSE138496) [
+ <xref ref-type="bibr" rid="CR37">37</xref>]. Sequencing reads were filtered and trimmed for quality using Trim Galore! (
+ <ext-link ext-link-type="uri" xlink:href="http://www.bioinformatics.babraham.ac.uk/projects/trim_galore" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioinformatics.babraham.ac.uk/projects/trim_galore</ext-link>) and subsequently aligned to the hg38 reference genome using bowtie2 [
+ <xref ref-type="bibr" rid="CR49">49</xref>]. Duplicate reads were removed from the alignment using picard MarkDuplicates (
+ <ext-link ext-link-type="uri" xlink:href="http://broadinstitute.github.io/picard/" xmlns:xlink="http://www.w3.org/1999/xlink">http://broadinstitute.github.io/picard/</ext-link>). A consensus set of peaks was generated using MACS2 with parameters as above, from combined FOXL2 and FOXL2
+ <sup>C134W</sup> BAM files and using the empty vector BAMs as background. A total of 46,235 peaks were identified and, for each peak, the number of mapped reads in each triplicate of FOXL2
+ <sup>WT</sup>and FOXL2
+ <sup>C134W</sup> was quantified using featureCounts [
+ <xref ref-type="bibr" rid="CR50">50</xref>]. The obtained matrix of peak x sample was used to determine differential peaks between FOXL2
+ <sup>WT</sup>and FOXL2
+ <sup>C134W</sup> using DESeq2. Peaks were intersected with a ± 10 kb window from TSSs of human genes (genecode v35). Enrichment for genes with differential FOXL2 binding was calculated using Fisher’s exact test in R.
+</p>

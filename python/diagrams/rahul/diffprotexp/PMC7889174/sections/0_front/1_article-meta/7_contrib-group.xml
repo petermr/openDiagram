@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Padilla-Mejia</surname>
+   <given-names>Norma E.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Makarov</surname>
+   <given-names>Alexandr A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Barlow</surname>
+   <given-names>Lael D.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Butterfield</surname>
+   <given-names>Erin R.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4866-2885</contrib-id>
+  <name>
+   <surname>Field</surname>
+   <given-names>Mark C.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>Division of Biological Chemistry and Drug Discovery, School of Life Sciences, 
+  <institution-wrap>
+   <institution>University of Dundee</institution>
+  </institution-wrap>, 
+  <city>Dundee</city>, 
+  <country>UK</country>
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>
+  <institution-wrap>
+   <institution>Institute of Parasitology, Biology Centre, Czech Academy of Sciences</institution>
+  </institution-wrap>, 
+  <city>České</city>, 
+  <country>Czech Republic</country>
+ </aff>
+</contrib-group>

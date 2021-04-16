@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="viruses-13-00218-f001" orientation="portrait" position="float">
+ <label>Figure 1</label>
+ <caption>
+  <p>Data analysis pipeline for quantitative mRNA processing. Shown is a schematic representation of the data analysis pipeline for integrating single-molecule, real-time (SMRT) with short-read RNA sequencing analysis. Filtered, polished reads from PacBio Sequel II were pooled from control and respiratory syncytial virus (RSV)-infected hSAECs and used to generate a curated transcriptome, filtering novel not in catalog (NNIC) and RNA transcripts. Short-read RNA transcripts were mapped to hg38 and transcript abundance determined in Salmon 1.3. The curated transcriptome, mRNA expression matrix, and experimental design was used in tappAS to quantify differential isoform utilization (DIU) and analyze differences in annotations.</p>
+ </caption>
+ <graphic xlink:href="viruses-13-00218-g001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

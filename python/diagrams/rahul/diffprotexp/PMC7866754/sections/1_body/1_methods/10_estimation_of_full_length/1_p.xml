@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par30">While differential expression analysis compares the expression level of one protein between samples, it is also interesting to compare the relative abundance of a protein with other proteins within and between samples. Therefore, the normalized spectral abundance factors (NSAF) were computed for each protein, which has been proved to provide reliable quantification [
+ <xref ref-type="bibr" rid="CR58">58</xref>]. For a given protein k, the spectral abundance factor (SAF) is calculated as the total PSMs (or spectral counts) that identifies the protein normalized by its length, and the NSAF is then the SAF normalized by total SAF values in the sample as shown below:
+</p>

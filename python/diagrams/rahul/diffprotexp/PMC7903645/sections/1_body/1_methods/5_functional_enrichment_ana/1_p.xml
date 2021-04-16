@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">To obtain insights into the biological functional role of the differential gene expression between the CI and control groups, gene-set overlapping tests were performed between the DEGs and functionally categorized genes, including biological processes of Gene Ontology, Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways, and other functional gene sets by g:Profiler version 0.6.7 [
+ <xref ref-type="bibr" rid="CR18">18</xref>]. The Benjamini–Hochberg procedure was used to adjust for multiple testing, and enrichment was defined if the adjusted 
+ <italic>P</italic> value was less than 0.05. Multi-dimensional scaling (MDS) was used to examine the efficiency of DEGs associated with CI.
+</p>

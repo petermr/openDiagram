@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="bib21">
+ <element-citation publication-type="journal">
+  <person-group person-group-type="author">
+   <name>
+    <surname>Durinck</surname>
+    <given-names>S</given-names>
+   </name>
+   <name>
+    <surname>Spellman</surname>
+    <given-names>PT</given-names>
+   </name>
+   <name>
+    <surname>Birney</surname>
+    <given-names>E</given-names>
+   </name>
+   <name>
+    <surname>Huber</surname>
+    <given-names>W</given-names>
+   </name>
+  </person-group>
+  <year>2009</year>
+  <article-title>Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt</article-title>
+  <source>Nature Protocols</source>
+  <volume>4</volume>
+  <fpage>1184</fpage>
+  <lpage>1191</lpage>
+  <pub-id pub-id-type="doi">10.1038/nprot.2009.97</pub-id>
+  <?supplied-pmid 19617889?>
+  <pub-id pub-id-type="pmid">19617889</pub-id>
+ </element-citation>
+</ref>

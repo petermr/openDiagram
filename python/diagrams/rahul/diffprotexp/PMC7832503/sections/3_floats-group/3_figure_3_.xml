@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F0003" orientation="portrait" position="float">
+ <label>Figure 3.</label>
+ <caption>
+  <p>The largest independent protein interaction network of candidate genes.</p>
+  <p>We founded 131 candidate genes by single gene based testing of rare functional SNVs and speculated protein interaction networks through STRING software (v 11.0, https://string-db.org/). Cytoscape software (v3.5.1) was used to describe the largest independent protein interaction network comprising of 31 candidate genes. NOD2 and MAVS were identified as hub genes with the highest frequency through the cytoHubba plug-in.</p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="TEMI_A_1870412_F0003_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="TEMI_A_1870412_F0003_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

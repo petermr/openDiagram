@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">RNA-seq data (fastq files) from 
+ <italic>S. cerevisiae</italic> exposed to acetic acid at three different time points (45, 120, and 200 min) plus control data at each stage
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup> were downloaded from sequence read archive (SRA)
+ <sup>
+  <xref ref-type="bibr" rid="CR62">62</xref>
+ </sup> (SRP075510). Raw reads were trimmed with Trimmomatic (release 0.38)
+ <sup>
+  <xref ref-type="bibr" rid="CR63">63</xref>
+ </sup> and aligned to the 
+ <italic>S. cerevisiae</italic> strain S288c genome (version R64-1-1) using STAR (release 2.6.0)
+ <sup>
+  <xref ref-type="bibr" rid="CR64">64</xref>
+ </sup> (settings: outFilterScoreMinOverLread=0, outFilterMatchNminOverLread=0, outFilterMatchNmin=0, alignIntronMax=10000, and other parameters as default values). Reads counting was performed using FeatureCounts (release 1.6.3)
+ <sup>
+  <xref ref-type="bibr" rid="CR65">65</xref>
+ </sup> (settings: t = “exon”, g = “gene_id”, s = “0”, with the overlapping option and other parameters as default values). Read counts were normalized by counts per million (CPM), filtering genes with CPM ≥ 1 in each replicate per treatment and control. The differential expression analysis was done using edgeR
+ <sup>
+  <xref ref-type="bibr" rid="CR66">66</xref>
+ </sup>. Only genes with |log
+ <sub>2</sub>Fold change | ≥1 and FDR &lt; 0.05 were considered as significant DEGs.
+</p>

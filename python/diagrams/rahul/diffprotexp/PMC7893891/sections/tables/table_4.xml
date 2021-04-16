@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab4">
+ <label>Table 4</label>
+ <caption>
+  <p>DEGs identified in KEGG pathway: Axon guidance. Differential expression indicates the average log
+   <sub>2</sub>-fold change in RNA-Seq transcript levels from three independent experiments at each sampling period: D7 vs D0, D13 vs D7, D18 v D13, and D28 v D18. The 
+   <italic>p</italic>-values were ≤ 0.001. Negative log
+   <sub>2</sub>-fold change corresponds to gene downregulation and the positive values indicate gene activation
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th colspan="4">Axon guidance</th>
+   </tr>
+   <tr>
+    <th>Gene ID</th>
+    <th>Description</th>
+    <th>Differential expression</th>
+    <th>Time</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>NTNG1</td>
+    <td>netrin-G1</td>
+    <td>−2.536297436</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>DCC</td>
+    <td>deleted in colorectal carcinoma</td>
+    <td>2.502983549</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>NTN1</td>
+    <td>netrin 1</td>
+    <td>3.198672486</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>FYN</td>
+    <td>tyrosine-protein kinase Fyn</td>
+    <td>1.772436052</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>RGMA</td>
+    <td>repulsive guidance molecule A</td>
+    <td>3.097407276</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CXCR4</td>
+    <td>C-X-C chemokine receptor type 4</td>
+    <td>4.604478969</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CXCL12</td>
+    <td>C-X-C motif chemokine 12</td>
+    <td>−4.220104913</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>EPHA3</td>
+    <td>Eph receptor A3</td>
+    <td>3.43500774</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>EPHA4</td>
+    <td>Eph receptor A4</td>
+    <td>1.860959561</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>EPHA7</td>
+    <td>EphA7</td>
+    <td>2.088277014</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>EPHB2</td>
+    <td>Eph receptor B2</td>
+    <td>1.873701283</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>EPHB3</td>
+    <td>Eph receptor B3</td>
+    <td>5.416063376</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>ENAH</td>
+    <td>Enabled</td>
+    <td>−0.89497636</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>SLIT1</td>
+    <td>slit 1</td>
+    <td>5.447826267</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>ROBO2</td>
+    <td>roundabout, axon guidance receptor 2</td>
+    <td>−2.472827128</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>NRP1</td>
+    <td>neuropilin 1</td>
+    <td>4.117109594</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>DPYSL5</td>
+    <td>dihydropyrimidinase-like 5</td>
+    <td>4.921620042</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>PTCH1</td>
+    <td>patched 1</td>
+    <td>3.517640353</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>BOC</td>
+    <td>brother of CDO</td>
+    <td>4.811514207</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>BMP7</td>
+    <td>bone morphogenetic protein 7</td>
+    <td>3.232399315</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>BMPR1B</td>
+    <td>bone morphogenetic protein receptor type-1B</td>
+    <td>1.78373296</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>DCC</td>
+    <td>deleted in colorectal carcinoma</td>
+    <td>2.626762708</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>EPHA3</td>
+    <td>Eph receptor A3</td>
+    <td>2.836614823</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>PAK3</td>
+    <td>p21-activated kinase 3</td>
+    <td>1.64575883</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>NTNG1</td>
+    <td>netrin-G1</td>
+    <td>2.991377261</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>EPHA5</td>
+    <td>Eph receptor A5</td>
+    <td>3.15278798</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>SLIT1</td>
+    <td>slit 1</td>
+    <td>2.183813571</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>SLIT2</td>
+    <td>slit 2</td>
+    <td>2.342825102</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>NTNG1</td>
+    <td>netrin-G1</td>
+    <td>2.430765649</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>TRPC5</td>
+    <td>transient receptor potential cation channel subfamily C member 5</td>
+    <td>2.464006156</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>RGS3</td>
+    <td>regulator of G-protein signaling 3</td>
+    <td>−1.814236062</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>CXCL12</td>
+    <td>C-X-C motif chemokine 12</td>
+    <td>3.751564688</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>EPHA5</td>
+    <td>Eph receptor A5</td>
+    <td>3.524159164</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>EPHA6</td>
+    <td>Eph receptor A6</td>
+    <td>2.585950072</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>BOC</td>
+    <td>brother of CDO</td>
+    <td>−1.858286661</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>WNT4</td>
+    <td>wingless-type MMTV integration site family, member 4</td>
+    <td>2.873234122</td>
+    <td>D18-D28</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

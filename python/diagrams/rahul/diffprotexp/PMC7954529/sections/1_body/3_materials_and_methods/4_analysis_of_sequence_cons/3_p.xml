@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We also examined the proportion of U nucleotides in each PAS region. We used the bedtools nuc with the -s flag for strand specificity (
+ <xref rid="bib65" ref-type="bibr">Quinlan and Hall, 2010</xref>). We tested if PAS with differences in U content are enriched for differentially used PAS using a hypergeometric test.
+</p>

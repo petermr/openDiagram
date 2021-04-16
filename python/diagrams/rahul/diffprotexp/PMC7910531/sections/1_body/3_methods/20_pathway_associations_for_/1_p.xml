@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par78">To identify the biological processes with significant molecular differences between high-grade and low-grade cartilage, we carried out gene set enrichment analyses based on the differential expression on RNA, protein and cross-omics levels. We tested for association of the differentially expressed (DE) genes on RNA and/or protein levels at 5% FDR, with robustness checks using more stringent FDR thresholds (1, 0.5 and 0.1%). We restricted this analysis to genes with unique mapping between Ensembl gene ID and Gene Name in Ensembl38p10, and Ensembl gene ID and Entrez ID in HUGO (
+ <ext-link ext-link-type="uri" xlink:href="https://www.genenames.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.genenames.org/</ext-link> accessed 05/03/2018; 13,094 genes measured on RNA level, 4390 genes measured on protein level, 4387 genes measured on both RNA and protein levels).
+</p>

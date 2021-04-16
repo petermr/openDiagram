@@ -1,0 +1,5 @@
+0: We identified a set of orthologous UTRs using the orthologous exon file described in the differential expression analysis section of the 'Materials and methods'.
+1: We merged all regions annotated as 3' UTR by gene.
+2: If a gene had multiple non-continuous annotations, we selected the most 3' region as the orthologous UTR.
+3: We used deepTools compute matrix and plotHeatmap functions to plot merged human and chimpanzee reads along the orthologous 3' UTR set ( Figure 1figure supplement 1;  Ramirez et al., 2016).
+4: For all genes with PAS only in 3' UTRs, we assigned PAS to single, first, middle, and last, as previously described ( Wang et al., 2018a).

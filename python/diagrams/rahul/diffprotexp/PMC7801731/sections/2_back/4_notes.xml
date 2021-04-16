@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes notes-type="data-availability">
+ <title>Data availability</title>
+ <p>The raw RNA-seq data can be found at the SRA NCBI Database under the BioProject accession PRJNA660762. Assembly has been deposited at DDBJ/EMBL/GenBank under the accession GIVL00000000. The version described in this paper is the first version, GIVL01000000. The files showing read counts and differential expression values were deposited in the GEO database under series record GSE160340. Custom scripts and data for differential gene expression are available at 
+  <ext-link ext-link-type="uri" xlink:href="https://github.com/davidjquispe/DGE_Analysis" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/davidjquispe/DGE_Analysis</ext-link>.
+ </p>
+</notes>

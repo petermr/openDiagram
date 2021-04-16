@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To further investigate the small but significant correlation above, we focused on 3796 genes that were classified as differentially expressed between humans and chimpanzees at 5% FDR (see 'Materials and methods'). We found that genes with at least one differentially used PAS between the species are more likely to be classified as differentially expressed than expected by chance (610 genes, 1.12× enrichment, hypergeometric test, p=3.18×10
+ <sup>−5</sup>). Within the differentially expressed gene set, the genes with at least one differentially used PAS are enriched for RNA-processing pathways, such as RNA catabolic processes and RNA metabolic processes (
+ <xref ref-type="supplementary-material" rid="supp3">Supplementary file 3</xref>). The genes are also enriched in RNA-processing cellular compartments such as ribosomes and ribonucleoprotein complexes (
+ <xref ref-type="supplementary-material" rid="supp3">Supplementary file 3</xref>, see 'Materials and methods'). Examining the subset of 610 genes, we observed a modest but significant negative correlation between differential expression effect size and ΔPAU when we considered all PAS (Pearson’s correlation = −0.15, p=0.0023, 
+ <xref ref-type="fig" rid="fig3">Figure 3C</xref>). Separating the analysis by PAS, genic location revealed, again, an opposite direction of the correlation between gene expression and the usage of either 3' UTR or intronic PAS (
+ <xref ref-type="fig" rid="fig3">Figure 3D</xref>). These observations are consistent when we use PAS data based on 3' Seq data from whole cells instead of from the nuclear fractions, suggesting that the observed relationship is not due to nuclear export failure (
+ <xref ref-type="fig" rid="fig3s1">Figure 3—figure supplement 1</xref>, see 'Materials and methods').
+</p>

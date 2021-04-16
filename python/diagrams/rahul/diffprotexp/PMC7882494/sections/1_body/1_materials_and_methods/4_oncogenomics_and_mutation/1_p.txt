@@ -1,0 +1,8 @@
+0: cBioPortal 6 is an online server for exploration, visualization, and analysis of multidimensional cancer genomics data ( Cerami et al., 2012).
+1: We use it to analyze the impact of the COL11A1 gene in the Colorectal Adenocarcinoma TCGA PanCancer dataset containing 594 samples.
+2: It provides a wide range of analysis tab within its server.
+3: The oncoprint demonstrates the overview of the COL11A1 gene across the dataset and also generate the heatmap of the correlated gene.
+4: Further using the mRNA expression data of the top 25 positively correlated genes, a clustered heatmap is generated using the delimited data on the Clustviz server 7.
+5: The cancer type summary tab provides a detailed overview of the COL11A1 gene across the different subtypes of colorectal cancer i.e., mucinous adenocarcinoma of colon and rectum, colon adenocarcinoma, and rectal adenocarcinoma.
+6: It also shows the mutation of the COL11A1 gene for colorectal cancer and the mutational correlation within the associated gene set.
+7: The different types of mutations associated with the COL11A1 gene for colorectal cancer were analyzed using COSMIC-Catalogue of Somatic Mutations in Cancer 8 which is the worlds largest source of expert for manually curated somatic mutation information related to human cancers ( Tate et al., 2019).

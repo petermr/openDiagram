@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tab3" orientation="portrait" position="float">
+ <label>Table 3</label>
+ <caption>
+  <p>Differential protein statistics of serum samples from different stages of lung adenocarcinoma.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">iTRAQ</th>
+    <th align="center" rowspan="1" colspan="1">113/121</th>
+    <th align="center" rowspan="1" colspan="1">114/121</th>
+    <th align="center" rowspan="1" colspan="1">115/121</th>
+    <th align="center" rowspan="1" colspan="1">116/121</th>
+    <th align="center" rowspan="1" colspan="1">117/121</th>
+    <th align="center" rowspan="1" colspan="1">118/121</th>
+    <th align="center" rowspan="1" colspan="1">119/121</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Upregulated</td>
+    <td align="center" rowspan="1" colspan="1">93</td>
+    <td align="center" rowspan="1" colspan="1">41</td>
+    <td align="center" rowspan="1" colspan="1">98</td>
+    <td align="center" rowspan="1" colspan="1">78</td>
+    <td align="center" rowspan="1" colspan="1">51</td>
+    <td align="center" rowspan="1" colspan="1">35</td>
+    <td align="center" rowspan="1" colspan="1">29</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Downregulated</td>
+    <td align="center" rowspan="1" colspan="1">5</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">8</td>
+    <td align="center" rowspan="1" colspan="1">5</td>
+    <td align="center" rowspan="1" colspan="1">8</td>
+    <td align="center" rowspan="1" colspan="1">39</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>121: control group; 113: stage Ia 1; 114: stage Ia2; 115: stage Ia3; 116: stage Ib; 117: stage II; 118: stage III; 119: stage IV.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

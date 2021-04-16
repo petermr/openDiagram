@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4141-1642</contrib-id>
+  <name>
+   <surname>Nguyen</surname>
+   <given-names>Hoang Linh</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Pham</surname>
+   <given-names>Dang Lan</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>O’Brien</surname>
+   <given-names>Edward P.</given-names>
+  </name>
+  <address>
+   <email>epo2@psu.edu</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Li</surname>
+   <given-names>Mai Suan</given-names>
+  </name>
+  <address>
+   <email>masli@ifpan.edu.pl</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>Institute for Computational Sciences and Technology, Ho Chi Minh City, Vietnam 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 2097 4281</institution-id>
+   <institution-id institution-id-type="GRID">grid.29857.31</institution-id>
+   <institution>Department of Chemistry, </institution>
+   <institution>Pennsylvania State University, University Park, </institution>
+  </institution-wrap>Pennsylvania, 16802 USA 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 1958 0162</institution-id>
+   <institution-id institution-id-type="GRID">grid.413454.3</institution-id>
+   <institution>Institute of Physics, </institution>
+   <institution>Polish Academy of Sciences, </institution>
+  </institution-wrap>Al. Lotnikow 32/46, 02-668 Warsaw, Poland 
+ </aff>
+</contrib-group>

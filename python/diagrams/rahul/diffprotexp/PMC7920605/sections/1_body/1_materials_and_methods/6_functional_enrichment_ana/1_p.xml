@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on the crucial differentially expressed genes obtained by m6A-seq and RNA-seq, Gene Ontology (GO)
+ <xref rid="cit0026" ref-type="bibr">26</xref> and Kyoto Encyclopedia of Genes and Genomes (KEGG)
+ <xref rid="cit0026" ref-type="bibr">26</xref> analyses were performed by the clusterProfifiler of R package. Then, the top 30 GO terms and pathways were selected according to the P-value and the degree of enrichment.
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Proteins are usually identified by searching the acquired mass spectra against a protein sequence database. In this strategy, experimental spectra are compared to theoretical spectra predicted from a comprehensive protein database. The database should contain the expected protein sequences for a given sample. Research over the last few years has shown that, ideally, the protein sequence database used for metaproteomics should be derived from a metagenomics/metatranscriptomics sequencing experiment of the same samples used for metaproteomics [
+ <xref rid="ppat.1009245.ref024" ref-type="bibr">24</xref>,
+ <xref rid="ppat.1009245.ref025" ref-type="bibr">25</xref>]. The use of protein sequences from reference databases such as Uniprot has been shown to greatly reduce the number of proteins identified [
+ <xref rid="ppat.1009245.ref026" ref-type="bibr">26</xref>] and potentially increase rates of false positives and incorrect taxonomic assignment of identified proteins [
+ <xref rid="ppat.1009245.ref027" ref-type="bibr">27</xref>]. In special cases, for example, when the study is performed on gnotobiotic animals inoculated with a defined microbial community, a database assembled from reference databases can be used [
+ <xref rid="ppat.1009245.ref010" ref-type="bibr">10</xref>,
+ <xref rid="ppat.1009245.ref028" ref-type="bibr">28</xref>].
+</p>

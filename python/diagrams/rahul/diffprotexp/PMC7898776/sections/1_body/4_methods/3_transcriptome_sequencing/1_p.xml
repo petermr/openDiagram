@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par48">For transcriptome analysis, the equal amount of total RNA was used to construct the libraries for each group (
+ <italic>n</italic> = 3) using MGIEasy RNA kit (BGI, Wuhan, China). The paired-end cDNA libraries were constructed and sequenced using BGISEQ-500 system (BGI, Wuhan, China). The processes of image deconvolution, base calling, unigene assembly, annotation and expression level estimation were carried out as described by You et al. [
+ <xref ref-type="bibr" rid="CR28">28</xref>]. The differentially expressed genes were identified as DEGseq method described before [
+ <xref ref-type="bibr" rid="CR29">29</xref>], and the significance of gene expression difference was judged with Fold Change ≥2.00 and FDR (False Discovery Rate) ≤ 0.001 as the threshold. The analysis of GO function and KEGG pathway of differentially expressed genes were carried out.
+</p>

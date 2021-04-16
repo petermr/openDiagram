@@ -1,0 +1,9 @@
+0: To decipher dysregulated pathways in COVID-19 patients, a systems analysis framework based on a differential co-expression (DC) network was constructed.
+1: Firstly, the R package DGCA was recruited to calculate differences in correlation between molecular (including protein, lipid, and metabolite) pairs in various conditions (non-ICU vs ICU and Cluster 1 vs Cluster 2) [ 32].
+2: The Spearman method was used to evaluate the correlation between each molecular pair, with only significantly differential correlations kept ( p < 0.05).
+3: Three multiscale embedded networks were constructed using MEGENA for ICU comparison group, Cluster comparison group and identical differential correlation between them.
+4: Furthermore, to find highly connected molecules, which may have the same biological function, MEGENA was employed to detect their clustering structures in each network [ 33].
+5: Finally, three networks, capturing significant differential correlation in each comparison group were retained: DC network between ICU and non-ICU (2167 nodes, 4801 edges), DC network between Cluster 1 and Cluster 2 (2167 nodes, 5818 edges), and identical DC network (1917 nodes, 2364 edges).
+6: Nodes with the highest degree in each network and molecule in the same module with nodes were explored to identify primary molecule changes.
+7: As melatonin and 5-hydroxyindole-3-acetic acid shared the same metabolic pathway, their subnetworks were integrated in the identical DC network.
+8: Network visualization was executed using Cytoscape [ 34].

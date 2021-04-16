@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossary>
+ <title>Abbreviations</title>
+ <def-list>
+  <def-item>
+   <term id="GL1">RBP</term>
+   <def>
+    <p>RNA binding protein</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL2">DeRBP</term>
+   <def>
+    <p>differentially expressed RBPs</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL3">DceRBP</term>
+   <def>
+    <p>Differential co-expression RBP</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL4">prhRBP</term>
+   <def>
+    <p>prognosis-related hub RBP</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL5">OS</term>
+   <def>
+    <p>overall survival</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL6">ROC</term>
+   <def>
+    <p>receiver operating characteristic</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL7">AUC</term>
+   <def>
+    <p>area under the ROC curve</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL8">BP</term>
+   <def>
+    <p>biological process</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL9">CC</term>
+   <def>
+    <p>cellular component</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term id="GL10">MF</term>
+   <def>
+    <p>molecular function</p>
+   </def>
+  </def-item>
+ </def-list>
+</glossary>

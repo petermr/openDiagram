@@ -1,0 +1,5 @@
+0: APA analysis was performed using QAPA ( https://github.com/morrislab/qapa) as previously described 34, except that Salmon was used to quantify 3 UTR transcript abundance.
+1: Briefly, a mouse (mm10) 3 UTR reference library was constructed using GENCODE gene model annotations.
+2: To obtain a more comprehensive set of 3 UTRs, the library was augmented by additional poly(A) site annotations, which added new 3 UTR isoforms not characterized in GENCODE, or else updated the 3 ends of existing isoforms.
+3: To avoid the possibility of converging genes that have overlapping non-strand-specific RNA-seq reads, converging genes with distal 3 UTR poly(A) sites within 500 nt of each other were excluded.
+4: Genes with 3 UTR lengths of<100 nt were also excluded.

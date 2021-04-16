@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Grit</surname>
+   <given-names>Jamie L.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Johnson</surname>
+   <given-names>Benjamin K.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Dischinger</surname>
+   <given-names>Patrick S.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>J. Essenburg</surname>
+   <given-names>Curt</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Adams</surname>
+   <given-names>Marie</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Campbell</surname>
+   <given-names>Stacy</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Pollard</surname>
+   <given-names>Kai</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Pratilas</surname>
+   <given-names>Christine A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Triche</surname>
+   <given-names>Tim J.</given-names>
+   <suffix>Jr.</suffix>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Graveel</surname>
+   <given-names>Carrie R.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9003-6730</contrib-id>
+  <name>
+   <surname>Steensma</surname>
+   <given-names>Matthew R.</given-names>
+  </name>
+  <address>
+   <email>Matt.Steensma@vai.org</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.251017.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0406 2057</institution-id>
+   <institution>Center for Cancer and Cell Biology, </institution>
+   <institution>Van Andel Research Institute, </institution>
+  </institution-wrap>333 Bostwick Ave. NE, Grand Rapids, MI 49503 USA 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.251017.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0406 2057</institution-id>
+   <institution>Center for Epigenetics, </institution>
+   <institution>Van Andel Research Institute, </institution>
+  </institution-wrap>Grand Rapids, MI USA 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.251017.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0406 2057</institution-id>
+   <institution>Genomics Core, </institution>
+   <institution>Van Andel Research Institute, </institution>
+  </institution-wrap>Grand Rapids, MI USA 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.413656.3</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0450 6121</institution-id>
+   <institution>Helen DeVos Children’s Hospital, Spectrum Health System, </institution>
+  </institution-wrap>Grand Rapids, MI USA 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>Department of Oncology, Sidney Kimmel Comprehensive Cancer Center At Johns Hopkins, Johns Hopkins University School of Medicine, Baltimore, MD USA 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>Michigan State University College of Human Medicine, Grand Rapids, MI USA 
+ </aff>
+</contrib-group>

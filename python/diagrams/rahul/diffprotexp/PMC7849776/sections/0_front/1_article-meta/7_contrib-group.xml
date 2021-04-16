@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3478-9452</contrib-id>
+  <name>
+   <surname>Paudel</surname>
+   <given-names>Atmika</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+  <xref ref-type="author-notes" rid="an0003">
+   <sup>*</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4021-7936</contrib-id>
+  <name>
+   <surname>Panthee</surname>
+   <given-names>Suresh</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="author-notes" rid="an0003">
+   <sup>*</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9315-7442</contrib-id>
+  <name>
+   <surname>Hamamoto</surname>
+   <given-names>Hiroshi</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0002"/>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5722-6631</contrib-id>
+  <name>
+   <surname>Grunert</surname>
+   <given-names>Tom</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2849-8432</contrib-id>
+  <name>
+   <surname>Sekimizu</surname>
+   <given-names>Kazuhisa</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>
+  <institution-wrap>
+   <institution>Teikyo University Institute of Medical Mycology</institution>
+  </institution-wrap>, 
+  <city>Hachioji, Tokyo</city>, 
+  <country>Japan</country>
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>Division of Infection and Immunity, Research Center for Zoonosis Control, 
+  <institution-wrap>
+   <institution>Hokkaido University</institution>
+  </institution-wrap>, 
+  <city>Sapporo</city>, 
+  <country>Japan</country>
+ </aff>
+ <aff id="aff0003">
+  <label>c</label>Functional Microbiology, Institute of Microbiology, Department of Pathobiology, 
+  <institution-wrap>
+   <institution>University of Veterinary Medicine</institution>
+  </institution-wrap>, 
+  <city>Vienna</city>, 
+  <country>Austria</country>
+ </aff>
+</contrib-group>

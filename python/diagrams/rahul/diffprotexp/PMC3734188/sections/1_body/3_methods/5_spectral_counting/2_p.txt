@@ -1,0 +1,4 @@
+0: After quantification, three selection criteria were applied to increase the credibility of protein identification and quantification.
+1: First, the proteins identified by a single peptide were excluded, regardless of how many spectra were identified.
+2: Second, for proteins showing an elevated relative abundance in the model perfusates, we required that they be identified in all five MS analyses performed in the model perfusates, and for proteins showing an elevated relative abundance in control perfusates, we required that they be identified in all five MS analyses conducted in the control perfusates.
+3: Third, we selected proteins showing fold changes > 2.5 as confidently differentially expressed proteins.

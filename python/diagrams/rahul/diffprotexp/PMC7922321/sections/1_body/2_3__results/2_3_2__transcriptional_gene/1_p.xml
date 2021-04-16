@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to investigate ETS transcriptional regulation networks specific for each glioma grade, we have integrated DEGs obtained from the analysis of glioma grades with the normalized expression matrix, where significantly changed ETS members are referred as regulons. The initial network obtained using the transcriptional network inference (TNI) algorithm contained 10 ETS member regulons, 11,762 target genes, and 23,181 total interactions (
+ <xref ref-type="fig" rid="jpm-11-00138-f004">Figure 4</xref>A). We have focused on the expression changes of ETS members in different grades of glioma, and regulon activity scores were calculated from the initial network. The analysis of regulon activity scores showed that, while ELK-1 and ETS2 showed high regulon activity in the non-tumor condition (magenta, 
+ <xref ref-type="fig" rid="jpm-11-00138-f004">Figure 4</xref>A), ETV1 showed a high activity score on mainly grade 2 glioma (green, 
+ <xref ref-type="fig" rid="jpm-11-00138-f004">Figure 4</xref>A). The other ETS proteins showed high regulon activity in the grade 4 glioma cluster, however, regulon activity of grade 3 glioma was dispersed between grade 2 and grade 4 (
+ <xref ref-type="fig" rid="jpm-11-00138-f004">Figure 4</xref>A). After including DEGs into the initial network using the transcriptional network analysis (TNA) algorithm, a focused network of glioma grades was constructed. According to TNA algorithm, nine significant ETS regulons were found to be enriched with different numbers of target genes. ETV1, which expressed the least significance among the significant ETS regulons, was marked in blue (
+ <xref ref-type="fig" rid="jpm-11-00138-f004">Figure 4</xref>B).
+</p>

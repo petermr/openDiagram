@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DEGs that are significantly associated with TME were used to construct the PPI network to analyze the model’s intrinsic function. The PPI network construction was based on the STRING database (
+ <uri xlink:type="simple" xlink:href="https://string-db.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://string-db.org/</uri>), and we subsequently applied Cytoscape software (version:3.8.0) for the reconstruction and visualization of the network. Nodes with the confidence of an interactive relationship &gt; 0.7 were used for building the network.
+</p>

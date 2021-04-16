@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the DE gene set passing the stringent FDR &lt; 0.05 threshold, there were varying numbers of DE genes across time-points (
+ <xref ref-type="fig" rid="fig1">Figure 1d</xref>). The strongest transcriptional signature was observed at E17.5 (2621 up and 3058 down), suggesting dramatic impact of MIA on cortical development at this time-point. P0 represented the subtlest transcriptomic signature, with no genes passing the stringent FDR &lt; 0.05 threshold, and with the p &lt; 0.05 DE genes showing a strong upregulation bias. We tested for overlap between DE RNA-seq genes and high confidence autism-associated genes in the Simons Foundation Autism Research Initiative (SFARI) gene database (
+ <xref rid="bib8" ref-type="bibr">Basu et al., 2009</xref>). The 82 mouse orthologs of SFARI ASD genes that were expressed at measurable levels were significantly enriched among E17.5 DE genes, with 25 upregulated and 19 downregulated DE genes at FDR &lt; 0.05 (p=3.9e-04, hypergeometric test), and 28 upregulated and 28 downregulated DE genes at p &lt; 0.05 (p = 2.8e-06, hypergeometric test) (
+ <xref ref-type="fig" rid="fig1">Figure 1e</xref>, 
+ <xref ref-type="supplementary-material" rid="supp16">Supplementary files 16</xref>–
+ <xref ref-type="supplementary-material" rid="supp17">17</xref>). This enrichment during peak transcriptomic dysregulation suggests involvement of ASD-relevant pathways in MIA etiology here and demonstrates general NDD relevance of our model. Detailed results of DE analysis are reported in 
+ <xref ref-type="supplementary-material" rid="supp1">Supplementary files 1</xref>–
+ <xref ref-type="supplementary-material" rid="supp15">15</xref> and can be visualized using our interactive online browser.
+</p>

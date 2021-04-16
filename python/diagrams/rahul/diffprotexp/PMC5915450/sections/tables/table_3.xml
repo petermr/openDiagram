@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Average distance (Å) between COMs of residues of nascent peptides and COM of ERY at 
+   <italic>F</italic>
+   <sub>max</sub>.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Residue</th>
+    <th>ErmCL</th>
+    <th>H-NS</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>1</td>
+    <td>6.7 ± 0.6</td>
+    <td>10.2 ± 1.9</td>
+   </tr>
+   <tr>
+    <td>2</td>
+    <td>8.7 ± 0.3</td>
+    <td>9.3 ± 1.5</td>
+   </tr>
+   <tr>
+    <td>3</td>
+    <td>11.7 ± 0.4</td>
+    <td>9.9 ± 1.2</td>
+   </tr>
+   <tr>
+    <td>4</td>
+    <td>15.2 ± 0.5</td>
+    <td>11.1 ± 0.9</td>
+   </tr>
+   <tr>
+    <td>5</td>
+    <td>18.1 ± 0.5</td>
+    <td>13.9 ± 0.7</td>
+   </tr>
+   <tr>
+    <td>6</td>
+    <td>21.4 ± 0.5</td>
+    <td>15.8 ± 0.8</td>
+   </tr>
+   <tr>
+    <td>7</td>
+    <td>25.4 ± 0.5</td>
+    <td>18.9 ± 1.0</td>
+   </tr>
+   <tr>
+    <td>8</td>
+    <td>28.5 ± 0.5</td>
+    <td>21.3 ± 1.3</td>
+   </tr>
+   <tr>
+    <td>9</td>
+    <td>32.0 ± 0.5</td>
+    <td>24.1 ± 1.5</td>
+   </tr>
+   <tr>
+    <td>10</td>
+    <td>N/A</td>
+    <td>27.8 ± 1.8</td>
+   </tr>
+   <tr>
+    <td>11</td>
+    <td>N/A</td>
+    <td>31.0 ± 1.9</td>
+   </tr>
+   <tr>
+    <td>12</td>
+    <td>N/A</td>
+    <td>33.2 ± 2.0</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Error bars represent 95% confidence intervals.</p>
+ </table-wrap-foot>
+</table-wrap>

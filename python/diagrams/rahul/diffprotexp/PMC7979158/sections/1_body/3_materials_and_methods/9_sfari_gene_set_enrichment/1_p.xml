@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The autism risk gene-set was downloaded from 
+ <ext-link ext-link-type="uri" xlink:href="https://gene.sfari.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://gene.sfari.org/</ext-link> on 02-26-2019 and is included in this manuscript as 
+ <xref ref-type="supplementary-material" rid="supp17">Supplementary file 17</xref>. High confidence risk genes, annotated as ‘gene-score’ 1 and 2 were selected, and their orthologs were found using getLDS function from the biomaRt R package (
+ <xref rid="bib21" ref-type="bibr">Durinck et al., 2009</xref>; 
+ <xref rid="bib20" ref-type="bibr">Durinck et al., 2005</xref>). Overlap of up- and downregulated DE genes with SFARI ortholog genes was calculated and plotted using a custom R script. Statistical significance of overlap was tested with hypergeometric test using the following R script: sum(dhyper(t:b, a, n - a, b)):
+</p>

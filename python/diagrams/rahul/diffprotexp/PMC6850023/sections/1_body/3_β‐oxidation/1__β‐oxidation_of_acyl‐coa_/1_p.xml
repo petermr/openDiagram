@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>A. borkumensis</italic> expressed a different set of enzymes for β‐oxidation depending on the growth substrate (branched vs. linear alkane) utilized (Fig. 
+ <xref rid="emi14620-fig-0004" ref-type="fig">4</xref>). Fatty acids generated from the oxidation of alkanes are transported through the cytoplasmic membrane coupled with the activation to acyl‐CoA thioesters catalysed by the acyl‐CoA synthetase with concomitant hydrolysis of ATP (Fiedler 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0022" ref-type="ref">2002</xref>). Acyl‐CoA synthetases are widely distributed in both prokaryotic and eukaryotic organisms and exhibit a broad substrate specificity (Ruth 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0060" ref-type="ref">2008</xref>). ABO_0367 encodes a fadD homologue (Fig. 
+ <xref rid="emi14620-fig-0004" ref-type="fig">4</xref>B). The product of the 
+ <italic>fadD</italic> gene is a long‐chain fatty acyl‐CoA ligase that converts exogenous long‐chain fatty acids (LCFAs) into acyl‐CoA thioesters when they are transported in bacteria (Black 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0010" ref-type="ref">1992</xref>). The mechanism behind FadD substrate specificity is not fully understood. Structures of a homologous long chain acyl‐CoA synthetase from 
+ <italic>Thermus thermophilus</italic> and a medium chain acyl‐CoA synthetase from 
+ <italic>Homo sapiens</italic> suggest that it is the length of the FadD fatty acid binding pocket that determines specificity (Hisanaga 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0030" ref-type="ref">2004</xref>; Kochan 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0036" ref-type="ref">2009</xref>). A consensus sequence (
+ <sup>1</sup>DGWLHTGDIG
+ <italic>X</italic>W
+ <italic>X</italic>P
+ <italic>X</italic>G
+ <italic>X</italic>LKIIDRKK
+ <sup>25</sup>) is common to all fatty acyl‐CoA synthetases and represents a FACS signature motif (Black 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0011" ref-type="ref">1997</xref>). Mutational studies revealed subtle changes in this region result in marked changes with respect to substrate recognition (e.g. D
+ <sup>22</sup> and K
+ <sup>25</sup>) defining the fatty acid specificity of the enzyme (Black 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0011" ref-type="ref">1997</xref>). For example, fatty acyl‐CoA synthetases from 
+ <italic>Pseudomonas oleovorans</italic> and 
+ <italic>Saccharomyces cerevisiae</italic>, which lack the lysyl residue at the position equivalent to K
+ <sup>24</sup> have specificity to medium‐chain fatty acids (van Beilen 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0005" ref-type="ref">1992</xref>; Knoll 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0035" ref-type="ref">1994</xref>). ABO_0367 (three‐fold higher expression on pristane compared to 
+ <italic>n</italic>‐C
+ <sub>14</sub>) has a valine residue in the K
+ <sup>24</sup> position and a glycine in the D
+ <sup>22</sup> in the FACS signature motif, which may contribute to its preference to branched fatty acids over straight‐chain fatty acids. ABO_2748, which had 3‐fold higher expression on pristane compared to 
+ <italic>n</italic>‐C
+ <sub>14</sub>, is an AlkK homologue (Fig. 
+ <xref rid="emi14620-fig-0004" ref-type="fig">4</xref>B). The gene product of 
+ <italic>alkK</italic> in 
+ <italic>Psudomonas putida</italic> encodes a medium‐chain acyl CoA synthetase, which catalyses the final reaction in alkane oxidation, converting medium‐chain length fatty acid to their CoA derivatives (van Beilen 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0005" ref-type="ref">1992</xref>). The enzyme was able to complement a fadD mutation in 
+ <italic>E. coli</italic> K‐12 verifying its predicted role (van Beilen 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0005" ref-type="ref">1992</xref>). Assays using branched hydroxyalkanoates as substrates confirmed AlkK is also capable of converting branched substrates to their corresponding acyl‐CoA thioesters (Satoh 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0062" ref-type="ref">2005</xref>). As AlkK is capable of utilizing branched substrates this may account for the higher spectral counts during growth on pristane.
+</p>

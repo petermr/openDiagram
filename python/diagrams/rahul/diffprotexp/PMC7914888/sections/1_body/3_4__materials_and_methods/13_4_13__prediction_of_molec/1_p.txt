@@ -1,0 +1,3 @@
+0: We selected some molecular targets (mRNAs), which had a previous report of changes in their expression in models of decreased growth and differential pigmentation induced by L-Tyr or 5-Brd-2-dU with B16F1 cells or in other cell models.
+1: By using TargetScanMouse 7.1 ( http://www.targetscan.org/mmu_71/), we performed the prediction of all potential miRNAs that could have that gene as a molecular target.
+2: The report generated was filtered using the list of miRNAs with differential expression obtained by DESeq2 [ 121].

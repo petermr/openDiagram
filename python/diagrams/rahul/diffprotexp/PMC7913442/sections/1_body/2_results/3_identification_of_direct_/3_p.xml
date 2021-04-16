@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">To understand if these effects could be explained by differences in FOXL2 binding, rather over-expression artifacts, we analyzed the enrichment for differential ChIP-Seq peaks in each category (Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>d). Differential peaks were calculated using DESeq2 between FOXL2
+ <sup>C134W</sup> and FOXL2
+ <sup>WT</sup> ChIP-Seq in TGFβ-treated HGrC1 from by Weis-Banke et al. [
+ <xref ref-type="bibr" rid="CR37">37</xref>]. Out of a total of 46,235 sites, we identified 12,515 differential peaks (q &lt; 0.05), where 10,353 had stronger FOXL2
+ <sup>C134W</sup> signal (i.e. FOXL2
+ <sup>C134W</sup> showed a stronger binding in an existing FOXL2 site or bound to a completely new site), and only 2,162 had stronger FOXL2
+ <sup>WT</sup> signal. Examples of differential peaks at the 
+ <italic>TGFB2</italic>, 
+ <italic>SMARCA4</italic> and 
+ <italic>NFKBIA</italic> promoters are shown in Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>e.
+</p>

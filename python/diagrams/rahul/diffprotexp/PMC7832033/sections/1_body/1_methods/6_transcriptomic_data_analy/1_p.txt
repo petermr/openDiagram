@@ -1,0 +1,7 @@
+0: Sequencing data were generated using Torrent Suite Software version 5.4.0 with AmpliSeq RNA plugin (Thermo Fisher Scientific) and normalized using reads per million mapped reads (RPM) method.
+1: The normalized transcripts were analyzed using GeneSpring GX software version 14.9 (Agilent Technologies) to identify differentially expressed genes (DEGs) within the 10th -100 th percentile.
+2: One-way ANOVA was used to compare DEGs among non-survivors, survivors, and healthy controls.
+3: Moderated t-test was used to compare DEGs between non-survivors and survivors.
+4: An adjusted  P value< 0.05 was deemed significant (Benjamini-Hochberg correction method).
+5: Functional analysis was derived using Metascape tool ( http://metascape.org).
+6: Area under the receiver operating characteristic curves (AUROCC) were plotted using GraphPad Prism version 6.0.

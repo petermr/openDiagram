@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">Processed reads were assembled using graph-based approach by Trinity program. The characteristic properties, including N50 length, average length, maximum length, and minimum length of the assembled contigs were calculated (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). Clustering of the assembled transcripts based on sequence similarity was performed using CD-HIT-EST
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup> with 95% similarity between the sequences, reducing the redundancy without exclusion of sequence diversity and was used for further annotation and differential expression analysis. Processed reads were aligned back to the final assembly using Bowtie
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup> with end to end parameters.
+</p>

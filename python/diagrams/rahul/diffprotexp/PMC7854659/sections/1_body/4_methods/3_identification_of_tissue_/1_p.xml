@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40">The normalized expression was used to calculate a mean value for each gene from each tissue separately. To summarize the gene specificity among tissues, the Tau index (τ) was computed using the R-package tispec v.0.99.0
+ <sup>
+  <xref ref-type="bibr" rid="CR83">83</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://rb.gy/ch0h4w" xmlns:xlink="http://www.w3.org/1999/xlink">https://rb.gy/ch0h4w</ext-link>) considering the following Eq. 
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>:
+ <disp-formula id="Equa">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\tau = \frac{{\mathop \sum \nolimits_{i = 1}^{n} \left( {1 - \hat{x}_{i} } \right) }}{n - 1 }$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <mrow>
+     <mi>τ</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msubsup>
+        <mo>∑</mo>
+        <mrow>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mi>n</mi>
+       </msubsup>
+       <mfenced close=")" open="(">
+        <mrow>
+         <mn>1</mn>
+         <mo>-</mo>
+         <msub>
+          <mover accent="true">
+           <mi>x</mi>
+           <mo stretchy="false">^</mo>
+          </mover>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+       <mo>-</mo>
+       <mn>1</mn>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_82156_Article_Equa.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula> in which 
+ <italic>n</italic> is the number of tissues and 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$x_{i}$$\end{document}</tex-math>
+   <math id="M4">
+    <msub>
+     <mi>x</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2021_82156_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the gene expression in tissue 
+ <italic>i</italic>. Tau values range from zero (genes ubiquitously expressed) to one (TS genes)
+ <sup>
+  <xref ref-type="bibr" rid="CR84">84</xref>
+ </sup>. Accordingly, we defined the TS genes with τ ≥ 0.8
+ <sup>
+  <xref ref-type="bibr" rid="CR84">84</xref>
+ </sup>.
+</p>

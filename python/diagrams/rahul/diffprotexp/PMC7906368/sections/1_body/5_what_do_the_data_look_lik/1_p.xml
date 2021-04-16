@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Many proteomics software packages, such as MaxQuant [
+ <xref rid="ppat.1009245.ref035" ref-type="bibr">35</xref>] and Proteome Discoverer (Thermo Fisher Scientific, Bremen, Germany), allow qualitative and quantitative exploration of metaproteomic data. The resulting tables can be exported and further analyzed with other software, including general statistical software such as R [
+ <xref rid="ppat.1009245.ref036" ref-type="bibr">36</xref>] and specialized gene expression analysis software such as Perseus [
+ <xref rid="ppat.1009245.ref037" ref-type="bibr">37</xref>]. Open-source software dedicated to metaproteomics, such as MetaProteomeAnalyzer [
+ <xref rid="ppat.1009245.ref038" ref-type="bibr">38</xref>] and MetaQuantome [
+ <xref rid="ppat.1009245.ref039" ref-type="bibr">39</xref>], provide tools for data analyses and interpretation. For a review of specialized metaproteomics software, see [
+ <xref rid="ppat.1009245.ref040" ref-type="bibr">40</xref>].
+</p>

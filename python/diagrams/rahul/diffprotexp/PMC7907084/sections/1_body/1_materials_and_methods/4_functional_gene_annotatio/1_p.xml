@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses and Gene ontology (GO) analyses were performed by GOSeq Release2.12 and KOBAS v2.0 respectively
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>,
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>. The terms with q-value &lt; 0.05 were considered significantly enriched. The online database resource search tool for the retrieval of interacting Genes/Proteins (STRING, 
+ <ext-link ext-link-type="uri" xlink:href="http://string-db.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://string-db.org/</ext-link>) was employed for protein–protein interaction analyses. String score higher than 700 was collected and then subjected to further analyses by Cytoscape v3.3.0 software
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>.
+</p>

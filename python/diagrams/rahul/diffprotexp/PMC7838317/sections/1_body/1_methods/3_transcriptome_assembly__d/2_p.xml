@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">Differentially expressed transcripts were used as BLASTx queries against the National Center for Biotechnology Information (NCBI) nonredundant (nr) database (downloaded 9 July 2018) with a word size of 6, an e-value cutoff of 1e
+ <sup>−5</sup>, and a hit threshold number of 20. Functional annotation of transcripts using Gene Ontology (GO) terms and InterProScan was performed using Blast2GO (version 5.2.4)
+ <sup>
+  <xref ref-type="bibr" rid="CR44">44</xref>,
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup> using default parameters. Fisher’s Exact Test was conducted to identify GO terms that are significantly over-represented in the up-regulated and down-regulated sets of genes
+ <sup>
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup>. To ensure that our discussion of differentially expressed transcripts was not affected by potential prokaryotic contamination, we filtered transcripts using Kraken2 (version 2.1.1)
+ <sup>
+  <xref ref-type="bibr" rid="CR47">47</xref>
+ </sup> with a combination of its Archaea and Bacteria databases. We used a kmer length of 35 and a classification confidence threshold cutoff of 0.05.
+</p>

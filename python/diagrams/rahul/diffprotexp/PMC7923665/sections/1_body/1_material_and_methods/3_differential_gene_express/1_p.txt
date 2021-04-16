@@ -1,0 +1,4 @@
+0: Differential expression analysis was performed by employing a negative binomial distribution model (DESeq v1.8.1 package  http://www-huber.embl.de/users/anders/DESeq/).
+1: Genes were classified as up- and downregulated genes based on their log fold change (FC) value calculated by FC = Log2 (treated/control) formula.
+2: A heat map was constructed to show the level of gene abundance.
+3: The heat map was constructed using the log-transformed and normalized value of genes based on Euclidean distance as well as based on the average linkage method.

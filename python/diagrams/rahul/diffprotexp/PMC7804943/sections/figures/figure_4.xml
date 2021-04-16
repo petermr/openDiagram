@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig4">
+ <label>Fig. 4</label>
+ <caption>
+  <title>Expanded analysis of whole-brain reveals coordinated regulation by all layers.</title>
+  <p>
+   <bold>a</bold> Summary of latent factors inferred by MOFA and the contributions of each layer to each factor (see Fig. 1b for details). 
+   <bold>b</bold> Beeswarm plots illustrating the variation described by the latent factors inferred by MOFA (see Fig. 
+   <xref rid="Fig1" ref-type="fig">1c</xref> for description of Beeswarm plots). 
+   <bold>c</bold> Combined scatter and contour plots comparing the loadings for pairs of latent factors: LF1 versus LF2 (left), LF3 versus LF5 (middle and right). The contours indicate the density of cell types for a specific attribute. In particular, age is a highly correlated with LF1 (left), excitatory neurons are correlated with LF3 (middle), and PNS neurons are correlated with LF4 (right). unk = unknown.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20483_Fig4_HTML" id="d31e1088" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

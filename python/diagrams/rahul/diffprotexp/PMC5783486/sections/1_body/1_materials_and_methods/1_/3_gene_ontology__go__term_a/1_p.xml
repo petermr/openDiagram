@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The Cytoscape plug-in ClueGO (
+ <xref rid="b12-mmr-17-02-2402" ref-type="bibr">12</xref>) and ReactomeFIViz (
+ <xref rid="b13-mmr-17-02-2402" ref-type="bibr">13</xref>) were applied for the differentially expressed proteins to process the Biological Process GO terms, and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis (
+ <uri xlink:type="simple" xlink:href="http://www.genome.jp/kegg/" xmlns:xlink="http://www.w3.org/1999/xlink">www.genome.jp/kegg/</uri>). P&lt;0.05 and FDR &lt;0.01 were selected as threshold values for GO and KEGG pathway enrichment.
+</p>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">Notably, use of two different algorithms limma/diffSplice and JunctionSeq for the analysis of diffEEJs produced only minimally overlapping results (Fig. 
+ <xref rid="Fig2" ref-type="fig">2b, c</xref>). This is due to the differences in the pre-processing, filtering, normalization and transformation of the data, as well as in the use of different statistical models at the step of identification of diffEEJs by the algorithms. However, diffEEJs identified by both limma/diffSplice and JunctionSeq could be confirmed using qRT-PCR (Supplementary Data 
+ <xref rid="MOESM11" ref-type="media">8</xref>).
+</p>

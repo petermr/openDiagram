@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par44">The 
+ <italic>PTK2B</italic> gene (also known as 
+ <italic>PYK2)</italic> encodes the focal adhesion kinase 2B, which regulates cell adhesion and migration, two key processes in leukaemogenesis
+ <sup>
+  <xref ref-type="bibr" rid="CR58">58</xref>
+ </sup>. High expression levels of this gene are indicative of an inferior clinical outcome (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">7a</xref>). The gene is subject to alternative splicing: differential splicing of exon 23 results in two protein isoforms of 1009 and 967 amino acids, with the shorter one lacking a nuclear/cytoplasmic localization region between the kinase and the C-terminal focal adhesion targeting domain (Fig. 
+ <xref rid="Fig10" ref-type="fig">10a</xref>)
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>
+ </sup>. Analysis of nascent and total RNA-Seq data from Kasumi-1 cells indicated that 
+ <italic>RUNX1/RUNX1T1</italic> knockdown led to increased exon 23 skipping and concomitant joining of exon 22 to exon 24 (Fig. 
+ <xref rid="Fig10" ref-type="fig">10b–d</xref>). Although RUNX1/RUNX1T1 occupies the 
+ <italic>PTK2B</italic> locus at several sites, formation of this alternative junction J26 is unlikely to be directly regulated by the fusion protein, because its closest binding site locates more than 35 kb upstream of 5’ splice site of junction J26. Since loss of RUNX1/RUNX1T1 binding was also associated with a more than twofold reduced expression of 
+ <italic>RBFOX2</italic> (Fig. 
+ <xref rid="Fig9" ref-type="fig">9a</xref>), we examined a potential of this regulator of alternative splicing in the retention of exon 23. Analysis of TGCA-LAML and GEO/ENA-AML datasets established a negative correlation between 
+ <italic>RBFOX2</italic> expression and exon 23 skipping (Fig. 
+ <xref rid="Fig10" ref-type="fig">10e</xref>; Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">7b, c</xref>). Notably, a UGCAUG consensus site for RBFOX2 binding is located just 12 nt downstream of this exon and evaluation of ENCODE eCLIP data for the CML cell line K562 revealed direct association of RBFOX2 to exon 23 of 
+ <italic>PTK2B</italic> (Fig. 
+ <xref rid="Fig10" ref-type="fig">10f</xref>).
+</p>

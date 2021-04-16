@@ -1,0 +1,4 @@
+0: The intensities of metabolites were submitted and processed in Analyst 1.6.1 software (AB SCIEX, Ontario, Canada) and metabolites with missing values were considered to be lower than the detection limit and replaced with a minimum recorded value.
+1: The ion intensities were normalized by log transformation, the metabolite abundance was calculated by using Dunnetts test, and multiple testing was controlled by FDR.
+2: To obtain the maximum differences between the treatments, we used the partial least squares-discriminant analysis (PLS-DA) and variable importance in projection > 1 to screen DAMs was used to calculate the relative importance of the identified DAMs to the PLS-DA model.
+3: Other analyses including PCA, Hierarchical Clustering, and pathway enrichment were completed by using R ( www.r-project.org) as reported earlier [ 20,  24,  82,  94].

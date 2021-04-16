@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5577-9216</contrib-id>
+  <name>
+   <surname>Bian</surname>
+   <given-names>Tingting</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Zheng</surname>
+   <given-names>Miaosen</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Jiang</surname>
+   <given-names>Daishan</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Liu</surname>
+   <given-names>Jian</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Sun</surname>
+   <given-names>Hui</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Li</surname>
+   <given-names>Xiaoli</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Liu</surname>
+   <given-names>Lei</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>Jianguo</given-names>
+  </name>
+  <address>
+   <email>13815212431@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Liu</surname>
+   <given-names>Yifei</given-names>
+  </name>
+  <address>
+   <email>ntdxliuyifei@sina.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.440642.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0644 5481</institution-id>
+   <institution>Department of Pathology, </institution>
+   <institution>Affiliated Hospital of Nantong University, </institution>
+  </institution-wrap>Nantong, Jiangsu China 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.260483.b</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 9530 8833</institution-id>
+   <institution>School of Medicine, </institution>
+   <institution>Nantong University, </institution>
+  </institution-wrap>Nantong, Jiangsu China 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.440642.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0644 5481</institution-id>
+   <institution>Department of Emergency Medicine, </institution>
+   <institution>Affiliated Hospital of Nantong University, </institution>
+  </institution-wrap>Nantong, Jiangsu China 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.440642.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0644 5481</institution-id>
+   <institution>Department of Chemotherapy, </institution>
+   <institution>Affiliated Hospital of Nantong University, </institution>
+  </institution-wrap>Nantong, Jiangsu China 
+ </aff>
+</contrib-group>

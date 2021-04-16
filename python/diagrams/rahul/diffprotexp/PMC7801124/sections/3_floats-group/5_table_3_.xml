@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0003" orientation="portrait" position="float">
+ <label>Table 3.</label>
+ <caption>
+  <p>ASIC3 Expression in Different Species. Columns show where expression has been identified, see pathophysiology section for details and references. ASIC-like currents are current recordings which displayed an ASIC3-like profile. IHC – Immunohistochemistry, ISH – In Situ Hybridization, PCR – Polymerase Chain Reaction. G – Guinea Pig, H – Human, M – Mouse (
+   <sup>0</sup> – unspecified, 
+   <sup>1</sup> – C57/BL6J, 
+   <sup>2</sup> – F4, 
+   <sup>3</sup> – CD1, 
+   <sup>4</sup> – ‘F2 + 129S2/B6ʹ, 
+   <sup>5</sup>–129S/SvPasCr, 
+   <sup>6</sup> – BALB/c, 
+   <sup>7</sup> – ICR) and R – Rat (
+   <sup>0</sup> – unspecified, 
+   <sup>8</sup> – Wistar, 
+   <sup>9</sup> – Hooded Lister, 
+   <sup>10</sup> – Sprague Dawley, 
+   <sup>11</sup> – Spontaneously Hypertensive, 
+   <sup>12</sup> – Wistar Kyoto)
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left"> </th>
+    <th align="center">Northern Blot</th>
+    <th align="center">Western Blot</th>
+    <th align="center">qPCR</th>
+    <th align="center">RT-PCR</th>
+    <th align="center">ISH</th>
+    <th align="center">IHC</th>
+    <th align="center">ASIC-like Current</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Retinal Ganglion</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>9</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Dorsal Root Ganglion (DRG)</td>
+    <td align="center">R
+     <sup>8</sup>,M
+     <sup>1,3</sup>
+    </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>8,10</sup>,M
+     <sup>3</sup>,H
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Trigeminal Ganglion</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>7</sup>,H
+    </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>7</sup>,R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Nodose Ganglion (NG)</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Cochlear Spiral Ganglion</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Vestibular Ganglion</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>8</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Petrosal Ganglion</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>0</sup>
+    </td>
+    <td align="center">R
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Mesensephalic Trigeminal Ganglion</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>3,4</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Anterior Fungiform Papillae</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Tooth Pulp Neurons</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Osteoclasts</td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Carotid Body</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>11,12</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>11,12</sup>,M
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Nucleus Pulposus</td>
+    <td align="center"> </td>
+    <td align="center">H,R
+     <sup>8</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">H,R
+     <sup>8</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Femoral Articular Cartilage</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Synovium and Synoviocytes</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Skeletal Muscle</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>8</sup>
+    </td>
+    <td align="center">H</td>
+   </tr>
+   <tr>
+    <td align="left">Vascular Smooth Muscle Cells</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>0</sup>,M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>0</sup>,M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>0</sup>,M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Pleura and Pulmonary DRG</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>8</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">White and Brown Adipose Tissue</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>5</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Peptidergic Renal Afferents</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Testis</td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Monocyte</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Dendritic Cells</td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1,6</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1,6</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Spinal Cord</td>
+    <td align="center">R
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Brainstem</td>
+    <td align="center">R
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>3,4</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Astrocytes</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Ear</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>3</sup>
+    </td>
+    <td align="center">M
+     <sup>3</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Eye</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>3</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Organ of Corti</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>3</sup>
+    </td>
+    <td align="center">M
+     <sup>3</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Jugular Ganglion</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">G</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Lumbosacral and Thoracolumbar DRG</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center">R
+     <sup>10</sup>,M
+     <sup>1</sup>
+    </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Hypothalamus</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Amygdala</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Caudate Putamen</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Prefrontal Cortex</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>,H
+    </td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Hippocampus</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Cardiac DRG</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>1</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Venoatrium Junction NG</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>3</sup>
+    </td>
+    <td align="center">M
+     <sup>3</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Gastric DRG and NG</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Bladder Smooth Muscle Cells and Urothelium</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>8</sup>
+    </td>
+    <td align="center">R
+     <sup>8</sup>,H
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>8</sup>
+    </td>
+    <td align="center">H</td>
+   </tr>
+   <tr>
+    <td align="left">Cutaneous DRG</td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>8</sup>
+    </td>
+    <td align="center">R
+     <sup>8</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>8</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Gastrocnemius Muscle DRG</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Cerebellum</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Odontoblast Cell Bodies</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Taste Epithelial</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">R
+     <sup>10</sup>
+    </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Glomus Cells</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">M
+     <sup>0</sup>
+    </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Bronchial (16HBE14o) and Submucosal (Calu-3) Cells</td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Colonic (T84) Cells</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Pancreatic (CFPAC) Cells</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Submucous and Myenteric Plexus</td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+   <tr>
+    <td align="left">Intestine DRG</td>
+    <td align="center"> </td>
+    <td align="center">H</td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

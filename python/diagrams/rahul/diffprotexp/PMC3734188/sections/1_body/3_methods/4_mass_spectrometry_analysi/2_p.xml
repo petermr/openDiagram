@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All MS/MS spectra were searched against the rat IPI 3.49 protein sequence database (40,131 entries) using SEQUEST algorithm-based Bioworks 3.3.1 (Thermo Finnigan, Inc.). The search parameters were set as follows: precursor mass tolerance, ±2.0 amu; fragment mass tolerance, ±1.0 amu; tryptic cleavage only at lysine or arginine, with up to two missed cleavage sites allowed; and a static modification of +57 amu on cysteine. The search results were further processed with the Trans-Proteomic Pipeline (TPP) (Institute for Systems Biology). The SEQUEST results were validated using PeptideProphet [
+ <xref ref-type="bibr" rid="B30">30</xref>], which also calculates the probability of peptide identification. ProteinProphet [
+ <xref ref-type="bibr" rid="B31">31</xref>] was applied to assemble the peptides into proteins and calculate the probability of protein identification. The probability of protein identification was calculated based in part on the peptide probability and the SEQUEST Xcorr score [
+ <xref ref-type="bibr" rid="B31">31</xref>]. Only proteins identified with a probability &gt;0.9 were considered for further analysis, as this cutoff resulted in a calculated false discovery rate (FDR) of approximately 1%.
+</p>

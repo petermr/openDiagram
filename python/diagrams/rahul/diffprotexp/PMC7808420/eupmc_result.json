@@ -1,0 +1,564 @@
+{
+  "id": [
+    "33410731"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33410731"
+  ],
+  "pmcid": [
+    "PMC7808420"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7808420"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/21505594.2020.1869392"
+  ],
+  "title": [
+    "Type I interferons are essential while type II interferon is dispensable for protection against St. Louis encephalitis virus infection in the mouse brain."
+  ],
+  "authorString": [
+    "Rocha RF, Del Sarto JL, Gomes GF, Gonçalves MP, Rachid MA, Smetana JHC, Souza DG, Teixeira MM, Marques RE."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rocha RF"
+          ],
+          "firstName": [
+            "Rebeca Froes"
+          ],
+          "lastName": [
+            "Rocha"
+          ],
+          "initials": [
+            "RF"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5678-4006",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Brazilian Biosciences National Laboratory (LNBio), Brazilian Center for Research in Energy and Materials (CNPEM) , Campinas, Brazil."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Graduate Program in Genetics and Molecular Biology, State University of Campinas (UNICAMP) , Campinas, Brazil."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Immunopharmacology Laboratory, Department of Biochemistry and Immunology, Institute of Biological Sciences, Federal University of Minas Gerais (UFMG) , Belo Horizonte, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Del Sarto JL"
+          ],
+          "firstName": [
+            "Juliana L"
+          ],
+          "lastName": [
+            "Del Sarto"
+          ],
+          "initials": [
+            "JL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6561-8018",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Immunopharmacology Laboratory, Department of Biochemistry and Immunology, Institute of Biological Sciences, Federal University of Minas Gerais (UFMG) , Belo Horizonte, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gomes GF"
+          ],
+          "firstName": [
+            "Giovanni F"
+          ],
+          "lastName": [
+            "Gomes"
+          ],
+          "initials": [
+            "GF"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Laboratório de Neurofarmacologia, Institute of Biological Sciences, Federal University of Minas Gerais (UFMG) , Belo Horizonte, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gonçalves MP"
+          ],
+          "firstName": [
+            "Mariana P"
+          ],
+          "lastName": [
+            "Gonçalves"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Brazilian Biosciences National Laboratory (LNBio), Brazilian Center for Research in Energy and Materials (CNPEM) , Campinas, Brazil."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Graduate Program in Genetics and Molecular Biology, State University of Campinas (UNICAMP) , Campinas, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rachid MA"
+          ],
+          "firstName": [
+            "Milene A"
+          ],
+          "lastName": [
+            "Rachid"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Laboratório de Apoptose, Institute of Biological Sciences, Federal University of Minas Gerais (UFMG) , Belo Horizonte, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Smetana JHC"
+          ],
+          "firstName": [
+            "Juliana H C"
+          ],
+          "lastName": [
+            "Smetana"
+          ],
+          "initials": [
+            "JHC"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Brazilian Biosciences National Laboratory (LNBio), Brazilian Center for Research in Energy and Materials (CNPEM) , Campinas, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Souza DG"
+          ],
+          "firstName": [
+            "Daniele G"
+          ],
+          "lastName": [
+            "Souza"
+          ],
+          "initials": [
+            "DG"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Laboratório de Interação Microrganismo-Hospedeiro, Institute of Biological Sciences, Federal University of Minas Gerais (UFMG) , Belo Horizonte, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Teixeira MM"
+          ],
+          "firstName": [
+            "Mauro Martins"
+          ],
+          "lastName": [
+            "Teixeira"
+          ],
+          "initials": [
+            "MM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Immunopharmacology Laboratory, Department of Biochemistry and Immunology, Institute of Biological Sciences, Federal University of Minas Gerais (UFMG) , Belo Horizonte, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Marques RE"
+          ],
+          "firstName": [
+            "Rafael Elias"
+          ],
+          "lastName": [
+            "Marques"
+          ],
+          "initials": [
+            "RE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6949-0947",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Brazilian Biosciences National Laboratory (LNBio), Brazilian Center for Research in Energy and Materials (CNPEM) , Campinas, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5678-4006",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6561-8018",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6949-0947",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3080655"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Virulence"
+          ],
+          "ISOAbbreviation": [
+            "Virulence"
+          ],
+          "medlineAbbreviation": [
+            "Virulence"
+          ],
+          "NLMid": [
+            "101531386"
+          ],
+          "ISSN": [
+            "2150-5594"
+          ],
+          "ESSN": [
+            "2150-5608"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "244-259"
+  ],
+  "abstractText": [
+    "St. Louis encephalitis virus (SLEV) is a neglected mosquito-borne flavivirus that causes severe neurological disease in humans. SLEV replication in the central nervous system (CNS) induces the local production of interferons (IFNs), which are attributed to host protection. The antiviral response to SLEV infection in the CNS is not completely understood, which led us to characterize the roles of IFNs using mouse models of St. Louis encephalitis. We infected mice deficient in type I IFN receptor (ABR<sup>-/-</sup>) or deficient in Type II IFN (IFNγ<sup>-/-</sup>) and assessed the contribution of each pathway to disease development. We found that type I and II IFNs play different roles in SLEV infection. Deficiency in type I IFN signaling was associated to an early and increased mortality, uncontrolled SLEV replication and impaired ISG expression, leading to increased proinflammatory cytokine production and brain pathology. Conversely, IFNγ<sup>-/-</sup> mice were moderately resistant to SLEV infection. IFNγ deficiency caused no changes to viral load or SLEV-induced encephalitis and did not change the expression of ISGs in the brain. We found that type I IFN is essential for the control of SLEV replication whereas type II IFN was not associated with protection in this model."
+  ],
+  "affiliation": [
+    "Brazilian Biosciences National Laboratory (LNBio), Brazilian Center for Research in Energy and Materials (CNPEM) , Campinas, Brazil."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Interferons",
+        "St. Louis Encephalitis",
+        "Mouse Model",
+        "Flavivirus",
+        "Neglected Arbovirus"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/21505594.2020.1869392"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7808420"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7808420?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-01-07"
+  ],
+  "firstIndexDate": [
+    "2021-01-08"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-01"
+  ],
+  "dateOfRevision": [
+    "2021-03-22"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

@@ -1,0 +1,2 @@
+0: Using human GRCh38 cDNA release 94 ( ftp://ftp.ensembl.org/pub/release-94) as a reference, we built an index to align all our fastq files.
+1: Next, we used pseudoaligner Kallisto 50 (version 0.43.1) with our pre-built index to align fastq files.

@@ -1,0 +1,752 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName A++V2.4.dtd?><?SourceDTD.Version 2.4?><?ConverterInfo.XSLTName springer2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">BMC Bioinformatics</journal-id><journal-id journal-id-type="iso-abbrev">BMC Bioinformatics</journal-id><journal-title-group><journal-title>BMC Bioinformatics</journal-title></journal-title-group><issn pub-type="epub">1471-2105</issn><publisher><publisher-name>BioMed Central</publisher-name><publisher-loc>London</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7986389</article-id><article-id pub-id-type="publisher-id">4062</article-id><article-id pub-id-type="doi">10.1186/s12859-021-04062-2</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Weighted minimum feedback vertex sets and implementation in human cancer genes detection</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Li</surname><given-names>Ruiming</given-names></name><address><email>rmli@sunflower.kuicr.kyoto-u.ac.jp</email></address><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Lin</surname><given-names>Chun-Yu</given-names></name><address><email>chunyulin@nctu.edu.tw</email></address><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff2">2</xref><xref ref-type="aff" rid="Aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Guo</surname><given-names>Wei-Feng</given-names></name><address><email>shaonianweifeng@126.com</email></address><xref ref-type="aff" rid="Aff4">4</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9763-797X</contrib-id><name><surname>Akutsu</surname><given-names>Tatsuya</given-names></name><address><email>takutsu@kuicr.kyoto-u.ac.jp</email></address><xref ref-type="aff" rid="Aff1">1</xref></contrib><aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="GRID">grid.258799.8</institution-id><institution-id institution-id-type="ISNI">0000 0004 0372 2033</institution-id><institution>Bioinformatics Center, Institute for Chemical Research, </institution><institution>Kyoto University, </institution></institution-wrap>Uji, Kyoto 611-0011 Japan </aff><aff id="Aff2"><label>2</label>Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, 300 Hsinchu, Taiwan </aff><aff id="Aff3"><label>3</label>Center for Intelligent Drug Systems and Smart Bio-devices, National Yang Ming Chiao Tung University, 300 Hsinchu, Taiwan </aff><aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="GRID">grid.207374.5</institution-id><institution-id institution-id-type="ISNI">0000 0001 2189 3846</institution-id><institution>School of Electrical Engineering, </institution><institution>Zhengzhou University, </institution></institution-wrap>450001 Zhengzhou, China </aff></contrib-group><pub-date pub-type="epub"><day>22</day><month>3</month><year>2021</year></pub-date><pub-date pub-type="pmc-release"><day>22</day><month>3</month><year>2021</year></pub-date><pub-date pub-type="collection"><year>2021</year></pub-date><volume>22</volume><elocation-id>143</elocation-id><history><date date-type="received"><day>22</day><month>6</month><year>2020</year></date><date date-type="accepted"><day>3</day><month>3</month><year>2021</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2021</copyright-statement><license license-type="OpenAccess"><license-p><bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated in a credit line to the data.</license-p></license></permissions><abstract id="Abs1"><sec><title>Background</title><p id="Par1">Recently, many computational methods have been proposed to predict cancer genes. One typical kind of method is to find the differentially expressed genes between tumour and normal samples. However, there are also some genes, for example, &#x02018;dark&#x02019; genes, that play important roles at the network level but are difficult to find by traditional differential gene expression analysis. In addition, network controllability methods, such as the minimum feedback vertex set (MFVS) method, have been used frequently in cancer gene prediction. However, the weights of vertices (or genes) are ignored in the traditional MFVS methods, leading to difficulty in finding the optimal solution because of the existence of many possible MFVSs.</p></sec><sec><title>Results</title><p id="Par2">Here, we introduce a novel method, called weighted MFVS (WMFVS), which integrates the gene differential expression value with MFVS to select the maximum-weighted MFVS from all possible MFVSs in a protein interaction network. Our experimental results show that WMFVS achieves better performance than using traditional bio-data or network-data analyses alone.</p></sec><sec><title>Conclusion</title><p id="Par3">This method balances the advantage of differential gene expression analyses and network analyses, improves the low accuracy of differential gene expression analyses and decreases the instability of pure network analyses. Furthermore, WMFVS can be easily applied to various kinds of networks, providing a useful framework for data analysis and prediction.</p></sec><sec><title>Supplementary Information</title><p>The online version supplementary material available at 10.1186/s12859-021-04062-2.</p></sec></abstract><kwd-group xml:lang="en"><title>Keywords</title><kwd>Feedback vertex set</kwd><kwd>Differential gene expression</kwd><kwd>Cancer gene</kwd></kwd-group><funding-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100010002</institution-id><institution>Ministry of Education</institution></institution-wrap></funding-source><award-id>N/A</award-id><principal-award-recipient><name><surname>Lin</surname><given-names>Chun-Yu</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>Japan Society for the Promotion of Science</institution></funding-source><award-id>18H04113</award-id><principal-award-recipient><name><surname>Akutsu</surname><given-names>Tatsuya</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004663</institution-id><institution>Ministry of Science and Technology, Taiwan</institution></institution-wrap></funding-source><award-id>109-2636-B-009-007</award-id><principal-award-recipient><name><surname>Lin</surname><given-names>Chun-Yu</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>Center for Intelligent Drug Systems and Smart Bio-devices</institution></funding-source><award-id>N/A</award-id><principal-award-recipient><name><surname>Lin</surname><given-names>Chun-Yu</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>International Collaborative Research Program of Institute for Chemical Research, Kyoto University</institution></funding-source><award-id>N/A</award-id><principal-award-recipient><name><surname>Lin</surname><given-names>Chun-Yu</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001809</institution-id><institution>National Natural Science Foundation of China</institution></institution-wrap></funding-source><award-id>62002329</award-id><principal-award-recipient><name><surname>Guo</surname><given-names>Wei-Feng</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100004605</institution-id><institution>Zhengzhou University</institution></institution-wrap></funding-source><award-id>32211739</award-id><principal-award-recipient><name><surname>Guo</surname><given-names>Wei-Feng</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>Key scientific and technological project of Henan Province</institution></funding-source><award-id>212102310083</award-id><principal-award-recipient><name><surname>Guo</surname><given-names>Wei-Feng</given-names></name></principal-award-recipient></award-group></funding-group><funding-group><award-group><funding-source><institution>Henan postdoctoral research startup project in 2020</institution></funding-source><award-id>N/A</award-id><principal-award-recipient><name><surname>Guo</surname><given-names>Wei-Feng</given-names></name></principal-award-recipient></award-group></funding-group><custom-meta-group><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>&#x000a9; The Author(s) 2021</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="Sec1"><title>Background</title><p id="Par12">Cancer is a genetic disease, but not all genes are related to cancer. By almost universal consensus, cancer is now viewed as resulting from changes in some key regulatory genes&#x000a0;[<xref ref-type="bibr" rid="CR1">1</xref>]. At present, researchers have defined several kinds of cancer-related gene sets. One widely used kind of gene set is that of cancer driver genes, which are defined as genes whose mutations increase net cell growth under the specific microenvironmental conditions that exist in the cell in vivo. This kind of gene can be predicted by finding &#x02018;significantly mutated genes&#x02019;, whose mutation rates are significantly higher than the presumed background somatic mutation rate &#x000a0;[<xref ref-type="bibr" rid="CR2">2</xref>&#x02013;<xref ref-type="bibr" rid="CR4">4</xref>]. However, since it is difficult to construct a reliable background mutation model&#x000a0;[<xref ref-type="bibr" rid="CR5">5</xref>], selecting gold-standard driver genes by frequency-based methods is difficult. Another kind of cancer-related genes are so-called &#x02018;cancer genes&#x02019;, including oncogenes, which function as positive growth regulators, and tumour suppressor genes (TSGs), which function as negative growth regulators. These genes are directly related to the phenotypes of tumour and normal genes and can be predicted by differential gene expression analyses. However, some &#x02018;dark&#x02019; genes play important roles at the network level but are generally ignored by traditional differential gene expression analyses&#x000a0;[<xref ref-type="bibr" rid="CR6">6</xref>, <xref ref-type="bibr" rid="CR7">7</xref>].</p><p id="Par13">By using graph theory algorithms, we can find critical vertices to control a network. For example,&#x000a0;[<xref ref-type="bibr" rid="CR8">8</xref>] developed a feedback-based framework that provides realizable node overrides that steer a system towards one of its natural long-term dynamic behaviours;&#x000a0;[<xref ref-type="bibr" rid="CR9">9</xref>] provided a rational criterion for selecting key molecules to control a system with a feedback vertex set (FVS);&#x000a0;[<xref ref-type="bibr" rid="CR10">10</xref>] proposed a network control strategy to find driver mutations that drive a regulation network from the normal state to a disease state; and&#x000a0;[<xref ref-type="bibr" rid="CR11">11</xref>] considered applying minimum feedback vertex sets (MFVS) to real biologically directed complex networks and found essential proteins in both <italic>Drosophila melanogaster</italic> and <italic>Homo sapiens</italic> organisms.</p><p id="Par14">Given a directed network, a feedback vertex set (FVS) is a set of vertices whose removal leaves the remaining network acyclic. The minimum feedback vertex set (MFVS) is a kind of FVS that has the minimum size among all possible FVSs. The MFVS problem has been proven to be NP-complete&#x000a0;[<xref ref-type="bibr" rid="CR12">12</xref>]. There already exist many algorithms for solving the MFVS problem, including approximation algorithms&#x000a0;[<xref ref-type="bibr" rid="CR13">13</xref>], randomized algorithms&#x000a0;[<xref ref-type="bibr" rid="CR14">14</xref>], parameterized algorithms&#x000a0;[<xref ref-type="bibr" rid="CR15">15</xref>] and exact algorithms&#x000a0;[<xref ref-type="bibr" rid="CR16">16</xref>, <xref ref-type="bibr" rid="CR17">17</xref>].</p><p id="Par15">Generally, a network can have multiple MFVSs. Traditional MFVS algorithms ignore the differences among possible MFVSs, and the output is usually random. This randomness leads to the instability of network analysis methods in practice. To find the best output from multiple MFVSs, in this paper, we consider a variation of the MFVS problem, i.e., each vertex is assigned a weight, and the output is the maximum total weighted MFVS. The assigned weight should reflect the significance of the corresponding vertex, which may involve some biological data from other studies (for example, in our experiments, we utilize the differential expression value to compute the weights). We define this problem as a weighted MFVS (WMFVS) problem.</p><p id="Par16">To solve the WMFVS problem, we modified an exact algorithm from&#x000a0;[<xref ref-type="bibr" rid="CR17">17</xref>], which first compresses the original graph&#x000a0;[<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR19">19</xref>] to reduce the number of vertices and arcs and then utilizes an integer linear programming (ILP) method for the compressed graph. Our WMFVS method can be roughly separated into three parts, i.e., graph compression, MFVS size determination and output optimization. The first two parts use the same idea as&#x000a0;[<xref ref-type="bibr" rid="CR17">17</xref>], and the third part uses the modified ILP method to select the maximum weighted MFVS.</p><p id="Par17">Furthermore, we consider a variation of the WMFVS method that pays more attention to the total weight of an FVS than to its size; i.e., it finds the maximum-weighted FVS. We call this method WFVS. In the next sections, we can see that WMFVS has a higher precision than WFVS, while WFVS has an advantage in recall.</p></sec><sec id="Sec2"><title>Results</title><sec id="Sec3"><title>Data sets</title><p id="Par18">In this study, we used the directed human protein interaction network&#x000a0;[<xref ref-type="bibr" rid="CR20">20</xref>] for the analyses; it contains 6338 genes (vertices) and 34814 directed interactions (arcs). To evaluate the relative prediction accuracies for cancer genes between our methods and existing methods, we collected cancer-related gene sets from five public databases: ONGene&#x000a0;[<xref ref-type="bibr" rid="CR21">21</xref>], TSGene&#x000a0;[<xref ref-type="bibr" rid="CR22">22</xref>], CGC&#x000a0;[<xref ref-type="bibr" rid="CR23">23</xref>], NCG&#x000a0;[<xref ref-type="bibr" rid="CR24">24</xref>] and MSigDB C6&#x000a0;[<xref ref-type="bibr" rid="CR25">25</xref>]. Since not all genes from the data sets are contained in the directed human protein interaction network, we filtered the common genes in both a certain data set and the network. The sizes of these data sets are shown in Table&#x000a0;<xref rid="Tab1" ref-type="table">1</xref>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Size of each data set and the number of genes contained in the network (common genes)</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">ONGene</th><th align="left">TSGene</th><th align="left">CGC</th><th align="left">NCG</th><th align="left">MSigDB</th></tr></thead><tbody><tr><td align="left">Number of genes</td><td align="left">803</td><td align="left">1217</td><td align="left">723</td><td align="left">2372</td><td align="left">10,962</td></tr><tr><td align="left">Common genes</td><td align="left">490</td><td align="left">641</td><td align="left">525</td><td align="left">1210</td><td align="left">4184</td></tr></tbody></table></table-wrap></p><p id="Par19">In the rest of this paper, when we calculate the recall of various methods, we consider only the size of the common gene sets.</p></sec><sec id="Sec4"><title>Weight definition</title><p id="Par20">To define the weights of genes, we first downloaded the RNA-seq data from TCGA&#x000a0;[<xref ref-type="bibr" rid="CR26">26</xref>], which contains gene expression data from 1102 breast tumour samples and 113 normal samples. Next, the counts of level 3 RNASeqV2 data were processed and transformed before being used for further analysis&#x000a0;[<xref ref-type="bibr" rid="CR27">27</xref>]. Specifically, we used the fold change (FC) value (with the binary logarithm and absolute value) between tumour and normal samples as the weight of each vertex (gene). For a specific gene <italic>v</italic>, its weight is calculated by the following formula:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} v.w=\left| \frac{\Sigma _{i=1}^n \log _2 T_i}{n}-\frac{\Sigma _{j=1}^m \log _2 N_j}{m}\right| \end{aligned}$$\end{document}</tex-math><mml:math id="M2" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>v</mml:mi><mml:mo>.</mml:mo><mml:mi>w</mml:mi><mml:mo>=</mml:mo><mml:mfenced close="|" open="|"><mml:mfrac><mml:mrow><mml:msubsup><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:msub><mml:mo>log</mml:mo><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mi>n</mml:mi></mml:mfrac><mml:mo>-</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:msubsup><mml:msub><mml:mo>log</mml:mo><mml:mn>2</mml:mn></mml:msub><mml:msub><mml:mi>N</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow><mml:mi>m</mml:mi></mml:mfrac></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12859_2021_4062_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq1"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$T_i$$\end{document}</tex-math><mml:math id="M4"><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq1.gif"/></alternatives></inline-formula> is the expression value of tumour sample <italic>i</italic>, <inline-formula id="IEq2"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$N_j$$\end{document}</tex-math><mml:math id="M6"><mml:msub><mml:mi>N</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq2.gif"/></alternatives></inline-formula> is the expression value of a normal sample <italic>j</italic>, and <italic>n</italic> and <italic>m</italic> are the numbers of tumour and normal samples, respectively. Intuitively, a high FC value corresponds to a high possibility of a cancer gene. Thus, it is reasonable to use the FC values as the weights of genes.</p><p id="Par21">For the genes that appear in the network but have no expression values in the TCGA data (only 143 genes, 2.3% of the network size; these are called weight-loss genes), we gave them default weights of 0 rather than ignoring them; thus, if such a gene is essential at the topological level, it has the potential to be selected as a cancer gene, which may counteract the disadvantage of the traditional differential expression-based methods in dark gene-revealing and missing-data situations. Finally, all 6338 genes in the graph were weighted. The topological structure of the graph remained the same as in the original protein interaction network.</p></sec><sec id="Sec5"><title>Experiments and evaluation</title><p id="Par22">The whole experiment process is shown in Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1</xref>.<fig id="Fig1"><label>Fig. 1</label><caption><p>The experiment flowchart. The red, blue and green lines correspond to the WMFVS, WFVS and random MFVS pipelines, respectively</p></caption><graphic xlink:href="12859_2021_4062_Fig1_HTML" id="MO2"/></fig></p><p id="Par23">First, we analysed the directed human protein interaction network with traditional MFVSs and obtained a set of 463 vertices. Then, we used our WMFVS method on the same network (the weights were derived from the FC values). We also used the inverses of the weights as the penalty values and applied them to our WFVS method.</p><p id="Par24">Because of the non-uniqueness of the MFVS method, it is not a general evaluation if we consider only one MFVS result. Therefore, we calculated a set of random MFVSs by applying the WMFVS method with randomly shuffled gene weights. First, we planned to compute 1000 random MFVSs for analysis. However, since the Gurobi optimizer (version 8.1.0) does not always output a real optimal solution (e.g., even when we restrict the size of the output to be exactly 463, which is the size of the MFVS, sometimes the sizes of the output are smaller than 463), we filtered the obviously incorrect results and verified all the other outputs as MFVSs. Finally, we obtained 875 approved random MFVSs (since some MFVSs may be lost in the <italic>ignore_w</italic> operation and the MFVSs are not distributed uniformly, not all possible MFVSs have the same possibility of random selection).</p><p id="Par25">The WMFVS and WFVS result data can be found in the supplementary data. The random MFVS data are placed in https://github.com/lrming1993/WMFVS_codes.</p><p id="Par26">To evaluate the results of these three methods, we first checked the graph-level results (see Table&#x000a0;<xref rid="Tab2" ref-type="table">2</xref>).<table-wrap id="Tab2"><label>Table 2</label><caption><p>The graph-level results of each method</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">Output size</th><th align="left">Run time (s)</th><th align="left">Sum weight</th><th align="left">Average weight of each vertex</th></tr></thead><tbody><tr><td align="left">MFVS</td><td align="left">463</td><td align="left">4.0</td><td align="left">319.5</td><td align="left">0.69</td></tr><tr><td align="left">WMFVS</td><td align="left">463</td><td align="left">35.9</td><td align="left">379.3</td><td align="left">0.82</td></tr><tr><td align="left">WFVS</td><td align="left">528</td><td align="left">23.6</td><td align="left">496.4</td><td align="left">0.94</td></tr></tbody></table></table-wrap></p><p id="Par27">The run time of MFVS is due to the use of the traditional non-weighted MFVS method. The sum weight of MFVS uses the average value from 875 randomly weighted WMFVSs.</p><p id="Par28">As we expected, the WMFVS method obtained a better total weight than the traditional MFVS. However, the result of WMFVS is not always better than that of MFVS. The total weight of the output of the traditional MFVS method is random (the output is related to the graph structure but has no relevance to the vertex weights), so it is possible for MFVS to output a highly weighted vertex set, even higher than the weight of the calculated WMFVS (Gurobi may not always give a real optimal result because of its numerical instability). However, our WMFVS method clearly has better stability.</p><p id="Par29">The WFVS method returned an FVS with 528 vertices, which is approximately 14% larger than the size of the MFVS. The selected WFVS has a better average weight than both the MFVS and WMFVS. This result is consistent with our purpose for WFVSs, which focuses on the total weight rather than the size of the FVS.</p><p id="Par30">Then, we used the five prepared cancer-related gene data sets to evaluate the results of these three methods. We verified the recall of the three FVS methods in the five data sets. The results are shown in Table&#x000a0;<xref rid="Tab3" ref-type="table">3</xref> and Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2</xref>.<fig id="Fig2"><label>Fig. 2</label><caption><p>Distributions of the recalls for the random MFVSs (boxplot), the WMFVS method (orange circle), and the WFVS method (cyan circle) on different cancer gene data sets</p></caption><graphic xlink:href="12859_2021_4062_Fig2_HTML" id="MO3"/></fig><table-wrap id="Tab3"><label>Table 3</label><caption><p>The recall of each method in different gene sets</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">ONGene</th><th align="left">TSGene</th><th align="left">CGC</th><th align="left">NCG</th><th align="left">MSigDB</th></tr></thead><tbody><tr><td align="left">MFVS (average)</td><td align="left">20.6%</td><td align="left">14.4%</td><td align="left">13.3%</td><td align="left">13.2%</td><td align="left">7.9%</td></tr><tr><td align="left">WMFVS</td><td align="left">21.8%</td><td align="left">15.4%</td><td align="left">18.8%</td><td align="left">13.6%</td><td align="left">8.1%</td></tr><tr><td align="left">WFVS</td><td align="left">22.2%</td><td align="left">16.5%</td><td align="left">19.0%</td><td align="left">14.1%</td><td align="left">9.6%</td></tr></tbody></table></table-wrap></p><p id="Par31">We can see that WMFVS and WFVS have better recall than traditional MFVS in all five sets, which is a benefit of the well-defined gene weights (especially for WFVS). Furthermore, we calculated the p-values of WMFVS and WFVS for 875 random MFVSs (Table&#x000a0;<xref rid="Tab4" ref-type="table">4</xref>).<table-wrap id="Tab4"><label>Table 4</label><caption><p>The p-values of WMFVS and WFVS for random MFVSs</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">ONGene</th><th align="left">TSGene</th><th align="left">CGC</th><th align="left">NCG</th><th align="left">MSigDB</th></tr></thead><tbody><tr><td align="left">WMFVS</td><td align="left">0.0491</td><td align="left">0.0434</td><td align="left">0.2537</td><td align="left">0.2011</td><td align="left">0.0069</td></tr><tr><td align="left">WFVS</td><td align="left">0.0069</td><td align="left">0.0</td><td align="left">0.1771</td><td align="left">0.0091</td><td align="left">0.0</td></tr></tbody></table></table-wrap></p><p id="Par32">For a certain data set, denote the recall of WMFVS by <inline-formula id="IEq3"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_{WMFVS}$$\end{document}</tex-math><mml:math id="M8"><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi mathvariant="italic">WMFVS</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq3.gif"/></alternatives></inline-formula>. The recalls of all random MFVSs compose a set <inline-formula id="IEq4"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_{random}$$\end{document}</tex-math><mml:math id="M10"><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi mathvariant="italic">random</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq4.gif"/></alternatives></inline-formula>. Then the p-value of WMFVS is calculated by the following formula:<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} p_{WMFVS}=\frac{|\{R|R \ge R_{WMFVS}, R \in R_{random}\}|}{|R_{random}|} \end{aligned}$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi mathvariant="italic">WMFVS</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo stretchy="false">|</mml:mo><mml:mo stretchy="false">{</mml:mo><mml:mi>R</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mi>R</mml:mi><mml:mo>&#x02265;</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi mathvariant="italic">WMFVS</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mi>R</mml:mi><mml:mo>&#x02208;</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi mathvariant="italic">random</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">}</mml:mo><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:mrow><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mrow><mml:mi mathvariant="italic">random</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12859_2021_4062_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>The calculation of the p-value of WFVS is the same as above.</p><p id="Par33">Next, as control methods, we considered several other kinds of methods of cancer gene prediction. <list list-type="order"><list-item><p id="Par34">Randomly select 463 genes (select 100 times and take the average performance).</p></list-item><list-item><p id="Par35">Select the 463 highest-weighted genes, which is a traditional differential expression-based method.</p></list-item><list-item><p id="Par36">Select the set of genes that appear in at least 49.5% MFVSs (we used 49.5% since the number of genes was exactly 463).</p></list-item></list>Method (2) uses only weights for classification (i.e., a pure differential expression analysis method), while method (3) uses only graph theoretic results (i.e., a pure network analysis method). Method (3) selects the most common genes that appear in the MFVS. Intuitively, these genes should have great significance in the graph topology. The recalls and precisions of all these methods are listed in Table&#x000a0;<xref rid="Tab5" ref-type="table">5</xref>. Additionally, see Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>.<fig id="Fig3"><label>Fig. 3</label><caption><p>The recalls and precisions of all the methods</p></caption><graphic xlink:href="12859_2021_4062_Fig3_HTML" id="MO5"/></fig><fig id="Fig4"><label>Fig. 4</label><caption><p>The enrichment score of each data set</p></caption><graphic xlink:href="12859_2021_4062_Fig4_HTML" id="MO6"/></fig><table-wrap id="Tab5"><label>Table 5</label><caption><p>The recalls (and precisions) of all the methods</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left"/><th align="left">463 random<break/>genes</th><th align="left">Top 463<break/>weighted genes</th><th align="left">Genes appearing in<break/>49.5% MFVSs</th><th align="left">WMFVS<break/>(size: 463)</th><th align="left">WFVS<break/>(size: 528)</th></tr></thead><tbody><tr><td align="left">ONGene</td><td align="left">7.3% (7.8%)</td><td align="left">10.8% (11.4%)</td><td align="left">20.6% (21.8%)</td><td align="left">21.8% (23.1%)</td><td align="left">22.2% (20.6%)</td></tr><tr><td align="left">TSGene</td><td align="left">7.2% (9.9%)</td><td align="left">10.3% (14.3%)</td><td align="left">14.5% (20.1%)</td><td align="left">15.4% (21.4%)</td><td align="left">16.5% (20.1%)</td></tr><tr><td align="left">CGC</td><td align="left">7.2% (8.2%)</td><td align="left">6.5% (7.3%)</td><td align="left">18.9% (21.4%)</td><td align="left">18.9% (21.4%)</td><td align="left">19.0% (18.9%)</td></tr><tr><td align="left">NCG</td><td align="left">7.3% (19.0%)</td><td align="left">8.4% (22.0%)</td><td align="left">13.4% (35.0%)</td><td align="left">13.6% (35.6%)</td><td align="left">14.1% (32.4%)</td></tr><tr><td align="left">MSigDB</td><td align="left">7.4% (66.5%)</td><td align="left">9.7% (87.5%)</td><td align="left">7.8% (70.8%)</td><td align="left">8.1% (73.4%)</td><td align="left">9.6% (76.3%)</td></tr></tbody></table></table-wrap></p></sec></sec><sec id="Sec6"><title>Discussion</title><sec id="Sec7"><title>Performance and enrichment score</title><p id="Par37">In ONGene, TSGene and MSigDB, both WMFVS and WFVS have good p-values, but for CGC and NCG, the p-value is relatively high. One major reason is that there exists some correlation between the classification metric of the data set and the defined gene weight. To analyse this correlation, we utilized the enrichment score (ES) from GSEA&#x000a0;[<xref ref-type="bibr" rid="CR25">25</xref>], which reflects the degree to which a set <italic>S</italic> is overrepresented at the extremes (top or bottom) of an entire ranked list.</p><p id="Par38">First, we sorted all the genes from the network by weight from high to low. Then, for a certain cancer gene set <italic>S</italic>, we traversed the sorted gene list, increasing a running-sum statistic when we encountered a gene in <italic>S</italic> and decreasing it when we encountered a gene not in <italic>S</italic>. We modified the increment and decrement value to ensure that the running sum was 0 at the end of the gene list. The enrichment scores of the five data sets are shown in Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4</xref>.</p><p id="Par39">It is easy to see that the ONGene, TSGene and MSigDB data sets are significantly enriched at the tops of the lists. Although NCG seems enriched at the top, its ES is relatively low; the ES of CGC is even worse than that of NCG. The best enriched data set is MSigDB. Since this data set was constructed directly from microarray gene expression data from cancer gene perturbations, it is closely related to differential expression values. The ES value explains the different performances of WMFVS and WFVS in different data sets.</p><p id="Par40">Table&#x000a0;<xref rid="Tab5" ref-type="table">5</xref> and Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref> show that, except in MSigDB, WMFVS has the best precision and WFVS has the best recall. In MSigDB, cancer genes are closely related to the differential expression values of genes in breast cancer, leading to a precision of 87.5% for the simple weight-based method (i.e., method (2)). In this case, integration of the network structure may decrease the precision. However, in most cases, it is hard to find such a closely related metric for classification. We can observe that in other data sets, method (2) performs worse than the other methods. The results support the effectiveness of our WMFVS and WFVS methods.</p></sec><sec id="Sec8"><title>Dark genes</title><p id="Par41">As mentioned previously, traditional differential expression-based methods are not able to find graph-level important genes that have low differential expression values, i.e., dark genes. In our research, we defined a dark gene as a gene that has a relatively low weight (i.e., a low differential expression value) but is recorded as a cancer gene in the cancer gene data base(s). Specifically, we first derived the differentially expressed genes (DEGs) by using the criteria of <inline-formula id="IEq5"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$|\log _2 FC|\ge 1$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mo>log</mml:mo><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mi>F</mml:mi><mml:mi>C</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mo>&#x02265;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq5.gif"/></alternatives></inline-formula> and adjusted p-value <inline-formula id="IEq6"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\le 0.05$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:mo>&#x02264;</mml:mo><mml:mn>0.05</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq6.gif"/></alternatives></inline-formula> from the TCGA breast cancer RNA-seq data, where <italic>FC</italic> is the fold change value of a certain gene. Based on these criteria, we found 4245 DEGs (called the DEG set). Next, we curated the dark gene set from each cancer gene data set by excluding these DEGs.</p><p id="Par42">In our experiments, we further selected the top 463 of the highest-weighted genes (i.e., the most differentially expressed genes; called the top-463 DEG set) to avoid an unbalanced gene number in comparison to the WMFVSs and WFVSs identified by the WMFVS and WFVS methods, respectively. For each of the cancer gene data sets, the precisions of the all-DEG set, top-463 DEG set, WMFVS and WFVS are shown in Fig.&#x000a0;<xref rid="Fig5" ref-type="fig">5</xref>.<fig id="Fig5"><label>Fig. 5</label><caption><p>Comparison of the precision of the all-DEG set, top-463 DEG set, WMFVS set and WFVS set in five different cancer gene data sets. &#x02018;DG&#x02019; and &#x02018;NDG&#x02019; represent the ratios of dark genes and non-dark genes, respectively. Note that the all-DEG and the top-463 DEG sets contain no dark genes</p></caption><graphic xlink:href="12859_2021_4062_Fig5_HTML" id="MO7"/></fig></p><p id="Par43">Figure&#x000a0;<xref rid="Fig5" ref-type="fig">5</xref> shows that our WMFVS and WFVS methods display better precision than the traditional DEG-based method (i.e., the all-DEG set and the top-463 DEG set) in four of five cancer gene data sets. Moreover, approximately 60&#x02013;70% of the genes are dark genes, which were detected by using our WMFVS and WFVS methods but ignored by the traditional DEG method. Even for the MSigDB C6 data set, which was generated directly from microarray data or from internal unpublished profiling experiments involving the perturbation of known cancer genes, the WMFVS and WFVS methods also have a good ability to detect dark genes. In summary, our WMFVS and WFVS methods have an advantage in identifying dark genes that are hard to find by using traditional DEG methods.</p></sec><sec id="Sec9"><title>Missing-data cases</title><p id="Par44">In this study, to retain the topological structure of the network, the weight-loss genes are assigned default weights of 0 rather than being removed. By further analysis, we found 3 weight-loss genes (i.e., CDC2, ZBTB8 and TADA3L) included in the WMFVS result, 7 weight-loss genes (i.e., CDC2, ZBTB8, RhoGDI, TADA3L, RNF12, NP and MAP3K7IP1) contained in at least one of the 875 random MFVS results, and no weight-loss genes in the WFVS result. In particular, CDC2 and ZBTB8 were included in all the random MFVS results as well as in the WMFVS result. The CDC2 gene is related to the highly conserved protein CDK1, which functions as a serine/threonine kinase and is a key player in cell cycle regulation&#x000a0;[<xref ref-type="bibr" rid="CR28">28</xref>]. The CDC2 gene is also considered a cancer-related gene whose overexpression may play an important role in human breast carcinogenesis&#x000a0;[<xref ref-type="bibr" rid="CR29">29</xref>]. While little is known about the ZBTB8 gene, the same ZBTB family protein, ZBTB7A, has been implicated in high expression in cancer tissue and the breast cancer cell lines MDA-MB-231 and MCF-7&#x000a0;[<xref ref-type="bibr" rid="CR30">30</xref>], suggesting that ZBTB8 may act as a transcriptional repressor or be involved in tumorigenesis. The uncovering of CDC2 and ZBTB8 genes illustrates that the WMFVS method may address the disadvantage of traditional DEG methods in missing-data cases.</p></sec></sec><sec id="Sec10"><title>Conclusion</title><p id="Par45">We present several new methods for cancer gene prediction. Our WMFVS method uses differential gene expression to select MFVSs, improving the stability of the general MFVS algorithm and obtaining a much better result than the differential gene expression-based method when the weights of the genes are well defined. Our WFVS method is a variant of WMFVS, which aims at finding an FVS in the network that contains the maximum total weight. This method obtains better recall than WMFVS by sacrificing precision. Thus, generally, if the researcher wants to reveal as many potential cancer genes as possible, WFVS is better; if the researcher prefers better precision, then WMFVS is better. Furthermore, since WFVS ignores the restriction of the output size, it focuses more on the vertex weight than WMFVS. Therefore, if the researcher has good confidence in the weight definition, i.e., the weights are closely related to the classification, WFVS will have a better result than WMFVS. We can see this from the data analyses on the MsigDB data set, which has the highest enrichment score on our defined weights. However, in many cases, since we are not sure whether the defined weights are closely related to the classification, using WMFVS will maintain better precision for the prediction.</p><p id="Par46">WMFVS and WFVS take advantage of both bio-data and the network structure. They can be useful in novel cancer gene prediction and evaluation, and the same idea may also be applied to other bioinformatics problems. The main challenge of our methods is the definition of the weights. WMFVS and WFVS can perform very well when the weights are well defined but may display limited performance when the weights are not directly related to the category. Another issue concerns graph compression. In our experiments, the traditional MFVS method analysed the compressed graph (with the <italic>ignore</italic> operation; see details in the next section), which contained 660 vertices and 5604 arcs, and it was efficient and took only approximately 4 seconds to obtain the result. The input graph of WMFVS and WFVS was compressed using the limited <inline-formula id="IEq7"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ignore\_w$$\end{document}</tex-math><mml:math id="M18"><mml:mrow><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mi>n</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>_</mml:mi><mml:mi>w</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq7.gif"/></alternatives></inline-formula> operation (see details in the next section), which contained 2348 vertices and 17283 arcs. Because of the different input scales, WMFVS and WFVS were not as efficient as the simple MFVS method, although the time costs were still acceptable. The development of new algorithms for weighted graph compression is left as future work.</p></sec><sec id="Sec11"><title>Methods</title><sec id="Sec12"><title>Graph compression</title><p id="Par47">In biological networks, a network usually contains tens of thousands of vertices and hundreds of thousands of arcs. In many cases, processing a large network is not practical because of the NP-hardness of the MFVS problem&#x000a0;[<xref ref-type="bibr" rid="CR12">12</xref>]. Generally, we can compress the original graph to a simpler graph that maintains (or can restore) the size of the MFVS of the original graph.</p><p id="Par48">In the following sections, we define <italic>v</italic>.<italic>suc</italic> and <italic>v</italic>.<italic>pre</italic> as the sets of successors and predecessors of vertex <italic>v</italic>, respectively. Let <inline-formula id="IEq8"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M20"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq8.gif"/></alternatives></inline-formula> be a vertex in a network <italic>S</italic>. Consider the following three cases&#x000a0;[<xref ref-type="bibr" rid="CR18">18</xref>]: <list list-type="order"><list-item><p id="Par49"><inline-formula id="IEq9"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i \in v_i.suc$$\end{document}</tex-math><mml:math id="M22"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02208;</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>c</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq9.gif"/></alternatives></inline-formula>, i.e., <inline-formula id="IEq10"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M24"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq10.gif"/></alternatives></inline-formula> has a self-loop; then, <inline-formula id="IEq11"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M26"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq11.gif"/></alternatives></inline-formula> should be in all FVSs, otherwise the self-loop cannot be removed.</p></list-item><list-item><p id="Par50"><inline-formula id="IEq12"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i.suc=\emptyset$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>c</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">&#x02205;</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq12.gif"/></alternatives></inline-formula> (or <inline-formula id="IEq13"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i.pre=\emptyset$$\end{document}</tex-math><mml:math id="M30"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi>p</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">&#x02205;</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq13.gif"/></alternatives></inline-formula>); then, <inline-formula id="IEq14"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M32"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq14.gif"/></alternatives></inline-formula> is not in any MFVS, since it is not in any cycle.</p></list-item><list-item><p id="Par51"><inline-formula id="IEq15"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$|v_i.suc|=1$$\end{document}</tex-math><mml:math id="M34"><mml:mrow><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo>.</mml:mo><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>c</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq15.gif"/></alternatives></inline-formula> (or <inline-formula id="IEq16"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$|v_i.pre|=1$$\end{document}</tex-math><mml:math id="M36"><mml:mrow><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo>.</mml:mo><mml:mi>p</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq16.gif"/></alternatives></inline-formula>); let <inline-formula id="IEq17"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_j$$\end{document}</tex-math><mml:math id="M38"><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq17.gif"/></alternatives></inline-formula> be the only successor (or predecessor, respectively) of <inline-formula id="IEq18"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M40"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq18.gif"/></alternatives></inline-formula>; then, any cycle containing <inline-formula id="IEq19"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M42"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq19.gif"/></alternatives></inline-formula> also contains <inline-formula id="IEq20"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_j$$\end{document}</tex-math><mml:math id="M44"><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq20.gif"/></alternatives></inline-formula>.</p></list-item></list>For C1, we use a temporary list <inline-formula id="IEq21"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta M$$\end{document}</tex-math><mml:math id="M46"><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq21.gif"/></alternatives></inline-formula> to record <inline-formula id="IEq22"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M48"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq22.gif"/></alternatives></inline-formula>; we add <inline-formula id="IEq23"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M50"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq23.gif"/></alternatives></inline-formula> to <inline-formula id="IEq24"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta M$$\end{document}</tex-math><mml:math id="M52"><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq24.gif"/></alternatives></inline-formula> and remove <inline-formula id="IEq25"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M54"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq25.gif"/></alternatives></inline-formula> and all its incoming and outgoing arcs from the graph. We use <inline-formula id="IEq26"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$remove(v_i)$$\end{document}</tex-math><mml:math id="M56"><mml:mrow><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq26.gif"/></alternatives></inline-formula> to denote this removing process.</p><p id="Par52">For C2, since <inline-formula id="IEq27"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M58"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq27.gif"/></alternatives></inline-formula> is not in any MFVS, we can safely use <inline-formula id="IEq28"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$remove(v_i)$$\end{document}</tex-math><mml:math id="M60"><mml:mrow><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq28.gif"/></alternatives></inline-formula> without any change to the possible MFVSs.</p><p id="Par53">For C3, assume <inline-formula id="IEq29"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M62"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq29.gif"/></alternatives></inline-formula> is in some cycle <italic>c</italic>. If we attempt to break <italic>c</italic> by removing <inline-formula id="IEq30"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M64"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq30.gif"/></alternatives></inline-formula>, then it is equally good (sometimes better) to remove <inline-formula id="IEq31"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_j$$\end{document}</tex-math><mml:math id="M66"><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq31.gif"/></alternatives></inline-formula> rather than <inline-formula id="IEq32"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M68"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq32.gif"/></alternatives></inline-formula>. Here, we connect all predecessors of <inline-formula id="IEq33"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M70"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq33.gif"/></alternatives></inline-formula> to all its successors and then use <inline-formula id="IEq34"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$remove(v_i)$$\end{document}</tex-math><mml:math id="M72"><mml:mrow><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>m</mml:mi><mml:mi>o</mml:mi><mml:mi>v</mml:mi><mml:mi>e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq34.gif"/></alternatives></inline-formula>. We denote this connecting and removing operation by <inline-formula id="IEq35"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ignore(v_i,S)$$\end{document}</tex-math><mml:math id="M74"><mml:mrow><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mi>n</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>S</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq35.gif"/></alternatives></inline-formula>, where <italic>S</italic> is the current graph to which <inline-formula id="IEq36"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M76"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq36.gif"/></alternatives></inline-formula> belongs. The procedure is as follows:</p><graphic position="anchor" xlink:href="12859_2021_4062_Figa_HTML" id="MO8"/><p id="Par54">In the above procedure, <italic>v</italic> is a vertex in graph <italic>S</italic>, and <italic>S</italic>.<italic>E</italic> is the arc set of graph <italic>S</italic>. Then we have the following procedure to compress a graph <italic>S</italic>:</p><graphic position="anchor" xlink:href="12859_2021_4062_Figb_HTML" id="MO9"/><p id="Par55">We repeat this procedure until <italic>S</italic> cannot be modified.</p><p id="Par56">Furthermore, we use the strongly connected components (scc&#x02019;s)&#x000a0;[<xref ref-type="bibr" rid="CR17">17</xref>, <xref ref-type="bibr" rid="CR19">19</xref>] to reduce the arcs. Since an arc between two scc&#x02019;s is not in any cycle, the deletion of these arcs will not change any MFVSs. We use <inline-formula id="IEq37"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$compress\_scc(S)$$\end{document}</tex-math><mml:math id="M78"><mml:mrow><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>m</mml:mi><mml:mi>p</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mi>s</mml:mi><mml:mi>_</mml:mi><mml:mi>s</mml:mi><mml:mi>c</mml:mi><mml:mi>c</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>S</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq37.gif"/></alternatives></inline-formula> to denote the operation that removes all arcs between two different scc&#x02019;s in <italic>S</italic>. The whole graph compressing procedure is as follows:</p><graphic position="anchor" xlink:href="12859_2021_4062_Figc_HTML" id="MO10"/><p id="Par57">The returned <inline-formula id="IEq38"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta M$$\end{document}</tex-math><mml:math id="M80"><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq38.gif"/></alternatives></inline-formula> contains the vertices that are always in any MFVS, and the union of <inline-formula id="IEq39"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Delta M$$\end{document}</tex-math><mml:math id="M82"><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq39.gif"/></alternatives></inline-formula> and any MFVS of the compressed graph will be an MFVS of the original graph.</p><p id="Par58">Note that not all MFVSs of the original graph can be obtained from the above method. Some MFVSs are lost in the <italic>ignore</italic> operation, while in a weighted MFVS problem, the lost MFVSs may have the maximum weight. For the weighted case, we modify the <italic>ignore</italic> operation to consider the weights of vertices (only for positive-weighted cases). The following method ensures that the maximum-weight MFVS (the WMFVS) will not be lost:</p><graphic position="anchor" xlink:href="12859_2021_4062_Figd_HTML" id="MO11"/><p id="Par59">where <italic>v</italic>.<italic>w</italic> denotes the weight of vertex <italic>v</italic>.</p><sec id="FPar1"><title>Theorem 1</title><p id="Par60"><italic>When the weights of the vertices are positive, the vertices ignored in the</italic>
+<inline-formula id="IEq40"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ignore\_w$$\end{document}</tex-math><mml:math id="M84"><mml:mrow><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mi>n</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>_</mml:mi><mml:mi>w</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq40.gif"/></alternatives></inline-formula>
+<italic>procedure are not in any WMFVS.</italic></p></sec><sec id="FPar2"><title>Proof</title><p id="Par61">Assume <inline-formula id="IEq41"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v.pre=\{v'\}$$\end{document}</tex-math><mml:math id="M86"><mml:mrow><mml:mi>v</mml:mi><mml:mo>.</mml:mo><mml:mi>p</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false">{</mml:mo><mml:msup><mml:mi>v</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo stretchy="false">}</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq41.gif"/></alternatives></inline-formula>, <inline-formula id="IEq42"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v.w&#x0003c;v'.w$$\end{document}</tex-math><mml:math id="M88"><mml:mrow><mml:mi>v</mml:mi><mml:mo>.</mml:mo><mml:mi>w</mml:mi><mml:mo>&#x0003c;</mml:mo><mml:msup><mml:mi>v</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo>.</mml:mo><mml:mi>w</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq42.gif"/></alternatives></inline-formula>, and <italic>v</italic> belongs to a WMFVS <italic>M</italic>. Then, <inline-formula id="IEq43"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v' \notin M$$\end{document}</tex-math><mml:math id="M90"><mml:mrow><mml:msup><mml:mi>v</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo>&#x02209;</mml:mo><mml:mi>M</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq43.gif"/></alternatives></inline-formula>, otherwise <inline-formula id="IEq44"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M':=M-\{v\}$$\end{document}</tex-math><mml:math id="M92"><mml:mrow><mml:msup><mml:mi>M</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:mi>M</mml:mi><mml:mo>-</mml:mo><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:mi>v</mml:mi><mml:mo stretchy="false">}</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq44.gif"/></alternatives></inline-formula> is still an FVS, which has fewer vertices than an MFVS.</p><p id="Par62">Now consider <inline-formula id="IEq45"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M'':=(M-\{v\}) \cup \{v'\}$$\end{document}</tex-math><mml:math id="M94"><mml:mrow><mml:msup><mml:mi>M</mml:mi><mml:mrow><mml:mo>&#x02032;</mml:mo><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>M</mml:mi><mml:mo>-</mml:mo><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:mi>v</mml:mi><mml:mo stretchy="false">}</mml:mo></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x0222a;</mml:mo><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:msup><mml:mi>v</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo stretchy="false">}</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq45.gif"/></alternatives></inline-formula>. It is obvious that <inline-formula id="IEq46"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$M''$$\end{document}</tex-math><mml:math id="M96"><mml:msup><mml:mi>M</mml:mi><mml:mrow><mml:mo>&#x02032;</mml:mo><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq46.gif"/></alternatives></inline-formula> is an MFVS. Since <inline-formula id="IEq47"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v'.w&#x0003e;v.w$$\end{document}</tex-math><mml:math id="M98"><mml:mrow><mml:msup><mml:mi>v</mml:mi><mml:mo>&#x02032;</mml:mo></mml:msup><mml:mo>.</mml:mo><mml:mi>w</mml:mi><mml:mo>&#x0003e;</mml:mo><mml:mi>v</mml:mi><mml:mo>.</mml:mo><mml:mi>w</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq47.gif"/></alternatives></inline-formula>, we have <inline-formula id="IEq48"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Sigma _{v_i \in M} v_i.w&#x0003c; \Sigma _{v_j \in M''} v_j.w.$$\end{document}</tex-math><mml:math id="M100"><mml:mrow><mml:msub><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02208;</mml:mo><mml:mi>M</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi>w</mml:mi><mml:mo>&#x0003c;</mml:mo><mml:msub><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>&#x02208;</mml:mo><mml:msup><mml:mi>M</mml:mi><mml:mrow><mml:mo>&#x02032;</mml:mo><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi>w</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq48.gif"/></alternatives></inline-formula> Thus, <italic>M</italic> cannot be a WMFVS, i.e., if <italic>v</italic> has only one predecessor and the weight of <italic>v</italic> is less than that of the predecessor, then <italic>v</italic> does not belong to any WMFVS.</p><p id="Par63">The proof is similar when <italic>v</italic> has only one successor and the weight of <italic>v</italic> is less than that of the successor. <inline-formula id="IEq49"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\square$$\end{document}</tex-math><mml:math id="M102"><mml:mo>&#x025a1;</mml:mo></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq49.gif"/></alternatives></inline-formula></p></sec></sec><sec id="Sec13"><title>ILP formulation for MFVS and WMFVS</title><p id="Par64">After the compressing procedure, if the compressed graph is not empty, we can use an ILP method&#x000a0;[<xref ref-type="bibr" rid="CR17">17</xref>] to solve the remaining MFVS problem. For each remaining vertex <inline-formula id="IEq50"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M104"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq50.gif"/></alternatives></inline-formula>, we add two parameters <inline-formula id="IEq51"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x_i$$\end{document}</tex-math><mml:math id="M106"><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq51.gif"/></alternatives></inline-formula> (Boolean) and <inline-formula id="IEq52"><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_i$$\end{document}</tex-math><mml:math id="M108"><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq52.gif"/></alternatives></inline-formula> (integer), where <inline-formula id="IEq53"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$x_i$$\end{document}</tex-math><mml:math id="M110"><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq53.gif"/></alternatives></inline-formula> denotes whether <inline-formula id="IEq54"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i$$\end{document}</tex-math><mml:math id="M112"><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq54.gif"/></alternatives></inline-formula> is included in the output MFVS result and <inline-formula id="IEq55"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_i$$\end{document}</tex-math><mml:math id="M114"><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq55.gif"/></alternatives></inline-formula> is a temporary parameter used in the ILP. The ILP formulation is as follows:</p><p id="Par65"><bold>ILP1:</bold><disp-formula id="Equ3"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{*{20}c} \textbf{Minimize} &#x00026;  \Sigma x_i \\ \textbf{Subject to} &#x00026;  k_i-k_j+nx_i \ge 1 \: \forall (v_i,v_j)\in E  \\  &#x00026; \textbf{where} \: 0 \le k_i \le n-1 \: \textbf{and} \: x_i \: \textbf{is Boolean} \end{array}$$\end{document}</tex-math><mml:math id="M116" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi mathvariant="bold">Minimize</mml:mi></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:mi mathvariant="bold">Subject</mml:mi><mml:mi mathvariant="bold">to</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>n</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02265;</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.222222em"/><mml:mo>&#x02200;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x02208;</mml:mo><mml:mi>E</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="bold">where</mml:mi><mml:mspace width="0.222222em"/><mml:mn>0</mml:mn><mml:mo>&#x02264;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02264;</mml:mo><mml:mi>n</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.222222em"/><mml:mi mathvariant="bold">and</mml:mi><mml:mspace width="0.222222em"/><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mspace width="0.222222em"/><mml:mi mathvariant="bold">is</mml:mi><mml:mi mathvariant="bold">Boolean</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12859_2021_4062_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <italic>E</italic> is the arc set of the remaining graph.</p><p id="Par66">These constraints ensure that the selected vertices compose an FVS of <italic>S</italic>, while the objective function means that the selected FVS has a minimum size, i.e., it is an MFVS.</p><p id="Par67">Now we consider the weighted case of the MFVS problem. Given a graph <italic>S</italic>, where each vertex <inline-formula id="IEq56"><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i \in S.V$$\end{document}</tex-math><mml:math id="M118"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02208;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo><mml:mi>V</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq56.gif"/></alternatives></inline-formula> has a weight <inline-formula id="IEq57"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i.w$$\end{document}</tex-math><mml:math id="M120"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi>w</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq57.gif"/></alternatives></inline-formula> (in what follows, we use <inline-formula id="IEq58"><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_i$$\end{document}</tex-math><mml:math id="M122"><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq58.gif"/></alternatives></inline-formula> to denote <inline-formula id="IEq59"><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i.w$$\end{document}</tex-math><mml:math id="M124"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi>w</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq59.gif"/></alternatives></inline-formula> if there is no ambiguity), the WMFVS problem is to find an MFVS of <italic>S</italic> that has the maximum total weight. Assuming we already know the size <italic>s</italic> of the MFVS (by ILP1 or some estimation method such as that of&#x000a0;[<xref ref-type="bibr" rid="CR31">31</xref>] or&#x000a0;[<xref ref-type="bibr" rid="CR32">32</xref>]), the following formulation optimizes the selected MFVS as a WMFVS:</p><p id="Par68"><bold>ILP2:</bold><disp-formula id="Equ4"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{*{20}c} \textbf{Maximize} &#x00026;  \Sigma w_i x_i  \\ \textbf{Subject to} &#x00026;  \Sigma x_i=s \\ &#x00026;  k_i-k_j+nx_i \ge 1 \: \forall (v_i,v_j)\in E  \\ &#x00026;  \textbf{where} \: 0 \le k_i \le n-1 \: \textbf{and} \: x_i \: \textbf{is \,Boolean}  \end{array}$$\end{document}</tex-math><mml:math id="M126" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi mathvariant="bold">Maximize</mml:mi></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:mi mathvariant="bold">Subject</mml:mi><mml:mi mathvariant="bold">to</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd><mml:mtd><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>n</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02265;</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.222222em"/><mml:mo>&#x02200;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x02208;</mml:mo><mml:mi>E</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="bold">where</mml:mi><mml:mspace width="0.222222em"/><mml:mn>0</mml:mn><mml:mo>&#x02264;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02264;</mml:mo><mml:mi>n</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.222222em"/><mml:mi mathvariant="bold">and</mml:mi><mml:mspace width="0.222222em"/><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mspace width="0.222222em"/><mml:mi mathvariant="bold">is</mml:mi><mml:mspace width="0.166667em"/><mml:mi mathvariant="bold">Boolean</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12859_2021_4062_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>The constraint <inline-formula id="IEq60"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Sigma x_i =s$$\end{document}</tex-math><mml:math id="M128"><mml:mrow><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq60.gif"/></alternatives></inline-formula> ensures that the selected FVS is an MFVS, while the objective function selects the maximum-weight MFVS among all possible MFVSs.</p></sec><sec id="Sec14"><title>Maximum-weight FVS</title><p id="Par69">In the WMFVS problem, we first restrict the size of the FVS to be minimal and then select the maximum-weight MFVS as the objective. However, sometimes the weight may be more important than the size of an FVS. As an example, in Fig.&#x000a0;<xref rid="Fig6" ref-type="fig">6</xref>, the WMFVS is <inline-formula id="IEq61"><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\{b\}$$\end{document}</tex-math><mml:math id="M130"><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:mi>b</mml:mi><mml:mo stretchy="false">}</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq61.gif"/></alternatives></inline-formula>, which has a total weight of <inline-formula id="IEq62"><alternatives><tex-math id="M131">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$-20$$\end{document}</tex-math><mml:math id="M132"><mml:mrow><mml:mo>-</mml:mo><mml:mn>20</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq62.gif"/></alternatives></inline-formula>. If we do not restrict the minimum size of the set, the FVS <inline-formula id="IEq63"><alternatives><tex-math id="M133">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\{a,c\}$$\end{document}</tex-math><mml:math id="M134"><mml:mrow><mml:mo stretchy="false">{</mml:mo><mml:mi>a</mml:mi><mml:mo>,</mml:mo><mml:mi>c</mml:mi><mml:mo stretchy="false">}</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq63.gif"/></alternatives></inline-formula>, which has weight <inline-formula id="IEq64"><alternatives><tex-math id="M135">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$-4$$\end{document}</tex-math><mml:math id="M136"><mml:mrow><mml:mo>-</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq64.gif"/></alternatives></inline-formula>, seems better.<fig id="Fig6"><label>Fig. 6</label><caption><p>A simple example. In this case, the total weight may be more important than the size of an FVS</p></caption><graphic xlink:href="12859_2021_4062_Fig6_HTML" id="MO14"/></fig></p><p id="Par70">Here we define a variant of the WMFVS problem, which ignores the exact size of the output vertex set, as follows: Given a graph <italic>S</italic>, where each vertex <inline-formula id="IEq65"><alternatives><tex-math id="M137">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i \in S.V$$\end{document}</tex-math><mml:math id="M138"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02208;</mml:mo><mml:mi>S</mml:mi><mml:mo>.</mml:mo><mml:mi>V</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq65.gif"/></alternatives></inline-formula> has a weight <inline-formula id="IEq66"><alternatives><tex-math id="M139">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$v_i.w$$\end{document}</tex-math><mml:math id="M140"><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>.</mml:mo><mml:mi>w</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq66.gif"/></alternatives></inline-formula> (or <inline-formula id="IEq67"><alternatives><tex-math id="M141">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_i$$\end{document}</tex-math><mml:math id="M142"><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq67.gif"/></alternatives></inline-formula>), the weighted FVS (WFVS) problem is to find an FVS of <italic>S</italic> that has the maximum total weight. We can simply use a similar ILP as ILP2 to solve the WFVS problem.</p><p id="Par71"><bold>ILP3:</bold><disp-formula id="Equ5"><alternatives><tex-math id="M143">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{*{20}c} \textbf{Maximize} &#x00026;  \Sigma w_i x_i  \\ \textbf{Subject to} &#x00026;  k_i-k_j+nx_i \ge 1 \: \forall (v_i,v_j)\in E  \\ &#x00026;  \textbf{where} \: 0 \le k_i \le n-1 \: \textbf{and} \: x_i \: \textbf{is\, Boolean} \end{array}$$\end{document}</tex-math><mml:math id="M144" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi mathvariant="bold">Maximize</mml:mi></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:mi mathvariant="bold">Subject</mml:mi><mml:mi mathvariant="bold">to</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>n</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02265;</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.222222em"/><mml:mo>&#x02200;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x02208;</mml:mo><mml:mi>E</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="bold">where</mml:mi><mml:mspace width="0.222222em"/><mml:mn>0</mml:mn><mml:mo>&#x02264;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02264;</mml:mo><mml:mi>n</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.222222em"/><mml:mi mathvariant="bold">and</mml:mi><mml:mspace width="0.222222em"/><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mspace width="0.222222em"/><mml:mi mathvariant="bold">is</mml:mi><mml:mspace width="0.166667em"/><mml:mi mathvariant="bold">Boolean</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12859_2021_4062_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>However, simply removing the constraint <inline-formula id="IEq68"><alternatives><tex-math id="M145">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Sigma x_i =s$$\end{document}</tex-math><mml:math id="M146"><mml:mrow><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>s</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq68.gif"/></alternatives></inline-formula> may lead to a trivial solution when the weights of the vertices are positive, since the set of all vertices will always be a WFVS. Here we consider two methods to avoid the trivial solution: <list list-type="order"><list-item><p id="Par72">Modify all weights to be negative. Assume the maximum weight of the vertices is <inline-formula id="IEq69"><alternatives><tex-math id="M147">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_m$$\end{document}</tex-math><mml:math id="M148"><mml:msub><mml:mi>w</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq69.gif"/></alternatives></inline-formula>; then, for each weight <inline-formula id="IEq70"><alternatives><tex-math id="M149">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_i$$\end{document}</tex-math><mml:math id="M150"><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq70.gif"/></alternatives></inline-formula>, modify it to <inline-formula id="IEq71"><alternatives><tex-math id="M151">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_i:=w_i-w_m-\epsilon$$\end{document}</tex-math><mml:math id="M152"><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>:</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>w</mml:mi><mml:mi>m</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:mi>&#x003f5;</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq71.gif"/></alternatives></inline-formula>. Here, <inline-formula id="IEq72"><alternatives><tex-math id="M153">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\epsilon$$\end{document}</tex-math><mml:math id="M154"><mml:mi>&#x003f5;</mml:mi></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq72.gif"/></alternatives></inline-formula> is a small positive constant to ensure that all weights are negative. The ILP is the same as ILP3.</p></list-item><list-item><p id="Par73">Reverse the weights to penalty values. We can simply do this by taking the inverse of each <inline-formula id="IEq73"><alternatives><tex-math id="M155">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_i$$\end{document}</tex-math><mml:math id="M156"><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq73.gif"/></alternatives></inline-formula>, i.e., <disp-formula id="Equ6"><alternatives><tex-math id="M157">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} p_i=\left\{ \begin{array}{ll} \frac{1}{w_i} &#x00026;{} \mathbf{if} \, w_i \ne 0 \\ \infty &#x00026;{} \mathbf{if} \, w_i = 0 \end{array} \right. \end{aligned}$$\end{document}</tex-math><mml:math id="M158" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mfrac><mml:mn>1</mml:mn><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfrac></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mi mathvariant="bold">if</mml:mi><mml:mspace width="0.166667em"/><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02260;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mi>&#x0221e;</mml:mi></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mi mathvariant="bold">if</mml:mi><mml:mspace width="0.166667em"/><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12859_2021_4062_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula> Then, modify the ILP3 formula as follows: <bold>ILP3&#x02019;:</bold><disp-formula id="Equ7"><alternatives><tex-math id="M159">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{*{20}c} \textbf{Minimize} &#x00026;  \Sigma p_i x_i  \\ \textbf{Subject to} &#x00026;  k_i-k_j+nx_i \ge 1 \: \forall (v_i,v_j)\in E\\ &#x00026;  \textbf{where} \: 0 \le k_i \le n-1 \: \textbf{and} \: x_i \: \textbf{is \,Boolean} \end{array}$$\end{document}</tex-math><mml:math id="M160" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi mathvariant="bold">Minimize</mml:mi></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:msub><mml:mi>p</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mrow/><mml:mi mathvariant="bold">Subject</mml:mi><mml:mi mathvariant="bold">to</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>n</mml:mi><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02265;</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.222222em"/><mml:mo>&#x02200;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x02208;</mml:mo><mml:mi>E</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow/></mml:mtd><mml:mtd><mml:mrow><mml:mi mathvariant="bold">where</mml:mi><mml:mspace width="0.222222em"/><mml:mn>0</mml:mn><mml:mo>&#x02264;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02264;</mml:mo><mml:mi>n</mml:mi><mml:mo>-</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.222222em"/><mml:mi mathvariant="bold">and</mml:mi><mml:mspace width="0.222222em"/><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mspace width="0.222222em"/><mml:mi mathvariant="bold">is</mml:mi><mml:mspace width="0.166667em"/><mml:mi mathvariant="bold">Boolean</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12859_2021_4062_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula></p></list-item></list>In our research, we examined both ways of calculating the weights in the WFVS method. We found that the first modification is more unstable when running the ILP process, i.e., more obviously wrong ILP results appeared. Thus, we chose to use the second method to compute the weights in the WFVS method; i.e., we reversed the weights to be penalty values, which are always positive values.</p><p id="Par74">In the second method, we need to avoid the &#x02018;division by zero&#x02019; error. To this end, we used the simple heuristic formula below.</p><p id="Par75">Let <italic>l</italic> be a large number (in our program, we used 65536); then, the penalty is calculated by:<disp-formula id="Equ8"><alternatives><tex-math id="M161">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} p_i=\left\{ \begin{array}{ll} \frac{1}{w_i} &#x00026;{} \mathbf{if} \, w_i \ge \frac{1}{l} \\ l &#x00026;{} \mathbf{if} \, w_i &#x0003c; \frac{1}{l} \end{array} \right. \end{aligned}$$\end{document}</tex-math><mml:math id="M162" display="block"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfenced open="{"><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mfrac><mml:mn>1</mml:mn><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfrac></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mi mathvariant="bold">if</mml:mi><mml:mspace width="0.166667em"/><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02265;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>l</mml:mi></mml:mfrac></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mi>l</mml:mi></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mi mathvariant="bold">if</mml:mi><mml:mspace width="0.166667em"/><mml:msub><mml:mi>w</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x0003c;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>l</mml:mi></mml:mfrac></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="12859_2021_4062_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula></p></sec></sec><sec id="Sec15"><title>Experimental environment</title><p id="Par76">We implemented all the methods in Python 3.7.0 with an Intel(R) Core(TM) i7-7700 CPU and 32.0 GB RAM. The <italic>compress_scc</italic> procedure uses Gabow&#x02019;s algorithm&#x000a0;[<xref ref-type="bibr" rid="CR33">33</xref>]. The ILP processing is based on Gurobi 8.1.0&#x000a0;[<xref ref-type="bibr" rid="CR34">34</xref>].</p></sec><sec sec-type="supplementary-material"><title>Supplementary information</title><sec id="Sec16"><p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="12859_2021_4062_MOESM1_ESM.txt"><caption><p><bold>Additional file 1.</bold> .The data of the edges of the compressed network; the <italic>ignore</italic> operation was used. This file was used for the traditional MFVS computation.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="12859_2021_4062_MOESM2_ESM.txt"><caption><p><bold>Additional file 2.</bold> The data of edges of the compressed network; neither <italic>ignore</italic> nor <italic>ignore_w</italic> was used. This file was used for WFVS computation.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="12859_2021_4062_MOESM3_ESM.txt"><caption><p><bold>Additional file 3.</bold> The data of the edges of the compressed network; the <italic>ignore_w</italic> procedure was used. This file was used for WMFVS computation.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="12859_2021_4062_MOESM4_ESM.txt"><caption><p><bold>Additional file 4.</bold> The weights of all genes in the network.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM5"><media xlink:href="12859_2021_4062_MOESM5_ESM.txt"><caption><p><bold>Additional file 5.</bold> The &#x02206;<italic>M</italic> computed from procedure 3, where the <italic>ignore</italic> operation was used. This file is necessary when using Additional file 1 to compute the MFVS.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM6"><media xlink:href="12859_2021_4062_MOESM6_ESM.txt"><caption><p><bold>Additional file 6.</bold> The &#x02206;<italic>M</italic> computed from procedure 3, where the <italic>ignore_w</italic> operation was used. This file is necessary when using Additional file 3 to compute the WMFVS.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM7"><media xlink:href="12859_2021_4062_MOESM7_ESM.txt"><caption><p><bold>Additional file 7.</bold> The result of the traditional MFVS method.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM8"><media xlink:href="12859_2021_4062_MOESM8_ESM.txt"><caption><p><bold>Additional file 8.</bold> The result of the WMFVS method.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="MOESM9"><media xlink:href="12859_2021_4062_MOESM9_ESM.txt"><caption><p><bold>Additional file 9.</bold> The result of the WFVS method.</p></caption></media></supplementary-material></p></sec></sec></body><back><glossary><title>Abbreviations</title><def-list><def-item><term>MFVS</term><def><p id="Par4">Minimum feedback vertex set</p></def></def-item><def-item><term>WMFVS</term><def><p id="Par5">Weighted minimum feedback vertex set</p></def></def-item><def-item><term>WFVS</term><def><p id="Par6">Maximum weighted feedback vertex set</p></def></def-item><def-item><term>ILP</term><def><p id="Par7">Integer linear programming</p></def></def-item><def-item><term>FC</term><def><p id="Par8">Fold change</p></def></def-item><def-item><term>ES</term><def><p id="Par9">Enrichment score</p></def></def-item><def-item><term>scc</term><def><p id="Par10">Strongly connected component</p></def></def-item><def-item><term>DEG</term><def><p id="Par11">Differentially expressed gene</p></def></def-item></def-list></glossary><fn-group><fn><p><bold>Publisher's Note</bold></p><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></fn></fn-group><ack><title>Acknowledgements</title><p>Not applicable.</p></ack><notes notes-type="author-contribution"><title>Author's contributions</title><p>TA and CL conceived and designed the study. TA and RL designed the algorithms. RL, CL and WG prepared the experimental data. RL performed all the implementations and result analysis. RL produced the first draft. All authors took part in finalizing the manuscript and have approved the submitted draft.</p></notes><notes notes-type="funding-information"><title>Funding</title><p>This work was partially supported by (1) the International Collaborative Research Program of Institute for Chemical Research, Kyoto University, Japan; (2) the Young Scholar Fellowship Program by the Ministry of Science and Technology (MOST) in Taiwan, under Grant MOST 109-2636-B-009-007; (3) the Center for Intelligent Drug Systems and Smart Bio-devices (IDS<inline-formula id="IEq79"><alternatives><tex-math id="M163">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$^2$$\end{document}</tex-math><mml:math id="M164"><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq79.gif"/></alternatives></inline-formula>B) of the Higher Education Sprout Project (HESP) by the Ministry of Education (MOE), Taiwan; (4) the &#x02018;Smart Platform of Dynamic Systems Biology for Therapeutic Development&#x02019; from The Featured Areas Research Center Program within the framework of the HESP by the MOE, Taiwan; (5) the National Natural Science Foundation of China (No. 62002329); (6) the Key scientific and technological projects of Henan Province (212102310083); (7) the Henan postdoctoral research start project in 2020; and (8) the Research start-up funds for top doctors in Zhengzhou University (32211739). The funding bodies did not play any role in the design of the study and collection, analysis, and interpretation of data and in writing the manuscript.</p></notes><notes notes-type="data-availability"><title>Availability of data and materials</title><p>The source code is on GitHub (https://github.com/lrming1993/WMFVS_codes). The random MFVS results can also be found at this URL. All data generated during this study are included in this published article and its supplementary information files.</p></notes><notes><title>Declarations</title><notes id="FPar4"><title>Ethics approval and consent to participate</title><p id="Par77">Not applicable.</p></notes><notes id="FPar5"><title>Consent to publication</title><p id="Par78">Not applicable.</p></notes><notes id="FPar6" notes-type="COI-statement"><title>Competing interests</title><p id="Par79">TA is an Associate Editor of BMC Bioinformatics.</p></notes></notes><ref-list id="Bib1"><title>References</title><ref id="CR1"><label>1.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vogt</surname><given-names>PK</given-names></name></person-group><article-title>Cancer genes</article-title><source>West J Med</source><year>1993</year><volume>158</volume><issue>3</issue><fpage>273</fpage><lpage>278</lpage><?supplied-pmid 8460509?><pub-id pub-id-type="pmid">8460509</pub-id></element-citation></ref><ref id="CR2"><label>2.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Luo</surname><given-names>P</given-names></name><name><surname>Ding</surname><given-names>Y</given-names></name><name><surname>Lei</surname><given-names>X</given-names></name><name><surname>Wu</surname><given-names>FX</given-names></name></person-group><article-title>deepDriver: predicting cancer driver genes based on somatic mutations using deep convolutional neural networks</article-title><source>Front Genet</source><year>2019</year><volume>10</volume><fpage>13</fpage><pub-id pub-id-type="doi">10.3389/fgene.2019.00013</pub-id><pub-id pub-id-type="pmid">30761181</pub-id></element-citation></ref><ref id="CR3"><label>3.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tokheim</surname><given-names>CJ</given-names></name><name><surname>Papadopoulos</surname><given-names>N</given-names></name><name><surname>Kinzler</surname><given-names>KW</given-names></name><name><surname>Vogelstein</surname><given-names>B</given-names></name><name><surname>Karchin</surname><given-names>R</given-names></name></person-group><article-title>Evaluating the evaluation of cancer driver genes</article-title><source>Proc Natl Acad Sci</source><year>2016</year><volume>113</volume><issue>50</issue><fpage>14330</fpage><lpage>14335</lpage><pub-id pub-id-type="doi">10.1073/pnas.1616440113</pub-id><pub-id pub-id-type="pmid">27911828</pub-id></element-citation></ref><ref id="CR4"><label>4.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Parmigiani</surname><given-names>G</given-names></name><name><surname>Boca</surname><given-names>S</given-names></name><name><surname>Lin</surname><given-names>J</given-names></name><name><surname>Kinzler</surname><given-names>KW</given-names></name><name><surname>Velculescu</surname><given-names>V</given-names></name><name><surname>Vogelstein</surname><given-names>B</given-names></name></person-group><article-title>Design and analysis issues in genome-wide somatic mutation studies of cancer</article-title><source>Genomics</source><year>2009</year><volume>93</volume><issue>1</issue><fpage>17</fpage><pub-id pub-id-type="doi">10.1016/j.ygeno.2008.07.005</pub-id><pub-id pub-id-type="pmid">18692126</pub-id></element-citation></ref><ref id="CR5"><label>5.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cheng</surname><given-names>F</given-names></name><name><surname>Zhao</surname><given-names>J</given-names></name><name><surname>Zhao</surname><given-names>Z</given-names></name></person-group><article-title>Advances in computational approaches for prioritizing driver mutations and significantly mutated genes in cancer genomes</article-title><source>Briefings Bioinf</source><year>2016</year><volume>17</volume><issue>4</issue><fpage>642</fpage><lpage>656</lpage><pub-id pub-id-type="doi">10.1093/bib/bbv068</pub-id></element-citation></ref><ref id="CR6"><label>6.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dai</surname><given-names>H</given-names></name><name><surname>Li</surname><given-names>L</given-names></name><name><surname>Zeng</surname><given-names>T</given-names></name><name><surname>Chen</surname><given-names>L</given-names></name></person-group><article-title>Cell-specific network constructed by single-cell RNA sequencing data</article-title><source>Nucleic Acids Res</source><year>2019</year><volume>47</volume><issue>11</issue><fpage>62</fpage><lpage>62</lpage><pub-id pub-id-type="doi">10.1093/nar/gkz172</pub-id></element-citation></ref><ref id="CR7"><label>7.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ebbert</surname><given-names>MT</given-names></name><name><surname>Jensen</surname><given-names>TD</given-names></name><name><surname>Jansen-West</surname><given-names>K</given-names></name><name><surname>Sens</surname><given-names>JP</given-names></name><name><surname>Reddy</surname><given-names>JS</given-names></name><name><surname>Ridge</surname><given-names>PG</given-names></name><name><surname>Kauwe</surname><given-names>JS</given-names></name><name><surname>Belzil</surname><given-names>V</given-names></name><name><surname>Pregent</surname><given-names>L</given-names></name><name><surname>Carrasquillo</surname><given-names>MM</given-names></name><etal/></person-group><article-title>Systematic analysis of dark and camouflaged genes reveals disease-relevant genes hiding in plain sight</article-title><source>Genome Biol</source><year>2019</year><volume>20</volume><issue>1</issue><fpage>97</fpage><pub-id pub-id-type="doi">10.1186/s13059-019-1707-2</pub-id><pub-id pub-id-type="pmid">31104630</pub-id></element-citation></ref><ref id="CR8"><label>8.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Za&#x000f1;udo</surname><given-names>JGT</given-names></name><name><surname>Yang</surname><given-names>G</given-names></name><name><surname>Albert</surname><given-names>R</given-names></name></person-group><article-title>Structure-based control of complex networks with nonlinear dynamics</article-title><source>Proc Natl Acad Sci</source><year>2017</year><volume>114</volume><issue>28</issue><fpage>7234</fpage><lpage>7239</lpage><pub-id pub-id-type="doi">10.1073/pnas.1617387114</pub-id><pub-id pub-id-type="pmid">28655847</pub-id></element-citation></ref><ref id="CR9"><label>9.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mochizuki</surname><given-names>A</given-names></name><name><surname>Fiedler</surname><given-names>B</given-names></name><name><surname>Kurosawa</surname><given-names>G</given-names></name><name><surname>Saito</surname><given-names>D</given-names></name></person-group><article-title>Dynamics and control at feedback vertex sets. II: a faithful monitor to determine the diversity of molecular activities in regulatory networks</article-title><source>J Theor Biol</source><year>2013</year><volume>335</volume><fpage>130</fpage><lpage>146</lpage><pub-id pub-id-type="doi">10.1016/j.jtbi.2013.06.009</pub-id><pub-id pub-id-type="pmid">23774067</pub-id></element-citation></ref><ref id="CR10"><label>10.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Guo</surname><given-names>WF</given-names></name><name><surname>Zhang</surname><given-names>SW</given-names></name><name><surname>Liu</surname><given-names>LL</given-names></name><name><surname>Liu</surname><given-names>F</given-names></name><name><surname>Shi</surname><given-names>QQ</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name><name><surname>Tang</surname><given-names>Y</given-names></name><name><surname>Zeng</surname><given-names>T</given-names></name><name><surname>Chen</surname><given-names>L</given-names></name></person-group><article-title>Discovering personalized driver mutation profiles of single samples in cancer by network control strategy</article-title><source>Bioinformatics</source><year>2018</year><volume>34</volume><issue>11</issue><fpage>1893</fpage><lpage>1903</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/bty006</pub-id><pub-id pub-id-type="pmid">29329368</pub-id></element-citation></ref><ref id="CR11"><label>11.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bao</surname><given-names>Y</given-names></name><name><surname>Hayashida</surname><given-names>M</given-names></name><name><surname>Liu</surname><given-names>P</given-names></name><name><surname>Ishitsuka</surname><given-names>M</given-names></name><name><surname>Nacher</surname><given-names>JC</given-names></name><name><surname>Akutsu</surname><given-names>T</given-names></name></person-group><article-title>Analysis of critical and redundant vertices in controlling directed complex networks using feedback vertex sets</article-title><source>J Comput Biol</source><year>2018</year><volume>25</volume><issue>10</issue><fpage>1071</fpage><lpage>1090</lpage><pub-id pub-id-type="doi">10.1089/cmb.2018.0019</pub-id><pub-id pub-id-type="pmid">30074414</pub-id></element-citation></ref><ref id="CR12"><label>12.</label><element-citation publication-type="book"><person-group person-group-type="author"><name><surname>Garey</surname><given-names>MR</given-names></name><name><surname>Johnson</surname><given-names>DS</given-names></name></person-group><source>Computers and intractability</source><year>1979</year><publisher-loc>San Francisco</publisher-loc><publisher-name>Freeman</publisher-name></element-citation></ref><ref id="CR13"><label>13.</label><mixed-citation publication-type="other">Guruswami V, Lee E. Inapproximability of feedback vertex set for bounded length cycles. In: Electronic colloquium on computational complexity (ECCC), vol. 21; 2014. p. 2</mixed-citation></ref><ref id="CR14"><label>14.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Becker</surname><given-names>A</given-names></name><name><surname>Bar-Yehuda</surname><given-names>R</given-names></name><name><surname>Geiger</surname><given-names>D</given-names></name></person-group><article-title>Randomized algorithms for the loop cutset problem</article-title><source>J Artif Intell Res</source><year>2000</year><volume>12</volume><fpage>219</fpage><lpage>234</lpage><pub-id pub-id-type="doi">10.1613/jair.638</pub-id></element-citation></ref><ref id="CR15"><label>15.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cao</surname><given-names>Y</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name><name><surname>Liu</surname><given-names>Y</given-names></name></person-group><article-title>On feedback vertex set: new measure and new structures</article-title><source>Algorithmica</source><year>2015</year><volume>73</volume><issue>1</issue><fpage>63</fpage><lpage>86</lpage><pub-id pub-id-type="doi">10.1007/s00453-014-9904-6</pub-id></element-citation></ref><ref id="CR16"><label>16.</label><mixed-citation publication-type="other">Fomin FV, Villanger Y. Finding induced subgraphs via minimal triangulations. 2009. arXiv preprint <ext-link ext-link-type="uri" xlink:href="http://arxiv.org/abs/0909.5278">arXiv:0909.5278</ext-link></mixed-citation></ref><ref id="CR17"><label>17.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chakradhar</surname><given-names>ST</given-names></name><name><surname>Balakrishnan</surname><given-names>A</given-names></name><name><surname>Agrawal</surname><given-names>VD</given-names></name></person-group><article-title>An exact algorithm for selecting partial scan flip-flops</article-title><source>J Electron Test</source><year>1995</year><volume>7</volume><issue>1&#x02013;2</issue><fpage>83</fpage><lpage>93</lpage><pub-id pub-id-type="doi">10.1007/BF00993316</pub-id></element-citation></ref><ref id="CR18"><label>18.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lloyd</surname><given-names>EL</given-names></name><name><surname>Soffa</surname><given-names>ML</given-names></name><name><surname>Wang</surname><given-names>CC</given-names></name></person-group><article-title>On locating minimum feedback vertex sets</article-title><source>J Comput Syst Sci</source><year>1988</year><volume>37</volume><issue>3</issue><fpage>292</fpage><lpage>311</lpage><pub-id pub-id-type="doi">10.1016/0022-0000(88)90009-8</pub-id></element-citation></ref><ref id="CR19"><label>19.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname><given-names>G</given-names></name><name><surname>Walford</surname><given-names>R</given-names></name></person-group><article-title>The identification of a minimal feedback vertex set of a directed graph</article-title><source>IEEE Trans Circuits Syst</source><year>1975</year><volume>22</volume><issue>1</issue><fpage>9</fpage><lpage>15</lpage><pub-id pub-id-type="doi">10.1109/TCS.1975.1083961</pub-id></element-citation></ref><ref id="CR20"><label>20.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vinayagam</surname><given-names>A</given-names></name><name><surname>Stelzl</surname><given-names>U</given-names></name><name><surname>Foulle</surname><given-names>R</given-names></name><name><surname>Plassmann</surname><given-names>S</given-names></name><name><surname>Zenkner</surname><given-names>M</given-names></name><name><surname>Timm</surname><given-names>J</given-names></name><name><surname>Assmus</surname><given-names>HE</given-names></name><name><surname>Andrade-Navarro</surname><given-names>MA</given-names></name><name><surname>Wanker</surname><given-names>EE</given-names></name></person-group><article-title>A directed protein interaction network for investigating intracellular signal transduction</article-title><source>Sci Signaling</source><year>2011</year><volume>4</volume><issue>189</issue><fpage>8</fpage><lpage>8</lpage><pub-id pub-id-type="doi">10.1126/scisignal.2001699</pub-id></element-citation></ref><ref id="CR21"><label>21.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liu</surname><given-names>Y</given-names></name><name><surname>Sun</surname><given-names>J</given-names></name><name><surname>Zhao</surname><given-names>M</given-names></name></person-group><article-title>ONGene: a literature-based database for human oncogenes</article-title><source>J Genet Genomics</source><year>2017</year><volume>44</volume><issue>2</issue><fpage>119</fpage><lpage>121</lpage><pub-id pub-id-type="doi">10.1016/j.jgg.2016.12.004</pub-id><pub-id pub-id-type="pmid">28162959</pub-id></element-citation></ref><ref id="CR22"><label>22.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhao</surname><given-names>M</given-names></name><name><surname>Sun</surname><given-names>J</given-names></name><name><surname>Zhao</surname><given-names>Z</given-names></name></person-group><article-title>TSGene: a web resource for tumor suppressor genes</article-title><source>Nucleic Acids Res</source><year>2013</year><volume>41</volume><issue>D1</issue><fpage>970</fpage><lpage>976</lpage><pub-id pub-id-type="doi">10.1093/nar/gks937</pub-id></element-citation></ref><ref id="CR23"><label>23.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sondka</surname><given-names>Z</given-names></name><name><surname>Bamford</surname><given-names>S</given-names></name><name><surname>Cole</surname><given-names>CG</given-names></name><name><surname>Ward</surname><given-names>SA</given-names></name><name><surname>Dunham</surname><given-names>I</given-names></name><name><surname>Forbes</surname><given-names>SA</given-names></name></person-group><article-title>The COSMIC Cancer Gene Census: describing genetic dysfunction across all human cancers</article-title><source>Nat Rev Cancer</source><year>2018</year><volume>18</volume><issue>11</issue><fpage>696</fpage><lpage>705</lpage><pub-id pub-id-type="doi">10.1038/s41568-018-0060-1</pub-id><pub-id pub-id-type="pmid">30293088</pub-id></element-citation></ref><ref id="CR24"><label>24.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Repana</surname><given-names>D</given-names></name><name><surname>Nulsen</surname><given-names>J</given-names></name><name><surname>Dressler</surname><given-names>L</given-names></name><name><surname>Bortolomeazzi</surname><given-names>M</given-names></name><name><surname>Venkata</surname><given-names>SK</given-names></name><name><surname>Tourna</surname><given-names>A</given-names></name><name><surname>Yakovleva</surname><given-names>A</given-names></name><name><surname>Palmieri</surname><given-names>T</given-names></name><name><surname>Ciccarelli</surname><given-names>FD</given-names></name></person-group><article-title>The Network of Cancer Genes (NCG): a comprehensive catalogue of known and candidate cancer genes from cancer sequencing screens</article-title><source>Genome Biol</source><year>2019</year><volume>20</volume><issue>1</issue><fpage>1</fpage><pub-id pub-id-type="doi">10.1186/s13059-018-1612-0</pub-id><pub-id pub-id-type="pmid">30606230</pub-id></element-citation></ref><ref id="CR25"><label>25.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Subramanian</surname><given-names>A</given-names></name><name><surname>Tamayo</surname><given-names>P</given-names></name><name><surname>Mootha</surname><given-names>VK</given-names></name><name><surname>Mukherjee</surname><given-names>S</given-names></name><name><surname>Ebert</surname><given-names>BL</given-names></name><name><surname>Gillette</surname><given-names>MA</given-names></name><name><surname>Paulovich</surname><given-names>A</given-names></name><name><surname>Pomeroy</surname><given-names>SL</given-names></name><name><surname>Golub</surname><given-names>TR</given-names></name><name><surname>Lander</surname><given-names>ES</given-names></name><etal/></person-group><article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title><source>Proc Natl Acad Sci</source><year>2005</year><volume>102</volume><issue>43</issue><fpage>15545</fpage><lpage>15550</lpage><pub-id pub-id-type="doi">10.1073/pnas.0506580102</pub-id><pub-id pub-id-type="pmid">16199517</pub-id></element-citation></ref><ref id="CR26"><label>26.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Weinstein</surname><given-names>JN</given-names></name><name><surname>Collisson</surname><given-names>EA</given-names></name><name><surname>Mills</surname><given-names>GB</given-names></name><name><surname>Shaw</surname><given-names>KRM</given-names></name><name><surname>Ozenberger</surname><given-names>BA</given-names></name><name><surname>Ellrott</surname><given-names>K</given-names></name><name><surname>Shmulevich</surname><given-names>I</given-names></name><name><surname>Sander</surname><given-names>C</given-names></name><name><surname>Stuart</surname><given-names>JM</given-names></name><name><surname>Network</surname><given-names>CGAR</given-names></name><etal/></person-group><article-title>The cancer genome atlas pan-cancer analysis project</article-title><source>Nat Genet</source><year>2013</year><volume>45</volume><issue>10</issue><fpage>1113</fpage><pub-id pub-id-type="doi">10.1038/ng.2764</pub-id><pub-id pub-id-type="pmid">24071849</pub-id></element-citation></ref><ref id="CR27"><label>27.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lin</surname><given-names>CY</given-names></name><name><surname>Lee</surname><given-names>CH</given-names></name><name><surname>Chuang</surname><given-names>YH</given-names></name><name><surname>Lee</surname><given-names>JY</given-names></name><name><surname>Chiu</surname><given-names>YY</given-names></name><name><surname>Lee</surname><given-names>YHW</given-names></name><name><surname>Jong</surname><given-names>YJ</given-names></name><name><surname>Hwang</surname><given-names>JK</given-names></name><name><surname>Huang</surname><given-names>SH</given-names></name><name><surname>Chen</surname><given-names>LC</given-names></name><etal/></person-group><article-title>Membrane protein-regulated networks across human cancers</article-title><source>Nat Commun</source><year>2019</year><volume>10</volume><issue>1</issue><fpage>1</fpage><lpage>17</lpage><pub-id pub-id-type="doi">10.1038/s41467-018-07882-8</pub-id><pub-id pub-id-type="pmid">30602773</pub-id></element-citation></ref><ref id="CR28"><label>28.</label><element-citation publication-type="book"><person-group person-group-type="author"><name><surname>Morgan</surname><given-names>DO</given-names></name></person-group><source>The Cell Cycle: Principles of Control</source><year>2007</year><publisher-loc>London</publisher-loc><publisher-name>New Science Press</publisher-name></element-citation></ref><ref id="CR29"><label>29.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chae</surname><given-names>SW</given-names></name><name><surname>Sohn</surname><given-names>JH</given-names></name><name><surname>Kim</surname><given-names>D-H</given-names></name><name><surname>Choi</surname><given-names>YJ</given-names></name><name><surname>Park</surname><given-names>YL</given-names></name><name><surname>Kim</surname><given-names>K</given-names></name><name><surname>Cho</surname><given-names>YH</given-names></name><name><surname>Pyo</surname><given-names>J-S</given-names></name><name><surname>Kim</surname><given-names>JH</given-names></name></person-group><article-title>Overexpressions of Cyclin B1, cdc2, p16 and p53 in human breast cancer: the clinicopathologic correlations and prognostic implications</article-title><source>Yonsei Med J</source><year>2011</year><volume>52</volume><issue>3</issue><fpage>445</fpage><lpage>453</lpage><pub-id pub-id-type="doi">10.3349/ymj.2011.52.3.445</pub-id><pub-id pub-id-type="pmid">21488187</pub-id></element-citation></ref><ref id="CR30"><label>30.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mao</surname><given-names>A</given-names></name><name><surname>Chen</surname><given-names>M</given-names></name><name><surname>Qin</surname><given-names>Q</given-names></name><name><surname>Liang</surname><given-names>Z</given-names></name><name><surname>Jiang</surname><given-names>W</given-names></name><name><surname>Yang</surname><given-names>W</given-names></name><name><surname>Wei</surname><given-names>C</given-names></name></person-group><article-title>ZBTB7A promotes migration, invasion and metastasis of human breast cancer cells through NF-<inline-formula id="IEq81"><alternatives><tex-math id="M165">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\kappa$$\end{document}</tex-math><mml:math id="M166"><mml:mi>&#x003ba;</mml:mi></mml:math><inline-graphic xlink:href="12859_2021_4062_Article_IEq81.gif"/></alternatives></inline-formula>B-induced epithelial-mesenchymal transition in vitro and in vivo</article-title><source>J Biochem</source><year>2019</year><volume>166</volume><issue>6</issue><fpage>485</fpage><lpage>493</lpage><pub-id pub-id-type="doi">10.1093/jb/mvz062</pub-id><pub-id pub-id-type="pmid">31385585</pub-id></element-citation></ref><ref id="CR31"><label>31.</label><mixed-citation publication-type="other">Jiang W, Liu T, Ren T, Xu K. Two hardness results on feedback vertex sets. In: Frontiers in algorithmics and algorithmic aspects in information and management. Berlin: Springer; 2011. pp. 233&#x02013;243</mixed-citation></ref><ref id="CR32"><label>32.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Madelaine</surname><given-names>FR</given-names></name><name><surname>Stewart</surname><given-names>IA</given-names></name></person-group><article-title>Improved upper and lower bounds on the feedback vertex numbers of grids and butterflies</article-title><source>Discrete Math</source><year>2008</year><volume>308</volume><issue>18</issue><fpage>4144</fpage><lpage>4164</lpage><pub-id pub-id-type="doi">10.1016/j.disc.2007.08.007</pub-id></element-citation></ref><ref id="CR33"><label>33.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gabow</surname><given-names>HN</given-names></name></person-group><article-title>Path-based depth-first search for strong and biconnected components</article-title><source>Inf Process Lett</source><year>2000</year><volume>74</volume><fpage>107</fpage><lpage>114</lpage><pub-id pub-id-type="doi">10.1016/S0020-0190(00)00051-X</pub-id></element-citation></ref><ref id="CR34"><label>34.</label><mixed-citation publication-type="other">Gurobi&#x000a0;Optimization L. Gurobi optimizer reference manual (2020). <ext-link ext-link-type="uri" xlink:href="http://www.gurobi.com">http://www.gurobi.com</ext-link></mixed-citation></ref></ref-list></back></article>

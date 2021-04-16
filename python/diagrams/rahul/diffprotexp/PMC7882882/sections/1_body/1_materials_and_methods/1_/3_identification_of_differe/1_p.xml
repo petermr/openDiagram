@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A differential gene expression analysis was performed within 1 year after the initial postoperative NFPA (n=6) and 5 years later (n=6), and a significance analysis of microarrays (SAM) was performed to identify the differentially expressed PCGs and lncRNAs (DEGLs) between the two groups (
+ <xref rid="b33-ol-0-0-12525" ref-type="bibr">33</xref>). The Biobase, multtest and siggenes packages were downloaded from Bioconductor (
+ <uri xlink:type="simple" xlink:href="http://www.bioconductor.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioconductor.org/</uri>). Subsequently, the available data were analyzed using R (
+ <uri xlink:type="simple" xlink:href="http://www.r-project.org" xmlns:xlink="http://www.w3.org/1999/xlink">www.r-project.org</uri>), and DEGLs with fold-changes of &gt;2 and &lt;-2, and P&lt;0.05, were selected for further research.
+</p>

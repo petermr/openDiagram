@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig10">
+ <label>Fig. 10</label>
+ <caption>
+  <p>Identification of immune gene co-expression modules of PAAD. 
+   <bold>a</bold> Sample clustering. 
+   <bold>b</bold> Scale-free fit index for various soft-thresholding powers (β). 
+   <bold>c</bold> Mean connectivity for various soft-thresholding powers (
+   <bold>d</bold>) Dendrogram of all differentially expressed genes clustered based on a dissimilarity measure (1-TOM). 
+   <bold>e</bold> Gene numbers in each module. 
+   <bold>f</bold> Differential distribution of feature vectors of each module in PAAD subtypes
+  </p>
+ </caption>
+ <graphic xlink:href="12943_2021_1310_Fig10_HTML" id="MO10" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

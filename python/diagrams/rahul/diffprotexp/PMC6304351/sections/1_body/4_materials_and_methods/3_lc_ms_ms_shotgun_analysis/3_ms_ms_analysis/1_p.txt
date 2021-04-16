@@ -1,0 +1,10 @@
+0: MS/MS analysis was performed in MaxQuant ( Cox and Mann, 2008).
+1: The LTQ Orbitrap raw data files were first converted to MSM files with the MaxQuant Quant module.
+2: The open-source search engine Andromeda, which is integrated into MaxQuant, was used to identify peptides in sequence databases by their fragmentation spectra ( Cox et al., 2011).
+3: Peptides and proteins were filtered at 0.01 false discovery rate (FDR) to obtain the final datasets.
+4: Proteins were quantified by counting the number of MS/MS spectra matched to corresponding proteins.
+5: Uniprot protein sequences from the  T. oleivorans MIL-1 genome ( Golyshin et al., 2013) were used to perform protein identification.
+6: Proteins were validated using the default settings in MaxQuant and Andromeda with a minimum of at least one peptide, but that any such protein had to be unambiguously identified by peptides that were unique to that protein (see full Parameter settings in Supplementary Table  1).
+7: Spectral counts were normalized to total spectral counts account for small observed differences between runs (total spectral counts varied between 14707 and 16669).
+8: The Normalized Spectral Abundance Factor (number of spectral counts divided by the length of the polypeptide, expressed as percentage for each protein compared to the sum of this ratio for all the detected proteins) was also calculated as longer proteins are expected to produce more peptides.
+9: The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium ( Deutsch et al., 2017) via the PRIDE ( Vizcaino et al., 2016) partner repository with the dataset identifier PXD011824.

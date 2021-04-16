@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f5" position="float">
+ <label>Figure 5</label>
+ <caption>
+  <p>Differential expression analysis of hub genes in tumor and normal tissues in TCGA-HNSC data set. 
+   <bold>(A)</bold> There was no significant difference in the expression of 
+   <italic>CCR4</italic> in tumor and normal tissues. 
+   <bold>(B, C)</bold> Significant differences were observed in the expression of 
+   <italic>CCR8</italic> and 
+   <italic>P2RY14</italic> in tumor and normal tissues (
+   <italic>P</italic>&lt;0.01). 
+   <bold>(D–F)</bold> A paired analysis of tumor and normal tissues from the same patients confirmed the previous analysis results.
+  </p>
+ </caption>
+ <graphic xlink:href="fonc-11-618187-g005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

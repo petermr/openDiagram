@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="keyresource" orientation="portrait" position="anchor">
+ <label>Key resources table</label>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th valign="top" rowspan="1" colspan="1">Reagent type (species) or resource</th>
+    <th valign="top" rowspan="1" colspan="1">Designation</th>
+    <th valign="top" rowspan="1" colspan="1">Source or reference</th>
+    <th valign="top" rowspan="1" colspan="1">Identifiers</th>
+    <th valign="top" rowspan="1" colspan="1">Additional information</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Chemical compound, drug</td>
+    <td valign="top" rowspan="1" colspan="1">poly(I:C) dsRNA</td>
+    <td valign="top" rowspan="1" colspan="1">Sigma Aldrich</td>
+    <td valign="top" rowspan="1" colspan="1">P0913</td>
+    <td valign="top" rowspan="1" colspan="1">Lot # 016M1451V</td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rabbit polyclonal anti PAX-6</td>
+    <td valign="top" rowspan="1" colspan="1">Covance</td>
+    <td valign="top" rowspan="1" colspan="1">PRB-278P-100</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution: (1:250) for IHC; 
+     <break/>(1:3000) for WB
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rabbit polyclonal anti-TBR1</td>
+    <td valign="top" rowspan="1" colspan="1">Abcam</td>
+    <td valign="top" rowspan="1" colspan="1">ab31940</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution: (1:500) for IHC; 
+     <break/>(1:2000) WB
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rat monoclonal anti-CTIP2</td>
+    <td valign="top" rowspan="1" colspan="1">Abcam</td>
+    <td valign="top" rowspan="1" colspan="1">ab18465</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:250) for IHC; 
+     <break/>(1:1000) for WB
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rabbit polyclonal anti-CUX1</td>
+    <td valign="top" rowspan="1" colspan="1">Abclonal</td>
+    <td valign="top" rowspan="1" colspan="1">A2213</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:200) for IHC; 
+     <break/>(1:1000) for WB
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Mouse monoclonal anti-SATB2</td>
+    <td valign="top" rowspan="1" colspan="1">Abcam</td>
+    <td valign="top" rowspan="1" colspan="1">Ab51502</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:500) for IHC; 
+     <break/>(1:2000) for WB
+    </td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rabbit monoclonal anti-KI67</td>
+    <td valign="top" rowspan="1" colspan="1">Cell Signaling</td>
+    <td valign="top" rowspan="1" colspan="1">12202</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:500) for IHC</td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Goat polyclonal anti-SOX9</td>
+    <td valign="top" rowspan="1" colspan="1">R and D Systems</td>
+    <td valign="top" rowspan="1" colspan="1">AF3075</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:500) for IHC</td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rabbit polyclonal anti-PH3</td>
+    <td valign="top" rowspan="1" colspan="1">Cell Signaling</td>
+    <td valign="top" rowspan="1" colspan="1">9701</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:500) for IHC</td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rat monoclonal anti-TBR2</td>
+    <td valign="top" rowspan="1" colspan="1">Thermo Fisher Scientific</td>
+    <td valign="top" rowspan="1" colspan="1">14-4875-82</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:500) for IHC</td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">anti-DLX2</td>
+    <td valign="top" rowspan="1" colspan="1">John Rubenstein Lab</td>
+    <td valign="top" rowspan="1" colspan="1">N/A</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:200) for IHC</td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rabbit polyclonal anti-GFAP</td>
+    <td valign="top" rowspan="1" colspan="1">Agilent Dako</td>
+    <td valign="top" rowspan="1" colspan="1">Z0334</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:250) for IHC</td>
+   </tr>
+   <tr>
+    <td valign="top" rowspan="1" colspan="1">Antibody</td>
+    <td valign="top" rowspan="1" colspan="1">Rabbit polyclonal anti-OLIG2</td>
+    <td valign="top" rowspan="1" colspan="1">Millipore Sigma</td>
+    <td valign="top" rowspan="1" colspan="1">AB9610</td>
+    <td valign="top" rowspan="1" colspan="1">Dilution (1:500) for IHC</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

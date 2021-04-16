@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig5" position="float" orientation="portrait">
+ <label>Figure 5.</label>
+ <caption>
+  <title>Polyadenylation sites (PAS)-level differences in alternative polyadenylation (APA) may drive differences in expression while isoform diversity differences likely drive translation differences.</title>
+  <p>(
+   <bold>a</bold>) Enrichment of genes with isoform-level differences (ID), differences in APA at PAS level (PAS), or at both levels (Both) within differential expressed genes and differentially translated genes. Differentially translated genes reported by 
+   <xref rid="bib81" ref-type="bibr">Wang et al., 2018b</xref>. (
+   <bold>b</bold>) −log
+   <sub>10 </sub>(p-values) for enrichments in 
+   <bold>A</bold> calculated with hypergeometric tests. Horizontal line represents a p-value of 0.05.
+  </p>
+ </caption>
+ <graphic xlink:href="elife-62548-fig5" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig5s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 5—figure supplement 1.</label>
+   <caption>
+    <title>Gene with significant differences in isoform diversity only.</title>
+    <p>Human and chimpanzee usage for five polyadenylation sites (PAS) identified in the IVNS1ABP gene. None of the PAS measured have significant differences in the usage at 5% FDR. IVNS1ABP is not differentially expressed.</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig5-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig5s2" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 5—figure supplement 2.</label>
+   <caption>
+    <title>Relationship between changes in polyadenylation site usage (∆PAU) and differential translation (TE) effect sizes.</title>
+    <p>(
+     <bold>A</bold>) ΔPAU for top 3' UTR and intronic polyadenylation sites (PAS) plotted against differential TE effect size as reported by Wang et al. ∆PAU for top 3' UTR and intronic PAS plotted against TE effect size as reported by Wang et al. separated by genic location. (
+     <bold>C</bold>) ∆PAU for top 3' UTR and intronic PAS with significant differences in the usage plotted against TE effect size for significant genes (5% FWER) as reported by Wang et al. (
+     <bold>D</bold>) ∆PAU for top 3' UTR and intronic PAS with significant differences in the usage plotted against TE effect size for significant genes (5% FWER) as reported by Wang et al. separated by genic location. Linear regression line was plotted and Pearson's correlation was calculated for data in each panel.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig5-figsupp2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig5s3" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 5—figure supplement 3.</label>
+   <caption>
+    <title>Relationship between alternative polyadenylation (APA) differences and protein decay mark.</title>
+    <p>(
+     <bold>A</bold>) Absolute value of changes in polyadenylation site usage (∆PAU) for 3' UTR polyadenylation sites (PAS) with significant difference at site level plotted against the number of ubiquitination marks in the gene standardized by the number of amino acids. Regression line and Pearson's correlation are plotted in red. (
+     <bold>B</bold>) Absolute value of ∆PAU for intronic PAS with significant difference at site level plotted against the number of ubiquitination marks in the gene standardized by the number of amino acids. Regression line and Pearson's correlation are plotted in blue.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig5-figsupp3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig5s4" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 5—figure supplement 4.</label>
+   <caption>
+    <title>
+     <xref ref-type="fig" rid="fig5">Figure 5</xref> without genes affected by liftover.
+    </title>
+    <p>(
+     <bold>A</bold>) Enrichment of genes with differences in isoform diversity, polyadenylation sites (PAS) usage, or both within differentially expressed genes and differentially translated genes after removing genes likely affected by liftover. Differentially translated genes reported by Wang et al. (
+     <bold>B</bold>) −log
+     <sub>10 </sub>(p-values) for enrichments in 
+     <bold>A</bold> calculated with hypergeometric tests. Horizontal line represents p=0.05.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig5-figsupp4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

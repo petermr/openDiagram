@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>
+   <bold>List of differentially expressed proteins in tylosin treated cells</bold>.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Accession</bold>
+    </th>
+    <th valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Description</bold>
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1">
+     <bold>Fold change
+      <sup>a</sup>
+     </bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SDH9" xmlns:xlink="http://www.w3.org/1999/xlink">G7SDH9</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.555777</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4W1G9" xmlns:xlink="http://www.w3.org/1999/xlink">A4W1G9</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Phosphotransferase system cellobiose-specific component IIC</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.521547</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SA24" xmlns:xlink="http://www.w3.org/1999/xlink">G7SA24</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Cold-shock DNA-binding domain protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.394546</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="F4EDP5" xmlns:xlink="http://www.w3.org/1999/xlink">F4EDP5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.568016</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="R4NL31" xmlns:xlink="http://www.w3.org/1999/xlink">R4NL31</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">MF3-like protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.63094</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="E9NQ29" xmlns:xlink="http://www.w3.org/1999/xlink">E9NQ29</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">CPS16V</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.452748</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5KZ73" xmlns:xlink="http://www.w3.org/1999/xlink">G5KZ73</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">NADH:flavin oxidoreductase/NADH oxidase family protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.459622</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S4C2" xmlns:xlink="http://www.w3.org/1999/xlink">G7S4C2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Major membrane immunogen, membrane-anchored lipoprotein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.643938</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A8CUL3" xmlns:xlink="http://www.w3.org/1999/xlink">A8CUL3</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Integrase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.46773</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SM99" xmlns:xlink="http://www.w3.org/1999/xlink">G7SM99</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Type I site-specific restriction-modification system, R (Restriction) subunit and related helicase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.506277</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SLJ0" xmlns:xlink="http://www.w3.org/1999/xlink">G7SLJ0</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative competence-damage inducible protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.564703</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4W1W3" xmlns:xlink="http://www.w3.org/1999/xlink">A4W1W3</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">F0F1-type ATP synthase, subunit a</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.586873</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7RZW0" xmlns:xlink="http://www.w3.org/1999/xlink">G7RZW0</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Sugar ABC transporter permease</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.508325</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S2T8" xmlns:xlink="http://www.w3.org/1999/xlink">G7S2T8</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Alcohol dehydrogenase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.610195</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SDG9" xmlns:xlink="http://www.w3.org/1999/xlink">G7SDG9</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Laminin binding protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.524593</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="R4NLJ6" xmlns:xlink="http://www.w3.org/1999/xlink">R4NLJ6</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Oligopeptide ABC transporter, periplasmic oligopeptide-binding protein OppA</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.644177</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S371" xmlns:xlink="http://www.w3.org/1999/xlink">G7S371</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Fructose-bisphosphate aldolase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.623705</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="M1UGE2" xmlns:xlink="http://www.w3.org/1999/xlink">M1UGE2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.647168</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4VZM2" xmlns:xlink="http://www.w3.org/1999/xlink">A4VZM2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Cell cycle protein GpsB</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.631018</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4W2D2" xmlns:xlink="http://www.w3.org/1999/xlink">A4W2D2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Cation transport ATPase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.676356</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5L1V6" xmlns:xlink="http://www.w3.org/1999/xlink">G5L1V6</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">50S ribosomal protein L9</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.6638821</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SEP2" xmlns:xlink="http://www.w3.org/1999/xlink">G7SEP2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.502566</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4VVZ3" xmlns:xlink="http://www.w3.org/1999/xlink">A4VVZ3</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">tRNA dimethylallyltransferase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.510883</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S5B8" xmlns:xlink="http://www.w3.org/1999/xlink">G7S5B8</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">3-isopropylmalate dehydrogenase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.513117</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SA68" xmlns:xlink="http://www.w3.org/1999/xlink">G7SA68</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">UDP-N-acetylmuramate–alanine ligase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">0.656503</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5L098" xmlns:xlink="http://www.w3.org/1999/xlink">G5L098</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Transcriptional regulator Spx</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.514636</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="E8UKC3" xmlns:xlink="http://www.w3.org/1999/xlink">E8UKC3</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.507837</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SFU4" xmlns:xlink="http://www.w3.org/1999/xlink">G7SFU4</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.543591</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4VV99" xmlns:xlink="http://www.w3.org/1999/xlink">A4VV99</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">DNA repair protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.545594</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4W2Z7" xmlns:xlink="http://www.w3.org/1999/xlink">A4W2Z7</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">FMN-dependent NADH-azoreductase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.527496</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="F4EC05" xmlns:xlink="http://www.w3.org/1999/xlink">F4EC05</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.57743</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="C6GNL8" xmlns:xlink="http://www.w3.org/1999/xlink">C6GNL8</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">30S ribosomal protein S21</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.545471</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="K7ZNG8" xmlns:xlink="http://www.w3.org/1999/xlink">K7ZNG8</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">DNA recombination/repair protein (Fragment)</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.558023</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S3K5" xmlns:xlink="http://www.w3.org/1999/xlink">G7S3K5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">ABC-type cobalt transport system, ATPase component</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.583854</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SM56" xmlns:xlink="http://www.w3.org/1999/xlink">G7SM56</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Ribosomal RNA small subunit methyltransferase H</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.594936</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A2VC24" xmlns:xlink="http://www.w3.org/1999/xlink">A2VC24</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Muramidase-released protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.579304</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4W3C1" xmlns:xlink="http://www.w3.org/1999/xlink">A4W3C1</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative phosphotyrosine protein phosphatase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.60975</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S4U0" xmlns:xlink="http://www.w3.org/1999/xlink">G7S4U0</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.596783</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SP92" xmlns:xlink="http://www.w3.org/1999/xlink">G7SP92</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.658448</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S7E3" xmlns:xlink="http://www.w3.org/1999/xlink">G7S7E3</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Helicase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.516925</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="M1VK55" xmlns:xlink="http://www.w3.org/1999/xlink">M1VK55</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Glycosyltransferase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.662795</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S3P9" xmlns:xlink="http://www.w3.org/1999/xlink">G7S3P9</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.673475</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4W106" xmlns:xlink="http://www.w3.org/1999/xlink">A4W106</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Signal transduction histidine kinase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.62492</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="B0M0G7" xmlns:xlink="http://www.w3.org/1999/xlink">B0M0G7</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Phosphomethylpyrimidine kinase (Fragment)</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.633436</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A5JSJ7" xmlns:xlink="http://www.w3.org/1999/xlink">A5JSJ7</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.681661</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5L226" xmlns:xlink="http://www.w3.org/1999/xlink">G5L226</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Type III restriction-modification system, restriction endonuclease subunit</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.697991</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S7K4" xmlns:xlink="http://www.w3.org/1999/xlink">G7S7K4</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.645719</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="B9WY95" xmlns:xlink="http://www.w3.org/1999/xlink">B9WY95</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Peptidase M20</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.647536</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S4T2" xmlns:xlink="http://www.w3.org/1999/xlink">G7S4T2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Branched-chain alpha-keto acid dehydrogenase subunit E2</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.673032</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5KX48" xmlns:xlink="http://www.w3.org/1999/xlink">G5KX48</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">ABC-type uncharacterized transport system, permease component</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.705109</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S178" xmlns:xlink="http://www.w3.org/1999/xlink">G7S178</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.774886</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="M1VDL7" xmlns:xlink="http://www.w3.org/1999/xlink">M1VDL7</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">ABC transporter permease protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.942183</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S6Z3" xmlns:xlink="http://www.w3.org/1999/xlink">G7S6Z3</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.956584</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="J7KIA5" xmlns:xlink="http://www.w3.org/1999/xlink">J7KIA5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Abortive infection bacteriophage resistance related protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.999106</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SJZ7" xmlns:xlink="http://www.w3.org/1999/xlink">G7SJZ7</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Primosomal protein N'</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.720079</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SHW7" xmlns:xlink="http://www.w3.org/1999/xlink">G7SHW7</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.001559</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="Q9EZW2" xmlns:xlink="http://www.w3.org/1999/xlink">Q9EZW2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Elongation factor Tu (Fragment)</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.739971</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4VVJ5" xmlns:xlink="http://www.w3.org/1999/xlink">A4VVJ5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.141695</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="M1VJZ8" xmlns:xlink="http://www.w3.org/1999/xlink">M1VJZ8</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Zeta toxin</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.74309</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5L2V0" xmlns:xlink="http://www.w3.org/1999/xlink">G5L2V0</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">NADPH:quinone reductase and related Zn-dependent oxidoreductase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.79706</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="R4NU43" xmlns:xlink="http://www.w3.org/1999/xlink">R4NU43</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Aromatic amino acid aminotransferase gamma @ N-acetyl-L,L-diaminopimelate aminotransferase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.144605</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4W296" xmlns:xlink="http://www.w3.org/1999/xlink">A4W296</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.837367</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SKQ0" xmlns:xlink="http://www.w3.org/1999/xlink">G7SKQ0</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">CHAP domain containing protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.179882</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="B9WVD6" xmlns:xlink="http://www.w3.org/1999/xlink">B9WVD6</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein (Fragment)</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.226792</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5L2N5" xmlns:xlink="http://www.w3.org/1999/xlink">G5L2N5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">L-fucose isomerase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.859887</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="B9WTA1" xmlns:xlink="http://www.w3.org/1999/xlink">B9WTA1</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.290848</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="B9WXU6" xmlns:xlink="http://www.w3.org/1999/xlink">B9WXU6</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">ABC transporter related protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.873566</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G8DU82" xmlns:xlink="http://www.w3.org/1999/xlink">G8DU82</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Transposase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.376768</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S242" xmlns:xlink="http://www.w3.org/1999/xlink">G7S242</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative ABC transporter</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.883471</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="A4VZ91" xmlns:xlink="http://www.w3.org/1999/xlink">A4VZ91</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">50S ribosomal protein L32</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.915877</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SDX6" xmlns:xlink="http://www.w3.org/1999/xlink">G7SDX6</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">50S ribosomal protein L7/L12</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.918196</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5KZ86" xmlns:xlink="http://www.w3.org/1999/xlink">G5KZ86</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Phosphatidylserine/phosphatidylglycerophosphate/ cardiolipin synthase-like protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.965488</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SIQ5" xmlns:xlink="http://www.w3.org/1999/xlink">G7SIQ5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.451703</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S7J2" xmlns:xlink="http://www.w3.org/1999/xlink">G7S7J2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.481527</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SPA1" xmlns:xlink="http://www.w3.org/1999/xlink">G7SPA1</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Putative scaffolding protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.584249</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S7A9" xmlns:xlink="http://www.w3.org/1999/xlink">G7S7A9</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">FAD-dependent pyridine nucleotide-disulfide oxidoreductase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.970356</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S8Q2" xmlns:xlink="http://www.w3.org/1999/xlink">G7S8Q2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Peptidase M22 glycoprotease</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.978772</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="M1TIM7" xmlns:xlink="http://www.w3.org/1999/xlink">M1TIM7</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Methylated DNA-protein cysteine methyltransferase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.161583</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SBK2" xmlns:xlink="http://www.w3.org/1999/xlink">G7SBK2</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Elongation factor Ts</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.266517</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="M1VE47" xmlns:xlink="http://www.w3.org/1999/xlink">M1VE47</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Fic/DOC family protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.606274</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="M1UFP9" xmlns:xlink="http://www.w3.org/1999/xlink">M1UFP9</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Thiamine-phosphate synthase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.298028</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S535" xmlns:xlink="http://www.w3.org/1999/xlink">G7S535</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Fructose-6-phosphate aldolase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.553516</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5L351" xmlns:xlink="http://www.w3.org/1999/xlink">G5L351</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">NsuB</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.694988</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="B9WUV5" xmlns:xlink="http://www.w3.org/1999/xlink">B9WUV5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Transcriptional regulator, DeoR family</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.65073</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="R4NW55" xmlns:xlink="http://www.w3.org/1999/xlink">R4NW55</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Plasmid replication protein Rep and AAA-class ATPase domain protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.779765</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7RZ18" xmlns:xlink="http://www.w3.org/1999/xlink">G7RZ18</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Sortase-like protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.791504</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="S6B433" xmlns:xlink="http://www.w3.org/1999/xlink">S6B433</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">RecN protein (Fragment)</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">3.007243</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5KZR3" xmlns:xlink="http://www.w3.org/1999/xlink">G5KZR3</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Glutathione S-transferase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">3.262393</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="R4NLK5" xmlns:xlink="http://www.w3.org/1999/xlink">R4NLK5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">SSU ribosomal protein S1p</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">3.46851</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="R4NWB6" xmlns:xlink="http://www.w3.org/1999/xlink">R4NWB6</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Uncharacterized protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">8.306942</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5L259" xmlns:xlink="http://www.w3.org/1999/xlink">G5L259</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">NADP-dependent glyceraldehyde-3-phosphate dehydrogenase, putative</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">2.781098</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="D5AFN4" xmlns:xlink="http://www.w3.org/1999/xlink">D5AFN4</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Xaa-Pro dipeptidyl-peptidase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">3.095053</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SMG3" xmlns:xlink="http://www.w3.org/1999/xlink">G7SMG3</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Elongation factor G</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">3.667679</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7SD52" xmlns:xlink="http://www.w3.org/1999/xlink">G7SD52</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">ABC superfamily ATP binding cassette transporter, membrane protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">3.201581</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G5L1N9" xmlns:xlink="http://www.w3.org/1999/xlink">G5L1N9</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Nucleoid DNA-binding protein</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">3.796473</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <ext-link ext-link-type="DDBJ/EMBL/GenBank" xlink:href="G7S8P5" xmlns:xlink="http://www.w3.org/1999/xlink">G7S8P5</ext-link>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Phosphoglycerate kinase</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">11.34908</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <italic>Fold change
+    <sup>a</sup>, the ratio of different expression level between Sub-MIC tylosin treated cells and nontreated cells
+   </italic>.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

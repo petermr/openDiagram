@@ -1,0 +1,4 @@
+0: The counts matrix generated using featureCounts was processed in the R statistical software environment (version 3.5) to determine differentially expressed genes for the reported comparisons.
+1: The R package RUVseq was used to remove unwanted variation using the RUVr method 24.
+2: DESEQ2 was then used to determine differential gene expression using the likelihood ratio test 25.
+3: Significance was achieved for fdr-adjusted  p-value < 0.05 and fold change exceeding 1.5.

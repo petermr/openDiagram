@@ -1,0 +1,5 @@
+0: The module-based approach to differential co-expression has advantages and downsides.
+1: On one hand, identifying DC modules allows for achieving a higher robustness to noise than the gene-specific approach.
+2: Moreover, the results are easier to interpret than those obtained via the global network approach, resulting in smaller gene lists that can be studied for their enrichment in gene ontology or pathways signatures.
+3: On the other hand, it hardly allows for extracting general principles on cancers network behaviour, while not giving, on its own, information about individual cancer targets.
+4: Nevertheless, it can be combined with gene prioritisation approaches to obtain both robust and clinically informative results.

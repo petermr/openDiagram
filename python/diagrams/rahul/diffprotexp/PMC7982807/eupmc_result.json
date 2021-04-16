@@ -1,0 +1,459 @@
+{
+  "id": [
+    "PMC7982807"
+  ],
+  "source": [
+    "PMC"
+  ],
+  "pmcid": [
+    "PMC7982807"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7982807"
+      ]
+    }
+  ],
+  "title": [
+    "Significance of RNA N6-Methyladenosine Regulators in the Diagnosis and Subtype Classification of Childhood Asthma Using the Gene Expression Omnibus Database"
+  ],
+  "authorString": [
+    "Dai B, Sun F, Cai X, Li C, Liu H, Shang Y."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Dai B"
+          ],
+          "firstName": [
+            "Bing"
+          ],
+          "lastName": [
+            "Dai"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 Department of Pediatrics, Shengjing Hospital of China Medical University ,  Shenyang ,"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sun F"
+          ],
+          "firstName": [
+            "Feifei"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "2 Department of Ultrasound, Shengjing Hospital of China Medical University ,  Shenyang ,"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cai X"
+          ],
+          "firstName": [
+            "Xuxu"
+          ],
+          "lastName": [
+            "Cai"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 Department of Pediatrics, Shengjing Hospital of China Medical University ,  Shenyang ,"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li C"
+          ],
+          "firstName": [
+            "Chunlu"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 Department of Pediatrics, Shengjing Hospital of China Medical University ,  Shenyang ,"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu H"
+          ],
+          "firstName": [
+            "Henan"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "3 Department of Ophthalmology, Shengjing Hospital of China Medical University ,  Shenyang ,"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Shang Y"
+          ],
+          "firstName": [
+            "Yunxiao"
+          ],
+          "lastName": [
+            "Shang"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 Department of Pediatrics, Shengjing Hospital of China Medical University ,  Shenyang ,"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3107343"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in genetics"
+          ],
+          "ISOAbbreviation": [
+            "Front Genet"
+          ],
+          "medlineAbbreviation": [
+            "Front Genet"
+          ],
+          "NLMid": [
+            "101560621"
+          ],
+          "ISSN": [
+            "1664-8021"
+          ],
+          "ESSN": [
+            "1664-8021"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "RNA N6-methyladenosine (m6A) regulators play important roles in a variety of biological functions. Nonetheless, the roles of m6A regulators in childhood asthma remain unknown. In this study, 11 significant m6A regulators were selected using difference analysis between non-asthmatic and asthmatic patients from the Gene Expression Omnibus GSE40888 dataset. The random forest model was used to screen five candidate m6A regulators (fragile X mental retardation 1, KIAA1429, Wilm’s tumor 1-associated protein, YTH domain-containing 2, and zinc finger CCCH domain-containing protein 13) to predict the risk of childhood asthma. A nomogram model was established based on the five candidate m6A regulators. Decision curve analysis indicated that patients could benefit from the nomogram model. The consensus clustering method was performed to differentiate children with asthma into two m6A patterns (clusterA and clusterB) based on the selected significant m6A regulators. Principal component analysis algorithms were constructed to calculate the m6A score for each sample to quantify the m6A patterns. The patients in clusterB had higher m6A scores than those in clusterA. Furthermore, we found that the patients in clusterA were linked to helper T cell type 1 (Th1)-dominant immunity while those in clusterB were linked to Th2-dominant immunity. In summary, m6A regulators play nonnegligible roles in the occurrence of childhood asthma. Our investigation of m6A patterns may be able to guide future immunotherapy strategies for childhood asthma."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Undetermined"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "81901763"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China10.13039/501100001809"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            " "
+          ],
+          "agency": [
+            "Young Scientists Fund10.13039/501100010909"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "M0282"
+          ],
+          "agency": [
+            "China Medical University10.13039/501100007300"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "20180530064"
+          ],
+          "agency": [
+            "Liaoning Provincial Natural Science Key Project of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "M0421"
+          ],
+          "agency": [
+            "China Medical University10.13039/501100007300"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Childhood Asthma",
+        "Diagnostic Biomarkers",
+        "Consensus Clustering",
+        "M6a-related Genes",
+        "M6a Rna Methylation Regulators"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7982807/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7982807/pdf/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7982807"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7982807?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-24"
+  ],
+  "firstIndexDate": [
+    "2021-03-24"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-24"
+  ],
+  "dateOfRevision": [
+    "2021-03-24"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-01"
+  ],
+  "firstPublicationDate": [
+    "2021-01-01"
+  ]
+}

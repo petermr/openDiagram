@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract abstract-type="precis">
+ <p>Differential analysis of MS-data to identify biomarkers or to understand biology is a cornerstone in proteomics. DEqMS is a robust method for analysis of both labelled and label-free MS-data. The method takes into account the inherent dependence of protein variance on the number of PSMs or peptides used for quantification, thereby providing a more accurate variance estimation. Compared to current methods, DEqMS achieves better accuracy and statistical power in quantitative proteomics. The tool is available as user-friendly R package.</p>
+</abstract>

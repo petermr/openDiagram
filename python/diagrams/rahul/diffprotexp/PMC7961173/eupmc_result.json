@@ -1,0 +1,693 @@
+{
+  "id": [
+    "33725128"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33725128"
+  ],
+  "pmcid": [
+    "PMC7961173"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7961173"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1007/s00204-021-03011-5"
+  ],
+  "title": [
+    "Transcriptional profiling of the response to the trichloroethylene metabolite S-(1,2-dichlorovinyl)-L-cysteine revealed activation of the eIF2α/ATF4 integrated stress response in two in vitro placental models."
+  ],
+  "authorString": [
+    "Elkin ER, Bakulski KM, Colacino JA, Bridges D, Kilburn BA, Armant DR, Loch-Caruso R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Elkin ER"
+          ],
+          "firstName": [
+            "Elana R"
+          ],
+          "lastName": [
+            "Elkin"
+          ],
+          "initials": [
+            "ER"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8637-1731",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Environmental Health Sciences, University of Michigan, 1415 Washington Heights, Ann Arbor, MI, 48109-2029, USA. elkinela@umich.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Bakulski KM"
+          ],
+          "firstName": [
+            "Kelly M"
+          ],
+          "lastName": [
+            "Bakulski"
+          ],
+          "initials": [
+            "KM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9605-6337",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Epidemiology, University of Michigan, Ann Arbor, MI, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Colacino JA"
+          ],
+          "firstName": [
+            "Justin A"
+          ],
+          "lastName": [
+            "Colacino"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5882-4569",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Environmental Health Sciences, University of Michigan, 1415 Washington Heights, Ann Arbor, MI, 48109-2029, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Nutritional Sciences, University of Michigan, Ann Arbor, MI, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Bridges D"
+          ],
+          "firstName": [
+            "Dave"
+          ],
+          "lastName": [
+            "Bridges"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5334-972X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Nutritional Sciences, University of Michigan, Ann Arbor, MI, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kilburn BA"
+          ],
+          "firstName": [
+            "Brian A"
+          ],
+          "lastName": [
+            "Kilburn"
+          ],
+          "initials": [
+            "BA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Obstetrics and Gynecology, Wayne State University School of Medicine, Detroit, MI, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Armant DR"
+          ],
+          "firstName": [
+            "D Randall"
+          ],
+          "lastName": [
+            "Armant"
+          ],
+          "initials": [
+            "DR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5904-9325",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Obstetrics and Gynecology, Wayne State University School of Medicine, Detroit, MI, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Anatomy and Cell Biology, Wayne State University School of Medicine, Detroit, MI, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Loch-Caruso R"
+          ],
+          "firstName": [
+            "Rita"
+          ],
+          "lastName": [
+            "Loch-Caruso"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5993-2799",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Environmental Health Sciences, University of Michigan, 1415 Washington Heights, Ann Arbor, MI, 48109-2029, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5904-9325",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8637-1731",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5334-972X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5882-4569",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5993-2799",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9605-6337",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "journalIssueId": [
+        "3122312"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Archives of toxicology"
+          ],
+          "ISOAbbreviation": [
+            "Arch Toxicol"
+          ],
+          "medlineAbbreviation": [
+            "Arch Toxicol"
+          ],
+          "NLMid": [
+            "0417615"
+          ],
+          "ISSN": [
+            "0340-5761"
+          ],
+          "ESSN": [
+            "1432-0738"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "Trichloroethylene (TCE) is an industrial solvent and widespread environmental contaminant. Although TCE exposure is prevalent, epidemiological studies of TCE exposure associations with adverse birth outcomes are inconclusive. Prior studies show that the TCE metabolite S-(1,2-dichlorovinyl)-L-cysteine (DCVC) exhibits toxicity in a placental cell line. In the current study, genome-wide gene expression and gene set enrichment analyses were used to identify novel genes and pathway alterations in the HTR-8/SVneo human trophoblast cell line and human placental villous explants treated with DCVC at concentrations relevant to human exposures. In the cells, concentration- and time-dependent effects were observed, as evidenced by the magnitude of altered gene expression after treatment with 20 µM DCVC versus 10 µM, and 12-h versus 6-h of treatment. Comparing the two models for the transcriptional response to 12-h 20 µM DCVC treatment, no differentially expressed genes reached significance in villous explants, whereas 301 differentially expressed genes were detected in HTR-8/SVneo cells compared with non-treated controls (FDR < 0.05 + LogFC > 0.35 [FC > 1.3]). GSEA revealed five upregulated enriched pathways in common between explants and cells (FDR < 0.05). Moreover, all 12-h DCVC treatment groups from both models contained upregulated pathways enriched for genes regulated by the ATF4 transcription factor. The overrepresentation of ATF4 regulation of differentially expressed genes indicated activation of the integrated stress response (ISR), a condition triggered by multiple stress stimuli, including the unfolded protein response. DCVC-induced ISR activation was confirmed by elevated eIF2α phosphorylation, ATF4 protein concentrations, and decreased global protein synthesis in HTR-8/SVneo cells. This study identifies a mechanism of DCVC-induced cytotoxicity by revealing the involvement of a specific stress signaling pathway."
+  ],
+  "affiliation": [
+    "Department of Environmental Health Sciences, University of Michigan, 1415 Washington Heights, Ann Arbor, MI, 48109-2029, USA. elkinela@umich.edu."
+  ],
+  "publicationStatus": [
+    "aheadofprint"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P30 AG053760"
+          ],
+          "agency": [
+            "NIA NIH HHS"
+          ],
+          "acronym": [
+            "AG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P42 ES017198"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 ES028802"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 ES017885"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 ES020957"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "T32 ES007062"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 DK107535"
+          ],
+          "agency": [
+            "NIDDK NIH HHS"
+          ],
+          "acronym": [
+            "DK"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "T32 DK071212"
+          ],
+          "agency": [
+            "NIDDK NIH HHS"
+          ],
+          "acronym": [
+            "DK"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 AG055406"
+          ],
+          "agency": [
+            "NIA NIH HHS"
+          ],
+          "acronym": [
+            "AG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 ES025531"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 ES025574"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Placenta",
+        "Trichloroethylene",
+        "integrated stress response",
+        "ATF4",
+        "S-(1,2-dichlorovinyl)-l-cysteine (Dcvc)"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1007/s00204-021-03011-5"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7961173"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7961173?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-16"
+  ],
+  "firstIndexDate": [
+    "2021-03-17"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-18"
+  ],
+  "dateOfRevision": [
+    "2021-03-19"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-16"
+  ],
+  "firstPublicationDate": [
+    "2021-03-16"
+  ]
+}

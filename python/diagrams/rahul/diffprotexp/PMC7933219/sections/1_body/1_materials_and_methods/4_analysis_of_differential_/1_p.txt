@@ -1,0 +1,6 @@
+0: Raw data (CEL files) were normalized at the transcript level using the robust multi-average method (RMA workflow).
+1: Median summarization of transcript expressions was calculated.
+2: Gene-level data were then filtered to include only those probe sets that are in the core metaprobe list, which represent RefSeq genes.
+3: The primary data were uploaded to the GEO database, and the affiliation number is GSE162957.
+4: Students  t-test was used to calculate the  P-value and false discovery rate (FDR) and evaluate the expression differences of mRNAs and lncRNAs between TC-EC and EC.
+5: P< 0.05, FDR< 0.05, and | log 2FC| > 1 were considered differentially expressed mRNAs or lncRNAs.

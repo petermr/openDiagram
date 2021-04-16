@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par62">Now consider 
+ <inline-formula id="IEq45">
+  <alternatives>
+   <tex-math id="M93">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$M'':=(M-\{v\}) \cup \{v'\}$$\end{document}</tex-math>
+   <math id="M94">
+    <mrow>
+     <msup>
+      <mi>M</mi>
+      <mrow>
+       <mo>′</mo>
+       <mo>′</mo>
+      </mrow>
+     </msup>
+     <mo>:</mo>
+     <mo>=</mo>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>M</mi>
+      <mo>-</mo>
+      <mrow>
+       <mo stretchy="false">{</mo>
+       <mi>v</mi>
+       <mo stretchy="false">}</mo>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>∪</mo>
+     <mrow>
+      <mo stretchy="false">{</mo>
+      <msup>
+       <mi>v</mi>
+       <mo>′</mo>
+      </msup>
+      <mo stretchy="false">}</mo>
+     </mrow>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq45.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. It is obvious that 
+ <inline-formula id="IEq46">
+  <alternatives>
+   <tex-math id="M95">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$M''$$\end{document}</tex-math>
+   <math id="M96">
+    <msup>
+     <mi>M</mi>
+     <mrow>
+      <mo>′</mo>
+      <mo>′</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq46.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is an MFVS. Since 
+ <inline-formula id="IEq47">
+  <alternatives>
+   <tex-math id="M97">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v'.w&gt;v.w$$\end{document}</tex-math>
+   <math id="M98">
+    <mrow>
+     <msup>
+      <mi>v</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>.</mo>
+     <mi>w</mi>
+     <mo>&gt;</mo>
+     <mi>v</mi>
+     <mo>.</mo>
+     <mi>w</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq47.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, we have 
+ <inline-formula id="IEq48">
+  <alternatives>
+   <tex-math id="M99">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Sigma _{v_i \in M} v_i.w&lt; \Sigma _{v_j \in M''} v_j.w.$$\end{document}</tex-math>
+   <math id="M100">
+    <mrow>
+     <msub>
+      <mi mathvariant="normal">Σ</mi>
+      <mrow>
+       <msub>
+        <mi>v</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>∈</mo>
+       <mi>M</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mi>v</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>.</mo>
+     <mi>w</mi>
+     <mo>&lt;</mo>
+     <msub>
+      <mi mathvariant="normal">Σ</mi>
+      <mrow>
+       <msub>
+        <mi>v</mi>
+        <mi>j</mi>
+       </msub>
+       <mo>∈</mo>
+       <msup>
+        <mi>M</mi>
+        <mrow>
+         <mo>′</mo>
+         <mo>′</mo>
+        </mrow>
+       </msup>
+      </mrow>
+     </msub>
+     <msub>
+      <mi>v</mi>
+      <mi>j</mi>
+     </msub>
+     <mo>.</mo>
+     <mi>w</mi>
+     <mo>.</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq48.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> Thus, 
+ <italic>M</italic> cannot be a WMFVS, i.e., if 
+ <italic>v</italic> has only one predecessor and the weight of 
+ <italic>v</italic> is less than that of the predecessor, then 
+ <italic>v</italic> does not belong to any WMFVS.
+</p>

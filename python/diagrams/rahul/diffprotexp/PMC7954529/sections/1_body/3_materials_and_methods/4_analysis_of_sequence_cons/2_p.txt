@@ -1,0 +1,9 @@
+0: We tested for the presence of the polyadenylation signal site motif in the 200 bp PAS regions.
+1: We used the bedtools nuc tool with the strand-specific flag to test for the presence of each of the 12 previously annotated motifs for each PAS in both species ( Beaudoing et al., 2000;  Quinlan and Hall, 2010).
+2: If a PAS had multiple motifs, we used a hierarchical model to choose the site based on the number of PAS with each identified motif (order: AATAAA, ATTAAA, AAAAAG, AAAAAA, TATAAA, AATATA, AGTAAA, AATACA, GATAAA, AATAGA, CATAAA, ACTAAA).
+3: The proportion of PAS with each signal site motif matched across species ( Figure 2).
+4: To ask if the presence or absence of a signal site explained species specificity or site-level differences, we restricted our analysis to the top two signal sites.
+5: These two motifs are the only sites where the presence of a signal is associated with increased usage of the site in both species ( Figure 1figure supplement 10).
+6: For the 359 PAS with one of these two signal sites present only in chimpanzees, average usage was higher in chimpanzees than in humans (p=0.025).
+7: For the 361 PAS with one of these two signal sites present only in humans, average usage was higher in humans (p=2.010 4).
+8: We used hypergeometric tests to evaluate enrichment of differentially used PAS and species-specific PAS in the set of PAS with signal sites in only one species.

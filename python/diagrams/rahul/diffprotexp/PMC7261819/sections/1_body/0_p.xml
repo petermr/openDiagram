@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Mass spectrometry (MS)-based proteomics is widely used for identification and quantification of proteins from complex biological samples (
+ <xref rid="B1" ref-type="bibr">1</xref>). In a typical proteomics experiment, proteins are digested into peptides using a proteolytic enzyme, commonly trypsin, prior to MS-analysis. Peptides are usually fragmented multiple times, thus generating multiple peptide spectrum matches (PSMs)
+ <xref ref-type="fn" rid="G1">
+  <sup>1</sup>
+ </xref> for the same peptide sequence. Peptide identification and quantification is subsequently performed in data analysis workflows using either label-free or labeled approaches. Both quantitative approaches rely on a hierarchical data structure: PSMs are nested into peptides which are then nested into proteins. Protein level quantification is subsequently generated through summarizing peptide or PSM level information.
+</p>

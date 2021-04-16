@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The transcripts were reconstructed using Cufflinks based on the alignment results of Tophat2 software. Basic lncRNAs screening was performed based on the following screening criteria: transcript length ≥200 bp and exon number ≥2. The coding ability of the new transcript was predicted using CPC and CNCI software and was further compared to the protein database SwissProt. Only transcript intersections without coding potential and protein annotation information were taken as reliable prediction results. Then, new lncRNA predictions were performed from these newly selected transcripts. Our pipeline yielded 3981 lncRNA transcripts, including 3066 known isoform lncRNAs and 915 new isoform lncRNAs (
+ <xref ref-type="fig" rid="f0001">Figure 1(b</xref>)). As shown in 
+ <xref ref-type="fig" rid="f0005">Figure 5</xref>, according to the position of new lncRNAs in the genome relative to protein-encoding gene, these new lncRNAs could be divided into five categories: intergenic lncRNAs, bidirectional lncRNAs, intron lncRNAs, antisense lncRNAs, and sense-overlapping lncRNAs.
+</p>

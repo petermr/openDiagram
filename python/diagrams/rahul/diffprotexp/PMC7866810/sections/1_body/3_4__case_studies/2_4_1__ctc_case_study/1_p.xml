@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here we analyze a dataset consisting of single (not clustered) CTCs collected from patients with breast cancer and obtained from several studies [
+ <xref rid="B57-ijms-22-01399" ref-type="bibr">57</xref>,
+ <xref rid="B58-ijms-22-01399" ref-type="bibr">58</xref>,
+ <xref rid="B59-ijms-22-01399" ref-type="bibr">59</xref>,
+ <xref rid="B60-ijms-22-01399" ref-type="bibr">60</xref>,
+ <xref rid="B61-ijms-22-01399" ref-type="bibr">61</xref>,
+ <xref rid="B62-ijms-22-01399" ref-type="bibr">62</xref>,
+ <xref rid="B63-ijms-22-01399" ref-type="bibr">63</xref>,
+ <xref rid="B64-ijms-22-01399" ref-type="bibr">64</xref>,
+ <xref rid="B65-ijms-22-01399" ref-type="bibr">65</xref>] . Data are available in the GEO database with accession numbers GSE51827, GSE55807, GSE67939, GSE75367, GSE109761, GSE111065 and GSE86978. The raw data includes RNA-seq from single CTCs and CTC clusters that were obtained from the blood of breast cancer patients. Here, the CTC clusters were excluded, and a dataset of 1462 single CTCs was used in the analysis. The CTC dataset was formatted in a data frame with “.csv” and “.rda” extensions. Columns refer to samples and rows refer to genes. The dataset can be inserted into DIscBIO using the “read.table” or “read.csv” functions. The CTC notebook is available at 
+ <uri xlink:href="https://nbviewer.jupyter.org/github/ocbe-uio/DIscBIO/blob/dev/notebook/DIscBIO-CTCs-Notebook.ipynb" xmlns:xlink="http://www.w3.org/1999/xlink">https://nbviewer.jupyter.org/github/ocbe-uio/DIscBIO/blob/dev/notebook/DIscBIO-CTCs-Notebook.ipynb</uri>. CTCs are a rare subset of cells found in the blood of cancer patients and arise as a consequence of tumors shedding cancer cells into blood vessels. They preserve primary tumor heterogeneity and imitate tumor characteristics [
+ <xref rid="B66-ijms-22-01399" ref-type="bibr">66</xref>]. CTCs may serve as metastatic seeds and succeed initiating secondary tumors. An increasing number of studies on CTCs focus on efforts to uncover and characterize molecular features of CTCs that predict their metastasis-generating potential. A prominent example is epithelial–mesenchymal transition [
+ <xref rid="B67-ijms-22-01399" ref-type="bibr">67</xref>]. Due to the widely accepted role of CTCs in metastasis, they can be used to showcase and explore potential involvement in molecular or cellular alterations in cancer progression. In our current case study, we aimed at (1) characterizing the sub-populations of CTCs, and (2) linking alterations of the Golgi apparatus with cancer progression, to showcase how our analysis pipeline can be used to study this link based on current knowledge.
+</p>

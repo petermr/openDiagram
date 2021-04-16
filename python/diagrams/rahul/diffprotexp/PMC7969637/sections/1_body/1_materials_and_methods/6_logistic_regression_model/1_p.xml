@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here, we used GSE26440 as a training set to construct the Logistic model, and GSE26378 and GSE66099 as two independent verification sets to verify the model. The part of the data set GSE66099 that coincided with GSE26440 and GSE26378 had been removed. The remaining 138 specimen were processed samples as independent verification sets in this study. Firstly, the samples were divided into two groups: normal control group and pediatric sepsis group. The GLM function in R language was used as a continuous variable, and the sample type was used as a binary response. A multifactor logistic regression model was constructed, and then the variables were further screened by stepwise regression. The model was then reconstructed using the screened variables and the 
+ <italic>p</italic>-value of each variable was calculated by the model. Finally, the candidate gene reconstruction model with 
+ <italic>p</italic> &lt; 0.05 was selected as the final model for follow-up analysis.
+</p>

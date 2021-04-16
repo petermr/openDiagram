@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The mascot algorithm (Matrix Science, Boston, MA, USA) was used to identify the peptide sequences present in the protein sequence database. Database search criteria were as follows: taxonomy, Homo sapiens (downloaded 19 June 2015); fixed modification, carbamidomethylated (+57) at cysteine residues; variable modification, oxidized (+16) at methionine residues; maximum allowed missed cleavage, 2; MS tolerance, 10 ppm; and MS/MS tolerance, 0.8 Da. The peptides were filtered with a significance threshold of 
+ <italic>p</italic> &lt; 0.05.
+</p>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par36">Raw reads were uploaded to the High-Performance Computing Facility of the University of Puerto Rico. Samples for the assembly comprised 3 from normal mesentery, 3 from day 1 regenerating intestine, 5 from day 3 regenerating intestine, and 6 samples from the radial organ complex from a previous study by Mashanov et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. Preprocessing steps of quality, trimming and filtering were done using FastQCv0.11.5
+ <sup>
+  <xref ref-type="bibr" rid="CR74">74</xref>
+ </sup> and Trimmomaticv0.36
+ <sup>
+  <xref ref-type="bibr" rid="CR75">75</xref>
+ </sup> applying the following parameters ILLUMINACLIP:2:30:10 LEADING:3 TRAILING:3 SLIDING-WINDOW:4:15 MINLEN:36. A kmer trimming and digital normalization was applied previously to the assembly process using the khmer package
+ <sup>
+  <xref ref-type="bibr" rid="CR76">76</xref>
+ </sup> and following the khmer protocol documentation
+ <sup>
+  <xref ref-type="bibr" rid="CR77">77</xref>
+ </sup>. A de novo transcriptome assembly was carried out using Trinityv2.9.0
+ <sup>
+  <xref ref-type="bibr" rid="CR78">78</xref>
+ </sup> with the following parameters –no_bowtie –seqType fq –max_memory 105G –left left.fq –right right.fq –CPU 14.
+</p>

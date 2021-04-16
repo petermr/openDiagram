@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="T3">
+ <label>Table 3</label>
+ <caption>
+  <p>Differentially expressed protein peaks in EAE as compared to control brain tissue</p>
+ </caption>
+ <table frame="hsides" rules="groups" border="1">
+  <colgroup>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+  </colgroup>
+  <thead valign="top">
+   <tr>
+    <th align="center">
+     <bold>Fraction (Q)</bold>
+    </th>
+    <th align="center">
+     <bold>Mass (m/z)</bold>
+    </th>
+    <th align="center">
+     <bold>Acquisition settings</bold>
+    </th>
+    <th align="center">
+     <bold>p-Value</bold>
+    </th>
+    <th align="center">
+     <bold>ROC Area</bold>
+    </th>
+    <th align="center">
+     <bold>Expression change in EAE</bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="center" valign="bottom">1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">108995
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6540
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.13
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10274
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11691
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13365
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">14349
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16836
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">31521
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13331
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">49085
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.06
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8044
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10416
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10862
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12448
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.96
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13954
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8251
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10855
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12493
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.95
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">15498
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9841
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">42924
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.93
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6583
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9115
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8528
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16910
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17307
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8392
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9801
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.93
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16878
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17280
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9717
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13854
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">HMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3006
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3266
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">4272
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5455
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10637
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↓
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13809
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">LMW
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.00
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">↑
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center">6</td>
+    <td align="center">23228</td>
+    <td align="center">LMW</td>
+    <td align="center">0.05</td>
+    <td align="center">0.93</td>
+    <td align="center">↑</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <underline>Fraction Q:</underline> number of the ion exchange fractionation
+   <underline>; m/z:</underline> mass/charge ratio of the protein peak; 
+   <underline>LMW:</underline> low molecular weight protocol; 
+   <underline>HMW:</underline> high molecular weight protocol; 
+   <underline>↑:</underline> protein level was increased in EAE as compared to control; 
+   <underline>↓:</underline> protein level was decreased in EAE as compared to control.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

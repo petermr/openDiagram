@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl1">
+ <label>Table 1</label>
+ <caption>
+  <p>Alterations of pathway activation levels for 38 DNA repair pathways in differential comparisons of follicular adenoma (FA), follicular cancer (FC), and papillary cancer (PC) tissues.</p>
+ </caption>
+ <alt-text id="alttext0155">Table 1</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Pathway ID</th>
+    <th>Pathway name</th>
+    <th>PC vs FC
+     <xref rid="tbl1fn1" ref-type="table-fn">1</xref>
+     <sup>,</sup>
+     <xref rid="tbl1fn2" ref-type="table-fn">2</xref>
+    </th>
+    <th>FC + PC vs FA
+     <xref rid="tbl1fn2" ref-type="table-fn">2</xref>
+     <sup>,</sup>
+     <xref rid="tbl1fn3" ref-type="table-fn">3</xref>
+    </th>
+    <th>PC vs FA
+     <xref rid="tbl1fn2" ref-type="table-fn">2</xref>
+     <sup>,</sup>
+     <xref rid="tbl1fn4" ref-type="table-fn">4</xref>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>p1</td>
+    <td>ATM Pathway</td>
+    <td>↑, 2.8e-02</td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 4.1e-02
+    </td>
+    <td>↑, 3.6e-03</td>
+   </tr>
+   <tr>
+    <td>p2</td>
+    <td>ATM Pathway Cell Survival</td>
+    <td>↑, 1.5e-02</td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 6.8e-02
+    </td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 8.7e-03
+    </td>
+   </tr>
+   <tr>
+    <td>p3</td>
+    <td>ATM Pathway G2-Mitosis progression</td>
+    <td>↑, 1.4e-02</td>
+    <td>↓, 9.8e-01</td>
+    <td>↑, 3.3e-01</td>
+   </tr>
+   <tr>
+    <td>p4</td>
+    <td>Biocarta atm signaling pathway</td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 8.3e-01
+    </td>
+    <td>↑, 4.0e-01</td>
+    <td>↑, 4.7e-01</td>
+   </tr>
+   <tr>
+    <td>p5</td>
+    <td>Biocarta cell cycle G2M checkpoint pathway</td>
+    <td>↓, 2.8e-02</td>
+    <td>↓
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 4.1e-02
+    </td>
+    <td>↓
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 8.1e-04
+    </td>
+   </tr>
+   <tr>
+    <td>p6</td>
+    <td>BRCA1 Pathway</td>
+    <td>↑, 1.0e+00</td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 4.2e-02
+    </td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 2.8e-02
+    </td>
+   </tr>
+   <tr>
+    <td>p7</td>
+    <td>BRCA1 Pathway Chromatin Remodeling</td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 1.5e-01
+    </td>
+    <td>↑, 1.3e-01</td>
+    <td>↑, 9.8e-02</td>
+   </tr>
+   <tr>
+    <td>p8</td>
+    <td>BRCA1 Pathway Homologous Recombination Repair</td>
+    <td>↓, 1.1e-01</td>
+    <td>↑, 8.5e-02</td>
+    <td>↑, 1.9e-01</td>
+   </tr>
+   <tr>
+    <td>p9</td>
+    <td>BRCA1 Pathway Mismatch Repair</td>
+    <td>↓, 9.8e-02</td>
+    <td>↑, 1.7e-01</td>
+    <td>↑, 4.1e-01</td>
+   </tr>
+   <tr>
+    <td>p10</td>
+    <td>DNA Repair Mechanisms Pathway</td>
+    <td>↑, 5.6e-01</td>
+    <td>↑, 8.5e-02</td>
+    <td>↑, 6.4e-02</td>
+   </tr>
+   <tr>
+    <td>p11</td>
+    <td>KEGG Base excision repair pathway</td>
+    <td>↑, 2.8e-02</td>
+    <td>↑, 8.5e-02</td>
+    <td>↑, 2.0e-02</td>
+   </tr>
+   <tr>
+    <td>p12</td>
+    <td>KEGG Fanconi anemia pathway</td>
+    <td>↓, 1.7e-02</td>
+    <td>↑, 8.7e-01</td>
+    <td>↓, 4.8e-01</td>
+   </tr>
+   <tr>
+    <td>p13</td>
+    <td>KEGG Homologous recombination pathway</td>
+    <td>↑, 2.5e-01</td>
+    <td>↑, 8.5e-02</td>
+    <td>↑, 3.4e-02</td>
+   </tr>
+   <tr>
+    <td>p14</td>
+    <td>KEGG Mismatch repair pathway</td>
+    <td>↓, 1.0e+00</td>
+    <td>↑, 1.4e-01</td>
+    <td>↑, 1.9e-01</td>
+   </tr>
+   <tr>
+    <td>p15</td>
+    <td>KEGG Non homologous end joining pathway</td>
+    <td>↑, 1.0e+00</td>
+    <td>↑, 1.4e-01</td>
+    <td>↑, 1.9e-01</td>
+   </tr>
+   <tr>
+    <td>p16</td>
+    <td>KEGG Nucleotide excision repair pathway</td>
+    <td>↓, 5.6e-01</td>
+    <td>↑, 1.0e-01</td>
+    <td>↑, 1.6e-01</td>
+   </tr>
+   <tr>
+    <td>p17</td>
+    <td>Mismatch Repair in Eukaryotes Pathway</td>
+    <td>↓, 7.7e-01</td>
+    <td>↑, 8.5e-02</td>
+    <td>↑, 9.8e-02</td>
+   </tr>
+   <tr>
+    <td>p18</td>
+    <td>NCI ATM pathway</td>
+    <td>↑, 2.5e-01</td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 4.1e-02
+    </td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 1.5e-02
+    </td>
+   </tr>
+   <tr>
+    <td>p19</td>
+    <td>NCI ATM Pathway (G1 S transition checkpoint)</td>
+    <td>↑, 6.5e-01</td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 4.1e-02
+    </td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 1.6e-02
+    </td>
+   </tr>
+   <tr>
+    <td>p20</td>
+    <td>NCI ATR signaling pathway</td>
+    <td>↓, 2.1e-01</td>
+    <td>↑, 1.4e-01</td>
+    <td>↑, 2.7e-01</td>
+   </tr>
+   <tr>
+    <td>p21</td>
+    <td>NCI ATR signaling Pathway (Pathway negative regulation of transcription during mitosis via CHEK1)</td>
+    <td>↓, 2.1e-01</td>
+    <td>↑, 1.7e-01</td>
+    <td>↑, 3.2e-01</td>
+   </tr>
+   <tr>
+    <td>p22</td>
+    <td>NCI ATR signaling Pathway (regulation of double strand break repair via homologous recombination)</td>
+    <td>↓
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 1.8e-01
+    </td>
+    <td>↑, 1.2e-01</td>
+    <td>↑, 2.2e-01</td>
+   </tr>
+   <tr>
+    <td>p23</td>
+    <td>NCI ATR signaling Pathway (response to G2 M transition DNA damage checkpoint signal)</td>
+    <td>↓, 2.1e-01</td>
+    <td>↑, 1.8e-01</td>
+    <td>↑, 3.4e-01</td>
+   </tr>
+   <tr>
+    <td>p24</td>
+    <td>NCI DNA PK pathway in nonhomologous end joining Pathway (double strand break repair via nonhomologous end joining)</td>
+    <td>↑, 5.6e-01</td>
+    <td>↑, 1.4e-01</td>
+    <td>↑, 1.4e-01</td>
+   </tr>
+   <tr>
+    <td>p25</td>
+    <td>NCI DNA PK pathway in nonhomologous end joining Pathway (V D J recombination)</td>
+    <td>↑, 1.0e+00</td>
+    <td>↑, 1.7e-01</td>
+    <td>↑, 2.2e-01</td>
+   </tr>
+   <tr>
+    <td>p26</td>
+    <td>NCI Fanconi anemia pathway</td>
+    <td>↓
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 1.5e-01
+    </td>
+    <td>↑, 1.1e-01</td>
+    <td>↑, 2.2e-01</td>
+   </tr>
+   <tr>
+    <td>p27</td>
+    <td>NCI Fanconi anemia Pathway (regulation of double strand break repair via homologous recombination)</td>
+    <td>↓
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 1.5e-01
+    </td>
+    <td>↑, 1.0e-01</td>
+    <td>↑, 2.0e-01</td>
+   </tr>
+   <tr>
+    <td>p28</td>
+    <td>NCI Fanconi anemia Pathway (Sister Chromatid Exchange Process)</td>
+    <td>↓, 2.1e-01</td>
+    <td>↑, 1.7e-01</td>
+    <td>↑, 3.1e-01</td>
+   </tr>
+   <tr>
+    <td>p29</td>
+    <td>NHEJ mechanisms of DSBs repair effect</td>
+    <td>↓
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 2.8e-01
+    </td>
+    <td>↑, 1.4e-01</td>
+    <td>↑, 2.6e-01</td>
+   </tr>
+   <tr>
+    <td>p30</td>
+    <td>Nucleotide excision repair effect</td>
+    <td>↑, 1.1e-01</td>
+    <td>↑, 5.0e-02</td>
+    <td>↑, 1.1e-02</td>
+   </tr>
+   <tr>
+    <td>p31</td>
+    <td>p53 Signaling Pathway</td>
+    <td>↑, 2.0e-03</td>
+    <td>↑, 4.1e-02</td>
+    <td>↑, 8.1e-04</td>
+   </tr>
+   <tr>
+    <td>p32</td>
+    <td>p53 Signaling Pathway DNA Repair</td>
+    <td>↑, 5.3e-01</td>
+    <td>↑, 1.4e-01</td>
+    <td>↑, 9.8e-02</td>
+   </tr>
+   <tr>
+    <td>p33</td>
+    <td>p53 Signaling Pathway Gene Expression DNA Replication and Repair via TP53</td>
+    <td>↑, 7.2e-02</td>
+    <td>↑, 9.1e-02</td>
+    <td>↑, 3.4e-02</td>
+   </tr>
+   <tr>
+    <td>p34</td>
+    <td>reactome Fanconi Anemia pathway</td>
+    <td>↑, 7.7e-01</td>
+    <td>↑, 1.1e-01</td>
+    <td>↑, 9.8e-02</td>
+   </tr>
+   <tr>
+    <td>p35</td>
+    <td>Reactome Formation of transcription coupled NER TC NER repair complex pathway</td>
+    <td>↑, 1.0e+00</td>
+    <td>↑, 1.7e-01</td>
+    <td>↑, 2.2e-01</td>
+   </tr>
+   <tr>
+    <td>p36</td>
+    <td>Reactome Mismatch repair MMR directed by MSH2, MSH3, MutSbeta pathway</td>
+    <td>↑, 1.3e-01</td>
+    <td>↑, 8.5e-02</td>
+    <td>↑, 3.4e-02</td>
+   </tr>
+   <tr>
+    <td>p37</td>
+    <td>Reactome Mismatch repair MMR directed by MSH2, MSH6, MutSalpha pathway</td>
+    <td>↑, 9.8e-02</td>
+    <td>↑, 6.1e-02</td>
+    <td>↑, 1.6e-02</td>
+   </tr>
+   <tr>
+    <td>p38</td>
+    <td>Reactome Repair synthesis for gap filling by DNA polymerase in TC NER pathway</td>
+    <td>↑, 5.0e-01</td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 1.0e-01
+    </td>
+    <td>↑
+     <xref rid="tbl1fn5" ref-type="table-fn">5</xref>, 7.4e-02
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tbl1fn1">
+   <label>1</label>
+   <p id="ntpara0010">Comparison of papillary cancer versus follicular cancer tissues.</p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbl1fn2">
+   <label>2</label>
+   <p id="ntpara0015">q-value (FDR-adjusted p-value) for Wilcoxon test is given for every molecular pathway PAL in every comparison. Sign “↑” means that the first comparative group has higher mean PAL than the second, sign “↓” denotes the opposite situation.</p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbl1fn3">
+   <label>3</label>
+   <p id="ntpara0020">Comparison of follicular and papillary cancer tissues versus follicular adenoma.</p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbl1fn4">
+   <label>4</label>
+   <p id="ntpara0025">Comparison of papillary cancer versus follicular adenoma tissues.</p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbl1fn5">
+   <label>5</label>
+   <p id="ntpara0030">The coefficient of quartile variation (CQV) is higher for compared groups together than for each separate group.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,1 @@
+0: logVAR is distributed as the sum of a constant and Fisher's Z distribution with the expected mean and variance calculated as:  (7)E(logVAR)=logs02+(dg/2)(d02)+log(d0/dg)(8)var(logVAR)=(dg/2)(d0/2)  and  are the digamma and trigamma functions

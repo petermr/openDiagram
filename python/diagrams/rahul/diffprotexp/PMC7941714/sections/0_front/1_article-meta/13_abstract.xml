@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Competing endogenous RNA (ceRNA) represents a class of RNAs (e.g., long noncoding RNAs [lncRNAs]) with microRNA (miRNA) binding sites, which can competitively bind miRNA and inhibit its regulation of target genes. Increasing evidence has underscored the involvement of dysregulated ceRNA networks in the occurrence and progression of colorectal cancer (CRC). The purpose of this study was to construct a ceRNA network related to the prognosis of CRC and further explore the potential mechanisms that affect this prognosis.</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">RNA-Seq and miRNA-Seq data from The Cancer Genome Atlas (TCGA) were used to identify differentially expressed lncRNAs (DElncRNAs), microRNAs (DEmiRNAs), and mRNAs (DEmRNAs), and a prognosis-related ceRNA network was constructed based on DElncRNA survival analysis. Subsequently, pathway enrichment, Pearson correlation, and Gene Set Enrichment Analysis (GSEA) were performed to determine the function of the genes in the ceRNA network. Gene Expression Profiling Interactive Analysis (GEPIA) and immunohistochemistry (IHC) were also used to validate differential gene expression. Finally, the correlation between lncRNA and immune cell infiltration in the tumor microenvironment was evaluated based on the CIBERSORT algorithm.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">A prognostic ceRNA network was constructed with eleven key survival-related DElncRNAs (MIR4435-2HG, NKILA, AFAP1-AS1, ELFN1-AS1, AC005520.2, AC245884.8, AL354836.1, AL355987.4, AL591845.1, LINC02038, and AC104823.1), 54 DEmiRNAs, and 308 DEmRNAs. The MIR4435-2HG- and ELFN1-AS1-associated ceRNA subnetworks affected and regulated the expression of the COL5A2, LOX, OSBPL3, PLAU, VCAN, SRM, and E2F1 target genes and were found to be related to prognosis and tumor-infiltrating immune cell types.</p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par4">MIR4435-2HG and ELFN1-AS1 are associated with prognosis and tumor-infiltrating immune cell types and could represent potential prognostic biomarkers or therapeutic targets in colorectal carcinoma.</p>
+ </sec>
+ <sec>
+  <title>Supplementary Information</title>
+  <p>The online version contains supplementary material available at 10.1186/s12885-021-07995-2.</p>
+ </sec>
+</abstract>

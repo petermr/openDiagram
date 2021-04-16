@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Specific interactions among these genes may be necessary for any given biological process. An interaction network is essential for understanding time-dependent regulation during differentiation observed in the previous heatmap with some genes. Thus, the relationship between gene expression patterns and timing is essential for elucidating fat differentiation and adipose development. Furthermore, key genes may be primary controllers of regulatory pathways. To explore this, a PPI network was constructed and curated via STRING and Cystoscape [
+ <xref rid="cit0046" ref-type="bibr">46</xref>,
+ <xref rid="cit0047" ref-type="bibr">47</xref>], respectively (Supplementary 
+ <xref ref-type="fig" rid="f0003">Figure 3</xref>). The numbers of degrees (adjacent links) from each node (gene) intersection were systematically selected with betweenness and closeness centrality (
+ <xref ref-type="fig" rid="f0004">Figure 4a</xref>, 
+ <xref rid="t0002" ref-type="table">Table 2</xref> – displaying the top 30 genes). Gene 
+ <italic>Akt1</italic> showed the highest number of degrees, at 39, among all genes. 
+ <italic>Adipoq</italic> and 
+ <italic>Fabp4</italic> (
+ <italic>aP2</italic>) showed 21 and 16 degrees, respectively, and 
+ <italic>Ucp1</italic> and 
+ <italic>Lpl</italic> showed 17 and 14 degrees, respectively. The top 30 genes from the GO term were further analysed at the biological process level with GO term analysis (
+ <xref ref-type="fig" rid="f0004">Figure 4b</xref>) where most were associated with fat cell differentiation and metabolic and organic response processes (
+ <xref rid="t0003" ref-type="table">Table 3</xref>).
+</p>

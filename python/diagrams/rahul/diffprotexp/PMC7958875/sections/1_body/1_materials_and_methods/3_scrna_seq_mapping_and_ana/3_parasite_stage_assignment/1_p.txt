@@ -1,0 +1,6 @@
+0: Dimensionality reduction was performed using PCA in scater (v 1.16.0) based on the log CPM expression values of the top 500 variable features ( McCarthy et al., 2017).
+1: To separate potential different developmental stages, we used k-means clustering using SC3 (v 1.16.0) ( Kiselev et al., 2017) to assign each cell to a cluster ( Table S1).
+2: Clusters were assigned cell-types based on marker gene expression and by using scmap (v 1.10.0) ( Kiselev et al., 2018)  via the scmapCell() function with the Malaria Cell Atlas  P. berghei Smart-seq2 data as a reference index ( Howick et al., 2019).
+3: Pseudotime was calculated using untransformed counts in monocle ( Trapnell et al., 2014).
+4: For this, we selected the unsupervised procedure dpFeature and selected genes that are expressed in at least 10% of all cells.
+5: 528 genes with qval<0.01 were selected as ordering genes for the pseudotime.

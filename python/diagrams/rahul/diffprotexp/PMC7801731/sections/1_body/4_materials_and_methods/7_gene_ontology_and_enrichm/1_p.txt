@@ -1,0 +1,6 @@
+0: In order to have a broader understanding of the molecular processes that take place at different stages of gut regeneration we mapped Entrez Gene IDs of our transcripts using DAVID gene functional classification 88 tool to obtain a gene ontology (GO) analysis.
+1: Only DEGs with significant  p-value (< 0.05) and absolute expression level higher than 2 (Log2FC) were associated with GO terms.
+2: Results of ontology terms were summarized with Revigo 89.
+3: Pathway information was obtained by mapping KEGG ids from  S. purpuratus datasets to  H. glaberrima Entrez Gene IDs using kegga function from the Bioconductor package limmav3.11 90.
+4: Gene ratio was manually calculated for each individual pathway using the number of DEGs for a term divided by the total number for that term.
+5: All transcripts used in the GO and pathway enrichment analysis were filtered based on their  p value (< 0.05).

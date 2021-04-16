@@ -1,0 +1,2 @@
+0: The online tool, Metascape  73 was used to perform the enrichment analyses of gene ontology (GO), and Kyoto encyclopedia and genomes (KEGG), including protein-protein interaction and transcriptional factor of TRRUST.
+1: EnrichmentMap was established using the g.profiler ( https://biit.cs.ut.ee/gprofiler/gost) with the gene list as input and results were visualized in Cytoscape (v3.7.2) with cutoff at 0.01 of FDR q-value  74.

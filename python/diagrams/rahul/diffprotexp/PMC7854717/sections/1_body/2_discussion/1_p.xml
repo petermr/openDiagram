@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par30">A PubMed search for “mouse cardiac gene expression” returned 22,271 results on 10/13/2020, separate profiling of heart chambers in the same animal/pool of animals revealing chamber-specific patterns of gene expression from perinatal
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup> to adult stages
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup>. However, unique for our study is the GFP perspective
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup> that increases by several orders of magnitude the transcriptomic information collectible from a gene expression experiment. Thus, besides the traditional AVE, GFP assigns to each gene the independent characteristics REV and COR with each other gene from the same chamber (or with the same gene in an adjacent chamber). Our procedure increases the accuracy of detecting significant differential expression by replacing the uniform absolute fold-change cut-off with CUT determined separately for each gene in each two-chamber comparison function of biological variability and technical noise. Moreover, WPR weights the contribution of each pathway’s gene to the pathway alteration by its reference expression level, expression ratio and p-value of the differential expression. WPR is a much more comprehensive alternative to the traditional percentage of differentially expressed genes that is limited to the genes satisfying arbitrarily introduced cut-offs and considers all the regulated genes as equal contributors. In addition, we determined also the chamber differences in gene expression variability and inter-coordination. REV and COR analyses were further combined to establish the gene hierarchy and identify the GMR of each chamber.
+</p>

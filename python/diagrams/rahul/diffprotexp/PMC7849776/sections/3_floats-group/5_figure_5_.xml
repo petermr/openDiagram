@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0005" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 5.</label>
+ <caption>
+  <p>RNA-seq analysis showing the differentially expressed genes in 
+   <italic>yjbH</italic>::Tn and 
+   <italic>yjbI</italic>::Tn compared to that in the wild-type. (a). Genes that were significantly downregulated (&lt;2-fold, FDR 
+   <italic>p-value</italic> &lt;0.05). (b). Genes that were significantly upregulated (&gt;2-fold, FDR 
+   <italic>p-value</italic> &lt;0.05). (c). Gene Ontology term enrichment analysis. A complete list of differentially expressed genes in 
+   <italic>yjbI</italic>::Tn and 
+   <italic>yjbH</italic>::Tn compared with that of the wild-type (2 fold, FDR 
+   <italic>p-value</italic> &lt;0.05) is shown in Supplemental Table S1 and S2
+  </p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="KVIR_A_1875683_F0005_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="KVIR_A_1875683_F0005_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

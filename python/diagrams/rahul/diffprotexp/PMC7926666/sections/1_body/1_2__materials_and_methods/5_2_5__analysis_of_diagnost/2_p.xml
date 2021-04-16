@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To explore the prognostic performance of each subtype-specific DIP, survival analyses were carried out through stratification of patients into high- and low-risk groups based on their prognostic index (PI), which is the linear component of the Cox model (PI = β
+ <sub>1</sub>x
+ <sub>1</sub> + β
+ <sub>2</sub>x
+ <sub>2</sub> +…+ β
+ <sub>p</sub>x
+ <sub>p</sub>, where β
+ <sub>i</sub> is coefficient acquired from the Cox fitting, x
+ <sub>i</sub> is the expression value of each gene). Analyses were implemented through the SurvExpress tool [
+ <xref rid="B18-jpm-11-00158" ref-type="bibr">18</xref>] utilizing two RNA-Seq originated datasets of ccRCC with 415 samples, and pRCC with 278 samples including clinical data. In addition, RNA–Seq originated chRCC dataset with 9 samples with clinical data retrieved from TCGA [
+ <xref rid="B11-jpm-11-00158" ref-type="bibr">11</xref>] was analyzed separately through the pipeline established in our previous study [
+ <xref rid="B8-jpm-11-00158" ref-type="bibr">8</xref>] due to the absence of any dataset related to the chRCC subtype in the SurvExpress database. The signatures of survival in each risk group were estimated by Kaplan–Meier curves and Hazard Ratios (HR). Statistical significance of each plot was evaluated by the cut-off for log-rank 
+ <italic>p</italic>-value &lt; 0.05. Hazard ratio (HR = O
+ <sub>1</sub>/E
+ <sub>1</sub>/O
+ <sub>2</sub>/E
+ <sub>2</sub>) was calculated to discover the significance of the survival curves based on the ratio between the relative death rate in group 1 (O
+ <sub>1</sub>/E
+ <sub>1</sub>) and the relative death rate in group 2 (O
+ <sub>2</sub>/E
+ <sub>2</sub>), where O denotes the observed number of deaths, and E denotes the expected number of deaths.
+</p>

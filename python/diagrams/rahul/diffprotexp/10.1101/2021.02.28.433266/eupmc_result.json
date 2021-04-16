@@ -1,0 +1,240 @@
+{
+  "id": [
+    "PPR290211"
+  ],
+  "source": [
+    "PPR"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PPR290211"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1101/2021.02.28.433266"
+  ],
+  "title": [
+    "Day-night and seasonal variation of human gene expression across tissues"
+  ],
+  "authorString": [
+    "Wucher V, Sodaei R, Amador R, Irimia M, Guigó R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wucher V"
+          ],
+          "firstName": [
+            "Valentin"
+          ],
+          "lastName": [
+            "Wucher"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Sodaei R"
+          ],
+          "firstName": [
+            "Reza"
+          ],
+          "lastName": [
+            "Sodaei"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Amador R"
+          ],
+          "firstName": [
+            "Raziel"
+          ],
+          "lastName": [
+            "Amador"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Irimia M"
+          ],
+          "firstName": [
+            "Manuel"
+          ],
+          "lastName": [
+            "Irimia"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Guigó R"
+          ],
+          "firstName": [
+            "Roderic"
+          ],
+          "lastName": [
+            "Guigó"
+          ],
+          "initials": [
+            "R"
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "Circadian and circannual cycles trigger physiological changes whose reflection on human transcriptomes remains largely uncharted. We used the time and season of death of 932 individuals from GTEx to jointly investigate transcriptomic changes associated with those cycles across multiple tissues. For most tissues, we found little overlap between genes changing expression during day-night and among seasons. Although all tissues remodeled their transcriptomes, brain and gonadal tissues exhibited the highest seasonality, whereas those in the thoracic cavity showed stronger day-night regulation. Core clock genes displayed marked day-night differences across multiple tissues, which were largely conserved in baboon and mouse, but adapted to their nocturnal or diurnal habits. Seasonal variation of expression affected multiple pathways and were enriched among genes associated with SARS-CoV-2 infection. Furthermore, they unveiled cytoarchitectural changes in brain subregions. Altogether, our results provide the first combined atlas of how transcriptomes from human tissues adapt to major cycling environmental conditions."
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Preprint"
+      ]
+    }
+  ],
+  "bookOrReportDetails": [
+    {
+      "publisher": [
+        "bioRxiv"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1101/2021.02.28.433266"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/article/PPR/PPR290211"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "N"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "dbgap"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-03"
+  ],
+  "firstIndexDate": [
+    "2021-03-03"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-17"
+  ],
+  "firstPublicationDate": [
+    "2021-03-01"
+  ]
+}

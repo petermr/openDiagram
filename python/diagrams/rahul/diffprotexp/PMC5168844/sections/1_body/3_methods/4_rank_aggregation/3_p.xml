@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For our analysis, we have considered the 
+ <italic>p</italic>-values, obtained from Equation 
+ <xref rid="Equ3" ref-type="">3</xref>, as our weights (
+ <italic>w</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>). Here, 
+ <italic>Y</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the 
+ <italic>i</italic>
+ <sup>
+  <italic>th</italic>
+ </sup> ordered list of “target pathways”. As a distance measure, we have considered weighted Spearman’s footrule distance [
+ <xref ref-type="bibr" rid="CR26">26</xref>]. A brief description of the algorithm of the weighted Spearman’s footrule distance, used for our purpose, is as follows: Let 
+ <italic>p</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>(1); 
+ <italic>p</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>(2); … ; 
+ <italic>p</italic>(5) be the p-values (in ascending order) associated with the 
+ <italic>i</italic>
+ <sup>
+  <italic>th</italic>
+ </sup> ordered list, 
+ <italic>Y</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>. Let 
+ <italic>r</italic>
+ <sub>
+  <italic>A</italic>
+ </sub>(
+ <italic>Y</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>) and 
+ <italic>r</italic>
+ <sub>
+  <italic>A</italic>
+ </sub>(
+ <italic>x</italic>) denote the ranks of the “target pathway” A in the 
+ <italic>i</italic>
+ <sup>
+  <italic>th</italic>
+ </sup> ordered list 
+ <italic>Y</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> and the proposed ordered list 
+ <italic>x</italic>, respectively. Then, the weighted Spearman’s footrule distance is given by
+ <disp-formula id="Equ8">
+  <label>8</label>
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ S\left(x,\ {Y}_i\right)={\displaystyle \sum_{t\epsilon {Y}_i\cup x}}\left|p\left({r}_t\left({Y}_i\right)\right)-p\left({r}_t(x)\right)\right|\left.\times \right|\left.{r}_t\left({Y}_i\right)-{r}_t(x)\right| $$\end{document}</tex-math>
+   <math id="M30">
+    <mfenced close="" open="">
+     <mrow>
+      <mi>S</mi>
+      <mfenced close=")" open="(">
+       <mrow>
+        <mi>x</mi>
+        <mo>,</mo>
+        <mspace width="0.25em"/>
+        <msub>
+         <mi>Y</mi>
+         <mi>i</mi>
+        </msub>
+       </mrow>
+      </mfenced>
+      <mo>=</mo>
+      <mstyle displaystyle="true">
+       <munder>
+        <mo stretchy="true">∑</mo>
+        <mrow>
+         <mi>t</mi>
+         <mi>ϵ</mi>
+         <msub>
+          <mi>Y</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>∪</mo>
+         <mi>x</mi>
+        </mrow>
+       </munder>
+      </mstyle>
+     </mrow>
+    </mfenced>
+    <mfenced close="|" open="|">
+     <mrow>
+      <mi>p</mi>
+      <mfenced close=")" open="(">
+       <mrow>
+        <msub>
+         <mi>r</mi>
+         <mi>t</mi>
+        </msub>
+        <mfenced close=")" open="(">
+         <msub>
+          <mi>Y</mi>
+          <mi>i</mi>
+         </msub>
+        </mfenced>
+       </mrow>
+      </mfenced>
+      <mo>−</mo>
+      <mi>p</mi>
+      <mfenced close=")" open="(">
+       <mrow>
+        <msub>
+         <mi>r</mi>
+         <mi>t</mi>
+        </msub>
+        <mfenced close=")" open="(">
+         <mi>x</mi>
+        </mfenced>
+       </mrow>
+      </mfenced>
+     </mrow>
+    </mfenced>
+    <mfenced close="|" open="">
+     <mo>×</mo>
+    </mfenced>
+    <mfenced close="|" open="">
+     <mrow>
+      <msub>
+       <mi>r</mi>
+       <mi>t</mi>
+      </msub>
+      <mfenced close=")" open="(">
+       <msub>
+        <mi>Y</mi>
+        <mi>i</mi>
+       </msub>
+      </mfenced>
+      <mo>−</mo>
+      <msub>
+       <mi>r</mi>
+       <mi>t</mi>
+      </msub>
+      <mfenced close=")" open="(">
+       <mi>x</mi>
+      </mfenced>
+     </mrow>
+    </mfenced>
+   </math>
+   <graphic xlink:href="13062_2016_168_Article_Equ8.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

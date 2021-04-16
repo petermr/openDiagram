@@ -1,0 +1,7 @@
+0: Size factor was calculated by dividing each column by the geometric means of the rows.
+1: The median of these ratios was used as the size factor for this column.
+2: For comparison, log 2 fold of 1 was used as cut-off miRNA, > 1 were considered as up-regulated (UP), miRNAs <  1 were considered as down-regulated (DOWN) and those between 1 and  1 were considered as NEUTRAL.
+3: Heat maps were generated for top 40 miRNA DGEs (top 20 UP and top 20 DOWN according to Log 2 fold change) among all 12 samples (Fig.
+4: 4a).
+5: Scale with colour code has been given for SR-159 and SR-157 samples (Fig.
+6: 4b).

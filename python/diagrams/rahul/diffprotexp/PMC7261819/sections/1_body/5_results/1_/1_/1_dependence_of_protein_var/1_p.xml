@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To demonstrate the dependence of variance on the number of quantified PSMs we used an in-depth proteomics data set (TMT 10-plex labeled) of A431 cells sampled at different time points after treatment with the EGFR inhibitor gefitinib (
+ <xref rid="B17" ref-type="bibr">17</xref>) (data set D1). As shown in 
+ <xref ref-type="fig" rid="F1">Fig. 1</xref>
+ <italic>A</italic>, for proteins quantified with 1–20 PSMs, the standard deviation (
+ <italic>s</italic>) gradually decreases as the number of PSMs used for quantification increases. Similar dependence of variance (
+ <italic>s</italic>
+ <sup>2</sup>) on the number of quantified peptides or PSMs per protein is evident in other examples of label-free and labeled MS-data (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. S1
+  <italic>A</italic>–S1
+  <italic>C</italic>
+ </ext-link>). Using a common prior variance on this data, Limma underestimates the variance for proteins quantified with few PSMs, and overestimates variance for proteins quantified with many PSMs (
+ <xref ref-type="fig" rid="F1">Fig. 1</xref>
+ <italic>B</italic>). Therefore, the false positive rate for proteins quantified with few PSMs and the false negative rate for proteins quantified with many PSMs may increase. To reduce the false positive rate, proteins with a low number of PSMs/peptides are commonly removed from the analysis as discussed above. To salvage these proteins, and to correct the bias in the prior variance estimate, DEqMS estimates prior variances of proteins based on the number of quantified PSMs using non-parametric local regression (
+ <xref rid="B28" ref-type="bibr">28</xref>) as shown in 
+ <xref ref-type="fig" rid="F1">Fig. 1</xref>
+ <italic>B</italic>. After performing the modified prior variance estimation, DEqMS uses Limma to perform the subsequent analysis steps, 
+ <italic>i.e.</italic> the moderated ANOVA calculation. With DEqMS, all proteins can be included in the statistical analysis with the number of PSMs/peptides used for quantification taken into account.
+</p>

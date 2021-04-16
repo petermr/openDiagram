@@ -1,0 +1,9 @@
+0: Area-proportional Venn diagrams and analysis of differentially expressed gene lists were performed using BioVenn [ 26].
+1: Functional enrichment analysis of differentially expressed genes and visualization of functional networks was performed using Cytoscape/ClueGo version 2.5.7 [ 27].
+2: Only genes with p<0.05 were included into the analysis.
+3: Functional enrichment analysis was conducted using a two-sided hypergeometric test with Bonferroni step down correction.
+4: Latest GO Bological Process, GO Immune System Process and KEGG databases were used.
+5: GO levels were set in the interval from 3 to 8, minimum of genes per GO term or KEGG pathway threshold was 2 genes and 4%.
+6: The Kappa score threshold of 0.4 was set to determine term-term interactions and visualization of term connections as a network.
+7: ClueGo 2.5.7 was also used for visualization of networks, comparative analysis and sorting of whole transcriptome enrichment results using predefined terms from topGO and KEGGREST analyses.
+8: Only terms and pathways with p<0.05 were included to the input data.

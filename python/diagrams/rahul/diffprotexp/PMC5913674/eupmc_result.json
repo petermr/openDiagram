@@ -1,0 +1,721 @@
+{
+  "id": [
+    "29688452"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29688452"
+  ],
+  "pmcid": [
+    "PMC5913674"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC5913674"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1093/gigascience/giy024"
+  ],
+  "title": [
+    "Differential protein expression and post-translational modifications in metronidazole-resistant Giardia duodenalis."
+  ],
+  "authorString": [
+    "Emery SJ, Baker L, Ansell BRE, Mirzaei M, Haynes PA, McConville MJ, Svärd SG, Jex AR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Emery SJ"
+          ],
+          "firstName": [
+            "Samantha J"
+          ],
+          "lastName": [
+            "Emery"
+          ],
+          "initials": [
+            "SJ"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Population Health and Immunity Division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Baker L"
+          ],
+          "firstName": [
+            "Louise"
+          ],
+          "lastName": [
+            "Baker"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Population Health and Immunity Division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Faculty of Veterinary and Agricultural Sciences, The University of Melbourne, Melbourne, VIC, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ansell BRE"
+          ],
+          "firstName": [
+            "Brendan R E"
+          ],
+          "lastName": [
+            "Ansell"
+          ],
+          "initials": [
+            "BRE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0297-897X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Population Health and Immunity Division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Faculty of Veterinary and Agricultural Sciences, The University of Melbourne, Melbourne, VIC, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mirzaei M"
+          ],
+          "firstName": [
+            "Mehdi"
+          ],
+          "lastName": [
+            "Mirzaei"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8727-4984",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Chemistry and Biomolecular Sciences, Faculty of Science, Macquarie University, North Ryde, NSW, Australia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Australian Proteome Analysis Facility, Macquarie University, North Ryde, NSW, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Haynes PA"
+          ],
+          "firstName": [
+            "Paul A"
+          ],
+          "lastName": [
+            "Haynes"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1472-8249",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Chemistry and Biomolecular Sciences, Faculty of Science, Macquarie University, North Ryde, NSW, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "McConville MJ"
+          ],
+          "firstName": [
+            "Malcom J"
+          ],
+          "lastName": [
+            "McConville"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Bio21 Molecular Science and Biotechnology Institute, The University of Melbourne, Melbourne, VIC, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Svärd SG"
+          ],
+          "firstName": [
+            "Staffan G"
+          ],
+          "lastName": [
+            "Svärd"
+          ],
+          "initials": [
+            "SG"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Cell and Molecular Biology, Uppsala University, Uppsala, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jex AR"
+          ],
+          "firstName": [
+            "Aaron R"
+          ],
+          "lastName": [
+            "Jex"
+          ],
+          "initials": [
+            "AR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1285-7947",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Population Health and Immunity Division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Faculty of Veterinary and Agricultural Sciences, The University of Melbourne, Melbourne, VIC, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8727-4984",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1285-7947",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0297-897X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1472-8249",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "recommended_reviews",
+        "related_data",
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2671296"
+      ],
+      "dateOfPublication": [
+        "2018 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "GigaScience"
+          ],
+          "ISOAbbreviation": [
+            "Gigascience"
+          ],
+          "medlineAbbreviation": [
+            "Gigascience"
+          ],
+          "NLMid": [
+            "101596872"
+          ],
+          "ISSN": [
+            "2047-217X"
+          ],
+          "ESSN": [
+            "2047-217X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "abstractText": [
+    "Background:Metronidazole (Mtz) is the frontline drug treatment for multiple anaerobic pathogens, including the gastrointestinal protist, Giardia duodenalis. However, treatment failure is common and linked to in vivo drug resistance. In Giardia, in vitro drug-resistant lines allow controlled experimental interrogation of resistance mechanisms in isogenic cultures. However, resistance-associated changes are inconsistent between lines, phenotypic data are incomplete, and resistance is rarely genetically fixed, highlighted by reversion to sensitivity after drug selection ceases or via passage through the life cycle. Comprehensive quantitative approaches are required to resolve isolate variability, fully define Mtz resistance phenotypes, and explore the role of post-translational modifications therein. Findings:We performed quantitative proteomics to describe differentially expressed proteins in 3 seminal Mtz-resistant lines compared to their isogenic, Mtz-susceptible, parental line. We also probed changes in post-translational modifications including protein acetylation, methylation, ubiquitination, and phosphorylation via immunoblotting. We quantified more than 1,000 proteins in each genotype, recording substantial genotypic variation in differentially expressed proteins between isotypes. Our data confirm substantial changes in the antioxidant network, glycolysis, and electron transport and indicate links between protein acetylation and Mtz resistance, including cross-resistance to deacetylase inhibitor trichostatin A in Mtz-resistant lines. Finally, we performed the first controlled, longitudinal study of Mtz resistance stability, monitoring lines after cessation of drug selection, revealing isolate-dependent phenotypic plasticity. Conclusions:Our data demonstrate understanding that Mtz resistance must be broadened to post-transcriptional and post-translational responses and that Mtz resistance is polygenic, driven by isolate-dependent variation, and is correlated with changes in protein acetylation networks."
+  ],
+  "affiliation": [
+    "Population Health and Immunity Division, Walter and Eliza Hall Institute of Medical Research, Melbourne, VIC, Australia."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Giardia lamblia"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Metronidazole"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protozoan Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Antiprotozoal Agents"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Processing, Post-Translational"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Drug Resistance"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Antiprotozoal Agents"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Protozoan Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Metronidazole"
+          ],
+          "registryNumber": [
+            "140QMO216E"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1093/gigascience/giy024"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5913674"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5913674?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "5"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "PRIDE"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pxd",
+        "interpro",
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2018-12-11"
+  ],
+  "dateOfCreation": [
+    "2018-04-25"
+  ],
+  "firstIndexDate": [
+    "2018-04-25"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-11"
+  ],
+  "dateOfRevision": [
+    "2018-12-11"
+  ],
+  "firstPublicationDate": [
+    "2018-04-01"
+  ]
+}

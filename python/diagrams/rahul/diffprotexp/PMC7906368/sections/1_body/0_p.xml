@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Host-associated microbial communities (microbiomes) play critical roles in human, animal, and plant health and development. However, interactions between the host, members of the microbiome, and invading pathogens are in most cases still poorly understood. Such interactions are multidimensional [
+ <xref rid="ppat.1009245.ref001" ref-type="bibr">1</xref>] and can alter the taxonomic composition and/or the functional metabolic activities of the microbiome in response to disease or treatment conditions. For example, after 2 days of antibiotic treatment, the mouse gut microbiome is altered and more susceptible to invasion by the pathogen 
+ <italic>Clostridioides difficile</italic> [
+ <xref rid="ppat.1009245.ref002" ref-type="bibr">2</xref>]. Studies of these multidimensional interactions have been fueled by the ability to use high-throughput sequencing of phylogenetic marker genes to profile microbial community composition and shotgun metagenomics to profile functional potential [
+ <xref rid="ppat.1009245.ref003" ref-type="bibr">3</xref>]. However, many protein-coding genes predicted from metagenomes are not necessarily expressed under a given condition, and thus, it is difficult to assess the activities and functional interactions in microbial communities based on DNA sequencing data alone [
+ <xref rid="ppat.1009245.ref004" ref-type="bibr">4</xref>]. The physiological and pathological processes expressed in these communities under specific conditions are better reflected by the abundances of transcripts or proteins [
+ <xref rid="ppat.1009245.ref005" ref-type="bibr">5</xref>,
+ <xref rid="ppat.1009245.ref006" ref-type="bibr">6</xref>]. In this Pearl, we provide a brief introduction to metaproteomics, which is a tool for the large-scale analysis of proteins in microbiomes that allows researchers to address a diversity of questions related to functions and interactions in microbiomes [
+ <xref rid="ppat.1009245.ref007" ref-type="bibr">7</xref>]. The term “metaproteomics” was first used in 2004 for “the large-scale characterization of the entire protein complement of environmental microbiota at a given point in time” [
+ <xref rid="ppat.1009245.ref008" ref-type="bibr">8</xref>], and since then, a large array of metaproteomics approaches have been developed [
+ <xref rid="ppat.1009245.ref007" ref-type="bibr">7</xref>]. Our objective in this Pearl is to highlight what we feel are 5 essential elements to be considered for a metaproteomics research campaign and to introduce nonexpert readers to the topic without going into too much technical detail.
+</p>

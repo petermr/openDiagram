@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl2">
+ <label>Table 2</label>
+ <caption>
+  <p>Top 10 differential DNA repair genes for thyroid tumor comparisons.</p>
+ </caption>
+ <alt-text id="alttext0160">Table 2</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Gene ID</th>
+    <th>PC vs FC 
+     <xref rid="tbl2fn1" ref-type="table-fn">1</xref>
+     <sup>,</sup>
+     <xref rid="tbl2fn2" ref-type="table-fn">2</xref>
+    </th>
+    <th>FC + PC vs FA
+     <xref rid="tbl2fn2" ref-type="table-fn">2</xref>
+     <sup>,</sup>
+     <xref rid="tbl2fn3" ref-type="table-fn">3</xref>
+    </th>
+    <th>PC vs FA
+     <xref rid="tbl2fn2" ref-type="table-fn">2</xref>
+     <sup>,</sup>
+     <xref rid="tbl2fn4" ref-type="table-fn">4</xref>
+    </th>
+    <th>Gene product function according to GeneCards database [
+     <xref rid="bib62" ref-type="bibr">62</xref>]
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>
+     <italic>SFN</italic>
+    </td>
+    <td>1.42</td>
+    <td>1.62</td>
+    <td>2.06</td>
+    <td>Cell cycle checkpoint protein, regulates mitotic translation by binding with translation initiation factors</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>RAC2</italic>
+    </td>
+    <td>1.40</td>
+    <td>0.37</td>
+    <td>0.80</td>
+    <td>Metabolizes small guanosine triphosphate (GTP) and thus regulates secretion, phagocytosis, cell polarization, motility, etc</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>RASGRF1</italic>
+    </td>
+    <td>1.35</td>
+    <td>1.27</td>
+    <td>1.68</td>
+    <td>Stimulates dissociation of GDP from RAS proteins</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>IGF2</italic>
+    </td>
+    <td>1.18</td>
+    <td>0.56</td>
+    <td>0.93</td>
+    <td>Insulin growth factor involved in growth and development</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>IRF9</italic>
+    </td>
+    <td>1.00</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Transcription factor mediating interferon signaling by IFN-alpha and IFN-beta</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>JUN</italic>
+    </td>
+    <td>0.90</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Transcription factor that recognizes and binds to the enhancer heptamer motif 5′-TGA[CG]TCA-3′</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>POLD4</italic>
+    </td>
+    <td>0.89</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Enhances the activity of DNA polymerase delta and takes part in replication fork repair and stabilization</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ADGRB1</italic>
+    </td>
+    <td>-0.87</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Adhesion G Protein-Coupled Receptor B1 enhances the engulfment of apoptotic cells. Activates the Rho pathway in a G-protein-dependent manner</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>MAP3K11</italic>
+    </td>
+    <td>0.86</td>
+    <td>0.42</td>
+    <td>0.69</td>
+    <td>Preferentially activates MAPK8/JNK kinase, and functions as a positive regulator of JNK signaling pathway</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>MAP3K14</italic>
+    </td>
+    <td>0.80</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Binds to TRAF2 and stimulates NF-kappaB activity</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>ATR</italic>
+    </td>
+    <td>-</td>
+    <td>0.68</td>
+    <td>0.86</td>
+    <td>
+     <italic>S</italic>erine/threonine kinase and DNA damage sensor, activating cell cycle checkpoint signaling upon DNA stress, phosphorylates and activates several proteins involved in the inhibition of DNA replication and mitosis; promotes DNA repair, recombination, and apoptosis.
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <italic>CCNB1</italic>
+    </td>
+    <td>-</td>
+    <td>0.53</td>
+    <td>0.71</td>
+    <td>Regulates mitosis by complexing with p34 to form the maturation-promoting factor necessary for proper control of the G2/M transition phase of the cell cycle.</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>CDKN2D</italic>
+    </td>
+    <td>-</td>
+    <td>0.40</td>
+    <td>0.64</td>
+    <td>Cyclin-dependent kinase inhibitor which forms a stable complex with CDK4 or CDK6, and prevent their activation, thereby regulating cell cycle G1 phase progression.</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>MDM2</italic>
+    </td>
+    <td>-</td>
+    <td>0.39</td>
+    <td>0.64</td>
+    <td>Nuclear-localized E3 ubiquitin ligase which can promote carcinogenesis by targeting for proteasomal degradation tumor suppressor proteins including P53.</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>PI4KA</italic>
+    </td>
+    <td>-</td>
+    <td>0.37</td>
+    <td>-</td>
+    <td>Phosphatidylinositol 4-kinase which catalyzes the first step in the biosynthesis of phosphatidylinositol 4-bisphosphate.</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>H2AFX</italic>
+    </td>
+    <td>-</td>
+    <td>-</td>
+    <td>0.69</td>
+    <td>Variant histone that is phosphorylated as a reaction on DNA double-strand breaks, and replaces conventional H2A histone in nucleosomes</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tbl2fn1">
+   <label>1</label>
+   <p id="ntpara0035">Comparison of PC versus FC tissues.</p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbl2fn2">
+   <label>2</label>
+   <p id="ntpara0040">Gene fold change (log base 2). Sign “-” means that the gene is not included in top-10 of the most up- or downregulated differential genes.</p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbl2fn3">
+   <label>3</label>
+   <p id="ntpara0045">Comparison of FC + PC versus FA tissues.</p>
+  </fn>
+ </table-wrap-foot>
+ <table-wrap-foot>
+  <fn id="tbl2fn4">
+   <label>4</label>
+   <p id="ntpara0050">Comparison of PC versus FA tissues.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

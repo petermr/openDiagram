@@ -1,0 +1,7 @@
+0: The  p-values, obtained using the test statistic given in Equation  1, are used to obtain ranked lists of the target pathways for each cancer type.
+1: Here, ranking is done in such a way that the target pathway with the lowest p-value gets rank 1, the next one gets rank 2 and so on.
+2: Since, these ranked lists vary according to the cancer type; we need to aggregate them in a meaningful way to get an overall ranked list which would then rank the pathways by their global order of importance.
+3: In other words, this overall ranked list may provide us with the most important target pathways in all the three cancers.
+4: In order to get this overall ranked list, we have used the R package  RankAggreg [ 12,  13] based on the Cross-entropy Monte Carlo algorithm [ 25].
+5: In the framework of optimization problem,  RankAggreg [ 12,  13] minimizes an objective function, so that a final ordered list is obtained which is close to all the individual ordered lists, simultaneously.
+6: The objective function is defined as follows 6\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{O}(x)={\displaystyle \sum_{i=1}^m}{w}_id\left(x,{Y}_i\right) $$\end{document}x=i=1mwidxYi

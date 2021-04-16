@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Monticolo</surname>
+   <given-names>Francesco</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Palomba</surname>
+   <given-names>Emanuela</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Chiusano</surname>
+   <given-names>Maria Luisa</given-names>
+  </name>
+  <address>
+   <email>chiusano@unina.it</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.4691.a</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0790 385X</institution-id>
+   <institution>Department of Agricultural Sciences, Università degli Studi di Napoli Federico II, </institution>
+   <institution>Via Università 100, </institution>
+  </institution-wrap>80055 Portici, NA Italy 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.6401.3</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1758 0806</institution-id>
+   <institution>Department of Research Infrastructures for Marine Biological Resources (RIMAR), </institution>
+   <institution>Stazione Zoologica “Anton Dohrn”, Villa Comunale, </institution>
+  </institution-wrap>80121 Napoli, Italy 
+ </aff>
+</contrib-group>

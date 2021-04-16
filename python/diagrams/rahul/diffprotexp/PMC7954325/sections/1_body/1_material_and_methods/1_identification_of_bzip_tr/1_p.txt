@@ -1,0 +1,7 @@
+0: A two-step identification process was performed to categorize bZIPs of potato.
+1: In the first step, the curated Hidden Markov Model profiles of the bZIP domain family,  viz.
+2: PF00170 downloaded from Pfam [ 29], was used as a query to search the bZIP proteins in the potato proteome Ensembl database ( http://plants.ensembl.org/index.html) using HMMER3.0 [ 30].
+3: In the second step, a local BLASTp search was performed to identify the predicted potato bZIPs by HMMER3.0 from already known bZIPs in  Arabidopsis [ 10], maize [ 24], rice [ 21], and barley [ 31] with the E-value of 0.00001.
+4: Such potential potato bZIPs were further explored with NCBI-CDD and InterproScan [ 32] for the existence and integrity of the bZIP domain.
+5: CDD is the conserved domain database at NCBI for the annotation of protein sequences along with the location of conserved domain footprints within the sequence.
+6: InterproScan enables extensive scanning of protein sequences against the Interpro database by predicting domains and important sites and classify them into families [ 32].

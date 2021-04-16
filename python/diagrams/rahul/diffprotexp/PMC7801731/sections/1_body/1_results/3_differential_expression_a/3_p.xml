@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">A wide range of annotated transcripts with differential expression were designated as DEGs. Here we provide a list of the top 10 upregulated and downregulated DEGs for days 1 and 3 as examples of some of the genes in our database (Tables 
+ <xref rid="Tab1" ref-type="table">1</xref>, 
+ <xref rid="Tab2" ref-type="table">2</xref>, 
+ <xref rid="Tab3" ref-type="table">3</xref>, 
+ <xref rid="Tab4" ref-type="table">4</xref>). The ID column is the top hit transcript identifier for the reference assembly that matched with the sequence comprising the GeneID given. Adjusted 
+ <italic>p</italic>-values were determined by a multiple test correction with the Benjamini and Hochberg method using p-values obtained from the Wald test. Only the transcripts with adjusted 
+ <italic>p</italic>-value &lt; 0.01 were chosen as a conservative measure. At least half of upregulated DEGs were specific for each day, while others encoded proteins with similar descriptions between stages as in the case of actin, elongation factors, and cathepsin. Although annotated, some transcripts encode proteins not characterized in the databases as in the case of upregulated LOC592324 (accession: XM_030978239) and downregulated LOC575162 (accession: XM_030973217) at day 1. Downregulated DEGs shared the same characteristic with around half of their protein descriptions being specific for each stage and sharing proteins associated with transporters, aminopeptidases, lyases, homeobox proteins and aquaporin channels. Additional comparison between day 1 and 3 of regeneration using day 1 as the reference gave interesting results concerning downregulated nervous system genes (see Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S8</xref> online). Previous studies from our lab have shown that the nervous system within the mesentery is disrupted early in regeneration and slightly retracts or degenerates in the area adjacent to the evisceration rupture
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>. A decrease in the expression of nervous system-associated genes concurs with a negative effect on the mesentery nervous component.
+</p>

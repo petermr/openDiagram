@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Search Tool for the Retrieval of Interacting Genes (STRING) database was used to analyze the proteins involved in each function and predict protein interaction networks. STRING [
+ <xref rid="B23-proteomes-01-00219" ref-type="bibr">23</xref>] is a database and web resource dedicated to protein-protein interactions, including both direct (physical) and indirect (functional) associations [
+ <xref rid="B24-proteomes-01-00219" ref-type="bibr">24</xref>]. It weights and integrates information from numerous sources, including high-throughput experimental data, the mining of databases and literature, and predictions based on genomic context analysis. STRING integrates and ranks these associations by benchmarking them against a common reference set, and presents evidence in a consistent and intuitive web interface as a network. Interactions in STRING are provided with a confidence score, and accessory information such as protein domains and 3D structures is made available, all within a stable and consistent identifier space.
+</p>

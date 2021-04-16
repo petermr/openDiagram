@@ -1,0 +1,4 @@
+0: Methylation levels were determined by weighted methylation, which is the number of methylated cytosines divided by the total number of cytosines for a given region, weighting the data by sequence coverage [ 70].
+1: This was performed for both CpG and non-CpG methylation.
+2: We used a LMM with adult ID as the random effect to determine if mCG or mCH levels differed between treatments within genomic features.
+3: We categorized genomic features using Ensembl (version 3.2.4), including 2 Kb upstream of the TSS (i.e., potential promoter) [ 21], gene body (exons and introns), and 2 Kb downstream of the transcription termination site (TTS).

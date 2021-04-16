@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The differentially expressed genes (DEGs) were imported into the STRING database, which contains comprehensive information about interactions between proteins;
+ <xref rid="cit0027" ref-type="bibr">27</xref> thus, the interaction relationship between DEGs was obtained. The protein–protein interaction (PPI) network was constructed based on importing the data into Cytoscape 3.5.1 software, and then, the network was analyzed by Network Analyzer. The DEGs with interactions with combined scores greater than 0.4 were selected to construct a protein–protein interaction network diagram.
+ <xref rid="cit0028" ref-type="bibr">28</xref>
+</p>

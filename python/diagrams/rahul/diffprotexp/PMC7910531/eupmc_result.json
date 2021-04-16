@@ -1,0 +1,1106 @@
+{
+  "id": [
+    "33637762"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33637762"
+  ],
+  "pmcid": [
+    "PMC7910531"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7910531"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41467-021-21593-7"
+  ],
+  "title": [
+    "A molecular quantitative trait locus map for osteoarthritis."
+  ],
+  "authorString": [
+    "Steinberg J, Southam L, Roumeliotis TI, Clark MJ, Jayasuriya RL, Swift D, Shah KM, Butterfield NC, Brooks RA, McCaskie AW, Bassett JHD, Williams GR, Choudhary JS, Wilkinson JM, Zeggini E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Steinberg J"
+          ],
+          "firstName": [
+            "Julia"
+          ],
+          "lastName": [
+            "Steinberg"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0585-2312",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Translational Genomics, Helmholtz Zentrum München - German Research Center for Environmental Health, Neuherberg, Germany."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Cancer Research Division, Cancer Council NSW, Sydney, NSW, Australia."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "School of Public Health, The University of Sydney, Sydney, NSW, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Southam L"
+          ],
+          "firstName": [
+            "Lorraine"
+          ],
+          "lastName": [
+            "Southam"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Translational Genomics, Helmholtz Zentrum München - German Research Center for Environmental Health, Neuherberg, Germany."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Roumeliotis TI"
+          ],
+          "firstName": [
+            "Theodoros I"
+          ],
+          "lastName": [
+            "Roumeliotis"
+          ],
+          "initials": [
+            "TI"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "The Institute of Cancer Research, London, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Clark MJ"
+          ],
+          "firstName": [
+            "Matthew J"
+          ],
+          "lastName": [
+            "Clark"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2152-2257",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology and Metabolism, University of Sheffield, Sheffield, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jayasuriya RL"
+          ],
+          "firstName": [
+            "Raveen L"
+          ],
+          "lastName": [
+            "Jayasuriya"
+          ],
+          "initials": [
+            "RL"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0798-9128",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology and Metabolism, University of Sheffield, Sheffield, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Swift D"
+          ],
+          "firstName": [
+            "Diane"
+          ],
+          "lastName": [
+            "Swift"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology and Metabolism, University of Sheffield, Sheffield, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Shah KM"
+          ],
+          "firstName": [
+            "Karan M"
+          ],
+          "lastName": [
+            "Shah"
+          ],
+          "initials": [
+            "KM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9909-6409",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology and Metabolism, University of Sheffield, Sheffield, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Butterfield NC"
+          ],
+          "firstName": [
+            "Natalie C"
+          ],
+          "lastName": [
+            "Butterfield"
+          ],
+          "initials": [
+            "NC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5209-7508",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Molecular Endocrinology Laboratory, Department of Metabolism, Digestion and Reproduction, Imperial College London, London, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Brooks RA"
+          ],
+          "firstName": [
+            "Roger A"
+          ],
+          "lastName": [
+            "Brooks"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Trauma & Orthopaedic Surgery, Department of Surgery, University of Cambridge, Cambridge, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "McCaskie AW"
+          ],
+          "firstName": [
+            "Andrew W"
+          ],
+          "lastName": [
+            "McCaskie"
+          ],
+          "initials": [
+            "AW"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Trauma & Orthopaedic Surgery, Department of Surgery, University of Cambridge, Cambridge, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Bassett JHD"
+          ],
+          "firstName": [
+            "J H Duncan"
+          ],
+          "lastName": [
+            "Bassett"
+          ],
+          "initials": [
+            "JHD"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0817-0082",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Molecular Endocrinology Laboratory, Department of Metabolism, Digestion and Reproduction, Imperial College London, London, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Williams GR"
+          ],
+          "firstName": [
+            "Graham R"
+          ],
+          "lastName": [
+            "Williams"
+          ],
+          "initials": [
+            "GR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8555-8219",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Molecular Endocrinology Laboratory, Department of Metabolism, Digestion and Reproduction, Imperial College London, London, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Choudhary JS"
+          ],
+          "firstName": [
+            "Jyoti S"
+          ],
+          "lastName": [
+            "Choudhary"
+          ],
+          "initials": [
+            "JS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0881-5477",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Wellcome Sanger Institute, Hinxton, United Kingdom."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "The Institute of Cancer Research, London, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wilkinson JM"
+          ],
+          "firstName": [
+            "J Mark"
+          ],
+          "lastName": [
+            "Wilkinson"
+          ],
+          "initials": [
+            "JM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5577-3674",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology and Metabolism, University of Sheffield, Sheffield, United Kingdom. j.m.wilkinson@sheffield.ac.uk."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Centre for Integrated Research into Musculoskeletal Ageing and Sheffield Healthy Lifespan Institute, University of Sheffield, Sheffield, United Kingdom. j.m.wilkinson@sheffield.ac.uk."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zeggini E"
+          ],
+          "firstName": [
+            "Eleftheria"
+          ],
+          "lastName": [
+            "Zeggini"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4238-659X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Translational Genomics, Helmholtz Zentrum München - German Research Center for Environmental Health, Neuherberg, Germany. eleftheria.zeggini@helmholtz-muenchen.de."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Wellcome Sanger Institute, Hinxton, United Kingdom. eleftheria.zeggini@helmholtz-muenchen.de."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "TUM School of Medicine, Technical University of Munich and Klinikum Rechts der Isar, Munich, Germany. eleftheria.zeggini@helmholtz-muenchen.de."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5577-3674",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9909-6409",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0585-2312",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0798-9128",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5209-7508",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8555-8219",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0817-0082",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0881-5477",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2152-2257",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4238-659X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3104226"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "1309"
+  ],
+  "abstractText": [
+    "Osteoarthritis causes pain and functional disability for over 500 million people worldwide. To develop disease-stratifying tools and modifying therapies, we need a better understanding of the molecular basis of the disease in relevant tissue and cell types. Here, we study primary cartilage and synovium from 115 patients with osteoarthritis to construct a deep molecular signature map of the disease. By integrating genetics with transcriptomics and proteomics, we discover molecular trait loci in each tissue type and omics level, identify likely effector genes for osteoarthritis-associated genetic signals and highlight high-value targets for drug development and repurposing. These findings provide insights into disease aetiopathology, and offer translational opportunities in response to the global clinical challenge of osteoarthritis."
+  ],
+  "affiliation": [
+    "Institute of Translational Genomics, Helmholtz Zentrum München - German Research Center for Environmental Health, Neuherberg, Germany."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "110141"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "acronym": [
+            "WT_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "101123"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "acronym": [
+            "WT_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "110140"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "acronym": [
+            "WT_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "206194"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "acronym": [
+            "WT_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "148985"
+          ],
+          "agency": [
+            "Medical Research Council"
+          ],
+          "acronym": [
+            "MRC_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "agency": [
+            "Department of Health"
+          ],
+          "acronym": [
+            "DH_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "21156"
+          ],
+          "agency": [
+            "Versus Arthritis"
+          ],
+          "acronym": [
+            "VAC_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Osteoarthritis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genetic Predisposition to Disease"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcription Factors"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phenotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Quantitative Trait Loci"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome-Wide Association Study"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Transcription Factors"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-021-21593-7"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7910531"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7910531?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refsnp"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2021-03-15"
+  ],
+  "dateOfCreation": [
+    "2021-02-27"
+  ],
+  "firstIndexDate": [
+    "2021-02-28"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-06"
+  ],
+  "dateOfRevision": [
+    "2021-03-15"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-26"
+  ],
+  "firstPublicationDate": [
+    "2021-02-26"
+  ]
+}

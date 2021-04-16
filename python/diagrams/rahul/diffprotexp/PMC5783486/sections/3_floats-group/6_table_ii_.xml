@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tII-mmr-17-02-2402" orientation="portrait" position="float">
+ <label>Table II.</label>
+ <caption>
+  <p>Identification of differentially expressed proteins between the Kawasaki disease with coronary artery dilation and control groups by isobaric tags for relative and absolute quantitation technology.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" valign="bottom" rowspan="1" colspan="1">Protein name</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Gene name</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Accession nos.</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">95% CI</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Peptides (95%)</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Unused ProtScore</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Ratio (Con/CAD)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Complement C4-A</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">C4A</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P0C0L4</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">59.46</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">263</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">176.2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  1.9953</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">α-1-antitrypsin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SERPINA1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P01009</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">87.32</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">357</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">147.8</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  3.4041</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Haptoglobin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">HP</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P00738</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">83.25</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">426</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">125.86</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.4269</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Uncharacterized protein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">B4E1Z4</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">47.47</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">105</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">100.21</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  3.4356</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Hemopexin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">HPX</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02790</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">74.24</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">155</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">82.36</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.3121</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">α-1-antichymotrypsin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SERPINA3</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P01011</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">67.38</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">119</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">66.07</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  9.0365</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">α-1-acid glycoprotein 1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">ORM1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02763</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">55.22</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  90</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">44.86</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  7.5162</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Plasma protease C1 inhibitor</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SERPING1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P05155</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">47.80</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  61</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">44.05</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  3.5318</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Complement component C9</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">C9</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02748</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">38.82</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  34</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">40.08</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  9.6383</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Inter-α-trypsin inhibitor heavy chain H3</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">ITIH3</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q06033</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">29.10</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  53</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">34.19</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.4434</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Ig α-1 chain C region</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">IGHA1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P01876</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">58.36</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  92</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">33.33</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.5119</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Leucine-rich α-2-glycoprotein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">LRG1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02750</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">43.80</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  27</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">23.89</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  4.9204</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Hemoglobin subunit β</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">HBB</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P68871</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">88.44</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  41</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">21.25</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  3.0200</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Angiotensinogen</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">AGT</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P01019</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">25.77</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  21</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">20.46</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  9.7275</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Fibrinogen α chain</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">FGA</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02671</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">25.17</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  21</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">19.87</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  9.3756</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Plastin-2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">LCP1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P13796</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">21.37</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">18.50</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  1.6596</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Lipopolysaccharide-binding protein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">LBP</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P18428</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">23.70</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  10</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">18.31</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  3.6983</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Fibrinogen γ chain</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">FGG</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">C9JEU5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">33.26</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">17.56</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.5119</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">α-1-acid glycoprotein 2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">ORM2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P19652</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">49.75</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  43</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">17.51</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.4269</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Hemoglobin subunit α</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">HBA1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P69905</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">67.61</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  40</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">16.75</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  5.2966</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Fibrinogen β chain</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">FGB</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02675</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">27.09</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">13.20</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.8314</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Monocyte differentiation antigen CD14</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">CD14</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P08571</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">32.00</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    7</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">12.14</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.0512</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Serum amyloid A-1 protein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SAA1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P0DJI8</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">54.92</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  20</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">11.73</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  3.8019</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Serum amyloid P-component</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APCS</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02743</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">31.39</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  12</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">11.02</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.4889</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Complement C4-B</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">C4B</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P0C0L5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">59.12</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">257</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.00</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  1.7865</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Polymeric immunoglobulin receptor</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">PIGR</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P01833</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.34</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    6</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  9.25</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.4210</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">C-reactive protein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">CRP</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02741</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">16.52</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    8</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  8.53</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  8.3176</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Mannose-binding protein C</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">MBL2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P11226</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">16.53</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    4</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  7.33</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.5586</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Ig ∆ chain C region (fragment)</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">IGHD</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">A0A0A0MS09</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">16.05</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.96</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  5.2966</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Keratin, type I cytoskeletal 10</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">KRT10</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P13645</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">11.82</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.66</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.2284</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Transgelin-2 (fragment)</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">TAGLN2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">X6RJP6</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">27.27</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.57</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  3.0479</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Protein S100-A9</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">S100A9</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P06702</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">30.7</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.39</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  4.9204</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">α-1-antitrypsin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SERPINA1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">A0A024R6I7</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">87.32</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">348</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  5.19</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">46.1318</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Lymphatic vessel endothelial hyaluronic acid receptor 1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">LYVE1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q9Y5Y7</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  5.59</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  4.00</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.0701</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Protein S100-A8</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">S100A8</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P05109</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">23.66</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.14</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  4.4463</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Protein IGLV2-11 (fragment)</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">IGLV2-11</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">A0A075B6K3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.723</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  5.7544</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Resistin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">RETN</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q9HD89</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.19</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    1</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  1.8707</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein B-100</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOB</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P04114</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">51.92</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">374</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">399.96</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.5586</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Serotransferrin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">TF</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02787</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">78.08</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">349</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">172.35</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.8707</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Serum albumin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">ALB</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02768</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">74.88</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">271</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">139.74</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−5.2966</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Fibronectin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">FN1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02751</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">36.5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">101</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">108.76</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−30.4790</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Complement factor H</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">CFH</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P08603</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">50.93</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  85</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">92.38</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.4660</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Complement C5</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">C5</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P01031</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">30.91</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  58</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">78.08</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.0893</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein A-I</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOA1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02647</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">78.28</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">162</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">65.7</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−5.0582</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Inter-α-trypsin inhibitor heavy chain H1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">ITIH1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P19827</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">45.77</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  81</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">56.95</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.7040</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Plasminogen</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">PLG</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P00747</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">52.59</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  63</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">55.98</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−4.4875</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein A-IV</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOA4</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P06727</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">65.4</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  52</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">45.59</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.5996</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Afamin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">AFM</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P43652</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">42.9</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  27</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">37.22</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.4889</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Heparin cofactor 2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SERPIND1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P05546</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">42.48</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  43</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">35.9</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.3420</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Histidine-rich glycoprotein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">HRG</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P04196</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">38.67</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  27</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">35.14</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−9.2897</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">α-2-HS-glycoprotein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">AHSG</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02765</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">57.49</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  51</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">34.96</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.9231</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein A-II</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOA2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">V9GYM3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">49.62</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  66</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">30.77</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−5.1051</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Serum paraoxonase/arylesterase 1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">PON1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P27169</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">59.44</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  35</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">30.46</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.7040</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein E</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOE</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02649</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">56.78</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  38</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">26.73</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.0512</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Gelsolin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">GSN</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P06396</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">25.45</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  24</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">24.19</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.8371</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Complement component C8 β chain</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">C8B</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">F5H7G1</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">19.48</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  14</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">22.71</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.5823</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Coagulation factor XII</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">F12</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P00748</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">26.5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  21</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">21.87</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.0893</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Coagulation factor XIII B chain</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">F13B</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P05160</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">23.45</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  15</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">21.37</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.9231</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Pigment epithelium-derived factor</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SERPINF1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P36955</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">30.14</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  12</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">18.6</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.9231</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Lumican</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">LUM</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P51884</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">41.42</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  17</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">18.42</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.5417</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">β-2-glycoprotein 1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOH</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02749</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">43.19</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  16</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">18.2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.1677</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">N-acetylmuramoyl-L-alanine amidase</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">PGLYRP2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q96PD5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">38.72</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  17</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">17.6</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.3988</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Kallistatin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SERPINA4</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P29622</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">30.91</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  13</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">17.58</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.1333</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Insulin-like growth factor-binding protein complex acid labile subunit</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">IGFALS</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P35858</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">18.18</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  10</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">17.48</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.6546</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Extracellular matrix protein 1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">ECM1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q16610</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">22.04</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  10</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">16.77</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.1878</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Sex hormone-binding globulin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SHBG</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P04278</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">39.55</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  10</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">16.18</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.2699</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Transthyretin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">TTR</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P02766</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">72.11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  27</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">15.31</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.0479</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein L1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOL1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">O14791</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">34.42</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">14.3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.3335</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Prenylcysteine oxidase 1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">PCYOX1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q9UHG3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">18.02</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    8</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  14</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.1623</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Retinol binding protein 4, plasma, isoform CRA_b</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">RBP4</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q5VY30</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">58.79</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  14</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">11.92</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.6983</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Phosphatidylinositol-glycan-specific phospholipase D</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">GPLD1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P80108</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.95</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    8</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">11.54</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.6308</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein M</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOM</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">O95445</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">36.7</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.76</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.5318</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Tetranectin</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">CLEC3B</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">E9PHK0</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  55</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  10</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.58</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.0893</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Protein IGHV3-53 (fragment)</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">IGHV3-53</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">A0A087WSX4</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">60.34</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  21</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.43</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.9770</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Phospholipid transfer protein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">PLTP</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P55058</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">12.58</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.05</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.8030</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein(a)</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">LPA</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P08519</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">11.65</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    7</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  9.86</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.8576</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Uncharacterized protein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">A0A0G2JPD4</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">71.04</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">150</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  9.19</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.9055</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Vitamin K-dependent protein C</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">PROC</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">E7END6</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.1</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    8</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.7378</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Cholesteryl ester transfer protein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">CETP</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P11597</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">10.14</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    6</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.52</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−4.9659</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Fetuin-B</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">FETUB</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q9UGM5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">13.87</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    4</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.26</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.7040</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein C-III</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOC3</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">B0YIW2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">34.19</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.18</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.8840</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Uncharacterized protein</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">N/A</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">A0A0G2JN06</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">55.05</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  79</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  6.03</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.3729</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Protein IGHV1-69-2 (fragment)</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">IGHV1-69-2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">A0A0B4J2H0</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">58.12</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    6</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.7061</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein C-IV</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOC4</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P55056</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">15.75</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    4</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.5823</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Apolipoprotein C-I (fragment)</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">APOC1</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">K7ERI9</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">23.38</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  2.84</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−2.2699</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Urea transporter 2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SLC14A2</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">Q15849</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  1.522</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−3.4674</td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" rowspan="1" colspan="1">Extracellular superoxide dismutase (Cu-Zn)</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">SOD3</td>
+    <td align="left" valign="top" rowspan="1" colspan="1">P08294</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  4.583</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">    1</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">  1.77</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">−1.6144</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tfn2-mmr-17-02-2402">
+   <p>95% CI, percentage of matching amino acids from identified peptides having confidence intervals ≥95%, divided by the total number of amino acids in the sequence; Unused ProtScore, a measure of the protein confidence for a detected protein, calculated from the peptide confidence interval for peptides from spectra that are not already completely used by higher scoring winning proteins. Con, control group; CAD, coronary artery dilation group.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The MS peak list was subjected to MetaboAnalyst 3.0 for statistical analysis. PCA and pathway analysis were performed with the web-based software MetaboAnalyst 3.0
+ <sup>
+  <xref ref-type="fn" rid="footnote3">3</xref>
+ </sup>. Briefly, missing values were replaced by 1/5 of min positive values of their corresponding variables. Sample normalization by sum and data scaling by auto scaling were applied (mean centered and divided by the standard deviation of each variation) (
+ <xref ref-type="supplementary-material" rid="FS2">Supplementary Figures 2A,D</xref>). Fold change analysis was used to compare the absolute value of change between two groups (Fold change threshold: two). Nonparametric tests were employed according to the normalized data (Adjusted 
+ <italic>P</italic>-value (FDR) cutoff &lt;0.05). The different metabolites were subjected to enrichment analysis and pathway analysis in MetaboAnalyst 3.0 by KEGG.
+</p>

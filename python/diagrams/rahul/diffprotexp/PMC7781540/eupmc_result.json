@@ -1,0 +1,343 @@
+{
+  "id": [
+    "33356832"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33356832"
+  ],
+  "pmcid": [
+    "PMC7781540"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7781540"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/19336950.2020.1853943"
+  ],
+  "title": [
+    "Kv1.3 inhibition attenuates neuroinflammation through disruption of microglial calcium signaling."
+  ],
+  "authorString": [
+    "Fomina AF, Nguyen HM, Wulff H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Fomina AF"
+          ],
+          "firstName": [
+            "Alla F"
+          ],
+          "lastName": [
+            "Fomina"
+          ],
+          "initials": [
+            "AF"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Physiology and Membrane Biology, University of California , Davis, CA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nguyen HM"
+          ],
+          "firstName": [
+            "Hai M"
+          ],
+          "lastName": [
+            "Nguyen"
+          ],
+          "initials": [
+            "HM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, University of California , Davis, CA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wulff H"
+          ],
+          "firstName": [
+            "Heike"
+          ],
+          "lastName": [
+            "Wulff"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, University of California , Davis, CA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "3075566"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Channels (Austin, Tex.)"
+          ],
+          "ISOAbbreviation": [
+            "Channels (Austin)"
+          ],
+          "medlineAbbreviation": [
+            "Channels (Austin)"
+          ],
+          "NLMid": [
+            "101321614"
+          ],
+          "ISSN": [
+            "1933-6950"
+          ],
+          "ESSN": [
+            "1933-6969"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "67-78"
+  ],
+  "abstractText": [
+    "In the last 5 years inhibitors of the potassium channel K<sub>V</sub>1.3 have been shown to reduce neuroinflammation in rodent models of ischemic stroke, Alzheimer's disease, Parkinson's disease and traumatic brain injury. At the systemic level these beneficial actions are mediated by a reduction in microglia activation and a suppression of pro-inflammatory cytokine and nitric oxide production. However, the molecular mechanisms for the suppressive action of K<sub>V</sub>1.3 blockers on pro-inflammatory microglia functions was not known until our group recently demonstrated that K<sub>V</sub>1.3 channels not only regulate membrane potential, as would be expected of a voltage-gated potassium channel, but also play a crucial role in enabling microglia to resist depolarizations produced by the danger signal ATP thus regulating calcium influx through P2X4 receptors. We here review the role of K<sub>V</sub>1.3 in microglial signaling and show that, similarly to their role in T cells, K<sub>V</sub>1.3 channels also regulated store-operated calcium influx in microglia."
+  ],
+  "affiliation": [
+    "Department of Physiology and Membrane Biology, University of California , Davis, CA, USA."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Depolarization",
+        "neuroinflammation",
+        "Kv1.3",
+        "Voltage-gated Potassium Channel",
+        "Microglia Activation",
+        "Store-operated Calcium Influx"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/19336950.2020.1853943"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7781540"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7781540?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-12-28"
+  ],
+  "firstIndexDate": [
+    "2020-12-29"
+  ],
+  "fullTextReceivedDate": [
+    "2021-01-15"
+  ],
+  "dateOfRevision": [
+    "2021-01-14"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

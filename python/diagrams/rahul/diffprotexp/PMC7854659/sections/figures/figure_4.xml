@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig4">
+ <label>Figure 4</label>
+ <caption>
+  <p>Cerebrum regulatory network of differentially co-expressed genes from the bovine transcriptome. Nodes are genes with significant changes in the correlation between control and nutrient restricted fetus (
+   <italic>q</italic> ≤ 0.05). The node size and color (from light to dark) are proportional to the number of connections for each gene. Nodes with few connections not linked to the main network are not showed. Only those gene pairs assigned as DEG, TS, or TF are shown. Transcription factors are represented by a diamond shape. Differentially expressed genes are labeled in blue. Edges are colored based on the differential correlation class (+/− , red; + /0, salmon; − /+ , green; − /− , deep sky blue; − /0, green-yellow; 0/+ , magenta; 0/− , brown). Gene network was created on Cytoscape v.3.7
+   <sup>
+    <xref ref-type="bibr" rid="CR89">89</xref>
+   </sup>.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_82156_Fig4_HTML" id="MO4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">We performed a strand-specific read counting of coding and non-coding gene using on the carrot official annotation and the newly predicted genes of this study for each of the 12 aligned BAM files by means of the featureCount
+ <sup>
+  <xref ref-type="bibr" rid="CR74">74</xref>
+ </sup> software included in the Rsubread package
+ <sup>
+  <xref ref-type="bibr" rid="CR75">75</xref>
+ </sup>. The resulted normalized counts (median of ratios)
+ <sup>
+  <xref ref-type="bibr" rid="CR76">76</xref>
+ </sup> were used for differential expression analysis with DEseq2
+ <sup>
+  <xref ref-type="bibr" rid="CR77">77</xref>
+ </sup>. Differentially expressed genes were declared as having a Bonferroni’s adjusted 
+ <italic>p</italic> value &lt; 0.01. Reads corresponding to the strand specific expression of mRNAs and their lncNATs were visualized with the Integrative Genomics Viewer (IGV) software
+ <sup>
+  <xref ref-type="bibr" rid="CR78">78</xref>
+ </sup>. Additional Venn diagrams were performed with Venny v2.1
+ <sup>
+  <xref ref-type="bibr" rid="CR79">79</xref>
+ </sup>.
+</p>

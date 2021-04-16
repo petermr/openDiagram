@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="pone.0244364.s014">
+ <label>S3 Table</label>
+ <caption>
+  <title>Differential expressed genes of RNASeq data.</title>
+  <p>In each tab, “full-3way” indicates full-model analysis, and “full-treatment” indicates main effect of treatment only, upregulated and downregulated indicates comparison of CMV-inoculated and mock-inoculated samples. “Variety-[‘Jessie’, ‘QQ74’, ‘Red Head’]-2way” means individual variety-specific model while considering time and treatment effect, whereas “Variety-[‘Jessie’, ‘QQ74’, ‘Red Head’]-treatment means individual variety-specific model by considering main effect of treatment only. upregulated and downregulated indicates comparison of CMV-inoculated and mock-inoculated samples.</p>
+  <p>(XLSX)</p>
+ </caption>
+ <media xlink:href="pone.0244364.s014.xlsx" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <caption>
+   <p>Click here for additional data file.</p>
+  </caption>
+ </media>
+</supplementary-material>

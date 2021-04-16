@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Top 25 genes showing significant up or down regulation tendency in granulosa cells proximal and distal to the germinal disc (GD) in F5 follicles (q &lt; 0.05).</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Gene name/Gene_ID</th>
+    <th align="left">Fold change (Log 2 )</th>
+    <th align="left">Gene name/Gene_ID</th>
+    <th align="left">Fold change (Log 2 )</th>
+    <th align="left">Gene name/Gene_ID</th>
+    <th align="left">Fold change (Log 2 )</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" colspan="6">
+     <bold>Higher abundance in F5 proximal versus distal granulosa cells</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>BMP15</italic>
+    </td>
+    <td char="." align="char">5.34</td>
+    <td align="left">
+     <italic>FAM101B</italic>
+    </td>
+    <td char="." align="char">3.53</td>
+    <td align="left">ENSGALG00000023172</td>
+    <td char="." align="char">2.93</td>
+   </tr>
+   <tr>
+    <td align="left">Novel00730</td>
+    <td char="." align="char">5.17</td>
+    <td align="left">
+     <italic>NGFR</italic>
+    </td>
+    <td char="." align="char">3.45</td>
+    <td align="left">
+     <italic>MRC2</italic>
+    </td>
+    <td char="." align="char">2.91</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>ENG</italic>
+    </td>
+    <td char="." align="char">4.59</td>
+    <td align="left">
+     <italic>CLDN1</italic>
+    </td>
+    <td char="." align="char">3.43</td>
+    <td align="left">
+     <italic>IRF6</italic>
+    </td>
+    <td char="." align="char">2.81</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>TMEM184A</italic>
+    </td>
+    <td char="." align="char">4.59</td>
+    <td align="left">
+     <italic>B3GNT7</italic>
+    </td>
+    <td char="." align="char">3.34</td>
+    <td align="left">
+     <italic>PLK3</italic>
+    </td>
+    <td char="." align="char">2.80</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>ABCC4</italic>
+    </td>
+    <td char="." align="char">3.99</td>
+    <td align="left">
+     <italic>EMCN</italic>
+    </td>
+    <td char="." align="char">3.34</td>
+    <td align="left">ENSGALG00000007703</td>
+    <td char="." align="char">2.48</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>AMH</italic>
+    </td>
+    <td char="." align="char">3.68</td>
+    <td align="left">
+     <italic>ZP2</italic>
+    </td>
+    <td char="." align="char">3.34</td>
+    <td align="left">
+     <italic>C6orf132</italic>
+    </td>
+    <td char="." align="char">2.41</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>PPP1R3B</italic>
+    </td>
+    <td char="." align="char">3.66</td>
+    <td align="left">
+     <italic>ADAMTSL3</italic>
+    </td>
+    <td char="." align="char">3.31</td>
+    <td align="left">
+     <italic>RBPMS2</italic>
+    </td>
+    <td char="." align="char">2.40</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>CHRDL1</italic>
+    </td>
+    <td char="." align="char">3.62</td>
+    <td align="left">
+     <italic>CCNO</italic>
+    </td>
+    <td char="." align="char">3.25</td>
+    <td align="left"/>
+    <td char="." align="char"/>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>WT1</italic>
+    </td>
+    <td char="." align="char">3.53</td>
+    <td align="left">
+     <italic>NBL1</italic>
+    </td>
+    <td char="." align="char">3.04</td>
+    <td align="left"/>
+    <td char="." align="char"/>
+   </tr>
+   <tr>
+    <td align="left" colspan="6">
+     <bold>Lower abundance in F5 proximal versus distal granulosa cells</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>FMOD</italic>
+    </td>
+    <td char="." align="char">1.74</td>
+    <td align="left">
+     <italic>LTBP2</italic>
+    </td>
+    <td char="." align="char">0.79</td>
+    <td align="left">
+     <italic>RPS15A</italic>
+    </td>
+    <td char="." align="char">0.63</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>STC1</italic>
+    </td>
+    <td char="." align="char">1.11</td>
+    <td align="left">
+     <italic>CYP11A1</italic>
+    </td>
+    <td char="." align="char">0.70</td>
+    <td align="left">
+     <italic>RPS7</italic>
+    </td>
+    <td char="." align="char">0.63</td>
+   </tr>
+   <tr>
+    <td align="left">Novel01498</td>
+    <td char="." align="char">0.95</td>
+    <td align="left">
+     <italic>FIBIN</italic>
+    </td>
+    <td char="." align="char">0.68</td>
+    <td align="left">
+     <italic>RETSAT</italic>
+    </td>
+    <td char="." align="char">0.62</td>
+   </tr>
+   <tr>
+    <td align="left">Novel00960</td>
+    <td char="." align="char">0.94</td>
+    <td align="left">
+     <italic>PLTP</italic>
+    </td>
+    <td char="." align="char">0.67</td>
+    <td align="left">
+     <italic>RPS6</italic>
+    </td>
+    <td char="." align="char">0.61</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>FAR-1</italic>
+    </td>
+    <td char="." align="char">0.83</td>
+    <td align="left">
+     <italic>RGL1</italic>
+    </td>
+    <td char="." align="char">0.67</td>
+    <td align="left">
+     <italic>FNDC1</italic>
+    </td>
+    <td char="." align="char">0.61</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>ADA</italic>
+    </td>
+    <td char="." align="char">0.82</td>
+    <td align="left">ENSGALG00000028992</td>
+    <td char="." align="char">0.65</td>
+    <td align="left">
+     <italic>RPL4</italic>
+    </td>
+    <td char="." align="char">0.60</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>TGFBI</italic>
+    </td>
+    <td char="." align="char">0.81</td>
+    <td align="left">
+     <italic>RPL7</italic>
+    </td>
+    <td char="." align="char">0.64</td>
+    <td align="left">
+     <italic>TPST1</italic>
+    </td>
+    <td char="." align="char">0.59</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>LRP1</italic>
+    </td>
+    <td char="." align="char">0.80</td>
+    <td align="left">
+     <italic>PURH</italic>
+    </td>
+    <td char="." align="char">0.64</td>
+    <td align="left"/>
+    <td char="." align="char"/>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>CTHRC1</italic>
+    </td>
+    <td char="." align="char">0.79</td>
+    <td align="left">
+     <italic>SLC25A6</italic>
+    </td>
+    <td char="." align="char">0.64</td>
+    <td align="left"/>
+    <td char="." align="char"/>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

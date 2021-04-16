@@ -1,0 +1,11 @@
+0: Differential transcript usage (DTU) analysis was performed using the R library IsoformSwitchAnalyzeR 12.
+1: Following pipeline instructions, kallisto abundance tables were imported using  importIsoformExpression and  importRdata functions to create a  switchAnalyzeRlist object.
+2: Same cDNA release used in kallisto alignment and correspondent annotation ( ftp://ftp.ensembl.org/pub/release-94/gtf/homo_sapiens/Homo_sapiens.GRCh38.94.chr_patch_hapl_scaff.gtf.gz) were applied as input.
+3: We filtered data using a gene expression cutoff = 10, isoform expression cutoff = 3, differential isoform fraction (dIF) cutoff = 0.05 and removed single isoform genes.
+4: Although DEXSeq is recommended to test differential isoform usage, it does not work efficiently for large datasets (more than 100 samples) 11.
+5: For that reason, we chose  isoformSwitchAnalysisPart1 function using DRIMSeq 53 to test differential transcript usage.
+6: Using part1 fasta files, all external analysis was performed and used as input to  isoformSwitchAnalysisPart2 function.
+7: We used CPC2, Pfam, SignalIP and Netsurfp2 as indicated in the pipeline.
+8: Next, we performed a confirmation stage using stageR 14 to generate isoforms overall false discovery rate (OFDR).
+9: We selected all isoforms with OFDR < 0.01 and dIF >0.05.
+10: RIN and PMI metadata were used as covariates (linear regression).

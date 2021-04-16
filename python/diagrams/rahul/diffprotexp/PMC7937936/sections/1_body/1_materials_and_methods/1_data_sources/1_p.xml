@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The level 3 HTSeq-FPKM RNA-seq expression data and corresponding clinical data of HNSCC patients were retrieved from a data set of the Cancer Genome Atlas database (TCGA-HNSC) (
+ <uri xlink:type="simple" xlink:href="https://portal.gdc.cancer.gov" xmlns:xlink="http://www.w3.org/1999/xlink">https://portal.gdc.cancer.gov</uri>). A total of 546 RNA-seq expression data, including 502 tumor tissues and 44 normal tissues, were included in TCGA-HNSC data set, and were applied in the following analyses. A total of 499 patients had both clinical data containing survival information and gene expression data included for survival analysis (
+ <xref ref-type="supplementary-material" rid="ST1">
+  <bold>Table S1</bold>
+ </xref>). GSE41613 data set retrieved from the Gene Expression Omnibus (GEO) database (
+ <uri xlink:type="simple" xlink:href="http://www.ncbi.nlm.nih.gov/geo" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ncbi.nlm.nih.gov/geo</uri>) with both expression data and the corresponding survival information of 97 patients were recruited for external survival validation. However, GSE41613 data set does not include gene expression data from normal tissues. Therefore, GSE30784 and GSE37991 data sets from the GEO database with the expression data of both tumor and normal tissues were then used for external RNA-seq expression validation. The GSE30784 data set includes gene expression data from 167 tumor tissues and 45 normal controls. A total of 80 tumor and non-tumor pair-wise samples obtained from 40 male oral squamous cell cancer (OSCC) patients were recruited in the GSE37991.
+</p>

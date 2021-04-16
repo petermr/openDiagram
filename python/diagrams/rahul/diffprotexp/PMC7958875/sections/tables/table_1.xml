@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>Overview of data sets and differential gene expression (DE) analysis performed in this study.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th valign="top" align="left" rowspan="1" colspan="1">Data Set</th>
+    <th valign="top" align="center" rowspan="1" colspan="1">
+     <italic>Plasmodium</italic> species
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1">
+     <italic>Anopheles</italic> species
+    </th>
+    <th valign="top" align="center" rowspan="1" colspan="1">Sample collection</th>
+    <th valign="top" align="center" rowspan="1" colspan="1"># midguts</th>
+    <th valign="top" align="center" rowspan="1" colspan="1">Method</th>
+    <th valign="top" align="center" rowspan="1" colspan="1">Cells/samples passing QC</th>
+    <th valign="top" align="center" rowspan="1" colspan="1">DE comparison</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Pb vector species</bold>
+    </td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">
+     <italic>P. berghei</italic>
+    </td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">
+     <italic>An. coluzzii</italic>
+     <break/>
+     <italic>An. stephesi</italic>
+    </td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">Pooled guts</td>
+    <td valign="top" style="background-color:#dbe5f1;" align="center" rowspan="1" colspan="1">5 per pool</td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">Single-cell</td>
+    <td style="background-color:#dbe5f1;" valign="top" align="center" rowspan="1" colspan="1">253</td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">Mosquito species</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Pb single-gut</bold>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>P. berghei</italic>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <italic>An. stephensi</italic>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Single guts</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">4</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Single-cell</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">58; 67; 88; 91</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">Individual guts
+     <break/>Within a gut
+    </td>
+   </tr>
+   <tr>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Pf bulk</bold>
+    </td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">
+     <italic>P. falciparum</italic>
+    </td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">
+     <italic>An. coluzzii</italic>
+    </td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">Single guts</td>
+    <td style="background-color:#dbe5f1;" valign="top" align="center" rowspan="1" colspan="1">24</td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">Bulk</td>
+    <td style="background-color:#dbe5f1;" valign="top" align="center" rowspan="1" colspan="1">22</td>
+    <td style="background-color:#dbe5f1;" valign="top" align="left" rowspan="1" colspan="1">Mating status
+     <break/>Antibiotics
+     <break/>Individual guts
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>We analyzed three different data sets. First, data from the Malaria Cell Atlas (
+    <xref rid="B17" ref-type="bibr">Howick et al., 2019</xref>) consisting of single cell P. berghei ookinetes collected from pooled An.stephensi midguts was compared to a data set collected simultaneously but from An. coluzzii midguts that we called Pb vector species data set. Second, we analyzed single cell P. bergheiookinetes that were collected from four individual An. coluzzii midguts and named this data set Pb single gut data set. Third, we used P. falciparum bulk RNA-seq data from a previously published data set (
+    <xref rid="B11" ref-type="bibr">Dahalan et al., 2019</xref>) that investigated P. falciparum infection in An. coluzzii in mated compared to virgin females. We named this data set Pf bulk data set.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

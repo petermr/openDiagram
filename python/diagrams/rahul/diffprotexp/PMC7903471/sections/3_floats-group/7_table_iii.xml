@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tIII-etm-0-0-09796" orientation="portrait" position="float">
+ <label>Table III</label>
+ <caption>
+  <p>Top 15 significantly enriched GO terms in biological processes, cellular components and molecular functions of the differentially expressed lncRNAs.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" valign="middle" colspan="5" rowspan="1">A, Upregulated</th>
+   </tr>
+   <tr>
+    <th align="left" valign="middle" rowspan="1" colspan="1">Category</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">GO accession no.</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Description</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Corrected P-value</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Total number of genes</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0008152</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Metabolic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.1x10
+     <sup>-11</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4,779</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0071704</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Organic substance metabolic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.2x10
+     <sup>-11</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4,573</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0044237</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cellular metabolic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.7x10
+     <sup>-14</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4,486</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0009058</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Biosynthetic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.6x10
+     <sup>-09</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,858</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:1901576</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Organic substance biosynthetic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.7x10
+     <sup>-09</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,820</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0043226</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Organelle</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.5x10
+     <sup>-17</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5,787</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0043229</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Intracellular organelle</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.0x10
+     <sup>-20</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5,414</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0043227</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Membrane-bounded organelle</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.4x10
+     <sup>-18</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5,316</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0043231</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Intracellular membrane-bounded organelle</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.9x10
+     <sup>-22</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4,902</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0005737</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cytoplasm</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.2x10
+     <sup>-11</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4,784</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0097159</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Organic cyclic compound binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.9x10
+     <sup>-6</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,861</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:1901363</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Heterocyclic compound binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.3x10
+     <sup>-6</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,836</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0043167</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Ion binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.4x10
+     <sup>-6</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,639</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0043169</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cation binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.6x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1,804</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0046872</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Metal ion binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.5x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1,779</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" colspan="5" rowspan="1">B, Downregulated</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Category</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO accession no.</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Description</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Corrected P-value</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Total number of genes</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0044238</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Primary metabolic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.6x10
+     <sup>-11</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4,424</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0043170</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Macromolecule metabolic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.5x10
+     <sup>-15</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3,935</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0044260</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cellular macromolecule metabolic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.4x10
+     <sup>-17</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3,660</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0006807</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Nitrogen compound metabolic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.8x10
+     <sup>-09</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,947</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_BP</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0044249</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cellular biosynthetic process</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.6x10
+     <sup>-10</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,781</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0005622</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Intracellular</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.0x10
+     <sup>-29</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6,263</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0044424</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Intracellular part</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.0x10
+     <sup>-27</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6,127</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0044422</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Organelle part</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.6x10
+     <sup>-7</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3,740</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0044446</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Intracellular organelle part</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.1x10
+     <sup>-8</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3,675</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_CC</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0044444</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cytoplasmic part</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.1x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3,572</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0005488</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.6x10
+     <sup>-6</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4,991</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0003824</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Catalytic activity</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.0x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2,445</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0003676</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Nucleic acid binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.9x10
+     <sup>-4</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1,994</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0003677</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">DNA binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.9x10
+     <sup>-10</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1,185</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">GOTERM_MF</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">GO:0003700</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Transcription factor activity, sequence-specific DNA binding</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.1x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">526</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>GO, gene ontology; lncRNA, long non-coding RNA.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

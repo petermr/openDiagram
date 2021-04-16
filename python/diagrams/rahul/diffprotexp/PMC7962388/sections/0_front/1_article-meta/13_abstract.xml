@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Apomixis, an asexual mode of plant reproduction, is a genetically heritable trait evolutionarily related to sexuality, which enables the fixation of heterozygous genetic combinations through the development of maternal seeds. Recently, reference floral transcriptomes were generated from sexual and apomictic biotypes of 
+   <italic>Paspalum notatum</italic>, one of the most well-known plant models for the study of apomixis. However, the transcriptome dynamics, the occurrence of apomixis vs. sexual expression heterochronicity across consecutive developmental steps and the orientation of transcription (sense/antisense) remain unexplored.
+  </p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par2">We produced 24 Illumina TruSeq®/ Hiseq 1500 sense/antisense floral transcriptome libraries covering four developmental stages (premeiosis, meiosis, postmeiosis, and anthesis) in biological triplicates, from an obligate apomictic and a full sexual genotype. De novo assemblies with Trinity yielded 103,699 and 100,114 transcripts for the apomictic and sexual samples respectively. A global comparative analysis involving reads from all developmental stages revealed 19,352 differentially expressed sense transcripts, of which 13,205 (68%) and 6147 (32%) were up- and down-regulated in apomictic samples with respect to the sexual ones. Interestingly, 100 differentially expressed antisense transcripts were detected, 55 (55%) of them up- and 45 (45%) down-regulated in apomictic libraries. A stage-by-stage comparative analysis showed a higher number of differentially expressed candidates due to heterochronicity discrimination: the highest number of differential sense transcripts was detected at premeiosis (23,651), followed by meiosis (22,830), postmeiosis (19,100), and anthesis (17,962), while the highest number of differential antisense transcripts were detected at anthesis (495), followed by postmeiosis (164), meiosis (120) and premeiosis (115). Members of the AP2, ARF, MYB and WRKY transcription factor families, as well as the auxin, jasmonate and cytokinin plant hormone families appeared broadly deregulated. Moreover, the chronological expression profile of several well-characterized apomixis controllers was examined in detail.</p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par3">This work provides a quantitative sense/antisense gene expression catalogue covering several subsequent reproductive developmental stages from premeiosis to anthesis for apomictic and sexual 
+   <italic>P. notatum</italic>, with potential to reveal heterochronic expression between reproductive types and discover sense/antisense mediated regulation. We detected a contrasting transcriptional and hormonal control in apomixis and sexuality as well as specific sense/antisense modulation occurring at the onset of parthenogenesis.
+  </p>
+ </sec>
+ <sec>
+  <title>Supplementary Information</title>
+  <p>The online version contains supplementary material available at 10.1186/s12864-021-07450-3.</p>
+ </sec>
+</abstract>

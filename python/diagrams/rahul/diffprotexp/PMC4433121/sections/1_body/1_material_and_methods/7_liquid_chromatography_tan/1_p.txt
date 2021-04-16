@@ -1,0 +1,10 @@
+0: LC-MS/MS was performed essentially according to previously published methodology [ 15,  16].
+1: Before the analysis fractions were dissolved in 8 l of 3% ACN with 0.1% formic acid.
+2: Three l from each fraction was injected into online HPLC-MS performed on a hybrid LTQ-Orbitrap Velos mass spectrometer (Thermo Scientific).
+3: An Agilent HPLC 1200 system (Agilent Technologies) was used to provide the 50 min gradient for online reversed-phase nano-LC at a flow of 0.4 l/min.
+4: Each sample was injected into a C18 guard desalting column (Agilent Technologies) before entering into a 15 cm long C18 picofrit column with a 100 m internal diameter and 5 m bead size (Nikkyo Technos Co., Japan) installed on to the nano electrospray ionization (NSI) source.
+5: Precursors were isolated with a 2 m/z width and dynamic exclusion was used with 60 sec duration.
+6: We enabled preview mode for FTMS master scans, which proceeded at 30,000 resolution (profile mode).
+7: Data-dependent MS/MS (centroid mode) followed in two stages: firstly, the top 5 ions from the master scan were selected for collision-induced dissociation (CID, at 35% energy) with detection in the ion trap (ITMS).
+8: Then, the same 5 ions underwent higher energy collision dissociation (HCD, at 37.5% energy) with detection in the Orbitrap (FTMS).
+9: The entire duty cycle lasted ~3.5 sec.

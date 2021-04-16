@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig5">
+ <label>Figure 5</label>
+ <caption>
+  <p>Effects of radiotherapy on ACE2, TMPRSS2, and CTSL expression. Expression of 
+   <italic>ACE2 (left)</italic>, 
+   <italic>TMPRSS2 (middle)</italic>, and 
+   <italic>CTSL (right)</italic> in buccal mucosa before, during, and after radiotherapy (RT) among 8 tonsillar squamous cell carcinoma patients from the GSE103412 data set. The probe intensity for each gene was log
+   <sub>2</sub> transformed and visualised for each treatment group to present normalized gene expression values. Paired t-tests were performed between adjacent time points and significant differential expression between groups was labelled. The numbers denote each of the 8 individual patient’s data points. Of note, patient #2′s data was not available for download from the Gene Expression Omnibus (GEO) database. **
+   <italic>p</italic> &lt; 0.01 between baseline and during radiotherapy.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_83366_Fig5_HTML" id="MO5" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

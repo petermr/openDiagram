@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Primers used for quantitative real-time PCR validation.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Gene name</th>
+    <th align="left">Sense/antisense</th>
+    <th align="left">Primer sequences</th>
+    <th align="left">GeneBank accession</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>CDC20</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">AAGCCACAGAATGCTCCAGAAGG</td>
+    <td align="left" rowspan="2">NM_001006536.1</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">CAGAGCCACTGCCAGGAAGTTC</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>CCNB2</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">GGAGAATGCCGTGACTGGACATAA</td>
+    <td align="left" rowspan="2">XM_015278893.2</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">CCTTTCGTAGCCTTTACTGGTGGTT</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>CCNA1</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">GGAACGGCAGCAATTCTTCTGG</td>
+    <td align="left" rowspan="2">XM_015278427.2</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">ACTGGTTGATGGTTGGCACTGT</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>RFC4</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">CCAGCAACAGAGGCTATTGGATGT</td>
+    <td align="left" rowspan="2">NM_001006550.2</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">CAGTGACAGTCTTCTCCGTGATCTC</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>MCM2</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">GCTACAGAGTTCACGATCCAGAGG</td>
+    <td align="left" rowspan="2">NM_001006139.1</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">CTTCAGCAGCTCAGCAGTTCCT</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>CYP51A1</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">GGTTATCCAGAAGCGTCGGAGTT</td>
+    <td align="left" rowspan="2">NM_001048077.1</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">CAGGAGCAGCCCAATGAGCAT</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>DHCR24</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">GCTGACCGCATACCTGAATCCTAT</td>
+    <td align="left" rowspan="2">NM_001031288.1</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">GAACATCTCACGAGGCTTCCATCA</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>LHCGR</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">TCAGGCGGATACACAACGATGC</td>
+    <td align="left" rowspan="2">NM_204936.1</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">AGGCGGCAGTCTCTTCAGTG</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>FSHR</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">GCACCTTCCAAGCCTCAGAT</td>
+    <td align="left" rowspan="2">NM_205079.1</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">AGAACTCAGGCCCATGAACG</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>EGFR</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">GGACTTCGAGAGCTGCCAATGA</td>
+    <td align="left" rowspan="2">NM_205497.2</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">TGTGAGAGGCTTCCTGCTTGTATC</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>NGFR</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">CTCCGATGCTGAGTGCAGAGAC</td>
+    <td align="left" rowspan="2">NM_001146133.1</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">GCCCATGACGGTGGTGACAA</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="2">
+     <italic>PTGFR3</italic>
+    </td>
+    <td align="left">Sense</td>
+    <td align="left">CTTGCATTTGCTGGAGTCCATTCC</td>
+    <td align="left" rowspan="2">NM_001040468.1</td>
+   </tr>
+   <tr>
+    <td align="left">Antisense</td>
+    <td align="left">TCTGATTCCATGTTGCCATCCG</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

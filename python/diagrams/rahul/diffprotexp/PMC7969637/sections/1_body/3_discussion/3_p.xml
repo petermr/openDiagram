@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Due to complexity of pathogenesis in pediatric sepsis, it is impossible to study each potential single gene individually. To this end, an alternative method combining bioinformatics and machine learning is required for our study. Here, we used Cytoscape software and the MNC algorithm to identify the top 50 genes according to their scores in the model (see 
+ <xref ref-type="fig" rid="F4">Figure 4B</xref> for details). Using the 50 genes, we generated a logistic regression prediction model. With further reconstruction, two primary genes including MMP9 and MPO had been screened out. Matrix metalloproteinases 9 (MMP-9) is a zinc-dependent gelatinase, which could decrease the expression of extracellular matrix proteins and influence the metastatic behavior of immune cells (
+ <xref rid="B31" ref-type="bibr">31</xref>). MMPs are secreted as pro-MMPs, which are regulated by tissue inhibitors of metalloproteinase (TIMPs) as well as by α-macroglobulins (
+ <xref rid="B31" ref-type="bibr">31</xref>). Previously, MMP-9, TIMP-1 levels, and MMP-9/TIMP-1 ratio have been suggested as biomarkers in adult severe sepsis and septic shock (
+ <xref rid="B32" ref-type="bibr">32</xref>, 
+ <xref rid="B33" ref-type="bibr">33</xref>). A study by Alqahtani et al. demonstrated that the MMP-9/TIMP-1 ratios can also serve as a biomarker for the identification of sepsis in pediatric patients (
+ <xref rid="B34" ref-type="bibr">34</xref>). This is consistent with our integrated study. However, we did not find a significant difference for TIMP-1. This may be due to the fact that they used febrile controls in addition to a healthy control group as was often used in studies of biomarkers in sepsis, or the constant comparison in our report did not fluctuate time-dependent analysis as they performed. All of these deserve further investigation.
+</p>

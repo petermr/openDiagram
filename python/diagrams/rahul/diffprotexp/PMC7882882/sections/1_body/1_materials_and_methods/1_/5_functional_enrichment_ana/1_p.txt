@@ -1,0 +1,7 @@
+0: The ClueGO ( 39) plugin of Cytoscape was used to perform Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses of the DEGs and the biological functions of the lncRNAs.
+1: Functional annotations with P<0.05 were considered significant.
+2: In addition, GSEA was used to identify the relevant pathways of the selected genes.
+3: GSEA was performed using GSEA (4.1.0) software ( 40).
+4: The gene set used in the study was downloaded from the Molecular Signatures Database ( http://software.broadinstitute.org/gsea/msigdb/index.jsp, MSigDB version 4.0, released June 7, 2013).
+5: The Molecular Signatures Database contains various types of gene sets.
+6: The online pathway database includes 1,320 canonical pathways derived from pathway databases such as BioCarta, KEGG, Pathway Interaction Database and Reactome ( 40).

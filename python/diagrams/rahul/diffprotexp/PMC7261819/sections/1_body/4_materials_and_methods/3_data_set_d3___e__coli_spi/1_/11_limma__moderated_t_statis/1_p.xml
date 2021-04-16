@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <disp-formula id="FD5">
+  <label>(5)</label>
+  <math id="M5">
+   <mrow>
+    <mi>t</mi>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <msub>
+         <mi>Y</mi>
+         <mrow>
+          <mi>G</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">¯</mo>
+      </mover>
+      <mo>−</mo>
+      <mover accent="true">
+       <mrow>
+        <msub>
+         <mi>Y</mi>
+         <mrow>
+          <mi>G</mi>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">¯</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>s</mi>
+       <mrow>
+        <mi>p</mi>
+        <mrow>
+         <mo>[</mo>
+         <mrow>
+          <mtext>moderated</mtext>
+         </mrow>
+         <mo>]</mo>
+        </mrow>
+       </mrow>
+      </msub>
+      <msqrt>
+       <mrow>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <msub>
+           <mi>n</mi>
+           <mn>1</mn>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <msub>
+           <mi>n</mi>
+           <mn>2</mn>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+ <italic>s</italic>
+ <sub>
+  <sub>
+   <italic>p</italic>[
+   <italic>moderated</italic>]
+  </sub>
+ </sub>
+ <sup>2</sup> is posterior variance, a weighted average of pooled variance and prior variance. 
+ <italic>s</italic>
+ <sub>
+  <sub>
+   <italic>p</italic>[
+   <italic>moderated</italic>]
+  </sub>
+ </sub>
+ <sup>2</sup> is calculated as 
+ <italic>fit$post.var</italic> using eBayes() function from Limma package. 
+ <disp-formula id="FD6">
+  <label>(6)</label>
+  <math id="M6">
+   <mrow>
+    <msubsup>
+     <mi>s</mi>
+     <mrow>
+      <mi>p</mi>
+      <mrow>
+       <mo>[</mo>
+       <mrow>
+        <mtext>moderated</mtext>
+       </mrow>
+       <mo>]</mo>
+      </mrow>
+     </mrow>
+     <mn>2</mn>
+    </msubsup>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mi>d</mi>
+       <mi>p</mi>
+      </msub>
+      <msubsup>
+       <mi>s</mi>
+       <mi>p</mi>
+       <mn>2</mn>
+      </msubsup>
+      <mo>+</mo>
+      <msub>
+       <mi>d</mi>
+       <mn>0</mn>
+      </msub>
+      <msubsup>
+       <mi>s</mi>
+       <mn>0</mn>
+       <mn>2</mn>
+      </msubsup>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>d</mi>
+       <mi>p</mi>
+      </msub>
+      <mo>+</mo>
+      <msub>
+       <mi>d</mi>
+       <mn>0</mn>
+      </msub>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>
+ <italic>s</italic>
+ <sub>
+  <italic>p</italic>
+ </sub>
+ <sup>2</sup> is pooled variance, 
+ <italic>s</italic>
+ <sub>0</sub>
+ <sup>2</sup> is prior variance
+</p>

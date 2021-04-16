@@ -1,0 +1,4 @@
+0: Overall, our data quality assay did not identify any significant internal problems or internal bias in the RNA sequencing data presented.
+1: We did not include the poorly differentiated thyroid cancer sample in our further analysis because it cannot be used for group comparisons.
+2: We used reads per million (RPM) normalization of expression data.
+3: We filtered low-expressed values (less than one) to reduce data noise.

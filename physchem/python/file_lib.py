@@ -97,6 +97,7 @@ class AmiPath:
         key: to template
         edit_dict: dictionary with values to edit in
         """
+        key = key.lower()
         if key is None or key not in TEMPLATES:
             print("key", key)
             raise Exception("no scheme for: ", key, "expected", TEMPLATES.keys())

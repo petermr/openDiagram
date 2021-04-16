@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We measured APA from 3' Seq data by calculating a ratio of isoforms terminating at one PAS compared to isoforms terminating at other PAS for the same gene. We then compared PAS usage ratios between species. To expand our understanding of APA conservation, we also calculated an isoform diversity statistic (Simpson’s D) for each gene in each species. Because Simpson’s D captures both the number of PAS isoforms and their usage, we were able to evaluate small regulatory changes spread across many PAS, rather than only focus on large changes at individual PAS. While previous studies have used Shannon index to quantify isoform diversity (
+ <xref rid="bib59" ref-type="bibr">Pai et al., 2016</xref>; 
+ <xref rid="bib81" ref-type="bibr">Wang et al., 2018b</xref>), we found Simpson’s D to be less correlated with PAS number, making it less sensitive to the number of PAS per gene (
+ <xref ref-type="fig" rid="fig2s5">Figure 2—figure supplements 5</xref> and 
+ <xref ref-type="fig" rid="fig2s6">6</xref>). In addition, by placing more weight on dominant PAS, Simpson’s D more closely mirrors our current biological understanding of APA, wherein dominant PAS play a larger role in downstream gene regulation (
+ <xref rid="bib56" ref-type="bibr">Morris et al., 2014</xref>).
+</p>

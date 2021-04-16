@@ -1,0 +1,10 @@
+0: To better characterize differential gene expression between FOXL2 C134W and FOXL2 WT conditions, we performed enrichment analysis for differences in binding between FOXL2 C134W and FOXL2 WT.
+1: To identify differential binding sites, we downloaded triplicate ChIP-Seq data from TGF-treated HGrC1 cells ectopically expressing FOXL2 WT, FOXL2 C134W or empty vectors from GEO (GSE138496) [ 37].
+2: Sequencing reads were filtered and trimmed for quality using Trim Galore!
+3: ( http://www.bioinformatics.babraham.ac.uk/projects/trim_galore) and subsequently aligned to the hg38 reference genome using bowtie2 [ 49].
+4: Duplicate reads were removed from the alignment using picard MarkDuplicates ( http://broadinstitute.github.io/picard/).
+5: A consensus set of peaks was generated using MACS2 with parameters as above, from combined FOXL2 and FOXL2 C134W BAM files and using the empty vector BAMs as background.
+6: A total of 46,235 peaks were identified and, for each peak, the number of mapped reads in each triplicate of FOXL2 WTand FOXL2 C134W was quantified using featureCounts [ 50].
+7: The obtained matrix of peak x sample was used to determine differential peaks between FOXL2 WTand FOXL2 C134W using DESeq2.
+8: Peaks were intersected with a  10 kb window from TSSs of human genes (genecode v35).
+9: Enrichment for genes with differential FOXL2 binding was calculated using Fishers exact test in R.

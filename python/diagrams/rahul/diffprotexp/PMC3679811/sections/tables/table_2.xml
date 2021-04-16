@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tab2" orientation="portrait" position="float">
+ <label>Table 2</label>
+ <caption>
+  <p>Subcellular location and protein function of 10 proteins with higher confidence levels identified in peritoneal dialysate of CGN and DM.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">Accession no.</th>
+    <th align="left" rowspan="1" colspan="1">Protein name</th>
+    <th align="center" rowspan="1" colspan="1">Subcellular location</th>
+    <th align="left" rowspan="1" colspan="1">Biological process</th>
+    <th align="left" rowspan="1" colspan="1">Molecular function</th>
+    <th align="left" rowspan="1" colspan="1">Protein function</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P02768</td>
+    <td align="left" rowspan="1" colspan="1">Albumin (ALB)</td>
+    <td align="center" rowspan="1" colspan="1">Secreted</td>
+    <td align="left" rowspan="1" colspan="1">Cellular response to starvation
+     <break/>Hemolysis by symbiont of host erythrocytes
+     <break/>Maintenance of mitochondrion location
+    </td>
+    <td align="left" rowspan="1" colspan="1">Binding protein</td>
+    <td align="left" rowspan="1" colspan="1">Serum albumin, the main protein of plasma, has a good binding capacity for water, Ca2+, Na+, K+, fatty acids, hormones, bilirubin, and drugs. Its main function is the regulation of the colloidal osmotic pressure of blood. Major zinc transporter in plasma, typically binds about 80% of all plasma zinc.</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P02760</td>
+    <td align="left" rowspan="1" colspan="1">Alpha-1-microglobulin/bikunin preproprotein (AMBP)</td>
+    <td align="center" rowspan="1" colspan="1">Secreted</td>
+    <td align="left" rowspan="1" colspan="1">Cell adhesion
+     <break/>Heme catabolic process
+     <break/>Negative regulation of immune response
+    </td>
+    <td align="left" rowspan="1" colspan="1">Serine-type endopeptidase inhibitor activity
+     <break/>Calcium oxalate binding
+     <break/>Small molecule binding
+     <break/>Calcium channel inhibitor activity
+    </td>
+    <td align="left" rowspan="1" colspan="1">Inter-alpha-trypsin inhibitor inhibits trypsin, plasmin, and lysosomal granulocytic elastase. Inhibits calcium oxalate crystallization</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P02647</td>
+    <td align="left" rowspan="1" colspan="1">Apolipoprotein A-I (APOA1)</td>
+    <td align="center" rowspan="1" colspan="1">Secreted</td>
+    <td align="left" rowspan="1" colspan="1">Cholesterol metabolism
+     <break/>Lipid metabolism
+     <break/>Lipid transport
+     <break/>Steroid metabolism
+     <break/>Transport
+    </td>
+    <td align="left" rowspan="1" colspan="1">Binding protein</td>
+    <td align="left" rowspan="1" colspan="1">Participates in the reverse transport of cholesterol from tissues to the liver for excretion by promoting cholesterol efflux from tissues and by acting as a cofactor for the lecithin cholesterol acyltransferase (LCAT). As part of the SPAP complex, activates spermatozoa motility.</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P01857</td>
+    <td align="left" rowspan="1" colspan="1">Immunoglobulin G1 Fc fragment (IGHG1)</td>
+    <td align="center" rowspan="1" colspan="1">Secreted, membrane</td>
+    <td align="left" rowspan="1" colspan="1">Complement activation, classical pathway
+     <break/>Innate immune response
+    </td>
+    <td align="left" rowspan="1" colspan="1">Antigen binding</td>
+    <td align="left" rowspan="1" colspan="1">G1m marker</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P02753</td>
+    <td align="left" rowspan="1" colspan="1">Mutant retinol binding protein (RBP4)</td>
+    <td align="center" rowspan="1" colspan="1">Secreted</td>
+    <td align="left" rowspan="1" colspan="1">Glucose homeostasis
+     <break/>Gluconeogenesis
+     <break/>response to insulin stimulus
+    </td>
+    <td align="left" rowspan="1" colspan="1">Retinol binding
+     <break/>Retinol transporter activity
+    </td>
+    <td align="left" rowspan="1" colspan="1">Delivers retinol from the liver stores to the peripheral tissues. In plasma, the RBP-retinol complex interacts with transthyretin; this prevents its loss by filtration through the kidney glomeruli.</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P00738 </td>
+    <td align="left" rowspan="1" colspan="1">Haptoglobin alpha2 (HP)</td>
+    <td align="center" rowspan="1" colspan="1">Secreted</td>
+    <td align="left" rowspan="1" colspan="1">Defense response
+     <break/>Metabolic process
+    </td>
+    <td align="left" rowspan="1" colspan="1">Catalytic activity</td>
+    <td align="left" rowspan="1" colspan="1">Haptoglobin combines with free plasma hemoglobin, preventing loss of iron through the kidneys and protecting the kidneys from damage by hemoglobin, while making the hemoglobin accessible to degradative enzymes. Uncleaved haptoglobin, also known as zonulin, plays a role in intestinal permeability, allowing intercellular tight junction disassembly, and controlling the equilibrium between tolerance and immunity to nonself antigens. </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P06727</td>
+    <td align="left" rowspan="1" colspan="1">Apolipoprotein A-IV (APOA4)</td>
+    <td align="center" rowspan="1" colspan="1">Secreted</td>
+    <td align="left" rowspan="1" colspan="1">Cholesterol efflux
+     <break/>Cholesterol homeostasis
+     <break/>Cholesterol metabolic process
+     <break/>Chylomicron assembly
+     <break/>Chylomicron remodeling
+     <break/>High-density lipoprotein particle remodeling
+     <break/>Hydrogen peroxide catabolic process
+     <break/>Innate immune response in mucosa
+     <break/>Leukocyte adhesion
+     <break/>Lipoprotein metabolic process
+     <break/>Multicellular organismal lipid catabolic process
+    </td>
+    <td align="left" rowspan="1" colspan="1">Antioxidant activity
+     <break/>Cholesterol transporter activity
+     <break/>Copper ion binding
+     <break/>Phosphatidylcholine binding
+     <break/>Phosphatidylcholine-sterol O-acyltransferase activator activity
+     <break/>Protein homodimerization activity
+    </td>
+    <td align="left" rowspan="1" colspan="1">May have a role in chylomicrons and VLDL secretion and catabolism. Required for efficient activation of lipoprotein lipase by ApoC-II; potent activator of LCAT. Apoa-IV is a major component of HDL and chylomicrons.</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P25311</td>
+    <td align="left" rowspan="1" colspan="1">Zn-alpha2-glycoprotein (AZGP1)</td>
+    <td align="center" rowspan="1" colspan="1">Secreted</td>
+    <td align="left" rowspan="1" colspan="1">Antigen processing and presentation
+     <break/>Cell adhesion
+     <break/>Immune response
+     <break/>Lipid catabolic process
+     <break/>Negative regulation of cell proliferation
+    </td>
+    <td align="left" rowspan="1" colspan="1">Fatty acid binding
+     <break/>Protein transmembrane transporter activity
+     <break/>Ribonuclease activity
+    </td>
+    <td align="left" rowspan="1" colspan="1">Stimulates lipid degradation in adipocytes and causes the extensive fat losses associated with some advanced cancers. May bind polyunsaturated fatty acids.</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Q04637</td>
+    <td align="left" rowspan="1" colspan="1">Eukaryotic translation initiation factor 4A isoform 1 (EIF4G1)</td>
+    <td align="center" rowspan="1" colspan="1">Cytosol</td>
+    <td align="left" rowspan="1" colspan="1">Cell death
+     <break/>Insulin receptor signaling pathway
+    </td>
+    <td align="left" rowspan="1" colspan="1">DNA binding
+     <break/>Translation initiation factor activity
+    </td>
+    <td align="left" rowspan="1" colspan="1">Component of the protein complex eIF4F, which is involved in the recognition of the mRNA cap, ATP-dependent unwinding of 5′-terminal secondary structure and recruitment of mRNA to the ribosome.</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="6" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P01892</td>
+    <td align="left" rowspan="1" colspan="1">Human class I histocompatibility antigen (HLA-A)</td>
+    <td align="center" rowspan="1" colspan="1">Golgi membrane
+     <break/>Plasma membrane
+    </td>
+    <td align="left" rowspan="1" colspan="1">Type I interferon-mediated signaling pathway
+     <break/>Regulation of immune response
+     <break/>Interspecies interaction between organisms
+    </td>
+    <td align="left" rowspan="1" colspan="1">Binding protein</td>
+    <td align="left" rowspan="1" colspan="1">Involved in the presentation of foreign antigens to the immune system.</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>There are many different patterns to normalize the gene expression level. In this search, we used the 
+ <italic>RPKM</italic> method [
+ <xref rid="R36" ref-type="bibr">36</xref>] (Reads per kilobase transcriptome per million mapped reads), because it is able to eliminate the influence of different gene lengths and sequencing discrepancy on the calculation of gene expression. Therefore, the calculated results can be directly used to compare the differences in gene expression between samples.
+</p>

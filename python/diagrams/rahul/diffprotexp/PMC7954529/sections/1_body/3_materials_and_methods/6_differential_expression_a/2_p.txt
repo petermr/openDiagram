@@ -1,0 +1,16 @@
+0: To generate an updated orthologous exon file for the most recent chimpanzee genome assembly (panTro6), we followed the procedure reported in Pavlovic et al.
+1: with slight modifications ( Pavlovic et al., 2018).
+2: We started with human (GRCh38) exon definitions from Ensembl version 98.
+3: We filtered this set of definitions for biotypes protein_coding using the command mkgtf from cellranger (10 genomics).
+4: We then removed exon segments that were in exon definitions for multiple genes.
+5: This broke some exons into smaller unique exons.
+6: We then removed exons smaller than 10 bp.
+7: We took the final set of exons (1,371,917 exons from 20,338 genes) and extracted their sequences from the genome Ensembl GRCh38.p12.
+8: We used BLAT version 35 to identify orthologous sequences within the chimpanzee genome (panTro6) ( Kent, 2002).
+9: We removed hits with indels larger than 25 bp (using a function blatOutIndelIdent from  https://bitbucket.org/ee_reh_neh/orthoexon).
+10: We then extracted the panTro6 sequences that had the highest sequence identity.
+11: We ran BLAT on this orthologous exon set to find matches in both the human and chimpanzee genomes.
+12: We removed exons that did not return the original location in humans or chimpanzees, as well as exons that mapped to multiple places with higher than 90% sequence identity.
+13: We removed exons from different human genes that mapped to overlapping regions in the chimpanzee genome.
+14: Finally, we removed exons that mapped to a different contig than the majority of exons from each gene.
+15: This resulted in a set of 1,250,820 orthologous exons from 19,515 genes.

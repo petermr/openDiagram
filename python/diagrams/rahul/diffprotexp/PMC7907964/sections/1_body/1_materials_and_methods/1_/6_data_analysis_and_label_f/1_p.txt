@@ -1,0 +1,9 @@
+0: Progenesis label-free LC-MS version 3.1 (Nonlinear Dynamics, Ltd.) was used to process the raw data obtained from LC-MS/MS and to compare the significant changes in protein expression levels.
+1: The method was applied to quantify peptides/proteins, as described previously, with certain modifications ( 23).
+2: Briefly, two sets of LC-MS/MS were performed.
+3: The first set involved nine runs with three triplicates of the two different  GBA variants and one pooled healthy control.
+4: The second set involved nine runs with three triplicates of the two different  PARK2 variants and one pooled healthy control.
+5: The chromatograms of all the samples of each set were aligned, and the sample providing the smallest differences in retention times and MS peaks amongst all samples was automatically selected as the reference.
+6: The ion intensities of the MS peaks of each sample were then normalized by those of the established reference.
+7: The following criteria were used to filter all the peptide data prior to exporting the MS/MS output files, including i) only peptides presenting an ANOVA with Tukey's post-hoc test difference between the triplicate runs of P<0.05; ii) only non-conflicted peptides (unique peptides) were used; iii) at least one run (from triplicate runs of each sample) was fragmented to generate the peptide sequences for comparison with those of other samples; and iv) at least two unique peptides with a MASCOT score of >30 (P<0.05) were accepted for confident protein identification.
+8: The fold changes of protein expression levels were calculated from the mean values of all accepted peptides of particular proteins, and were normalized by the mean number of each protein in the healthy control group.

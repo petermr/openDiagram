@@ -1,0 +1,513 @@
+{
+  "id": [
+    "33602139"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33602139"
+  ],
+  "pmcid": [
+    "PMC7893892"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7893892"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12863-020-00957-w"
+  ],
+  "title": [
+    "Pineal gland transcriptomic profiling reveals the differential regulation of lncRNA and mRNA related to prolificacy in STH sheep with two FecB genotypes."
+  ],
+  "authorString": [
+    "Li C, He X, Zhang Z, Ren C, Chu M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Li C"
+          ],
+          "firstName": [
+            "Chunyan"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory of Animal Genetics, Breeding and Reproduction of Ministry of Agriculture and Rural Affairs, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, 100193, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "He X"
+          ],
+          "firstName": [
+            "Xiaoyun"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory of Animal Genetics, Breeding and Reproduction of Ministry of Agriculture and Rural Affairs, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, 100193, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang Z"
+          ],
+          "firstName": [
+            "Zijun"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ren C"
+          ],
+          "firstName": [
+            "Chunhuan"
+          ],
+          "lastName": [
+            "Ren"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Animal Science and Technology, Anhui Agricultural University, Hefei, 230036, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chu M"
+          ],
+          "firstName": [
+            "Mingxing"
+          ],
+          "lastName": [
+            "Chu"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5164-0310",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Key Laboratory of Animal Genetics, Breeding and Reproduction of Ministry of Agriculture and Rural Affairs, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, 100193, China. mxchu@263.net."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-5164-0310",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "22"
+      ],
+      "journalIssueId": [
+        "3111611"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomic data"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genom Data"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genom Data"
+          ],
+          "NLMid": [
+            "101775394"
+          ],
+          "ESSN": [
+            "2730-6844"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "9"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Long noncoding RNA (lncRNA) has been identified as important regulator in hypothalamic-pituitary-ovarian axis associated with sheep prolificacy. However, little is known of their expression pattern and potential roles in the pineal gland of sheep. Herein, RNA-Seq was used to detect transcriptome expression pattern in pineal gland between follicular phase (FP) and luteal phase (LP) in FecB<sup>BB</sup> (MM) and FecB<sup>++</sup> (ww) STH sheep, respectively, and differentially expressed (DE) lncRNAs and mRNAs associated with reproduction were identified.<h4>Results</h4>Overall, 135 DE lncRNAs and 1360 DE mRNAs in pineal gland between MM and ww sheep were screened. Wherein, 39 DE lncRNAs and 764 DE mRNAs were identified (FP vs LP) in MM sheep, 96 DE lncRNAs and 596 DE mRNAs were identified (FP vs LP) in ww sheep. Moreover, GO and KEGG enrichment analysis indicated that the targets of DE lncRNAs and DE mRNAs were annotated to multiple biological processes such as phototransduction, circadian rhythm, melanogenesis, GSH metabolism and steroid biosynthesis, which directly or indirectly participate in hormone activities to affect sheep reproductive performance. Additionally, co-expression of lncRNAs-mRNAs and the network construction were performed based on correlation analysis, DE lncRNAs can modulate target genes involved in related pathways to affect sheep fecundity. Specifically, XLOC_466330, XLOC_532771, XLOC_028449 targeting RRM2B and GSTK1, XLOC_391199 targeting STMN1, XLOC_503926 targeting RAG2, XLOC_187711 targeting DLG4 were included.<h4>Conclusion</h4>All of these differential lncRNAs and mRNAs expression profiles in pineal gland provide a novel resource for elucidating regulatory mechanism underlying STH sheep prolificacy."
+  ],
+  "affiliation": [
+    "Key Laboratory of Animal Genetics, Breeding and Reproduction of Ministry of Agriculture and Rural Affairs, Institute of Animal Science, Chinese Academy of Agricultural Sciences, Beijing, 100193, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "Y2017JC24"
+          ],
+          "agency": [
+            "Central Public-interest Scientific Institution Basal Research Fund"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "ASTIP-IAS13"
+          ],
+          "agency": [
+            "Agricultural Science and Technology Innovation Program of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "201704020"
+          ],
+          "agency": [
+            "Tianjin Agricultural Science and Technology Achievements Transformation and Popularization Program"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "CARS-38"
+          ],
+          "agency": [
+            "Earmarked Fund for China Agriculture Research System"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "W02020274"
+          ],
+          "agency": [
+            "China Agricultural Scientific Research Outstanding Talents and Their Innovative Teams Program, China High-level Talents Special Support Plan Scientific and Technological Innovation Leading Talents Program"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "31772580"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Sheep",
+        "Prolificacy",
+        "Pineal Gland",
+        "Rna-seq",
+        "Lncrnas"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12863-020-00957-w"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7893892"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7893892?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR249536"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "CrossRef Pre-print loader"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-02-19"
+  ],
+  "firstIndexDate": [
+    "2021-02-20"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-24"
+  ],
+  "dateOfRevision": [
+    "2021-02-23"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-18"
+  ],
+  "firstPublicationDate": [
+    "2021-02-18"
+  ]
+}

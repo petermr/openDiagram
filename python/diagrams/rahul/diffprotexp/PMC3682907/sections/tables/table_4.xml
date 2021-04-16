@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="T4">
+ <label>Table 4</label>
+ <caption>
+  <p>Protein identification</p>
+ </caption>
+ <table frame="hsides" rules="groups" border="1">
+  <colgroup>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+  </colgroup>
+  <thead valign="top">
+   <tr>
+    <th align="center">
+     <bold>Fraction (Q)</bold>
+    </th>
+    <th align="center">
+     <bold>Mass (m/z)</bold>
+    </th>
+    <th align="center">
+     <bold>p-Value</bold>
+    </th>
+    <th align="center">
+     <bold>Accession number</bold>
+    </th>
+    <th align="center">
+     <bold>Entry name</bold>
+    </th>
+    <th align="center">
+     <bold>Theoretical MW</bold>
+    </th>
+    <th align="center">
+     <bold>MASCOT score</bold>
+    </th>
+    <th align="center">
+     <bold>Peptides detected</bold>
+    </th>
+    <th align="center">
+     <bold>Sequence coverage</bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="center" valign="bottom">
+     <bold>2</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6550
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00138892
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Uba52
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">14719
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">642
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">46
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00225390
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">COX6b1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10065
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">84
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">24
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10274
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00225390
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">COX6b1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10065
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">545
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">67
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00120045
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Hspe1-rs1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10971
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">431
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">33
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00403381
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Ndufv3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11806
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">430
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">36
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11691
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00109966
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">B2m
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13814
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">499
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">27
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00128345
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Ndufs6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13012
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">414
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">31
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16836
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00890117
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">CfI1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">18548
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">663
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">70
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00229008
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Ndufs4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">19772
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">335
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">48
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">
+     <bold>3</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12448
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00115240
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">MBP1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">27151
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">443
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">15
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13954
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.05
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00223381
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">MBP8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">14202
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">584
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">61
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">
+     <bold>4</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9841
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00131771
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">COX6C
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8464
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1460
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">63
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00223593
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">MBP10
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">20801
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1049
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">50
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00111770
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Atp5k
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8230
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">473
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">68
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00225390
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">COX6b1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10065
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">443
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">53
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00315302
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Ndufa2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10909
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">428
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">41
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">
+     <bold>5</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16910
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00223379
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">MBP6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17215
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2521
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">14
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">64
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00123817
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Atp6v1g2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13643
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">501
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">39
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17307
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00223380
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">MBP7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17230
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1168
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">70
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00319231
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Rps13
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17212
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">362
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">45
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom"> 
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">IPI00229008
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Ndufs4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">19772
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">354
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">34
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center"> </td>
+    <td align="center">IPI00131186</td>
+    <td align="center">Btf3</td>
+    <td align="center">17688</td>
+    <td align="center">329</td>
+    <td align="center">3</td>
+    <td align="center">46</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Proteins identified in 1D polyacrylamide gel bands which correspond to the molecular weights of differentially expressed proteins in EAE relative to controls found by SELDI-MS analysis. Only the myelin basic protein isoforms found in fraction Q3 are unambiguously identified.</p>
+ </table-wrap-foot>
+</table-wrap>

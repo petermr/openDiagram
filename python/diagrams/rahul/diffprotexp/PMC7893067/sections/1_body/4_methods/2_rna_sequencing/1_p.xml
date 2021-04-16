@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">
+ <italic>C</italic>ytoplasmic RNA was treated with the Ribo-Zero Magnetic Gold Kit for human/mouse/Rat (Epicentre) to remove ribosomal RNA, and purified using Agencourt RNAClean XP Kit (Beckman Coulter). The rRNA depleted cytoplasmic RNA and the nuclear RNA were then treated with RNaseIII according to Ion Total RNA-Seq protocol v2 and purified with Magnetic Bead Cleanup Module (Thermo Fisher). Sequencing libraries were prepared using the Ion Total RNA-Seq Kit for the AB Library Builder System and quantified using the Fragment analyzer (Advanced Analytical). The quantified libraries were pooled followed by emulsion PCR on the Ion OneTouch 2 system and sequenced on the Ion Proton System. Nuclear RNA was sequenced on two Ion Proton chips yielding an average 80.5 million mapped reads per sample and cytosolic RNA was sequenced on one chip yielding 46.9 million mapped reads per sample.
+</p>

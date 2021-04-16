@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="para0013">FeatureCounts (version 1.22.1) software was used to calculate transcript abundance estimates 
+ <xref rid="bib0001" ref-type="bibr">[1]</xref>. Expression normalization and differential gene expression were calculated using the DESeq2 
+ <xref rid="bib0002" ref-type="bibr">[2]</xref> (version 1.26.0) software and statistically significant differentially expressed genes were identified. Relative Log Expression (RLE) normalization method was used to normalize the RNA composition in each sample in DESeq2. The significance of p-values were adjusted for multiple hypotheses testing by the Benjamini and Hochberg 
+ <xref rid="bib0015" ref-type="bibr">[15]</xref> method which established a false discovery rate (FDR) for each gene.
+</p>

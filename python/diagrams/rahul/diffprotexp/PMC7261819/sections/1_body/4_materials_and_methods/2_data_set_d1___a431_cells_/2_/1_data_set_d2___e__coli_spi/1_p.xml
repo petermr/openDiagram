@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Search results of this data (50,016 unique peptides; 6566 proteins) were downloaded from the ProteomeXchange repository (PXD000279) (
+ <xref rid="B19" ref-type="bibr">19</xref>). 
+ <italic>E. coli</italic> proteome was prepared into two conditions with 1:3 ratio (10 μg 
+ <italic>versus</italic> 30 μg) in triplicates and added into equal amount of human proteome background (50 μg Hela cells protein extract), see detailed sample preparation in (
+ <xref rid="B19" ref-type="bibr">19</xref>). LFQ intensities in “proteinGroups.txt” table, for proteins with quant values in at least two samples per condition (5022 proteins), were log2 transformed and used as input matrix for all methods. To evaluate intensity-based Bayesian approach, trend = TRUE option was enabled in eBayes function provided in Limma. For variance stabilization normalization analysis, original protein LFQ intensity values were normalized by 
+ <italic>justvsn</italic> function in R package 
+ <italic>vsn</italic> before using Limma. ROC analysis was restricted to proteins unique to 
+ <italic>E. coli</italic> or human, with higher ratios in samples spiked-in with the higher amount of 
+ <italic>E. coli</italic> proteins.
+</p>

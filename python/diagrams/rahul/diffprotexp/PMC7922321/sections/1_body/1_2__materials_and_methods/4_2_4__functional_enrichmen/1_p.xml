@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Gene ontology (GO) and KEGG pathway enrichment analysis were performed by using R package clusterProfiler from Bioconductor to analyze the functional profile of gene clusters from differentially expressed genes (up- and downregulated genes of individual glioma grade) and transcription factor regulon clusters (positively and negatively regulated targets for each ETS regulon) [
+ <xref rid="B39-jpm-11-00138" ref-type="bibr">39</xref>]. The enriched GO term and KEGG pathways were determined by using a Benjamini &amp; Hochberg corrected 
+ <italic>p</italic>-value &lt; 0.05 significance level and context manner term filtration.
+</p>

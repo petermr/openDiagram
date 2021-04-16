@@ -1,0 +1,12 @@
+0: The sequences were aligned to  Oryza sativa sub-subspecies  indica build genome using Bowtie-1.1.1., which is an efficient short read aligner.
+1: The unaligned reads to ncRNAs were used for prediction of known miRNA.
+2: Further, homology search of these miRNAs was done against  Oryza sativa indica mature miRNA sequences retrieved from miRBase-21.3 using NCBI-Blast-2.2.30 26.
+3: The resulted sequences were termed as known miRNAs.
+4: All known miRNAs were considered for various analyses and were grouped into 2 categories, i.e.
+5: common miRNAs, which were found in both SR-159 and SR-157 cultivars, and unique miRNAs specific to either SR-159 or SR-157.
+6: miRNA family analysis revealed that MIR166 family was the most abundant family identified followed by MIR812, MIR444 and others (Supplementary Fig.
+7: S2).
+8: Total of 86 miRNAs (Fig.
+9: 3a) and 94 miRNAs (Fig.
+10: 3b) were common among all samples in Group 1 and Group 2, respectively.
+11: These reads were aligned to the reference genome using Bowtie1.1.1.

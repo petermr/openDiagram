@@ -1,0 +1,7 @@
+0: Transcriptional gene regulatory network (GNR) mediated by the ETS transcription factor family was constructed by using the R package RTN from Bioconductor [ 35, 36, 37].
+1: The expression matrix and ETS transcription factor list from differentially expressed genes were used as an input for the transcriptional network inference (TNI) algorithm with a Benjamini & Hochberg corrected  p-value< 0.05 significance level and 1000 permutation number parameters.
+2: Regulon activity scores were calculated from TNI by using a two-tailed gene set enrichment analysis (GSEA) algorithm built-in RTN package and visualized as a heatmap.
+3: To construct an edge-weighted gene regulatory network mediated with ETS members (Regulons), transcriptional regulatory networks from TNI and differentially expressed genes were integrated by a transcriptional regulatory analysis (TNA) algorithm with two-tailed GSEA.
+4: A gene regulatory network of ETS members was constructed by using significant network interaction from TNA ( p-value< 0.05).
+5: Additionally, the constructed network was filtered with the intersection of DEGs and previous microarray studies (Elk-1-VP16 and PEA3-VP16 overexpression studies).
+6: The final GNR was visualized by using Cytoscape software [ 38].

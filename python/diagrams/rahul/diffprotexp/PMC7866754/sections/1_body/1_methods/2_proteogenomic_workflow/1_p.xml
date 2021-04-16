@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">The novelty of proteogenomic analysis comes from matching the MS/MS spectra against a customized database constructed [
+ <xref ref-type="bibr" rid="CR28">28</xref>] based on the transcript information, instead of limiting the searches to known proteins as in the analysis by Lindner et al. [
+ <xref ref-type="bibr" rid="CR37">37</xref>] and in most proteomic analyses [
+ <xref ref-type="bibr" rid="CR41">41</xref>]. In this work, a customized database was constructed from the transcripts assembled from the HISAT2-StringTie pipeline as described by Pertea et al. [
+ <xref ref-type="bibr" rid="CR42">42</xref>] (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>b). However, one should be aware of the limitation of discovering novel ORFs using this approach, as it is just a computational prediction.
+</p>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To further characterize miRNAs from trimmed small RNASeq reads, sequences mapped to 
+ <italic>C</italic>. 
+ <italic>quinoa</italic> were separated from tRNA, rRNA, snRNA, and snoRNA. The resulting clean reads were used as input for miRDeep2 software. Known miRNAs were detected based on the mature and precursor sequences of miRBase v22. The total of 81 known miRNAs belonging to 11 miR families (miR 156, 160, 162, 166, 171, 172, 319, 393, 395, 398, and 399) were detected. The miR166 was the most abundant detected known mature miRNA among the quinoa samples. In addition, novel miRNAs were identified based on the randfold (
+ <italic>p</italic> &lt; 0.05) and miRDeep2 score ≥ 0. Prediction of novel miRNAs resulted in 876 significant novel mature miRNAs, among which novel miRNA “NW_018742204.1_181” was the most prevalent novel miRNA among quinoa samples (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s016">S5 Table</xref>).
+</p>

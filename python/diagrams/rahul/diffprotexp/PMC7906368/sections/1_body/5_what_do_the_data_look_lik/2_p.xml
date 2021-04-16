@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After database searching, the output usually consists of a large table that provides, for each protein, an identity, an annotation, and the number of peptide-spectrum matches (PSMs), among other features (
+ <xref ref-type="fig" rid="ppat.1009245.g002">Fig 2A</xref>). Quantitative metaproteomics experiments interrogate the whole metaproteome and identify which proteins show differential abundances between different conditions. For differential metaproteomics, spectral counting approaches seem to be more robust for estimating abundances compared to peptide intensity approaches [
+ <xref rid="ppat.1009245.ref016" ref-type="bibr">16</xref>]; however, this has to be tested more extensively. Spectral counting approaches use the number of PSMs mapped to each protein as the quantitative value, which is usually normalized to protein length and total PSM number in the samples [
+ <xref rid="ppat.1009245.ref041" ref-type="bibr">41</xref>]. In metaproteomics, the normalized spectral abundance factor (NSAF) is frequently used [
+ <xref rid="ppat.1009245.ref042" ref-type="bibr">42</xref>]. Metaproteomic datasets, like most count-based microbiome datasets, are compositional, and thus, appropriate statistical methods should be used to address data compositionality issues [
+ <xref rid="ppat.1009245.ref043" ref-type="bibr">43</xref>].
+</p>

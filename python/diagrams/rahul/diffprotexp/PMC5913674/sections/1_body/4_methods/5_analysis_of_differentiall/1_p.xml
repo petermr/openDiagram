@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Relative quantitation of protein abundance in MtzR compared to MtzS isogenic lines was derived from the ratio of the TMT label detected in each MtzR to MtzS replicate. As such, there were 9 ratios for each MtzR vs MtzS comparison, and the geometric mean was calculated to establish the fold change for each protein identified. Further to ratio-derived fold changes, protein abundance between MtzR and MtzS lines was evaluated statistically via a 1-sample 
+ <italic>t</italic> test using the tenth channel (pooled control) to normalize MtzR and MtzS replicate labels. Differential expression required proteins to meet both ratio fold change (&lt;1.3 or &gt;0.77) and a significant 
+ <italic>P</italic> value (&gt; 0.05) [
+ <xref rid="bib36" ref-type="bibr">36</xref>, 
+ <xref rid="bib37" ref-type="bibr">37</xref>]. Further statistical evaluation of the dataset was performed, with an unsupervised multivariate PCA performed on the entire dataset using the log-transformed ratios of samples over the pooled control (tenth channel) and an analysis of the 
+ <italic>P</italic> value distribution using paired 
+ <italic>t</italic> tests between triplicates of MtzR and MtzS lines. The Pearson correlation between log-transformed fold change in transcript [
+ <xref rid="bib18" ref-type="bibr">18</xref>] and protein abundances was calculated in R and visualized using the ggplot2 library. For brevity, the gene accession prefix, GL50803, was omitted during further discussions of individual genes.
+</p>

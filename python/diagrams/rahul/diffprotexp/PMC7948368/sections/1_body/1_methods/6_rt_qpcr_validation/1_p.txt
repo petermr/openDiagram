@@ -1,0 +1,11 @@
+0: Results from the discovery analyses were ranked according to  p value and also fold change.
+1: The top 10 hits according to most significant  p value and the top 10 according to largest fold change were selected for validation.
+2: A further 84 transcripts that satisfied a fold change > 1.2 and a false discovery rate (FDR)< 0.05 were selected according to a known biological association with RA or the immune system.
+3: TaqManTM assays were selected for a total of 104 transcripts from the initial adalimumab transcriptome study for custom design of a gene expression OpenArrayTM Plate, 112 assay format.
+4: Housekeeping genes were used to normalise targets and calculate relative expression values:  ACTB (Hs99999903_m1),  B2M (Hs00187842_m1),  GAPDH (Hs99999905_m1), and  HPRT1 (Hs02800695_m1).
+5: Responder groups were less stringently defined than in the discovery study.
+6: That is to say good-response to adalimumab were not necessarily in clinical remission at follow-up but did show large DAS28 improvements and were in low disease activity states (change in DAS28 > 2.78; mean = 3.08;  n = 11) versus poor-responders (change in DAS28< 1.04; mean = 0.83;  n = 11).
+7: This enabled us to test whether the changes identified in the discovery cohort could be identified in patients with a less extreme response.
+8: Total RNA was reverse transcribed into single-stranded cDNA using the High Capacity cDNA Reverse Transcription Kit (Applied Biosystems) according to manufacturers instructions.
+9: Sample cDNA and TaqManTM OpenArrayTM Gene Expression Master Mix were loaded on OpenArrayTM plates using the OpenArrayTM AccuFill software and OpenArrayTM AccuFill system (Applied Biosystems).
+10: RT-qPCR was performed on the QuantStudioTM 12 K Flex real-time qPCR system (Applied Biosystems) and analysed in the Relative Quantification Application on the Thermo Fisher Cloud (Thermo Scientific).

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The above analyses reveal potential differential expression of LE genes in PC initiation using the TCGA dataset within the GEPIA2 database and PC progression from primary tumors to distant metastasis using the Sawyers dataset with the R2 Genomics. A limitation of these analyses was the use of different datasets for PC initiation and progression analysis respectively. To further determine the differential expressions, we examined LE gene expression using a curated GEO dataset: GDS2546 (
+ <italic>n</italic> = 167) which contains normal prostate tissues (
+ <italic>n</italic> = 76), primary PCs (
+ <italic>n</italic> = 66), and mPCs (
+ <italic>n</italic> = 25) [
+ <xref rid="B56-genes-12-00257" ref-type="bibr">56</xref>,
+ <xref rid="B57-genes-12-00257" ref-type="bibr">57</xref>]. By using this dataset, downregulations of C1orf106 in PC compared to normal prostate tissues and mPCs compared to primary PCs were observed (
+ <xref ref-type="fig" rid="genes-12-00257-f005">Figure 5</xref>). ARFGEF2 was downregulated in mPCs compared to primary PCs; both FBOX6 and SRD5A3 are upregulated in mPCs (
+ <xref ref-type="fig" rid="genes-12-00257-f005">Figure 5</xref>). These alterations are consistent with those observed using the TCGA and Sawyers datasets (
+ <xref ref-type="fig" rid="genes-12-00257-f003">Figure 3</xref>). Taken together, these analyses convincingly demonstrate differential expression of LE genes following PC development.
+</p>

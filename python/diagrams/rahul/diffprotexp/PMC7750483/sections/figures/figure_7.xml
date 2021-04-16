@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F7" position="float">
+ <label>FIGURE 7</label>
+ <caption>
+  <p>GO and network analysis of proteins in two important pathways. 
+   <bold>(A)</bold> Gene Ontology (GO) enrichment analysis of the m
+   <sup>5</sup>C RNA methylation modification was analyzed 
+   <italic>via</italic> DAVID. GO contains biological processes, cell components, and molecular functions. In this picture, count represents the number of genes contained in the GO term. The count and 
+   <italic>P</italic> values were considered together to obtain important metabolic process. Three important metabolic processes are affected by m
+   <sup>5</sup>C RNA methylation, including protein binding, cytosol, and signal transduction. 
+   <bold>(B)</bold> Multicenter protein–protein interaction (PPI) network between m
+   <sup>5</sup>C regulatory proteins and differential proteins in the ErbB and PI3K–Akt pathways in the STRING database.
+  </p>
+ </caption>
+ <graphic xlink:href="fmolb-07-599340-g007" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

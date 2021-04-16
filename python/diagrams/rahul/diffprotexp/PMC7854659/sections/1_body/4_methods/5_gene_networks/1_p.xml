@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par44">To determine the co-expression profile of gene pairs across tissues and experimental groups, we used the partial correlation and information theory (PCIT) algorithm
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. FORTRAN 90 source code to perform the PCIT algorithm is available as Supplementary File 1 at 
+ <ext-link ext-link-type="uri" xlink:href="https://rb.gy/vyfqrv" xmlns:xlink="http://www.w3.org/1999/xlink">https://rb.gy/vyfqrv</ext-link>. This approach compares all possible triplets of genes by exploring the concepts of partial correlation and mutual information reporting the significantly correlated pairs after accounting for all the other genes in the network
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR28">28</xref>,
+  <xref ref-type="bibr" rid="CR88">88</xref>
+ </sup>. For the tissue-to-tissue network inference, all the genes (
+ <italic>n</italic> = 1,160) selected as DEG, TS genes, or TFs from the previous analyses were used considering all animals and tissues together. Significant co-expressed pairs were determined based on partial correlation values greater than |0.9| (
+ <italic>p</italic> &lt; 0.01).
+</p>

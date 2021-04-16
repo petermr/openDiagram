@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig6">
+ <label>Figure 6</label>
+ <caption>
+  <p>Average interaction force experienced by nascent chain atoms with ERY and the ribosome when we turned on non-bonded parameters one by one residue. (
+   <bold>A</bold>) Average non-bonded interaction force, per nascent chain atom, between the nascent chain and Erythromycin. (
+   <bold>B</bold>) Average non-bonded interaction force, per nascent chain atom, between the nascent chains and the ribosome. Error bars represent 95% confidence intervals. Line is to guide the eye and does not represent a model. Note well, the individual trajectory force traces were first aligned such that 
+   <italic>F</italic>
+   <sub>max</sub> occurs at time equal to zero, and then the average across trajectories was calculated.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2018_24344_Fig6_HTML" id="d29e1900" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

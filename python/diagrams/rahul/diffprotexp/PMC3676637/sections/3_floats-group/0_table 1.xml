@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Clinical characteristics of the patients</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="2"/>
+    <th align="left" colspan="3">Patients</th>
+   </tr>
+   <tr>
+    <th align="left">1</th>
+    <th align="left">2</th>
+    <th align="left">3</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Diagnosis</td>
+    <td align="left">EC</td>
+    <td align="left">CeC</td>
+    <td align="left">OC</td>
+   </tr>
+   <tr>
+    <td align="left">FIGO stage</td>
+    <td align="left">Ib</td>
+    <td align="left">IIb</td>
+    <td align="left">IIIb</td>
+   </tr>
+   <tr>
+    <td align="left">Histology</td>
+    <td align="left">Endometrioid adenocarcinoma, G1</td>
+    <td align="left">Squamous cell carcinoma</td>
+    <td align="left">Serous adenocarcinoma</td>
+   </tr>
+   <tr>
+    <td align="left">Primary treatment</td>
+    <td align="left">Modified radical hysterectomy + BSO + PLN + chemotherapy</td>
+    <td align="left">Radical hysterectomy + CCRT</td>
+    <td align="left">Total hysterectomy + BSO + omentectomy + chemotherapy</td>
+   </tr>
+   <tr>
+    <td align="left">Number of brain metastases</td>
+    <td char="." align="char">1</td>
+    <td char="." align="char">1</td>
+    <td char="." align="char">1</td>
+   </tr>
+   <tr>
+    <td align="left">Treatment of brain metastasis</td>
+    <td align="left">Surgery + WBRT</td>
+    <td align="left">Surgery + WBRT</td>
+    <td align="left">Surgery + WBRT</td>
+   </tr>
+   <tr>
+    <td align="left">Other sites of disease</td>
+    <td align="left">None</td>
+    <td align="left">LN (paraaortic, Virchow’s) pulmonary</td>
+    <td align="left">Abdominal</td>
+   </tr>
+   <tr>
+    <td align="left">Survival
+     <sup>a</sup> (months)
+    </td>
+    <td align="left">AWD (48)</td>
+    <td align="left">DOD (22)</td>
+    <td align="left">DOD (4)</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <italic>EC</italic> endometrial cancer, 
+   <italic>CeC</italic> uterine cervical cancer, 
+   <italic>OC</italic> ovarian cancer, 
+   <italic>CCRT</italic> concurrent chemoradiotherapy, 
+   <italic>BSO</italic> bilatelal salpingo-oophorectomy, 
+   <italic>PLN</italic> pelvic lymph node dissection, 
+   <italic>LN</italic> lymph node, 
+   <italic>WBRT</italic> whole brain radiotherapy, 
+   <italic>AWD</italic> alive with disease, 
+   <italic>DOD</italic> dead of disease
+  </p>
+  <p>
+   <sup>a</sup>Survival from diagnosis of brain metastasis
+  </p>
+ </table-wrap-foot>
+</table-wrap>

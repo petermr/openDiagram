@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>TPM-normalized gene counts were imported in DESeq2 package, and DEGs were determined between CMV- and mock-inoculated samples with an adjusted 
+ <italic>p</italic>-value cut-off ≤ 0.05. In the first mode of analysis (full design) that encompassed the effect of variety, time and treatment and their interactions, a total of 250 genes were differentially expressed (
+ <xref rid="pone.0244364.t002" ref-type="table">Table 2</xref> and 
+ <xref ref-type="supplementary-material" rid="pone.0244364.s014">S3 Table</xref>). Principal component analysis (PCA) was used to compare gene expression profiles of the samples; samples with similar pattern were plotted close to each other while samples with different profiles scattered far from each other in the scores plot of the PCA (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s003">S3 Fig</xref>). PC1 explained 53% of variation and PC2 explained 12%. In the variety-specific analysis (individual variety design), DEGs were determined between CMV-inoculated and mock-inoculated samples by including time, treatment and time × treatment. In ‘Jessie’ a total of 332 genes, in ‘QQ74’ 85 genes, and in ‘Red Head’ 140 genes were differentially expressed (
+ <xref rid="pone.0244364.t002" ref-type="table">Table 2</xref>).
+</p>

@@ -1,0 +1,731 @@
+{
+  "id": [
+    "26820987"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26820987"
+  ],
+  "pmcid": [
+    "PMC4769730"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC4769730"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1007/s12325-016-0285-x"
+  ],
+  "title": [
+    "Differential Protein Expression Profiles in Glaucomatous Trabecular Meshwork: An Evaluation Study on a Small Primary Open Angle Glaucoma Population."
+  ],
+  "authorString": [
+    "Micera A, Quaranta L, Esposito G, Floriani I, Pocobelli A, Saccà SC, Riva I, Manni G, Oddone F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Micera A"
+          ],
+          "firstName": [
+            "Alessandra"
+          ],
+          "lastName": [
+            "Micera"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "IRCCS-G.B. Bietti Foundation, Rome, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Quaranta L"
+          ],
+          "firstName": [
+            "Luciano"
+          ],
+          "lastName": [
+            "Quaranta"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medical and Surgical Specialties, Radiological Sciences and Public Health, Section of Ophthalmology, University of Brescia, Brescia, Italy. luciano.quaranta@unibs.it."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Esposito G"
+          ],
+          "firstName": [
+            "Graziana"
+          ],
+          "lastName": [
+            "Esposito"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8777-197X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "IRCCS-G.B. Bietti Foundation, Rome, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Floriani I"
+          ],
+          "firstName": [
+            "Irene"
+          ],
+          "lastName": [
+            "Floriani"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Laboratory of Clinical Research, IRCCS, Istituto di Ricerche Farmacologiche Mario Negri, Milan, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Pocobelli A"
+          ],
+          "firstName": [
+            "Augusto"
+          ],
+          "lastName": [
+            "Pocobelli"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "San Giovanni Hospital Complex, Eye Bank, Rome, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Saccà SC"
+          ],
+          "firstName": [
+            "Sergio Claudio"
+          ],
+          "lastName": [
+            "Saccà"
+          ],
+          "initials": [
+            "SC"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Ophthalmology Unit, Department of Head and Neck Pathologies, St. Martino Hospital, Genoa, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Riva I"
+          ],
+          "firstName": [
+            "Ivano"
+          ],
+          "lastName": [
+            "Riva"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7397-2260",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medical and Surgical Specialties, Radiological Sciences and Public Health, Section of Ophthalmology, University of Brescia, Brescia, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Manni G"
+          ],
+          "firstName": [
+            "Gianluca"
+          ],
+          "lastName": [
+            "Manni"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9006-8556",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Clinical Science and Translational Medicine, University Tor Vergata, Rome, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Oddone F"
+          ],
+          "firstName": [
+            "Francesco"
+          ],
+          "lastName": [
+            "Oddone"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2504-0004",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "IRCCS-G.B. Bietti Foundation, Rome, Italy."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6973-5978",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2504-0004",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7397-2260",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8777-197X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9006-8556",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "33"
+      ],
+      "journalIssueId": [
+        "2379295"
+      ],
+      "dateOfPublication": [
+        "2016 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Advances in therapy"
+          ],
+          "ISOAbbreviation": [
+            "Adv Ther"
+          ],
+          "medlineAbbreviation": [
+            "Adv Ther"
+          ],
+          "NLMid": [
+            "8611864"
+          ],
+          "ISSN": [
+            "0741-238X"
+          ],
+          "ESSN": [
+            "1865-8652"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "252-267"
+  ],
+  "abstractText": [
+    "<h4>Introduction</h4>Primary open angle glaucoma (POAG) is a progressive optic neuropathy characterized by impaired aqueous outflow and extensive remodeling in the trabecular meshwork (TM). The aim of this study was to characterize and compare the expression patterns of selected proteins belonging to the tissue remodeling, inflammation and growth factor pathways in ex vivo glaucomatous and post-mortem TMs using protein-array analysis.<h4>Methods</h4>TM specimens were collected from 63 white subjects, including 40 patients with glaucoma and 23 controls. Forty POAG TMs were collected at the time of surgery and 23 post-mortem specimens were from non-glaucomatous donor sclerocorneal tissues. Protein profiles were evaluated using a chip-based array consisting of 60 literature-selected antibodies.<h4>Results</h4>A different expression of some factors was observed in POAG TMs with respect to post-mortem specimens, either in abundance (interleukin [IL]10, IL6, IL5, IL7, IL12, IL3, macrophage inflammatory protein [MIP]1δ/α, vascular endothelial growth factor [VEGF], transforming growth factor beta 1 [TGFβ1], soluble tumor necrosis factor receptor I [sTNFRI]) or in scarcity (IL16, IL18, intercellular adhesion molecule 3 [ICAM3], matrix metalloproteinase-7 [MMP7], tissue inhibitor of metalloproteinase 1 [TIMP1]). MMP2, MMP7, TGFβ1, and VEGF expressions were confirmed by Western blot, zymography, and polymerase chain reaction. No difference in protein profile expression was detected between glaucomatous subtypes.<h4>Conclusion</h4>The analysis of this small TM population highlighted some proteins linked to POAG, some previously reported and others of new detection (IL7, MIPs, sTNFαRI). A larger POAG population is required to select promising disease-associated biomarker candidates.<h4>Funding</h4>This study was partially supported by the Fondazione Roma, the Italian Ministry of Health and the \"National 5xMille 2010 tax donation to IRCCS-G.B. Bietti Foundation\"."
+  ],
+  "affiliation": [
+    "IRCCS-G.B. Bietti Foundation, Rome, Italy."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Trabecular Meshwork"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Glaucoma, Open-Angle"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Inflammation Mediators"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Blotting, Western"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Array Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymerase Chain Reaction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged, 80 and over"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Extracellular matrix",
+        "Primary open angle glaucoma",
+        "Trabecular meshwork",
+        "intraocular pressure"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Inflammation Mediators"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "T"
+          ],
+          "name": [
+            "Health technology assessment journals (non-IM)"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1007/s12325-016-0285-x"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC4769730"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC4769730?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "11"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-09-29"
+  ],
+  "dateOfCreation": [
+    "2016-01-29"
+  ],
+  "firstIndexDate": [
+    "2016-01-29"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-11"
+  ],
+  "dateOfRevision": [
+    "2019-02-21"
+  ],
+  "electronicPublicationDate": [
+    "2016-01-28"
+  ],
+  "firstPublicationDate": [
+    "2016-01-28"
+  ]
+}

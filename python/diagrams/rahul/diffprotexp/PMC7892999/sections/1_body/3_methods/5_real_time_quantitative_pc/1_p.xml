@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">One microgram of total RNA from each of the 12 carrot samples described above was used for RT-qPCR. Protocols for cDNA synthesis and RT-qPCR were performed according to Lijavetzky et al. (2008) using a StepOne Plus Real-Time PCR System (Applied Biosystems, Life Technologies). Non-template controls were included for each primer pair, and each RT-qPCR reaction was completed in triplicate. Expression data were normalized against the carrot 
+ <italic>actin-7</italic> gene (LOC108202619). Relative quantification was performed by means of the ΔΔCt method using the ‘pcr’ R package
+ <sup>
+  <xref ref-type="bibr" rid="CR80">80</xref>
+ </sup>. Gene-specific primers were designed using the Primer Blast web tool
+ <sup>
+  <xref ref-type="bibr" rid="CR81">81</xref>
+ </sup> and the sequences are described in Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S7</xref>.
+</p>

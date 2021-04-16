@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0002" orientation="portrait" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>Appearance, pH, viscosity and %EE of the co-loaded loratadine/sulpiride nanoemulsion formulations.</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th rowspan="2" align="left">Formulation code</th>
+    <th rowspan="2" align="center">Appearance</th>
+    <th rowspan="2" align="center">pH</th>
+    <th rowspan="2" align="center">Viscosity (mPa.s)</th>
+    <th colspan="2" align="center">EE%
+     <hr/>
+    </th>
+   </tr>
+   <tr>
+    <th align="center">loratadine</th>
+    <th align="center">sulipride</th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="left">F1</td>
+    <td align="left">Less cloudy</td>
+    <td align="char" char="±">6.5 ± 0.01</td>
+    <td align="char" char="±">80.8 ± 2.8</td>
+    <td align="char" char="±">95.5 ± 0.1</td>
+    <td align="char" char="±">95 ± 0.2</td>
+   </tr>
+   <tr>
+    <td align="left">F2</td>
+    <td align="left">Less cloudy</td>
+    <td align="char" char="±">6.7 ± 0.02</td>
+    <td align="char" char="±">73.3 ± 3.7</td>
+    <td align="char" char="±">90 ± 0.2</td>
+    <td align="char" char="±">93 ± 0.00</td>
+   </tr>
+   <tr>
+    <td align="left">F3</td>
+    <td align="left">Less cloudy</td>
+    <td align="char" char="±">6.3 ± 0.00</td>
+    <td align="char" char="±">81.2 ± 1.6</td>
+    <td align="char" char="±">97.5 ± 0.00</td>
+    <td align="char" char="±">98 ± 0.1</td>
+   </tr>
+   <tr>
+    <td align="left">F4</td>
+    <td align="left">Cloudy</td>
+    <td align="char" char="±">7.2 ± 0.01</td>
+    <td align="char" char="±">102.3 ± 2.1</td>
+    <td align="char" char="±">96 ± 0.2</td>
+    <td align="char" char="±">92 ± 0.02</td>
+   </tr>
+   <tr>
+    <td align="left">F5</td>
+    <td align="left">Cloudy</td>
+    <td align="char" char="±">6.5 ± 0.1</td>
+    <td align="char" char="±">108.5 ± 2.9</td>
+    <td align="char" char="±">96 ± 0.02</td>
+    <td align="char" char="±">93 ± 0.5</td>
+   </tr>
+   <tr>
+    <td align="left">F6</td>
+    <td align="left">Cloudy</td>
+    <td align="char" char="±">6.2 ± 0.0</td>
+    <td align="char" char="±">203 ± 3.1</td>
+    <td align="char" char="±">93 ± 0.01</td>
+    <td align="char" char="±">91 ± 0.2</td>
+   </tr>
+   <tr>
+    <td align="left">F7</td>
+    <td align="left">Cloudy</td>
+    <td align="char" char="±">6.7 ± 0.02</td>
+    <td align="char" char="±">201 ± 2.8</td>
+    <td align="char" char="±">92 ± 0.3</td>
+    <td align="char" char="±">92 ± 0.0</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

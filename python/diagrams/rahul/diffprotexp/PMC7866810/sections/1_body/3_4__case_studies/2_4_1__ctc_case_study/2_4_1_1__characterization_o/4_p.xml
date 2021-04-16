@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Moreover, binomial differential expression was performed to detect differentially expressed markers for each cluster. The metastasis associated lung adenocarcinoma transcript-1 (
+ <italic>MALAT1</italic>) was detected to be a marker for Cluster 4. 
+ <italic>MALAT1</italic> has been described as a long non-coding gene with contradictory functionality. Previous studies demonstrated that 
+ <italic>MALAT1</italic> promotes cell proliferation, migration, tumor growth, metastasis and chemoresistance. On the other hand, a recent study by Kim and colleagues showed that 
+ <italic>MALAT1</italic> levels inversely correlate with breast cancer progression and metastatic ability in transgenic, xenograft and syngeneic models [
+ <xref rid="B73-ijms-22-01399" ref-type="bibr">73</xref>]. All the CTCs in the selected dataset showed upregulation of 
+ <italic>MALAT1</italic>, especially in Cluster 4 (
+ <xref ref-type="fig" rid="ijms-22-01399-f002">Figure 2</xref>f). Further investigation is needed to confirm the role of 
+ <italic>MALAT1</italic> in circulating breast cancer cells. The overall impact of our findings reported here is that cells in Cluster 4 seem to have highly aggressive characteristics of invasion and metastasis comparing to less aggressiveness in Cluster 1. Decision tree analysis was performed using the total list of the binomial DEGs to identify the potential genes to predict the cluster identity of a target cell, and whether it belongs to Clusters 1 or 4. The generated RPART decision tree (
+ <xref ref-type="fig" rid="ijms-22-01399-f003">Figure 3</xref>b) included four decision nodes: 
+ <italic>MALAT1</italic>, 
+ <italic>SYNE2</italic>, 
+ <italic>SLC25A39</italic> and 
+ <italic>CFLAR</italic>. The performance metric of the RPART decision tree is remarkably high, with an accuracy of 99%, specificity of 100% and sensitivity of 99%. The time for running the DIscBIO–CTCs–Binder notebooks (Parts 1–3) is 15 min, whereas the approximate time for running through the Jupyter notebook, the analysis described above, using an Intel Core i5-8300H laptop, is about 3 h. The time difference is due to structural deviation. Some objects, such as SC and DATAforDT, were precomputed and inserted into the Binder notebooks. 
+</p>

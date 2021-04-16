@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Rupture force in the absence and presence of ERY in the exit tunnel.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Rupture force (pN)</th>
+    <th>ErmCL</th>
+    <th>H-NS</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Without ERY</td>
+    <td>468.6 ± 26.0</td>
+    <td>599.9 ± 14.7</td>
+   </tr>
+   <tr>
+    <td>With ERY</td>
+    <td>2639.9 ± 119.8</td>
+    <td>1394.3 ± 88.9</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Error bars represent 95% confidence intervals.</p>
+ </table-wrap-foot>
+</table-wrap>

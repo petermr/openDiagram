@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To enrich the identified proteins to specific functional terms, the protein list was analyzed by CluoGo software applying to the 
+ <italic>Drosophila</italic> database downloaded from the Gene Ontology database (release date, January 10, 2010) 
+ <xref rid="pone.0013455-Bindea1" ref-type="bibr">[21]</xref>. Ontology was selected as biological process. Enrichment analysis was done by right-side hypergeometric statistical testing and the probability value was corrected by Bonferroni method.
+</p>

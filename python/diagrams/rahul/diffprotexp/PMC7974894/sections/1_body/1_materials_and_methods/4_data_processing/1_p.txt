@@ -1,0 +1,6 @@
+0: To identify the differently expressed genes (DEGs) between tongue normal and tumor tissue, we used the negative binomial distribution method.
+1: The Limma package ( http://www.bioconductor.org/packages/release/bioc/html/limma.html) was applied to perform the analysis.
+2: The Limma package was based on the negative binomial distribution.
+3: It fits a generalized linear model for each gene and uses empirical Bayes shrinkage for dispersion and fold-change estimation.
+4: All raw data was preprocessed by Limma package and excluded genes with an average count value less than 1.
+5: In addition, we also used Limma package to identify the differently expressed RBPs (DeRBPs) in view of |log2 fold change (FC)|1 and false discovery rate (FDR)<0.05.

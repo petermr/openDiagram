@@ -1,0 +1,3 @@
+0: The intergenic regions were extracted by using BEDtools complement [ 47] to subtract the genome from all annotated regions and return genome intervals with no genes identified.
+1: The MSTRG transcripts were mapped to these intervals with BEDtools intersect, returning transcripts that overlap completely are classified as intergenic.
+2: Intergenic transcripts with peptides from any frame that identified them are intergenic ORFs.

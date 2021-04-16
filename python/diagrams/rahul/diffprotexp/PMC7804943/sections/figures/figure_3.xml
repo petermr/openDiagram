@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <title>GE and APA changes in LF2 distinguish proximal-distal neurons from other axes.</title>
+  <p>
+   <bold>a</bold> Enrichment map displaying the functional enrichment analysis of genes from top GE events with the largest absolute LF2 loading. See Fig. 
+   <xref rid="Fig2" ref-type="fig">2c</xref> for description of enrichment maps. 
+   <bold>b</bold> Bar-plot showing the proportion of top-weighted genes that overlap known RNA-binding proteins (RBPs). When comparing the degree of overlap between each latent factor and known RBPs, only LF2 has a significant overlap (27/298, 
+   <italic>p</italic> = 4.19 × 10
+   <sup>−6</sup>, hypergeometric test). n.s.: not significant. 
+   <bold>c</bold> Heatmap showing normalized read counts of top 15 RBPs (rows) observed in LF2 for each sample (columns). Each gene is annotated according to its differential expression status between proximal-distal and dorsal-ventral-superficial-deep neurons (left vertical bar). Each sample is annotated according to region (top horizontal bar) and sample names are as in Fig. 
+   <xref rid="Fig2" ref-type="fig">2b</xref>. PD = proximal-distal neurons. 
+   <bold>d</bold> Heatmap showing the APA profiles inferred by QAPA, measured by proximal poly(A) site usage (PPAU), of the top-weighted 3′ UTRs (rows) for each sample (columns). 
+   <bold>e</bold> Bar-plot showing the proportion of top-weighted 3′ UTRs from each latent factor with genes known to localize to dendrites and axons
+   <sup>
+    <xref ref-type="bibr" rid="CR46">46</xref>
+   </sup>. Similar to 
+   <bold>b</bold>, when comparing the degree of overlap between each latent factor and known localization genes, only LF2 had a significant overlap (27/66, 
+   <italic>p</italic> = 3.85 × 10
+   <sup>−5</sup>, hypergeometric test). Sample names are as in Fig. 
+   <xref rid="Fig2" ref-type="fig">2b</xref>. n.s.: not significant. 
+   <bold>f</bold> Scatterplot showing the latent factor 2 loadings (
+   <italic>y</italic>-axis) for each 3′ UTR in ascending order from left to right (
+   <italic>x</italic>-axis). Lengthening 3′ UTRs (indicated by negative loadings, Supplementary Fig. 
+   <xref rid="MOESM1" ref-type="media">3A</xref>) that belong to localized transcripts are represented by red dots. The bottom-right box shows genes with localized transcripts from the indicated region of the plot.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20483_Fig3_HTML" id="d31e934" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

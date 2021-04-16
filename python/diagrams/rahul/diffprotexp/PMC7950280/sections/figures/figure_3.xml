@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig fig-type="figure" id="f3" orientation="portrait" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>
+   <bold>Weighted correlation network analysis.</bold> Plot of sample clustering (
+   <bold>A</bold>). Cluster dendrogram of five modules and assigned module colors (
+   <bold>B</bold>): grey indicates non-clustering genes. Heatmap of module-trait relationships (
+   <bold>C</bold>): red indicates positively correlated and green represents negatively correlated. KEGG pathways of genes in co-expression module (
+   <bold>D</bold>). HD: Huntington’s disease, KEGG: Kyoto Encyclopedia of Genes and Genomes.
+  </p>
+ </caption>
+ <graphic xlink:href="aging-13-202603-g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

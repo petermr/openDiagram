@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Solomon</surname>
+   <given-names>Emilia</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Davis-Anderson</surname>
+   <given-names>Katie</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Hovde</surname>
+   <given-names>Blake</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2693-4333</contrib-id>
+  <name>
+   <surname>Micheva-Viteva</surname>
+   <given-names>Sofiya</given-names>
+  </name>
+  <address>
+   <email>sviteva@lanl.gov</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Harris</surname>
+   <given-names>Jennifer Foster</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Twary</surname>
+   <given-names>Scott</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Iyer</surname>
+   <given-names>Rashi</given-names>
+  </name>
+  <address>
+   <email>rashi@lanl.gov</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.148313.c</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0428 3079</institution-id>
+   <institution>Los Alamos National Laboratory, Bioscience Division, </institution>
+  </institution-wrap>Los Alamos, NM USA 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.148313.c</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0428 3079</institution-id>
+   <institution>Los Alamos National Laboratory, Analytics, Intelligence, and Technology Division, </institution>
+  </institution-wrap>Los Alamos, NM USA 
+ </aff>
+</contrib-group>

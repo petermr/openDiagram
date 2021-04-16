@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par31">The Omicsbean online analysis software (
+ <ext-link ext-link-type="uri" xlink:href="http://www.omicsbean.cn" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.omicsbean.cn</ext-link>) was used with the accession number of each identified protein to perform Gene Ontology (GO) classification and Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis for signaling pathways. The accession number of each identified protein was submitted for STRING (
+ <ext-link ext-link-type="uri" xlink:href="https://string-db.org" xmlns:xlink="http://www.w3.org/1999/xlink">https://string-db.org</ext-link>) analysis for functional protein association network construction. Regular functional analysis was performed using the tools in the Swiss-Prot database (
+ <ext-link ext-link-type="uri" xlink:href="http://uniprot.org" xmlns:xlink="http://www.w3.org/1999/xlink">http://uniprot.org</ext-link>) [
+ <xref ref-type="bibr" rid="CR17">17</xref>, 
+ <xref ref-type="bibr" rid="CR20">20</xref>].
+</p>

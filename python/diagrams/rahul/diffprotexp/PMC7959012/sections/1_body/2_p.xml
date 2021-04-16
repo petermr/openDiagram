@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The edgeR package was used to perform difference analysis. The false discovery rate (FDR) &lt; 0.05 and | log2 (multiple change) &gt; 1 were set as the cut-off values for the screening of the differentially expressed genes (DEG). The gene co-expression network was constructed using the EBcoexpress package. The GO enrichment analysis of the DEG in the co-expression network was carried out using the Database for Annotation, Visualisation, and Integrated Discovery (DAVID) (
+ <ext-link ext-link-type="uri" xlink:href="https://david.ncifcrf.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://david.ncifcrf.gov/</ext-link>). KOBAS 3.0 (
+ <ext-link ext-link-type="uri" xlink:href="http://kobas.cbi.pku.edu.cn/" xmlns:xlink="http://www.w3.org/1999/xlink">http://kobas.cbi.pku.edu.cn/</ext-link>) was adopted to form a path map reflecting the DEG by the KEGG pathway enrichment analysis of DEG.
+</p>

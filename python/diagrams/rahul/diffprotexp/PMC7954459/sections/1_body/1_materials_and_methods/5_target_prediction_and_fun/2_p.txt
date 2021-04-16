@@ -1,0 +1,4 @@
+0: Putative targets of miRNAs were predicted using psRNATarget (v2) webserver with an expectation (e) cutoff of 3 (Dai et al.,  2018).
+1: The transcriptome assembly generated from RNAseq data of different stages of seed development (Garg et al.,  2017) was used for the prediction of putative targets of identified miRNAs.
+2: GO enrichment analysis of target genes was performed using BiNGO plugin of Cytoscape (v3.4) (Maere et al.,  2005).
+3: EuKaryotic Orthologous Groups (KOG) based classification of target genes was performed using COGNITOR (Tatusov et al.,  2000).

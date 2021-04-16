@@ -1,0 +1,361 @@
+{
+  "id": [
+    "33681194"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33681194"
+  ],
+  "pmcid": [
+    "PMC7933219"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7933219"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3389/fcell.2021.604038"
+  ],
+  "title": [
+    "Analysis of Differentially Expressed Genes in Endothelial Cells Following Tumor Cell Adhesion, and the Role of PRKAA2 and miR-124-3p."
+  ],
+  "authorString": [
+    "Pan Y, Abdureyim M, Yao Q, Li X."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pan Y"
+          ],
+          "firstName": [
+            "Yan"
+          ],
+          "lastName": [
+            "Pan"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, Health Science Center, School of Basic Medical Sciences, Peking University, Beijing, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Abdureyim M"
+          ],
+          "firstName": [
+            "Marhaba"
+          ],
+          "lastName": [
+            "Abdureyim"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, Health Science Center, School of Basic Medical Sciences, Peking University, Beijing, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yao Q"
+          ],
+          "firstName": [
+            "Qing"
+          ],
+          "lastName": [
+            "Yao"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biochemistry and Molecular Biology, Ningxia Medical University, Yinchuan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li X"
+          ],
+          "firstName": [
+            "Xuejun"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, Health Science Center, School of Basic Medical Sciences, Peking University, Beijing, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "3109504"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Frontiers in cell and developmental biology"
+          ],
+          "ISOAbbreviation": [
+            "Front Cell Dev Biol"
+          ],
+          "medlineAbbreviation": [
+            "Front Cell Dev Biol"
+          ],
+          "NLMid": [
+            "101630250"
+          ],
+          "ISSN": [
+            "2296-634X"
+          ],
+          "ESSN": [
+            "2296-634X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "604038"
+  ],
+  "abstractText": [
+    "Tumor cell adhesion to the endothelium is one pattern of tumor-endothelium interaction and a key step during tumor metastasis. Endothelium integrity is an important barrier to prevent tumor invasion and metastasis. Changes in endothelial cells (ECs) due to tumor cell adhesion provide important signaling mechanisms for the angiogenesis and metastasis of tumor cells. However, the changes happened in endothelial cells when tumor-endothelium interactions are still unclear. In this study, we used Affymetrix Gene Chip Human Transcriptome Array 2.0. and quantitative real-time PCR (qPCR) to clarify the detailed gene alteration in endothelial cells adhered by prostate tumor cells PC-3M. A total of 504 differentially expressed mRNAs and 444 lncRNAs were obtained through chip data analysis. Gene Ontology (GO) function analysis showed that differentially expressed genes (DEGs) mainly mediated gland development and DNA replication at the biological level; at the cell component level, they were mainly involved in the mitochondrial inner membrane; and at the molecular function level, DEGs were mainly enriched in ATPase activity and catalytic activity. Kyoto Encyclopedia of Genes and Genomes (KEGG) signal pathway analysis showed that the DEGs mainly regulated pathways in cancer, cell cycle, pyrimidine metabolism, and the mTOR signaling pathway. Then, we constructed a protein-protein interaction functional network and mRNA-lncRNA interaction network using Cytoscape v3.7.2. to identify core genes, mRNAs, and lncRNAs. The miRNAs targeted by the core mRNA PRKAA2 were predicted using databases (miRDB, RNA22, and Targetscan). The qPCR results showed that miR-124-3p, the predicted target miRNA of PRKAA2, was significantly downregulated in endothelial cells adhered by PC-3M. With a dual luciferase reporter assay, the binding of miR-124-3p with PRKAA2 3'UTR was confirmed. Additionally, by using the knockdown lentiviral vectors of miR-124-3p to downregulate the miR-124-3p expression level in endothelial cells, we found that the expression level of PRKAA2 increased accordingly. Taken together, the adhesion of tumor cells had a significant effect on mRNAs and lncRNAs in the endothelial cells, in which PRKAA2 is a notable changed molecule and miR-124-3p could regulate its expression and function in endothelial cells."
+  ],
+  "affiliation": [
+    "Department of Pharmacology, Health Science Center, School of Basic Medical Sciences, Peking University, Beijing, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "bioinformatic analysis",
+        "Long Non-coding Rna",
+        "Mir-124-3p",
+        "Tumor-Endothelial Adhesion",
+        "Prkaa2"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3389/fcell.2021.604038"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7933219"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7933219?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "geo"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-08"
+  ],
+  "firstIndexDate": [
+    "2021-03-09"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-08"
+  ],
+  "dateOfRevision": [
+    "2021-03-10"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-19"
+  ],
+  "firstPublicationDate": [
+    "2021-02-19"
+  ]
+}

@@ -1,0 +1,3 @@
+0: Differential expression between ookinetes from different vector species and across individual vector guts was performed in monocle (v 2.16.0) using the differentialGeneTest function ( Trapnell et al., 2014).
+1: To control for the effect of development, we included pseudotime in both the full and reduced model formulas.
+2: Only features that were expressed in more than ten cells and were identified as highly variable were included.

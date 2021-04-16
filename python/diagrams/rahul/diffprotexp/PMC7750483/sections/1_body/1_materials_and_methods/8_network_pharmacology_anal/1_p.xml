@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Differentially expressed genes related to the 
+ <italic>GSK3B</italic> gene were obtained by R package limma. The samples were divided into two groups according to the median expression values of the 
+ <italic>GSK3B</italic> gene and | log
+ <sub>2</sub> fold-change (FC)| &gt; 1, and the 
+ <italic>P</italic> value &lt;0.05 was set as a threshold. According to the 
+ <italic>P</italic> value ranking, the first 150 DEGs that were significantly up-regulated and the first 150 DEGs that were significantly down-regulated were included for potential drug target analysis. The Connectivity Map (CMap) is a gene expression profile database based on interventional gene expression (
+ <xref rid="B50" ref-type="bibr">Subramanian et al., 2017</xref>). It is mainly used to analyze the functional connections between small molecule compounds, genes, and diseases (
+ <xref rid="B27" ref-type="bibr">Lamb et al., 2006</xref>). PharmMapper is a comprehensive target pharmacophore database that can search potential drug target identification (
+ <xref rid="B65" ref-type="bibr">Wang et al., 2017</xref>). PharmMapper comes from TargetBank, DrugBank, BindingDB, and potential drug target databases, and nearly 53,000 receptor-based pharmacophore models are used for prediction (
+ <xref rid="B36" ref-type="bibr">Liu et al., 2010</xref>; 
+ <xref rid="B64" ref-type="bibr">Wang et al., 2016</xref>).
+</p>

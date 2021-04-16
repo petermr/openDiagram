@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Shabbir</surname>
+   <given-names>Samina</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Boruah</surname>
+   <given-names>Prerona</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Xie</surname>
+   <given-names>Lingli</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Kulyar</surname>
+   <given-names>Muhammad Fakhar-e-Alam</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Nawaz</surname>
+   <given-names>Mohsin</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Yousuf</surname>
+   <given-names>Salsabeel</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Liu</surname>
+   <given-names>Tianyi</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Jabeen</surname>
+   <given-names>Farhat</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Miao</surname>
+   <given-names>Xiangyang</given-names>
+  </name>
+  <address>
+   <email>miaoxy32@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.410727.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0526 1937</institution-id>
+   <institution>State Key Laboratory of Animal Nutrition, Institute of Animal Sciences, </institution>
+   <institution>Chinese Academy of Agricultural Sciences, </institution>
+  </institution-wrap>Beijing, 100193 China 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.410727.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0526 1937</institution-id>
+   <institution>Biomass Energy Technology Research Centre, Key Laboratory of Development and Application of Rural Renewable Energy (Ministry of Agriculture and Rural Affairs),Biogas Institute of Ministry of Agriculture and Rural Affairs, Section 4-13, </institution>
+   <institution>Chinese Academy of Agricultural Sciences, </institution>
+  </institution-wrap>Beijing, China 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.410727.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0526 1937</institution-id>
+   <institution>Shanghai Veterinary Research Institute, Shanghai, </institution>
+   <institution>Chinese Academy of Agricultural Sciences, </institution>
+  </institution-wrap>Beijing, China 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.35155.37</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1790 4137</institution-id>
+   <institution>College of Veterinary Medicine, </institution>
+   <institution>Huazhong Agricultural University, </institution>
+  </institution-wrap>Wuhan, 430070 China 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.428986.9</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0373 6302</institution-id>
+   <institution>Key Laboratory of Genetics and Germplasm Innovation of Tropical Special Forest Trees and Ornamental Plants, Ministry of Education, College of Forestry and College of Tropical Crops, </institution>
+   <institution>Hainan University, </institution>
+  </institution-wrap>Haikou, 570228 China 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411786.d</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0637 891X</institution-id>
+   <institution>Government College University, </institution>
+  </institution-wrap>Faisalabad, Pakistan 
+ </aff>
+</contrib-group>

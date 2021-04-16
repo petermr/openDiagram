@@ -1,0 +1,3 @@
+0: Protein interaction networks were built using the online database resource Search Tool for the Retrieval of Interacting Genes (STRING).
+1: Proteins were further analyzed using Gene Ontology (GO) database and the Kyoto Encyclopedia of Genes and Genomes (KEGG) for their classification into specific pathways.
+2: PCA plots were calculated and created in R ( https://www.R-project.org).

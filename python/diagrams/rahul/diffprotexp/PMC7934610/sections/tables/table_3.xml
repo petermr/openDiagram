@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T3" orientation="portrait" position="float">
+ <label>Table 3</label>
+ <caption>
+  <p>Partial differential expression genes in the intestine, organized according to their function group.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr valign="top">
+    <th align="left" rowspan="1" colspan="1">Gene</th>
+    <th align="center" rowspan="1" colspan="1">Gene ID</th>
+    <th align="center" rowspan="1" colspan="1">Description</th>
+    <th align="center" rowspan="1" colspan="1">Fold change between CE-R and CE-NR</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">Epithelial barrier-lectin secretion</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CLEC9A</td>
+    <td align="center" rowspan="1" colspan="1">101119033</td>
+    <td align="left" rowspan="1" colspan="1">C-type lectin domain containing 9A</td>
+    <td align="center" rowspan="1" colspan="1">11.73</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CLEC10A</td>
+    <td align="center" rowspan="1" colspan="1">101117600</td>
+    <td align="left" rowspan="1" colspan="1">C-type lectin domain containing 10A</td>
+    <td align="center" rowspan="1" colspan="1">3.1</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">CLEC4G</td>
+    <td align="center" rowspan="1" colspan="1">101123627</td>
+    <td align="left" rowspan="1" colspan="1">C-type lectin domain containing 4G</td>
+    <td align="center" rowspan="1" colspan="1">8.13</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">NK cell activation</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> IRAK1</td>
+    <td align="center" rowspan="1" colspan="1">101121405</td>
+    <td align="left" rowspan="1" colspan="1">Interleukin-1 receptor-associated kinase 1</td>
+    <td align="center" rowspan="1" colspan="1">3.24</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> NKG7</td>
+    <td align="center" rowspan="1" colspan="1">101115817</td>
+    <td align="left" rowspan="1" colspan="1">Natural killer cell granule protein 7</td>
+    <td align="center" rowspan="1" colspan="1">7.65</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">Mast cell activation and immune killing</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> MCP1</td>
+    <td align="center" rowspan="1" colspan="1">443546</td>
+    <td align="left" rowspan="1" colspan="1">Monocyte chemoattractant protein-1</td>
+    <td align="center" rowspan="1" colspan="1">4.59</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> IRAK1</td>
+    <td align="center" rowspan="1" colspan="1">101121405</td>
+    <td align="left" rowspan="1" colspan="1">Interleukin-1 receptor-associated kinase 1</td>
+    <td align="center" rowspan="1" colspan="1">3.24</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">T lymphocyte activation</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> NFATC2</td>
+    <td align="center" rowspan="1" colspan="1">101119239</td>
+    <td align="left" rowspan="1" colspan="1">Recombinant nuclear factor of activated T cells, cytoplasmic 2</td>
+    <td align="center" rowspan="1" colspan="1">5.38</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> NFAT5</td>
+    <td align="center" rowspan="1" colspan="1">101113952</td>
+    <td align="left" rowspan="1" colspan="1">Nuclear factor 5 of activated T cells</td>
+    <td align="center" rowspan="1" colspan="1">2.93</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">Chemokine expression</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CXCL12</td>
+    <td align="center" rowspan="1" colspan="1">101121145</td>
+    <td align="left" rowspan="1" colspan="1">Chemokine (C-X-C motif) ligand 12</td>
+    <td align="center" rowspan="1" colspan="1">3.42</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CXCL14</td>
+    <td align="center" rowspan="1" colspan="1">101105243</td>
+    <td align="left" rowspan="1" colspan="1">Chemokine (C-X-C motif) ligand 14</td>
+    <td align="center" rowspan="1" colspan="1">4.61</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CCL4</td>
+    <td align="center" rowspan="1" colspan="1">101114285</td>
+    <td align="left" rowspan="1" colspan="1">Chemokine (C-C motif) ligand 4</td>
+    <td align="center" rowspan="1" colspan="1">2.88</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CCL5</td>
+    <td align="center" rowspan="1" colspan="1">101115553</td>
+    <td align="left" rowspan="1" colspan="1">Chemokine (C-C motif) ligand 5</td>
+    <td align="center" rowspan="1" colspan="1">10.24</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CCL11</td>
+    <td align="center" rowspan="1" colspan="1">101119832</td>
+    <td align="left" rowspan="1" colspan="1">Chemokine (C-C motif) ligand 11</td>
+    <td align="center" rowspan="1" colspan="1">5.41</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CCL25</td>
+    <td align="center" rowspan="1" colspan="1">678679</td>
+    <td align="left" rowspan="1" colspan="1">Chemokine (C-C motif) ligand 25</td>
+    <td align="center" rowspan="1" colspan="1">4.2</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CCL28</td>
+    <td align="center" rowspan="1" colspan="1">780500</td>
+    <td align="left" rowspan="1" colspan="1">Chemokine (C-C motif) ligand 28</td>
+    <td align="center" rowspan="1" colspan="1">4.48</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">Promote white blood cell migration</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TICAM1</td>
+    <td align="center" rowspan="1" colspan="1">101111016</td>
+    <td align="left" rowspan="1" colspan="1">Toll like receptor adaptor molecule 1</td>
+    <td align="center" rowspan="1" colspan="1">3.82</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">Compensatory inflammation repair mechanism</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CYP17A1</td>
+    <td align="center" rowspan="1" colspan="1">493968</td>
+    <td align="left" rowspan="1" colspan="1">Cytochrome P450, family 17, subfamily A, polypeptide 1</td>
+    <td align="center" rowspan="1" colspan="1">15</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CYP1A1</td>
+    <td align="center" rowspan="1" colspan="1">100170113</td>
+    <td align="left" rowspan="1" colspan="1">Cytochrome P450, family 1, subfamily A, polypeptide 1</td>
+    <td align="center" rowspan="1" colspan="1">5.9</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CYP2C19</td>
+    <td align="center" rowspan="1" colspan="1">100534653</td>
+    <td align="left" rowspan="1" colspan="1">Cytochrome P450, family 2, subfamily C, polypeptide 19</td>
+    <td align="center" rowspan="1" colspan="1">11</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> CYP3A24</td>
+    <td align="center" rowspan="1" colspan="1">100170111</td>
+    <td align="left" rowspan="1" colspan="1">Cytochrome P450, family 3, subfamily A, polypeptide 24</td>
+    <td align="center" rowspan="1" colspan="1">7.91</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">TNF expression related</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TNFRSF13B</td>
+    <td align="center" rowspan="1" colspan="1">101122200</td>
+    <td align="left" rowspan="1" colspan="1">Tumor necrosis factor receptor superfamily member 13B</td>
+    <td align="center" rowspan="1" colspan="1">4.18</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TNFRSF17</td>
+    <td align="center" rowspan="1" colspan="1">101111149</td>
+    <td align="left" rowspan="1" colspan="1">Tumor necrosis factor receptor superfamily member 17</td>
+    <td align="center" rowspan="1" colspan="1">14.75</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TNFRSF1A</td>
+    <td align="center" rowspan="1" colspan="1">100135698</td>
+    <td align="left" rowspan="1" colspan="1">Tumor necrosis factor receptor superfamily member 1A</td>
+    <td align="center" rowspan="1" colspan="1">3.03</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TNFRSF4</td>
+    <td align="center" rowspan="1" colspan="1">101108407</td>
+    <td align="left" rowspan="1" colspan="1">Tumor necrosis factor receptor superfamily member 4</td>
+    <td align="center" rowspan="1" colspan="1">2.88</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TNFSF10</td>
+    <td align="center" rowspan="1" colspan="1">101114153</td>
+    <td align="left" rowspan="1" colspan="1">Tumor necrosis factor receptor superfamily member 10</td>
+    <td align="center" rowspan="1" colspan="1">3.36</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TNFSF13</td>
+    <td align="center" rowspan="1" colspan="1">101123054</td>
+    <td align="left" rowspan="1" colspan="1">Tumor necrosis factor receptor superfamily member 13</td>
+    <td align="center" rowspan="1" colspan="1">3.13</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TNFSF15</td>
+    <td align="center" rowspan="1" colspan="1">101102957</td>
+    <td align="left" rowspan="1" colspan="1">Tumor necrosis factor receptor superfamily member 15</td>
+    <td align="center" rowspan="1" colspan="1">2.97</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> TNFSF18</td>
+    <td align="center" rowspan="1" colspan="1">101108765</td>
+    <td align="left" rowspan="1" colspan="1">Tumor necrosis factor receptor superfamily member 18</td>
+    <td align="center" rowspan="1" colspan="1">5.15</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" colspan="4" rowspan="1">MHC related</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> LOC101103957</td>
+    <td align="center" rowspan="1" colspan="1">101103957</td>
+    <td align="center" rowspan="1" colspan="1">/</td>
+    <td align="center" rowspan="1" colspan="1">6.11</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> LOC101108696</td>
+    <td align="center" rowspan="1" colspan="1">101108696</td>
+    <td align="center" rowspan="1" colspan="1">/</td>
+    <td align="center" rowspan="1" colspan="1">4.45</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> LOC101109747</td>
+    <td align="center" rowspan="1" colspan="1">101109747</td>
+    <td align="center" rowspan="1" colspan="1">/</td>
+    <td align="center" rowspan="1" colspan="1">3.38</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> LOC101120148</td>
+    <td align="center" rowspan="1" colspan="1">101120148</td>
+    <td align="center" rowspan="1" colspan="1">/</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> LOC101109080</td>
+    <td align="center" rowspan="1" colspan="1">101109080</td>
+    <td align="center" rowspan="1" colspan="1">/</td>
+    <td align="center" rowspan="1" colspan="1">12.71</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> LOC101105609</td>
+    <td align="center" rowspan="1" colspan="1">101105609</td>
+    <td align="center" rowspan="1" colspan="1">/</td>
+    <td align="center" rowspan="1" colspan="1">6.35</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"> LOC101107908</td>
+    <td align="center" rowspan="1" colspan="1">101107908</td>
+    <td align="center" rowspan="1" colspan="1">/</td>
+    <td align="center" rowspan="1" colspan="1">4.92</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

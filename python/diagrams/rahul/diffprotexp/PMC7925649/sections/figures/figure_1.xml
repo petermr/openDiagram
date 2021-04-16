@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Figure 1</label>
+ <caption>
+  <p>(
+   <bold>A</bold>) Principal Component Analysis (PCA) of the patient transcriptome profiles in different comparisons. (
+   <bold>B</bold>) Heatmap of differentially regulated genes (
+   <italic>q</italic>-value &lt; 0.05, fold change exceeding 1.5×). (
+   <bold>C</bold>) Volcano plots of the different comparisons performed on the HLHS cohort samples where red dots indicate genes with a 
+   <italic>q</italic>-value &lt; 0.05 and a linear fold change of at least 1.5×, and grey dots are genes that do not meet these criteria. (R statistical software environment version 3.5 
+   <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.r-project.org/</ext-link>).
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_83882_Fig1_HTML" id="MO1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

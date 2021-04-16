@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Analysis of the sequencing data and differential gene expression was performed by UC Davis Bioinformatics Core. Differential expression analyses were conducted using limma-voom [
+ <xref rid="pone.0246695.ref022" ref-type="bibr">22</xref>]. The model fitted included effects for sample type, treatment, the interaction between sample type and treatment, sequencing pool, and RNA isolation date. Standard errors of log fold changes were adjusted for within-animal correlations. Gene ontology enrichment analysis of the whole transcriptome was conducted using Kolmogorov-Smirnov test as implemented in the Bioconductor package topGO, version 2.30.1 [
+ <xref rid="pone.0246695.ref023" ref-type="bibr">23</xref>]. KEGG pathway [
+ <xref rid="pone.0246695.ref024" ref-type="bibr">24</xref>] enrichment analysis was conducted using Wilcoxon rank-sum tests, with KEGG pathway annotation obtained using the Bioconductor package KEGGREST, version 1.18.1 (
+ <ext-link ext-link-type="uri" xlink:href="https://www.bioconductor.org/packages/release/bioc/manuals/KEGGREST/man/KEGGREST.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.bioconductor.org/packages/release/bioc/manuals/KEGGREST/man/KEGGREST.pdf</ext-link>). 
+ <italic>Bos taurus</italic> Ensembl gene identifiers and annotations were used in this study [
+ <xref rid="pone.0246695.ref025" ref-type="bibr">25</xref>].
+</p>

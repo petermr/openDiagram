@@ -1,0 +1,4 @@
+0: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$( {\text{NSAF)}}_{k} = \frac{{(SpC/Length)_{k} }}{{\mathop \sum \nolimits_{i = 1}^{N} (SpC/Length)_{i} }}$$\end{document}(NSAF)k=(SpC/Length)ki=1N(SpC/Length)iwhere (NSAF) k is the NSAF value for protein k, SpC is spectral count and length is the protein length.
+1: This method adjusts for the protein length, because larger proteins tend to have higher probabilities of generating more PSMs; as well as the total protein abundance in one sample.
+2: However, for peptides that do not map to canonical coding sequences, the open reading frame in the mapped transcript from which they were translated needed to be estimated to obtain protein length.
+3: The estimated ORFs could also be used for downstream functional analysis.

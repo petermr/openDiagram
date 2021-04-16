@@ -1,0 +1,684 @@
+{
+  "id": [
+    "23781506"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "23781506"
+  ],
+  "pmcid": [
+    "PMC3679811"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC3679811"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1155/2013/642964"
+  ],
+  "title": [
+    "Proteomic profiling for peritoneal dialysate: differential protein expression in diabetes mellitus."
+  ],
+  "authorString": [
+    "Yang MH, Wang HY, Lu CY, Tsai WC, Lin PC, Su SB, Tyan YC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Yang MH"
+          ],
+          "firstName": [
+            "Ming-Hui"
+          ],
+          "lastName": [
+            "Yang"
+          ],
+          "initials": [
+            "MH"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Chemical and Materials Engineering, National Yunlin University of Science and Technology, Yunlin 640, Taiwan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang HY"
+          ],
+          "firstName": [
+            "Hsien-Yi"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "HY"
+          ]
+        },
+        {
+          "fullName": [
+            "Lu CY"
+          ],
+          "firstName": [
+            "Chi-Yu"
+          ],
+          "lastName": [
+            "Lu"
+          ],
+          "initials": [
+            "CY"
+          ]
+        },
+        {
+          "fullName": [
+            "Tsai WC"
+          ],
+          "firstName": [
+            "Wan-Chi"
+          ],
+          "lastName": [
+            "Tsai"
+          ],
+          "initials": [
+            "WC"
+          ]
+        },
+        {
+          "fullName": [
+            "Lin PC"
+          ],
+          "firstName": [
+            "Po-Chiao"
+          ],
+          "lastName": [
+            "Lin"
+          ],
+          "initials": [
+            "PC"
+          ]
+        },
+        {
+          "fullName": [
+            "Su SB"
+          ],
+          "firstName": [
+            "Shih-Bin"
+          ],
+          "lastName": [
+            "Su"
+          ],
+          "initials": [
+            "SB"
+          ]
+        },
+        {
+          "fullName": [
+            "Tyan YC"
+          ],
+          "firstName": [
+            "Yu-Chang"
+          ],
+          "lastName": [
+            "Tyan"
+          ],
+          "initials": [
+            "YC"
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2013"
+      ],
+      "journalIssueId": [
+        "2019450"
+      ],
+      "dateOfPublication": [
+        "2013 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "642964"
+  ],
+  "abstractText": [
+    "Peritoneal dialysis (PD) is an increasingly accepted modality of renal replacement therapy. It provides the advantages of having a flexible lifestyle, stable hemodynamics, and better preservation of residual renal function. To enhance our understanding of the peritoneal dialysate of diabetes mellitus (DM), peritoneal dialysate proteins were identified by two-dimensional gel electrophoresis (2DE) combined with reverse-phase nano-ultra performance liquid chromatography electrospray ionization tandem mass spectrometry (RP-nano-UPLC-ESI-MS/MS) followed by peptide fragmentation patterning. To validate the differential proteins, ELISA and Western blotting analyses were applied to detect candidate proteins that may be related to DM. We performed 2DE on the peritoneal dialysate samples, with detection of more than 300 spots. From this, 13 spots were excised, in-gel digested, and identified by RP-nano-UPLC-ESI-MS/MS. Ten of these showed significant differential expression between the DM and chronic glomerulonephritis (CGN) peritoneal dialysate samples. In this study, we conducted a comparative proteomic study on these two groups of dialysate that may provide evidence for understanding the different peritoneal protein changes. These proteins may not be new biomarkers; however, they may indicate a situation for possible drug treatment and can be the predictors of peritonitis for a validation study in the future."
+  ],
+  "affiliation": [
+    "Department of Chemical and Materials Engineering, National Yunlin University of Science and Technology, Yunlin 640, Taiwan."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Subcellular Fractions"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Glomerulonephritis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Diabetes Mellitus"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteome"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Dialysis Solutions"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Enzyme-Linked Immunosorbent Assay"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Peritoneal Dialysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chromatography, High Pressure Liquid"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Electrophoresis, Gel, Two-Dimensional"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Spectrometry, Mass, Electrospray Ionization"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Confidence Intervals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Reproducibility of Results"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "ROC Curve"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Nanotechnology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chromatography, Reverse-Phase"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Interaction Maps"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Dialysis Solutions"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Proteome"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23781506/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/23781506/pdf/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1155/2013/642964"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC3679811"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC3679811?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "5"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "uniprot"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2013-12-04"
+  ],
+  "dateOfCreation": [
+    "2013-06-20"
+  ],
+  "firstIndexDate": [
+    "2013-06-20"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-12"
+  ],
+  "dateOfRevision": [
+    "2018-11-13"
+  ],
+  "electronicPublicationDate": [
+    "2013-05-28"
+  ],
+  "firstPublicationDate": [
+    "2013-05-28"
+  ]
+}

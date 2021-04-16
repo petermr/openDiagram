@@ -1,0 +1,10 @@
+0: We employed FastQC ( http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) to process the sequencing reads and obtain clean reads followed by determining the GC content distribution.
+1: HISAT2 was used to perform sequence alignment between clean reads and the reference genomes i.e.
+2: Musa genome  (Musa acuminata DH Pahang V2 and  Musa balbisiana DH PKW) [ 18,  27,  78,  79].
+3: The comparison efficiency (percentage of mapped reads to clean reads) was calculated followed by the calculation of the position distribution statistics of the reads on different chromosomes [ 80].
+4: The regional distribution of the reads was compared and plotted as a chart.
+5: The results were visualized in IGV software [ 81].
+6: The quality of the transcriptome library was assessed by randomization test of mRNA fragmentation followed by an insertion length check by calculating the distance between the start and end points of the reads on the reference genome at the ends of the insert.
+7: Gene expression was quantified as Fragments Per Kilobase of transcript per Million fragments mapped (FPKM).
+8: The gene expression data was then used to express the trend of gene abundance and overall distribution of gene expression, calculate correlation, and principal component analysis (PCA).
+9: For functional annotation, we aligned the genes with various databases such as KEGG [ 82], GO [ 83], Clusters of Orthologous Groups of proteins (COG) [ 84], and EuKaryotic Orthologous Groups (KOG) [ 85] using BLAST [ 86] with a threshold of E-value< 1.0  10  5.

@@ -1,0 +1,625 @@
+{
+  "id": [
+    "33673810"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33673810"
+  ],
+  "pmcid": [
+    "PMC7934456"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7934456"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12870-021-02852-7"
+  ],
+  "title": [
+    "High-generation near-isogenic lines combined with multi-omics to study the mechanism of polima cytoplasmic male sterility."
+  ],
+  "authorString": [
+    "Wang B, Farooq Z, Chu L, Liu J, Wang H, Guo J, Tu J, Ma C, Dai C, Wen J, Shen J, Fu T, Yi B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wang B"
+          ],
+          "firstName": [
+            "Benqi"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Farooq Z"
+          ],
+          "firstName": [
+            "Zunaira"
+          ],
+          "lastName": [
+            "Farooq"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chu L"
+          ],
+          "firstName": [
+            "Lei"
+          ],
+          "lastName": [
+            "Chu"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu J"
+          ],
+          "firstName": [
+            "Jie"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang H"
+          ],
+          "firstName": [
+            "Huadong"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Guo J"
+          ],
+          "firstName": [
+            "Jian"
+          ],
+          "lastName": [
+            "Guo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tu J"
+          ],
+          "firstName": [
+            "Jinxing"
+          ],
+          "lastName": [
+            "Tu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ma C"
+          ],
+          "firstName": [
+            "Chaozhi"
+          ],
+          "lastName": [
+            "Ma"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dai C"
+          ],
+          "firstName": [
+            "Cheng"
+          ],
+          "lastName": [
+            "Dai"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wen J"
+          ],
+          "firstName": [
+            "Jin"
+          ],
+          "lastName": [
+            "Wen"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Shen J"
+          ],
+          "firstName": [
+            "Jinxiong"
+          ],
+          "lastName": [
+            "Shen"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Fu T"
+          ],
+          "firstName": [
+            "Tingdong"
+          ],
+          "lastName": [
+            "Fu"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yi B"
+          ],
+          "firstName": [
+            "Bin"
+          ],
+          "lastName": [
+            "Yi"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China. yibin@mail.hzau.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "3122083"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC plant biology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Plant Biol"
+          ],
+          "medlineAbbreviation": [
+            "BMC Plant Biol"
+          ],
+          "NLMid": [
+            "100967807"
+          ],
+          "ISSN": [
+            "1471-2229"
+          ],
+          "ESSN": [
+            "1471-2229"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "130"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Cytoplasmic male sterility (CMS), which naturally exists in higher plants, is a useful mechanism for analyzing nuclear and mitochondrial genome functions and identifying the role of mitochondrial genes in the plant growth and development. Polima (pol) CMS is the most universally valued male sterility type in oil-seed rape. Previous studies have described the pol CMS restorer gene Rfp and the sterility-inducing gene orf224 in oil-seed rape, located in mitochondria. However, the mechanism of fertility restoration and infertility remains unknown. Moreover, it is still unknown how the fecundity restorer gene interferes with the sterility gene, provokes the sterility gene to lose its function, and leads to fertility restoration.<h4>Result</h4>In this study, we used multi-omics joint analysis to discover candidate genes that interact with the sterility gene orf224 and the restorer gene Rfp of pol CMS to provide theoretical support for the occurrence and restoration mechanisms of sterility. Via multi-omics analysis, we screened 24 differential genes encoding proteins related to RNA editing, respiratory electron transport chain, anther development, energy transport, tapetum development, and oxidative phosphorylation. Using a yeast two-hybrid assay, we obtained a total of seven Rfp interaction proteins, with orf224 protein covering five interaction proteins.<h4>Conclusions</h4>We propose that Rfp and its interacting protein cleave the transcript of atp6/orf224, causing the infertility gene to lose its function and restore fertility. When Rfp is not cleaved, orf224 poisons the tapetum cells and anther development-related proteins, resulting in pol CMS mitochondrial dysfunction and male infertility. The data from the joint analysis of multiple omics provided information on pol CMS's potential molecular mechanism and will help breed B. napus hybrids."
+  ],
+  "affiliation": [
+    "National Key Laboratory of Crop Genetic Improvement, National Center of Rapeseed Improvement, Huazhong Agricultural University, Wuhan, 430070, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "2016yfd0100804"
+          ],
+          "agency": [
+            "National Key research and development program of china"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "31871701,31930032"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Brassica napus",
+        "CMS",
+        "orf224",
+        "RFP",
+        "Multi-omics Analysis",
+        "Polima"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12870-021-02852-7"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7934456"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7934456?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-06"
+  ],
+  "firstIndexDate": [
+    "2021-03-07"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-10"
+  ],
+  "dateOfRevision": [
+    "2021-03-10"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-05"
+  ],
+  "firstPublicationDate": [
+    "2021-03-05"
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F6" position="float">
+ <label>Figure 6</label>
+ <caption>
+  <p>
+   <bold> Prognostic nomogram to predict the 1-,3-, and 5-year OS probabilities of tongue cancer patients.</bold> (A) OS, overall survival; Nomogram was built based on prhRBPs' expression in TCGA train cohort. The expression level of each hub RBP times the coefficient value equal to a point. Total points equal to the sum of every single point. Based on the previous identified correlation between risk score and overall survival rate in TCGA cohort, the total points could be corresponded to a 1-,3-, and 5-year OS probability of tongue cancer patients. (B, C) Comparison of the predictive accuracy for 5-year OS between the nomogram and TNM stage. In the internal validation cohort (B), the AUC of the nomogram (0.780) was higher than the TNM stage (0.615). In the external validation cohort (C), the AUC of the nomogram (0.756) was higher than the TNM stage (0.553).
+  </p>
+ </caption>
+ <graphic xlink:href="jcav12p2230g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

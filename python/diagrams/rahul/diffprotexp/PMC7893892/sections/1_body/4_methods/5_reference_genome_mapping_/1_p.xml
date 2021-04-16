@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">Raw reads of fast-q format were firstly processed through in-house perl scripts to obtain clean reads. At the same time, Q20, Q30 and GC content of the clean data were calculated. All downstream analyses were based on the high quality clean reads. HISAT2 v. 2.0.4 was used to align paired-end clean reads of each sample to sheep reference genome 
+ <italic>Oar</italic> v. 4.0 [
+ <xref ref-type="bibr" rid="CR46">46</xref>]. The mapped reads of each sample were assembled by StringTie v. 1.3.1 [
+ <xref ref-type="bibr" rid="CR46">46</xref>].
+</p>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F6" position="float">
+ <label>FIGURE 6</label>
+ <caption>
+  <p>Gene Network Analysis. 
+   <bold>(A)</bold> COL11A1 gene with its neighboring genes showing physical interactions (67.64%), coexpression (13.50%), predicted (6.35%), co-localization (6.17%), pathways (4.35%), genetic interaction (1.40%), and shared protein domains (0.59%) 
+   <bold>(B)</bold> Protein-protein interaction network based on IMEx protein interactions database. 
+   <bold>(C–F)</bold> Network enrichment analysis for 
+   <bold>(C)</bold> GO: Biological process, 
+   <bold>(D)</bold> GO: Molecular function, 
+   <bold>(E)</bold> Reactome pathways, and 
+   <bold>(F)</bold> KEGG pathways.
+  </p>
+ </caption>
+ <graphic xlink:href="fgene-12-608313-g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,6 @@
+0: Following tissue collection as described above, total RNA was isolated using Ambion RNAqueous total RNA Isolation Kit and assayed using Agilent RNA 6000 Nano Bioanalyzer kit/instrument.
+1: Stranded mRNA libraries were prepared using TruSeq Stranded mRNA kits.
+2: Eight to 12 samples per lane were pooled and sequenced on an Illumina HiSeq 4000 instrument using a single-end 50 bp protocol.
+3: Reads were aligned to mouse genome (mm9) using STAR (version 2.4.2a) ( Dobin et al., 2013) and gene counts produced using featureCounts ( Liao et al., 2014) and mm9 knownGenes.
+4: Quality assayed using FastQC ( Andrews, 2010) and RSeQC ( Wang et al., 2012), and samples that exhibited 3 bias or poor exon distribution were discarded.
+5: Raw RNA-seq fastq files and a gene count matrix is available on GEO  GSE166376.

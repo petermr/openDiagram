@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The common genes were analyzed using the online tool STRING (
+ <underline>
+  <ext-link ext-link-type="uri" xlink:href="https://string-db.org" xmlns:xlink="http://www.w3.org/1999/xlink">https://string-db.org</ext-link>
+ </underline>), and the protein-protein interaction (PPI) network based on the criterion of a combined score &gt; 900 was constructed and displayed using Cytoscape software. Genes were ranked based on their degree of connectivity with other genes. The pROC package in R
+ <xref rid="cit0025" ref-type="bibr">25</xref> was used to calculate the the area under the receiver operating characteristic curve (AUC) for the top 100 genes showing the greatest connectivity in the PPI network.
+</p>

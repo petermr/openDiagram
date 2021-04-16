@@ -1,0 +1,6 @@
+0: We first identified an inclusive set of PAS in each species separately.
+1: We used the same in-house peak caller described in  Mittleman et al., 2020, annotating each PAS as the most 3' base in each peak.
+2: The initial PAS set included 340,023 in human and 303,249 in chimps.
+3: We extended PAS 100 bp upstream and 100 bp downstream and used a reciprocal liftover pipeline to identify an inclusive set of orthologous PAS.
+4: We downloaded chain files from UCSC Genome Browser ( Kent et al., 2002).
+5: Details of the pipeline and number of PAS passing each step can be found in  Figure 1figure supplement 12.

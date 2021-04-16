@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F0002" orientation="portrait" position="float">
+ <label>Figure 2.</label>
+ <caption>
+  <p>The Manhattan and quantile–quantile plots from the common SNVs analysis.</p>
+  <p>The genome wide association study was carried out with a logistics regression model for common SNVs. In the Manhattan plot, the blue line means P value is 1 × 10−5 and read line means P value is 5 × 10−8. The Q-Q plot didn’t show any signs of global inflation of test statistics. Although no genome-wide significant associations were identified from the common SNVs analysis, using a less stringent level of 1×10−4, 27 SNPs (represented by an intron variant rs4634725 with P = 3.16 × 10−5) locating on PTBP3 gene were identified.</p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="TEMI_A_1870412_F0002_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="TEMI_A_1870412_F0002_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

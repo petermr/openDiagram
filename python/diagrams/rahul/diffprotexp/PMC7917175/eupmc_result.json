@@ -1,0 +1,471 @@
+{
+  "id": [
+    "33648511"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33648511"
+  ],
+  "pmcid": [
+    "PMC7917175"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7917175"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12943-021-01310-0"
+  ],
+  "title": [
+    "Identification of tumor antigens and immune subtypes of pancreatic adenocarcinoma for mRNA vaccine development."
+  ],
+  "authorString": [
+    "Huang X, Zhang G, Tang T, Liang T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Huang X"
+          ],
+          "firstName": [
+            "Xing"
+          ],
+          "lastName": [
+            "Huang"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8886-2777",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Innovation Center for the Study of Pancreatic Diseases, Zhejiang Province, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Zhejiang University Cancer Center, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Research Center for Healthcare Data Science, Zhejiang Lab, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang G"
+          ],
+          "firstName": [
+            "Gang"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Innovation Center for the Study of Pancreatic Diseases, Zhejiang Province, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Zhejiang University Cancer Center, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Research Center for Healthcare Data Science, Zhejiang Lab, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tang T"
+          ],
+          "firstName": [
+            "Tianyu"
+          ],
+          "lastName": [
+            "Tang"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Innovation Center for the Study of Pancreatic Diseases, Zhejiang Province, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Zhejiang University Cancer Center, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Research Center for Healthcare Data Science, Zhejiang Lab, Zhejiang, 310003, Hangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liang T"
+          ],
+          "firstName": [
+            "Tingbo"
+          ],
+          "lastName": [
+            "Liang"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China. liangtingbo@zju.edu.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Zhejiang Provincial Key Laboratory of Pancreatic Disease, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China. liangtingbo@zju.edu.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Innovation Center for the Study of Pancreatic Diseases, Zhejiang Province, Zhejiang, 310003, Hangzhou, China. liangtingbo@zju.edu.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Zhejiang University Cancer Center, Zhejiang, 310003, Hangzhou, China. liangtingbo@zju.edu.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Research Center for Healthcare Data Science, Zhejiang Lab, Zhejiang, 310003, Hangzhou, China. liangtingbo@zju.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8886-2777",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "20"
+      ],
+      "journalIssueId": [
+        "3122099"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Molecular cancer"
+          ],
+          "ISOAbbreviation": [
+            "Mol Cancer"
+          ],
+          "medlineAbbreviation": [
+            "Mol Cancer"
+          ],
+          "NLMid": [
+            "101147698"
+          ],
+          "ISSN": [
+            "1476-4598"
+          ],
+          "ESSN": [
+            "1476-4598"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "44"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Although mRNA vaccines have been effective against multiple cancers, their efficacy against pancreatic adenocarcinoma (PAAD) remains undefined. Accumulating evidence suggests that immunotyping can indicate the comprehensive immune status in tumors and their immune microenvironment, which is closely associated with therapeutic response and vaccination potential. The aim of this study was to identify potent antigens in PAAD for mRNA vaccine development, and further distinguish immune subtypes of PAAD to construct an immune landscape for selecting suitable patients for vaccination.<h4>Methods</h4>Gene expression profiles and clinical information of 239 PAAD datasets were extracted from ICGC, and RNA-Seq data of 103 samples were retrieved from TCGA. GEPIA was used to calculate differential expression levels and prognostic indices, cBioPortal program was used to compare genetic alterations, and TIMER was used to explore correlation between genes and immune infiltrating cells. Consensus cluster was used for consistency matrix construction and data clustering, DAVID was used for functional annotation, and graph learning-based dimensional reduction was used to depict immune landscape.<h4>Results</h4>Six overexpressed and mutated tumor antigens associated with poor prognosis and infiltration of antigen presenting cells were identified in PAAD, including ADAM9, EFNB2, MET, TMOD3, TPX2, and WNT7A. Furthermore, five immune subtypes (IS1-IS5) and nine immune gene modules of PAAD were identified that were consistent in both patient cohorts. The immune subtypes showed distinct molecular, cellular and clinical characteristics. IS1 and IS2 exhibited immune-activated phenotypes and correlated to better survival compared to the other subtypes. IS4 and IS5 tumors were immunologically cold and associated with higher tumor mutation burden. Immunogenic cell death modulators, immune checkpoints, and CA125 and CA199, were also differentially expressed among the five immune subtypes. Finally, the immune landscape of PAAD showed a high degree of heterogeneity between individual patients.<h4>Conclusions</h4>ADAM9, EFNB2, MET, TMOD3, TPX2, and WNT7A are potent antigens for developing anti-PAAD mRNA vaccine, and patients with IS4 and IS5 tumors are suitable for vaccination."
+  ],
+  "affiliation": [
+    "Department of Hepatobiliary and Pancreatic Surgery, the First Affiliated Hospital, School of Medicine, Zhejiang University, Zhejiang, 310003, Hangzhou, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Pancreatic adenocarcinoma",
+        "Immunotype",
+        "Tumor Immune Microenvironment",
+        "Mrna Vaccine",
+        "Immune Landscape"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12943-021-01310-0"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7917175"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7917175?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-02"
+  ],
+  "firstIndexDate": [
+    "2021-03-03"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-04"
+  ],
+  "dateOfRevision": [
+    "2021-03-05"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-01"
+  ],
+  "firstPublicationDate": [
+    "2021-03-01"
+  ]
+}

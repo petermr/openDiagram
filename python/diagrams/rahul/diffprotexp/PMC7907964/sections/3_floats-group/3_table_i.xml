@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tI-br-0-0-01412" orientation="portrait" position="float">
+ <label>Table I</label>
+ <caption>
+  <p>Genotypic and phenotypic characterization of the investigated individuals.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" valign="middle" rowspan="1" colspan="1"> </th>
+    <th align="center" valign="middle" rowspan="1" colspan="1"> </th>
+    <th align="center" valign="middle" rowspan="1" colspan="1"> </th>
+    <th align="center" valign="middle" rowspan="1" colspan="1"> </th>
+    <th align="center" valign="middle" colspan="2" rowspan="1">Mutations</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1"> </th>
+    <th align="center" valign="middle" rowspan="1" colspan="1"> </th>
+   </tr>
+   <tr>
+    <th align="left" valign="middle" rowspan="1" colspan="1">Groups</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Codes</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Sex</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Ages of onset, years</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">DNA</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Protein</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Clinical status</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">GCase activity, µmol/h/mg protein, mean ± SD</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">PD with heterozygous</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">PD-GBA-1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">F</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">57</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">c.1309delG</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">pV398fsX404 (incomplete protein)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Affected</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">127±13</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">
+     <italic>GBA</italic> variants
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">PD-GBA-2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">F</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">49</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">IVS2+1G&gt;A</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Splicing errors (incomplete protein)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Affected</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">157±7</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">PD with heterozygous</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">PD-PARK2-1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">F</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">43</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">c.2T&gt;C</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">pM1T (complete absence)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Affected</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">240±10</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">
+     <italic>PARK2</italic> variants
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">PD-PARK2-2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">F</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">41</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Exon 8 deletion</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Incomplete protein</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Affected</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">169±10</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Controls</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Control-1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">F</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">45</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">None</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unaffected</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">218±20</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Control-2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">M</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">53</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">None</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unaffected</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">242±16</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Control-3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">F</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">46</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">None</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unaffected</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">186±16</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Control-4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">F</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">45</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">None</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">-</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Unaffected</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">208±10</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>F, female; M, male; None, no 
+    <italic>GBA</italic> and 
+    <italic>PARK2</italic> variants. 
+    <italic>GBA</italic>, acid-β glucosidase; 
+    <italic>PARK2</italic>, parkin; PD, Parkinson's disease; GCase, glucocerebrosidase.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

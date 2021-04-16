@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Bacteria degrading linear alkanes typically contain a non‐heme alkane oxygenase system including a membrane bound alkane monooxygenase, a rubredoxin and a rubredoxin reductase and/or a heme‐thiolate cytochrome system including a soluble cytochrome P450, a ferredoxin and ferredoxin reductase (Teimoori 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0070" ref-type="ref">2011</xref>; Nie 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0053" ref-type="ref">2014</xref>). It is rather common to find bacteria that contain more than one alkane oxidation system as each have different substrate ranges or different induction patterns. 
+ <italic>A. borkumensis</italic> has two alkane monooxygenases on its genome, which are homologous to well characterized the alkane hydroxylase AlkB from 
+ <italic>Psudomonas putida</italic> GPo1, which oxidizes alkanes from 
+ <italic>n</italic>‐C
+ <sub>5</sub> to 
+ <italic>n</italic>‐C
+ <sub>16</sub> (Schneiker 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0064" ref-type="ref">2006</xref>; van Beilen and Funhoff, 
+ <xref rid="emi14620-bib-0004" ref-type="ref">2007</xref>). AlkB
+ <sub>1</sub> (ABO_2707) and AlkB
+ <sub>2</sub> (ABO_0122) oxidizes alkanes in the range of 
+ <italic>n</italic>‐C
+ <sub>5</sub> to 
+ <italic>n</italic>‐C
+ <sub>12</sub> and 
+ <italic>n</italic>‐C
+ <sub>8</sub> to 
+ <italic>n</italic>‐C
+ <sub>16</sub>, respectively (Hara 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0028" ref-type="ref">2004</xref>; van Beilen 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0007" ref-type="ref">2004</xref>). AlkB
+ <sub>2</sub> was exclusively expressed during growth on 
+ <italic>n</italic>‐C
+ <sub>14.</sub> Electrons are transferred to the AlkB active site via a rubredoxin. There are two rubredoxin genes, 
+ <italic>alkG</italic> (ABO_2708) and 
+ <italic>rubA</italic> (ABO_0163) in the 
+ <italic>A. borkumensis</italic> genome (Schneiker 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0064" ref-type="ref">2006</xref>). Both rubredoxins were however not detected in this data set. Rubredoxin reductases oxidizes NAD(P)H to transfer electrons to rubredoxin reducing it allowing electron transfer to the monooxygenase. There is one rubredoxin reductase gene in the 
+ <italic>A. borkumensis</italic> genome, 
+ <italic>RubB</italic> (ABO_0162), which has been shown to reduce AlkG when both proteins were cloned and functionally overexpressed in 
+ <italic>E. coli</italic> (Teimoori 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0070" ref-type="ref">2011</xref>). This activity compensates for a lack of AlkT, also a rubredoxin reductase, missing in the 
+ <italic>A. borkumensis</italic> genome (Schneiker 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0064" ref-type="ref">2006</xref>). RubB expression was greatest during growth on 
+ <italic>n</italic>‐C
+ <sub>14,</sub> although expression was observed while growing on all three substrates at levels that were not significantly different. 
+ <italic>alkB1/alkB2</italic> expression is strictly 
+ <italic>n</italic>‐alkane dependent, as confirmed here by the expression of AlkB2 only while growing on 
+ <italic>n</italic>‐C
+ <sub>14</sub>, but RubA/RubB are constitutively expressed in other bacteria (Geissdörfer 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0024" ref-type="ref">1999</xref>; Tani 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0069" ref-type="ref">2001</xref>; Marín 
+ <italic>et al</italic>., 
+ <xref rid="emi14620-bib-0041" ref-type="ref">2003</xref>). The unbalanced expression between monooxygenase (AlkB2) to rubredoxin/rubredoxin reductase (RubA/RubB) suggest that the molecules of membrane‐bound monooxygenases share a limiting number of rubredoxin and rubredoxin reductase molecules, which are soluble proteins that can probably associate and dissociate from the membrane‐bound monooxygenase, as seen in 
+ <italic>P. aeruginosa</italic> (Marín 
+ <italic>et al</italic>., 
+ <xref rid="emi14620-bib-0041" ref-type="ref">2003</xref>).
+</p>

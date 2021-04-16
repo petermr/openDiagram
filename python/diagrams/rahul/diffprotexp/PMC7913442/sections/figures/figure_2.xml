@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Fig. 2</label>
+ <caption>
+  <p>Gene Ontology enrichment analysis of differentially expressed genes (DEGs) between FOXL2
+   <sup>C134W</sup> and FOXL2
+   <sup>WT</sup>. 
+   <bold>a</bold> Volcano plot showing in pink DEGs between FOXL2
+   <sup>C134W</sup> and FOXL2
+   <sup>WT</sup> (DESeq, q &lt; 0.05). The genes FOXL2 and SMAD3 were omitted from the plot. 
+   <bold>b</bold>, 
+   <bold>c</bold> Gene ontology enrichment analysis using up-regulated genes in FOXL2
+   <sup>C134W</sup> transfected cells (
+   <bold>b</bold>, n = 487), and down-regulated genes in FOXL2
+   <sup>C134W</sup> transfected cells (C, n = 230). The red line indicates p-value cutoff for p &lt; 0.05. Gene ontology enrichment p-values were calculated using Metascape [
+   <xref ref-type="bibr" rid="CR51">51</xref>]. GO terms associated with expression of FOXL2 and/or SMAD3 were removed from the results (see Methods and Additional file 
+   <xref rid="MOESM2" ref-type="media">2</xref>: Tables S2–4)
+  </p>
+ </caption>
+ <graphic xlink:href="12967_2021_2754_Fig2_HTML" id="MO2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

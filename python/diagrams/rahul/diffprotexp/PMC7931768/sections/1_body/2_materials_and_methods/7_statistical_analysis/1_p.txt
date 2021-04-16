@@ -1,0 +1,6 @@
+0: Descriptive statistics were calculated for demographics and disease characteristics for each group.
+1: Individual tape samples were plotted on the first two principal components of log2 expression for all candidate genes.
+2: Using the gene expression data generated in the final analysis, candidate genes were grouped into four gene clusters based on the hierarchical clustering of the consensus of 1000 K-means results, after bootstrapping 80% of samples at each iteration (ConsensusClusterPlus R package).
+3: Using pooled data generated from interim analyses and final analyses, gene set scores and differences in gene set scores among disease groups were estimated using a linear mixed-effects model, with fixed effects for sample type and random intercepts for genes and samples.
+4: P values from multiple comparisons were adjusted using Tukeys correction.
+5: Spearmans correlations and associated p values were calculated to determine the associations between biomarkers from skin tape-derived RNA and IHC based on skin biopsies.

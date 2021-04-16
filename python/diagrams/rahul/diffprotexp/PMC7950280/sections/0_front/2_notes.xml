@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes>
+ <def-list list-content="abbreviations" list-type="simple">
+  <title>Abbreviations</title>
+  <def-item>
+   <term>ACE</term>
+   <def>
+    <p>angiotensin converting enzyme</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>Ang II</term>
+   <def>
+    <p>angiotensin II</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>AUC</term>
+   <def>
+    <p>area under the curve</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>BDNF</term>
+   <def>
+    <p>brain derived neurotrophic factor</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>cAMP</term>
+   <def>
+    <p>cyclic adenosine monophosphate</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>DEGs</term>
+   <def>
+    <p>differentially expressed genes</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>FDR</term>
+   <def>
+    <p>false discovery rate</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GEO</term>
+   <def>
+    <p>Gene Expression Omnibus</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GS</term>
+   <def>
+    <p>gene significance</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>GSEA</term>
+   <def>
+    <p>gene set enrichment analysis</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>HD</term>
+   <def>
+    <p>Huntington’s disease</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>KEGG</term>
+   <def>
+    <p>Kyoto Encyclopedia of Genes and Genomes</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>logFC</term>
+   <def>
+    <p>logarithm fold change</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>MAPK</term>
+   <def>
+    <p>mitogen-activated protein kinase</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>mHtt</term>
+   <def>
+    <p>mutant huntingtin</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>MM</term>
+   <def>
+    <p>module membership</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>Ras</term>
+   <def>
+    <p>renin-angiotensin system</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>Rap1</term>
+   <def>
+    <p>Ras-associated protein-1</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>RNA</term>
+   <def>
+    <p>ribose nucleic acid</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>ROC</term>
+   <def>
+    <p>Receiver operating characteristic</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>STRING</term>
+   <def>
+    <p>Search Tool for the Retrieval of Interacting Genes</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>WGCNA</term>
+   <def>
+    <p>weight gene correlation network analysis</p>
+   </def>
+  </def-item>
+ </def-list>
+</notes>

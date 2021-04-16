@@ -1,0 +1,5 @@
+0: Microarray datasets related to glioma were searched from the Gene Expression Omnibus data repository [ 30], and GSE4290 datasets, including expression data of brain tissue from glioma patients, were selected in this study [ 31].
+1: The dataset contains the brain tissue of three glioma grades (grade 24) from glioma patients and epilepsy patients as a non-tumor control by obtaining brain tissue from surgery patients from Henry Ford Hospital.
+2: Patient classification and tissue preparation for microarray were described in [ 30].
+3: A preprocessed expression matrix was imported into an R programming interface by using R package GEOquery from the Bioconductor project [ 32].
+4: The methodological flow chart of the study is shown in  Figure 1.

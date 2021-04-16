@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig3" position="float" orientation="portrait">
+ <label>Figure 3.</label>
+ <caption>
+  <title>Green and Grey co-expression modules capture acute transcriptional response at 6 hr and 2 days following MIA exposure.</title>
+  <p>(
+   <bold>a</bold>) Violin plots visualize distribution of log
+   <sub>2</sub> fold changes of Green and Grey module gene expression between control and MIA animals. At E12.5, an initial set of genes in the Green and Grey modules are induced and DE in MIA samples. By E14.5, generalized module expression exhibits induction in the MIA samples, with particularly strong change for the Green module, where nearly all genes are upregulated. Genes with expression trajectories shown in (
+   <bold>d</bold>) are labeled. (
+   <bold>b</bold>) Gene set enrichment analysis of GO BP terms significantly enriched among DE genes (FDR &lt; 0.05) at E12.5 and E14.5 in Green and Grey modules showing upregulation of angiogenesis and immune pathways. Representative enriched GO BP terms with p &lt; 0.05 colored by enrichment; gray represents enrichment p &gt; 0.05 (Fisher’s exact test). (
+   <bold>c</bold>) STRING protein–protein interaction network of E12.5 DE genes (FDR &lt; 0.05) colored by annotation to GO BP terms. There were significantly more interactions than expected by chance among these genes. (
+   <bold>d</bold>) RPKM expression plots of genes that are associated with this network show acute DE at E12.5. Stars represent FDR &lt; 0.05.
+  </p>
+ </caption>
+ <graphic xlink:href="elife-60100-fig3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig3s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 3—figure supplement 1.</label>
+   <caption>
+    <title>Sex-stratified RPKM gene trajectories of genes presented in the manuscript showing concordant effects between males and females.</title>
+    <p>(
+     <bold>a</bold>) Vegfa, Flt1, Pdk1, Ldha, Bnip3, Il20rb. (
+     <bold>b</bold>) Mki67, Eomes, Pax6, Sox9, Tbr1, Bcl11b, Satb2, Cux1. (
+     <bold>c</bold>) Gfap, Dlx2, Olig2, Gad1.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-60100-fig3-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

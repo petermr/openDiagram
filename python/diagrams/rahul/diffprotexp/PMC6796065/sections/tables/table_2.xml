@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Summary of allelic effects of SNPs of dopaminergic-system associated molecules on DARPP-32 and calcineurin expression.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Gene</th>
+    <th>SNP</th>
+    <th>exonic/intronic, and substitution</th>
+    <th>Protein</th>
+    <th>Region</th>
+    <th>The numbers of minor-allele carriers and non-carriers</th>
+    <th>Hardy–Weinberg Equilibrium (χ2, P value)</th>
+    <th colspan="2">The ratios of protein expression between minor-allele carriers and non-carriers</th>
+    <th>p value (Mann-Whitney)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="10">
+     <bold>(a) First sample set</bold>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <italic>DRD2</italic>
+    </td>
+    <td>exm956405 (=rs1801028)</td>
+    <td>exonic, Ser ⇒ Cys</td>
+    <td>CaN</td>
+    <td>NAc</td>
+    <td>3/42</td>
+    <td>(10.2, 0.001)</td>
+    <td>0.55</td>
+    <td>(C+/C−)</td>
+    <td>0.016</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>DRD2</italic>
+    </td>
+    <td>exm956405 (=rs1801028)</td>
+    <td>exonic, Ser ⇒ Cys</td>
+    <td>CaN</td>
+    <td>BA10</td>
+    <td>3/45</td>
+    <td>(11.0, 0.001)</td>
+    <td>1.78</td>
+    <td>(C+/C−)</td>
+    <td>0.023</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>DRD2</italic>
+    </td>
+    <td>rs2734833</td>
+    <td>intronic</td>
+    <td>DARPP</td>
+    <td>NAc</td>
+    <td>3/41</td>
+    <td>(44.0, 0)</td>
+    <td>0.67</td>
+    <td>(T+/T−)</td>
+    <td>0.043</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>PPP3CB</italic>
+    </td>
+    <td>exm2259632 (=rs 12644)</td>
+    <td>exonic</td>
+    <td>DARPP</td>
+    <td>BA10</td>
+    <td>34/14</td>
+    <td>(1.92, 0.166)</td>
+    <td>1.35</td>
+    <td>(T+/T−)</td>
+    <td>0.015</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>PPP3CC</italic>
+    </td>
+    <td>rs1116084</td>
+    <td>intronic</td>
+    <td>DARPP</td>
+    <td>BA10</td>
+    <td>37/11</td>
+    <td>(0.756, 0.385)</td>
+    <td>1.68</td>
+    <td>(A+/A−)</td>
+    <td>0.016</td>
+   </tr>
+   <tr>
+    <td colspan="10">
+     <bold>(b) Second sample set</bold>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <bold>Gene</bold>
+    </td>
+    <td>
+     <bold>SNP</bold>
+    </td>
+    <td>
+     <bold>exonic/intronic, and substitution</bold>
+    </td>
+    <td>
+     <bold>Protein</bold>
+    </td>
+    <td>
+     <bold>Region</bold>
+    </td>
+    <td/>
+    <td/>
+    <td colspan="2">
+     <bold>The ratios of protein expression between minor-allele carriers and non-carriers</bold>
+    </td>
+    <td>
+     <bold>p value (Mann-Whitney)</bold>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <italic>DRD2</italic>
+    </td>
+    <td>exm956405 (=rs1801028)</td>
+    <td>exonic, Ser ⇒ Cys</td>
+    <td>CaN</td>
+    <td>NAc</td>
+    <td>2/6</td>
+    <td>(8, 0.0047)</td>
+    <td>0.37</td>
+    <td>(C+/C−)</td>
+    <td>0.046</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

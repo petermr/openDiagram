@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab7">
+ <label>Table 7</label>
+ <caption>
+  <p>List of primary antibodies</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Antibody</th>
+    <th>Species</th>
+    <th>Dilution</th>
+    <th>Source</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Oct4</td>
+    <td>Rabbit</td>
+    <td>1:200</td>
+    <td>Cell Signaling Technology (Cat# 2750S)</td>
+   </tr>
+   <tr>
+    <td>Nestin</td>
+    <td>Rabbit</td>
+    <td>1:200</td>
+    <td>Abcam (Cat# ab105389)</td>
+   </tr>
+   <tr>
+    <td>Pax6</td>
+    <td>Mouse</td>
+    <td>1:50</td>
+    <td>Developmental Studies Hybridoma Bank (Cat# Pax6)</td>
+   </tr>
+   <tr>
+    <td>MAP2</td>
+    <td>Mouse</td>
+    <td>1:200</td>
+    <td>ThermoFisher (Cat# MA5–12823)</td>
+   </tr>
+   <tr>
+    <td>HB9 / MNX1</td>
+    <td>Mouse</td>
+    <td>1:50</td>
+    <td>Developmental Studies Hybridoma Bank (Cat# 81.5C10)</td>
+   </tr>
+   <tr>
+    <td>ChAT</td>
+    <td>Goat</td>
+    <td>1:100</td>
+    <td>Milipore (Cat#AB144P)</td>
+   </tr>
+   <tr>
+    <td>beta-III-tubulin</td>
+    <td>Rabbit</td>
+    <td>1:1000</td>
+    <td>Abcam (Cat# ab18207)</td>
+   </tr>
+   <tr>
+    <td>Synaptophysin [SY38]</td>
+    <td>Mouse</td>
+    <td>1:100</td>
+    <td>Abcam (Cat# ab8049)</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

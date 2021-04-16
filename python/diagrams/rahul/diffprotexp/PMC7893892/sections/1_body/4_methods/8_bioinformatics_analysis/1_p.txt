@@ -1,0 +1,3 @@
+0: LncRNA targets could be predicted by the correlation or co-expression of lncRNA and mRNA expression levels between samples.
+1: Among them, Pearson correlation coefficient (PCC) was used to analyze the correlation between lncRNA and mRNA among samples, mRNAs with |PCC| 0.95 for functional enrichment to predict lncRNAs [ 52].
+2: Statistical enrichment of DE lncRNA targets and DE mRNAs in GO annotation and KEGG pathway were evaluated,  P-value 0.05 defined as the significant threshold, significance of the term enrichment analysis was corrected by FDR and corrected  P-value ( Q-value) was obtained [ 53].

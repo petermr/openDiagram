@@ -1,0 +1,5 @@
+0: Mitochondrial complex I activity detection assay kit (Solarbio) was used to measure the mitochondrial respiratory chain complex I activity.
+1: The absorbance was measured at 340 nm with a microplate reader.
+2: Record absorbance A1 at 10 s, reaction at 37C for 2 min, record absorbance A2 at 2 min, calculate A = A1A2.
+3: Pierce BCA Protein Assay Kit (Thermo) was used for protein quantification.
+4: Complex I activity (U/mg prot) = [ A Vtotal(  d) 10 9]  (Vsample  Cpr)  T = 2,679.5  A  Cpr (Vtotal = 2  10 4 L; : NADH molar extinction coefficient, 6.22  10 3 L/mol/cm; d: 96-well plates diameter, 0.6 cm; Vsample = 0.01 ml; T: Reaction time, 2 min; Cpr: Sample protein concentration, mg/ml).

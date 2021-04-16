@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="au0001">
+  <name>
+   <surname>Sharma</surname>
+   <given-names>Madhulika</given-names>
+  </name>
+  <email>msharma3@kumc.edu</email>
+  <xref rid="aff0001" ref-type="aff">a</xref>
+  <xref rid="aff0003" ref-type="aff">c</xref>
+  <xref rid="cor0001" ref-type="corresp">⁎</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au0002">
+  <name>
+   <surname>Yerrathota</surname>
+   <given-names>Sireesha</given-names>
+  </name>
+  <xref rid="aff0001" ref-type="aff">a</xref>
+  <xref rid="aff0003" ref-type="aff">c</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au0003">
+  <name>
+   <surname>Thornton</surname>
+   <given-names>Mackenzie M</given-names>
+  </name>
+  <xref rid="aff0001" ref-type="aff">a</xref>
+  <xref rid="aff0003" ref-type="aff">c</xref>
+ </contrib>
+ <contrib contrib-type="author" id="au0004">
+  <name>
+   <surname>Gunewardena</surname>
+   <given-names>Sumedha</given-names>
+  </name>
+  <xref rid="aff0002" ref-type="aff">b</xref>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>Departments of Internal Medicine, United States
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>Molecular and integrative physiology, United States
+ </aff>
+ <aff id="aff0003">
+  <label>c</label>The Jared Grantham Kidney Institute, University of Kansas Medical Center, Kansas City, KS, United States
+ </aff>
+</contrib-group>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par53">For C3, assume 
+ <inline-formula id="IEq29">
+  <alternatives>
+   <tex-math id="M61">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M62">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq29.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is in some cycle 
+ <italic>c</italic>. If we attempt to break 
+ <italic>c</italic> by removing 
+ <inline-formula id="IEq30">
+  <alternatives>
+   <tex-math id="M63">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M64">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq30.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, then it is equally good (sometimes better) to remove 
+ <inline-formula id="IEq31">
+  <alternatives>
+   <tex-math id="M65">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_j$$\end{document}</tex-math>
+   <math id="M66">
+    <msub>
+     <mi>v</mi>
+     <mi>j</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq31.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> rather than 
+ <inline-formula id="IEq32">
+  <alternatives>
+   <tex-math id="M67">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M68">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq32.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Here, we connect all predecessors of 
+ <inline-formula id="IEq33">
+  <alternatives>
+   <tex-math id="M69">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M70">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq33.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> to all its successors and then use 
+ <inline-formula id="IEq34">
+  <alternatives>
+   <tex-math id="M71">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$remove(v_i)$$\end{document}</tex-math>
+   <math id="M72">
+    <mrow>
+     <mi>r</mi>
+     <mi>e</mi>
+     <mi>m</mi>
+     <mi>o</mi>
+     <mi>v</mi>
+     <mi>e</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>v</mi>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq34.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. We denote this connecting and removing operation by 
+ <inline-formula id="IEq35">
+  <alternatives>
+   <tex-math id="M73">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ignore(v_i,S)$$\end{document}</tex-math>
+   <math id="M74">
+    <mrow>
+     <mi>i</mi>
+     <mi>g</mi>
+     <mi>n</mi>
+     <mi>o</mi>
+     <mi>r</mi>
+     <mi>e</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>v</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>,</mo>
+     <mi>S</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq35.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where 
+ <italic>S</italic> is the current graph to which 
+ <inline-formula id="IEq36">
+  <alternatives>
+   <tex-math id="M75">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M76">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq36.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> belongs. The procedure is as follows:
+</p>

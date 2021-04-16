@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">Data quality control was performed with FastQC v.0.11.8
+ <sup>
+  <xref ref-type="bibr" rid="CR74">74</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://rb.gy/lxqcwa" xmlns:xlink="http://www.w3.org/1999/xlink">https://rb.gy/lxqcwa</ext-link>) and MultiQC v.1.8
+ <sup>
+  <xref ref-type="bibr" rid="CR75">75</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://multiqc.info/" xmlns:xlink="http://www.w3.org/1999/xlink">https://multiqc.info/</ext-link>) software. Filtered reads were mapped to the bovine reference genome (ARS-UCD 1.2)
+ <sup>
+  <xref ref-type="bibr" rid="CR76">76</xref>
+ </sup> and gene annotation file (release 100) from the 
+ <italic>Ensembl</italic> database. The STAR aligner version 2.7.3a
+ <sup>
+  <xref ref-type="bibr" rid="CR77">77</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://rb.gy/dlgdva" xmlns:xlink="http://www.w3.org/1999/xlink">https://rb.gy/dlgdva</ext-link>) using the 
+ <italic>–quantMode</italic> GeneCounts flag was used to obtain the raw counts per gene.
+</p>

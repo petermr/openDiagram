@@ -1,0 +1,5 @@
+0: (13)fitted(logVAR)=loess(logVARx)$fitted Based on formula ( 8),  d0 can be estimated by solving  (14)(d02)=1n[egpred(eg)]2(dg/2) ( y) =  x, x > 0 can be solved by deriving a Newton iteration of guaranteed and rapid convergence.
+1: Initial value of  d0 is set to 0.1, by iterating  d0(  i)  =  i/10.
+2: Convergence is reached when the value  diff stops decreasing.
+3: d0 =  k/10 when  diff reaches its smallest value at k-th iteration.
+4: (15)diff=mean[egpred(eg)]2(dg/2)(d02)

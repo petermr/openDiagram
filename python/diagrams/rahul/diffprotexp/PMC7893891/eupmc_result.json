@@ -1,0 +1,515 @@
+{
+  "id": [
+    "33602141"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33602141"
+  ],
+  "pmcid": [
+    "PMC7893891"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7893891"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12860-021-00343-z"
+  ],
+  "title": [
+    "Global transcriptome profile of the developmental principles of in vitro iPSC-to-motor neuron differentiation."
+  ],
+  "authorString": [
+    "Solomon E, Davis-Anderson K, Hovde B, Micheva-Viteva S, Harris JF, Twary S, Iyer R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Solomon E"
+          ],
+          "firstName": [
+            "Emilia"
+          ],
+          "lastName": [
+            "Solomon"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Los Alamos National Laboratory, Bioscience Division, Los Alamos, NM, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Davis-Anderson K"
+          ],
+          "firstName": [
+            "Katie"
+          ],
+          "lastName": [
+            "Davis-Anderson"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Los Alamos National Laboratory, Bioscience Division, Los Alamos, NM, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hovde B"
+          ],
+          "firstName": [
+            "Blake"
+          ],
+          "lastName": [
+            "Hovde"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Los Alamos National Laboratory, Bioscience Division, Los Alamos, NM, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Micheva-Viteva S"
+          ],
+          "firstName": [
+            "Sofiya"
+          ],
+          "lastName": [
+            "Micheva-Viteva"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2693-4333",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Los Alamos National Laboratory, Bioscience Division, Los Alamos, NM, USA. sviteva@lanl.gov."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Harris JF"
+          ],
+          "firstName": [
+            "Jennifer Foster"
+          ],
+          "lastName": [
+            "Harris"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Los Alamos National Laboratory, Bioscience Division, Los Alamos, NM, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Twary S"
+          ],
+          "firstName": [
+            "Scott"
+          ],
+          "lastName": [
+            "Twary"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Los Alamos National Laboratory, Bioscience Division, Los Alamos, NM, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Iyer R"
+          ],
+          "firstName": [
+            "Rashi"
+          ],
+          "lastName": [
+            "Iyer"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Los Alamos National Laboratory, Analytics, Intelligence, and Technology Division, Los Alamos, NM, USA. rashi@lanl.gov."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2693-4333",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "22"
+      ],
+      "journalIssueId": [
+        "3107593"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC molecular and cell biology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Mol Cell Biol"
+          ],
+          "medlineAbbreviation": [
+            "BMC Mol Cell Biol"
+          ],
+          "NLMid": [
+            "101741148"
+          ],
+          "ISSN": [
+            "2661-8850"
+          ],
+          "ESSN": [
+            "2661-8850"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "13"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Human induced pluripotent stem cells (iPSC) have opened new avenues for regenerative medicine. Consequently, iPSC-derived motor neurons have emerged as potentially viable therapies for spinal cord injuries and neurodegenerative disorders including Amyotrophic Lateral Sclerosis. However, direct clinical application of iPSC bears in itself the risk of tumorigenesis and other unforeseeable genetic or epigenetic abnormalities.<h4>Results</h4>Employing RNA-seq technology, we identified and characterized gene regulatory networks triggered by in vitro chemical reprogramming of iPSC into cells with the molecular features of motor neurons (MNs) whose function in vivo is to innervate effector organs. We present meta-transcriptome signatures of 5 cell types: iPSCs, neural stem cells, motor neuron progenitors, early motor neurons, and mature motor neurons. In strict response to the chemical stimuli, along the MN differentiation axis we observed temporal downregulation of tumor growth factor-β signaling pathway and consistent activation of sonic hedgehog, Wnt/β-catenin, and Notch signaling. Together with gene networks defining neuronal differentiation (neurogenin 2, microtubule-associated protein 2, Pax6, and neuropilin-1), we observed steady accumulation of motor neuron-specific regulatory genes, including Islet-1 and homeobox protein HB9. Interestingly, transcriptome profiling of the differentiation process showed that Ca<sup>2+</sup> signaling through cAMP and LPC was downregulated during the conversion of the iPSC to neural stem cells and key regulatory gene activity of the pathway remained inhibited until later stages of motor neuron formation. Pathways shaping the neuronal development and function were well-represented in the early motor neuron cells including, neuroactive ligand-receptor interactions, axon guidance, and the cholinergic synapse formation. A notable hallmark of our in vitro motor neuron maturation in monoculture was the activation of genes encoding G-coupled muscarinic acetylcholine receptors and downregulation of the ionotropic nicotinic acetylcholine receptors expression. We observed the formation of functional neuronal networks as spontaneous oscillations in the extracellular action potentials recorded on multi-electrode array chip after 20 days of differentiation.<h4>Conclusions</h4>Detailed transcriptome profile of each developmental step from iPSC to motor neuron driven by chemical induction provides the guidelines to novel therapeutic approaches in the re-construction efforts of muscle innervation."
+  ],
+  "affiliation": [
+    "Los Alamos National Laboratory, Bioscience Division, Los Alamos, NM, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "20190167DR"
+          ],
+          "agency": [
+            "Los Alamos National Laboratory"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Motor neurons",
+        "Neuronal Development",
+        "Transcriptomics",
+        "Ipscs",
+        "In Vitro Neuronal Networks",
+        "Stem Cell Reprogramming"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12860-021-00343-z"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7893891"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7893891?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR240162"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "CrossRef Pre-print loader"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject",
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-19"
+  ],
+  "firstIndexDate": [
+    "2021-02-20"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-24"
+  ],
+  "dateOfRevision": [
+    "2021-02-23"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-18"
+  ],
+  "firstPublicationDate": [
+    "2021-02-18"
+  ]
+}

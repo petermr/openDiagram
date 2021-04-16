@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="viruses-13-00218-f008" orientation="portrait" position="float">
+ <label>Figure 8</label>
+ <caption>
+  <p>Annotation and expression of NFκB/RelA AS forms. (
+   <bold>A</bold>) Transcript annotation for NFκB/RelA. Exons are numbered at the top, relative to the RefSeq annotation; genomic coordinates are indicated. Coding exons are indicated in black; noncoding exons are indicated in blue. PacBio sequence identifiers are at the left. PB6969.5 is a novel transcript. (
+   <bold>B</bold>) Quantitation of the most abundant RelA transcripts from short-read RNA sequencing. Data are presented as transcripts/million (TPM). Note that RSV infection induces major isoform switching, resulting in DIU.
+  </p>
+ </caption>
+ <graphic xlink:href="viruses-13-00218-g008" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

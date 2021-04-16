@@ -1,0 +1,3 @@
+0: Rosetta / Merck Human 44k microarray analyses of postmortem prefrontal cortex samples were performed with RNA extracted from 157 HD patients and 157 age- and gender-matched controls in the GSE33000 dataset of Gene Expression Omnibus (GEO,  https://www.ncbi.nlm.nih.gov/geo/) database [ 36].
+1: A gene corresponding to multiple probes eliminated those with low expression and retained the highest one.
+2: The normalization processing on the gene expression data was conducted using normalizeBetweenArrays function in the limma package of R software version 3.6.2 [ 37].

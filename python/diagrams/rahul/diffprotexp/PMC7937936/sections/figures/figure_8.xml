@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f8" position="float">
+ <label>Figure 8</label>
+ <caption>
+  <p>Results of survival analyses of hub genes. The expression of 
+   <italic>CCR4</italic>
+   <bold>(A)</bold>, 
+   <italic>CCR8</italic>
+   <bold>(B)</bold>, and 
+   <italic>P2RY14</italic>
+   <bold>(C)</bold> were all significantly correlated with patient prognosis in the TCGA data set, and the higher the level of gene expression, the better the patient’s prognosis. 
+   <bold>(D–I)</bold> Survival analysis of two randomly distributed subsets showed results consistent with the original data set, with the expression of all of the three hub genes significantly correlated with survival. 
+   <bold>(J–L)</bold> Survival analysis was performed on another validation data set GSE41613.
+  </p>
+ </caption>
+ <graphic xlink:href="fonc-11-618187-g008" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

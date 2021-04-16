@@ -1,0 +1,4 @@
+0: After the alignment result passed QC, according to the significance of digital gene expression profiles which were reported on genome research by Audio [ 2], only genes with a value of FDR  0.001 and |log2 ratio|  1 were selected as DEGs.
+1: Since DEG analysis generated a large number of problems in which thousands of hypotheses (is gene  x differentially expressed between the two groups) were tested simultaneously, correction for false-positive (type I errors) and false-negative (type II) errors was performed using the False Discovery Rate (FDR) method [ 4].
+2: We assumed that we picked out  R differentially expressed genes in which S genes actually showed differential expression and the other  V genes were false positives.
+3: As we decided that the error ratio  Q =  V/ R must stay below a cutoff, we preset the FDR to a number no larger than 0.001.

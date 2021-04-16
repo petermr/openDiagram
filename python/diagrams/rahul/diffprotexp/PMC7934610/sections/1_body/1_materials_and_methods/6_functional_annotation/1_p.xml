@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Gene Ontology (GO) enrichment analysis provides all GO terms that significantly enriched in a list of DEGs, compared to a genome background, and filter the DEGs that correspond to specific biological functions. All DEGs between two groups were mapped to GO terms in the database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.geneontology.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.geneontology.org/</ext-link>), calculating gene numbers for every term. We then used hypergeometric tests to find significantly enriched GO terms in the input list of DEGs, based on the GO:TermFinder program (
+ <ext-link ext-link-type="uri" xlink:href="http://smd.stanford.edu/help/GO-TermFinder/GO_TermFinder_help.shtml/" xmlns:xlink="http://www.w3.org/1999/xlink">http://smd.stanford.edu/help/GO-TermFinder/GO_TermFinder_help.shtml/</ext-link>). GO terms fulfilling a threshold of 
+ <italic>p</italic>-value ≤ 0.05 were defined as significantly enriched GO terms in DEGs. This analysis was able to recognize the main biological functions that DEGs exercise.
+</p>

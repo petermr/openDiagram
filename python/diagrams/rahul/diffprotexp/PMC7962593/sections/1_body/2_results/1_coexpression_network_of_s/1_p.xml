@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The flow chart of this study is shown in 
+ <xref ref-type="fig" rid="f0001">Figure 1</xref>. We calculated variance of gene expression in GSE13904 (children) and then screened 4093 genes in the top 20% greatest variance genes in order to identify coexpression patterns. WGCNA identified a coexpression network containing 2550 genes (
+ <xref ref-type="fig" rid="f0002">Figure 2A</xref>). These genes clustered into eight coexpression modules: the brown module had the strongest positive correlation with sepsis shock, whereas the pink module had the strongest negative correlation with sepsis shock (
+ <xref ref-type="fig" rid="f0002">Figure 2B</xref>). By calculating the expression profiles of the modules in different clinical samples, we identified the expression trend for each module in sepsis development (
+ <xref ref-type="fig" rid="f0002">Figure 2C</xref>). The brown module showed gradual up-regulation, while the pink module showed gradual down-regulation, in the order: controls &lt; patients with sepsis &lt; patients with septic shock.
+</p>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0040">To effectively model regulation of metabolism requires not only integration of transcriptomic, proteomic, and metabolomic data but also using bioinformatics to link these datasets together through regulation. Transcriptional changes need to be connected to transcription factors (TFs) and posttranslational changes need to be connected to the enzymes mediating those modifications, such as connecting kinases to phosphorylation events. Metabolite regulation of metabolic enzymes requires linking such metabolites to relevant enzymes. Hence, metabolic reactions are regulated by an integrated network consisting of metabolites as substrates and products as well as allosteric regulators and their activation status, metabolic enzymes and their activation status, TFs and their activation status, and signaling molecules, such as kinases. Previously, we investigated the regulatory network controlling metabolic reactions by integrating simultaneous measurements of the amounts of metabolites, the expression of and the activation status of metabolic enzymes, and the amount and the activation status of signaling molecules into a multi-layered trans-omic network that also includes inferred TFs and metabolite-mediated regulation of metabolic reactions (
+ <xref rid="bib28" ref-type="bibr">Kawata et al., 2018</xref>; 
+ <xref rid="bib34" ref-type="bibr">Kokaji et al., 2020</xref>; 
+ <xref rid="bib66" ref-type="bibr">Yugi and Kuroda, 2017</xref>, 
+ <xref rid="bib67" ref-type="bibr">2018</xref>; 
+ <xref rid="bib68" ref-type="bibr">Yugi et al., 2014</xref>, 
+ <xref rid="bib69" ref-type="bibr">2019</xref>). To date, we have used analysis of trans-omic network to establish a regulatory network of metabolic reactions changed by insulin stimulation in cultured cells and that of metabolic reactions responded to glucose administration in the livers of healthy and obese mice (
+ <xref rid="bib34" ref-type="bibr">Kokaji et al., 2020</xref>). Soltis et al. reported a molecular interaction network from molecules changed by high-fat-diet-associated obesity in multiple omic data but only of the liver (
+ <xref rid="bib59" ref-type="bibr">Soltis et al., 2017</xref>). Thus, the available studies have only evaluated either cultured cells or a single organ.
+</p>

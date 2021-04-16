@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Although model systems, such as 
+ <italic>P. berghei</italic>, are key to understanding parasite biology and genetics, they may not fully capture the transcriptional variation that exists in malaria parasites infecting humans because of different biological processes and/or lack of orthology across species, especially in clonally variant gene families. To begin to understand how 
+ <italic>P. falciparum</italic> varies in gene expression in a host individual- and host physiological-dependent manner, we revisited the 
+ <italic>Pf bulk RNA-seq data set</italic> from (
+ <xref rid="B11" ref-type="bibr">Dahalan et al., 2019</xref>). In this study, transcriptomes of individual 
+ <italic>An. coluzzii</italic> midguts 24 h after a 
+ <italic>P. falciparum</italic> (NF54) infectious blood meal were profiled using standard RNA-seq. The experiment was a 2x2 factorial design with both mated/virgin and antibiotic treated/untreated mosquitoes. The antibiotics included a cocktail of gentamycin, penicillin and streptomycin, which decreased the vector microbiota. The original use of the data set focused on questions around vector gene expression. Here we explore parasite gene expression from within the vector midguts. Mapping the reads to the 
+ <italic>P. falciparum</italic> genome revealed significant coverage of parasite genes with a mean of 2.6 x 10
+ <sup>4</sup> mapped parasite reads and 2,543 genes per gut after quality control (
+ <xref ref-type="supplementary-material" rid="SM1">
+  <bold>Figure S1</bold>
+ </xref>). Principal component analysis revealed subtle separation of transcriptomes based on mating status and antibiotic treatment along PC1 and PC2 (
+ <xref ref-type="fig" rid="f4">
+  <bold>Figure 4A</bold>
+ </xref>).
+</p>

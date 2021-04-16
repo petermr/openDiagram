@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F0003" orientation="portrait" position="float">
+ <label>Figure 3.</label>
+ <caption>
+  <p>Differential expression analysis of survivors compared to non-survivors at the time of diagnosis (day 0). Gene expression profile of patients with melioidosis that survived after 28 days (
+   <italic>n</italic> = 14) compared to patients that did not survive (
+   <italic>n</italic> = 15). Color indicates statistically significant genes (adjusted 
+   <italic>P</italic> value ≤ 0.05, correction method = Benjamini-Hochberg), dark blue: down-regulated genes ≥ 2 fold change, dark red: up-regulated genes ≥ 2 fold change with grey corresponding to genes showing no expression change.
+  </p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="TEMI_A_1858176_F0003_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="TEMI_A_1858176_F0003_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

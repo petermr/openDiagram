@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For comparisons among normal and cancer tissues, we analyzed all genes of normal and cancer samples online with GEO2R and tested the differences between the two categories in the five datasets we selected, after that we downloaded corresponding result files that differentially expressed genes, and gathered intersections by an online tool (
+ <ext-link ext-link-type="uri" xlink:href="http://bioinformatics.psb.ugent.be/webtools/Venn/" xmlns:xlink="http://www.w3.org/1999/xlink">http://bioinformatics.psb.ugent.be/webtools/Venn/</ext-link>) to make venn diagrams of genes with significantly (adjustment 
+ <italic>p</italic> value &lt;0.05) high and low expression in the five datasets (Figure 
+ <xref rid="cam43799-fig-0001" ref-type="fig">1</xref>). The intersection contains 274 high expression genes and 206 low expression genes in five datasets. For the specificity of 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514" xmlns:xlink="http://www.w3.org/1999/xlink">GSE63514</ext-link>, we further analyzed the intersections in 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514" xmlns:xlink="http://www.w3.org/1999/xlink">GSE63514</ext-link>, and gathered top 100 gene of high and low expression in 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514" xmlns:xlink="http://www.w3.org/1999/xlink">GSE63514</ext-link> by online tool MEV 4.9.0 (
+ <ext-link ext-link-type="uri" xlink:href="http://www.tm4.org" xmlns:xlink="http://www.w3.org/1999/xlink">www.tm4.org</ext-link>) (Figure 
+ <xref rid="cam43799-fig-0002" ref-type="fig">2</xref>), and found that there are obvious tendency in up‐regulation and down‐regulation during cervical cancer carcinogenesis. These results indicated that the predominantly differential genes in different histological grades may be important during cervical cancer carcinogenesis.
+</p>

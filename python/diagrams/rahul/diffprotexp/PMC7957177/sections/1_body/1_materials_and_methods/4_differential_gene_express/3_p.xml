@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to further explore the regularity of some possible key genes during the progression from normal cervix to cervical cancer, we extracted the dataset of 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514" xmlns:xlink="http://www.w3.org/1999/xlink">GSE63514</ext-link> on GEO Datasets, then respectively gathered intersections of five datasets above in venn diagrams and top 100 genes (here we only analysed individual probes) with significantly (adjustment 
+ <italic>p</italic> value &lt;0.05) high or low expression in 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514" xmlns:xlink="http://www.w3.org/1999/xlink">GSE63514</ext-link> as possible key genes, and used MEV 4.9.0 (
+ <ext-link ext-link-type="uri" xlink:href="http://www.tm4.org" xmlns:xlink="http://www.w3.org/1999/xlink">www.tm4.org</ext-link>) to produce heatmaps to analyse the expression of these possible key genes among five categories that represent different periods of cervical cancer: normal, CIN I, CIN II, CIN III, SCC. Meantime hierarchical clustering analysis of genes based on Euclidean distance was conducted with MEV 4.9.0.
+</p>

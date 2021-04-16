@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig003" orientation="portrait" position="anchor">
+ <label>Figure 3.</label>
+ <caption>
+  <p>
+   <bold>Hotspot mutations in 
+    <italic>SF3B1</italic> results in a number of alternatively spliced genes.
+   </bold> (A) Venn diagram of alternative splicing results from the three methods used. (B) A volcano plot of delta-PSI in relationship to significant splicing events between control and 
+   <italic>SF3B1</italic> mutated samples. Red dots indicate significant events (
+   <italic>P</italic>≤0.05). Differential splicing analysis was performed by SUPPA2. Genes that are labeled were found by all three differential splicing algorithms as statistically significant after multiple testing correction. Delta-PSI indicates a change in the inclusion or exclusion of a splice junction or exon in the mutated 
+   <italic>SF3B1</italic> group 
+   <italic>versus</italic> the wild-type group. (C) Heatmap of the relative expression of significant alternative splicing features for the 18 genes found by all three differential splicing tools. Features include exon, known and novel splice junctions. (D) Types of significant splicing events identified.
+  </p>
+ </caption>
+ <graphic xlink:href="106736.fig3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

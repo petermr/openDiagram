@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40">Normalized gene expression data were uploaded to TIMER2.0 (
+ <ext-link ext-link-type="uri" xlink:href="http://timer.cistrome.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://timer.cistrome.org/</ext-link>) [
+ <xref ref-type="bibr" rid="CR22">22</xref>], a website that provides comprehensive evaluation and analysis of tumor-infiltrating immune cells, to estimate the relative abundance of 22 immune cell types based on the CIBERSORT algorithm. To evaluate the correlation between lncRNA and immune cell infiltration in the tumor microenvironment, CRC samples from the TCGA database were divided into high and low lncRNA expression groups. The Wilcoxon rank-sum test was performed to compare the differences in immune cell infiltration between the high and low lncRNA expression groups.
+</p>

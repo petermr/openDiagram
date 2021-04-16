@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Another quantitative proteomics field where large sample to sample variation makes statistical analysis challenging is post translational modification (PTM) analysis. The reason for this is that the analysis relies on quantification of specific modified peptides and almost all quantifications are therefore based on a single unique peptide. This results in high sample-to-sample variation in the quantitative analysis. To evaluate the dependence of variance on the number of PSMs in a typical PTM analysis, we analyzed an in-depth phospho-proteomics data set (D7) where samples were either untreated, treated with a tyrosine-phosphatase inhibitor or arrested in mitosis (TMT-labeled, four, three and three replicates respectively) (
+ <xref rid="B26" ref-type="bibr">26</xref>). This analysis showed again a dependence, where variance decreased with increasing number of PSMs per phospho-site (
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Fig. S7
+  <italic>B</italic>
+ </ext-link>), indicating that DEqMS could improve the output of statistical analysis in quantitative PTM proteomics experiments.
+</p>

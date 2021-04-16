@@ -1,0 +1,7 @@
+0: First, Univariate Cox regression analysis was used to identify the genes associated with prognosis.
+1: A forest plot was constructed based on the Cox analysis.
+2: P<0.05 indicated a significant association with prognosis.
+3: Hazard Ratio (HR) >1 indicated a high-risk gene.
+4: KaplanMeier test was also used.
+5: Patients were divided into two groups with high and low expression according to the median value of gene expression to compare whether there was a difference in survival between them.
+6: The genes that were significant by both methods were used as the final prognosis-related genes.

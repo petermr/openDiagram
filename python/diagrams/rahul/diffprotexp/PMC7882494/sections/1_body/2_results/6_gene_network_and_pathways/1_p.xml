@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>GeneMANIA server provides a complete network of COL11A1 gene with its neighboring gene of interaction in colorectal cancer displaying the physical interactions (67.64%), coexpression (13.50%), predicted (6.35%), co-localization (6.17%), pathways (4.35%), genetic interaction (1.40%), and shared protein domains (0.59%) (
+ <xref ref-type="fig" rid="F6">Figure 6A</xref>). The Gene Ontology (GO) enrichment analysis was performed on NetworkAnalyst to obtain the network of GO: biological pathway (
+ <xref ref-type="fig" rid="F6">Figure 6C</xref>), and molecular function (
+ <xref ref-type="fig" rid="F6">Figure 6D</xref>) showing the significance of the genes in extracellular structure organization, collagen fibril organization, protein complex subunit organization, collagen metabolic process, cell migration, etc., and are listed in 
+ <xref ref-type="supplementary-material" rid="DS1">Supplementary Table 5</xref>. It was further used to generate the network for Reactome (
+ <xref ref-type="fig" rid="F6">Figure 6E</xref>) and KEGG pathway (
+ <xref ref-type="fig" rid="F6">Figure 6F</xref>) analysis. Moreover, the protein-protein interaction (PPI) network was constructed based on the International Molecular Exchange Consortium (IMEx) protein interactions database using NetworkAnalyst represented the crucial protein and helps to further establish the genes promoting in colorectal cancer prognosis and development. As shown in the PPI network (
+ <xref ref-type="fig" rid="F6">Figure 6B</xref>), the degree of a node is the number of connections among the node, and betweenness is the smallest path amongst nodes showing RAB31 (Degree:19, Betweeness:2401.3), COL1A1 (Degree:36, Betweeness:5357.51), COL1A2 (Degree:26, Betweeness:2955.04), COL3A1 (Degree:9, Betweeness:657.29), COL11A1 (Degree:7, Betweeness:537.23), and VCAN (Degree:18, Betweeness:2701.11) as the important proteins of the network.
+</p>

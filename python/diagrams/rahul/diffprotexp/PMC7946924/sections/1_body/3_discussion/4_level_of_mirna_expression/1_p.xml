@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40">It is stated that both types of small RNAs, i.e. miRNAs and siRNAs can regulate expression of mRNA with partially- or fully-complimentary sequences to them at translational or post translational levels
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>,
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup>. miRNAs select and bind to target mRNAs through base pairing leading to their degradation and consequential down gradation of protein translation
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup>. Intuitively, it is construed that difference in carbohydrate metabolism, hormone homeostasis and grain filling between superior and inferior spikelets of rice panicle could be the outcome of the differential patterns of expression of miRNAs involved in the processes. With advanced technology, genome-wide miRNA directed target mRNA cleavage have been developed and identified for rice recently
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>–
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>. In our study DESeq tool was used for DGE analysis during grain filling of the contrasting spikelets of SR-159 verses SR-157 cultivars. GO annotation conducted by Peng et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>, has identified percent of input genes with targets for differentially expressed miRNAs between superior and inferior spikelets with specific functions like development, reproduction and cellular processes. In our study, the potential miRNA target pairs were identified and used for global analysis of positively and negatively regulated DGE with reference to GO enrichment and KEGG pathway annotations. In this process, we identified 122 known miRNAs expressing differentially between the two varieties on the basis of fold change in expression (Supplementary Table 
+ <xref rid="MOESM1" ref-type="media">S1</xref>), out of which 86 and 94 are common to all three stages of development of SR-159 and SR-157, respectively (Fig. 
+ <xref rid="Fig4" ref-type="fig">3</xref>). Among the differentially regulated common miRNAs, 49 were newly reported. The heat map generated for fold change in expression of 40 selected miRNAs, exhibited drastic up and down regulation dynamics for some of them in the two cultivars; the overall margin of down regulation, judged on the basis of colour intensity chart, was higher for SR-159 than that of SR-157 (Fig. 
+ <xref rid="Fig5" ref-type="fig">4</xref>b). Peng et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup> have implicated higher expression level of miRNAs positively with grain filling of superior spikelets of rice panicle. It could be possible that similar situation also contributes to varietal difference in grain filling as well. Further, it was noticed that compared to SR-159, miRNA529b expression was down-regulated in apical and up-regulated in basal spikelet of SR-157on day 5 post-anthesis, the most crucial time for grain development. It is surmised that this miRNA might be involved in grain development because of the coincidence of temporal expression at day 5 post anthesis. The expression level was negative in the apical spikelet because it had capacity to produce a well developed high density grain at maturity in both cultivars. Conversely, the miRNA expression was highly positive for basal spikelet of SR-157 because it produced a grain bolder than that of SR-159.
+</p>

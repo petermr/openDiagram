@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <disp-formula id="FD13">
+  <label>(13)</label>
+  <math id="M13">
+   <mrow>
+    <mi>f</mi>
+    <mi>i</mi>
+    <mi>t</mi>
+    <mi>t</mi>
+    <mi>e</mi>
+    <mi>d</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>log</mi>
+      <mo>⁡</mo>
+      <mi>V</mi>
+      <mi>A</mi>
+      <mi>R</mi>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mi>l</mi>
+    <mi>o</mi>
+    <mi>e</mi>
+    <mi>s</mi>
+    <mi>s</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>log</mi>
+      <mo>⁡</mo>
+      <mi>V</mi>
+      <mi>A</mi>
+      <mi>R</mi>
+      <mo>∼</mo>
+      <mi>x</mi>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mi>$</mi>
+    <mi>f</mi>
+    <mi>i</mi>
+    <mi>t</mi>
+    <mi>t</mi>
+    <mi>e</mi>
+    <mi>d</mi>
+   </mrow>
+  </math>
+ </disp-formula> Based on formula (
+ <xref rid="B8" ref-type="bibr">8</xref>), 
+ <italic>d</italic>
+ <sub>0</sub> can be estimated by solving 
+ <disp-formula id="FD14">
+  <label>(14)</label>
+  <math id="M14">
+   <mrow>
+    <mi>ψ</mi>
+    <mo>′</mo>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msub>
+         <mi>d</mi>
+         <mn>0</mn>
+        </msub>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mi>n</mi>
+    </mfrac>
+    <mstyle displaystyle="true">
+     <mo>∑</mo>
+     <mrow>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo>[</mo>
+         <mrow>
+          <msub>
+           <mi>e</mi>
+           <mi>g</mi>
+          </msub>
+          <mo>−</mo>
+          <mi>p</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>d</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <msub>
+             <mi>e</mi>
+             <mi>g</mi>
+            </msub>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mo>]</mo>
+        </mrow>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>−</mo>
+      <mi>ψ</mi>
+      <mo>′</mo>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <msub>
+         <mi>d</mi>
+         <mi>g</mi>
+        </msub>
+        <mo>/</mo>
+        <mn>2</mn>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+    </mstyle>
+   </mrow>
+  </math>
+ </disp-formula> ψ′(
+ <italic>y</italic>) = 
+ <italic>x</italic>,
+ <italic>x</italic> &gt; 0 can be solved by deriving a Newton iteration of guaranteed and rapid convergence. Initial value of 
+ <italic>d</italic>
+ <sub>0</sub> is set to 0.1, by iterating 
+ <italic>d</italic>
+ <sub>0(
+  <italic>i</italic>)
+ </sub> = 
+ <italic>i</italic>/10. Convergence is reached when the value 
+ <italic>diff</italic> stops decreasing. 
+ <italic>d</italic>
+ <sub>0</sub> = 
+ <italic>k</italic>/10 when 
+ <italic>diff</italic> reaches its smallest value at k-th iteration. 
+ <disp-formula id="FD15">
+  <label>(15)</label>
+  <math id="M15">
+   <mrow>
+    <mi>d</mi>
+    <mi>i</mi>
+    <mi>f</mi>
+    <mi>f</mi>
+    <mo>=</mo>
+    <mtext>mean</mtext>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo>[</mo>
+       <mrow>
+        <msub>
+         <mi>e</mi>
+         <mi>g</mi>
+        </msub>
+        <mo>−</mo>
+        <mi>p</mi>
+        <mi>r</mi>
+        <mi>e</mi>
+        <mi>d</mi>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <msub>
+           <mi>e</mi>
+           <mi>g</mi>
+          </msub>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+       </mrow>
+       <mo>]</mo>
+      </mrow>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo>−</mo>
+    <mi>ψ</mi>
+    <mo>′</mo>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msub>
+       <mi>d</mi>
+       <mi>g</mi>
+      </msub>
+      <mo>/</mo>
+      <mn>2</mn>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>−</mo>
+    <mi>ψ</mi>
+    <mo>′</mo>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msub>
+         <mi>d</mi>
+         <mn>0</mn>
+        </msub>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

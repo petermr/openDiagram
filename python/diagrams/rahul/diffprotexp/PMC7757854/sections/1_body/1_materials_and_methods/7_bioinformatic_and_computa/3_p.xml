@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A PPI network of differentially expressed genes (DEGs) was constructed with the STRING database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.string-db.org" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.string-db.org</ext-link>) followed by visualization with the Cytoscape software (version 3.6.0, Washington, DC, USA) (
+ <ext-link ext-link-type="uri" xlink:href="http://www.cytoscape.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.cytoscape.org/</ext-link>). The degree of nodes was determined with the plug-in Network Analysis app on the Cytoscape software. Gene interaction network models were constructed with the Biological General Repository for Interaction Datasets (BIOGRID; 
+ <ext-link ext-link-type="uri" xlink:href="https://www.thebiogrid.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.thebiogrid.org/</ext-link>) database followed by visualization of DEGs with the Cytoscape software.
+</p>

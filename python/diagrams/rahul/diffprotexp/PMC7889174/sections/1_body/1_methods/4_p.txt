@@ -1,0 +1,4 @@
+0: Alignment and phylogenetic analysis: For each query, sequences meeting the search criteria described above were aligned using MUSCLE [ 51] version 3.8.1551 with default settings.
+1: Alignments were trimmed using alncut version 1.06 [ 52] with gaps allowed in 25% of sequences per residue.
+2: Trimmed alignments were analyzed using FastTree version 2.1.10 [ 53] using default settings.
+3: In general, branch supports 0.95 were considered significant support for bipartitions.

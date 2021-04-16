@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par59">All annotations of human genome were downloaded from Ensembl database in GTF/GFF format
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>. We used Ensembl release 85 based on GRCh38.p7 reference assembly of human genome. Genomic coordinates of the CpGs islands in the human genome were downloaded via FTP server of UCSC Genome Browser
+ <sup>
+  <xref ref-type="bibr" rid="CR68">68</xref>
+ </sup>. The whole set of GenBank human mRNA and ESTs sequences was downloaded via FTP server of UCSC Genome Browser in GTF format. We used sequences that were pre-aligned against the GRCh38/hg38 reference assembly of the human genome with BLAT
+ <sup>
+  <xref ref-type="bibr" rid="CR69">69</xref>
+ </sup>. Any sequences with mismatches and less than four aligned blocks were removed. In addition, sequences with the exon length &lt;25 bp and intron length &lt;50 bp were filtered out.
+</p>

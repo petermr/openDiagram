@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig6">
+ <label>Fig. 6</label>
+ <caption>
+  <p>Comparative analysis of differential gene expression of key tissue development markers by RT-qPCR (gray) and RNA-seq (black). Pluripotency and NSC markers validated include (
+   <bold>a</bold>) Oct4, transcription factor that maintains self-renewal and pluripotency; (
+   <bold>b</bold>) Nestin, a filament protein marker of neural stem cells; (
+   <bold>c</bold>) Pax6, a transcription factor that drives neurogenesis; and (
+   <bold>d</bold>) NgN2, a neuronal-specific transcription factor. Motor neuron specification markers validated include (
+   <bold>e</bold>) Isl1, a transcription factor required for motor neuron generation; (
+   <bold>f</bold>) Map2, a neuron-specific cytoskeletal protein; (
+   <bold>g</bold>) HB9, an early marker of cholinergic neurons; and (
+   <bold>h</bold>) ChAT, an enzyme required for acetylcholine synthesis. Shown are the averages and standard error from three independent biological replicas from the iPSC to MN differentiation trajectory. The RNA-Seq transcripts were normalized to the total read per analyzed sample (in FPKM: fragments per kilobase per million mapped fragments) and the transcript levels determined by RT-qPCR were normalized to GAPDH as the endogenous sample control. Fold change was calculated for each developmental stage relative to transcript levels in iPSC (D0). Statistical significance (
+   <italic>p</italic> &lt; 1.5e-6) was determined with Student t-test
+  </p>
+ </caption>
+ <graphic xlink:href="12860_2021_343_Fig6_HTML" id="MO6" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="MOESM4">
+ <media xlink:href="40635_2021_373_MOESM4_ESM.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <caption>
+   <p>
+    <bold>Additional file 4: Figure S2.</bold> (A) Heatmap of differential expressed genes (logFC &gt; 1) between Cluster 1 and Cluster 2. Individual effect and sampling day are considered as confounding factors. (B) Soft clustering of longitudinal gene dynamics in six patients containing Cluster 1-to-2 transition (FDR &lt; 0.05) using differentially expressed genes in Figure S2A. Each patient is individually analyzed by using Mfuzz. The X-axis represents the sampling time. (C) Validation of differentially expressed gene from Cluster 1-to-2 by using Cluster 2-to-1 transcriptomic data. Color represents the patient’s ID. 99.4% up-regulated genes and 99.6% down-regulated genes exhibited reversed expression levels. (D) GO terms and KEGG pathways for differentially expressed genes between Cluster 1 and Cluster 2. The top 5 terms and pathways are represented. The size of dots denotes the − log10 of the 
+    <italic>p-value</italic>, the color denotes the expression levels.
+   </p>
+  </caption>
+ </media>
+</supplementary-material>

@@ -1,0 +1,3 @@
+0: We firstly used the Robust Multi-Array Average (RMA) method to normalize the original data measured by the chip and then took the normalized value and log2 logarithm to generate the data after normalization, subsequently for differential expression analysis.
+1: We screened differentially expressed genes based on the limma function package of R language (version 3.5.2, the same below) ( 15).
+2: The absolute values of log-transformed differential expression multiple (Log2FC) >1 and FDR< 0.05 were used as a criteria.

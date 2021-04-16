@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">The computational method of CIBERSORT [
+ <xref ref-type="bibr" rid="CR18">18</xref>] (
+ <ext-link ext-link-type="uri" xlink:href="http://cibersort.stanford.edu/" xmlns:xlink="http://www.w3.org/1999/xlink">http://cibersort.stanford.edu/</ext-link>) is a deconvolution algorithm based on gene expression, and it is used to evaluate the changes of a group of genes relative to all other genes in a sample. Based on the expression of TUBA1C, we classified 497 samples into high and low expression groups. Using CIBERSORT algorithm, we measured the immune responses of 28 TIICs and evaluated the relationship between these TIICs and the expression of TUBA1C in LUAD tissues. Our main goal was to determine the correlation between these TIICs.
+</p>

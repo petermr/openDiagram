@@ -1,0 +1,4 @@
+0: STRING version 11.0( 25) was used to predict the potential PPIs of proteins affected by  GBA and  PARK2 variants.
+1: PPI networks were constructed by mapping the top 25 proteins with the highest differential expression levels in patients with PD with  GBA and  PARK2 variants compared with those of the healthy control group.
+2: Gene Ontology (GO) functional enrichment analysis ( 26, 27) was used to identify the biological processes in which the proteins affected by both variants are involved.
+3: The top three biological processes with the smallest false discovery rate (FDR) values were selected.

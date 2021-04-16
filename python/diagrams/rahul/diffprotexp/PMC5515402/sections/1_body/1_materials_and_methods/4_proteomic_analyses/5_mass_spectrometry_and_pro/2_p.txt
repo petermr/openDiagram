@@ -1,0 +1,10 @@
+0: Database Searching of all MS/MS samples was performed using Mascot (Matrix Science, London, UK; version 2.3.02) and X!
+1: Tandem (The GPM, thegpm.org; version CYCLONE [2010.12.01.1]).
+2: Charge state deconvolution and deisotoping were not performed.
+3: X!
+4: Tandem was set up to search a subset of the SwissProt_012512 database and Mascot was set up to search the SwissProt_022212 database (selected for Mus., unknown version, 16531 entries) assuming the digestion enzyme trypsin.
+5: Mascot and X!
+6: Tandem were searched with a fragment ion mass tolerance of 0.50 Da and a parent ion tolerance of 15 PPM.
+7: Pyro-glu from E of the n-terminus, oxidation of methionine, acetylation of the n-terminus and iodoacetamide derivative of cysteine were specified in X!
+8: Tandem as variable modifications.
+9: Pyro-glu from E of the n terminus, oxidation of methionine, acetylation of the n-terminus, iodoacetamide derivative of cysteine and acrylamide adduct of cysteine were specified in Mascot as variable modifications.

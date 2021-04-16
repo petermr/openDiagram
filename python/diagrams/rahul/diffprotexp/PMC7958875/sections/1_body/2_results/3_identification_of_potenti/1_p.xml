@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We were next interested in identifying patterns of expression that are consistent with a bet-hedging strategy. Bet-hedging refers to an adaptive strategy that relies on pre-existing diversity within populations to survive potentially unknown environments. Single-cell RNA-seq allows us to understand what genes are transcriptionally variable in a population, which could indicate their role in this process. In contrast to the differential expression analysis where we were specifically interested in genes that had different expression patterns between midguts, here we were interested in genes that showed a similar pattern of variability independently of the midgut environment. To do this, we first corrected the ookinete gene counts for pseudotime, and then created a gene list of highly variable genes for the ookinetes within each individual mosquito (qval &lt; 0.05) (
+ <xref ref-type="supplementary-material" rid="ST3">
+  <bold>Table S3</bold>
+ </xref>). Looking at the intersection of these four lists, we found a total of 28 ookinete genes that are consistently highly variable (hvg) in all of our mosquitoes. Interestingly, we find several genes that encode proteins with a role in the inner membrane complex (IMC) such as photosensitized INA-labeled protein (PhIL1, PBANKA_0204600) (
+ <xref rid="B41" ref-type="bibr">Saini et al., 2017</xref>) and the alveolin IMC1i (PBANKA_0707100) (
+ <xref rid="B20" ref-type="bibr">Kaneko et al., 2015</xref>) and ISP3 (PBANKA_1324300), which localizes to the apical anterior apical end of the parasite where IMC organization is initiated (
+ <xref rid="B36" ref-type="bibr">Poulin et al., 2013</xref>). In addition, CelTOS is highly variable in this gene set as well. Looking at pseudotime-corrected gene expression, we find that the majority of the 28 highly variant genes display a huge variety of expression between different ookinetes, compared to a control group of highly expressed ookinete-specific genes (
+ <xref ref-type="fig" rid="f3">
+  <bold>Figure 3A</bold>
+ </xref>). Looking at the correlation of these 28 genes, we find that some of these genes are indeed co-expressed, including several genes involved in the IMC and the apical end of the ookinete (
+ <xref ref-type="fig" rid="f3">
+  <bold>Figure 3B</bold>
+ </xref>). Functional work to understand the fitness of parasites that are co-expressing these genes would be necessary to validate their role in bet-hedging. For example, are the subset of cells expressing the identified IMC genes more likely to cross the midgut and develop as an oocyst compared to parasites that are not? Whilst this work is beyond the scope of this study, we have developed a framework that allowed for identification of patterns of expression that are consistent with bet-hedging. We found that a compelling proportion of variant genes encode IMC-related and apically localizing proteins suggesting that these genes may contribute to a bet-hedging strategy that involves the invasion machinery.
+</p>

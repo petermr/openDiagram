@@ -1,0 +1,2 @@
+0: We obtained transcript-level quantification using salmon 0.8.2 40 (withgcBias and seqBias flags to account for potential biases) and the GRCh38 cDNA assembly release 87 downloaded from Ensembl [http://ftp.ensembl.org/pub/release-87/fasta/homo_sapiens/cdna/].
+1: We used tximport 41 to convert transcript-level to gene-level scaled transcripts per million (TPM) estimates, with estimates for 39,037 genes based on Ensembl gene IDs.

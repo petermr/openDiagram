@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="FS1">
+ <label>Supplementary Figure 1</label>
+ <caption>
+  <p>PCA analysis of GI cancer. Principal component analysis of liver cancer, colorectal cancer, gastric cancer, pancreatic cancer, and esophageal cancer according to genes expression level. 
+   <italic>N</italic> = 1,695 data points. 
+   <italic>X</italic> and 
+   <italic>Y</italic> axes show principal component 1 and principal component 2 that explain 39.5 and 16.4% of the total variance, respectively. Prediction ellipses are such that with probability 0.95, a new observation from the same group will fall inside the ellipse. The further apart the two samples are, the greater the difference in genetic background between them will be.
+  </p>
+ </caption>
+ <media xlink:href="Image_1.JPEG" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <caption>
+   <p>Click here for additional data file.</p>
+  </caption>
+ </media>
+</supplementary-material>

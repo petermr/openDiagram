@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We next sought to capture MIA-induced gene regulatory changes at the systems and network level across embryonic cortex development using WGCNA (
+ <xref rid="bib39" ref-type="bibr">Langfelder and Horvath, 2008</xref>; 
+ <xref rid="bib90" ref-type="bibr">Zhang and Horvath, 2005</xref>; 
+ <xref ref-type="fig" rid="fig2">Figure 2</xref>, 
+ <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1</xref>, 
+ <xref ref-type="fig" rid="fig2s2">Figure 2—figure supplement 2</xref>). In this approach, genes with correlated expression patterns are assigned into modules, enabling identification of gene sets with shared expression and function in neurodevelopment. WGCNA co-expression modules were arbitrarily named after colors, with Grey reserved for genes with no strongly correlated expression patterns (
+ <xref ref-type="fig" rid="fig2">Figure 2a</xref>). Our initial analysis identified 10 modules (
+ <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1a</xref>), of which correlated modules were combined to produce the final set of five modules and the unassigned Grey set. Modules were tested for association with sample age, MIA versus saline condition, and sex (
+ <xref ref-type="fig" rid="fig2">Figure 2b</xref>). The modules captured dynamic trajectories of neurodevelopmental gene expression (
+ <xref ref-type="fig" rid="fig2">Figure 2c</xref>). The Blue and Turquoise modules represented genes that increased or decreased in expression respectively, during neurodevelopment (Blue: p=9e-34; Turquoise: p=1e-29, 
+ <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1b</xref>). The other modules showed more complex patterns of expression. Each WGCNA module included DE genes, with differences in what time-point had the most extensive DE, indicating module-specific timing of perturbation associated with MIA (
+ <xref ref-type="fig" rid="fig2s1">Figure 2—figure supplement 1c</xref>). DE genes were enriched for module-specific GO terms, with GO enrichment findings similar using all module genes and using an alternative rank-based gene set enrichment that is not dependent on FDR or p-value (
+ <xref rid="bib56" ref-type="bibr">Mootha et al., 2003</xref>; 
+ <xref rid="bib75" ref-type="bibr">Subramanian et al., 2005</xref>; 
+ <xref ref-type="fig" rid="fig2">Figure 2d</xref>, 
+ <xref ref-type="supplementary-material" rid="supp18">Supplementary file 18</xref>; 
+ <xref ref-type="fig" rid="fig2s2">Figure 2—figure supplement 2</xref>, 
+ <xref ref-type="supplementary-material" rid="supp19">Supplementary file 19</xref>).
+</p>

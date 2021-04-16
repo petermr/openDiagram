@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A total of 502 tumor tissues and 44 normal tissues were included in TCGA-HNSC data set. We used the “limma” package to analyze the expression of these three key genes and found that 
+ <italic>CCR8</italic> and 
+ <italic>P2RY14</italic> were differentially expressed in tumor tissues compared with normal tissues (
+ <italic>P</italic>&lt;0.01), while 
+ <italic>CCR4</italic> exhibited no significant difference in expression between tumor and normal tissues (
+ <xref ref-type="fig" rid="f5">
+  <bold>Figures 5A–C</bold>
+ </xref>). Paired differentiation analyses using the Wilcoxon rank-sum test exhibited similar results. A total of 43 pairs of tumors and normal tissues from 43 patients were included in this analysis. 
+ <italic>CCR8</italic> and 
+ <italic>P2RY14</italic> were significantly differentially expressed in tumor tissues compared with normal tissues, while 
+ <italic>CCR4</italic> was not significantly different (
+ <xref ref-type="fig" rid="f5">
+  <bold>Figures 5D–F</bold>
+ </xref>).
+</p>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>HTSeq v0.6.1 was used to count the reads numbers mapped to each gene. And then FPKM of each gene was calculated based on the length of the gene and reads count mapped to this gene. FPKM (expected number of Fragments Per Kilobase of transcript sequence per Millions base pairs sequenced) considers the effect of sequencing depth and gene length for the reads count at the same time, and is currently the most commonly used method for estimating gene expression levels.</p>

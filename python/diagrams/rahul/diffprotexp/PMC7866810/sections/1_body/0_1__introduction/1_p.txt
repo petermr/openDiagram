@@ -1,0 +1,7 @@
+0: Single-cell RNA sequencing (scRNA-seq) is a powerful technology that has already shown great potential and the field is rapidly expanding [ 1, 2].
+1: In animals, scRNA-seq is providing a leap forward in resolving cellular diversity and giving unprecedented insight into gene expression changes during development, regeneration and disease [ 3, 4, 5, 6, 7, 8].
+2: Recently, scRNA-seq also started to flourish in plant research [ 9, 10].
+3: The growing attention toward single-cell transcriptomics calls for the development of computational tools to interactively analyze scRNA-seq data for any target organism.
+4: Multiple tools for scRNA-seq analysis are being developed [ 11, 12].
+5: Some tools, such as Seurat [ 13], SC3 [ 14], ASAP [ 15], Granatum [ 16] and SC1 [ 17], provide integrated pipelines for single-cell data.
+6: However, many others are characterized by specific analytic scopes in the wide spectrum of scRNA-seq analysis [ 18], thus leading many researchers to integrate several tools to address their questions.

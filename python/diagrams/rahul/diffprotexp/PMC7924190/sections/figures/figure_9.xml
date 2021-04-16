@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00299-f009" orientation="portrait" position="float">
+ <label>Figure 9</label>
+ <caption>
+  <p>Enriched molecular pathways after treatment of hTCEpi cells with AC EFs for 24 h. The relationships between pathways are depicted and highlighted as an interactive graphical network using ShinyGO. Pathways enriched following analysis of the antibody array data are shown. Two pathways (nodes) are connected after sharing 20% or more genes. Enriched pathways that were similar after analysis of both gene and protein array data are marked and highlighted. Node colors illustrate enrichment, whereby darker nodes represent significantly enriched gene sets, while bigger nodes represent larger gene sets. Thicker edges represent more overlapped genes. Analysis was performed using ShinyGO (v.0.61) (Available online: 
+   <uri xlink:href="http://bioinformatics.sdstate.edu/go/" xmlns:xlink="http://www.w3.org/1999/xlink">http://bioinformatics.sdstate.edu/go/</uri> (accessed on 6 January 2021)). Edge cut-off = 0.2 and FDR 
+   <italic>p</italic>-value cut-off = 0.05.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00299-g009" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

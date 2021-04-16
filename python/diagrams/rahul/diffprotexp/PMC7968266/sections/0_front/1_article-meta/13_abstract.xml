@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Epithelial ovarian cancer (EOC), as a lethal malignancy in women, is often diagnosed as advanced stages. In contrast, intermediating between benign and malignant tumors, ovarian low malignant potential (LMP) tumors show a good prognosis. However, the differential diagnosis of the two diseases is not ideal, resulting in delays or unnecessary therapies. Therefore, unveiling the molecular differences between LMP and EOC may contribute to differential diagnosis and novel therapeutic and preventive policies development for EOC.</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">In this study, three microarray data (GSE9899, GSE57477 and GSE27651) were used to explore the differentially expressed genes (DEGs) between LMP and EOC samples. Then, 5 genes were screened by protein–protein interaction (PPI) network, receiver operating characteristic (ROC), survival and Pearson correlation analysis. Meanwhile, chemical-core gene network construction was performed to identify the potential drugs or risk factors for EOC based on 5 core genes. Finally, we also identified the potential function of the 5 genes for EOC through pathway analysis.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">Two hundred thirty-four DEGs were successfully screened, including 81 up-regulated genes and 153 down-regulated genes. Then, 5 core genes (CCNB1, KIF20A, ASPM, AURKA, and KIF23) were identified through PPI network analysis, ROC analysis, survival and Pearson correlation analysis, which show better diagnostic efficiency and higher prognostic value for EOC. Furthermore, NetworkAnalyst was used to identify top 15 chemicals that link with the 5 core genes. Among them, 11 chemicals were potential drugs and 4 chemicals were risk factors for EOC. Finally, we found that all 5 core genes mainly regulate EOC development via the cell cycle pathway by the bioinformatic analysis.</p>
+ </sec>
+ <sec>
+  <title>Conclusion</title>
+  <p id="Par4">Based on an integrated bioinformatic analysis, we identified potential biomarkers, risk factors and drugs for EOC, which may help to provide new ideas for EOC diagnosis, condition appraisal, prevention and treatment in future.</p>
+ </sec>
+ <sec>
+  <title>Supplementary Information</title>
+  <p>The online version contains supplementary material available at 10.1186/s13048-021-00794-0.</p>
+ </sec>
+</abstract>

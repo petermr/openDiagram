@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Li</surname>
+   <given-names>Ruiming</given-names>
+  </name>
+  <address>
+   <email>rmli@sunflower.kuicr.kyoto-u.ac.jp</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Lin</surname>
+   <given-names>Chun-Yu</given-names>
+  </name>
+  <address>
+   <email>chunyulin@nctu.edu.tw</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Guo</surname>
+   <given-names>Wei-Feng</given-names>
+  </name>
+  <address>
+   <email>shaonianweifeng@126.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9763-797X</contrib-id>
+  <name>
+   <surname>Akutsu</surname>
+   <given-names>Tatsuya</given-names>
+  </name>
+  <address>
+   <email>takutsu@kuicr.kyoto-u.ac.jp</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.258799.8</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0372 2033</institution-id>
+   <institution>Bioinformatics Center, Institute for Chemical Research, </institution>
+   <institution>Kyoto University, </institution>
+  </institution-wrap>Uji, Kyoto 611-0011 Japan 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>Institute of Bioinformatics and Systems Biology, National Yang Ming Chiao Tung University, 300 Hsinchu, Taiwan 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>Center for Intelligent Drug Systems and Smart Bio-devices, National Yang Ming Chiao Tung University, 300 Hsinchu, Taiwan 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.207374.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2189 3846</institution-id>
+   <institution>School of Electrical Engineering, </institution>
+   <institution>Zhengzhou University, </institution>
+  </institution-wrap>450001 Zhengzhou, China 
+ </aff>
+</contrib-group>

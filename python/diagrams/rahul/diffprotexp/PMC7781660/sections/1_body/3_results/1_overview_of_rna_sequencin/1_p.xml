@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To identify the RNAs expressed in BVDV-infected MDBK cells, two cDNA libraries (C group: mock-infected MDBK cells group; E group: BVDV-infected MDBK cells group) were constructed. Each group was tested using three biological replicates. A highly stringent filtering pipeline was used to remove uncharacterized transcripts from the downstream analysis in RNA-seq. The workflow for the transcript analysis is shown in 
+ <xref ref-type="fig" rid="f0001">Figure 1(a</xref>). The final library was subjected to sequencing by Illumina HiSeq
+ <sup>TM</sup> 4000. A total of 78,886,865,100 raw reads were generated in all libraries. After discarding the adaptor sequences, ribosomal RNAs, and low-quality reads, we obtained 519,821,014 clean reads, which were aligned to the reference genome of the species using the alignment software Tophat2 (2.1.1).
+</p>

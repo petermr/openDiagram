@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="PMC7804943/table_1" xmlns="http://www.w3.org/1999/xhtml">
+ <caption>
+  <label>Table 1</label>
+  <p>Filtering criteria for each regulatory layer.</p>
+ </caption>
+ <thead>
+  <tr>
+   <th colspan="1" rowspan="1" id="0-0-.">Layer</th>
+   <th colspan="1" rowspan="1" id="0-1-.">Number of training examples</th>
+   <th colspan="1" rowspan="1" id="0-2-.">Selection criteria</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>GE</td>
+   <td>5000</td>
+   <td>Top 5000 most variably expressed genes based on median of normalized read counts</td>
+  </tr>
+  <tr>
+   <td>AS</td>
+   <td>762</td>
+   <td>Splicing events with 
+    <div class="inline-formula" id="IEq8">
+     <div>
+      <div id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|{\Delta}{\mathrm{PSI}}|\; &gt; \;20$$\end{document}</div>
+      <div class="math" id="M16">
+       <div>∣</div>
+       <div class="mi" mathvariant="normal">Δ</div>
+       <div class="mi" mathvariant="normal">PSI</div>
+       <div>∣</div>
+       <div width="0.16em"/>
+       <div>&gt;</div>
+       <div width="0.16em"/>
+       <div>20</div>
+      </div>
+      <div xlink:href="41467_2020_20483_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </div>
+    </div> between at least one pair of cell types 
+   </td>
+  </tr>
+  <tr>
+   <td>IR</td>
+   <td>1526</td>
+   <td>
+    <i>(same as above)</i>
+   </td>
+  </tr>
+  <tr>
+   <td>APA</td>
+   <td>1513</td>
+   <td>Multi-UTR genes 
+    <div class="inline-formula" id="IEq9">
+     <div>
+      <div id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|{\Delta}{\mathrm{PPAU}}| \ge 20$$\end{document}</div>
+      <div class="math" id="M18">
+       <div>∣</div>
+       <div class="mi" mathvariant="normal">Δ</div>
+       <div class="mi" mathvariant="normal">PPAU</div>
+       <div>∣</div>
+       <div>≥</div>
+       <div>20</div>
+      </div>
+      <div xlink:href="41467_2020_20483_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </div>
+    </div> between at least one pair of cell types 
+   </td>
+  </tr>
+ </tbody>
+ <tfoot>
+  <p>Each layer was pre-processed to retain the genes or AS/IR/APA event with the most variation.</p>
+  <p>
+   <i>PPAU</i> proximal poly(A) site usage, 
+   <i>PSI</i> percent spliced-in. 
+  </p>
+ </tfoot>
+</table>

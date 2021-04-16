@@ -1,0 +1,7 @@
+0: Differentially expressed genes related to the  GSK3B gene were obtained by R package limma.
+1: The samples were divided into two groups according to the median expression values of the  GSK3B gene and | log 2 fold-change (FC)| > 1, and the  P value<0.05 was set as a threshold.
+2: According to the  P value ranking, the first 150 DEGs that were significantly up-regulated and the first 150 DEGs that were significantly down-regulated were included for potential drug target analysis.
+3: The Connectivity Map (CMap) is a gene expression profile database based on interventional gene expression ( Subramanian et al., 2017).
+4: It is mainly used to analyze the functional connections between small molecule compounds, genes, and diseases ( Lamb et al., 2006).
+5: PharmMapper is a comprehensive target pharmacophore database that can search potential drug target identification ( Wang et al., 2017).
+6: PharmMapper comes from TargetBank, DrugBank, BindingDB, and potential drug target databases, and nearly 53,000 receptor-based pharmacophore models are used for prediction ( Liu et al., 2010;  Wang et al., 2016).

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Principal component analysis (PCA) was used to determine variability among replicates and the global effect of RSV on gene expression. Here, PCA indicated that over 80% of the variance in the data sets was as a result of the RSV Infection (
+ <xref ref-type="fig" rid="viruses-13-00218-f004">Figure 4</xref>A) and that the replicates closely grouped together. The RSV-infected replicates showed slightly more variability, accounting for 4% of the variation, indicating the dynamic effects of RSV on gene expression (
+ <xref ref-type="fig" rid="viruses-13-00218-f004">Figure 4</xref>A). Collectively, we interpreted this analysis to indicate that the data were reproducible in the biological replicates, and proceeded with differential analysis, in which 4286 genes were significantly changed by RSV infection (
+ <italic>p</italic> &lt; 0.05, using multiple hypothesis correction in DESeq2). Of these, a larger number of genes were downregulated in response to RSV infection (
+ <xref ref-type="fig" rid="viruses-13-00218-f004">Figure 4</xref>B), a finding consistent with earlier high-density cDNA microarray studies [
+ <xref rid="B2-viruses-13-00218" ref-type="bibr">2</xref>]. To focus on abundant genes that were most significantly changed, mRNA isoforms in the curated transcriptome were filtered by 1.5 log2 fold change (RSV vs. control).
+</p>

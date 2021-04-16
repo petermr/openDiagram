@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Total RNA, extracted with TRIzol Reagent (Invitrogen, USA), was converted into cDNA with a ReverTra Ace qPCR RT Kit (TOYOBO, JAPAN) according to manufacturer’s instructions. Real-time polymerase chain reaction (qPCR) was performed with a BIO-RAD® Real-Time Detection System (Bio-rad, USA) using iQ SYBR Green Supermix (Bio-rad, USA). Calculation of mRNA expression levels was performed using the 
+ <inline-formula id="ilm0001">
+  <alternatives>
+   <inline-graphic xlink:href="KVIR_A_1869384_ILM0001.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d2e434">
+    <mrow>
+     <msup>
+      <mn>2</mn>
+      <mrow>
+       <mfenced open="(" close=")">
+        <mrow>
+         <mo>−</mo>
+         <mrow>
+          <mrow>
+           <mi mathvariant="normal">Δ</mi>
+           <mi mathvariant="normal">Δ</mi>
+           <mi mathvariant="normal">C</mi>
+           <mi mathvariant="normal">T</mi>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </msup>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula> method and normalized against GAPDH levels. All reactions were run in triplicate. The primer sequences are listed in 
+ <bold>Supplemental material (Table 1. Primer sequences used for molecular analysis).</bold>
+</p>

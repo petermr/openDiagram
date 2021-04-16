@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">Euclidean distances between the samples were calculated on regularized log-transformed (Rlog) counts. The distance matrix was used to compute hierarchical clustering of the samples. The Principal Component Analysis (PCA) was performed with prcomp function in R using Rlog values of top 500 genes with high variance. Clustering and PCA were based on protein-coding and lncRNA genes.</p>

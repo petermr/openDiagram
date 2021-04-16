@@ -1,0 +1,9 @@
+0: We performed Fast Gene Set Enrichment Analysis (FGSEA) in R (minSize = 15, maxSize = 500, nperm = 100,000) to identify enriched gene ontology (GO) terms enriched within the genes differentially expressed with at least one PAS differentially used between species.
+1: We downloaded the C5: GO terms from MSigDB.
+2: Significant GO terms can be found in  Supplementary file 3.
+3: To identify enriched GO terms in the remaining analyses, we used the GOrilla setting for two unranked lists of genes.
+4: To test for GO terms associated with species-specific PAS, we input the genes with a species-specific PAS as the target list and all genes with at least one identified PAS as the background set.
+5: For the differentially translated and differential protein-level background sets, we tested genes with at least one differentially used PAS as the target.
+6: We identified no significant GO terms in tdifferential protein-level analysis.
+7: Finally, among genes with at least one differentially used PAS, we tested for enriched GO terms for the genes differentially expressed in protein but not mRNA.
+8: Significant terms for each set can be found in  Supplementary file 1.

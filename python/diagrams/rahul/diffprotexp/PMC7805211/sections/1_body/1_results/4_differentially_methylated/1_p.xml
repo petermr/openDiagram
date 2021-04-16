@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">To understand how the distinct methylation patterns may promote CNF and PNF development, we performed a gene ontology analysis to determine whether DMR patterns would predict signaling in critical pathways. Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis is a high-level functional analysis of epigenomic data that allows for annotation of key cell signaling and biological processes. KEGG analysis of global DMR data identified several key cellular processes that differed significantly between tumor types as a result of predicted gene expression impacts from methylation events. As expected, the RAS, MAPK, and PI3K–AKT signaling pathways were associated with both CNF and PNF development; however, differential methylation was noted between the tumor types in genes affecting key cellular processes. Interestingly, CNFs and PNFs demonstrated differential regulation of inflammatory mediators of transient receptor potential (TRP) channels, phospholipase D (PLD), cytoskeletal rearrangement, and oxytocin signaling (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>a). TRP channels, PLD, and oxytocin signaling have all been demonstrated to regulate inflammation and pain, which is a common feature of both PNFs and CNFs. Pain and inflammation are known to be dysregulated in Neurofibromatosis, however it is unclear how NF1 deficiency exacerbates these symptoms. To functionalize these results and validate a role for individual DNA methylation events in tumor-type associated inflammation and pain signaling, we examined significantly correlated DMRs associated with genes in the Inflammatory Mediator Regulation of TRP Channels KEGG pathway. Two highly significant DMRs (DMR1 
+ <italic>p</italic> = 2.72E-21; DMR2 
+ <italic>p</italic> = 1.84E-08) were discovered within the primary and alternative promotors and leading exons of the 
+ <italic>MAP2K3</italic> gene that encodes the MAP kinase kinase, MKK3 (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>b). Across DMR1, PNFs displayed higher DNA methylation, while CNFs were more highly methylated in DMR2 (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>c). As MKK3 plays a role in pain signaling, inflammation and cancer [
+ <xref ref-type="bibr" rid="CR29">29</xref>, 
+ <xref ref-type="bibr" rid="CR30">30</xref>], we hypothesized that reciprocal methylation of DMR1 and DMR2 would instruct differential MKK3 protein expression leading to altered RAS signaling fates. Western blot of a representative subset of CNF and PNF tumors demonstrated that MKK3 protein expression was highly correlated to 
+ <italic>MAP2K3</italic> DMR methylation status (DMR1:MKK3 
+ <italic>ρ</italic> = − 0.85, 
+ <italic>p</italic> = 0.00018) (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>d, e) despite expected intra- and inter-tumoral heterogeneity. This strong inverse correlation points to exquisite control of MKK3 protein expression through methylation events occurring at sites of alternative leading 
+ <italic>MAP2K3</italic> exons.
+</p>

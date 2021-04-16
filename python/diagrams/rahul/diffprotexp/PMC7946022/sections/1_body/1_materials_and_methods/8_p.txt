@@ -1,0 +1,15 @@
+0: Global transcriptional analysis of single and mixed-species catheter biofilms using RNA-sequencing.
+1: To ensure sufficient RNA yield, initial experiments were performed to determine optimum cell densities for catheter inoculation prior to implantation.
+2: Based on measurement of RNA from extracted catheters, cell densities of 1  10 8 and 5  10 8 cells/ml for  C. albicans and  S. aureus, respectively, were selected for the initial  in vitro catheter inoculation.
+3: Implantation of catheters was performed as described above and animals were euthanized on the 3rd-day post-catheter implantation; catheters were collected in RNAlater buffer, aseptically fragmented, sonicated in RNAse free water to detach biofilms, and cells from all catheters recovered from each mouse were pooled by centrifugation.
+4: In parallel, prior to extraction, suspensions were diluted and plated for CFU enumeration to assess microbial recovery.
+5: Pooled cells were snap-frozen on dry ice and ethanol, allowed to thaw at room temperature (RT), then incubated for 30 mins at 37C in  digestion buffer containing 200 g/ml of lysostaphin (for  S. aureus cell wall digestion) and/or 100 U/ml of lyticase (for  C. albicans cell wall digestion) and RNAse inhibitor in TRIS-EDTA 1x buffer.
+6: RNA was extracted in 1 ml of TRI ReagentTM Solution (Ambion, Invitrogen; Carlsbad, CA) using bead-beating for 30 mins at RT followed by purification using Direct-zol RNA Miniprep kit (Zymo Research; Tustin, CA).
+7: Eluted RNA was analyzed in a Nanodrop Lite (Thermo Scientific).
+8: Total RNA was subjected to rRNA depletion with the Illumina Ribominus Depletion kit (bacteria module) and/or the Ribominus Eukaryote Kit.
+9: All RNA-seq libraries (strand-specific, paired end) were prepared with the TruSeq RNA sample prep kit (Illumina).
+10: Seventy-five nucleotides of the sequence were determined from both ends of each cDNA fragment using the HiSeq platform (Illumina).
+11: Sequencing reads were aligned to the reference genomes ( Staphylococcus aureus USA300 TCH1516 uid58925;  C. albicans strain SC5314) using HISAT [ 46] and alignment files were used to generate read counts for each gene; statistical analysis of differential gene expression was performed using the DEseq package from Bioconductor [ 47].
+12: A gene was considered differentially expressed the p-value for differential expression was less than 0.05.
+13: Two biological samples from each experimental group were analyzed.
+14: Sequencing reads were aligned to the reference genomes ( Staphylococcus aureus USA300 TCH1516 uid58925,  C. albicans strain SC5314)

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par7">The raw reads ranged from 93,652,970 (H3O2) to 110,137,398 (H8O3) representing 14.05 and 16.52 Gb, respectively (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). After a quality check, the adapters and low-quality reads were eliminated from the data. The cleaned data ranged from 84,794,180 (H3O2) to 99,138,982 (H8O3) reads (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). The sequence reads were mapped to the sheep reference genome using TopHat and implemented in Bowtie
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>. The number of uniquely mapped reads spanned from 79.54% (H3O4) to 89.16% (H1O1) and were mapped to the sheep reference genome (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). Furthermore, the GC contents ranged from 44.14% (H8O3) to 50.61% (H3O4) (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). Approximately &gt; 86% clean reads were successfully mapped on to the sheep reference genome (maximum of two mismatches). The high genome coverage of our RNA-Seq data showed that the samples collected were of high quality.
+</p>

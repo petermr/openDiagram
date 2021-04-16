@@ -1,0 +1,4 @@
+0: The differentially expressed genes (DEGs) were imported into the STRING database, which contains comprehensive information about interactions between proteins; 27 thus, the interaction relationship between DEGs was obtained.
+1: The proteinprotein interaction (PPI) network was constructed based on importing the data into Cytoscape 3.5.1 software, and then, the network was analyzed by Network Analyzer.
+2: The DEGs with interactions with combined scores greater than 0.4 were selected to construct a proteinprotein interaction network diagram.
+3: 28

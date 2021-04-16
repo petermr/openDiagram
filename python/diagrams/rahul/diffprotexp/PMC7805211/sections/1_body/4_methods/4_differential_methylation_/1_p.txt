@@ -1,0 +1,15 @@
+0: Differentially methylated loci between cutaneous and plexiform neurofibromas were identified using a hierarchical generalized linear mixed model (GLMM) approach with a logit link function as implemented in glmmTMB (v0.2.2) on the pre-processed beta-values.
+1: Partially repeated tissue sampling was modeled as a random effect with patient nested within methylation array slide unless specified otherwise.
+2: Group-level differences were determined using a likelihood ratio test (LRT) with a significance threshold of  q < 0.05.
+3: False discovery rate adjustment was done using the BenjaminiHochberg procedure.
+4: Models were filtered out for downstream analysis if they failed to converge.
+5: In total, 31,201 probes were found to be differentially methylated between cutaneous and plexiform neurofibromas.
+6: Differentially methylated regions were called using DMRcate (v1.18.0).
+7: Results from glmmTMB were wrangled into a suitable data structure as input for DMRcate by using the Wald statistic as the stat and a quasi-beta fold-change using the exponentiated model estimates for each probe.
+8: Default parameters were used for DMRcate with the bandwidth scaling factor (C parameter) set to 2.
+9: To identify differentially methylated loci associated with cutaneous neurofibroma size, a GLMM with a logit link was fitted, adjusting for age and sex differences and a random intercept term for partially repeated tissue sampling.
+10: Significant associations ( q < 0.05) between CNF size in millimeters and probe-level methylation were determined as described above.
+11: A total of 188 loci were found to be significant.
+12: Positive or negative correlations were computed on significant probes using Kendalls Tau.
+13: False discovery rate was controlled using the BenjaminiHochberg procedure and significant correlations were determined at a  q < 0.05 threshold.
+14: Significantly correlated probes were filtered on a delta Beta-value (maximum Beta-value minus the minimum Beta-value) of 0.2, resulting in 34 loci.

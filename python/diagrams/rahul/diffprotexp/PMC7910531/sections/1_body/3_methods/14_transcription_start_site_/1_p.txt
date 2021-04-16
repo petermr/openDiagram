@@ -1,0 +1,6 @@
+0: To determine which transcript to use to define the TSS for each gene, we established the most abundant transcript for each gene.
+1: To have the same definition across all tissues, we analysed cartilage and synovium tissues jointly, considering 16,886 genes that passed quantification QC in at least one tissue (based on 15,249 genes in cartilage and 16,004 genes in synovium).
+2: For each transcript, we calculated the expression in each sample as scaled TPM using tximport 41.
+3: For each gene, we then obtained the most abundant transcript in each tissue in each patient, and calculated the proportion of samples in which each transcript was the most abundant.
+4: The transcript that was the most abundant in the largest proportion of samples was used to define the TSS for the gene.
+5: For genes in which more than one transcript was the most abundant, we chose one of the most abundant transcripts at random to define the TSS.

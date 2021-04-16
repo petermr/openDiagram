@@ -1,0 +1,7 @@
+0: The limma 54 package was used to perform differential expression analysis on GSE103412 and GSE15781.
+1: Oral buccal mucosa data from GSE103412 was obtained for the initial analysis.
+2: Gene expression was visualised using ggplot2, depicting overall log 2 probe intensity for all patients.
+3: Subsequent paired t-tests were performed on gene expression values for patients to determine whether gene expression was significantly impacted by treatment.
+4: For both GSE103412 and GSE15781, a linear model was fit for the 3 genes of interest using the limma package 54 to calculate log 2 fold change, the patient ID was used as a blocking factor, which accounts for within patient bias.
+5: Expression was compared between different time points (before, during, and after treatments).
+6: For the oral mucosa dataset, GSE103412, gene expression of ISGs ( MX1, SAMHD1, IFITM3, and  TRIM25) were also visualized using ggplot2, depicting overall log 2 probe intensity for all patients, subsequent paired t-test were performed for on expression values and compared between different time points.

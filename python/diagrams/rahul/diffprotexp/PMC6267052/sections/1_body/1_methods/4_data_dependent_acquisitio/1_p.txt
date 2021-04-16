@@ -1,0 +1,12 @@
+0: The digested samples were analysed using a quadrupole Orbitrap benchtop mass spectrometer, Q-Exactive, (Thermo Fisher Scientific).
+1: Two fractions from 5 g digest of each sample were injected to an Easy nano-LC 1000 HPLC system (Thermo Fisher Scientific) equipped with an Acclaim PepMap 100 nanoViper pre-column (Thermo Scientific, C18, 3 m particles, 75 m i.d.
+2: and 2 cm long) and an Acclaim PepMap RSLC nanoViper analytical column (Thermo Scientific, C18, 2 m particles, 75 m i.d.
+3: and 25 cm long).
+4: A heated ion transfer setting of 260 C was used for desolvation together with a spray voltage of + 2000 V. The on-line reversed-phase separation was performed using a flow rate of 300 nL/min.
+5: For the DDA analysis, a binary linear gradient of 85 min was used.
+6: The gradient started with 3% solvent B for 4 min, then going to 35% solvent B in 64 min, after which it goes to 45% solvent B in 5 min.
+7: Finally, the organic solvent concentration increased up to 90% in 5 min and kept at 90% for 7 min.
+8: The MS1 and MS2 scans were performed as previously described [ 14], with the exception of MS2 resolution that was set to 17,500 in this study.
+9: The system was controlled by XcaliburTM Software (Thermo Fisher Scientific).
+10: Blank runs were injected between every sample to avoid cross-contamination.
+11: A spectral library was generated using the search result from one meniscus and one cartilage sample (4 DDA runs) in order to match the peptide retention times used for the DIA analysis.

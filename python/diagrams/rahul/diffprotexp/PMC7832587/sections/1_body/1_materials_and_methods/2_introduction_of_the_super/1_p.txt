@@ -1,0 +1,5 @@
+0: The cDNA encoding the superfolder Green Fluorescent Protein (GFP) was PCR amplified, introducing a  NotI site followed by the human Rhinovirus 3C protease sequence (3C-protease) at the 5, and the  XmaI site at the 3.
+1: The PCR product was then cloned into the  NotI and  XmaI sites of both the single-expression pYeDP60-PcATP2-TEV-BAD and the co-expression pYeDP60-PcATP2-TEV-BAD/PcCdc50B-10xHis vectors to obtain the pYeDP60-PcATP2-3C_Protease-GFP-TEV-BAD and the pYeDP60-PcATP2-3C_Protease-GFP-TEV-BAD/PcCdc50B-10xHis vectors.
+2: Using an identical cloning strategy, we also made the same constructs but without the BAD domain by adding a stop codon next to the  XmaI site, leading to the the pYeDP60-PcATP2-D596N-3C_Protease-GFP/PcCdc50B-10xHis vector.
+3: To introduce the sGFP at the C-terminal end of PcCdc50B, we amplified by PCR a DNA fragment encoding the 3C_protease followed by the GFP with  BamHI sites at both the 5 and the 3 ens.
+4: The sequence was then cloned at the  BamH1 site of pYeDP60-PcCdc50B-TEV-10xHis vectors, resulting in the pYeDP60-PcCdc50B-3C_protease-GFP-10xHis vector.

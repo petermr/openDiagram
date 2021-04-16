@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">To investigate the transcriptional changes associated with the SMAD3/FOXL2
+ <sup>C134W</sup> program, and its interaction with FOXO1, HGrC1 cells transiently expressing SMAD3 and FOXL2
+ <sup>WT</sup>/FOXL2
+ <sup>C134W</sup>, with or without FOXO1-3A (FOXO1 hereafter), were profiled using RNA sequencing (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>a). Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>: Fig. S1 shows the efficiency of transfection and demonstrates balanced protein expression of FOXL2
+ <sup>WT</sup>, FOXL2
+ <sup>C134W</sup> and FOXO1. Principal Component Analysis (PCA) was calculated on variance stabilized transformation (
+ <italic>vst</italic>)-normalized expression values from the top 500 most variable genes across samples (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>b), as well as using all expressed 37,787 genes (Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>: Figure S3). The variation between samples was largely explained by the de novo gene expression from overexpressing plasmids (Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>: Fig. S3), with samples of the same conditions clustering closer together, indicating good reproducibility between replicates. In particular, 
+ <italic>FOXO1</italic>, 
+ <italic>FOXL2</italic>, and 
+ <italic>SMAD3</italic> were the top 3 genes contribution to the first 3 PCs (38% variance explained, Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>: Figure S4). To identify genes selectively induced by FOXL2 or FOXL2
+ <sup>C134W</sup>, we next assessed differential expression analysis between FOXL2
+ <sup>WT</sup> and controls, FOXL2
+ <sup>C134W</sup> and controls, and FOXL2
+ <sup>C134W</sup> and FOXL2
+ <sup>WT</sup>, and identified a total of 452, 939 and 717 differential expressed genes (DEGs, q &lt; 0.05, Additional file 
+ <xref rid="MOESM2" ref-type="media">2</xref>: Table S1) genes respectively, many of which were shared among the different conditions (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>c). Of note, FOXL2
+ <sup>C134W</sup> induced more changes with respect to the overexpression of the wild type protein, possibly indicating an enhanced binding and/or transcriptional capacity.
+</p>

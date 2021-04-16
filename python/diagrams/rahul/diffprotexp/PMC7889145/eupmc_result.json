@@ -1,0 +1,522 @@
+{
+  "id": [
+    "33565916"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33565916"
+  ],
+  "pmcid": [
+    "PMC7889145"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7889145"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/21623945.2021.1880083"
+  ],
+  "title": [
+    "Identification of the transgene insertion site for an adipocyte-specific adiponectin-cre model and characterization of the functional consequences."
+  ],
+  "authorString": [
+    "Farrar JS, Lownik JC, Way GW, Rodriguez MC, Celi FS, Martin RK."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Farrar JS"
+          ],
+          "firstName": [
+            "Jared S"
+          ],
+          "lastName": [
+            "Farrar"
+          ],
+          "initials": [
+            "JS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7865-6526",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Clinical and Translational Research, Virginia Commonwealth University School of Medicine , Richmond, VA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lownik JC"
+          ],
+          "firstName": [
+            "Joseph C"
+          ],
+          "lastName": [
+            "Lownik"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9025-8210",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center for Clinical and Translational Research, Virginia Commonwealth University School of Medicine , Richmond, VA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Way GW"
+          ],
+          "firstName": [
+            "Grayson W"
+          ],
+          "lastName": [
+            "Way"
+          ],
+          "initials": [
+            "GW"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Microbiology and Immunology, Virginia Commonwealth University School of Medicine , Richmond, VA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rodriguez MC"
+          ],
+          "firstName": [
+            "Matthew C"
+          ],
+          "lastName": [
+            "Rodriguez"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Microbiology and Immunology, Virginia Commonwealth University School of Medicine , Richmond, VA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Celi FS"
+          ],
+          "firstName": [
+            "Francesco S"
+          ],
+          "lastName": [
+            "Celi"
+          ],
+          "initials": [
+            "FS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7218-7052",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Internal Medicine, Division of Endocrinology, Diabetes and Metabolism, Virginia Commonwealth University School of Medicine , Richmond, VA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Martin RK"
+          ],
+          "firstName": [
+            "Rebecca K"
+          ],
+          "lastName": [
+            "Martin"
+          ],
+          "initials": [
+            "RK"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9948-5463",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Microbiology and Immunology, Virginia Commonwealth University School of Medicine , Richmond, VA, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7218-7052",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7865-6526",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9948-5463",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9025-8210",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3078968"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Adipocyte"
+          ],
+          "ISOAbbreviation": [
+            "Adipocyte"
+          ],
+          "medlineAbbreviation": [
+            "Adipocyte"
+          ],
+          "NLMid": [
+            "101567863"
+          ],
+          "ISSN": [
+            "2162-3945"
+          ],
+          "ESSN": [
+            "2162-397X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "91-100"
+  ],
+  "abstractText": [
+    "The <i>Adipoq-Cre</i> transgenic mouse is widely used in the development of adipocyte-specific genetic manipulations for the study of obesity and type 2 diabetes. In the process of developing a new mouse model utilizing the adipocyte selective <i>Adipoq-Cre</i> transgenic mouse, strong genetic linkage between a gene of interest, <i>Adam10</i>, and the <i>Adipoq-Cre</i> transgene was discovered. Whole-genome sequencing of the <i>Adipoq-Cre</i> transgenic mouse model identified the genomic insertion site within the <i>Tbx18</i> gene locus on chromosome 9 and this insertion causes a significant decrease in <i>Tbx18</i> gene expression in adipose tissue. Insertion of genes <i>Kng2, Kng1, Eif4a2</i> and <i>Rfc4</i> also occurred in the <i>Adipoq-Cre</i> transgenic mouse, and these passenger genes may have functional consequences in various tissues."
+  ],
+  "affiliation": [
+    "Center for Clinical and Translational Research, Virginia Commonwealth University School of Medicine , Richmond, VA, USA."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R56 AI139658"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "UL1 TR002649"
+          ],
+          "agency": [
+            "NCATS NIH HHS"
+          ],
+          "acronym": [
+            "TR"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Bacterial artificial chromosome",
+        "Adipocyte",
+        "Insertion Site",
+        "Passenger Genes",
+        "Adipoq-cre"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/21623945.2021.1880083"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7889145"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7889145?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-10"
+  ],
+  "firstIndexDate": [
+    "2021-02-11"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-25"
+  ],
+  "dateOfRevision": [
+    "2021-03-05"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

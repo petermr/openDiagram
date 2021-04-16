@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig5">
+ <label>Fig. 5</label>
+ <caption>
+  <title>Identification of a regulatory element for TCF15.</title>
+  <p>
+   <bold>a</bold> ATAC-seq profile at the 
+   <italic>TCF15</italic> locus. Grey boxes indicate putative enhancers identified (
+   <italic>TCF15</italic> Enh-1 and 
+   <italic>TCF15</italic> Enh-2). RARA footprint identified within 
+   <italic>TCF15</italic> Enh-2. Mutant reporter sequence for 
+   <italic>TCF15</italic> Enh-2 RARA mutant. 
+   <bold>b</bold>
+   <italic>TCF15</italic> Enh-1 (
+   <italic>n</italic> = 15/15) and 
+   <bold>c</bold>
+   <italic>TCF15</italic> Enh-2 (
+   <italic>n</italic> = 9/9) reporter expression in presomitic mesoderm (Psm), notochord (Nc), somites (So) and lateral plate mesoderm (Lpm). 
+   <bold>d</bold> Combined 
+   <italic>TCF15</italic> Enh-1/Enh-2 reporter expression (
+   <italic>n</italic> = 9/9). 
+   <bold>e</bold> Transverse sections of embryo in 
+   <bold>c</bold> immunostained for Citrine showing 
+   <italic>TCF15</italic> Enh-2 expression in somites and lateral plate mesoderm, white dashed line in 
+   <bold>c</bold> indicates location of section, representative of (
+   <italic>n</italic> = 4/4). Nuclei stained with DAPI (blue). 
+   <bold>f</bold>
+   <italic>TCF15</italic> Enh-2 Citrine reporter with RARA binding site mutation displays lack of expression in somites (
+   <italic>n</italic> = 6/6). Epigenome engineering using dCas9-Krab with (
+   <bold>g</bold>) control scrambled sgRNAs resulted in no change (
+   <italic>n</italic> = 8/9) and (
+   <bold>h</bold>) sgRNAs targeting endogenous RARA binding site led to loss of 
+   <italic>TCF15</italic> expression (
+   <italic>n</italic> = 6/8) as shown by wholemount in situ hybridisation. 
+   <bold>i</bold> Percentage of embryos with normal (blue) or reduced (orange) 
+   <italic>TCF15</italic> in situ expression after electroporation of control scrambled sgRNA with dCas9-Krab or sgRNAs targeting 
+   <italic>TCF15</italic> Enh-2 RARA binding site with dCas9-Krab. All scale bars = 500 μm except for 
+   <bold>e</bold> scale bar = 100 μm.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2021_21426_Fig5_HTML" id="d32e1477" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

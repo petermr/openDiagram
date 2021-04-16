@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Determination of RISC factors involved in miRNA biogenesis is possible through nucleotide size distribution and 5’ base enrichment analyses of miRNAs. The dominant size and the enriched 5’ terminal base of known miRNAs were cleaved sequences with the size of 21 nucleotides and 5’ Uracil (U) (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s016">S5 Table</xref>). To characterize differential expressed miRNA (DEmiRNA), read counts of known and novel miRNAs were used in DESeq2, and DEmiRNAs were determined between CMV-inoculated and mock-inoculated samples based on the threshold 
+ <italic>p</italic> ≤ 0.05. In the full model that included the variety interaction as well, one DEmiRNA was UR and one was DR. Within the varieties, in ‘Jessie’ two UR- and four DR-miRNAs (including miR166, miR399) were detected, in ‘QQ74’ five DEmiRNAs (5 DR) were identified, and in ‘Red Head’ no DEmiRNA was detected. TargetFinder analysis of miRNAs detected a total of 126 candidate target genes that four (3 UR, 1 DR) belonged to the full-model design and 122 (19 UR, 103 DR) belonged to individual-variety design (
+ <xref rid="pone.0244364.t003" ref-type="table">Table 3</xref>, 
+ <xref ref-type="supplementary-material" rid="pone.0244364.s017">S6 Table</xref>). To provide comprehensive function of DEmiRNAs, enrichment analysis of targeted genes was performed by KOBAS (adjusted 
+ <italic>p</italic> ≤ 0.05). Overall enriched biological pathways were involved in cell recognition and water homeostasis. In ‘Jessie’, targeted genes were enriched in ether lipid/glycerophospholipid metabolism, ubiquitin-mediated proteolysis and endocytosis functions. In ‘QQ74’ and ‘Red Head’, no biological pathways were enriched (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s017">S6 Table</xref>).
+</p>

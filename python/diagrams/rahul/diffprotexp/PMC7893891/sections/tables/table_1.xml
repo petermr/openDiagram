@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>DEGs identified in KEGG pathway: MAPK-signaling. Differential expression indicates the average log
+   <sub>2</sub>-fold change in RNA-Seq transcript levels from three independent experiments at each sampling period: D7 vs D0, D13 vs D7, D18 v D13, and D28 v D18. The 
+   <italic>p</italic>-values were ≤ 0.001. Negative log
+   <sub>2</sub>-fold change corresponds to gene downregulation and the positive values indicate gene activation
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th colspan="4">MAPK-signaling pathway</th>
+   </tr>
+   <tr>
+    <th>Gene ID</th>
+    <th>Description</th>
+    <th>Differential expression</th>
+    <th>Time</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>CACNA1B</td>
+    <td>voltage-dependent calcium channel N type alpha-1B</td>
+    <td>−1.834598101</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CACNA2D1</td>
+    <td>voltage-dependent calcium channel alpha-2/delta-1</td>
+    <td>−5.013073193</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CACNB3</td>
+    <td>voltage-dependent calcium channel beta-3</td>
+    <td>1.96153735</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CACNG5</td>
+    <td>voltage-dependent calcium channel gamma-5</td>
+    <td>− 3.611690367</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CACNG7</td>
+    <td>voltage-dependent calcium channel gamma-7</td>
+    <td>−2.217348209</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CACNG8</td>
+    <td>voltage-dependent calcium channel gamma-8</td>
+    <td>−3.68477059</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>FGF2</td>
+    <td>fibroblast growth factor 2</td>
+    <td>−1.519463128</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>KITLG</td>
+    <td>KIT ligand</td>
+    <td>2.167299479</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>NTRK2</td>
+    <td>neurotrophic tyrosine kinase receptor type 2</td>
+    <td>8.559108654</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>KIT</td>
+    <td>proto-oncogene tyrosine-protein kinase Kit</td>
+    <td>2.471526791</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>FLT1</td>
+    <td>MS-like tyrosine kinase 1</td>
+    <td>−6.287270931</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>KDR</td>
+    <td>kinase insert domain protein receptor</td>
+    <td>−5.882467261</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>TGFB2</td>
+    <td>transforming growth factor beta-2</td>
+    <td>2.871123317</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>RASGRP2</td>
+    <td>RAS guanyl-releasing protein 2</td>
+    <td>−3.455335916</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GNG12</td>
+    <td>guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-12</td>
+    <td>−2.188972021</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>MYC</td>
+    <td>Myc proto-oncogene protein</td>
+    <td>−2.952930394</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>MECOM</td>
+    <td>ecotropic virus integration site 1 protein</td>
+    <td>3.315425714</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>PPM1B</td>
+    <td>protein phosphatase 1B</td>
+    <td>−1.591315588</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>ERBB4</td>
+    <td>receptor tyrosine-protein kinase erbB-4</td>
+    <td>4.531919812</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>CACNA1B</td>
+    <td>voltage-dependent calcium channel N type alpha-1B</td>
+    <td>1.88048051</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>CACNA2D3</td>
+    <td>voltage-dependent calcium channel alpha-2/delta-3</td>
+    <td>3.068907158</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>NTRK1</td>
+    <td>neurotrophic tyrosine kinase receptor type 1</td>
+    <td>4.469959879</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>TGFB2</td>
+    <td>transforming growth factor beta-2</td>
+    <td>2.803343326</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>KIT</td>
+    <td>proto-oncogene tyrosine-protein kinase Kit</td>
+    <td>−2.467841933</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>CACNG5</td>
+    <td>voltage-dependent calcium channel gamma-5</td>
+    <td>4.656489914</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>FGFR4</td>
+    <td>fibroblast growth factor receptor 4</td>
+    <td>−3.26316459</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>CACNA1E</td>
+    <td>voltage-dependent calcium channel R type alpha-1E</td>
+    <td>3.425325465</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>CACNG2</td>
+    <td>voltage-dependent calcium channel gamma-2</td>
+    <td>3.474133324</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>CACNG8</td>
+    <td>voltage-dependent calcium channel gamma-8</td>
+    <td>3.189789</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>KITLG</td>
+    <td>KIT ligand</td>
+    <td>2.028343818</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>EGFR</td>
+    <td>epidermal growth factor receptor</td>
+    <td>−2.084730311</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>FGFR1</td>
+    <td>fibroblast growth factor receptor 1</td>
+    <td>−2.081183963</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>FGFR2</td>
+    <td>fibroblast growth factor receptor 2</td>
+    <td>−3.256153332</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>FGFR3</td>
+    <td>fibroblast growth factor receptor 3</td>
+    <td>−5.009604609</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>KDR</td>
+    <td>kinase insert domain protein receptor</td>
+    <td>3.118215378</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>IL1RAP</td>
+    <td>interleukin 1 receptor accessory protein</td>
+    <td>3.502622162</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>PRKCB</td>
+    <td>classical protein kinase C beta type</td>
+    <td>1.642454101</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>PTPRR</td>
+    <td>receptor-type tyrosine-protein phosphatase R</td>
+    <td>2.837257876</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>PTPN5</td>
+    <td>tyrosine-protein phosphatase non-receptor type 5</td>
+    <td>2.472116702</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>MAPKAPK2</td>
+    <td>mitogen-activated protein kinase-activated protein kinase 2</td>
+    <td>−1.628879059</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>CDC25B</td>
+    <td>M-phase inducer phosphatase 2</td>
+    <td>−3.052843516</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>MAP3K5</td>
+    <td>mitogen-activated protein kinase kinase kinase 5</td>
+    <td>1.972512785</td>
+    <td>D18-D28</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

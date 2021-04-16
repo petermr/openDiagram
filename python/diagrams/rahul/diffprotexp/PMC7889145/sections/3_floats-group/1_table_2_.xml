@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0002" orientation="portrait" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>Selected genes which are near the 
+   <italic>Adipoq-Cre</italic> transgene insertion
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">NCBI Gene ID</th>
+    <th align="center">Gene Name</th>
+    <th align="center">Genetic Distance (cM)</th>
+    <th align="center">Chr9 Location (NC_000075.6)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">11,487</td>
+    <td align="center">
+     <italic toggle="yes">Adam10</italic>
+    </td>
+    <td align="center">39.53</td>
+    <td align="center">(70,678,944.70780229)</td>
+   </tr>
+   <tr>
+    <td align="left">68,801</td>
+    <td align="center">
+     <italic toggle="yes">Elovl5</italic>
+    </td>
+    <td align="center">43.36</td>
+    <td align="center">(77,917,365.77984519)</td>
+   </tr>
+   <tr>
+    <td align="left">83,603</td>
+    <td align="center">
+     <italic toggle="yes">Elovl4</italic>
+    </td>
+    <td align="center">45.6</td>
+    <td align="center">(83,778,692.83806305, complement)</td>
+   </tr>
+   <tr>
+    <td align="left">76,365</td>
+    <td align="center">
+     <italic toggle="yes">Tbx18</italic>
+    </td>
+    <td align="center">47.06</td>
+    <td align="center">(87,702,800.87731260, complement)</td>
+   </tr>
+   <tr>
+    <td align="left">22,771</td>
+    <td align="center">
+     <italic toggle="yes">Zic1</italic>
+    </td>
+    <td align="center">48.26</td>
+    <td align="center">(91,358,058.91366247, complement)</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tfn0004">
+   <p>Chromosome 9 genes which are in close genetic proximity to the 
+    <italic>Adipoq-Cre</italic> transgene insertion site within the gene 
+    <italic>Tbx18</italic>, are important in adipocyte biology, and will be difficult or impossible to generate conditional deletion models using the 
+    <italic>Adipoq-Cre</italic> mouse model.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

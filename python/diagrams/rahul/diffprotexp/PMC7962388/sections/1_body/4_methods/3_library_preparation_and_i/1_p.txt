@@ -1,0 +1,11 @@
+0: Library preparation and sequencing experiments were carried out at Instituto de Agrobiotecnologia de Rosario (INDEAR), Rosario, Argentina.
+1: Libraries were built using the TruSeq Stranded mRNA kit (Illumina) starting from 1 g of total RNA.
+2: Procedures for mRNA purification (using oligo-dT hybridization), RNA fragmentation, double-stranded cDNA synthesis, end-adenylation, ligation of adapters and enrichment (amplification) of library fragments were performed following the protocol described in TruSeq Stranded mRNA Illumina (October 2017).
+3: The library quality was checked with the DNA 1000 Kit (Agilent Technologies), using 1 ul of each preparation in a 2100 Bioanalyzer.
+4: Libraries resulted in double-stranded DNA fragments with an average size of 260 bp.
+5: Three biological samples were processed for each one of the developmental stages (premeiosis, meiosis, postmeiosis, anthesis), for both reproductive modes.
+6: Thus, a total of 24 (3  4  2) libraries were constructed.
+7: Before sequencing, the individual libraries were quantified by qPCR (Light Cycler 480 Roche) and normalized to a concentration of 3 nM.
+8: One equimolar pool of all libraries was prepared and quantified by qPCR (Light Cycler 480 Roche) using the Qiagen Library Quantification Kit.
+9: The pool was used for the generation of clusters in the sequencing cell.
+10: A sequencing run was performed by generating paired ends (PE) 2  100 bp reads in a HiSeq Illumina device.

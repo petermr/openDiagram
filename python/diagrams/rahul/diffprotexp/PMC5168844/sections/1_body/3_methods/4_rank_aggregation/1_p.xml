@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The 
+ <italic>p</italic>-values, obtained using the test statistic given in Equation 
+ <xref rid="Equ1" ref-type="">1</xref>, are used to obtain ranked lists of the “target pathways” for each cancer type. Here, ranking is done in such a way that the “target pathway” with the lowest p-value gets rank 1, the next one gets rank 2 and so on. Since, these ranked lists vary according to the cancer type; we need to aggregate them in a meaningful way to get an overall ranked list which would then rank the pathways by their global order of importance. In other words, this overall ranked list may provide us with the most important “target pathways” in all the three cancers. In order to get this overall ranked list, we have used the R package 
+ <italic>RankAggreg</italic> [
+ <xref ref-type="bibr" rid="CR12">12</xref>, 
+ <xref ref-type="bibr" rid="CR13">13</xref>] based on the Cross-entropy Monte Carlo algorithm [
+ <xref ref-type="bibr" rid="CR25">25</xref>]. In the framework of optimization problem, 
+ <italic>RankAggreg</italic> [
+ <xref ref-type="bibr" rid="CR12">12</xref>, 
+ <xref ref-type="bibr" rid="CR13">13</xref>] minimizes an objective function, so that a final ordered list is obtained which is close to all the individual ordered lists, simultaneously. The objective function is defined as follows
+ <disp-formula id="Equ6">
+  <label>6</label>
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{O}(x)={\displaystyle \sum_{i=1}^m}{w}_id\left(x,{Y}_i\right) $$\end{document}</tex-math>
+   <math id="M26">
+    <mi mathvariant="normal">Ο</mi>
+    <mfenced close=")" open="(">
+     <mi>x</mi>
+    </mfenced>
+    <mo>=</mo>
+    <mstyle displaystyle="true">
+     <munderover>
+      <mo stretchy="true">∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>m</mi>
+     </munderover>
+    </mstyle>
+    <msub>
+     <mi>w</mi>
+     <mi>i</mi>
+    </msub>
+    <mi>d</mi>
+    <mfenced close=")" open="(" separators=",">
+     <mi>x</mi>
+     <msub>
+      <mi>Y</mi>
+      <mi>i</mi>
+     </msub>
+    </mfenced>
+   </math>
+   <graphic xlink:href="13062_2016_168_Article_Equ6.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

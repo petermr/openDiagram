@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The performance of different methods has been compared in a few studies. In particular, amongst “global network” approaches, z-score and entropy-based methods have been shown to be the most reliable in reconstructing differences between synthetic networks differing in a regulator’s expression levels [
+ <xref rid="B103-ijms-21-09461" ref-type="bibr">103</xref>]. Local “gene-specific” approaches, taking into account only the first neighbours of genes for scoring, have higher performance in detecting disease-related genes when compared with global “gene-specific” approaches [
+ <xref rid="B107-ijms-21-09461" ref-type="bibr">107</xref>]. Moreover, preserving information about all edges without setting hard thresholds proved to be an advantage [
+ <xref rid="B108-ijms-21-09461" ref-type="bibr">108</xref>]. However, the different evaluation methods used cannot be directly compared, suggesting that further efforts would be needed to reach a consensus about evaluation standards.
+</p>

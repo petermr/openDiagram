@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Fig. 2</label>
+ <caption>
+  <title>Gene expression alterations are more prominent in the temporal than the frontal lobe of AD patients.</title>
+  <p>
+   <bold>A</bold> Volcano plots showing differentially expressed genes (DEG, red dots; FC &gt; 1.3 and FDR &lt; 0.01) in the frontal lobe (ROSMAP and MSBB FL - BM10 and BM44) and temporal lobe (Mayo and MSBB TL - BM22 and BM36). 
+   <bold>B</bold> Upset plot showing the total number of DEGs identified in each dataset (horizontal bars) and the number of DEGs exclusive of one dataset (first four vertical bars) or shared by different datasets (other vertical bars). Black dots below vertical bars indicate datasets quantified. Venn diagram illustrates the same results in colors and circle sizes. 
+   <bold>C</bold> Gene ontology terms enriched for DEGs identified in the TL or FL intersections (TLI and FLI, respectively).
+  </p>
+ </caption>
+ <graphic xlink:href="41514_2020_52_Fig2_HTML" id="d31e772" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

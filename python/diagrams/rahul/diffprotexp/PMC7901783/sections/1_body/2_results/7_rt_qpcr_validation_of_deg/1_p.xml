@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>RT-qPCR with specific primers was used to validate DEG patterns detected 
+ <italic>in silico</italic> from RNASeq for nine genes involved in RNA transport, membrane structure, lipid or protein biosynthesis. The resultant fold changes between CMV- and mock-inoculated samples were compared to those of detected DEGs from DESeq2 output. All 
+ <italic>in vitro</italic> tested genes had the same expression patterns as 
+ <italic>in silico</italic> detected DEGs (
+ <xref ref-type="fig" rid="pone.0244364.g006">Fig 6</xref>), which validates reliability of DEG analysis utilized in this study.
+</p>

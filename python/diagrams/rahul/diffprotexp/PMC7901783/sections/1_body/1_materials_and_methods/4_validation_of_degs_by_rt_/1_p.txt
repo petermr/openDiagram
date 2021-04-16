@@ -1,0 +1,11 @@
+0: To validate RNASeq results, nine significant DEGs were randomly selected to conduct quantitative RT-PCR on total RNA samples used for RNASeq experiment.
+1: To target each gene, two random samples were selected as template: one from mock-inoculated and one from virus-inoculated sample.
+2: For each sample, two technical replicates were used.
+3: Primers were designed by Primer3 software ( S1 Table).
+4: Total RNA was primed by random hexamer and reverse transcribed using SuperScriptTM III Reverse Transcriptase (Invitrogen, Carlsbad, CA, USA) according to manufacturers instruction.
+5: The cDNA synthesis was carried out on Eppendorf Mastercycler Nexus Thermal Cycler (Hamburg, Germany).
+6: The PCR reaction was conducted in a final volume of 10l [1 l cDNA, 0.4 l of each primer (10 M), 3.2 l RNase/DNase-free water, and 5 l PowerUpTM SYBRTM Green Master Mix (Applied Biosystems, USA)].
+7: The amplification conditions were 2min at 50C for UDG activation, initial denaturation of 2min at 95C followed by 40 cycles of 95C for 15 s and 60C for 1min.
+8: The qPCR was performed by QuantStudioTM 6 Flex Real-Time PCR machine (Applied Biosystems, Foster City, CA, USA).
+9: Elongation Factor 1 (CqEF1)(XM_021888526.1) was considered as the reference gene for normalization of gene expression.
+10: Relative gene expression was calculated using the 2 CT method [ 59].

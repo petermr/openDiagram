@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="CR75">
+ <label>75.</label>
+ <element-citation publication-type="journal">
+  <person-group person-group-type="author">
+   <name>
+    <surname>Ewels</surname>
+    <given-names>P</given-names>
+   </name>
+   <name>
+    <surname>Magnusson</surname>
+    <given-names>M</given-names>
+   </name>
+   <name>
+    <surname>Lundin</surname>
+    <given-names>S</given-names>
+   </name>
+   <name>
+    <surname>Käller</surname>
+    <given-names>M</given-names>
+   </name>
+  </person-group>
+  <article-title>MultiQC: summarize analysis results for multiple tools and samples in a single report</article-title>
+  <source>Bioinformatics</source>
+  <year>2016</year>
+  <volume>32</volume>
+  <fpage>3047</fpage>
+  <lpage>3048</lpage>
+  <pub-id pub-id-type="doi">10.1093/bioinformatics/btw354</pub-id>
+  <?supplied-pmid 27312411?>
+  <pub-id pub-id-type="pmid">27312411</pub-id>
+ </element-citation>
+</ref>

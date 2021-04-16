@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0240">The potential mechanisms of the dysregulation of the inter-organ metabolic cycles in this study may not reflect direct causal relationship and should be validated by further experiments in the future. Limitations of our study include that we evaluated only liver and skeletal muscle and only at a single time point of fasting. More detailed investigation of the effects of obesity on metabolite exchange across each organ will require the acquisition of metabolite time series data using isotope tracers (
+ <xref rid="bib13" ref-type="bibr">Fernández-García et al., 2020</xref>), along with acquisition of transcriptomic and proteomic data at multiple time points. The sample size of lipidome (n = 3) is relatively small compared with other omic analyses, and the statistical power is low for lipidomic analysis. For this reason, we did not include the lipidomic data in the trans-omic networks (
+ <xref rid="fig4" ref-type="fig">Figure 4</xref>). In addition, we focused on metabolic reactions. However, perturbations in liver and skeletal muscle of 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice are not limited to metabolism. These mice also exhibit increased chronic inflammation or disrupted organ architecture (
+ <xref rid="bib9" ref-type="bibr">Cohen et al., 2011</xref>). We need to analyze other perturbed cellular functions than metabolism for comprehensive understanding of systemic changes in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice. For example, skeletal muscle is primarily a contractile organ. Thus, these cells may adapt to obesity through changes in non-metabolic cellular functions, such as muscle contraction. Indeed, we found pathways involved in contractile function, such as the regulation of actin cytoskeleton, from pathway enrichment analysis in DEGs in skeletal muscle (
+ <xref rid="mmc3" ref-type="supplementary-material">Table S2</xref>) and identified increased DEPs associated with muscle contraction, such as Myh2 and Myh7 (see 
+ <xref rid="fig2" ref-type="fig">Figure 2</xref>D). There are two types of regulation of TFs: regulation by expression change and regulation by posttranslational modifications including, phosphorylation (differentially phosphorylated TFs (DPTFs)). In this study, we identified DETFs using RNA-seq and included only pFoxo1 as a DPTF based on the literature. In the future, the phosphoproteomic measurement will allow us to comprehensively identify DPTFs according to our methods (
+ <xref rid="bib68" ref-type="bibr">Yugi et al., 2014</xref>; 
+ <xref rid="bib29" ref-type="bibr">Kawata et al., 2019</xref>). Identification of both DETFs and DPTFs will enable us to examine how much of gene expression is controlled by DETFs and DPTFs in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice. Thus, large-scale measurements of phosphorylation levels of metabolic molecules by the phosphoproteomics are required (
+ <xref rid="bib68" ref-type="bibr">Yugi et al., 2014</xref>; 
+ <xref rid="bib29" ref-type="bibr">Kawata et al., 2019</xref>; 
+ <xref rid="bib21" ref-type="bibr">Humphrey et al., 2013</xref>). We also only evaluated TFs as upstream regulators of the gene expression network. Yet, considerations of epigenomic controls, such as histone modifications and DNA methylation, will provide us with further insight into the organ-specific traits of gene expression regulatory network (
+ <xref rid="bib1" ref-type="bibr">Ahrens et al., 2013</xref>; 
+ <xref rid="bib32" ref-type="bibr">Kirchner et al., 2016</xref>). RNA-mediated regulation, such as through miRNA or lncRNA, is also likely and will need to be added to the regulatory network to enable comprehensive analyses.
+</p>

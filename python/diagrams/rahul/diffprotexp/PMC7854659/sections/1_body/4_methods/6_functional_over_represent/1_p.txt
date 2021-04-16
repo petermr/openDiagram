@@ -1,0 +1,8 @@
+0: We carried out functional over-representation analyses to identify the biological process and pathways underpinning relevant functions related to fetal programming.
+1: The gene lists from DEG, TS, and TF analyses were queried by using ClueGO v. 2.5.7 ( https://rb.gy/x5cb7q), considering a cluster analysis framework 91.
+2: This approach allowed us to underline specific and common biological functions within and among gene lists for each tissue.
+3: To reduce the redundancy of the GO terms, we applied the fusion of similar biological processes.
+4: Likewise, the terms were grouped based on the kappa score = 0.4.
+5: Significant results were taken considering the group  p-value after Bonferroni step down correction ( adj.pvalue  0.05).
+6: Pathway analysis was performed for DC genes by using the ShinyGO v0.61 92 ( https://rb.gy/o97axc).
+7: This analysis was performed separately for each tissue considering the  B. taurus annotation as background and  adj.pvalue  0.05 as significant.

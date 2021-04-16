@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig9">
+ <label>Fig. 9</label>
+ <caption>
+  <title>RUNX1/RUNX1T1 indirectly affects differential splicing in Kasumi-1 cells.</title>
+  <p>
+   <bold>a</bold> Bar graph showing the impact of RUNX1/RUNX1T1 knockdown on the expression of mRNA surveillance genes (SurG), genes encoding splicing factors (SplG) and transcription factors genes (TFG) associated with splicing. Bars represent mean ± SD of three independent qPCR experiments. *
+   <italic>p</italic> &lt; 0.05, **
+   <italic>p</italic> &lt; 0.01, ***
+   <italic>p</italic> &lt; 0.001 with one-tailed Student’s t test. 
+   <bold>b</bold> Graph showing correlation between RNA-seq and q-PCR validation of differential RNA processing gene expression. 
+   <bold>c</bold> IGV screen shot depicting RUNX1/RUNX1T1 binding and RNA-Seq reads for the 
+   <italic>USB1</italic> locus. 
+   <bold>d</bold> Cytoscape scheme showing RUNX1/RUNX1T1-centered gene regulatory network of genes encoding splicing regulators and mRNA surveillance factors. Terms “upregulated genes” and “downregulated genes” refer to a change in the expression of the genes after 
+   <italic>RUNX1</italic>/
+   <italic>RUNX1T1</italic> knockdown. Positively and negatively co-expressed genes linked by green and red edges, respectively. Examples of the genes from each group are shown in the respective dashed boxes. 
+   <bold>e</bold> Effect of the strength of the motifs to splicing factors on the probability of non-diffEEJs and diffEEJs in leukemia cells. These partial dependence plots are based on the results from 1,000 independent runs of the random forest meta-classifier and 1000 classification trees per random forest per run.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20848_Fig9_HTML" id="d32e1686" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

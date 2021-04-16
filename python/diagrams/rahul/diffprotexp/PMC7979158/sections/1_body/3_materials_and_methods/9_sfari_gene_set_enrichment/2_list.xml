@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="simple">
+ <list-item>
+  <p>
+   <italic>t</italic> = number of overlapping DE genes with SFARI gene orthologs with gene_score 1 or 2
+  </p>
+ </list-item>
+ <list-item>
+  <p>
+   <italic>b</italic> = number of SFARI gene orthologs with gene_score 1 or 2
+  </p>
+ </list-item>
+ <list-item>
+  <p>
+   <italic>a</italic> = number of DE genes at a developmental stage
+  </p>
+ </list-item>
+ <list-item>
+  <p>
+   <italic>n</italic> = number of genes at a developmental stage 
+   <italic>sum</italic> returns the sum of all the values present in its arguments. 
+   <italic>dhyper</italic> calculates density for the hypergeometric distribution.
+  </p>
+ </list-item>
+</list>

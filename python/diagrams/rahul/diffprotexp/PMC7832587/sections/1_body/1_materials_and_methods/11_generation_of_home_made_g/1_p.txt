@@ -1,0 +1,18 @@
+0: We first expressed and purified a nanobody directed against GFP (nanoGFP).
+1: The plasmid vector pOPINE GFP nanobody was a gift from Brett Collins (Addgene plasmid # 49172) [ 33].
+2: 500 mL of  E. coli BL21 cells harbouring this plasmid were cultured at 37C in LB media supplemented with ampicillin.
+3: When the OD 600 reached 0.6, the temperature was dropped to 20C, and protein expression was induced with 1 mM isopropyl -D-1-thiogalactopyranoside (IPTG) (Sigma-Aldrich) for 2024 h at 20C.
+4: The cells were spun down, flash-frozen in liquid nitrogen, and stored at 80C.
+5: The cell-pellet was re-suspended in 10 mL of lysis buffer (PBS pH 8, 0.5 M NaCl, 5 mM imidazole, 1 mM PMSF and 10 g/L of Lysozyme) and left for 1 h at 4C with gentle rotation.
+6: Cells were broken by sonication, maintaining the cells always on ice.
+7: Cell lysate was centrifuged at 20,000   g for 20 min at 4C, and the supernatant was mixed with 1 mL of TALON metal affinity beads (Clontech) previously equilibrated with equilibration buffer (PBS pH 8, 0.5 M NaCl and 5 mM imidazole), and incubated for 1 h at 4C under gentle rotation.
+8: After incubation, the beads were sequentially washed with 20 column-volumes of equilibration buffer, 10 column-volumes of equilibration buffer with 20 mM imidazole, and 10 column-volumes of equilibration buffer with 30 mM imidazole.
+9: The nanoGFP was eluted with two steps of 5 column-volumes of equilibration buffer with 150 mM of imidazole, and 5 column-volumes of equilibration buffer with 300 mM imidazole.
+10: The elution fractions were analyzed by SDS-PAGE, pooled and concentrated using a Vivaspin 20,5,000 Mw concentrator (Sartorius).
+11: The concentrated protein was dialyzed overnight at 4C to remove the imidazole, further concentrated and stored at 4C until use.
+12: The purified nanoGFP was then covalently bound to agarose beads.
+13: 1 ml of NHS-Activated Sepharose 4 Fast Flow beads (GE Healthcare Life Sciences) was washed with 1015 column-volumes of 1 mM HCl, and equilibrated with PBS pH 7.5.
+14: Then, 1 mg of nanoGFP was added to the beads and left overnight at 4C under gentle rotation, keeping a nanoGFP to beads volume ratio of approximately 0.51.
+15: After the overnight reaction, the remaining non-reacted sites were blocked by the addition of 1015 column-volumes of 0.1 M Tris-HCl pH 8.5 followed by a 4 h incubation with this buffer at 4C.
+16: Finally, the beads were subjected to 3 cycles of two sequential washes of 3 column-volumes of 0.1 M Tris-HCl, 0.5 M NaCl, pH 8.5 and 3 column-volumes of 0.1 M Acetate buffer, pH 5.0, 0.5 M NaCl.
+17: Finally, the home-made GFP-Trap  beads were equilibrated in PBS pH 8.0 and stored at 4C until use.

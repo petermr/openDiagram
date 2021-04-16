@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">Gene ontology (GO) annotations of the genes were determined by the g:Profiler program (
+ <ext-link ext-link-type="uri" xlink:href="http://biit.cs.ut.ee/gprofiler/" xmlns:xlink="http://www.w3.org/1999/xlink">http://biit.cs.ut.ee/gprofiler/</ext-link>). The g:Profiler internally uses g:GOSt which takes a list of genes and does functional profiling of them using different kinds of biological evidence. The tool performs statistical enrichment analysis to find information like Gene ontology terms and biological pathways.
+</p>

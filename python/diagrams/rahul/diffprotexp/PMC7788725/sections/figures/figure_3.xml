@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <p>Identification and visualization of the dysregulated binding genes in RNA-seq. 
+   <bold>a</bold> Volcano plots for the RNA-seq normalized transcript data consistent with ChIP-seq genes in control and DCM. Red, significantly up-regulated genes; blue, significantly down-regulated genes; gray, no significant change. 
+   <bold>b</bold> Possible LMNA regulatory and co-expression networks. Hexagons and ellipses, respectively, represent candidate genes of LMNA and LAP2α-lamin A/C complexes. Pink nodes indicate the up-regulated candidate genes, and the down-regulated candidate genes are shown by green nodes. 
+   <bold>c</bold> Circular visualization of connectivity, expression patterns, and chromosomal positions of the candidate genes between functional analysis and DEGs. The outermost circle represents chromosome localization information; inner lines coming from these genes point to their specific chromosomal locations. The down-regulated and up-regulated genes according to adjusted P values are labeled in blue and red and connected with blue and red lines in the center of circles. Expression patterns of candidate genes are represented in the inner circular heatmaps. Blue indicates downregulation and red represents the up-regulation gene. Plots were generated using the Circos visualization tool by OmicCircos package in R
+  </p>
+ </caption>
+ <graphic xlink:href="13148_2020_996_Fig3_HTML" id="MO3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

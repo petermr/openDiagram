@@ -1,0 +1,6 @@
+0: Search results of this data was downloaded from ProteomeXchange with identifier PXD006122 associated with a previous study ( 25).
+1: The mean intensity of two internal references (TMT tag 126 and 131) was used as denominator to calculate peptide ratios, the median of peptide ratios was taken as protein ratios.
+2: Protein ratios were then log2 transformed.
+3: PSMs and proteins were filtered at 1% PSMs and protein level FDR.
+4: The minimum number of quantified PSMs across multiple TMT sets was used in DEqMS.
+5: The cohort included samples from 8 Parkinson's disease dementia patients, 7 dementia with Lewy bodies patients, 9 patients with Alzheimer's disease and 8 elderly non-neurological controls.

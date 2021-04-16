@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The expression of an uncharacterized protein (TOL_3187; 
+ <italic>P</italic> &lt; 0.0001) increased 42-fold in the presence of 
+ <italic>n-</italic>C
+ <sub>28</sub> when compared to 
+ <italic>n-</italic>C
+ <sub>14</sub> and Tween 80 (Figure 
+ <xref ref-type="fig" rid="F4">4A</xref>). Domain analysis showed two mycobacterial membrane protein large (MMPL) domains and a LolA-like domain. MMPL proteins are important in substrate transport across the inner membrane to the periplasm. SCOOP analysis in Pfam was used to detect protein families which have a relationship with the MMPL family using sequence information, revealing a relationship with the protein export SecD/SecF family. LolA is required for localization of lipoproteins to the outer membrane. Consensus prediction of GO terms in I-TASSER showed the predicted molecular function of the protein is a transporter (GO:0005215), the biological process is transport (GO:0006810) and the protein is an integral component of a membrane (GO:0016021). Another uncharacterized protein (TOL_3188; 
+ <italic>P</italic> &lt; 0.0001) is coded by a gene immediately downstream of TOL_3187 and was expressed exclusively when growing on 
+ <italic>n-</italic>C
+ <sub>28</sub> (Figure 
+ <xref ref-type="fig" rid="F4">4A</xref>). Domain analysis showed that no conserved domains were present. Consensus prediction of GO terms in I-TASSER showed the predicted molecular function is a porin (GO:0015288) and the protein is part of a macromolecular complex (GO:0032991) between two or more proteins. This porin may be transported to the outer membrane via the MMPL protein (TOL_3187) and then facilitate the passage of long-chain alkanes (Figure 
+ <xref ref-type="fig" rid="F4">4B</xref>).
+</p>

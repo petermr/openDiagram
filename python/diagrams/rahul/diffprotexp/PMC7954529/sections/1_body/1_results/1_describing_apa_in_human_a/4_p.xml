@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To quantify PAS usage, we first assigned each PAS to a gene using the hg38 RefSeq annotation (
+ <xref rid="bib64" ref-type="bibr">Pruitt et al., 2004</xref>). We then computed the usage for each PAS in each individual as the fraction of reads mapping to one PAS over the total number of reads mapping to any PAS for the same gene (
+ <xref ref-type="fig" rid="fig1s2">Figure 1—figure supplement 2</xref>). We excluded PAS in lowly expressed genes (log
+ <sub>2</sub>(CPM) ≤2 in four or more individuals) or with less than 5% usage, as measurements from sparse data are highly susceptible to random error (see 'Materials and methods'). We observed a strong correlation between PAS usage in mRNA from the nuclear and total cell fractions in all but one cell line (human NA18499; 
+ <xref ref-type="fig" rid="fig1s3">Figure 1—figure supplement 3</xref>), which we subsequently excluded from the study. We re-identified PAS after removing all data from NA18499 and re-quantified PAS usage using nuclear 3' Seq data from five human and six chimpanzee LCLs. Using this analysis pipeline, we identified a total of 44,432 PAS in 9518 genes, which we used for all downstream analyses. On a genome-wide scale, we found that mean PAS usage is highly correlated between species (Pearson’s correlation, 0.9, p&lt;2.2×10
+ <sup>−16</sup>, 
+ <xref ref-type="fig" rid="fig1s4">Figure 1—figure supplement 4</xref>). However, as expected, 41.8% of the variation in PAS usage (as explained by the top principal component of the data) is highly correlated with species (Pearson’s correlation 0.99, p=2.95×10
+ <sup>−8</sup>, 
+ <xref ref-type="fig" rid="fig1s5">Figure 1—figure supplement 5</xref>), indicating substantial divergence in PAS usage.
+</p>

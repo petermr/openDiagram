@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Mok</surname>
+   <given-names>Gi Fay</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4009-6540</contrib-id>
+  <name>
+   <surname>Folkes</surname>
+   <given-names>Leighton</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Weldon</surname>
+   <given-names>Shannon A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9419-7374</contrib-id>
+  <name>
+   <surname>Maniou</surname>
+   <given-names>Eirini</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Martinez-Heredia</surname>
+   <given-names>Victor</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5760-011X</contrib-id>
+  <name>
+   <surname>Godden</surname>
+   <given-names>Alice M.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Williams</surname>
+   <given-names>Ruth M.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9289-0263</contrib-id>
+  <name>
+   <surname>Sauka-Spengler</surname>
+   <given-names>Tatjana</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4335-8577</contrib-id>
+  <name>
+   <surname>Wheeler</surname>
+   <given-names>Grant N.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4644-1816</contrib-id>
+  <name>
+   <surname>Moxon</surname>
+   <given-names>Simon</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4577-4240</contrib-id>
+  <name>
+   <surname>Münsterberg</surname>
+   <given-names>Andrea E.</given-names>
+  </name>
+  <address>
+   <email>a.munsterberg@uea.ac.uk</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.8273.e</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 1092 7967</institution-id>
+   <institution>School of Biological Sciences, Cell and Developmental Biology, </institution>
+   <institution>University of East Anglia, Norwich Research Park, </institution>
+  </institution-wrap>Norwich, UK 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.4991.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1936 8948</institution-id>
+   <institution>MRC Weatherall Institute of Molecular Medicine, Radcliffe Department of Medicine, </institution>
+   <institution>University of Oxford, </institution>
+  </institution-wrap>Oxford, UK 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.83440.3b</institution-id>
+   <institution-id institution-id-type="ISNI">0000000121901201</institution-id>
+   <institution>Present Address: Developmental Biology and Cancer, </institution>
+   <institution>University College London, Great Ormond Street Hospital, Institute of Child Health, </institution>
+  </institution-wrap>London, UK 
+ </aff>
+</contrib-group>

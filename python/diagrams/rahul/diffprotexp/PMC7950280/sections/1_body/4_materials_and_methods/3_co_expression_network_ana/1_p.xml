@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The expression data of DEGs overlapped from HD versus control as well as BDNF-low versus high groups were extracted to perform weight gene correlation network analysis (WGCNA). The hclust function was implemented to draw the clustering dendrogram eliminating the outliers of samples. Using the default unsigned network type, a soft thresholding power of 14 meeting the scale-free topology criterion was selected in the pickSoftThreshold function [
+ <xref rid="r39" ref-type="bibr">39</xref>]. The WGCNA package was implied to predict the co-expression modules for assigning different color labels [
+ <xref rid="r40" ref-type="bibr">40</xref>]. The minimum size of module was set to 30 genes to avoid small modules and guarantee separation. Functional annotations and enrichment analyses were conducted using the clusterProfiler package to screen genes enriched in Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways. The FDR &lt; 0.05 was considered as enrichment with statistical significance.
+</p>

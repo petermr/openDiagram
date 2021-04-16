@@ -1,0 +1,3 @@
+0: The gene ontology (GO) term enrichment of DEGs was analyzed using GOSeq (v.1.24) 54, controlling for gene-length bias.
+1: All genes expressed in the samples were used as a background set in order to find over-represented GO terms in the DEGs.
+2: Hypergeometric test (Benjamini and Hochberg correction) was performed to compensate for multiple testing at a significance level set to a value of < 0.05 in our analyses.

@@ -1,0 +1,13 @@
+0: The raw DDA data were searched against the human Swiss-Prot database (Swiss-Prot_2015_06, containing 20,200 sequences) using Proteome DiscovererTM 2.1 Software (Thermo Fisher Scientific) as previously described [ 14], with the exceptions of included modifications, which in this study was: static modification: cysteine carbamidomethylation and dynamic modifications: N-terminal acetylation and methionine oxidation.
+1: In the data analysis, the top 3 peptides are averaged, which is based on a study that reported that the average MS signal response for the three most intense tryptic peptides signals per mole of protein is constant [ 15].
+2: The peak intensity reported represents the abundance of the protein in the tissue extracts.
+3: The spectral library used was created in Proteome DiscovererTM 2.1 using the four DDA runs that were run using the same gradient as the DIA runs and imported into Skyline Daily (MacCoss Laboratories).
+4: The DIA data was analysed in Skyline and matched against the generated spectral library.
+5: Only multiple-charged (2,3) precursor ions and single-charged fragment ions were included, together with default ion types (b, y).
+6: N-terminal to proline was used as special ions, and the ion match tolerance was set to 0.1 m/z.
+7: Since the aim of this study was to compare the DDA and DIA protocol to select the best approach for further studies of samples from OA, we chose to narrow down the number of proteins included in the comparison.
+8: Therefore, only a subset of the identified proteins was selected for analysis.
+9: This selection was based on the DDA data by performing several filtration steps on the data in Proteome DiscovererTM 2.1 according to the following criteria: (1) proteins had to have at least two unique peptides per protein, (2) proteins had to be classified as an ECM protein (GO accession term: 0031012) and (3) proteins had to be identified in both tissue types.
+10: The data analysis of the DIA analysis was focused on the proteins remaining after these filtration steps.
+11: Manual peak selection of the peptides was performed in Skyline and remaining proteins and peptides were the basis of the statistical analysis.
+12: After the peak selection 103 proteins remained (see Additional file  2: Table S1).

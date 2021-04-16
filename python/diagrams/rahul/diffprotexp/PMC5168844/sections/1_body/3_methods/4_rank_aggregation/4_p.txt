@@ -1,0 +1,2 @@
+0: For our second analysis at the individual protein level, the  p-values, obtained using the test statistic given in Equation  4, are used to rank the set of 132 individual proteins.
+1: An overall ranked list of these proteins is obtained using the R package  RankAggreg [ 12,  13] in a similar way.

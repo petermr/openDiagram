@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0003" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>Identification of common genes in sepsis. (
+   <bold>A</bold>) Petal plot of sample size for sepsis and control groups in four datasets. Red petals represent healthy controls; blue petals, sepsis patients. (
+   <bold>B</bold>) Manhattan plot of differentially expressed genes between sepsis patients and healthy controls in GSE13904 and GSE154918. Up, up-regulation in sepsis; Down, down-regulation in sepsis; Not, no significant difference from controls. The three genes in each group showing the largest fold difference are labeled. (
+   <bold>C</bold>) Venn diagram of differentially expressed genes in GSE13904 (children) and GSE154918 (adults). (
+   <bold>D</bold>) Venn diagram showing DEGs in GSE13904 (children) and GSE154918 (adults) as well as module genes, that are common to adults and children or specific to each one of those groups.
+  </p>
+ </caption>
+ <graphic content-type="print-only" xlink:href="JIR-14-829-g0003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

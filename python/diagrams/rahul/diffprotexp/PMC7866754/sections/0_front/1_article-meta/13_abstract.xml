@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">
+   <italic>Plasmodium falciparum</italic> causes the deadliest form of malaria, which remains one of the most prevalent infectious diseases. Unfortunately, the only licensed vaccine showed limited protection and resistance to anti-malarial drug is increasing, which can be largely attributed to the biological complexity of the parasite’s life cycle. The progression from one developmental stage to another in 
+   <italic>P. falciparum</italic> involves drastic changes in gene expressions, where its infectivity to human hosts varies greatly depending on the stage. Approaches to identify candidate genes that are responsible for the development of infectivity to human hosts typically involve differential gene expression analysis between stages. However, the detection may be limited to annotated proteins and open reading frames (ORFs) predicted using restrictive criteria.
+  </p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">The above problem is particularly relevant for 
+   <italic>P. falciparum</italic>; whose genome annotation is relatively incomplete given its clinical significance. In this work, systems proteogenomics approach was used to address this challenge, as it allows computational detection of unannotated, novel Open Reading Frames (nORFs), which are neglected by conventional analyses. Two pairs of transcriptome/proteome were obtained from a previous study where one was collected in the mosquito-infectious oocyst sporozoite stage, and the other in the salivary gland sporozoite stage with human infectivity. They were then re-analysed using the proteogenomics framework to identify nORFs in each stage.
+  </p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">Translational products of nORFs that map to antisense, intergenic, intronic, 3′ UTR and 5′ UTR regions, as well as alternative reading frames of canonical proteins were detected. Some of these nORFs also showed differential expression between the two life cycle stages studied. Their regulatory roles were explored through further bioinformatics analyses including the expression regulation on the parent reference genes, in silico structure prediction, and gene ontology term enrichment analysis.</p>
+ </sec>
+ <sec>
+  <title>Conclusion</title>
+  <p id="Par4">The identification of nORFs in 
+   <italic>P. falciparum</italic> sporozoites highlights the biological complexity of the parasite. Although the analyses are solely computational, these results provide a starting point for further experimental validation of the existence and functional roles of these nORFs,
+  </p>
+ </sec>
+</abstract>

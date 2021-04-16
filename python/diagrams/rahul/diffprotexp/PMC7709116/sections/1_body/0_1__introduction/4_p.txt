@@ -1,0 +1,12 @@
+0: Since the cell bodies and processes of these two major neuronal cell types are intermixed throughout the striatum, which complicates their clean isolation and downstream proteomic profiling, we used FANS to circumvent this problem.
+1: Although FACS is the most commonly used technology to isolate discrete populations of individual cell types [ 15, 16, 17], this approach may not be an optimal strategy to isolate intact neurons as the cells first need to be individually dissociated into a single-cell suspension [ 10].
+2: During this process it is likely that synapses and neurites may become damaged or retract [ 10], a conclusion supported by our preliminary studies.
+3: Indeed, the papain digestion that is often used to break neural cell-cell interactions destroys many axons and dendrites that can stress neural cells and change their expression profiles [ 16].
+4: To overcome this challenge, we used FANS to isolate nuclei-containing cellular fractions from striatum of D1R- and D2R-TRAP mice.
+5: This approach enabled us to carry out a robust and reproducible sample preparation workflow for downstream mass spectrometry studies.
+6: Since the amounts of protein that can be isolated with this approach are limiting, we coupled FANS isolation with a streamlined protocol for protein profiling that incorporates on-column Tandem Mass Tag (TMT) labeling [ 25].
+7: Using this method, we quantified 714 proteins.
+8: Of the 685 proteins that did not have any missing values in any of the four D1 and four D2 biological replicates, 87 were significantly differentially regulated between these two cell types with 40 up-regulated and 47 down-regulated in D1 MSNs.
+9: Hierarchical clustering of the 87 differentially expressed proteins separated all eight samples into D1 and D2 clusters.
+10: GO term analysis of these proteins determined that 53% were derived from the nucleus.
+11: Central network analysis of the differentially expressed proteins identified different central interactors for each cell type: Hnrnpd and Hnrnpa2b1 in D1 and Cct2 and Cct7 in the D2 nuclear fractions.

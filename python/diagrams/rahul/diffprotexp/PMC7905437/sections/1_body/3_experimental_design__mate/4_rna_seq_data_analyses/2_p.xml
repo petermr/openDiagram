@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="para0012">RNA sequencing was performed in four 
+ <italic>Notch4
+  <sup>d1</sup>
+ </italic> mice (2 females and 2 males) and six 
+ <italic>Notch3
+  <sup>d1</sup>
+ </italic> mice (3 females and 3 males) in an illumina NovaSeq 6000 sequencing machine (Illumina, San Diego, CA) at a strand specific 100 cycle paired-end resolution as described recently 
+ <xref rid="bib0003" ref-type="bibr">[3]</xref>. Sequencing generated between 28.0 to 32.1 million reads per sample. The read quality was assessed using the fastQC software 
+ <xref rid="bib0013" ref-type="bibr">[13]</xref>. The quality score per sequence measured in the Phred quality scale was on average above 32 for all the samples. Sequenced reads were mapped to the mouse genome (GRCm38.rel97) using STAR software, version 2.6.1c 
+ <xref rid="bib0014" ref-type="bibr">[14]</xref>. Between 91% and 96% of the sequenced reads mapped to the reference genome, resulting in 26.5 and 29.3 million mapped reads per sample.
+</p>

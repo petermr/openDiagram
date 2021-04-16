@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig3">
+ <label>Figure 3</label>
+ <caption>
+  <p>
+   <italic>BRAF</italic> V600E mutation status in PC samples. A – plot for principle component analysis in normalized gene expression space for all PC profiles investigated. B – hierarchical clustering based on Euclidian distance in gene space in relation to 
+   <italic>BRAF</italic> V600E mutation status. Drawn using ggplot package in R, clustering algorithm “ward.d2”. Expression counts were normalized with DESeq2.
+  </p>
+ </caption>
+ <alt-text id="alttext0065">Figure 3</alt-text>
+ <graphic xlink:href="gr3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

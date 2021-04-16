@@ -1,0 +1,543 @@
+{
+  "id": [
+    "33487106"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33487106"
+  ],
+  "pmcid": [
+    "PMC7834086"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7834086"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/21505594.2021.1872171"
+  ],
+  "title": [
+    "The PirB toxin protein from <i>Vibrio parahaemolyticus</i> induces apoptosis in hemocytes of <i>Penaeus vannamei</i>."
+  ],
+  "authorString": [
+    "Zheng Z, Li R, Aweya JJ, Yao D, Wang F, Li S, Tuan TN, Zhang Y."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zheng Z"
+          ],
+          "firstName": [
+            "Zhou"
+          ],
+          "lastName": [
+            "Zheng"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "STU-UMT Joint Shellfish Research Laboratory, Shantou University , Shantou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li R"
+          ],
+          "firstName": [
+            "Ruiwei"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "STU-UMT Joint Shellfish Research Laboratory, Shantou University , Shantou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Aweya JJ"
+          ],
+          "firstName": [
+            "Jude Juventus"
+          ],
+          "lastName": [
+            "Aweya"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2554-9369",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "STU-UMT Joint Shellfish Research Laboratory, Shantou University , Shantou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yao D"
+          ],
+          "firstName": [
+            "Defu"
+          ],
+          "lastName": [
+            "Yao"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "STU-UMT Joint Shellfish Research Laboratory, Shantou University , Shantou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang F"
+          ],
+          "firstName": [
+            "Fan"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "STU-UMT Joint Shellfish Research Laboratory, Shantou University , Shantou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li S"
+          ],
+          "firstName": [
+            "Shengkang"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "STU-UMT Joint Shellfish Research Laboratory, Shantou University , Shantou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tuan TN"
+          ],
+          "firstName": [
+            "Tran Ngoc"
+          ],
+          "lastName": [
+            "Tuan"
+          ],
+          "initials": [
+            "TN"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "STU-UMT Joint Shellfish Research Laboratory, Shantou University , Shantou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang Y"
+          ],
+          "firstName": [
+            "Yueling"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "STU-UMT Joint Shellfish Research Laboratory, Shantou University , Shantou, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Southern Marine Science and Engineering Guangdong Laboratory , Guangzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2554-9369",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3080655"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Virulence"
+          ],
+          "ISOAbbreviation": [
+            "Virulence"
+          ],
+          "medlineAbbreviation": [
+            "Virulence"
+          ],
+          "NLMid": [
+            "101531386"
+          ],
+          "ISSN": [
+            "2150-5594"
+          ],
+          "ESSN": [
+            "2150-5608"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "481-492"
+  ],
+  "abstractText": [
+    "Acute hepatopancreatic necrosis disease (AHPND) is a major debilitating disease that causes massive shrimp death resulting in substantial economic losses in shrimp aquaculture. The Pir toxin proteins secreted by a unique strain of <i>Vibrio parahaemolyticus</i> play an essential role in the pathogenesis of AHPND. At present, most studies on the effects of Pir toxin proteins in shrimp focus on digestive tissues or organs such as hepatopancreas, stomach, etc., with none on the immune organs. In the present study, two recombinant Pir toxin proteins (rPirA and rPirB) of <i>V. parahaemolyticus</i> were expressed with rPirB shown to enter shrimp hemocytes. Employing pull-down and LC-MS/MS analysis, GST-rPirB was found to interact with 13 proteins in hemocytes, including histone H3 and histone H4 and among which histone H4 had the highest protein score. Further analysis using GST pull-down and Far-Western blot analysis revealed that rPirB could interact with histone H4. In addition, using the purified nucleosome protein from <i>Drosophila</i> S2 cells, it was found that PirB protein could specifically bind to histones. When flow cytometry was applied, it was observed that the interaction between PirB and histones in shrimp hemocytes induces apoptosis, which results in the dephosphorylation of Serine 10 in histone H3. Collectively, the current study shows that in addition to its effect on the digestive tract of shrimp, the PirB toxin protein interacts with histones to affect the phosphorylation of histone H3-S10, thereby inducing apoptosis."
+  ],
+  "affiliation": [
+    "Department of Biology and Guangdong Provincial Key Laboratory of Marine Biotechnology, Shantou University , Shantou, China."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Apoptosis",
+        "Penaeus Vannamei",
+        "dephosphorylation",
+        "hemocytes",
+        "Pirb",
+        "Ahpnd",
+        "Nucleosome Proteins"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/21505594.2021.1872171"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7834086"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7834086?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-01-25"
+  ],
+  "firstIndexDate": [
+    "2021-01-26"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-05"
+  ],
+  "dateOfRevision": [
+    "2021-03-22"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

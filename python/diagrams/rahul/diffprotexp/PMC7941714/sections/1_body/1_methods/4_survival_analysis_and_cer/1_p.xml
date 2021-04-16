@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par33">RNA expression profiles and related clinical information of the CRC patients were acquired from TCGA database. To identify lncRNAs significantly associated with patient prognosis, we used the R package “survival” to perform Kaplan-Meier curve analysis of DElncRNAs. DElncRNAs with 
+ <italic>P</italic> &lt; 0.05 were considered to be key lncRNAs for construction of the next network. Based on the hypothesis that lncRNA acts as a miRNA sponge to regulate mRNA expression [
+ <xref ref-type="bibr" rid="CR7">7</xref>], we selected key lncRNAs and lncRNA–miRNA–mRNA interaction pairs to build the ceRNA regulatory network. Ultimately, we combined specific lncRNA–miRNA and miRNA–mRNA pairs to establish a prognosis-related network. The established ceRNA network was visualized using Cytoscape v3.6.0 software [
+ <xref ref-type="bibr" rid="CR18">18</xref>]. Univariate and multivariate Cox regression analyses were performed to identify the independent prognostic indicators for overall survival (OS).
+</p>

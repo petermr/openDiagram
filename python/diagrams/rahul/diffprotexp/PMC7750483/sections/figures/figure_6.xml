@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F6" position="float">
+ <label>FIGURE 6</label>
+ <caption>
+  <p>Main signaling pathways affected by m
+   <sup>5</sup>C. 
+   <bold>(A)</bold> Volcano plot showing the proteins significantly affected by m
+   <sup>5</sup>C regulators mutation in GI cancer. -log
+   <sub>10</sub> (
+   <italic>P</italic> value) &gt;1.30 was considered a significant change. 
+   <bold>(B)</bold> Bubble plots showing the downstream pathways of m
+   <sup>5</sup>C based on gene count and 
+   <italic>P</italic> value. Prediction of the downstream pathways related to m
+   <sup>5</sup>C gene alterations was analyzed by KEGG pathway analysis 
+   <italic>via</italic> DAVID. 
+   <bold>(C)</bold> Heat map showing the important downstream pathways of m
+   <sup>5</sup>C in GI cancers based on 
+   <italic>P</italic> value.
+  </p>
+ </caption>
+ <graphic xlink:href="fmolb-07-599340-g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

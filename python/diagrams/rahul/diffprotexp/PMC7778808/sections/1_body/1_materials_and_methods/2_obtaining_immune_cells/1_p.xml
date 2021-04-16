@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">The R language was used to conduct background correction, add missing value and remove duplicate of the original data. The probe name of the chip GSE19151 matrix data was converted into the gene name through the platform file GPL571. The CIBERSORT database (
+ <ext-link ext-link-type="uri" xlink:href="http://cibersort.stanford.edu" xmlns:xlink="http://www.w3.org/1999/xlink">http://cibersort.stanford.edu</ext-link>) provides a calculation method for quantifying cell composition from gene expression profiles of a large number of tissues and can estimate the immune composition of the sample. CIBERSORT was used to convert the gene expression profile data into the corresponding immune cell proportion data of the samples, run with 100 permutations and a threshold of 
+ <italic>P</italic> &lt; 0.05. Then the Perl was used to filter the data and delete the samples with 
+ <italic>P</italic> &gt; 0.05. The R software pheatmap and vioplot package were used to draw the heatmap and vioplot of the immune cell distribution in the samples.
+</p>

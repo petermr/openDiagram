@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">We next used weighted gene co-expression network analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup> to characterise gene co-expression clusters across the four samples of the top 400 differentially expressed genes. We identified 11 clusters based on k-means clustering. The heat map shows the gene expression levels across the four different samples, and the t-SNE plot illustrates the dimensional distribution of the different clusters (Fig. 
+ <xref rid="Fig1" ref-type="fig">1h, i</xref>). The top three GO terms associated with clusters include “anatomical structure morphogenesis” (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">1f</xref>). Clusters B and I comprise genes that increase or decrease in expression across the spatiotemporal series, from PSM to DS (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>j, k). Cluster I features components of FGF (
+ <italic>FGF13</italic>, 
+ <italic>FGF7</italic>, 
+ <italic>FGF10</italic>, 
+ <italic>FGF18</italic>, 
+ <italic>SPRY1</italic>), BMP (
+ <italic>BMP2</italic>, 
+ <italic>BMP4</italic>, 
+ <italic>BMPER</italic>, 
+ <italic>NOG</italic>) and WNT (
+ <italic>WNT8C</italic>, 
+ <italic>WNT5B</italic>) signalling pathways in addition to classic PSM markers such as 
+ <italic>MESP2</italic>, 
+ <italic>RIPPLY2</italic>, 
+ <italic>MSGN1</italic> and 
+ <italic>MESP1</italic>, known to be important for somitogenesis. Cluster B features markers of cellular differentiation programmes such as 
+ <italic>ZIC1</italic>, 
+ <italic>ZIC4</italic>, 
+ <italic>MEOX1</italic>, 
+ <italic>TCF15</italic> and include the myogenic regulatory factors, 
+ <italic>MYOD1</italic> and 
+ <italic>MYF5</italic>.
+</p>

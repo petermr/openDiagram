@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">As mentioned previously, traditional differential expression-based methods are not able to find graph-level important genes that have low differential expression values, i.e., dark genes. In our research, we defined a dark gene as a gene that has a relatively low weight (i.e., a low differential expression value) but is recorded as a cancer gene in the cancer gene data base(s). Specifically, we first derived the differentially expressed genes (DEGs) by using the criteria of 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|\log _2 FC|\ge 1$$\end{document}</tex-math>
+   <math id="M14">
+    <mrow>
+     <mrow>
+      <mo stretchy="false">|</mo>
+     </mrow>
+     <msub>
+      <mo>log</mo>
+      <mn>2</mn>
+     </msub>
+     <mrow>
+      <mi>F</mi>
+      <mi>C</mi>
+      <mo stretchy="false">|</mo>
+      <mo>≥</mo>
+      <mn>1</mn>
+     </mrow>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and adjusted p-value 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\le 0.05$$\end{document}</tex-math>
+   <math id="M16">
+    <mrow>
+     <mo>≤</mo>
+     <mn>0.05</mn>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> from the TCGA breast cancer RNA-seq data, where 
+ <italic>FC</italic> is the fold change value of a certain gene. Based on these criteria, we found 4245 DEGs (called the DEG set). Next, we curated the dark gene set from each cancer gene data set by excluding these DEGs.
+</p>

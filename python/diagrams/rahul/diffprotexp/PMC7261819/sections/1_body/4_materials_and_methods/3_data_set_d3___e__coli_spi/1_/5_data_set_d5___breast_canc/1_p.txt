@@ -1,0 +1,9 @@
+0: Quantitative proteomics data in triplicates of breast cancer cell lines (SKBR3, MCF7labA, MCF7labB, LCC2, HCC70, HCC1954, HCC1937, HCC1569, HCC1187, BT549, T47D, MDAMB157, CAL51, SUM149PT, HCC1143, BT20, HCC38, HCC1419) were generated and searched as for data set D3, except that MS data was searched gene centric and matched to human Ensembl version 75 (104,763 protein entries).
+1: A pool of all samples was used in one TMT tag as linker (denominator) between TMT sets.
+2: Labeling scheme can be found together with raw and search result data with identifier PXD013276.
+3: The intensity of internal reference (TMT tag 131) was used as denominator to calculate peptide ratios, the median of peptide ratios was taken as protein ratios.
+4: Protein ratios were then log2 transformed before DEqMS analysis.
+5: PSMs and proteins were filtered at 1% PSMs and protein level FDR resulting in 3,403,191 PSMs; 265,957 unique peptides and 11,408 proteins.
+6: Only proteins quantified in all TMT experiments were included in the analysis (9222 proteins).
+7: The minimum number of quantified PSMs across multiple TMT sets was used in DEqMS.
+8: The mass spectrometry proteomics data for data set D5 have been deposited to the ProteomeXchange Consortium via the JPOST partner repository with the data set identifier PXD013276.

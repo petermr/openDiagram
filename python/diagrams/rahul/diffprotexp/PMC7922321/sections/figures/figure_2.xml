@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="jpm-11-00138-f002" orientation="portrait" position="float">
+ <label>Figure 2</label>
+ <caption>
+  <p>(
+   <bold>A</bold>). Differential gene expression analysis results. Principal component analysis (PCA) plot of the normalized expression matrix. Each point represents individual samples. (
+   <bold>B</bold>–
+   <bold>D</bold>). Corresponding differentially expressed genes (DEGs) were obtained from comparisons of non-tumor vs. individual glioma grades by using the limma package with a 0.6 absolute log2 fold change and adjusted 
+   <italic>p</italic>-value &lt; 0.01 with FDR cutoff, which is indicated with red points. (
+   <bold>E</bold>). Relative fold change of significantly changed ETS members for glioma grade compared with non-tumor samples by differential gene expression analysis. (
+   <bold>F</bold>). Intersection of DEGs between limma results, Elk1VP16 and PEA3VP16, which are our previously published micro arrays, were represented as venn diagrams.
+  </p>
+ </caption>
+ <graphic xlink:href="jpm-11-00138-g002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

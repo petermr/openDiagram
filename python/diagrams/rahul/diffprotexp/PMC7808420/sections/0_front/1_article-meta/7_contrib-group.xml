@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5678-4006</contrib-id>
+  <name>
+   <surname>Rocha</surname>
+   <given-names>Rebeca Froes</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+  <xref ref-type="author-notes" rid="an0002">
+   <sup>*</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6561-8018</contrib-id>
+  <name>
+   <surname>Del Sarto</surname>
+   <given-names>Juliana L.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+  <xref ref-type="author-notes" rid="an0002">
+   <sup>*</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Gomes</surname>
+   <given-names>Giovanni F.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0004">
+   <sup>d</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Gonçalves</surname>
+   <given-names>Mariana P.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Rachid</surname>
+   <given-names>Milene A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0005">
+   <sup>e</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Smetana</surname>
+   <given-names>Juliana H. C.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Souza</surname>
+   <given-names>Daniele G.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0006">
+   <sup>f</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Teixeira</surname>
+   <given-names>Mauro Martins</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6949-0947</contrib-id>
+  <name>
+   <surname>Marques</surname>
+   <given-names>Rafael Elias</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>Brazilian Biosciences National Laboratory (LNBio), 
+  <institution-wrap>
+   <institution>Brazilian Center for Research in Energy and Materials (CNPEM)</institution>
+  </institution-wrap>, 
+  <city>Campinas</city>, 
+  <country>Brazil</country>
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>Graduate Program in Genetics and Molecular Biology, 
+  <institution-wrap>
+   <institution>State University of Campinas (UNICAMP)</institution>
+  </institution-wrap>, 
+  <city>Campinas</city>, 
+  <country>Brazil</country>
+ </aff>
+ <aff id="aff0003">
+  <label>c</label>Immunopharmacology Laboratory, Department of Biochemistry and Immunology, 
+  <institution-wrap>
+   <institution>Institute of Biological Sciences, Federal University of Minas Gerais (UFMG)</institution>
+  </institution-wrap>, 
+  <city>Belo Horizonte</city>, 
+  <country>Brazil</country>
+ </aff>
+ <aff id="aff0004">
+  <label>d</label>Laboratório de Neurofarmacologia, 
+  <institution-wrap>
+   <institution>Institute of Biological Sciences, Federal University of Minas Gerais (UFMG)</institution>
+  </institution-wrap>, 
+  <city>Belo Horizonte</city>, 
+  <country>Brazil</country>
+ </aff>
+ <aff id="aff0005">
+  <label>e</label>Laboratório de Apoptose, Institute of Biological Sciences, 
+  <institution-wrap>
+   <institution>Federal University of Minas Gerais (UFMG)</institution>
+  </institution-wrap>, 
+  <city>Belo Horizonte</city>, 
+  <country>Brazil</country>
+ </aff>
+ <aff id="aff0006">
+  <label>f</label>Laboratório de Interação Microrganismo-Hospedeiro, Institute of Biological Sciences, 
+  <institution-wrap>
+   <institution>Federal University of Minas Gerais (UFMG)</institution>
+  </institution-wrap>, 
+  <city>Belo Horizonte</city>, 
+  <country>Brazil</country>
+ </aff>
+</contrib-group>

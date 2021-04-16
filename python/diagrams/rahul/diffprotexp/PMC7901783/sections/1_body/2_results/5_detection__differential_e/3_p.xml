@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To identify the complexes involved in formation of endogenous siRNA, nucleotide size distribution and 5’ end base abundance of detected siRNAs are needed. Since siRNAs completely match their target sequences, mapping clean small RNA reads to 
+ <italic>C</italic>. 
+ <italic>quinoa</italic> reference genome allowing zero mismatch resulted in siRNA targets. These target sequences were used to identify dominant cleaved nucleotide size and 5’ terminal base of endogenous siRNAs. The average alignment rate was 99.75%. The sequences with 24 nt were more abundant than other nucleotide sizes (
+ <xref ref-type="fig" rid="pone.0244364.g003">Fig 3</xref>). Also, Adenine (A) was the predominant base at 5’ end (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s004">S4 Fig</xref>). To enable differential expression of siRNAs, the ShortStack package was used to determine the counts of siRNA clusters varying in size (18–30 nt) over quinoa genome. A total of 160,533 siRNA clusters was retrieved per individual sample (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s018">S7 Table</xref>). The abundance of 24 nt siRNA sizes was higher (
+ <xref ref-type="fig" rid="pone.0244364.g003">Fig 3</xref>); however, within this size number,clusters detected in ‘Red Head’, bitter variety, were significantly (
+ <italic>p</italic> = 0.01) higher than in two sweet/semi-sweet varieties, ‘Jessie’ and ‘QQ74’ (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s018">S7 Table</xref>). Using DESeq2 on cluster counts of the samples by comparing CMV-inoculated and mock-inoculated tissues under two models, overall analysis and variety-specific analysis, revealed that the size of 24 nt was the most abundant differentially expressed Dicer cleaved siRNA. Among the total 377 differentially expressed siRNA clusters, 235 belonged to overall analysis, and 142 belonged to variety analysis (‘Jessie’: 100; ‘QQ74’: 39; ‘Red Head’: 3) (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s019">S8 Table</xref>). These 24nt hc-siRNA clusters were used for further analyses. Since hc-siRNAs target genes and intergenic regions such as TEs, gene promoter and TFBSs, multiple methods were exploited to predict candidate targets spanning 2kb of the targeted genes. Based on the overall or variety-specific analyses, targeted repetitive regions and biological functions of the targeted genes were annotated separately (
+ <xref ref-type="supplementary-material" rid="pone.0244364.s020">S9 Table</xref>).
+</p>

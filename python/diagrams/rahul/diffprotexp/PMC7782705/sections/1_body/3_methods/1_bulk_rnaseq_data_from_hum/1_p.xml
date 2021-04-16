@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">RNAseq datasets obtained from different brain regions were used (Mayo
+ <sup>2</sup>; MSBB
+ <sup>3</sup>; ROSMAP
+ <sup>4</sup>). Datasets were downloaded from AMP-AD Knowledge Portal (
+ <ext-link ext-link-type="uri" xlink:href="https://www.synapse.org/#!Synapse:syn8672335" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.synapse.org</ext-link>) following all terms and conditions to use the data. The brain area analyzed and the number of individuals per condition was the following: Mayo - Temporal cortex, which neuroanatomically subdivides into the inferior, middle, and superior temporal gyri (STG), and cytoarchitectonically can be subdivided into Brodmann areas (BM, instead of BA) 20/21/22/41/42
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>, 
+ <italic>N</italic> = 160 subjects (82 AD and 78 controls); MSBB - BM22, which is part of the Wernicke’s area in the STG, 
+ <italic>N</italic> = 159 subjects (98 AD and 61 controls); MSBB BM36, corresponding to the lateral perirhinal cortex, 
+ <italic>N</italic> = 154 subjects (88 AD and 64 controls); MSBB BM10, corresponding to the anterior prefrontal cortex, 
+ <italic>N</italic> = 176 subjects (105 AD and 71 controls); MSBB BM44, corresponding to the inferior frontal gyrus, 
+ <italic>N</italic> = 153 subjects (90 AD and 63 controls); and ROSMAP - Dorsolateral prefrontal cortex (DLPFC), containing BM46 and part of BM9, 
+ <italic>N</italic> = 423 subjects (222 AD and 201 controls). Unless stated otherwise, data obtained from different analyses were grouped in “temporal lobe” (TL) - Mayo, MSBB BM22 and MSBB BM26; or “frontal lobe” (FL) - ROSMAP, MSBB BM10 and MSBB BM44.
+</p>

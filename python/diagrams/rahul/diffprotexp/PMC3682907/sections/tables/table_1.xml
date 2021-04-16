@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="T1">
+ <label>Table 1</label>
+ <caption>
+  <p>Spot-to-spot variability of SELDI-TOF mass spectra</p>
+ </caption>
+ <table frame="hsides" rules="groups" border="1">
+  <colgroup>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+  </colgroup>
+  <thead valign="top">
+   <tr>
+    <th align="center"> </th>
+    <th align="center"> </th>
+    <th align="center">
+     <bold>Peak Intensity</bold>
+    </th>
+    <th align="center"> </th>
+    <th align="center"> </th>
+    <th align="center">
+     <bold>Peak M/Z</bold>
+    </th>
+    <th align="center"> </th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="center" valign="bottom">
+     <bold>Peak</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">
+     <bold>Mean</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">
+     <bold>STD</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">
+     <bold>CV%</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">
+     <bold>Mean</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">
+     <bold>STD</bold>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">
+     <bold>CV%</bold>
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2.4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">15.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">7496.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">18.5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">8558.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">28.5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3.9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">14.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9900.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">21.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">27.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10254.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">20.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2.7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10860.5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.02
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">4.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">24.7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11819.5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10.9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">29.5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12120.4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3.9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">20.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12360.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">3.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">4.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">13.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">20791.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16.9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.08
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">10
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">4.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12.5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">22253.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">16.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">11
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">7.4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17.4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">24904.4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">18.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">12
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">24.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">28150.4
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">18.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">13
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">1.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11.5
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">29033.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">25.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.09
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">14
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">12.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17.7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">30038.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.04
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">15
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">11.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">2.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">17.9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">30893.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">9.2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.03
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">16
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">33025.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">24.7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.07
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="bottom">17
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">10.0
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">39397.1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">21.8
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">0.06
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="center">18</td>
+    <td align="center">6.0</td>
+    <td align="center">0.8</td>
+    <td align="center">13.9</td>
+    <td align="center">42781.4</td>
+    <td align="center">20.9</td>
+    <td align="center">0.05</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>The mean, standard deviation, and coefficient of variation (CV%) for eighteen protein peaks from an ion exchange fraction (Q1) of the cytosolic fraction of pooled mouse brain tissue. The overall CV% for peak intensity and m/z ratio on this chip were 17.3% and 0.05%, respectively.</p>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Figure 2</label>
+ <caption>
+  <p>Nuclear-encoded-mitochondrial proteins (NEMPS) are significantly enriched in the cytosol. 
+   <bold>(A)</bold> MA plot showing localization distribution of NEMPs (red), remaining protein-coding genes (blue), and mitochondrial encoded genes (green). 
+   <bold>(B)</bold> Violin plot showing fold change distributions between the three gene categories (baseMean ≥ 10) in cytosolic and nuclear fractions. P-values reported were obtained with the Mann–Whitney–Wilcoxon test. 
+   <bold>(C)</bold> Validation of the enrichment of NEMPs RNA transcripts OAT and SLC25A5 in the cytosol in SHSY-5Y cells using RNA FISH. MALAT1 (known nuclear transcript) and GAPDH used for comparison. Images represent maximum projections of 13, 18, 20 optical intervals spaced by 0.5 μm. Scale bar, 2 μm. 
+   <bold>(D)</bold> Box plot shows mRNA half-life rate comparison between groups of differentially localized NEMP (red) and remaining protein-coding genes (blue). 
+   <bold>(E)</bold> Comparison of mRNA half-life rate between cytosolic and nuclear DEGs.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2021_83541_Fig2_HTML" id="MO2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Fig. 1</label>
+ <caption>
+  <title>Knockdown of 
+   <italic>RUNX1/RUNX1T1</italic> affects exon usage in Kasumi-1 cells.
+  </title>
+  <p>
+   <bold>a</bold> Gene set enrichment analysis plots for RNA binding proteins
+   <sup>
+    <xref ref-type="bibr" rid="CR55">55</xref>
+   </sup> and the Reactome snRNP assembly pathway. NES, normalized enrichment score; q, false discovery rate. 
+   <bold>b</bold> Western blot of RUNX1 and RUNX1/RUNX1T1 protein levels in Kasumi-1 cells following RUNX1/RUNX1T1 knockdown. A representative result from one of the three experiments is shown. siMM, mismatch siRNA; siRR, RUNX1/RUNX1T1 siRNA. 
+   <bold>c</bold> Distribution of retained introns (RIs) between the transcriptomes of the siRR-treated and siMM-treated Kasumi-1 cells. The RIs were detected using the DESeq2 and edgeR/limma algorithms. 
+   <bold>d</bold> Scatter plot showing the distribution of siRR-specific and siMM-specific RIs after multidimensional reduction of RIs expression data using t-distributed stochastic neighbor embedding. The RIs were detected using the edgeR/limma algorithm, and very similar results were observed with DESeq2. 
+   <bold>e, f</bold> Vulcano plots showing differential usage of exons identified by DEXSeq 
+   <bold>e</bold> or limma/diffSplice 
+   <bold>f</bold> algorithms. Orange and yellow rhombi indicated differentially used canonical exons or RIs, respectively, with more than 2-fold change and 
+   <italic>q</italic> &lt; 0.1. 
+   <bold>g</bold> Venn diagram showing overlap between differentially used exons (diffUEs) identified by DEXSeq, limma/diffSplice and JunctionSeq algorithms. 
+   <bold>h</bold> Venn diagram showing overlap of genes with diffUEs identified by the DEXSeq, limma/diffSplice and JunctionSeq algorithms. 
+   <bold>i</bold> Classification of diffUEs according to the functional type of exons. Genomic coordinates of the reference exons were extracted from Ensembl models of the human genes. diffUEs were intersected with reference exons and the overlaps counted. Fisher’s two-sided exact test was performed to detect over-represented or under-represented exon types among the diffUEs against non-differential exons (non-diffUEs).
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20848_Fig1_HTML" id="d32e665" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

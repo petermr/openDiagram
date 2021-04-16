@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tab1" orientation="portrait" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>The 10 peritoneal dialysate proteins identified with higher confidence levels (at least three unique peptide sequences matched) in this study. </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="1" colspan="1">Accession no.</th>
+    <th align="left" rowspan="1" colspan="1">Protein name</th>
+    <th align="center" rowspan="1" colspan="1">Expression</th>
+    <th align="center" rowspan="1" colspan="1">MW (Da)</th>
+    <th align="center" rowspan="1" colspan="1">
+     <italic>PI </italic>Value
+    </th>
+    <th align="center" rowspan="1" colspan="1">Mascot score</th>
+    <th align="center" rowspan="1" colspan="1">Match queries</th>
+    <th align="center" rowspan="1" colspan="1">Sequence coverage</th>
+    <th align="left" rowspan="1" colspan="1">Peptide</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P02768</td>
+    <td align="left" rowspan="1" colspan="1">Albumin (ALB)</td>
+    <td align="center" rowspan="1" colspan="1">Downregulation</td>
+    <td align="center" rowspan="1" colspan="1">69367</td>
+    <td align="center" rowspan="1" colspan="1">8.2</td>
+    <td align="center" rowspan="1" colspan="1">66</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">17%</td>
+    <td align="left" rowspan="1" colspan="1">K.FQNALLVR.Y </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.AV
+     <underline>M</underline>DDFAAFVEK.C + oxidation (M) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.KVPQVSTPTLVEVSR.N </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P02760</td>
+    <td align="left" rowspan="2" colspan="1">Alpha-1-microglobulin/bikunin preproprotein (AMBP)</td>
+    <td align="center" rowspan="1" colspan="1">Downregulation</td>
+    <td align="center" rowspan="1" colspan="1">38999</td>
+    <td align="center" rowspan="1" colspan="1">5.95</td>
+    <td align="center" rowspan="1" colspan="1">349</td>
+    <td align="center" rowspan="1" colspan="1">7</td>
+    <td align="center" rowspan="1" colspan="1">21%</td>
+    <td align="left" rowspan="1" colspan="1">R.ETLLQDFR.V </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.WY
+     <underline>N</underline>LAIGST
+     <underline>C</underline>PWLK.K + carbamidomethyl (C); 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.GE
+     <underline>C</underline>VPGEQEPEPILIPR.V + carbamidomethyl (C) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.EYCGVPGDGDEELLRFSN.-</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.VVAQGVGIPEDSIFTMADR.G </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.VVAQGVGIPEDSIFT
+     <underline>M</underline>ADR.G + oxidation (M) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.ETLLQDFRVVA
+     <underline>Q</underline>GVGIPEDSIFTMADR.G + deamidated (NQ) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P02647</td>
+    <td align="left" rowspan="1" colspan="1">Apolipoprotein A-I (APOA1)</td>
+    <td align="center" rowspan="1" colspan="1">Downregulation</td>
+    <td align="center" rowspan="1" colspan="1">30778</td>
+    <td align="center" rowspan="1" colspan="1">5.39</td>
+    <td align="center" rowspan="1" colspan="1">244</td>
+    <td align="center" rowspan="1" colspan="1">12</td>
+    <td align="center" rowspan="1" colspan="1">44%</td>
+    <td align="left" rowspan="1" colspan="1">K.VQPYLDDFQK.K </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.WQEE
+     <underline>M</underline>ELYR.Q + oxidation (M) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.THLAPYSDELR.Q </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.VQPYLDDFQKK.W </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.DYVSQFEGSALGK.Q </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.VKDLATVYVDVLK.D </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.VEPLRAEL
+     <underline>Q</underline>EGAR.Q + deamidated (NQ) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.VEPLRAELQEGAR.Q </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LLDNWDSVTSTFSK.L </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R
+     <underline>.</underline>QKVEPLRAELQEGAR.Q + Gln-&gt;pyro-Glu (N-term Q) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.QKVEPLRAELQEGAR.Q </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.DSGRDYVSQFEGSALGK.Q </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P01857</td>
+    <td align="left" rowspan="1" colspan="1">Immunoglobulin G1 Fc fragment (IGHG1)</td>
+    <td align="center" rowspan="1" colspan="1">Downregulation</td>
+    <td align="center" rowspan="1" colspan="1">36106</td>
+    <td align="center" rowspan="1" colspan="1">6.95</td>
+    <td align="center" rowspan="1" colspan="1">154</td>
+    <td align="center" rowspan="1" colspan="1">5</td>
+    <td align="center" rowspan="1" colspan="1">36%</td>
+    <td align="left" rowspan="1" colspan="1">K.NQVSLT
+     <underline>C</underline>LVK.G + carbamidomethyl (C) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.FNWYVDGVEVHNAK.T </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.EP
+     <underline>Q</underline>VYTLPPSRDELTK.N + deamidated (NQ) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.TPEVT
+     <underline>C</underline>VVVDVSHEDPEVK.F + carbamidomethyl (C) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.WQQG
+     <underline>N</underline>VFS
+     <underline>C</underline>SVMHEALHNHYTQK.S + carbamidomethyl (C); deamidated (NQ)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P02753</td>
+    <td align="left" rowspan="1" colspan="1">Mutant retinol binding protein (RBP4)</td>
+    <td align="center" rowspan="1" colspan="1">Downregulation</td>
+    <td align="center" rowspan="1" colspan="1">23010</td>
+    <td align="center" rowspan="1" colspan="1">6.29</td>
+    <td align="center" rowspan="1" colspan="1">235</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">84%</td>
+    <td align="left" rowspan="1" colspan="1">-.FSGTWYAMAK.K </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">-.FSGTWYA
+     <underline>M</underline>AK.K + oxidation (M) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.KDPEGLFLQDNNVAEFSVDETGQMSATAK.G</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.KDPEGLFLQDNNVAEFSVDETGQ
+     <underline>M</underline>SATAK.G + oxidation (M)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P00738</td>
+    <td align="left" rowspan="1" colspan="1">Haptoglobin alpha2 (HP)</td>
+    <td align="center" rowspan="1" colspan="1">Downregulation</td>
+    <td align="center" rowspan="1" colspan="1">45205</td>
+    <td align="center" rowspan="1" colspan="1">6.46</td>
+    <td align="center" rowspan="1" colspan="1">77</td>
+    <td align="center" rowspan="1" colspan="1">4</td>
+    <td align="center" rowspan="1" colspan="1">21%</td>
+    <td align="left" rowspan="1" colspan="1">K.LPE
+     <underline>C</underline>EADDG
+     <underline>C</underline>PKPPEIAHGYVEHSVR.Y + 2 carbamidomethyl (C) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.AVGDKLPE
+     <underline>C</underline>EADDG
+     <underline>C</underline>PKPPEIAHGYVEHSVR.Y + 2 carbamidomethyl (C)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LPE
+     <underline>C</underline>EADDG
+     <underline>Q</underline>PPPK
+     <underline>C</underline>IAHGYVEHSVR.Y + 2 carbamidomethyl (C); deamidated (NQ)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.AVGDKLPE
+     <underline>C</underline>EADDG
+     <underline>Q</underline>PPPK
+     <underline>C</underline>IAHGYVEHSVR.Y + 2 carbamidomethyl (C); deamidated (NQ)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P06727</td>
+    <td align="left" rowspan="1" colspan="1">Apolipoprotein A-IV (APOA4)</td>
+    <td align="center" rowspan="1" colspan="1">Upregulation</td>
+    <td align="center" rowspan="1" colspan="1">45399</td>
+    <td align="center" rowspan="1" colspan="1">5.23</td>
+    <td align="center" rowspan="1" colspan="1">1109</td>
+    <td align="center" rowspan="1" colspan="1">19</td>
+    <td align="center" rowspan="1" colspan="1">43%</td>
+    <td align="left" rowspan="1" colspan="1">K.VNSFFSTFK.E </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.LTPYADEFK.V </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.LEPYADQLR.T </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.ALVQQMEQLR.Q </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.LTPYADEFKVK.I </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LVPFATELHER.L </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.DKVNSFFSTFK.E </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LGEVNTYAGDLQK.K </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.KLVPFATELHER.L </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.VKIDQTVEELRR.S </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LNHQLEGLTFQMK.K </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LKEEIGKELEELR.A </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.SELTQQLNALFQDK.L </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LGPHAGDVEGHLSFLEK.D </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.SLAELGGHLDQQVEEFR.R </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.ENADSLQASLRPHADELK.A </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.QKLGPHAGDVEGHLSFLEK.D </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.ENADSLQASLRPHADELKAK.I </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P25311</td>
+    <td align="left" rowspan="1" colspan="1">Zn-alpha2-glycoprotein (AZGP1)</td>
+    <td align="center" rowspan="1" colspan="1">Upregulation</td>
+    <td align="center" rowspan="1" colspan="1">34259</td>
+    <td align="center" rowspan="1" colspan="1">5.71</td>
+    <td align="center" rowspan="1" colspan="1">739</td>
+    <td align="center" rowspan="1" colspan="1">24</td>
+    <td align="center" rowspan="1" colspan="1">48%</td>
+    <td align="left" rowspan="1" colspan="1">K.SQPMGLWR.Q </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.
+     <underline>C</underline>LAYDFYPGK.I + carbamidomethyl (C) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.WEAEPVYVQR.A </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.AREDIFMETLK.D </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.AYLEEE
+     <underline>C</underline>PATLR.K + carbamidomethyl (C) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K
+     <underline>.</underline>QKWEAEPVYVQR.A + Gln-&gt;pyro-Glu (N-term Q) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.QKWEAEPVYVQR.A </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.
+     <underline>Q</underline>KWEAEPVYVQR.A + deamidated (NQ) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.AYLEEE
+     <underline>C</underline>PATLRK.Y + carbamidomethyl (C)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.YYYDGKDYIEFNK.E </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R
+     <underline>.</underline>QDPPSVVVTSHQAPGEK.K + Gln-&gt;pyro-Glu (N-term Q) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.AKAYLEEE
+     <underline>C</underline>PATLRK.Y + carbamidomethyl (C)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.EIPAWVPFDPAAQITK.Q </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R
+     <underline>.</underline>QDPPSVVVTSHQAPGEKK.K + Gln-&gt;pyro-Glu (N-term Q) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R
+     <underline>.</underline>QVEGMEDWKQDSQLQK.A + Gln-&gt;pyro-Glu (N-term Q)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R
+     <underline>.Q</underline>VEG
+     <underline>M</underline>EDWKQDSQLQK.A + deamidated (NQ); Gln-&gt;pyro-Glu (N-term Q); oxidation 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.QVEGMEDWKQDSQLQK.A</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.QVEGMEDWK
+     <underline>Q</underline>DSQLQK.A + deamidated (NQ)
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.QVEG
+     <underline>M</underline>EDWKQDSQLQK.A + oxidation (M) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.
+     <underline>Q</underline>VEG
+     <underline>M</underline>EDWKQDSQLQK.A + deamidated (NQ); oxidation (M) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.NILDRQDPPSVVVTSHQAPGEK.K </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.NILDR
+     <underline>Q</underline>DPPSVVVTSHQAPGEK.K + deamidated (NQ) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.HVEDVPAFQALGSLNDLQFFR.Y </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.NILDRQDPPSVVVTSHQAPGEKK.K </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">Q04637</td>
+    <td align="left" rowspan="1" colspan="1">eukaryotic translation initiation factor 4A isoform 1 (EIF4G1)</td>
+    <td align="center" rowspan="1" colspan="1">Upregulation</td>
+    <td align="center" rowspan="1" colspan="1">175491</td>
+    <td align="center" rowspan="1" colspan="1">5.32</td>
+    <td align="center" rowspan="1" colspan="1">469</td>
+    <td align="center" rowspan="1" colspan="1">8</td>
+    <td align="center" rowspan="1" colspan="1">28%</td>
+    <td align="left" rowspan="1" colspan="1">R.QFYINVER.E </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1">K.GYDVIAQAQSGTGK.T </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.GVAINMVTEEDKR.T </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.MFVLDEADEMLSR.G </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.DFTVSAMHGDMDQK.E </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LQMEAPHIIVGTPGR.V </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">R.GIYAYGFEKPSAIQQR.A </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.LNSNTQVVLLSATMPSDVLEVTK.K </td>
+   </tr>
+   <tr>
+    <td align="left" colspan="9" rowspan="1">
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">P01892</td>
+    <td align="left" rowspan="1" colspan="1">Human class I histocompatibility antigen (HLA-A)</td>
+    <td align="center" rowspan="1" colspan="1">Upregulation</td>
+    <td align="center" rowspan="1" colspan="1">40922</td>
+    <td align="center" rowspan="1" colspan="1">6.46</td>
+    <td align="center" rowspan="1" colspan="1">129</td>
+    <td align="center" rowspan="1" colspan="1">3</td>
+    <td align="center" rowspan="1" colspan="1">36%</td>
+    <td align="left" rowspan="1" colspan="1">R.VNHVTLSQPKIVK.W </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1">K.SNFLN
+     <underline>C</underline>YVSGFHPSDIEVDLLK.N + carbamidomethyl (C) 
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="center" rowspan="1" colspan="1"> </td>
+    <td align="left" rowspan="1" colspan="1">K.SNFL
+     <underline>NC</underline>YVSGFHPSDIEVDLLK.N + carbamidomethyl (C); deamidated (NQ)
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

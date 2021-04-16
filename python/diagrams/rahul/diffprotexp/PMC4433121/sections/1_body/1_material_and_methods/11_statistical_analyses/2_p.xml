@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Hierarchical clustering was performed using Genesis software (
+ <ext-link ext-link-type="uri" xlink:href="http://www.genome.tugraz.at/genesisclient/genesisclient_description.shtml" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.genome.tugraz.at/genesisclient/genesisclient_description.shtml</ext-link>). Ingenuity Pathway Analysis (IPA) was used for pathway analysis (Ingenuity Systems, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ingenuity.com" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ingenuity.com</ext-link>). In brief, Ingenuity uses Fisher’s exact test to calculate the probability that a set of proteins is associated to a pathway by chance. P-values &lt;0.05 were taken as significant.
+</p>

@@ -1,0 +1,598 @@
+{
+  "id": [
+    "33066078"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33066078"
+  ],
+  "pmcid": [
+    "PMC7709116"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7709116"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/proteomes8040027"
+  ],
+  "title": [
+    "Differential Protein Expression in Striatal D1- and D2-Dopamine Receptor-Expressing Medium Spiny Neurons."
+  ],
+  "authorString": [
+    "Mansuri MS, Peng G, Wilson RS, Lam TT, Zhao H, Williams KR, Nairn AC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mansuri MS"
+          ],
+          "firstName": [
+            "M Shahid"
+          ],
+          "lastName": [
+            "Mansuri"
+          ],
+          "initials": [
+            "MS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1854-931X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Yale/NIDA Neuroproteomics Center, New Haven, CT 06511, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Molecular Biophysics and Biochemistry, Yale University School of Medicine, New Haven, CT 06511, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Peng G"
+          ],
+          "firstName": [
+            "Gang"
+          ],
+          "lastName": [
+            "Peng"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0307-9351",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biostatistics, School of Public Health, Yale University, New Haven, CT 06520, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Genetics, School of Medicine, Yale University, New Haven, CT 06520, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wilson RS"
+          ],
+          "firstName": [
+            "Rashaun S"
+          ],
+          "lastName": [
+            "Wilson"
+          ],
+          "initials": [
+            "RS"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Yale/NIDA Neuroproteomics Center, New Haven, CT 06511, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "W.M Keck Biotechnology Resource Laboratory, Yale University School of Medicine, New Haven, CT 06511, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lam TT"
+          ],
+          "firstName": [
+            "TuKiet T"
+          ],
+          "lastName": [
+            "Lam"
+          ],
+          "initials": [
+            "TT"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4850-3462",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Yale/NIDA Neuroproteomics Center, New Haven, CT 06511, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Molecular Biophysics and Biochemistry, Yale University School of Medicine, New Haven, CT 06511, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "W.M Keck Biotechnology Resource Laboratory, Yale University School of Medicine, New Haven, CT 06511, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhao H"
+          ],
+          "firstName": [
+            "Hongyu"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biostatistics, School of Public Health, Yale University, New Haven, CT 06520, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Genetics, School of Medicine, Yale University, New Haven, CT 06520, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Williams KR"
+          ],
+          "firstName": [
+            "Kenneth R"
+          ],
+          "lastName": [
+            "Williams"
+          ],
+          "initials": [
+            "KR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7792-9588",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Yale/NIDA Neuroproteomics Center, New Haven, CT 06511, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Molecular Biophysics and Biochemistry, Yale University School of Medicine, New Haven, CT 06511, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nairn AC"
+          ],
+          "firstName": [
+            "Angus C"
+          ],
+          "lastName": [
+            "Nairn"
+          ],
+          "initials": [
+            "AC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7075-0195",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Yale/NIDA Neuroproteomics Center, New Haven, CT 06511, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Connecticut Mental Health Center, Department of Psychiatry, Yale School of Medicine, New Haven, CT 06511, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7792-9588",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4850-3462",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7075-0195",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0307-9351",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1854-931X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "8"
+      ],
+      "journalIssueId": [
+        "3039699"
+      ],
+      "dateOfPublication": [
+        "2020 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2020"
+      ],
+      "printPublicationDate": [
+        "2020-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Proteomes"
+          ],
+          "ISOAbbreviation": [
+            "Proteomes"
+          ],
+          "medlineAbbreviation": [
+            "Proteomes"
+          ],
+          "NLMid": [
+            "101621966"
+          ],
+          "ISSN": [
+            "2227-7382"
+          ],
+          "ESSN": [
+            "2227-7382"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2020"
+  ],
+  "abstractText": [
+    "Many neurological disorders and diseases including drug addiction are associated with specific neuronal cell types in the brain. The striatum, a region that plays a critically important role in the development of addictive drug-related behavior, provides a good example of the cellular heterogeneity challenges associated with analyses of specific neuronal cell types. Such studies are needed to identify the adaptive changes in neuroproteomic signaling that occur in response to diseases such as addiction. The striatum contains two major cell types, D1 and D2 type dopaminoceptive medium spiny neurons (MSNs), whose cell bodies and processes are intermingled throughout this region. Since little is known about the proteomes of these two neuronal cell populations, we have begun to address this challenge by using fluorescence-activated nuclear sorting (FANS) to isolate nuclei-containing fractions from striatum from D1 and D2 \"Translating Ribosome Affinity Purification\" (TRAP) mice. This approach enabled us to devise and implement a robust and reproducible workflow for preparing samples from specific MSN cell types for mass spectrometry analyses. These analyses quantified at least 685 proteins in each of four biological replicates of 50 K sorted nuclei from two D1 mice/replicate and from each of four biological replicates of 50 K sorted nuclei from two D2 mice/replicate. Proteome analyses identified 87 proteins that were differentially expressed in D1 versus D2 MSN nuclei and principal component analysis (PCA) of these proteins separated the 8 biological replicates into specific cell types. Central network analysis of the 87 differentially expressed proteins identified Hnrnpd and Hnmpa2b1 in D1 and Cct2 and Cct7 in D2 as potential central interactors. This workflow can now be used to improve our understanding of many neurological diseases including characterizing the short and long-term impact of drugs of abuse on the proteomes of these two dopaminoceptive neuronal populations."
+  ],
+  "affiliation": [
+    "Yale/NIDA Neuroproteomics Center, New Haven, CT 06511, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "DA018343"
+          ],
+          "agency": [
+            "NIH HHS"
+          ],
+          "acronym": [
+            "NH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 DA018343"
+          ],
+          "agency": [
+            "NIDA NIH HHS"
+          ],
+          "acronym": [
+            "DA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "S10OD018034"
+          ],
+          "agency": [
+            "NIH HHS"
+          ],
+          "acronym": [
+            "NH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Striatum",
+        "Dopamine receptor",
+        "FACS",
+        "Medium Spiny Neuron",
+        "Tmt",
+        "Pct",
+        "Quantitative Mass Spectrometry",
+        "Fans",
+        "D1 And D2 Receptor",
+        "Cell-type-specific Proteomics"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/proteomes8040027"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7709116"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7709116?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-10-17"
+  ],
+  "firstIndexDate": [
+    "2020-10-18"
+  ],
+  "fullTextReceivedDate": [
+    "2020-12-07"
+  ],
+  "dateOfRevision": [
+    "2021-03-25"
+  ],
+  "electronicPublicationDate": [
+    "2020-10-13"
+  ],
+  "firstPublicationDate": [
+    "2020-10-13"
+  ]
+}

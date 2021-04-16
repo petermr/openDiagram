@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The collected demographic information was evaluated by Mann–Whitney U test or Fisher exact test using SPSS 17.0, and differences were considered statistically significant at 
+ <italic>P </italic>≤ 0.05. We performed a principal component analysis (PCA) using PLINK (v1.9). To determine which common SNVs were independently associated with severe influenza A(H1N1)pdm09 disease, a logistics regression analysis was utilized to control for the first 5 PCs of ancestry using PLINK (v1.9). To detect the joint effect of common SNVs, a chi-square test was implemented to incorporate the subgroup common SNVs within one gene or segment region using GCTA (v1.91.6beta). The relationships between the rare functional SNVs in single gene or gene set and severe influenza A(H1N1)pdm09 disease were specifically assessed with SKAT-O models using KGGseq (v1.0).
+</p>

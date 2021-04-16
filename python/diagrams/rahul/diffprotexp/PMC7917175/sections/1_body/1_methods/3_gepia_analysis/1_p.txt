@@ -1,0 +1,7 @@
+0: The raw RNA-Seq data downloaded from TCGA and ICGC databases were recomputed using UCSC Xena to avoid data imbalance and inefficient differential analyses.
+1: Differential gene expression and patient survival data were integrated using Gene Expression Profiling Interactive Analysis [ 25] (GEPIA,  http://gepia2.cancer-pku.cn, version 2).
+2: ANOVA was used to identify the differentially expressed genes with |log2FC| values > 1 and q values< 0.01.
+3: OS and relapse-free survival (RFS) were evaluated using the Kaplan-Meier method with a 50% (Median) cutoff, and compared by the log rank test.
+4: The cox proportional hazards regression model was applied to calculate the hazard ratio.
+5: The parameter setting was consistent in each analysis without adjustment for any  p value.
+6: P-values< 0.05 were considered statistically significant.

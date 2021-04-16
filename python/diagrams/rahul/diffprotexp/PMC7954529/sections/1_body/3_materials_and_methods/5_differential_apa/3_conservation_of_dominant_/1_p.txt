@@ -1,0 +1,4 @@
+0: We consider a gene to have a dominant PAS if the within species average usage of the top used PAS is greater than the second most used site by 0.4.
+1: We reported results for cutoffs between 0.1 and 0.9.
+2: If a gene had a dominant PAS in either species, we included the top used site for both species when testing if genes use the same or different dominant PAS between species.
+3: We tested for enrichment of genes using the same or different dominant PAS with differentially expressed genes using hypergeometric tests.

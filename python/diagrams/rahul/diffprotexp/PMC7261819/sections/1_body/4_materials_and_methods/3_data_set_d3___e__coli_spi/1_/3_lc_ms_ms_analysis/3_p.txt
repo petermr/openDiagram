@@ -1,0 +1,4 @@
+0: Spectra data was converted to mzML files using ProteoWizard release: 3.0.10827 (20175-11) and searched with MS-GF+ (2016.10.26) ( 22) and Percolator ( 23).
+1: Precursor mass tolerance used was 10 ppm, fragment mass tolerance 0.11 Da, fixed modifications were TMT-10plex on lysines and peptide N termini, and carbamidomethylation on cysteine residues, oxidation on methionine was used as a variable modification.
+2: The protein database used for search was Uniprot (2018_04) human protein databases with  E. coli protein database concatenated (78807 protein sequences) allowing for one tryptic miss-cleavage.
+3: PSMs and proteins were filtered at 1% FDR resulting in 308,001 PSMs; 122,235 unique peptides and 11,216 proteins.

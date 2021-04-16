@@ -1,0 +1,812 @@
+{
+  "id": [
+    "27893749"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27893749"
+  ],
+  "pmcid": [
+    "PMC5125571"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC5125571"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1371/journal.pntd.0005104"
+  ],
+  "title": [
+    "Differential Protein Expression in the Hemolymph of Bithynia siamensis goniomphalos Infected with Opisthorchis viverrini."
+  ],
+  "authorString": [
+    "Suwannatrai K, Suwannatrai A, Tabsripair P, Welbat JU, Tangkawattana S, Cantacessi C, Mulvenna J, Tesana S, Loukas A, Sotillo J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Suwannatrai K"
+          ],
+          "firstName": [
+            "Kulwadee"
+          ],
+          "lastName": [
+            "Suwannatrai"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Food-borne Parasite Research Group, Department of Parasitology, Faculty of Medicine, Khon Kaen University, Khon Kaen, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Suwannatrai A"
+          ],
+          "firstName": [
+            "Apiporn"
+          ],
+          "lastName": [
+            "Suwannatrai"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Food-borne Parasite Research Group, Department of Parasitology, Faculty of Medicine, Khon Kaen University, Khon Kaen, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tabsripair P"
+          ],
+          "firstName": [
+            "Pairat"
+          ],
+          "lastName": [
+            "Tabsripair"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology, Faculty of Science, Khon Kaen University, Khon Kaen, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Welbat JU"
+          ],
+          "firstName": [
+            "Jariya Umka"
+          ],
+          "lastName": [
+            "Welbat"
+          ],
+          "initials": [
+            "JU"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Anatomy, Faculty of Medicine, Khon Kaen University, Khon Kaen, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tangkawattana S"
+          ],
+          "firstName": [
+            "Sirikachorn"
+          ],
+          "lastName": [
+            "Tangkawattana"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Veterinary Pathobiology, Faculty of Veterinary Medicine, Khon Kaen University, Khon Kaen, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cantacessi C"
+          ],
+          "firstName": [
+            "Cinzia"
+          ],
+          "lastName": [
+            "Cantacessi"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6863-2950",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Veterinary Medicine, University of Cambridge, Cambridge, United Kingdom."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mulvenna J"
+          ],
+          "firstName": [
+            "Jason"
+          ],
+          "lastName": [
+            "Mulvenna"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "QIMR-Berghofer Medical Research Institute, Brisbane, Queensland, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tesana S"
+          ],
+          "firstName": [
+            "Smarn"
+          ],
+          "lastName": [
+            "Tesana"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Food-borne Parasite Research Group, Department of Parasitology, Faculty of Medicine, Khon Kaen University, Khon Kaen, Thailand."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Loukas A"
+          ],
+          "firstName": [
+            "Alex"
+          ],
+          "lastName": [
+            "Loukas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Centre for Biodiscovery and Molecular Development of Therapeutics, Australian Institute of Tropical Health and Medicine, James Cook University, Cairns, Queensland, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sotillo J"
+          ],
+          "firstName": [
+            "Javier"
+          ],
+          "lastName": [
+            "Sotillo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1443-7233",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Centre for Biodiscovery and Molecular Development of Therapeutics, Australian Institute of Tropical Health and Medicine, James Cook University, Cairns, Queensland, Australia."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6863-2950",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1443-7233",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3722-1427",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "related_data",
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2483851"
+      ],
+      "dateOfPublication": [
+        "2016 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS neglected tropical diseases"
+          ],
+          "ISOAbbreviation": [
+            "PLoS Negl Trop Dis"
+          ],
+          "medlineAbbreviation": [
+            "PLoS Negl Trop Dis"
+          ],
+          "NLMid": [
+            "101291488"
+          ],
+          "ISSN": [
+            "1935-2727"
+          ],
+          "ESSN": [
+            "1935-2735"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0005104"
+  ],
+  "abstractText": [
+    "Bithynia siamensis goniomphalos is a freshwater snail that serves as the first intermediate host of the human liver fluke Opisthorchis viverrini. This parasite is a major public health problem in different countries throughout the Greater Mekong sub-region (Thailand, southern Vietnam, Lao PDR and Cambodia). Chronic O. viverrini infection also results in a gradual increase of fibrotic tissues in the biliary tract that are associated with hepatobiliary diseases and contribute to cholangiocarcinoma (a fatal type of bile duct cancer). Infectivity of the parasite in the snail host is strongly correlated with destruction of helminths by the snail's innate immune system, composed of cellular (hemocyte) and humoral (plasma) defense factors. To better understand this important host-parasite interface we applied sequential window acquisition of all theoretical spectra mass spectrometry (SWATH-MS) to identify and quantify the proteins from the hemolymph of B. siamensis goniomphalos experimentally infected with O. viverrini and compare them to non-infected snails (control group). A total of 362 and 242 proteins were identified in the hemocytes and plasma, respectively. Of these, 145 and 117 proteins exhibited significant differences in expression upon fluke infection in hemocytes and plasma, respectively. Among the proteins with significantly different expression patterns, we found proteins related to immune response (up-regulated in both hemocyte and plasma of infected snails) and proteins belonging to the structural and motor group (mostly down-regulated in hemocytes but up-regulated in plasma of infected snails). The proteins identified and quantified in this work will provide important information for the understanding of the factors involved in snail defense against O. viverrini and might facilitate the development of new strategies to control O. viverrini infection in endemic areas."
+  ],
+  "affiliation": [
+    "Food-borne Parasite Research Group, Department of Parasitology, Faculty of Medicine, Khon Kaen University, Khon Kaen, Thailand."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Hemolymph"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PS"
+                  ],
+                  "qualifierName": [
+                    "parasitology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Opisthorchis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Snails"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PS"
+                  ],
+                  "qualifierName": [
+                    "parasitology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Opisthorchiasis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PS"
+                  ],
+                  "qualifierName": [
+                    "parasitology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "TM"
+                  ],
+                  "qualifierName": [
+                    "transmission"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteomics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Host-Parasite Interactions"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pntd.0005104"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5125571"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5125571?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "PRIDE"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pxd"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2017-06-26"
+  ],
+  "dateOfCreation": [
+    "2016-11-29"
+  ],
+  "firstIndexDate": [
+    "2016-11-30"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-11"
+  ],
+  "dateOfRevision": [
+    "2019-02-02"
+  ],
+  "electronicPublicationDate": [
+    "2016-11-28"
+  ],
+  "firstPublicationDate": [
+    "2016-11-28"
+  ]
+}

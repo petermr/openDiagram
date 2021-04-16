@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We took a multifaceted approach to identify differential splicing and exon usage. Sequencing alignment and quality control (QC) metrics were determined using QoRTs
+ <sup>
+  <xref rid="ref22" ref-type="bibr">22</xref>
+ </sup> (v1.2.42), including quantification of the number of known splice junctions (annotated splice junctions), novel splice junctions and read counts of different genomic features for downstream analysis. JunctionSeq
+ <sup>
+  <xref rid="ref23" ref-type="bibr">23</xref>
+ </sup> (v1.10.0) was used to perform differential splicing and exon usage. Similarly, DEXSeq
+ <sup>
+  <xref rid="ref24" ref-type="bibr">24</xref>
+ </sup> (v1.26.0) was used to identify differential exon usage. Finally, SUPPA2
+ <sup>25</sup> (v2.2.2) was used to identify alternative splicing and the type of splicing event. lncScore
+ <sup>
+  <xref rid="ref26" ref-type="bibr">26</xref>
+ </sup> (v1.0.2) was used to calculate the coding potential of transcripts with novel splice junctions and provides a call of non-coding or coding. A score closer to one is an indication of the confidence of it being protein coding.
+</p>

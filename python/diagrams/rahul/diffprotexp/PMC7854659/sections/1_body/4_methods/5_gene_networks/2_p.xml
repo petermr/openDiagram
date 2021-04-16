@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par45">To shed light on the coordinated gene expression and identify the conditional regulatory relationships underlying the differences between RES and CON groups, a differential gene co-expression network analysis was performed by using the R-package DGCA v.1.0.2
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://rb.gy/qadgby" xmlns:xlink="http://www.w3.org/1999/xlink">https://rb.gy/qadgby</ext-link>). To this end, all the genes kept after filtering and normalization (cerebrum, 
+ <italic>n</italic> = 11,432; liver, 
+ <italic>n</italic> = 10,146; and muscle, 
+ <italic>n</italic> = 11,439) were used. Significantly correlated gene pairs were determined based on the adjusted p-values (
+ <italic>q</italic> ≤ 0.05). The DC gene pairs were grouped in one of the eight differential correlation classes proposed by McKenzie et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>. These classes (+/+ ; +/− ; +/0; − /− ; −/+ ; −/0; 0/+ ; 0/−) show the correlation signal [positive, negative, or not significant (0)] for each gene and condition when contrasting the groups (CON 
+ <italic>versus</italic> RES).
+</p>

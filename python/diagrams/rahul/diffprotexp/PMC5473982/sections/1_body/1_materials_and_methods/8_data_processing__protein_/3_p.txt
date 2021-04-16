@@ -1,0 +1,5 @@
+0: In the label-based quantification, only unique peptide sequences with at least 20 PSMs were considered for peptide ratio calculations.
+1: Subsequent analysis of label-based data was performed in R ( https://www.R-project.org).
+2: For each protein, its individual peptide ratios were log 2 transformed, mean values were calculated and tested with a one sample  t test.
+3: Benjamini-Hochberg correction for multiple testing was then applied to the obtained  p values.
+4: Only proteins having  twofold change and adjusted  p value  0.05 were considered as being significantly different in abundance.

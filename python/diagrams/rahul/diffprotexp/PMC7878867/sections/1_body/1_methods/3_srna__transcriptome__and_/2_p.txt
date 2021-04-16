@@ -1,0 +1,6 @@
+0: The transcriptome libraries (Supplementary Table  S2) were constructed using the Illumina mRNA-Seq sample preparation kit, and sequenced on Illumina NovaSeq 6000 at LC-Bio as previously described 28.
+1: Bioinformatics analysis of transcriptome-seq was performed as previously described 28.
+2: For details, see Methods  S1.
+3: Gene expression level was normalised in FPKM (Fragments Per Kilobase Million).
+4: The edgeR package was used to identify differentially expressed genes (DEGs) at  P value < 0.05 using chi-square (n  n).
+5: Fold-change calculations were performed for paired-comparisons made between treatment groups.

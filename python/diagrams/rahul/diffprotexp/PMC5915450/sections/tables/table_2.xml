@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Nonequilibrium work in the absence and presence of ERY in the exit tunnel.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>
+     <italic>W</italic>
+     <sub>pull</sub> (kcal/mol)
+    </th>
+    <th>ErmCL</th>
+    <th>H-NS</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Without ERY</td>
+    <td>305.0 ± 24.0</td>
+    <td>507.3 ± 20.1</td>
+   </tr>
+   <tr>
+    <td>With ERY</td>
+    <td>2009.6 ± 122.7</td>
+    <td>1267.8 ± 106.4</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Error bars represent 95% confidence intervals.</p>
+ </table-wrap-foot>
+</table-wrap>

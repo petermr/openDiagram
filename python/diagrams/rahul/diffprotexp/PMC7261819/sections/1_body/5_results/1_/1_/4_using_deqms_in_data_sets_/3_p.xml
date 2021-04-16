@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We then summarized the number of significant DEPs between all 18 cell lines and among them how many were quantified with 1–2 PSMs. DEqMS identified the highest number of DEPs in 82 of 153 comparisons, and Limma identified the highest number in 67 comparisons (
+ <xref ref-type="fig" rid="F5">Fig. 5</xref>
+ <italic>B</italic> and 
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Table S5</ext-link>). The major difference between the two methods was that Limma detected a higher proportion of DEPs quantified by 1–2 PSMs than DEqMS in all comparisons but one (
+ <xref ref-type="fig" rid="F5">Fig. 5</xref>
+ <italic>B</italic>). Such consistent results emphasize the fact that DEqMS is a more stringent method when testing the significance of differential expression for proteins quantified by 1–2 PSMs.
+</p>

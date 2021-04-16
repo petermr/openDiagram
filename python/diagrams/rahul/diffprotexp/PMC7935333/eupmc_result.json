@@ -1,0 +1,380 @@
+{
+  "id": [
+    "33688252"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33688252"
+  ],
+  "pmcid": [
+    "PMC7935333"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7935333"
+      ]
+    }
+  ],
+  "doi": [
+    "10.2147/cmar.s295951"
+  ],
+  "title": [
+    "Identification of Hub Genes and Pathways of Triple Negative Breast Cancer by Expression Profiles Analysis."
+  ],
+  "authorString": [
+    "Li L, Huang H, Zhu M, Wu J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Li L"
+          ],
+          "firstName": [
+            "Liqi"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Breast Surgery, Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Huang H"
+          ],
+          "firstName": [
+            "Hu"
+          ],
+          "lastName": [
+            "Huang"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Breast Surgery, Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhu M"
+          ],
+          "firstName": [
+            "Mingjie"
+          ],
+          "lastName": [
+            "Zhu"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Breast Surgery, Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wu J"
+          ],
+          "firstName": [
+            "Junqiang"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2659-4516",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Breast Surgery, Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2659-4516",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "3092274"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cancer management and research"
+          ],
+          "ISOAbbreviation": [
+            "Cancer Manag Res"
+          ],
+          "medlineAbbreviation": [
+            "Cancer Manag Res"
+          ],
+          "NLMid": [
+            "101512700"
+          ],
+          "ISSN": [
+            "1179-1322"
+          ],
+          "ESSN": [
+            "1179-1322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "2095-2104"
+  ],
+  "abstractText": [
+    "<h4>Purpose</h4>Triple negative breast cancer (TNBC) is an intrinsic subtype of breast cancer with a poor prognosis, characterized by a lack of ER and PR expression and the absence of HER2 amplification. The aim of this study is to characterize hub genes (key genes in the molecular interaction network) expression in TNBC, which may serve as prognostic predictors for TNBC treatment.<h4>Methods</h4>Four transcriptome microarray datasets GSE27447, GSE39004, GSE43358 and GSE45827 were obtained from the Gene Expression Omnibus (GEO) database, and R package limma and RobustRankAggreg were employed to identify common differentially expressed genes (DEGs). Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were conducted by DAVID and KOBAS database. Thereafter, protein-protein interaction (PPI) network was constructed according to STRING online database. Functional modules and hub genes were screened by MCODE and cytohubba plug-ins, and the Cancer Genome Atlas (TCGA) survival analysis and qRT-PCR were utilized to validate the expression of these hub genes on TNBC.<h4>Results</h4>A total of 134 DEGs were identified by differential expression analysis, consisting of 88 up- and 46 down-regulated genes. GO and KEGG analyses showed that the terms and pathways enriched were mainly associated with cell adhesion, tumorigenesis and cellular immunity. From the PPI network, we identified six hub genes, including <i>CD3D, CD3E, CD3G, FYN, GRAP2</i> and <i>ITK</i>. Survival analysis and the qRT-PCR results confirmed the robustness of the identified hub genes.<h4>Conclusion</h4>This study provides a new insight into the understanding of the molecular mechanisms associated with TNBC and suggested that the hub genes may serve as prognostic predictors."
+  ],
+  "affiliation": [
+    "Department of Breast Surgery, Affiliated Hospital of Jiangnan University, Wuxi, Jiangsu, People's Republic of China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Bioinformatics",
+        "Expression Profiling",
+        "Triple Negative Breast Cancer",
+        "Hub Genes"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.2147/CMAR.S295951"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7935333"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7935333?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "geo"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-10"
+  ],
+  "firstIndexDate": [
+    "2021-03-11"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-10"
+  ],
+  "dateOfRevision": [
+    "2021-03-12"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-01"
+  ],
+  "firstPublicationDate": [
+    "2021-03-01"
+  ]
+}

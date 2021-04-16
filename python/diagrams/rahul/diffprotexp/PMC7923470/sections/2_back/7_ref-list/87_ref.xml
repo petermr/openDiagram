@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="CR87">
+ <label>87.</label>
+ <element-citation publication-type="journal">
+  <person-group person-group-type="author">
+   <name>
+    <surname>Anders</surname>
+    <given-names>S</given-names>
+   </name>
+   <name>
+    <surname>McCarthy</surname>
+    <given-names>DJ</given-names>
+   </name>
+   <name>
+    <surname>Chen</surname>
+    <given-names>Y</given-names>
+   </name>
+   <name>
+    <surname>Okoniewski</surname>
+    <given-names>M</given-names>
+   </name>
+   <name>
+    <surname>Smyth</surname>
+    <given-names>GK</given-names>
+   </name>
+   <name>
+    <surname>Huber</surname>
+    <given-names>W</given-names>
+   </name>
+   <name>
+    <surname>Robinson</surname>
+    <given-names>MD</given-names>
+   </name>
+  </person-group>
+  <article-title>Count-based differential expression analysis of RNA sequencing data using R and bioconductor</article-title>
+  <source>Nat Protocol</source>
+  <year>2013</year>
+  <volume>8</volume>
+  <issue>9</issue>
+  <fpage>1765</fpage>
+  <pub-id pub-id-type="doi">10.1038/nprot.2013.099</pub-id>
+ </element-citation>
+</ref>

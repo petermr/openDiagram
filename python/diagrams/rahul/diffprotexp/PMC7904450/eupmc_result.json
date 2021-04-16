@@ -1,0 +1,613 @@
+{
+  "id": [
+    "33691249"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33691249"
+  ],
+  "pmcid": [
+    "PMC7904450"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7904450"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1016/j.biopha.2021.111437"
+  ],
+  "title": [
+    "Fluoxetine as an anti-inflammatory therapy in SARS-CoV-2 infection."
+  ],
+  "authorString": [
+    "Creeden JF, Imami AS, Eby HM, Gillman C, Becker KN, Reigle J, Andari E, Pan ZK, O'Donovan SM, McCullumsmith RE, McCullumsmith CB."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Creeden JF"
+          ],
+          "firstName": [
+            "Justin Fortune"
+          ],
+          "lastName": [
+            "Creeden"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosciences, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA; Department of Cancer Biology, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA; Department of Psychiatry, University of Toledo College of Medicine and Life Sciences, Toledo, OH 43614, USA. Electronic address: justin.creeden@rockets.utoledo.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Imami AS"
+          ],
+          "firstName": [
+            "Ali Sajid"
+          ],
+          "lastName": [
+            "Imami"
+          ],
+          "initials": [
+            "AS"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosciences, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Eby HM"
+          ],
+          "firstName": [
+            "Hunter M"
+          ],
+          "lastName": [
+            "Eby"
+          ],
+          "initials": [
+            "HM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosciences, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gillman C"
+          ],
+          "firstName": [
+            "Cassidy"
+          ],
+          "lastName": [
+            "Gillman"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Psychiatry, University of Toledo College of Medicine and Life Sciences, Toledo, OH 43614, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Becker KN"
+          ],
+          "firstName": [
+            "Kathryn N"
+          ],
+          "lastName": [
+            "Becker"
+          ],
+          "initials": [
+            "KN"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Cancer Biology, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Reigle J"
+          ],
+          "firstName": [
+            "Jim"
+          ],
+          "lastName": [
+            "Reigle"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biomedical Informatics, University of Cincinnati College of Medicine, Cincinnati, OH 45267, USA; Division of Biomedical Informatics, Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Andari E"
+          ],
+          "firstName": [
+            "Elissar"
+          ],
+          "lastName": [
+            "Andari"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Psychiatry, University of Toledo College of Medicine and Life Sciences, Toledo, OH 43614, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Pan ZK"
+          ],
+          "firstName": [
+            "Zhixing K"
+          ],
+          "lastName": [
+            "Pan"
+          ],
+          "initials": [
+            "ZK"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medical Microbiology and Immunology, University of Toledo Medical Center, Toledo, OH, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "O'Donovan SM"
+          ],
+          "firstName": [
+            "Sinead M"
+          ],
+          "lastName": [
+            "O'Donovan"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosciences, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "McCullumsmith RE"
+          ],
+          "firstName": [
+            "Robert E"
+          ],
+          "lastName": [
+            "McCullumsmith"
+          ],
+          "initials": [
+            "RE"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Neurosciences, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA; Neurosciences Institute, ProMedica, Toledo, OH 43606, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "McCullumsmith CB"
+          ],
+          "firstName": [
+            "Cheryl B"
+          ],
+          "lastName": [
+            "McCullumsmith"
+          ],
+          "initials": [
+            "CB"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Psychiatry, University of Toledo College of Medicine and Life Sciences, Toledo, OH 43614, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "138"
+      ],
+      "journalIssueId": [
+        "3121726"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Pharmacother"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Pharmacother"
+          ],
+          "NLMid": [
+            "8213295"
+          ],
+          "ISSN": [
+            "0753-3322"
+          ],
+          "ESSN": [
+            "1950-6007"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "111437"
+  ],
+  "abstractText": [
+    "Hyperinflammatory response caused by infections such as Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) increases organ failure, intensive care unit admission, and mortality. Cytokine storm in patients with Coronavirus Disease 2019 (COVID-19) drives this pattern of poor clinical outcomes and is dependent upon the activity of the transcription factor complex nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kappaB) and its downstream target gene interleukin 6 (IL6) which interacts with IL6 receptor (IL6R) and the IL6 signal transduction protein (IL6ST or gp130) to regulate intracellular inflammatory pathways. In this study, we compare transcriptomic signatures from a variety of drug-treated or genetically suppressed (i.e. knockdown) cell lines in order to identify a mechanism by which antidepressants such as fluoxetine demonstrate non-serotonergic, anti-inflammatory effects. Our results demonstrate a critical role for IL6ST and NF-kappaB Subunit 1 (NFKB1) in fluoxetine's ability to act as a potential therapy for hyperinflammatory states such as asthma, sepsis, and COVID-19."
+  ],
+  "affiliation": [
+    "Department of Neurosciences, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA; Department of Cancer Biology, College of Medicine and Life Sciences, University of Toledo, Toledo, OH 43614, USA; Department of Psychiatry, University of Toledo College of Medicine and Life Sciences, Toledo, OH 43614, USA. Electronic address: justin.creeden@rockets.utoledo.edu."
+  ],
+  "publicationStatus": [
+    "aheadofprint"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 MH121102"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 MH107487"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Sepsis",
+        "Inflammation",
+        "fluoxetine",
+        "Selective serotonin reuptake inhibitors",
+        "Antidepressants",
+        "Ssris",
+        "Cytokine Storm",
+        "Transcription Factor Nf-κb",
+        "Covid-19",
+        "Sars-cov-2",
+        "Severe Acute Respiratory Syndrome Coronavirus 2",
+        "Coronavirus Disease 2019",
+        "Cytokine Il6",
+        "Nuclear Factor Kappa B Subunit 1"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.biopha.2021.111437"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7904450"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7904450?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR253532"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "Link created based on a title-first author match"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "nct"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-03-10"
+  ],
+  "firstIndexDate": [
+    "2021-03-11"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-27"
+  ],
+  "dateOfRevision": [
+    "2021-03-25"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-25"
+  ],
+  "firstPublicationDate": [
+    "2021-02-25"
+  ]
+}

@@ -1,0 +1,7 @@
+0: We want to emphasize here that DEqMS is developed on top of Limma.
+1: A core part of limma is its calculation of a so-called empirical-Bayesian prior variance, which describes one's prior expectation of the variance for a gene from the variance observed for all the other genes.
+2: By default, limma estimates a fixed prior distribution for all genes, but it has been shown by Sartor  et al.
+3: ( 16) that it is advantageous to let the priors mean depend on further covariates, specifically on the genes' expression strength (averaged over all samples), if the variance seems to depend on it.
+4: Sartor  et al.
+5: provided an R function, called intensity-based moderated t-statistic (IBMT), which could be used within an analysis with the limma package to modify limma's workflow and include such an intensity-dependent prior variance.
+6: A similar functionality, dubbed limma-trend was later added natively to limma by the limma package's authors ( 15).

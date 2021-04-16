@@ -1,0 +1,9 @@
+0: Proteomics can provide insights into understanding complex biological systems by analyzing expression, function, modifications, and interactions.
+1: To determine the relative differences in protein expression in a cell or tissue, at a given time or under a particular condition, one can use quantitative MS-based proteomics that uses labeled or label-free proteins [ 17].
+2: Commonly used labeling techniques include isobaric tags for relative and absolute quantitation (iTRAQ) [ 18], isotope-coded affinity tags (ICAT) [ 19], tandem mass tags (TMT) [ 20] and stable isotope labeling by amino acids in cell culture (SILAC) [ 21].
+3: These techniques are relatively accurate but have limitations, since they are costly, limited by the number of samples that can be analyzed per experiment, and have incomplete labeling efficiencies [ 17,  22].
+4: In label-free quantitation, two approaches can be used, (i) measurement of the chromatographic elution peak area [ 23] or (ii) spectral counting [ 24].
+5: Measurement of peak area involves calculating and comparing the mean intensity of peak areas for all peptides from each protein in the biological sample [ 25].
+6: In contrast, spectral counting is based on the number of MS/MS spectra generated from a protein.
+7: The more abundant the protein in the biological sample, the more peptides will be selected for fragmentation [ 17].
+8: Both techniques are useful for quantifying differences between proteins, especially for proteins of low abundance [ 26].

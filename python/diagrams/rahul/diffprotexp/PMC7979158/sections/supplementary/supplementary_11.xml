@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="supp5">
+ <label>Supplementary file 5.</label>
+ <caption>
+  <title>RNA-seq sample metadata including Sample ID, age, treatment (Condition), classification as per their IL-6 prenatal levels (Response), sequencer lane batch parameters (HiSeq Lane, Library barcodes), animal and litter parameters (Animal ID, Litter ID, Liter Size), animal sex inferred from 
+   <italic>Xist</italic> expression (Sex by 
+   <italic>Xist</italic> counts), fastq file name, and fastq file md5sum hash value (md5sum).
+  </title>
+  <p>Out of 74 samples, 73 were tracked for the Litter ID (explained in the Comments).</p>
+ </caption>
+ <media mime-subtype="zip" mimetype="application" xlink:href="elife-60100-supp5.zip" orientation="portrait" id="d39e2159" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</supplementary-material>

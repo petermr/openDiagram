@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="genes-12-00257-t003" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">genes-12-00257-t003_Table 3</object-id>
+ <label>Table 3</label>
+ <caption>
+  <p>Univariate and multivariate Cox analysis of LE gene panel for poor OS (overall survival) of ccRCC (clear cell renal cell carcinoma).</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" colspan="1">Factors</th>
+    <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Univariate Cox Analysis</th>
+    <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Multivariate Cox Analysis</th>
+   </tr>
+   <tr>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">HR</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">95% CI</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>p</italic>-Value
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">HR</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">95% CI</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>p</italic>-Value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">LE Panel 
+     <sup>1</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.72</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.03–3.63</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.13 × 10
+     <sup>−11</sup> ***
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.67</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.18–2.35</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00341 **</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Age 
+     <sup>2</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.03</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.02–1.04</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.78 × 10
+     <sup>−6</sup> ***
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.03</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.02–1.05</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.68 × 10
+     <sup>−5</sup> ***
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Sex 
+     <sup>3</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.96</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.70–1.31</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.793</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.96</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.696–1.329</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.81224</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Stage III 
+     <sup>4</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.80</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.84–4.23</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.28 × 10
+     <sup>−6</sup> ***
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.05</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.32–3.16</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00127 **</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Stage IV 
+     <sup>4</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.83</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.60–10.12</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">&lt;2 × 10
+     <sup>−16</sup> ***
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.53</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.87–7.13</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.13 × 10
+     <sup>−11</sup> ***
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Grade 3 
+     <sup>5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.94</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.32–2.86</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.000753 ***</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.43</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.96–2.13</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.08017</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Grade 4 
+     <sup>5</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5.74</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.59–8.05</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.06 × 10
+     <sup>−16</sup> ***
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2.01</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.25–3.23</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.00383 **</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>
+    <sup>1</sup> LE gene panel score; 
+    <sup>2</sup> Age at diagnosis; 
+    <sup>3</sup> Compared to females; 
+    <sup>4</sup> Compared to Stage I, Stage II is not significant at univariate Cox analysis; 
+    <sup>5</sup> Compared to Grade 1 + 2 (both grades were combined because of small sample number for Grade 1 samples, 
+    <italic>n</italic> = 12); HR: hazard ratio; CI: confidence interval. **, *** for 
+    <italic>p</italic> &lt; 0.01 and 0.001, respectively.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

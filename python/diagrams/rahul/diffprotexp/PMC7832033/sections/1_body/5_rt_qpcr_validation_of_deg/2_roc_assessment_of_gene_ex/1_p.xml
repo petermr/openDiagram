@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Receiver operating characteristic (ROC) curves were constructed based on the RT-qPCR results from the validation set of melioidosis patients to examine the classification accuracy of each DEG for distinguishing between non-survivors and survivors (
+ <xref rid="F0006" ref-type="fig">Figure 6</xref>A-C). The highest area under the ROC (AUROCC) were obtained from the genes listed in Supplementary Table 6. Among these, 
+ <italic>S100A9</italic> showed the highest AUROCC value (0.88) followed by 
+ <italic>IL1R2</italic> (0.87) and 
+ <italic>TLR4</italic> (0.86). The down-regulated gene with the highest AUROCC was 
+ <italic>CD160</italic> (0.77). A combined signature of the expression of the 12 genes with best individual discriminatory ability was able to classify the non-survivors from the survivors in a Random Forest model (AUROCC 0.85, CI = 0.74–0.94), and completely discriminated the melioidosis patients from the healthy controls (
+ <xref rid="F0006" ref-type="fig">Figure 6</xref>D). 
+</p>

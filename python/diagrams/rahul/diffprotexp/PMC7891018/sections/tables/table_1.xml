@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Summary of downregulated proteins in A549 cells infected with influenza A H5N1 virus compared to H9N2-infected cells at 24 hpi (r &gt; 2, 
+   <italic>p</italic> &lt; 0.05)
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Spot no.
+     <sup>a</sup>
+    </th>
+    <th align="left">Accession No.
+     <sup>b</sup>
+    </th>
+    <th align="left">Gene</th>
+    <th align="left">Protein name</th>
+    <th align="left">MW (Da)</th>
+    <th align="left">pI</th>
+    <th align="left">Score
+     <sup>c</sup>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">1</td>
+    <td align="left">P04264</td>
+    <td align="left">KRT1</td>
+    <td align="left">Keratin, type II cytoskeletal 1</td>
+    <td align="left">66,170</td>
+    <td char="." align="char">8.15</td>
+    <td align="left">120</td>
+   </tr>
+   <tr>
+    <td align="left">2</td>
+    <td align="left">P10809</td>
+    <td align="left">HSPD1</td>
+    <td align="left">60-kDa heat shock protein, mitochondrial</td>
+    <td align="left">61,187</td>
+    <td char="." align="char">5.7</td>
+    <td align="left">69</td>
+   </tr>
+   <tr>
+    <td align="left">3</td>
+    <td align="left">B4DEF7</td>
+    <td align="left">N /A</td>
+    <td align="left">cDNA FLJ60062, highly similar to 78-kDa glucose-regulated protein</td>
+    <td align="left">30,458</td>
+    <td char="." align="char">5.77</td>
+    <td align="left">68</td>
+   </tr>
+   <tr>
+    <td align="left">4</td>
+    <td align="left">Q59FC6</td>
+    <td align="left">N /A</td>
+    <td align="left">Tumor rejection antigen (Gp96) 1 variant</td>
+    <td align="left">66,140</td>
+    <td char="." align="char">5.08</td>
+    <td align="left">46</td>
+   </tr>
+   <tr>
+    <td align="left">5</td>
+    <td align="left">V9HWE1</td>
+    <td align="left">HEL113</td>
+    <td align="left">Epididymis luminal protein 113</td>
+    <td align="left">53,676</td>
+    <td char="." align="char">5.24</td>
+    <td align="left">156</td>
+   </tr>
+   <tr>
+    <td align="left">6</td>
+    <td align="left">Q7L4M3</td>
+    <td align="left">KRT 8</td>
+    <td align="left">KRT8 protein</td>
+    <td align="left">30,802</td>
+    <td char="." align="char">5.05</td>
+    <td align="left">57</td>
+   </tr>
+   <tr>
+    <td align="left">7</td>
+    <td align="left">P07237</td>
+    <td align="left">P4HB</td>
+    <td align="left">Protein disulfide-isomerase</td>
+    <td align="left">57,146</td>
+    <td char="." align="char">5.96</td>
+    <td align="left">60</td>
+   </tr>
+   <tr>
+    <td align="left">8
+     <sup>*</sup>
+    </td>
+    <td align="left">P06576</td>
+    <td align="left">ATP5F1B</td>
+    <td align="left">ATP synthase subunit beta, mitochondrial</td>
+    <td align="left">56,525</td>
+    <td char="." align="char">5.26</td>
+    <td align="left">130</td>
+   </tr>
+   <tr>
+    <td align="left">9</td>
+    <td align="left">Q9UJZ1</td>
+    <td align="left">STOML2</td>
+    <td align="left">Stomatin-like protein 2, mitochondrial</td>
+    <td align="left">38,839</td>
+    <td char="." align="char">4.45</td>
+    <td align="left">120</td>
+   </tr>
+   <tr>
+    <td align="left">10</td>
+    <td align="left">P35908</td>
+    <td align="left">KRT2</td>
+    <td align="left">Keratin, type II cytoskeletal 2 epidermal</td>
+    <td align="left">65,678</td>
+    <td char="." align="char">8.07</td>
+    <td align="left">47</td>
+   </tr>
+   <tr>
+    <td align="left">11</td>
+    <td align="left">P13645</td>
+    <td align="left">KRT10</td>
+    <td align="left">Keratin, type I cytoskeletal 10</td>
+    <td align="left">58,994</td>
+    <td char="." align="char">5.13</td>
+    <td align="left">49</td>
+   </tr>
+   <tr>
+    <td align="left">12</td>
+    <td align="left">A8K401</td>
+    <td align="left">PHB</td>
+    <td align="left">Prohibitin, isoform CRA_a</td>
+    <td align="left">29,843</td>
+    <td char="." align="char">4.14</td>
+    <td align="left">175</td>
+   </tr>
+   <tr>
+    <td align="left">13</td>
+    <td align="left">P30044</td>
+    <td align="left">PRDX5</td>
+    <td align="left">Peroxiredoxin-5, mitochondrial</td>
+    <td align="left">17,611</td>
+    <td char="." align="char">9.02</td>
+    <td align="left">50</td>
+   </tr>
+   <tr>
+    <td align="left">14</td>
+    <td align="left">Q9BYX7</td>
+    <td align="left">POTEKP</td>
+    <td align="left">Putative beta-actin-like protein 3</td>
+    <td align="left">42,331</td>
+    <td char="." align="char">5.91</td>
+    <td align="left">53</td>
+   </tr>
+   <tr>
+    <td align="left">15
+     <sup>*</sup>
+    </td>
+    <td align="left">Q6FHZ0</td>
+    <td align="left">MDH2</td>
+    <td align="left">Malate dehydrogenase, mitochondrial</td>
+    <td align="left">35,965</td>
+    <td char="." align="char">8.92</td>
+    <td align="left">63</td>
+   </tr>
+   <tr>
+    <td align="left">16</td>
+    <td align="left">P38646</td>
+    <td align="left">HSPA9</td>
+    <td align="left">Stress-70 protein, mitochondrial</td>
+    <td align="left">73,967</td>
+    <td char="." align="char">6.03</td>
+    <td align="left">52</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>Spot No. is the unique sample spot protein number
+  </p>
+  <p>
+   <sup>b</sup>Accession No is the MASCOT result of MALDI-TOF/TOF searched from the NCBI database
+  </p>
+  <p>
+   <sup>c</sup>Protein score (based on combined MS and MS/MS spectra) and best ion score (based on MS/MS spectra) were from MALDI-TOF/TOF identification
+  </p>
+  <p>
+   <sup>*</sup>Indicating that the differential proteins were validated by western blot analysis
+  </p>
+ </table-wrap-foot>
+</table-wrap>

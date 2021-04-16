@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0004" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 4.</label>
+ <caption>
+  <p>Degrees of centrality and GO term of DEGs</p>
+ </caption>
+ <graphic content-type="black-white" xlink:href="KADI_A_1859789_F0004_B" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <attrib>(A) Top right panel: List of the top 30 genes with the highest degrees in the PPI network. (B) GO term biological processes annotation of the top 30 genes with the highest degrees in the PPI network. Number of genes displayed adjacently to in each enrichment bar chart. False dependent rate, represented as P-adj values, are normalized to -log10(P-adj).</attrib>
+</fig>

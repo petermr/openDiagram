@@ -1,0 +1,4 @@
+0: The marker gene sets for immune cell types were obtained from Bindea et al 24.
+1: The gene signatures expressed by the immune cell populations were quantified using the single-sample gene set enrichment analysis (ssGSEA) function in GSVA.
+2: Differences in immune cell infiltration between sepsis patients and healthy controls were then calculated, and a significance criterion of  P< 0.05 was applied.
+3: Correlations between levels of infiltration by different types of immune cells were calculated using Pearsons correlation, based on ssGSEA scores for the immune cell types.

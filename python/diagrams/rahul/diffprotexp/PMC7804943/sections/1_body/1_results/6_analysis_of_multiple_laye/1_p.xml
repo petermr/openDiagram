@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">We next expanded our analysis of GE, APA, and AS to assess the relative contributions of each of these regulatory layers to a more diverse set of neuronal populations distributed across the mouse nervous system, represented by more than one-hundred RNA-seq datasets. These neuronal samples were annotated on the basis of a range of phenotypic features including excitatory type, morphology, age, and brain region (Supplementary Data 
+ <xref rid="MOESM3" ref-type="media">2</xref>). Applying MOFA resulted in the inference of five latent factors, each of which have shared and unique contributions representing each regulatory layer (Fig. 
+ <xref rid="Fig4" ref-type="fig">4a</xref>). Importantly, surrogate variable analysis reveals that these results are independent of batch effects (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">4a, b</xref>, Supplementary Results, and Supplementary Methods) minimizing the potential impact of ratio-based metrics
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>. Similar to the hippocampal sub-region analysis, GE accounted for the most variance (
+ <italic>R</italic>
+ <sup>2</sup> = 0.55). The other layers also contributed substantially to the observed variation (APA, 
+ <italic>R</italic>
+ <sup>2</sup> = 0.49; exonic AS, 
+ <italic>R</italic>
+ <sup>2</sup> = 0.44; and IR, 
+ <italic>R</italic>
+ <sup>2</sup> = 0.37). Furthermore, these factors describe variability consistent with the results from PCA (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">5a</xref>).
+</p>

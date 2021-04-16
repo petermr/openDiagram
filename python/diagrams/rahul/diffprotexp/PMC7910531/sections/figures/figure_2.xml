@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Fig. 2</label>
+ <caption>
+  <title>Molecular QTLs in osteoarthritis disease tissue.</title>
+  <p>
+   <bold>a</bold> eQTL overlap between tissues, for a total of 1891 genes with a least one eQTL (left) and 219,709 eQTL gene-variant pairs (right). 49% of detected eQTLs are not tissue-specific. 
+   <bold>b</bold> An example of differential QTL effect: a molecular QTL present in high-grade, but not low-grade cartilage (posterior probability 
+   <italic>m</italic> &gt; 0.9 and 
+   <italic>m</italic> &lt; 0.1, respectively), or vice versa. The boxplots show expression (residuals after regressing the normalised expression data on the 15 PEER factors, sex and array) at 25th to 75th percentiles, with centre at the median and whiskers extend to 1.5 times the interquartile range. NES FastQTL normalised effect size, 
+   <italic>P</italic> FastQTL association 
+   <italic>P</italic> value, n number of individuals included in the analysis for each genotype. 
+   <bold>c</bold> Genes with ≥5 differential eQTL variants (all genes see Supplementary Data 
+   <xref rid="MOESM5" ref-type="media">1</xref>).
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2021_21593_Fig2_HTML" id="d32e627" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Fig. 2</label>
+ <caption>
+  <title>Genome-wide profile of chromatin accessibility dynamics during somite development.</title>
+  <p>
+   <bold>a</bold> Correlation heat maps of accessible chromatin regions (ATAC-seq peak sites) comparing PSM and ES, 
+   <bold>b</bold> ES and MS and 
+   <bold>c</bold> MS and DS. 
+   <bold>d</bold> MA plots of significantly differential peak sites (pink) comparing PSM with ES, 
+   <bold>e</bold> ES with MS and 
+   <bold>f</bold> MS with DS. 
+   <bold>g</bold> Bar plot showing proportions of total genome sequence of peaks in PSM, ES, MS and DS (error bars = SD). Nearly half of all peaks lie within 50 kb of the promoter and TSS and half are in intergenic and intron regions. 
+   <bold>h</bold> GO terms associated with enriched transcription factors in DS compared to PSM. For enriched GO terms, 
+   <italic>p</italic> values were obtained from a modified Fisher exact test. 
+   <bold>i</bold> Number of transcription factor binding sites identified within 2 kb upstream of differentially expressed genes in DS compared to PSM. 
+   <bold>j</bold> Motif enrichment analysis performed using Homer. Transcription factor motifs identified as enriched in PSM accessible regions and 
+   <bold>k</bold> in DS accessible regions. Percentage indicates increase of motifs identified in either PSM or DS for each motif.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2021_21426_Fig2_HTML" id="d32e830" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

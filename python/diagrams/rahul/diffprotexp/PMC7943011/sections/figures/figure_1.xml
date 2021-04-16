@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pone.0248103.g001" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0248103.g001</object-id>
+ <label>Fig 1</label>
+ <caption>
+  <title>Proteomic analysis of endometrial cancer cells after treatment with metformin or insulin.</title>
+  <p>Protein lysates of HEC-1A cells were collected 7 days after repeated administration of 0.5 mmol/L metformin or 100 ng/mL insulin and subjected to scioDiscover antibody microarrays targeting 1,300 different proteins. Untreated cells served as the reference control sample. Proteins were defined as significantly differential for |log
+   <sub>2</sub>FC| ≥ 0.5 and an adjusted 
+   <italic>p</italic> value ≤ 0.05; n = 3. (
+   <bold>A</bold>–
+   <bold>C</bold>) Volcano plots for each treatment group display the distribution of proteins that were differently expressed after metformin (
+   <bold>A</bold>) or insulin (
+   <bold>B</bold>) administration compared to control samples or between metformin and insulin treatments (
+   <bold>C</bold>). (
+   <bold>D</bold>) Hierarchical clustering of samples based on differential protein data. One sample (Metformin_3) was identified as an outlier and removed from proteomic analysis. (
+   <bold>E</bold>) Venn diagram of differentially expressed proteins after treatment with metformin or insulin (metformin/insulin vs. control) or between both treatment groups (metformin vs. insulin).
+  </p>
+ </caption>
+ <graphic xlink:href="pone.0248103.g001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The DEGs and differential metabolites were subjected to KEGG Mapper
+ <sup>
+  <xref ref-type="fn" rid="footnote4">4</xref>
+ </sup> to get the common pathway. KGML file, a subset in the KEGG database, contains the relationships of the graph objects and information about lineal homologous genes in the KEGG genes database. The differences in genes and metabolites in our study were subjected to the database, and the matched network relationships were set as a basic network. Metabolome and transcriptome relationships were visualized and interpreted using Cytoscape (version 3.4.0), and hub genes were calculated by CytoHubba (a Cytoscape plug-in for identifying hub nodes) through MCC (the top 10 nodes ranked by MCC) and degree (degree &gt;6) algorithm.
+</p>

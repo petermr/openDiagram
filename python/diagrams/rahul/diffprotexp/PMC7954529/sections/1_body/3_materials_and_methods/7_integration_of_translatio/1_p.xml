@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We downloaded differentially translated genes and their effect sizes from Additional file 5 of 
+ <xref rid="bib81" ref-type="bibr">Wang et al., 2018b</xref>. Wang et al. modeled differential translation using ribosome profiling of four human, four chimpanzee, and four rhesus macaque LCLs. For all integrations, we conditioned on the 6407 genes tested in the Wang et al. study and in our APA analysis. We tested for enrichments using a one-sided hypergeometric test implemented in R. We tested for correlations in effect sizes between site-level ΔPAU and translation HvC effect sizes by first filtering for the top PAS (see top PAS method above, 
+ <xref ref-type="fig" rid="fig5s2">Figure 5—figure supplement 2</xref>). We report Pearson’s correlations calculated in R.
+</p>

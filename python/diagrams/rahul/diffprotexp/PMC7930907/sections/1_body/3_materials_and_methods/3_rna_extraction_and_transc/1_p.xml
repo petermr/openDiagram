@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>P3 SASCs, PASCs, and EASCs were cultured in 12-well plates with six replicates in each group. Each well was ground with 1 ml Trizol solution, placed at room temperature for 5 min, and then aspirated. RNA was separated using chloroform (mixture:chloroform = 5:1) and precipitated by isopropanol and absolute ethanol. Finally, RNA was precipitated with DEPC water, and then stored at −80
+ <sup>°</sup>C for subsequent transcriptome sequencing (Guangzhou Ruibo company, Guangzhou, China). In order to ensure the accuracy of sequencing data, the RNA samples were detected by agarose gel electrophoresis, Nanodrop One/One
+ <sup>c</sup>, Qubit 2.0, and Agilent 2100 to estimate the effectiveness, concentration, purity, and integrity of RNA samples, and the cDNA library could be constructed only after the detection results meet the requirements. The HiSeq 3000 System (Illumina
+ <sup>®</sup>) was used for sequencing that generated 150 bp paired-end reads. Before data analysis, the adaptor was removed by cutadapt software (version 3.1), and the low-quality sequence was removed by FastX-Toolkit software (version 0.0.13). The alignment was performed with TopHat softwar (version 2.1.1) (–read-mismatches = 2, –read-gap-length = 2), and the reference genome was rn6 (comparison efficiency &gt;80%). Based on Bowtie v2, transcriptome sequencing reads were compared with the reference genome and splicing junction between exons were identified. Fragments per kilobase of transcript per million reads mapped (FPKM) was used as an index to measure gene expression. The differential expression analysis was performed by DEGseq, which was based on binomial distribution and combined with Fisher’s exact test and likelihood ratio test, and the genes with fold change &gt;2 and FDR &lt;0.05 were identified as DEGs. KOBAS v2.0 R language package was used for functional enrichment analysis. The upregulated or downregulated DEGs were subjected to network analyses
+ <sup>
+  <xref ref-type="fn" rid="footnote1">1</xref>
+ </sup> as previously described (
+ <xref rid="B39" ref-type="bibr">Schuierer et al., 2010</xref>).
+</p>

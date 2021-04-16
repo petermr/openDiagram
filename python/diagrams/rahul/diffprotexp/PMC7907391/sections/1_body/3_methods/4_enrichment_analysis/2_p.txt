@@ -1,0 +1,4 @@
+0: Enrichment analysis was also performed on genes that were differentially expressed in 12 days of treatment with chemotherapy (GSE39324) 36vs.
+1: prior treatment using clusterprofiler 55.
+2: The enrichGO and enrichKEGG function was applied with the Benjamin & Hochberg 56 method enforced (threshold 0.05).
+3: The output was merged with known COVID-19 pathways using R to identify overlapping upregulated and downregulated GO and KEGG pathways.

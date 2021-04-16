@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>The statistically significantly different proteins displayed with meniscus (M) vs articular cartilage (C) ratios together with 95% confidence intervals</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th colspan="2">Protein</th>
+    <th colspan="2">DIA</th>
+    <th colspan="2">DDA</th>
+   </tr>
+   <tr>
+    <th>Protein name</th>
+    <th>Entry name</th>
+    <th>M vs C Ratio</th>
+    <th>95% CI</th>
+    <th>M vs C Ratio</th>
+    <th>95% CI</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Phospholipase A2, membrane associated</td>
+    <td>PA2GA</td>
+    <td>
+     <bold>0.02</bold>
+    </td>
+    <td>0.0080, 0.0682</td>
+    <td>0.05</td>
+    <td>0.0022, 1.0759</td>
+   </tr>
+   <tr>
+    <td>Lysozyme C</td>
+    <td>LYSC</td>
+    <td>
+     <bold>0.03</bold>
+    </td>
+    <td>0.0155, 0.0749</td>
+    <td>
+     <bold>0.03</bold>
+    </td>
+    <td>0.0225, 0.0491</td>
+   </tr>
+   <tr>
+    <td>Link protein 1</td>
+    <td>HPLN1</td>
+    <td>
+     <bold>0.03</bold>
+    </td>
+    <td>0.0157, 0.0780</td>
+    <td>
+     <bold>0.07</bold>
+    </td>
+    <td>0.0244, 0.2262</td>
+   </tr>
+   <tr>
+    <td>C-type lectin domain family 3 member A</td>
+    <td>CLC3A</td>
+    <td>
+     <bold>0.06</bold>
+    </td>
+    <td>0.0235, 0.1404</td>
+    <td>–</td>
+    <td>–</td>
+   </tr>
+   <tr>
+    <td>Aggrecan core protein</td>
+    <td>PGCA</td>
+    <td>
+     <bold>0.07</bold>
+    </td>
+    <td>0.0437, 0.1003</td>
+    <td>
+     <bold>0.11</bold>
+    </td>
+    <td>0.0607, 0.2088</td>
+   </tr>
+   <tr>
+    <td>Angiogenin</td>
+    <td>ANGI</td>
+    <td>
+     <bold>0.08</bold>
+    </td>
+    <td>0.0322, 0.1914</td>
+    <td>
+     <bold>0.12</bold>
+    </td>
+    <td>0.0262, 0.5713</td>
+   </tr>
+   <tr>
+    <td>Osteoadherin</td>
+    <td>OMD</td>
+    <td>
+     <bold>0.12</bold>
+    </td>
+    <td>0.0592, 0.2396</td>
+    <td>0.81</td>
+    <td>0.0124, 53.1158</td>
+   </tr>
+   <tr>
+    <td>Cadherin-1</td>
+    <td>CADH1</td>
+    <td>
+     <bold>0.14</bold>
+    </td>
+    <td>0.0970, 0.1985</td>
+    <td>–</td>
+    <td>–</td>
+   </tr>
+   <tr>
+    <td>Galectin-3</td>
+    <td>LEG3</td>
+    <td>
+     <bold>0.17</bold>
+    </td>
+    <td>0.0850, 0.3358</td>
+    <td>–</td>
+    <td>–</td>
+   </tr>
+   <tr>
+    <td>Retinoic acid receptor responder protein 2</td>
+    <td>RARR2</td>
+    <td>
+     <bold>0.24</bold>
+    </td>
+    <td>0.1616, 0.3465</td>
+    <td>0.14</td>
+    <td>0.0024, 8.3010</td>
+   </tr>
+   <tr>
+    <td>Ribonuclease pancreatic</td>
+    <td>RNAS1</td>
+    <td>
+     <bold>0.31</bold>
+    </td>
+    <td>0.2257, 0.4193</td>
+    <td>–</td>
+    <td>–</td>
+   </tr>
+   <tr>
+    <td>Immunoglobulin heavy constant gamma 1</td>
+    <td>IGHG1</td>
+    <td>
+     <bold>1.90</bold>
+    </td>
+    <td>1.5899, 2.2697</td>
+    <td>1.67</td>
+    <td>0.2201, 12.6297</td>
+   </tr>
+   <tr>
+    <td>Fructose-bisphosphate aldolase A</td>
+    <td>ALDOA</td>
+    <td>
+     <bold>2.31</bold>
+    </td>
+    <td>1.7679, 3.0084</td>
+    <td>
+     <bold>2.87</bold>
+    </td>
+    <td>1.2702, 6.5020</td>
+   </tr>
+   <tr>
+    <td>Antithrombin-III</td>
+    <td>ANT3</td>
+    <td>
+     <bold>3.52</bold>
+    </td>
+    <td>2.0978, 5.9178</td>
+    <td>
+     <bold>5.07</bold>
+    </td>
+    <td>2.4498, 10.4777</td>
+   </tr>
+   <tr>
+    <td>Alpha-1-antitrypsin</td>
+    <td>A1AT</td>
+    <td>
+     <bold>4.37</bold>
+    </td>
+    <td>2.7565, 6.9337</td>
+    <td>
+     <bold>5.66</bold>
+    </td>
+    <td>2.9101, 11.0077</td>
+   </tr>
+   <tr>
+    <td>Myocilin</td>
+    <td>MYOC</td>
+    <td>
+     <bold>4.40</bold>
+    </td>
+    <td>2.9193, 6.6454</td>
+    <td>–</td>
+    <td>–</td>
+   </tr>
+   <tr>
+    <td>Transforming growth factor-beta-induced protein ig-h3</td>
+    <td>BGH3</td>
+    <td>
+     <bold>5.32</bold>
+    </td>
+    <td>3.7506, 7.5369</td>
+    <td>
+     <bold>4.43</bold>
+    </td>
+    <td>3.2893, 5.9672</td>
+   </tr>
+   <tr>
+    <td>Versican core protein</td>
+    <td>CSPG2</td>
+    <td>
+     <bold>6.64</bold>
+    </td>
+    <td>3.0219, 14.5711</td>
+    <td>
+     <bold>4.71</bold>
+    </td>
+    <td>1.1596, 19.1601</td>
+   </tr>
+   <tr>
+    <td>Alpha-1-acid glycoprotein 2</td>
+    <td>A1AG2</td>
+    <td>
+     <bold>6.83</bold>
+    </td>
+    <td>4.3899, 10.6362</td>
+    <td>–</td>
+    <td>–</td>
+   </tr>
+   <tr>
+    <td>Asporin</td>
+    <td>ASPN</td>
+    <td>
+     <bold>9.40</bold>
+    </td>
+    <td>3.3169, 26.6299</td>
+    <td>
+     <bold>10.79</bold>
+    </td>
+    <td>7.3853, 15.7771</td>
+   </tr>
+   <tr>
+    <td>Dermatopontin</td>
+    <td>DERM</td>
+    <td>
+     <bold>14.97</bold>
+    </td>
+    <td>3.3437, 66.9949</td>
+    <td>
+     <bold>29.25</bold>
+    </td>
+    <td>16.3595, 52.2832</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Statistically significant ratios are marked in bold</p>
+ </table-wrap-foot>
+</table-wrap>

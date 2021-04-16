@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0070">Pathway activation level (PAL) is an integral parameter that characterizes activation of a molecular pathway using high-throughput gene expression data [
+ <xref rid="bib38" ref-type="bibr">38</xref>, 
+ <xref rid="bib39" ref-type="bibr">39</xref>]. It utilizes aggregation of logarithmic fold-change expression levels (case compared with control samples) for the gene products involved in a certain molecular pathway, using functional flags indicating specific activator or repressor roles of a gene product in the molecular pathway [
+ <xref rid="bib38" ref-type="bibr">38</xref>]. Positive PAL value indicates upregulation of the molecular pathway, negative value – its downregulation, whereas zero means unaffected level compared with the controls [
+ <xref rid="bib38" ref-type="bibr">38</xref>].
+</p>

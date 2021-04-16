@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="ath1">
+  <name>
+   <surname>da Rosa</surname>
+   <given-names>Rafael Lopes</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath2">
+  <name>
+   <surname>Yang</surname>
+   <given-names>Tung Sheng</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath3">
+  <name>
+   <surname>Tureta</surname>
+   <given-names>Emanuela Fernanda</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath4">
+  <name>
+   <surname>de Oliveira</surname>
+   <given-names>Laura Rascovetzki Saciloto</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath5">
+  <name>
+   <surname>Moraes</surname>
+   <given-names>Amanda Naiara Silva</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath6">
+  <name>
+   <surname>Tatara</surname>
+   <given-names>Juliana Miranda</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath7">
+  <name>
+   <surname>Costa</surname>
+   <given-names>Renata Pereira</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath8">
+  <name>
+   <surname>Borges</surname>
+   <given-names>Júlia Spier</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath9">
+  <name>
+   <surname>Alves</surname>
+   <given-names>Camila Innocente</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath10">
+  <name>
+   <surname>Berger</surname>
+   <given-names>Markus</given-names>
+  </name>
+  <xref rid="aff3" ref-type="aff">§</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath11">
+  <name>
+   <surname>Guimarães</surname>
+   <given-names>Jorge Almeida</given-names>
+  </name>
+  <xref rid="aff3" ref-type="aff">§</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath12">
+  <name>
+   <surname>Santi</surname>
+   <given-names>Lucélia</given-names>
+  </name>
+  <xref rid="cor1" ref-type="other">*</xref>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath13">
+  <name>
+   <surname>Beys-da-Silva</surname>
+   <given-names>Walter Orlando</given-names>
+  </name>
+  <xref rid="cor2" ref-type="other">*</xref>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <aff id="aff1">
+  <label>†</label>Programa de Pós-Graduação em Biologia Celular e Molecular, 
+  <institution>Universidade Federal do Rio Grande do Sul</institution>, Avenida Bento Gonçalves 9500, prédio 43431, Porto Alegre, Rio Grande do Sul 91501-970, 
+  <country>Brasil</country>
+ </aff>
+ <aff id="aff2">
+  <label>‡</label>Faculdade de Farmácia, 
+  <institution>Universidade Federal do Rio Grande do Sul</institution>, Avenida Ipiranga 2752, Porto Alegre, Rio Grande do Sul 90610-000, 
+  <country>Brasil</country>
+ </aff>
+ <aff id="aff3">
+  <label>§</label>Centro de Pesquisa Experimental, 
+  <institution>Hospital de Clínicas de Porto Alegre</institution>, Rua Ramiro Barcelos, 2350, Porto Alegre, Rio Grande do Sul 90035-903, 
+  <country>Brasil</country>
+ </aff>
+</contrib-group>

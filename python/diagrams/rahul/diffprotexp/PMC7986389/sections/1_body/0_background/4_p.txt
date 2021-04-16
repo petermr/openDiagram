@@ -1,0 +1,6 @@
+0: Generally, a network can have multiple MFVSs.
+1: Traditional MFVS algorithms ignore the differences among possible MFVSs, and the output is usually random.
+2: This randomness leads to the instability of network analysis methods in practice.
+3: To find the best output from multiple MFVSs, in this paper, we consider a variation of the MFVS problem, i.e., each vertex is assigned a weight, and the output is the maximum total weighted MFVS.
+4: The assigned weight should reflect the significance of the corresponding vertex, which may involve some biological data from other studies (for example, in our experiments, we utilize the differential expression value to compute the weights).
+5: We define this problem as a weighted MFVS (WMFVS) problem.

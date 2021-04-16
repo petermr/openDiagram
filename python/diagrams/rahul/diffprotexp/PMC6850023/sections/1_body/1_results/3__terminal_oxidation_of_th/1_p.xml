@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The expression of an AlmA‐type monooxygenase (ABO_0282) was only present in 
+ <italic>n</italic>‐C
+ <sub>14</sub> and pristane (Fig. 
+ <xref rid="emi14620-fig-0003" ref-type="fig">3</xref>). It has a 90% identity to the long‐chain flavin‐binding monooxygenase AlmA from 
+ <italic>Bacillus halodurans</italic> (AGW21778.1) and a 63% identity to AlmA from 
+ <italic>A. dieselolei</italic> B‐5 (B5T_02052). In addition to the cytochrome P450 (ABO_0201/ABO_2288) as previously mentioned, another cytochrome P450 (ABO_2384) was exclusively expressed only when growing on pristane (Fig. 
+ <xref rid="emi14620-fig-0003" ref-type="fig">3</xref>). A GMC oxidoreductase family protein (ABO_1174, 
+ <italic>P</italic> = 0.010) was exclusively expressed during growth on pristane and predicted as an alcohol oxidase in I‐TASSER and TM‐align, which identified an alcohol oxidase from 
+ <italic>Pichia pastoris</italic> (5i68A) in PDB as structurally close to ABO_1174 (TM score‐0.822). The FunFam assignment in CATH for matching regions to the ABO_1174 identified the long‐chain‐alcohol oxidase FAO1 (Evalue‐2.5e
+ <sup>−60</sup>). The protein is FAD binding (GO:0050660) suggesting it is an alcohol oxidase, which oxidize primary alcohols into a primary aldehydes and hydrogen peroxide, as they require flavin‐based cofactors, while alcohol dehydrogenases require NAD‐based cofactors. An alcohol dehydrogenase (ABO_0061, 
+ <italic>P</italic> = 0.041) was also exclusively expressed during growth on pristane. This suggests 
+ <italic>A. borkumensis</italic> can use either and alcohol oxidase or dehydrogenase to convert pristanol to pristanal. No aldehyde dehydrogenase was significantly differentially expressed during growth on pristane, but ABO_0087 was expressed on all substrates tested. The combination of these enzymes makes up a complete pathway for the terminal oxidation of branched alkanes (Fig. 
+ <xref rid="emi14620-fig-0003" ref-type="fig">3</xref>B).
+</p>

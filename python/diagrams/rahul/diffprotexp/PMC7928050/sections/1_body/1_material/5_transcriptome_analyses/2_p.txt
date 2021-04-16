@@ -1,0 +1,4 @@
+0: Pathways analyses were performed in GSEA v4.0.3 14 with standard parameters, 1000 phenotype permutations and using KEGG pathways database as reference[ 15].
+1: Additionally, gene ontology analyses were performed using the web-based GOrilla platform[ 16].
+2: Multiple testing problems were addressed by employing Benjamini-Hochberg correction[ 17] and a q value below 0.05 was considered significant in all cases.
+3: All figures were made using  ggplot2 v3.3.0 18 or  VennDiagram v.1.6.20[ 19].

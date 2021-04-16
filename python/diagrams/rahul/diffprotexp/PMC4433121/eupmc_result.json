@@ -1,0 +1,834 @@
+{
+  "id": [
+    "25978681"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "25978681"
+  ],
+  "pmcid": [
+    "PMC4433121"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC4433121"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1371/journal.pone.0126472"
+  ],
+  "title": [
+    "Differential protein expression profiles of cyst fluid from papillary thyroid carcinoma and benign thyroid lesions."
+  ],
+  "authorString": [
+    "Dinets A, Pernemalm M, Kjellin H, Sviatoha V, Sofiadis A, Juhlin CC, Zedenius J, Larsson C, Lehtiö J, Höög A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Dinets A"
+          ],
+          "firstName": [
+            "Andrii"
+          ],
+          "lastName": [
+            "Dinets"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9680-7519",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Center Karolinska, Karolinska University Hospital, SE-171 76, Stockholm, Sweden; Department of Molecular Medicine and Surgery, Karolinska Institutet, SE-171 76, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Pernemalm M"
+          ],
+          "firstName": [
+            "Maria"
+          ],
+          "lastName": [
+            "Pernemalm"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4624-031X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Proteomics Mass Spectrometry, Science for Life Laboratory, SE-171 65, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kjellin H"
+          ],
+          "firstName": [
+            "Hanna"
+          ],
+          "lastName": [
+            "Kjellin"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular Medicine and Surgery, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Proteomics Mass Spectrometry, Science for Life Laboratory, SE-171 65, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sviatoha V"
+          ],
+          "firstName": [
+            "Vitalijs"
+          ],
+          "lastName": [
+            "Sviatoha"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Center Karolinska, Karolinska University Hospital, SE-171 76, Stockholm, Sweden; Department of Pathology-Cytology, Karolinska University Hospital, SE-171 76, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sofiadis A"
+          ],
+          "firstName": [
+            "Anastasios"
+          ],
+          "lastName": [
+            "Sofiadis"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4057-7739",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Center Karolinska, Karolinska University Hospital, SE-171 76, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Juhlin CC"
+          ],
+          "firstName": [
+            "C Christofer"
+          ],
+          "lastName": [
+            "Juhlin"
+          ],
+          "initials": [
+            "CC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5945-9081",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Center Karolinska, Karolinska University Hospital, SE-171 76, Stockholm, Sweden; Department of Pathology-Cytology, Karolinska University Hospital, SE-171 76, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zedenius J"
+          ],
+          "firstName": [
+            "Jan"
+          ],
+          "lastName": [
+            "Zedenius"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Molecular Medicine and Surgery, Karolinska Institutet, SE-171 76, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Larsson C"
+          ],
+          "firstName": [
+            "Catharina"
+          ],
+          "lastName": [
+            "Larsson"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Center Karolinska, Karolinska University Hospital, SE-171 76, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lehtiö J"
+          ],
+          "firstName": [
+            "Janne"
+          ],
+          "lastName": [
+            "Lehtiö"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8100-9562",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Proteomics Mass Spectrometry, Science for Life Laboratory, SE-171 65, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Höög A"
+          ],
+          "firstName": [
+            "Anders"
+          ],
+          "lastName": [
+            "Höög"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Center Karolinska, Karolinska University Hospital, SE-171 76, Stockholm, Sweden; Department of Pathology-Cytology, Karolinska University Hospital, SE-171 76, Stockholm, Sweden."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9680-7519",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5945-9081",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8100-9562",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4057-7739",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4624-031X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "related_data",
+        "wikipedia",
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2374481"
+      ],
+      "dateOfPublication": [
+        "2015 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS One"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "e0126472"
+  ],
+  "abstractText": [
+    "Cystic papillary thyroid carcinoma (cPTC) is a subgroup of PTC presenting a diagnostic challenge at fine needle aspiration biopsy (FNAB). To further investigate this entity we aimed to characterize protein profiles of cyst fluids from cPTC and benign thyroid cystic lesions. In total, 20 cPTCs and 56 benign thyroid cystic lesions were studied. Profiling by liquid chromatography tandem mass spectrometry (LC-MS/MS) was performed on cyst fluids from a subset of cases after depletion, and selected proteins were further analyzed by Western blot (WB), immunohistochemistry (IHC) and enzyme-linked immunosorbent assay (ELISA). A total of 1,581 proteins were detected in cyst fluids, of which 841 were quantified in all samples using LC-MS/MS. Proteins with different expression levels between cPTCs and benign lesions were identified by univariate analysis (41 proteins) and multivariate analysis (59 proteins in an orthogonal partial least squares model). WB analyses of cyst fluid and IHC on corresponding tissue samples confirmed a significant up-regulation of cytokeratin 19 (CK-19/CYFRA 21-1) and S100A13 in cPTC vs. benign lesions. These findings were further confirmed by ELISA in an extended material of non-depleted cyst fluids from cPTCs (n = 17) and benign lesions (n = 55) (p<0.05). Applying a cut-off at >55 ng/ml for CK-19 resulted in 82% specificity and sensitivity. For S100A13 a cut-off at >230 pg/ml revealed a 94% sensitivity, but only 35% specificity. This is the first comprehensive catalogue of the protein content in fluid from thyroid cysts. The up-regulations of CK-19 and S100A13 suggest their possible use in FNAB based preoperative diagnostics of cystic thyroid lesions."
+  ],
+  "affiliation": [
+    "Department of Oncology-Pathology, Karolinska Institutet, SE-171 76, Stockholm, Sweden; Cancer Center Karolinska, Karolinska University Hospital, SE-171 76, Stockholm, Sweden; Department of Molecular Medicine and Surgery, Karolinska Institutet, SE-171 76, Stockholm, Sweden."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cysts"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Carcinoma"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Carcinoma, Papillary"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Thyroid Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Thyroid Diseases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Blotting, Western"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Enzyme-Linked Immunosorbent Assay"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Isoelectric Focusing"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Aged, 80 and over"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Middle Aged"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tandem Mass Spectrometry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Young Adult"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Thyroid Cancer, Papillary"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0126472"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC4433121"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC4433121?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "10"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "PRIDE"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "hpa",
+        "pxd",
+        "uniprot"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2016-04-18"
+  ],
+  "dateOfCreation": [
+    "2015-05-16"
+  ],
+  "firstIndexDate": [
+    "2015-05-16"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-09"
+  ],
+  "dateOfRevision": [
+    "2019-02-21"
+  ],
+  "electronicPublicationDate": [
+    "2015-05-15"
+  ],
+  "firstPublicationDate": [
+    "2015-05-15"
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "id": [
+    "33738384"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33738384"
+  ],
+  "pmcid": [
+    "PMC7954459"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7954459"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1002/pld3.299"
+  ],
+  "title": [
+    "Genome-wide profiling of miRNAs during seed development reveals their functional relevance in seed size/weight determination in chickpea."
+  ],
+  "authorString": [
+    "Khemka N, Singh Rajkumar M, Garg R, Jain M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Khemka N"
+          ],
+          "firstName": [
+            "Niraj"
+          ],
+          "lastName": [
+            "Khemka"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Computational & Integrative Sciences Jawaharlal Nehru University New Delhi India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Singh Rajkumar M"
+          ],
+          "firstName": [
+            "Mohan"
+          ],
+          "lastName": [
+            "Singh Rajkumar"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Computational & Integrative Sciences Jawaharlal Nehru University New Delhi India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Garg R"
+          ],
+          "firstName": [
+            "Rohini"
+          ],
+          "lastName": [
+            "Garg"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7265-2276",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Life Sciences School of Natural Sciences Shiv Nadar University Gautam Buddha Nagar Uttar Pradesh India."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jain M"
+          ],
+          "firstName": [
+            "Mukesh"
+          ],
+          "lastName": [
+            "Jain"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7622-1083",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Computational & Integrative Sciences Jawaharlal Nehru University New Delhi India."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "National Institute of Plant Genome Research (NIPGR) New Delhi India."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7265-2276",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7622-1083",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "3134805"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Plant direct"
+          ],
+          "ISOAbbreviation": [
+            "Plant Direct"
+          ],
+          "medlineAbbreviation": [
+            "Plant Direct"
+          ],
+          "NLMid": [
+            "101716131"
+          ],
+          "ISSN": [
+            "2475-4455"
+          ],
+          "ESSN": [
+            "2475-4455"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "e00299"
+  ],
+  "abstractText": [
+    "MicroRNAs (miRNAs) are non-coding small RNAs that regulate gene expression at transcriptional and post-transcriptional levels. The role of miRNAs in seed development and seed size/weight determination is poorly understood in legumes. In this study, we profiled miRNAs at seven successive stages of seed development in a small-seeded and a large-seeded chickpea cultivar via small RNA sequencing. In total, 113 known and 243 novel miRNAs were identified. Gene ontology analysis revealed the enrichment of seed/reproductive/post-embryonic development and signaling pathways processes among the miRNA target genes. A large fraction of the target genes exhibited antagonistic correlation with miRNA expression. The sets of co-expressed miRNAs showing differential expression between the two cultivars were recognized. Known transcription factor (TF) encoding genes involved in seed size/weight determination, including <i>SPL</i>, <i>GRF</i>, <i>MYB</i>, <i>ARF, HAIKU1</i>, <i>SHB1, KLUH/CYP78A5,</i> and <i>E2Fb</i> along with novel genes were found to be targeted by the predicted miRNAs. Differential expression analysis revealed higher transcript levels of members of <i>SPL</i> and <i>REVOLUTA</i> TF families and lower expression of their corresponding miRNAs in the large-seeded cultivar. At least 19 miRNAs known to be involved in seed development or differentially expressed between small-seeded and large-seeded cultivars at late-embryogenesis and/or mid-maturation stages were located within known quantitative trait loci (QTLs) associated with seed size/weight determination. Moreover, 41 target genes of these miRNAs were also located within these QTLs. Altogether, we revealed important roles of miRNAs in seed development and identified candidate miRNAs and their target genes that have functional relevance in determining seed size/weight in chickpea."
+  ],
+  "affiliation": [
+    "School of Computational & Integrative Sciences Jawaharlal Nehru University New Delhi India."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Seed development",
+        "Transcription factors",
+        "miRNA",
+        "Cicer arietinum",
+        "Modules",
+        "Co‐expression Network",
+        "Seed Size/weight"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1002/pld3.299"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7954459"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7954459?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-19"
+  ],
+  "firstIndexDate": [
+    "2021-03-20"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-19"
+  ],
+  "dateOfRevision": [
+    "2021-03-20"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-12"
+  ],
+  "firstPublicationDate": [
+    "2021-03-12"
+  ]
+}

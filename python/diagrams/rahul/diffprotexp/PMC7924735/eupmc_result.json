@@ -1,0 +1,810 @@
+{
+  "id": [
+    "33600419"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33600419"
+  ],
+  "pmcid": [
+    "PMC7924735"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7924735"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1371/journal.pntd.0009104"
+  ],
+  "title": [
+    "A novel, sequencing-free strategy for the functional characterization of Taenia solium proteomic fingerprint."
+  ],
+  "authorString": [
+    "Gomez-Fuentes S, Hernández-de la Fuente S, Morales-Ruiz V, López-Recinos D, Guevara-Salinas A, Parada-Colin MC, Espitia C, Ochoa-Leyva A, Sánchez F, Villalobos N, Arce-Sillas A, Hernández M, Mora SI, Fragoso G, Sciutto E, Adalid-Peralta L."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gomez-Fuentes S"
+          ],
+          "firstName": [
+            "Sandra"
+          ],
+          "lastName": [
+            "Gomez-Fuentes"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unidad Periférica de Neuroinflamación para el estudio de patologías neurológicas del Instituto de Investigaciones Biomédicas en el Instituto Nacional de Neurología y Neurocirugía, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández-de la Fuente S"
+          ],
+          "firstName": [
+            "Sarah"
+          ],
+          "lastName": [
+            "Hernández-de la Fuente"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8383-4013",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unidad Periférica de Neuroinflamación para el estudio de patologías neurológicas del Instituto de Investigaciones Biomédicas en el Instituto Nacional de Neurología y Neurocirugía, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Morales-Ruiz V"
+          ],
+          "firstName": [
+            "Valeria"
+          ],
+          "lastName": [
+            "Morales-Ruiz"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unidad Periférica de Neuroinflamación para el estudio de patologías neurológicas del Instituto de Investigaciones Biomédicas en el Instituto Nacional de Neurología y Neurocirugía, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "López-Recinos D"
+          ],
+          "firstName": [
+            "Dina"
+          ],
+          "lastName": [
+            "López-Recinos"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5831-3339",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unidad Periférica de Neuroinflamación para el estudio de patologías neurológicas del Instituto de Investigaciones Biomédicas en el Instituto Nacional de Neurología y Neurocirugía, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Guevara-Salinas A"
+          ],
+          "firstName": [
+            "Adrián"
+          ],
+          "lastName": [
+            "Guevara-Salinas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1125-9419",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unidad Periférica de Neuroinflamación para el estudio de patologías neurológicas del Instituto de Investigaciones Biomédicas en el Instituto Nacional de Neurología y Neurocirugía, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Parada-Colin MC"
+          ],
+          "firstName": [
+            "María Cristina"
+          ],
+          "lastName": [
+            "Parada-Colin"
+          ],
+          "initials": [
+            "MC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6869-4796",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Departamento de Inmunología, Instituto de Investigaciones Biomédicas, Universidad Nacional Autónoma de México, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Espitia C"
+          ],
+          "firstName": [
+            "Clara"
+          ],
+          "lastName": [
+            "Espitia"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7731-4049",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Departamento de Inmunología, Instituto de Investigaciones Biomédicas, Universidad Nacional Autónoma de México, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ochoa-Leyva A"
+          ],
+          "firstName": [
+            "Adrián"
+          ],
+          "lastName": [
+            "Ochoa-Leyva"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4701-2303",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Instituto de Biotecnología, Universidad Nacional Autónoma de México, Chamilpa, Cuernavaca, Morelos."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sánchez F"
+          ],
+          "firstName": [
+            "Filiberto"
+          ],
+          "lastName": [
+            "Sánchez"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Instituto de Biotecnología, Universidad Nacional Autónoma de México, Chamilpa, Cuernavaca, Morelos."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Villalobos N"
+          ],
+          "firstName": [
+            "Nelly"
+          ],
+          "lastName": [
+            "Villalobos"
+          ],
+          "initials": [
+            "N"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8505-335X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Facultad de Medicina Veterinaria y Zootecnia, Universidad Nacional Autónoma de México, Universidad Nacional Autónoma de México, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Arce-Sillas A"
+          ],
+          "firstName": [
+            "Asiel"
+          ],
+          "lastName": [
+            "Arce-Sillas"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unidad Periférica de Neuroinflamación para el estudio de patologías neurológicas del Instituto de Investigaciones Biomédicas en el Instituto Nacional de Neurología y Neurocirugía, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hernández M"
+          ],
+          "firstName": [
+            "Marisela"
+          ],
+          "lastName": [
+            "Hernández"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Departamento de Inmunología, Instituto de Investigaciones Biomédicas, Universidad Nacional Autónoma de México, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mora SI"
+          ],
+          "firstName": [
+            "Silvia Ivonne"
+          ],
+          "lastName": [
+            "Mora"
+          ],
+          "initials": [
+            "SI"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2564-5879",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Departamento de Inmunología, Instituto de Investigaciones Biomédicas, Universidad Nacional Autónoma de México, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Fragoso G"
+          ],
+          "firstName": [
+            "Gladis"
+          ],
+          "lastName": [
+            "Fragoso"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3885-1858",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Departamento de Inmunología, Instituto de Investigaciones Biomédicas, Universidad Nacional Autónoma de México, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sciutto E"
+          ],
+          "firstName": [
+            "Edda"
+          ],
+          "lastName": [
+            "Sciutto"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Departamento de Inmunología, Instituto de Investigaciones Biomédicas, Universidad Nacional Autónoma de México, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Adalid-Peralta L"
+          ],
+          "firstName": [
+            "Laura"
+          ],
+          "lastName": [
+            "Adalid-Peralta"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1010-698X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unidad Periférica de Neuroinflamación para el estudio de patologías neurológicas del Instituto de Investigaciones Biomédicas en el Instituto Nacional de Neurología y Neurocirugía, México, México."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Instituto Nacional de Neurología y Neurocirugía, La Fama, México, México."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7731-4049",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1010-698X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1125-9419",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4701-2303",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5831-3339",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6869-4796",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8383-4013",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8505-335X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2564-5879",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3885-1858",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "3103696"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS neglected tropical diseases"
+          ],
+          "ISOAbbreviation": [
+            "PLoS Negl Trop Dis"
+          ],
+          "medlineAbbreviation": [
+            "PLoS Negl Trop Dis"
+          ],
+          "NLMid": [
+            "101291488"
+          ],
+          "ISSN": [
+            "1935-2727"
+          ],
+          "ESSN": [
+            "1935-2735"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "e0009104"
+  ],
+  "abstractText": [
+    "The flatworm Taenia solium causes human and pig cysticercosis. When cysticerci are established in the human central nervous system, they cause neurocysticercosis, a potentially fatal disease. Neurocysticercosis is a persisting public health problem in rural regions of Mexico and other developing countries of Latin America, Asia, and Africa, where the infection is endemic. The great variability observed in the phenotypic and genotypic traits of cysticerci result in a great heterogeneity in the patterns of molecules secreted by them within their host. This work is aimed to identify and characterize cysticercal secretion proteins of T. solium cysticerci obtained from 5 naturally infected pigs from Guerrero, Mexico, using 2D-PAGE proteomic analysis. The isoelectric point (IP) and molecular weight (MW) of the spots were identified using the software ImageMaster 2D Platinum v.7.0. Since most secreted proteins are impossible to identify by mass spectrometry (MS) due to their low concentration in the sample, a novel strategy to predict their sequence was applied. In total, 108 conserved and 186 differential proteins were identified in five cysticercus cultures. Interestingly, we predicted the sequence of 14 proteins that were common in four out of five cysticercus cultures, which could be used to design vaccines or diagnostic methods for neurocysticercosis. A functional characterization of all sequences was performed using the algorithms SecretomeP, SignalP, and BlastKOALA. We found a possible link between signal transduction pathways in parasite cells and human cancer due to deregulation in signal transduction pathways. Bioinformatics analysis also demonstrated that the parasite release proteins by an exosome-like mechanism, which could be of biological interest."
+  ],
+  "affiliation": [
+    "Unidad Periférica de Neuroinflamación para el estudio de patologías neurológicas del Instituto de Investigaciones Biomédicas en el Instituto Nacional de Neurología y Neurocirugía, México, México."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pntd.0009104"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7924735"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7924735?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-02-18"
+  ],
+  "firstIndexDate": [
+    "2021-02-20"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-12"
+  ],
+  "dateOfRevision": [
+    "2021-03-12"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-18"
+  ],
+  "firstPublicationDate": [
+    "2021-02-18"
+  ]
+}

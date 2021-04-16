@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8637-1731</contrib-id>
+  <name>
+   <surname>Elkin</surname>
+   <given-names>Elana R.</given-names>
+  </name>
+  <address>
+   <email>elkinela@umich.edu</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9605-6337</contrib-id>
+  <name>
+   <surname>Bakulski</surname>
+   <given-names>Kelly M.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5882-4569</contrib-id>
+  <name>
+   <surname>Colacino</surname>
+   <given-names>Justin A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5334-972X</contrib-id>
+  <name>
+   <surname>Bridges</surname>
+   <given-names>Dave</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Kilburn</surname>
+   <given-names>Brian A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5904-9325</contrib-id>
+  <name>
+   <surname>Armant</surname>
+   <given-names>D. Randall</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5993-2799</contrib-id>
+  <name>
+   <surname>Loch-Caruso</surname>
+   <given-names>Rita</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.214458.e</institution-id>
+   <institution-id institution-id-type="ISNI">0000000086837370</institution-id>
+   <institution>Department of Environmental Health Sciences, </institution>
+   <institution>University of Michigan, </institution>
+  </institution-wrap>1415 Washington Heights, Ann Arbor, MI 48109-2029 USA 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.214458.e</institution-id>
+   <institution-id institution-id-type="ISNI">0000000086837370</institution-id>
+   <institution>Department of Epidemiology, </institution>
+   <institution>University of Michigan, </institution>
+  </institution-wrap>Ann Arbor, MI USA 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.214458.e</institution-id>
+   <institution-id institution-id-type="ISNI">0000000086837370</institution-id>
+   <institution>Department of Nutritional Sciences, </institution>
+   <institution>University of Michigan, </institution>
+  </institution-wrap>Ann Arbor, MI USA 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.254444.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 1456 7807</institution-id>
+   <institution>Department of Obstetrics and Gynecology, </institution>
+   <institution>Wayne State University School of Medicine, </institution>
+  </institution-wrap>Detroit, MI USA 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.254444.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 1456 7807</institution-id>
+   <institution>Department of Anatomy and Cell Biology, </institution>
+   <institution>Wayne State University School of Medicine, </institution>
+  </institution-wrap>Detroit, MI USA 
+ </aff>
+</contrib-group>

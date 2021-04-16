@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone.0246695.t005" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0246695.t005</object-id>
+ <label>Table 5</label>
+ <caption>
+  <title>GO enrichment analysis in lung tissue with- and without lesion in all treatment groups in comparison with the placebo group.</title>
+ </caption>
+ <alternatives>
+  <graphic id="pone.0246695.t005g" xlink:href="pone.0246695.t005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="center" rowspan="1" colspan="1">GO ID</th>
+     <th align="center" rowspan="1" colspan="1">GO Terms</th>
+     <th align="center" colspan="2" rowspan="1">Compared to Placebo</th>
+    </tr>
+    <tr>
+     <th align="center" rowspan="1" colspan="1"/>
+     <th align="left" rowspan="1" colspan="1"/>
+     <th align="center" rowspan="1" colspan="1">lesion (Gr#)</th>
+     <th align="center" rowspan="1" colspan="1">no lesion (Gr#)</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="left" rowspan="1" colspan="1">
+      <bold>
+       <italic>Innate immune functions</italic>
+      </bold>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0002218</td>
+     <td align="left" rowspan="1" colspan="1">activation of innate immune response</td>
+     <td align="center" rowspan="1" colspan="1">1, 2</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0032874</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of stress-activated MAPK cascade</td>
+     <td align="center" rowspan="1" colspan="1">1, 5</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0010744</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of macrophage derived foam cell differentiation</td>
+     <td align="center" rowspan="1" colspan="1">1, 4</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0031663</td>
+     <td align="left" rowspan="1" colspan="1">lipopolysaccharide-mediated signaling pathway</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2, 6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0042590</td>
+     <td align="left" rowspan="1" colspan="1">antigen processing and presentation of exogenous peptide antigen via MHC class I</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2, 5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0051607</td>
+     <td align="left" rowspan="1" colspan="1">defense response to virus</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2, 4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0006954</td>
+     <td align="left" rowspan="1" colspan="1">inflammatory response</td>
+     <td align="center" rowspan="1" colspan="1">4, 6</td>
+     <td align="center" rowspan="1" colspan="1">2, 6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0090023</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of neutrophil chemotaxis</td>
+     <td align="center" rowspan="1" colspan="1">4, 6</td>
+     <td align="center" rowspan="1" colspan="1">5, 6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0070098</td>
+     <td align="left" rowspan="1" colspan="1">chemokine-mediated signaling pathway</td>
+     <td align="center" rowspan="1" colspan="1">4, 6</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0042119</td>
+     <td align="left" rowspan="1" colspan="1">neutrophil activation</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0007159</td>
+     <td align="left" rowspan="1" colspan="1">leukocyte cell-cell adhesion</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0030836</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of actin filament depolymerization</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0030043</td>
+     <td align="left" rowspan="1" colspan="1">actin filament fragmentation</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0032088</td>
+     <td align="left" rowspan="1" colspan="1">negative regulation of NF-kappaB transcription factor activity</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0033026</td>
+     <td align="left" rowspan="1" colspan="1">negative regulation of mast cell apoptotic process</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0042742</td>
+     <td align="left" rowspan="1" colspan="1">defense response to bacterium</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0002755</td>
+     <td align="left" rowspan="1" colspan="1">MyD88-dependent toll-like receptor signaling pathway</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0045351</td>
+     <td align="left" rowspan="1" colspan="1">type I interferon biosynthetic process</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0033630</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of cell adhesion mediated by integrin</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0043303</td>
+     <td align="left" rowspan="1" colspan="1">mast cell degranulation</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0016032</td>
+     <td align="left" rowspan="1" colspan="1">viral process</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0032760</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of tumor necrosis factor production</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0034142</td>
+     <td align="left" rowspan="1" colspan="1">toll-like receptor 4 signaling pathway</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0034145</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of toll-like receptor 4 signaling pathway</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0045080</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of chemokine biosynthetic process</td>
+     <td align="center" rowspan="1" colspan="1">2</td>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0001816</td>
+     <td align="left" rowspan="1" colspan="1">cytokine production</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0016477</td>
+     <td align="left" rowspan="1" colspan="1">cell migration</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0032757</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of interleukin-8 production</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0043123</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of I-kappaB kinase/NF-kappaB signaling</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0050930</td>
+     <td align="left" rowspan="1" colspan="1">induction of positive chemotaxis</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0050776</td>
+     <td align="left" rowspan="1" colspan="1">regulation of immune response</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0050930</td>
+     <td align="left" rowspan="1" colspan="1">induction of positive chemotaxis</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0050776</td>
+     <td align="left" rowspan="1" colspan="1">regulation of immune response</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0050766</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of phagocytosis</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0071346</td>
+     <td align="left" rowspan="1" colspan="1">cellular response to interferon-gamma</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0071347</td>
+     <td align="left" rowspan="1" colspan="1">cellular response to interleukin-1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0006958</td>
+     <td align="left" rowspan="1" colspan="1">complement activation, classical pathway</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0007250</td>
+     <td align="left" rowspan="1" colspan="1">activation of NF-kappaB-inducing kinase activity</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0030593</td>
+     <td align="left" rowspan="1" colspan="1">neutrophil chemotaxis</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0045071</td>
+     <td align="left" rowspan="1" colspan="1">negative regulation of viral genome replication</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0034097</td>
+     <td align="left" rowspan="1" colspan="1">response to cytokine</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1"/>
+     <td align="left" rowspan="1" colspan="1">
+      <bold>
+       <italic>Adaptive immune functions</italic>
+      </bold>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0042110</td>
+     <td align="left" rowspan="1" colspan="1">T cell activation</td>
+     <td align="center" rowspan="1" colspan="1">2, 6</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0031295</td>
+     <td align="left" rowspan="1" colspan="1">T cell costimulation</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">5, 6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:2000553</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of T-helper 2 cell cytokine production</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:2000401</td>
+     <td align="left" rowspan="1" colspan="1">regulation of lymphocyte migration</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1"/>
+     <td align="left" rowspan="1" colspan="1">
+      <bold>
+       <italic>Prostanoid synthesis and fatty acid metabolism</italic>
+      </bold>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0042761</td>
+     <td align="left" rowspan="1" colspan="1">very long-chain fatty acid biosynthetic process</td>
+     <td align="center" rowspan="1" colspan="1">1, 4</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0006631</td>
+     <td align="left" rowspan="1" colspan="1">fatty acid metabolic process</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">1, 4, 6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0001516</td>
+     <td align="left" rowspan="1" colspan="1">prostaglandin biosynthetic process</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0070328</td>
+     <td align="left" rowspan="1" colspan="1">triglyceride homeostasis</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0006631</td>
+     <td align="left" rowspan="1" colspan="1">fatty acid metabolic process</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">1</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0030497</td>
+     <td align="left" rowspan="1" colspan="1">fatty acid elongation</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1"/>
+     <td align="left" rowspan="1" colspan="1">
+      <bold>
+       <italic>Oxidative stress</italic>
+      </bold>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0042744</td>
+     <td align="left" rowspan="1" colspan="1">hydrogen peroxide catabolic process</td>
+     <td align="center" rowspan="1" colspan="1">2, 4</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0098869</td>
+     <td align="left" rowspan="1" colspan="1">cellular oxidant detoxification</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2, 6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0006979</td>
+     <td align="left" rowspan="1" colspan="1">response to oxidative stress</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0042542</td>
+     <td align="left" rowspan="1" colspan="1">response to hydrogen peroxide</td>
+     <td align="center" rowspan="1" colspan="1">4, 5, 6</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0045454</td>
+     <td align="left" rowspan="1" colspan="1">cell redox homeostasis</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0034614</td>
+     <td align="left" rowspan="1" colspan="1">cellular response to reactive oxygen species</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0032981</td>
+     <td align="left" rowspan="1" colspan="1">mitochondrial respiratory chain complex I assembly</td>
+     <td align="center" rowspan="1" colspan="1">2</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0034599</td>
+     <td align="left" rowspan="1" colspan="1">cellular response to oxidative stress</td>
+     <td align="center" rowspan="1" colspan="1">2</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0035694</td>
+     <td align="left" rowspan="1" colspan="1">mitochondrial protein catabolic process</td>
+     <td align="center" rowspan="1" colspan="1">2</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0019430</td>
+     <td align="left" rowspan="1" colspan="1">removal of superoxide radicals</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:2000377</td>
+     <td align="left" rowspan="1" colspan="1">regulation of reactive oxygen species metabolic process</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1"/>
+     <td align="left" rowspan="1" colspan="1">
+      <bold>
+       <italic>Damage and starvation</italic>
+      </bold>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:1902902</td>
+     <td align="left" rowspan="1" colspan="1">negative regulation of autophagosome assembly</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0006508</td>
+     <td align="left" rowspan="1" colspan="1">Proteolysis</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0043161</td>
+     <td align="left" rowspan="1" colspan="1">proteasome-mediated ubiquitin-dependent protein catabolic process</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">5</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0097352</td>
+     <td align="left" rowspan="1" colspan="1">autophagosome maturation</td>
+     <td align="center" rowspan="1" colspan="1">2</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1"/>
+     <td align="left" rowspan="1" colspan="1">
+      <bold>
+       <italic>Vasculogenesis and regeneration</italic>
+      </bold>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0090051</td>
+     <td align="left" rowspan="1" colspan="1">negative regulation of cell migration involved in sprouting angiogenesis</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0030148</td>
+     <td align="left" rowspan="1" colspan="1">sphingolipid biosynthetic process</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0044344</td>
+     <td align="left" rowspan="1" colspan="1">cellular response to fibroblast growth factor stimulus</td>
+     <td align="center" rowspan="1" colspan="1">1</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0090156</td>
+     <td align="left" rowspan="1" colspan="1">cellular sphingolipid homeostasis</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">2</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:1901888</td>
+     <td align="left" rowspan="1" colspan="1">regulation of cell junction assembly</td>
+     <td align="center" rowspan="1" colspan="1">4</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0010575</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of vascular endothelial growth factor production</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0001570</td>
+     <td align="left" rowspan="1" colspan="1">Vasculogenesis</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0060055</td>
+     <td align="left" rowspan="1" colspan="1">angiogenesis involved in wound healing</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:2001214</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of vasculogenesis</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0016525</td>
+     <td align="left" rowspan="1" colspan="1">negative regulation of angiogenesis</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1">6</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+</table-wrap>

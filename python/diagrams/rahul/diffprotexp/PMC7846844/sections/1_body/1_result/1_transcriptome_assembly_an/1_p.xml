@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par6">Six published RNA-seq data (Fig. 
+ <xref rid="MOESM1" ref-type="media">S1</xref>,Table 
+ <xref rid="Tab1" ref-type="table">1</xref>) sets of two pig breeds (Tibetan and Yorkshire)
+ <sup>
+  <xref ref-type="bibr" rid="CR10">10</xref>
+ </sup> were used in identifying lincRNAs that may cause phenotypic differences between the breeds. Potential lincRNAs were obtained on the basis of this pipeline(Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>A). Approximately 245.05 of 258.43 million reads were mapped to the pig reference genome (Sus scrofa 11.1) by Hisat2. The mapped reads of each data were assembled into one set of transcripts with StringTie, and all of the transcripts from six data were merged into a nonredundant transcript set. A total of 828 transcripts, which were &gt; 200 bp intergenic transcripts with more than two exons, were obtained from this pipeline. Finally, three different methods namely, Cpc, Hmmer, and Blast were used for the assessment of the coding potential of the transcripts. A total of 361 potential lincRNAs were obtained. In addition, 53 of the potential lincRNAs had no overlaps with currently annotated coding or noncoding transcripts (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>B). These lincRNAs are distributed in all chromosomes except the Y chromosome (Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>C).
+</p>

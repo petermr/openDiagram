@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Iacobas</surname>
+   <given-names>Sanda</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Amuzescu</surname>
+   <given-names>Bogdan</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Iacobas</surname>
+   <given-names>Dumitru A.</given-names>
+  </name>
+  <address>
+   <email>daiacobas@pvamu.edu</email>
+  </address>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.260917.b</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0728 151X</institution-id>
+   <institution>Department of Pathology, </institution>
+   <institution>New York Medical College, </institution>
+  </institution-wrap>Valhalla, NY 10595 USA 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.5100.4</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2322 497X</institution-id>
+   <institution>Department Biophysics and Physiology, Faculty of Biology, </institution>
+   <institution>University of Bucharest, </institution>
+  </institution-wrap>Bucharest, Romania 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.262103.4</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0456 3986</institution-id>
+   <institution>Personalized Genomics Laboratory, Center for Computational Systems Biology, Roy G. Perry College of Engineering, </institution>
+   <institution>Prairie View A&amp;M University, </institution>
+  </institution-wrap>Prairie View, TX 77446 USA 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.251993.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000000121791997</institution-id>
+   <institution>DP Purpura Department of Neuroscience, </institution>
+   <institution>Albert Einstein College of Medicine, </institution>
+  </institution-wrap>New York, NY 10461 USA 
+ </aff>
+</contrib-group>

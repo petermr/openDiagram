@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Since previous TRAP analyses revealed that dMSNs expressing high levels of D1R have different translational profiles than the iMSNs that express the D2R [
+ <xref rid="B21-proteomes-08-00027" ref-type="bibr">21</xref>], we anticipated there also would be differences in the proteomes of nuclei from these two types of MSNs. Indeed, the TMT 10-plex analyses identified significant differences in relative protein expression between nuclei from these two different cell types. After log
+ <sub>2</sub> transformation and filtering to remove proteins that had missing values in any of the eight D1 and D2 samples, we quantified the relative D1/D2 expression ratios for 685 proteins (
+ <xref ref-type="app" rid="app1-proteomes-08-00027">Supplementary Table S1</xref>). After quantile normalization, the relative protein intensity distributions appeared to be similar across all the samples (
+ <xref ref-type="fig" rid="proteomes-08-00027-f003">Figure 3</xref>B). After carrying out t-tests across all 685 protein groups, 87 (12.7%) were found to be significantly differentially expressed at 
+ <italic>p</italic> &lt; 0.05 in D1 versus D2 nuclei fractions. As depicted in the volcano plot in 
+ <xref ref-type="fig" rid="proteomes-08-00027-f004">Figure 4</xref>A and as summarized in 
+ <xref rid="proteomes-08-00027-t001" ref-type="table">Table 1</xref>, these analyses showed that 40 proteins were up-regulated and 47 proteins were down-regulated in D1 as compared to D2 nuclei. To better visualize differential D1 versus D2 protein expression, principal component analysis (PCA) was carried out using all 685 quantified proteins (
+ <xref ref-type="fig" rid="proteomes-08-00027-f004">Figure 4</xref>B). PCA analysis separated the data for the two cell type preparations into two mostly discrete clusters with the first and second components accounting for 31.4% and 15.9% of the overall variance, respectively.
+</p>

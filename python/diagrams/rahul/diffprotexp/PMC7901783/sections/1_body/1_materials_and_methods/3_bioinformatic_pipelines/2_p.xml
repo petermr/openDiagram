@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The pipeline used to analyze sRNASeq data was followed as described previously [
+ <xref rid="pone.0244364.ref051" ref-type="bibr">51</xref>]. Briefly, after inspecting raw reads quality by FastQC, adapters and low-quality bases were trimmed by Trimmomatic. Afterwards, tRNA, rRNA, snRNA, snoRNA retrieved from NCBI, Rfam, and RepBase databases were removed to obtain clean reads. In miRNA analysis, clean reads were mapped to 
+ <italic>C</italic>. 
+ <italic>quinoa</italic> reference genome by Bowtie2 [
+ <xref rid="pone.0244364.ref052" ref-type="bibr">52</xref>] to recover quinoa sequences. Then, miRDeep2 [
+ <xref rid="pone.0244364.ref053" ref-type="bibr">53</xref>] was employed to detect known miRNAs based on miRBase v22 database, and predict novel miRNAs based on the randfold with a 
+ <italic>p</italic>-value &lt; 0.05. Read counts of known and novel miRNAs obtained by “quantifier” module of miRDeep2 were used in DESeq2 for detection of differential expressed miRNAs (DEmiRNA) based on the same design formula as DEG analysis. The DEmiRNA with adjusted 
+ <italic>p</italic>-value ≤ 0.05 were considered significant and further analyzed by TargetFinder [
+ <xref rid="pone.0244364.ref054" ref-type="bibr">54</xref>] to predict their target genes. Significant GO terms and KEGG pathways of target genes were obtained by KOBAS as described above. Characterization of endogenous siRNAs and vsiRNAs was carried out by alignment of miRNA-free clean reads to 
+ <italic>C</italic>. 
+ <italic>quinoa</italic> reference genome and three RNAs of CMV, respectively, using Bowtie2 with alignment options of very sensitive, zero mismatch, and 18 nucleotides as the minimum sequence size. The 5’ base enrichment and nucleotide size distribution analyses were carried out by “reformat” module of BBMap [
+ <xref rid="pone.0244364.ref055" ref-type="bibr">55</xref>] software. To prepare the read counts for differential expression of siRNA, miRNA-free clean reads were used as input in ShortStack 3.7 [
+ <xref rid="pone.0244364.ref056" ref-type="bibr">56</xref>]; this was used to determine siRNA clusters accumulating in genomic loci. The parameters used in ShortStack were nohp mode, mismatch 0, dicermin 18, dicermax 30, DicerCall cut-off of 80%, and mincov 0.5. Differential expression of siRNAs was determined in two modes as the same as DEG analysis of RNASeq. DE-siRNA clusters from full design and variety-specific models were considered significant based on Benjamini Hochberg adjusted 
+ <italic>p</italic>-value ≤ 0.05. To predict putative genes, transposable elements (TEs), and transcription factor binding sites (TFBSs) as potential targets of DE-siRNA clusters, a window frame of 2 kb upstream of the gene was inspected. Targeted sequences were retrieved and searched using CENSOR [
+ <xref rid="pone.0244364.ref057" ref-type="bibr">57</xref>] algorithm to find candidate TE from RepBase database. Also, the retrieved sequences were subjected to PlantRegMap [
+ <xref rid="pone.0244364.ref058" ref-type="bibr">58</xref>] database against 
+ <italic>Arabidopsis thaliana</italic>, 
+ <italic>Beta vulgaris</italic> and 
+ <italic>Spinacia oleracea</italic> to perform an exhaustive search on transcription factor binding sites with a 
+ <italic>p-value</italic> cut-off of 1e-7. Finally, to annotate the biological function of the targeted gene, KOBAS was used to perform GO and KEGG pathway enrichment analyses. All coding used in the study is available upon request.
+</p>

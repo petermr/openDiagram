@@ -54,6 +54,7 @@ class AmiSearch:
 
     FIG_CAPTION_DEMO = "fig_caption"
     LUKE_DEMO = "luke"
+    DIFFPROT_DEMO = "diffprot"
     ETHICS_DEMO = "ethics"
     GENUS_DEMO = "genus" # TODO
     INVASIVE_DEMO = "invasive"
@@ -82,14 +83,14 @@ class AmiSearch:
         self.do_plot = True
         self.ami_projects = AmiProjects()
 
-        self.max_bars = 20
+        self.max_bars = 10
         self.wikidata_label_lang = "en"
 
         # print every debug_cnt filenamwe
         self.debug_cnt = 10000
         # maximum files to search
         self.max_files = 10000
-        self.min_hits = 1
+        self.min_hits = 2
         self.require_wikidata = False
 
         # look up how sections work
@@ -99,6 +100,7 @@ class AmiSearch:
     @staticmethod
     def run_demos(demos):
         demo_dict = {
+            AmiSearch.DIFFPROT_DEMO : AmiSearch.diffprot_demo,
             AmiSearch.ETHICS_DEMO : AmiSearch.ethics_demo,
             AmiSearch.FIG_CAPTION_DEMO : AmiSearch.fig_caption_demo,
             AmiSearch.INVASIVE_DEMO : AmiSearch.invasive_demo,
@@ -155,11 +157,11 @@ class AmiSearch:
         else:
             # print dictionaries
             print("\n==========AMI DICTIONARIES========")
-            print("amidict keys: ", AmiDictionaries.DICT_LIST)
+#            print("amidict keys: ", self.dict_)
             print("==================================\n")
 
     def add_dictionary(self, name):
-        print("name", name)
+        print("dict_name:", name)
         AmiSearch._append_facet("dictionary", name, self.ami_dictionaries.dictionary_dict, self.dictionaries)
 
     # crude till we work this out
@@ -363,7 +365,19 @@ class AmiSearch:
             min_counter = Counter({k: c for k, c in c.items() if c >= self.min_hits})
             if self.do_plot:
                 self.make_graph(min_counter, tool)
-            print("lang:", self.wikidata_label_lang, "\n", min_counter.most_common())
+            print("tool:", tool, "\n", min_counter.most_common())
+            self.make_dictionary(tool, min_counter)
+
+    def make_dictionary(self, tool, counter):
+        print("MOVE make_dictionary")
+        print("<dictionary title='"+tool+"'>")
+        for k, v in counter.items():
+            if v > self.min_hits:
+                print("  <entry term=`"+k.lower()+"'/>")
+        print("</dictionary>")
+
+
+
 
     @staticmethod
     def plant_parts_demo():
@@ -403,12 +417,28 @@ class AmiSearch:
 #        self.patterns.append(SearchPattern(name, SearchPattern.REGEX, regex))
 
     @staticmethod
+    def diffprot_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 2
+
+        ami_search.use_sections([AmiSection.METHOD,])
+        ami_search.use_dictionaries([AmiDictionaries.PROT_STRUCT, AmiDictionaries.PROT_PRED, AmiDictionaries.CRISPR])
+        ami_search.use_projects([AmiProjects.DIFFPROT,])
+
+        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
+        ami_search.use_pattern("_ALLCAPS", "all_capz")
+        ami_search.use_pattern("_ALL", "_all")
+
+        ami_search.run_search()
+
+
+    @staticmethod
     def ethics_demo():
         ami_search = AmiSearch()
         ami_search.min_hits = 2
 
         ami_search.use_sections([AmiSection.ETHICS, ])
-        ami_search.use_dictionaries([AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE, ])
+        ami_search.use_dictionaries([AmiDictionaries.ETHICS, AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE, ])
         ami_search.use_projects([AmiProjects.DISEASE, ])
         ami_search.use_filters([WordFilter.ORG_STOP])
 
@@ -424,7 +454,7 @@ class AmiSearch:
         ami_search.min_hits = 2
 
         ami_search.use_sections([AmiSection.FIG_CAPTION, ])
-#        ami_search.use_dictionaries([AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE, ])
+        ami_search.use_dictionaries([])
         ami_search.use_projects([AmiProjects.CCT, ])
 
         ami_search.use_pattern("Fig(ure)?", "FIG")
@@ -454,7 +484,7 @@ class AmiSearch:
         ami_search.min_hits = 2
 
         ami_search.use_sections([AmiSection.INTRO, AmiSection.METHOD])
-#        ami_search.use_dictionaries([AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE,])
+        ami_search.use_dictionaries([])
         ami_search.use_projects([AmiProjects.OIL26, ])
 
         ami_search.use_pattern("^[A-Z][en]?\.", "SPECIES_ABB")
@@ -468,9 +498,6 @@ class AmiSearch:
         ami_search = AmiSearch()
         ami_search.min_hits = 2
 
-#        ami_search.use_sections([AmiSection.INTRO])
-#        ami_search.use_sections([AmiSection.METHOD])
-#        ami_search.use_sections([AmiSection.REF])
         ami_search.use_sections([AmiSection.SECTIONS])
         ami_search.use_dictionaries([AmiDictionaries.INVASIVE_PLANT])
         ami_search.use_dictionaries([AmiDictionaries.PLANT_GENUS]) # to check it works
@@ -632,14 +659,14 @@ class SimpleDict:
 
 class AmiProjects:
     """project files"""
-    LIION10 = "liion10"
+    CCT    = "cct"
+    DIFFPROT = "diffprot"
+    DISEASE = "disease"
     FFML = "ffml"
     FFML20 = "ffml20"
+    LIION10 = "liion10"
     OIL186 = "oil186"
     OIL26 = "oil26"
-    CCT    = "cct"
-    DISEASE = "disease"
-    DIFFPROT    = "diffprot"
     WORC_EXPLOSION = "worc_explosion"
     WORC_SYNTH = "worc_synth"
 
@@ -861,7 +888,6 @@ class AmiDictionaries:
     PLANT_PART = "plant_part"
     SOLVENT = "solvents"
 
-
     ANIMAL_TEST = "animaltest"
     COCHRANE = "cochrane"
     COMP_CHEM = "compchem"
@@ -873,6 +899,7 @@ class AmiDictionaries:
     EDGE_MAMMAL = "edgemammals"
     CHEM_ELEMENT = "elements"
     EPIDEMIC = "epidemic"
+    ETHICS = "ethics"
     EUROFUNDER = "eurofunders"
     ILLEGAL_DRUG = "illegaldrugs"
     INN = "inn"
@@ -897,76 +924,11 @@ class AmiDictionaries:
     WETLANDS = "wetlands"
     WILDLIFE = "wildlife"
 
-    """
-    DICT_LIST = [
-        ACTIVITY,
-        COMPOUND,
-        COUNTRY,
-        DISEASE,
-        ELEMENT,
-        INVASIVE_PLANT,
-        PLANT_GENUS,
-        ORGANIZATION,
-        PLANT,
-        PLANT_COMPOUND,
-        PLANT_PART,
-        SOLVENT,
-        
-        ANIMAL_TEST = "animaltest"
-        COCHRANE = "cochrane"
-        COMP_CHEM = "compchem"
-        CRISPR = "crispr"
-        CRYSTAL = "crystal"
-        DISTRIBUTION = "distributions"
-        DITERPENE = "diterpene"
-        DRUG = "drugs"
-        EDGE_MAMMAL = "edgemammals"
-        CHEM_ELEMENT = "elements"
-        EPIDEMIC = "epidemic"
-        EUROFUNDER = "eurofunders"
-        ILLEGAL_DRUG = "illegaldrugs"
-        INN = "inn"
-        INSECTICIDE = "insecticide"
-        MAGNETISM = "magnetism"
-        MONOTERPENE = "monoterpene"
-        NAL = "nal"
-        NMR = "nmrspectroscopy"
-        OBESITY = "obesity"
-        OPTOGENETICS = "optogenetics"
-        PECTIN = "pectin"
-        PHOTOSYNTH = "photosynth"
-        PLANT_DEV = "plantDevelopment"
-        POVERTY = "poverty"
-        PROT_STRUCT = "proteinstruct"
-        PROT_PRED = "protpredict"
-        REFUGEE = "refugeeUNHCR"
-        SESQUITERPENE = "sesquiterpene"
-        SOLVENT = "solvents"
-        STATISTICS = "statistics"
-        TROPICAL_VIRUS = "tropicalVirus"
-        WETLANDS = "wetlands"
-        WILDLIFE = "wildlife"
-
-    ]
-
-    """
-
     def __init__(self):
         self.create_search_dictionary_dict()
 
-    """
-    @staticmethod
-    #Not used?
-    def check_dicts(dicts):
-        for dikt in dicts:
-            if dikt not in SearchDictionary.DICT_LIST:
-                print("allowed dictionaries", SearchDictionary.DICT_LIST)
-                raise Exception ("unknown dictionary: ", dikt)
-    """
-
     def create_search_dictionary_dict(self):
         self.dictionary_dict = {}
-
 
 #        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
         self.add_with_check(AmiDictionaries.ACTIVITY,
@@ -1021,6 +983,7 @@ class AmiDictionaries:
             AmiDictionaries.DITERPENE : os.path.join(DICT_AMI3, "diterpene.xml"),
             AmiDictionaries.DRUG : os.path.join(DICT_AMI3, "drugs.xml"),
             AmiDictionaries.EDGE_MAMMAL : os.path.join(DICT_AMI3, "edgemammals.xml"),
+            AmiDictionaries.ETHICS : os.path.join(DICT_AMI3, "ethics.xml"),
             AmiDictionaries.CHEM_ELEMENT : os.path.join(DICT_AMI3, "elements.xml"),
             AmiDictionaries.EPIDEMIC : os.path.join(DICT_AMI3, "epidemic.xml"),
             AmiDictionaries.EUROFUNDER: os.path.join(DICT_AMI3, "eurofunders.xml"),
@@ -1082,11 +1045,17 @@ def main():
     import argparse
     import sys
 
+    local_test = False # interactive debug
+
     parser = create_arg_parser()
-    local_test = 1
 
     args = parser.parse_args()
-    if local_test is not None:
+    print("args", args)
+    print("cmd", "sys.argv", sys.argv)
+    print("interpreted from cmd", "arg.demo", args.demo)
+
+#    local_test = True
+    if args.debug == "config":
         ami_runs = AmiRunner();
         ami_runs.read_config(AmiSearch.DEMOS_JSON)
     elif len(sys.argv) == 1:
@@ -1131,6 +1100,8 @@ def create_arg_parser():
                         help='max bars on plot (NYI)')
     parser.add_argument('--languages', nargs="+", default=["en"],
                         help='languages (NYI)')
+    parser.add_argument('--debug', nargs="+",
+                        help='debugging commands , numbers, (not formalised)')
     return parser
 
 

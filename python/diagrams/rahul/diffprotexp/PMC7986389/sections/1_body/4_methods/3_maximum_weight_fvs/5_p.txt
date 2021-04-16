@@ -1,0 +1,2 @@
+0: Let  l be a large number (in our program, we used 65536); then, the penalty is calculated by: \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{aligned} p_i=\left\{ \begin{array}{ll} \frac{1}{w_i} &{} \mathbf{if} \, w_i \ge \frac{1}{l} \\ l &{} \mathbf{if} \, w_i< \frac{1}{l} \end{array} \right.
+1: \end{aligned}$$\end{document}pi=1wiifwi1llifwi<1l

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0155">To investigate glucose-alanine and glucose-lactate cycles between liver and skeletal muscle, we extracted the trans-omic subnetwork of glycolysis/gluconeogenesis pathway from the trans-omic networks in the liver and skeletal muscle according to information of “glycolysis/gluconeogenesis” (mmu00010) in the KEGG database (
+ <xref rid="bib27" ref-type="bibr">Kanehisa et al., 2017</xref>). Most of the intermediate metabolites in the glycolysis/gluconeogenesis pathway in the liver, such as G6P, F6P, F1,6P, 3-phosphoglycerate (3PG), 2-phosphoglycerate (2PG), and PEP, were the increased DEMs in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice except dihydroxyacetone phosphate (DHAP) (
+ <xref rid="fig6" ref-type="fig">Figure 6</xref>A). Many metabolic enzymes were increased DEMEs in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice (17 proteins: 94% of total 18 DEMEs), whereas the only decreased DEME was Pck1 (
+ <xref rid="fig6" ref-type="fig">Figures 6</xref>A and 
+ <xref rid="mmc1" ref-type="supplementary-material">S12</xref>A). The expression of metabolic enzymes specific to glycolysis, including rate-limiting enzymes, such as Gck and Pfkl, increased in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice, whose genes were also upregulated by the increased DRTFs 
+ <italic>Srebf1</italic>, 
+ <italic>Pparg</italic>, and 
+ <italic>Esr1</italic>. The expression of metabolic enzymes specific to gluconeogenesis, including a rate-limiting enzyme Fbp1, increased in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice. The expression of metabolic enzymes for overall glycolysis and gluconeogenesis pathways, including Gpi1, Gapdh, and Pgk1, increased in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice. However, these enzymes are not rate-limiting enzymes and may not have large contributions to the regulation of glycolysis and gluconeogenesis. Taken together, these results suggest that both glycolysis and gluconeogenesis pathways are activated by the DEMEs in liver of 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice. Because it has been shown that gluconeogenesis is activated in liver of fasted obese human, 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice, and high-fat diet-fed mice (
+ <xref rid="bib63" ref-type="bibr">Turner et al., 2005</xref>; 
+ <xref rid="bib3" ref-type="bibr">Basu et al., 2005</xref>; 
+ <xref rid="bib54" ref-type="bibr">Satapati et al., 2012</xref>), gluconeogenesis is likely to be relatively more dominant than glycolysis in liver of fasted 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice. Besides, it has been reported to increase the blood glucose level in fasted 
+ <italic>db</italic>/
+ <italic>db</italic> mice, a leptin receptor-deficient mice (
+ <xref rid="bib8" ref-type="bibr">Clementi et al., 2011</xref>; 
+ <xref rid="bib39" ref-type="bibr">Liu et al., 2012</xref>), and high-fat diet-fed mice more than in wild-type mice and standard-chow-diet-fed mice (
+ <xref rid="bib60" ref-type="bibr">Soto et al., 2018</xref>), respectively, by intraperitoneal pyruvate administration. These results also support our interpretation that gluconeogenesis is more dominant than glycolysis. In contrast to activating regulation by the DEMEs, majority of allosteric regulation were inhibiting regulation in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice (glycolysis specific: 3 activating and 13 inhibiting regulations, gluconeogenesis specific: 2 activating regulations, common for glycolysis and gluconeogenesis: 4 activating and 21 inhibiting regulations), most of which are mediated by the increased DEMs (
+ <xref rid="fig6" ref-type="fig">Figures 6</xref>A and 
+ <xref rid="mmc1" ref-type="supplementary-material">S12</xref>A). The activating regulations by the DEMEs and the inhibiting allosteric regulations by the increased DEMs counteract in liver of 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice, suggesting that in 
+ <italic>ob</italic>/
+ <italic>ob</italic> mice, the DEMEs activate their targets, whereas the DEMs inhibit their targets.
+</p>

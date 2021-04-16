@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T3" position="float">
+ <label>TABLE 2</label>
+ <caption>
+  <p>The list of top 20 differentially down-regulated mRNAs arranged from large |log
+   <sub>2</sub>FC| values.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups" cellspacing="5" cellpadding="5">
+  <thead>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Gene symbol</bold>
+    </td>
+    <td valign="top" align="center" rowspan="1" colspan="1">
+     <bold>|log
+      <sub>2</sub>FC|
+     </bold>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <bold>
+      <italic>P-</italic>value
+     </bold>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <bold>FDR</bold>
+    </td>
+    <td valign="top" align="left" rowspan="1" colspan="1">
+     <bold>Chromosome</bold>
+    </td>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">KIT</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.434</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr4</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">CALCRL</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.396</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr2</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">TNFSF18</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.358</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">1.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.56E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr1</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">C15orf54</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.322</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">4.58E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr15</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">SULT1B1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.322</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">6.00E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">8.44E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr4</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">LOC100505865</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.286</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">3.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">6.34E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr16</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">SAMD9L</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.286</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">6.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">1.12E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr7</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">CFI</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.252</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">1.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.56E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr4</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">BMX</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.252</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">1.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.56E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chrX</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">MGAT4A</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.252</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">1.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.56E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr2</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ZNF521</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.218</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">1.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.56E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr18</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">C12orf63</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.218</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">3.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">6.34E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr12</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">LYVE1</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.218</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">1.20E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.02E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr11</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">F2RL2</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.218</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.50E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">3.86E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr5</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">C12orf63</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.218</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">5.20E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">7.41E–06</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr12</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">ABCA6</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.184</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr17</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">TCEAL8</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.184</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chrX</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">GPR116</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.184</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr6</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">TEK</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.184</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">&lt;1e–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr9</td>
+   </tr>
+   <tr>
+    <td valign="top" align="left" rowspan="1" colspan="1">SDPR</td>
+    <td valign="top" align="center" rowspan="1" colspan="1">1.184</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">1.00E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">2.56E–07</td>
+    <td valign="top" align="left" rowspan="1" colspan="1">chr2</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

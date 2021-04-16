@@ -1,0 +1,3 @@
+0: Physical PPI data experimentally detected in humans was obtained from the BioGRID database using the latest version (v. 4.0.189) [ 12].
+1: The data contained 51,745 PPIs among 10,177 human proteins.
+2: After filtering the PPI data for proteins encoded by genes having transcriptome data in TCGA datasets, a network was reconstructed with 34,604 PPIs among 8322 proteins.

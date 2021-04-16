@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ack>
+ <p>This work was funded by National Nature Science Foundation of China (31970788) and Taishan Scholar Construction Foundation of Shandong Province of China (ts20190946).</p>
+ <sec>
+  <title>Author Contributions</title>
+  <p>JW, YT, ML, YF, LK, and FZ conducted the animal experiments; JW and YT analyzed the single-cell data; JW and WS proposed the manuscript; WS designed the experiments. All authors reviewed the manuscript and reached a common agreement.</p>
+ </sec>
+ <sec sec-type="data-availability">
+  <title>Data availability</title>
+  <p>The raw data of single-cell sequencing at PD0 and PD3 for ovarian tissues following DEHP exposure have been deposited in the Genome Sequence Archive of National Genomics Data Center (
+   <ext-link ext-link-type="uri" xlink:href="https://bigd.big.ac.cn" xmlns:xlink="http://www.w3.org/1999/xlink">https://bigd.big.ac.cn</ext-link>), under the accession number: CRA003354. The R scripts used for data processing are publicly available on GitHub at 
+   <ext-link ext-link-type="uri" xlink:href="https://github.com/WangLab401/DEHP-scRNA" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/WangLab401/DEHP-scRNA</ext-link>.
+  </p>
+ </sec>
+</ack>

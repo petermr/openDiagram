@@ -1,0 +1,7 @@
+0: The instrumental set-up for the DIA analysis was almost the same as for the DDA analysis with some exceptions.
+1: In the DIA analysis, a longer gradient of 135 min was used, which started with 3% solvent B for 5 min, then increased to 35% solvent B in 120 min and then went up to 95% solvent B in 5 min.
+2: It ended with 95% solvent B for 5 min.
+3: For the MS settings, the MS1 scan (390-1210 m/z) was set to have a resolution of 70,000, 1  10 6 automatic gain control (AGC) and 100 ms maximum ion injection time.
+4: This was followed by data-independent acquisition collision-induced dissociation MS2 scans at a resolution of 35,000, 1  10 6 automatic gain control (AGC) and 120 ms maximum ion injection time.
+5: A loop count of 32 was used in the range 400-1200 m/z.
+6: The isolation windows were 26.0 m/z wide including 0.5 Da overlap.

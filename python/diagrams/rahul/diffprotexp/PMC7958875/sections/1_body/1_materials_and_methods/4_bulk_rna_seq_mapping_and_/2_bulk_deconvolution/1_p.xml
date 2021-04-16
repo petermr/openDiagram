@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The proportion of different parasite stages in each bulk sample was estimated using CIBERSORTx (
+ <xref rid="B32" ref-type="bibr">Newman et al., 2019</xref>). A signature matrix was built using 
+ <italic>P. falciparum</italic> ookinete, gametocyte and asexual scRNA-seq data from (
+ <xref rid="B38" ref-type="bibr">Reid et al., 2018</xref>; 
+ <xref rid="B37" ref-type="bibr">Real et al., 2020</xref>). Cell fractions in each bulk sample were imputed based on 100 permutations.
+</p>

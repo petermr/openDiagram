@@ -1,0 +1,4 @@
+0: The read count profiles of genes in 18 The Cancer Genome Atlas (TCGA) cohorts with more than five paired adjacent normal samples were retrieved from the Genomic Data Commons (GDC) data portal 1 ( Grossman et al., 2016).
+1: Raw read counts were normalized to FPKM units (Fragments Per Kilobase of transcript per Million mapped reads).
+2: Raw read count matrices were then subject to DESeq2 ( Love et al., 2014) for differential expression analysis of long non-coding genes.
+3: Genes with fold change >1.5 and false discovery rate (FDR) (BenjaminiHochberg corrected  P-value)<0.05 were considered to be significantly expressed in tumor samples.

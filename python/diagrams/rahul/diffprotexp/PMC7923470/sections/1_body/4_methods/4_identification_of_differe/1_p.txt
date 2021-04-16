@@ -1,0 +1,3 @@
+0: The differential gene expression analysis and enrichment analyses were performed as previously described [ 76].
+1: Briefly we used DESeq2 to differential expression genes (DEGs) after normalizing the read counts with the filtering criteria of fold change and false discovery rate (FDR) or > 2 and  p < 0.01, respectively [ 87].
+2: Hierarchical cluster analysis was done and represented as heat maps using Corset ( https://code.google.com/p/corset-project/).

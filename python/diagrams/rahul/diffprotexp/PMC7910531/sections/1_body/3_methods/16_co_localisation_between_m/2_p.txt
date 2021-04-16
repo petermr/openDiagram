@@ -1,0 +1,5 @@
+0: In the co-localisation analysis for each signal, we considered the region spanning 100 kb either side of the index variants.
+1: If that region overlapped any genes with significant  cis-eQTLs or  cis-pQTLs, we extended the region to encompass all variants included in the molQTL analysis for these genes.
+2: To formally obtain a posterior probability for co-localisation, we used coloc.fast ( https://github.com/tobyjohnson/gtx/blob/526120435bb3e29c39fc71604eee03a371ec3753/R/coloc.R), a Bayesian statistical test which implements the coloc 57 method.
+3: We used the default settings for coloc.fast.
+4: We considered a 80% posterior probability of GWAS and molQTL shared association at a single variant ('PP4  0.8') to indicate evidence of co-localisation.

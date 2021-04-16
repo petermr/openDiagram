@@ -1,0 +1,4 @@
+0: Analysis of RNA-seq fastq files was performed using the BioJupies suite of tools for alignment, annotation, and differential expression analysis of our treatment groups.
+1: Differentially expressed genes that were significantly (adjusted  P< .05) up- or downregulated compared with vehicle control or estrogen treatment were used for further gene ontology enrichment analysis using the ontology enrichment analysis tool for biological processes provided by the Gene Ontology Consortium or the suite of analysis tools provided through Enrichr.
+2: The complete set of links to data generated in Biojupies can be found in  Table 1 and ( 25).
+3: Differential gene expression was determined in Biojupies with built-in scripts currently used in  limma ( 37).

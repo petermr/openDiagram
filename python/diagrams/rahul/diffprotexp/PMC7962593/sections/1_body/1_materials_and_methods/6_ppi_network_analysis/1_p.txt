@@ -1,0 +1,3 @@
+0: The common genes were analyzed using the online tool STRING ( https://string-db.org), and the protein-protein interaction (PPI) network based on the criterion of a combined score > 900 was constructed and displayed using Cytoscape software.
+1: Genes were ranked based on their degree of connectivity with other genes.
+2: The pROC package in R 25 was used to calculate the the area under the receiver operating characteristic curve (AUC) for the top 100 genes showing the greatest connectivity in the PPI network.

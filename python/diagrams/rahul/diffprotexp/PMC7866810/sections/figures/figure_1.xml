@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="ijms-22-01399-f001" orientation="portrait" position="float">
+ <label>Figure 1</label>
+ <caption>
+  <p>Overview of the DIscBIO pipeline showing its four successive sections. (
+   <bold>a</bold>) Pre-processing the raw read counts with and without ERCC spike-ins. (
+   <bold>b</bold>) Cell clustering and pseudo-time ordering. During this step clusters can be evaluated and visualized in PCA plots and 
+   <italic>t</italic>SNE maps with a possibility to detect outlier cells. (
+   <bold>c</bold>) Identifying differentially expressed genes by SAMseq and binomial counting statistics. (
+   <bold>d</bold>) Identifying biomarkers through decision trees, networking and gene enrichment analysis.
+  </p>
+ </caption>
+ <graphic xlink:href="ijms-22-01399-g001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

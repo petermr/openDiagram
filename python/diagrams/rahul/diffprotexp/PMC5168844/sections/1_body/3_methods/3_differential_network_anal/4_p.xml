@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In addition to testing the overall pathway significance for each cancer, we have also tested whether the connectivity of each single protein has changed between the two groups (“progression” vs “complete remission”) using the following statistic:
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ d(p)=\frac{1}{f-1}{\displaystyle \sum_{p^{\prime}\in \mathcal{G},\kern1em {p}^{\prime}\ne p}}\left|{s}_{p{p}^{\prime}}^{pr}-{s}_{p{p}^{\prime}}^{cr}\right| $$\end{document}</tex-math>
+   <math id="M18" display="block">
+    <mi>d</mi>
+    <mo stretchy="false">(</mo>
+    <mi>p</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mrow>
+      <mi>f</mi>
+      <mo>−</mo>
+      <mn>1</mn>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mstyle displaystyle="true" scriptlevel="0">
+      <munder>
+       <mo>∑</mo>
+       <mrow>
+        <msup>
+         <mi>p</mi>
+         <mrow>
+          <mi class="MJX-variant" mathvariant="normal">′</mi>
+         </mrow>
+        </msup>
+        <mo>∈</mo>
+        <mrow>
+         <mi class="MJX-tex-caligraphic" mathvariant="script">G</mi>
+        </mrow>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <msup>
+         <mrow>
+          <mi>p</mi>
+         </mrow>
+         <mrow>
+          <mi class="MJX-variant" mathvariant="normal">′</mi>
+         </mrow>
+        </msup>
+        <mo>≠</mo>
+        <mi>p</mi>
+       </mrow>
+      </munder>
+     </mstyle>
+    </mrow>
+    <mrow>
+     <mo>|</mo>
+     <msubsup>
+      <mrow>
+       <mi>s</mi>
+      </mrow>
+      <mrow>
+       <mi>p</mi>
+       <msup>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi class="MJX-variant" mathvariant="normal">′</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mrow>
+       <mi>p</mi>
+       <mi>r</mi>
+      </mrow>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mrow>
+       <mi>s</mi>
+      </mrow>
+      <mrow>
+       <mi>p</mi>
+       <msup>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi class="MJX-variant" mathvariant="normal">′</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mrow>
+       <mi>c</mi>
+       <mi>r</mi>
+      </mrow>
+     </msubsup>
+     <mo>|</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="13062_2016_168_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

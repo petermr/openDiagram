@@ -1,0 +1,917 @@
+{
+  "id": [
+    "33721144"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33721144"
+  ],
+  "pmcid": [
+    "PMC7957447"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7957447"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s40635-021-00373-z"
+  ],
+  "title": [
+    "Longitudinal multi-omics transition associated with fatality in critically ill COVID-19 patients."
+  ],
+  "authorString": [
+    "Sun C, Sun Y, Wu P, Ding W, Wang S, Li J, Liang L, Chai C, Fu Y, Li Z, Zhu L, Ju J, Liao X, Huang X, Feng L, Ma D, He L, Chen D, Chen G, Jin X, Wu P."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sun C"
+          ],
+          "firstName": [
+            "Chaoyang"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gynecologic Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sun Y"
+          ],
+          "firstName": [
+            "Yuzhe"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wu P"
+          ],
+          "firstName": [
+            "Ping"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ding W"
+          ],
+          "firstName": [
+            "Wencheng"
+          ],
+          "lastName": [
+            "Ding"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gynecologic Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang S"
+          ],
+          "firstName": [
+            "Shiyou"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "BGI Education Center, University of Chinese Academy of Sciences, Shenzhen, 518083, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li J"
+          ],
+          "firstName": [
+            "Jiafeng"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "BGI Education Center, University of Chinese Academy of Sciences, Shenzhen, 518083, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liang L"
+          ],
+          "firstName": [
+            "Langchao"
+          ],
+          "lastName": [
+            "Liang"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "BGI Education Center, University of Chinese Academy of Sciences, Shenzhen, 518083, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chai C"
+          ],
+          "firstName": [
+            "Chaochao"
+          ],
+          "lastName": [
+            "Chai"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "BGI Education Center, University of Chinese Academy of Sciences, Shenzhen, 518083, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Fu Y"
+          ],
+          "firstName": [
+            "Yu"
+          ],
+          "lastName": [
+            "Fu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gynecologic Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li Z"
+          ],
+          "firstName": [
+            "Zhiming"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhu L"
+          ],
+          "firstName": [
+            "Linnan"
+          ],
+          "lastName": [
+            "Zhu"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Shenzhen Bay Laboratory, Shenzhen, 518107, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ju J"
+          ],
+          "firstName": [
+            "Jia"
+          ],
+          "lastName": [
+            "Ju"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liao X"
+          ],
+          "firstName": [
+            "Xin"
+          ],
+          "lastName": [
+            "Liao"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Geriatrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, Hubei Province, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Huang X"
+          ],
+          "firstName": [
+            "Xiaoyuan"
+          ],
+          "lastName": [
+            "Huang"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gynecologic Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Feng L"
+          ],
+          "firstName": [
+            "Ling"
+          ],
+          "lastName": [
+            "Feng"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Gynecology and Obstetrics, Tongji Hospital, Tongji Medical College, Huazhong University of Science & Technology, Wuhan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ma D"
+          ],
+          "firstName": [
+            "Ding"
+          ],
+          "lastName": [
+            "Ma"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gynecologic Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "He L"
+          ],
+          "firstName": [
+            "Liang"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China. whuheliang@outlook.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen D"
+          ],
+          "firstName": [
+            "Dongsheng"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China. chendongsheng@genomics.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen G"
+          ],
+          "firstName": [
+            "Gang"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China. tjchengang@hust.edu.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gynecologic Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. tjchengang@hust.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jin X"
+          ],
+          "firstName": [
+            "Xin"
+          ],
+          "lastName": [
+            "Jin"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "BGI-Shenzhen, Shenzhen, 518083, China. jinxin@genomics.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "School of Medicine, South China University of Technology, Guangzhou, 510006, Guangdong, China. jinxin@genomics.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Guangdong Provincial Key Laboratory of Human Disease Genomics, Shenzhen Key Laboratory of Genomics, BGI-Shenzhen, Shenzhen, 518083, China. jinxin@genomics.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wu P"
+          ],
+          "firstName": [
+            "Peng"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4498-7663",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China. pengwu8626@tjh.tjmu.edu.cn."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gynecologic Oncology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China. pengwu8626@tjh.tjmu.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4498-7663",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "3120790"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Intensive care medicine experimental"
+          ],
+          "ISOAbbreviation": [
+            "Intensive Care Med Exp"
+          ],
+          "medlineAbbreviation": [
+            "Intensive Care Med Exp"
+          ],
+          "NLMid": [
+            "101645149"
+          ],
+          "ISSN": [
+            "2197-425X"
+          ],
+          "ESSN": [
+            "2197-425X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "13"
+  ],
+  "abstractText": [
+    "<h4>Purpose</h4>Critically ill COVID-19 patients have significantly increased risk of death. Although several circulating biomarkers are thought to be related to COVID-19 severity, few studies have focused on the characteristics of critically ill patients with different outcomes. The objective of this study was to perform a longitudinal investigation of the potential mechanisms affecting the prognosis of critically ill COVID-19 patients.<h4>Methods</h4>In addition to clinical data, 113 whole blood samples and 85 serum samples were collected from 33 severe and critical COVID-19 patients without selected comorbidities. Multi-omics analysis was then performed using longitudinal samples.<h4>Results</h4>Obvious transcriptional transitions were more frequent in critical survivors than in critical non-survivors, indicating that phase transition may be related to survival. Based on analysis of differentially expressed genes during transition, the erythrocyte differentiation pathway was significantly enriched. Furthermore, clinical data indicated that red blood cell counts showed greater fluctuation in survivors than in non-survivors. Moreover, declining red blood cell counts and hemoglobin levels were validated as prognostic markers of poor outcome in an independent cohort of 114 critical COVID-19 patients. Protein-metabolite-lipid network analysis indicated that tryptophan metabolism and melatonin may contribute to molecular transitions in critical COVID-19 patients with different outcomes.<h4>Conclusions</h4>This study systematically and comprehensively depicted the longitudinal hallmarks of critical COVID-19 patients and indicated that multi-omics transition may impact the prognosis.<h4>Take home message</h4>Frequent transcriptional phase transitions may contribute to outcome in critically ill COVID-19 patients. Furthermore, fluctuation in red blood cell and hemoglobin levels may relate to poor prognosis. The biological function of melatonin was suppressed in COVID-19 non-survivors, which may provide a potential theoretical basis for clinical administration."
+  ],
+  "affiliation": [
+    "Cancer Biology Research Center (Key Laboratory of the Ministry of Education), Tongji Medical College, Tongji Hospital, Huazhong University of Science and Technology, Wuhan, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "No. 2017B030301011"
+          ],
+          "agency": [
+            "China National GeneBank (CNGB) and Guangdong Provincial Key Laboratory of Genome Read and Write"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2017JQ017"
+          ],
+          "agency": [
+            "Funds for Distinguished Young Scholar of South China University of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2020kfyXGYJ00"
+          ],
+          "agency": [
+            "National University Basic Scientific Research Special Foundation"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2017A030306026"
+          ],
+          "agency": [
+            "Natural Science Foundation of Guangdong Province"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Melatonin",
+        "erythrocyte",
+        "Critically Ill",
+        "Multi-omics",
+        "Covid-19"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40635-021-00373-z"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7957447"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7957447?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-15"
+  ],
+  "firstIndexDate": [
+    "2021-03-16"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-17"
+  ],
+  "dateOfRevision": [
+    "2021-03-18"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-15"
+  ],
+  "firstPublicationDate": [
+    "2021-03-15"
+  ]
+}

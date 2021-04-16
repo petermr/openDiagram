@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">To estimate the fraction of genes with FOXL2 binding sites we used two publicly available human FOXL2 ChIP-seq dataset: one from TGFβ-treated HGrC1 cells ectopically expressing FOXL2 or FOXL2
+ <sup>C134W</sup> [
+ <xref ref-type="bibr" rid="CR37">37</xref>] and the other from an immortalized granulosa cell line (SVOG3e) with inducible expression of V5-tagged FOXL2
+ <sup>C134W</sup> protein [
+ <xref ref-type="bibr" rid="CR28">28</xref>]. For the first one (ChIP1), BAM files from FOXL2
+ <sup>C134W</sup> and the negative empty vector control were obtained from the authors and peaks were called using MACS2 [
+ <xref ref-type="bibr" rid="CR48">48</xref>] callpeak with default setting and using q-value cutoff of peak detection of 0.01 (– q 0.01). For the second (ChIP2), we obtained the peak coordinates from GEO (GSE126171) from 4 replicates at 12hrs induction of V5-tagged FOXL2
+ <sup>C134W</sup> and merged peaks coordinates of the replicates. Peaks BED files from the above ChIP-Seq were intersected with a ± 5 kb window from the transcription start site (TSS) of human genes (genecode v35 and genecode v19 respectively for ChIP1 and ChIP2) to identify genes with FOXL2
+ <sup>C134W</sup> binding around their promoter region (
+ <italic>n</italic> = 9,939 and 
+ <italic>n</italic> = 11,697, respectively). Enrichment for genes with FOXL2 binding was calculated using Fisher’s exact test in R, comparing DEGs versus non-DEGs.
+</p>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After treatment of MDA-MB-231 cells with resveratrol, RNA from MDA-MB-231 cells treated by the optimal concentration of resveratrol were extracted using Trizol. In order to ensure that the samples were qualified and appropriate for sequencing, Nanodrop, Qubit 2.0 and Aglient 2100 were used to detect the purity, concentration, and integrity of RNA samples, respectively. The optical density (OD) 260/280 of the sample must be greater than 1.8, and it must be free of protein, or visible impurities. Library construction and RNA sequences were performed according to the manufacturer’s instructions. RNA sequencing was performed on MDA-MB-231 cells using NovaSeq. After RNA-seq, the clean data was first filtered to remove low-quality data and joints to obtain high-quality clean data. The results were then stored in a FASTQ file format. Then, fastqc software (
+ <xref rid="B22" ref-type="bibr">22</xref>) was used to perform a quality inspection of the FASTQ file format. BWA software (
+ <xref rid="B23" ref-type="bibr">23</xref>) was used to compare the sequencing results of each sample with the reference genome and generated Sam files. Samtools (
+ <xref rid="B24" ref-type="bibr">24</xref>) was used to convert Sam files to BAM files and sort them. The featurecounts tool (
+ <xref rid="B25" ref-type="bibr">25</xref>) was used to convert BAM files to counts files, which were then used for the construction of expression profiles.
+</p>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Fig. 1</label>
+ <caption>
+  <title>Transcriptional profiling of developing somites.</title>
+  <p>
+   <bold>a</bold> Schematic representation of HH14 chick embryo with presomitic mesoderm (PSM), epithelial somite (ES), maturing somite (MS) and differentiated somite (DS) dissected for RNA-seq and ATAC-seq, in triplicate. 
+   <bold>b</bold>–
+   <bold>d</bold> Volcano plots showing enriched genes (log fold change &gt;1.5) comparing PSM with ES, ES with MS, and MS with DS. 
+   <bold>e</bold> Heat map showing GO terms associated with PSM or DS enriched genes. 
+   <bold>f</bold> Clusters of highly correlated genes identified for myoblast differentiation and cartilage condensation. 
+   <bold>g</bold> Wnt, FGF and retinoic acid (RA) signalling pathways are shown in heat map. 
+   <bold>h</bold> Heat map showing k-means linear enrichment clustering across PSM, ES, MS and DS. 
+   <bold>i</bold> Dimension reduction algorithm t-SNE used to map top genes in each cluster determined by k-means. 
+   <bold>j</bold> Cluster B and 
+   <bold>k</bold> Cluster I are shown with some genes labelled to identify key transcription factors and signalling components.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2021_21426_Fig1_HTML" id="d32e547" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

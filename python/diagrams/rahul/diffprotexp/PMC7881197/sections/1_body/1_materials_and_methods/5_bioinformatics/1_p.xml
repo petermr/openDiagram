@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par31">Sequenced reads were trimmed to remove portions of poor sequenced quality (Phred score &lt; 20) and/or contaminated adapter sequences using Trim Galore (version 0.6.4; 
+ <ext-link ext-link-type="uri" xlink:href="https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/</ext-link>). Trimmed reads were aligned to the human reference genome (hg38 assembly) using STAR (version 2.7.3a)
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup> with default parameters. The abundance of transcripts was quantified using StringTie (version 2.0.6)
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup> by means of transcripts per million (TPM). Then, differentially expressed genes (DEGs) were identified using DESeq2 (version 1.24.0)
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup> with an adjusted p-value cutoff of 0.05. Among the identified DEGs, transcripts showing less than two fold-change between comparisons and average TPM value of 1 across samples were further discarded. Heatmaps were generated using the Morpheus web application (
+ <ext-link ext-link-type="uri" xlink:href="https://software.broadinstitute.org/morpheus/" xmlns:xlink="http://www.w3.org/1999/xlink">https://software.broadinstitute.org/morpheus/</ext-link>) with the min–max normalization. Hierarchical clustering of genes in the heatmaps was conducted by the average linkage algorithm with the one-minus pearson correlation metric. GO and PPI analyses of DEGs were performed using Metascape
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://metascape.org" xmlns:xlink="http://www.w3.org/1999/xlink">https://metascape.org</ext-link>).
+</p>

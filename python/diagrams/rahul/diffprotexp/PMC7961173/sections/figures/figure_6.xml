@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig6">
+ <label>Fig. 6</label>
+ <caption>
+  <p>Temporal patterns in regulation of gene expression in HTR-8/SVneo cells. Differentially expressed genes with logFC magnitude &gt; 0.35 [FC &gt; 1.3], regardless of FDR, were grouped together by treatment based on chronological expression patterns (upregulation, downregulated or no change) for the two treatment durations (6 and 12 h). There were a total of 8 groups for: 
+   <bold>a</bold> 10 µM DCVC and 
+   <bold>b</bold> 20 µM DCVC consistent responders (up → up and down → down), temporary responders (up → down, and down → up), early responders (down → no change and up → no change), and late responders (no change → up and no change → down). Groups that contained &gt; 100 genes were tested for enrichment on the Enrichr platform for transcription factors (TF) and histone modifications (HM). The enrichment odds ratio is abbreviated EOR. TF and HM were considered to be significantly enriched with an FDR &lt; 0.05
+  </p>
+ </caption>
+ <graphic xlink:href="204_2021_3011_Fig6_HTML" id="MO6" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

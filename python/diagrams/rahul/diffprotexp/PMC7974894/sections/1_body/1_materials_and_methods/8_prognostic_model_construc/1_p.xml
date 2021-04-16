@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on the data from the TCGA database, univariate Cox regression analysis was performed on the hub RBPs and their first stage nodes using the 
+ <italic>survival</italic> package in R software 
+ <xref rid="B28" ref-type="bibr">28</xref>. A log-rank test was executed to screen the significant candidate prhRBPs further. Subsequently, based on the above preliminary screened significant candidate RBPs, we constructed a multivariate Cox proportional hazards regression model and calculated a risk score to assess patient prognosis outcomes. The risk score formula for each sample was as follows:
+</p>

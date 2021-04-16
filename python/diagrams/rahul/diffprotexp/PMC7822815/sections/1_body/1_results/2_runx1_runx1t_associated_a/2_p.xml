@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">Next, we tested if these splicing events were specific features of t(8;21)-positive AML by comparing splicing events found in t(8;21) AML cells with those in normal cells or cells from other AML subtypes (Supplementary Data 
+ <xref rid="MOESM4" ref-type="media">1</xref>). To that end we analyzed RNA-Seq data from normal CD34-positive cells obtained from human bone marrow (GSE102881, GSE111085, GSE63569, and GSE69239), umbilical cord blood (GSE48846, GSE69905, and GSE71689) and peripheral blood (GSE102881, GSE107218, GSE68925, GSE87285, GSE90552 and GSE92274) in addition to AML cells with normal karyotype (GSE49642 and GSE52656), inv(16) (GSE108266, GSE62190, and GSE67039) or a rearranged 
+ <italic>MLL</italic> locus (GSE52656, GSE62190, and GSE67039). With this comprehensive dataset, independent component analysis revealed three independent subsets of EEJs that clearly separate t(8;21)-positive AML cells from normal CD34-positive cells (Fig. 
+ <xref rid="Fig3" ref-type="fig">3b</xref>; Supplementary Data 
+ <xref rid="MOESM12" ref-type="media">9</xref>). We found that 53% of diffEEJs identified in Kasumi-1 were present in these independent components with high statistical significance (odds ratio 5.42, 
+ <italic>p</italic> &lt; 2.2 × 10
+ <sup>−16</sup>). A similar result was obtained when comparing t(8;21)-positive cells with other types of leukemia (Fig. 
+ <xref rid="Fig3" ref-type="fig">3c</xref>; Supplementary Data 
+ <xref rid="MOESM13" ref-type="media">10</xref>) with 48% of those diffEEJs identified in Kasumi-1 contributing to the discrimination of t(8;21)-positive AML from other AML subtypes (odds ratio 2.67, 
+ <italic>p</italic> = 4.1 × 10
+ <sup>−12</sup>).
+</p>

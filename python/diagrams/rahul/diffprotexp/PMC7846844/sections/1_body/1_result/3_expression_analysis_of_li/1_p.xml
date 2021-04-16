@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">The mammalian genome is universally transcribes and encodes thousands of lincRNAs distributed throughout the genome, which are less conserved and have low expression levels
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>,
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup>. The present study compared the average expression levels of 361 lincRNAs (known lincRNAs and novel lincRNAs) and protein coding genes from six samples to investigate whether this expression pattern is also present in pigs. The results showed that the average expression level of lincRNAs (known lincRNAs and novel lincRNAs) in pigs is generally lower than that of genes encoding proteins (Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>A). In order to study the lincRNA that may cause phenotypic differences between the two breeds of pigs (Yorkshire pigs and Tibetan pigs). Deseq2 in the R was used to perform differential expression analysis on the two breeds of pig samples on the basis of expression levels. Between the two breeds, 66 of the 138 DELs of Yorkshire pigs were upregulated and 72 were downregulated (Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>B). Between the two pig breeds, 326 of the 682 differentially expressed coding genes identified were downregulated and 356 were upregulated (Fig. 
+ <xref rid="MOESM2" ref-type="media">S2</xref>).
+</p>

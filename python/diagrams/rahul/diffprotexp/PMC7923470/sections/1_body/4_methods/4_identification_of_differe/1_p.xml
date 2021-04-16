@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par62">The differential gene expression analysis and enrichment analyses were performed as previously described [
+ <xref ref-type="bibr" rid="CR76">76</xref>]. Briefly we used DESeq2 to differential expression genes (DEGs) after normalizing the read counts with the filtering criteria of fold change and false discovery rate (FDR) or &gt; 2 and 
+ <italic>p</italic> &lt; 0.01, respectively [
+ <xref ref-type="bibr" rid="CR87">87</xref>]. Hierarchical cluster analysis was done and represented as heat maps using Corset (
+ <ext-link ext-link-type="uri" xlink:href="https://code.google.com/p/corset-project/" xmlns:xlink="http://www.w3.org/1999/xlink">https://code.google.com/p/corset-project/</ext-link>).
+</p>

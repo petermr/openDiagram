@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Moreover, all methods can be distinguished based on the number of conditions they can simultaneously compare, and on the amount of previous information they rely on and they can account for. For example, gene co-expression networks’ structure and differential modules can be obtained in three ways: (i) making use of transcriptional data only in a completely unbiased way (
+ <xref rid="ijms-21-09461-t003" ref-type="table">Table 3</xref>, “Unbiased” methods); (ii) analysing transcriptional data of pre-defined gene sets such as Gene Ontology lists (
+ <xref rid="ijms-21-09461-t003" ref-type="table">Table 3</xref>, “A priori” methods) (iii) combining manually curated protein–protein interaction networks or known pathway structures with expression data (
+ <xref rid="ijms-21-09461-t003" ref-type="table">Table 3</xref>, “Structured pathway” methods), to identify a differential usage of predetermined nodes and edges. This method, while allowing for the reduction the noise, it is unable to uncover new, potentially relevant, interactions. Finally, additional features such as genetic variation may be integrated to improve networks’ interpretation [
+ <xref rid="B92-ijms-21-09461" ref-type="bibr">92</xref>,
+ <xref rid="B93-ijms-21-09461" ref-type="bibr">93</xref>] (
+ <xref rid="ijms-21-09461-t005" ref-type="table">Table 5</xref>).
+</p>

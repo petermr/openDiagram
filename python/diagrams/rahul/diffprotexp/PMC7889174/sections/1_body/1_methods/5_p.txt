@@ -1,0 +1,5 @@
+0: Validation and binning: All data were manually inspected and met the following additional criteria beyond being included as a BLAST hit: (i) the length of the predicted protein is consistent with the query protein, (ii) the alignment demonstrates extensive regions of homology, and (iii) based on phylogeny, the putative ortholog is included in a monophyletic clade with the query and other orthologs (when paralogs were present).
+1: In many cases, the inclusive search criteria retrieved paralogs, which were excluded at this phylogenetic analysis step.
+2: Trees were viewed on Apple computers (macOS 10.15.7 operating system) using FigTree version 1.4.4 ( http://tree.bio.ed.ac.uk/software/figtree) or the Environment for Tree Exploration (ETE3) version 3.1.2 [ 54], and alignments were viewed using AliView version 1.26 ( http://ormbunkar.se/aliview) [ 55] or JalView version 2.11.0 [ 56].
+3: In cases of ambiguity, bespoke BLAST searches at NCBI were used to further validate a conclusion of found/not found.
+4: Sequence IDs for all identified orthologs are provided in Table S2.

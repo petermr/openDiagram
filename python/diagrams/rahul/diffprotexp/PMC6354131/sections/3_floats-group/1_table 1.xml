@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>Clinical characteristics of patients involved in this study.</p>
+ </caption>
+ <alt-text id="alttext0045">Table 1</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="2">Characteristics</th>
+    <th>Non-shock
+     <hr/>
+    </th>
+    <th>Shock
+     <hr/>
+    </th>
+    <th rowspan="2">
+     <italic>p</italic> value
+    </th>
+   </tr>
+   <tr>
+    <th>
+     <italic>n</italic> = 25
+    </th>
+    <th>
+     <italic>n</italic> = 25
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Age (years)</td>
+    <td>49.64 ± 18.02</td>
+    <td>49.16 ± 15.62</td>
+    <td>0.903</td>
+   </tr>
+   <tr>
+    <td>Gender (Male/Female)</td>
+    <td>11/14</td>
+    <td>12/13</td>
+    <td>0.500</td>
+   </tr>
+   <tr>
+    <td>WBC counts ( × 10
+     <sup>9</sup>/L)
+    </td>
+    <td>13.12 ± 2.72</td>
+    <td>14.32 ± 3.29</td>
+    <td>0.176</td>
+   </tr>
+   <tr>
+    <td>CRP (mg/dl)</td>
+    <td>14.32 ± 4.44</td>
+    <td>14.74 ± 4.34</td>
+    <td>0.778</td>
+   </tr>
+   <tr>
+    <td>Seruim PCT (ng/ml)</td>
+    <td>5.76 ± 2.31</td>
+    <td>7.88 ± 2.19</td>
+    <td>0.001</td>
+   </tr>
+   <tr>
+    <td colspan="4">Etiological factors (
+     <italic>n</italic>, %)
+    </td>
+   </tr>
+   <tr>
+    <td> ESWL</td>
+    <td>7 (28)</td>
+    <td>8 (32)</td>
+    <td>0.758</td>
+   </tr>
+   <tr>
+    <td> PCNL</td>
+    <td>8 (32)</td>
+    <td>11 (44)</td>
+    <td>0.382</td>
+   </tr>
+   <tr>
+    <td> BPH</td>
+    <td>4 (16)</td>
+    <td>1 (4)</td>
+    <td>0.157</td>
+   </tr>
+   <tr>
+    <td> Prostate biopsy</td>
+    <td>1 (4)</td>
+    <td>2 (8)</td>
+    <td>0.552</td>
+   </tr>
+   <tr>
+    <td> Urinary bladder reflux</td>
+    <td>2 (8)</td>
+    <td>1 (4)</td>
+    <td>0.552</td>
+   </tr>
+   <tr>
+    <td> Bactermia</td>
+    <td>3 (12)</td>
+    <td>2 (8)</td>
+    <td>0.637</td>
+   </tr>
+   <tr>
+    <td colspan="4">Pathogens detected (
+     <italic>n</italic>, %)
+    </td>
+   </tr>
+   <tr>
+    <td> E.coli</td>
+    <td>7 (28)</td>
+    <td>9 (36)</td>
+    <td>0.544</td>
+   </tr>
+   <tr>
+    <td> Proteus.spp</td>
+    <td>3 (12)</td>
+    <td>2 (8)</td>
+    <td>0.637</td>
+   </tr>
+   <tr>
+    <td> Klebsiella</td>
+    <td>4 (16)</td>
+    <td>3 (12)</td>
+    <td>0.684</td>
+   </tr>
+   <tr>
+    <td> Fungi</td>
+    <td>2 (8)</td>
+    <td>3 (12)</td>
+    <td>0.637</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

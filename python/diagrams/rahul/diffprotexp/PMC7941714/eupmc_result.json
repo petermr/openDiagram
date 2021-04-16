@@ -1,0 +1,583 @@
+{
+  "id": [
+    "33750326"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33750326"
+  ],
+  "pmcid": [
+    "PMC7941714"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7941714"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12885-021-07995-2"
+  ],
+  "title": [
+    "Comprehensive analysis of ceRNA networks reveals prognostic lncRNAs related to immune infiltration in colorectal cancer."
+  ],
+  "authorString": [
+    "Chen J, Song Y, Li M, Zhang Y, Lin T, Sun J, Wang D, Liu Y, Guo J, Yu W."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Chen J"
+          ],
+          "firstName": [
+            "Jingyi"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Central Laboratory & Institute of Clinical Molecular Biology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gastroenterology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Song Y"
+          ],
+          "firstName": [
+            "Yuxuan"
+          ],
+          "lastName": [
+            "Song"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Urology, Tianjin Medical University General Hospital, Tianjin, 300052, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li M"
+          ],
+          "firstName": [
+            "Mei"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Central Laboratory & Institute of Clinical Molecular Biology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang Y"
+          ],
+          "firstName": [
+            "Yu"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Central Laboratory & Institute of Clinical Molecular Biology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gastroenterology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lin T"
+          ],
+          "firstName": [
+            "Tingru"
+          ],
+          "lastName": [
+            "Lin"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Central Laboratory & Institute of Clinical Molecular Biology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Department of Gastroenterology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sun J"
+          ],
+          "firstName": [
+            "Jie"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Central Laboratory & Institute of Clinical Molecular Biology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang D"
+          ],
+          "firstName": [
+            "Di"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Central Laboratory & Institute of Clinical Molecular Biology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu Y"
+          ],
+          "firstName": [
+            "Yulan"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Gastroenterology, Peking University People's Hospital, Beijing, 100044, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Guo J"
+          ],
+          "firstName": [
+            "Jingzhu"
+          ],
+          "lastName": [
+            "Guo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Paediatrics, Peking University People's Hospital, Beijing, 100044, China. gjzhxx@sina.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yu W"
+          ],
+          "firstName": [
+            "Weidong"
+          ],
+          "lastName": [
+            "Yu"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7573-4979",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Central Laboratory & Institute of Clinical Molecular Biology, Peking University People's Hospital, Beijing, 100044, China. weidongyu@bjmu.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7573-4979",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "21"
+      ],
+      "journalIssueId": [
+        "3122081"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC cancer"
+          ],
+          "ISOAbbreviation": [
+            "BMC Cancer"
+          ],
+          "medlineAbbreviation": [
+            "BMC Cancer"
+          ],
+          "NLMid": [
+            "100967800"
+          ],
+          "ISSN": [
+            "1471-2407"
+          ],
+          "ESSN": [
+            "1471-2407"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "255"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Competing endogenous RNA (ceRNA) represents a class of RNAs (e.g., long noncoding RNAs [lncRNAs]) with microRNA (miRNA) binding sites, which can competitively bind miRNA and inhibit its regulation of target genes. Increasing evidence has underscored the involvement of dysregulated ceRNA networks in the occurrence and progression of colorectal cancer (CRC). The purpose of this study was to construct a ceRNA network related to the prognosis of CRC and further explore the potential mechanisms that affect this prognosis.<h4>Methods</h4>RNA-Seq and miRNA-Seq data from The Cancer Genome Atlas (TCGA) were used to identify differentially expressed lncRNAs (DElncRNAs), microRNAs (DEmiRNAs), and mRNAs (DEmRNAs), and a prognosis-related ceRNA network was constructed based on DElncRNA survival analysis. Subsequently, pathway enrichment, Pearson correlation, and Gene Set Enrichment Analysis (GSEA) were performed to determine the function of the genes in the ceRNA network. Gene Expression Profiling Interactive Analysis (GEPIA) and immunohistochemistry (IHC) were also used to validate differential gene expression. Finally, the correlation between lncRNA and immune cell infiltration in the tumor microenvironment was evaluated based on the CIBERSORT algorithm.<h4>Results</h4>A prognostic ceRNA network was constructed with eleven key survival-related DElncRNAs (MIR4435-2HG, NKILA, AFAP1-AS1, ELFN1-AS1, AC005520.2, AC245884.8, AL354836.1, AL355987.4, AL591845.1, LINC02038, and AC104823.1), 54 DEmiRNAs, and 308 DEmRNAs. The MIR4435-2HG- and ELFN1-AS1-associated ceRNA subnetworks affected and regulated the expression of the COL5A2, LOX, OSBPL3, PLAU, VCAN, SRM, and E2F1 target genes and were found to be related to prognosis and tumor-infiltrating immune cell types.<h4>Conclusions</h4>MIR4435-2HG and ELFN1-AS1 are associated with prognosis and tumor-infiltrating immune cell types and could represent potential prognostic biomarkers or therapeutic targets in colorectal carcinoma."
+  ],
+  "affiliation": [
+    "Department of Central Laboratory & Institute of Clinical Molecular Biology, Peking University People's Hospital, Beijing, 100044, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "30872923"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "81672853"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Prognosis",
+        "Crc",
+        "Lncrna",
+        "Immune Infiltration",
+        "Cerna Network"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12885-021-07995-2"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7941714"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7941714?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-22"
+  ],
+  "firstIndexDate": [
+    "2021-03-23"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-12"
+  ],
+  "dateOfRevision": [
+    "2021-03-25"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-09"
+  ],
+  "firstPublicationDate": [
+    "2021-03-09"
+  ]
+}

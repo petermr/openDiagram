@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00257-f010" orientation="portrait" position="float">
+ <label>Figure 10</label>
+ <caption>
+  <p>The LE gene panel robustly predicts PC recurrence. (
+   <bold>A</bold>) hazard ratio (HR), 95% CI, and 
+   <italic>p</italic> values for LE panel scores in predicting PC relapse. (
+   <bold>B</bold>) Time-dependent receiver operating characteristic (ROC) curve. The time scales above and below are for the MSKCC and TCGA PanCancer cohort, respectively. (
+   <bold>C</bold>–
+   <bold>F</bold>) Kaplan–Meier survival curves and the risk score waterfall plot are for the TCGA (
+   <bold>C</bold>,
+   <bold>D</bold>) and MSKCC (
+   <bold>E,F</bold>) cohort. For waterfall plots, the cutoff points were used as the baselines. Statistical analyses were performed using log rank test.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00257-g010" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

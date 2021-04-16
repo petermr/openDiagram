@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<funding-group>
+ <award-group id="award001">
+  <funding-source>
+   <institution-wrap>
+    <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000925</institution-id>
+    <institution>National Health and Medical Research Council</institution>
+   </institution-wrap>
+  </funding-source>
+  <award-id>APP1085309</award-id>
+  <principal-award-recipient>
+   <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-1443-7233</contrib-id>
+   <name>
+    <surname>Sotillo</surname>
+    <given-names>Javier</given-names>
+   </name>
+  </principal-award-recipient>
+ </award-group>
+ <award-group id="award002">
+  <funding-source>
+   <institution-wrap>
+    <institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/501100000925</institution-id>
+    <institution>National Health and Medical Research Council</institution>
+   </institution-wrap>
+  </funding-source>
+  <award-id>APP1085309</award-id>
+  <principal-award-recipient>
+   <name>
+    <surname>Loukas</surname>
+    <given-names>Alex</given-names>
+   </name>
+  </principal-award-recipient>
+ </award-group>
+ <award-group id="award003">
+  <funding-source>
+   <institution>Development and Promotion of Science and Technology Talents Project</institution>
+  </funding-source>
+  <award-id>kku/04/2549</award-id>
+  <principal-award-recipient>
+   <name>
+    <surname>Suwannatrai</surname>
+    <given-names>Kulwadee</given-names>
+   </name>
+  </principal-award-recipient>
+ </award-group>
+ <funding-statement>KS was supported by Development and Promotion of Science and Technology Talents Project (DPST) scholarship from the Institute for the Promotion of Teaching Science and Technology, Royal Thai Government, Thailand. This work was supported by a project grant from the NHMRC (
+  <ext-link ext-link-type="uri" xlink:href="https://www.nhmrc.gov.au/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.nhmrc.gov.au/</ext-link>) to AL and JS and a principal research fellowship from NHMRC to AL. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+ </funding-statement>
+</funding-group>

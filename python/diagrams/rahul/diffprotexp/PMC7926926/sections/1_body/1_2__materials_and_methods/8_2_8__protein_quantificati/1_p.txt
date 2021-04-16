@@ -1,0 +1,3 @@
+0: For protein quantification, the proteins containing at least two unique peptides were enumerated for all labeled samples.
+1: The quantifiable proteins were listed first, and the abundance ratio (treated/control) was log2 transformed.
+2: The differentially expressed proteins (DEPs) between treatments were identified with fold change > 1.2 and  p< 0.05, FDR< 0.01.

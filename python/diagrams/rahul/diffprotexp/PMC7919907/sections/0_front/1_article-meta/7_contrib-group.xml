@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Hu</surname>
+   <given-names>Yanmei</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Meng</surname>
+   <given-names>Xiangzhi</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>Fushun</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Xiang</surname>
+   <given-names>Yan</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4845-4621</contrib-id>
+  <name>
+   <surname>Wang</surname>
+   <given-names>Jun</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="corresp" rid="cor1"/>
+ </contrib>
+ <aff id="AF1">
+  <label>a</label>Department of Pharmacology and Toxicology, College of Pharmacy, 
+  <institution>The University of Arizona</institution>, 
+  <city>Tucson</city>, 
+  <state>AZ</state>, 
+  <country>USA</country>
+ </aff>
+ <aff id="AF2">
+  <label>b</label>Department of Microbiology, Immunology and Molecular Genetics, 
+  <institution>University of Texas Health Science Center at San Antonio</institution>, 
+  <city>San Antonio</city>, 
+  <state>TX</state>, 
+  <country>USA</country>
+ </aff>
+</contrib-group>

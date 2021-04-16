@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone.0244364.t004" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0244364.t004</object-id>
+ <label>Table 4</label>
+ <caption>
+  <title>Annotation of detected DEGs between cucumber mosaic virus- and mock-inoculated samples involved in terpenoid biosynthesis and plant-pathogen interaction pathways.</title>
+ </caption>
+ <alternatives>
+  <graphic id="pone.0244364.t004g" xlink:href="pone.0244364.t004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="center" rowspan="1" colspan="1">Stat. Design/Bio-Pathway/Locus ID</th>
+     <th align="center" rowspan="1" colspan="1">Gene Annotation</th>
+     <th align="center" rowspan="1" colspan="1">Log2FC
+      <xref ref-type="table-fn" rid="t004fn001">
+       <sup>1</sup>
+      </xref>
+     </th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">Full Design</td>
+     <td align="center" rowspan="2" colspan="1"/>
+     <td align="center" rowspan="2" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>Terpenoid backbone biosynthesis</italic>
+     </td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110722601</td>
+     <td align="center" rowspan="1" colspan="1">2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase</td>
+     <td align="center" rowspan="1" colspan="1">-1.05</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>Monoterpenoid biosynthesis</italic>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110695525</td>
+     <td align="center" rowspan="1" colspan="1">Cytochrome P450 81E8</td>
+     <td align="center" rowspan="1" colspan="1">10.85</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110733559</td>
+     <td align="center" rowspan="1" colspan="1">Isoflavone 2'-hydroxylase</td>
+     <td align="center" rowspan="1" colspan="1">20.01</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110724414</td>
+     <td align="center" rowspan="1" colspan="1">Isoflavone 2'-hydroxylase</td>
+     <td align="center" rowspan="1" colspan="1">13.24</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>Sesquiterpenoid biosynthesis</italic>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110722126</td>
+     <td align="center" rowspan="1" colspan="1">Valencene synthase</td>
+     <td align="center" rowspan="1" colspan="1">23.31</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">Variety-Specific Design</td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>Plant-pathogen interaction (‘Jessie’)</italic>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110736865</td>
+     <td align="center" rowspan="1" colspan="1">Respiratory burst oxidase homolog protein B</td>
+     <td align="center" rowspan="1" colspan="1">-0.75</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110740007</td>
+     <td align="center" rowspan="1" colspan="1">Pathogenesis-related protein PRB1-3</td>
+     <td align="center" rowspan="1" colspan="1">-11.43</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110721413</td>
+     <td align="center" rowspan="1" colspan="1">Calcium-binding protein CML24</td>
+     <td align="center" rowspan="1" colspan="1">-1.62</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>Plant-pathogen interaction (‘QQ74’)</italic>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110690414</td>
+     <td align="center" rowspan="1" colspan="1">LRR receptor-like serine/threonine-protein kinase FLS2</td>
+     <td align="center" rowspan="1" colspan="1">1.01</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>Plant-pathogen interaction (‘Red Head’)</italic>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110685889</td>
+     <td align="center" rowspan="1" colspan="1">LRR receptor-like serine/threonine-protein kinase At1g34110</td>
+     <td align="center" rowspan="1" colspan="1">1.87</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">
+      <italic>Sesquiterpenoid biosynthesis (‘Jessie’)</italic>
+     </td>
+     <td align="center" rowspan="1" colspan="1"/>
+     <td align="center" rowspan="1" colspan="1"/>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110720101</td>
+     <td align="center" rowspan="1" colspan="1">Sesquiterpene synthase</td>
+     <td align="center" rowspan="1" colspan="1">-6.27</td>
+    </tr>
+    <tr>
+     <td align="center" rowspan="1" colspan="1">LOC110722126</td>
+     <td align="center" rowspan="1" colspan="1">Valencene synthase</td>
+     <td align="center" rowspan="1" colspan="1">-8.95</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+ <table-wrap-foot>
+  <fn id="t004fn001">
+   <p>
+    <sup>1</sup>FC, fold change.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

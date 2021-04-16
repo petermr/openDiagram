@@ -1,0 +1,3 @@
+0: A list of 1158 human nuclear-encoded-mitochondrial proteins (NEMPs) was obtained from the Mitocarta2.0 project ( https://www.broadinstitute.org/pubs/MitoCarta/).
+1: Expression fold changes were estimated after normalizing the samples for only protein-coding genes using DESeq2.
+2: Significance of difference in fold change distribution between NEMPs and other protein-coding genes (baseMean  10) was determined using the nonparametric MannWhitneyWilcoxon test.

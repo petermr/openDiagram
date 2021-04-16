@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par49">This study performed a series of bioinformatics techniques to comprehensively analyse the roles and prognostic value of RBPs in BLCA. The flowchart of this study is shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>. We obtained RNA sequencing data and clinical information from the TCGA database containing 414 BLCA tissues and 19 normal tissues. The expression values of 1542 RBPs [
+ <xref ref-type="bibr" rid="CR4">4</xref>] were analysed in this study. A total of 385 differentially expressed RBPs were identified using the DEseq package that met the criteria of 
+ <italic>P</italic> &lt; 0.05 and |log2 FC)| &gt; 1.0, including 218 up-regulated and 167 down-regulated RBPs. The clustering heatmap and volcano plot of these differentially expressed RBPs are shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>
+ <bold>.</bold>
+</p>

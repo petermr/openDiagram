@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Lamy</surname>
+   <given-names>Anaïs</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF2">b</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Macarini-Bruzaferro</surname>
+   <given-names>Ewerton</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6988-4121</contrib-id>
+  <name>
+   <surname>Dieudonné</surname>
+   <given-names>Thibaud</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF4">d</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3457-0875</contrib-id>
+  <name>
+   <surname>Perálvarez-Marín</surname>
+   <given-names>Alex</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF5">e</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8759-5179</contrib-id>
+  <name>
+   <surname>Lenoir</surname>
+   <given-names>Guillaume</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0905-9861</contrib-id>
+  <name>
+   <surname>Montigny</surname>
+   <given-names>Cédric</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>le Maire</surname>
+   <given-names>Marc</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8314-3378</contrib-id>
+  <name>
+   <surname>Vázquez-Ibar</surname>
+   <given-names>José Luis</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="corresp" rid="cor1"/>
+ </contrib>
+ <aff id="AF1">
+  <label>a</label>
+  <institution>Université Paris-Saclay, CEA, CNRS</institution>, Institute for Integrative Biology of the Cell (I2BC), 
+  <city>Gif-sur-Yvette</city>, 
+  <country>France</country>
+ </aff>
+ <aff id="AF2">
+  <label>b</label>Department of Medical Biochemistry and Biophysics, 
+  <institution>Umeå University</institution>, 
+  <city>Umeå</city>, 
+  <country>Sweden</country>
+ </aff>
+ <aff id="AF3">
+  <label>c</label>Department of Clinical Medicine (FMUSP), 
+  <institution>University of São Paulo</institution>, 
+  <city>São Paulo</city>, 
+  <country>Brazil</country>
+ </aff>
+ <aff id="AF4">
+  <label>d</label>DANDRITE, Nordic EMBL Partnership for Molecular Medicine, Department of Molecular Biology and Genetics, 
+  <institution>Aarhus University</institution>, 
+  <city>Aarhus</city>, 
+  <country>Denmark</country>
+ </aff>
+ <aff id="AF5">
+  <label>e</label>Biophysics Unit, Department of Biochemistry and Molecular Biology, 
+  <institution>School of Medicine, Universitat Autònoma de Barcelona</institution>, 
+  <city>Cerdanyola del Vallés</city>, 
+  <country>Spain</country>
+ </aff>
+</contrib-group>

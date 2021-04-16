@@ -1,0 +1,13 @@
+0: The RStudio 78 v. 1.1.442 environment for R 79 v.3.5.1.
+1: was used for data analyses as described below.
+2: Post-mapping quality control was performed using MultiQC, NOISeq v.2.26.0 80 (10.18129/B9.bioc.NOISeq), and edgeR v.3.24.0 81 (10.18129/B9.bioc.edgeR).
+3: Read counts were transformed to counts per million (CPM), and lowly expressed genes (CPM < 1 in 80% of the samples) were filtered out.
+4: Gene expression normalization was performed under two approaches: (1) across all samples and the three tissues together and (2) across all samples but individually for each tissue.
+5: Both procedures were performed using the  VST function from DESeq2 v.1.22.1 82 (10.18129/B9.bioc.DESeq2).
+6: To control gene expression for sex effect, fetal sex was included in the DESeq2 model as a factor.
+7: Hierarchical clustering and Principal Component Analysis on normalized data were performed by using NOISeq v.2.26.0 80 and DESeq2 v.1.22.1 82.
+8: Normalized gene expression ( n = 17,164) from the first approach was used to predict TS genes, to predict the key regulators (TFs), and to build the tissue-to-tissue network.
+9: On the second approach, besides removing genes with low expression based on the CPM criterion, genes with low dispersion after normalization were filtered out when the quantile dispersion measure was < 0.2.
+10: Further, the normalized data were used for tissue condition-specific networks construction, differential connectivity, and differential gene co-expression analyses.
+11: A summary of the workflow is shown in Fig.
+12: 1.

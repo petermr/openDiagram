@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-6022-2962</contrib-id>
+  <name>
+   <surname>Kumar</surname>
+   <given-names>Pankaj</given-names>
+  </name>
+  <role content-type="https://casrai.org/credit/">Formal analysis</role>
+  <role content-type="https://casrai.org/credit/">Methodology</role>
+  <role content-type="https://casrai.org/credit/">Validation</role>
+  <role content-type="https://casrai.org/credit/">Writing – original draft</role>
+  <xref ref-type="aff" rid="aff001">
+   <sup>1</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Kumar</surname>
+   <given-names>Pankaj</given-names>
+  </name>
+  <role content-type="https://casrai.org/credit/">Formal analysis</role>
+  <role content-type="https://casrai.org/credit/">Investigation</role>
+  <role content-type="https://casrai.org/credit/">Methodology</role>
+  <role content-type="https://casrai.org/credit/">Writing – original draft</role>
+  <role content-type="https://casrai.org/credit/">Writing – review &amp; editing</role>
+  <xref ref-type="aff" rid="aff002">
+   <sup>2</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-9911-9364</contrib-id>
+  <name>
+   <surname>Sharma</surname>
+   <given-names>Dixit</given-names>
+  </name>
+  <role content-type="https://casrai.org/credit/">Formal analysis</role>
+  <role content-type="https://casrai.org/credit/">Software</role>
+  <xref ref-type="aff" rid="aff003">
+   <sup>3</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Verma</surname>
+   <given-names>Shailender Kumar</given-names>
+  </name>
+  <role content-type="https://casrai.org/credit/">Formal analysis</role>
+  <role content-type="https://casrai.org/credit/">Software</role>
+  <xref ref-type="aff" rid="aff003">
+   <sup>3</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Halterman</surname>
+   <given-names>Dennis</given-names>
+  </name>
+  <role content-type="https://casrai.org/credit/">Supervision</role>
+  <role content-type="https://casrai.org/credit/">Writing – review &amp; editing</role>
+  <xref ref-type="aff" rid="aff004">
+   <sup>4</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-0106-2735</contrib-id>
+  <name>
+   <surname>Kumar</surname>
+   <given-names>Arun</given-names>
+  </name>
+  <role content-type="https://casrai.org/credit/">Conceptualization</role>
+  <role content-type="https://casrai.org/credit/">Data curation</role>
+  <role content-type="https://casrai.org/credit/">Investigation</role>
+  <role content-type="https://casrai.org/credit/">Methodology</role>
+  <role content-type="https://casrai.org/credit/">Project administration</role>
+  <role content-type="https://casrai.org/credit/">Resources</role>
+  <role content-type="https://casrai.org/credit/">Supervision</role>
+  <role content-type="https://casrai.org/credit/">Writing – review &amp; editing</role>
+  <xref ref-type="aff" rid="aff002">
+   <sup>2</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff005">
+   <sup>5</sup>
+  </xref>
+  <xref ref-type="corresp" rid="cor001">*</xref>
+ </contrib>
+</contrib-group>

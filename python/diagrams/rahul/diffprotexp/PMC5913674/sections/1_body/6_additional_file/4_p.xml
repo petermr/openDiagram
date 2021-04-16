@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Supplementary Figure S1: (A) Volcano plots illustrating the dual criteria for differentially expressed proteins. The x-axis represents log fold change with the vertical blue lines indicating 1.3 and 0.77 ratio, while the -log 
+ <italic>P</italic> value is plotted on the y-axis with proteins above the red horizontal line indicating significance ≤0.05. Each data point represents a single identified protein. Proteins within the upper and outer quadrants meet both the fold change and 
+ <italic>P</italic>-value cut-off, and are therefore considered as differentially expressed. (B) PCA plots of principal component scores plot in the space of the first 3 principal components generated for the whole dataset of log
+ <sub>2</sub> ratios to the pooled control (label 131) with each distribution for sample groups highlighted. All channels relevant to MtzR and MtzS ratio calculated are highlighted in the plots, with triplicate channels for MtzS (DMSO Control) lines are shown in each of the three plots are shown in green, while the channels containing the MtzR replicates are highlighted in purple (WB-MtzR), red (106-MtzR) and blue (713-MtzR) (C) 
+ <italic>P</italic>-value histograms showing the distribution of 
+ <italic>P</italic>-values from the paired t-tests comparing the MtzS samples respectively to MtzR. The 
+ <italic>P</italic>-value histograms have a peak corresponding to a larger number of low 
+ <italic>P</italic>-values, which is indicative of a real underlying effect; a random or noisy dataset is expected to generate a uniform distribution of 
+ <italic>P</italic>-values and hence a flat histogram.
+</p>

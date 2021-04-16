@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <name>
+   <surname>Kunii</surname>
+   <given-names>Yasuto</given-names>
+  </name>
+  <address>
+   <email>kunii@fmu.ac.jp</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3700-0322</contrib-id>
+  <name>
+   <surname>Hino</surname>
+   <given-names>Mizuki</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4228-3208</contrib-id>
+  <name>
+   <surname>Matsumoto</surname>
+   <given-names>Junya</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Nagaoka</surname>
+   <given-names>Atsuko</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Nawa</surname>
+   <given-names>Hiroyuki</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Kakita</surname>
+   <given-names>Akiyoshi</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Akatsu</surname>
+   <given-names>Hiroyasu</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Hashizume</surname>
+   <given-names>Yoshio</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Yabe</surname>
+   <given-names>Hirooki</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 1017 9540</institution-id>
+   <institution-id institution-id-type="GRID">grid.411582.b</institution-id>
+   <institution>Department of Neuropsychiatry, </institution>
+   <institution>School of Medicine, Fukushima Medical University, </institution>
+  </institution-wrap>960-1295 Fukushima, Japan 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 1017 9540</institution-id>
+   <institution-id institution-id-type="GRID">grid.411582.b</institution-id>
+   <institution>Department of Psychiatry, </institution>
+   <institution>Aizu Medical Center, Fukushima Medical University, </institution>
+  </institution-wrap>969-3492 Fukushima, Japan 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 0671 5144</institution-id>
+   <institution-id institution-id-type="GRID">grid.260975.f</institution-id>
+   <institution>Department of Molecular Neurobiology, </institution>
+   <institution>Brain Research Institute, Niigata University, </institution>
+  </institution-wrap>951-8585 Niigata, Japan 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 0671 5144</institution-id>
+   <institution-id institution-id-type="GRID">grid.260975.f</institution-id>
+   <institution>Department of Pathology, </institution>
+   <institution>Brain Research Institute, Niigata University, </institution>
+  </institution-wrap>951-8585 Niigata, Japan 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 0728 1069</institution-id>
+   <institution-id institution-id-type="GRID">grid.260433.0</institution-id>
+   <institution>Department of Community-based Medical Education/Department of Community-based Medicine, </institution>
+   <institution>Nagoya City University Graduate School of Medical Science, </institution>
+  </institution-wrap>467-8601 Aichi, Japan 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.440408.c</institution-id>
+   <institution>Choju Medical Institute, </institution>
+   <institution>Fukushimura Hospital, </institution>
+  </institution-wrap>441-8124 Aichi, Japan 
+ </aff>
+</contrib-group>

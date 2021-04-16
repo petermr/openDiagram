@@ -1,0 +1,8 @@
+0: Search results of this data set was downloaded from ProteomeXchange with identifier PXD006291 ( 17).
+1: PSM raw intensity table (combining all four IPG strips in the experiment) filtered at 1% PSM and protein level FDR (gene symbol centric search; 1,263,974 PSMs; 203,640 unique peptides; 10,166 genes), was used to calculate protein relative abundance by median sweeping method ( 18).
+2: First, raw intensity values are log2 transformed.
+3: Second, for each PSM, the median of log2 intensity is subtracted to get relative log2 ratio.
+4: Third, for each protein, its relative log2 ratio is calculated as the median of log2 ratio of all PSMs belonging to this protein.
+5: At last, the medians of protein log2 ratios in different samples are subtracted to get equal protein level in all samples, with the assumption that the treatment does not impact the total amount of proteins in different conditions.
+6: The generated protein table with log2 ratios without missing values (10,124 proteins) was used for  t test, Limma, and DEqMS analysis.
+7: Biological triplicates of untreated and gefitinib treated (24 h) cells were used in the analysis for differential protein expression.

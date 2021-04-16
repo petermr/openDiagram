@@ -1,0 +1,4 @@
+0: Low quality cells were identified based on the distribution of total reads and number of genes detected per cell ( Figure S1).
+1: Cells with fewer than 500 genes per cell and 10,000 reads per cell were removed.
+2: Additionally, cells with greater than 3,000 genes per cell were removed from the  Pb single-gut data set.
+3: Transcriptomes were normalized by calculating the base 2 logarithm of the counts per million (CPM) for each cell.

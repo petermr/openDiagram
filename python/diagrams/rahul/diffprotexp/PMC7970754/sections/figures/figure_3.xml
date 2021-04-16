@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f3" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>Genes affecting resveratrol in the treatment of MDA-MB-231 cells. 
+   <bold>(A)</bold> Manhattan map. The differential expression analysis of the sequencing data of 50 μM resveratrol-treated MDA-MB-231 cell samples -control samples and the differential expression analysis of breast cancer samples - control samples of the TCGA database are respectively displayed. 
+   <bold>(B)</bold> Venn diagram. The intersection in the figure is the gene with the opposite differential expression, which is defined as the gene affected by resveratrol in the treatment of breast cancer. 
+   <bold>(C)</bold> Expression heat map of genes affected by resveratrol in breast cancer treatment. 
+   <bold>(D)</bold> Circplot of resveratrol target in drugbank and resveratrol target domain protein in protein data bank (RNA sequencing data). 
+   <bold>(E)</bold> Apoptotic pathway-differential gene expression heat map (RNA sequencing data). 
+   <bold>(F)</bold> Apoptotic pathway-differential gene expression heat map (TCGA download breast cancer data). 
+   <bold>(G)</bold> Expression of apoptosis-related proteins in MDA-MB-231 cells after optimal resveratrol treatment (PARP1: *
+   <italic>P</italic>=0.03, PCNA: **
+   <italic>P</italic>=0.008, BCL-2: **
+   <italic>P</italic>=0.006, Cleaved Caspased 3: **
+   <italic>P</italic>=0.001).
+  </p>
+ </caption>
+ <graphic xlink:href="fonc-11-569295-g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

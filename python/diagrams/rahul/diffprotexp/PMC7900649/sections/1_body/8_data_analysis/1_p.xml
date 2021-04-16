@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">Data from the SAPAS-libraries was analyzed as described before [
+ <xref ref-type="bibr" rid="CR18">18</xref>]. Briefly, generated raw reads were trimmed, filtered, and mapped to the sus scrofa genome (
+ <ext-link ext-link-type="uri" xlink:href="http://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/" xmlns:xlink="http://www.w3.org/1999/xlink">http://hgdownload.soe.ucsc.edu/goldenPath/susScr3/bigZips/</ext-link>). After internal priming filtering [
+ <xref ref-type="bibr" rid="CR36">36</xref>], the resulting uniquely mapped reads were clustered to define poly(A) sites.
+</p>

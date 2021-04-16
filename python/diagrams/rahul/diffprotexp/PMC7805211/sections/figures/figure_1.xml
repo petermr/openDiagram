@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Fig. 1</label>
+ <caption>
+  <p>CNFs and PNFs are epigenetically distinct tumor types. 
+   <bold>a</bold> Clinical presentation of a CNF with H/E stain (20X/100X magnification shown); versus 
+   <bold>b</bold> PNF resected from deep shoulder location (T2-weighted MRI image; H/E 20X/100X shown). 
+   <bold>c</bold> Principal component analysis of RNAseq expression data comparing CNFs (purple) and PNFs (green) neurofibromas. 
+   <bold>d</bold> Copy number analysis of CNFs versus PNFs. 
+   <bold>e</bold> Unsupervised hierarchical cluster analysis of methylation probesets (i.e., beta-values) demonstrating unique CNF and PNF methylation profiles
+  </p>
+ </caption>
+ <graphic xlink:href="13072_2020_380_Fig1_HTML" id="MO1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

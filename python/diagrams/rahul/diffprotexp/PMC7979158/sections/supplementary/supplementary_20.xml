@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="supp14">
+ <label>Supplementary file 14.</label>
+ <caption>
+  <title>Differential gene expression data for all four developmental ages (Age) analyzed without sex covariate.</title>
+  <p>Columns indicate gene symbols (gene_name), log
+   <sub>2</sub> fold change (LogFC), log
+   <sub>2</sub> counts per million (LogCPM), likelihood ratio statistics (LR), p value (PValue), and false discovery rate adjusted p value (FDR).
+  </p>
+ </caption>
+ <media mime-subtype="zip" mimetype="application" xlink:href="elife-60100-supp14.zip" orientation="portrait" id="d39e2295" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</supplementary-material>

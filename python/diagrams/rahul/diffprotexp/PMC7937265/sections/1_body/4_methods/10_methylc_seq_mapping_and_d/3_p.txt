@@ -1,0 +1,5 @@
+0: We next looked for DMRs within 2 Kb of a gene body using the methylpy DMRfind function, as these were the DMRs we could confidently associate with genes.
+1: We filtered DMRs of low confidence (< 3 cytosines) and low coverage (missing data in 1 sample).
+2: We used a conservative significance cut-off of FDR  0.01 with minimally 20% methylation difference between the treatment groups for mCG and 1.3% for mCH.
+3: These treatment difference cut-offs are 1 SD from the mean for overall mCG and mCH.
+4: DEGs containing DMRs were identified and a GO enrichment analysis was performed on these genes.

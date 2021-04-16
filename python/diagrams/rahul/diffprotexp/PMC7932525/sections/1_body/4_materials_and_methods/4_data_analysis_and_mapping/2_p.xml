@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After assembly, the clean reads were mapped to the reference 
+ <italic>Nostoc</italic> sp. PCC 7120 genome (
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/genome/genomes/13531" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/genome/genomes/13531</ext-link>. BioSample = SAMD00061094, BioProject = PRJNA244; BioSample = SAMN10102199, BioProject = PRJNA492407) and gene expression levels were calculated for each sample. DEGs were identified using the DESeq R package (version 1.18.0) using thresholds of log
+ <sub>2</sub>|fold-change| &gt;1 and 
+ <italic>P</italic>-value &lt; 0.05. KEGG pathway enrichment analysis of the DEGs was performed using BLAST by searching the KEGG database (
+ <ext-link ext-link-type="uri" xlink:href="http://www.kegg.jp/kegg/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.kegg.jp/kegg/</ext-link>). 
+ <italic>P</italic> ≤ 0.05 was set as the threshold for significant enrichment of KEGG pathways. GO functional enrichment of DEGs was performed using the topGO R package [
+ <xref rid="pone.0248155.ref045" ref-type="bibr">45</xref>], and terms with a 
+ <italic>P</italic>-value less than 0.05 were regarded as significant. Hierarchical clustering analysis of the DEGs was performed using Multi Experiment Viewer (
+ <ext-link ext-link-type="uri" xlink:href="http://mev.tm4.org/%23/welcome" xmlns:xlink="http://www.w3.org/1999/xlink">http://mev.tm4.org/#/welcome</ext-link>).
+</p>

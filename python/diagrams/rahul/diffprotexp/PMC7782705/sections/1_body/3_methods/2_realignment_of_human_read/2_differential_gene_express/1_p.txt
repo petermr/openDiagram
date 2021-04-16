@@ -1,0 +1,7 @@
+0: Differentially expressed genes (DEGs) were identified using differential gene expression at transcript-level using DESeq2 R library 51,  52.
+1: To facilitate kallisto output import, transcript-level estimated counts, length, and abundance were extracted using  tximport function 53.
+2: As described by Michael Love group, transcript-level differential gene expression enhances analysis resolution 52.
+3: Using  DESeqDataSetFromTximport, a DESeq2 object was created and filtered using rows with sum of all counts bigger than 10.
+4: Next,  DESeq function was used with default values.
+5: Using the  results function, we selected all genes with a false discovery rate (FDR) < 0.01 and fold change (FC) > 1.3.
+6: We also used RIN and PMI as covariates (linear regression).

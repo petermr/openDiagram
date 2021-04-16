@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The original data of the gene expression profiles in the samples were uploaded to the GCBI analysis platform (
+ <ext-link ext-link-type="uri" xlink:href="https://www.gcbi.com.cn/gclib/html/index" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.gcbi.com.cn/gclib/html/index</ext-link>). The samples were divided into 2 groups of 3 samples each: the negative control group and the myopic model group. The samples of the 2 groups were compared and labelled as the model group and the control group (i.e. the myopic model group compared with the negative control group). The signal values of the original data expression spectrum were read respectively, and the differences in gene expression between the myopic model group and the negative control group were analysed. The criteria for the screening of the differential gene were as follows: 
+ <italic>p</italic> &lt; 0.05, Q &lt; 0.05, fold change (FC) &gt; 2. The up-regulated and down-regulated genes in the expression profile in the model group vs. the control group were obtained.
+</p>

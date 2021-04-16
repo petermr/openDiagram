@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">Plant samples in two biological replicates per treatment were used for sequencing on Illumina HiSeq sequencer at Genotypic Technology, Bangalore (India) to generate 150 base pair length paired-end reads. On an average 46.08 million raw sequencing reads for each treatment samples were generated which were processed for quality assessment and low-quality filtering before the assembly. The raw data generated was checked for the quality using FastQC
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup> and pre-processing of the data was done with Cutadapt
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>. Data with Q-score above 30 (&gt; 99.9% correct) was taken as high quality data.
+</p>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f3" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>Identification of potential bet-hedging genes in ookinetes. 
+   <bold>(A)</bold> Heatmap of all 28 genes that are highly variably expressed in every gut from the 
+   <italic>Pb single-gut data set</italic>, plotted alongside six ookinete-specific genes as comparison. Each row represents a gene, and its short name is indicated if available. Values represent pseudotime-corrected log counts to control for developmental expression patterns. Black and grey lines indicate if the genes are from the highly variant gene set (hvg) or from the control gene set. For each cell, the mosquito origin is shown. Each ookinete’s coordinates along pseudotime (development) are indicated in pink. 
+   <bold>(B)</bold> Correlation heatmap of all 28 genes that are highly variably expressed in every gut from the 
+   <italic>Pb single-gut data set</italic>. IMC-related and apical genes are co-regulated in ookinetes and highlighted in bold.
+  </p>
+ </caption>
+ <graphic xlink:href="fcimb-11-604129-g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

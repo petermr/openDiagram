@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The MS raw data for each sample were searched using the MASCOT engine (Matrix Science, London, UK; version 2.2) embedded into Proteome Discoverer 1.4 software for the identification and quantitation analysis. Peak lists were searched against Green Plants (
+ <italic>Viridiplantae</italic>) database in Oligo 7 using the following parameters: enzyme, trypsin; maximum missed cleavage, 2; fixed modification, carbamidomethylating (C); variable modification, oxidation (M) and TMT (protein N-terminus and K); mass tolerance at 20 ppm; MS/MS mass tolerance at 0.1 Da; false discovery rate (FDR) &lt; 0.01. Significance was assessed by ratios of TMT reporter ion intensities in the MS/MS spectra.
+</p>

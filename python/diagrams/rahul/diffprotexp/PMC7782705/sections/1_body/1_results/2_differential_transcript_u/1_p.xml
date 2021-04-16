@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">Gene-level expression analysis lacks the sensitivity to detect possible changes at the transcript-level caused, for example, by alterations in alternative splicing
+ <sup>
+  <xref ref-type="bibr" rid="CR10">10</xref>,
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>. To overcome this limitation, we used differential transcript usage (DTU) analysis to identify additional alterations of gene expression in the AD brains compared to controls. We observed 2509 and 1843 genes with differential transcript usage (gDTU) in the temporal lobe of AD brains studied in the Mayo and MSBB datasets, respectively (Fig. 
+ <xref rid="Fig3" ref-type="fig">3A, B</xref> and Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">1</xref>). Similar to what we observed for DEGs, a much smaller number of gDTUs were detected in the frontal lobe, both in ROSMAP and MSBB studies (59 and 855 genes with transcripts altered, respectively). We found 435 gDTUS in TLI (11.1% of overlap; 
+ <italic>P</italic> = 6.16 × 10
+ <sup>−25</sup>, hypergeometric test) and 13 gDTUs in FLI (1.47% of overlap; 
+ <italic>P</italic> = 2.56 × 10
+ <sup>−3</sup>, hypergeometric test) (Supplementary Table 
+ <xref rid="MOESM3" ref-type="media">2</xref>). In TLI, most gDTUs did not overlap with DEGs (TL—34 gDTUs that are DEGs out of 435 gDTUs, Fig. 
+ <xref rid="Fig4" ref-type="fig">4A</xref>), whereas in FLI, we found no overlap at all. Consistent with this small overlap, GSEA using only DEGs, only gDTUs or both showed complementary results (Fig. 
+ <xref rid="Fig4" ref-type="fig">4B</xref>). GSEA using gDTUs (alone or in combination with DEGs) showed significant enrichment for vesicle-mediated transport and other synapse-related terms, which were not observed while inputting only DEGs (Figs. 
+ <xref rid="Fig3" ref-type="fig">3C</xref> and 
+ <xref rid="Fig4" ref-type="fig">4B</xref>; Supplementary Table 
+ <xref rid="MOESM4" ref-type="media">3</xref>). The functional enrichment annotation using both DEGs and gDTUs is in agreement with previous studies using scRNAseq to identify gene expression alterations in unique cell types
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>,
+  <xref ref-type="bibr" rid="CR7">7</xref>
+ </sup> and clearly improves the annotation observed using only DEGs, suggesting that the use of DTU analysis could contribute to unraveling gene expression alterations overlooked in the classical DEG analysis.
+</p>

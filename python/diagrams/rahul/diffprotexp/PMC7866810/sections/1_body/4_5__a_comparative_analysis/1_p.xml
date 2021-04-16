@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Many of the tools used in DIscBIO were benchmarked before [
+ <xref rid="B11-ijms-22-01399" ref-type="bibr">11</xref>,
+ <xref rid="B55-ijms-22-01399" ref-type="bibr">55</xref>,
+ <xref rid="B100-ijms-22-01399" ref-type="bibr">100</xref>,
+ <xref rid="B101-ijms-22-01399" ref-type="bibr">101</xref>]. We compared DIscBIO with other existing, fully-integrated web-based scRNAseq pipelines, including Granatum [
+ <xref rid="B16-ijms-22-01399" ref-type="bibr">16</xref>], ASAP [
+ <xref rid="B15-ijms-22-01399" ref-type="bibr">15</xref>] and SC1 [
+ <xref rid="B17-ijms-22-01399" ref-type="bibr">17</xref>] (
+ <xref ref-type="app" rid="app1-ijms-22-01399">Supplementary Table S2</xref>). Unlike the other systems, DIscBIO can be either used online through Jupyter notebooks or downloaded and run locally in command-line mode. All tested tools accept gene expression matrices as input in .csv format. ASAP and SC1 support 10x files as well. Granatum is the only pipeline providing basic batch-effect removal capability using either ComBat or median alignment. Gene filtering is a very critical step of each pipeline due to its impact on the accuracy and efficiency of the downstream analysis. Most workflows filter genes based on the overall expression levels. Moreover, DIscBIO also enables users to filter genes based on technical noise using ERCC spike-ins or depending on a desired panel of genes involved in a particular pathway/biological process, or all the three techniques combined. All tools offer several clustering methods, with k-means being a common method. However, Granatum, ASAP and SC1 do not support evaluating the robustness of the detected clusters. On the contrary, DIscBIO enables robustness assessment of the stability and consistency of the detected clusters using Jaccard’s similarity statistics and silhouette coefficients. All pipelines allow users to select multiple options for downstream differential expression and pathway enrichment analyses. Notably, DIscBIO also includes a networking analysis to detect the hub genes linked to the results of the pathway enrichment analysis. Moreover, unlike other systems, DIscBIO implements decision trees to detect biomarkers.
+</p>

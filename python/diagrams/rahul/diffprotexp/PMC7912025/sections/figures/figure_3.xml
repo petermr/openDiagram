@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="viruses-13-00218-f003" orientation="portrait" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>Alternative polyadenylation analysis. (
+   <bold>A</bold>) Scatter plot of differentially polyadenylated transcripts in response to RSV infection. 
+   <italic>X</italic> axis: differential polyadenylation utilization (DPAU). DPAU refers to the fraction of transcripts utilizing the distal polyadenylation site. A positive-valued DPAU indicates enhanced distal site polyadenylation in RSV-infected cells, while a negative value indicates distal site utilization in uninfected cells. 
+   <italic>Y</italic> axis: −log10 (
+   <italic>Q</italic>-value) of significance of change. (
+   <bold>B</bold>) Pathway enrichment of genes undergoing DPAU. Shown are the top 10 gene pathways (
+   <uri>Reactome.org</uri>) for a fraction of the pathway represented (boxes) in the query data and the false discovery rate (FDR, circles) of each pathway.
+  </p>
+ </caption>
+ <graphic xlink:href="viruses-13-00218-g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

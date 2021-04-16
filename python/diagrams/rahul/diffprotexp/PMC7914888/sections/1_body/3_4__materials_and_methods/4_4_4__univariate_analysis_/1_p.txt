@@ -1,0 +1,8 @@
+0: For the cell cycle analysis, we followed the previously reported protocol [ 110].
+1: In brief, a total of 1.0 * 10 6 B16F1 cells exposed or not to L-Tyr or 5-Brd-2-dU were fixed in 75% ( v/ v) ethanol for 2 h at 4 C. Excess ethanol was removed and washed with PBS, and the cell pellet was resuspended in propidium iodide (P.I.)
+2: staining solution containing: 0.1% ( v/ v) Triton X-100 (Sigma-Aldrich); 10 g.mL 1 of propidium iodide (Sigma-Aldrich) and 100 g/mL of DNase-free RNase A (Thermo Fisher Scientific) in PBS, protected from light for 30 min at T  room.
+3: The cells were analyzed at a flow cytometer (BD FACSAria II TM, Franklin Lakes, NJ, USA).
+4: The fluorescence was measured at 536 nm and 617 nm for excitation and emission, respectively, a total of 1.0  10 4 events in three independent replicates.
+5: We estimated the relative number of cells using the FlowJoTM program that assumes Gaussian distributions of the 2N and 4N populations and using a subtractive function to establish the S phase population.
+6: Additionally, the cytometer classified the cells according to their size (FSC-A) and its graininess or morphological complexity (SSC-A).
+7: Analysis of statistical significance for multiple comparisons without correction, with an alpha = 0.05.

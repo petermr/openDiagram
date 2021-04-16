@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0003" orientation="portrait" position="float">
+ <label>Table 3.</label>
+ <caption>
+  <p>Droplet size, zeta potential, PDI and electrical conductivity of the selected nanoemulsions.</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Formulation</th>
+    <th align="center">Size (nm)</th>
+    <th align="center">PDI</th>
+    <th align="center">Zeta Potential (mV)</th>
+    <th align="center">Conductivity (mS/cm)</th>
+    <th align="center">% Intensity</th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="left">F1</td>
+    <td align="char" char="±">122.1 ± 1</td>
+    <td align="char" char="±">0.78 ± 0.01</td>
+    <td align="char" char="±">−24.1 ± 0.5</td>
+    <td align="char" char="±">0.00 ± 0.00</td>
+    <td align="char" char="±">94.6 ± 0.1</td>
+   </tr>
+   <tr>
+    <td align="left">F2</td>
+    <td align="char" char="±">102.7 ± 0.5</td>
+    <td align="char" char="±">0.44 ± 0.02</td>
+    <td align="char" char="±">−29.7 ± 0.2</td>
+    <td align="char" char="±">0.01 ± 0.01</td>
+    <td align="char" char="±">92.1 ± 0.2</td>
+   </tr>
+   <tr>
+    <td align="left">F3</td>
+    <td align="char" char="±">85.2 ± 0.2</td>
+    <td align="char" char="±">0.35 ± 0.0</td>
+    <td align="char" char="±">−23.3 ± 0.2</td>
+    <td align="char" char="±">0.00 ± 0.00</td>
+    <td align="char" char="±">84.7 ± 0.5</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

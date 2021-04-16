@@ -1,0 +1,3 @@
+0: In addition to individual analyses for transcriptome sequencing and metabolome profiling, we performed co-joint analyses on DEGs and DAMs to determine the degree of enrichment of pathways.
+1: The Corson program in R was used to calculate the PCC of genes and metabolites and a correlation coefficient cluster heatmap of DEGs and DAMs was drawn.
+2: Gene-metabolite networks with a PCC > 0.8 were used to construct the transcript-metabolite network.

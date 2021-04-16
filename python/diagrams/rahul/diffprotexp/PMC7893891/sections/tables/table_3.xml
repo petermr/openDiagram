@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>DEGs identified in KEGG pathway: Neuroactive ligand-receptor interaction. Differential expression indicates the average log
+   <sub>2</sub>-fold change in RNA-Seq transcript levels from three independent experiments at each sampling period: D7 vs D0, D13 vs D7, D18 v D13, and D28 v D18. The 
+   <italic>p</italic>-values were ≤ 0.001. Negative log
+   <sub>2</sub>-fold change corresponds to gene downregulation and the positive values indicate gene activation
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th colspan="4">Neuroactive ligand-receptor interaction</th>
+   </tr>
+   <tr>
+    <th>Gene ID</th>
+    <th>Description</th>
+    <th>Differential expression</th>
+    <th>Time</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>APLNR</td>
+    <td>apelin receptor</td>
+    <td>4.656030708</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>NMUR2</td>
+    <td>neuromedin U receptor 2</td>
+    <td>8.490690944</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>F2</td>
+    <td>coagulation factor II (thrombin)</td>
+    <td>2.589060962</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CNR1</td>
+    <td>cannabinoid receptor 1</td>
+    <td>2.81817017</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>S1PR1</td>
+    <td>sphingosine 1-phosphate receptor 1</td>
+    <td>5.38497247</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GRM4</td>
+    <td>metabotropic glutamate receptor 4</td>
+    <td>−3.861684955</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GRIN2B</td>
+    <td>glutamate receptor ionotropic, NMDA 2B</td>
+    <td>−2.895136106</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CHRNA3</td>
+    <td>nicotinic acetylcholine receptor alpha-3</td>
+    <td>2.7938378</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>HTR7</td>
+    <td>5-hydroxytryptamine receptor 7</td>
+    <td>−5.492892685</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CHRNB4</td>
+    <td>nicotinic acetylcholine receptor beta-4</td>
+    <td>4.925250798</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GRIA1</td>
+    <td>glutamate receptor 1</td>
+    <td>3.01762919</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GRIA4</td>
+    <td>glutamate receptor 4</td>
+    <td>−2.647220311</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GRIK1</td>
+    <td>glutamate receptor, ionotropic 42ainite 1</td>
+    <td>2.276415318</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GRIK4</td>
+    <td>glutamate receptor, ionotropic 42ainite 4</td>
+    <td>−3.020412525</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GRID2</td>
+    <td>glutamate receptor delta-2 subunit</td>
+    <td>−5.40793957</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GLRA2</td>
+    <td>glycine receptor alpha-2</td>
+    <td>1.792820308</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GLRB</td>
+    <td>glycine receptor beta</td>
+    <td>3.452103236</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>NR3C1</td>
+    <td>glucocorticoid receptor</td>
+    <td>−2.452514385</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>GHR</td>
+    <td>growth hormone receptor</td>
+    <td>2.976564346</td>
+    <td>D0-D7</td>
+   </tr>
+   <tr>
+    <td>CNR1</td>
+    <td>cannabinoid receptor 1</td>
+    <td>2.626395057</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>NR3C1</td>
+    <td>glucocorticoid receptor</td>
+    <td>3.341402421</td>
+    <td>D7-D13</td>
+   </tr>
+   <tr>
+    <td>GRIN2A</td>
+    <td>glutamate receptor ionotropic, NMDA 2A</td>
+    <td>2.854753149</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>CHRNA4</td>
+    <td>nicotinic acetylcholine receptor alpha-4</td>
+    <td>2.830329136</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>P2RX3</td>
+    <td>P2X purinoceptor 3</td>
+    <td>2.552456853</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>GRIA2</td>
+    <td>glutamate receptor 2</td>
+    <td>3.273675604</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>GRIA4</td>
+    <td>glutamate receptor 4</td>
+    <td>2.416455621</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>ADCYAP1R1</td>
+    <td>pituitary adenylate cyclase-activating polypeptide type I receptor</td>
+    <td>2.615605165</td>
+    <td>D13-D18</td>
+   </tr>
+   <tr>
+    <td>CHRM2</td>
+    <td>muscarinic acetylcholine receptor M2</td>
+    <td>3.383752478</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>CHRM3</td>
+    <td>muscarinic acetylcholine receptor M3</td>
+    <td>3.978819163</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>ADRA1A</td>
+    <td>adrenergic receptor alpha-1A</td>
+    <td>4.207285974</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>DRD2</td>
+    <td>dopamine receptor D2</td>
+    <td>−2.728065758</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>HTR7</td>
+    <td>5-hydroxytryptamine receptor 7</td>
+    <td>3.808433488</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>NMU</td>
+    <td>neuromedin U</td>
+    <td>−2.62455439</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>NPY5R</td>
+    <td>neuropeptide Y receptor type 5</td>
+    <td>3.804748523</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>HCRTR2</td>
+    <td>hypocretin (orexin) receptor 2</td>
+    <td>3.98239527</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>SSTR1</td>
+    <td>somatostatin receptor 1</td>
+    <td>6.807432954</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>TAC1</td>
+    <td>tachykinin 1</td>
+    <td>3.869735499</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>TACR3</td>
+    <td>tachykinin receptor 3</td>
+    <td>2.111829478</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>PTGER4</td>
+    <td>prostaglandin E receptor 4</td>
+    <td>2.824782168</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GPR50</td>
+    <td>G protein-coupled receptor 50</td>
+    <td>4.747091061</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>LPAR1</td>
+    <td>lysophosphatidic acid receptor 1</td>
+    <td>1.500777066</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>S1PR1</td>
+    <td>sphingosine 1-phosphate receptor 1</td>
+    <td>2.506524278</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>ADCYAP1R1</td>
+    <td>pituitary adenylate cyclase-activating polypeptide type I receptor</td>
+    <td>−2.231972171</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GRM1</td>
+    <td>metabotropic glutamate receptor 1</td>
+    <td>3.134222868</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GRIN1</td>
+    <td>glutamate receptor ionotropic, NMDA 1</td>
+    <td>3.726336735</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GRIN2D</td>
+    <td>glutamate receptor ionotropic, NMDA 2D</td>
+    <td>2.087932817</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GRIN3A</td>
+    <td>glutamate receptor ionotropic, NMDA 3A</td>
+    <td>2.914543821</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>CHRNA3</td>
+    <td>nicotinic acetylcholine receptor alpha-3</td>
+    <td>−2.670435709</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GRIA2</td>
+    <td>glutamate receptor 2</td>
+    <td>2.698334339</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GRIA4</td>
+    <td>glutamate receptor 4</td>
+    <td>1.923861676</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GRID2</td>
+    <td>glutamate receptor delta-2 subunit</td>
+    <td>4.217720694</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GRIN2B</td>
+    <td>glutamate receptor ionotropic, NMDA 2B</td>
+    <td>4.109294839</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GLRA3</td>
+    <td>glycine receptor alpha-3</td>
+    <td>5.577349539</td>
+    <td>D18-D28</td>
+   </tr>
+   <tr>
+    <td>GLRB</td>
+    <td>glycine receptor beta</td>
+    <td>1.392250382</td>
+    <td>D18-D28</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,6 @@
+0: KaplanMeier surviving curves, log-rank test, and Cox proportional hazards (Cox PH) regression analyses were carried out using the R survival package.
+1: The PH assumption was tested.
+2: Univariate and multivariate Cox regression analyses were run using the R survival package.
+3: Time-dependent receiver operating characteristic (tROC) analysis was performed using the R timeROC package.
+4: A two-tailed Students t test, one-way or two-way analysis of variance (ANOVA) and Tukeys multiple comparisons post-hoc test were also performed.
+5: A value of  p< 0.05 is considered statistically significant.

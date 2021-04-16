@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T8" orientation="portrait" position="float">
+ <label>Table 8</label>
+ <caption>
+  <p>Partial representative GO terms of differentially expressed proteins between Adult and protoscolex of 
+   <italic>E. granulosus</italic>.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr valign="top">
+    <th align="left" rowspan="1" colspan="1">Annotations number</th>
+    <th align="center" rowspan="1" colspan="1">Gene Ontology term</th>
+    <th align="left" rowspan="1" colspan="1">
+     <italic>p</italic>-value
+    </th>
+    <th align="center" rowspan="1" colspan="1">Accession</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr valign="top">
+    <td align="left" rowspan="7" colspan="1">GO:0016616</td>
+    <td align="left" rowspan="7" colspan="1">Oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor</td>
+    <td align="center" rowspan="7" colspan="1">0.000446</td>
+    <td align="left" rowspan="1" colspan="1">Pgd protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Isocitrate dehydrogenase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Malate dehydrogenase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Putative malate dehydrogenase, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Lactate dehydrogenase B </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Malic enzyme </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+), partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="2" colspan="1">GO:0043167</td>
+    <td align="left" rowspan="37" colspan="1">ion binding</td>
+    <td align="center" rowspan="37" colspan="1">0.009184</td>
+    <td align="left" rowspan="1" colspan="1">hCG1990955, isoform CRA_a </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin alpha-1D chain </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="17" colspan="1"/>
+    <td align="left" rowspan="1" colspan="1">Tubulin alpha-1C chain-like </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">alpha-Tubulin </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin beta-3 chain </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Putative isocitric dehydrogenase subunit alpha </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Aspartate aminotransferase mitochondrial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">DEAD box RNA helicase Me31B </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Spliceosome RNA helicase bat1 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Enolase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Starch phosphorylase, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">ADP-ribosylation factor-like </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Hypothetical protein PANDA_003774 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Cytidine deaminase </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Carboxypeptidase A1 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Cytochrome c </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Centractin alpha, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin beta-2 chain</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Tubulin alpha-1C chain-like isoform 2 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1"/>
+    <td align="left" rowspan="1" colspan="1">T-complex protein 1 subunit gamma, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="17" colspan="1"/>
+    <td align="left" rowspan="1" colspan="1">Molecular chaperone DnaK </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Chaperonin containing t-complex protein 1 epsilon subunit tcpe </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Chain A, Gdp-Bound Rab14 Gtpase</td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Similar to Drosophila melanogaster Cam, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Arl1 protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Putative ADP-ribosylation factor 6 variant 3 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Myosin regulatory light chain </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Myosin essential light chain striated adductor muscle </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">T-complex protein 1 subunit zeta </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Ras-related protein Rab-7a </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Hypothetical protein </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">GE25707 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">SAR1 gene homolog B (S. cerevisiae), isoform CRA_a </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">V-type ATPase A subunit isoform 2 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Ras-related C3 botulinum toxin substrate 2 </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Ras-related protein Rab-6A, partial </td>
+   </tr>
+   <tr valign="top">
+    <td align="left" rowspan="1" colspan="1">Translation initiation factor 4A-like protein </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

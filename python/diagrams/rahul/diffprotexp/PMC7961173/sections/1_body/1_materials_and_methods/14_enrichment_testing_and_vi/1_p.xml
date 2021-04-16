@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">Because ATF4-driven transcriptional activity is a key indicator of ISR activation, ATF4 gene targets, were tested for overrepresentation among DCVC-induced differentially expressed genes. Individual ATF4 gene targets were identified from a mouse model ChIP-seq analysis and included in our study (Han et al. 
+ <xref ref-type="bibr" rid="CR30">2013</xref>). Two additional ATF4 gene targets, 
+ <italic>PMAIP1 and PSPH</italic>, were also included (Sharma et al. 
+ <xref ref-type="bibr" rid="CR70">2018</xref>; Yang et al. 
+ <xref ref-type="bibr" rid="CR86">2018</xref>; Zhao et al. 
+ <xref ref-type="bibr" rid="CR88">2014</xref>). Genes regulated by ATF4 (
+ <italic>N</italic> = 383) were tested for enrichment in DCVC-treated HTR-8/SVneo genes with significant differential expression (FDR &lt; 0.05 + LogFC &gt; 0.35 [FC &gt; 1.3]). ATF4 mouse target genes were converted to human homologues using the biomaRt package (Durinck et al. 
+ <xref ref-type="bibr" rid="CR18">2005</xref>, 
+ <xref ref-type="bibr" rid="CR19">2009</xref>). ATF4 target gene enrichment tests were performed using the phyper function (hypergeometric test) (R Core Team 
+ <xref ref-type="bibr" rid="CR66">2019</xref>). To visualize significantly enriched individual differential gene expression for ATF4 targets from the RNA sequencing analyses, a heatmap displaying the logFC levels of treated compared to control samples, along with a hierarchical clustering diagram were generated using the heatmap.2 function in the gplots package (Warnes et al. 
+ <xref ref-type="bibr" rid="CR82">2019</xref>).
+</p>

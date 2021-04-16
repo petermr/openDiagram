@@ -1,0 +1,2 @@
+0: We used samtools v1.3.1 37 and biobambam v0.0.191 38 to convert cram to fasq files after exclusion of reads that failed QC.
+1: We applied FastQC v0.11.5 to check sample quality 39 and excluded nine samples (Supplementary Data  7).

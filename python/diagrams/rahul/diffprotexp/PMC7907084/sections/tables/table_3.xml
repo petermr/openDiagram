@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>Top 50 genes showing significant up or down regulation tendency in granulosa cells proximal and distal to the germinal disc (GD) in F1 follicles (q &lt; 0.05).</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Gene name/Gene_ID</th>
+    <th align="left">Fold change (Log 2 )</th>
+    <th align="left">Gene name/Gene_ID</th>
+    <th align="left">Fold change (Log 2 )</th>
+    <th align="left">Gene name/Gene_ID</th>
+    <th align="left">Fold change (Log 2 )</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" colspan="6">
+     <bold>Higher abundance in granulosa cells proximal (G1p) versus distal (G1d)</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Novel00730</td>
+    <td char="." align="char">7.42</td>
+    <td align="left">
+     <italic>CCNO</italic>
+    </td>
+    <td char="." align="char">5.22</td>
+    <td align="left">
+     <italic>CA9</italic>
+    </td>
+    <td char="." align="char">4.34</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>SIDT1</italic>
+    </td>
+    <td char="." align="char">6.96</td>
+    <td align="left">
+     <italic>BARD1</italic>
+    </td>
+    <td char="." align="char">5.12</td>
+    <td align="left">
+     <italic>NUSAP1</italic>
+    </td>
+    <td char="." align="char">4.31</td>
+   </tr>
+   <tr>
+    <td align="left">ENSGALG00000007703</td>
+    <td char="." align="char">6.61</td>
+    <td align="left">
+     <italic>CORO2B</italic>
+    </td>
+    <td char="." align="char">5.11</td>
+    <td align="left">
+     <italic>RGS16</italic>
+    </td>
+    <td char="." align="char">4.26</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>IRF6</italic>
+    </td>
+    <td char="." align="char">6.33</td>
+    <td align="left">
+     <italic>ZP2</italic>
+    </td>
+    <td char="." align="char">5.03</td>
+    <td align="left">
+     <italic>HES1</italic>
+    </td>
+    <td char="." align="char">4.26</td>
+   </tr>
+   <tr>
+    <td align="left">ENSGALG00000026301</td>
+    <td char="." align="char">6.31</td>
+    <td align="left">
+     <italic>EPCAM</italic>
+    </td>
+    <td char="." align="char">5.01</td>
+    <td align="left">ENSGALG00000023172</td>
+    <td char="." align="char">4.19</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>AKR1D1</italic>
+    </td>
+    <td char="." align="char">6.17</td>
+    <td align="left">
+     <italic>Smad7a</italic>
+    </td>
+    <td char="." align="char">4.96</td>
+    <td align="left">
+     <italic>TMEM184A</italic>
+    </td>
+    <td char="." align="char">4.18</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>MRC2</italic>
+    </td>
+    <td char="." align="char">6.16</td>
+    <td align="left">
+     <italic>TMEM72</italic>
+    </td>
+    <td char="." align="char">4.95</td>
+    <td align="left">
+     <italic>TRAIP</italic>
+    </td>
+    <td char="." align="char">4.13</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>PPP1R3B</italic>
+    </td>
+    <td char="." align="char">6.16</td>
+    <td align="left">
+     <italic>EMCN</italic>
+    </td>
+    <td char="." align="char">4.75</td>
+    <td align="left">
+     <italic>SVEP1</italic>
+    </td>
+    <td char="." align="char">4.06</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>BRCA1</italic>
+    </td>
+    <td char="." align="char">6.07</td>
+    <td align="left">
+     <italic>DGAT2</italic>
+    </td>
+    <td char="." align="char">4.73</td>
+    <td align="left">
+     <italic>NBL1</italic>
+    </td>
+    <td char="." align="char">4.00</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>NGFR</italic>
+    </td>
+    <td char="." align="char">5.93</td>
+    <td align="left">
+     <italic>Wnt6</italic>
+    </td>
+    <td char="." align="char">4.67</td>
+    <td align="left">
+     <italic>SNX22</italic>
+    </td>
+    <td char="." align="char">4.00</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>GTSE1</italic>
+    </td>
+    <td char="." align="char">5.92</td>
+    <td align="left">
+     <italic>NUF2</italic>
+    </td>
+    <td char="." align="char">4.56</td>
+    <td align="left">
+     <italic>SGK2</italic>
+    </td>
+    <td char="." align="char">3.92</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>ENG</italic>
+    </td>
+    <td char="." align="char">5.82</td>
+    <td align="left">
+     <italic>WNT4</italic>
+    </td>
+    <td char="." align="char">4.53</td>
+    <td align="left">
+     <italic>CCNB2</italic>
+    </td>
+    <td char="." align="char">3.84</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>RRM2</italic>
+    </td>
+    <td char="." align="char">5.75</td>
+    <td align="left">
+     <italic>SH3RF3</italic>
+    </td>
+    <td char="." align="char">4.51</td>
+    <td align="left">
+     <italic>MCAM</italic>
+    </td>
+    <td char="." align="char">3.77</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>CLDN1</italic>
+    </td>
+    <td char="." align="char">5.73</td>
+    <td align="left">
+     <italic>FAM101B</italic>
+    </td>
+    <td char="." align="char">4.50</td>
+    <td align="left">
+     <italic>KIF23</italic>
+    </td>
+    <td char="." align="char">3.76</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>WT1</italic>
+    </td>
+    <td char="." align="char">5.62</td>
+    <td align="left">
+     <italic>CDCA7</italic>
+    </td>
+    <td char="." align="char">4.49</td>
+    <td align="left">
+     <italic>CDK1</italic>
+    </td>
+    <td char="." align="char">3.69</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>INHBB</italic>
+    </td>
+    <td char="." align="char">5.45</td>
+    <td align="left">
+     <italic>AURKA</italic>
+    </td>
+    <td char="." align="char">4.48</td>
+    <td align="left">
+     <italic>CDH3</italic>
+    </td>
+    <td char="." align="char">3.66</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>WEE2</italic>
+    </td>
+    <td char="." align="char">5.39</td>
+    <td align="left">
+     <italic>KIF2C</italic>
+    </td>
+    <td char="." align="char">4.35</td>
+    <td align="left"/>
+    <td char="." align="char"/>
+   </tr>
+   <tr>
+    <td align="left" colspan="6">
+     <bold>Lower abundance in granulosa cells proximal (G1p) versus distal (G1d)</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">ENSGALG00000028371</td>
+    <td char="." align="char">2.15</td>
+    <td align="left">
+     <italic>KIAA0040</italic>
+    </td>
+    <td char="." align="char">0.95</td>
+    <td align="left">
+     <italic>LSS</italic>
+    </td>
+    <td char="." align="char">0.75</td>
+   </tr>
+   <tr>
+    <td align="left">ENSGALG00000009777</td>
+    <td char="." align="char">1.62</td>
+    <td align="left">
+     <italic>SMTN</italic>
+    </td>
+    <td char="." align="char">0.94</td>
+    <td align="left">
+     <italic>SLC5A6</italic>
+    </td>
+    <td char="." align="char">0.73</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>TNR</italic>
+    </td>
+    <td char="." align="char">1.58</td>
+    <td align="left">
+     <italic>MVD</italic>
+    </td>
+    <td char="." align="char">0.94</td>
+    <td align="left">
+     <italic>TCN2</italic>
+    </td>
+    <td char="." align="char">0.73</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>FMOD</italic>
+    </td>
+    <td char="." align="char">1.36</td>
+    <td align="left">
+     <italic>fn1</italic>
+    </td>
+    <td char="." align="char">0.93</td>
+    <td align="left">
+     <italic>FAR-1</italic>
+    </td>
+    <td char="." align="char">0.73</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>IGSF10</italic>
+    </td>
+    <td char="." align="char">1.34</td>
+    <td align="left">
+     <italic>CSRP1</italic>
+    </td>
+    <td char="." align="char">0.93</td>
+    <td align="left">
+     <italic>DHCR7</italic>
+    </td>
+    <td char="." align="char">0.72</td>
+   </tr>
+   <tr>
+    <td align="left">Novel00960</td>
+    <td char="." align="char">1.33</td>
+    <td align="left">
+     <italic>PLTP</italic>
+    </td>
+    <td char="." align="char">0.90</td>
+    <td align="left">ENSGALG00000026545</td>
+    <td char="." align="char">0.72</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>SLC45A3</italic>
+    </td>
+    <td char="." align="char">1.32</td>
+    <td align="left">
+     <italic>MMD</italic>
+    </td>
+    <td char="." align="char">0.90</td>
+    <td align="left">
+     <italic>RETSAT</italic>
+    </td>
+    <td char="." align="char">0.71</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>FADS2</italic>
+    </td>
+    <td char="." align="char">1.27</td>
+    <td align="left">
+     <italic>STAR</italic>
+    </td>
+    <td char="." align="char">0.86</td>
+    <td align="left">
+     <italic>ACAT2</italic>
+    </td>
+    <td char="." align="char">0.70</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>CYP11A1</italic>
+    </td>
+    <td char="." align="char">1.21</td>
+    <td align="left">
+     <italic>IGFBP2</italic>
+    </td>
+    <td char="." align="char">0.86</td>
+    <td align="left">
+     <italic>LDHB</italic>
+    </td>
+    <td char="." align="char">0.69</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>STRA6</italic>
+    </td>
+    <td char="." align="char">1.20</td>
+    <td align="left">
+     <italic>ALAS1</italic>
+    </td>
+    <td char="." align="char">0.85</td>
+    <td align="left">
+     <italic>ZP3</italic>
+    </td>
+    <td char="." align="char">0.67</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>ALB</italic>
+    </td>
+    <td char="." align="char">1.19</td>
+    <td align="left">Novel01841</td>
+    <td char="." align="char">0.82</td>
+    <td align="left">
+     <italic>BRT-1</italic>
+    </td>
+    <td char="." align="char">0.66</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>KIAA1324</italic>
+    </td>
+    <td char="." align="char">1.14</td>
+    <td align="left">Novel00919</td>
+    <td char="." align="char">0.81</td>
+    <td align="left">
+     <italic>SLC25A6</italic>
+    </td>
+    <td char="." align="char">0.63</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>STC1</italic>
+    </td>
+    <td char="." align="char">1.10</td>
+    <td align="left">
+     <italic>NPC2</italic>
+    </td>
+    <td char="." align="char">0.80</td>
+    <td align="left">
+     <italic>FNDC1</italic>
+    </td>
+    <td char="." align="char">0.63</td>
+   </tr>
+   <tr>
+    <td align="left">ENSGALG00000019312</td>
+    <td char="." align="char">1.08</td>
+    <td align="left">
+     <italic>TGFBI</italic>
+    </td>
+    <td char="." align="char">0.80</td>
+    <td align="left">
+     <italic>SQLE</italic>
+    </td>
+    <td char="." align="char">0.63</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>RIL</italic>
+    </td>
+    <td char="." align="char">1.04</td>
+    <td align="left">
+     <italic>DKK3</italic>
+    </td>
+    <td char="." align="char">0.78</td>
+    <td align="left">
+     <italic>PGRMC1</italic>
+    </td>
+    <td char="." align="char">0.63</td>
+   </tr>
+   <tr>
+    <td align="left">ENSGALG00000027090</td>
+    <td char="." align="char">1.01</td>
+    <td align="left">
+     <italic>SC5D</italic>
+    </td>
+    <td char="." align="char">0.76</td>
+    <td align="left">
+     <italic>PEBP1</italic>
+    </td>
+    <td char="." align="char">0.63</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic>ACLY</italic>
+    </td>
+    <td char="." align="char">0.99</td>
+    <td align="left">
+     <italic>ADAMTS3</italic>
+    </td>
+    <td char="." align="char">0.76</td>
+    <td align="left"/>
+    <td char="." align="char"/>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supplementary-material content-type="local-data" id="supp18">
+ <label>Supplementary file 18.</label>
+ <caption>
+  <title>Gene ontology biological process enrichment analysis for genes passing FDR &lt; 0.05, for each developmental timepoint and direction of differential expression, summarized in 
+   <xref ref-type="fig" rid="fig2">Figure 2d</xref> heatmap.
+  </title>
+  <p>Columns signify gene ontology ID number (GO.ID), gene ontology term (Term), the number of annotated genes in the term (Annotated), the number of genes passing FDR &lt; 0.05 for up- or downregulated genes (Significant), the expected number of genes under the null hypothesis, Fisher’s p value (classicFisher), developmental age (Age), direction of differential expression relative to saline (DE_direction), enrichment.</p>
+ </caption>
+ <media mime-subtype="zip" mimetype="application" xlink:href="elife-60100-supp18.zip" orientation="portrait" id="d39e2338" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</supplementary-material>

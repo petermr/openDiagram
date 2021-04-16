@@ -1,0 +1,4 @@
+0: Read trimming, alignment, and methylation calling were performed using the methylpy pipeline [ 69].
+1: We sequenced TnA methylomes to ~ 5-7x coverage, sufficient to detect large-scale differences, and HYPO samples to ~ 16-24x coverage for more detailed analyses (Supplementary Table S9, Additional file  1).
+2: Non-conversion rates (the percentage of unmethyled cytosines that fail to be converted by bisulfite treatment) were determined by mapping reads from spiked in unmethylated Lambda phage DNA.
+3: All samples had a non-conversion rate between 0.170.22% (Supplementary Table S9, Additional file  1), indicating a high conversion from bisulfite treatment.

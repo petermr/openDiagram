@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fn-group>
+ <fn id="footnote1">
+  <label>1</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="http://david.abcc.ncifcrf.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">http://david.abcc.ncifcrf.gov/</ext-link>
+  </p>
+ </fn>
+ <fn id="footnote2">
+  <label>2</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="http://www.kegg.jp/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.kegg.jp/</ext-link>
+  </p>
+ </fn>
+ <fn id="footnote3">
+  <label>3</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="http://mirdb.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://mirdb.org/</ext-link>
+  </p>
+ </fn>
+ <fn id="footnote4">
+  <label>4</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="https://cm.jefferson.edu/data-tools-downloads/rna22-full-sets-of-predictions/" xmlns:xlink="http://www.w3.org/1999/xlink">https://cm.jefferson.edu/data-tools-downloads/rna22-full-sets-of-predictions/</ext-link>
+  </p>
+ </fn>
+ <fn id="footnote5">
+  <label>5</label>
+  <p>
+   <ext-link ext-link-type="uri" xlink:href="http://www.targetscan.org/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.targetscan.org/</ext-link>
+  </p>
+ </fn>
+</fn-group>

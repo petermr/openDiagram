@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par54">Agilent mouse 4 × 44 k two-color microarrays can hybridize up to 30,175 distinct transcripts, out of which 22,657 are probed by single spots. However, other genes are probed by more spots. The most redundantly probed (by 13 spots) are: 
+ <italic>Abcc5, Cpne4, Csf1, Esr1, Mapk1, Oprm1, P2rx3, Socs2.</italic> Therefore, we average the expression level of each gene first on biological replicas for the same spot and then over all spots probing redundantly the same gene.
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ AVE_{i}^{(chamber)} = \frac{1}{{R_{i} }}\sum\limits_{k = 1}^{{R_{i} }} {\mu_{i,k}^{(chamber)} } = \frac{1}{{R_{i} }}\sum\limits_{k = 1}^{{R_{i} }} {\underbrace {{\left( {\frac{1}{4}\sum\limits_{j = 1}^{4} {a_{i,k,j}^{(chamber)} } } \right)}}_{{\mu_{i}^{(chamber)} }}} , $$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <mrow>
+     <mi>A</mi>
+     <mi>V</mi>
+     <msubsup>
+      <mi>E</mi>
+      <mrow>
+       <mi>i</mi>
+      </mrow>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>c</mi>
+       <mi>h</mi>
+       <mi>a</mi>
+       <mi>m</mi>
+       <mi>b</mi>
+       <mi>e</mi>
+       <mi>r</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </msubsup>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <msub>
+       <mi>R</mi>
+       <mi>i</mi>
+      </msub>
+     </mfrac>
+     <munderover>
+      <mo movablelimits="false">∑</mo>
+      <mrow>
+       <mi>k</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <msub>
+       <mi>R</mi>
+       <mi>i</mi>
+      </msub>
+     </munderover>
+     <msubsup>
+      <mi>μ</mi>
+      <mrow>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mi>k</mi>
+      </mrow>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>c</mi>
+       <mi>h</mi>
+       <mi>a</mi>
+       <mi>m</mi>
+       <mi>b</mi>
+       <mi>e</mi>
+       <mi>r</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </msubsup>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <msub>
+       <mi>R</mi>
+       <mi>i</mi>
+      </msub>
+     </mfrac>
+     <munderover>
+      <mo movablelimits="false">∑</mo>
+      <mrow>
+       <mi>k</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <msub>
+       <mi>R</mi>
+       <mi>i</mi>
+      </msub>
+     </munderover>
+     <munder>
+      <munder accentunder="true">
+       <mfenced close=")" open="(">
+        <mrow>
+         <mfrac>
+          <mn>1</mn>
+          <mn>4</mn>
+         </mfrac>
+         <munderover>
+          <mo movablelimits="false">∑</mo>
+          <mrow>
+           <mi>j</mi>
+           <mo>=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mn>4</mn>
+         </munderover>
+         <msubsup>
+          <mi>a</mi>
+          <mrow>
+           <mi>i</mi>
+           <mo>,</mo>
+           <mi>k</mi>
+           <mo>,</mo>
+           <mi>j</mi>
+          </mrow>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>c</mi>
+           <mi>h</mi>
+           <mi>a</mi>
+           <mi>m</mi>
+           <mi>b</mi>
+           <mi>e</mi>
+           <mi>r</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </msubsup>
+        </mrow>
+       </mfenced>
+       <mo>⏟</mo>
+      </munder>
+      <msubsup>
+       <mi>μ</mi>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>c</mi>
+        <mi>h</mi>
+        <mi>a</mi>
+        <mi>m</mi>
+        <mi>b</mi>
+        <mi>e</mi>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </msubsup>
+     </munder>
+     <mo>,</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_82383_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>chamber</italic> = 
+ <italic>LA</italic>, 
+ <italic>RA</italic>, 
+ <italic>LV</italic>, 
+ <italic>RV</italic>; R
+ <sub>
+  <italic>i</italic>
+ </sub> = number of spots probing redundantly gene 
+ <italic>i</italic>; 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$a_{i,j,k}^{(chamber)}$$\end{document}</tex-math>
+   <math id="M4">
+    <msubsup>
+     <mi>a</mi>
+     <mrow>
+      <mi>i</mi>
+      <mo>,</mo>
+      <mi>j</mi>
+      <mo>,</mo>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>c</mi>
+      <mi>h</mi>
+      <mi>a</mi>
+      <mi>m</mi>
+      <mi>b</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2021_82383_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> = expression level of gene “
+ <italic>i</italic>” probed by spot “
+ <italic>k</italic>” on biological replica “
+ <italic>j</italic>” in “
+ <italic>chamber</italic>”
+</p>

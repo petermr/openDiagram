@@ -1,0 +1,338 @@
+{
+  "id": [
+    "33546698"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33546698"
+  ],
+  "pmcid": [
+    "PMC7866754"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7866754"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12936-021-03598-1"
+  ],
+  "title": [
+    "In silico identification of novel open reading frames in Plasmodium falciparum oocyte and salivary gland sporozoites using proteogenomics framework."
+  ],
+  "authorString": [
+    "Gunnarsson S, Prabakaran S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Gunnarsson S"
+          ],
+          "firstName": [
+            "Sophie"
+          ],
+          "lastName": [
+            "Gunnarsson"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Genetics, University of Cambridge, Downing Site, Cambridge, CB2 3EH, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Prabakaran S"
+          ],
+          "firstName": [
+            "Sudhakaran"
+          ],
+          "lastName": [
+            "Prabakaran"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6527-1085",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Genetics, University of Cambridge, Downing Site, Cambridge, CB2 3EH, UK. sp339@cam.ac.uk."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6527-1085",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "20"
+      ],
+      "journalIssueId": [
+        "3104117"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Malaria journal"
+          ],
+          "ISOAbbreviation": [
+            "Malar J"
+          ],
+          "medlineAbbreviation": [
+            "Malar J"
+          ],
+          "NLMid": [
+            "101139802"
+          ],
+          "ISSN": [
+            "1475-2875"
+          ],
+          "ESSN": [
+            "1475-2875"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "71"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Plasmodium falciparum causes the deadliest form of malaria, which remains one of the most prevalent infectious diseases. Unfortunately, the only licensed vaccine showed limited protection and resistance to anti-malarial drug is increasing, which can be largely attributed to the biological complexity of the parasite's life cycle. The progression from one developmental stage to another in P. falciparum involves drastic changes in gene expressions, where its infectivity to human hosts varies greatly depending on the stage. Approaches to identify candidate genes that are responsible for the development of infectivity to human hosts typically involve differential gene expression analysis between stages. However, the detection may be limited to annotated proteins and open reading frames (ORFs) predicted using restrictive criteria.<h4>Methods</h4>The above problem is particularly relevant for P. falciparum; whose genome annotation is relatively incomplete given its clinical significance. In this work, systems proteogenomics approach was used to address this challenge, as it allows computational detection of unannotated, novel Open Reading Frames (nORFs), which are neglected by conventional analyses. Two pairs of transcriptome/proteome were obtained from a previous study where one was collected in the mosquito-infectious oocyst sporozoite stage, and the other in the salivary gland sporozoite stage with human infectivity. They were then re-analysed using the proteogenomics framework to identify nORFs in each stage.<h4>Results</h4>Translational products of nORFs that map to antisense, intergenic, intronic, 3' UTR and 5' UTR regions, as well as alternative reading frames of canonical proteins were detected. Some of these nORFs also showed differential expression between the two life cycle stages studied. Their regulatory roles were explored through further bioinformatics analyses including the expression regulation on the parent reference genes, in silico structure prediction, and gene ontology term enrichment analysis.<h4>Conclusion</h4>The identification of nORFs in P. falciparum sporozoites highlights the biological complexity of the parasite. Although the analyses are solely computational, these results provide a starting point for further experimental validation of the existence and functional roles of these nORFs."
+  ],
+  "affiliation": [
+    "Department of Genetics, University of Cambridge, Downing Site, Cambridge, CB2 3EH, UK."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12936-021-03598-1"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7866754"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7866754?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "geo",
+        "pxd"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-06"
+  ],
+  "firstIndexDate": [
+    "2021-02-07"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-10"
+  ],
+  "dateOfRevision": [
+    "2021-02-10"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-05"
+  ],
+  "firstPublicationDate": [
+    "2021-02-05"
+  ]
+}

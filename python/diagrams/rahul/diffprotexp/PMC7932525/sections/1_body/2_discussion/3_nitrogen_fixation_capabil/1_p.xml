@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Heterocysts differentiate from vegetative cells of some filamentous cyanobacteria to fix nitrogen for the entire filament under oxic growth conditions [
+ <xref rid="pone.0248155.ref038" ref-type="bibr">38</xref>]. 
+ <italic>Anabaena</italic> sp. strain PCC 7120 contains two Mo-dependent nitrogenases [
+ <xref rid="pone.0248155.ref038" ref-type="bibr">38</xref>, 
+ <xref rid="pone.0248155.ref039" ref-type="bibr">39</xref>]. Among these, 
+ <italic>nif1</italic> is expressed exclusively in heterocysts and functions under oxic growth conditions [
+ <xref rid="pone.0248155.ref040" ref-type="bibr">40</xref>], whereas 
+ <italic>nif2</italic> is expressed only under anoxic conditions in vegetative cells shortly after nitrogen step-down and long before heterocysts are formed [
+ <xref rid="pone.0248155.ref038" ref-type="bibr">38</xref>]. Both nitrogenases fix nitrogen and supply it to the filament for growth [
+ <xref rid="pone.0248155.ref040" ref-type="bibr">40</xref>]. We identified 23 nitrogen fixing genes, 21 of which were differentially expressed, including 10 highly-modulated DEGs (
+ <xref ref-type="supplementary-material" rid="pone.0248155.s006">S4 Table</xref>). GO enrichment analysis of the DEGs showed that most of these genes encoded proteins with cofactor transferase activity, cofactor binding, and catalytic activity (
+ <xref ref-type="fig" rid="pone.0248155.g004">Fig 4</xref>); these results are consistent with the properties of the nitrogenase-processing Mo cofactor. KEGG enrichment analysis indicated that multiple nitrogen-related KEGG pathways were significantly enriched, including amino sugar and nucleotide sugar metabolism (ko00520), purine metabolism (ko00230), DNA replication (ko03030), and arginine biosynthesis (ko00220) (
+ <xref rid="pone.0248155.t001" ref-type="table">Table 1</xref>). Cluster analysis revealed that the DEGs were grouped into cluster 1, indicating higher gene expression in NDV and NDH samples than in the NV sample. Comparison of NVs vs. NDVs showed that 
+ <italic>FKXN</italic>, 
+ <italic>NifD</italic>, 
+ <italic>NifE</italic>, 
+ <italic>NifH1</italic>, 
+ <italic>NifK</italic>, 
+ <italic>NifN</italic>, and 
+ <italic>NifX</italic> were highly expressed in the NDV sample (
+ <xref ref-type="supplementary-material" rid="pone.0248155.s006">S4 Table</xref>), suggesting that this set of DEGs mainly contributed to promoting nitrogen fixation under nitrogen deprivation conditions. Immunofluorescence analysis of NifH indicated that its expression in vegetative cells was low when the nitrogen supply is sufficient; moreover, nitrogen deprivation induced and promoted the expression of NifH in both vegetative cells and heterocysts (
+ <xref ref-type="fig" rid="pone.0248155.g007">Fig 7</xref>). These results confirm the nitrogen fixation function of this set of DEGs in NDVs.
+</p>

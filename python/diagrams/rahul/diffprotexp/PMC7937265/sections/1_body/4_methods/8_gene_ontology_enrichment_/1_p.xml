@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par54">We performed a GO enrichment analysis to identify the biological processes over-represented in the DEGs found in each tissue. Up- and down-regulated DEGs were separately subjected to an over-representation analysis using PANTHER [
+ <xref ref-type="bibr" rid="CR66">66</xref>] with a Fisher’s Exact test and a cut-off of FDR ≤ 0.05 for statistical significance. The lists of GO terms were further summarized with REVIGO [
+ <xref ref-type="bibr" rid="CR67">67</xref>], which clusters GO terms based on semantic similarity (similarity threshold = 0.7).
+</p>

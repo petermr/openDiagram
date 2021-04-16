@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par46">To identify changes in the gene network topology between conditions, we used PCIT to build CON and RES networks separately for each tissue from the same dataset used for DGCA analysis. Significantly correlated pairs were selected when DEGs or TFs were present and showed a partial correlation greater than |0.9| (
+ <italic>p</italic> &lt; 0.01). To explore the DK genes between the maternal dietary intake conditions, we first standardized the connectivity (K) measures for each network by dividing each gene connectivity by the maximum connectivity
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. Next, the DK measure was defined as 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$DK_{i} = K_{CON} \left( i \right) - K_{RES} \left( i \right)$$\end{document}</tex-math>
+   <math id="M6">
+    <mrow>
+     <mi>D</mi>
+     <msub>
+      <mi>K</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>K</mi>
+      <mrow>
+       <mi mathvariant="italic">CON</mi>
+      </mrow>
+     </msub>
+     <mfenced close=")" open="(">
+      <mi>i</mi>
+     </mfenced>
+     <mo>-</mo>
+     <msub>
+      <mi>K</mi>
+      <mrow>
+       <mi mathvariant="italic">RES</mi>
+      </mrow>
+     </msub>
+     <mfenced close=")" open="(">
+      <mi>i</mi>
+     </mfenced>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2021_82156_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. To assign a significance level, each score was transformed into a 
+ <italic>Z-score,</italic> and values located ± 1.96 from the standard deviation (SD) were considered significant (
+ <italic>p</italic> &lt; 0.05). The DyNet
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup> Cytoscape plugin v.1.0 (
+ <ext-link ext-link-type="uri" xlink:href="https://rb.gy/9vp9js" xmlns:xlink="http://www.w3.org/1999/xlink">https://rb.gy/9vp9js</ext-link>) was used to visualize the most rewiring nodes between the conditions considering the Dn-score. This score ranks the variability of connections and highlights the most rewired nodes based on a central reference network
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup> constructed from the union of RES and CON networks. Networks were visualized in Cytoscape (v.3.7)
+ <sup>
+  <xref ref-type="bibr" rid="CR89">89</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://cytoscape.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://cytoscape.org/</ext-link>). Highly connected genes or “hubs” were defined considering the degree measure (2 SD, 
+ <italic>p</italic> &lt; 0.05) retrieved from the Cytoscape Network Analyzer tool v.2.7
+ <sup>
+  <xref ref-type="bibr" rid="CR90">90</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://rb.gy/twossl" xmlns:xlink="http://www.w3.org/1999/xlink">https://rb.gy/twossl</ext-link>).
+</p>

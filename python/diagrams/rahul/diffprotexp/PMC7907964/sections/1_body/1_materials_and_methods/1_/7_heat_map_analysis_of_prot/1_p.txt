@@ -1,0 +1,4 @@
+0: The MS ion intensities of each protein (average peptide ion intensities) were normalized by those in the healthy control group and counted as 1.00-fold.
+1: The expression levels (normalized intensity ratio) of proteins were represented in a heat map constructed using R version 3.3.1( 24).
+2: The proteins were sorted by their expression levels, starting from high to low, in comparison with those of the control group.
+3: All samples were clustered with the Euclidean distance computational method and the complete agglomeration method ( 24).

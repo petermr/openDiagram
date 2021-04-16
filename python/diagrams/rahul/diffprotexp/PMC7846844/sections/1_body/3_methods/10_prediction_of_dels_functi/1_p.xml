@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">In this study, the pig QTL annotation file was downloaded from the animal QTL database (
+ <ext-link ext-link-type="uri" xlink:href="https://www.animalgenome.org/cgi-bin/QTLdb/SS/index" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.animalgenome.org/cgi-bin/QTLdb/SS/index</ext-link>), and the location information of DEL was proposed in the non-redundant transcription file according to the ID of DEL. After that, we performed QTL mapping on DEL using the BedTools (version 2.17.0).
+</p>

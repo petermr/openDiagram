@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="bib2">
+ <element-citation publication-type="book">
+  <person-group person-group-type="author">
+   <name>
+    <surname>Alexa</surname>
+    <given-names>A</given-names>
+   </name>
+   <name>
+    <surname>Rahnenfuhrer</surname>
+    <given-names>J</given-names>
+   </name>
+  </person-group>
+  <year>2019</year>
+  <data-title>topGO: Enrichment Analysis for Gene Ontology</data-title>
+  <version designator="2.38.1">2.38.1</version>
+  <publisher-name>R package</publisher-name>
+  <ext-link ext-link-type="uri" xlink:href="https://bioconductor.org/packages/release/bioc/html/topGO.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://bioconductor.org/packages/release/bioc/html/topGO.html</ext-link>
+ </element-citation>
+</ref>

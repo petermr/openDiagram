@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t2-ijms-15-07281" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>MALDI-TOF/MS identification of differentially expressed proteins. Selected protein spots were obtained using EXQuest Spot Cutter (BIO-RAD), with the proteins enzymatically hydrolyzed and identified using MALDI-TOF/MS. Proteins with score of 100, 
+   <italic>i.e.</italic>, 100% homology were included. ↑ higher expression, ↓ lower expression.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">SSP</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">ID</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">NAME</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">
+     <italic>M</italic>
+     <sub>W</sub> (KDa)
+    </th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">PI</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Difference</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2102/3101</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IPI00877236</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Apoa1 apolipoprotein A-1 preproprotein</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">30.6</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.51</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">↑</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3002</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IPI00116498</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Ywhaz 14-3-3 protein zeta/delta</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">28</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.73</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">↑</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3402/4401/6502</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IPI00131695</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Alb Serum albumin</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">70.7</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.75</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">↓</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4002</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IPI00420261</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Hmgb1 High mobility</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">24.9</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.62</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">↓</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5502</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IPI00623845</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Selenium-binding protein 1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">53.05</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.87</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">↓</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6103/5101</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IPI00758024</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Prdx6 Uncharacterized Protein</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">25</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.98</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">↓</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6701</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IPI00114375</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Dihydropyrimidinase related protein 2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">62.64</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.95</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">↓</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7304</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">IPI00127596</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Creatine kinase M-type</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">43.25</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.58</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">↓</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

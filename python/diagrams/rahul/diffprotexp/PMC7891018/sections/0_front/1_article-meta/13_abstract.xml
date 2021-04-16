@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Both the highly pathogenic avian influenza (HPAI) H5N1 and low pathogenic avian influenza (LPAI) H9N2 viruses have been reported to cross species barriers to infect humans. H5N1 viruses can cause severe damage and are associated with a high mortality rate, but H9N2 viruses do not cause such outcomes. Our purpose was to use proteomics technology to study the differential expression of mitochondrial-related proteins related to H5N1 and H9N2 virus infections. </p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">According to the determined viral infection titer, A549 cells were infected with 1 multiplicity of infection virus, and the mitochondria were extracted after 24 h of incubation. The protein from lysed mitochondria was analyzed by the BCA method to determine the protein concentration, as well as SDS-PAGE (preliminary analysis), two-dimensional gel electrophoresis, and mass spectrometry. Differential protein spots were selected, and Western blotting was performed to verify the proteomics results. The identified proteins were subjected to GO analysis for subcellular localization, KEGG analysis for functional classification and signaling pathways assessment, and STRING analysis for functional protein association network construction.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">In the 2-D gel electrophoresis analysis, 227 protein spots were detected in the H5N1-infected group, and 169 protein spots were detected in the H9N2-infected group. Protein spots were further subjected to mass spectrometry identification and removal of redundancy, and 32 differentially expressed proteins were identified. Compared with the H9N2 group, the H5N1-infected group had 16 upregulated mitochondrial proteins and 16 downregulated proteins. The differential expression of 70-kDa heat shock protein analogs, short-chain enoyl-CoA hydratase, malate dehydrogenase, and ATP synthase was verified by Western blot, and the results were consistent with the proteomics findings. Functional analysis indicated that these differentially expressed proteins were primarily involved in apoptosis and metabolism.</p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par4">Compared with their expression in the H9N2 group, the differential expression of eight mitochondrial proteins in the H5N1 group led to host T cell activation, antigen presentation, stress response, ATP synthesis and cell apoptosis reduction, leading to higher pathogenicity of H5N1 than H9N2.</p>
+ </sec>
+ <sec>
+  <title>Supplementary Information</title>
+  <p>The online version contains supplementary material available at 10.1186/s12985-021-01512-4.</p>
+ </sec>
+</abstract>

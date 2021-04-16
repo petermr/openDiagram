@@ -1,0 +1,5 @@
+0: Functional annotation of proteins was performed using Uniprot to assign GO function, subcellular localization, Interpro protein domains, and structure annotations where available.
+1: Gene set enrichment analysis (GSEA) was performed on differentially expressed proteins using the DAVID bioinformatics resource [ 96].
+2: GiardiaDB.org open reading frame identifiers from combined up- and downregulated proteins in each MtzR isolate were converted to gene identifiers using the National Center for Biotechnology Information Batch Entrez tool [ 97].
+3: Converted gene identifier lists were submitted by isolate to DAVID for GSEA, with GO annotations and Interpro annotations submitted for testing.
+4: Gene sets with an EASE score 0.2 in at least 1 MtzR line were retained.

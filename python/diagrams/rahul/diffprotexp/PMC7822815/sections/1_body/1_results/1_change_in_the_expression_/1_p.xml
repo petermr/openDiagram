@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">To detect a potential association between RUNX1/RUNX1T1 and RNA splicing, we initially analyzed published RNA-seq, ChIP-seq and DNase-hypersensitive-site-seq (DHS-seq) data sets for links between RUNX1/RUNX1T1 and RNA processing (Supplementary Data 
+ <xref rid="MOESM4" ref-type="media">1</xref>). Functional annotation by DAVID uncovered a highly significant enrichment of RUNX1/RUNX1T1 binding at gene loci that are subject to alternative splicing and splice variants (false discovery rate adjusted 
+ <italic>p</italic>-value or 
+ <italic>q</italic>-value, 4.0 × 10
+ <sup>−23</sup> and 1.5 × 10
+ <sup>−12</sup>, respectively; Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">1a</xref>, Supplementary Data 
+ <xref rid="MOESM5" ref-type="media">2</xref>)
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>. These findings are in line with the observation that RUNX1/RUNX1T1 may interact with several splicing factors implying a direct link between RUNX1/RUNX1T1-regulated transcription and RNA processing
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>. Furthermore, we observed that RUNX1/RUNX1T1 binding sites are often present within genes encoding splicing-associated factors or in their immediate vicinity (Supplementary Data 
+ <xref rid="MOESM6" ref-type="media">3</xref>, 
+ <xref rid="MOESM7" ref-type="media">4</xref>). The list of such genes includes both classical splicing regulatory genes such as 
+ <italic>HNRNPM</italic>, 
+ <italic>RBFOX2, SF3A3</italic>, 
+ <italic>SRSF5</italic>, and genes encoding the components of nuclear speckles including 
+ <italic>RBM6</italic>, 
+ <italic>SNRPD3</italic>, 
+ <italic>SNU13</italic>, which are considered the area of intensive splicing
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>,
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. Moreover, gene set enrichment analysis (GSEA) suggests that knockdown of 
+ <italic>RUNX1/RUNX1T1</italic> affects RNA binding proteins and snRNP assembly, and is associated with impaired mRNA processing and, in particular, splicing pathways (Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>; Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">1b</xref>)
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup>. These findings strongly suggest a regulatory role of this leukemic fusion protein in mRNA splicing and predict changes in splicing pattern in response to perturbing RUNX1/RUNX1T1 activity.
+</p>

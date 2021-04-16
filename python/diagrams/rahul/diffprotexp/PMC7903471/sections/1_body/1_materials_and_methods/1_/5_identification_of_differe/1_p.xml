@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The analysis of differences in lncRNA expression between the two groups (NC and OA group) was performed using the DEGseq (2010) R package (
+ <ext-link ext-link-type="uri" xlink:href="http://dblp.uni-trier.de/db/journals/bioinformatics/bioinformatics26.html#WangFWWZ10" xmlns:xlink="http://www.w3.org/1999/xlink">http://dblp.uni-trier.de/db/journals/bioinformatics/bioinformatics26.html#WangFWWZ10</ext-link>). The P-value was adjusted using the q-value. P&lt;0.05 and |log2 (fold-change)|&gt;1 were set as the threshold for significant differential expression.
+</p>

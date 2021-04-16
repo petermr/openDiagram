@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0345">Alternatively, thyroid tumor and normal thyroid RNA sequencing profiles from dataset PRJEB11591 [
+ <xref rid="bib92" ref-type="bibr">92</xref>,
+ <xref rid="bib93" ref-type="bibr">93</xref>] were used. The dataset includes data for 25 FA, 30 minimally invasive FC, 48 follicular variant of PC (FV), 77 classical papillary thyroid carcinomas (PC) and 81 adjacent normal thyroid tissues. FASTQ files were processed by STAR aligner [
+ <xref rid="bib89" ref-type="bibr">89</xref>] to get raw gene counts that were processed as RPM.
+</p>

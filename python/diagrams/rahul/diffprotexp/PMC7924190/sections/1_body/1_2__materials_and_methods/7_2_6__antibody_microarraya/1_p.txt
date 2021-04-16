@@ -1,0 +1,13 @@
+0: To analyze the differential expression of various proteins in hTCEpi cells following electric stimulation, cells were treated with AC EFs for 24 h as described above.
+1: Later, the cells were collected, washed and frozen cell pellets were sent to Sciomics GmbH (Heidelberg, Germany) for further analysis using scioDiscover protein arrays.
+2: For each condition, the array was performed in triplicate.
+3: Briefly, proteins were extracted, quantified, and labeled with fluorescent dyes.
+4: All six samples were analyzed in a dual-color approach using a reference-based design on scioCD antibody microarrays (Sciomics) targeting 1300 proteins.
+5: Each antibody is represented in eight replicates on the array.
+6: The arrays were blocked with scioBlock (Sciomics) on a Hybstation 4800 instrument (Tecan, Grodig, Austria).
+7: The resulting data were analyzed using the linear models for the microarray data (LIMMA) package of R-Bioconductor after uploading the median signal intensities for differential protein expression.
+8: For normalization, a specialized invariant Lowess method was applied, and for analysis of the samples, a one-factorial linear model was fitted with LIMMA, resulting in a two-sided  t-test or F-test based on moderated statistics.
+9: All presented  p values were adjusted for multiple testing by controlling the false discovery rate according to Benjamini and Hochberg.
+10: Proteins were defined as differential for |logFC| > 0.2 and an adjusted  p-value of< 0.05.
+11: Differences in protein abundance between different samples or sample groups are presented as log-fold changes (logFC) calculated for the basis of 2.
+12: In a study comparing samples versus control, a logFC = 1 means that the sample group had on average a 2 1 = 2-fold higher signal as the control group; logFC = 1 stands for 2 1 = 1/2 of the signal in the sample as compared to the control group.

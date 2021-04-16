@@ -1,0 +1,706 @@
+{
+  "id": [
+    "33572560"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33572560"
+  ],
+  "pmcid": [
+    "PMC7912025"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7912025"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/v13020218"
+  ],
+  "title": [
+    "Alternative mRNA Processing of Innate Response Pathways in Respiratory Syncytial Virus (RSV) Infection."
+  ],
+  "authorString": [
+    "Xu X, Mann M, Qiao D, Brasier AR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Xu X"
+          ],
+          "firstName": [
+            "Xiaofang"
+          ],
+          "lastName": [
+            "Xu"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, University of Wisconsin-Madison School of Medicine and Public Health (SMPH), Madison, WI 53705, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mann M"
+          ],
+          "firstName": [
+            "Morgan"
+          ],
+          "lastName": [
+            "Mann"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6623-9522",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, University of Wisconsin-Madison School of Medicine and Public Health (SMPH), Madison, WI 53705, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Qiao D"
+          ],
+          "firstName": [
+            "Dianhua"
+          ],
+          "lastName": [
+            "Qiao"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, University of Wisconsin-Madison School of Medicine and Public Health (SMPH), Madison, WI 53705, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Brasier AR"
+          ],
+          "firstName": [
+            "Allan R"
+          ],
+          "lastName": [
+            "Brasier"
+          ],
+          "initials": [
+            "AR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5012-4090",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medicine, University of Wisconsin-Madison School of Medicine and Public Health (SMPH), Madison, WI 53705, USA."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Institute for Clinical and Translational Research (ICTR), University of Wisconsin-Madison, Madison, WI 53705, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6623-9522",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5012-4090",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "3099299"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Viruses"
+          ],
+          "ISOAbbreviation": [
+            "Viruses"
+          ],
+          "medlineAbbreviation": [
+            "Viruses"
+          ],
+          "NLMid": [
+            "101509722"
+          ],
+          "ISSN": [
+            "1999-4915"
+          ],
+          "ESSN": [
+            "1999-4915"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "The innate immune response (IIR) involves rapid genomic expression of protective interferons (IFNs) and inflammatory cytokines triggered by intracellular viral replication. Although the transcriptional control of the innate pathway is known in substantial detail, little is understood about the complexity of alternative splicing (AS) and alternative polyadenylation (APA) of mRNAs underlying the cellular IIR. In this study, we applied single-molecule, real-time (SMRT) sequencing with mRNA quantitation using short-read mRNA sequencing to characterize changes in mRNA processing in the epithelial response to respiratory syncytial virus (RSV) replication. Mock or RSV-infected human small-airway epithelial cells (hSAECs) were profiled using SMRT sequencing and the curated transcriptome analyzed by structural and quality annotation of novel transcript isoforms (SQANTI). We identified 113,082 unique isoforms; 28,561 represented full splice matches, and 45% of genes expressed six or greater AS mRNA isoforms. Identification of differentially expressed AS isoforms was accomplished by mapping a short-read RNA sequencing expression matrix to the curated transcriptome, and 905 transcripts underwent differential polyadenylation site analysis enriched in protein secretion, translation, and mRNA degradation. We focused on 355 genes showing differential isoform utilization (DIU), indicating where a new AS isoform becomes a major fraction of mRNA isoforms expressed. In pathway and network enrichment analyses, we observed that DIU transcripts are substantially enriched in cell cycle control and IIR pathways. Interestingly, the RelA/IRF7 innate regulators showed substantial DIU where major transcripts included distinct isoforms with exon occlusion, intron inclusion, and alternative transcription start site utilization. We validated the presence of RelA and IRF7 AS isoforms as well as their induction by RSV using eight isoform-specific RT-PCR assays. These isoforms were identified in both immortalized and primary small-airway epithelial cells. We concluded that the cell cycle and IIR are differentially spliced in response to RSV. These data indicate that substantial post-transcriptional complexity regulates the antiviral response."
+  ],
+  "affiliation": [
+    "Department of Medicine, University of Wisconsin-Madison School of Medicine and Public Health (SMPH), Madison, WI 53705, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P01 AI062885"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "UL1TR002373"
+          ],
+          "agency": [
+            "NCATS NIH HHS"
+          ],
+          "acronym": [
+            "TR"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Epithelial Cells"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "VI"
+                  ],
+                  "qualifierName": [
+                    "virology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Respiratory Syncytial Virus, Human"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Respiratory Syncytial Virus Infections"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "VI"
+                  ],
+                  "qualifierName": [
+                    "virology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Messenger"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA Processing, Post-Transcriptional"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Alternative Splicing"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcription Factor RelA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "IM"
+                  ],
+                  "qualifierName": [
+                    "immunology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Immunity, Innate"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Interferon (IFN)",
+        "Alternative splicing",
+        "Single-molecule",
+        "Interferon Regulatory Factor (Irf)",
+        "Real-time (Smrt)",
+        "Iso-seq™",
+        "Differential Polyadenylation"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA, Messenger"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "transcription factor relA"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RELA protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/v13020218"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7912025"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7912025?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2021-03-12"
+  ],
+  "dateOfCreation": [
+    "2021-02-12"
+  ],
+  "firstIndexDate": [
+    "2021-02-12"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-01"
+  ],
+  "dateOfRevision": [
+    "2021-03-16"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-31"
+  ],
+  "firstPublicationDate": [
+    "2021-01-31"
+  ]
+}

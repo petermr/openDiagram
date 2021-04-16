@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00257-f013" orientation="portrait" position="float">
+ <label>Figure 13</label>
+ <caption>
+  <p>LE gene panel predicts poor OS in multiple cancer types with reported relationship with CNTN1 expression. The above datasets were organized by SurvExpress; specifically, lung adenocarcinoma (
+   <italic>n</italic> = 475), lung squamous cell carcinoma (
+   <italic>n</italic> = 175), esophageal carcinoma (
+   <italic>n</italic> = 184), hepatocellular carcinoma (
+   <italic>n</italic> = 361), breast cancer (
+   <italic>n</italic> = 962), low grade glioma (
+   <italic>n</italic> = 512), and stomach adenocarcinoma (
+   <italic>n</italic> = 352) were all from TCGA. HR and 95% CI (confidence interval) for individual analyses are included. Kaplan–Meier survival curves are shown. Statistical analyses were performed using log rank test. All analyses were carried out using tools provided by SurvExpress.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00257-g013" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

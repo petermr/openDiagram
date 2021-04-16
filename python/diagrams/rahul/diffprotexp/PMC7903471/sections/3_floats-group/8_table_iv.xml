@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tIV-etm-0-0-09796" orientation="portrait" position="float">
+ <label>Table IV</label>
+ <caption>
+  <p>KEGG pathway analysis of the differentially expressed lncRNAs.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" valign="middle" colspan="4" rowspan="1">A, Upregulated</th>
+   </tr>
+   <tr>
+    <th align="left" valign="middle" rowspan="1" colspan="1">KEGG pathway</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Term</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">P-value</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Total number of genes</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa04320</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">PI3K-Akt signaling pathway</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.4458x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">214</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa05630</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Hematopoietic cell lineage</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.3426x10
+     <sup>-6</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">60</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa04722</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Osteoclast differentiation</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.0712x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">92</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa05803</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Staphylococcus aureus infection</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.3805x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">44</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa03638</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Chemokine signaling pathway</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.8041x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">115</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa04327</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Malaria</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.6349x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">37</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa02874</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Leishmaniasis</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.4737x10
+     <sup>-4</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">51</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa00381</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Axon guidance</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.6875x10
+     <sup>-4</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">82</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" colspan="4" rowspan="1">B, Downregulated</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">KEGG pathway</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Term</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">P-value</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Total number of genes</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa00273</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cell adhesion molecules (CAMs)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.5728x10
+     <sup>-09</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">98</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa03256</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cytokine-cytokine receptor interaction</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.416x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">130</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa04438</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ECM-receptor interaction</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.484x10
+     <sup>-5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">58</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa02931</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Endocytosis</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.5678x10
+     <sup>-4</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">141</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa01375</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Chagas disease (American trypanosomias)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.3938x10
+     <sup>-4</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">68</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa02306</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Rheumatoid arthritis</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.03056x10
+     <sup>-3</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">57</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa00561</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">T cell receptor signaling pathway</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.20597x10
+     <sup>-3</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">66</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">hsa01934</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Systemic lupus erythematosus</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.49979x10
+     <sup>-3</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">79</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>KEGG, Kyoto Encyclopedia of Genes and Genomes; lncRNA, long non-coding RNA.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

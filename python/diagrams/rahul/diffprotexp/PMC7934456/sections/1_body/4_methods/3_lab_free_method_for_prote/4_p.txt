@@ -1,0 +1,4 @@
+0: Gene was classified by Gene Ontology annotation into three categories: biological process, cellular compartment, and molecular function.
+1: The GO with a corrected  p value of< 0.05 is considered important [ 61].
+2: The Encyclopedia of Genes and Genomes (KEGG) database is used to identify enrichment pathways through two-tailed Fishers exact test to test the enrichment of all identified proteins by differentially expressed proteins [ 62].
+3: Paths with corrected  p-value< 0.05 are considered important.

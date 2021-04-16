@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="T0002" orientation="portrait" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>The top 10 significant pathways of gene set analysis using rare functional SNVs.</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*"/>
+   <col width="1*"/>
+  </colgroup>
+  <thead valign="bottom">
+   <tr>
+    <th align="left">Gene set</th>
+    <th align="center">
+     <italic toggle="yes">P-</italic>value
+     <xref ref-type="table-fn" rid="TF2">
+      <sup>a</sup>
+     </xref>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">PID: HIF1 TF PATHWAY</td>
+    <td align="char" char=".">0.00189</td>
+   </tr>
+   <tr>
+    <td align="left">KEGG: LEISHMANIA INFECTION</td>
+    <td align="char" char=".">0.00443</td>
+   </tr>
+   <tr>
+    <td align="left">BIOCARTA: MPR PATHWAY</td>
+    <td align="char" char=".">0.00677</td>
+   </tr>
+   <tr>
+    <td align="left">REACTOME: SIGNALING BY EGFR</td>
+    <td align="char" char=".">0.00759</td>
+   </tr>
+   <tr>
+    <td align="left">KEGG: ECM RECEPTOR INTERACTION</td>
+    <td align="char" char=".">0.00846</td>
+   </tr>
+   <tr>
+    <td align="left">REACTOME: TRANSCRIPTIONAL REGULATION BY THE AP 2 TFAP2 FAMILY OF TRANSCRIPTION FACTORS</td>
+    <td align="char" char=".">0.00904</td>
+   </tr>
+   <tr>
+    <td align="left">BIOCARTA: LIS1 PATHWAY</td>
+    <td align="char" char=".">0.0104</td>
+   </tr>
+   <tr>
+    <td align="left">BIOCARTA: MELANOCYTE PATHWAY</td>
+    <td align="char" char=".">0.0122</td>
+   </tr>
+   <tr>
+    <td align="left">REACTOME: NR1H2 NR1H3 REGULATE GENE EXPRESSION LINKED TO GLUCONEOGENESIS</td>
+    <td align="char" char=".">0.0122</td>
+   </tr>
+   <tr>
+    <td align="left">REACTOME: TRAFFICKING OF AMPA RECEPTORS</td>
+    <td align="char" char=".">0.0136</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="TF2">
+   <label>
+    <sup>a</sup>
+   </label>
+   <p>The optimal sequencing kernel association test (SKAT-O) was used for this gene set analysis.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

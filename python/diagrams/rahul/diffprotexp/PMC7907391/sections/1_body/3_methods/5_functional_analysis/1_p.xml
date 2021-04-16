@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par36">Functional Analysis using Cytoscape ClueGO App
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>–
+  <xref ref-type="bibr" rid="CR59">59</xref>
+ </sup> was performed on the overlapping differentially expressed genes by peripheral blood mononuclear cells from chemotherapy-treated (GSE39324)
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup> and COVID-19
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup> datasets. 135 upregulated and 112 genes downregulated were uploaded separately to ClueGO. The software uses Kappa statistics to link terms within a network, two-sided hypergeometric tests were used to define enrichment, the Bonferroni step down p value correction method was also implemented with a q-value threshold of ≤ 0.05.
+</p>

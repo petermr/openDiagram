@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>where
+ <italic> k</italic> represents the coefficient value, and 
+ <italic>Exp</italic> represented the gene expression level. According to the median risk score survival analysis, tongue cancer patients were divided into low-risk and high-risk groups. A log-rank test compared the difference of overall survival (OS) between the two subgroups. Additionally, a time dependent receiver operating characteristic (ROC) curve analysis was implemented by using the above model 
+ <xref rid="B29" ref-type="bibr">29</xref>. Besides, 97 tongue cancer patient samples with reliable prognostic information from the GSE41613 dataset were used as a validation cohort to confirm the predictive capability of this prognostic model.
+</p>

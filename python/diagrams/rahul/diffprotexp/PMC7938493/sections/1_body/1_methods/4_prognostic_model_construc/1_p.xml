@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par46">Eight independent prognosis-associated RBPs were identified by univariate and multivariate Cox regression. Afterward, the risk score model was constructed based on the expression levels and coefficients of the eight hub RBPs. The risk score of each BLCA patient was calculated using the following formula: 
+ <italic>Risk score</italic> = 
+ <italic>β</italic>1*
+ <italic>Exp</italic>1 + 
+ <italic>β</italic>2*
+ <italic>Exp</italic>2 + 
+ <italic>β</italic>i*
+ <italic>Exp</italic>i, where β represents the coefficient value of the independent prognosis-associated RBP, 
+ <italic>Exp</italic> represents the expression level of the independent prognosis-associated RBP, and 
+ <italic>i</italic> represents i
+ <sup>th</sup> hub RBP.
+</p>

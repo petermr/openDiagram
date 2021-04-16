@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Slide scanning was conducted using a PowerScanner (Tecan) with identical instrument laser power and adjusted photomultiplier tube (PMT) settings. Spot segmentation was performed with the GenePix Pro 6 software (Molecular Devices, San José, CA, USA). Acquired raw data were analyzed using the linear models for microarray data (LIMMA) package [
+ <xref rid="pone.0248103.ref045" ref-type="bibr">45</xref>] of R-Bioconductor [
+ <xref rid="pone.0248103.ref046" ref-type="bibr">46</xref>] after uploading the median signal intensities. For normalization, a specialized invariant Lowess method was applied [
+ <xref rid="pone.0248103.ref047" ref-type="bibr">47</xref>]. For the sample analysis, a one-factorial linear model was fitted with LIMMA resulting in a two-sided t-test or F-test, based on moderated statistics. All presented 
+ <italic>p</italic> values were adjusted for multiple testing by controlling the false discovery rate according to Benjamini and Hochberg [
+ <xref rid="pone.0248103.ref048" ref-type="bibr">48</xref>]. Differences in protein abundance between samples were presented as log
+ <sub>2</sub>-fold changes (log
+ <sub>2</sub>FC). Proteins were defined as differentially expressed, if |log
+ <sub>2</sub>FC| were ≥ 0.5 or the adjusted 
+ <italic>p</italic> values were ≤ 0.05. Proteins were defined as significantly differential for |log
+ <sub>2</sub>FC| ≥ 0.5 and a simultaneous adjusted 
+ <italic>p</italic> value ≤ 0.05. All differential proteins that met one or both criteria were graphically displayed in an area-proportional Venn diagram using the BioVenn application [
+ <xref rid="pone.0248103.ref049" ref-type="bibr">49</xref>] and were subjected to STRING (search tool for the retrieval of interacting genes/proteins) analysis for the visualization of protein networks [
+ <xref rid="pone.0248103.ref050" ref-type="bibr">50</xref>]. Protein clusters were identified for biological processes and molecular functions based on the gene ontology (GO) database [
+ <xref rid="pone.0248103.ref051" ref-type="bibr">51</xref>, 
+ <xref rid="pone.0248103.ref052" ref-type="bibr">52</xref>]. The database for annotation, visualization, and integrated discovery (DAVID) [
+ <xref rid="pone.0248103.ref053" ref-type="bibr">53</xref>–
+ <xref rid="pone.0248103.ref055" ref-type="bibr">55</xref>] was used for a more targeted pathway analysis (GO and Kyoto encyclopedia of genes and genomes (KEGG) pathway database [
+ <xref rid="pone.0248103.ref056" ref-type="bibr">56</xref>]) that distinguished between proteins regulated by either metformin or insulin treatment. Pathways with protein counts ≥ 10% of the total number of analyzed proteins that simultaneously displayed 
+ <italic>p</italic> values ≤ 0.001 (from DAVID analysis) were presented.
+</p>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Next, we determine whether there is any significant difference in the network structures of the “target pathways” between the two groups of patients (“progression” vs “complete remission”). We perform differential network analysis [
+ <xref ref-type="bibr" rid="CR5">5</xref>, 
+ <xref ref-type="bibr" rid="CR6">6</xref>] of the network of proteins in these representative “target pathways” between the two groups of patients (“progression” vs “complete remission”) using the test statistic given in Equation 
+ <xref rid="Equ1" ref-type="">1</xref>, with Pearson’s correlation coefficients as connectivity scores and absolute distance measure for each of the three cancer types. The p-values of the analysis are reported in Table 
+ <xref rid="Tab1" ref-type="table">1</xref>. Based on these results, we have the following findings: the RAS signaling pathway is highly significant (
+ <italic>p</italic>-value = 0.026) and MAPK signaling pathway is marginally significant (
+ <italic>p</italic>-value = 0.082) in HNSC; for LUAD, PI3K signaling pathway is highly significant (
+ <italic>p</italic>-value = 0.013). 
+</p>

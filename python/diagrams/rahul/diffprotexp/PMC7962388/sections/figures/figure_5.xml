@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig5">
+ <label>Fig. 5</label>
+ <caption>
+  <p>Transcript expression dynamics in clusters of selected genes. Clusters of transcripts showing similar expression, derived from: 
+   <bold>a</bold> the total (all) DETs raw counts matrix; 
+   <bold>b</bold> the common DETs raw counts matrix (common DETS are sense transcripts differentially expressed at all stages); 
+   <bold>c</bold> the total (all) DEATs raw counts matrix; 
+   <bold>d</bold> the common DEATs raw counts matrix (common DEATs are antisense transcripts differentially expressed at all stages). Vertical axis: mean counts (scaled) of the triplicate libraries. Horizontal axis: developmental stages: P: premeiosis; M: meiosis; Po: postmeiosis; A: anthesis
+  </p>
+ </caption>
+ <graphic xlink:href="12864_2021_7450_Fig5_HTML" id="MO5" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

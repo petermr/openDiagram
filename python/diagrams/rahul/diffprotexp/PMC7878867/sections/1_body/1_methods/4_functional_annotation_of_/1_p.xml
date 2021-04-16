@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">Gene Ontology (GO) annotation of 
+ <italic>T. turgidum</italic> DEGs was performed regarding their biological processes, cellular components and molecular functions
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>,
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>. KEGG pathway
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>–
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup> enrichment analysis was conducted to determine the functional pathways that DEGs were associated with. Integrated omics analysis combining sRNA-seq, transcriptome-seq and degradome-seq datasets was performed as previously described to identify significant miRNA-mRNA pairs with antagonistic regulatory patterns
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>,
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>. Briefly, all miRNA-mRNA pairs were first validated as evidenced by three types of sequencing datasets (i.e. miRNA candidates can be validated via sRNA sequencing, mRNA candidates can be validated via transcriptome sequencing, and miRNA-mRNA pairing can be validated by degradome sequencing). Secondly, from all validated miRNA-mRNA pairs, the ones where both miRNA and mRNA had shown significant differential expression were identified (
+ <italic>P</italic> &lt; 0.05, subject to the progeny stress treatment or parent stress treatment factor). Thirdly, from the significantly expressed miRNA-mRNA pairs, those where miRNA and mRNA had shown antagonistic expression patterns were identified (i.e., significantly reduced miRNA expression corresponding to significantly increased mRNA expression, or significantly increased miRNA expression corresponding to significantly decreased mRNA expression). GO and KEGG pathway enrichment analysis were performed for these identified miRNA-mRNA modules.
+</p>

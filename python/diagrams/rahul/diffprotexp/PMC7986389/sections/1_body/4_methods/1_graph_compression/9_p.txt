@@ -1,0 +1,3 @@
+0: Furthermore, we use the strongly connected components (sccs) [ 17,  19] to reduce the arcs.
+1: Since an arc between two sccs is not in any cycle, the deletion of these arcs will not change any MFVSs.
+2: We use  \documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$compress\_scc(S)$$\end{document}compress_scc(S) to denote the operation that removes all arcs between two different sccs in  S. The whole graph compressing procedure is as follows:

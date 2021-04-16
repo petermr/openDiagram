@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We generated unstranded RNA-seq libraries using the Illumina TruSeq Total RNA kit according to the manufacturer’s instructions using the total mRNA collected from all 12 individuals (Illumina, San Diego, CA, USA). We sequenced RNA-seq libraries at the University of Chicago Genomics Core facility using the single-end 50 bp protocol on one lane of the Illumina HiSeq 4000 machine. RNA quality and concentration at the time of library prep and number of sequenced reads per library are available in 
+ <xref ref-type="supplementary-material" rid="supp5">Supplementary file 5</xref>. We mapped the human libraries to GRhg38 (
+ <xref rid="bib71" ref-type="bibr">Schneider et al., 2017</xref>) and chimpanzee libraries to panTro6 (
+ <xref rid="bib16" ref-type="bibr">Chimpanzee Sequencing and Analysis Consortium, 2005</xref>) and quantified reads mapping to orthologous exons.
+</p>

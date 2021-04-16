@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>However, there are problems in current methods. For proteins identified with a single PSM/peptide, the estimation of parameters in mixed effect models is less accurate, and in addition, it requires users to understand the correct random effects and to use appropriate statistical tests (
+ <xref rid="B11" ref-type="bibr">11</xref>). In Kammers 
+ <italic>et al.</italic>'s study, proteins quantified with a single peptide were excluded from the Limma analysis (
+ <xref rid="B10" ref-type="bibr">10</xref>), and D'Angelo 
+ <italic>et al.</italic> showed that omitting proteins quantified by a single peptide reduced false discovery findings (
+ <xref rid="B11" ref-type="bibr">11</xref>). In a typical shotgun proteomics experiment, 10–20% of proteins are identified with only one peptide or PSM. Most of these are low abundant proteins that are potentially central in regulation of biological processes or contribute as biomarker candidates and are therefore important to keep in the analysis. Further, 
+ <italic>t</italic> test, ANOVA and Limma do not consider the difference in quantitative variation for proteins identified by different numbers of peptides/PSMs. It has previously been shown by us and others that the accuracy of protein abundance estimates varies by the number of peptides quantified (
+ <xref rid="B12" ref-type="bibr">12</xref>
+ <xref rid="B13" ref-type="bibr"/>–
+ <xref rid="B14" ref-type="bibr">14</xref>). In microarray and RNA-seq data analysis, probe intensity and read counts are used to estimate the mean-variance relationship instead of using a common prior variance for all genes, resulting in improved performance over Limma (
+ <xref rid="B15" ref-type="bibr">15</xref>, 
+ <xref rid="B16" ref-type="bibr">16</xref>). Inspired by this approach, we have developed DEqMS (Differential Expression analysis of quantitative Mass Spectrometry data), to get a more accurate data-dependent estimation of protein variance based on the number of peptides or PSMs used for quantification.
+</p>

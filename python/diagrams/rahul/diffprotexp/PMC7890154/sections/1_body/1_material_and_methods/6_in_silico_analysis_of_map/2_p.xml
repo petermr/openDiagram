@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="par0070">The sequenced genes were used for the identification of closely related homologs using BLASTn and BLASTp tool of NCBI [
+ <xref rid="bib0115" ref-type="bibr">23</xref>]. ORF finder was used for the prediction of open reading frame of the cloned genes (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih" id="intr0020" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ncbi.nlm.nih</ext-link>). The amino acid sequences of the genes were predicted using Expasy tool (
+ <ext-link ext-link-type="uri" xlink:href="http://www.expasy.org/" id="intr0025" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.expasy.org/</ext-link>). The functional conserved domain was predicted using the CD search tool of NCBI (
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/Structure/cdd" id="intr0030" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ncbi.nlm.nih.gov/Structure/cdd</ext-link>). NetPhosK was used for analyzing the kinase-specific phosphorylation sites (
+ <ext-link ext-link-type="uri" xlink:href="http://www.cbs.dtu.dk/services/NetPhosK/" id="intr0035" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.cbs.dtu.dk/services/NetPhosK/</ext-link>). The localization of the MAPK proteins was predicted by identifying the signal peptide using Plant-PLOC (
+ <ext-link ext-link-type="uri" xlink:href="http://www.csbio.sjtu.edu.cn/bioinf/plant/" id="intr0040" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.csbio.sjtu.edu.cn/bioinf/plant/</ext-link>). MAPKs reported from different plant and non-plant sources available on NCBI database were retrieved and further used for the clustalW alignment followed by phylogeny analysis using the NCBI tool.
+</p>

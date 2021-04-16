@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par45">We performed GO and KEGG enrichment analysis on 308 mRNAs in the ceRNA network and 31 mRNAs in the module network with the R package “ClusterProfiler”. GO functional enrichment analysis suggested that mRNAs in the ceRNA network were significantly enriched in “proximal promoter sequence-specific DNA binding”, “transcription coregulator activity”, and “RNA polymerase II proximal promoter sequence-specific DNA binding” (Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref>a). KEGG pathway analysis showed that ceRNA-related mRNAs were enriched in “microRNAs in cancer”, “cell cycle”, and “PI3K-Akt signaling pathway” (Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref>b). Enrichment analysis of mRNAs in the module network showed that the enriched GO terms included “microtubule binding”, “cyclin-dependent protein serine/threonine kinase regulator activity”, and “tubulin binding”, whereas the most enriched KEGG pathways were “cell cycle”, “cellular senescence”, and “p53 signaling pathway” (Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>b and Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref>c). 
+</p>

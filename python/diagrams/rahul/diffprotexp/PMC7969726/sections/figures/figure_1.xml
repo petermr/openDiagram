@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F1" position="float">
+ <label>FIGURE 1</label>
+ <caption>
+  <p>CPSF1 expression is increased in HCC tissues. 
+   <bold>(A)</bold> Heatmap comparison of the mRNA level of genes involved in the CPA complex in TCGA LIHC (liver hepatocellular carcinoma) and normal liver samples. 
+   <bold>(B)</bold> Boxplots illustrating the correlation between genome amplification and mRNA level of CPSF1. Boxplots comparing the mRNA expression of CPSF1 in tumor (T) and non-tumor (N) tissue samples in the 
+   <bold>(C)</bold> TCGA LIHC dataset, 
+   <bold>(D)</bold> ROESSLER LIVER, and 
+   <bold>(E)</bold> ROESSLER LIVER2 datasets (GSE14520). 
+   <bold>(F)</bold> CPSF1 mRNA levels were validated in 24 paired HCC samples using Sun Yat-sen University Cancer Center (SYSUCC) samples. 18S RNA was used to normalize the relative fold changes. Statistical data were assessed using Student 
+   <italic>t</italic>-test and presented as the mean ± SD. **
+   <italic>P</italic> &lt; 0.01.
+  </p>
+ </caption>
+ <graphic xlink:href="fcell-09-616835-g001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

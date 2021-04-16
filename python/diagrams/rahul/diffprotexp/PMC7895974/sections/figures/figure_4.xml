@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig4">
+ <label>Fig. 4</label>
+ <caption>
+  <title>Chromatin accessibility and differential footprints for HoxA cluster.</title>
+  <p>
+   <bold>a</bold> Gene expression from mRNA-seq for HoxA cluster (error bars = SEM, 
+   <italic>n</italic> = 3) in paraxial mesoderm regions. 
+   <bold>b</bold> Genome browser views of ATAC-seq profile across the 
+   <italic>HoxA</italic> cluster. ATAC and RNA profiles are shown in green for PSM, in blue for ES, in yellow for MS and in red for DS. Grey boxes indicate intergenic accessible regions and transcription factor footprints identified within those regions. Genome-wide differential footprinting for (
+   <bold>c</bold>) HoxA2, (
+   <bold>d</bold>) HoxA5, (
+   <bold>e</bold>) HoxA10 and (
+   <bold>f</bold>) HoxA11 between PSM and DS.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2021_21426_Fig4_HTML" id="d32e1222" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

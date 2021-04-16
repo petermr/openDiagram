@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Usually, these methods take as input two or multiple gene expression datasets that the user wishes to compare, and give as output either a network of dysregulated connections (“global network” approach), a list of genes belonging to a dysregulated module (“module-based” approach) or a ranking of dysregulated nodes (“single-gene” approach). The dcanr package [
+ <xref rid="B103-ijms-21-09461" ref-type="bibr">103</xref>], implementing 11 different “global network” differential co-expression approaches, is particularly handy and well documented. An example of the kind of output obtained through this tool is shown in 
+ <xref ref-type="fig" rid="ijms-21-09461-f004">Figure 4</xref>, where the genes most significantly increasing their co-expression between normal breast and breast tumours in the TCGA (The Cancer Genome Atlas) cohort, identified via the z-score algorithm [
+ <xref rid="B61-ijms-21-09461" ref-type="bibr">61</xref>], are represented in a network with Cytoscape [
+ <xref rid="B101-ijms-21-09461" ref-type="bibr">101</xref>] (
+ <xref ref-type="fig" rid="ijms-21-09461-f004">Figure 4</xref>A). Statistics on a network’s properties indicate overall differences in connectivity between the two conditions, showing that the differential network follows a power law, with a few genes having many connections and many genes having a few connections (
+ <xref ref-type="fig" rid="ijms-21-09461-f004">Figure 4</xref>B). This network can be further dissected to gain module- and gene-level information through gene clustering and node-level statistics obtained, for example, with the igraph R package [
+ <xref rid="B104-ijms-21-09461" ref-type="bibr">104</xref>]. Modules can then be studied through functional enrichment with tools such as clusterProfiler [
+ <xref rid="B105-ijms-21-09461" ref-type="bibr">105</xref>] (
+ <xref ref-type="fig" rid="ijms-21-09461-f004">Figure 4</xref>C). In this case, four modules with at least 20 nodes are detected, and the two largest modules show enrichment for immune-related and extracellular matrix/angiogenesis Gene Ontology categories, respectively. Alternatively, modules can be found via methods explicitly designed for differential modules’ detection, such as DiffCoex, which builds upon the widely used gene co-expression reconstruction method WGCNA (Weighted Gene Co-expression Network Analysis) [
+ <xref rid="B106-ijms-21-09461" ref-type="bibr">106</xref>]. DiffCoex, also implemented in the dcanr package, takes as input two expression matrices (e.g., normal and tumour) and identifies differentially co-expressed modules via the clustering of genes based on correlation differences across conditions. Finally, differential edges displaying the strongest change in correlation can be selected from the whole differential co-expression network in a “gene-specific” perspective (
+ <xref ref-type="fig" rid="ijms-21-09461-f004">Figure 4</xref>D). In this example, LZTS1, having 54 edges, is the top differentially connected gene, followed by PODNL1 (
+ <xref ref-type="fig" rid="ijms-21-09461-f004">Figure 4</xref>A), and it shows a strong change in relationship with its network neighbor LAMA4, switching from negative to positive correlation in normal tissue and breast tumour, respectively (
+ <xref ref-type="fig" rid="ijms-21-09461-f004">Figure 4</xref>D).
+</p>

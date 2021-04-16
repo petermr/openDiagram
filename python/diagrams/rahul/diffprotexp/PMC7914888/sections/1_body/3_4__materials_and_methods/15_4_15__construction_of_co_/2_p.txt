@@ -1,0 +1,2 @@
+0: As the RC-miRs are non-directed networks, we generated an adjacency matrix (A), indicating which nodes were connected and composed only of ones and zeros generated following Equation (2).
+1: (2)aii=0 for all ii aij=1 if |ij| > aij=0 in other case

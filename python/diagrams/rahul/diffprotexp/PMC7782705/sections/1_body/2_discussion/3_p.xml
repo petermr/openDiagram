@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">In order to minimize the variability in RNAseq experiments
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>, we here focused on DEGs (genes with FC &gt; 1.3 and FDR &lt; 0.01 in AD versus control) detected independently in at least two datasets containing samples of similar brain regions (TLI or FLI). These stringent criteria limited the number of DEGs used in subsequent analyses, but still allowed the uncovering of several genes previously associated with AD pathologies, such as ABCA1, ABCA2, CALB1, C1R, C1S, GAD1/2, PVALB, REST, SLC32A1, SST, VGF, and VIP
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>–
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup> The reduced number of DEGs in FLI and TLI likely explains our failure to detect functional annotations associated with synaptic transmission and immune response in GSEA, as previously reported
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup>. However, this study analyzed only the ROSMAP dataset and considered genes with FDR &lt; 0.05 as significant, regardless of the fold change, identifying 1722 DEGs in AD versus control brains. Besides the questionable meaning of DEGs with very small fold changes, the use of such a large set of genes for GSEA can artificially increase the number of significantly enriched functional annotations and is not advised
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>.
+</p>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In addition, we performed PPI network analysis of the common genes and ranked the connectivity degree between the genes in the network (
+ <xref ref-type="fig" rid="f0006">Figure 6A</xref>). We screened the top 100 genes with the greatest connectivity (
+ <xref ref-type="fig" rid="f0006">Figure 6B</xref>). By calculating the AUC values of these genes in GSE13904 (children) and GSE154918 (adults), we identified genes with AUC values greater than 0.9 in both sets of data, which we defined as key genes (
+ <xref ref-type="fig" rid="f0006">Figure 6C</xref>). Among them, MAPK14, FGR, RHOG were up-regulated in sepsis, while LAT, PRKACB, UBE2Q2, ITK, IL2RB, and CD247 were down-regulated (
+ <xref ref-type="fig" rid="f0006">Figure 6D</xref>). Importantly, the patterns of differential expression of these key genes were consistent across GSE13904, GSE154918, GSE25504, and GSE9960. Correlation analysis found that up-regulated genes had stronger negative correlation with immune cells, while down-regulated genes had stronger positive correlation with immune cells, especially T cells (
+ <xref ref-type="fig" rid="f0006">Figure 6E</xref>).
+</p>

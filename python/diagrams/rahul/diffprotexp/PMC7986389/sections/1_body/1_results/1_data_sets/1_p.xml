@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">In this study, we used the directed human protein interaction network [
+ <xref ref-type="bibr" rid="CR20">20</xref>] for the analyses; it contains 6338 genes (vertices) and 34814 directed interactions (arcs). To evaluate the relative prediction accuracies for cancer genes between our methods and existing methods, we collected cancer-related gene sets from five public databases: ONGene [
+ <xref ref-type="bibr" rid="CR21">21</xref>], TSGene [
+ <xref ref-type="bibr" rid="CR22">22</xref>], CGC [
+ <xref ref-type="bibr" rid="CR23">23</xref>], NCG [
+ <xref ref-type="bibr" rid="CR24">24</xref>] and MSigDB C6 [
+ <xref ref-type="bibr" rid="CR25">25</xref>]. Since not all genes from the data sets are contained in the directed human protein interaction network, we filtered the common genes in both a certain data set and the network. The sizes of these data sets are shown in Table 
+ <xref rid="Tab1" ref-type="table">1</xref>.
+</p>

@@ -1,0 +1,5 @@
+0: The 19,972 immune-related genes were clustered on the basis of their expression profiles, and a consistency matrix was constructed to identify corresponding immune subtypes and gene modules.
+1: The partition around medoids algorithm using the 1-Pearson correlation distance metric was applied, and 500 bootstraps were performed each involving 80% patients in the discovery cohort.
+2: Cluster sets varied from 2 to 10, and the optimal partition was defined by evaluating the consensus matrix and the consensus cumulative distribution function.
+3: The immune subtypes were then validated in an independent TCGA cohort with the same settings.
+4: The consistency of immune subtypes between the discovery and validation cohorts were quantified by calculating intra-group proportion and Pearson correlation in the centroids of gene module scores.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To further define the molecular signature of the clusters, SAMseq and binomial differential expression analyses were performed (FDR &lt; 0.05). Significant DEGs were highlighted in the volcano plots (
+ <xref ref-type="fig" rid="ijms-22-01399-f007">Figure 7</xref>a). Moreover, The DEGs of each cluster underwent PPI network construction. The network of the downregulated genes in Cluster 2 (
+ <xref ref-type="fig" rid="ijms-22-01399-f007">Figure 7</xref>b) highlighted thymidylate synthetase (
+ <italic>TYMS</italic>) as a hub gene in addition to a set of highly connected genes involved in DNA synthesis and replication. 
+ <italic>TYMS</italic> has been reported to be associated with the well-differentiated subtype of liposarcoma [
+ <xref rid="B100-ijms-22-01399" ref-type="bibr">100</xref>]. 
+ <italic>TYMS</italic> is upregulated in Cluster 3 (
+ <xref ref-type="fig" rid="ijms-22-01399-f007">Figure 7</xref>c). To identify potential genes to predict the cluster identity of a target cell, and whether it belongs to Cluster 2 or 3, decision tree analysis was implemented. The generated RPART decision tree (
+ <xref ref-type="fig" rid="ijms-22-01399-f007">Figure 7</xref>d) included two decision nodes: Aurora Kinase A (
+ <italic>AURKA</italic>) and Cell Division Cycle 27 (
+ <italic>CDC27</italic>). 
+ <italic>AURKA</italic> is involved in self-renewal of breast cancer stem cells [
+ <xref rid="B101-ijms-22-01399" ref-type="bibr">101</xref>]. 
+ <italic>CDC27</italic> is known to induce metastasis, invasion and sphere-formation in colorectal and gastric tumors [
+ <xref rid="B102-ijms-22-01399" ref-type="bibr">102</xref>,
+ <xref rid="B103-ijms-22-01399" ref-type="bibr">103</xref>]. Cluster 2 cells, which were ordered in the foreground pseudo-temporal ordering, highly express genes involved in regulating proliferation, EMT, stemness and chemoresistance acquisition in several cancers. Stemness is known to be frequently associated with quiescence [
+ <xref rid="B104-ijms-22-01399" ref-type="bibr">104</xref>]. Several studies reported that the decision for entering quiescence is facilitated during the maternal G2 phase [
+ <xref rid="B105-ijms-22-01399" ref-type="bibr">105</xref>,
+ <xref rid="B106-ijms-22-01399" ref-type="bibr">106</xref>]. G2 arrest in stem cells is associated with robust regeneration capacity and it has been reported to be reversible and released when regeneration must be achieved [
+ <xref rid="B107-ijms-22-01399" ref-type="bibr">107</xref>]. The networking analysis outcome of the DEGs in Cluster 2 (
+ <xref ref-type="app" rid="app1-ijms-22-01399">Supplementary Table S1</xref>) nominated a panel of 18 hub genes, including 
+ <italic>PLK1</italic>, 
+ <italic>CDC20</italic>, 
+ <italic>KIF2C</italic>, 
+ <italic>AURKA, BUB1</italic>, 
+ <italic>AURKB</italic> and 
+ <italic>PTTG1</italic> as potential biomarkers for Cluster 2 cells. The overall impact of our findings reported here is that cells in Cluster 2, which are mainly in the G2 phase, seem to exhibit aggressive and stem-like properties and further computational and experimental investigations should validate these biomarkers candidates in myxoid liposarcoma. The approximate time for running the DIscBIO–MLS–Binder notebook is 15 min. The same time is needed to run the DIscBIO package for the analysis described above using a laptop (Intel Core i5-8300H).
+</p>

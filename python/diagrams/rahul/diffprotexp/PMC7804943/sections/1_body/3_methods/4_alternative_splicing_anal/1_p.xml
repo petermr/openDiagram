@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">To comprehensively detect and quantify AS and IR events, we used the VAST-TOOLS multi-module analysis pipeline (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/vastgroup/vast-tools" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/vastgroup/vast-tools</ext-link>), as previously described
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup>, as well as Whippet (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/timbitz/Whippet.jl" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/timbitz/Whippet.jl</ext-link>), a lightweight algorithm for event detection and quantification
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>.
+</p>

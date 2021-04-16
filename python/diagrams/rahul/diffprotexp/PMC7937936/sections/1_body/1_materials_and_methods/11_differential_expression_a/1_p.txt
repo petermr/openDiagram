@@ -1,0 +1,5 @@
+0: The Wilcox rank-sum test was used to compare the differences in the expression of target genes between tumor and normal tissues.
+1: The R package beeswarm was used to generate the corresponding expression figures.
+2: Besides, we then performed paired differentiation analyses of target gene expression in tumor and normal samples from the same patient using the Wilcoxon rank-sum test.
+3: Statistical thresholds were set at  P<0.05.
+4: The figures were generated using the ggpaired command of the R package ggpubr.

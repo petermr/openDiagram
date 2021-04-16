@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Gao</surname>
+   <given-names>Li-Na</given-names>
+  </name>
+  <address>
+   <email>glnlzu@126.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Li</surname>
+   <given-names>Qiang</given-names>
+  </name>
+  <address>
+   <email>liqldyy@126.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Xie</surname>
+   <given-names>Jian-Qin</given-names>
+  </name>
+  <address>
+   <email>xiejq@lzu.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Yang</surname>
+   <given-names>Wan-Xia</given-names>
+  </name>
+  <address>
+   <email>yangwx17@lzu.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>You</surname>
+   <given-names>Chong-Ge</given-names>
+  </name>
+  <address>
+   <email>youchg@lzu.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411294.b</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1798 9345</institution-id>
+   <institution>Laboratory Medicine Center, </institution>
+   <institution>Lanzhou University Second Hospital, </institution>
+  </institution-wrap>Lanzhou, 730030 China 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.412643.6</institution-id>
+   <institution>Department of Gastroenterology, </institution>
+   <institution>The First Hospital of Lanzhou University, </institution>
+  </institution-wrap>Lanzhou, 730030 China 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411294.b</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1798 9345</institution-id>
+   <institution>Department of Anesthesiology, </institution>
+   <institution>Lanzhou University Second Hospital, </institution>
+  </institution-wrap>Lanzhou, 730030 China 
+ </aff>
+</contrib-group>

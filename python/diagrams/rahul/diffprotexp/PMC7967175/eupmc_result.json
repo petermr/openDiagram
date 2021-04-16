@@ -1,0 +1,530 @@
+{
+  "id": [
+    "PMC7967175"
+  ],
+  "source": [
+    "PMC"
+  ],
+  "pmcid": [
+    "PMC7967175"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7967175"
+      ]
+    }
+  ],
+  "title": [
+    "ANO1 Expression Orchestrates p27Kip1/MCL1-Mediated Signaling in Head and Neck Squamous Cell Carcinoma"
+  ],
+  "authorString": [
+    "Filippou A, Pehkonen H, Karhemo P, Väänänen J, Nieminen A, Klefström J, Grénman R, Mäkitie A, Joensuu H, Monni O, Wong D."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Filippou A"
+          ],
+          "firstName": [
+            "Artemis"
+          ],
+          "lastName": [
+            "Filippou"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 Applied Tumor Genomics Research Program, Faculty of Medicine, University of Helsinki, 00014 Helsinki, Finland;   (A.F.);   (H.P.);   (P.-R.K.);   (J.V.)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Pehkonen H"
+          ],
+          "firstName": [
+            "Henna"
+          ],
+          "lastName": [
+            "Pehkonen"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 Applied Tumor Genomics Research Program, Faculty of Medicine, University of Helsinki, 00014 Helsinki, Finland;   (A.F.);   (H.P.);   (P.-R.K.);   (J.V.)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Karhemo P"
+          ],
+          "firstName": [
+            "Piia-Riitta"
+          ],
+          "lastName": [
+            "Karhemo"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 Applied Tumor Genomics Research Program, Faculty of Medicine, University of Helsinki, 00014 Helsinki, Finland;   (A.F.);   (H.P.);   (P.-R.K.);   (J.V.)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Väänänen J"
+          ],
+          "firstName": [
+            "Juho"
+          ],
+          "lastName": [
+            "Väänänen"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "1 Applied Tumor Genomics Research Program, Faculty of Medicine, University of Helsinki, 00014 Helsinki, Finland;   (A.F.);   (H.P.);   (P.-R.K.);   (J.V.)"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Nieminen A"
+          ],
+          "firstName": [
+            "Anni I."
+          ],
+          "lastName": [
+            "Nieminen"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "2 Translational Cancer Medicine Research Program and Medicum, Faculty of Medicine, University of Helsinki, 00014 Helsinki, Finland;"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Klefström J"
+          ],
+          "firstName": [
+            "Juha"
+          ],
+          "lastName": [
+            "Klefström"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "3 Finnish Cancer Institute, FICAN South Helsinki University Hospital, Faculty of Medicine, University of Helsinki, 00014 Helsinki, Finland;"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Grénman R"
+          ],
+          "firstName": [
+            "Reidar"
+          ],
+          "lastName": [
+            "Grénman"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "4 Department of Otorhinolaryngology-Head and Neck Surgery, University of Turku and Turku University Hospital, 20520 Turku, Finland;"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mäkitie A"
+          ],
+          "firstName": [
+            "Antti A."
+          ],
+          "lastName": [
+            "Mäkitie"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "6 Research Program in Systems Oncology, Faculty of Medicine, University of Helsinki, 00014 Helsinki, Finland"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Joensuu H"
+          ],
+          "firstName": [
+            "Heikki"
+          ],
+          "lastName": [
+            "Joensuu"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "7 Department of Oncology, University of Helsinki and Helsinki University Hospital, 00290 Helsinki, Finland;"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Monni O"
+          ],
+          "firstName": [
+            "Outi"
+          ],
+          "lastName": [
+            "Monni"
+          ],
+          "initials": [
+            "O"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "8 Department of Oncology, Clinicum, Faculty of Medicine, University of Helsinki, 00014 Helsinki, Finland"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wong D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Wong"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "13"
+      ],
+      "journalIssueId": [
+        "3133647"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cancers"
+          ],
+          "ISOAbbreviation": [
+            "Cancers (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Cancers (Basel)"
+          ],
+          "NLMid": [
+            "101526829"
+          ],
+          "ISSN": [
+            "2072-6694"
+          ],
+          "ESSN": [
+            "2072-6694"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "abstractText": [
+    "<h4>Simple Summary</h4> Our aim was to elucidate the molecular mechanisms of how ANO1 contributes to oncogenic processes in squamous cell carcinoma of the head and neck (HNSCC). We explored transcriptional programs influenced by ANO1 knockdown in patient-derived UT-SCC cell lines with 11q13 amplification and ANO1 overexpression. ANO1 depletion led to downregulation of broad pro-survival BCL2 family protein members, including MCL1, and simultaneously induced upregulation of the cell cycle inhibitor p27Kip1 and its redistribution from the cytoplasm into the nucleus in the studied HNSCC cells. Gene set enrichment analysis highlighted pathways associated with perturbed cell cycle and apoptosis in the ANO1-depleted samples. Silencing of ANO1 and application of an ANO1-targeting small-molecule inhibitor led to ANO1 degradation and reduction of cell viability. These findings suggest that ANO1 has drug target potential that deserves further evaluation in preclinical in vivo models. <h4>Abstract</h4> Head and neck squamous cell carcinoma (HNSCC) is a heterogeneous group of tumors that derive from the mucosal epithelium of the upper aerodigestive tract and present high mortality rate. Lack of efficient targeted-therapies and biomarkers towards patients’ stratification are caveats in the disease treatment. Anoctamin 1 (ANO1) gene is amplified in 30% of HNSCC cases. Evidence suggests involvement of ANO1 in proliferation, migration, and evasion of apoptosis; however, the exact mechanisms remain elusive. Aim of this study was to unravel the ANO1-dependent transcriptional programs and expand the existing knowledge of ANO1 contribution to oncogenesis and drug response in HNSCC. We cultured two HNSCC cell lines established from primary tumors harboring amplification and high expression of ANO1 in three-dimensional collagen. Differential expression analysis of ANO1-depleted HNSCC cells demonstrated downregulation of MCL1 and simultaneous upregulation of p27Kip1 expression. Suppressing ANO1 expression led to redistribution of p27Kip1 from the cytoplasm to the nucleus and associated with a cell cycle arrested phenotype. ANO1 silencing or pharmacological inhibition resulted in reduction of cell viability and ANO1 protein levels, as well as suppression of pro-survival BCL2 family proteins. Collectively, these data provide insights of ANO1 involvement in HNSCC carcinogenesis and support the rationale that ANO1 is an actionable drug target."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Undetermined"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Cell cycle",
+        "p27kip1",
+        "Targeted Therapy",
+        "Head And Neck Cancer",
+        "Mcl1",
+        "Ano1",
+        "Intrinsic Apoptosis",
+        "Ani9-5f",
+        "Azd-5991"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7967175/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7967175/pdf/?tool=EBI"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7967175"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7967175?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "N"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-19"
+  ],
+  "firstIndexDate": [
+    "2021-03-19"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-19"
+  ],
+  "dateOfRevision": [
+    "2021-03-19"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-01"
+  ],
+  "firstPublicationDate": [
+    "2021-03-01"
+  ]
+}

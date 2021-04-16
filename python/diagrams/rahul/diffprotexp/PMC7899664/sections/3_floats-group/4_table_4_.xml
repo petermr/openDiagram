@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0004" orientation="portrait" position="float">
+ <label>Table 4.</label>
+ <caption>
+  <p>Experimental vs. predicted values from model.</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+   <col width="80pt"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Mouse No.</th>
+    <th align="center">PG (%
+     <italic toggle="yes">v/v</italic>)
+    </th>
+    <th align="center">EtOH (%
+     <italic toggle="yes">v/v</italic>)
+    </th>
+    <th align="center">4-MU (µM)</th>
+    <th align="center">Dorsal HA (ng)</th>
+    <th colspan="2" align="center">Protein (µg)</th>
+    <th align="center">Normalized value (ng/µg)</th>
+    <th align="center">Predicted value (ng/µg)</th>
+    <th align="center">Residual (ng/µg)</th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="left">1</td>
+    <td align="left">15</td>
+    <td align="char" char=".">15</td>
+    <td align="left">0.5</td>
+    <td colspan="2" align="char" char=".">37674.1</td>
+    <td align="char" char=".">115.342</td>
+    <td align="char" char=".">326.629</td>
+    <td align="char" char=".">273.652</td>
+    <td align="char" char=".">5.2978</td>
+   </tr>
+   <tr>
+    <td align="left">2</td>
+    <td align="left">45</td>
+    <td align="char" char=".">15</td>
+    <td align="left">0.5</td>
+    <td colspan="2" align="char" char=".">56566.0</td>
+    <td align="char" char=".">223.722</td>
+    <td align="char" char=".">382.84</td>
+    <td align="char" char=".">453.737</td>
+    <td align="char" char=".">−7.0897</td>
+   </tr>
+   <tr>
+    <td align="left">3</td>
+    <td align="left">15</td>
+    <td align="char" char=".">45</td>
+    <td align="left">0.5</td>
+    <td colspan="2" align="char" char=".">41951.1</td>
+    <td align="char" char=".">130.050</td>
+    <td align="char" char=".">322.576</td>
+    <td align="char" char=".">347.292</td>
+    <td align="char" char=".">−2.4715</td>
+   </tr>
+   <tr>
+    <td align="left">4</td>
+    <td align="left">45</td>
+    <td align="char" char=".">45</td>
+    <td align="left">0.5</td>
+    <td colspan="2" align="char" char=".">46465.7</td>
+    <td align="char" char=".">130.962</td>
+    <td align="char" char=".">354.802</td>
+    <td align="char" char=".">425.022</td>
+    <td align="char" char=".">−7.022</td>
+   </tr>
+   <tr>
+    <td align="left">5</td>
+    <td align="left">15</td>
+    <td align="char" char=".">15</td>
+    <td align="left">1.5</td>
+    <td colspan="2" align="char" char=".">52051.7</td>
+    <td align="char" char=".">150.900</td>
+    <td align="char" char=".">344.94</td>
+    <td align="char" char=".">334.079</td>
+    <td align="char" char=".">1.0861</td>
+   </tr>
+   <tr>
+    <td align="left">6</td>
+    <td align="left">45</td>
+    <td align="char" char=".">15</td>
+    <td align="left">1.5</td>
+    <td colspan="2" align="char" char=".">66659.6</td>
+    <td align="char" char=".">238.738</td>
+    <td align="char" char=".">329.216</td>
+    <td align="char" char=".">363.859</td>
+    <td align="char" char=".">−3.4643</td>
+   </tr>
+   <tr>
+    <td align="left">7</td>
+    <td align="left">15</td>
+    <td align="char" char=".">45</td>
+    <td align="left">1.5</td>
+    <td colspan="2" align="char" char=".">78266.9</td>
+    <td align="char" char=".">223.722</td>
+    <td align="char" char=".">349.839</td>
+    <td align="char" char=".">338.3</td>
+    <td align="char" char=".">1.1539</td>
+   </tr>
+   <tr>
+    <td align="left">8</td>
+    <td align="left">45</td>
+    <td align="char" char=".">45</td>
+    <td align="left">1.5</td>
+    <td colspan="2" align="char" char=".">81607.7</td>
+    <td align="char" char=".">532.033</td>
+    <td align="char" char=".">153.388</td>
+    <td align="char" char=".">265.724</td>
+    <td align="char" char=".">−11.2336</td>
+   </tr>
+   <tr>
+    <td align="left">9</td>
+    <td align="left">0</td>
+    <td align="char" char=".">30</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">22041.9</td>
+    <td align="char" char=".">110.689</td>
+    <td align="char" char=".">199.132</td>
+    <td align="char" char=".">254.143</td>
+    <td align="char" char=".">−5.501</td>
+   </tr>
+   <tr>
+    <td align="left">10</td>
+    <td align="left">60</td>
+    <td align="char" char=".">30</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">50907.4</td>
+    <td align="char" char=".">106.943</td>
+    <td align="char" char=".">476.021</td>
+    <td align="char" char=".">361.652</td>
+    <td align="char" char=".">11.4368</td>
+   </tr>
+   <tr>
+    <td align="left">11</td>
+    <td align="left">30</td>
+    <td align="char" char=".">0</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">59071.6</td>
+    <td align="char" char=".">168.031</td>
+    <td align="char" char=".">351.551</td>
+    <td align="char" char=".">360.38</td>
+    <td align="char" char=".">−0.8829</td>
+   </tr>
+   <tr>
+    <td align="left">12</td>
+    <td align="left">30</td>
+    <td align="char" char=".">60</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">65346.9</td>
+    <td align="char" char=".">161.721</td>
+    <td align="char" char=".">404.072</td>
+    <td align="char" char=".">335.885</td>
+    <td align="char" char=".">6.8187</td>
+   </tr>
+   <tr>
+    <td align="left">13</td>
+    <td align="left">30</td>
+    <td align="char" char=".">30</td>
+    <td align="left">0</td>
+    <td colspan="2" align="char" char=".">50718.0</td>
+    <td align="char" char=".">142.767</td>
+    <td align="char" char=".">535.248</td>
+    <td align="char" char=".">508.5</td>
+    <td align="char" char=".">2.6748</td>
+   </tr>
+   <tr>
+    <td align="left">14</td>
+    <td align="left">30</td>
+    <td align="char" char=".">30</td>
+    <td align="left">2</td>
+    <td colspan="2" align="char" char=".">45626.9</td>
+    <td align="char" char=".">103.172</td>
+    <td align="char" char=".">442.239</td>
+    <td align="char" char=".">409.629</td>
+    <td align="char" char=".">3.261</td>
+   </tr>
+   <tr>
+    <td align="left">15</td>
+    <td align="left">30</td>
+    <td align="char" char=".">30</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">77065.2</td>
+    <td align="char" char=".">262.719</td>
+    <td align="char" char=".">293.336</td>
+    <td align="char" char=".">285.737</td>
+    <td align="char" char=".">0.7599</td>
+   </tr>
+   <tr>
+    <td align="left">16</td>
+    <td align="left">30</td>
+    <td align="char" char=".">30</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">70611.3</td>
+    <td align="char" char=".">217.222</td>
+    <td align="char" char=".">325.065</td>
+    <td align="char" char=".">285.737</td>
+    <td align="char" char=".">3.9328</td>
+   </tr>
+   <tr>
+    <td align="left">17</td>
+    <td align="left">30</td>
+    <td align="char" char=".">30</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">51033.8</td>
+    <td align="char" char=".">171.691</td>
+    <td align="char" char=".">297.242</td>
+    <td align="char" char=".">285.737</td>
+    <td align="char" char=".">1.1505</td>
+   </tr>
+   <tr>
+    <td align="left">18</td>
+    <td align="left">30</td>
+    <td align="char" char=".">30</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">17444.0</td>
+    <td align="char" char=".">65.3399</td>
+    <td align="char" char=".">266.973</td>
+    <td align="char" char=".">285.737</td>
+    <td align="char" char=".">−1.8764</td>
+   </tr>
+   <tr>
+    <td align="left">19</td>
+    <td align="left">30</td>
+    <td align="char" char=".">30</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">18278.7</td>
+    <td align="char" char=".">59.8604</td>
+    <td align="char" char=".">305.355</td>
+    <td align="char" char=".">285.737</td>
+    <td align="char" char=".">1.9618</td>
+   </tr>
+   <tr>
+    <td align="left">20</td>
+    <td align="left">30</td>
+    <td align="char" char=".">30</td>
+    <td align="left">1</td>
+    <td colspan="2" align="char" char=".">51160.5</td>
+    <td align="char" char=".">179.002</td>
+    <td align="char" char=".">285.809</td>
+    <td align="char" char=".">285.737</td>
+    <td align="char" char=".">0.0072</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

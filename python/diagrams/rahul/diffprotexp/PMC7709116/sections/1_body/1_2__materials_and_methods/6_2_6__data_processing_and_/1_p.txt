@@ -1,0 +1,10 @@
+0: Maxquant was used to process raw data files [ 28].
+1: Default settings were used unless otherwise specified.
+2: Briefly, peptide spectrum match and protein false discovery rate (FDR) were set to a minimum of one unique peptide for identification and 1%, respectively.
+3: Fixed modifications were set to carbamidomethyl for cysteine, and variable modifications were set to methionine oxidation and N-terminal acetylation.
+4: Matches between runs were enabled with a default match time window of 0.7 min and alignment window of 20 min.
+5: The MS/MS spectra were matched against the mouse Uniprot FASTA database with canonical and isoform sequences.
+6: Search results and TMT reporter ion intensities were exported as text files.
+7: Statistical analysis was performed with Perseus 1.6.0.7 (Max Planck Institute of biochemistry, Martinsried, Germany) [ 29] and in-house R scripts ( https://www.r-project.org/).
+8: Proteins identified by site, reverse, and potential contaminants were filtered in Perseus prior to further analysis.
+9: Proteins with missing values in any of the four D1 or four D2 biological replicates were filtered out before differential expression analysis.

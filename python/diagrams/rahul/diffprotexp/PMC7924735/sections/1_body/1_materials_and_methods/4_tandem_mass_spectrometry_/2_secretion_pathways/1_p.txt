@@ -1,0 +1,3 @@
+0: Secretion pathways were determined for the proteins identified in our sequence-based IP-MW model with the tools SignalP v.5 [ 25] and SecretomeP (v.2.0) [ 26].
+1: SignalP was used to predict classical ESPs (signal-peptide protein secretion pathway), set for eukaryotic organisms and with a position limit every 70 truncation residues.
+2: SecretomeP was used to predict non-classical ESPs (ER/Golgi-independent protein secretion pathway), using the default values for mammals ( Fig 1).

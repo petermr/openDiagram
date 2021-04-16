@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F5" position="float">
+ <label>Figure 5</label>
+ <caption>
+  <p>The construction of logistic regression prediction model and random forest classification model. 
+   <bold>(A)</bold> The Logistic model diagnostic chart. The red dashed line in the figure indicates the COOK distance. 
+   <bold>(B)</bold> The ROC curve. The horizontal axis represents the specificity of the FPR (false positive rate), and the vertical axis represents the sensitivity of the TPR (true positive rate). 
+   <bold>(C)</bold> The construction of the random forest classification model. 
+   <bold>(D)</bold> The ROC curve for the random forest classification model.
+  </p>
+ </caption>
+ <graphic xlink:href="fped-09-576585-g0005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

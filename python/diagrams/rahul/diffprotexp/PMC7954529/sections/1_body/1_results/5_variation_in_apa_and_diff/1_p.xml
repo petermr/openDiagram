@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Given the well-characterized molecular connection between APA and the regulation of protein translation, we hypothesized that genes with inter-species differences in APA are also more likely to be differentially translated between the species (
+ <xref rid="bib20" ref-type="bibr">Di Giammartino et al., 2011</xref>; 
+ <xref rid="bib27" ref-type="bibr">Floor and Doudna, 2016</xref>; 
+ <xref rid="bib76" ref-type="bibr">Tian and Manley, 2017</xref>). To examine this, we obtained estimates of protein translation based on ribosome profiling data that were collected from human and chimpanzee LCLs by 
+ <xref rid="bib81" ref-type="bibr">Wang et al., 2018b</xref>. At a 5% FDR, Wang et al. identified 1993 differentially translated genes between humans and chimpanzees. Genes with significant inter-species differences in isoform diversity, but without significant differences in the usage at individual PAS, are enriched among the differentially translated gene set (1.21×, hypergeometric test, p=0.011; 
+ <xref ref-type="fig" rid="fig5">Figure 5A,B</xref>). The genes with differentially used PAS are 32× enriched within the differentially translated genes for genes involved in translation initiation (hypergeometric test, FDR 0.0091, 
+ <xref ref-type="supplementary-material" rid="supp1">Supplementary file 1</xref>, see 'Materials and methods').
+</p>

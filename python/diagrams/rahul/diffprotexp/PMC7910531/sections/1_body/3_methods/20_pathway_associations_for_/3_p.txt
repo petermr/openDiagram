@@ -1,0 +1,4 @@
+0: We also tested enrichment in Gene Ontology terms using GOseq 56, separately for genes with higher or lower expression in high-grade compared to low-grade cartilage.
+1: We accounted for gene length (pwf function options hg19' and geneSymbol').
+2: Significance was defined as a threshold of 5% FDR in each analysis.
+3: The results showed broad agreement with the results of the SPIA analysis (see Supplementary Note  5 and Supplementary Data  3).

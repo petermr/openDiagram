@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab5">
+ <label>Table 5</label>
+ <caption>
+  <p>Summary of co-expression of differential genes closely related to reproduction in different genotypes (MM vs ww) sheep at luteal phase</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>lncRNA_id</th>
+    <th>mRNA_id</th>
+    <th>mRNA_gene symbol</th>
+    <th>pathway_term</th>
+    <th>Pearson_correlation</th>
+    <th>
+     <bold>
+      <italic>P</italic>
+     </bold>_value
+    </th>
+    <th>regulation</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>XLOC_283279</td>
+    <td>101,123,635</td>
+    <td>MAP2K1</td>
+    <td>Thyroid hormone signaling pathway, GnRH signaling pathway, Progesterone-mediated oocyte maturation, Melanogenesis, Estrogen signaling pathway</td>
+    <td>0.977250667</td>
+    <td>4.61908E-08</td>
+    <td>up</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,108,785</td>
+    <td>PRKACB</td>
+    <td>i-</td>
+    <td>0.975336415</td>
+    <td>6.89597E-08</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>i-</td>
+    <td>i-</td>
+    <td>i-</td>
+    <td>0.992013105</td>
+    <td>2.52552E-10</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,106,864</td>
+    <td>PLCB4</td>
+    <td>i-</td>
+    <td>0.977111161</td>
+    <td>4.76134E-08</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,104,249</td>
+    <td>NCOA2</td>
+    <td>Thyroid hormone signaling pathway</td>
+    <td>0.99755373</td>
+    <td>6.87071E-13</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,121,082</td>
+    <td>LOC101121082</td>
+    <td>i-</td>
+    <td>0.955392571</td>
+    <td>1.29039E-06</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,115,047</td>
+    <td>MAP2K6</td>
+    <td>GnRH signaling pathway</td>
+    <td>0.992233715</td>
+    <td>2.19628E-10</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,111,988</td>
+    <td>LOC101111988</td>
+    <td>Progesterone-mediated oocyte maturation, Melanogenesis</td>
+    <td>0.961681175</td>
+    <td>6.10058E-07</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>443,077</td>
+    <td>NOS3</td>
+    <td>Estrogen signaling pathway</td>
+    <td>0.954200987</td>
+    <td>1.46923E-06</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>XLOC_187695</td>
+    <td>101,110,299</td>
+    <td>PPP2R2A</td>
+    <td>AMPK signaling pathway</td>
+    <td>0.997421407</td>
+    <td>8.93918E-13</td>
+    <td>down</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,103,267</td>
+    <td>CAMKK2</td>
+    <td>AMPK signaling pathway, Oxytocin signaling pathway</td>
+    <td>0.965609431</td>
+    <td>3.57594E-07</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>101,103,425</td>
+    <td>PRKAA1</td>
+    <td>i-</td>
+    <td>0.997533947</td>
+    <td>7.15282E-13</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>XLOC_023278</td>
+    <td>i-</td>
+    <td>i-</td>
+    <td>i-</td>
+    <td>0.956416823</td>
+    <td>1.15089E-06</td>
+    <td>i-</td>
+   </tr>
+   <tr>
+    <td>i-</td>
+    <td>443,453</td>
+    <td>CAMK2A</td>
+    <td>Oxytocin signaling pathway</td>
+    <td>0.966297838</td>
+    <td>3.23584E-07</td>
+    <td>i-</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Note: “i-” represents the identical information with previous one in the same column</p>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F2" orientation="portrait" position="float">
+ <label>Figure 2</label>
+ <caption>
+  <p>Scatter chart of differential expression genes between groups. 
+   <xref ref-type="fig" rid="F2">Figure 2A</xref> shows differential expression genes between the CE-R and CE-NR groups. 
+   <xref ref-type="fig" rid="F2">Figure 2B</xref> shows differential expression genes between the CE-R and CK groups. 
+   <xref ref-type="fig" rid="F2">Figure 2C</xref> shows differential expression genes between the CE-NR and CK groups. 
+   <italic>X</italic>-axis and 
+   <italic>Y</italic>-axis presents two samples log2 value of gene expression, and the expression was calculated using the 
+   <italic>RPKM</italic> method (reads per kilobase transcriptome per million mapped reads) as shown in section “Materials and methods”, red (up) and green (down) dots mean the gene has significant differences (FDR ≤ 0.001, two fold difference), and the blue dot means no significant differences.
+  </p>
+ </caption>
+ <alternatives>
+  <graphic xlink:href="parasite-28-14-fig2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="thumbnail" xlink:href="parasite-28-14-fig2_small" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

@@ -1,0 +1,392 @@
+{
+  "id": [
+    "33561150"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33561150"
+  ],
+  "pmcid": [
+    "PMC7872227"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7872227"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1371/journal.pone.0246818"
+  ],
+  "title": [
+    "Transcriptome analyses reveal the utilization of nitrogen sources and related metabolic mechanisms of Sporosarcina pasteurii."
+  ],
+  "authorString": [
+    "Pei D, Liu Z, Wu W, Hu B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Pei D"
+          ],
+          "firstName": [
+            "Di"
+          ],
+          "lastName": [
+            "Pei"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6690-844X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Liberal Arts and Sciences, National University of Defense Technology, Changsha, Hunan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Liu Z"
+          ],
+          "firstName": [
+            "Zhiming"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Liberal Arts and Sciences, National University of Defense Technology, Changsha, Hunan, China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Institute of Chemical Defense, Academy of Military Science, Beijing, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wu W"
+          ],
+          "firstName": [
+            "Wenjian"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Liberal Arts and Sciences, National University of Defense Technology, Changsha, Hunan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hu B"
+          ],
+          "firstName": [
+            "Biru"
+          ],
+          "lastName": [
+            "Hu"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Liberal Arts and Sciences, National University of Defense Technology, Changsha, Hunan, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-6690-844X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "3103698"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS One"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "e0246818"
+  ],
+  "abstractText": [
+    "In recent years, Sporosarcina pasteurii (S. pasteurii) has become one of the most popular bacteria in microbially induced calcium carbonate precipitation (MICP). Various applications have been developed based on the efficient urease that can induce the precipitation of calcium carbonate. However, the metabolic mechanism related to biomineralization of S. pasteurii has not been clearly elucidated. The process of bacterial culture and biomineralization consumes a large amount of urea or ammonium salts, which are usually used as agricultural fertilizers, not to mention probable environmental pollutions caused by the excessive use of these raw materials. Therefore, it is urgent to reveal the mechanism of nitrogen utilization and metabolism of S. pasteurii. In this paper, we compared the growth and gene expression of S. pasteurii under three different culture conditions through transcriptome analyses. GO and KEGG analyses revealed that both ammonium and urea were direct nitrogen sources of S. pasteurii, and the bacteria could not grow normally in the absence of ammonium or urea. To the best of our knowledge, this paper is the first one to reveal the nitrogen utilization mechanism of S. pasteurii through transcriptome methods. Furthermore, the presence of ammonium might promote the synthesis of intracellular ATP and enhance the motility of the bacteria. There should be an ATP synthesis mechanism associated with urea hydrolysis catalyzed by urease in S. pasteurii."
+  ],
+  "affiliation": [
+    "College of Liberal Arts and Sciences, National University of Defense Technology, Changsha, Hunan, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0246818"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7872227"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7872227?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-02-09"
+  ],
+  "firstIndexDate": [
+    "2021-02-10"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-22"
+  ],
+  "dateOfRevision": [
+    "2021-03-23"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-09"
+  ],
+  "firstPublicationDate": [
+    "2021-02-09"
+  ]
+}

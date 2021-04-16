@@ -1,0 +1,8 @@
+0: A comprehensive high-quality spectral library was built following established and validated bioinformatics protocols [ 48].
+1: All mass TripleTOF 5600+ fragment ion spectra files (.
+2: wiff) from shotgun data acquisition (DDA mode) were converted into an open format (mzML) using qtofpeakpicker (ProteoWizard, v/3.0.9576) and fragment ion spectrum complexity was subsequently reduced to keep the top 150 peaks using msconvert (ProteoWizard, v/3.0.9576).
+3: All datasets were conducted through sequence database searches against a  B.  siamensis goniomphalos transcriptome [ 36] appended with the iRT peptides, a common contaminant database ( http://www.thegpm.org/crap/) and decoy sequences using the Trans-Proteomic Pipeline (TPP) software (v/4.8.0), and assigned using parallel searches with X!tandem and Comet.
+4: The identified peptides were statistically scored using PeptideProphet and iProphet.
+5: False discovery rate (FDR) control was conducted using MAYU, and only proteins with a minimum of two unique peptides per protein and a FDR<1% were used in subsequent analyses.
+6: The validated spectra were used to generate a consensus library and all retention times were normalized using SpectraST.
+7: To generate a SWATH assay library from the consensus spectra, spectral libraries were formatted for Skyline and the most abundant y and b fragment ions for each spectra with  m/ z range 3501,000  m/ z were selected using a custom Python script as described previously [ 48].

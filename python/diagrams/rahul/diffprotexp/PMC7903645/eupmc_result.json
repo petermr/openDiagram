@@ -1,0 +1,544 @@
+{
+  "id": [
+    "33627129"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33627129"
+  ],
+  "pmcid": [
+    "PMC7903645"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7903645"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12958-021-00715-2"
+  ],
+  "title": [
+    "Whole blood RNA sequencing reveals a differential transcriptomic profile associated with cervical insufficiency: a pilot study."
+  ],
+  "authorString": [
+    "Son GH, Choi SY, Ju YJ, Lee KY, Lee JJ, Song JE, Kim Y, Park ST."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Son GH"
+          ],
+          "firstName": [
+            "Ga-Hyun"
+          ],
+          "lastName": [
+            "Son"
+          ],
+          "initials": [
+            "GH"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Hallym University College of Medicine, Kangnam Sacred Heart Hospital, 665, Siheung-daero, Youngdeungpo-gu, Seoul, 07442, Republic of Korea."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Institute of New Frontier Research, College of Medicine, Hallym University, Hallymdaehak-gil, Chuncheon, 24252, Republic of Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Choi SY"
+          ],
+          "firstName": [
+            "So Yeon"
+          ],
+          "lastName": [
+            "Choi"
+          ],
+          "initials": [
+            "SY"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Hallym University College of Medicine, Kangnam Sacred Heart Hospital, 665, Siheung-daero, Youngdeungpo-gu, Seoul, 07442, Republic of Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ju YJ"
+          ],
+          "firstName": [
+            "Yeon-Ji"
+          ],
+          "lastName": [
+            "Ju"
+          ],
+          "initials": [
+            "YJ"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Hallym University College of Medicine, Kangnam Sacred Heart Hospital, 665, Siheung-daero, Youngdeungpo-gu, Seoul, 07442, Republic of Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lee KY"
+          ],
+          "firstName": [
+            "Keun-Young"
+          ],
+          "lastName": [
+            "Lee"
+          ],
+          "initials": [
+            "KY"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Hallym University College of Medicine, Kangnam Sacred Heart Hospital, 665, Siheung-daero, Youngdeungpo-gu, Seoul, 07442, Republic of Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lee JJ"
+          ],
+          "firstName": [
+            "Jae Jun"
+          ],
+          "lastName": [
+            "Lee"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of New Frontier Research, College of Medicine, Hallym University, Hallymdaehak-gil, Chuncheon, 24252, Republic of Korea."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Departments of Anesthesiology and Pain Medicine, College of Medicine, Hallym University, Chuncheon, South Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Song JE"
+          ],
+          "firstName": [
+            "Ji-Eun"
+          ],
+          "lastName": [
+            "Song"
+          ],
+          "initials": [
+            "JE"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Hallym University College of Medicine, Kangnam Sacred Heart Hospital, 665, Siheung-daero, Youngdeungpo-gu, Seoul, 07442, Republic of Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kim Y"
+          ],
+          "firstName": [
+            "Youngmi"
+          ],
+          "lastName": [
+            "Kim"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of New Frontier Research, College of Medicine, Hallym University, Hallymdaehak-gil, Chuncheon, 24252, Republic of Korea. kym8389@hallym.ac.kr."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Park ST"
+          ],
+          "firstName": [
+            "Sung Taek"
+          ],
+          "lastName": [
+            "Park"
+          ],
+          "initials": [
+            "ST"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7841-4532",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Hallym University College of Medicine, Kangnam Sacred Heart Hospital, 665, Siheung-daero, Youngdeungpo-gu, Seoul, 07442, Republic of Korea. parkst96@naver.com."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Institute of New Frontier Research, College of Medicine, Hallym University, Hallymdaehak-gil, Chuncheon, 24252, Republic of Korea. parkst96@naver.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-7841-4532",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "19"
+      ],
+      "journalIssueId": [
+        "3105185"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Reproductive biology and endocrinology : RB&E"
+          ],
+          "ISOAbbreviation": [
+            "Reprod Biol Endocrinol"
+          ],
+          "medlineAbbreviation": [
+            "Reprod Biol Endocrinol"
+          ],
+          "NLMid": [
+            "101153627"
+          ],
+          "ISSN": [
+            "1477-7827"
+          ],
+          "ESSN": [
+            "1477-7827"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "32"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>The uterine cervix is a mechanical and immunological barrier against ascending infection during pregnancy. Cervical insufficiency (CI), a painless cervical dilation that occurs in the mid-trimester, is an important cause of extremely preterm birth. We hypothesized that women with CI have a differential transcriptomic profile. Therefore, we compared the transcriptomic profile of peripheral blood in women with CI and that of controls.<h4>Methods</h4>RNA sequencing was used to generate the global gene expression profiles of 11 women with CI and 4 controls, and differential expression analysis was performed to identify genes showing significant expression changes between the CI (n = 11) and control (n = 4) groups as well as between the CI-preterm (n = 7) and CI-term (n = 4) groups. Gene set enrichment was assessed in terms of Gene Ontology processes, and a subset of differentially expressed genes in CI was validated in a different sample-set by qRT-PCR and ELISA.<h4>Results</h4>Thirty genes were differentially expressed between the CI and control groups. Differentially upregulated genes in the CI group included neutrophil-mediated immunity-associated (DEFA3 and ELANE) and bicarbonate transport-related genes. The serum concentration of alpha defensin 3 was significantly higher in women with CI than in controls (P = 0.014). Analysis of differential gene expression according to pregnancy outcomes revealed 338 differentially expressed genes between the CI-term and CI-preterm groups. Immune and defense response to organism-associated genes and influenza A and NOD-like receptor signaling pathways were upregulated in the CI-term group.<h4>Conclusions</h4>Our results revealed significant differences in the whole blood transcriptomic profiles of women with CI compared to those of controls. Different immune responses in women with CI may affect pregnancy outcomes."
+  ],
+  "affiliation": [
+    "Division of Maternal-Fetal Medicine, Department of Obstetrics and Gynecology, Hallym University College of Medicine, Kangnam Sacred Heart Hospital, 665, Siheung-daero, Youngdeungpo-gu, Seoul, 07442, Republic of Korea."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "NRF-2017M3A9E8049714"
+          ],
+          "agency": [
+            "Bio & Medical Technology Development Program of the National Research Foundation"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "NRF-2019M3A9E8020538"
+          ],
+          "agency": [
+            "Bio & Medical Technology Development Program of the National Research Foundation"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "NRF-2017M3A9E8033229"
+          ],
+          "agency": [
+            "Bio & Medical Technology Development Program of the National Research Foundation"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Pregnancy",
+        "Preterm Birth",
+        "Rna-seq",
+        "Cervical Insufficiency",
+        "Alpha Defensin"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12958-021-00715-2"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7903645"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7903645?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-02-25"
+  ],
+  "firstIndexDate": [
+    "2021-02-26"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-03"
+  ],
+  "dateOfRevision": [
+    "2021-03-03"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-24"
+  ],
+  "firstPublicationDate": [
+    "2021-02-24"
+  ]
+}

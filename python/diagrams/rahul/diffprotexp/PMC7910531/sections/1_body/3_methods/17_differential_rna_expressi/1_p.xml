@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par60">We tested differential expression of 15,249 genes between high-grade and low-grade cartilage using paired samples from 83 patients. To detect robust gene expression differences, we carried out analyses using different software packages as recommended in a landmark survey of best practices
+ <sup>
+  <xref ref-type="bibr" rid="CR58">58</xref>
+ </sup>, applying limma
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>
+ </sup>, edgeR
+ <sup>
+  <xref ref-type="bibr" rid="CR60">60</xref>
+ </sup> and DESeq2
+ <sup>
+  <xref ref-type="bibr" rid="CR61">61</xref>
+ </sup>. We also tested five analysis designs with different options to account for technical variation, including SVAseq
+ <sup>
+  <xref ref-type="bibr" rid="CR62">62</xref>
+ </sup>. In particular, we tested for differential expression using
+</p>

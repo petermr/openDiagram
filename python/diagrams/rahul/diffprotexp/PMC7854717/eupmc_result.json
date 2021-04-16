@@ -1,0 +1,357 @@
+{
+  "id": [
+    "33531573"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33531573"
+  ],
+  "pmcid": [
+    "PMC7854717"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7854717"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41598-021-82383-1"
+  ],
+  "title": [
+    "Transcriptomic uniqueness and commonality of the ion channels and transporters in the four heart chambers."
+  ],
+  "authorString": [
+    "Iacobas S, Amuzescu B, Iacobas DA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Iacobas S"
+          ],
+          "firstName": [
+            "Sanda"
+          ],
+          "lastName": [
+            "Iacobas"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pathology, New York Medical College, Valhalla, NY, 10595, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Amuzescu B"
+          ],
+          "firstName": [
+            "Bogdan"
+          ],
+          "lastName": [
+            "Amuzescu"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department Biophysics and Physiology, Faculty of Biology, University of Bucharest, Bucharest, Romania."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Iacobas DA"
+          ],
+          "firstName": [
+            "Dumitru A"
+          ],
+          "lastName": [
+            "Iacobas"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Personalized Genomics Laboratory, Center for Computational Systems Biology, Roy G. Perry College of Engineering, Prairie View A&M University, Prairie View, TX, 77446, USA. daiacobas@pvamu.edu."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "DP Purpura Department of Neuroscience, Albert Einstein College of Medicine, New York, NY, 10461, USA. daiacobas@pvamu.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "3104233"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "2743"
+  ],
+  "abstractText": [
+    "Myocardium transcriptomes of left and right atria and ventricles from four adult male C57Bl/6j mice were profiled with Agilent microarrays to identify the differences responsible for the distinct functional roles of the four heart chambers. Female mice were not investigated owing to their transcriptome dependence on the estrous cycle phase. Out of the quantified 16,886 unigenes, 15.76% on the left side and 16.5% on the right side exhibited differential expression between the atrium and the ventricle, while 5.8% of genes were differently expressed between the two atria and only 1.2% between the two ventricles. The study revealed also chamber differences in gene expression control and coordination. We analyzed ion channels and transporters, and genes within the cardiac muscle contraction, oxidative phosphorylation, glycolysis/gluconeogenesis, calcium and adrenergic signaling pathways. Interestingly, while expression of Ank2 oscillates in phase with all 27 quantified binding partners in the left ventricle, the percentage of in-phase oscillating partners of Ank2 is 15% and 37% in the left and right atria and 74% in the right ventricle. The analysis indicated high interventricular synchrony of the ion channels expressions and the substantially lower synchrony between the two atria and between the atrium and the ventricle from the same side."
+  ],
+  "affiliation": [
+    "Department of Pathology, New York Medical College, Valhalla, NY, 10595, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "5R01HL092001"
+          ],
+          "agency": [
+            "U.S. Department of Health &amp; Human Services | NIH | National Heart, Lung, and Blood Institute (NHLBI)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-021-82383-1"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7854717"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7854717?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-02-03"
+  ],
+  "firstIndexDate": [
+    "2021-02-04"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-05"
+  ],
+  "dateOfRevision": [
+    "2021-02-06"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-02"
+  ],
+  "firstPublicationDate": [
+    "2021-02-02"
+  ]
+}

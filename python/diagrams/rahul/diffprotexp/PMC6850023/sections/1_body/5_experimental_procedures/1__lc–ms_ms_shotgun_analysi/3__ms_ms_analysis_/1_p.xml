@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>MS/MS analysis was performed in MaxQuant (Cox and Mann, 
+ <xref rid="emi14620-bib-0018" ref-type="ref">2008</xref>). The LTQ Orbitrap raw data files were first converted to MSM files with the MaxQuant ‘Quant’ module. The open‐source search engine Andromeda, which is integrated into MaxQuant, was used to identify peptides in sequence databases by their fragmentation spectra (Cox 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0019" ref-type="ref">2011</xref>). Peptides and proteins were filtered at 0.3% false discovery rate (FDR) to obtain the final data sets. Proteins were quantified by counting the number of MS/MS spectra matched to the corresponding proteins. Uniprot protein sequences from the 
+ <italic>A.borkumensis</italic> SK2
+ <sup>T</sup> genome (Schneiker 
+ <italic>et al.,</italic>
+ <xref rid="emi14620-bib-0064" ref-type="ref">2006</xref>) were used to perform protein identification. Proteins were validated using the default settings in MaxQuant and Andromeda with a minimum of at least one peptide, but that any such protein had to unambiguously identified by peptides that were unique to that protein. Spectral counts were normalized to total spectral counts that account for differences between runs (total spectral counts varied between 11,015 and 15,856 per run).
+</p>

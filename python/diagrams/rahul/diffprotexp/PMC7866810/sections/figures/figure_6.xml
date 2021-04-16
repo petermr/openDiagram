@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="ijms-22-01399-f006" orientation="portrait" position="float">
+ <label>Figure 6</label>
+ <caption>
+  <p>Identification of the MLS sub-populations. (
+   <bold>a</bold>) Gene filtration by accounting for technical noise based on the variation and expression of the ERCC spike-ins. (
+   <bold>b</bold>) PCA plot visualizing clusters identified using model-based clustering. (
+   <bold>c</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their pseudo-time ordering. (
+   <bold>d</bold>) The plot from (
+   <bold>a</bold>) with cells labeled based on their cell cycle phase. (
+   <bold>e</bold>) A bar-plot of the outlier probabilities of all cells across clusters. (
+   <bold>f</bold>) A heatmap portrayal of cell-to-cell distances; cluster centers were ordered by hierarchic clustering.
+  </p>
+ </caption>
+ <graphic xlink:href="ijms-22-01399-g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

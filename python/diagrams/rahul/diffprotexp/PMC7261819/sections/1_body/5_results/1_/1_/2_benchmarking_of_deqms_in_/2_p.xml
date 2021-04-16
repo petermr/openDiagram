@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the label-free data set (D2), either 10 or 30 μg of 
+ <italic>E. coli</italic> protein extract was spiked into human protein extracts (50 μg) in triplicates (
+ <xref rid="B19" ref-type="bibr">19</xref>). In the TMT 10plex-labeled data set (D3, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Table S1</ext-link>), either 7.5 (3 replicates), 15 μg (4 replicates) or 45 μg (3 replicates) of 
+ <italic>E. coli</italic> peptides was spiked into 70 μg of human peptides. The analysis below is performed comparing samples spiked in with 7.5 μg and 15 μg of 
+ <italic>E. coli</italic> proteins. In the label-free and labeled experiments, 6566 (1902 
+ <italic>E. coli</italic>, 4664 human) and 11,188 (2474 
+ <italic>E. coli</italic>, 8764 human) proteins were identified and quantified, respectively. To evaluate the performance of different methods, receiver operating characteristic (ROC) curve analysis was used (
+ <xref ref-type="fig" rid="F2">Fig. 2</xref>
+ <italic>A</italic>). Comparing partial area under curve (pAUC, 95% specificity), DEqMS performs better or at least as well as all other methods tested. Next, we applied a 1% FDR cutoff to investigate the number of significant genes reported by the different methods. In the label-free spike-in data set, EBRC failed to generate any significant findings after multiple testing correction despite having competitive result in the ROC analysis. Filtered by adjusted 
+ <italic>p</italic> value &lt;0.01, DEqMS reported in total 1237 true differentially expressed 
+ <italic>E. coli</italic> proteins, and 11 falsely detected human proteins (
+ <xref ref-type="fig" rid="F2">Fig. 2</xref>
+ <italic>B</italic>, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Table S2</ext-link>). The second best method was Limma(trend = T), reporting 1230 true positives and 13 false positives. In comparison, variance stabilization normalization (vsn) did not improve the result. Although generating the same pAUC value, ROTS missed more true positives than DEqMS. 
+ <italic>t</italic> test detected the lowest number of true positives, which is not unexpected because of its low statistical power. In the TMT labeled data, median sweeping normalization, which showed better accuracy over quantitle normalization in a previous study
+ <sup>11</sup>, was used to summarize the PSM intensity table to protein log2 ratio table. In our analysis, median sweeping normalization performed better when compared with variance stabilization normalization in Limma(vsn) (
+ <xref ref-type="fig" rid="F2">Fig. 2</xref>
+ <italic>B</italic>, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Table S3</ext-link>). Considering both the total number of significant findings and the percentage of false positives for each method, DEqMS performs better or as well as all other methods tested in both the label-free and the labeled data sets (
+ <xref ref-type="fig" rid="F2">Fig. 2</xref>
+ <italic>B</italic>).
+</p>

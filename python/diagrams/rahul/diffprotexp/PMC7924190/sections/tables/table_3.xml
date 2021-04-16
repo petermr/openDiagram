@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="genes-12-00299-t003" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">genes-12-00299-t003_Table 3</object-id>
+ <label>Table 3</label>
+ <caption>
+  <p>Significantly impacted signaling pathways in hTCEpi cells after AC EF stimulation based on the antibody microarray data.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">KEGG Pathway</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Pathway Description</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Protein Count</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">False Discovery Rate</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Matching Proteins 
+     <break/>in Network
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04668</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">TNF signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">17</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.95 × 10
+     <sup>−13</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, AKT3, ICAM1, VCAM1, IL15, CSF2, FOS, CASP3, CFLAR, SELE, FAS, MAPK9, TNF, MAP2K4, PGAM5, CCL5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa05200</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Pathways in cancer</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">27</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2.95 × 10
+     <sup>−11</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, HGF, IFNG, CCND2, AKT3, IL7, FGF2, STAT3, TP53, ERBB2, IL15, HSP90B1, IL7R, FOS, CASP3, GSTM1, KLK3, MET, MMP1, CASP9, FAS, RAC1, IL2RA, ETS1, JAK3, MAPK9, CUL2 </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa05418</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Fluid shear stress and atherosclerosis</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">16</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2.95 × 10
+     <sup>−11</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, IFNG, AKT3, KDR, ICAM1, TP53, VCAM1, HSP90B1, FOS, GSTM1, SELE, CAV3, RAC1, MAPK9, TNF, MAP2K4 </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04010</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">21</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.06 × 10
+     <sup>−11</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, HGF, HSPB1, AKT3, KDR, FGF2, TP53, ERBB2, CD14, FOS, CASP3, MET, FAS, RAC1, HSPA1A, MAPK9, TNF, MAP2K4, DDIT3, NTF4</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04060</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cytokine-cytokine receptor interaction</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">20</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.06 × 10
+     <sup>−11</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">HGF, IFNG, TNFSF10, CCR7, IL7, KDR, CXCL13, IL15, CSF2, CCL11, IL7R, MET, FAS, IL2RA, CCL8, TNF, IL10, TNFSF14, CCL5, TNFRSF9</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04657</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">IL-17 signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">13</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2.29 × 10
+     <sup>−10</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, IFNG, CSF2, HSP90B1, CCL11, FOS, CASP3, MMP1, MAPK4, MAPK9, TNF, MUC5B</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04151</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">PI3K-Akt signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">21</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.07 × 10
+     <sup>−10</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, HGF, VTN, CCND2, AKT3, IL7, KDR, FGF2, TP53, ERBB2, ITGA5, HSP90B1, IL7R, MET, CASP9, RAC1, THBS3, IL2RA, JAK3, PPP2R5D, NTF4</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04933
+     <break/>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">AGE-RAGE signaling pathway in diabetic complications</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">11</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4.79 × 10
+     <sup>−8</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, AKT3, STAT3, ICAM1, VCAM1, CASP3, SELE, RAC1, MAPK9, TNF</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04660</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">T cell receptor signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">11</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4.95 × 10
+     <sup>−8</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, IFNG, AKT3, CSF2, FOS, CD28, MAPK9, TNF, PTPRC, IL10</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04620</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Toll-like receptor signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">11</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">6.21 × 10
+     <sup>−8</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, AKT3, CD14, FOS, CD86, RAC1, MAPK9, TNF, MAP2K4, CCL5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04510</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Focal adhesion</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">14</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">6.84 × 10
+     <sup>−8</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, HGF, VTN, CCND2, AKT3, KDR, ERBB2, ITGA5, MET, CAV3, RAC1, THBS3, ACTN1, MAPK9</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa05164</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Influenza A</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">13</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">8.98 × 10
+     <sup>−8</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, IFNG, TNFSF10, AKT3, ICAM1, CASP9, FAS, HSPA1A, MAPK9, TNF, MAP2K4, CCL5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04630</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Jak-STAT signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">12</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.49 × 10
+     <sup>−7</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">IFNG, CCND2, AKT3, IL7, STAT3, IL15, CSF2, IL7R, AOX1, IL2RA, JAK3, IL10</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04068</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">FoxO signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">11</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.99 × 10
+     <sup>−7</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, TNFSF10, CCND2, AKT3, STAT3, ATM, IL7R, BNIP3, MAPK9, IL10</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa05162</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Measles</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">11</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4.63 × 10
+     <sup>−7</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">IFNG, TNFSF10, CCND2, AKT3, STAT3, TP53, CD28, FAS, HSPA1A, IL2RA, JAK3</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa05161</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Hepatitis B</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">11</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">8.35 × 10
+     <sup>−7</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, AKT3, STAT3, TP53, FOS, CASP3, CASP9, FAS, MAPK9, 
+     <break/>TNF, MAP2K4
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04664</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Fc epsilon RI signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">8</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2.19 × 10
+     <sup>−6</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, AKT3, CSF2, RAC1, MAPK9, TNF, MAP2K4</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa05168</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Herpes simplex infection</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">11</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">6.12 × 10
+     <sup>−6</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CDC34, IFNG, TP53, IL15, FOS, CASP3, FAS, MAPK9, TNF, TNFSF1, CCL5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04514</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cell adhesion molecules (CAMs)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">10</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4.92 × 10
+     <sup>−6</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">SELP, ICAM1, VCAM1, CD28, SELE, CD86, VTCN1, CD99, PDCD1LG2, PTPRC</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04370</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">VEGF signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">9.52 × 10
+     <sup>−6</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, HSPB1, AKT3, KDR, CASP9, RAC1</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04217</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Necroptosis</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">10</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.05 × 10
+     <sup>−5</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">IFNG, TNFSF10, STAT3, CFLAR, FAS, FAF1, JAK3, MAPK9, TNF, PGAM5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04115</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">p53 signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.92 × 10
+     <sup>−5</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CCND2, TP53, ATM, CASP3, CASP9, FAS, CHEK2</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04917</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Prolactin signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2.02 × 10
+     <sup>−5</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, CCND2, AKT3, STAT3, FOS, MAPK9</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04062</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Chemokine signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">10</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3.16 × 10
+     <sup>−5</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, CCR7, AKT3, STAT3, CXCL13, CCL11, RAC1, CCL8, JAK3, CCL5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04512</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">ECM-receptor interaction</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5.07 × 10
+     <sup>−5</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">VTN, ITGA5, GP1BA, CD47, THBS3, HMMR, CD44</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04071</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Sphingolipid signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">8</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5.57 × 10
+     <sup>−5</sup>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, AKT3, TP53, RAC1, MAPK9, TNF, PPP2R5D</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04064</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">NF-kappa B signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.00011</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">ICAM1, ATM, VCAM1, CD14, CFLAR, TNF, TNFSF14</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04066</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">HIF-1 signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.00013</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, IFNG, ENO1, AKT3, STAT3, ERBB2, CUL2</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04014</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Ras signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">10</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.00016</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, HGF, AKT3, KDR, FGF2, MET, RAC1, ETS1, MAPK9, NTF4</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04722</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Neurotrophin signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.00034</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, AKT3, TP53, RAC1, MAPK9, NTF4</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04926</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Relaxin signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.00066</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, AKT3, FOS, MMP1, MAPK9, MAP2K4</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04015</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Rap1 signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">8</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0015</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, HGF, AKT3, KDR, FGF2, MET, RAC1</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa05219</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bladder cancer</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0017</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, TP53, ERBB2, MMP1</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04110</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cell cycle</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">6</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0025</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CCND2, TP53, ATM, CDC25C, CHEK2, CDKN1C</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04012</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">ErbB signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0027</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, AKT3, ERBB2, MAPK9, MAP2K4</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04550</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Signaling pathways regulating pluripotency of stem cells</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">6</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0042</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, AKT3, FGF2, STAT3, JAK3</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04920</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Adipocytokine signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0089</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">AKT3, STAT3, MAPK9, TNF</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04919</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Thyroid hormone signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0094</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, AKT3, NCOR1, TP53, CASP9</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04662</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">B cell receptor signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0096</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, AKT3, FOS, RAC1</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04915</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Estrogen signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0154</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, AKT3, HSP90B1, FOS, HSPA1A</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04024</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">cAMP signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">6</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0179</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, SOX9, AKT3, FOS, RAC1, MAPK9</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04912</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">GnRH signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0179</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, MAPK9, MAP2K4</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04310</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Wnt signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0197</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MMP7, CCND2, TP53, RAC1, MAPK9</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04810</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Regulation of actin cytoskeleton</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">6</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0213</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK1, FGF2, ITGA5, CD14, RAC1, ACTN1</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04141</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Protein processing in endoplasmic reticulum</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0298</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">AMFR, HSP90B1, HSPA1A, MAPK9, DDIT3</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04621</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">NOD-like receptor signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0329</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK1, MAPK9, TNF, CCL5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa04622</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">RIG-I-like receptor signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0468</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MAPK12, MAPK9, TNF</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">hsa03320</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">PPAR signaling pathway</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0497</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">FABP2, FABP5, MMP1</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>After antibody microarray, the functions of highly enriched proteins and their interactions with other proteins were analyzed to identify impacted signaling pathways using the STRING database, version 11 (Available online: 
+    <uri xlink:href="http://string-db.org" xmlns:xlink="http://www.w3.org/1999/xlink">http://string-db.org</uri> (accessed on 14 December 2020)). KEGG = Kyoto Encyclopedia of Genes and Genomes.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

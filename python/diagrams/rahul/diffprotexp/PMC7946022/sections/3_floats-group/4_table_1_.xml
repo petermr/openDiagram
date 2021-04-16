@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Select 
+   <italic>S. aureus</italic> genes with differential expression during mixed catheter infection with 
+   <italic>C. albicans.</italic>
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="char" char="."/>
+   <col width="1*" align="char" char="."/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Gene</th>
+    <th align="center" char=".">LFC 
+     <sup>a</sup>
+    </th>
+    <th align="center" char=".">p-value</th>
+    <th align="center">ORF description</th>
+    <th align="center">Function</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="5" align="left">
+     <bold>Biofilm formation</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">sarU</td>
+    <td align="char" char=".">2.06</td>
+    <td align="char" char=".">0.015</td>
+    <td align="left">accessory regulator U</td>
+    <td align="left">positive activator of agr</td>
+   </tr>
+   <tr>
+    <td align="left">icaB</td>
+    <td align="char" char=".">1.84</td>
+    <td align="char" char=".">0.011</td>
+    <td align="left">intercellular adhesion protein B</td>
+    <td align="left">PIA synthesis</td>
+   </tr>
+   <tr>
+    <td align="left">icaC</td>
+    <td align="char" char=".">1.3</td>
+    <td align="char" char=".">0.06</td>
+    <td align="left">intercellular adhesion</td>
+    <td align="left">PIA synthesis</td>
+   </tr>
+   <tr>
+    <td align="left">lrgA</td>
+    <td align="char" char=".">−0.98</td>
+    <td align="char" char=".">0.03</td>
+    <td align="left">anti-holin like protein</td>
+    <td align="left">repressor of autolysis</td>
+   </tr>
+   <tr>
+    <td align="left">lrgB</td>
+    <td align="char" char=".">−1.2</td>
+    <td align="char" char=".">0.038</td>
+    <td align="left">anti-holin like protein</td>
+    <td align="left">repressor of autolysis</td>
+   </tr>
+   <tr>
+    <td align="left">nuc</td>
+    <td align="char" char=".">−1.32</td>
+    <td align="char" char=".">0.002</td>
+    <td align="left">secreted thermostable nuclease</td>
+    <td align="left">degradation of eDNA; biofilm dispersal</td>
+   </tr>
+   <tr>
+    <td colspan="5" align="left">
+     <bold>Secreted exotoxins</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">hlgC</td>
+    <td align="char" char=".">−1.2</td>
+    <td align="char" char=".">0.034</td>
+    <td align="left">gamma hemolysin component C</td>
+    <td align="left">pore forming toxin</td>
+   </tr>
+   <tr>
+    <td align="left">hlgB</td>
+    <td align="char" char=".">−1.31</td>
+    <td align="char" char=".">0.0216</td>
+    <td align="left">gamma hemolysin component B</td>
+    <td align="left">pore forming toxin</td>
+   </tr>
+   <tr>
+    <td align="left">hyl</td>
+    <td align="char" char=".">−1.78</td>
+    <td align="char" char=".">0.007</td>
+    <td align="left">alpha-toxin (alpha-hemolysin)</td>
+    <td align="left">pore forming toxin</td>
+   </tr>
+   <tr>
+    <td align="left">lukF-PV</td>
+    <td align="char" char=".">−1</td>
+    <td align="char" char=".">0.045</td>
+    <td align="left">panton-Valentine leucocidin (F)</td>
+    <td align="left">pore forming toxin</td>
+   </tr>
+   <tr>
+    <td align="left">lukS-PV</td>
+    <td align="char" char=".">−1.6</td>
+    <td align="char" char=".">0.0021</td>
+    <td align="left">panton-Valentine leucocidin (S)</td>
+    <td align="left">pore forming toxin</td>
+   </tr>
+   <tr>
+    <td align="left">USA300HOU-2013</td>
+    <td align="char" char=".">−1.81</td>
+    <td align="char" char=".">0.0023</td>
+    <td align="left">leucocidin subunit</td>
+    <td align="left">pore forming toxin</td>
+   </tr>
+   <tr>
+    <td align="left">USA300HOU-2011</td>
+    <td align="char" char=".">−2.01</td>
+    <td align="char" char=".">0.00092</td>
+    <td align="left">leucocidin subunit</td>
+    <td align="left">pore forming toxin</td>
+   </tr>
+   <tr>
+    <td align="left">sak</td>
+    <td align="char" char=".">−2</td>
+    <td align="char" char=".">0.0027</td>
+    <td align="left">staphylokinase</td>
+    <td align="left">promotes bacterial dissemination</td>
+   </tr>
+   <tr>
+    <td colspan="5" align="left">
+     <bold>Superantigens and host immune response</bold>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">isaB</td>
+    <td align="char" char=".">−1.152</td>
+    <td align="char" char=".">0.026</td>
+    <td align="left">immunodominant antigen</td>
+    <td align="left">elicits immune response – during septicemia</td>
+   </tr>
+   <tr>
+    <td align="left">set19</td>
+    <td align="char" char=".">−1.2</td>
+    <td align="char" char=".">0.024</td>
+    <td align="left">superantigen like protein-toxin</td>
+    <td align="left">activates immune response</td>
+   </tr>
+   <tr>
+    <td align="left">chp</td>
+    <td align="char" char=".">−1.51</td>
+    <td align="char" char=".">0.002</td>
+    <td align="left">chemotaxis inhibiting protein CHIPS</td>
+    <td align="left">inhibits neutrophil chemotaxis</td>
+   </tr>
+   <tr>
+    <td align="left">Emp</td>
+    <td align="char" char=".">−1.3</td>
+    <td align="char" char=".">0.021</td>
+    <td align="left">extracellular matrix protein</td>
+    <td align="left">adhesion to host tissue</td>
+   </tr>
+   <tr>
+    <td align="left">ear</td>
+    <td align="char" char=".">−1.5</td>
+    <td align="char" char=".">0.012</td>
+    <td align="left">Ear protein</td>
+    <td align="left">superantigen</td>
+   </tr>
+   <tr>
+    <td align="left">AlsS</td>
+    <td align="char" char=".">1.28</td>
+    <td align="char" char=".">0.025</td>
+    <td align="left">immunodominant antigen B</td>
+    <td align="left">immune evasion</td>
+   </tr>
+   <tr>
+    <td align="left">cap5E</td>
+    <td align="char" char=".">1.92</td>
+    <td align="char" char=".">0.04</td>
+    <td align="left">capsular polysaccharide biosynthesis</td>
+    <td align="left">immune evasion</td>
+   </tr>
+   <tr>
+    <td align="left">capC</td>
+    <td align="char" char=".">1.3</td>
+    <td align="char" char=".">0.038</td>
+    <td align="left">capsular polysaccharide biosynthesis</td>
+    <td align="left">immune evasion</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

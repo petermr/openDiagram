@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>List of total expressed protein (protein identification probability)</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="3">No.</th>
+    <th align="left" rowspan="3">Protein name</th>
+    <th align="left" colspan="6">Observed sample (probability %)</th>
+   </tr>
+   <tr>
+    <th align="left" colspan="3">Primary tumor</th>
+    <th align="left" colspan="3">Metastatic tumor</th>
+   </tr>
+   <tr>
+    <th align="left">EC</th>
+    <th align="left">CeC</th>
+    <th align="left">OC</th>
+    <th align="left">EC</th>
+    <th align="left">CeC</th>
+    <th align="left">OC</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">1</td>
+    <td align="left">Actin, cytoplasmic 1</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td char="." align="left">2</td>
+    <td align="left">Histone H4</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td char="." align="left">3</td>
+    <td align="left">Keratin, type II cytoskeletal 1</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td char="." align="left">4</td>
+    <td align="left">Hemoglobin subunit beta</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td char="." align="left">5</td>
+    <td align="left">Histone H1.2</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td char="." align="left">6</td>
+    <td align="left">Uncharacterized protein</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">98</td>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">7</td>
+    <td align="left">Hemoglobin subunit alpha</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">8</td>
+    <td align="left">Histone H2A type 1-B/E</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">9</td>
+    <td align="left">Tubulin, beta</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">10</td>
+    <td align="left">Keratin, type I cytoskeletal 10</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">11</td>
+    <td align="left">Glyceraldehyde-3-phosphate dehydrogenase</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">12</td>
+    <td align="left">Histone H3.2</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">94</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">13</td>
+    <td align="left">Histone H2B type 1-L</td>
+    <td char="." align="char">98</td>
+    <td char="." align="char">99</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">99</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">14</td>
+    <td align="left">Isoform alpha-enolase of Alpha-enolase</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">15</td>
+    <td align="left">Triosephosphate isomerase isoform 2</td>
+    <td char="." align="char">99</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">98</td>
+   </tr>
+   <tr>
+    <td align="left">16</td>
+    <td align="left">Vimentin</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">17</td>
+    <td align="left">IGL@ protein</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">18</td>
+    <td align="left">TUBA1C protein</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">98</td>
+   </tr>
+   <tr>
+    <td align="left">19</td>
+    <td align="left">Keratin, type I cytoskeletal 9</td>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">99</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">20</td>
+    <td align="left">Beta-actin-like protein 2</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">21</td>
+    <td align="left">Neutrophil defensin 1</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">22</td>
+    <td align="left">Isoform M1 of Pyruvate kinase isozymes M1/M2</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">98</td>
+   </tr>
+   <tr>
+    <td align="left">23</td>
+    <td align="left">Heat shock protein beta-1</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">24</td>
+    <td align="left">Ubiquitin-40S ribosomal protein S27a</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td char="." align="char">99</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">25</td>
+    <td align="left">Nuclease-sensitive element-binding protein 1</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">26</td>
+    <td align="left">23 kDa protein</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">27</td>
+    <td align="left">Keratin, type I cytoskeletal 19</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">28</td>
+    <td align="left">Collagen alpha-2(I) chain</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">29</td>
+    <td align="left">Protein S100-A8</td>
+    <td char="." align="char">100</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">30</td>
+    <td align="left">Heat shock 70 kDa protein 1A/1B</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">31</td>
+    <td align="left">Protein S100-A9</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">32</td>
+    <td align="left">Isoform 1 of Fibronectin</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">33</td>
+    <td align="left">Galectin-1</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">34</td>
+    <td align="left">Isoform 1 of L-lactate dehydrogenase A chain</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">35</td>
+    <td align="left">PRO2275</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">36</td>
+    <td align="left">60S ribosomal protein L8</td>
+    <td char="." align="char">43</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">37</td>
+    <td align="left">N-acetyltransferase ESCO2</td>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">35</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">38</td>
+    <td align="left">cDNA FLJ45139 fis, clone BRAWH3039623</td>
+    <td align="left"/>
+    <td char="." align="char">88</td>
+    <td align="left"/>
+    <td char="." align="char">30</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">39</td>
+    <td align="left">40S ribosomal protein S25</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">40</td>
+    <td align="left">Isoform 1 of Heterogeneous nuclear ribonucleoprotein K</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">41</td>
+    <td align="left">Uncharacterized protein</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">42</td>
+    <td align="left">14-3-3 protein theta</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">43</td>
+    <td align="left">Putative annexin A2-like protein</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">44</td>
+    <td align="left">Peptidyl-prolyl cis–trans isomerase A</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">45</td>
+    <td align="left">Fructose-bisphosphate aldolase A</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">46</td>
+    <td align="left">Glutathione S-transferase P</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">47</td>
+    <td align="left">Profilin-1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">48</td>
+    <td align="left">Histone H2A type 2-B</td>
+    <td align="left"/>
+    <td char="." align="char">86</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">49</td>
+    <td align="left">Isoform B1 of Heterogeneous nuclear ribonucleoproteins A2/B1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">73</td>
+   </tr>
+   <tr>
+    <td align="left">50</td>
+    <td align="left">Isoform 1 of Glial fibrillary acidic protein</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">51</td>
+    <td align="left">Ubiquitin-like modifier-activating enzyme 1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">52</td>
+    <td align="left">Elongation factor 1-alpha 1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">53</td>
+    <td align="left">Beta-2-microglobulin</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">54</td>
+    <td align="left">14-3-3 protein zeta/delta</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">55</td>
+    <td align="left">Isoform Long of 14-3-3 protein beta/alpha</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">56</td>
+    <td align="left">ATP synthase subunit alpha, mitochondrial</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">57</td>
+    <td align="left">Putative uncharacterized protein</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">58</td>
+    <td align="left">Fibrinogen beta chain</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">59</td>
+    <td align="left">Heat shock protein HSP 90-beta</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">60</td>
+    <td align="left">Keratin, type I cytoskeletal 18</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">61</td>
+    <td align="left">Isoform 1 of heterogeneous nuclear ribonucleoprotein A3</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">62</td>
+    <td align="left">Stress-70 protein, mitochondrial</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">63</td>
+    <td align="left">Keratin, type II cytoskeletal 8</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">64</td>
+    <td align="left">ATP synthase subunit beta, mitochondrial</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+   </tr>
+   <tr>
+    <td align="left">65</td>
+    <td align="left">Peroxiredoxin-1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">66</td>
+    <td align="left">Histone H1x</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">67</td>
+    <td align="left">60S ribosomal protein L7a</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">68</td>
+    <td align="left">Isoform short of heterogeneous nuclear ribonucleoprotein U</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">69</td>
+    <td align="left">Isoform 3 of probable ATP-dependent RNA helicase DDX17</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">70</td>
+    <td align="left">Homeobox protein HMX3</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">71</td>
+    <td align="left">Isoform 1 of tropomyosin alpha-4 chain</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">72</td>
+    <td align="left">Isocitrate dehydrogenase [NADP], mitochondrial</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">73</td>
+    <td align="left">Poly(rC)-binding protein 1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">74</td>
+    <td align="left">Thioredoxin-dependent peroxide reductase, mitochondrial</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">75</td>
+    <td align="left">NHP2-like protein 1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">76</td>
+    <td align="left">Phosphoglycerate kinase 1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">77</td>
+    <td align="left">Elongation factor 2</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">78</td>
+    <td align="left">Thioredoxin</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">79</td>
+    <td align="left">Phosphoglycerate mutase 2</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">80</td>
+    <td align="left">Isoform 1 of clusterin</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">81</td>
+    <td align="left">Isoform mitochondrial of fumarate hydratase, mitochondrial</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">82</td>
+    <td align="left">Isoform 2 of protein disulfide-isomerase A6</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">83</td>
+    <td align="left">Isoform 1 of 3,2-trans-enoyl-CoA isomerase, mitochondrial</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">84</td>
+    <td align="left">Isoform 2 of heterogeneous nuclear ribonucleoprotein A/B</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">85</td>
+    <td align="left">Keratin, type II cytoskeletal 1b</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">86</td>
+    <td align="left">32 kDa protein</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">87</td>
+    <td align="left">Hemoglobin subunit delta</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">88</td>
+    <td align="left">14 kDa protein</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+   </tr>
+   <tr>
+    <td align="left">89</td>
+    <td align="left">Isoform 1 of heat shock cognate 71 kDa protein</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">90</td>
+    <td align="left">Histone H2B type 2-E</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">91</td>
+    <td align="left">Plasminogen</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">92</td>
+    <td align="left">Keratin, type II cytoskeletal 2 epidermal</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">93</td>
+    <td align="left">Isoform 1 of heterogeneous nuclear ribonucleoprotein D0</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">94</td>
+    <td align="left">ADP-ribosylation factor 1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">95</td>
+    <td align="left">Isoform A1-B of heterogeneous nuclear ribonucleoprotein A1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">96</td>
+    <td align="left">Isoform C1 of heterogeneous nuclear ribonucleoproteins C1/C2</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">97</td>
+    <td align="left">Isoform 1 of myelin proteolipid protein</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">98</td>
+    <td align="left">14-3-3 protein gamma</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">99</td>
+    <td align="left">Isoform 1 of brain acid soluble protein 1</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">100</td>
+    <td align="left">cDNA FLJ35730 fis, clone TESTI2003131, highly similar to ALPHA-1-ANTICHYMOTRYPSIN</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">101</td>
+    <td align="left">Isoform 2 of Nucleophosminisoform 2 of nucleophosmin</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">102</td>
+    <td align="left">Myosin light chain 6B</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">103</td>
+    <td align="left">60S ribosomal protein L7</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">99</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">104</td>
+    <td align="left">Histone H1.5</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">98</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">105</td>
+    <td align="left">Transgelin</td>
+    <td align="left"/>
+    <td char="." align="char">100</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">106</td>
+    <td align="left">Phosphatidylethanolamine-binding protein 1</td>
+    <td char="." align="char">93</td>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">107</td>
+    <td align="left">Transgelin-2</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">108</td>
+    <td align="left">Isoform long of splicing factor, proline- and glutamine-rich</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">109</td>
+    <td align="left">40S ribosomal protein S14</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">110</td>
+    <td align="left">Myosin regulatory light chain 12B</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">111</td>
+    <td align="left">40S ribosomal protein S13</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">112</td>
+    <td align="left">Isoform 1 of Protein shisa-6 homolog</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">113</td>
+    <td align="left">Histone H2A.V</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">114</td>
+    <td align="left">Lumican</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">115</td>
+    <td align="left">Prolargin</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">116</td>
+    <td align="left">HLA class I histocompatibility antigen, Cw-1 alpha chain</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">117</td>
+    <td align="left">Isoform 2 of microtubule-actin cross-linking factor 1, isoforms 1/2/3/5</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">118</td>
+    <td align="left">Macrophage migration inhibitory factor</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">119</td>
+    <td align="left">Isoform 1 of FYVE, RhoGEF and PH domain-containing protein 5</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">120</td>
+    <td align="left">31 kDa protein</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">121</td>
+    <td align="left">Centrosomal protein 170 kDa</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">122</td>
+    <td align="left">Isoform 1 of DNA polymerase theta</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">123</td>
+    <td align="left">Isoform 1 of serine/arginine-rich splicing factor 7</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">124</td>
+    <td align="left">Heterogeneous nuclear ribonucleoprotein H</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">125</td>
+    <td align="left">Hypothetical protein LOC80164</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">126</td>
+    <td align="left">Acyl-CoA-binding domain-containing protein 7-like</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">127</td>
+    <td align="left">NOL1/NOP2/Sun domain family member 4</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td char="." align="char">89</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td align="left">128</td>
+    <td align="left">Actin, alpha skeletal muscle</td>
+    <td align="left"/>
+    <td char="." align="char">90</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+   <tr>
+    <td char="." align="left">129</td>
+    <td align="left">60S ribosomal protein L31</td>
+    <td char="." align="char">93</td>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="left"/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Protein expression profiles of metastatic and primary tumor determined by LS/MS/MS. List of proteins found differentially expression between brain metastatic tumor and primary tumor. Protein identification probability is shown by the percentage of total spectra</p>
+  <p>
+   <italic>EC</italic> Endometrial cancer,
+   <italic> CeC</italic> uterine cervical cancer, 
+   <italic>OC</italic> ovarian cancer
+  </p>
+ </table-wrap-foot>
+</table-wrap>

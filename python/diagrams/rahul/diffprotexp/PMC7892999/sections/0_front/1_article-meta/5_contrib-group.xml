@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Chialva</surname>
+   <given-names>Constanza</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Blein</surname>
+   <given-names>Thomas</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Crespi</surname>
+   <given-names>Martin</given-names>
+  </name>
+  <address>
+   <email>martin.crespi@ips2.universite-paris-saclay.fr</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Lijavetzky</surname>
+   <given-names>Diego</given-names>
+  </name>
+  <address>
+   <email>dlijavetzky@conicet.gov.ar</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.507426.2</institution-id>
+   <institution>Facultad de Ciencias Agrarias, Instituto de Biología Agrícola de Mendoza (IBAM), UNCuyo, </institution>
+   <institution>CONICET, </institution>
+  </institution-wrap>Almirante Brown 500, M5528AHB Chacras de Coria, Mendoza Argentina 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.4444.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2112 9282</institution-id>
+   <institution>Institute of Plant Sciences Paris-Saclay (IPS2), CNRS, INRA, </institution>
+   <institution>University Paris-Saclay and University of Paris, </institution>
+  </institution-wrap>Batiment 630, Gif Sur Yvette, France 
+ </aff>
+</contrib-group>

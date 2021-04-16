@@ -1,0 +1,438 @@
+{
+  "id": [
+    "33258401"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33258401"
+  ],
+  "pmcid": [
+    "PMC7801124"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7801124"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/19336950.2020.1852831"
+  ],
+  "title": [
+    "Acid-sensing ion channel 3: An analgesic target."
+  ],
+  "authorString": [
+    "Dulai JS, Smith ESJ, Rahman T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Dulai JS"
+          ],
+          "firstName": [
+            "Jasdip Singh"
+          ],
+          "lastName": [
+            "Dulai"
+          ],
+          "initials": [
+            "JS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6784-5214",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, University of Cambridge , Cambridge, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Smith ESJ"
+          ],
+          "firstName": [
+            "Ewan St John"
+          ],
+          "lastName": [
+            "Smith"
+          ],
+          "initials": [
+            "ESJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2699-1979",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, University of Cambridge , Cambridge, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rahman T"
+          ],
+          "firstName": [
+            "Taufiq"
+          ],
+          "lastName": [
+            "Rahman"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3830-5160",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pharmacology, University of Cambridge , Cambridge, UK."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2699-1979",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6784-5214",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3830-5160",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "3075566"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Channels (Austin, Tex.)"
+          ],
+          "ISOAbbreviation": [
+            "Channels (Austin)"
+          ],
+          "medlineAbbreviation": [
+            "Channels (Austin)"
+          ],
+          "NLMid": [
+            "101321614"
+          ],
+          "ISSN": [
+            "1933-6950"
+          ],
+          "ESSN": [
+            "1933-6969"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "94-127"
+  ],
+  "abstractText": [
+    "Acid-sensing ion channel 3 (ASIC3) belongs to the epithelial sodium channel/degenerin (ENaC/DEG) superfamily. There are 7 different ASIC subunits encoded by 5 different genes. Most ASIC subunits form trimeric ion channels that upon activation by extracellular protons mediate a transient inward current inducing cellular excitability. ASIC subunits exhibit differential tissue expression and biophysical properties, and the ability of subunits to form homo- and heteromeric trimers further increases the complexity of currents measured and their pharmacological properties. ASIC3 is of particular interest, not only because it exhibits high expression in sensory neurones, but also because upon activation it does not fully inactivate: a transient current is followed by a sustained current that persists during a period of extracellular acidity, i.e. ASIC3 can encode prolonged acidosis as a nociceptive signal. Furthermore, certain mediators sensitize ASIC3 enabling smaller proton concentrations to activate it and other mediators can directly activate the channel at neutral pH. Moreover, there is a plethora of evidence using transgenic mouse models and pharmacology, which supports ASIC3 as being a potential target for development of analgesics. This review will focus on current understanding of ASIC3 function to provide an overview of how ASIC3 contributes to physiology and pathophysiology, examining the mechanisms by which it can be modulated, and highlighting gaps in current understanding and future research directions."
+  ],
+  "affiliation": [
+    "Department of Pharmacology, University of Cambridge , Cambridge, UK."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "review-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "21973"
+          ],
+          "agency": [
+            "Versus Arthritis"
+          ],
+          "acronym": [
+            "VAC_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "BB/R006210/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "acronym": [
+            "BB_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Ion channels",
+        "Analgesia",
+        "pH",
+        "Inflammation",
+        "Pain",
+        "Nociception",
+        "Acidosis",
+        "Asic3",
+        "Acid-sensing Ion Channel 3"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/19336950.2020.1852831"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7801124"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7801124?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refsnp",
+        "uniprot",
+        "pdb"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2020-12-01"
+  ],
+  "firstIndexDate": [
+    "2020-12-02"
+  ],
+  "fullTextReceivedDate": [
+    "2021-01-23"
+  ],
+  "dateOfRevision": [
+    "2021-01-22"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

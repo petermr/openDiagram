@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="abs0001">
+ <p>The Notch signaling pathway is an important conserved pathway for normal homeostasis during development. However, targeted deletion of Notch4 (
+  <italic>Notch4
+   <sup>d1</sup>
+  </italic>) or Notch3 (
+  <italic>Notch3
+   <sup>d1</sup>
+  </italic>) in mice is not lethal. In fact, both 
+  <italic>Notch4
+   <sup>d1</sup>
+  </italic> and 
+  <italic>Notch3
+   <sup>d1</sup>
+  </italic> mice develop normally and are fertile. Here we present RNA seq analysis of differential gene expression in the kidneys of 
+  <italic>Notch4
+   <sup>d1</sup>
+  </italic> mice versus the 
+  <italic>Notch3</italic>
+  <sup>
+   <italic>d1</italic>
+  </sup> mice, all on FVB background. Kidneys were collected from 
+  <italic>Notch4
+   <sup>d1</sup>
+  </italic> and 
+  <italic>Notch3</italic>
+  <sup>
+   <italic>d1</italic>
+  </sup> littermates at 3 months of age. RNA sequencing was carried out. The raw data were analyzed for differential gene expression using a negative binomial generalized linear model in the DeSeq2 software package. We used 
+  <italic>P</italic>-value ≤0.05 and an absolute fold change of 1.5 or greater to identify top upregulated and downregulated genes in 
+  <italic>Notch4</italic>
+  <sup>
+   <italic>d1</italic>
+  </sup> mice compared to 
+  <italic>Notch3</italic>
+  <sup>
+   <italic>d1</italic>
+  </sup> mice. The data provided will indentify targets of Notch3 and Notch4 signaling, specifically in kidney diseases where Notch3 or Notch4 are abberantly or redundantly expressed.
+ </p>
+</abstract>

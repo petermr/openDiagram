@@ -1,0 +1,4 @@
+0: For gene expression analysis, only uniquely mapped reads were used.
+1: The  DESeq package in R software 73 was used to classify substantially and differentially expressed genes (DEGs) according to the stringent significance test for the automated gene expression profiling earlier described by Anders and Hubers 74.
+2: False discovery rate (FDR) was adopted for the error rate adjustment in multiple significance tests 75.
+3: If the log 2fold change (FC) was > 1.5 and the FDR was < 0.05, the miRNAs and lncRNAs were considered to be differentially expressed.

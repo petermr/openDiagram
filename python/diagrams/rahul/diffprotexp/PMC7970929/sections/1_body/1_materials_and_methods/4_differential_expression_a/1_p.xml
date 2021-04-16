@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">DESeq, a R package was used for differential expression calculation
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup>. DESeq provides methods to test for differential gene expression using a prototype based on negative binomial distribution and a shrinkage estimator for the distribution's variance. Sequencing (uneven library size/depth) bias among the samples was removed by library normalization using size factor calculation in DESeq.
+</p>

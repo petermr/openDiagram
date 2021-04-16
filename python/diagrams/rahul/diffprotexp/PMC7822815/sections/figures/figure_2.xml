@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Fig. 2</label>
+ <caption>
+  <title>Knockdown of 
+   <italic>RUNX1/RUNX1T1</italic> causes changes in exon-exon linkages in leukemic cells.
+  </title>
+  <p>
+   <bold>a</bold> Vulcano plot showing differential splicing of exons identified by limma/diffSplice algorithm. Orange rhombi indicated differentially used exon-exon junctions (diffEEJs) with more than 2-fold change and 
+   <italic>q</italic> &lt; 0.1. 
+   <bold>b</bold> Venn diagramme showing the overlap between diffEEJs identified by limma/diffSplice and JunctionSeq algorithms. 
+   <bold>c</bold> Venn diagramme showing overlap of genes with diffUEs identified by limma/diffSplice and JunctionSeq algorithms. 
+   <bold>d</bold> Pie charts showing the classification of diffEEJs and non-differential exon-exon junctions (non-diffEEJs) according to the modes of alternative splicing. Numbers indicate the percentage of splicing events assigned to a particular mode of splicing. Complex splicing means several (two or more) alternative splicing events occurred simultaneously. 
+   <bold>e</bold> Distribution of the splice sites with diffEEJs and non-diffEEJs among the various functional types of exons. P-values were calculated with 
+   <italic>χ</italic>
+   <sup>2</sup> test. Panels 
+   <bold>a</bold> to 
+   <bold>e</bold> are based on data from Kasumi-1 cells.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20848_Fig2_HTML" id="d32e811" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

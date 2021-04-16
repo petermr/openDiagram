@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0002" orientation="portrait" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>Biological characteristics of certain nucleases in mycoplasmas</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+  </colgroup>
+  <tbody>
+   <tr>
+    <td align="left">Species
+     <hr/>
+    </td>
+    <td align="left">Name
+     <hr/>
+    </td>
+    <td align="left">Divalent cation
+     <hr/>
+    </td>
+    <td align="left">Inhibitory agent
+     <hr/>
+    </td>
+    <td align="left">Subcellular location
+     <hr/>
+    </td>
+    <td align="left">Nuclease activity
+     <hr/>
+    </td>
+    <td align="left">Substrates
+     <hr/>
+    </td>
+    <td align="left">References
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. pneumoniae</italic>
+    </td>
+    <td align="left">Mpn133
+     <sup>a</sup>
+    </td>
+    <td align="left">Ca
+     <sup>2+</sup>
+    </td>
+    <td align="left">Mg
+     <sup>2+</sup>,Mn
+     <sup>2+</sup>, K
+     <sup>+</sup>, Na
+     <sup>+</sup>
+    </td>
+    <td align="left">Membrane-associated</td>
+    <td align="left">Undefined</td>
+    <td align="left">RNA, ssDNA, dsDNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0132">132</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Mpn491</td>
+    <td align="left">Mg
+     <sup>2+</sup>
+    </td>
+    <td align="left">Zn
+     <sup>2+</sup>, EDTA
+    </td>
+    <td align="left">Secreted</td>
+    <td align="left">DNase</td>
+    <td align="left">DNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0136">136</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. genitalium</italic>
+    </td>
+    <td align="left">MG_186 
+     <sup>a,b</sup>
+    </td>
+    <td align="left">Ca
+     <sup>2+</sup>
+    </td>
+    <td align="left">Zn
+     <sup>2+</sup>, Mn
+     <sup>2+</sup>, EGTA, EDTA
+    </td>
+    <td align="left">Membrane-associated</td>
+    <td align="left">Endo-/Exo-</td>
+    <td align="left">RNA, ssDNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0133">133</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. hominis</italic>
+    </td>
+    <td align="left">MHO_0730
+     <sup>b</sup>
+    </td>
+    <td align="left">Ca
+     <sup>2+</sup>
+    </td>
+    <td align="left">Mg
+     <sup>2+</sup>, K
+     <sup>+</sup>, Na
+     <sup>+</sup>
+    </td>
+    <td align="left">Membrane-exposed</td>
+    <td align="left">Endo-/Exo-</td>
+    <td align="left">RNA. dsDNA, ssDNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0135">135</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. penetrans</italic>
+    </td>
+    <td align="left">P40</td>
+    <td align="left">Ca
+     <sup>2+</sup>, Mg
+     <sup>2+</sup>
+    </td>
+    <td align="left">Zn
+     <sup>2+</sup>, Mn
+     <sup>2+</sup>, EGTA, EDTA
+    </td>
+    <td align="left">Membrane, intracellular</td>
+    <td align="left">Endo-</td>
+    <td align="left">RNA. dsDNA, ssDNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0128">128</xref>,
+     <xref ref-type="bibr" rid="cit0129">129</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. bovis</italic>
+    </td>
+    <td align="left">MnuA</td>
+    <td align="left">Ca
+     <sup>2+</sup>, Mg
+     <sup>2+</sup>
+    </td>
+    <td align="left">Undefined</td>
+    <td align="left">Membrane-exposed</td>
+    <td align="left">Endo-/Exo-</td>
+    <td align="left">plasmid DNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0121">121</xref>,
+     <xref ref-type="bibr" rid="cit0137">137</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">MbovNase</td>
+    <td align="left">Ca
+     <sup>2+</sup>
+    </td>
+    <td align="left">Undefined</td>
+    <td align="left">Secreted, membrane-bound</td>
+    <td align="left">Endo-</td>
+    <td align="left">RNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0131">131</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. hyopneumoniae</italic>
+    </td>
+    <td align="left">Mhp379 
+     <sup>a,b</sup>
+    </td>
+    <td align="left">Ca
+     <sup>2+</sup>
+    </td>
+    <td align="left">Mg
+     <sup>2+</sup>, K
+     <sup>+</sup>, Na
+     <sup>+</sup>
+    </td>
+    <td align="left">Membrane-exposed</td>
+    <td align="left">Endo-/Exo-</td>
+    <td align="left">RNA, ssDNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0126">126</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Mhp597
+     <sup>a</sup>
+    </td>
+    <td align="left">Ca
+     <sup>2+</sup>, Mg
+     <sup>2+</sup>
+    </td>
+    <td align="left">Undefined</td>
+    <td align="left">Secreted</td>
+    <td align="left">Undefined</td>
+    <td align="left">RNA, ssDNA, dsDNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0125">125</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. hyorhinis</italic>
+    </td>
+    <td align="left">Undefined</td>
+    <td align="left">Ca
+     <sup>2+</sup>, Mg
+     <sup>2+</sup>
+    </td>
+    <td align="left">Zn
+     <sup>2+</sup>, EGTA, EDTA
+    </td>
+    <td align="left">Undefined</td>
+    <td align="left">Endo-</td>
+    <td align="left">internucleosomal DNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0127">127</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. gallisepticum</italic>
+    </td>
+    <td align="left">MGA_0676</td>
+    <td align="left">Ca
+     <sup>2+</sup>
+    </td>
+    <td align="left">Mg
+     <sup>2+</sup>, Cu
+     <sup>2+</sup>
+    </td>
+    <td align="left">Membrane-exposed</td>
+    <td align="left">Endo-/Exo-</td>
+    <td align="left">plasmid DNA, ssDNA, dsDNA, RNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0130">130</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. agalactiae</italic>
+    </td>
+    <td align="left">MAG_5040
+     <sup>b,c</sup>
+    </td>
+    <td align="left">Mg
+     <sup>2+</sup>
+    </td>
+    <td align="left">Ca
+     <sup>2+</sup>
+    </td>
+    <td align="left">Membrane-exposed</td>
+    <td align="left">Endo-/Exo-</td>
+    <td align="left">ssDNA, dsDNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0134">134</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">M. meleagridis</italic>
+    </td>
+    <td align="left">Mm19</td>
+    <td align="left">Mg
+     <sup>2+</sup>
+    </td>
+    <td align="left">Undefined</td>
+    <td align="left">Membrane-exposed</td>
+    <td align="left">Endo-/Exo-/RNase</td>
+    <td align="left">ssDNA</td>
+    <td align="left">[
+     <xref ref-type="bibr" rid="cit0123">123</xref>]
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tfn0004">
+   <p>a. thermostable nucleases</p>
+  </fn>
+  <fn id="tfn0005">
+   <p>b. show sugar-nonspecific nucleases activity</p>
+  </fn>
+  <fn id="tfn0006">
+   <p>c. nuclease activity can be enhanced by Na
+    <sup>+</sup> and K
+    <sup>+</sup>
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

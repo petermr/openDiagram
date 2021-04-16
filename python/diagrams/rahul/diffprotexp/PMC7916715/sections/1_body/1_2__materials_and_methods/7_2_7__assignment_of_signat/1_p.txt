@@ -1,0 +1,3 @@
+0: All component genes in the LE multigene panel were examined for an association with PC progression (relapse) using multivariate Cox proportional hazards (PH) regression with the R survival package.
+1: The panel scores for individual patients were given using Sum (coef 1  gene 1exp + coef 2  gene 2exp + ... ...+ coef n  gene nexp,  n = 10), where coef 1 ... coef n are the coefs of individual genes and gene 1exp ... ... gene nexp are the expression of individual genes.
+2: Cutoff point to stratify tumors with high and risk of PC relapse was estimated using Maximally Selected Rank Statistics (the Maxstat package) in R.

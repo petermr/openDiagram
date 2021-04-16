@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="T1">
+ <label>Table 1</label>
+ <caption>
+  <p>Differential expressed proteins identified by MALDI-TOF-MS among the four groups of Caco-2 cells</p>
+ </caption>
+ <table frame="hsides" rules="groups" border="1">
+  <colgroup>
+   <col align="left"/>
+   <col align="left"/>
+   <col align="center"/>
+   <col align="center"/>
+   <col align="center"/>
+  </colgroup>
+  <thead valign="top">
+   <tr>
+    <th align="left">
+     <bold>Accession number</bold>
+    </th>
+    <th align="left">
+     <bold>Protein name</bold>
+    </th>
+    <th align="center">
+     <bold>Protein MW</bold>
+    </th>
+    <th align="center">
+     <bold>Protein PI</bold>
+    </th>
+    <th align="center">
+     <bold>Protein score (C.I. %)</bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" valign="bottom">sp|P61086|UBE2K_HUMAN
+     <hr/>
+    </td>
+    <td align="left" valign="bottom">Ubiquitin-conjugating enzyme E2
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">22,392.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5.33
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">97.79
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="bottom">sp|P48637|GSHB_HUMAN
+     <hr/>
+    </td>
+    <td align="left" valign="bottom">Glutathione synthetase
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">52,352.3
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5.67
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">95.54
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="bottom">sp|P60174|TPIS_HUMAN
+     <hr/>
+    </td>
+    <td align="left" valign="bottom">Triosephosphate isomerase
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">30,771.7
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5.65
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">98.91
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="bottom">sp|P40227|TCPZ_HUMAN
+     <hr/>
+    </td>
+    <td align="left" valign="bottom">T-complex protein 1 subunit zeta
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">57,987.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">6.23
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">95.65
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="bottom">sp|P20700|LMNB1_HUMAN
+     <hr/>
+    </td>
+    <td align="left" valign="bottom">Lamin-B1
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">66,367.6
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5.11
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">99.43
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="bottom">sp|P52597|HNRPF_HUMAN
+     <hr/>
+    </td>
+    <td align="left" valign="bottom">Heterogeneous nuclear ribonucleoprotein F
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">45,642.9
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">5.38
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">99.95
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">sp|P00441|SODC_HUMAN</td>
+    <td align="left">Superoxide dismutase [Cu-Zn]</td>
+    <td align="center">15,925.9</td>
+    <td align="center">5.7</td>
+    <td align="center">96.30</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

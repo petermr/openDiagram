@@ -1,0 +1,7 @@
+0: The corresponding signal abundance of the protein in each sample is detected by mass spectrometry technology.
+1: The LFQ intensity of the protein in each sample is obtained by the non-standard quantitative calculation method, and the relative quantitative value of each sample is obtained according to the protein LFQ intensity between different samples.
+2: The first step is to calculate the proteins differential expression between the two samples in the comparison group.
+3: First, calculate the average of each samples quantitative value in multiple replicates, and then calculate the ratio of the average between the two samples, which is taken as the final differential expression of the comparison group.
+4: The second step is to calculate the significance  P-value of the proteins differential expression in the two samples.
+5: First, take the relative quantitative value of each sample to log2 (to make the data conform to the normal distribution), and then use the two-sample two-tailed T-test method to calculate a  p-value.
+6: When  p-value< 0.05, the change of differential expression exceeding 1.5 is used as the change threshold for significant up-regulation, and the change threshold for significant down-regulation is less than 1/1.5.

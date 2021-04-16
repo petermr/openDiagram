@@ -1,0 +1,4 @@
+0: The resulting peptides were subjected to LCMS/MS analysis using a capillary LC system (Magic2002; Michrom BioResources, Auburn, CA, USA) coupled to an inline nanoelectrospraymass spectrometer (LCQAdvantage; Thermo Finnegan, Waltham, MA, USA) with a silica-coated glass capillary tube (PiclTip; New Objective, Woburn, MA, USA) to obtain a peptide mass fingerprint.
+1: Raw LCMS/MS data files were searched by both Mascot and X!Tandem for identification.
+2: To generate a statistically valid list of proteins, Scaffold was used to accommodate differences of algorithm and score calculation by the two search engines [ 20].
+3: Each protein identified was assigned a biological process based on information from the international protein index (IPI) human database (European Bioinformatics Institute, 2011) and the Gene Ontology (GO) database (National Center for Biotechnology Information, 2011).

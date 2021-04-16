@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">For Gene Ontology Enrichment (GO) analyses, we used Metascape [
+ <xref ref-type="bibr" rid="CR51">51</xref>] with default parameters. To reduce the confounding effect on gene expression derived from variable overexpression of the proteins from the plasmids across samples, we removed the terms that were associated with the expression of FOXL2 and/or SMAD3. In order to do so, we performed Gene Set Enrichment Analysis (GSEA) and identified gene ontology terms significantly associated with FOXL2 and/or SMAD3. In detail, the GSEA tool (
+ <ext-link ext-link-type="uri" xlink:href="http://www.broad.mit.edu/gsea" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.broad.mit.edu/gsea</ext-link>) for continuous phenotypes was used to identify gene annotation categories correlated with the genes of interest
+ <italic>.</italic> For each gene of interest (FOXL2 or SMAD3), GSEA was run with the expression of that gene across samples set as the “continuous phenotype”; significant gene annotation sets with activity coordinated to the select gene were identified with adjusted 
+ <italic>p</italic>-value &lt; 0.25. The list of significant gene annotation sets is provided in Additional file 
+ <xref rid="MOESM2" ref-type="media">2</xref>: Table S1. These annotation terms were removed from the results obtained with Metascape, 
+ <italic>i.e.</italic> from each list of terms enriched for differentially expressed genes throughout this investigation.
+</p>

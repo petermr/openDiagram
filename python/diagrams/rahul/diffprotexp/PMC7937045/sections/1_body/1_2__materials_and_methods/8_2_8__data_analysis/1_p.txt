@@ -1,0 +1,12 @@
+0: The MS/MS spectra were searched using the Proteome Discoverer 2.2 against a nonredundant Sequest database (released in January 2010; Homo sapiens, 20,367 entries).
+1: For protein identification, we set thresholds of 10 ppm for intact peptide tolerance masses and 0.02 Da for fragment ions.
+2: The analysis allowed for two missed cleavages from the trypsin digest, and iTRAQ (N-terminal, 144 Da), iTRAQ (Lys, 144 Da), oxidized methionine (16 Da), and carbamidomethyl (C, 57 Da) were set as potential variable modifications.
+3: Each peptide integrated intensity was normalized to the sum of its channel intensities.
+4: The normalized channels were averaged over all peptides of a protein, and the standard deviation of the mean was determined for each normalized channel of a peptide.
+5: The results of the SEQUEST database search for each reversed-phase elution were further analyzed (Table  S1, serum; Table  S2, urine).
+6: A difference multiple greater than 1.3 or less than 0.77 in serum and that greater than 1.5 or less than 0.67 in urine were considered statistically significant.
+7: The clinical characteristics were compared using Student's  t test, Fisher's exact test, or Wilcoxon rank test, whichever was appropriate.
+8: The concentrations of transmembrane protein 143, cadherin 5, fibronectin 1, and collectin-11 in the different stages of lung cancer were compared to those of the control group using Student's  t test.
+9: Data are expressed as the mean  standard deviation (SD).
+10: Results were analyzed using SPSS 8.0 software and Origin 8.5 statistics.
+11: The analysis of variance was performed to determine any significant differences ( P  0.05).

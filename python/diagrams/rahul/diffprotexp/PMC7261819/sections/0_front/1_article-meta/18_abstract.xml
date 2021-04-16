@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract abstract-type="graphical">
+ <title>Graphical Abstract</title>
+ <p/>
+ <p>
+  <bold>Highlights</bold>
+ </p>
+ <p>
+  <list list-type="bullet">
+   <list-item>
+    <p>DEqMS is a method for statistical analysis of quantitative MS-data.</p>
+   </list-item>
+   <list-item>
+    <p>Variance estimates based on the actual MS-data structure.</p>
+   </list-item>
+   <list-item>
+    <p>Improved statistical power and accuracy in protein differential analysis.</p>
+   </list-item>
+   <list-item>
+    <p>DEqMS is available as a user-friendly R package in Bioconductor.</p>
+   </list-item>
+  </list>
+ </p>
+</abstract>

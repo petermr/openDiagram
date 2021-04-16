@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">The transcriptome libraries (Supplementary Table 
+ <xref rid="MOESM7" ref-type="media">S2</xref>) were constructed using the Illumina mRNA-Seq sample preparation kit, and sequenced on Illumina NovaSeq 6000 at LC-Bio as previously described
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. Bioinformatics analysis of transcriptome-seq was performed as previously described
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. For details, see Methods 
+ <xref rid="MOESM5" ref-type="media">S1</xref>. Gene expression level was normalised in FPKM (Fragments Per Kilobase Million). The edgeR package was used to identify differentially expressed genes (DEGs) at 
+ <italic>P</italic> value &lt; 0.05 using chi-square (n × n). Fold-change calculations were performed for paired-comparisons made between treatment groups.
+</p>

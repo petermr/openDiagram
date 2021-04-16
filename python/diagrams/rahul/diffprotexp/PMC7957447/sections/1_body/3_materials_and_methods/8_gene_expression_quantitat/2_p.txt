@@ -1,0 +1,3 @@
+0: DEseq2 (v1.4.5) was used to analyze differential mRNA expression by setting sex and age as confounders.
+1: Genes with a BenjaminiHochberg  p-adjust value < 0.05 were defined as significantly differentially expressed.
+2: Functional enrichment analyses, including GO term and KEGG pathway, were performed using Metascape with default parameters ( p-value cutoff: 0.01; min enrichment: 1.5; pathway: GO Biological Process and KEGG Pathway) [ 27].

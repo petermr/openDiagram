@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig6" position="float" orientation="portrait">
+ <label>Figure 6.</label>
+ <caption>
+  <title>Alternative polyadenylation (APA) differences explain genes differentially expressed at protein level but not in mRNA.</title>
+  <p>APA likely mediates functional differences post-translationally. (
+   <bold>a</bold>) Number of genes with isoform-level differences (ID), differences in APA at polyadenylation sites (PAS) level (PAS), or at both levels (Both) differentially expressed in protein (5% FDR) but not mRNA (5% FDR). Genes with differentially expressed protein reported in 
+   <xref rid="bib39" ref-type="bibr">Khan et al., 2013</xref>. (
+   <bold>b</bold>) Proportion of genes with differential usage at PAS level (1251 genes), isoform diversity level (426 genes), or both (454 genes) differentially expressed in protein (5% FDR) but not mRNA (5% FDR). (
+   <bold>c</bold>) Genes reported in (a) separated by genes differentially translated at 5% FDR. Differentially translated genes reported in 
+   <xref rid="bib81" ref-type="bibr">Wang et al., 2018b</xref>. (
+   <bold>d</bold>) Genes differentially expressed in protein but not in mRNA, colored by differences in APA. Proportion of genes in the set differentially translated at 5% FDR.
+  </p>
+ </caption>
+ <graphic xlink:href="elife-62548-fig6" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig6s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 6—figure supplement 1.</label>
+   <caption>
+    <title>Enrichment of 3' UTR polyadenylation sites (PAS) in genes differentially expressed in protein but not in mRNA.</title>
+    <p>Genic location enrichments for the PAS in genes differentially expressed at protein level but not mRNA level among all differentially used PAS. p-values were calculated with a hypergeometric test.</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig6-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig6s2" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 6—figure supplement 2.</label>
+   <caption>
+    <title>
+     <xref ref-type="fig" rid="fig6">Figure 6</xref> without genes affected by liftover.
+    </title>
+    <p>(
+     <bold>A</bold>) Number of genes with differences in isoform diversity, polyadenylation sites (PAS) usage, or both differentially expressed in protein (5% FDR) but not in mRNA (5% FDR). Genes differentially expressed in protein from Khan et al. (
+     <bold>B</bold>) Proportion of genes with differential isoform diversity, PAS usage, or both that are differentially expressed in protein (5% FDR) but not mRNA (5% FDR). (
+     <bold>C</bold>) Genes reported in (A), separated by genes differentially translated at 5% FDR. Differentially translated gene reported in Wang et al. (
+     <bold>D</bold>) Genes differentially expressed in protein but not in mRNA, colored by differences in APA. Proportion of genes in the set differentially translated at 5% FDR.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig6-figsupp2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

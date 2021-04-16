@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In regard to the enrichment results of the KEGG pathway, the expression spectra of the KEGG pathway were made using gsva of the GSVA package (
+ <xref rid="B28" ref-type="bibr">28</xref>), which were used to visualize heat maps. In addition, ggcor of the ggcor package was used to visualize the correlation pathway map.
+</p>

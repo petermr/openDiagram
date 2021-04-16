@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par67">Now we consider the weighted case of the MFVS problem. Given a graph 
+ <italic>S</italic>, where each vertex 
+ <inline-formula id="IEq56">
+  <alternatives>
+   <tex-math id="M117">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i \in S.V$$\end{document}</tex-math>
+   <math id="M118">
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>∈</mo>
+     <mi>S</mi>
+     <mo>.</mo>
+     <mi>V</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq56.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> has a weight 
+ <inline-formula id="IEq57">
+  <alternatives>
+   <tex-math id="M119">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i.w$$\end{document}</tex-math>
+   <math id="M120">
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>.</mo>
+     <mi>w</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq57.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (in what follows, we use 
+ <inline-formula id="IEq58">
+  <alternatives>
+   <tex-math id="M121">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$w_i$$\end{document}</tex-math>
+   <math id="M122">
+    <msub>
+     <mi>w</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq58.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> to denote 
+ <inline-formula id="IEq59">
+  <alternatives>
+   <tex-math id="M123">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i.w$$\end{document}</tex-math>
+   <math id="M124">
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>.</mo>
+     <mi>w</mi>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq59.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> if there is no ambiguity), the WMFVS problem is to find an MFVS of 
+ <italic>S</italic> that has the maximum total weight. Assuming we already know the size 
+ <italic>s</italic> of the MFVS (by ILP1 or some estimation method such as that of [
+ <xref ref-type="bibr" rid="CR31">31</xref>] or [
+ <xref ref-type="bibr" rid="CR32">32</xref>]), the following formulation optimizes the selected MFVS as a WMFVS:
+</p>

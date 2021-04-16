@@ -1,0 +1,3 @@
+0: To solve the WMFVS problem, we modified an exact algorithm from [ 17], which first compresses the original graph [ 18,  19] to reduce the number of vertices and arcs and then utilizes an integer linear programming (ILP) method for the compressed graph.
+1: Our WMFVS method can be roughly separated into three parts, i.e., graph compression, MFVS size determination and output optimization.
+2: The first two parts use the same idea as [ 17], and the third part uses the modified ILP method to select the maximum weighted MFVS.

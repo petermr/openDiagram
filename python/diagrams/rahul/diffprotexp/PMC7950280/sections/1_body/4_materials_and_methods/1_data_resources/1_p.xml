@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Rosetta / Merck Human 44k microarray analyses of postmortem prefrontal cortex samples were performed with RNA extracted from 157 HD patients and 157 age- and gender-matched controls in the GSE33000 dataset of Gene Expression Omnibus (GEO, 
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/geo/</ext-link>) database [
+ <xref rid="r36" ref-type="bibr">36</xref>]. A gene corresponding to multiple probes eliminated those with low expression and retained the highest one. The normalization processing on the gene expression data was conducted using normalizeBetweenArrays function in the limma package of R software version 3.6.2 [
+ <xref rid="r37" ref-type="bibr">37</xref>].
+</p>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Preparation of cDNA libraries and Illumina novaseq 6000 RNA sequencing were performed at Novogene Co., LTD (Beijing, China). Differential expression analysis of HCAECs incubated with serum from acute KD patients with CAL (KD-CAL+, 
+ <italic>n</italic> = 3) or KD without CAL (KD-CAL–, 
+ <italic>n</italic> = 3) was performed using the DESeq2 R package (1.16.1). DESeq2 provides statistical routines for determining differential expression in digital gene expression data using a model based on the negative binomial distribution. Genes with a 
+ <italic>P</italic>-value &lt;0.05 found by DESeq2 were assigned as differentially expressed.
+</p>

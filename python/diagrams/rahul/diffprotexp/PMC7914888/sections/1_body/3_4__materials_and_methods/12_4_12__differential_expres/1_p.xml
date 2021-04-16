@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To determine the differentially expressed miRNAs, we used the DESeq2 (Bioconductor) library in R code; a library specialized in the analysis of count data that provides methods to evaluate the differential expression using the negative binomial distribution and the shrinkage estimator for the distribution of the variance [
+ <xref rid="B116-ijms-22-01591" ref-type="bibr">116</xref>,
+ <xref rid="B117-ijms-22-01591" ref-type="bibr">117</xref>]. We normalized the data by calculating each factor’s weight using a function that calculates its weight. With the normalized data, we proceeded to calculate the miRNAs differentially expressed using the “results” function DESeq2 considering differences in expression of those miRNAs with 
+ <italic>p</italic>-value adjusted correction multiple, smaller testing 5% [
+ <xref rid="B117-ijms-22-01591" ref-type="bibr">117</xref>]. The miRNAs’ differential expression values were visualized in heat maps using the “pheatmap” function in R code [
+ <xref rid="B118-ijms-22-01591" ref-type="bibr">118</xref>]; we represented the differential expression data in a grid. Each row represented a miRNA, and each column represented a sample. The squares’ color and intensity represent changes (not absolute values) of the expression. For illustration purposes, unsupervised clustering using the hierarchical clustering based on the Lance-Williams algorithm was performed using the library pheatmap Raivo Kolde (2019). pheatmap: R package version 1.0.12. 
+ <uri xlink:href="https://CRAN.R-project.org/package=pheatmap" xmlns:xlink="http://www.w3.org/1999/xlink">https://CRAN.R-project.org/package=pheatmap</uri> and Cluster Analysis Basics and Extensions. R package version 2.1.0. in R [
+ <xref rid="B119-ijms-22-01591" ref-type="bibr">119</xref>,
+ <xref rid="B120-ijms-22-01591" ref-type="bibr">120</xref>].
+</p>

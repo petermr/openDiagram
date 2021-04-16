@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">For small proteins with less than 200 amino acids, the structures were predicted using an ab initio structure prediction tool QUARK [
+ <xref ref-type="bibr" rid="CR60">60</xref>], which has shown top-ranking performance in the Critical Assessment of Structure Prediction (CASP) experiments consistently [
+ <xref ref-type="bibr" rid="CR61">61</xref>]. Since template-free, ab initio methods work best on small proteins, QUARK has a size limit of 200 amino acids, and larger proteins were predicted using the template-based I-TASSER [
+ <xref ref-type="bibr" rid="CR62">62</xref>] instead.
+</p>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <p>Effects of 6-h DCVC treatment on HTR-8/SVneo gene expression. HTR-8/SVneo cells were treated with 0 (control), 10 or 20 µM DCVC for 6 h. Differential gene expression was analyzed with the edgeR package for R using quasi-likelihood general linear modeling. 
+   <italic>N</italic> = 4 independent experiments. 
+   <bold>a</bold> Spaghetti plot depicting concentration-dependent expression levels for genes meeting FDR and logFC criteria. Blue dots represent individual genes differentially expressed (FDR &lt; 0.05 + logFC &gt; 0.35 [FC &gt; 1.3]) with 20 µM DCVC. Lines connecting blue dots to green dots represent the same respective genes with 10 µM expression levels. 
+   <bold>b</bold> Venn diagram depicting overlap in differentially expressed genes (FDR &lt; 0.05 + logFC &gt; 0.35 [FC &gt; 1.3]) at 6 h, between 0 (control) vs.10 µM and 0 vs. 20 µM DCVC. Volcano plots comparing differential gene expression between non-treated (controls) cells and 6-h DCVC-treated cells are depicted for: 
+   <bold>c</bold> 10 µM DCVC and 
+   <bold>d</bold> 20 µM DCVC. Genes were considered differentially expressed with FDR &lt; 0.05. Genes fulfilling the following criteria are denoted by color: FDR &lt; 0.05 only (light pink), logFC magnitude &gt; 0.35 [FC &gt; 1.3] only (dark pink), and FDR &lt; 0.05 + logFC magnitude &gt; 0.35 [FC &gt; 1.3] (red). Upregulated and downregulated gene sets from the MSigDB hallmark collection were identified through GSEA as enriched after treatment with 
+   <bold>e</bold> 10 µM DCVC or 
+   <bold>f</bold> 20 µM DCVC. Relevant characteristics of enriched gene sets are reported as: FDR, biological pathway categories and normalized enrichment score (NES). Gene sets are ordered according to magnitude of NES and were considered enriched with an FDR &lt; 0.05
+  </p>
+ </caption>
+ <graphic xlink:href="204_2021_3011_Fig3_HTML" id="MO3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

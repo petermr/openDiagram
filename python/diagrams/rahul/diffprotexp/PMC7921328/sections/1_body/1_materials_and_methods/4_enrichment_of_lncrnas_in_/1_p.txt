@@ -1,0 +1,5 @@
+0: To evaluate the enrichment of individual lncRNAs in specific biological features, the correlations between individual lncRNAs and genes of biological features were first calculated by Spearmans correlation.
+1: LncRNA-gene pairs with | Rs| > 0.3 and FDR< 0.05 were considered as significant correlated pairs.
+2: For each lncRNA, Fishers exact test and hypergeometric test was employed to estimate the difference of significant pairs between interested features and the others across 50 hallmarks and 95 immune-related biological processes, respectively.
+3: LncRNA-hallmark pairs with OR > 1 and FDR< 0.05 were considered as significantly enriched pairs.
+4: The corresponding lncRNAs were assigned to significant paired biological features as highly associated lncRNAs.

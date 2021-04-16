@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>Zhanqin</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zhu</surname>
+   <given-names>Hongtao</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Hu</surname>
+   <given-names>Jianguo</given-names>
+  </name>
+  <address>
+   <email>angeljianguo@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.452438.c</institution-id>
+   <institution>Department of Anesthesiology &amp; Center for Brain Science, </institution>
+   <institution>The First Affiliated Hospital of Xi’an Jiaotong University, </institution>
+  </institution-wrap>Xi’an, China 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.203458.8</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 8653 0555</institution-id>
+   <institution>Department of Obstetrics and Gynecology, Second Affiliated Hospital, </institution>
+   <institution>Chongqing Medical University, </institution>
+  </institution-wrap>Chongqing, China 
+ </aff>
+</contrib-group>

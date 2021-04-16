@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">The sensory epithelium of the inner ear converts the mechanical energy of sound to electro-chemical energy recognized by the central nervous system. This process is mediated by receptor cells known as hair cells that express proteins in a timely fashion with the onset of hearing.</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">The proteomes of 3, 14, and 30 day-old mice cochlear sensory epithelia were revealed, using label-free quantitative mass spectrometry (LTQ-Orbitrap). Statistical analysis using a one-way ANOVA followed by Bonferroni’s 
+   <italic>post-hoc</italic> test was used to show significant differences in protein expression. Ingenuity Pathway Analysis was used to observe networks of differentially expressed proteins, their biological processes, and associated diseases, while Cytoscape software was used to determine putative interactions with select biomarker proteins. These candidate biomarkers were further verified using Western blotting, while coimmunoprecipitation was used to verify putative partners determined using bioinformatics.
+  </p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">We show that a comparison across all three proteomes shows that there are 447 differentially expressed proteins, with 387 differentially expressed between postnatal day 3 and 30. Ingenuity Pathway Analysis revealed ~ 62% of postnatal day 3 downregulated proteins are involved in neurological diseases. Several proteins are expressed exclusively on P3, including Parvin α, Drebrin1 (Drb1), Secreted protein acidic and cysteine rich (SPARC), Transmembrane emp24 domain-containing protein 10 (Tmed10). Coimmunoprecipitations showed that Parvin and SPARC interact with integrin-linked protein kinase and the large conductance calcium-activated potassium channel, respectively.</p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par4">Quantitative mass spectrometry revealed the identification of numerous differentially regulated proteins over three days of postnatal development. These data provide insights into functional pathways regulating normal sensory and supporting cell development in the cochlea that include potential biomarkers. Interacting partners of two of these markers suggest the importance of these complexes in regulating cellular structure and synapse development.</p>
+ </sec>
+ <sec>
+  <title>Electronic supplementary material</title>
+  <p>The online version of this article (10.1186/s12953-018-0144-6) contains supplementary material, which is available to authorized users.</p>
+ </sec>
+</abstract>

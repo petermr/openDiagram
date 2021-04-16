@@ -1,0 +1,16 @@
+0: RaceID is an excellent tool developed by Grun and colleagues to perform different aspects of scRNA-seq data analysis, including preprocessing, sub-population identification by k-means clustering, outlier cells detection and assessing differences in gene expression across clusters [ 19, 20].
+1: On the other hand, TSCAN is a remarkable tool for in silico pseudo-time ordering implemented over cell clusters resulted mainly from model-based clustering [ 21].
+2: Both RaceID and TSCAN do not handle external RNA controls consortium (ERCC) spike-in, which can be used for accounting for cell-to-cell technical differences [ 22, 23].
+3: Furthermore, they lack features for biomarker discovery, such as networking, decision trees and gene enrichment analysis.
+4: The biomarker discovery approach enables researchers to find molecular markers and gene expression signatures for better diagnostic or prognostic techniques.
+5: Moreover, it could guide therapeutic decision-making [ 24].
+6: Thus, multiple research efforts have been directed towards biomarker discovery and a number of computational tools are available.
+7: For instance, STRING is an online resource for networking analysis with known and predicted proteinprotein interactions and functional enrichment analysis [ 25].
+8: EnrichR is a prominent tool developed in the Maayan lab for inferring knowledge about an input gene set by comparing it to annotated gene sets from over 160 libraries [ 26].
+9: Decision trees have been extensively applied for the identification of biomarkers [ 27, 28].
+10: Decision trees are transparent and interpretable predictive models but they require considerable programming skills [ 29].
+11: The RWeka package is a collection of machine learning algorithms, including decision tree analysis [ 30].
+12: The rpart package is widely used for generating recursive partitioning trees [ 31].
+13: For researchers with limited to no programming skills it can be very challenging to combine several of these tools to be able to perform a complete analysis.
+14: This is especially true for the designing of a complex computational pipeline that goes from single-cell sequencing read counts to biomarker discovery.
+15: Moreover, due to the required concatenation of heterogeneous programs and custom scripts via file-based inputs and outputs, as well as the program dependencies and version requirements, such a pipeline may suffer from reproducibility problems [ 32, 33].

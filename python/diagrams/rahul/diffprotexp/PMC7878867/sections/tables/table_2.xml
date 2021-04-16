@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Effect of transgenerational water stress on morphological traits and grain quality traits measured at harvest for two durum wheat genotypes. Means ± SE for 
+   <italic>n</italic> = 10 are shown for morphological traits. Means ± SE for 
+   <italic>n</italic> = 4 are shown for grain quality traits. Different letters (a, b, c) denote statistically significant differences among treatment groups within each genotype, using least significant difference (LSD) when 
+   <italic>P</italic> &lt; 0.05. The treatment groups are: AtCC (DBA Artemis control group parents, progeny treated with control), AtCW (DBA Artemis control group parents, progeny treated with water-deficit stress), AtWC (DBA Artemis water-deficit stress group parents, progeny treated with control), AtWW (DBA Artemis water-deficit stress group parents, progeny treated with water-deficit stress); AuCC (DBA Aurora control group parents, progeny treated with control), AuCW (DBA Aurora control group parents, progeny treated with water-deficit stress), AuWC (DBA Aurora water-deficit stress group parents, progeny treated with control), AuWW (DBA Aurora water-deficit stress group parents, progeny treated with water-deficit stress).
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left"/>
+    <th align="left">Plant height (cm)</th>
+    <th align="left">Tiller number</th>
+    <th align="left">Fertile tiller number</th>
+    <th align="left">Main spike length (cm)</th>
+    <th align="left">Grain protein content (GPC%)</th>
+    <th align="left">Total starch content (TSC%)</th>
+    <th align="left">Flour yellowness (*b)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">AtCC</td>
+    <td align="left">74.37 ± 1.24 a</td>
+    <td align="left">6.10 ± 0.31 b</td>
+    <td align="left">6.00 ± 0.26 b</td>
+    <td align="left">9.27 ± 0.13</td>
+    <td align="left">11.55 ± 0.13 c</td>
+    <td align="left">61.14 ± 0.88</td>
+    <td align="left">22.74 ± 0.39 a</td>
+   </tr>
+   <tr>
+    <td align="left">AtCW</td>
+    <td align="left">69.25 ± 0.76 b</td>
+    <td align="left">4.90 ± 0.23 c</td>
+    <td align="left">4.80 ± 0.20 c</td>
+    <td align="left">9.18 ± 0.09</td>
+    <td align="left">14.83 ± 1.05 ab</td>
+    <td align="left">57.76 ± 1.27</td>
+    <td align="left">21.46 ± 0.25 b</td>
+   </tr>
+   <tr>
+    <td align="left">AtWC</td>
+    <td align="left">66.83 ± 1.28 bc</td>
+    <td align="left">7.25 ± 0.31 a</td>
+    <td align="left">7.00 ± 0.38 a</td>
+    <td align="left">8.94 ± 0.25</td>
+    <td align="left">13.05 ± 0.32 bc</td>
+    <td align="left">59.13 ± 1.30</td>
+    <td align="left">23.22 ± 0.26 a</td>
+   </tr>
+   <tr>
+    <td align="left">AtWW</td>
+    <td align="left">64.30 ± 1.15 c</td>
+    <td align="left">5.78 ± 0.40 bc</td>
+    <td align="left">5.33 ± 0.37 bc</td>
+    <td align="left">8.61 ± 0.28</td>
+    <td align="left">15.21 ± 0.77 a</td>
+    <td align="left">57.17 ± 1.02</td>
+    <td align="left">22.78 ± 0.28 a</td>
+   </tr>
+   <tr>
+    <td align="left">F pr</td>
+    <td align="left"> &lt; 0.001</td>
+    <td align="left"> &lt; 0.001</td>
+    <td align="left"> &lt; 0.001</td>
+    <td align="left">0.091</td>
+    <td align="left">0.008</td>
+    <td align="left">0.116</td>
+    <td align="left">0.008</td>
+   </tr>
+   <tr>
+    <td align="left">LSD</td>
+    <td align="left">3.209</td>
+    <td align="left">0.918</td>
+    <td align="left">0.869</td>
+    <td align="left">n.a</td>
+    <td align="left">2.071</td>
+    <td align="left">n.a</td>
+    <td align="left">0.919</td>
+   </tr>
+   <tr>
+    <td align="left">AuCC</td>
+    <td align="left">72.11 ± 1.61</td>
+    <td align="left">7.00 ± 0.42 a</td>
+    <td align="left">6.80 ± 0.42 a</td>
+    <td align="left">8.08 ± 0.17</td>
+    <td align="left">12.99 ± 0.55 bc</td>
+    <td align="left">55.73 ± 0.89</td>
+    <td align="left">21.16 ± 0.23 a</td>
+   </tr>
+   <tr>
+    <td align="left">AuCW</td>
+    <td align="left">69.97 ± 0.84</td>
+    <td align="left">4.90 ± 0.35 b</td>
+    <td align="left">4.60 ± 0.40 b</td>
+    <td align="left">8.40 ± 0.20</td>
+    <td align="left">15.39 ± 1.28 a</td>
+    <td align="left">53.72 ± 2.66</td>
+    <td align="left">20.09 ± 0.22 b</td>
+   </tr>
+   <tr>
+    <td align="left">AuWC</td>
+    <td align="left">71.48 ± 1.11</td>
+    <td align="left">6.20 ± 0.44 a</td>
+    <td align="left">6.10 ± 0.41 a</td>
+    <td align="left">8.47 ± 0.15</td>
+    <td align="left">12.25 ± 0.20 c</td>
+    <td align="left">53.78 ± 1.59</td>
+    <td align="left">20.54 ± 0.37 ab</td>
+   </tr>
+   <tr>
+    <td align="left">AuWW</td>
+    <td align="left">73.07 ± 1.05</td>
+    <td align="left">4.90 ± 0.23 b</td>
+    <td align="left">4.80 ± 0.20 b</td>
+    <td align="left">8.08 ± 0.17</td>
+    <td align="left">15.08 ± 0.61 ab</td>
+    <td align="left">51.82 ± 2.04</td>
+    <td align="left">19.88 ± 0.22 b</td>
+   </tr>
+   <tr>
+    <td align="left">F pr</td>
+    <td align="left">0.322</td>
+    <td align="left"> &lt; 0.001</td>
+    <td align="left"> &lt; 0.001</td>
+    <td align="left">0.258</td>
+    <td align="left">0.033</td>
+    <td align="left">0.571</td>
+    <td align="left">0.025</td>
+   </tr>
+   <tr>
+    <td align="left">LSD</td>
+    <td align="left">n.a</td>
+    <td align="left">1.062</td>
+    <td align="left">1.053</td>
+    <td align="left">n.a</td>
+    <td align="left">2.357</td>
+    <td align="left">n.a</td>
+    <td align="left">0.827</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

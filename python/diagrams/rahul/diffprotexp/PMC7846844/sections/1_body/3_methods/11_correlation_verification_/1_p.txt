@@ -1,0 +1,9 @@
+0: We used the longissimus dorsi muscle from nine 55-day-old embryos of Yorkshire pigs and performed RT-qPCR to verify the expression correlation between DELs and PTGs.
+1: For quantitative verification, in the first step, total RNA was extracted using Trizol reagent (Invitrogen, Life Technologies, CA, USA) and performed according to the manufacturer's instructions.
+2: To prevent the degradation of RNA, before cDNA synthesis, we measured the purity and concentration of total RNA at 260 and 280 nm with a microphotometer (Thermo, NanoDrop 2000, United States).
+3: At the same time, we conduct a gel electrophoresis test to detect whether the RNA is degraded.
+4: There are usually three frequency bands, of which 28S and 18S are clear, and the brightness ratio is about 2:1, indicating that there is no degradation.
+5: Next, cDNA synthesis was performed using the RevertAid First Strand cDNA Synthesis Kit (Thermo, Wuhan, Cat#k1622).According to the manufacturer's instructions, qPCR for DELs and PTGs detection in Roche LightCyler 480 system (Roche, Mannheinm, Germany) was performed using SYBR Green (CWBIO, Beijing, China, CW0957).
+6: Ten pairs of RT-qPCR primers were designed using the Primer 5 program (Tables  S5,  S6).
+7: 18S rRNA is used as an endogenous control gene.
+8: The RT-qPCR data were analyzed using the 2 CT method and R scripts were used to perform related linear regression analysis.

@@ -1,0 +1,14 @@
+0: To identify biological pathways and processes impacted by DCVC treatment, gene set enrichment analyses were performed using GSEA software (Mootha et al.
+1: 2003; Subramanian et al.
+2: 2005).
+3: For each gene set within a specified Molecular Signatures Database (MSigDB, RRID: SCR_016863, version 7.0) curated collection, we used GSEA pre-ranked analyses to compute permutation-based tests that calculate a Normalized Enrichment Score (NES) and statistical FDR (Benjamini and Hochberg  1995; Liberzon et al.
+4: 2011).
+5: Additionally, the GSEA analyses returned a list of enriched genes for each gene set based on differential gene expression.
+6: The enriched gene list for a gene set was derived from all genes annotated to that gene set.
+7: Here, the hallmark gene set collection was used in the analyses because it represents well-defined biological pathways, processes and states with strong gene expression concordance and reduced redundancy often seen within other collections (Liberzon et al.
+8: 2015).
+9: To conduct separate analyses for HTR-8/SVneo cells and placental villous explants, 12,855 (HTR-8/SVneo) or 13,972 (villous explants) genes included in the differential gene expression tests, respectively, were pre-ranked according to the logFC value for each gene.
+10: All genes (regardless of FDR or log 2fold change values) thus, cutoffs do not impact the enriched pathways.
+11: We used 1000 permutations to test for enrichment within each of the hallmark gene sets.
+12: Because our genes were ranked based on logFC values, the magnitude of the NES above or below 0 corresponds directly with DCVC-induced up-regulation or down-regulation, respectively, of an enriched pathway or process.
+13: Gene sets representing an FDR < 0.05 were considered significantly enriched (positive or negative).

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Chen</surname>
+   <given-names>Jingyi</given-names>
+  </name>
+  <address>
+   <email>jychen95@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Song</surname>
+   <given-names>Yuxuan</given-names>
+  </name>
+  <address>
+   <email>yuxuan_song2013@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Li</surname>
+   <given-names>Mei</given-names>
+  </name>
+  <address>
+   <email>meimei7810@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>Yu</given-names>
+  </name>
+  <address>
+   <email>zhangyu_zxy@bjmu.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Lin</surname>
+   <given-names>Tingru</given-names>
+  </name>
+  <address>
+   <email>tingru_lin1997@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Sun</surname>
+   <given-names>Jie</given-names>
+  </name>
+  <address>
+   <email>sjsslc@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Wang</surname>
+   <given-names>Di</given-names>
+  </name>
+  <address>
+   <email>ellen_wd@sina.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Liu</surname>
+   <given-names>Yulan</given-names>
+  </name>
+  <address>
+   <email>liuyulan@pkuph.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <name>
+   <surname>Guo</surname>
+   <given-names>Jingzhu</given-names>
+  </name>
+  <address>
+   <email>gjzhxx@sina.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7573-4979</contrib-id>
+  <name>
+   <surname>Yu</surname>
+   <given-names>Weidong</given-names>
+  </name>
+  <address>
+   <email>weidongyu@bjmu.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411634.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0632 4559</institution-id>
+   <institution>Department of Central Laboratory &amp; Institute of Clinical Molecular Biology, </institution>
+   <institution>Peking University People’s Hospital, </institution>
+  </institution-wrap>Beijing, 100044 China 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411634.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0632 4559</institution-id>
+   <institution>Department of Gastroenterology, </institution>
+   <institution>Peking University People’s Hospital, </institution>
+  </institution-wrap>Beijing, 100044 China 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.412645.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1757 9434</institution-id>
+   <institution>Department of Urology, </institution>
+   <institution>Tianjin Medical University General Hospital, </institution>
+  </institution-wrap>Tianjin, 300052 China 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.411634.5</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0632 4559</institution-id>
+   <institution>Department of Paediatrics, </institution>
+   <institution>Peking University People’s Hospital, </institution>
+  </institution-wrap>Beijing, 100044 China 
+ </aff>
+</contrib-group>

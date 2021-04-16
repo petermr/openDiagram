@@ -1,0 +1,587 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="iso-abbrev">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2198-3844</journal-id><journal-id journal-id-type="publisher-id">ADVS</journal-id><journal-title-group><journal-title>Advanced Science</journal-title></journal-title-group><issn pub-type="epub">2198-3844</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7887593</article-id><article-id pub-id-type="doi">10.1002/advs.202003526</article-id><article-id pub-id-type="publisher-id">ADVS2293</article-id><article-categories><subj-group subj-group-type="overline"><subject>Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Communications</subject></subj-group></article-categories><title-group><article-title>In Well&#x02010;Treated Celiac Patients Low&#x02010;Level Mucosal Inflammation Predicts Response to 14&#x02010;day Gluten Challenge</article-title></title-group><contrib-group><contrib id="advs2293-cr-0001" contrib-type="author" corresp="yes"><name><surname>Stamnaes</surname><given-names>Jorunn</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0257-2112</contrib-id><xref ref-type="aff" rid="advs2293-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="advs2293-aff-0002">
+<sup>2</sup>
+</xref><address><email>jorunn.stamnas@medisin.uio.no</email></address></contrib><contrib id="advs2293-cr-0002" contrib-type="author"><name><surname>Stray</surname><given-names>Daniel</given-names></name><xref ref-type="aff" rid="advs2293-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="advs2293-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="advs2293-cr-0003" contrib-type="author"><name><surname>Stensland</surname><given-names>Maria</given-names></name><xref ref-type="aff" rid="advs2293-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="advs2293-cr-0004" contrib-type="author"><name><surname>Sarna</surname><given-names>Vikas K.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4982-986X</contrib-id><xref ref-type="aff" rid="advs2293-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="advs2293-cr-0005" contrib-type="author"><name><surname>Nyman</surname><given-names>Tuula A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8787-5886</contrib-id><xref ref-type="aff" rid="advs2293-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="advs2293-cr-0006" contrib-type="author"><name><surname>Lundin</surname><given-names>Knut E. A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1713-5545</contrib-id><xref ref-type="aff" rid="advs2293-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="advs2293-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="advs2293-cr-0007" contrib-type="author" corresp="yes"><name><surname>Sollid</surname><given-names>Ludvig M.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8860-704X</contrib-id><xref ref-type="aff" rid="advs2293-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="advs2293-aff-0002">
+<sup>2</sup>
+</xref><address><email>l.m.sollid@medisin.uio.no</email></address></contrib></contrib-group><aff id="advs2293-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">K.G. Jebsen Coeliac Disease Research Centre</named-content>
+<institution>University of Oslo</institution>
+<city>Oslo</city>
+<country country="NO">Norway</country>
+</aff><aff id="advs2293-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Immunology</named-content>
+<institution>University of Oslo and Oslo University Hospital&#x02010;Rikshospitalet</institution>
+<city>Oslo</city>
+<postal-code>0372</postal-code>
+<country country="NO">Norway</country>
+</aff><aff id="advs2293-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Gastroenterology</named-content>
+<institution>Oslo University Hospital&#x02010;Ullev&#x000e5;l</institution>
+<city>Oslo</city>
+<postal-code>0450</postal-code>
+<country country="NO">Norway</country>
+</aff><aff id="advs2293-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Gastroenterology</named-content>
+<institution>Oslo University Hospital&#x02010;Rikshospitalet</institution>
+<city>Oslo</city>
+<postal-code>0372</postal-code>
+<country country="NO">Norway</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>E&#x02010;mail: <email>jorunn.stamnas@medisin.uio.no</email>; <email>l.m.sollid@medisin.uio.no</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>04</day><month>1</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2021</year></pub-date><volume>8</volume><issue>4</issue><issue-id pub-id-type="doi">10.1002/advs.v8.4</issue-id><elocation-id>2003526</elocation-id><history><date date-type="received"><day>24</day><month>9</month><year>2020</year></date><date date-type="rev-recd"><day>03</day><month>11</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright">&#x000a9; 2021 Wiley&#x02010;VCH GmbH<copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2021 The Authors. <italic>Advanced Science</italic> published by Wiley&#x02010;VCH GmbH</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ADVS-8-2003526.pdf"/><abstract><title>Abstract</title><p>In celiac disease (CeD), gluten activates adaptive immune cells that cause damage to the small intestinal mucosa. Histological evaluation of intestinal biopsies allows for grading of disease severity. CeD can effectively be treated with a life&#x02010;long gluten&#x02010;free diet. Gluten challenge of treated CeD patients is used to confirm diagnosis and to test drug efficacy in clinical trials, but patients respond with different magnitudes to the same gluten challenge. In this study of 19 well&#x02010;treated CeD patients, proteome analysis of total tissue or isolated epithelial cell compartment from formalin&#x02010;fixed paraffin embedded biopsies collected before and after 14&#x02010;day gluten challenge demonstrates that patients with strong mucosal response to challenge have signs of ongoing tissue inflammation already before challenge. This low&#x02010;level tissue inflammation at baseline is paralleled by increased gluten specific CD4+ T&#x02010;cell frequencies in the gut and presence of a low&#x02010;level blood inflammatory profile. Thus, apparently well&#x02010;treated CeD is frequently not entirely quiescent, with presence of low&#x02010;grade inflammation and antigluten immunity in the gut mucosa. Histology assessment alone appears insufficient to judge full recovery and gut mucosal healing of CeD patients. The findings raise a concern whether a seemingly proper gluten&#x02010;free diet is able to curb gut inflammation in all CeD patients.</p></abstract><abstract id="advs2293-abs-0001" abstract-type="graphical"><p>Spatially resolved tissue proteome analysis reveals low&#x02010;level inflammation and antigluten immunity in gut of some patients that are apparently well&#x02010;treated with gluten&#x02010;free diet. These patients develop strong mucosal response to short&#x02010;term gluten challenge.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="ADVS-8-2003526-g005.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="advs2293-kwd-0001">celiac disease</kwd><kwd id="advs2293-kwd-0002">gluten challenge</kwd><kwd id="advs2293-kwd-0003">laser capture microdissection</kwd><kwd id="advs2293-kwd-0004">mass spectrometry</kwd><kwd id="advs2293-kwd-0005">tissue proteomics</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Stiftelsen Kristian Gerhard Jebsen </institution><institution-id institution-id-type="open-funder-registry">10.13039/100007793</institution-id></institution-wrap></funding-source><award-id>SKGJ&#x02010;MED&#x02010;017</award-id></award-group><award-group id="funding-0002"><funding-source>South&#x02010;Eastern Norway Regional Health Authority</funding-source><award-id>2013046</award-id></award-group><award-group id="funding-0003"><funding-source>South&#x02010;Eastern Norway Regional Health Authority</funding-source><award-id>2016113</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><page-count count="7"/><word-count count="3502"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 17, 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.7 mode:remove_FC converted:17.02.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="advs2293-cit-0015">
+<string-name>
+<given-names>J.</given-names>
+<surname>Stamnaes</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stray</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Stensland</surname>
+</string-name>, <string-name>
+<given-names>V. K.</given-names>
+<surname>Sarna</surname>
+</string-name>, <string-name>
+<given-names>T. A.</given-names>
+<surname>Nyman</surname>
+</string-name>, <string-name>
+<given-names>K. E. A.</given-names>
+<surname>Lundin</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <article-title>In Well&#x02010;Treated Celiac Patients Low&#x02010;Level Mucosal Inflammation Predicts Response to 14&#x02010;day Gluten Challenge</article-title>. <source xml:lang="en">Adv. Sci.</source>
+<year>2021</year>, <volume>8</volume>, <elocation-id>2003526</elocation-id>
+<pub-id pub-id-type="doi">10.1002/advs.202003526</pub-id>
+</mixed-citation>
+</p></notes></front><body><p>Celiac disease (CeD) is a prevalent disorder that severely affects the upper part of the small intestine and impairs health and quality of life of many children and adults. The disease occurs in genetically susceptible individuals when they mount a harmful, adaptive immune response towards dietary gluten proteins. The only current treatment is a life&#x02010;long gluten&#x02010;free diet. All CeD patients have in their intestine proinflammatory CD4+ T cells that recognize posttranslationally modified gluten peptides in context of the disease associated MHC class II molecules HLA&#x02010;DQ2.5, DQ8, or DQ2.2.<sup>[</sup>
+<xref rid="advs2293-bib-0001" ref-type="ref">
+<sup>1</sup>
+</xref>, <xref rid="advs2293-bib-0002" ref-type="ref">
+<sup>2</sup>
+</xref>
+<sup>]</sup> Even on a gluten&#x02010;free diet, low numbers of gluten specific CD4+ T&#x02010;cells remain in the memory T&#x02010;cell compartment.<sup>[</sup>
+<xref rid="advs2293-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref>
+<sup>]</sup> These cells are rapidly reactivated when CeD patients eat gluten again.<sup>[</sup>
+<xref rid="advs2293-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref>, <xref rid="advs2293-bib-0004" ref-type="ref">
+<sup>4</sup>
+</xref>
+<sup>]</sup> CeD is therefore a life&#x02010;long condition that requires strict dietary measures. The proinflammatory T&#x02010;cell response to gluten results in small intestinal inflammation and mucosal destruction that causes clinical features such as diarrhea and nutrient deficiency. Mucosal affection is assessed from histological evaluation of small intestinal biopsies, where the morphology often is graded according to the categorical Marsh score.<sup>[</sup>
+<xref rid="advs2293-bib-0005" ref-type="ref">
+<sup>5</sup>
+</xref>
+<sup>]</sup> Marsh 0 represents normal morphology. Marsh 1 reflects normal morphology but with increased number of intraepithelial lymphocytes (IELs). Marsh 2 is similar to Marsh 1 but with addition of crypt hyperplasia. Marsh 3 has in addition blunting of the villi. Upon treatment with a gluten&#x02010;free diet, most patients recover with normalization of the intestinal mucosa to Marsh 0 or 1. Reintroduction of dietary gluten to treated patients can be done in the clinical contexts to confirm the diagnosis of CeD, and is used in clinical trials to evaluate drug efficacy where changes in intestinal morphology serve as read&#x02010;out. However, well&#x02010;treated CeD patients can respond very different to the same gluten challenge regime. This points to differences between patients that are not captured from routine clinical evaluation. Quantitative proteomic analysis of biopsy tissues allows for in&#x02010;depth and unbiased characterization, and can reveal differences that may be not be visible from histological evaluation. Here we have performed spatially resolved proteome analysis of intestinal biopsies collected before and after short&#x02010;term gluten challenge of 19 well&#x02010;treated CeD patients.<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> Only some of the patients developed a strong mucosal response to gluten on day 14. We demonstrate that these patients have in their gut signs of ongoing, low&#x02010;grade antigluten immunity already before gluten challenge. These patients may therefore have a &#x0201c;head start&#x0201d; upon gluten challenge initiation. Our findings raise the question whether a standard gluten&#x02010;free diet is sufficient to fully curb the gluten&#x02010;specific immune response in all CeD patients.</p><p>We analyzed global protein expression in total tissue and laser capture microdissected epithelium from formalin fixed paraffin embedded biopsies collected before and after gluten challenge (<bold>Figure</bold>&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">
+<bold>1</bold>A</xref>).<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> All study participants were adults (&#x0003e;20 years old) with biopsy&#x02010;confirmed CeD that had followed a gluten&#x02010;free diet for more than 24 months (Table S1, Experimental Section, Supporting Information).<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> Patients that participated in the trial were considered to be in complete remission with Marsh scores 0 or 1 and negative serum anti&#x02010;TG2 IgA.<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> Nineteen of 20 enrolled patients completed the challenge, consuming one m&#x000fc;sli bar with 5.7&#x000a0;g gluten protein per day for 14 days. Small intestinal biopsies were collected before challenge and on day 14. Biopsies collected from one patient before challenge was in a blinded reevaluation reclassified to Marsh 3.<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> We collected tissue from the biopsy blocks for protein extraction and digestion followed by liquid chromatography and mass spectrometry for protein identification and label&#x02010;free quantification.<sup>[</sup>
+<xref rid="advs2293-bib-0007" ref-type="ref">
+<sup>7</sup>
+</xref>
+<sup>]</sup> From total tissue protein digests we quantified 4301 proteins (Figure S1, Supporting Information). Unsupervised clustering segregated samples from 8 biopsies of which seven were collected after challenge (Figure&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">1B</xref>). For the remaining patients, no clear separation was seen for biopsies collected before and after challenge (Figure&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">1B</xref>). Based on tissue proteome expression, we classified the patients as &#x0201c;responders&#x0201d; (<italic>n</italic> = 7) or &#x0201c;non&#x02010;responders&#x0201d; (<italic>n</italic> = 12) to the gluten challenge (Figure&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">1B</xref>; Table S1, Supporting Information). All five patients that developed Marsh 3 after challenge were &#x0201c;responders.&#x0201d; Gluten induced differential expression of 258 proteins (115 up, 143 down) in &#x0201c;responders&#x0201d; compared to 38 proteins in &#x0201c;non&#x02010;responders&#x0201d; (23 up, 15 down) (Figure&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">1C</xref>; Table S2, Supporting Information). Neutrophil&#x02010;derived and inflammatory proteins increased significantly in &#x0201c;responders,&#x0201d; while the majority of proteins with reduced expression were of presumed enterocyte origin. We therefore addressed how gluten challenge affected the intestinal epithelial compartment specifically. Epithelial cell layer samples spanning the entire crypt&#x02010;villus&#x02010;axis (&#x02248;2000 cells/sample) were isolated from tissue sections by laser capture microdissection followed by mass spectrometry&#x02010;based proteome analysis (Figures S2 and S3, Supporting Information). Based on the expression of 2404 proteins, epithelial samples separated as &#x0201c;responders&#x0201d; and &#x0201c;non&#x02010;responders&#x0201d; similar to total tissue samples (Figure&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">1D</xref>; Figure S3, Supporting Information). Baseline samples from &#x0201c;responders&#x0201d; also displayed skewing along principle component 1 (PC1) (Figure&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">1D</xref>). Gluten induced differential expression of 441 proteins in the &#x0201c;responder&#x0201d; epithelium (233 down, 208 up) compared to only 8 proteins in the epithelium of &#x0201c;non&#x02010;responders&#x0201d; (3 up, 5 down) (Figure&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">1E</xref>; Table S2, Supporting Information).</p><fig fig-type="Figure" xml:lang="en" id="advs2293-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Tissue proteome analysis identifies CeD patients with strong mucosal response to gluten. A) Schematic presentation of the study. B) Principle component analysis (PCA) plot of total tissue samples based on expression of 4301 proteins. Each point represents one biopsy (<italic>n</italic> = 35). Number shows Marsh score for biopsy. C) Differential expression of total tissue proteins after versus before challenge. D) Principle component analysis plot of epithelial cell layer samples based on expression of 2404 proteins from two independent experiments. Each point represents one laser capture microdissected sample (<italic>n</italic> = 49 from 23 biopsies). Number indicates patient biopsy. Color indicates responder classification from (B). E) Differential expression of epithelial proteins after versus before challenge. C,E) Two&#x02010;sample Student <italic>t</italic>&#x02010;test, FDR = 0.05, Benjamini Hochberg adjusted. Significant proteins (<italic>P</italic> &#x0003c; 0.01) for &#x0201c;Responders&#x0201d; are indicated in blue (up) and red (down).</p></caption><graphic id="nlm-graphic-3" xlink:href="ADVS-8-2003526-g001"/></fig><p>Unexpectedly, we observed larger difference between &#x0201c;responder&#x0201d; and &#x0201c;non&#x02010;responder&#x0201d; samples at baseline with skewed expression of many of the same proteins that changed in response to gluten (<bold>Figure</bold>&#x000a0;<xref rid="advs2293-fig-0002" ref-type="fig">
+<bold>2</bold>A</xref>,<xref rid="advs2293-fig-0002" ref-type="fig">B</xref>; Table S2, Supporting Information). Biological pathways enriched in &#x0201c;responders&#x0201d; versus &#x0201c;non&#x02010;responders&#x0201d; at baseline correlated with biological pathways enriched in &#x0201c;responders&#x0201d; after versus before challenge (Figure&#x000a0;<xref rid="advs2293-fig-0002" ref-type="fig">2C</xref>; Table S3, Supporting Information). &#x0201c;Shared Down&#x0201d; pathways reflect loss of intestinal absorptive function which agrees with reduced expression of several enterocyte proteins (Figure&#x000a0;<xref rid="advs2293-fig-0002" ref-type="fig">2D</xref>; Table S3 and Figure S4, Supporting Information). &#x0201c;Shared Up&#x0201d; pathways represent innate immune activation, interferon/cytokine responses and complement/acute phase processes (Figure&#x000a0;<xref rid="advs2293-fig-0002" ref-type="fig">2E</xref>; Table S3 and Figure S4, Supporting Information). Proteome analysis of laser capture microdissected samples from only the apical part of the epithelium from a subset of baseline biopsies separated "responders" and "non&#x02010;responders" (Figure&#x000a0;<xref rid="advs2293-fig-0002" ref-type="fig">2F</xref>; Figure S5, Supporting Information) and confirmed an increase in complement cascade proteins in the epithelium of &#x0201c;responders&#x0201d; at baseline (Figure&#x000a0;<xref rid="advs2293-fig-0002" ref-type="fig">2G</xref>; Figures S6 and S7, Supporting Information). These findings demonstrate that inflammatory processes, of which many are similar to those induced by gluten, are already ongoing in the intestinal epithelium of &#x0201c;responders&#x0201d; at baseline.</p><fig fig-type="Figure" xml:lang="en" id="advs2293-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Patients with strong response to gluten have low&#x02010;level inflammation in the gut before challenge. A) Differential expression of epithelial proteins comparing &#x0201c;responder&#x0201d; and &#x0201c;non&#x02010;responder&#x0201d; biopsies at baseline. Color indicate significant proteins from Figure&#x000a0;<xref rid="advs2293-fig-0001" ref-type="fig">1E</xref> (&#x0201c;Responders&#x0201d; after versus before challenge,<italic>P</italic> &#x0003c; 0.01, two&#x02010;sample Student <italic>t</italic>&#x02010;test, FDR = 0.05, Benjamini Hochberg adjusted). B) Pearson correlation of fold change protein expression for significant proteins (&#x0201c;Responders&#x0201d; after versus before challenge, <italic>P</italic> &#x0003c; 0.01). C) 2D&#x02010;categorical enrichment for biological pathways from <italic>t</italic>&#x02010;test fold change in expression. D,E) Comparison of expression for proteins that map to the indicated pathways (median <italic>z</italic>&#x02010;score per responder group). F) Principle component analysis (PCA) plot of apical epithelial cell layer samples based on expression of 1151 proteins. Each point represents one biopsy (<italic>n</italic> = 11). G) Expression of proteins that map to KEGG complement and coagulation cascade in baseline samples from the epithelial proteome and the apical epithelial proteome dataset (epithelial dataset; ten pathway proteins, each point represents median <italic>z</italic>&#x02010;scored protein expression per biopsy (<italic>n</italic> = 13); apical epithelial dataset, five pathway proteins, each dot represent <italic>z</italic>&#x02010;scored expression per sample (<italic>n</italic> = 19) from 11 biopsies)(Welch <italic>t</italic>&#x02010;test). A_R, after &#x0201c;responder&#x0201d;; B_R, before &#x0201c;responder&#x0201d;; A_NR, after &#x0201c;non&#x02010;responder&#x0201d;; B_NR, before &#x0201c;non&#x02010;responder&#x0201d;; R, &#x0201c;responder&#x0201d;; NR, &#x0201c;non&#x02010;responder&#x0201d;; GOBP, Gene Ontology Biological Processes; GOCC, Gene Ontology Cellular Compartment; GOMF, Gene Ontology Molecular Function; KEGG, Kyoto Encyclopedia of Genes and Genomes</p></caption><graphic id="nlm-graphic-5" xlink:href="ADVS-8-2003526-g002"/></fig><p>The small intestinal lesion in CeD is characterized by epithelial changes such as increased frequency of IELs, crypt hyperplasia, and villous blunting. Villous height to crypt depth (Vh:Cd) ratio is a continuous morphometric variable that, similar to the Marsh score, can reflect gluten&#x02010;induced pathology.<sup>[</sup>
+<xref rid="advs2293-bib-0008" ref-type="ref">
+<sup>8</sup>
+</xref>
+<sup>]</sup> The majority of cells in the epithelium are absorptive enterocytes that come from stem cells in the proliferative crypts that divide and mature as they migrate up to the villi tips. Inflammation, increased epithelial turnover, and crypt hyperplasia as occurs in CeD results in fewer mature enterocytes which affects intestinal function. We mapped our proteome data to single cell RNA&#x02010;sequencing&#x02010;derived gene&#x02010;sets for &#x0201c;mature enterocytes&#x0201d; and &#x0201c;goblet cells&#x0201d; to compare cell&#x02010;type protein expression with histological measures (Table S4, Supporting Information).<sup>[</sup>
+<xref rid="advs2293-bib-0009" ref-type="ref">
+<sup>9</sup>
+</xref>, <xref rid="advs2293-bib-0010" ref-type="ref">
+<sup>10</sup>
+</xref>
+<sup>]</sup> &#x0201c;Mature enterocyte&#x0201d; proteins showed lowest expression in biopsies from &#x0201c;responders&#x0201d; after challenge, with an opposite expression pattern for &#x0201c;goblet cell&#x0201d; proteins (<bold>Figure</bold>&#x000a0;<xref rid="advs2293-fig-0003" ref-type="fig">
+<bold>3</bold>A</xref>,<xref rid="advs2293-fig-0003" ref-type="fig">B</xref>; Figure S8, Supporting Information). Median expression of &#x0201c;mature enterocyte&#x0201d; proteins showed a positive correlation with Vh:Cd ratio previously measured on the same biopsies while &#x0201c;goblet cell&#x0201d; protein expression showed negative correlation Vh:Cd ratio (Figure&#x000a0;<xref rid="advs2293-fig-0003" ref-type="fig">3C</xref>,<xref rid="advs2293-fig-0003" ref-type="fig">D</xref>). These plots show clearly that &#x0201c;responders&#x0201d; differ from &#x0201c;non&#x02010;responders&#x0201d; already at baseline. These baseline differences were captured by the Vh:Cd ratio (Figure&#x000a0;<xref rid="advs2293-fig-0003" ref-type="fig">3E</xref>), but not by the categorical Marsh score (Figure&#x000a0;<xref rid="advs2293-fig-0003" ref-type="fig">3F</xref>) or IEL frequency (Figure&#x000a0;<xref rid="advs2293-fig-0003" ref-type="fig">3G</xref>). Thus, the patients that respond strongly to gluten have altered epithelial protein expression at baseline, with activation of crypt cells in the absence of IEL infiltration.</p><fig fig-type="Figure" xml:lang="en" id="advs2293-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Epithelial cell&#x02010;type protein expression indicate mild crypt hyperplasia in &#x0201c;responders&#x0201d; at baseline. A) Position of proteins mapped to &#x0201c;mature enterocytes&#x0201d; and &#x0201c;goblet cells&#x0201d; along principle component 1 (PC1) in total tissue and epithelial proteome dataset. B) Expression of cell&#x02010;type specific proteins (median <italic>z</italic>&#x02010;score per responder group). C,D) Correlation (Pearson) between "mature enterocyte" and "goblet cell" protein expression (median <italic>z</italic>&#x02010;score per patient) with Vh:Cd ratio measured on the same biopsies from total tissue (C) and epithelial proteome (D) datasets (E&#x02013;G). Comparison of E) Vh:Cd ratio F) Marsh score, and G) IEL count between responder groups(Pairwise comparison by Mann&#x02010;Whitney U test).</p></caption><graphic id="nlm-graphic-7" xlink:href="ADVS-8-2003526-g003"/></fig><p>We next asked whether available blood parameters measured at baseline before the gluten challenge reflected this low&#x02010;level of mucosal inflammation. Serum ALAT, ALP, ASAT, CRP, ferritin, GT, Hb, and plasma TNF&#x02010;<italic>&#x003b1;</italic> were all slightly higher in &#x0201c;responders&#x0201d; compared to &#x0201c;non&#x02010;responders&#x0201d; while serum transferrin was lower in &#x0201c;responders&#x0201d; (<bold>Figure</bold>&#x000a0;<xref rid="advs2293-fig-0004" ref-type="fig">
+<bold>4</bold>A</xref>; Table S1 and Figure S9, Supporting Information). Although modest, this clinical biochemistry profile supports the notion of low&#x02010;level inflammation in &#x0201c;responders.&#x0201d; The mucosal damage in CeD is considered to be a direct consequence of the adaptive immune response to gluten. Gluten specific CD4+ T cells as detected with HLA&#x02010;DQ:gluten peptide tetramers have previously been quantified in blood, and in intestinal biopsies from a subset of patients from this gluten challenge study (Table S1, Supporting Information).<sup>[</sup>
+<xref rid="advs2293-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref>, <xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> &#x0201c;Responders&#x0201d; had higher frequency of gluten specific CD4+ T cells in the gut and in the blood at baseline compared to &#x0201c;non&#x02010;responders&#x0201d; (Figure&#x000a0;<xref rid="advs2293-fig-0004" ref-type="fig">4B</xref>). This difference was not explained by the duration of gluten&#x02010;free diet prior to gluten challenge (Figure&#x000a0;<xref rid="advs2293-fig-0004" ref-type="fig">4C</xref>). Frequency of gluten specific CD4+ T cells in the gut at baseline correlated with &#x0201c;mature enterocyte&#x0201d; protein expression, with separation of &#x0201c;responders&#x0201d; and &#x0201c;non&#x02010;responders&#x0201d; (Figure&#x000a0;<xref rid="advs2293-fig-0004" ref-type="fig">4D</xref>, top left panel). Weaker correlation was observed between &#x0201c;mature enterocyte&#x0201d; protein expression and blood T&#x02010;cell frequency at baseline, and between Vh:Cd ratio and gut or blood T&#x02010;cell frequencies (Figure&#x000a0;<xref rid="advs2293-fig-0004" ref-type="fig">4D</xref>). These data indicate that &#x0201c;responder&#x0201d; patients with ongoing low&#x02010;level inflammation at baseline also have more gluten&#x02010;specific CD4+ T cells in particular in the gut at baseline, despite long&#x02010;term treatment with gluten&#x02010;free diet.</p><fig fig-type="Figure" xml:lang="en" id="advs2293-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Presence of low&#x02010;level serum inflammation and antigluten immunity at baseline in "responder" patients. A) Comparison of clinical biochemistry and cytokines measured at baseline before challenge for &#x0201c;responders&#x0201d; and &#x0201c;non&#x02010;responders&#x0201d; (Mann&#x02010;Whitney U test). B) Frequency of gluten specific CD4+ T&#x02010;cells per million CD4+ T&#x02010;cells from gut biopsies collected at baseline (left, P2, P5, P7, P11, P12, P13, and P14)<sup>[</sup>
+<xref rid="advs2293-bib-0003" ref-type="ref">
+<sup>3</sup>
+</xref>
+<sup>]</sup> and gluten&#x02010;specific gut homing effector memory T&#x02010;cells per million CD4+ T&#x02010;cells in blood at baseline.<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> (Mann&#x02010;Whitney U test). C) Duration of gluten&#x02010;free diet before gluten challenge. D) Correlation between mature enterocyte protein expression (from total tissue data) (top row) or Vh:Cd ratio (bottom row) with gluten&#x02010;specific CD4+ T&#x02010;cell frequencies at baseline in gut (left) and blood (middle) for patients P2, P5, P7, P11, P12, P13, and P14, and blood (right) for all patients (Pearson correlation).</p></caption><graphic id="nlm-graphic-9" xlink:href="ADVS-8-2003526-g004"/></fig><p>In this study we show that quantitative proteome analysis of routine histology biopsies reveals differential presence of low&#x02010;level inflammation in the intestine of CeD patients considered to be well&#x02010;treated by gluten&#x02010;free diet. An RNASeq study of treated CeD patients undergoing gluten challenge also found differences between patients before and after gluten challenge.<sup>[</sup>
+<xref rid="advs2293-bib-0011" ref-type="ref">
+<sup>11</sup>
+</xref>
+<sup>]</sup> The patients in our study that developed clear mucosal response by day 14 of the gluten challenge had ongoing low&#x02010;level inflammation at already at baseline. Gluten specific CD4+ T cells peak in blood on day 6 after gluten intake.<sup>[</sup>
+<xref rid="advs2293-bib-0012" ref-type="ref">
+<sup>12</sup>
+</xref>
+<sup>]</sup> From the current gluten challenge, 12 of the 15 patients that were analyzed on day 6 of challenge showed more than twofold&#x000a0;increase in gluten specific CD4+ T&#x02010;cells.<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> However this relative increase hides differences in baseline cell numbers, which is likely to be a more crucial variable for development of mucosal pathology. The T&#x02010;cell autocrine cytokine IL&#x02010;2 is secreted by gluten specific CD4+ T cells upon intake of gluten and is now considered the major driver of immediate gastrointestinal symptoms to gluten in CeD patients.<sup>[</sup>
+<xref rid="advs2293-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref>
+<sup>]</sup> Also in patients from the current study, mean fold increase in plasma IL&#x02010;2 within &#x0003c;6&#x000a0;h after gluten intake correlated with baseline frequency of gluten&#x02010;specific CD4+ T cells in blood.<sup>[</sup>
+<xref rid="advs2293-bib-0013" ref-type="ref">
+<sup>13</sup>
+</xref>
+<sup>]</sup> Thus, development of symptoms and mucosal pathology in response to gluten is linked to the magnitude of antigluten immunity present at the time of gluten consumption. Conceivably, mucosal pathology may develop more uniformly in response to longer gluten challenge regimes (e.g., ten weeks), where the gluten specific CD4+ T&#x02010;cells have time to expand sufficiently in all patients.</p><p>Proteins with a clearly altered expression after a 14&#x02010;day gluten challenge are already minutely altered in the &#x0201c;responders" at baseline. The protein changes are associated with the presence of gluten&#x02010;specific CD4+ T cells in the gut mucosa. This suggests ongoing gluten immunity in these patients even in absence of mucosal changes as detectable by routine histology. Our findings suggest that in some well&#x02010;treated celiac patients on a standard gluten&#x02010;free diet there is ongoing antigluten immunity.</p><sec id="advs2293-sec-0020"><title>Experimental Section</title><sec id="advs2293-sec-0030"><sec id="advs2293-sec-0040"><sec id="advs2293-sec-0050"><p>The gluten challenge trial has previously been described by Sarna et&#x000a0;al.<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> Detailed Experimental section for the current study is found in the Supporting Information. MS data have been deposited to the ProteomeXchange Consortium<sup>[</sup>
+<xref rid="advs2293-bib-0014" ref-type="ref">
+<sup>14</sup>
+</xref>
+<sup>]</sup> via the PRIDE partner repository with the dataset identifier PXD018977.</p></sec><sec id="advs2293-sec-0060"><title>Ethical Approval</title><p>The study was approved by the regional ethical committee of South&#x02010;east Norway (ref 2013/1237) and patients had given written consent to perform the gluten challenge study.<sup>[</sup>
+<xref rid="advs2293-bib-0006" ref-type="ref">
+<sup>6</sup>
+</xref>
+<sup>]</sup> The trial was registered at ClinicalTrial.gov, NCT02464150.</p></sec></sec></sec></sec><sec sec-type="COI-statement" id="advs2293-sec-0080"><title>Conflict of Interest</title><p>KEAL has privately or via his employer been a consultant during the two last years for Chugai Pharmaceutical, Bioniz Therapeutics, Interexon Actobiotics, Amyra Biotech AG and Dr. Falk Pharma GMBH. LMS has privately or via his employer been a consultant during the two last years for Amagma Therapeutics, Chugai Pharmaceutical, Bioniz Therapeutics, Interexon Actobiotics, UCB Biopharma, Merck and GSK. The other authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><caption><p>Supporting Information</p></caption><media xlink:href="ADVS-8-2003526-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplemental Table 2</p></caption><media xlink:href="ADVS-8-2003526-s002.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplemental Table 3</p></caption><media xlink:href="ADVS-8-2003526-s003.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplemental Table 4</p></caption><media xlink:href="ADVS-8-2003526-s004.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="advs2293-sec-0070"><title>Acknowledgements</title><p>The authors thank Kjersti T. Hagen for collection of FFPE tissue sections and Eivind Gard Lund for help with initial data analysis. The PALM Microbeam is part of the Advanced Imaging Core Facility and proteomics analysis was performed at the Proteomics Core Facility, both supported by the Core Facilities program of the South&#x02010;Eastern Norway Regional Health Authority. This work was supported by a grant from Stiftelsen Kristian Gerhard Jebsen (project SKGJ&#x02010;MED&#x02010;017) and by grants from South&#x02010;Eastern Norway Regional Health Authority (projects 2013046 and 2016113).</p></ack><ref-list id="advs2293-bibl-0001"><ref id="advs2293-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="advs2293-cit-0001">
+<string-name>
+<given-names>K. E.</given-names>
+<surname>Lundin</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Scott</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Hansen</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Paulsen</surname>
+</string-name>, <string-name>
+<given-names>T. S.</given-names>
+<surname>Halstensen</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Fausa</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Thorsby</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <source xml:lang="en">J. Exp. Med.</source>
+<year>1993</year>, <volume>178</volume>, <fpage>187</fpage>.<pub-id pub-id-type="pmid">8315377</pub-id></mixed-citation></ref><ref id="advs2293-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="advs2293-cit-0002">
+<string-name>
+<given-names>A.</given-names>
+<surname>Christophersen</surname>
+</string-name>, <string-name>
+<given-names>L. F.</given-names>
+<surname>Risnes</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Dahal&#x02010;Koirala</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <source xml:lang="en">Trends Mol. Med.</source>
+<year>2019</year>, <volume>25</volume>, <fpage>836</fpage>.<pub-id pub-id-type="pmid">31331739</pub-id></mixed-citation></ref><ref id="advs2293-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="advs2293-cit-0003">
+<string-name>
+<given-names>L. F.</given-names>
+<surname>Risnes</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Christophersen</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Dahal&#x02010;Koirala</surname>
+</string-name>, <string-name>
+<given-names>R. S.</given-names>
+<surname>Neumann</surname>
+</string-name>, <string-name>
+<given-names>G. K.</given-names>
+<surname>Sandve</surname>
+</string-name>, <string-name>
+<given-names>V. K.</given-names>
+<surname>Sarna</surname>
+</string-name>, <string-name>
+<given-names>K. E.</given-names>
+<surname>Lundin</surname>
+</string-name>, <string-name>
+<given-names>S. W.</given-names>
+<surname>Qiao</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <source xml:lang="en">J. Clin. Invest.</source>
+<year>2018</year>, <volume>128</volume>, <fpage>2642</fpage>.<pub-id pub-id-type="pmid">29757191</pub-id></mixed-citation></ref><ref id="advs2293-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="advs2293-cit-0004">
+<string-name>
+<given-names>S.</given-names>
+<surname>Zuhlke</surname>
+</string-name>, <string-name>
+<given-names>L. F.</given-names>
+<surname>Risnes</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Dahal&#x02010;Koirala</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Christophersen</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <string-name>
+<given-names>K. E.</given-names>
+<surname>Lundin</surname>
+</string-name>, <source xml:lang="en">United Eur. Gastroenterol. J.</source>
+<year>2019</year>, <volume>7</volume>, <fpage>1337</fpage>.</mixed-citation></ref><ref id="advs2293-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="advs2293-cit-0005">
+<string-name>
+<given-names>M. N.</given-names>
+<surname>Marsh</surname>
+</string-name>, <source xml:lang="en">Gastroenterology</source>
+<year>1992</year>, <volume>102</volume>, <fpage>330</fpage>.<pub-id pub-id-type="pmid">1727768</pub-id></mixed-citation></ref><ref id="advs2293-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="advs2293-cit-0006">
+<string-name>
+<given-names>V. K.</given-names>
+<surname>Sarna</surname>
+</string-name>, <string-name>
+<given-names>G. I.</given-names>
+<surname>Skodje</surname>
+</string-name>, <string-name>
+<given-names>H. M.</given-names>
+<surname>Reims</surname>
+</string-name>, <string-name>
+<given-names>L. F.</given-names>
+<surname>Risnes</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Dahal&#x02010;Koirala</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <string-name>
+<given-names>K. E. A.</given-names>
+<surname>Lundin</surname>
+</string-name>, <source xml:lang="en">Gut</source>
+<year>2018</year>, <volume>67</volume>, <fpage>1606</fpage>.<pub-id pub-id-type="pmid">28779027</pub-id></mixed-citation></ref><ref id="advs2293-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="advs2293-cit-0007">
+<string-name>
+<given-names>A. E.</given-names>
+<surname>Tutturen</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>D&#x000f8;rum</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Clancy</surname>
+</string-name>, <string-name>
+<given-names>H. M.</given-names>
+<surname>Reims</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Christophersen</surname>
+</string-name>, <string-name>
+<given-names>K. E.</given-names>
+<surname>Lundin</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <string-name>
+<given-names>G. A.</given-names>
+<surname>de Souza</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Stamnaes</surname>
+</string-name>, <source xml:lang="en">Am. J. Pathol.</source>
+<year>2018</year>, <volume>188</volume>, <fpage>1563</fpage>.<pub-id pub-id-type="pmid">29684362</pub-id></mixed-citation></ref><ref id="advs2293-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="advs2293-cit-0008">
+<string-name>
+<given-names>D. C.</given-names>
+<surname>Adelman</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Murray</surname>
+</string-name>, <string-name>
+<given-names>T. T.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Maki</surname>
+</string-name>, <string-name>
+<given-names>P. H.</given-names>
+<surname>Green</surname>
+</string-name>, <string-name>
+<given-names>C. P.</given-names>
+<surname>Kelly</surname>
+</string-name>, <source xml:lang="en">Am. J. Gastroenterol.</source>
+<year>2018</year>, <volume>113</volume>, <fpage>339</fpage>.<pub-id pub-id-type="pmid">29460921</pub-id></mixed-citation></ref><ref id="advs2293-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="advs2293-cit-0009">
+<string-name>
+<given-names>Y. M.</given-names>
+<surname>Nusse</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Savage</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Marangoni</surname>
+</string-name>, <string-name>
+<given-names>A. K. M.</given-names>
+<surname>Rosendahl&#x02010;Huber</surname>
+</string-name>, <string-name>
+<given-names>T. A.</given-names>
+<surname>Landman</surname>
+</string-name>, <string-name>
+<given-names>F. J.</given-names>
+<surname>de Sauvage</surname>
+</string-name>, <string-name>
+<given-names>R. M.</given-names>
+<surname>Locksley</surname>
+</string-name>, <string-name>
+<given-names>O. D.</given-names>
+<surname>Klein</surname>
+</string-name>, <source xml:lang="en">Nature</source>
+<year>2018</year>, <volume>559</volume>, <fpage>109</fpage>.<pub-id pub-id-type="pmid">29950724</pub-id></mixed-citation></ref><ref id="advs2293-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="advs2293-cit-0010">
+<string-name>
+<given-names>A. L.</given-names>
+<surname>Haber</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Biton</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Rogel</surname>
+</string-name>, <string-name>
+<given-names>R. H.</given-names>
+<surname>Herbst</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Shekhar</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Smillie</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Burgin</surname>
+</string-name>, <string-name>
+<given-names>T. M.</given-names>
+<surname>Delorey</surname>
+</string-name>, <string-name>
+<given-names>M. R.</given-names>
+<surname>Howitt</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Katz</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Tirosh</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Beyaz</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Dionne</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Raychowdhury</surname>
+</string-name>, <string-name>
+<given-names>W. S.</given-names>
+<surname>Garrett</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Rozenblatt&#x02010;Rosen</surname>
+</string-name>, <string-name>
+<given-names>H. N.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Yilmaz</surname>
+</string-name>, <string-name>
+<given-names>R. J.</given-names>
+<surname>Xavier</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Regev</surname>
+</string-name>, <source xml:lang="en">Nature</source>
+<year>2017</year>, <volume>551</volume>, <fpage>333</fpage>.<pub-id pub-id-type="pmid">29144463</pub-id></mixed-citation></ref><ref id="advs2293-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="advs2293-cit-0011">
+<string-name>
+<given-names>V.</given-names>
+<surname>Dotsenko</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Oittinen</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Taavela</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Popp</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Peraaho</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Staff</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Sarin</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Leon</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Isola</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Maki</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Viiri</surname>
+</string-name>, <source xml:lang="en">Cell Mol. Gastroenterol. Hepatol.</source>
+<year>2021</year>, <volume>11</volume>, <fpage>13</fpage>.<pub-id pub-id-type="pmid">32745639</pub-id></mixed-citation></ref><ref id="advs2293-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="advs2293-cit-0012">
+<string-name>
+<given-names>M.</given-names>
+<surname>Raki</surname>
+</string-name>, <string-name>
+<given-names>L. E.</given-names>
+<surname>Fallang</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Brottveit</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Bergseng</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Quarsten</surname>
+</string-name>, <string-name>
+<given-names>K. E.</given-names>
+<surname>Lundin</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <source xml:lang="en">Proc. Natl. Acad. Sci. USA</source>
+<year>2007</year>, <volume>104</volume>, <fpage>2831</fpage>.<pub-id pub-id-type="pmid">17307878</pub-id></mixed-citation></ref><ref id="advs2293-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="advs2293-cit-0013">
+<string-name>
+<given-names>G.</given-names>
+<surname>Goel</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Tye&#x02010;Din</surname>
+</string-name>, <string-name>
+<given-names>S. W.</given-names>
+<surname>Qiao</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Russell</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Mayassi</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Ciszewski</surname>
+</string-name>, <string-name>
+<given-names>V. K.</given-names>
+<surname>Sarna</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>K. E.</given-names>
+<surname>Goldstein</surname>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Dzuris</surname>
+</string-name>, <string-name>
+<given-names>L. J.</given-names>
+<surname>Williams</surname>
+</string-name>, <string-name>
+<given-names>R. J.</given-names>
+<surname>Xavier</surname>
+</string-name>, <string-name>
+<given-names>K. E. A.</given-names>
+<surname>Lundin</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Jabri</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Sollid</surname>
+</string-name>, <string-name>
+<given-names>R. P.</given-names>
+<surname>Anderson</surname>
+</string-name>, <source xml:lang="en">Sci. Adv.</source>
+<year>2019</year>, <volume>5</volume>, <elocation-id>eaaw7756</elocation-id>.<pub-id pub-id-type="pmid">31457091</pub-id></mixed-citation></ref><ref id="advs2293-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="advs2293-cit-0014">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>Vizcaino</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Csordas</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>del&#x02010;Toro</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Dianes</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Griss</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Lavidas</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mayer</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Perez&#x02010;Riverol</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Reisinger</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Ternent</surname>
+</string-name>, <string-name>
+<given-names>Q. W.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Wang,H Hermjakob</surname>
+</string-name>, <source xml:lang="en">Nucleic Acids Res.</source>
+<year>2016</year>, <volume>44</volume>, <fpage>D447</fpage>.<pub-id pub-id-type="pmid">26527722</pub-id></mixed-citation></ref></ref-list></back></article>

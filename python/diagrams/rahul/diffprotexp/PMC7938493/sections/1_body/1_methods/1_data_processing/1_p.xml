@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">We downloaded RNA sequence and corresponding clinical data from the TCGA database (TCGA, 
+ <ext-link ext-link-type="uri" xlink:href="https://portal.gdc.cancer.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://portal.gdc.cancer.gov/</ext-link>), including 19 normal samples and 414 BLCA samples. The negative binomial distribution method was used to identify differentially expressed RBPs between normal and BLCA samples [
+ <xref ref-type="bibr" rid="CR10">10</xref>]. The 
+ <italic>limma</italic> package (
+ <ext-link ext-link-type="uri" xlink:href="http://www.bioconductor.org/packages/release/bioc/html/limma.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioconductor.org/packages/release/bioc/html/limma.html</ext-link>) was used for analysis. Differentially expressed RBPs were screened using the criteria of false discovery rate (FDR) &lt; 0.05 and |log2 fold-change (FC)| &gt; 1. The R package 
+ <italic>pheatmap</italic> (
+ <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/pheatmap/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://cran.r-project.org/web/packages/pheatmap/index.html</ext-link>) was used to perform bidirectional hierarchical clustering of the expression values of the differentially expressed RBPs.
+</p>

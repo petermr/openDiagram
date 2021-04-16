@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pone.0248103.g003" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0248103.g003</object-id>
+ <label>Fig 3</label>
+ <caption>
+  <title>Network of proteins affected by metformin and insulin supplementation.</title>
+  <p>Proteins that displayed a |log
+   <sub>2</sub>FC| ≥ 0.5 and/or an adjusted 
+   <italic>p</italic> value ≤ 0.05 (total number: 80) were subjected to STRING analysis and protein clusters for biological processes (
+   <bold>A</bold>, 53 proteins) or molecular functions (
+   <bold>B</bold>, 31 proteins) were identified with the GO database. (
+   <bold>A</bold>) Biological processes were divided into subsets related to cell population proliferation (red, 12 proteins), cell adhesion (blue, 20 proteins), cell migration (green, 23 proteins), and immune response (yellow, 29 proteins). A total of 27 proteins could not be assigned to any of the four biological processes (not shown). (
+   <bold>B</bold>) Identified molecular functions included growth factor (red, 12 proteins), cytokine (blue, 14 proteins), chemokine (green, 3 proteins), and signal receptor activity (yellow, 13 proteins). A total of 50 proteins could not be assigned to any of the four molecular functions (not shown).
+  </p>
+ </caption>
+ <graphic xlink:href="pone.0248103.g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Although mRNA vaccines have been effective against multiple cancers, their efficacy against pancreatic adenocarcinoma (PAAD) remains undefined. Accumulating evidence suggests that immunotyping can indicate the comprehensive immune status in tumors and their immune microenvironment, which is closely associated with therapeutic response and vaccination potential. The aim of this study was to identify potent antigens in PAAD for mRNA vaccine development, and further distinguish immune subtypes of PAAD to construct an immune landscape for selecting suitable patients for vaccination.</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">Gene expression profiles and clinical information of 239 PAAD datasets were extracted from ICGC, and RNA-Seq data of 103 samples were retrieved from TCGA. GEPIA was used to calculate differential expression levels and prognostic indices, cBioPortal program was used to compare genetic alterations, and TIMER was used to explore correlation between genes and immune infiltrating cells. Consensus cluster was used for consistency matrix construction and data clustering, DAVID was used for functional annotation, and graph learning-based dimensional reduction was used to depict immune landscape.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">Six overexpressed and mutated tumor antigens associated with poor prognosis and infiltration of antigen presenting cells were identified in PAAD, including ADAM9, EFNB2, MET, TMOD3, TPX2, and WNT7A. Furthermore, five immune subtypes (IS1-IS5) and nine immune gene modules of PAAD were identified that were consistent in both patient cohorts. The immune subtypes showed distinct molecular, cellular and clinical characteristics. IS1 and IS2 exhibited immune-activated phenotypes and correlated to better survival compared to the other subtypes. IS4 and IS5 tumors were immunologically cold and associated with higher tumor mutation burden. Immunogenic cell death modulators, immune checkpoints, and CA125 and CA199, were also differentially expressed among the five immune subtypes. Finally, the immune landscape of PAAD showed a high degree of heterogeneity between individual patients.</p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par4">ADAM9, EFNB2, MET, TMOD3, TPX2, and WNT7A are potent antigens for developing anti-PAAD mRNA vaccine, and patients with IS4 and IS5 tumors are suitable for vaccination.</p>
+ </sec>
+</abstract>

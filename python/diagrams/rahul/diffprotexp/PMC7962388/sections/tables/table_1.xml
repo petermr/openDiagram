@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Statistics of 
+   <italic>Paspalum notatum</italic> assemblies
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="3">Statistics</th>
+    <th colspan="5">Assemblies</th>
+   </tr>
+   <tr>
+    <th colspan="2">de novo with Roche 454/FLX + as guiding reference</th>
+    <th colspan="2">de novo without reference</th>
+    <th>GTA
+     <sup>
+      <bold>a</bold>
+     </sup>
+    </th>
+   </tr>
+   <tr>
+    <th>Sex</th>
+    <th>Apo</th>
+    <th>Sex</th>
+    <th>Apo</th>
+    <th>All</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>
+     <bold>Number of contigs</bold>
+    </td>
+    <td>80,177</td>
+    <td>79,040</td>
+    <td>100,114</td>
+    <td>103,699</td>
+    <td>199,074</td>
+   </tr>
+   <tr>
+    <td>
+     <bold>%GC</bold>
+    </td>
+    <td>50.32</td>
+    <td>49.82</td>
+    <td>48.60</td>
+    <td>48.17</td>
+    <td>48.73</td>
+   </tr>
+   <tr>
+    <td>
+     <bold>Median contig length</bold>
+    </td>
+    <td>781</td>
+    <td>791</td>
+    <td>980</td>
+    <td>903</td>
+    <td>897</td>
+   </tr>
+   <tr>
+    <td>
+     <bold>Average contig</bold>
+    </td>
+    <td>1012.51</td>
+    <td>1023.35</td>
+    <td>1285.99</td>
+    <td>1186.29</td>
+    <td>1182.31</td>
+   </tr>
+   <tr>
+    <td>
+     <bold>N50</bold>
+    </td>
+    <td>1199</td>
+    <td>1218</td>
+    <td>1696</td>
+    <td>1528</td>
+    <td>1508</td>
+   </tr>
+   <tr>
+    <td>
+     <bold>Number of contigs</bold>
+    </td>
+    <td>81,179,923</td>
+    <td>80,885,743</td>
+    <td>128,745,833</td>
+    <td>123,016,839</td>
+    <td>235,450,926</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>Global transcriptome assembly
+  </p>
+ </table-wrap-foot>
+</table-wrap>

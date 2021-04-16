@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>RSM is an empirical modeling technique used to evaluate the relationship between a set of controllable experimental factors and observed results (Bhattacharya et al. 
+ <xref rid="CIT0004" ref-type="bibr">2011</xref>). This optimization process involves three major steps: (i) performing statistically designed experiments, (ii) estimating the coefficients in a mathematical model and (iii) predicting the response and checking the adequacy of the model (Box and Behnken 
+ <xref rid="CIT0008" ref-type="bibr">1960</xref>). RSM allows us to use DOE and central composite design (CCD) to approximate the values of our explanatory variables (PG, EtOH, and 4-MU) which will give the greatest reduction in dermal HA. This design was applied to our study using Minitab
+ <sup>®</sup>, with three variables at four levels. The three significant variables can be approximated by the quadratic model equation as follows: 
+ <disp-formula id="M0001">
+  <label>(1)</label>
+  <alternatives>
+   <graphic xlink:href="IDRD_A_1886376_M0001.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="d2e619">
+    <mrow>
+     <mi mathvariant="normal">Y</mi>
+     <mi mathvariant="normal"> </mi>
+     <mo>=</mo>
+     <msub>
+      <mrow>
+       <mi mathvariant="normal"> </mi>
+       <mi mathvariant="normal">k</mi>
+      </mrow>
+      <mn>0</mn>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mtext> k</mtext>
+      </mrow>
+      <mi mathvariant="normal">a</mi>
+     </msub>
+     <mi mathvariant="normal">A</mi>
+     <mi mathvariant="normal"> </mi>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mtext> k</mtext>
+      </mrow>
+      <mi mathvariant="normal">b</mi>
+     </msub>
+     <mi mathvariant="normal">B</mi>
+     <mi mathvariant="normal"> </mi>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mtext> k</mtext>
+      </mrow>
+      <mi mathvariant="normal">c</mi>
+     </msub>
+     <mi mathvariant="normal">C</mi>
+     <mi mathvariant="normal"> </mi>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mtext> k</mtext>
+      </mrow>
+      <mrow>
+       <mtext>aa</mtext>
+      </mrow>
+     </msub>
+     <msup>
+      <mi mathvariant="normal">A</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mtext> k</mtext>
+      </mrow>
+      <mrow>
+       <mtext>bb</mtext>
+      </mrow>
+     </msub>
+     <msup>
+      <mi mathvariant="normal">B</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mtext> k</mtext>
+      </mrow>
+      <mrow>
+       <mtext>cc</mtext>
+      </mrow>
+     </msub>
+     <msup>
+      <mi mathvariant="normal">C</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>+</mo>
+     <msub>
+      <mrow>
+       <mtext> k</mtext>
+      </mrow>
+      <mrow>
+       <mtext>ab</mtext>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mtext>AB</mtext>
+       <mo>+</mo>
+       <mi mathvariant="normal">k</mi>
+      </mrow>
+      <mrow>
+       <mtext>ac</mtext>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mtext>AC</mtext>
+       <mo>+</mo>
+       <mi mathvariant="normal">k</mi>
+      </mrow>
+      <mrow>
+       <mtext>bc</mtext>
+      </mrow>
+     </msub>
+     <mtext>BC</mtext>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="M0002">
+  <graphic xlink:href="IDRD_A_1886376_M0002.jpg" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula> where Y is the predicted response; k
+ <sub>0</sub> is a constant; k
+ <sub>a</sub>, k
+ <sub>b</sub>, k
+ <sub>c</sub> are the linear coefficients; k
+ <sub>ab</sub>, k
+ <sub>ac</sub>, k
+ <sub>bc</sub> are the cross-coefficients; k
+ <sub>aa</sub>, k
+ <sub>bb</sub>, and k
+ <sub>cc</sub> are the quadratic coefficients. A total number of 15 experimental formulations were necessarily carried out to estimate the optimal reduction in HA (
+ <xref rid="t0002" ref-type="table">Table 2</xref>). 150 µl of topical drug formulation was massaged into the dorsum of experimental mice (both male and female at 6–10 weeks of age) for 7 days, after which animals were euthanized and dorsal skin was excised. Skin tissue was homogenized and the content of HA was evaluated using HA ELISA as described below. For all the experimental formulations, at least 2 mice were tested and the average value of HA level in the skin after application of the formulation was obtained, except at the midpoint composition where the DOE included several mice being tested already. Data were analyzed using Minitab
+ <sup>®</sup> and Design Expert 7
+ <sup>®</sup> programs including analysis of variance (ANOVA) to determine the interaction between the variables and the response. The quality of the fit of this model was expressed by the coefficient of determination (
+ <italic>R</italic>
+ <sup>2</sup>) and studentized plot in the same program.
+</p>

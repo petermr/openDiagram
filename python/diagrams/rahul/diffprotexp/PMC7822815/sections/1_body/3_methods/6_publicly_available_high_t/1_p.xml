@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par57">Our public microarray dataset included data on 106 primary samples of bone marrow or peripheral blood from patients with t(8;21)-positive AML, and 85 samples of bone marrow-derived CD34-positive cells (BM), 32 samples of bone marrow mononuclear cells (BM-MNC) and 100 samples of peripheral blood mononuclear cells (PB-MNC) from healthy donors (Supplementary Data 
+ <xref rid="MOESM4" ref-type="media">1</xref>). CEL files of the selected microarrays were downloaded from the NCBI GEO repository
+ <sup>
+  <xref ref-type="bibr" rid="CR67">67</xref>
+ </sup>, converted into CHP files, and primary data matrix was corrected against the background, log2-transformed and quantile normalized by the robust multi-array averaging algorithm using Affymetrix Expression Console
+ <sup>TM</sup> (Thermo Fisher Scientific, Carlsbad, USA).
+</p>

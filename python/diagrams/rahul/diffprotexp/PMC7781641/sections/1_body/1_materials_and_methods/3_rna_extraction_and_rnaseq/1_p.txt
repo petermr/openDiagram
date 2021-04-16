@@ -1,0 +1,10 @@
+0: Male and female mice (810 weeks old) were subjected to the FRICT-ION model of trigeminal neuropathic pain.
+1: At 10 weeks post-injury, mice were euthanized by anesthetic overdose with pentobarbital (50 mg/kg) and both ipsilateral and contralateral whole trigeminal ganglia (TG) were removed.
+2: TG were washed immediately in PBS and stored at 80C to preserve RNA.
+3: RNA was isolated using RNeasy Mini Kits (Qiagen, USA).
+4: Yield and quality of RNA were determined using a Nanodrop device.
+5: RNA was only used for further analysis if 260/280 ratio was ~2.0.
+6: Whole TG RNA samples from three FRICT-ION injured and three naive mice were sent to Quick Biology (Pasadena, USA) for RNAseq library preparation, sequencing using the Illumina HiSeq 4000 at 40 million reads per sample and gene expression analysis.
+7: The reads were first mapped to the latest UCSC transcript set using Bowtie2 version 2.1.0 and the gene expression level was estimated using RSEM v1.2.15.
+8: Differentially expressed genes were identified using the edgeR program.
+9: Genes showing altered expression with p< 0.05 were considered differentially expressed.

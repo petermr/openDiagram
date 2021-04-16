@@ -1,0 +1,3 @@
+0: The STRING database is the one for analyzing and predicting protein functional associations and protein interactions.
+1: In this study, we utilized STRING ( https://STRING-db.org/, version 11.0) to analyze protein functional associations and protein interactions ( 17).
+2: The Cytoscape (version 3.7.2) was used to visualize PPI network, and the cytoHubba plug-in in Cytoscape was used to screen the key genes (hub genes) in the PPI network based on the Algorithm of Maximum neighborhood component (MNC) ( 18).

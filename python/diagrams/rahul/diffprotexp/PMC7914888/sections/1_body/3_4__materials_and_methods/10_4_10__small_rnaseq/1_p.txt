@@ -1,0 +1,8 @@
+0: We used Illumina technology (Illumina, San Diego, California, USA) to sequence small RNAs.
+1: Before the librarys construction, evaluate the total RNAs quality and integrity on an Agilent RNA ScreenTape System (Illumina) under RNA integrity number (RIN) and TruSeq Small RNA Library Prep Kit (Illumina), following the manufacturers recommendations.
+2: A total RNA fraction coupled to 5 and 3 adapters to the corresponding RT-PCR for 15 cycles.
+3: The amplification products fractionated by 6% polyacrylamide gel electrophoresis, and the amplified library region containing the fraction of miRNAs (140150 nt), was separated, precipitated with ethanol, and quantified on nanodrop.
+4: The library was run on a HiSeq 2500 (Illumina) in a fast read-per-cycle 1  50 format (single read), averaging 1.0  10 7 readings per sample.
+5: The quality control and the normalization of the readings obtained using the BaseSpace  App, Small RNA v1.0 (Illumina), the sequences converted into FastQ files, and the quality of the readings was analyzed multiQC and confirmed in Galaxy by FastQC ( https://usegalaxy.org/).
+6: The alignments for readings obtained between 17 and 35 nt against the reference genome for Mus musculus (mm9) and other databases including miRBase version 21 to identify mature miRNAs ( http://www.mirbase.org/) in whose case was only assigned the name of the miRNAs when we found 100% identity between the reading and the miRBase reference.
+7: We registered the data at the Gene Expression Omnibus-GEO-NCBI with the access number GSE147170 ( https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147170).

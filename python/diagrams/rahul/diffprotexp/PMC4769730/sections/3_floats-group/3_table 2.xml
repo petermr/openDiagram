@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Protein profile expression</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Protein</th>
+    <th align="left">Folds</th>
+    <th align="left">
+     <italic>p</italic> value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" colspan="3">Cytokines</td>
+   </tr>
+   <tr>
+    <td align="left"> IL10</td>
+    <td char="." align="char">23.81</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL6</td>
+    <td char="." align="char">14.57</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL5</td>
+    <td char="." align="char">13.27</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL7</td>
+    <td char="." align="char">12.51</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL12p70</td>
+    <td char="." align="char">8.74</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL12p40</td>
+    <td char="." align="char">7.72</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL3</td>
+    <td char="." align="char">4.43</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL21</td>
+    <td char="." align="char">3.71</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL4</td>
+    <td char="." align="char">3.70</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL33</td>
+    <td char="." align="char">3.25</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> TNFα</td>
+    <td char="." align="char">2.48</td>
+    <td char="." align="char">5.52E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> γIFN</td>
+    <td char="." align="char">2.28</td>
+    <td char="." align="char">5.52E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL15</td>
+    <td char="." align="char">2.22</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL2</td>
+    <td char="." align="char">2.14</td>
+    <td char="." align="char">5.52E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> IL1β</td>
+    <td char="." align="char">1.71</td>
+    <td char="." align="char">1.10E−04</td>
+   </tr>
+   <tr>
+    <td align="left"> IL17</td>
+    <td char="." align="char">1.64</td>
+    <td char="." align="char">1.06E−05</td>
+   </tr>
+   <tr>
+    <td align="left"> IL8</td>
+    <td char="." align="char">1.45</td>
+    <td char="." align="char">3.18E−06</td>
+   </tr>
+   <tr>
+    <td align="left"> IL34</td>
+    <td char="." align="char">1.34</td>
+    <td char="." align="char">1.70E−03</td>
+   </tr>
+   <tr>
+    <td align="left"> IL9</td>
+    <td char="." align="char">1.01</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> IL18</td>
+    <td char="." align="char">−11.79</td>
+    <td char="." align="char">2.16E−05</td>
+   </tr>
+   <tr>
+    <td align="left"> IL16</td>
+    <td char="." align="char">−43.65</td>
+    <td char="." align="char">5.03E−06</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="3">Neurotrophins, fibrogenic, and angiogenic factors</td>
+   </tr>
+   <tr>
+    <td align="left"> VEGF</td>
+    <td char="." align="char">6.10</td>
+    <td char="." align="char">9.01E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> TGFβ1</td>
+    <td char="." align="char">6.07</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> NT3</td>
+    <td char="." align="char">4.73</td>
+    <td char="." align="char">3.08E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> βFGF</td>
+    <td char="." align="char">3.92</td>
+    <td char="." align="char">1.84E−04</td>
+   </tr>
+   <tr>
+    <td align="left"> βNGF</td>
+    <td char="." align="char">3.84</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left">Insulin</td>
+    <td char="." align="char">3.33</td>
+    <td char="." align="char">1.46E−06</td>
+   </tr>
+   <tr>
+    <td align="left"> BDNF</td>
+    <td char="." align="char">3.13</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> NT4</td>
+    <td char="." align="char">2.96</td>
+    <td char="." align="char">2.84E −07</td>
+   </tr>
+   <tr>
+    <td align="left"> SCF</td>
+    <td char="." align="char">1.32</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> EGF</td>
+    <td char="." align="char">−1.51</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="3">ECM metabolism</td>
+   </tr>
+   <tr>
+    <td align="left"> MMP2</td>
+    <td char="." align="char">3.18</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> MMP1</td>
+    <td char="." align="char">2.00</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> TIMP2</td>
+    <td char="." align="char">1.79</td>
+    <td char="." align="char">5.03E−06</td>
+   </tr>
+   <tr>
+    <td align="left"> MMP13</td>
+    <td char="." align="char">1.27</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> TIMP4</td>
+    <td char="." align="char">−1.28</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> MMP9</td>
+    <td char="." align="char">−1.35</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> MMP7</td>
+    <td char="." align="char">−2.03</td>
+    <td char="." align="char">2.81E−04</td>
+   </tr>
+   <tr>
+    <td align="left"> TIMP1</td>
+    <td char="." align="char">−2.18</td>
+    <td char="." align="char">8.76E−04</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="3">Chemokines/adhesion molecules</td>
+   </tr>
+   <tr>
+    <td align="left"> VCAM1</td>
+    <td char="." align="char">7.29</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> MIP1δ</td>
+    <td char="." align="char">7.04</td>
+    <td char="." align="char">3.35E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> MIP1α</td>
+    <td char="." align="char">5.51</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> Eotaxin1</td>
+    <td char="." align="char">2.61</td>
+    <td char="." align="char">3.18E−06</td>
+   </tr>
+   <tr>
+    <td align="left"> ICAM1</td>
+    <td char="." align="char">2.16</td>
+    <td char="." align="char">1.51E−05</td>
+   </tr>
+   <tr>
+    <td align="left"> TACE</td>
+    <td char="." align="char">2.01</td>
+    <td char="." align="char">2.84E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> RANTES</td>
+    <td char="." align="char">1.94</td>
+    <td char="." align="char">1.23E−03</td>
+   </tr>
+   <tr>
+    <td align="left"> ICAM2</td>
+    <td char="." align="char">1.91</td>
+    <td char="." align="char">1.88E−05</td>
+   </tr>
+   <tr>
+    <td align="left"> Eotaxin2</td>
+    <td char="." align="char">1.69</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> MIP3β</td>
+    <td char="." align="char">1.50</td>
+    <td char="." align="char">5.83E−03</td>
+   </tr>
+   <tr>
+    <td align="left"> NCAM1</td>
+    <td char="." align="char">1.46</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> MIP3α</td>
+    <td char="." align="char">−1.14</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> MIP1β</td>
+    <td char="." align="char">−1.73</td>
+    <td char="." align="char">1.84E−04</td>
+   </tr>
+   <tr>
+    <td align="left"> ICAM3</td>
+    <td char="." align="char">−8.90</td>
+    <td char="." align="char">6.50E−07</td>
+   </tr>
+   <tr>
+    <td align="left" colspan="3">Other molecules</td>
+   </tr>
+   <tr>
+    <td align="left"> sTNFR I</td>
+    <td char="." align="char">4.41</td>
+    <td char="." align="char">4.68E−07</td>
+   </tr>
+   <tr>
+    <td align="left"> Albumin</td>
+    <td char="." align="char">1.84</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> S100B</td>
+    <td char="." align="char">1.80</td>
+    <td char="." align="char">5.83E−03</td>
+   </tr>
+   <tr>
+    <td align="left"> IP10</td>
+    <td char="." align="char">1.77</td>
+    <td char="." align="char">1.41E−05</td>
+   </tr>
+   <tr>
+    <td align="left"> 
+     <bold>s</bold>TNFR II
+    </td>
+    <td char="." align="char">1.03</td>
+    <td align="left">NSS</td>
+   </tr>
+   <tr>
+    <td align="left"> TLR2</td>
+    <td char="." align="char">−1.21</td>
+    <td char="." align="char">3.26E−01</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>Mann–Whitney 
+   <italic>U</italic> test analysis with both POAG/ctr fold-changes (≥2) and 
+   <italic>p</italic> values (≤0.00083, see “
+   <xref rid="Sec2" ref-type="sec">Methods</xref>” section) for each biomarker in POAG TMs. NSS for results having 
+   <italic>p</italic> values &gt;8.3E−04. The factors are listed for higher to lower expression. The ECM metabolism cluster included both metalloproteinases and their specific inhibitors, and the cluster other molecules comprised soluble receptors and some referring proteins
+  </p>
+  <p>
+   <italic>BDNF</italic> brain-derived neurotrophic factor, 
+   <italic>ECM</italic> extracellular matrix, 
+   <italic>EGF</italic> epidermal growth factor, 
+   <italic>FGF</italic> fibroblast growth factor, 
+   <italic>ICAM</italic> intercellular adhesion molecule, 
+   <italic>IFN</italic> interferon, 
+   <italic>IL</italic> interleukin, 
+   <italic>IP</italic> interferon gamma-induced protein, 
+   <italic>MIP</italic> macrophage inflammatory protein, 
+   <italic>MMP</italic> matrix metalloproteinase, 
+   <italic>NCAM</italic> neural cell adhesion molecule, 
+   <italic>NGF</italic> nerve growth factor, 
+   <italic>NSS</italic> not statistically significant, 
+   <italic>NT</italic> neurotrophin, 
+   <italic>POAG</italic> primary open angle glaucoma, 
+   <italic>RANTES</italic> regulated on activation, normal T cell expressed and secreted, 
+   <italic>SCF</italic> stem cell factor, 
+   <italic>sTNFR</italic> soluble tumor necrosis factor receptor, 
+   <italic>TACE</italic> TNF-α converting enzyme, 
+   <italic>TLR</italic> toll-like receptor, 
+   <italic>TIMP</italic> tissue inhibitor of metalloproteinase, 
+   <italic>TNF</italic> tumor necrosis factor, 
+   <italic>TM</italic> trabecular meshwork, 
+   <italic>VCAM</italic> vascular cell adhesion molecule, 
+   <italic>VEGF</italic> vascular endothelial growth factor
+  </p>
+ </table-wrap-foot>
+</table-wrap>

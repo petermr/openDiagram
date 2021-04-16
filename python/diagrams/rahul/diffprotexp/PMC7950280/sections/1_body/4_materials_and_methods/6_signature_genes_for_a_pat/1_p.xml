@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The quantified relationship of a gene with other genes was measured by correlation coefficient using Pearson correlation [
+ <xref rid="r46" ref-type="bibr">46</xref>]. In term of each intersection pathway, we identified a small set of genes (the top 5) in the pathway as signature genes, whose expression showed the strongest correlation with other genes of the pathway [
+ <xref rid="r47" ref-type="bibr">47</xref>]. A pathway was considered to be regulated or mediated by the target gene (i.e., BDNF) if the signature genes of the pathway were significantly correlated with target gene. The analysis of GSEA was conducted to filtrate the biological process of gene ontology terms that might be associated with HD and low BDNF [
+ <xref rid="r48" ref-type="bibr">48</xref>, 
+ <xref rid="r49" ref-type="bibr">49</xref>]. The default weight statistic was used for the permutation of 1000 times, and the threshold of significant enrichment was set as normalized P &lt; 0.05. The enrichment data of GSEA analysis were visualized using ClusterProfler, ggplot2, enrichplot and GSEABase packages.
+</p>

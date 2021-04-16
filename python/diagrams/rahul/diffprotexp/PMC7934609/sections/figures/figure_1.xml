@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F1" orientation="portrait" position="float">
+ <label>Figure 1</label>
+ <caption>
+  <p>Basic information of protein characterization in 
+   <italic>Echinococcus granulosus</italic>. 
+   <bold>A</bold>. The identification of basic information of peptides of 
+   <italic>Echinococcus granulosus</italic>. The 
+   <italic>x</italic>-axis is the identification category, and the 
+   <italic>y</italic>-axis the quantity. Total spectra is the total number of secondary spectra, spectra is the number of matched spectra, unique spectra is the number of spectra matched to a unique peptide, peptide is the number of peptides identified, and unique peptide is the number of unique peptide sequences identified. Protein is the number of proteins identified. 
+   <bold>B</bold>. Peptide length distribution of 
+   <italic>Echinococcus granulosus</italic>. The 
+   <italic>x</italic>-axis is the number of amino acid residues in the peptide, and the 
+   <italic>y</italic>-axis the percentage of peptides of this length in all peptides. 
+   <bold>C</bold>. Proteins mass distribution of 
+   <italic>Echinococcus granulosus</italic>. The 
+   <italic>x</italic>-axis is the molecular mass of the identified protein (unit: kilodalton, kDa), and the 
+   <italic>y</italic>-axis the number of the identified protein. 
+   <bold>D</bold>. Distribution of protein sequence coverage of 
+   <italic>Echinococcus granulosus</italic>. Different colors represent different protein sequence coverage ranges, and the percentage of the pie chart shows the ratio of the number of proteins in different coverage ranges to the total number of proteins. 
+   <bold>E</bold>. Peptide number distribution of 
+   <italic>Echinococcus granulosus</italic>. The 
+   <italic>x</italic>-axis is the range of the number of peptides identified in the protein, and the 
+   <italic>y</italic>-axis is the number of proteins. 
+   <bold>F</bold>. Abundance of differentially expressed proteins between groups
+   <italic>.</italic> The 
+   <italic>x</italic>-axis represents the value of the difference multiple after logarithm conversion with 2 as the base. Values greater than 0 are up-regulated, and those less than 0 are down-regulated. Among them, points with a multiple of difference greater than 1.2 are marked with red and green (red is increase in expression, and green is decrease in expression).
+  </p>
+ </caption>
+ <alternatives>
+  <graphic xlink:href="parasite-28-15-fig1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="thumbnail" xlink:href="parasite-28-15-fig1_small" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+</fig>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">A hydrogen bond is considered to be formed when the distance between a donor atom and acceptor is within 3.5 Å and the angle of the acceptor, hydrogen and donor is greater than or equal to 135 degrees. A contact between bases of the ribosome and residues of the nascent peptide is present when the distance between their respective centers of mass is less than 6.5 Å. The average non-bonded interaction force at a time point is calculated as follows:
+ <disp-formula id="Equa">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\langle {F}_{I}\rangle }_{J}=\frac{1}{{N}_{traj}}\sum _{n=1}^{{N}_{traj}}{|\sum _{j}\overrightarrow{{F}_{IJ}}|}_{n}$$\end{document}</tex-math>
+   <math id="M10" display="block">
+    <msub>
+     <mrow>
+      <mo stretchy="true">〈</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>F</mi>
+        </mrow>
+        <mrow>
+         <mi>I</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">〉</mo>
+     </mrow>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi>t</mi>
+        <mi>r</mi>
+        <mi>a</mi>
+        <mi>j</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <munderover>
+     <mo>∑</mo>
+     <mrow>
+      <mi>n</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi>t</mi>
+        <mi>r</mi>
+        <mi>a</mi>
+        <mi>j</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </munderover>
+    <msub>
+     <mrow>
+      <mo stretchy="true">|</mo>
+      <mrow>
+       <munder>
+        <mo>∑</mo>
+        <mi>j</mi>
+       </munder>
+       <mover accent="true">
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>F</mi>
+          </mrow>
+          <mrow>
+           <mi>I</mi>
+           <mi>J</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow>
+         <mo stretchy="true">→</mo>
+        </mrow>
+       </mover>
+      </mrow>
+      <mo stretchy="true">|</mo>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msub>
+   </math>
+   <graphic xlink:href="41598_2018_24344_Article_Equa.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\langle {F}_{I}\rangle }_{J}$$\end{document}</tex-math>
+   <math id="M12">
+    <msub>
+     <mrow>
+      <mo stretchy="true">〈</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>F</mi>
+        </mrow>
+        <mrow>
+         <mi>I</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">〉</mo>
+     </mrow>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the average of the magnitude of the force for all trajectories that system 
+ <italic>J</italic> acts on system 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$I$$\end{document}</tex-math>
+   <math id="M14">
+    <mi>I</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. 
+ <inline-formula id="IEq7">
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sum _{j}\overrightarrow{{F}_{IJ}}$$\end{document}</tex-math>
+   <math id="M16">
+    <munder>
+     <mo>∑</mo>
+     <mi>j</mi>
+    </munder>
+    <mover accent="true">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>F</mi>
+       </mrow>
+       <mrow>
+        <mi>I</mi>
+        <mi>J</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">→</mo>
+     </mrow>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq7.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the force that system 
+ <italic>J</italic> acts on system 
+ <italic>I</italic> of one trajectory. 
+ <inline-formula id="IEq8">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\overrightarrow{{F}_{IJ}}=\sum _{i}\overrightarrow{{F}_{ij}},$$\end{document}</tex-math>
+   <math id="M18">
+    <mover accent="true">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>F</mi>
+       </mrow>
+       <mrow>
+        <mi>I</mi>
+        <mi>J</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">→</mo>
+     </mrow>
+    </mover>
+    <mo>=</mo>
+    <munder>
+     <mo>∑</mo>
+     <mi>i</mi>
+    </munder>
+    <mover accent="true">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>F</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <mi>j</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">→</mo>
+     </mrow>
+    </mover>
+    <mo>,</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> where 
+ <inline-formula id="IEq9">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\overrightarrow{{F}_{ij}}={\overrightarrow{F}}_{electrostatic}(i,j)+{\overrightarrow{F}}_{vanderWaals}(i,j)\,\,$$\end{document}</tex-math>
+   <math id="M20">
+    <mover accent="true">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>F</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <mi>j</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">→</mo>
+     </mrow>
+    </mover>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>F</mi>
+       <mo>→</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+      <mi>l</mi>
+      <mi>e</mi>
+      <mi>c</mi>
+      <mi>t</mi>
+      <mi>r</mi>
+      <mi>o</mi>
+      <mi>s</mi>
+      <mi>t</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>c</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>,</mo>
+      <mi>j</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>F</mi>
+       <mo>→</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>v</mi>
+      <mi>a</mi>
+      <mi>n</mi>
+      <mspace width=".25em"/>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mspace width=".25em"/>
+      <mi>W</mi>
+      <mi>a</mi>
+      <mi>a</mi>
+      <mi>l</mi>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>,</mo>
+      <mi>j</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mspace width=".25em"/>
+    <mspace width=".25em"/>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>is the force that atom 
+ <italic>j</italic> of system 
+ <italic>J</italic> acts on all atoms 
+ <italic>i</italic> of system 
+ <italic>I</italic>. The self non-bonded interaction force is the total force, per residue, acted on by the others. The charges and van der Waals parameters of the atoms for calculating forces are the same as in the MD simulation. The work associated with pulling the nascent chain through the tunnel was calculated by the Trapezoid Rule 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$W={\int }^{}Fdx\approx \sum _{i=1}^{N}({F}_{i+1}+{F}_{i})({x}_{i+1}-{x}_{i})/2,$$\end{document}</tex-math>
+   <math id="M22">
+    <mi>W</mi>
+    <mo>=</mo>
+    <msup>
+     <mo>∫</mo>
+     <mspace width="-.25em"/>
+    </msup>
+    <mi>F</mi>
+    <mi>d</mi>
+    <mi>x</mi>
+    <mo>≈</mo>
+    <munderover>
+     <mo>∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>N</mi>
+    </munderover>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo>/</mo>
+    <mn>2</mn>
+    <mo>,</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2018_24344_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> where 
+ <italic>i</italic> represents simulation step, 
+ <italic>F</italic> is the pulling force and 
+ <italic>x</italic> is the pulling coordinate.
+</p>

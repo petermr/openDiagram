@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0310">Detailed annotation of RNA sequencing reads mapping statistic produced by STAR aligner [
+ <xref rid="bib89" ref-type="bibr">89</xref>] and quality control metrics produced by NCBI MAGIC software [
+ <xref rid="bib79" ref-type="bibr">79</xref>] are shown in the Supplementary file 2. Minimal number of reads uniquely mapped on mRNA sequences of known genes was ~3,4∗10
+ <sup>6</sup> with the mean of ~9,2∗10
+ <sup>6</sup> (Supplementary file 2). Average mapping rate, taking into account only uniquely mapped reads, was 78%. Typical per base and per sequence quality scores visualized by fastQC software [
+ <xref rid="bib80" ref-type="bibr">80</xref>] demonstrated high values for individual base pairs and read sequences (
+ <xref rid="fig19" ref-type="fig">Figure 19</xref> A, B).
+</p>

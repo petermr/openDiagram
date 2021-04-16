@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">To establish a MOFA model, the same set of features analyzed by PCA—that is, quantitative profiles of GE, AS, and APA events—were used as training data (see “Methods” for details). Overall, MOFA inferred four latent factors (LF1, LF2, LF3, and LF4), each of which have shared and unique contributions from each transcriptomic regulatory layer (Fig. 
+ <xref rid="Fig1" ref-type="fig">1b</xref>). In total, GE accounted for the majority of the total variance (
+ <italic>R</italic>
+ <sup>2</sup> = 0.57), followed by exonic AS (
+ <italic>R</italic>
+ <sup>2</sup> = 0.37), IR (
+ <italic>R</italic>
+ <sup>2</sup> = 0.35), and APA (
+ <italic>R</italic>
+ <sup>2</sup> = 0.33). These factors describe variability in line with the results from PCA (Fig. 
+ <xref rid="Fig1" ref-type="fig">1c</xref> and Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">1a</xref>), yet afford a quantitative assessment of the contributions of each layer to neuronal identity. Using the output from MOFA we further investigated LF1 and LF2, which describe regional differences between CA1 and CA3 neurons, and between-axes differences, respectively.
+</p>

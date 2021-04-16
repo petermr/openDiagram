@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our analysis to this point indicates that inter-species differences in PAS usage are often genetically controlled, but generally we have not found strong evidence that they are functionally important. We explored this further by considering the APA data in the context of gene expression data that we collected from the same six human and six chimpanzee LCLs (see 'Materials and methods' for data collection procedures and low-level analysis of the RNA-seq data). We found no meaningful correlation between inter-species differences in gene expression levels and changes in polyadenylation site usage (ΔPAU) in 7462 genes for which we had both types of data (Pearson’s correlation = −0.06, p=3.1×10
+ <sup>−7</sup>, 
+ <xref ref-type="fig" rid="fig3">Figure 3A</xref>). We then separately considered the data for the 3' UTR and intronic PAS, because we previously found a different relationship between PAS usage in these genic regions and gene expression levels (
+ <xref rid="bib51" ref-type="bibr">Mittleman et al., 2020</xref>). Indeed, we found that inter-species differences in the usage of intronic and 3' UTR PAS are loosely correlated with differences in expression effect size between the species at an equal magnitude but in opposite directions (
+ <xref ref-type="fig" rid="fig3">Figure 3B</xref>). Increased usage of intronic sites is correlated with increased expression levels, while increased usage of 3' UTR sites is correlated with decreased expression.
+</p>

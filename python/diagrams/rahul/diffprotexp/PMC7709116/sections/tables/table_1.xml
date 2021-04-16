@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="proteomes-08-00027-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">proteomes-08-00027-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>List of significant differentially regulated proteins between D1 versus D2 nuclei (
+   <italic>p</italic> &lt; 0.05).
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Up-Regulated (40)</th>
+    <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Down-Regulated (47)</th>
+   </tr>
+   <tr>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Gene Name</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Fold Change</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>p</italic>-Value
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Gene Name</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Fold Change</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>p</italic>-Value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Tox4</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.49116</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0337605</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Coro2a</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.400584</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00037369</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Kctd20</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.42119</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0411815</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hba</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.481936</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00274324</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hnrnpab</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.63754</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0409344</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Efhd1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.535936</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.02929</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Snrpa1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.62469</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0356868</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Septin 11</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.578456</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0109418</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Me3</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.62296</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00481903</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Dnajb11</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.583221</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0218579</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Eef1e1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.62035</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0429891</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Sfxn5</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.611712</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0409574</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Elavl1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.59824</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00725727</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Pam</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.615849</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.037189</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Nup133</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.58732</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0387323</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Dlg4</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.616571</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0285791</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Vdac3</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.50586</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0188459</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Sacm1l</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.619851</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00970264</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Lsm6</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.45014</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0190832</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Aldoc</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.658441</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00046328</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Zfp292</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.43915</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00725454</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ncam1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.676135</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00650359</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hnrnpa1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.43844</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00683687</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Sfxn3</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.703261</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0397627</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>D1Pas1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.40947</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0434996</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Rps11</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.726778</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0394326</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Eftud2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.39301</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00532517</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Cct2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.732122</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0366409</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hnrnpa0</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.3922</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0188692</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Pabpn1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.733746</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0046371</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Celf2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.37592</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0292762</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Pgap1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.740795</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00399328</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hnrnpdl</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.37127</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0172432</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Gabarapl2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.742762</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0333492</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Syncrip</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.35272</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0166647</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Dctn3</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.74543</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0392584</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Rbmx</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.33812</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00827693</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Rpl24</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.761663</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0281739</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Purb</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.32497</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0154027</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Cct7</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.763964</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00226032</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Pura</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.30983</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0424454</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Slc4a4</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.768653</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00254452</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hnrnpd</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.29834</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00088056</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ppib</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.777091</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0189307</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Npm1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.29117</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0299636</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Slc25a3</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.777111</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00503528</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ptbp2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.29086</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0454053</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Pdia6</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.778812</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0170188</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Tomm70</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.28277</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0149869</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Slc25a5</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.780524</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0112892</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hnrnpl</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.27938</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0301104</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Vps35</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.780705</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00233104</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ddx17</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.2712</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0293465</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Sec61a1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.788051</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0480851</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Eif4a3</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.26848</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00472075</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Cct8</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.789875</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00857058</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Gnal</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.26502</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00318639</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Apmap</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.800946</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0324994</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Atp6v1b2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.24752</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0477972</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Slc3a2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.805497</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0251531</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Srrm2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.21029</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0249769</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Tmpo</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.807824</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0318018</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Rbmxl1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.19467</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00896132</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Asrgl1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.815023</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0427078</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hnrnpu</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.19465</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0490688</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Dctn2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.819532</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0305211</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Erh</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.17264</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0428214</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ganab</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.820572</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0307506</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ruvbl1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.16093</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0104841</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Plch1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.821746</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0407058</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hnrnpa2b1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.15681</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0310403</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ckap4</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.835119</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0435046</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ndufa6</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.13342</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0371455</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Dnm2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.845664</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0485707</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Prpf19</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.10611</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0325835</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Calr</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.847391</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0055328</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Cplx1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.10327</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00840265</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Sv2a</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.854525</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0302238</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Vdac2</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.04319</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0298126</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Glud1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.857564</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0264393</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hadha</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.858226</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0489431</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>P4hb</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.864091</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0451958</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Thy1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.866795</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.012009</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Rab6a</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.870134</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.00202572</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Ctsd</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.882804</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0180612</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>
+      <italic>Dnm1</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.889323</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0456554</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <bold>
+      <italic>Hpcal4</italic>
+     </bold>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.919234</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.0307775</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

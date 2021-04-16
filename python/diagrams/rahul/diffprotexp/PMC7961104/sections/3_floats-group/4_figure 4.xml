@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig4">
+ <label>Figure 4</label>
+ <caption>
+  <p>Construction of trans-omic networks for differentially regulated metabolic reactions in liver and skeletal muscle of 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice
+  </p>
+  <p>(A) The trans-omic network for differentially regulated metabolic reactions in the liver and skeletal muscle. Nodes and edges indicate differentially expressed molecules and differential regulations involved in metabolic reactions, respectively. Red, increased (nodes) or activating (edges) in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice; blue, decreased (nodes) or inhibiting (edges) in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice; magenta, controversial metabolic reactions had opposing regulatory input from Enzyme Protein layer and Metabolite layer. The numbers of differentially expressed molecules (nodes) and differential regulations (edges) are shown.
+  </p>
+  <p>(B) The number of differentially regulated metabolic reactions controlled by differentially expressed molecules in the Enzyme Protein layer or the Metabolite layer or both in the liver and skeletal muscle.</p>
+  <p>(C) For each metabolic pathway in the liver and skeletal muscle, the percentage of activated (upper) or inhibited (lower) metabolic reactions by Metabolite (
+   <italic>x</italic> axis) and by Enzyme Protein (
+   <italic>y</italic> axis) are plotted. The size of the dots indicates the number of differentially regulated metabolic reactions in each metabolic pathway regulated either by Metabolite, Enzyme Protein, or both in each organ. The colors of the dots indicate the classes of metabolic pathway according to the KEGG database: carbohydrate (green), amino acid (blue), and lipid (red).
+  </p>
+  <p>(D) The number of differentially regulated metabolic reactions in each metabolic pathway (rows) regulated by each differentially regulated transcription factor (DRTF) (columns) in the liver and skeletal muscle. The sign ∗ indicates the significant associations (q value &lt;0.01) between differentially regulated metabolic reactions in the metabolic pathway node and those regulated by the DRTF. The q value was calculated by one-tailed Fisher's exact test.</p>
+  <p>See also 
+   <xref rid="mmc1" ref-type="supplementary-material">Figures S5–S10</xref>.
+  </p>
+ </caption>
+ <graphic xlink:href="gr4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

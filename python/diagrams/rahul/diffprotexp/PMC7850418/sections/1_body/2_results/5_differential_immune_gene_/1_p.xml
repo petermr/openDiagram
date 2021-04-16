@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As ORF6 codes for a protein involved in innate immunity regulation, we aimed to explore the impact of D34 and D26 on the immune transcriptome at 24 h post infection. Of the 87 human host immune genes tested on the Nanostring Immunity panel, 40 were significantly upregulated following infection by WT SARS-CoV-2 compared to the mock infection on CaLu-3 cells (Supplementary Figure 3, Supplementary Table 2). These upregulated genes belong to the following pathways: inflammation mediation by chemokine and cytokine signalling, interleukin signalling, toll receptor signalling, and apoptosis signalling. 
+ <italic>BST2</italic>, 
+ <italic>CXCL10/IP10</italic>, 
+ <italic>IDO1</italic>, and 
+ <italic>ZBP1</italic> presented the highest upregulation with 4.32, 4.89, 4.16, and 5.05 log
+ <sub>2</sub>FC, respectively (
+ <xref rid="F0004" ref-type="fig">Figure 4</xref>(A)). Interestingly, there was no difference of their expression with the deletion variants, as well as for certain interferon-stimulated genes (ISG), including 
+ <italic>IFI27</italic>, 
+ <italic>IFI35</italic>, 
+ <italic>IFI44L</italic>, 
+ <italic>IFIH1/MDA5</italic>, 
+ <italic>IFITM1</italic>, 
+ <italic>IL18R1</italic>, and 
+ <italic>STAT2</italic> (
+ <xref rid="F0004" ref-type="fig">Figure 4</xref>(A)). However, an enhanced upregulation of 9 genes, all involved in the NF-kB pathway (
+ <italic>CCL2/MCP1</italic>, 
+ <italic>CCL20</italic>, 
+ <italic>CCL4</italic>, 
+ <italic>CXCL2/MIP2α</italic>, 
+ <italic>IL1A</italic>, 
+ <italic>NFKBIA</italic>, 
+ <italic>PTX3</italic>, 
+ <italic>TNFA</italic>, 
+ <italic>TNFAIP3</italic>), was observed after infection with D26 variants, in comparison to the WT (
+ <xref rid="F0004" ref-type="fig">Figure 4</xref>(B)). While higher levels of expression of these cytokines were also noted after infection with the D34 variant compared with WT, increased expression did not reach statistical significance after multi-test correction (q-value &lt; 0.05), with the exception of 
+ <italic>CCL20</italic>. Of note, the D26 variant induced a markedly higher level of expression for 6 of these 9 genes (
+ <italic>CCL2/MCP1</italic>, 
+ <italic>CCL20</italic>, 
+ <italic>CCL4</italic>, 
+ <italic>IL1A</italic>, 
+ <italic>PTX3</italic>, 
+ <italic>TNFA</italic>) than the D34 variant. This difference was not due to higher replication of D26, as equivalent viral quantification was observed at 24 h for all conditions, with an average of 7.94 log
+ <sub>10</sub> copies/mL. Altogether, these results show that D26 and D34 do not impact ISG expression but may increase NFKB-driven inflammatory genes, and with a higher magnitude for D26. 
+</p>

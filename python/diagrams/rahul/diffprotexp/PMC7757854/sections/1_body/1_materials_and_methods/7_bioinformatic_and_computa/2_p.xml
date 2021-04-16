@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DEG lists based on comparative analysis (i.e. statistical significance [
+ <italic>p</italic>-value&lt;0.05]) were identified using JMP Genomics software (
+ <ext-link ext-link-type="uri" xlink:href="http://www.jmp.com/software/genomics/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.jmp.com/software/genomics/</ext-link>). Selected gene lists were subjected to gene ontology (GO) term enrichment analysis using the g:Profiler database (
+ <ext-link ext-link-type="uri" xlink:href="https://biit.cs.ut.ee/gprofiler/gost" xmlns:xlink="http://www.w3.org/1999/xlink">https://biit.cs.ut.ee/gprofiler/gost</ext-link>) [
+ <xref rid="cit0038" ref-type="bibr">38</xref>] or Database for Annotation, Visualization and Integrated Discover (DAVID) bioinformatics tool (
+ <ext-link ext-link-type="uri" xlink:href="https://david.ncifcrf.gov/home.jsp/" xmlns:xlink="http://www.w3.org/1999/xlink">https://david.ncifcrf.gov/home.jsp/</ext-link>) [
+ <xref rid="cit0039" ref-type="bibr">39</xref>]. Enrichment terms are based on corrected 
+ <italic>p</italic>-adj or FDR of &lt;0.05 and were therefore considered significant.
+</p>

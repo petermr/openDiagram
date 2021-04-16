@@ -1,0 +1,4 @@
+0: Unique miRNAs were present in the spikelets of only one of the genotypes (either in SR-159 or in SR-157) while comparison of respective stages of development and hence could not be used for DGE and FC calculation.
+1: The pSRNA Target Server ( https://plantgrn.noble.org/psRNATarget) and the miRbase ( www.mirbase.org) with their default parameters were used to predict the miRNAs potential targets.
+2: The miRNAs targets that were involved either in ethylene (Supplementary Table  S4) or auxin (Supplementary Table  S5) signalling responses were short listed.
+3: From these lists, miRNA with high read count values were of primary interest for validation.

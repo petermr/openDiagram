@@ -1,0 +1,5 @@
+0: The differentially expressed lncRNAs and mRNAs with statistical significance were identified via volcano plot filtering.
+1: The threshold used to screen RNAs with |log 2FC| >1 was P<0.05.
+2: |log 2FC| >1 is to screen genes with multiples of difference >2 times ( 34, 35).
+3: Gene Ontology (GO) analysis ( http://www.geneontology.org) described the molecular function, cellular component and biological process of differentially expressed transcripts.
+4: GO analysis and a Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis were applied to determine the biologic roles of these differentially expressed lncRNAs and mRNAs based on the latest KEGG data ( http://www.genome.jp/kegg/).

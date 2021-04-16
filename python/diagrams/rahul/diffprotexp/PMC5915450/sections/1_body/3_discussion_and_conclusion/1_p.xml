@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">We have performed two sets of SMD simulations. In the first set, protein synthesis was not been taken into account, 
+ <italic>i.e</italic>., the nascent peptide was treated as a preformed chain. In the second set each amino acid was added onto the peptide by gradually turning on its non-bonded interactions as it moved into the exit tunnel. We observed that in both sets of simulations it is harder to move ErmCL through the tunnel than H-NS (Figs 
+ <xref rid="Fig2" ref-type="fig">2</xref> and 
+ <xref rid="Fig4" ref-type="fig">4</xref>). However, the interactions of individual nascent chain residues with ERY are different between the two sets of simulations. In the first set, the differential impact of ERY on ErmCL compared to H-NS arises in part from stronger intermolecular interactions between the N-terminal residues of ErmCL and ERY (Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>), at which point the N-terminal nascent-chain residues are sandwiched between ERY and the ribosome exit tunnel (Table 
+ <xref rid="Tab4" ref-type="table">4</xref>). In the second set of simulations, however, residues that were more C-terminal (residues 3 through 6) in ErmCL experienced the largest forces and therefore are more likely to contribute stalling. The interaction forces between ErmCL and ERY and the ribosome were about two-fold higher than the interaction forces of H-NS with these components (Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>). Decomposing the pair-wise interactions, we observed that when the maximum force occurs, ErmCL experiences larger electrostatic and dispersion interaction forces with ERY than H-NS does (Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref>). Thus, ERY opposes the movement of both peptides through the tunnel, but the interactions with more C-terminal residues of ErmCL lead to even greater opposition than H-NS.
+</p>

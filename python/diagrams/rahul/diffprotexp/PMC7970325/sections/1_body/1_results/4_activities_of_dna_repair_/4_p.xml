@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0075">For our assay, we selected 38 DNA repair pathways, which were obtained by manual curation of Reactome [
+ <xref rid="bib40" ref-type="bibr">40</xref>], NCI Pathway Interaction [
+ <xref rid="bib41" ref-type="bibr">41</xref>], Kyoto Encyclopedia of Genes and Genomes [
+ <xref rid="bib42" ref-type="bibr">42</xref>], Biocarta [
+ <xref rid="bib43" ref-type="bibr">43</xref>], and Qiagen [
+ <xref rid="bib44" ref-type="bibr">44</xref>] databases, and which include at least ten gene products. For these pathways, we then calculated PAL values for the tumor samples while taking six healthy thyroid tissue gene expression profiles from ANTE database [
+ <xref rid="bib45" ref-type="bibr">45</xref>] as the controls. Then we compared PAL values for the selected DNA repair pathways between the normal samples, benign tumors, and the thyroid cancer subtypes. In total, we performed nine comparisons to assess differential PAL activation trends: malignant and benign (PC + FC + FA) were compared with the normal samples (
+ <italic>i</italic>); follicular adenoma (FA) was compared with the normal samples (
+ <italic>ii</italic>); FC and PC were compared with normal samples (
+ <italic>iii</italic>); FC and PC were compared with FA (
+ <italic>iv</italic>); FC was compared with PC (
+ <italic>v</italic>), FA was compared with FC (
+ <italic>vi</italic>); PC was compared with FA (
+ <italic>vii</italic>), PC was compared with the normal samples (
+ <italic>viii</italic>); and FC was compared with the normal samples (
+ <italic>ix</italic>).
+</p>

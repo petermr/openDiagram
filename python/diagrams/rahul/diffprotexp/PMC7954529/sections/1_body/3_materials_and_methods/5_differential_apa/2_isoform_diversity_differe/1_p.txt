@@ -1,0 +1,4 @@
+0: We calculated Shannon information content ( i=1spilog2Pi) and Simpson index ( 1i=1spi2) using mean usage of each PAS in humans and chimpanzees, where  pi2 is the usage of the ith of  s sites in the gene.
+1: We used Simpson index to assess isoform diversity because the correlation between Simpson index and number of PAS is lower than the correlation between Shannon information content and the number of PAS per gene ( Figure 2figure supplements 5,  6).
+2: To identify genes with differences in isoform diversity, we recalculated Simpson index per gene per individual and tested for differences between species with Wilcoxon tests.
+3: We reported genes with differences at 5% FDR.

@@ -1,0 +1,3 @@
+0: Here,  Yi is the  ith ordered list,  x is the proposed ordered list,  d is a distance measure and  wi denotes the weight associated with the ordered list  Yi.
+1: The aim here is to find  x* for which the objective function O( x), given in Equation  6, is minimum.
+2: In other words, 7\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ {x}^{*}= argmin{\displaystyle \sum_{i=1}^m}{w}_id\left(x,{Y}_i\right) $$\end{document}x*=argmini=1mwidxYi

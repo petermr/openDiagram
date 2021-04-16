@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">Data were analyzed using a modified workflow that is similar to the ChAMP methylation array analysis procedure in R (v3.5.1). Briefly, samples were filtered for probes with poor or skewed intensities (detection 
+ <italic>p</italic>-value &lt; 0.01) and entire samples were removed from the dataset if they contained &gt; 10% failed probes. One sample exceeded the aforementioned filtering criteria and was removed from the dataset resulting in 70 total samples. Next, probes that have previously been identified to skew downstream differential methylation analyses (SNP probes, cross-reactive probes with other genomic regions, etc.) were removed in addition to probes that target sex chromosomes [
+ <xref ref-type="bibr" rid="CR48">48</xref>]. Next, a single-sample normalization method (ssNOOB) was applied to each sample to normalize and remove background signal from the data prior to downstream analyses (Supplemental Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>) [
+ <xref ref-type="bibr" rid="CR49">49</xref>]. Sources of technical variation were found to significantly (
+ <italic>p</italic> &lt; 0.05) contribute to the variation explained in the first couple principle components in addition to tissue effects based on SVD analysis as implemented in ChAMP (v2.18.3) and corrected using the sva (v3.30.1) package in R for visualization purposes only. The results of this procedure for the first 11 PCs can be found in Supplemental Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>. Technical variation was modeled as either fixed or random effects on the uncorrected data in the differential methylation analysis described below. Further, prior to differential methylation calling, additional SNP and CpH probes were removed using ChAMP (v2.18.3) using the default parameters for the function rmSNPandCH. In total, 717,148 probes were analyzed for differential methylation across tissue types.
+</p>

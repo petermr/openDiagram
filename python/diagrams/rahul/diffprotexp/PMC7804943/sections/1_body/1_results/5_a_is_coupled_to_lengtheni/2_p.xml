@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">APA can elicit coupled regulatory changes in neurons, for example, by affecting where transcripts are localized for translation, and/or by controlling the steady-state GE levels of transcripts and corresponding protein products. To address whether the APA differences detected above are coupled with changes in steady-state GE, we performed a differential GE analysis on the corresponding transcripts using DESeq2. Consistent with previous studies indicating that APA is not significantly correlated with steady-state GE changes during neuronal differentiation
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>,
+  <xref ref-type="bibr" rid="CR44">44</xref>,
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup>, we do not observe a correlation between ΔPPAU and changes in transcript levels between proximal-distal pyramidal neurons versus the other profiled neurons (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">3c</xref>). This observation suggests that APA represents a largely distinct regulatory layer with a more prominent role in pyramidal neurons that form the proximal-distal axis of the hippocampus.
+</p>

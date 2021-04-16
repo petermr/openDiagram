@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Bioinformatic analysis was performed using R programming language version 3.5.1 (
+ <xref rid="bib63" ref-type="bibr">R Development Core Team, 2015</xref>) run in RStudio integrated development environment version 1.2.1269 (
+ <xref rid="bib80" ref-type="bibr">Team R, 2018</xref>). Plots were generated using ggplot2 R package version 3.1.0 (
+ <xref rid="bib86" ref-type="bibr">Wickham, 2009</xref>). Heatmaps were generated using pheatmap R package 1.0.10 (
+ <xref rid="bib38" ref-type="bibr">Kolde, 2018</xref>). The analysis scripts are available at: 
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/NordNeurogenomicsLab/Publications/tree/master/Canales_eLife_2021" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/NordNeurogenomicsLab/Publications/tree/master/Canales_eLife_2021</ext-link>; 
+ <xref rid="bib11" ref-type="bibr">Canales, 2021</xref>; copy archived at 
+ <ext-link ext-link-type="uri" xlink:href="https://archive.softwareheritage.org/swh:1:dir:5f2ff57077946f69fd4fb99a2df240c5b5411a1e;origin=https://github.com/NordNeurogenomicsLab/Publications/;visit=swh:1:snp:afd3044f9dbd07b9cb7620b8ea08b8928c8fde6f;anchor=swh:1:rev:28836c8758908e130f1f6d8bfb3b6a112c6cbd1b/" xmlns:xlink="http://www.w3.org/1999/xlink">swh:1:rev:28836c8758908e130f1f6d8bfb3b6a112c6cbd1b</ext-link>.
+</p>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig1" position="float" orientation="portrait">
+ <label>Figure 1.</label>
+ <caption>
+  <title>Sequence conservation of polyadenylation sites (PAS) between humans and chimpanzees.</title>
+  <p>(
+   <bold>a</bold>) Genic locations for 44,074 PAS identified in chimpanzee (left) and 44,130 PAS identified in human (right). (
+   <bold>b</bold>) Mean PhyloP scores for PAS regions (yellow) as well as three 200 bp regions upstream and downstream (orange). (
+   <bold>c</bold>) Proportion of human and chimpanzee PAS regions with each of the 12 annotated signal site motifs from 
+   <xref rid="bib5" ref-type="bibr">Beaudoing et al., 2000</xref>.
+  </p>
+ </caption>
+ <graphic xlink:href="elife-62548-fig1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 1.</label>
+   <caption>
+    <title>Density of merged human and chimpanzee 3' sequencing (3' Seq).</title>
+    <p>(
+     <bold>A</bold>) Coverage of six chimpanzee, nuclear 3' Seq reads along Refseq transcripts. (
+     <bold>B</bold>) Coverage of five human, nuclear 3' Seq reads along Refseq transcripts. (
+     <bold>C</bold>) Coverage of six chimpanzee, nuclear 3' Seq reads orthologous 3' UTRs. (
+     <bold>D</bold>) Coverage of five human, nuclear 3' Seq reads orthologous 3' UTRs.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s2" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 2.</label>
+   <caption>
+    <title>Model representation of usage calculation.</title>
+    <p>Representation of polyadenylation sites (PAS) usage calculation. Usage is a ratio of reads at each PAS to the number of reads mapping to any PAS in the same gene. Reproduced from 
+     <xref rid="bib51" ref-type="bibr">Mittleman et al., 2020</xref>.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s3" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 3.</label>
+   <caption>
+    <title>NA18499 removed from analysis due to low correlation between fractions.</title>
+    <p>Pearson's correlation between PAS usage calculated using nuclear 3' sequencing (3' Seq) libraries and total mRNA 3' Seq libraries, calculated using sites reaching 5% in one species in both fractions. (Plot from previous git commit 30ff122 on April 9, 2020, 
+     <ext-link ext-link-type="uri" xlink:href="https://github.com/brimittleman/Comparative_APA" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/brimittleman/Comparative_APA</ext-link>; 
+     <xref rid="bib52" ref-type="bibr">Mittleman, 2021a</xref>). 
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s4" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 4.</label>
+   <caption>
+    <title>Polyadenylation sites (PAS) usage is highly correlated across species.</title>
+    <p>(
+     <bold>A</bold>) Correlation between human and chimpanzee PAS usage for 44,432 PAS. Red line is a 1:1 line. Linear regression line and Pearson's correlation plotted in blue. (
+     <bold>B</bold>) Pairwise correlation for human and chimpanzee PAS usage.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s5" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 5.</label>
+   <caption>
+    <title>Variation in polyadenylation sites (PAS) usage.</title>
+    <p>(
+     <bold>A</bold>) Plot of first two principal components (PCs) calculated by a PC analysis (PAC) on PAS usage (44,432 PAS). Chimpanzee samples are shown in red and human samples are shown in blue. (
+     <bold>B</bold>) Heatmap representing correlation between technical factors and PCs. Y axis factors include: Species, Extraction date, Collection person, AverageAlive (average of two live dead calculations at time of collection), RIN score, RNA concentration. Explanation of factors and values in 
+     <xref ref-type="supplementary-material" rid="supp4">Supplementary file 4</xref>.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp5" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s6" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 6.</label>
+   <caption>
+    <title>Polyadenylation sites (PAS) detection likely not biased by expression level.</title>
+    <p>(
+     <bold>A</bold>) Normalized gene expression plotted against the number of PAS detected at 5% usage in chimpanzee. (
+     <bold>B</bold>) Normalized gene expression plotted against the number of PAS detected at 5% usage in human. The R package ggpubr was used to plot linear regression lines and calculate Pearson's correlations.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp6" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s7" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 7.</label>
+   <caption>
+    <title>Polyadenylation sites (PAS) detection likely not biased by species.</title>
+    <p>Histogram of the number of PAS detected at 5% usage in human minus the number of 5% usage in chimpanzees. Red vertical line represents mean difference (0.39).</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp7" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s8" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 8.</label>
+   <caption>
+    <title>
+     <xref ref-type="fig" rid="fig1">Figure 1B</xref> separated by genic location.
+    </title>
+    <p>Mean PhyloP scores for polyadenylation sites (PAS) regions (yellow) and 200 base pair bins upstream and downstream of PAS (orange). A one-sided Wilcoxon test was used to test for increased PhyloP in PAS regions (coding region: p&lt;2.2×10
+     <sup>−16</sup>; 5 kb downstream of genes: p=7.02×10
+     <sup>−6</sup>; intron: p=0.99; 3' UTR: p&lt;2.2×10
+     <sup>−16</sup>; 5' UTR: p=0.011).
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp8" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s9" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 9.</label>
+   <caption>
+    <title>Polyadenylation sites (PAS) regions are conserved in the mammalian lineage.</title>
+    <p>Mean PhyloP scores for PAS regions (yellow) and 200 base pair bins upstream and downstream of PAS (orange) (
+     <bold>A</bold>) 
+     <xref ref-type="fig" rid="fig1">Figure 1B</xref> recapitulated with PhyloP scores calculated over 20 vertebrate species. (
+     <bold>B</bold>) 
+     <xref ref-type="fig" rid="fig1s8">Figure 1—figure supplement 8</xref> recapitulated with PhyloP scores calculated over 20 vertebrate species. One-sided Wilcoxon test was used to test for increased PhyloP in PAS regions (cds-coding region: p&lt;2.2×10
+     <sup>−16</sup>; end-5 kb downstream of genes: p&lt;2.2×10
+     <sup>−16</sup>; intron: p&lt;2.2×10
+     <sup>−16</sup>; utr3-3' UTR: p&lt;2.2×10
+     <sup>−16</sup>; utr5-5' UTR: p&lt;2.2×10
+     <sup>−16</sup>).
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp9" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s10" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 10.</label>
+   <caption>
+    <title>PAS with AATAAA and ATTAAA are used more often.</title>
+    <p>Mean PAS usage of the top two signal site motifs in human and chimpanzee plotted by annotated signal site.</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp10" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s11" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 11.</label>
+   <caption>
+    <title>Chimp-specific polyadenylation sites (PAS) likely due to loss of signal site in human lineage.</title>
+    <p>(
+     <bold>A</bold>) Integrative Genomics Viewer (IGV) track for example of a chimpanzee-specific PAS in MAN2B2 gene. Top track is merged coverage from five human nuclear 3' sequencing (3' Seq) libraries. Chimp track is merged coverage from six chimpanzee nuclear 3' Seq libraries lifted to human genome with CrossMap. (
+     <bold>B</bold>) Sequence alignment for region upstream of proximal PAS from UCSC Genome Browser black box indicates the signal site location. Canonical signal site is the ancestral state and was lost in the human lineage.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp11" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig1s12" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 1—figure supplement 12.</label>
+   <caption>
+    <title>Reciprocal liftover pipeline.</title>
+    <p>Reciprocal liftover pipeline for unfiltered polyadenylation sites (PAS) including the number of sites remaining at each step. Liftover using UCSC liftover tool and chain files downloaded from UCSC Genome Browser.</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig1-figsupp12" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

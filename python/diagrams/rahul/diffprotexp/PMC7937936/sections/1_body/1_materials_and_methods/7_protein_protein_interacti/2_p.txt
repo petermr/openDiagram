@@ -1,0 +1,2 @@
+0: After constructing the PPI, the core genes of the network need to be identified.
+1: We counted the number of neighboring nodes for each gene and selected the top 30 genes with the most neighboring nodes as the PPI networks core genes.

@@ -1,0 +1,8 @@
+0: Libraries were prepared from 50 ng of RNA per sample using Ion AmpliSeqTM Transcriptome Human Gene Expression Kit (Thermo Fisher Scientific).
+1: Targets of 20,802 genes were amplified with Ion AmpliSeqTM Transcriptome Human Gene Expression core panel (Life Technologies).
+2: The primer sequences were then digested, and DNA adaptors (Ion P1 Adaptor and Ion Xpress Barcode Adaptor, Life Technologies) were ligated to the targets.
+3: Adaptor ligated targets were purified using the Agencourt AMPure XP reagent (Beckman Coulter) and eluted into an amplification mix containing Platinum PCR SuperMix High Fidelity and Library Amplification Primer Mix (Life Technologies) for further amplification.
+4: Size-selection purification was performed using Agencourt AMPure XP reagent (Beckman Coulter).
+5: Amplicons were quantified using a Fragment Analyzer TM instrument with a DNF-474 High Sensitivity NGS Fragment Analysis Kit (Advanced Analytical Technologies, INC.).
+6: Samples were then pooled together with four samples per pool and performed an emulsion PCR on the Ion Chef System using the Ion PI Hi-Q Chef Kit (Life Technologies).
+7: The emulsion PCR samples were loaded on Ion PI v3 chips and sequenced on an Ion Proton System using an Ion PI Hi-Q Sequencing 200 Kit chemistry (Life Technologies) to obtain approximately 200 bp read length.

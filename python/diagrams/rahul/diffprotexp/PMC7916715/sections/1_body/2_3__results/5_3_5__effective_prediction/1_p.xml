@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We subsequently determined the biomarker potential of the LE genes in assessing PC relapse risk as a multigene panel. The panel scores for individual PCs were produced using the formula: ∑(f
+ <sub>i</sub>)
+ <sub>n</sub> [f
+ <sub>i</sub>: Cox coefficient (coef) of gene
+ <sub>i</sub> × gene
+ <sub>i</sub> expression, 
+ <italic>n</italic> = 10], where Cox coefs for individual genes were obtained using the multivariate Cox model. The panel scores robustly predict PC relapse at HR 2.72, 95% CI 1.96–3.77, 
+ <italic>p</italic> = 1.77 × 10
+ <sup>−9</sup> in the TCGA PanCancer cohort and HR 2.72, 95% CI 1.84–4.01, 
+ <italic>p</italic> = 4.88 × 10
+ <sup>−7</sup> in the MSKCC cohort (
+ <xref ref-type="fig" rid="genes-12-00257-f010">Figure 10</xref>A). The scores discriminate PCs with recurrence and those without a time-dependent receiver operating characteristic (tROC) AUC values of 71.2% at 11.5 months in the TCGA cohort and 75.5% at 18.4 months in MSKCC cohort (
+ <xref ref-type="fig" rid="genes-12-00257-f010">Figure 10</xref>B). With cutoff points optimized using R Maxstat package, the LE gene panel scores effectively separate PCs into a high- and low-relapse risk group in both the TCGA PanCancer and MSKCC cohort (
+ <xref ref-type="fig" rid="genes-12-00257-f010">Figure 10</xref>C,E). Additionally, the LE genes as a panel is substantially more powerful in predicting PC relapse compared to its individual component genes (comparing 
+ <xref ref-type="fig" rid="genes-12-00257-f007">Figure 7</xref> and 
+ <xref ref-type="fig" rid="genes-12-00257-f008">Figure 8</xref> with 
+ <xref ref-type="fig" rid="genes-12-00257-f010">Figure 10</xref>). Using risk score waterfall plot, PCs in both cohorts can be grouped into a high-risk, medium-risk, and low-risk group with respect to recurrence (
+ <xref ref-type="fig" rid="genes-12-00257-f010">Figure 10</xref>D,F). Collectively, these analyses reveal an attractive potential of the LE genes as a multigene panel in assessing PC relapse risk.
+</p>

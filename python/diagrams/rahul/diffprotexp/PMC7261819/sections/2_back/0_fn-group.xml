@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fn-group>
+ <fn fn-type="supported-by" id="FN1">
+  <p>* This work was supported by the Swedish Research Council, the Swedish Cancer Society, The Swedish Foundation for Strategic Research, the Swedish Childhood Cancer foundation, the Erling-Persson Family Foundation and the Deutsche Forschungsgemeinschaft (DFG) via SFB 1036. 
+   <named-content content-type="COI-statement">The authors declare that they have no conflicts of interest with the contents of this article</named-content>.
+  </p>
+ </fn>
+ <fn fn-type="supplementary-material" id="FN2">
+  <p>
+   <sup>
+    <inline-graphic xlink:href="sbox.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   </sup> This article contains 
+   <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Figures and Tables</ext-link>.
+  </p>
+ </fn>
+ <fn id="G1" fn-type="abbr">
+  <p>
+   <sup>1</sup> The abbreviations used are:
+  </p>
+  <p>
+   <def-list>
+    <def-item>
+     <term>PSM</term>
+     <def>
+      <p>peptide spectrum matches</p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>DEP</term>
+     <def>
+      <p>differentially expressed proteins</p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>EBRC</term>
+     <def>
+      <p>empirical Bayesian random censoring threshold model</p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>ROTS</term>
+     <def>
+      <p>reproducibility-optimized test statistic</p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>TMT</term>
+     <def>
+      <p>tandem mass tag</p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>DEqMS</term>
+     <def>
+      <p>Differential Expression analysis of quantitative Mass Spectrometry</p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>HiRIEF</term>
+     <def>
+      <p>High Resolution Isoelectric Focusing</p>
+     </def>
+    </def-item>
+    <def-item>
+     <term>vsn</term>
+     <def>
+      <p>variance stabilization normalization.</p>
+     </def>
+    </def-item>
+   </def-list>
+  </p>
+ </fn>
+</fn-group>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0001" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>RNAseq analysis showing up- and down-regulated ion channel gene expression in TG isolated from FRICT-ION mice. The expression of all Cav3 subtypes, 
+   <italic>Cacna1g, Cacna1h, Cacna1i</italic> is indicated. 
+   <italic>Cacna1i</italic> expression increase is statistically significantly (p &lt; 0.05, paired t-test), whereas that of 
+   <italic>Cacna1g</italic> and Cacna1h are not altered (p &gt; 0.05, paired t-test) compared to naïve controls. Expression of housekeeping gene 
+   <italic>Gapdh</italic> is not significantly changed compared to controls (p &gt; 0.05, paired t-test). TG were isolated at 10 weeks post-injury. This analysis is based on RNA obtained from whole TG tissue of three FRICT-ION and three naïve male mice. Percentage change with corresponding p-values is indicated to three significant figures
+  </p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="char" char="."/>
+   <col width="1*" align="char" char="."/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">Gene symbol</th>
+    <th align="center">Name</th>
+    <th align="center" char=".">% change</th>
+    <th align="center" char=".">p-value</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="4" align="left">Upregulated ion channel genes</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cacna1g</italic>
+    </td>
+    <td align="left">calcium channel; voltage-dependent; T type; alpha 1 G subunit</td>
+    <td align="char" char=".">35.6%</td>
+    <td align="char" char=".">0.358</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cacna1h</italic>
+    </td>
+    <td align="left">calcium channel; voltage-dependent; T type; alpha 1 H subunit</td>
+    <td align="char" char=".">10.9%</td>
+    <td align="char" char=".">0.160</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Cacna1i</italic>
+    </td>
+    <td align="left">calcium channel; voltage-dependent; alpha 1I subunit</td>
+    <td align="char" char=".">39.8%</td>
+    <td align="char" char=".">0.0276</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Gapdh</italic>
+    </td>
+    <td align="left">glyceraldehyde-3-phosphate dehydrogenase</td>
+    <td align="char" char=".">3.47%</td>
+    <td align="char" char=".">0.590</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnh6</italic>
+    </td>
+    <td align="left">potassium voltage-gated channel; subfamily H (eag-related); member 6</td>
+    <td align="char" char=".">20.3%</td>
+    <td align="char" char=".">0.0449</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Clic4</italic>
+    </td>
+    <td align="left">chloride intracellular channel 4 (mitochondrial)</td>
+    <td align="char" char=".">25.1%</td>
+    <td align="char" char=".">0.0208</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnj10</italic>
+    </td>
+    <td align="left">potassium inwardly-rectifying channel; subfamily J; member 10</td>
+    <td align="char" char=".">37.0%</td>
+    <td align="char" char=".">0.000219</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Hvcn1</italic>
+    </td>
+    <td align="left">hydrogen voltage-gated channel 1</td>
+    <td align="char" char=".">60.4%</td>
+    <td align="char" char=".">0.0370</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnj16</italic>
+    </td>
+    <td align="left">potassium inwardly-rectifying channel; subfamily J; member 16</td>
+    <td align="char" char=".">81.5%</td>
+    <td align="char" char=".">0.0102</td>
+   </tr>
+   <tr>
+    <td colspan="4" align="left">
+     <italic toggle="yes">Downregulated ion channel genes</italic>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnb2</italic>
+    </td>
+    <td align="left">potassium voltage gated channel; Shab-related subfamily; member 2</td>
+    <td align="char" char=".">−44.2%</td>
+    <td align="char" char=".">0.0270</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnv1</italic>
+    </td>
+    <td align="left">potassium channel; subfamily V; member 1</td>
+    <td align="char" char=".">−40.0%</td>
+    <td align="char" char=".">0.0112</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnh5</italic>
+    </td>
+    <td align="left">potassium voltage-gated channel; subfamily H (eag-related); member 5</td>
+    <td align="char" char=".">−35.3%</td>
+    <td align="char" char=".">0.0194</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnh7</italic>
+    </td>
+    <td align="left">potassium voltage-gated channel; subfamily H (eag-related); member 7</td>
+    <td align="char" char=".">−34.4%</td>
+    <td align="char" char=".">0.0302</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnmb2</italic>
+    </td>
+    <td align="left">potassium large conductance calcium-activated channel; subfamily M; beta member 2</td>
+    <td align="char" char=".">−32.0%</td>
+    <td align="char" char=".">0.0468</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Scn1a</italic>
+    </td>
+    <td align="left">sodium channel; voltage-gated; type I; alpha</td>
+    <td align="char" char=".">−25.2%</td>
+    <td align="char" char=".">0.00392</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcnq3</italic>
+    </td>
+    <td align="left">potassium voltage-gated channel; subfamily Q; member 3</td>
+    <td align="char" char=".">−21.2%</td>
+    <td align="char" char=".">0.0321</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Kcna2</italic>
+    </td>
+    <td align="left">potassium voltage-gated channel; shaker-related subfamily; member 2</td>
+    <td align="char" char=".">−18.3%</td>
+    <td align="char" char=".">0.0341</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Scn9a</italic>
+    </td>
+    <td align="left">sodium channel; voltage-gated; type IX; alpha</td>
+    <td align="char" char=".">−16.1%</td>
+    <td align="char" char=".">0.0414</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Nalcn</italic>
+    </td>
+    <td align="left">sodium leak channel; nonselective</td>
+    <td align="char" char=".">−14.4%</td>
+    <td align="char" char=".">0.0172</td>
+   </tr>
+   <tr>
+    <td align="left">
+     <italic toggle="yes">Trpm7</italic>
+    </td>
+    <td align="left">transient receptor potential cation channel; subfamily M; member 7</td>
+    <td align="char" char=".">−13.6%</td>
+    <td align="char" char=".">0.0171</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

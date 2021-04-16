@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40">Based on the above-mentioned predictive model (see section “Modulation of local epigenetic marks by RUNX1/RUNX1T1 influences alternative splicing”), we developed a short list of sequence features that represent the most important predictors of whether an exon-exon junction is differential or not. This short list included motif frequency and strength for HNRNPA3, MBNL1, PTBP1, RBFOX2, SRSF7, and YBX1 splicing factors (Supplementary Data 
+ <xref rid="MOESM15" ref-type="media">12</xref>). Partial dependence profiling indicated a strong non-linear relationship between class probability of EEJs and frequency or strength of splicing regulator motifs. Motifs for all splicing factors of this list similarly affected the discrimination between differential versus non-differential splicing events. For example, there is a positive link between the motif strength of the YBX1 splicing factor in the 3’-end of the intron and the probability of diffEEJs, and a mainly negative relationship between SRSF7 motif score in the downstream exon and differential splicing (Fig. 
+ <xref rid="Fig9" ref-type="fig">9e</xref>).
+</p>

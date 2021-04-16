@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The Monocle package (v2.10) 
+ <xref rid="B72" ref-type="bibr">72</xref> was used to construct a single-cell pseudotime trajectory using the functions of “reduceDimension” and “orderCells”. Ordering genes were selected based on highly variable genes identified by Seurat. In particular, “State” is Monocle's jargon for the segment of the trajectory tree in pesudotime analysis. Moreover, the “BEAM” function was used to calculate the dynamic genes at the branch point, and the genes with “qval &lt; 1e-4” were displayed using heatmaps.
+</p>

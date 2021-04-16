@@ -1,0 +1,6 @@
+0: Using R statistical programming and BiocLite of Bioconductor  9 to assess differences in gene expression, we summarized probelevel data to log2scale values and identified the strongest changes associated with each histopathological tissue class.
+1: The log2 values were decomposed as a sum of fixed and random effects.
+2: The result of differential expression analysis was the logarithm of the gene expression changes (logFC) in the experimental group multiplied by the control group.
+3: The  ttest was performed for statistical analysis of variance.
+4: The absolute logFC value of the difference between the two groups >1 and  p < 0.05 was the standard for significantly differential expression, and the top 24 up or downregulated genes during carcinogenesis were revealed via Rheatmap for cluster analysis.
+5: At last, take advantage of Panther ( http://www.pantherdb.org) to functional cluster analysis between mutual groups from controls, CIN1,2,3 to cancers.

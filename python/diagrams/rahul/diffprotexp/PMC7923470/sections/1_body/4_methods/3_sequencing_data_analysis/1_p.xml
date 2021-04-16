@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par61">We employed FastQC (
+ <ext-link ext-link-type="uri" xlink:href="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.bioinformatics.babraham.ac.uk/projects/fastqc/</ext-link>) to process the sequencing reads and obtain clean reads followed by determining the GC content distribution. HISAT2 was used to perform sequence alignment between clean reads and the reference genomes i.e. Musa genome 
+ <italic>(Musa acuminata</italic> DH Pahang V2 and 
+ <italic>Musa balbisiana</italic> DH PKW) [
+ <xref ref-type="bibr" rid="CR18">18</xref>, 
+ <xref ref-type="bibr" rid="CR27">27</xref>, 
+ <xref ref-type="bibr" rid="CR78">78</xref>, 
+ <xref ref-type="bibr" rid="CR79">79</xref>]. The comparison efficiency (percentage of mapped reads to clean reads) was calculated followed by the calculation of the position distribution statistics of the reads on different chromosomes [
+ <xref ref-type="bibr" rid="CR80">80</xref>]. The regional distribution of the reads was compared and plotted as a chart. The results were visualized in IGV software [
+ <xref ref-type="bibr" rid="CR81">81</xref>]. The quality of the transcriptome library was assessed by randomization test of mRNA fragmentation followed by an insertion length check by calculating the distance between the start and end points of the reads on the reference genome at the ends of the insert. Gene expression was quantified as Fragments Per Kilobase of transcript per Million fragments mapped (FPKM). The gene expression data was then used to express the trend of gene abundance and overall distribution of gene expression, calculate correlation, and principal component analysis (PCA). For functional annotation, we aligned the genes with various databases such as KEGG [
+ <xref ref-type="bibr" rid="CR82">82</xref>], GO [
+ <xref ref-type="bibr" rid="CR83">83</xref>], Clusters of Orthologous Groups of proteins (COG) [
+ <xref ref-type="bibr" rid="CR84">84</xref>], and EuKaryotic Orthologous Groups (KOG) [
+ <xref ref-type="bibr" rid="CR85">85</xref>] using BLAST [
+ <xref ref-type="bibr" rid="CR86">86</xref>] with a threshold of E-value &lt; 1.0 × 10
+ <sup>− 5</sup>.
+</p>

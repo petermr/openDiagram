@@ -1,0 +1,568 @@
+{
+  "id": [
+    "33380272"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33380272"
+  ],
+  "pmcid": [
+    "PMC7834089"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7834089"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/21505594.2020.1869384"
+  ],
+  "title": [
+    "Vagus nerve plays a pivotal role in CD4+ T cell differentiation during CVB3-induced murine acute myocarditis."
+  ],
+  "authorString": [
+    "Yue-Chun L, Gu XH, Li-Sha G, Zhou DP, Xing C, Guo XL, Pan LL, Song SY, Yu LL, Chen GY, Lin JF, Chu MP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Yue-Chun L"
+          ],
+          "firstName": [
+            "Li"
+          ],
+          "lastName": [
+            "Yue-Chun"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gu XH"
+          ],
+          "firstName": [
+            "Xiao-Hong"
+          ],
+          "lastName": [
+            "Gu"
+          ],
+          "initials": [
+            "XH"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li-Sha G"
+          ],
+          "firstName": [
+            "Ge"
+          ],
+          "lastName": [
+            "Li-Sha"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Pediatric Emergency, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhou DP"
+          ],
+          "firstName": [
+            "De-Pu"
+          ],
+          "lastName": [
+            "Zhou"
+          ],
+          "initials": [
+            "DP"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Xing C"
+          ],
+          "firstName": [
+            "Chao"
+          ],
+          "lastName": [
+            "Xing"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Clinical Laboratory, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Guo XL"
+          ],
+          "firstName": [
+            "Xiao-Ling"
+          ],
+          "lastName": [
+            "Guo"
+          ],
+          "initials": [
+            "XL"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Center of Scientific Research, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Pan LL"
+          ],
+          "firstName": [
+            "Lu-Lu"
+          ],
+          "lastName": [
+            "Pan"
+          ],
+          "initials": [
+            "LL"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Child Health Manage Department, Maternal and Child Health Care Institution , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Song SY"
+          ],
+          "firstName": [
+            "Shi-Yang"
+          ],
+          "lastName": [
+            "Song"
+          ],
+          "initials": [
+            "SY"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yu LL"
+          ],
+          "firstName": [
+            "Li-Li"
+          ],
+          "lastName": [
+            "Yu"
+          ],
+          "initials": [
+            "LL"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen GY"
+          ],
+          "firstName": [
+            "Guang-Yi"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "GY"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lin JF"
+          ],
+          "firstName": [
+            "Jia-Feng"
+          ],
+          "lastName": [
+            "Lin"
+          ],
+          "initials": [
+            "JF"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chu MP"
+          ],
+          "firstName": [
+            "Mao-Ping"
+          ],
+          "lastName": [
+            "Chu"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3080655"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Virulence"
+          ],
+          "ISOAbbreviation": [
+            "Virulence"
+          ],
+          "medlineAbbreviation": [
+            "Virulence"
+          ],
+          "NLMid": [
+            "101531386"
+          ],
+          "ISSN": [
+            "2150-5594"
+          ],
+          "ESSN": [
+            "2150-5608"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "360-376"
+  ],
+  "abstractText": [
+    "Abnormalities in CD4<sup>+</sup> T cell (Th cell) differentiation play an important role in the pathogenesis of viral myocarditis (VMC). Our previous studies demonstrated that activation of the cholinergic anti-inflammatory pathway (CAP) alleviated the inflammatory response. In addition, we observed that right cervical vagotomy aggravates VMC by inhibiting CAP. However, the vagus nerve's effect on differentiation of CD4<sup>+</sup> T cells has not been studied in VMC mice to date. In this study, we investigated the effects of cervical vagotomy and the α7nAChR agonist pnu282987 on CD4<sup>+</sup> T cell differentiation in a murine myocarditis model (BALB/c) infected with coxsackievirus B3 (CVB3). Splenic CD4<sup>+</sup> T cells from CVB3-induced mice obtained and cultured to investigate the potential mechanism of CD4<sup>+</sup> T cell differentiation. Each Th cell subset was analyzed by flow cytometry. Our results showed that right cervical vagotomy increased proportions of Th1 and Th17 cells and decreased proportions of Th2 and Treg cells in the spleen. Vagotomy-induced upregulation of T-bet, Ror-γ, IFN-γ, and IL-17 expression while downregulating the expression of Gata3, Foxp3, and IL-4 in the heart. In addition, we observed upregulated levels of proinflammatory cytokines, aggravated myocardial lesions and cellular infiltration, and worsened cardiac function in VMC mice. Pnu282987 administration reversed these outcomes. Furthermore, vagotomy inhibited JAK2-STAT3 activation and enhanced NF-κB activation in splenic CD4<sup>+</sup> T cells. The CD4<sup>+</sup> T cell differentiation was related to JAK2-STAT3 and NF-κB signal pathways. In conclusion, vagus nerve modulates the inflammatory response by regulating CD4<sup>+</sup> T cell differentiation in response to VMC."
+  ],
+  "affiliation": [
+    "Institute of Cardiovascular Development and Translational Medicine, The Second Affiliated Hospital and Yuying Children's Hospital of Wenzhou Medical University , Wenzhou, China."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Viral myocarditis",
+        "vagus nerve",
+        "Cd4+ T Cells",
+        "Cholinergic Anti-inflammatory Pathway"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/21505594.2020.1869384"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7834089"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7834089?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-12-31"
+  ],
+  "firstIndexDate": [
+    "2021-01-01"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-05"
+  ],
+  "dateOfRevision": [
+    "2021-03-22"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par55">Because of the transcript probing redundancy, we used the mid-interval chi-square estimate of the coefficient of variation (CV) of the normalized expression of each gene in the profiled chamber, adjusted for multiple spots, termed REV
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>.
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \begin{gathered} \forall chamber = LA,RA,LV,RV \hfill \\ REV_{i}^{(chamber)} = \underbrace {{\frac{1}{2}\left( {\sqrt {\frac{{r_{i} }}{{\chi^{2} \left( {r_{i} ;0.975} \right)}}} + \sqrt {\frac{{r_{i} }}{{\chi^{2} \left( {r_{i} ;0.025} \right)}}} } \right)}}_{{\text{redundancy correction coefficient}}}\underbrace {{\sqrt {\frac{1}{{R_{i} }}\sum\limits_{k = 1}^{{R_{i} }} {\left( {\frac{{s_{ik}^{(chamber)} }}{{\mu_{ik}^{(chamber)} }}} \right)^{2} } } }}_{{{\text{pooled CV}}_{i}^{(chamber)} }} \times 100\% \hfill \\ \end{gathered} $$\end{document}</tex-math>
+   <math id="M6" display="block">
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mo>∀</mo>
+         <mi>c</mi>
+         <mi>h</mi>
+         <mi>a</mi>
+         <mi>m</mi>
+         <mi>b</mi>
+         <mi>e</mi>
+         <mi>r</mi>
+         <mo>=</mo>
+         <mi>L</mi>
+         <mi>A</mi>
+         <mo>,</mo>
+         <mi>R</mi>
+         <mi>A</mi>
+         <mo>,</mo>
+         <mi>L</mi>
+         <mi>V</mi>
+         <mo>,</mo>
+         <mi>R</mi>
+         <mi>V</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mrow/>
+         <mi>R</mi>
+         <mi>E</mi>
+         <msubsup>
+          <mi>V</mi>
+          <mrow>
+           <mi>i</mi>
+          </mrow>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>c</mi>
+           <mi>h</mi>
+           <mi>a</mi>
+           <mi>m</mi>
+           <mi>b</mi>
+           <mi>e</mi>
+           <mi>r</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </msubsup>
+         <mo>=</mo>
+         <munder>
+          <munder accentunder="true">
+           <mrow>
+            <mfrac>
+             <mn>1</mn>
+             <mn>2</mn>
+            </mfrac>
+            <mfenced close=")" open="(">
+             <mrow>
+              <msqrt>
+               <mfrac>
+                <msub>
+                 <mi>r</mi>
+                 <mi>i</mi>
+                </msub>
+                <mrow>
+                 <msup>
+                  <mi>χ</mi>
+                  <mn>2</mn>
+                 </msup>
+                 <mfenced close=")" open="(">
+                  <mrow>
+                   <msub>
+                    <mi>r</mi>
+                    <mi>i</mi>
+                   </msub>
+                   <mo>;</mo>
+                   <mn>0.975</mn>
+                  </mrow>
+                 </mfenced>
+                </mrow>
+               </mfrac>
+              </msqrt>
+              <mo>+</mo>
+              <msqrt>
+               <mfrac>
+                <msub>
+                 <mi>r</mi>
+                 <mi>i</mi>
+                </msub>
+                <mrow>
+                 <msup>
+                  <mi>χ</mi>
+                  <mn>2</mn>
+                 </msup>
+                 <mfenced close=")" open="(">
+                  <mrow>
+                   <msub>
+                    <mi>r</mi>
+                    <mi>i</mi>
+                   </msub>
+                   <mo>;</mo>
+                   <mn>0.025</mn>
+                  </mrow>
+                 </mfenced>
+                </mrow>
+               </mfrac>
+              </msqrt>
+             </mrow>
+            </mfenced>
+           </mrow>
+           <mo>⏟</mo>
+          </munder>
+          <mrow>
+           <mtext>redundancy correction coefficient</mtext>
+          </mrow>
+         </munder>
+         <munder>
+          <munder accentunder="true">
+           <msqrt>
+            <mrow>
+             <mfrac>
+              <mn>1</mn>
+              <msub>
+               <mi>R</mi>
+               <mi>i</mi>
+              </msub>
+             </mfrac>
+             <munderover>
+              <mo movablelimits="false">∑</mo>
+              <mrow>
+               <mi>k</mi>
+               <mo>=</mo>
+               <mn>1</mn>
+              </mrow>
+              <msub>
+               <mi>R</mi>
+               <mi>i</mi>
+              </msub>
+             </munderover>
+             <msup>
+              <mfenced close=")" open="(">
+               <mfrac>
+                <msubsup>
+                 <mi>s</mi>
+                 <mrow>
+                  <mi mathvariant="italic">ik</mi>
+                 </mrow>
+                 <mrow>
+                  <mo stretchy="false">(</mo>
+                  <mi>c</mi>
+                  <mi>h</mi>
+                  <mi>a</mi>
+                  <mi>m</mi>
+                  <mi>b</mi>
+                  <mi>e</mi>
+                  <mi>r</mi>
+                  <mo stretchy="false">)</mo>
+                 </mrow>
+                </msubsup>
+                <msubsup>
+                 <mi>μ</mi>
+                 <mrow>
+                  <mi mathvariant="italic">ik</mi>
+                 </mrow>
+                 <mrow>
+                  <mo stretchy="false">(</mo>
+                  <mi>c</mi>
+                  <mi>h</mi>
+                  <mi>a</mi>
+                  <mi>m</mi>
+                  <mi>b</mi>
+                  <mi>e</mi>
+                  <mi>r</mi>
+                  <mo stretchy="false">)</mo>
+                 </mrow>
+                </msubsup>
+               </mfrac>
+              </mfenced>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </msqrt>
+           <mo>⏟</mo>
+          </munder>
+          <msubsup>
+           <mrow>
+            <mtext>pooled CV</mtext>
+           </mrow>
+           <mrow>
+            <mi>i</mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mi>c</mi>
+            <mi>h</mi>
+            <mi>a</mi>
+            <mi>m</mi>
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </msubsup>
+         </munder>
+         <mo>×</mo>
+         <mn>100</mn>
+         <mo>%</mo>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow/>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2021_82383_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$s_{ik}^{(chamber)}$$\end{document}</tex-math>
+   <math id="M8">
+    <msubsup>
+     <mi>s</mi>
+     <mrow>
+      <mi mathvariant="italic">ik</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>c</mi>
+      <mi>h</mi>
+      <mi>a</mi>
+      <mi>m</mi>
+      <mi>b</mi>
+      <mi>e</mi>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2021_82383_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> = standard deviation of the expression level of gene 
+ <italic>i</italic> probed by spot 
+ <italic>k</italic> in “chamber”; 
+ <italic>r</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> = 4
+ <italic>R</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> – 1 = number of degrees of freedom
+</p>

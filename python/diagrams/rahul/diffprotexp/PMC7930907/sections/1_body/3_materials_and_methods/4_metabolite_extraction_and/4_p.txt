@@ -1,0 +1,7 @@
+0: The MS peak list was subjected to MetaboAnalyst 3.0 for statistical analysis.
+1: PCA and pathway analysis were performed with the web-based software MetaboAnalyst 3.0 3.
+2: Briefly, missing values were replaced by 1/5 of min positive values of their corresponding variables.
+3: Sample normalization by sum and data scaling by auto scaling were applied (mean centered and divided by the standard deviation of each variation) ( Supplementary Figures 2A,D).
+4: Fold change analysis was used to compare the absolute value of change between two groups (Fold change threshold: two).
+5: Nonparametric tests were employed according to the normalized data (Adjusted  P-value (FDR) cutoff<0.05).
+6: The different metabolites were subjected to enrichment analysis and pathway analysis in MetaboAnalyst 3.0 by KEGG.

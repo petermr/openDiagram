@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The transcriptome data of GI cancer were integrated, and tumor samples were divided into the high and low expression groups according to the median level of the 
+ <italic>GSK3B</italic> gene expression. In total, 2,071 significantly up-regulated and 695 significantly down-regulated genes were identified (
+ <xref ref-type="fig" rid="F8">Figure 8D</xref>). In order to find the probable drug targeting the 
+ <italic>GSK3B</italic> gene 
+ <italic>via</italic> the CMap database, we screened the first 150 genes in the up-regulated and down-regulated genes, respectively. Streptozotocin was the highest score in the prediction. Next, the PubChem database was applied to obtain the 3D structure of streptozotocin (
+ <xref ref-type="fig" rid="F8">Figure 8E</xref>). Next, 280 target genes were gained through the PharmMapper database. Then, we chose the common genes between 274 drug targets and 2,766 differential genes of the 
+ <italic>GSK3B</italic> gene, and finally, 29 genes were used for PPI network with this compound on streptozotocin, including 
+ <italic>HUWE1</italic>, 
+ <italic>AGT</italic>, 
+ <italic>HAO1</italic>, 
+ <italic>CPB2</italic>, 
+ <italic>WNK1</italic>, 
+ <italic>CPA4</italic>, 
+ <italic>ZNF462</italic>, 
+ <italic>RIMS2</italic>, 
+ <italic>GAS2</italic>, 
+ <italic>CFTR</italic>, 
+ <italic>PLA2G1B</italic>, 
+ <italic>F2</italic>, 
+ <italic>SERPINC1</italic>, 
+ <italic>TRIO</italic>, 
+ <italic>FAH</italic>, 
+ <italic>CSNK1G1</italic>, 
+ <italic>AGO2</italic>, 
+ <italic>PRC1</italic>, 
+ <italic>ASIC1</italic>, 
+ <italic>CYB5A</italic>, 
+ <italic>GTF2I</italic>, 
+ <italic>IL10</italic>, 
+ <italic>IGFBP1</italic>, 
+ <italic>SDK2</italic>, 
+ <italic>GAMT</italic>, 
+ <italic>LDHB</italic>, 
+ <italic>ALB</italic>, 
+ <italic>NUDT4</italic>, and 
+ <italic>IGF2BP2</italic> (
+ <xref ref-type="fig" rid="F8">Figure 8F</xref>).
+</p>

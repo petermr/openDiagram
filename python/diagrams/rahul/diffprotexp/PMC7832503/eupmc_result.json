@@ -1,0 +1,639 @@
+{
+  "id": [
+    "33393450"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33393450"
+  ],
+  "pmcid": [
+    "PMC7832503"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7832503"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/22221751.2020.1870412"
+  ],
+  "title": [
+    "A host-based whole genome sequencing study reveals novel risk loci associated with severity of influenza A(H1N1)pdm09 infection."
+  ],
+  "authorString": [
+    "Li M, Chen Y, Chen T, Hu S, Chen L, Shen L, Li F, Yang J, Sun Y, Wang D, He L, Qin S, Shu Y."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Li M"
+          ],
+          "firstName": [
+            "Mo"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9915-1348",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen Y"
+          ],
+          "firstName": [
+            "Yongkun"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Public Health (Shenzhen), Sun Yat-sen University, Shenzhen, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen T"
+          ],
+          "firstName": [
+            "Tao"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hu S"
+          ],
+          "firstName": [
+            "Shixiong"
+          ],
+          "lastName": [
+            "Hu"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Hunan Provincial Center for Disease Control and Prevention, Changsha, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen L"
+          ],
+          "firstName": [
+            "Luan"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Shen L"
+          ],
+          "firstName": [
+            "Lu"
+          ],
+          "lastName": [
+            "Shen"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li F"
+          ],
+          "firstName": [
+            "Fangcai"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Hunan Provincial Center for Disease Control and Prevention, Changsha, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yang J"
+          ],
+          "firstName": [
+            "Jing"
+          ],
+          "lastName": [
+            "Yang"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sun Y"
+          ],
+          "firstName": [
+            "Yan"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Changsha Central Hospital, Changsha 410004, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang D"
+          ],
+          "firstName": [
+            "Dayan"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "He L"
+          ],
+          "firstName": [
+            "Lin"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Qin S"
+          ],
+          "firstName": [
+            "Shengying"
+          ],
+          "lastName": [
+            "Qin"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8458-5960",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Shu Y"
+          ],
+          "firstName": [
+            "Yuelong"
+          ],
+          "lastName": [
+            "Shu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "School of Public Health (Shenzhen), Sun Yat-sen University, Shenzhen, People's Republic of China."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "National Institute for Viral Disease Control and Prevention, Chinese Center for Disease Control and Prevention, Beijing, People's Republic of China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8458-5960",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9915-1348",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "3092862"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Emerging microbes & infections"
+          ],
+          "ISOAbbreviation": [
+            "Emerg Microbes Infect"
+          ],
+          "medlineAbbreviation": [
+            "Emerg Microbes Infect"
+          ],
+          "NLMid": [
+            "101594885"
+          ],
+          "ISSN": [
+            "2222-1751"
+          ],
+          "ESSN": [
+            "2222-1751"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "123-131"
+  ],
+  "abstractText": [
+    "Influenza A(H1N1)pdm09 virus has remained in a seasonal circulation since being recognized in 2009. Although it followed a mild course in most patients, in others it caused a series of severe clinical illnesses. Epidemiologic studies have implicated that host factors have a major influence on the disease severity of influenza A(H1N1)pdm09 infection. However, an understanding of relevant genetic variations and the underlying mechanisms is still limited. In this present study, we used a host-based whole genome sequencing (WGS) method to comprehensively explore the genetic risk loci associated with severity of influenza A(H1N1)pdm09 infection. From the common single-nucleotide variants (SNVs) analysis, we identified the abnormal nominally significant (<i>P</i> < 1 × 10<sup>-4</sup>) common SNVs enriched in <i>PTBP3</i> gene. The results of rare functional SNVs analysis supported that there were several novel candidate genes might confer risk of severe influenza A(H1N1)pdm09 diseases, such as <i>FTSJ3</i>, <i>CPVL</i>, <i>BST2</i>, <i>NOD2</i> and <i>MAVS</i>. Moreover, our results of gene set based analysis indicated that the HIF-1 transcription factor and IFN-γ pathway might play an important role in the underlying mechanism of severe influenza A(H1N1)pdm09. These findings will increase our knowledge about biological mechanism underlying the severe influenza A(H1N1)pdm09 and facilitate to design novel personalized treatments."
+  ],
+  "affiliation": [
+    "Bio-X Institutes, Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders, Ministry of Education, Shanghai Jiao Tong University, Shanghai, People's Republic of China."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Interferon gamma",
+        "Hypoxia inducible factor-1",
+        "Whole Genome Sequencing",
+        "Influenza A(h1n1)pdm09",
+        "Host Disease Severity"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/22221751.2020.1870412"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7832503"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7832503?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "refsnp"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-01-04"
+  ],
+  "firstIndexDate": [
+    "2021-01-05"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-05"
+  ],
+  "dateOfRevision": [
+    "2021-02-03"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

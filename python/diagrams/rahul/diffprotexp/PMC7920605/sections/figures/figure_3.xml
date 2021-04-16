@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0003" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>Genes with differential m6A methylation modification genes in MH7A cells after stimulation with TNF-α. (
+   <bold>A</bold>) Volcano plot representation of microarray data on the differentially expressed m6A methylation genes between the control group and TNF-α group. The blue and red dots to the left and to the right of the two vertical lines indicate more than a 1.5 fold change and represent the differentially expressed m6A methylation genes with statistical significance. Statistical significance was defined as a fold change of 1.5 and a p-value of 0.05 between the control and TNF-α groups. (
+   <bold>B</bold>) Hierarchical cluster analysis of differentially expressed m6A methylation genes between the control group and TNF-α group. Hierarchical clustering showed that the differentially expressed m6A methylation genes ultimately clustered into two major branches, including hypermethylated genes, which are labeled in red, and hypomethylated genes, which are labeled in green. The darker the color, the more significant the difference. (
+   <bold>C</bold>) The sector graph shows the proportion of m6A methylation distribution in the indicated regions. (
+   <bold>D</bold>) The number of genes with differential m6A methylation in per chromosome. (
+   <bold>E</bold>) PPI of differentially expressed m6A methylation genes. (
+   <bold>F</bold>) The top 30 enriched GO terms of differentially expressed m6A methylated genes in MH7A cells. (
+   <bold>G</bold>) The top 30 pathway enrichments of differentially expressed m6A methylated genes in MH7A cells.
+  </p>
+ </caption>
+ <graphic content-type="print-only" xlink:href="JIR-14-575-g0003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

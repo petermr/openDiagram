@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par48">For each tissue, we included only genes with ≥1 count per million in at least 20% samples and we normalised between samples using TMM (weighted trimmed mean of 
+ <italic>M</italic> values)
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup> implemented in edgeR
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>. To facilitate cartilage comparisons post-analysis, the previous two steps (exclusions of low expressed genes and the between sample normalisation) were performed with high-grade and low-grade cartilage samples combined. For each tissue separately, we then normalised across samples using an inverse normalisation transformation for each gene. To infer hidden factors associated with cohort, sequencing batch, or other technical differences, we applied probabilistic estimation of expression residuals (PEER)
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup> separately to each tissue (PEER C + + version with standard parameters from the R version, i.e. iteration = 1000, bound = 0.001, variance = 0.00001, Alpha a = 0.001, Alpha b = 0.1, Eps a = 0.1, Eps b = 10). We used the GTEx modified version of FastQTL
+ <sup>
+  <xref ref-type="bibr" rid="CR51">51</xref>
+ </sup> (
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/francois-a/fastqtl" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/francois-a/fastqtl</ext-link>; v6p), which allows for minor allele count filtering, reporting of MAF and calculation of FDR. We determined the TSS for each gene using empirical transcript level expression information from synovium, high-grade and low-grade cartilage samples (see below) and defined the 
+ <italic>cis</italic>-mapping region to be 1 Mb in either direction from the TSS. We restricted the analysis to variants with minor allele count of at least 10 in a given tissue. Nominal 
+ <italic>p</italic> values for each gene-variant pair were based on linear regression, including 15 PEER factors for the given tissue, sex and genotype array as covariates. We then employed the adaptive permutation scheme with the—permute 1000 10000 option to generate empirical 
+ <italic>p</italic> values. Genes with significant eQTLs ('eGenes') were defined at the 5% Storey–Tibshirani FDR using the 
+ <italic>q</italic> values generated from the empirical 
+ <italic>p</italic> values
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>. For each eGene, significant eQTLs were defined as variants with nominal 
+ <italic>p</italic> value below the nominal 
+ <italic>p</italic> value threshold for that gene generated in FastQTL.
+</p>

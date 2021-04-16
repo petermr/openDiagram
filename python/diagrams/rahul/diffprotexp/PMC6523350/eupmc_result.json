@@ -1,0 +1,722 @@
+{
+  "id": [
+    "30935009"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "30935009"
+  ],
+  "pmcid": [
+    "PMC6523350"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC6523350"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/biom9040130"
+  ],
+  "title": [
+    "Study on Differential Protein Expression in Natural Selenium-Enriched and Non-Selenium-Enriched Rice Based on iTRAQ Quantitative Proteomics."
+  ],
+  "authorString": [
+    "Zeng R, Farooq MU, Wang L, Su Y, Zheng T, Ye X, Jia X, Zhu J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zeng R"
+          ],
+          "firstName": [
+            "Rui"
+          ],
+          "lastName": [
+            "Zeng"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Demonstration Base for International Science & Technology Cooperation of Sichuan Province, Rice Research Institute, Sichuan Agricultural University, Chengdu 611130, Sichuan, China. zengrui829@163.com."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Dujiangyan Agricultural and Rural Bureau, Dujiangyan 611830, Sichuan, China. zengrui829@163.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Farooq MU"
+          ],
+          "firstName": [
+            "Muhammad Umer"
+          ],
+          "lastName": [
+            "Farooq"
+          ],
+          "initials": [
+            "MU"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1482-0985",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Demonstration Base for International Science & Technology Cooperation of Sichuan Province, Rice Research Institute, Sichuan Agricultural University, Chengdu 611130, Sichuan, China. umerpbguaf@gmail.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang L"
+          ],
+          "firstName": [
+            "Li"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Meishan Vocational & Technical College, Meishan 62000, Sichuan, China. wli_1981@163.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Su Y"
+          ],
+          "firstName": [
+            "Yang"
+          ],
+          "lastName": [
+            "Su"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Demonstration Base for International Science & Technology Cooperation of Sichuan Province, Rice Research Institute, Sichuan Agricultural University, Chengdu 611130, Sichuan, China. imsuxiaomeng@163.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zheng T"
+          ],
+          "firstName": [
+            "Tengda"
+          ],
+          "lastName": [
+            "Zheng"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Demonstration Base for International Science & Technology Cooperation of Sichuan Province, Rice Research Institute, Sichuan Agricultural University, Chengdu 611130, Sichuan, China. 13089068357@163.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ye X"
+          ],
+          "firstName": [
+            "Xiaoying"
+          ],
+          "lastName": [
+            "Ye"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Demonstration Base for International Science & Technology Cooperation of Sichuan Province, Rice Research Institute, Sichuan Agricultural University, Chengdu 611130, Sichuan, China. yeyixuana@163.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jia X"
+          ],
+          "firstName": [
+            "Xiaomei"
+          ],
+          "lastName": [
+            "Jia"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Demonstration Base for International Science & Technology Cooperation of Sichuan Province, Rice Research Institute, Sichuan Agricultural University, Chengdu 611130, Sichuan, China. jessicamei2372@sina.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhu J"
+          ],
+          "firstName": [
+            "Jianqing"
+          ],
+          "lastName": [
+            "Zhu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4921-1215",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Demonstration Base for International Science & Technology Cooperation of Sichuan Province, Rice Research Institute, Sichuan Agricultural University, Chengdu 611130, Sichuan, China. zhujianqing1963@163.com."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1482-0985",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4921-1215",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2798738"
+      ],
+      "dateOfPublication": [
+        "2019 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Biomolecules"
+          ],
+          "ISOAbbreviation": [
+            "Biomolecules"
+          ],
+          "medlineAbbreviation": [
+            "Biomolecules"
+          ],
+          "NLMid": [
+            "101596414"
+          ],
+          "ISSN": [
+            "2218-273X"
+          ],
+          "ESSN": [
+            "2218-273X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "abstractText": [
+    "This work was designated to scrutinize the protein differential expression in natural selenium-enriched and non-selenium-enriched rice using the Isobaric-tags for relative and absolute quantification (iTRAQ) proteomics approach. The extracted proteins were subjected to enzyme digestion, desalting, and identified by iTRAQ coupled with liquid chromatography-tandem mass spectrometry (LC-MS/MS) technology. High pH C18 separation analysis was performed, and the data were then analyzed by Protein PilotTM (V4.5) search engine. Protein differential expression was searched out by comparing relatively quantified proteins. The analysis was conducted using gene ontology (GO), cluster of orthologous groups of proteins (COG) and Kyoto encyclopedia of genes and genomes (KEGG) metabolic pathways. A total of 3235 proteins were detected and 3161 proteins were quantified, of which 401 were differential proteins. 208 down-regulated and 193 up-regulated proteins were unveiled. 77 targeted significant differentially expressed proteins were screened out for further analysis, and were classified into 10 categories: oxidoreductases, transferases, isomerases, heat shock proteins, lyases, hydrolases, ligases, synthetases, tubulin, and actin. The results indicated that the anti-stress, anti-oxidation, active oxygen metabolism, carbohydrate and amino acid metabolism of natural selenium-enriched rice was higher than that of non-selenium rice. The activation of the starch synthesis pathway was found to be bounteous in non-selenium-enriched rice. Cysteine synthase (CYS) and methyltransferase (metE) might be the two key proteins that cause amino acid differences. OsAPx02, CatC, riPHGPX, HSP70 and HSP90 might be the key enzymes regulating antioxidant and anti-stress effect differences in two types of rice. This study provides basic information about deviations in protein mechanism and secondary metabolites in selenium-enriched and non-selenium-enriched rice."
+  ],
+  "affiliation": [
+    "Demonstration Base for International Science & Technology Cooperation of Sichuan Province, Rice Research Institute, Sichuan Agricultural University, Chengdu 611130, Sichuan, China. zengrui829@163.com."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Selenium"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Plant Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Chromatography, Liquid"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Proteomics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Plant"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Tandem Mass Spectrometry"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oryza"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Rice",
+        "Proteomics",
+        "Itraq",
+        "Natural Selenium-enriched",
+        "Non-selenium-enriched"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Plant Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Selenium"
+          ],
+          "registryNumber": [
+            "H6241UJ22B"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/biom9040130"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6523350"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6523350?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "uniprot"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2019-09-03"
+  ],
+  "dateOfCreation": [
+    "2019-04-03"
+  ],
+  "firstIndexDate": [
+    "2019-04-03"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-10"
+  ],
+  "dateOfRevision": [
+    "2019-09-03"
+  ],
+  "electronicPublicationDate": [
+    "2019-03-30"
+  ],
+  "firstPublicationDate": [
+    "2019-03-30"
+  ]
+}

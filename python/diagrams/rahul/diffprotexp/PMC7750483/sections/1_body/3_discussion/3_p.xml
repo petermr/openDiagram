@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In an attempt to find out the major targets or pathways modulated by m
+ <sup>5</sup>C regulators, we first determined proteins that were significantly altered upon m
+ <sup>5</sup>C regulator gene alteration. The results demonstrated that alteration in m
+ <sup>5</sup>C regulators led to the decreased expression of oncogenic YAP1 and RICTOR and increased expression of DNA mismatch repair proteins MSH2 and MSH6 (
+ <xref ref-type="fig" rid="F6">Figure 6A</xref>). We then further determined which signaling pathways these differential proteins mainly belong to. By taking the gene count and P value into account, we found that PI3K–Akt and ErbB were the most important pathways affected by m
+ <sup>5</sup>C regulators among other pathways including the mTOR and HIF-1 pathways (
+ <xref ref-type="fig" rid="F6">Figures 6B,C</xref>). The differential proteins in the PI3K–Akt and ErbB pathways play important roles in regulating protein binding, cytosol, and signal transduction from GO analysis (
+ <xref ref-type="fig" rid="F7">Figure 7A</xref>). The PI3K–Akt and ErbB pathways are important cancer-related pathways. Studies have shown that the ErbB signaling pathway is regulated by miR-200a/141 in the epithelial–mesenchymal transition (EMT)-related microRNA-200 family in renal cell carcinoma (RCC) (
+ <xref rid="B73" ref-type="bibr">Yoshino et al., 2013</xref>). At the same time, accumulating evidence has elucidated that the PI3K–Akt signaling pathway is highly activated (
+ <xref rid="B14" ref-type="bibr">Guo et al., 2015</xref>; 
+ <xref rid="B16" ref-type="bibr">Hao et al., 2019</xref>) and is a validated therapeutic target in RCC (
+ <xref rid="B33" ref-type="bibr">Lin et al., 2014</xref>). Key miRNAs and target genes have been reported to be mainly related to the PI3K–Akt signaling pathway in GI cancers (
+ <xref rid="B26" ref-type="bibr">Lai et al., 2019</xref>). A bioinformatics analysis showed that the DEGs of EC compared with normal tissues are mainly enriched in the PI3K–Akt signaling pathway (
+ <xref rid="B30" ref-type="bibr">Li M. et al., 2020</xref>; 
+ <xref rid="B76" ref-type="bibr">Yu-Jing et al., 2020</xref>). Moreover, GLI1 co-expressed and DEGs between tumor samples and normal tissues were both largely enriched in the PI3K–Akt pathway in STAD (
+ <xref rid="B74" ref-type="bibr">Yu et al., 2018</xref>; 
+ <xref rid="B29" ref-type="bibr">Li et al., 2019</xref>). In PAAD, 4-miRNA as independent prognostic factor was found to be related to the PI3K–Akt signaling pathway (
+ <xref rid="B66" ref-type="bibr">Wang et al., 2019</xref>). Growing evidence revealed that the ErbB and PI3K–Akt signaling pathways play vital roles in colorectal cancer by regulating microRNA, lncRNA, mRNA, etc. (
+ <xref rid="B52" ref-type="bibr">Szmida et al., 2015</xref>; 
+ <xref rid="B48" ref-type="bibr">Song et al., 2018</xref>; 
+ <xref rid="B67" ref-type="bibr">Wei et al., 2019</xref>; 
+ <xref rid="B79" ref-type="bibr">Zhong et al., 2019</xref>; 
+ <xref rid="B62" ref-type="bibr">Wan et al., 2020</xref>). These findings indicate that GI cancer is closely related to the ErbB and PI3K–Akt signaling pathways. By visualizing the PPI network of m
+ <sup>5</sup>C regulators and their potential downstream targets in the PI3K–Akt and ErbB pathways, we found that m
+ <sup>5</sup>C regulators formed a group and were closely connected with the differential protein group by NOP2, ALYREF, and RPS6 (
+ <xref ref-type="fig" rid="F7">Figure 7B</xref>).
+</p>

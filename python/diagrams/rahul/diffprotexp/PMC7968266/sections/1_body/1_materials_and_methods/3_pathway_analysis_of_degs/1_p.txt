@@ -1,0 +1,2 @@
+0: GO and KEGG analysis of DEGs were performed through the DAVID ( https://david.ncifcrf.gov/).
+1: The top 20 items of GO function pathways and all items of KEGG pathways were then displayed as bubble diagrams using the  ggplot2 R package based on  P-value ( P < 0.05 as statistically significant).

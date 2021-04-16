@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F2" orientation="portrait" position="float">
+ <label>Fig. 2.</label>
+ <caption>
+  <p>
+   <bold>Performance of DEqMS in spike-in MS proteomics data.</bold>
+   <italic>A</italic>, ROC curves for different methods used to analyze label-free (left) and TMT-labeled (right) 
+   <italic>E. coli</italic> spike-in data. Absolute value of t-statistics reported by different methods was used to compute area under curve. Indicated in the parentheses for each method is the partial area under curve (pAUC, in the range specificity&gt;95%) expressed as a percentage relative to the maximum value in the specified range. Limma(vsn) shows the result of applying Limma on intensities normalized by variance stabilization method. 
+   <italic>B</italic>, True positive and false positive (adjusted 
+   <italic>p</italic> value&lt;0.01) findings in label-free (left) and TMT-labeled (right) spike-in data using different analysis methods. Limma (trend = T) was not evaluated for TMT data because all other methods use protein log ratio matrix as input, and Limma (trend = T) requires estimation of protein intensity from PSM intensity, which is not a common practice to analyze TMT data. Associated data and results are available in 
+   <ext-link ext-link-type="uri" xlink:href="http://www.mcponline.org/cgi/content/full/TIR119.001646/DC1" xmlns:xlink="http://www.w3.org/1999/xlink">supplemental Tables S1–S3</ext-link>.
+  </p>
+ </caption>
+ <graphic xlink:href="zjw0052061230002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

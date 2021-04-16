@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="para0008">Notch signaling is activated when Notch receptor binds to the Notch ligand. This results in the release of Notch intracellular domain (NICD), which enters the nucleus and binds to RBPjk protein and activates the downstream targets such as Hes and Hey. Notch signaling is important during development. While Notch1 or Notch2 deletion in mice is lethal, targeted deletion of Notch4 or Notch3 is not. This gives us the opportunity to learn more about the function and targets of Notch3 and Notch4 pathways, both of which are abnormally expressed in many diseases including cancers and kidney diseases 
+ <xref rid="bib0003" ref-type="bibr">[3]</xref>, 
+ <xref rid="bib0004" ref-type="bibr">[4]</xref>, 
+ <xref rid="bib0005" ref-type="bibr">[5]</xref>, 
+ <xref rid="bib0006" ref-type="bibr">[6]</xref>, 
+ <xref rid="bib0007" ref-type="bibr">[7]</xref>, 
+ <xref rid="bib0008" ref-type="bibr">[8]</xref>, 
+ <xref rid="bib0009" ref-type="bibr">[9]</xref>. The homozygous 
+ <italic>Notch4
+  <sup>d1</sup>
+ </italic> mice exhibit deletion of exon 21 and 22 which encode 186 amino acids of the extracellular domain of the Notch4 protein. This renders the two closest exon 20 and exon 23 out of frame with respect to each other 
+ <xref rid="bib0010" ref-type="bibr">[10]</xref>. It was reported that these mice express the extracellular domain of Notch4 
+ <xref rid="bib0011" ref-type="bibr">[11]</xref>. The homozygous 
+ <italic>Notch3
+  <sup>d1</sup>
+ </italic> mice have a deletion of 2.5 kb sequence encoding the EGF repeats 8 through 12. These mice have been reported to express no extracellular or intracellular domain 
+ <xref rid="bib0012" ref-type="bibr">[12]</xref>. We conducted RNA seq analysis in kidney homozygous for 
+ <italic>Notch4
+  <sup>d1</sup>
+ </italic> and 
+ <italic>Notch3
+  <sup>d1</sup>
+ </italic>, both on FVB background. The data comprise of both male and female mice. The 
+ <italic>Notch4
+  <sup>d1</sup>
+ </italic> group consists of 2 males and 2 females (
+ <italic>n</italic> = 4). The 
+ <italic>Notch3
+  <sup>d1</sup>
+ </italic> group consists of 3 males and 3 females (
+ <italic>n</italic> = 6). The accession codes for these samples deposited in the SRA database for two 
+ <italic>Notch4
+  <sup>d1</sup>
+ </italic> males are, (SRR10362438, SRR10362437), two 
+ <italic>Notch4
+  <sup>d1</sup>
+ </italic> females (SRR10362436, SRR10362435,), three 
+ <italic>Notch3
+  <sup>d1</sup>
+ </italic> males (SRR13107600, SRR13107599, SRR13530986) and three 
+ <italic>Notch3
+  <sup>d1</sup>
+ </italic> females (SRR13107598, SRR13107597, SRR13530987). The differential expression is presented as top downregulated and top upregulated genes in 
+ <italic>Notch4
+  <sup>d1</sup>
+ </italic> versus 
+ <italic>Notch3
+  <sup>d1</sup>
+ </italic> mice and are presented as supplementary data. The list of differentially expressed genes is presented as absolute fold change ≥ 1.5,  p value ≤0.05. We also calculated the false discovery rate (FDR) for each differentially expressed gene (supplementary table).
+</p>

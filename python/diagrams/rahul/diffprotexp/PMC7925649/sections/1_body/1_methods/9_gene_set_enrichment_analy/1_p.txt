@@ -1,0 +1,2 @@
+0: All the genes detected for a comparison were ranked according to their log2 fold change in expression regardless of statistical significance.
+1: GSEA was performed using the Java-based GSEA software (version 3.0) on this ranked gene lists against the entire MSigDB database (version 6.1) 27,  28. with 1000 permutations; significance was achieved for a  q-value less than or equal to 0.25, per the GSEA developers recommended practices.

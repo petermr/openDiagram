@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="CR2">
+ <label>2.</label>
+ <element-citation publication-type="journal">
+  <person-group person-group-type="author">
+   <name>
+    <surname>Luo</surname>
+    <given-names>P</given-names>
+   </name>
+   <name>
+    <surname>Ding</surname>
+    <given-names>Y</given-names>
+   </name>
+   <name>
+    <surname>Lei</surname>
+    <given-names>X</given-names>
+   </name>
+   <name>
+    <surname>Wu</surname>
+    <given-names>FX</given-names>
+   </name>
+  </person-group>
+  <article-title>deepDriver: predicting cancer driver genes based on somatic mutations using deep convolutional neural networks</article-title>
+  <source>Front Genet</source>
+  <year>2019</year>
+  <volume>10</volume>
+  <fpage>13</fpage>
+  <pub-id pub-id-type="doi">10.3389/fgene.2019.00013</pub-id>
+  <pub-id pub-id-type="pmid">30761181</pub-id>
+ </element-citation>
+</ref>

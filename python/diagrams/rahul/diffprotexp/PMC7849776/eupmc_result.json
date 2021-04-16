@@ -1,0 +1,500 @@
+{
+  "id": [
+    "33487122"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33487122"
+  ],
+  "pmcid": [
+    "PMC7849776"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7849776"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/21505594.2021.1875683"
+  ],
+  "title": [
+    "YjbH regulates virulence genes expression and oxidative stress resistance in <i>Staphylococcus aureus</i>."
+  ],
+  "authorString": [
+    "Paudel A, Panthee S, Hamamoto H, Grunert T, Sekimizu K."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Paudel A"
+          ],
+          "firstName": [
+            "Atmika"
+          ],
+          "lastName": [
+            "Paudel"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3478-9452",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Teikyo University Institute of Medical Mycology , Hachioji, Tokyo, Japan."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Division of Infection and Immunity, Research Center for Zoonosis Control, Hokkaido University , Sapporo, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Panthee S"
+          ],
+          "firstName": [
+            "Suresh"
+          ],
+          "lastName": [
+            "Panthee"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4021-7936",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Teikyo University Institute of Medical Mycology , Hachioji, Tokyo, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Hamamoto H"
+          ],
+          "firstName": [
+            "Hiroshi"
+          ],
+          "lastName": [
+            "Hamamoto"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9315-7442",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Teikyo University Institute of Medical Mycology , Hachioji, Tokyo, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Grunert T"
+          ],
+          "firstName": [
+            "Tom"
+          ],
+          "lastName": [
+            "Grunert"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5722-6631",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Functional Microbiology, Institute of Microbiology, Department of Pathobiology, University of Veterinary Medicine , Vienna, Austria."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sekimizu K"
+          ],
+          "firstName": [
+            "Kazuhisa"
+          ],
+          "lastName": [
+            "Sekimizu"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2849-8432",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Teikyo University Institute of Medical Mycology , Hachioji, Tokyo, Japan."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5722-6631",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9315-7442",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2849-8432",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3478-9452",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4021-7936",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3080655"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Virulence"
+          ],
+          "ISOAbbreviation": [
+            "Virulence"
+          ],
+          "medlineAbbreviation": [
+            "Virulence"
+          ],
+          "NLMid": [
+            "101531386"
+          ],
+          "ISSN": [
+            "2150-5594"
+          ],
+          "ESSN": [
+            "2150-5608"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "470-480"
+  ],
+  "abstractText": [
+    "We previously reported that disruption of the <i>yjbI</i> gene reduced virulence of <i>Staphylococcus aureus</i>. In this study, we found virulence in both silkworms and mice was restored by introducing the <i>yjbH</i> gene but not the <i>yjbI</i> gene to both <i>yjbI</i> and <i>yjbH</i> genes-disrupted mutants, suggesting that <i>yjbH</i>, the gene downstream to the <i>yjbI</i> gene in a two-gene operon-<i>yjbIH</i>, is responsible for this phenomenon. We further observed a decrease in various surface-associated proteins and changes in cell envelope glycostructures in the mutants. RNA-seq analysis revealed that disruption of the <i>yjbI</i> and the <i>yjbH</i> genes resulted in differential expression of a broad range of genes, notably, significant downregulation of genes involved in virulence and oxidative stress. Administration of N-acetyl-L-cysteine, a free-radical scavenger, restored the virulence in both the mutants. Our findings suggested that YjbH plays a role in staphylococcal pathogenicity by regulating virulence gene expression, affecting the bacterial surface structure, and conferring resistance to oxidative stress in a host."
+  ],
+  "affiliation": [
+    "Teikyo University Institute of Medical Mycology , Hachioji, Tokyo, Japan."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P 29304"
+          ],
+          "agency": [
+            "Austrian Science Fund FWF"
+          ],
+          "acronym": [
+            "FWF_"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Protease",
+        "Staphylococcus aureus",
+        "Silkworm",
+        "Pigment",
+        "Oxidative stress",
+        "Virulence",
+        "Gene Expression",
+        "surface structure",
+        "Yjbh",
+        "Yjbi"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/21505594.2021.1875683"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7849776"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7849776?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-01-25"
+  ],
+  "firstIndexDate": [
+    "2021-01-26"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-08"
+  ],
+  "dateOfRevision": [
+    "2021-03-22"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

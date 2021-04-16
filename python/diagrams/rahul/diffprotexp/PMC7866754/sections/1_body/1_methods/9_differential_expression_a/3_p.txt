@@ -1,0 +1,3 @@
+0: Based on this assumption, the spectral counts were computed for each frame of each transcript (potential protein) with peptide evidence, and increase all of them by 1 to remove zero-values.
+1: These counts were subsequently normalized by first calculating the sum of all PSMs of both samples to identify the sample with smaller sum, where its PSMs were multiplied by the ratio of two PSM sums to minimize the background effect between samples.
+2: It was then possible to determine the differences in spectral counts of a protein between two stages by applying the G test of significance as follows:

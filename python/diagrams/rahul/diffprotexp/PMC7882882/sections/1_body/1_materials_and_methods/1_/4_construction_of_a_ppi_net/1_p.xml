@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Cytoscape software (version 3.2.3) was used to construct, visualize and analyze the PPI network (
+ <xref rid="b34-ol-0-0-12525" ref-type="bibr">34</xref>). The latest version of the validated human PPI dataset was downloaded from both the Human Protein Reference Database (HPRD) (
+ <uri xlink:type="simple" xlink:href="www.hprd.org/" xmlns:xlink="http://www.w3.org/1999/xlink">www.hprd.org/</uri>; release 9) and BioGRID (
+ <uri xlink:type="simple" xlink:href="www.thebiogrid.org/" xmlns:xlink="http://www.w3.org/1999/xlink">www.thebiogrid.org/</uri>; release 3.4.140) (
+ <xref rid="b35-ol-0-0-12525" ref-type="bibr">35</xref>,
+ <xref rid="b36-ol-0-0-12525" ref-type="bibr">36</xref>). These two datasets contain 18,595 unique proteins and 174,552 interactions, and were used as parent PPIs in the present study; their reliability has been effectively verified, and they have been used extensively in disease research involving human PPI networks. The non-redundant interactions in 
+ <italic>Homo sapiens</italic> from these two data sets were manually integrated (
+ <xref rid="b37-ol-0-0-12525" ref-type="bibr">37</xref>).
+</p>

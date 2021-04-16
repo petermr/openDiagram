@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F7" position="float">
+ <label>FIGURE 7</label>
+ <caption>
+  <p>Alternative splicing profiles regulated by CPSF1 in HepG2.2.15 cells. 
+   <bold>(A)</bold> GSEA plot showing the correlation between high CPSF1 expression and spliceosome functions. Black vertical lines indicate the gene that correlated with CPSF1 in the gene set. 
+   <bold>(B)</bold> Pie chart illustrating the distribution of various types of AS events affected by CPSF1 knockdown as revealed by analysis of RNA-seq data. 
+   <bold>(C)</bold> Scatterplot showing the differential AS events identified between the CPSF1-silenced and control groups. 
+   <bold>(D)</bold> Barplot listing the top 10 significantly enriched GO biological processes. 
+   <bold>(E)</bold> Protein–protein interaction network showing the interaction between CPSF1 and related proteins. The top significant interactions with confidence &gt; 0.95 in the STRING database are included. The size of the nodes and line width indicate the interaction degree and confidence, respectively.
+  </p>
+ </caption>
+ <graphic xlink:href="fcell-09-616835-g007" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

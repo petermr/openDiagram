@@ -1,0 +1,6 @@
+0: Differential gene expression analysis was performed on the three sequencing data sets (three biological replicates per set) using the DESeq2 R package (1.20.0) [ 23].
+1: DESeq2 provides statistical routines for determining differential expression in digital gene expression data using a model based on the negative binomial distribution.
+2: The resulting P-values were adjusted using the Benjamini and Hochbergs approach for controlling the false discovery rate (FDR).
+3: Genes with an adjusted P-value (PADJ)<0.05 found by DESeq2 were assigned as differentially expressed genes (DEGs).
+4: In this study, three replications of group B were taken as control.
+5: Compared with the sequencing data of group B, the level of difference shown from that of group N and group U was calculated by using log 2 (fold change), with the absolute value above 1 indicating DEGs [ 24], and with the absolute value above 0 indicating up or down regulated expressions of relevant genes.

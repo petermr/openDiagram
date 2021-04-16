@@ -1,0 +1,22 @@
+0: Several studies have found that there are approximately 140 driver genes which can promote the formation of tumors if affected by intragenic mutations.
+1: These driver genes are known to be directly or indirectly responsible for causing selective growth advantage.
+2: These driver genes are classified into twelve signaling pathways.
+3: This selective growth advantage can occur only through these twelve signaling pathways [ 1].
+4: We refer these twelve signaling pathways as target pathways.
+5: It is also found that the target pathways regulate three core cellular processes - cell fate, cell survival and genome maintenance [ 1] .
+6: We believe understanding the roles of these twelve pathways can result into novel therapeutic intervention strategy.
+7: In this paper, we undertake a novel investigation of the roles of these target pathways using a differential network analysis of the protein expression datasets on three cancers namely, Head and Neck Squamous Cell Carcinoma (HNSC), Lung Adenocarcinoma (LUAD) and Kidney Renal Clear Cell Carcinoma (KIRC).
+8: We find the study of protein expressions is justified as the mutations of the previously mentioned driver genes alter the protein products.
+9: These datasets are available to us from International Cancer Genomic Consortium (ICGC) as part of the CAMDA 2015 challenge data.
+10: We pursue an integrative analysis of protein expressions of all these three cancer datasets to investigate whether each of these target pathways plays a significant role in these three cancers.
+11: For example, we determine whether the proteins associated with these pathways interact differently between the two clinical groups (progression or complete remission) of patients.
+12: The differentially expressed pathways between the two disease groups allow us to gain more insights about the functional working mechanism of the cells than just the individual differentially expressed genes/proteins [ 2].
+13: The process begins with grouping of the proteins according to their biological pathways, as described in the section-  Pathway analysis.
+14: Then, in the Section-  Differential network analysis, we examine whether the network structures of all the proteins in these target pathways have changed from the complete remission group of patients to the progression group.
+15: We also examine whether the connectivity of each single protein in the networks of proteins in these target pathways has changed between the two groups.
+16: Then we rank the target pathways as well as the constituent proteins to get overall ranked lists which would then rank the pathways by their global order of importance with respect to all the three cancers (section-  Rank aggregation).
+17: This ranking may shed light to the regulatory roles of individual proteins in the context of all others in the pathway.
+18: The rest of the article is organized as follows.
+19: In  Results section, we report the results of each of the analysis.
+20: Then, we conclude with a  Discussion section.
+21: Then in  Methods section, we describe the datasets used and all the methods used for the analysis.

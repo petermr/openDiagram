@@ -1,0 +1,6 @@
+0: The amino acid sequence tags obtained from each peptide fragmentation in LC-MS analyses were used to search for protein candidates using Mascot online sequence matching software (Matrix Science, London, UK;  www.matrixscience.com).
+1: The searches for peptide mass fingerprints were performed against rodent taxonomy in the LudwigNR database (305,368 entries; last updated on 20 September 2012).
+2: Variable modifications included were oxidation of methionine, allowing up to one missed cleavage site.
+3: The search parameters are as follows: peptide tolerance  1.2 Da; MS/MS tolerance  0.6 Da; peptide charge +1, +2 or +3; monoisotopic mass value.
+4: Identification was accepted as positive when a minimum of two matching peptides and more than 10% of the peptide coverage sequences have matched.
+5: Probability scores were significant at  p<0.05 for all matches.

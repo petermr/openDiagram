@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">All the genes detected for a comparison were ranked according to their log2 fold change in expression regardless of statistical significance. GSEA was performed using the Java-based GSEA software (version 3.0) on this ranked gene lists against the entire MSigDB database (version 6.1)
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>,
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. with 1000 permutations; significance was achieved for a 
+ <italic>q</italic>-value less than or equal to 0.25, per the GSEA developers recommended practices.
+</p>

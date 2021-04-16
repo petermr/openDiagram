@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Fig. 2</label>
+ <caption>
+  <p>Differential expression and enrichment analyses. 
+   <bold>a</bold> Heatmaps depicting differentially expressed genes (DEGs) in the hypothalamus (HYPO) and nucleus taenia of the amygdala (TnA). Each column is an individual and each row is a gene. Color indicates normalized counts scaled across rows (red, higher expression; blue, lower expression). Clustered with a correlation distance measure. 
+   <bold>b</bold> Gene Ontology analysis showing the top 2 most significant biological processes among the up- (red) and down-regulated (blue) DEGs in the HYPO, along with aggression-related processes. 
+   <bold>c</bold> GOChord plot of DEGs in aggression-related processes. Genes are linked to assigned processes via colored ribbons and ordered according to log
+   <sub>2</sub> fold change (logFC), which is displayed next to genes. Descriptions of gene symbols can be found in Supplementary Table S1, Additional file 
+   <xref rid="MOESM1" ref-type="media">1</xref>
+  </p>
+ </caption>
+ <graphic xlink:href="12864_2021_7466_Fig2_HTML" id="MO2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

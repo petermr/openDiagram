@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Top 10 upregulated DEGs at day 1 of regeneration.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">ID</th>
+    <th align="left">E-value</th>
+    <th align="left">GeneID</th>
+    <th align="left">Description</th>
+    <th align="left">Log2FC</th>
+    <th align="left">Adjusted 
+     <italic>p</italic>-value
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Transcript_7357</td>
+    <td align="left">5.50E−15</td>
+    <td align="left">580617</td>
+    <td align="left">cathepsin Z</td>
+    <td char="." align="char">9.44↑</td>
+    <td align="left">1.37e−10*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_331800</td>
+    <td align="left">7.60E−51</td>
+    <td align="left">592324</td>
+    <td align="left">Uncharacterized protein LOC592324</td>
+    <td char="." align="char">8.03↑</td>
+    <td align="left">1.33e−07*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_77032</td>
+    <td align="left">8.00E−14</td>
+    <td align="left">580195</td>
+    <td align="left">cubilin</td>
+    <td char="." align="char">7.78↑</td>
+    <td align="left">9.56e−05*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_370380</td>
+    <td align="left">4.40E−19</td>
+    <td align="left">574783</td>
+    <td align="left">serine/threonine-protein kinase NLK</td>
+    <td char="." align="char">7.43↑</td>
+    <td align="left">3.73e−05*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_257047</td>
+    <td align="left">2.00E−53</td>
+    <td align="left">581500</td>
+    <td align="left">actin</td>
+    <td char="." align="char">7.37↑</td>
+    <td align="left">1.78e−04*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_166464</td>
+    <td align="left">3.60E−140</td>
+    <td align="left">592801</td>
+    <td align="left">translation elongation factor 2</td>
+    <td char="." align="char">7.20↑</td>
+    <td align="left">3.16e−04*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_261599</td>
+    <td align="left">9.00E−49</td>
+    <td align="left">548620</td>
+    <td align="left">elongation factor 1 alpha</td>
+    <td char="." align="char">7.15↑</td>
+    <td align="left">4.40e−05*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_121057</td>
+    <td align="left">9.40E−62</td>
+    <td align="left">593221</td>
+    <td align="left">V-type proton ATPase 16 kDa proteolipid subunit</td>
+    <td char="." align="char">7.14↑</td>
+    <td align="left">9.04e−04*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_196171</td>
+    <td align="left">8.30E−70</td>
+    <td align="left">585216</td>
+    <td align="left">peptidyl-prolyl cis–trans isomerase</td>
+    <td char="." align="char">6.88↑</td>
+    <td align="left">5.02e−05*</td>
+   </tr>
+   <tr>
+    <td align="left">Transcript_276623</td>
+    <td align="left">1.6E−44</td>
+    <td align="left">752,13</td>
+    <td align="left">Histone H4</td>
+    <td char="." align="char">6.71↑</td>
+    <td align="left">1.97e−04*</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>↑: Upregulated (Log2FC &gt; 2); *: Significant (
+   <italic>p</italic> value &lt; 0.01); Log2FC: Log
+   <sub>2</sub> Fold Change.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

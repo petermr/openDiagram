@@ -1,0 +1,3 @@
+0: Gene Ontology (GO) includes biological process (BP), cellular component (CC), and molecular function (MF).
+1: To understand the functions of DEGs, we used the R software clusterProfiler package to conduct GO enrichment analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis on DEGs, and drew bubble plot for GO analysis and network plot for KEGG pathway.
+2: A adjusted  P < 0.05 was considered as statistically significant.

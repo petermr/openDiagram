@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig7">
+ <label>Fig. 7</label>
+ <caption>
+  <title>RUNX1/RUNX1T1 affects differential splicing by controlling alternative transcription start sites (TSSs).</title>
+  <p>
+   <bold>a</bold> Vulcano plot of the differential expression from various TSSs in the genome of Kasumi-1 cells following 
+   <italic>RUNX1/RUNX1T1</italic> knockdown. Differentially expressed TSSs (at least 2-fold change in expression, 
+   <italic>p</italic> &lt; 0.005, 
+   <italic>q</italic> &lt; 0.1) are shown by vermilion squares. 
+   <bold>b</bold> Differential usage of alternative TSSs in the genome of Kasumi-1 cells after 
+   <italic>RUNX1/RUNX1T1</italic> knockdown. Differentially used TSSs (at least 2-fold change in expression, 
+   <italic>p</italic> &lt; 0.0007, 
+   <italic>q</italic> &lt; 0.1) are shown by vermilion squares. 
+   <bold>c</bold> Enrichment of DNase I hypersensitivity site-Seq reads in the genomic regions surrounding the non-differential TSSs, differentially expressed TSSs or differentially used TSSs. In this analysis, only TSSs genomic regions that overlap the RUNX1/RUNX1T1 binding peaks were used. In each boxplot, horizontal line represents the median of expression distribution, box shows the interquartile range, and whiskers are the minimum and maximum. 
+   <italic>P</italic>-values were calculated with two-sided Mann–Whitney U test. 
+   <bold>d</bold> IGV screen shot showing the RUNX1/RUNX1T1 binding and RNA reads from nascent and total RNA-Seq at the 5’-terminal region of PARL locus for siMM-treated and siRR-treated Kasumi-1 cells. Exons and exon-exon junctions are designated by the letters E and J, respectively, and numbered. Differentially used junction J3 is highlighted in purple. Bottom scheme depicting Cufflinks assembled representative full-length transcripts of 
+   <italic>PARL</italic> gene expressed in Kasumi-1 cells. For each transcript, Cuffdiff based log
+   <sub>2</sub> (FC) siRR/siMM and 
+   <italic>q</italic>-values, as well as the size of in silico predicted proteins are indicated in parentheses. In addition, the positions of the Cuffdiff determined transcription start sites are also shown. At the bottom of panel, the scheme showing target location of dCas9-KRAB which was targeted to the second RUNX1 consensus site. 
+   <bold>e</bold> Schematic representation of primer binding positions for qPCR-based validation of the differential splicing in 
+   <italic>PARL</italic> gene. The structure of expected amplicons is shown at the bottom of the figure. 
+   <bold>f</bold> qPCR-based validation of the differential splicing of PARL transcripts under the two siRNA treatment conditions in the transcriptome of two t(8;21)-positive cell lines. Bars represent mean ± SD of three independent experiments. 
+   <bold>g</bold> Induction of 
+   <italic>PARL-03</italic> transcription after RUNX1/RUNX1T1 knockdown with or without induction of dCas9-KRAB. Bars represent mean ± SD of three independent experiments. 
+   <italic>P</italic>-value was calculated with two-sided Student’s t test.
+  </p>
+ </caption>
+ <graphic xlink:href="41467_2020_20848_Fig7_HTML" id="d32e1298" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

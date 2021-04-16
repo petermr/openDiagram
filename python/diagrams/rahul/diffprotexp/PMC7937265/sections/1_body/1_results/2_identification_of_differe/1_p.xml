@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">Our behavioral assays indicated that adult males from T-injected eggs were more aggressive than controls, and we next explored the genomic mechanisms potentially underlying this phenotypic divergence. RNA-seq was performed using the HYPO and TnA of males from T- and control-injected eggs (
+ <italic>n</italic> = 3/treatment). We selected the males that were most responsive to the treatment (i.e., males from T-injected eggs that were unambiguously aggressive; Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>) to minimize within-group variation that could have stemmed from variable sensitivities to the treatment. However, because treatment groups differed in their behaviors, we performed a permutational multivariate analysis of variance (PERMANOVA) which revealed significant differences in transcriptome-wide gene expression patterns in the HYPO due to prenatal treatment (
+ <italic>R</italic>
+ <sup>2</sup> = 0.28, 
+ <italic>F</italic> = 1.71, 
+ <italic>p</italic> = 0.050), but not average aggression score (
+ <italic>R</italic>
+ <sup>2</sup> = 0.24, 
+ <italic>F</italic> = 1.47, 
+ <italic>p</italic> = 0.167). This result suggests prenatal treatment is a better predictor of global gene expression patterns in the HYPO than individual-level differences in aggression. There were no significant differences due to either treatment (
+ <italic>R</italic>
+ <sup>2</sup> = 0.15, 
+ <italic>F</italic> = 0.74, 
+ <italic>p</italic> = 0.649) or average aggression score (
+ <italic>R</italic>
+ <sup>2</sup> = 0.25, 
+ <italic>F</italic> = 1.22, 
+ <italic>p</italic> = 0.303) in the TnA. Accordingly, the HYPO had the greatest number of differentially expressed genes (DEGs) between prenatal treatment groups. Males had 596 DEGs in the HYPO (
+ <italic>n</italic> = 285 down-regulated genes, 
+ <italic>n</italic> = 311 up-regulated) and 17 in the TnA (
+ <italic>n</italic> = 13 down-regulated, 
+ <italic>n</italic> = 4 up-regulated) (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>a). There were 4 DEGs shared between the brain regions, including down-regulation of a gene involved in tryptophan degradation (arylformidase; AFMID), up-regulation of a protein transport gene (golgin A2; GOLGA2), and differential expression of two additional uncharacterized genes. For the full list of DEGs see Supplementary Table S1, Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>. 
+</p>

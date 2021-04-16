@@ -1,0 +1,392 @@
+{
+  "id": [
+    "25177543"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "25177543"
+  ],
+  "pmcid": [
+    "PMC4148817"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC4148817"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3390/proteomes1030219"
+  ],
+  "title": [
+    "Bioinformatic Analysis of Differential Protein Expression in Calu-3 Cells Exposed to Carbon Nanotubes."
+  ],
+  "authorString": [
+    "Li P, Lai X, Witzmann FA, Blazer-Yost BL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Li P"
+          ],
+          "firstName": [
+            "Pin"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4508-3762",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology, Indiana University Purdue University, 723 West Michigan Street, Indianapolis, IN 46202, USA; lipin@iupui.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lai X"
+          ],
+          "firstName": [
+            "Xianyin"
+          ],
+          "lastName": [
+            "Lai"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Cellular and Integrative Physiology, Indiana University School of Medicine, 1345 West 16th Street, Indianapolis, IN 46202, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Witzmann FA"
+          ],
+          "firstName": [
+            "Frank A"
+          ],
+          "lastName": [
+            "Witzmann"
+          ],
+          "initials": [
+            "FA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Cellular and Integrative Physiology, Indiana University School of Medicine, 1345 West 16th Street, Indianapolis, IN 46202, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Blazer-Yost BL"
+          ],
+          "firstName": [
+            "Bonnie L"
+          ],
+          "lastName": [
+            "Blazer-Yost"
+          ],
+          "initials": [
+            "BL"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biology, Indiana University Purdue University, 723 West Michigan Street, Indianapolis, IN 46202, USA; lipin@iupui.edu ; Department of Cellular and Integrative Physiology, Indiana University School of Medicine, 1345 West 16th Street, Indianapolis, IN 46202, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4508-3762",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "1"
+      ],
+      "journalIssueId": [
+        "2194990"
+      ],
+      "dateOfPublication": [
+        "2013 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Proteomes"
+          ],
+          "ISOAbbreviation": [
+            "Proteomes"
+          ],
+          "medlineAbbreviation": [
+            "Proteomes"
+          ],
+          "NLMid": [
+            "101621966"
+          ],
+          "ISSN": [
+            "2227-7382"
+          ],
+          "ESSN": [
+            "2227-7382"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "219-239"
+  ],
+  "abstractText": [
+    "Carbon nanomaterials are widely produced and used in industry, medicine and scientific research. To examine the impact of exposure to nanoparticles on human health, the human airway epithelial cell line, Calu-3, was used to evaluate changes in the cellular proteome that could account for alterations in cellular function of airway epithelia after 24 hexposure to 10 μg/mL and 100 ng/mL of two common carbon nanoparticles, single- and multi-wall carbon nanotubes (SWCNT, MWCNT). After exposure to the nanoparticles, label-free quantitative mass spectrometry (LFQMS) was used to study the differential protein expression. Ingenuity Pathway Analysis (IPA) was used to conduct a bioinformaticanalysis of proteins identified in LFQMS. Interestingly, after exposure to ahigh concentration (10 μg/mL; 0.4 μg/cm<sup>2</sup>) of MWCNT or SWCNT, only 8 and 13 proteins, respectively, exhibited changes in abundance. In contrast, the abundance of hundreds of proteins was altered in response to a low concentration (100 ng/mL; 4 ng/cm<sup>2</sup>) of either CNT. Of the 281 and 282 proteins that were significantly altered in response to MWCNT or SWCNT respectively, 231 proteins were the same. Bioinformatic analyses found that the proteins in common to both nanotubes occurred within the cellular functions of cell death and survival, cell-to-cell signaling and interaction, cellular assembly and organization, cellular growth and proliferation, infectious disease, molecular transport and protein synthesis. The majority of the protein changes represent a decrease in amount suggesting a general stress response to protect cells. The STRING database was used to analyze the various functional protein networks. Interestingly, some proteins like cadherin 1 (CDH1), signal transducer and activator of transcription 1 (STAT1), junction plakoglobin (JUP), and apoptosis-associated speck-like protein containing a CARD (PYCARD), appear in several functional categories and tend to be in the center of the networks. This central positioning suggests they may play important roles in multiple cellular functions and activities that are altered in response to carbon nanotube exposure."
+  ],
+  "affiliation": [
+    "Department of Biology, Indiana University Purdue University, 723 West Michigan Street, Indianapolis, IN 46202, USA; lipin@iupui.edu."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 GM085218"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "RC2 ES018810"
+          ],
+          "agency": [
+            "NIEHS NIH HHS"
+          ],
+          "acronym": [
+            "ES"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Airway epithelia",
+        "Protein Interaction Networks",
+        "Barrier Epithelia",
+        "Label-free Quantitative Mass Spectrometry"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/proteomes1030219"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC4148817"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "N"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "Y"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "Y"
+  ],
+  "manuscriptId": [
+    "NIHMS534319"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2014-09-02"
+  ],
+  "firstIndexDate": [
+    "2014-09-02"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-12"
+  ],
+  "dateOfRevision": [
+    "2020-09-29"
+  ],
+  "firstPublicationDate": [
+    "2013-10-01"
+  ]
+}

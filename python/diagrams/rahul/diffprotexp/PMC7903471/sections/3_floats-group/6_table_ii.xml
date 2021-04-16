@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tII-etm-0-0-09796" orientation="portrait" position="float">
+ <label>Table II</label>
+ <caption>
+  <p>Most significantly expressed top 15 entries in upregulated and downregulated lncRNAs.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" valign="middle" rowspan="1" colspan="1">lncRNA ID</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Position</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Log2 (fold-change)</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Regulation</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">P-value</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">MSTRG.95856</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr17:64319415-64413776</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">11.64880695</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.83x10
+     <sup>-245</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000246430</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr8:56436674-56446734</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">11.12541347</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.69x10
+     <sup>-122</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000253730</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr17:50183289-50201632</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.970804581</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.75x10
+     <sup>-116</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000261959</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr17:50183289-50201632</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.970804581</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.35x10
+     <sup>-241</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000214145</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr3:194355247-194369743</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.961630563</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.60x10
+     <sup>-221</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000254855</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr11:66314487-66317044</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.259743264</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.07x10
+     <sup>-232</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000255468</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr11:66314487-66317044</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.259743264</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.53x10
+     <sup>-206</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000269053</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr19:17351448-17377350</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.885696373</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.93x10
+     <sup>-190</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000282851</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr19:17351448-17377350</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.885696373</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.99x10
+     <sup>-111</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">MSTRG.106332</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr19:17351448-17377350</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.885696373</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.09x10
+     <sup>-214</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">MSTRG.143488</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr22:39223359-39244751</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.774787060</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.01x10
+     <sup>-172</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">MSTRG.92410</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr17:31303766-31314112</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.727920455</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.30x10
+     <sup>-233</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000227502</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr6:113857362-113863471</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.715226609</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.50x10
+     <sup>-94</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000244161</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr3:58192257-58214697</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.640244936</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.63x10
+     <sup>-237</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000258810</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr14:20801228-20803278</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.628141719</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Up</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.65x10
+     <sup>-160</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000279725</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr10:127737235-127741186</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-9.654636029</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.26x10
+     <sup>-23</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000280302</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr18:12254319-12277595</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-8.214319121</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.22x10
+     <sup>-79</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000250012</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr3:126103562-126197994</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-7.740118043</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.01x10
+     <sup>-116</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">MSTRG.155259</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr3:126103562-126197994</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-7.740118043</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.25x10
+     <sup>-14</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000231966</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr1:179743163-179816198</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.693486957</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.35x10
+     <sup>-23</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000203288</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr1:151806071-151831872</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.524023102</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.52x10
+     <sup>-102</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000234614</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr1:151806071-151831872</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.524023102</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.04x10
+     <sup>-170</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">MSTRG.13443</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr1:151806071-151831872</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.524023102</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.04x10
+     <sup>-48</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000229178</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr3:195614947-195620233</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.438791853</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.39x10
+     <sup>-61</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000242086</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr3:195614947-195620233</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.438791853</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.84x10
+     <sup>-211</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">MSTRG.162045</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr3:195614947-195620233</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.438791853</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.62x10
+     <sup>-19</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">MSTRG.162046</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr3:195614947-195620233</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.438791853</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.26x10
+     <sup>-151</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000227388</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr9:35752990-35756613</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.384897330</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.85x10
+     <sup>-29</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000226133</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr1:48102068-48104707</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.266786541</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.40x10
+     <sup>-70</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSG00000261026</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">chr8:22713251-23000000</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-6.200762405</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Down</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.36x10
+     <sup>-271</sup>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>lncRNA, long non-coding RNA.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

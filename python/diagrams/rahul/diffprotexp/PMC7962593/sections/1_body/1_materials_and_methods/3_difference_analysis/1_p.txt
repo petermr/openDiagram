@@ -1,0 +1,4 @@
+0: Gene expression profiles were constructed for each sample of septic shock patients, sepsis patients and controls.
+1: Differential analysis between sepsis patients and healthy individuals in GSE13904 (children) or GSE154918 (adults) was performed after using the limma package in R. 21 A screening threshold of  P< 0.05 was set to obtain the differentially expressed genes (DEGs) between sepsis patients and controls.
+2: Then, DEGs whose expression differed in the same direction in patients (up- or down-regulation) were screened for intersection analysis with module genes to obtain the common genes.
+3: DEGs between septic shock patients and sepsis patients in GSE13904 (children) was obtained using the limma package in R and a significance criterion of  P< 0.05.

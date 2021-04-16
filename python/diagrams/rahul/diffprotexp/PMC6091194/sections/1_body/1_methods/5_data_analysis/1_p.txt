@@ -1,0 +1,16 @@
+0: Sequences were assigned using the MASCOT search engine version 2.3 (Matrix Science) against the UniProt database (2012.01) selected for  Mus musculus (108,308 entries).
+1: The parent and fragment ion maximum precursors were set to 8 ppm and  1.2 Da, respectively.
+2: The search included a fixed modification of carbamidomethyl of cysteine and variable modifications of oxidation of methionine and protein N-terminal acetylation.
+3: A maximum of two missed cleavages were allowed.
+4: Scaffold (Version 4.3.2, Proteome Software) was used to validate peptide and protein identifications.
+5: Peptide and protein identifications were accepted if they were greater than 95 and 99% probability, respectively, and contained two or more identified peptides.
+6: Peptide assignments were also manually verified by inspection of the tandem mass spectra.
+7: In addition, a false discovery rate (i.e.
+8: false positives) was determined using Scaffold using the empirical method by counting the number of reverse or randomized hits and dividing by the number of forward hits [ 28,  29].
+9: Proteins were eliminated when identified as a contaminant, such as keratin.
+10: Proteins identified in all three replicates were reported.
+11: In Scaffold, spectral counts were normalized to the sum of all spectral counts prior to statistical analysis to observe significance.
+12: The data were exported from Scaffold and analyzed using a one-way ANOVA followed by the Bonferonni test using Statistica software (Version 12, StatSoft, Inc.).
+13: Proteins between age groups were considered significantly different when  p  0.05.
+14: Spectral counts correlate with protein abundance [ 24].
+15: Therefore, the mean normalized spectral counts were used to determine fold changes between age groups.

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8176-3955</contrib-id>
+  <name>
+   <surname>Quéromès</surname>
+   <given-names>Grégory</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="author-notes" rid="an1">†</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Destras</surname>
+   <given-names>Grégory</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="author-notes" rid="an1">†</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Bal</surname>
+   <given-names>Antonin</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF2">b</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Regue</surname>
+   <given-names>Hadrien</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Burfin</surname>
+   <given-names>Gwendolyne</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Brun</surname>
+   <given-names>Solenne</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Fanget</surname>
+   <given-names>Rémi</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Morfin</surname>
+   <given-names>Florence</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF2">b</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Valette</surname>
+   <given-names>Martine</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Trouillet-Assant</surname>
+   <given-names>Sophie</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Lina</surname>
+   <given-names>Bruno</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="aff" rid="AF3">c</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Frobert</surname>
+   <given-names>Emilie</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF2">b</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Josset</surname>
+   <given-names>Laurence</given-names>
+  </name>
+  <xref ref-type="aff" rid="AF1">a</xref>
+  <xref ref-type="aff" rid="AF2">b</xref>
+  <xref ref-type="corresp" rid="cor1"/>
+ </contrib>
+ <aff id="AF1">
+  <label>a</label>CIRI, Centre International de Recherche en Infectiologie, 
+  <institution>Team VirPatH</institution>, 
+  <city>Lyon</city>, 
+  <country>Fracne</country>
+ </aff>
+ <aff id="AF2">
+  <label>b</label>Laboratoire de Virologie, Institut des Agents Infectieux (IAI), 
+  <institution>Hospices Civils de Lyon</institution>, 
+  <city>Lyon</city>, 
+  <country>France</country>
+ </aff>
+ <aff id="AF3">
+  <label>c</label>
+  <institution>Centre National de Référence des virus des infections respiratoires</institution>, 
+  <city>Lyon</city>, 
+  <country>Fracne</country>
+ </aff>
+</contrib-group>

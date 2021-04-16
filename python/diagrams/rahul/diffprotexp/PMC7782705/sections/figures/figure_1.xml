@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig1">
+ <label>Fig. 1</label>
+ <caption>
+  <title>Schematic summary of the methodology.</title>
+  <p>
+   <bold>A</bold> Datasets obtained from three consortia (Mayo, MSBB, and ROSMAP) were grouped according to the brain region sampled in the frontal lobe (FL) or temporal lobe (TL). Next, RNAseq data were pseudo-aligned using Kallisto. Clinico-pathological classifications were included as metada. 
+   <bold>B</bold> scRNAseq data from the midle temporal gyrus (MTG, Allen Brain Atlas) were analyzed using the R package SEURAT. 
+   <bold>C</bold> Gene expression analyses were performed using the R packages DESeq2, IsoformSwitchAnalyzeR (ISAR), and gene set enrichment analysis (GSEA). Assignment of differentially expressed genes or isoform switches to specific cell types/subtypes was performed indirectly using scRNAseq signatures obtained from the MTG (B).
+  </p>
+ </caption>
+ <graphic xlink:href="41514_2020_52_Fig1_HTML" id="d31e753" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

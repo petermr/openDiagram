@@ -1,0 +1,8 @@
+0: Adaptors were removed from raw paired-end sequencing reads and trimmed for quality using Trim Galore!
+1: (v.0.5.0) using default parameters.
+2: QC was performed before and after read trimming using FastQC (v.0.11.6) and no data quality issues were identified after checking the resultant QC reports.
+3: Processed reads were mapped to galGal5 cDNA using kallisto (v.0.44.0) 75.
+4: Resultant quantification files were collated to generate an expression matrix.
+5: Differential expression, GO term and pathway analyses were then conducted using DESeq2 74 and default settings within the iDEP (v.9.0) 76 web interface.
+6: GO term analysis used PGSEA method for GO Biological Process with a minimum of 15 and maximum of 2000 geneset and<0.2 FDR.
+7: For STRING analysis, version 11.0 was used 77 to identify PPI networks with a high threshold (0.700) selected for positive interactions between pairs of genes.

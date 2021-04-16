@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Purpose</title>
+  <p id="Par3">To explore the pathogenesis of venous thromboembolism (VTE) and provide bioinformatics basis for the prevention and treatment of VTE.</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par4">The R software was used to obtain the gene expression profile data of GSE19151, combining with the CIBERSORT database, obtain immune cells and differentially expressed genes (DEGs) of blood samples of VTE patients and normal control, and analyze DEGs for GO analysis and KEGG pathway enrichment analysis. Then, the protein-protein interaction (PPI) network was constructed by using the STRING database, the key genes (hub genes) and immune differential genes were screened by Cytoscape software, and the transcription factors (TFs) regulating hub genes and immune differential genes were analyzed by the NetworkAnalyst database.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par5">Compared with the normal group, monocytes and resting mast cells were significantly expressed in the VTE group, while regulatory T cells were significantly lower. Ribosomes were closely related to the occurrence of VTE. 10 hub genes and immune differential genes were highly expressed in VTE. MYC, SOX2, XRN2, E2F1, SPI1, CREM and CREB1 can regulate the expressions of hub genes and immune differential genes.</p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par6">Ribosomal protein family genes are most relevant to the occurrence and development of VTE, and the immune differential genes may be the key molecules of VTE, which provides new ideas for further explore the pathogenesis of VTE.</p>
+ </sec>
+</abstract>

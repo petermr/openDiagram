@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Next, the Oncomine server
+ <sup>
+  <xref ref-type="fn" rid="footnote2">2</xref>
+ </sup> was searched for human colorectal cancer and the differential gene analysis section (Cancer vs. Normal Analysis) was selected to retrieve the results. It is a publicly accessible cancer microarray database and web-based data mining platform, containing 715 datasets and 86,733 samples (
+ <xref rid="B23" ref-type="bibr">Rhodes et al., 2004</xref>, 
+ <xref rid="B22" ref-type="bibr">2007</xref>). The dataset selected for differential expression of mRNA include TCGA colorectal cancer and Kaiser Colon cancer, and recorded within a threshold value of 
+ <italic>P</italic>-value- 1E-4, fold change- 2, Gene rank- Top 10 and are shown in 
+ <xref ref-type="supplementary-material" rid="DS1">Supplementary Table 1</xref>.
+</p>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig4" position="float" orientation="portrait">
+ <label>Figure 4.</label>
+ <caption>
+  <title>Altered cortical proliferation and lamination dynamics in fetal offspring five days after induction of MIA.</title>
+  <p>(
+   <bold>a</bold>) RPKM trajectories of proliferative and cortical lamination markers that were DE and validated at protein level. (
+   <bold>b</bold>) Quantified protein levels from WB analysis validated DE changes at E17.5. Protein expression data are relative to GAPDH expression (n = 4 control, n = 5 MIA; PAX6 p=0.039, TBR1 p=0.615, CTIP2 p=0.0090, SATB2 p=0.1160, CUX1 p=0.2112; two tailed Student’s t-test). Individual blots are in supplementary data (
+   <xref ref-type="fig" rid="fig4s1">Figure 4—figure supplement 1a–c,h–i</xref>). (
+   <bold>c</bold>) Temporal modeling of the RNA-seq data suggests acceleration of the neurodevelopmental program in MIA animals at E17.5 (p =4.5e-06, Student’s t-test) and similar trend at E14.5 (p = 0.07, Student’s t-test). Actual age (X-axis) vs predicted age (Y-axis) calculated by the linear model. Control samples were used for training the model. Lines connect average values, points depict individual samples and are jittered along the X-axis. (
+   <bold>d</bold>) GO BP categories highlighting module-specific enrichment of E17.5 DE genes in the proliferation (Blue) and neuronal (Turquoise) WGCNA modules. (
+   <bold>e</bold>) Representative images of coronal brain sections from E17.5 saline and MIA animals show reduced progenitor populations (neural stem cells: PAX6, SOX9, SOX2, intermediate progenitors: TBR2, and general proliferative markers: Ki67, PH3) and reduced active proliferation (Ki67:PH3 ratio). Staining for all cell populations is qualitatively decreased in the cortices from MIA offspring. Yellow box indicates the region of the neocortex utilized for Ki67 and Ph3 cell counts, and white boxes indicate regions of the VZ and upper layers of the nCtx utilized for SOX9 and SOX2 cell counts reported in (f-h). Scale bars = 100 µm, (labels: nCtx: neocortex, VZ: ventricular zone, SVZ: sub-ventricular zone, dDG: developing dentate gyrus, GE: ganglionic eminence). (
+   <bold>f</bold>) SOX9 positive cell density in the VZ as well as in the upper layers of the nCtx shows reduced and ectopic SOX9+ cells in the MIA group (n = 3 per condition, SOX9 VZ *p=0.0198, SOX9 nCtx **p=0.0058, two tailed Student’s t-test) (
+   <bold>g</bold>) SOX2 positive cell density counts show a specific reduction in the VZ zone in the MIA group (n = 5 control group, n = 7 MIA group, SOX2 VZ **p=0.0006). (
+   <bold>h</bold>) Ki67 and PH3 cell density quantification along the entire length of the VZ confirms this reduction in proliferative cells in MIA samples (Ki67 n = 5 control group, n = 4 MIA group, Ki67 *p=0.0198; PH3 n = 8 control group, n = 6 MIA group, PH3 **p=0.0003, two tailed Student’s t-test) as well as a reduction in the Ki67/PH3 ratio (n = 5 control group, n = 3 MIA group, *p=0.0005 Chi-Squared).
+  </p>
+ </caption>
+ <graphic xlink:href="elife-60100-fig4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig4s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 4—figure supplement 1.</label>
+   <caption>
+    <title>Raw western blot and RNA-seq supporting data to proliferation, lamination, and cell-specificity analyses.</title>
+    <p>(
+     <bold>a</bold>) Western blot demonstrates reduced PAX6 protein level in tissue extracts from poly(I:C) treated animals at E17.5, (
+     <bold>b</bold>) but not at P0. (
+     <bold>c</bold>) Quantified PAX6 protein levels from western blot analysis at P0 (n = 6 for each control and poly(I:C) groups; p=0.766, two tailed Student’s t-test). (
+     <bold>d–g</bold>) RNA-seq RPKM expression trajectories throughout development of (
+     <bold>d</bold>) Ki67, (
+     <bold>e</bold>) Tbr2, (
+     <bold>f</bold>) Pax6, and (
+     <bold>g</bold>) Sox9. (
+     <bold>h</bold>) Individual western blots detecting TBR1, CTIP2, SATB2 and CUX1 from whole forebrain extracts at E17.5 and (
+     <bold>i</bold>) CTIP2 at P0. (
+     <bold>j</bold>) E17.5 RNA-seq RPKM expression levels of Pax6, Neurog2, Notch1, and (
+     <bold>k</bold>) Gfap and Olig2.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-60100-fig4-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

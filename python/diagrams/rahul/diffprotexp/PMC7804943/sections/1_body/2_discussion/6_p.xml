@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">Recent advances in the development of single-cell RNA-seq methods have afforded the identification of rare and novel cell types, and have contributed to the characterization of the extensive cell diversity of the brain
+ <sup>
+  <xref ref-type="bibr" rid="CR64">64</xref>,
+  <xref ref-type="bibr" rid="CR65">65</xref>
+ </sup>. However, to-date, these studies have primarily relied on measuring GE changes. As differential GE patterns between cell and tissue types are generally more conserved than differences at the level of post-transcriptional regulation
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>, single-cell RNA-seq studies relying on GE measurements alone likely underestimate cell-type diversity. While efforts to develop methods for detecting AS and APA from single-cell RNA-seq data have been described
+ <sup>
+  <xref ref-type="bibr" rid="CR66">66</xref>,
+  <xref ref-type="bibr" rid="CR67">67</xref>
+ </sup>, challenges remain, including technical limitations involving limited sequencing depth and read length
+ <sup>
+  <xref ref-type="bibr" rid="CR68">68</xref>
+ </sup>. It is also important to note that our results are based on analyzing cell types initially identified by gene expression markers and, therefore, probably also underestimate neuronal diversity driven by post-transcriptional regulation. Therefore, based in part on the findings of the present study, in the future it can be anticipated that additional spatially and functionally distinct neuronal subtypes will be defined by integrating measurements from multiple transcriptomic regulatory lawyers. Our results thus highlight the importance of developing cost-effective approaches to measure and incorporate the analyses of multiple regulatory layers when identifying and characterizing distinct neuronal subtypes using single-cell RNA-seq.
+</p>

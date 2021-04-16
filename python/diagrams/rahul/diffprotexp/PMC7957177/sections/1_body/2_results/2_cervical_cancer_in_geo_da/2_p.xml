@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To investigate the cervical cancer in GEO, we collected all results in GEO database listed in Table 
+ <xref rid="cam43799-tbl-0001" ref-type="table">1</xref>. The key words we used to search in GEO datasets: "uterine cervical neoplasms"[MeSH Terms] OR cervical cancer [All Fields]) AND ("gse"[Filter] AND "Expression profiling by array"[Filter]. There are total 17 datasets in GEO database. All datasets have two groups: normal and cancer, common used datasets were GPL6244 and GPL570, only one dataset, 
+ <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63514" xmlns:xlink="http://www.w3.org/1999/xlink">GSE63514</ext-link> contains the all grades of cervical cancer from normal, CIN 1~III, to SCC. Meanwhile, in all datasets, the sample size is another obstacle, for the smaller size limited the further analysis, so, in the next step, we selected five datasets which the minimum sample size beyond 50, marked by red in Table 
+ <xref rid="cam43799-tbl-0002" ref-type="table">2</xref>.
+</p>

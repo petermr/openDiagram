@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Compounds with strongest evidence for inducing gene expression signatures that counter differences between high-grade and low-grade cartilage, based on data from ConnectivityMap
+   <sup>
+    <xref ref-type="bibr" rid="CR17">17</xref>
+   </sup> and the clue.io platform.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Name
+     <sup>a</sup>
+    </th>
+    <th>Description</th>
+    <th>DE targets
+     <sup>b</sup>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Emetine</td>
+    <td>protein synthesis inhibitor</td>
+    <td>RPS2 (P+)</td>
+   </tr>
+   <tr>
+    <td>Rucaparib</td>
+    <td>PARP inhibitor</td>
+    <td>PARP2 (R−)</td>
+   </tr>
+   <tr>
+    <td>Alpha-estradiol</td>
+    <td>oestrogen receptor agonist</td>
+    <td>KCNMA1 (R−, P−)</td>
+   </tr>
+   <tr>
+    <td>VEGF-receptor-2-kinase-inhibitor-IV</td>
+    <td>VEGFR inhibitor</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>IB-MECA</td>
+    <td>adenosine receptor agonist, granulocyte colony stimulating factor agonist</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>Diethylstilbestrol</td>
+    <td>oestrogen receptor agonist, chloride channel blocker</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>KIN001-220</td>
+    <td>Aurora kinase inhibitor</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>SB-216763</td>
+    <td>glycogen synthase kinase inhibitor</td>
+    <td>GSK3B (R+, P+), CDK2 (P−)</td>
+   </tr>
+   <tr>
+    <td>RHO-kinase-inhibitor-III[rockout]</td>
+    <td>ROCK inhibitor</td>
+    <td>IMPDH2 (P−)</td>
+   </tr>
+   <tr>
+    <td>Nornicotine</td>
+    <td>acetylcholine receptor agonist</td>
+    <td/>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <sup>a</sup>The 10 compounds with strongest evidence based on median of cell lines are shown; full results see Supplementary Data 
+   <xref rid="MOESM10" ref-type="media">6</xref>.
+  </p>
+  <p>
+   <sup>b</sup>Drug targets as listed in ConnectivityMap with differential expression between high-grade and low-grade cartilage on RNA (R) or protein (P) level, ‘+' and ‘−' indicate higher or lower expression high-grade cartilage, respectively.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

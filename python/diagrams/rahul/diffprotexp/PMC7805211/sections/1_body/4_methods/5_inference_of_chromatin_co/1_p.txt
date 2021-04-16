@@ -1,0 +1,8 @@
+0: Chromatin compartments were computed at 100 kb resolution as previously described and implemented in compartmap (v1.65.71).
+1: Briefly, pre-processed M-values were subset to open sea CpG probes (at least 4 kb away from annotated CpG island) and masked probes that were found in at least 50% of samples were imputed using k-nearest neighbor via the impute (v1.59.0) R package.
+2: Next, loci were median summarized in 100 kb bins.
+3: Group-level compartments were inferred by computing Pearson correlations of summarized bins and the first principal component of the correlation matrix.
+4: A/B compartments correspond to positive (open chromatin) and negative (closed chromatin) eigenvalues, respectively.
+5: Genome-wide discordant compartments were identified by comparing the sign of the eigenvalue for overlapping genomic bins and filtering out those with small absolute eigenvalues (> 0.02).
+6: In total, we identified 2937 discordant chromatin compartments between plexiform and cutaneous neurofibromas.
+7: Results were plotted using circlize (v0.4.8).

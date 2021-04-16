@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Yang</surname>
+   <given-names>Jiayue</given-names>
+  </name>
+  <address>
+   <email>yang_jiayue123@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Yang</surname>
+   <given-names>Cheng</given-names>
+  </name>
+  <address>
+   <email>yangchengds@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Shen</surname>
+   <given-names>Hong</given-names>
+  </name>
+  <address>
+   <email>shenhong94201@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Wu</surname>
+   <given-names>Wenjun</given-names>
+  </name>
+  <address>
+   <email>461428183@qq.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Tian</surname>
+   <given-names>Zhen</given-names>
+  </name>
+  <address>
+   <email>613875528@qq.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Xu</surname>
+   <given-names>Qinghua</given-names>
+  </name>
+  <address>
+   <email>qinhuaxu123@163.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Cao</surname>
+   <given-names>Cuiping</given-names>
+  </name>
+  <address>
+   <email>598216838@qq.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Ye</surname>
+   <given-names>Shugao</given-names>
+  </name>
+  <address>
+   <email>695596742@qq.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Ban</surname>
+   <given-names>Le</given-names>
+  </name>
+  <address>
+   <email>bancheristar@gmail.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Tong</surname>
+   <given-names>Xin</given-names>
+  </name>
+  <address>
+   <email>2505195117@qq.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7799-8129</contrib-id>
+  <name>
+   <surname>Mei</surname>
+   <given-names>Jie</given-names>
+  </name>
+  <address>
+   <email>meijie1996@njmu.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.460176.2</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1775 8598</institution-id>
+   <institution>Department of Endocrinology, </institution>
+   <institution>Wuxi People’s Hospital Affiliated to Nanjing Medical University, </institution>
+  </institution-wrap>Wuxi, 214023 China 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.460176.2</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1775 8598</institution-id>
+   <institution>Department of Gastroenterology, </institution>
+   <institution>Wuxi People’s Hospital Affiliated to Nanjing Medical University, </institution>
+  </institution-wrap>Wuxi, 214023 China 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.460176.2</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1775 8598</institution-id>
+   <institution>Department of Clinical Laboratory, </institution>
+   <institution>Wuxi People’s Hospital Affiliated to Nanjing Medical University, </institution>
+  </institution-wrap>Wuxi, 214023 China 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.460176.2</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1775 8598</institution-id>
+   <institution>Department of Chest Surgery, </institution>
+   <institution>Wuxi People’s Hospital Affiliated to Nanjing Medical University, </institution>
+  </institution-wrap>Wuxi, 214023 China 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.460176.2</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 1775 8598</institution-id>
+   <institution>Department of Oncology, </institution>
+   <institution>Wuxi People’s Hospital Affiliated to Nanjing Medical University, </institution>
+  </institution-wrap>No. 299 Qingyang Road, Wuxi, 214023 China 
+ </aff>
+</contrib-group>

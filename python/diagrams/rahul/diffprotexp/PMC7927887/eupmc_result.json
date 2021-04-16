@@ -1,0 +1,532 @@
+{
+  "id": [
+    "32079689"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "32079689"
+  ],
+  "pmcid": [
+    "PMC7927887"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7927887"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3324/haematol.2019.235424"
+  ],
+  "title": [
+    "Differential RNA splicing as a potentially important driver mechanism in multiple myeloma."
+  ],
+  "authorString": [
+    "Bauer MA, Ashby C, Wardell C, Boyle EM, Ortiz M, Flynt E, Thakurta A, Morgan G, Walker BA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bauer MA"
+          ],
+          "firstName": [
+            "Michael A"
+          ],
+          "lastName": [
+            "Bauer"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2498-7295",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "University of Arkansas for Medical Sciences, Little Rock, AR, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ashby C"
+          ],
+          "firstName": [
+            "Cody"
+          ],
+          "lastName": [
+            "Ashby"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "University of Arkansas for Medical Sciences, Little Rock, AR, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wardell C"
+          ],
+          "firstName": [
+            "Christopher"
+          ],
+          "lastName": [
+            "Wardell"
+          ],
+          "initials": [
+            "C"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "University of Arkansas for Medical Sciences, Little Rock, AR, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Boyle EM"
+          ],
+          "firstName": [
+            "Eileen M"
+          ],
+          "lastName": [
+            "Boyle"
+          ],
+          "initials": [
+            "EM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8791-1744",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "University of Arkansas for Medical Sciences, Little Rock, AR, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ortiz M"
+          ],
+          "firstName": [
+            "Maria"
+          ],
+          "lastName": [
+            "Ortiz"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Celgene Institute for Translational Research Europe, Sevilla, Spain."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Flynt E"
+          ],
+          "firstName": [
+            "Erin"
+          ],
+          "lastName": [
+            "Flynt"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Translational Development and Diagnostics, Celgene Corporation, Summit, NJ, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Thakurta A"
+          ],
+          "firstName": [
+            "Anjan"
+          ],
+          "lastName": [
+            "Thakurta"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Translational Development and Diagnostics, Celgene Corporation, Summit, NJ, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Morgan G"
+          ],
+          "firstName": [
+            "Gareth"
+          ],
+          "lastName": [
+            "Morgan"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4271-6360",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "NYULangone Medical Center, Perlmuter Cancer Center, NYU Langone Health, New York, NY, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Walker BA"
+          ],
+          "firstName": [
+            "Brian A"
+          ],
+          "lastName": [
+            "Walker"
+          ],
+          "initials": [
+            "BA"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Hematology Oncology, Indiana University, Indianapolis, IN, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8791-1744",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4271-6360",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-2498-7295",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "106"
+      ],
+      "journalIssueId": [
+        "3120242"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Haematologica"
+          ],
+          "ISOAbbreviation": [
+            "Haematologica"
+          ],
+          "medlineAbbreviation": [
+            "Haematologica"
+          ],
+          "NLMid": [
+            "0417435"
+          ],
+          "ISSN": [
+            "0390-6078"
+          ],
+          "ESSN": [
+            "1592-8721"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "736-745"
+  ],
+  "abstractText": [
+    "Disruption of the normal splicing patterns of RNA is a major factor in the pathogenesis of a number of diseases. Increasingly research has shown the strong influence that splicing patterns can have on cancer progression. Multiple Myeloma is a molecularly heterogeneous disease classified by the presence of key translocations, gene expression profiles and mutations but the splicing patterns in MM remains largely unexplored. We take a multifaceted approach to define the extent and impact of alternative splicing in MM. We look at the spliceosome component, SF3B1, with hotspot mutations (K700E and K666T/Q) shown to result in an increase in alternative splicing in other cancers. We discovered a number of differentially spliced genes in comparison of the SF3B1 mutant and wild type samples that included, MZB1, DYNLL1, TMEM14C and splicing related genes DHX9, CLASRP, and SNRPE. We identified a broader role for abnormal splicing showing clear differences in the extent of novel splice variants in the different translocation groups. We show that a high number of novel splice loci is associated with adverse survival and an ultra-high risk group. The enumeration of patterns of alternative splicing has the potential to refine MM classification and to aid in the risk stratification of patients."
+  ],
+  "affiliation": [
+    "University of Arkansas for Medical Sciences, Little Rock, AR, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3324/haematol.2019.235424"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7927887"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7927887?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2020-02-22"
+  ],
+  "firstIndexDate": [
+    "2020-02-22"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-08"
+  ],
+  "dateOfRevision": [
+    "2021-03-06"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-01"
+  ],
+  "firstPublicationDate": [
+    "2021-03-01"
+  ]
+}

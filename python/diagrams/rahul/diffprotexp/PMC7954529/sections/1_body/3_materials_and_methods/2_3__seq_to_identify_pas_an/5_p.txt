@@ -1,0 +1,8 @@
+0: Next, we filtered out sites with less than 5% usage in both species in the nuclear fraction.
+1: We then merged nuclear counts across all PAS in each gene.
+2: We removed PAS in genes not passing a cutoff of log 2(CPM) >2 in at least 8 of the 12 individuals.
+3: After applying these filters, we were left with 44,432 PAS.
+4: As a quality control metric, we compared PAS usage calculated from the nuclear fraction to PAS usage calculated from whole-cell fraction for each individual (we used the same methods to identify and quantify PAS usage in the whole-cell 3' Seq data).
+5: We expected a high correlation between PAS usage in each fraction.
+6: Further, we expected a similar correlation in human and chimpanzee individuals ( Mittleman et al., 2020).
+7: Human individual NA18499 had significantly lower across-species correlation than the other individuals and was therefore removed from the analysis ( Figure 1figure supplement 3).

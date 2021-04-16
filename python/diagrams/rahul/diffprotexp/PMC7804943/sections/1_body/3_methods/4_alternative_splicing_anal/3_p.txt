@@ -1,0 +1,3 @@
+0: Whippet was used with default settings to analyze RNA-seq data from the whole-brain datasets (see Supplementary Data  2).
+1: To create splice graphs required for Whippet quantification, mm10 genome annotation files were extracted from the Ensembl database.
+2: Whippet was used for AS to quantify all combinations of EEJs, including cassette, mutually exclusive, microexon events, and acceptor and donor splice sites, as well as for IR to quantify all combinations of EIJs.

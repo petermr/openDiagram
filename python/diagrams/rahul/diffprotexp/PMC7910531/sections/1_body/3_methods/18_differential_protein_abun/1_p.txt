@@ -1,0 +1,2 @@
+0: We performed differential analysis for 4801 proteins that were measured in 30% of patients, applying limma 59 to paired samples from 99 patients.
+1: Significance was defined at 5% FDR to correct for multiple testing, yielding 2233 proteins with significant differential abundance (2019 proteins with uniquely corresponding Ensembl gene ID and gene name).

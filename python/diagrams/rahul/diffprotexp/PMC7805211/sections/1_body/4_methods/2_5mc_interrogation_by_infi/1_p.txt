@@ -1,0 +1,8 @@
+0: To extract DNA, frozen tissue was manually dissected into small pieces and homogenized by bead beating (Lysing Matrix D; MP Biomedicals) in UltraPure phenol:chloroform:isoamyl alcohol (ThermoFisher) according to the manufactures protocol.
+1: DNA was quantified by Qubit fluorometry (Life Technologies) and 500 ng of DNA from each sample was bisulfite converted using the Zymo EZ DNA Methylation Kit (Zymo Research, Irvine, CA USA) following the manufacturers protocol using the specified modifications for the Illumina Infinium Methylation Assay.
+2: After conversion, all bisulfite reactions were cleaned using the Zymo-Spin binding columns and eluted in 12 uL of Tris buffer.
+3: Following elution, BS converted DNA was processed through the EPIC array protocol.
+4: The EPIC array contains > 850 K probes querying methylation sites including CpG islands and non-island regions, RefSeq genes, ENCODE open chromatin, ENCODE transcription factor binding sites, and FANTOM5 enhancers.
+5: To perform the assay, 7uL of converted DNA was denatured with 1ul 0.4 N sodium hydroxide.
+6: DNA was then amplified, hybridized to the EPIC bead chip, and an extension reaction was performed using fluorophore-labeled nucleotides per the manufacturers protocol.
+7: Array beadchips were scanned on the Illumina iScan platform and probe specific calls were made using Illumina Genome Studio software.

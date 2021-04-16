@@ -1,0 +1,10 @@
+0: We assayed aggression in 24 males (8 control and 16 T) once they reached sexual maturity, which occurs ~ 60 days post-hatch [ 49] (mean age = 138 days 14 SE; mean mass = 15.02 g  0.35 SE).
+1: Aggression scores were assigned in individual conspecific intrusion trials.
+2: Subjects were isolated in a cage for 2 days to establish residency, after which a novel same-sex individual of similar mass ( 1.0 g) was placed in the subjects cage for 15 min between 0700 and 1200 h. Observations to score aggression were carried out blindly with respect to treatment.
+3: The aggression score is the number of aggressive actions performed by the subject toward the intruder during the 15 min period.
+4: Aggressive actions included bill fencing (jab with bill), displacement (driving intruder off a perch), and chasing (following displaced bird) [ 50].
+5: There were no instances in which the intruder aggressively attacked the resident.
+6: We performed two trials for each individual on separate days (~ 48 days apart 5 SE) with novel intruders to determine repeatability of aggressive behaviors (proportion of variance accounted for by individual differences).
+7: We calculated repeatability using a poisson model for count data [ 51], while controlling for variation introduced by the treatment with the package rptR [ 52] in R (version 3.5.2).
+8: The model was run for 1000 bootstrap repeats.
+9: We used a LMM with natal nest ID as the random effect to determine if average aggression score was affected by treatment or laying order.

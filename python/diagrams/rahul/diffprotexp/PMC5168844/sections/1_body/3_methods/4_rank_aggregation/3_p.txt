@@ -1,0 +1,7 @@
+0: For our analysis, we have considered the  p-values, obtained from Equation  3, as our weights ( wi).
+1: Here,  Yi is the  ith ordered list of target pathways.
+2: As a distance measure, we have considered weighted Spearmans footrule distance [ 26].
+3: A brief description of the algorithm of the weighted Spearmans footrule distance, used for our purpose, is as follows: Let  pi(1);  pi(2); ... ;  p(5) be the p-values (in ascending order) associated with the  ith ordered list,  Yi.
+4: Let  rA( Yi) and  rA( x) denote the ranks of the target pathway A in the  ith ordered list  Yi and the proposed ordered list  x, respectively.
+5: Then, the weighted Spearmans footrule distance is given by 8\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ S\left(x,\ {Y}_i\right)={\displaystyle \sum_{t\epsilon {Y}_i\cup x}}\left|p\left({r}_t\left({Y}_i\right)\right)-p\left({r}_t(x)\right)\right|\left.\times \right|\left.
+6: {r}_t\left({Y}_i\right)-{r}_t(x)\right| $$\end{document}Sx,Yi=tYixprtYiprtxrtYirtx

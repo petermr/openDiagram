@@ -1,0 +1,4 @@
+0: Given a directed network, a feedback vertex set (FVS) is a set of vertices whose removal leaves the remaining network acyclic.
+1: The minimum feedback vertex set (MFVS) is a kind of FVS that has the minimum size among all possible FVSs.
+2: The MFVS problem has been proven to be NP-complete [ 12].
+3: There already exist many algorithms for solving the MFVS problem, including approximation algorithms [ 13], randomized algorithms [ 14], parameterized algorithms [ 15] and exact algorithms [ 16,  17].

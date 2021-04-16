@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par56">Procedure for nascent RNA isolation, preparation of RNA-Seq libraries, and massively parallel sequencing was previously described
+ <sup>
+  <xref ref-type="bibr" rid="CR66">66</xref>
+ </sup>. Briefly, 10
+ <sup>8</sup> Kasumi-1 cells were treated with 500 μM 4-thiouridine for 1 h. Cells were lysed using TRI Reagent
+ <sup>®</sup> (Sigma-Aldrich, St Louis, USA) and RNA was purified according to the manufacturer’s instruction. Next, 4-thiouridine-incorporated RNA was biotinylated by labeling with 1 mg/ml Biotin-HPDP (Abcam, Cambridge, UK) for 90 min at room temperature. Following chloroform extraction, labeled RNA was separated using magnetic streptavidin beads, beads were washed, and RNA was eluted in two rounds of elution with 100 μl 100 mM DTT. Finally, RNA was purified using RNeasy MinElute Cleanup Kit (QIAGEN GmbH, Hilden, Germany) and samples were sequenced using Illumina HiSeq
+ <sup>TM</sup> 2000 paired-end sequencing.
+</p>

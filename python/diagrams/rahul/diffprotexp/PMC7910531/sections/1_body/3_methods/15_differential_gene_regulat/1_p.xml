@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par55">To identify differential regulation of gene expression between high- and low-grade cartilage, we used Meta-Tissue v0.5
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup> (downloaded from 
+ <ext-link ext-link-type="uri" xlink:href="http://genetics.cs.ucla.edu/metatissue/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://genetics.cs.ucla.edu/metatissue/index.html</ext-link>), which implements METASOFT
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup>. The 
+ <italic>m</italic> value calculated by METASOFT for gene-variant pair in each tissue provides a posterior probability (
+ <italic>m</italic> value) of an effect in that tissue. Consequently, we aimed to identify eQTLs present in one tissue (defined as 
+ <italic>m</italic> &gt; 0.9), and absent in the other (defined as 
+ <italic>m</italic> &lt; 0.1). We note that there were no 
+ <italic>cis</italic>-eQTLs present in both tissues (
+ <italic>m</italic> &gt; 0.9) with opposing direction of effect.
+</p>

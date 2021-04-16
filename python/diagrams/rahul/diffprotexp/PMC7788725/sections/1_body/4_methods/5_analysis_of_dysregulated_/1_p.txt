@@ -1,0 +1,3 @@
+0: We used R package of Limma [ 49] to find and screen the DEGs with the parameters  p value < 0.05 and log 2fold change (log 2FC) > 1.
+1: We obtained the dysregulated binding genes via the overlap between differential binding genes from ChIP-seq and DEGs of RNA-seq.
+2: Dysregulated binding genes were visualized by Cytoscape [ 50], GOplot, and OmicCircos.

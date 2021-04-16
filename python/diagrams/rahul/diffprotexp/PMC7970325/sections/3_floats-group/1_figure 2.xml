@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig2">
+ <label>Figure 2</label>
+ <caption>
+  <p>Differential expression of gene 
+   <italic>SLC5A5</italic> in radioactive iodine resistant, sensitive and all other thyroid tumors. Expression – DESeq2 normalized read counts. Gene expression values for radioactive iodine resistant tumors (
+   <italic>radioresistance</italic>), sensitive (
+   <italic>radiosensitivity</italic>) thyroid tumors and tumors with undefined radioactive iodine therapy status profiled in this study are boxed. Gene expression is plotted in the log10-trasformed scale. Each box shows gene expression distribution in each group, the ends of the box are the upper and lower quartiles, median in shown by horizontal line inside the boxes, whiskers extend from the upper and lower hinges of the boxes towards the highest and lowest values, respectively, at most 1.5 ∗ interquartile range of box. A black point corresponds to a tissue sample. Drawn using ggplot package in R.
+  </p>
+ </caption>
+ <alt-text id="alttext0060">Figure 2</alt-text>
+ <graphic xlink:href="gr2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

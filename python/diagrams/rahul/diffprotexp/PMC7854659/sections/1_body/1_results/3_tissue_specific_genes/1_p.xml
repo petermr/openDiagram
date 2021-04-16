@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">Based on the Tau index
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>, we identified 553 tissue-specific (TS) genes (τ ≥ 0.8). The liver (
+ <italic>n</italic> = 363) and cerebrum (
+ <italic>n</italic> = 111) expressed the greatest number of TS genes, followed by muscle (
+ <italic>n</italic> = 79) (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>A). The 
+ <italic>NEUROD6</italic>, 
+ <italic>PFKFB</italic>, and 
+ <italic>MYOG</italic> genes were amongst the TS genes with the greatest τ values for the cerebrum, liver, and muscle, respectively. Furthermore, 19 and 15 TS genes were reported as differentially expressed for the liver and muscle. To support our approach, we carried out a tissue over-representation analysis. As expected, the genes were indeed over-represented for the tissues where they are preferentially expressed [prefrontal cortex, adjusted 
+ <italic>p-value</italic> (
+ <italic>adj.pvalue</italic>) = 4.59 E−10; liver, 
+ <italic>adj.pvalue</italic> = 4.58E−05; and skeletal muscle, 
+ <italic>adj.pvalue</italic> = 2.11 E−05]. Additionally, gene ontology (GO) terms highlighted biological processes such as forebrain development (
+ <italic>adj.pvalue</italic> = 2.26E−21), hemostasis (
+ <italic>adj.pvalue</italic> = 1.68E−16), and muscle organ development (
+ <italic>adj.pvalue</italic> = 1.55E−21). The over-represented Uberon ontology terms, the directed acyclic graphic, and the GO terms are reported in Tables 
+ <xref rid="MOESM2" ref-type="media">S1</xref>, 
+ <xref rid="MOESM3" ref-type="media">S2</xref>, and 
+ <xref rid="MOESM4" ref-type="media">S3</xref>.
+</p>

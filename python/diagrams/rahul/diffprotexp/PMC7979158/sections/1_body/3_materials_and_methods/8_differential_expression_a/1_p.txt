@@ -1,0 +1,7 @@
+0: Raw count data for all samples were used as input along with sample information for differential expression analysis using edgeR ( Robinson et al., 2010).
+1: Genes with minimum log 2reads  per  kilobase per  million (RPKM) expression of 2 in at least two samples were included for analysis, resulting in a final set of 17,195 genes for differential testing.
+2: For time-point differential expression analysis genes with count per million (CPM) >0.1 in at least two samples were considered, resulting in E12.5, 16,396; E14.5, 16,658; E17.5, 16,229; P0, 16,613 genes in differential expression analyses.
+3: Principal component analysis indicated that the strongest driver of variance across samples was developmental age.
+4: Tagwise dispersion estimates were generated, and differential expression analysis was performed with edgeR using a generalized linear model, separately for each developmental time-point, including sex, sequencing run factor, and treatment as the variable for testing.
+5: Normalized expression levels were generated using the edgeR rpkm function.
+6: Normalized log 2 RPKM values were used for plotting of summary heatmaps and of expression data for individual genes.

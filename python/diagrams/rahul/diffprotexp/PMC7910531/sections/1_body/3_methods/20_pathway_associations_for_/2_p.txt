@@ -1,0 +1,5 @@
+0: We applied Signalling Pathway Impact Analysis (SPIA) 68 to test for association with KEGG signalling pathways.
+1: SPIA combines enrichment  p values with perturbation impact on the pathway based on log-fold differences of the DE genes; perturbation  p values are obtained by bootstrapping.
+2: Enrichment and perturbation  p values were combined using a normal inversion method which only gives low  p values when both over-representation and pathway impact  p values are low (function option combine = 'norminv').
+3: Significance of pathway association was defined as a threshold of 5% FDR applied to the combined  p values in each analysis.
+4: For the analysis of genes DE on both RNA and protein levels, we carried out tests using the log-fold differences from the RNA data (based on the limma analysis with paired samples and SVAseq covariates), and separately, from the protein data.

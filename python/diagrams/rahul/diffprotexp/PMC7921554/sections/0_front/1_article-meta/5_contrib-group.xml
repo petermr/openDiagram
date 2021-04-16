@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" equal-contrib="yes">
+  <name>
+   <surname>Deng</surname>
+   <given-names>Jun</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <name>
+   <surname>Peng</surname>
+   <given-names>Mei</given-names>
+  </name>
+  <address>
+   <email>Meipeng@csu.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zhou</surname>
+   <given-names>Sichun</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Xiao</surname>
+   <given-names>Di</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Hu</surname>
+   <given-names>Xin</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Xu</surname>
+   <given-names>Simeng</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Wu</surname>
+   <given-names>Jingtao</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Yang</surname>
+   <given-names>Xiaoping</given-names>
+  </name>
+  <address>
+   <email>Xiaoping.Yang@hunnu.edu.cn</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.440761.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0000 9030 0162</institution-id>
+   <institution>Key Laboratory of Study and Discovery of Small Targeted Molecules of Hunan Province, Department of Pharmacy School of Medicine, Hunan Normal University, Changsha 410013, China; Key Laboratory of Molecular Pharmacology and Drug Evaluation (Yantai University), </institution>
+   <institution>Ministry of Education, Yantai University, </institution>
+  </institution-wrap>Yantai, 264005 China 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.216417.7</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 0379 7164</institution-id>
+   <institution>Department of Pharmacy, Xiangya Hospital, </institution>
+   <institution>Central South University, </institution>
+  </institution-wrap>Changsha, 410008 China 
+ </aff>
+</contrib-group>

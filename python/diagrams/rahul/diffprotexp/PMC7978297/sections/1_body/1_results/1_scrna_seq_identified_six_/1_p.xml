@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To characterize the transcriptome dynamics of ovarian cells affected by DEHP during PF formation, pregnant mice were given DEHP daily from 16.5 dpc, and the ovaries were collected at postnatal day 0 (PD0-DEHP) and 3 (PD3-DEHP), from which single-cell suspensions were prepared for scRNA-seq (Figure 
+ <xref ref-type="fig" rid="F1">1</xref>A, left panel). Following the combination of barcoded gel beads, enzyme mixtures, and oil, the nanoliter-scale droplets (termed “gel bead-in emulsions”, GEMs) were generated for library construction and sequencing (upper part of right panel). Then, single-cell datasets were conducted for cell cluster, pseudotime trajectory, and differential analysis of gene expression using Seurat and Monocle (Figure 
+ <xref ref-type="fig" rid="F1">1</xref>A, bottom part of right panel). In addition, after data pre-progressing and potential doublets filtration (
+ <xref ref-type="supplementary-material" rid="SM0">Figure S1</xref>A), 4,558 high-quality ovarian cells were obtained at PD0-DEHP and 5,252 at PD3-DEHP, and the number of high-quality cells from collected datasets of normal ovarian tissues at PD0 was 4,270, with 5,375 at PD3 (
+ <xref ref-type="supplementary-material" rid="SM0">Figure S1</xref>B). The harvested high-quality cells were used for subsequent analysis.
+</p>

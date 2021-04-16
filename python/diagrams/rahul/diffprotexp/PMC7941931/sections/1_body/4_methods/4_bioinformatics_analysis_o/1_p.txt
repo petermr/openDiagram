@@ -1,0 +1,10 @@
+0: Raw reads were processed to generate clean reads by removing the low-quality reads, reads containing poly-N or poly-A sequences, reads lacking the 3 adaptor sequence, reads with length < 18 nt or > 30 nt, and adapter sequences.
+1: The clean reads were then mapped against the Tartary buckwheat genome ( http://www.mbkbase.org/Pinku1/) [ 58].
+2: The Silva database, GtRNAdb database, Rfam database and Repbase database were used to filter the rRNA, tRNA, snRNA, and snoRNA to produce the unannotated reads containing miRNA [ 4].
+3: Unannotated reads were blasted against miRBase to search for known miRNAs [ 77].
+4: The potential novel miRNAs were predicted by using the miRdeep2 program [ 78].
+5: The miFam.dat ( http://www.miRbase.org/ftp.shtml) was used to investigate the miRNA family class of these identified miRNAs.
+6: The miRNA expression abundances were calculated and normalized by transcript per million (TPM), and differential expression analysis was carried out by the DEGSeq R package with FDR (false discovery rate) value< 0.05 and |log2(fold change)| > 1 as the threshold for significant difference.
+7: The potential target genes of miRNA were predicted by using TargetFinder software [ 79].
+8: The predicted target genes were subjected to GO ( http://geneontology.org/) [ 80] and KEGG ( www.kegg.jp/kegg/kegg1.
+9: html) [ 81] pathway analysis to predict and classify possible functions.

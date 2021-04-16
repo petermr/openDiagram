@@ -1,0 +1,7 @@
+0: FTMS master scans with 70,000 resolution (and mass range 3001700  m/ z) were followed by data-dependent MS/MS (35,000 resolution) on the top 5 ions using higher energy collision dissociation (HCD) at 3040% normalized collision energy.
+1: Precursors were isolated with a 2  m/ z window.
+2: Automatic gain control (AGC) targets were 1e6 for MS1 and 1e5 for MS2.
+3: Maximum injection times were 100 ms for MS1 and 150200 ms for MS2.
+4: The entire duty cycle lasted 2.5 s. Dynamic exclusion was used with 60 s duration.
+5: Precursors with unassigned charge state or charge state 1 were excluded.
+6: An underfill ratio of 1% was used.

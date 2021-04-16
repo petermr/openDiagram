@@ -1,0 +1,7 @@
+0: We use Fastqc to evaluate the quality of sequencing reads in the data.
+1: Low quality reads were removed using Trimmomatic (version 0.3.2) 55 with the default parameters.
+2: The clean data obtained were aligned to the Sus scrofa genome (SusScrofa11.1) from University of California Santa Cruz (UCSC) using the Hisat2 (version 2.0.1) default parameters.
+3: Sorting mapped reads and remove duplicates via Samtools(version 0.1.19) 56.
+4: In addition, we assembled the read map using the default parameters of Stringtie (version 1.2.2) 57.
+5: At the same time, we set the Stringtie's "-G" option for the novel transcript assembly.
+6: Finally, we used the merge function of Stringtie software to combine the transcription files from six samples (GTF format) into a non-redundant transcriptome file.

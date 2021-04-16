@@ -1,0 +1,564 @@
+{
+  "id": [
+    "33356871"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33356871"
+  ],
+  "pmcid": [
+    "PMC7834096"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7834096"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1080/21505594.2020.1868841"
+  ],
+  "title": [
+    "The Superior Adherence Phenotype of E. coli O104:H4 is Directly Mediated by the Aggregative Adherence Fimbriae Type I."
+  ],
+  "authorString": [
+    "Schiller P, Knödler M, Berger P, Greune L, Fruth A, Mellmann A, Dersch P, Berger M, Dobrindt U."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Schiller P"
+          ],
+          "firstName": [
+            "Philipp"
+          ],
+          "lastName": [
+            "Schiller"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Hygiene, University of Münster , Münster, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Knödler M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Knödler"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Hygiene, University of Münster , Münster, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Berger P"
+          ],
+          "firstName": [
+            "Petya"
+          ],
+          "lastName": [
+            "Berger"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0760-7177",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Hygiene, University of Münster , Münster, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Greune L"
+          ],
+          "firstName": [
+            "Lilo"
+          ],
+          "lastName": [
+            "Greune"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute for Infectiology, University of Münster , Münster, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Fruth A"
+          ],
+          "firstName": [
+            "Angelika"
+          ],
+          "lastName": [
+            "Fruth"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9486-8358",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Division of Enteropathogenic Bacteria and Legionella, Robert Koch Institute , Wernigerode, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Mellmann A"
+          ],
+          "firstName": [
+            "Alexander"
+          ],
+          "lastName": [
+            "Mellmann"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Hygiene, University of Münster , Münster, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dersch P"
+          ],
+          "firstName": [
+            "Petra"
+          ],
+          "lastName": [
+            "Dersch"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8177-3280",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute for Infectiology, University of Münster , Münster, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Berger M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Berger"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Hygiene, University of Münster , Münster, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Dobrindt U"
+          ],
+          "firstName": [
+            "Ulrich"
+          ],
+          "lastName": [
+            "Dobrindt"
+          ],
+          "initials": [
+            "U"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9949-1898",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Institute of Hygiene, University of Münster , Münster, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8177-3280",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9949-1898",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0760-7177",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9486-8358",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "3080655"
+      ],
+      "dateOfPublication": [
+        "2021 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Virulence"
+          ],
+          "ISOAbbreviation": [
+            "Virulence"
+          ],
+          "medlineAbbreviation": [
+            "Virulence"
+          ],
+          "NLMid": [
+            "101531386"
+          ],
+          "ISSN": [
+            "2150-5594"
+          ],
+          "ESSN": [
+            "2150-5608"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "346-359"
+  ],
+  "abstractText": [
+    "Whereas the O104:H4 enterohemorrhagic <i>Escherichia coli</i> (EHEC) outbreak strain from 2011 expresses aggregative adherence fimbriae of subtype I (AAF/I), its close relative, the O104:H4 enteroaggregative <i>Escherichia coli</i> (EAEC) strain 55989, encodes AAF of subtype III. Tight adherence mediated by AAF/I in combination with Shiga toxin 2 production has been suggested to result in the outbreak strain's exceptional pathogenicity. Furthermore, the O104:H4 outbreak strain adheres significantly better to cultured epithelial cells than archetypal EAEC strains expressing different AAF subtypes. To test whether AAF/I expression is associated with the different virulence phenotypes of the outbreak strain, we heterologously expressed AAF subtypes I, III, IV, and V in an AAF-negative EAEC 55989 mutant and compared AAF-mediated phenotypes, incl. autoaggregation, biofilm formation, as well as bacterial adherence to HEp-2 cells. We observed that the expression of all four AAF subtypes promoted bacterial autoaggregation, though with different kinetics. Disturbance of AAF interaction on the bacterial surface via addition of α-AAF antibodies impeded autoaggregation. Biofilm formation was enhanced upon heterologous expression of AAF variants and inversely correlated with the autoaggregation phenotype. Co-cultivation of bacteria expressing different AAF subtypes resulted in mixed bacterial aggregates. Interestingly, bacteria expressing AAF/I formed the largest bacterial clusters on HEp-2 cells, indicating a stronger host cell adherence similar to the EHEC O104:H4 outbreak strain. Our findings show that, compared to the closely related O104:H4 EAEC strain 55989, not only the acquisition of the Shiga toxin phage, but also the acquisition of the AAF/I subtype might have contributed to the increased EHEC O104:H4 pathogenicity."
+  ],
+  "affiliation": [
+    "Institute of Hygiene, University of Münster , Münster, Germany."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Adherence",
+        "Biofilm",
+        "Enterohemorrhagic E. Coli",
+        "Enteroaggregative E. Coli",
+        "Aaf",
+        "Autoaggregation"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1080/21505594.2020.1868841"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7834096"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7834096?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "gen"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2020-12-28"
+  ],
+  "firstIndexDate": [
+    "2020-12-29"
+  ],
+  "fullTextReceivedDate": [
+    "2021-02-05"
+  ],
+  "dateOfRevision": [
+    "2021-03-22"
+  ],
+  "firstPublicationDate": [
+    "2021-12-01"
+  ]
+}

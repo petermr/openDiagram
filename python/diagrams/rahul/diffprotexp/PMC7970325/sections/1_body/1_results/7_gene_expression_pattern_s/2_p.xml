@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0170">We then attempted to identify the radioiodine resistance (RAIR)-specific gene expression patterns using our experimental RNA sequencing dataset. To this end, we compared 13 RAIR samples with 62 thyroid cancer samples: 18 follicular cancers and 44 papillary cancers. We did not consider 17 samples of follicular adenoma and 3 samples of medullar cancer in this comparison. We found no statistically significant differences for all 38 DNA repair pathways, thus, we investigated expression on gene level. We selected 217 differentially regulated genes using Wilcoxon statistical test with Benjamini-Hochberg FDR-adjusted p-value&lt;0.05. However, well known RAIR biomarker gene 
+ <italic>SLC5A5</italic> was not included in the list because it did not pass the FDR criterion. We, therefore, modified the candidate gene search criterion so that it would be maximally strict and at the same time would allow 
+ <italic>SLC5A5</italic> (p 
+ <italic>=</italic> 0.00344
+ <italic>)</italic> to be selected. Thus, we marked as differential all the genes with Wilcoxon test p-value less than 0.0035.
+</p>

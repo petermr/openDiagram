@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To better understand the co-expression between m
+ <sup>5</sup>C regulatory factors and the differentially expressed genes (DEGs) associated with key downstream pathways, we used the R statistical software by R package heatmap (
+ <xref rid="B8" ref-type="bibr">Chan, 2018</xref>). Parameters of co-expression analysis were set as: 0.8–1.0 strongly correlated, 0.6–0.8 strong correlation, 0.4–0.6 moderate intensity correlation, 0.2–0.4 weak correlation, and 0.0–0.2 very weak correlation or no correlation. Correlation between 
+ <italic>GSK3B</italic> (
+ <italic>glycogen synthase kinase 3 beta</italic>) and m
+ <sup>5</sup>C regulators was analyzed using the linear regression. The 95% confidence intervals were presented by dot lines. The data have been standardized.
+</p>

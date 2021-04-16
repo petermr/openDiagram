@@ -1,0 +1,5 @@
+0: OPaver (Li, unpublished), is a web-based tool to integrate multiple types (e.g.
+1: transcriptomics, proteomics and metabolomics) and time series of data to KEGG biochemical pathways maps.
+2: This software analysis tool was developed at Los Alamos National Laboratory.
+3: In this case, OPaver was utilized to map significantly differentially expressed genes ( p < 0.05) identified in the DEseq2 analysis performed by PiRet.
+4: Differential expression calculation from DEseq2 in Log2 fold change and associated genes (provided in the supplementary material) were used as input for the OPaver software.

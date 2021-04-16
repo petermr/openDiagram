@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Cellular clustering is performed according to gene expression profiles to detect cellular sub-populations with unique features. DIscBIO allows k-means clustering [
+ <xref rid="B38-ijms-22-01399" ref-type="bibr">38</xref>], using the RaceID algorithm, and model-based clustering [
+ <xref rid="B39-ijms-22-01399" ref-type="bibr">39</xref>], using TSCAN software. This pipeline estimates the number of clusters by finding the minimal cluster number at the saturation level of the gap statistics, which standardizes the within-cluster dispersion [
+ <xref rid="B40-ijms-22-01399" ref-type="bibr">40</xref>]. DIscBIO enables a robustness assessment of the detected clusters in terms of stability and consistency using Jaccard’s similarity statistics and silhouette coefficients [
+ <xref rid="B41-ijms-22-01399" ref-type="bibr">41</xref>,
+ <xref rid="B42-ijms-22-01399" ref-type="bibr">42</xref>]. To visualize the detected clusters, two common dimensionality reduction tools are implemented: principal component analysis (PCA) and 
+ <italic>t</italic>-distributed stochastic neighbor embedding (
+ <italic>t</italic>SNE). DIscBIO uses the “tsne” package through RaceID to plot the clusters in 
+ <italic>t</italic>SNE maps [
+ <xref rid="B43-ijms-22-01399" ref-type="bibr">43</xref>,
+ <xref rid="B44-ijms-22-01399" ref-type="bibr">44</xref>]. Additionally, DIscBIO can detect outlier cells. The outlier identification is implemented based on RaceID using a background model based on the distribution of the transcript counts within a cluster. The background model is computed using the mean and the variance of the expression of each gene in a cluster. Outliers are defined as cells with a minimum number of outlier genes. This number is set by default to 2. In the case studies we set it to be 5% of the number of genes in the filtered dataset; this is based on the recommendation of De Vienne et al. [
+ <xref rid="B45-ijms-22-01399" ref-type="bibr">45</xref>]. Outlier genes are inferred from non-normalized transcript counts. Finally, pseudo-temporal ordering is implemented over the clusters resulting from the k-means and model-based clustering using TSCAN software. The pseudo-temporal ordering gradually orders cells based on their transcriptional profile, for example, indicating the cellular differentiation degree. 
+</p>

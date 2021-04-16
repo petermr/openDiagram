@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0002" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 2</label>
+ <caption>
+  <p>WGCNA of genes showing large expression variance in sepsis patients. (
+   <bold>A</bold>) Network heatmap of unsupervised cluster analysis of module genes. Different colors in columns and rows represent different modules. (
+   <bold>B</bold>) Correlation of modules with clinical traits. Each column represents a different module; each row, a different clinical phenotype. Red indicates positive correlation; blue, negative correlation. (
+   <bold>C</bold>) Progressive up- or down-regulation in a module in the trend: healthy controls &lt; sepsis &lt; sepsis shock.
+  </p>
+ </caption>
+ <graphic content-type="print-only" xlink:href="JIR-14-829-g0002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

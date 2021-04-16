@@ -1,0 +1,3 @@
+0: To support the gene tissue specificity analysis, we performed a TS over-representation analysis using TopAnat ( https://rb.gy/6qvwla).
+1: This tool allowed us to identify where genes from a set are preferentially expressed 85, considering the anatomical structures and the Uberon ontology annotations 86.
+2: Thus, for each TS gene list, we used TopAnat based on bovine as the target species and the Begee database for  B. taurus as background 85.

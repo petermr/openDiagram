@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <p>Protein identifications of differentially expressed proteins using MALDI-TOF MS/MS</p>
+ </caption>
+ <alt-text id="alttext0040">Table 1</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Entry</th>
+    <th>Accession no.</th>
+    <th>Protein name</th>
+    <th>Score</th>
+    <th>Mass ku/p
+     <italic>I</italic>
+    </th>
+    <th>Molecular function</th>
+    <th>Change</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>1</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:Q9VN95" id="intref0030" xmlns:xlink="http://www.w3.org/1999/xlink">Q9VN95</ext-link>
+    </td>
+    <td>Enolase-phosphatase E1 (ENOPH)</td>
+    <td>159</td>
+    <td>54.6/8.68</td>
+    <td>Acireductone synthase activity</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>2</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P29310" id="intref0035" xmlns:xlink="http://www.w3.org/1999/xlink">P29310</ext-link>
+    </td>
+    <td>14-3-3 protein zeta (1433Z)</td>
+    <td>100</td>
+    <td>28.3/4.77</td>
+    <td>Protein heterodimerization activity</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>3</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P07764" id="intref0040" xmlns:xlink="http://www.w3.org/1999/xlink">P07764</ext-link>
+    </td>
+    <td>Fructose-bisphosphate aldolase (ALF)</td>
+    <td>245</td>
+    <td>45.8/7.08</td>
+    <td>Fructose-bisphosphate aldolase activity</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>4</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P35122" id="intref0045" xmlns:xlink="http://www.w3.org/1999/xlink">P35122</ext-link>
+    </td>
+    <td>Ubiquitin carboxyl-terminal hydrolase (Uch; also named UCHL1)</td>
+    <td>80</td>
+    <td>100.0/9.37</td>
+    <td>Thiol-dependent ubiquitin-specific protease activity</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>5</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P13395" id="intref0050" xmlns:xlink="http://www.w3.org/1999/xlink">P13395</ext-link>
+    </td>
+    <td>Spectrin alpha chain (SPTCA)</td>
+    <td>85</td>
+    <td>481.2/6.02</td>
+    <td>Actin binding</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>6</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P84029" id="intref0055" xmlns:xlink="http://www.w3.org/1999/xlink">P84029</ext-link>
+    </td>
+    <td>Cytochrome c-2 (CYC2)</td>
+    <td>715</td>
+    <td>45.6/9.47</td>
+    <td>Electron carrier activity</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>7</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P83967" id="intref0060" xmlns:xlink="http://www.w3.org/1999/xlink">P83967</ext-link>
+    </td>
+    <td>Actin, indirect flight muscle (ACT6)</td>
+    <td>628</td>
+    <td>42.1/5.29</td>
+    <td>Structural constituent of cytoskeleton</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>8</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P02574" id="intref0065" xmlns:xlink="http://www.w3.org/1999/xlink">P02574</ext-link>
+    </td>
+    <td>Actin, larval muscle (ACT4)</td>
+    <td>580</td>
+    <td>42.2/5.3</td>
+    <td>Structural constituent of cytoskeleton</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>9</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P48610" id="intref0070" xmlns:xlink="http://www.w3.org/1999/xlink">P48610</ext-link>
+    </td>
+    <td>Arginine kinase (KARG)</td>
+    <td>122</td>
+    <td>40.1/6.04</td>
+    <td>Arginine kinase activity</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>10</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P48611" id="intref0075" xmlns:xlink="http://www.w3.org/1999/xlink">P48611</ext-link>
+    </td>
+    <td>6-Pyruvoyl tetrahydrobiopterin synthase (PTPS)</td>
+    <td>81</td>
+    <td>20.1/6.07</td>
+    <td>6-Pyruvoyltetrahydropterin synthase activity</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>11</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P29844" id="intref0080" xmlns:xlink="http://www.w3.org/1999/xlink">P29844</ext-link>
+    </td>
+    <td>Heat shock 70 kDa protein (HSP70)</td>
+    <td>586</td>
+    <td>72.3/5.22</td>
+    <td>ATP binding</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>12</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:Q27331" id="intref0085" xmlns:xlink="http://www.w3.org/1999/xlink">Q27331</ext-link>
+    </td>
+    <td>V-type proton ATPase catalytic subunit A (VATA)</td>
+    <td>464</td>
+    <td>68.5/5.23</td>
+    <td>Proton-transporting ATPase activity</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>13</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:Q94511" id="intref0090" xmlns:xlink="http://www.w3.org/1999/xlink">Q94511</ext-link>
+    </td>
+    <td>NADH-ubiquinone oxidoreductase 75 kDa subunit, mitochondrial (NDUS1)</td>
+    <td>135</td>
+    <td>79.5/6.43</td>
+    <td>Metal ion binding</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>14</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P53501" id="intref0095" xmlns:xlink="http://www.w3.org/1999/xlink">P53501</ext-link>
+    </td>
+    <td>Actin-57B (ACT3)</td>
+    <td>128</td>
+    <td>42.2/5.23</td>
+    <td>Structural constituent of cytoskeleton</td>
+    <td>Increase</td>
+   </tr>
+   <tr>
+    <td>15</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P13706" id="intref0100" xmlns:xlink="http://www.w3.org/1999/xlink">P13706</ext-link>
+    </td>
+    <td>Glycerol-3-phosphate dehydrogenase [NAD(+)], cytoplasmic (GPDA)</td>
+    <td>396</td>
+    <td>39.2/6.17</td>
+    <td>NAD binding</td>
+    <td>Decrease</td>
+   </tr>
+   <tr>
+    <td>16</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:Q9VWH4" id="intref0105" xmlns:xlink="http://www.w3.org/1999/xlink">Q9VWH4</ext-link>
+    </td>
+    <td>Probable isocitrate dehydrogenase [NAD] subunit alpha, mitochondrial (IDH3A)</td>
+    <td>202</td>
+    <td>38.9/6.96</td>
+    <td>Isocitrate dehydrogenase (NAD+) activity</td>
+    <td>Decrease</td>
+   </tr>
+   <tr>
+    <td>17</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:Q9W0T1" id="intref0110" xmlns:xlink="http://www.w3.org/1999/xlink">Q9W0T1</ext-link>
+    </td>
+    <td>Nucleosome-remodeling factor subunit NURF301 (NU301) gene E(bx)</td>
+    <td>291</td>
+    <td>32.7/5.58</td>
+    <td>Ligand-dependent nuclear receptor binding</td>
+    <td>Decrease</td>
+   </tr>
+   <tr>
+    <td>18</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P10981" id="intref0115" xmlns:xlink="http://www.w3.org/1999/xlink">P10981</ext-link>
+    </td>
+    <td>Actin-87E (ACT5)</td>
+    <td>163</td>
+    <td>38.2/5.36</td>
+    <td>ATP binding</td>
+    <td>Decrease</td>
+   </tr>
+   <tr>
+    <td>19</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P00334" id="intref0120" xmlns:xlink="http://www.w3.org/1999/xlink">P00334</ext-link>
+    </td>
+    <td>Alcohol dehydrogenase (ADH)</td>
+    <td>187</td>
+    <td>57.3/6.37</td>
+    <td>Protein homodimerization activity</td>
+    <td>Decrease</td>
+   </tr>
+   <tr>
+    <td>20</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:Q9VPH2" id="intref0125" xmlns:xlink="http://www.w3.org/1999/xlink">Q9VPH2</ext-link>
+    </td>
+    <td>DNA primase large subunit (PRI2)</td>
+    <td>78</td>
+    <td>65.5/6.38</td>
+    <td>DNA primase activity</td>
+    <td>Decrease</td>
+   </tr>
+   <tr>
+    <td>21</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:Q9V3R1" id="intref0130" xmlns:xlink="http://www.w3.org/1999/xlink">Q9V3R1</ext-link>
+    </td>
+    <td>Accessory gland protein Acp36DE (A36DE)</td>
+    <td>676</td>
+    <td>84.5/9.18</td>
+    <td>Hormone activity</td>
+    <td>Decrease</td>
+   </tr>
+   <tr>
+    <td>22</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:P08171" id="intref0135" xmlns:xlink="http://www.w3.org/1999/xlink">P08171</ext-link>
+    </td>
+    <td>Esterase-6 (EST6)</td>
+    <td>88</td>
+    <td>61.9/5.78</td>
+    <td>Carboxylic ester hydrolase activity</td>
+    <td>Decrease</td>
+   </tr>
+   <tr>
+    <td>23</td>
+    <td>
+     <ext-link ext-link-type="uri" xlink:href="ncbi-p:Q9VA73" id="intref0140" xmlns:xlink="http://www.w3.org/1999/xlink">Q9VA73</ext-link>
+    </td>
+    <td>Calcium binding protein 1 (CABP1)</td>
+    <td>217</td>
+    <td>21.5/4.71</td>
+    <td>Calcium ion binding</td>
+    <td>Decrease</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tspara0015">
+   <p>Mass ku (kDa)/p
+    <italic>I</italic>, molecular mass and isoelectric point; score corresponding with two-dimensional gel electrophoresis gel as shown in 
+    <xref rid="fig2" ref-type="fig">Fig. 2</xref> or calculated by mass spectrum identification or PDquest software. In the table, increase means up-regulation in RGE-treated, compared to the wild type; decrease means down-regulation in RGE-treated, compared to the wild type
+   </p>
+  </fn>
+  <fn id="tspara0020">
+   <p>RGE, red ginseng extract; MALDI-TOF MS/MS, matrix-assisted laser desorption/ionization-time of flight tandem mass spectrometry</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">Paired end reads obtained from the sequencing process had a satisfactory quality level after trimming. A phred score of 30 was obtained for all samples while N content was practically null in all samples as well (see Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">S1</xref> online). De novo assembly was generated using reads from this study and previous raw sequencing reads from the central nervous system of 
+ <italic>H. glaberrima</italic>
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. The resulting transcriptome with 490 172 contigs was assessed with BUSCO and showed 99.1% of complete core genes detected with 0.4% of fragmented genes and only 0.5% of missing core genes (see Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S1</xref> online). Furthermore, the N50 sequence length was 1692 nt with the longest and shortest sequence being 34,610 nt and 200 nt respectively (see Supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S2</xref> online).
+</p>

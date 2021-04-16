@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Distribution of histological classification and gender in patients with T2DM and lung cancer</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="2">Histological classifications</th>
+    <th align="left" rowspan="2">Age</th>
+    <th align="left" colspan="4">Gender</th>
+    <th align="left" rowspan="2">Total</th>
+    <th align="left" rowspan="2">Proportion</th>
+   </tr>
+   <tr>
+    <th align="left" colspan="2">Male</th>
+    <th align="left" colspan="2">Female</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Adenocarcinoma</td>
+    <td char="±" align="char">66.74 ± 8.17</td>
+    <td char="." align="char">256</td>
+    <td char="." align="char">62.29%</td>
+    <td char="." align="char">155</td>
+    <td char="." align="char">37.71%</td>
+    <td char="." align="char">411</td>
+    <td char="." align="char">60.62%</td>
+   </tr>
+   <tr>
+    <td align="left">Squamous carcinoma</td>
+    <td char="±" align="char">65.89 ± 8.27</td>
+    <td char="." align="char">61</td>
+    <td char="." align="char">64.89%</td>
+    <td char="." align="char">33</td>
+    <td char="." align="char">35.11%</td>
+    <td char="." align="char">94</td>
+    <td char="." align="char">13.86%</td>
+   </tr>
+   <tr>
+    <td align="left">Small cell carcinoma</td>
+    <td char="±" align="char">65.80 ± 7.05</td>
+    <td char="." align="char">15</td>
+    <td char="." align="char">60.00%</td>
+    <td char="." align="char">10</td>
+    <td char="." align="char">40.00%</td>
+    <td char="." align="char">25</td>
+    <td char="." align="char">3.69%</td>
+   </tr>
+   <tr>
+    <td align="left">Mixed carcinoma</td>
+    <td char="±" align="char">66.20 ± 6.75</td>
+    <td char="." align="char">8</td>
+    <td char="." align="char">80.00%</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">20.00%</td>
+    <td char="." align="char">10</td>
+    <td char="." align="char">1.47%</td>
+   </tr>
+   <tr>
+    <td align="left">Neuroendocrine carcinoma</td>
+    <td char="±" align="char">67.17 ± 7.49</td>
+    <td char="." align="char">4</td>
+    <td char="." align="char">66.67%</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">33.33%</td>
+    <td char="." align="char">6</td>
+    <td char="." align="char">0.88%</td>
+   </tr>
+   <tr>
+    <td align="left">Magnocellular carcinoma</td>
+    <td char="±" align="char">69.00 ± 5.66</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">100.00%</td>
+    <td char="." align="char">0</td>
+    <td char="." align="char">0.00%</td>
+    <td char="." align="char">2</td>
+    <td char="." align="char">0.29%</td>
+   </tr>
+   <tr>
+    <td align="left">Other</td>
+    <td char="±" align="char">68.67 ± 7.15</td>
+    <td char="." align="char">6</td>
+    <td char="." align="char">100.00%</td>
+    <td char="." align="char">0</td>
+    <td char="." align="char">0.00%</td>
+    <td char="." align="char">6</td>
+    <td char="." align="char">0.88%</td>
+   </tr>
+   <tr>
+    <td align="left">Unknown</td>
+    <td char="±" align="char">67.05 ± 9.57</td>
+    <td char="." align="char">96</td>
+    <td char="." align="char">77.42%</td>
+    <td char="." align="char">28</td>
+    <td char="." align="char">22.58%</td>
+    <td char="." align="char">124</td>
+    <td char="." align="char">18.29%</td>
+   </tr>
+   <tr>
+    <td align="left">Total</td>
+    <td char="±" align="char">66.66 ± 8.36</td>
+    <td char="." align="char">448</td>
+    <td char="." align="char">66.08%</td>
+    <td char="." align="char">230</td>
+    <td char="." align="char">33.92%</td>
+    <td char="." align="char">678</td>
+    <td char="." align="char">100.00%</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

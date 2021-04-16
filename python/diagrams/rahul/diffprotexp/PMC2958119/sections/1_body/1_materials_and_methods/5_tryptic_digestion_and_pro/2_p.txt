@@ -1,0 +1,2 @@
+0: When the peptides were matched to multiple members of a protein family, or a protein appeared under same names and accession number, the match was considered in terms of a higher Mascot score, the putative function and differential patterns on 2-DE gels.
+1: Protein identifications were accepted if they had greater than 95% probability and contained at least 2 identified peptides, maximum peptides coverage.

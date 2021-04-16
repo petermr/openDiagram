@@ -1,0 +1,565 @@
+{
+  "id": [
+    "33726773"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33726773"
+  ],
+  "pmcid": [
+    "PMC7968266"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7968266"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s13048-021-00794-0"
+  ],
+  "title": [
+    "Identification of potential markers for differentiating epithelial ovarian cancer from ovarian low malignant potential tumors through integrated bioinformatics analysis."
+  ],
+  "authorString": [
+    "Hao W, Zhao H, Li Z, Li J, Guo J, Chen Q, Gao Y, Ren M, Zhao X, Yue W."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Hao W"
+          ],
+          "firstName": [
+            "Wende"
+          ],
+          "lastName": [
+            "Hao"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhao H"
+          ],
+          "firstName": [
+            "Hongyu"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li Z"
+          ],
+          "firstName": [
+            "Zhefeng"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Li J"
+          ],
+          "firstName": [
+            "Jie"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Guo J"
+          ],
+          "firstName": [
+            "Jiahao"
+          ],
+          "lastName": [
+            "Guo"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chen Q"
+          ],
+          "firstName": [
+            "Qi"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gao Y"
+          ],
+          "firstName": [
+            "Yan"
+          ],
+          "lastName": [
+            "Gao"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ren M"
+          ],
+          "firstName": [
+            "Meng"
+          ],
+          "lastName": [
+            "Ren"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Zhao X"
+          ],
+          "firstName": [
+            "Xiaoting"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China. zhao_xiaoting@ccmu.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Yue W"
+          ],
+          "firstName": [
+            "Wentao"
+          ],
+          "lastName": [
+            "Yue"
+          ],
+          "initials": [
+            "W"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China. yuewt@ccmu.edu.cn."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "3127123"
+      ],
+      "dateOfPublication": [
+        "2021 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Journal of ovarian research"
+          ],
+          "ISOAbbreviation": [
+            "J Ovarian Res"
+          ],
+          "medlineAbbreviation": [
+            "J Ovarian Res"
+          ],
+          "NLMid": [
+            "101474849"
+          ],
+          "ISSN": [
+            "1757-2215"
+          ],
+          "ESSN": [
+            "1757-2215"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "46"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>Epithelial ovarian cancer (EOC), as a lethal malignancy in women, is often diagnosed as advanced stages. In contrast, intermediating between benign and malignant tumors, ovarian low malignant potential (LMP) tumors show a good prognosis. However, the differential diagnosis of the two diseases is not ideal, resulting in delays or unnecessary therapies. Therefore, unveiling the molecular differences between LMP and EOC may contribute to differential diagnosis and novel therapeutic and preventive policies development for EOC.<h4>Methods</h4>In this study, three microarray data (GSE9899, GSE57477 and GSE27651) were used to explore the differentially expressed genes (DEGs) between LMP and EOC samples. Then, 5 genes were screened by protein-protein interaction (PPI) network, receiver operating characteristic (ROC), survival and Pearson correlation analysis. Meanwhile, chemical-core gene network construction was performed to identify the potential drugs or risk factors for EOC based on 5 core genes. Finally, we also identified the potential function of the 5 genes for EOC through pathway analysis.<h4>Results</h4>Two hundred thirty-four DEGs were successfully screened, including 81 up-regulated genes and 153 down-regulated genes. Then, 5 core genes (CCNB1, KIF20A, ASPM, AURKA, and KIF23) were identified through PPI network analysis, ROC analysis, survival and Pearson correlation analysis, which show better diagnostic efficiency and higher prognostic value for EOC. Furthermore, NetworkAnalyst was used to identify top 15 chemicals that link with the 5 core genes. Among them, 11 chemicals were potential drugs and 4 chemicals were risk factors for EOC. Finally, we found that all 5 core genes mainly regulate EOC development via the cell cycle pathway by the bioinformatic analysis.<h4>Conclusion</h4>Based on an integrated bioinformatic analysis, we identified potential biomarkers, risk factors and drugs for EOC, which may help to provide new ideas for EOC diagnosis, condition appraisal, prevention and treatment in future."
+  ],
+  "affiliation": [
+    "Central Laboratory, Beijing Obstetrics and Gynecology Hospital, Capital Medical University, Beijing, 100026, China."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "81672838 and 61431019"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "Z181100001718193"
+          ],
+          "agency": [
+            "Beijing Municipal Science & Technology Commission"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Chemicals",
+        "Diagnosis",
+        "Prognosis",
+        "Epithelial ovarian cancer",
+        "Integrated Bioinformatical Analysis",
+        "Low Malignant Potential Tumor"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13048-021-00794-0"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7968266"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7968266?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "PPR229626"
+          ],
+          "source": [
+            "PPR"
+          ],
+          "type": [
+            "Preprint in"
+          ],
+          "note": [
+            "Link created based on a title-first author match"
+          ],
+          "orderIn": [
+            "10002"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-17"
+  ],
+  "firstIndexDate": [
+    "2021-03-18"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-24"
+  ],
+  "dateOfRevision": [
+    "2021-03-23"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-16"
+  ],
+  "firstPublicationDate": [
+    "2021-03-16"
+  ]
+}

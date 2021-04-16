@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">Potentially existing sequencing adapters and raw quality bases in the raw reads were trimmed by Skewer [
+ <xref ref-type="bibr" rid="CR14">14</xref>]. The option –x AGATCGGAAGAGCACACGTCTGAACTCCAGTCA and -y AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT were used for the common adapter sequence of the Illumina TruSeq adapters, and the option -q 0 -l 25 -k 3 -r 0.1 -d 0.1 was used for trimming low-quality 5′ and 3′ ends of the raw reads. The cleaned high-quality reads after trimming the low-quality bases and sequencing adapters were mapped to the reference genome using STAR software [
+ <xref ref-type="bibr" rid="CR15">15</xref>]. The strand-specific library option --library-type = fr-firststrand was applied in the mapping process.
+</p>

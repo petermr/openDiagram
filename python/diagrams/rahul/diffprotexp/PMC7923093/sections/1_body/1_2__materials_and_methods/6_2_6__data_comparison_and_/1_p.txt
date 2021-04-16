@@ -1,0 +1,2 @@
+0: The pretreatment of sequencing primary reads and removing of the linker sequences and low-quality sequences (including fuzzy base N and bases less than 10 in mass and 18 nt in length) was conducted using fastx (fastx_toolkit-0.0.13.2).
+1: The pre-processed sequences were compared with the Sanger miRbase [ 19] database (21.0) (no mismatch allowed) and with ncRNA [ 20], piRNA [ 21] and Rfam [ 22] (two base mismatches to the target sequence and shorter or longer two bases at each end than the target sequence were allowed).

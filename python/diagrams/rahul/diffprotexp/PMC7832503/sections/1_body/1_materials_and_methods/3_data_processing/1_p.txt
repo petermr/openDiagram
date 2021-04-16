@@ -1,0 +1,7 @@
+0: The sequencing reads of the 165 samples were mapped to the human reference genome (hg19) using the BurrowsWheeler Aligner (version 0.7.15,  http://bio-bwa.sourceforge.net/).
+1: After the alignment, duplicate reads were marked using Picard (version 2.15.0,  http://picard.sourceforge.net/).
+2: Insertion/deletion (indel) realignment, base quality score recalibration, and variant calling were performed using Genome Analysis Tool Kit (GATK, version 3.8,  https://software.broadinstitute.org/gatk/) software.
+3: According to the GATK best-practices protocol, we merged individual gVCF files into a combined variant calling format (VCF) and ran variant filtering using variant quality score recalibration.
+4: Then, we selected PASS single-nucleotide variants (SNV) and further strictly controlled the quality of these SNVs to reach the following criteria: genotype quality >10.0 and approximate read depth >20.0.
+5: Finally, we used VCFtools ( http://vcftools.sourceforge.net/) software to convert VCF format file with high quality SNVs into PLINK format files for further analyses.
+6: All subsequent analyses in this study were performed only with biallelic SNVs.

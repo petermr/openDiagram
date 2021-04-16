@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">We next examined the 
+ <italic>HOXA</italic> cluster, one of four 
+ <italic>HOX</italic> gene clusters imposing regional identity along the anterior–posterior axis via the colinear expression of its members. We determined how 
+ <italic>HOXA</italic> gene expression patterns correlate with the accessible chromatin landscape. RNA sequencing determined expression levels of each member of the 
+ <italic>HOXA</italic> cluster in PSM, ES, MS and DS (Fig. 
+ <xref rid="Fig4" ref-type="fig">4a</xref>). Their expression reflects the organisation of the genes within the cluster: the more 3′ located genes have a more anterior expression boundary compared to the genes located more 5′, which are restricted more posteriorly. Accordingly, we find that 
+ <italic>HOXA1, HOXA2</italic>, 
+ <italic>HOXA3</italic>, 
+ <italic>HOXA4</italic>, 
+ <italic>HOXA5</italic> and 
+ <italic>HOXA6</italic> are all highly expressed across the length of the axis: in PSM, ES, MS and DS. A small decrease in 
+ <italic>HOXA7</italic> gene expression was detected in DS, with more pronounced decreases observed for 
+ <italic>HOXA9</italic>, 
+ <italic>HOXA10</italic>, 
+ <italic>HOXA11</italic> and 
+ <italic>HOXA13</italic>, which were also reduced progressively in MS and ES. The colinear pattern of gene expression correlated with differentially accessible chromatin within the 
+ <italic>HOXA</italic> cluster (Fig. 
+ <xref rid="Fig4" ref-type="fig">4b</xref>). Accessible chromatin regions were seen in PSM, ES, MS and DS near the promoter of 
+ <italic>HOXA1, HOXA2, HOXA3, HOXA4, HOXA5</italic> and 
+ <italic>HOXA6</italic>. However accessible chromatin for HOXA7 was reduced at the promoter in DS compared to PSM, ES and MS. For the more posteriorly restricted genes, 
+ <italic>HOXA9</italic>, 
+ <italic>HOXA10</italic>, 
+ <italic>HOXA11</italic> and 
+ <italic>HOXA1</italic>3 accessible chromatin peaks were reduced in ES, MS and DS compared to PSM, which correlated with their reduced expression. We demonstrate the same relationship between gene expression and chromatin accessibility along the anterior–posterior axis across the 
+ <italic>HOXB</italic>, 
+ <italic>HOXC</italic> and 
+ <italic>HOXD</italic> clusters (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">4a–f</xref>). In the 
+ <italic>HOXA</italic> cluster we identified footprints within accessible regions in intergenic regions. Notably, we identified footprints for TFs involved in patterning along the anterior–posterior axis, including footprints for CDX1/2, LEF1 and for members of the HOX clusters themselves, as well as for some of the TFs with enriched motifs in accessible regions such as RXRA, TFAP2B/C, SP1, SP2, ZIC1/3, FOXO1/4, ZNF263 (Figs. 
+ <xref rid="Fig2" ref-type="fig">2i–k</xref> and 
+ <xref rid="Fig4" ref-type="fig">4</xref>b). To investigate the impact of the dynamic changes in 
+ <italic>HOXA</italic> gene expression along the anterior–posterior axis, we next explored the number of TF footprints for HOXA2, HOXA5, HOXA10 and HOX11 in PSM and DS (Fig. 
+ <xref rid="Fig4" ref-type="fig">4c–f</xref>). We observed the same number of footprints for HOXA2 and HOXA5 when comparing PSM and DS, however, a significant decrease in coverage was detected for HOXA10 and HOXA11 footprints in anterior DS compared to PSM. This reveals a strong association between gene expression levels along the anterior–posterior axis and the genome-wide coverage of HOXA binding sites.
+</p>

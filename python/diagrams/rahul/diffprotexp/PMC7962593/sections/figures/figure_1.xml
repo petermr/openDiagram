@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0001" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 1</label>
+ <caption>
+  <p>Flowchart of this study. The following datasets were used for the identification of potential diagnostic genes and mechanisms associated with the development of sepsis: GSE13904 (children), GSE25504 (children), GSE9960 (adults) and GSE154918 (adults).</p>
+ </caption>
+ <graphic content-type="print-only" xlink:href="JIR-14-829-g0001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <attrib>
+  <bold>Abbreviations:</bold> AUC, area under the receiver operating characteristic curve; GSVA, gene set variation analysis; PPI, protein-protein interaction; STEM, short time-series expression miner; WGCNA, weighted gene coexpression network analysis.
+ </attrib>
+</fig>

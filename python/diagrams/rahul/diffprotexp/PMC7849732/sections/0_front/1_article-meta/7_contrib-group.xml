@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Temi</surname>
+   <given-names>Santa</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Rudyk</surname>
+   <given-names>Christopher</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Armstrong</surname>
+   <given-names>Jennifer</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Landrigan</surname>
+   <given-names>Jeffrey A.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Dedek</surname>
+   <given-names>Chris</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9661-5194</contrib-id>
+  <name>
+   <surname>Salmaso</surname>
+   <given-names>Natalina</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6845-8013</contrib-id>
+  <name>
+   <surname>Hildebrand</surname>
+   <given-names>Michael E.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>Department of Neuroscience, 
+  <institution-wrap>
+   <institution>Carleton University</institution>
+  </institution-wrap>, 
+  <city>Ottawa</city>, 
+  <country>Canada</country>
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>Neuroscience Program, 
+  <institution-wrap>
+   <institution>Ottawa Hospital Research Institute</institution>
+  </institution-wrap>, 
+  <city>Ottawa</city>, 
+  <state>ON</state>, 
+  <country>Canada</country>
+ </aff>
+</contrib-group>

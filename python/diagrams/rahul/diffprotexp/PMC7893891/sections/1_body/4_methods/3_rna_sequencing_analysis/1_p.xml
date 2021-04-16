@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par91">Extracted and DNase-treated RNA was quantified using the Qubit 4 Fluorometer (ThermoFisher) with the High Sensitivity RNA reagents and Bioanalyzer (Agilent) with RNA 6000 Pico reagents. Ribosomal depletion, DNA conversion, and library preparation was performed on all samples using the Illumina TruSeq Stranded Total RNA kit. 151 base pair reads were sequenced on the Illumina NextSeq. Across fifteen samples (three independent experiments x five time points) the total number of reads generated for each sample ranged from approximately 26 million to 40 million reads. Sequencing data was quality trimmed using FaQCs [
+ <xref ref-type="bibr" rid="CR56">56</xref>] with a quality score cutoff of Q20. Differential expression analysis was performed using PiReT [
+ <xref ref-type="bibr" rid="CR57">57</xref>] V 0.3.2 and utilizing DEseq2 [
+ <xref ref-type="bibr" rid="CR58">58</xref>] default parameters and setting a q-value of 0.05 (false discovery rate metric). The experimental design file (provided in the supplementary material) was used to dictate the replicate sample ID’s and sequencing data to be used in the PiReT analysis. Human genome version hg38 was used as the reference genome. KEGG [
+ <xref ref-type="bibr" rid="CR59">59</xref>, 
+ <xref ref-type="bibr" rid="CR60">60</xref>] pathway mapping was performed using Omics Pathway Viewer - ‘OPaver’ (Li, unpublished). Raw RNA-Seq reads were deposited in the NCBI SRA database under the accession numbers SRR11994167- SRR11994181. Metadata for each sample are also accessible under NCBI BioProject PRJNA638768.
+</p>

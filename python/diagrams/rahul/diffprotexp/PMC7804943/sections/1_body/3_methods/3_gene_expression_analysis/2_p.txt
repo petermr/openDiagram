@@ -1,0 +1,2 @@
+0: For downstream analysis, variance-stabilized read counts were computed using the DESeq2 function varianceStabilizingTransformation() 37.
+1: After removing genes with a median read count of<5, the top 5000 most variably expressed genes based on standard deviation were retained for downstream analysis.

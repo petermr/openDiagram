@@ -1,0 +1,16 @@
+0: To investigate the changes in gene expression in NDVs, NDHs, and NVs, nine DGE profiling libraries were constructed using RNA samples of NDV1, NDV2, NDV3, NDH1, NDH2, NDH3, NV1, NV2, and NV3.
+1: RNA pretreatment was performed before sequencing, including rRNA depletion, RNA fragmentation, cDNA synthesis, end repair, A-tailing, adapter ligation, and PCR ( S1 File).
+2: rRNA depletion was performed using the Ribo-Zero Magnetic Kit for bacteria (Epicentre Biotechnologies, Madison, WI, USA).
+3: The samples were then cleaned using RNAclean XP beads (Beckman Coulter, Brea, CA, USA).
+4: The RNA was fragmented into 130170 nt by adding fragmentation buffer (Ambion, Austin, TX, USA) to the samples and incubating the samples at 70C.
+5: The samples were purified again with RNAclean XP beads.
+6: Purified RNA was used for cDNA synthesis.
+7: First-strand cDNA was synthesized using First Strand Master Mix and Super Script II reverse transcriptase (Invitrogen, Carlsbad, CA, USA).
+8: The mixture was incubated at 42C for 50 min followed by inactivation at 70C for 15 min.
+9: Using second-strand Master mix, second-strand cDNA was synthesized.
+10: Before PCR, end repair and poly-A tail addition was performed using End Pair Repair Mix and A-tailing mix simultaneously.
+11: RNA index adapters were added to the adenylated 3 end of the DNA using T4 DNA ligase.
+12: This DNA sample was used for PCR amplification, which was performed using PCR Master Mix and a PCR primer cocktail, for several rounds.
+13: The library was validated using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, CA, USA) to determine the average molecular length.
+14: The profiling libraries were sequenced on a HiSeq 4000 system (Illumina, San Diego, CA, USA) at Shanghai Personal Biotechnology Co., Ltd. (Shanghai, China).
+15: The raw transcriptome data were deposited into the NCBI sequence read archive under accession number SAMN12877542-12877550.

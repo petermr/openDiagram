@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tII-etm-0-0-09783" orientation="portrait" position="float">
+ <label>Table II</label>
+ <caption>
+  <p>Details of the top 10 downregulated and upregulated mRNAs in the T1-T4 spinal cord between MIRI and sham groups.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" valign="middle" colspan="5" rowspan="1">A, Downregulation</th>
+   </tr>
+   <tr>
+    <th align="left" valign="middle" rowspan="1" colspan="1">ID</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Log
+     <sub>2</sub>FC (MIRI/sham)
+    </th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Symbol</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">P-value</th>
+    <th align="center" valign="middle" rowspan="1" colspan="1">Description</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000019404</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-12.0846</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Frs3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.50x10
+     <sup>-20</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Fibroblast growth factor receptor substrate 3</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000000595</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-11.2761</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Zfp523</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.51x10
+     <sup>-14</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Zinc finger protein 523</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000089056</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-10.8893</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Tpm4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.001717</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Tropomyosin 4</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000010289</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-10.5635</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Apold1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.1610
+     <sup>-9</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Apolipoprotein L domain containing 1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000079085</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-10.1716</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Ctnnb1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.32x10
+     <sup>-5</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Catenin beta 1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000081903</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-9.81911</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Lss</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.013918</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Lanosterol synthase (2,3-oxido squalene-lanos terol cyclase)</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000091715</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-9.75933</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Psen2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.000372</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Presenilin 2</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000086539</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-9.30682</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Dnajc6</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.25x10
+     <sup>-5</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">DnaJ heat shock protein family (Hsp40) member C6</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000083363</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-9.15482</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Nedd4l</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.005334</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Neural precursor cell expressed, developmentally down-regulated 4-like, E3 ubiquitin protein ligase</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000088981</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">-8.70275</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Tep1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.001598</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Telomerase associated protein 1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" colspan="5" rowspan="1">B, Upregulation</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ID</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Log
+     <sub>2</sub>FC (MIRI/sham)
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Symbol</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">P-value</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Description</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000087192</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12.22179</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Tfdp1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.42x10
+     <sup>-8</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Transcription factor Dp-1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000045766</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">11.86754</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Map2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.07x10
+     <sup>-5</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Microtubule-associated protein 2</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000037795</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">11.22882</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Cep19</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.22x10
+     <sup>-5</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Centrosomal protein 19</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000025531</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">11.16113</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Aurkaip1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.000724</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Aurora kinase A interacting protein 1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000014326</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">10.76763</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Tpbg</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.000962</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Trophoblast glycoprotein</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000081533</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">10.69407</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Myef2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.98x10
+     <sup>-9</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Myelin expression factor 2</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000088821</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">10.64386</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Ap2m1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.004070</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Adaptor-related protein complex 2, mu 1 subunit</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000081090</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.813781</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Tgfbr1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.005577</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Transforming growth factor, beta receptor 1</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000071586</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.781360</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Fgf12</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.004286</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Fibroblast growth factor 12</td>
+   </tr>
+   <tr>
+    <td align="left" valign="middle" rowspan="1" colspan="1">ENSRNOT00000076230</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.748193</td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Mef2c</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.98x10
+     <sup>-5</sup>
+    </td>
+    <td align="left" valign="middle" rowspan="1" colspan="1">Myocyte enhancer factor 2C</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>FC, fold change; T, thoracic; MIRI, Myocardial ischemia-reperfusion injury.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

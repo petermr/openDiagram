@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f3" position="float">
+ <label>Figure 3</label>
+ <caption>
+  <p>Analysis of genes affecting the TME and their associated GO and KEGG enrichment. 
+   <bold>(A, B)</bold> Venn plots showing 260 up-regulated DEGs and 15 down-regulated DEGs shared by ImmuneScore and StromalScore (thresholds for differential gene expression set at an FDR adjusted 
+   <italic>P</italic>-value &lt;0.05 and log2FC&gt;1). 
+   <bold>(C, D)</bold> GO enrichment analysis for 275 microenvironmentally relevant DEGs, the statistical threshold set at 
+   <italic>P</italic>-value &lt; 0.05 with an FDR adjusted 
+   <italic>P</italic>-value &lt; 0.05. 
+   <bold>(E, F)</bold> KEGG enrichment analysis for 275 microenvironmentally relevant DEGs, the statistical threshold set at 
+   <italic>P</italic> value &lt; 0.05 with an FDR adjusted 
+   <italic>P</italic>-value &lt; 0.05.
+  </p>
+ </caption>
+ <graphic xlink:href="fonc-11-618187-g003" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

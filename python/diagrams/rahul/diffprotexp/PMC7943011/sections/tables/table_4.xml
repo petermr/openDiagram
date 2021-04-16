@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone.0248103.t004" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0248103.t004</object-id>
+ <label>Table 4</label>
+ <caption>
+  <title>Pathway analysis for differentially expressed proteins that were affected by hyperinsulinemia compared to untreated HEC-1A control cells.</title>
+ </caption>
+ <alternatives>
+  <graphic id="pone.0248103.t004g" xlink:href="pone.0248103.t004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="justify" rowspan="1" colspan="1">Identifier</th>
+     <th align="justify" rowspan="1" colspan="1">Description</th>
+     <th align="justify" rowspan="1" colspan="1">Counts</th>
+     <th align="justify" rowspan="1" colspan="1">
+      <italic>p</italic> value
+     </th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="left" colspan="4" rowspan="1">
+      <bold>Cellular Component</bold>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0005615</td>
+     <td align="left" rowspan="1" colspan="1">extracellular space</td>
+     <td align="center" rowspan="1" colspan="1">25</td>
+     <td align="center" rowspan="1" colspan="1">1.96×10
+      <sup>−18</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0005576</td>
+     <td align="left" rowspan="1" colspan="1">extracellular region</td>
+     <td align="center" rowspan="1" colspan="1">20</td>
+     <td align="center" rowspan="1" colspan="1">5.88×10
+      <sup>−11</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0070062</td>
+     <td align="left" rowspan="1" colspan="1">extracellular exosome</td>
+     <td align="center" rowspan="1" colspan="1">16</td>
+     <td align="center" rowspan="1" colspan="1">2.88×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0005887</td>
+     <td align="left" rowspan="1" colspan="1">integral component of plasma membrane</td>
+     <td align="center" rowspan="1" colspan="1">11</td>
+     <td align="center" rowspan="1" colspan="1">4.86×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0048471</td>
+     <td align="left" rowspan="1" colspan="1">perinuclear region of cytoplasm</td>
+     <td align="center" rowspan="1" colspan="1">9</td>
+     <td align="center" rowspan="1" colspan="1">3.44×10
+      <sup>−5</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0005768</td>
+     <td align="left" rowspan="1" colspan="1">Endosome</td>
+     <td align="center" rowspan="1" colspan="1">8</td>
+     <td align="center" rowspan="1" colspan="1">3.63×10
+      <sup>−7</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0009986</td>
+     <td align="left" rowspan="1" colspan="1">cell surface</td>
+     <td align="center" rowspan="1" colspan="1">7</td>
+     <td align="center" rowspan="1" colspan="1">8.27×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0009897</td>
+     <td align="left" rowspan="1" colspan="1">external side of plasma membrane</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+     <td align="center" rowspan="1" colspan="1">7.63×10
+      <sup>−5</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0016323</td>
+     <td align="left" rowspan="1" colspan="1">basolateral plasma membrane</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">5.23×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0045121</td>
+     <td align="left" rowspan="1" colspan="1">membrane raft</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">8.66×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" colspan="4" rowspan="1">
+      <bold>Molecular Function</bold>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0005515</td>
+     <td align="left" rowspan="1" colspan="1">protein binding</td>
+     <td align="center" rowspan="1" colspan="1">30</td>
+     <td align="center" rowspan="1" colspan="1">3.77×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0008083</td>
+     <td align="left" rowspan="1" colspan="1">growth factor activity</td>
+     <td align="center" rowspan="1" colspan="1">8</td>
+     <td align="center" rowspan="1" colspan="1">4.35×10
+      <sup>−8</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0005125</td>
+     <td align="left" rowspan="1" colspan="1">cytokine activity</td>
+     <td align="center" rowspan="1" colspan="1">7</td>
+     <td align="center" rowspan="1" colspan="1">1.77×10
+      <sup>−6</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0005088</td>
+     <td align="left" rowspan="1" colspan="1">Ras guanyl-nucleotide exchange factor activity</td>
+     <td align="center" rowspan="1" colspan="1">6</td>
+     <td align="center" rowspan="1" colspan="1">4.28×10
+      <sup>−6</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0005178</td>
+     <td align="left" rowspan="1" colspan="1">protein tyrosine kinase activity</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">1.78×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" colspan="4" rowspan="1">
+      <bold>Biological Process</bold>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0008284</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of cell proliferation</td>
+     <td align="center" rowspan="1" colspan="1">11</td>
+     <td align="center" rowspan="1" colspan="1">5.79×10
+      <sup>−8</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0007165</td>
+     <td align="left" rowspan="1" colspan="1">signal transduction</td>
+     <td align="center" rowspan="1" colspan="1">11</td>
+     <td align="center" rowspan="1" colspan="1">1.90×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0030335</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of cell migration</td>
+     <td align="center" rowspan="1" colspan="1">7</td>
+     <td align="center" rowspan="1" colspan="1">3.29×10
+      <sup>−6</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0000165</td>
+     <td align="left" rowspan="1" colspan="1">MAPK cascade</td>
+     <td align="center" rowspan="1" colspan="1">7</td>
+     <td align="center" rowspan="1" colspan="1">2.47×10
+      <sup>−5</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0006955</td>
+     <td align="left" rowspan="1" colspan="1">immune response</td>
+     <td align="center" rowspan="1" colspan="1">7</td>
+     <td align="center" rowspan="1" colspan="1">3.35×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0007155</td>
+     <td align="left" rowspan="1" colspan="1">cell adhesion</td>
+     <td align="center" rowspan="1" colspan="1">7</td>
+     <td align="center" rowspan="1" colspan="1">5.30×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0030890</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of B cell proliferation</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">1.73×10
+      <sup>−6</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0048015</td>
+     <td align="left" rowspan="1" colspan="1">phosphatidylinositol (PI)-mediated signaling</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">9.39×10
+      <sup>−5</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0045766</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of angiogenesis</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">1.29×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0001934</td>
+     <td align="left" rowspan="1" colspan="1">positive regulation of protein phosphorylation</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">1.89×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">GO:0018108</td>
+     <td align="left" rowspan="1" colspan="1">peptidyl-tyrosine phosphorylation</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">3.84×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" colspan="4" rowspan="1">
+      <bold>KEGG Pathway</bold>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">hsa04151</td>
+     <td align="left" rowspan="1" colspan="1">PI3K/AKT signaling pathway</td>
+     <td align="center" rowspan="1" colspan="1">9</td>
+     <td align="center" rowspan="1" colspan="1">2.60×10
+      <sup>−5</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">hsa05205</td>
+     <td align="left" rowspan="1" colspan="1">proteoglycans in cancer</td>
+     <td align="center" rowspan="1" colspan="1">8</td>
+     <td align="center" rowspan="1" colspan="1">6.50×10
+      <sup>−6</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">hsa04510</td>
+     <td align="left" rowspan="1" colspan="1">focal adhesion</td>
+     <td align="center" rowspan="1" colspan="1">7</td>
+     <td align="center" rowspan="1" colspan="1">9.35×10
+      <sup>−5</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">hsa04640</td>
+     <td align="left" rowspan="1" colspan="1">hematopoietic cell lineage</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">2.89×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">hsa04066</td>
+     <td align="left" rowspan="1" colspan="1">HIF1 signaling</td>
+     <td align="center" rowspan="1" colspan="1">5</td>
+     <td align="center" rowspan="1" colspan="1">4.21×10
+      <sup>−4</sup>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+ <table-wrap-foot>
+  <fn id="t004fn001">
+   <p>The DAVID database was used for pathway analysis and GO and KEGG pathway identifiers are shown for protein counts ≥ 10% (insulin vs. control: ≥ 4 counts) of the total number of 40 analyzed proteins with 
+    <italic>p</italic> values ≤ 0.001 (from DAVID analysis).
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

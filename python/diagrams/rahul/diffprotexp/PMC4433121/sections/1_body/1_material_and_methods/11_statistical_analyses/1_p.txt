@@ -1,0 +1,12 @@
+0: Statistical analyses were performed using the data analysis software system Statistica v12 (StatSoft Scandinavia AB, Sweden).
+1: To compare findings in the studied groups we used parametric and non-parametric univariate tests (Students t-test, Mann-Whitney U Test).
+2: Receiver operating characteristics (ROC) curve test was performed to determine optimal cut-off values for target proteins by analyses of area under ROC curve (AUC), sensitivity and specificity, positive predictive value (PPV), negative predictive value (NPV), positive likelihood ratio (PLR), negative likelihood (NLR); diagnostic odds ratio (DOR) was calculated as suggested by Glas  et al.
+3: [ 28].
+4: The software SIMCA (SIMCA-P+ 12.0, Umetrics, Sweden) was used for multivariate statistics and modeling.
+5: The multivariate analysis was performed on mean centered, unit variance scaled data, assuming equal importance of each protein.
+6: Orthogonal partial least squares (OPLS) were used to build classification models.
+7: Variable Importance in projection value (VIP) was used for optimization of OPLS models and for evaluation of protein importance.
+8: The OPLS models were validated by sevenfold cross validation.
+9: Proteins with significant VIP throughout the cross validation of the model were selected for the optimized model.
+10: CV-ANOVA was used to judge the model validity.
+11: Results with p-values<0.05 were considered as statistically significant.

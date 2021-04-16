@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig6">
+ <label>Figure 6</label>
+ <caption>
+  <p>Potential mechanisms of dysfunction of inter-organ metabolic cycles of glucose-alanine and glucose-lactate and their dysregulation in trans-omic network in liver and skeletal muscle of 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice
+  </p>
+  <p>(A and B) The trans-omic subnetwork for differentially regulated metabolic reactions in glycolysis/gluconeogenesis in the liver (A) and skeletal muscle (B). The information for glycolysis/gluconeogenesis were obtained from “glycolysis/gluconeogenesis” (mmu00010) in the KEGG database, respectively (
+   <xref rid="bib27" ref-type="bibr">Kanehisa et al., 2017</xref>). The colors of the frames indicate differentially expressed molecules increased in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice (red) and those decreased in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice (blue). The significance of differences was tested by two-tailed Welch's t test for each measured protein and polar metabolite and by the edgeR package with default parameters for each measured gene (see also 
+   <xref rid="mmc1" ref-type="supplementary-material">transparent methods</xref>). Differentially expressed molecules were molecules with a q value less than 0.1 and were classified as increased or decreased differentially expressed molecules. The q values were calculated by Storey's procedure for gene expression, protein expression, and polar metabolite. The dashed black frames showed molecules that were not differentially expressed molecules or undetected molecules in the indicated organ. Diamond nodes indicate metabolic reactions. The inter-layered red and blue edges indicate differential regulations: activating regulation in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice (red) and inhibiting regulation in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice (blue). We classified the differential regulations as either activating or inhibiting the downstream molecules in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice by combining the direction of changes of regulating differentially expressed molecules (increased or decreased) and the direction of regulation (activation or inhibition). When the regulation between regulating upstream differentially expressed molecules and regulated downstream differentially expressed molecules is consistent, these regulations are displayed in the network as differential regulations. From Metabolite to Metabolic reaction, only allosteric regulations are colored. Black edges indicate the relationship between metabolic reactions and its substrate/product. The reversibility of metabolic reactions was obtained from the KEGG database. See also 
+   <xref rid="mmc1" ref-type="supplementary-material">Figures S12</xref>A and S12B.
+  </p>
+  <p>(C) A summarized diagram of glucose-alanine (yellow highlighted) and glucose-lactate (light blue highlighted) cycles between liver and skeletal muscle via the blood of WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice. The black edges represent the flow of metabolites. Green frames represent the regulation of the expression of indicated metabolic enzymes or transporters in the liver and skeletal muscle. The dotted arrows in the green frames are differential regulations in each organ. Red and blue frames indicate the increased differentially expressed molecules in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice (red) and the decreased those in 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice (blue), respectively. Molecules with gray frames did not show the significant differences between WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice. The significance of the differences in indicated molecules was determined in the same statistical methods described in 
+   <xref rid="fig6" ref-type="fig">Figures 6</xref>A and 6B. Bar plots of measured molecules in WT and 
+   <italic>ob</italic>/
+   <italic>ob</italic> mice are shown for corresponding nodes as the means and standard error of the means (SEMs) of mice replicate (number indicated in 
+   <xref rid="mmc1" ref-type="supplementary-material">transparent methods</xref>).
+  </p>
+ </caption>
+ <graphic xlink:href="gr6" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

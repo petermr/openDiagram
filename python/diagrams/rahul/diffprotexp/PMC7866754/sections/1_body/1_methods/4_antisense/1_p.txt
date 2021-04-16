@@ -1,0 +1,4 @@
+0: The first step to identify antisense peptides was to identify antisense transcripts from the pool of potentially novel MSTRG transcripts.
+1: Firstly, all the assembled transcripts were compared with reference transcripts using BEDtools intersect [ 47], using parameters that only return transcript that is on the complementary strand of the reference transcript that it overlaps with.
+2: Peptides that are matched to these antisense transcripts are then compared with the protein sequences from six frame translation using Transeq [ 49] to see which frame it originated from.
+3: Only peptides that are translated from frame 4 to 6 are considered translation evidence for antisense transcripts, because it could be degenerate peptides from reference genes due to six frame translation.

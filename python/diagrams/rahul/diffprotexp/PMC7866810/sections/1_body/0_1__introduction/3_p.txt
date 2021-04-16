@@ -1,0 +1,14 @@
+0: Hence, we developed DIscBIO (DIscovery of single-cell transcriptomics BIOmarkers).
+1: DIscBIO is an open-source, multi-algorithmic pipeline that provides an opportunity to analyze scRNA-seq data for any organism with a taxonomy ID.
+2: It allows biomarker discovery using decision trees and gene enrichment analysis in a network context from single-cell sequencing read counts through clustering and differential analysis.
+3: DIscBIO is implemented as an R package [ 34] published on the Comprehensive R Archive Network (CRAN).
+4: It can be run either in command-line mode or through a computational pipeline using Jupyter notebooks [ 35].
+5: DIscBIO allows users to conveniently construct, analyze, visualize and tune scRNA-seq data interactively.
+6: DIscBIO notebooks integrate R code with explanatory text and output data and images in a sequential narrative.
+7: The notebooks allow R users to understand the different steps of the pipeline and learn how to apply it to analyze their own data.
+8: Importantly, they do not need to worry about the non-trivial task of connecting the different packages.
+9: However, in order to do meaningful analyses, they still need to understand the implemented methods, their possible options or parameters and their limitations.
+10: We believe that users with some programing skills will be able to tune individual parameters while more experienced programmers can fully edit and extend the pipeline to their needs.
+11: We also provide a cloud version using Binder [ 36] that allows users with very limited programming skills to run the pipeline even without installing the programming language R, Jupyter, or any of the software that the pipeline integrates.
+12: In order to produce the cloud-hosted Binder version, the repository includes a specification of all the software used, which enables automatic or manual reproduction or modification of the necessary computational environment needed to execute the pipeline on any computational resources [ 36].
+13: DIscBIO facilitates the creation of publication-ready plots for researchers with all levels of programming proficiency.

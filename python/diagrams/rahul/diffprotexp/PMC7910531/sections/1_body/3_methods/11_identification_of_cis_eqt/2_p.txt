@@ -1,0 +1,12 @@
+0: For each tissue, we included only genes with 1 count per million in at least 20% samples and we normalised between samples using TMM (weighted trimmed mean of  M values) 48 implemented in edgeR 49.
+1: To facilitate cartilage comparisons post-analysis, the previous two steps (exclusions of low expressed genes and the between sample normalisation) were performed with high-grade and low-grade cartilage samples combined.
+2: For each tissue separately, we then normalised across samples using an inverse normalisation transformation for each gene.
+3: To infer hidden factors associated with cohort, sequencing batch, or other technical differences, we applied probabilistic estimation of expression residuals (PEER) 50 separately to each tissue (PEER C + + version with standard parameters from the R version, i.e.
+4: iteration = 1000, bound = 0.001, variance = 0.00001, Alpha a = 0.001, Alpha b = 0.1, Eps a = 0.1, Eps b = 10).
+5: We used the GTEx modified version of FastQTL 51 ( https://github.com/francois-a/fastqtl; v6p), which allows for minor allele count filtering, reporting of MAF and calculation of FDR.
+6: We determined the TSS for each gene using empirical transcript level expression information from synovium, high-grade and low-grade cartilage samples (see below) and defined the  cis-mapping region to be 1 Mb in either direction from the TSS.
+7: We restricted the analysis to variants with minor allele count of at least 10 in a given tissue.
+8: Nominal  p values for each gene-variant pair were based on linear regression, including 15 PEER factors for the given tissue, sex and genotype array as covariates.
+9: We then employed the adaptive permutation scheme with thepermute 1000 10000 option to generate empirical  p values.
+10: Genes with significant eQTLs ('eGenes') were defined at the 5% StoreyTibshirani FDR using the  q values generated from the empirical  p values 52.
+11: For each eGene, significant eQTLs were defined as variants with nominal  p value below the nominal  p value threshold for that gene generated in FastQTL.

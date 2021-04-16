@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The pipeline used to analyze RNASeq data was followed as described previously [
+ <xref rid="pone.0244364.ref045" ref-type="bibr">45</xref>]. In summary, the quality of obtained raw data was checked by FastQC v0.11.5 [
+ <xref rid="pone.0244364.ref046" ref-type="bibr">46</xref>]. Adapters, low quality reads, and sequences shorter than 30 nucleotides were trimmed by Trimmomatic v0.38 [
+ <xref rid="pone.0244364.ref047" ref-type="bibr">47</xref>]. High quality clean reads were mapped to 
+ <italic>C</italic>. 
+ <italic>quinoa</italic> reference transcripts by Salmon v0.12.0 [
+ <xref rid="pone.0244364.ref048" ref-type="bibr">48</xref>] to obtain normalized transcripts per kilobase mapped million reads (TPM) values. Normalized transcript-level read counts were transformed to gene-level abundance in order to use in differential gene expression R package, DESeq2 [
+ <xref rid="pone.0244364.ref049" ref-type="bibr">49</xref>]. The DEGs were determined in two modes: 1) with a full design model (time×variety×treatment) where DEGs were determined across quinoa varieties (‘Jessie’ as reference level) in time-series inoculation (1 dpi as reference level) between CMV-inoculated and mock-inoculated samples, and 2) individual variety with a time-specific treatment design (time+treatment+time:treatment), where DEGs were identified in each variety in time-series inoculation (4 dpi vs 1 dpi) between CMV-inoculated and mock-inoculated samples. The DEGs with adjusted 
+ <italic>p</italic>-value ≤ 0.05 were considered significant. To identify Gene Ontology (GO) annotation and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways of DEGs, KOBAS v3.0 [
+ <xref rid="pone.0244364.ref050" ref-type="bibr">50</xref>] was used. Significant enriched GO terms and KEGG pathways were chosen based on the corrected 
+ <italic>p</italic>-value ≤ 0.05 obtained through Benjamini and Hochberg’s method for controlling false discovery rate (FDR).
+</p>

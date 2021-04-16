@@ -1,0 +1,12 @@
+0: Genotypes were called using GenCall (Illumina) and mapped to GRC37/hg19 using online tools ( http://www.well.ox.ac.uk/~wrayner/strand/index.html).
+1: QC was carried out using the same method for both arrays.
+2: Briefly, we performed a pre-filtering step to exclude samples and variants with a call rate<90%.
+3: Sample QC included identity checks correlating the array genotypes to Fluidigm genotypes obtained at sample reception (no samples had a concordance<0.95).
+4: We excluded samples based on call rate<98%, heterozygosity distribution outliers performed using two different minor allele frequency (MAF) bins (1% MAF and<1% MAF) and sex discrepancies.
+5: We performed pairwise identity by descent (IBD) in PLINK 42,  43 after filtering out variants with MAF < 1% and carrying out linkage disequilibrium based pruning using R 2 0.2.
+6: We retained only patients with pairwise PI_HAT  0.2.
+7: To look at ethnicity we combined all patients from both arrays with data from the 1000 Genomes Project individuals ( https://www.internationalgenome.org) 44.
+8: We included overlapping variants only and conducting IBD, as described above, followed by multidimensional scaling using PLINK.
+9: Visual ethnic outliers were excluded following examination of the first two components.
+10: Variants were excluded if call rate<98% and/or HardyWeinberg  p value (pHWE)<1  10 4.
+11: The final datasets contained 12 patients and 534,694 variants and 99 patients and 527,717 variants for cohorts 1 and 24, respectively.

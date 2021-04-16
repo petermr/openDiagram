@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Two-step RT-qPCR was used to quantitatively validate gene expression. Total RNA from whole blood was converted into cDNA using the iScript
+ <sup>TM</sup> cDNA Synthesis Kit (Bio-Rad). The amplification was performed in duplicate in a total volume of 10 μl containing 5 μl of iTaq Universal SYBR Green (Bio-Rad), 2 μl of 4 ng cDNA, 0.4 μl of 10 mM forward primer, 0.4 μl of 10 mM reverse primer, 2.2 μl of distilled water. The cycle conditions were as follows: 1 cycle of 95°C for 30s followed by 40 cycles of 95°C for 10s and 60°C for 30s. After amplification, melting curve analysis was carried out from 65°C to 95°C. Primers were designed using NCBI PrimerBlast (
+ <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/tools/primer-blast/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/tools/primer-blast/</ext-link>). All primer pairs are listed in Supplementary Table 1. Peptidylprolyl isomerase A (
+ <italic>PPIA</italic>), Human large ribosomal protein P0 (
+ <italic>RPLP0</italic>), and Tata-box binding protein (
+ <italic>TBP</italic>) were used as reference genes for calculating the relative expression levels of other genes [
+ <xref rid="CIT0016" ref-type="bibr">16</xref>] The expression levels were calculated by using the 2
+ <sup>−ΔCt</sup> method, where ΔCt = mean Ct of target gene – mean Ct of the three reference genes.
+</p>

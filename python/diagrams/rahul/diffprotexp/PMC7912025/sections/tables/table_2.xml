@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="viruses-13-00218-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">viruses-13-00218-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Characterization of transcripts based on splice junctions. Abbreviations: FSM, full splice match; ISM, incomplete splice match; NIC, novel in catalog; NNC, novel not in catalog.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Category</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Isoform (No.)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">FSM</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">28,561</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">ISM</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">35,495</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">NIC</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">14,972</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">NNC</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">28,166</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

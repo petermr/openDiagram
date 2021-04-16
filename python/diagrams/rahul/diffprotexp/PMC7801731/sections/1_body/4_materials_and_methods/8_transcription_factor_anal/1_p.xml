@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40">Sequences annotated as transcription factors (TFs) were selected among the 150 most and least expressed genes from the expression analysis by individual extraction based on their annotation name. A heatmap was generated with the gplots
+ <sup>
+  <xref ref-type="bibr" rid="CR91">91</xref>
+ </sup> package using the TF that had an absolute Log2FC value higher than 1. Transcription factors were clustered along with annotated genes from the differential expression analysis using dist function to calculate the distance from each gene and hclust function for clustering from statsv3.6.0
+ <sup>
+  <xref ref-type="bibr" rid="CR92">92</xref>
+ </sup> (see supplementary Table 
+ <xref rid="MOESM2" ref-type="media">S18</xref> online). Clusters of genes were subjected to a functional analysis using the DAVID database
+ <sup>
+  <xref ref-type="bibr" rid="CR88">88</xref>
+ </sup>.
+</p>

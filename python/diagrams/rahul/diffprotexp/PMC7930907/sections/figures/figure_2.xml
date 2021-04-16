@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F2" position="float">
+ <label>FIGURE 2</label>
+ <caption>
+  <p>Functional annotation of downregulated DEGs among SASCs, EASCs, and PASCs. 
+   <bold>(A)</bold> The gene content is aligned between EASCs vs. SASCs with PASCs vs. SASCs. The intersection set of experiments is defined as “common” and marked as a blue/white striped bar. The unique genes for the experiments are marked as colored bars. 
+   <bold>(B)</bold> Top 10 pathway map analysis (left panel), Gene Ontology (GO) process analysis (middle panel), and process networks (right panel) analysis sorting as differentially affected for different sets of DEGs. Star filling with different color represent the significant enrichment. 
+   <bold>(C)</bold> Top scored networks analysis of common downregulated DEGs. 
+   <bold>(D)</bold> Top scored networks analysis of unique downregulated DEGs in PASCs. 
+   <bold>(E)</bold> Top scored networks analysis of unique downregulated DEGs in EASCs.
+  </p>
+ </caption>
+ <graphic xlink:href="fgene-12-627347-g002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

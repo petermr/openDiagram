@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ref id="CR21">
+ <label>21.</label>
+ <element-citation publication-type="journal">
+  <person-group person-group-type="author">
+   <name>
+    <surname>Pertea</surname>
+    <given-names>M</given-names>
+   </name>
+   <name>
+    <surname>Kim</surname>
+    <given-names>D</given-names>
+   </name>
+   <name>
+    <surname>Pertea</surname>
+    <given-names>GM</given-names>
+   </name>
+   <name>
+    <surname>Leek</surname>
+    <given-names>JT</given-names>
+   </name>
+   <name>
+    <surname>Salzberg</surname>
+    <given-names>SL</given-names>
+   </name>
+  </person-group>
+  <article-title>Transcript-level expression analysis of RNA-seq experiments with HISAT StringTie and Ballgown</article-title>
+  <source>Nat. Protoc.</source>
+  <year>2016</year>
+  <pub-id pub-id-type="doi">10.1038/nprot.2016.095</pub-id>
+  <?supplied-pmid 27560171?>
+  <pub-id pub-id-type="pmid">27560171</pub-id>
+ </element-citation>
+</ref>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">To identify transcripts exhibiting differential distribution in the cytosolic and nuclear fractions, we first analyzed protein-coding transcripts across all tissues. In total, we identified 5109 transcripts that were significantly more abundant in the cytosol and 5397 transcripts significantly more abundant in the nucleus (
+ <italic>P</italic>
+ <sub>
+  <italic>adj.</italic>
+ </sub> &lt; 0.05, Supplementary Table 2, Supplementary Fig. 
+ <xref rid="MOESM3" ref-type="media">2</xref>A). The differentially distributed transcripts for each individual tissue are listed in Supplementary Table 3. A separate analysis grouped by tissue type and age showed more significant transcripts in both cytosol and nucleus in the adult samples, reflecting that the adult tissues represented a larger sample group with less inter-individual heterogeneity compared with the fetal tissues (Data not shown). To evaluate the potential contribution of nascent RNA to transcripts localized to the nucleus, we performed a similar analysis using polyA + RNA-seq data from the cytosol and nucleus from the Encode cell lines. We observed similar subcellular distribution patterns of transcript abundance seen in our brain cytosolic and nuclear total RNA-seq data (Supplementary Fig. 
+ <xref rid="MOESM3" ref-type="media">2</xref>B–D). This indicates that nascent RNA does not fully explain the transcript localization observed in the nuclear fraction. Next, we performed gene ontology (GO) enrichment analysis of genes that were significantly more abundant in cytosol and nucleus across all tissues. We found transcripts representing specific biological processes to be enriched (
+ <italic>P</italic>
+ <sub>
+  <italic>adj</italic>
+ </sub> &lt; 0.05). In cytosol, there was significant enrichment of transcripts involved in metabolic and catabolic processes, translation processes, macromolecular and protein complex organization and disassembly, and in the nervous system and neural projection development. Significant GO categories for cellular compartment showed that the biological processes associated with cytosolic transcripts can be primarily linked to the extracellular organelles, vesicles, and ribosomes. Whereas in the nucleus, there were fewer transcripts in a particular ontology and a small number of significant GO categories in general. Significant categories include regulation of transcription, sensory processes, and regulation of various biosynthetic processes (See Supplementary Table 4 for enriched GO categories).
+</p>

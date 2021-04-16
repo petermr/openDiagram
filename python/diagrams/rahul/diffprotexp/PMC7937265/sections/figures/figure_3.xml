@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <p>Protein-protein interaction (PPI) network analysis in the hypothalamus. 
+   <bold>a</bold> PPI network of differentially expressed genes; hub genes are shown in bold with their closest neighbors (inset depicts the full network). 
+   <bold>b</bold> PPI subnetwork and significant Gene Ontology (GO) processes. Node size represents number of degrees, triangular nodes indicate a potential hub gene, and color represents log
+   <sub>2</sub> fold change (logFC) (red, up-regulated; blue, down-regulated). Node border color, when present, indicates differential methylation (blue, lower methylation)
+  </p>
+ </caption>
+ <graphic xlink:href="12864_2021_7466_Fig3_HTML" id="MO3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

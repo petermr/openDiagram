@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig9">
+ <label>Fig. 9</label>
+ <caption>
+  <p>Risk score analysis based on the eight hub RBPs in the TCGA test dataset. 
+   <bold>a</bold> Survival analysis of the low- and high-risk subgroups. 
+   <bold>b</bold> The calibration curve of the nomogram to predict the probability of overall survival at 1, 2, and 3 years for BLCA patients in the TCGA test dataset. The x- and y-axes represent the predicted and actual overall survival, respectively. 
+   <bold>c</bold> ROC curve assessment of the prognostic ability of the risk score model. 
+   <bold>d</bold> Heatmap of the expression profiles of the eight hub RBPSs. 
+   <bold>e</bold> Survival statuses of BLCA patients with different risk scores
+  </p>
+ </caption>
+ <graphic xlink:href="12885_2021_7930_Fig9_HTML" id="MO9" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

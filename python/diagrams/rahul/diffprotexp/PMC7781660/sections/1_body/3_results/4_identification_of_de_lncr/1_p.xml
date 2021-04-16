@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The changes in expression profiles of the lncRNAs in BVDV-infected MDBK cells were determined. The expression levels of the lncRNA transcripts were estimated using FPKM (fragments per kilo-base of exon per million fragments mapped), which was calculated using Cufflink software. The differential expression analysis of the lncRNAs between groups was performed using edgeR software. According to the cutoff criteria (P &lt; 0.05 and |log2FC|&gt;1), a total of 156 significantly DE lncRNAs, including 72 up-regulated lncRNAs and 84 down-regulated lncRNAs upon stimulation with BVDV, were identified (
+ <xref ref-type="fig" rid="f0006">Figure 6</xref>). To explore the similarities and compare the relationships between the different libraries, the expression patterns of the DE lncRNAs were measured using systematic cluster analysis (Supplementary Figure S1b, Figure S2b, and Figure S4).
+</p>

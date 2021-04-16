@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig4">
+ <label>Fig. 4</label>
+ <caption>
+  <p>Effect of FOXO1 overexpression on FOXL2
+   <sup>C134W</sup> – modified genes. 
+   <bold>a</bold> Venn diagram showing the number of differential genes (DESeq, q &lt; 0.05) identified in FOXL2
+   <sup>C134W</sup> vs FOXL2
+   <sup>WT</sup> and FOXL2
+   <sup>C134W</sup> + FOXO1 vs FOXL2
+   <sup>WT</sup>. 
+   <bold>b</bold> Scatter plot of the effect sizes (log2-fold change) of DEGs between FOXL2
+   <sup>C134W</sup> and FOXL2
+   <sup>WT</sup>, with (y-axis) and without (x-axis) the addition of FOXO1. Genes that were differentially expressed also when adding FOXO1
+   <sup>3A</sup> are shown in black (n = 130), while genes that were differentially expressed only without FOXO1
+   <sup>3A</sup> addition are shown in purple (n = 587). The slope (ß) of the linear relationship between the two effect sizes is shown on top of the plot. 
+   <bold>c</bold> Venn diagram showing the number of differential genes (DESeq, q &lt; 0.05) identified in FOXL2
+   <sup>C134W</sup> vs FOXL2
+   <sup>WT</sup> and FOXL2
+   <sup>C134W</sup> + FOXO1 vs FOXL2
+   <sup>C134W</sup>. 
+   <bold>d</bold> Heatmap with gene clustering of the 39 DEGs in both FOXL2
+   <sup>C134W</sup> vs FOXL2
+   <sup>WT</sup> and FOXL2
+   <sup>C134W</sup> + FOXO1 vs FOXL2
+   <sup>C134W</sup> comparisons. For each gene, expression values were z-score normalized across samples. Genes are annotated for presence or absence of a FOXL2
+   <sup>C134W</sup> ChIP-seq binding site in TGFβ-treated HGrC1 (ChIP1) [
+   <xref ref-type="bibr" rid="CR37">37</xref>] and a FOXL2
+   <sup>C134W</sup> ChIP-seq binding site in a SVOG3e cell line (ChIP 2) [
+   <xref ref-type="bibr" rid="CR28">28</xref>]. 
+   <bold>e</bold> Metascape GO analysis of the 39 DEGs in both FOXL2
+   <sup>C134W</sup> vs FOXL2
+   <sup>WT</sup> and FOXL2
+   <sup>C134W</sup> + FOXO1 vs FOXL2
+   <sup>C134W</sup> comparisons. The red line indicates p-value cutoff for p &lt; 0.05. GO terms associated with expression of FOXL2 and/or SMAD3 were removed from the results (see Methods). 
+   <bold>f</bold> qPCR validation of the RNAseq expression data in FOXO1 modulated genes (BAZ2A, SMARCA4, COL4A2, and HSPG2). Graphs show fold change means ± s.e.m relative expression to FOXL
+   <sup>WT</sup> following normalization to the housekeeping gene. Data were analyzed using the two-tailed unpaired t-test (*p &lt; 0.05, **p &lt; 0.01, ***p &lt; 0.001)
+  </p>
+ </caption>
+ <graphic xlink:href="12967_2021_2754_Fig4_HTML" id="MO4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

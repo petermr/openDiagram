@@ -1,0 +1,5 @@
+0: For all experiments, data was collected from at least two (usually three, and sometimes more, as indicated in each analysis) experiments and is presented as the mean  SEM.
+1: Protein validation data were analyzed by Students  t-test or one-way ANOVA, followed where appropriate by Tukeys honestly significant difference  post hoc test (Graphpad Prism v.7).
+2: Significance was defined as: *p<0.05, **p<0.01, ***p<0.001, ****p<0.0001.
+3: Samples for RNA-seq were randomly collected across litters and processed blind to experimental condition.
+4: For differential gene expression analysis using edgeR, differences were considered statistically significant at high stringency for FDR < 0.05, or with reduced stringency for p values < 0.05.

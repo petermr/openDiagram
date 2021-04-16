@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="ijms-22-01399-f002" orientation="portrait" position="float">
+ <label>Figure 2</label>
+ <caption>
+  <p>Identification of the circulating tumor cell (CTC) sub-populations, clustered based on the median expression of all genes in at least 10% of the cells. (
+   <bold>a</bold>) 
+   <italic>t</italic>SNE map visualizing clusters of circulating breast cancer cells identified with k-means clustering. (
+   <bold>b</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their pseudo-time ordering. (
+   <bold>c</bold>) A heatmap portrayal of cell-to-cell distances; cluster centers were ordered by hierarchic clustering. (
+   <bold>d</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their 
+   <italic>ESRP1</italic> expression. (
+   <bold>e</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their 
+   <italic>TFAM</italic> expression. (
+   <bold>f</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their 
+   <italic>MALAT1</italic> expression.
+  </p>
+ </caption>
+ <graphic xlink:href="ijms-22-01399-g002" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

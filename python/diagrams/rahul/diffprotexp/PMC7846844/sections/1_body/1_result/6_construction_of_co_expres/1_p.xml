@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">To further explore the potential role of DELs in muscle development. We collected PTGs from biological processes and pathways involved in muscle development (Table 
+ <xref rid="MOESM6" ref-type="media">S4</xref>). Such as the second messenger adenosine 3′, 5′-adenosine monophosphate (cAMP) pathway, which can affect the size of muscle fibers for a long time. Continuous activation of the cAMP pathway can lead to a pronounced hypertrophic response in skeletal muscle fibers
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>,
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>. And can promote animal hypertrophy, including muscular dystrophy, age-related atrophy and other animal models of various diseases against atrophy
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. cAMP is also involved in muscle development and regeneration mediated by muscle precursor cells
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>,
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup>. On the other hand, our predicted pathway also includes the core pathway IGF1–Akt–mTOR pathway that affects skeletal muscle hypertrophy
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. Muscle hypertrophy is caused by increased protein synthesis and decreased protein degradation
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>. This pathway plays an important role in protein accumulation
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>.Based on the expression levels of these PTGs and the corresponding lincRNA, we construction the DELs- MDRPTGs co-expression network by using Cytoscape_3.6.1
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup> (Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>). It was found that 34 of the 138 DELs may regulate PTGs which associated with muscle development, and we found that 25 of 34 DELs upregulate their target genes. In addition, there are eight DELs corresponding to more than two MDRPTGs, two MDRPTGs correspond to multiple DELs. Therefore, we speculate that there are some regulatory mechanisms related to muscle development between MDRPTG and DEL.
+</p>

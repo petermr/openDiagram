@@ -1,0 +1,9 @@
+0: The structure of ERY bound to the  E. coli ribosome was obtained from protein data bank (PDB) file with id 4V7U.
+1: Because this system is very large, ribosomal residues and bases were deleted that were more than 40 A away from the center of mass of ERY.
+2: Initial structures of ErmCL (sequence: MGIFSIFVI) and H-NS (MSEALKILNNIR) peptides off of the ribosome were created using the RaptorX webserver 22 and equilibrated in bulk solution using molecular dynamics (MD) simulations.
+3: Specifically, the peptides were solvated in a cubic box with TIP3P water molecules and the AMBER99SB-ILDN force field was utilized.
+4: GROMACS version 5.1.2 23 was used to perform the simulations.
+5: The structures were equilibrated for 200 ps in the NVT ensemble followed by 5 ns in the NPT ensemble at 330 K and 1 bar.
+6: The system was then simulated for another 100 ns per trajectory at 330 K in the NPT ensemble.
+7: Peptide structures that had no secondary structure were identified in the simulations and selected for later insertion into the ribosome exit tunnel.
+8: A ribosome without ERY was created by deleting ERY from the ribosome-ERY crystal structure.

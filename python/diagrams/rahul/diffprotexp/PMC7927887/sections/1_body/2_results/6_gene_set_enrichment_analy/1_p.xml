@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To identify the impact of mutated SF3B1 at a pathway level we carried out GSEA on the total set of differential gene expression results. The Hallmark pathways
+ <sup>
+  <xref rid="ref33" ref-type="bibr">33</xref>
+ </sup> with significant (false discovery rate [FDR] &lt;0.05) normalized enrichment scores (NES) between the two sample groups were identified (
+ <xref ref-type="fig" rid="fig005">Figure 5A</xref>). This analysis showed decreased gene enrichment for protein secretion (
+ <italic>P</italic>=0.01, NES= -1.93) and unfolded protein response (UPR) (
+ <italic>P</italic>=0.01, NES=1.83) pathways. Conversely GSEA identified enrichment for TNFA signaling via NF-κB (
+ <italic>P</italic>=0.01, NES=1.98), 
+ <italic>KRAS</italic> signaling (
+ <italic>P</italic>=0.008, NES=1.69), and I2/STAT5 signaling (
+ <italic>P</italic>=0.01, NES=0.65) pathways in 
+ <italic>SF3B1</italic> mutant samples.
+</p>

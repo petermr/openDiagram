@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par77">We used an independent dataset from the RAAK study (35 osteoarthritis patients, of which 28 knee, 7 hip osteoarthritis) to replicate the molecular differences between high-grade and low-grade cartilage. The RAAK dataset and analysis were taken from a previous publication
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>. Briefly, mRNA samples were sequenced on Illumina HiSeq 2000/4000 (paired-end 2 × 100 bp RNA-sequencing), aligned using GSNAP
+ <sup>
+  <xref ref-type="bibr" rid="CR66">66</xref>
+ </sup>, and quantified using HTSeq
+ <sup>
+  <xref ref-type="bibr" rid="CR67">67</xref>
+ </sup>. We used the differential expression analysis as originally published
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>, based on DESeq2, with removal of batch effects using the function removeBatchEffect from the limma R package, then application of a general linear model assuming a negative binomial distribution and a paired Wald-test between preserved and lesioned OA cartilage samples. The data were downloaded from the Github repository 
+ <ext-link ext-link-type="uri" xlink:href="https://git.lumc.nl/rcoutinhodealmeida/miRNAmRNA" xmlns:xlink="http://www.w3.org/1999/xlink">https://git.lumc.nl/rcoutinhodealmeida/miRNAmRNA</ext-link> on 20 June 2020. The analysis as published included 20,165 genes, of which 2387 were differentially expressed at 5% FDR. Of these genes, 12,663 had uniquely mapping Ensembl gene ID and gene name and were also assayed in our data (including 1830 genes with significant differential expression at 5% FDR in the RAAK study). For the genes with RNA-level, protein-level or cross-omics level differential expression in the discovery analysis above, we calculated the proportion with concordant direction of effect in the RAAK data, and applied Fisher’s test to determine whether this proportion was higher than for other genes (RNA-level: compared to all genes not differentially expressed; protein- and cross-omics level: compared to all genes not differentially expressed, but assayed in proteomics). We also calculated the proportion of genes with 
+ <italic>p</italic> &lt; 0.05 and FDR &lt; 5% in the RAAK analysis, and the proportion of these with concordant direction of effect.
+</p>

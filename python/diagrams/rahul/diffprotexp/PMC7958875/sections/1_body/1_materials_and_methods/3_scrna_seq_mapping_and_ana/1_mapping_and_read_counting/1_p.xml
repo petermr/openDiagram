@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Transcriptomes were mapped using HISAT2 (v 2.0.0-beta) (
+ <xref rid="B22" ref-type="bibr">Kim et al., 2015</xref>) to the 
+ <italic>P. berghei</italic> v3 genome (
+ <uri xlink:type="simple" xlink:href="https://www.sanger.ac.uk/resources/downloads/protozoa/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.sanger.ac.uk/resources/downloads/protozoa/</uri>, October 2016) using default parameters and summed against genes HTseq (v 0.6.0) (
+ <xref rid="B2" ref-type="bibr">Anders et al., 2015</xref>) as described in (
+ <xref rid="B38" ref-type="bibr">Reid et al., 2018</xref>).
+</p>

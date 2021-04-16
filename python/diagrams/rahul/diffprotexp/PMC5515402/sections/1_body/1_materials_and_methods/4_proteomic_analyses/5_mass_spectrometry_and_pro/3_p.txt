@@ -1,0 +1,5 @@
+0: Scaffold (version Scaffold_3.4.5, Proteome Software Inc., Portland, OR) was used to validate MS/MS based peptide and protein identifications.
+1: Peptide identifications were accepted if they could be established at greater than 80% probability, as specified by the Peptide Prophet algorithm [ 34].
+2: Protein identifications were accepted if they could be established at greater than 90% probability and contained at least 2 identified peptides.
+3: Protein probabilities were assigned by the Protein Prophet algorithm [ 35].
+4: Proteins that contained similar peptides and could not be differentiated based on MS/MS analysis alone were grouped to satisfy the principles of parsimony.

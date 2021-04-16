@@ -1,0 +1,3 @@
+0: SignalP 3.0 [ 32] ( http://www.cbs.dtu.dk/services/SignalP/) was used to predict the N-terminal signal peptides for classically secreted proteins.
+1: Two algorithms in SignalP, including neural network algorithm and hidden Markov model, were employed to predict the signal peptides.
+2: We considered the proteins that were positively predicted by both algorithms to be secreted.

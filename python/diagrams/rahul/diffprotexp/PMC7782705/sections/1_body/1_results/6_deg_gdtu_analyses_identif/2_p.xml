@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">Next, we set out to evaluate the differential expression or transcript usage for these genes. Out of the 116 AD risk/causal genes expressed by brain cell types (Fig. 
+ <xref rid="Fig8" ref-type="fig">8A</xref>), we observed that 54 were also DEGs/gDTUs in at least one of the bulk RNAseq datasets analyzed. Among those genes, two were exclusively identified in the FL (Fig. 
+ <xref rid="Fig8" ref-type="fig">8B</xref>). We, therefore, decided to focus on the 52 AD risk/causal genes identified in the temporal lobe for further analyses. In this region, we identified 27 and 17 DEGs/gDTUs in the MSBB_TL and Mayo datasets, respectively, including some well-characterized AD risk genes, such as ADAM10 (ADAM metallopeptidase domain 10), BIN1, CLU (Clusterin), and TREM2 (triggering receptor expressed on myeloid cells 2), and the causal AD genes APP, PSEN1 and 2 (presenilin 1 and 2) (Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>A, B). Eight genes were altered in both datasets (Fig. 
+ <xref rid="Fig6" ref-type="fig">8B</xref>, yellow box; 15,38% of overlap) and were selected for further analysis of isoform switch. Using ISAR to identify the isoforms altered in the AD brains compared to controls, we observed some patterns of isoform switch that could have important functional relevance (Fig. 
+ <xref rid="Fig8" ref-type="fig">8C, D</xref>). For instance, while BIN1 transcripts ENST00000316724.9 (NP_647593.1—isoform 1) and ENST00000409400.1 (NP_647600.1—isoform 9) were downregulated, transcripts ENST00000393040.7 (NP_647598.1—isoform 6) and ENST00000462958.5, ENST0000046611.5 and ENST00000484253.1 (intron retention) were upregulated (Fig. 
+ <xref rid="Fig8" ref-type="fig">8C</xref>). This pattern could lead to a decrease of the neuronal-specific BIN1 isoform 1 expression
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>, given that retained introns are noncoding sequences. Using western blotting analysis, we confirmed this decrease of BIN1 isoform 1 protein in the frontal cortex and hippocampus of AD brain samples compared to controls (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">5</xref>).
+</p>

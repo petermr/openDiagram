@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossary>
+ <title>Abbreviations</title>
+ <def-list>
+  <def-item>
+   <term>MFVS</term>
+   <def>
+    <p id="Par4">Minimum feedback vertex set</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>WMFVS</term>
+   <def>
+    <p id="Par5">Weighted minimum feedback vertex set</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>WFVS</term>
+   <def>
+    <p id="Par6">Maximum weighted feedback vertex set</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>ILP</term>
+   <def>
+    <p id="Par7">Integer linear programming</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>FC</term>
+   <def>
+    <p id="Par8">Fold change</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>ES</term>
+   <def>
+    <p id="Par9">Enrichment score</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>scc</term>
+   <def>
+    <p id="Par10">Strongly connected component</p>
+   </def>
+  </def-item>
+  <def-item>
+   <term>DEG</term>
+   <def>
+    <p id="Par11">Differentially expressed gene</p>
+   </def>
+  </def-item>
+ </def-list>
+</glossary>

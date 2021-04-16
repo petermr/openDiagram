@@ -1,0 +1,7 @@
+0: Quantitative real-time PCR (qPCR) analysis was performed on CFX96 real-time PCR (Bio-Rad) to validate the differentially expressed transcripts.
+1: Ten DEGs were randomly selected for qPCR analysis.
+2: Total RNA was isolated from the same sample as used for RNAseq and treated with the DNase I followed by cDNA synthesis using First Strand cDNA Synthesis Kit (Thermo Scientific).
+3: The primer sets for randomly selected DEGs were designed using an online Primer Quest tool from Integrated DNA Technologies ( https://eu.idtdna.com/Primerquest/Home/Index) as listed in Table  2.
+4: Real-time PCR was performed with 20 l PCR reaction mixture prepared according to the instruction provided with SsoAdvanced Universal SYBR Green Supermix (Bio-Rad).
+5: The qPCR of each gene was done in three technical replicates with three biological replicates.
+6: Actin was used as a reference gene and CT method was used to calculate the fold change 19.

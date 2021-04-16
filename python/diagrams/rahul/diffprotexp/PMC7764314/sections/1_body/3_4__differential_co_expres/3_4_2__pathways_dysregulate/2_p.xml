@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DC modules in cancer biology have been applied to the comparison of tumour and normal tissue, identifying tumour-specific modules in hepatocellular carcinoma, uveal melanoma and ovarian and prostate cancer [
+ <xref rid="B125-ijms-21-09461" ref-type="bibr">125</xref>,
+ <xref rid="B126-ijms-21-09461" ref-type="bibr">126</xref>,
+ <xref rid="B127-ijms-21-09461" ref-type="bibr">127</xref>]. In 12 cancer types, cancer-specific modules were shown to have prognostic value [
+ <xref rid="B128-ijms-21-09461" ref-type="bibr">128</xref>], while three independent studies reported immune response-related modules to be differentially co-regulated between ER+ and ER- breast cancer [
+ <xref rid="B42-ijms-21-09461" ref-type="bibr">42</xref>,
+ <xref rid="B103-ijms-21-09461" ref-type="bibr">103</xref>,
+ <xref rid="B129-ijms-21-09461" ref-type="bibr">129</xref>]. Immune-related modules are also differentially connected in non-small cell lung cancer when compared to normal tissue [
+ <xref rid="B70-ijms-21-09461" ref-type="bibr">70</xref>], possibly regulated through a miRNA-mediated mechanism. Interestingly, an independent report found an enrichment for targets of miRNAs related with cancer in two co-expression modules more strongly connected in lung cancer than in normal tissue [
+ <xref rid="B63-ijms-21-09461" ref-type="bibr">63</xref>]. Methods to identify modules that are differentially co-expressed across multiple networks find a particularly interesting application in the study of cancer stage-specific regulatory relationships [
+ <xref rid="B65-ijms-21-09461" ref-type="bibr">65</xref>,
+ <xref rid="B130-ijms-21-09461" ref-type="bibr">130</xref>,
+ <xref rid="B131-ijms-21-09461" ref-type="bibr">131</xref>]. In breast cancer, dynamically co-regulated modules improve the prediction of stage, and their hubs are enriched in signalling protein domains [
+ <xref rid="B130-ijms-21-09461" ref-type="bibr">130</xref>]. This observation confirms the idea that context-specific hubs are signalling or regulatory molecules that tune the activity of constitutive hubs, grouped in modules of genes with similar functions [
+ <xref rid="B132-ijms-21-09461" ref-type="bibr">132</xref>]. Only in a few cases has validation of 
+ <italic>in silico</italic> predictions been provided. Recently, however, the potential of differential co-expression in driving testable hypotheses has been demonstrated in an inclusive analysis of astrocytoma progression that integrated mRNA expression, ChIP-seq and copy number variation (CNV) data [
+ <xref rid="B133-ijms-21-09461" ref-type="bibr">133</xref>]. Indeed, the authors were able to identify a cell cycle-enriched module predicted to be affected by resveratrol and to experimentally validate their prediction.
+</p>

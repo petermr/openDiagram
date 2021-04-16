@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="f0002" fig-type="figure" orientation="portrait" position="float">
+ <label>Figure 2.</label>
+ <caption>
+  <p>Correlation analysis and number of differentially expressed genes</p>
+ </caption>
+ <alternatives>
+  <graphic specific-use="web-only" content-type="color" xlink:href="KADI_A_1859789_F0002_OC" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <graphic specific-use="print-only" content-type="black-white" xlink:href="KADI_A_1859789_F0002_PB" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </alternatives>
+ <attrib>Correlation analysis displayed in (A) distance heatmap, with legend representing Pearson correlation coefficient values between samples, and (B) principle component analysis based on data counts from RNA-Seqs prepared in triplicates for D0 (MEFD0), D3(-) (MEFD3min), D3(+) (MEFD3plu), D5(-) (MEFD5min) and D5(+) (MEFD5plu). Metric heatmap, based on log VST normalization value, displaying differential genes expression based on statistical significance of P-adj&lt;0.05 for (C) MEFD3plu/MEFD3min (DEGs = 9186) and (D) MEFD5plu/MEFD5min (DEGs = 8226). Volcano plot for pair wise comparison for (E) MEFD3plu/MEFD3min and (F) MEFD5plu/MEFD5min. Number of DEGs expressions (normalized to Log2 fold change (Log2FC)) are displayed on each panel based on a P-adj cut-off of &lt;0.05 (red line) with 9186 and 8226 genes for MEFD3plu/MEFD3min and MEFD5plu/MEFD5min.</attrib>
+</fig>

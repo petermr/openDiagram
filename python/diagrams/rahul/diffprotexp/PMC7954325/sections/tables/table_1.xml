@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="pone.0247864.t001" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0247864.t001</object-id>
+ <label>Table 1</label>
+ <caption>
+  <title>List of ninety StbZIPs with sequence IDs, gene name, protein length, group, and domain position.</title>
+ </caption>
+ <alternatives>
+  <graphic id="pone.0247864.t001g" xlink:href="pone.0247864.t001" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <table frame="hsides" rules="groups">
+   <colgroup span="1">
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+    <col align="left" valign="middle" span="1"/>
+   </colgroup>
+   <thead>
+    <tr>
+     <th align="center" rowspan="1" colspan="1">bZIP_ID</th>
+     <th align="center" rowspan="1" colspan="1">Sequence ID</th>
+     <th align="center" rowspan="1" colspan="1">Gene name</th>
+     <th align="center" rowspan="1" colspan="1">Protein Length (aa)</th>
+     <th align="center" rowspan="1" colspan="1">Group</th>
+     <th align="center" rowspan="1" colspan="1">Position 
+      <italic>of b</italic>ZI
+      <italic>P d</italic>omain (Start-End)
+     </th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP1</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400000266</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400000088</td>
+     <td align="center" rowspan="1" colspan="1">417</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">274–336</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP2</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400002100</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400000799</td>
+     <td align="center" rowspan="1" colspan="1">340</td>
+     <td align="left" rowspan="1" colspan="1">I</td>
+     <td align="left" rowspan="1" colspan="1">184–242</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP3</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400003516</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400001387</td>
+     <td align="center" rowspan="1" colspan="1">180</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">81–135</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP4</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400004178</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400001659</td>
+     <td align="center" rowspan="1" colspan="1">577</td>
+     <td align="left" rowspan="1" colspan="1">I</td>
+     <td align="left" rowspan="1" colspan="1">421–479</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP5</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400004821</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400001916</td>
+     <td align="center" rowspan="1" colspan="1">194</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">86–145</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP6</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400006851</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400002660</td>
+     <td align="center" rowspan="1" colspan="1">428</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">343–387</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP7</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400007165</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG402002771</td>
+     <td align="center" rowspan="1" colspan="1">138</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">25–77</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP8</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400009068</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400003529</td>
+     <td align="center" rowspan="1" colspan="1">144</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">22–69</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP9</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400009493</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400003701</td>
+     <td align="center" rowspan="1" colspan="1">150</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">27–83</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP10</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400009538</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG401003720</td>
+     <td align="center" rowspan="1" colspan="1">444</td>
+     <td align="left" rowspan="1" colspan="1">I</td>
+     <td align="left" rowspan="1" colspan="1">299–350</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP11</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400012575</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400004916</td>
+     <td align="center" rowspan="1" colspan="1">140</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">55–107</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP12</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400013972</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400005476</td>
+     <td align="center" rowspan="1" colspan="1">204</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">86–138</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP13</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400015830</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG401006188</td>
+     <td align="center" rowspan="1" colspan="1">272</td>
+     <td align="left" rowspan="1" colspan="1">F</td>
+     <td align="left" rowspan="1" colspan="1">83–150</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP14</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400015892</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400006211</td>
+     <td align="center" rowspan="1" colspan="1">414</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">336–381</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP15</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400016235</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400006345</td>
+     <td align="center" rowspan="1" colspan="1">392</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">60–90</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP16</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400016236</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400006345</td>
+     <td align="center" rowspan="1" colspan="1">316</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">69–99</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP17</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400016237</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400006345</td>
+     <td align="center" rowspan="1" colspan="1">355</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">69–99</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP18</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400016238</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400006345</td>
+     <td align="center" rowspan="1" colspan="1">355</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">69–99</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP19</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400018306</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400007110</td>
+     <td align="center" rowspan="1" colspan="1">488</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">181–258</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP20</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400018486</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400007175</td>
+     <td align="center" rowspan="1" colspan="1">822</td>
+     <td align="left" rowspan="1" colspan="1">B</td>
+     <td align="left" rowspan="1" colspan="1">340–398</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP21</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400018574</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400007208</td>
+     <td align="center" rowspan="1" colspan="1">319</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">249–292</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP22</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400018832</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400007301</td>
+     <td align="center" rowspan="1" colspan="1">144</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">24–74</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP23</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400019465</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400007523</td>
+     <td align="center" rowspan="1" colspan="1">194</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">80–138</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP24</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400020206</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG401007810</td>
+     <td align="center" rowspan="1" colspan="1">305</td>
+     <td align="left" rowspan="1" colspan="1">E</td>
+     <td align="left" rowspan="1" colspan="1">179–223</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP25</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400020670</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400008011</td>
+     <td align="center" rowspan="1" colspan="1">453</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">375–427</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP26</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400020671</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400008011</td>
+     <td align="center" rowspan="1" colspan="1">448</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">375–425</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP27</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400024289</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400009388</td>
+     <td align="center" rowspan="1" colspan="1">303</td>
+     <td align="left" rowspan="1" colspan="1">E</td>
+     <td align="left" rowspan="1" colspan="1">175–218</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP28</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400024427</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400009449</td>
+     <td align="center" rowspan="1" colspan="1">324</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">38–81</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP29</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400024428</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400009449</td>
+     <td align="center" rowspan="1" colspan="1">324</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">38–81</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP30</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400029743</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400011430</td>
+     <td align="center" rowspan="1" colspan="1">380</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">83–162</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP31</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400030585</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400011712</td>
+     <td align="center" rowspan="1" colspan="1">398</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">118–169</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP32</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400032381</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400012436</td>
+     <td align="center" rowspan="1" colspan="1">289</td>
+     <td align="left" rowspan="1" colspan="1">E</td>
+     <td align="left" rowspan="1" colspan="1">169–213</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP33</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400032382</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400012436</td>
+     <td align="center" rowspan="1" colspan="1">247</td>
+     <td align="left" rowspan="1" colspan="1">E</td>
+     <td align="left" rowspan="1" colspan="1">169–213</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP34</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400032960</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400012660</td>
+     <td align="center" rowspan="1" colspan="1">400</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">304–342</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP35</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400032965</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400012660</td>
+     <td align="center" rowspan="1" colspan="1">351</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">253–315</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP36</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400032966</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400012660</td>
+     <td align="center" rowspan="1" colspan="1">351</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">253–315</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP37</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400033308</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400012792</td>
+     <td align="center" rowspan="1" colspan="1">356</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">71–107</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP38</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400033741</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400012962</td>
+     <td align="center" rowspan="1" colspan="1">483</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">195–236</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP39</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400038492</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400014858</td>
+     <td align="center" rowspan="1" colspan="1">210</td>
+     <td align="left" rowspan="1" colspan="1">C</td>
+     <td align="left" rowspan="1" colspan="1">37–91</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP40</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400038493</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400014858</td>
+     <td align="center" rowspan="1" colspan="1">349</td>
+     <td align="left" rowspan="1" colspan="1">C</td>
+     <td align="left" rowspan="1" colspan="1">176–230</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP41</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400040054</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400015494</td>
+     <td align="center" rowspan="1" colspan="1">132</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">22–80</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP42</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400042946</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400016651</td>
+     <td align="center" rowspan="1" colspan="1">324</td>
+     <td align="left" rowspan="1" colspan="1">I</td>
+     <td align="left" rowspan="1" colspan="1">133–182</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP43</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400043542</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400016906</td>
+     <td align="center" rowspan="1" colspan="1">159</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">32–72</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP44</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400043648</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400016951</td>
+     <td align="center" rowspan="1" colspan="1">246</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">78–117</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP45</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400043649</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400016951</td>
+     <td align="center" rowspan="1" colspan="1">361</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">78–117</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP46</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400043650</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400016951</td>
+     <td align="center" rowspan="1" colspan="1">361</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">78–117</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP47</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400043651</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400016951</td>
+     <td align="center" rowspan="1" colspan="1">361</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">78–117</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP48</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400045314</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400017577</td>
+     <td align="center" rowspan="1" colspan="1">326</td>
+     <td align="left" rowspan="1" colspan="1">I</td>
+     <td align="left" rowspan="1" colspan="1">171–229</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP49</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400047522</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400018469</td>
+     <td align="center" rowspan="1" colspan="1">385</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">299–361</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP50</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400050096</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400019455</td>
+     <td align="center" rowspan="1" colspan="1">451</td>
+     <td align="left" rowspan="1" colspan="1">C</td>
+     <td align="left" rowspan="1" colspan="1">246–299</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP51</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400053573</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG401020784</td>
+     <td align="center" rowspan="1" colspan="1">153</td>
+     <td align="left" rowspan="1" colspan="1">H</td>
+     <td align="left" rowspan="1" colspan="1">85–144</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP52</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400053575</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG401020784</td>
+     <td align="center" rowspan="1" colspan="1">158</td>
+     <td align="left" rowspan="1" colspan="1">H</td>
+     <td align="left" rowspan="1" colspan="1">85–145</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP53</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400053576</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG401020784</td>
+     <td align="center" rowspan="1" colspan="1">185</td>
+     <td align="left" rowspan="1" colspan="1">H</td>
+     <td align="left" rowspan="1" colspan="1">85–144</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP54</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400055214</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400021431</td>
+     <td align="center" rowspan="1" colspan="1">221</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">117–169</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP55</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400058187</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400022589</td>
+     <td align="center" rowspan="1" colspan="1">166</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">20–67</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP56</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400058468</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400022706</td>
+     <td align="center" rowspan="1" colspan="1">146</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">78–132</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP57</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400058469</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400022706</td>
+     <td align="center" rowspan="1" colspan="1">146</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">78–132</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP58</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400059038</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400022931</td>
+     <td align="center" rowspan="1" colspan="1">343</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">288–335</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP59</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400059039</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400022931</td>
+     <td align="center" rowspan="1" colspan="1">366</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">288–346</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP60</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400059040</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400022931</td>
+     <td align="center" rowspan="1" colspan="1">366</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">288–346</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP61</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400060864</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400023678</td>
+     <td align="center" rowspan="1" colspan="1">406</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">111–145</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP62</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400060865</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400023678</td>
+     <td align="center" rowspan="1" colspan="1">461</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">163–223</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP63</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400060926</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG402023696</td>
+     <td align="center" rowspan="1" colspan="1">433</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">147–189</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP64</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400061401</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400023897</td>
+     <td align="center" rowspan="1" colspan="1">215</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">153–215</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP65</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400061402</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400023897</td>
+     <td align="center" rowspan="1" colspan="1">191</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">157–179</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP66</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400061403</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400023897</td>
+     <td align="center" rowspan="1" colspan="1">227</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">153–222</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP67</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400064170</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG401024930</td>
+     <td align="center" rowspan="1" colspan="1">148</td>
+     <td align="left" rowspan="1" colspan="1">E</td>
+     <td align="left" rowspan="1" colspan="1">7–64</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP68</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400066603</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400025889</td>
+     <td align="center" rowspan="1" colspan="1">414</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">336–386</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP69</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400070881</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400027562</td>
+     <td align="center" rowspan="1" colspan="1">156</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">77–109</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP70</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400070882</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400027562</td>
+     <td align="center" rowspan="1" colspan="1">245</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">77–109</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP71</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400070883</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400027562</td>
+     <td align="center" rowspan="1" colspan="1">361</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">77–109</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP72</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400070884</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400027562</td>
+     <td align="center" rowspan="1" colspan="1">361</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">77–109</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP73</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400070885</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400027562</td>
+     <td align="center" rowspan="1" colspan="1">245</td>
+     <td align="left" rowspan="1" colspan="1">D</td>
+     <td align="left" rowspan="1" colspan="1">77–109</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP74</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400070968</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400027599</td>
+     <td align="center" rowspan="1" colspan="1">349</td>
+     <td align="left" rowspan="1" colspan="1">I</td>
+     <td align="left" rowspan="1" colspan="1">150–198</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP75</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400072260</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400028121</td>
+     <td align="center" rowspan="1" colspan="1">347</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">277–320</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP76</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400074878</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400029118</td>
+     <td align="center" rowspan="1" colspan="1">261</td>
+     <td align="left" rowspan="1" colspan="1">I</td>
+     <td align="left" rowspan="1" colspan="1">105–163</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP77</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400074879</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400029118</td>
+     <td align="center" rowspan="1" colspan="1">185</td>
+     <td align="left" rowspan="1" colspan="1">I</td>
+     <td align="left" rowspan="1" colspan="1">105–163</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP78</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400076576</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400029774</td>
+     <td align="center" rowspan="1" colspan="1">284</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">203–255</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP79</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400076577</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400029774</td>
+     <td align="center" rowspan="1" colspan="1">259</td>
+     <td align="left" rowspan="1" colspan="1">A</td>
+     <td align="left" rowspan="1" colspan="1">203–255</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP80</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400078084</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400030371</td>
+     <td align="center" rowspan="1" colspan="1">184</td>
+     <td align="left" rowspan="1" colspan="1">E</td>
+     <td align="left" rowspan="1" colspan="1">51–110</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP81</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400079474</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400030946</td>
+     <td align="center" rowspan="1" colspan="1">166</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">30–78</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP82</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400084203</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400033876</td>
+     <td align="center" rowspan="1" colspan="1">413</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">270–332</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP83</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400084204</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400033876</td>
+     <td align="center" rowspan="1" colspan="1">337</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">270–332</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP84</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400084205</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400033876</td>
+     <td align="center" rowspan="1" colspan="1">413</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">270–332</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP85</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400084206</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400033876</td>
+     <td align="center" rowspan="1" colspan="1">380</td>
+     <td align="left" rowspan="1" colspan="1">G</td>
+     <td align="left" rowspan="1" colspan="1">237–299</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP86</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400085559</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400035130</td>
+     <td align="center" rowspan="1" colspan="1">138</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">25–77</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP87</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400088166</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400037737</td>
+     <td align="center" rowspan="1" colspan="1">144</td>
+     <td align="left" rowspan="1" colspan="1">S</td>
+     <td align="left" rowspan="1" colspan="1">23–79</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP88</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400089985</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400039556</td>
+     <td align="center" rowspan="1" colspan="1">175</td>
+     <td align="left" rowspan="1" colspan="1">E</td>
+     <td align="left" rowspan="1" colspan="1">50–110</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP89</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400090249</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400039820</td>
+     <td align="center" rowspan="1" colspan="1">671</td>
+     <td align="left" rowspan="1" colspan="1">B</td>
+     <td align="left" rowspan="1" colspan="1">208–265</td>
+    </tr>
+    <tr>
+     <td align="left" rowspan="1" colspan="1">StbZIP90</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMT400094588</td>
+     <td align="left" rowspan="1" colspan="1">PGSC0003DMG400044159</td>
+     <td align="center" rowspan="1" colspan="1">519</td>
+     <td align="left" rowspan="1" colspan="1">B</td>
+     <td align="left" rowspan="1" colspan="1">179–221</td>
+    </tr>
+   </tbody>
+  </table>
+ </alternatives>
+</table-wrap>

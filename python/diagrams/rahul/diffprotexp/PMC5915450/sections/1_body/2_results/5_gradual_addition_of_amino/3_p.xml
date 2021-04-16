@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">As done before, we computed the force experienced at each residue position when the maximum force occurs. We find different results (Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>) for these simulations. For ErmCL, residue 1 seems to substantially contribute to stalling but the strong interaction with ERY is compensated by interaction with ribosome. Residues 6 and 8 experience the largest force, indicating that the C-terminus needs more energy for passage through the tunnel than the N-terminus. Furthermore, residue 4 is closest to ERY at 
+ <italic>F</italic>
+ <sub>max</sub> (Table 
+ <xref rid="Tab5" ref-type="table">5</xref>), and, within error, residues 3, 5 and 6 are also close to ERY suggesting that residues 3 through 6 are located near ERY when ErmCL attempts to bypass it. These findings are consistent with experiments
+ <sup>
+  <xref ref-type="bibr" rid="CR9">9</xref>,
+  <xref ref-type="bibr" rid="CR11">11</xref>
+ </sup> showing that C-terminus of the ErmCL motif is critical for stalling and that residues 4–6 are located next to ERY. Our results also indicate that turning on non-bonded interactions residue-by-residue, which better mimics the protein synthesis process, allows the nascent peptide to better adapt to the presence of ERY during equilibration. In the earlier simulations the nascent peptide apparently did not have enough time to adapt to the presence of ERY, leading to a strong interaction of the N-terminal residues with ERY.
+</p>

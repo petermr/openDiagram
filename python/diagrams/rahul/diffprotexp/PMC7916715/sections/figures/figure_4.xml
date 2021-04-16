@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="genes-12-00257-f004" orientation="portrait" position="float">
+ <label>Figure 4</label>
+ <caption>
+  <p>Differential expression of LE genes in PCs with 
+   <italic>TMPRSS2-ERG</italic> fusion. Analyses were performed using the Sueltman dataset in R2: Genomics Analysis and Visualization Platform. Expressions were presented as log2-transformed data. Statistical analyses were performed by the R2 Platform using one-way ANOVA. ** 
+   <italic>p</italic> &lt; 0.01; *** 
+   <italic>p</italic> &lt; 0.001.
+  </p>
+ </caption>
+ <graphic xlink:href="genes-12-00257-g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

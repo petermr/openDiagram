@@ -1,0 +1,6 @@
+0: The MS/MS data was searched using Sequest under the software platform Proteome Discoverer 1.3.0.339 (Thermo Scientific) against the Swissprot_human_20121008.fasta protein sequence database using one 99% peptide confidence as cut-off.
+1: A precursor mass tolerance of 15 ppm, and product mass tolerances of 0.02 Da for HCD-FTMS and 0.8 Da for CID-ITMS were used.
+2: Further used settings were: trypsin with 1 missed cleavage; IAA on cysteine as fixed modification and iTRAQ 8plex on lysine and N-terminal and oxidation of methionine as variable modification and phosphorylation of serine, threonine or tyrosine as variable modifications.
+3: Probabilities for phosphosite localization (within each phosphopeptide) were calculated using the phosphoRS node of Proteome Discoverer.
+4: Quantitation of iTRAQ 8plex reporter ions was performed by Proteome Discoverer on HCD-FTMS tandem mass spectra using an integration window tolerance of 20 ppm and false discovery rate was estimated using percolator (part of PD 1.3) for false discovery rate cut-off.
+5: The LC-MS/MS data was deposited to the ProteomeXchange Consortium [ 25] via the PRIDE partner repository ( http://www.proteomecentral.proteomexchange.org) with the dataset identifier PXD000996.

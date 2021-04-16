@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig3" position="float" orientation="portrait">
+ <label>Figure 3.</label>
+ <caption>
+  <title>Polyadenylation sites (PAS) usage differences for intronic and 3' UTR PAS correlate with differential (DE) effect sizes at similar magnitudes but in opposite directions.</title>
+  <p>(
+   <bold>a</bold>) Changes in polyadenylation site usage (ΔPAU) for top intronic or 3' UTR PAS per gene (see 'Materials and methods') plotted against DE effect size from differential expression analysis. Pearson’s correlation plotted, Spearman’s correlation R = −0.053. (
+   <bold>b</bold>) ΔPAU for top intronic or 3' UTR PAS per gene (see 'Materials and methods') plotted against DE effect size from differential expression analysis for genes with significant differences in each phenotype at 5% FDR. Pearson’s correlation plotted, Spearman’s correlation intronic R = 0.046, Spearman’s correlation 3' UTR R = −0.054. (
+   <bold>c</bold>) ΔPAU for top intronic or 3' UTR PAS per gene (see 'Materials and methods') plotted against DE effect size from differential expression analysis. Pearson’s correlation plotted, Spearman’s correlation R = −0.16. (
+   <bold>d</bold>) ΔPAU for top intronic or 3' UTR PAS per gene (see 'Materials and methods') plotted against DE effect size from differential expression analysis for genes with significant differences in each phenotype at 5% FDR. Pearson’s correlation plotted, Spearman’s correlation intronic R = 0.22, Spearman’s correlation 3' UTR R = −0.22. In all panels, we calculated the linear regression. In all panels, negative ΔPAU and DE effect sizes represent upregulation in chimpanzees. In panels 
+   <bold>b</bold> and 
+   <bold>d</bold>, we colored the points and regressions by genic location.
+  </p>
+ </caption>
+ <graphic xlink:href="elife-62548-fig3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig3s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 3—figure supplement 1.</label>
+   <caption>
+    <title>
+     <xref ref-type="fig" rid="fig3">Figure 3</xref> relationships expanded to total usage.
+    </title>
+    <p>(
+     <bold>A</bold>) Total mRNA changes in polyadenylation site usage (ΔPAU) for top intronic or 3' UTR polyadenylation sites (PAS) per gene plotted against differential effect size from differential expression analysis. (
+     <bold>B</bold>) Total mRNA ΔPAU for top intronic or 3' UTR PAS per gene plotted against differential effect size from differential expression analysis for genes with significant differences in each phenotype at 5% FDR. (
+     <bold>C</bold>) Total mRNA ΔPAU for top intronic or 3' UTR PAS per gene plotted against differential effect size from differential expression analysis. (
+     <bold>D</bold>) Total mRNA ΔPAU for top intronic or 3' UTR PAS per gene plotted against differential effect size from differential expression analysis for genes with significant differences in each phenotype at 5% FDR. In all panels, we calculated the linear regression and Pearson's correlation with the r package ggpubr. In 
+     <bold>B and D</bold>, we colored the points and regression line by genic location. In all panels, negative ΔPAU and DE effect sizes represent upregulation in chimpanzees.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig3-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig3s2" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 3—figure supplement 2.</label>
+   <caption>
+    <title>Differentially used 3' UTR polyadenylation sites (PAS) have higher AU element content.</title>
+    <p>(
+     <bold>A</bold>) Genes with at least one differentially used 3' UTR PAS have more AU elements in their 3' UTRs. (
+     <bold>B</bold>). Genes with at least one differentially used 3' UTR PAS have a higher proportion of their 3' UTRs covered by AU elements.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig3-figsupp2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig3s3" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 3—figure supplement 3.</label>
+   <caption>
+    <title>
+     <xref ref-type="fig" rid="fig3">Figure 3</xref> without genes affected by liftover.
+    </title>
+    <p>(
+     <bold>A</bold>) Changes in polyadenylation site usage (∆PAU) for top intronic or 3' UTR polyadenylation sites (PAS) per gene plotted against differential effect size from differential expression analysis. (
+     <bold>B</bold>) ∆PAU for top intronic or 3' UTR PAS per gene plotted against differential effect size from differential expression analysis for genes with significant differences in each phenotype at 5% FDR. (
+     <bold>C</bold>) ∆PAU for top intronic or 3' UTR PAS per gene plotted against differential effect size from differential expression analysis. (
+     <bold>D</bold>) ∆PAU for top intronic or 3' UTR PAS per gene plotted against differential effect size from differential expression analysis for genes with significant differences in each phenotype at 5% FDR. In all panels, we calculated the linear regression and Pearson's correlation with the r package ggpubr. In 
+     <bold>B and D</bold>, we colored the points and regression line by genic location. In all panels, negative ∆PAU and DE effect sizes represent upregulation in chimpanzees.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig3-figsupp3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig3s4" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 3—figure supplement 4.</label>
+   <caption>
+    <title>Differential expression quality control plots.</title>
+    <p>(
+     <bold>A</bold>) First two principal components (PCs) in gene expression variation. (
+     <bold>B</bold>) Heatmap representing correlation between technical factors and PCs. Explanation of Y axis factors and values available in 
+     <xref ref-type="supplementary-material" rid="supp5">Supplementary file 5</xref>. (
+     <bold>C</bold>) Percent of live cells as calculated by trypan blue staining at collection is not confounded by species. (
+     <bold>D</bold>) RIN scores reported by bioanalyzer at RNA-seq library generation are not confounded by species. (
+     <bold>E</bold>) RNA concentrations reported by bioanalyzer at RNA-seq library generation are not confounded by species. (
+     <bold>F</bold>) Cell concentrations at time of collection are not confounded by species.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig3-figsupp4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

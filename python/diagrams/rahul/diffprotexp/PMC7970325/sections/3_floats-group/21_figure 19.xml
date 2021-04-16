@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig19">
+ <label>Figure 19</label>
+ <caption>
+  <p>Quality control of RNA sequencing profiles. A - fastQC per base quality score for sample TC76. The plot was drawn using fastQC software. B - fastQC per sequence quality score for sample TC76. The plot was drawn using fastQC software. C - plot for principal component analysis in normalized gene expression space (lg(RPM)) for all RNA sequencing profiles investigated. The plot was drawn using graphics package in R language. D - hierarchical clustering of all RNA sequencing profiles based on Euclidian distance in normalized gene expression space (lg(RPM)). The plot was drawn using pheatmap package in R, clustering algorithm “ward.d2”.</p>
+ </caption>
+ <alt-text id="alttext0145">Figure 19</alt-text>
+ <graphic xlink:href="gr19" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

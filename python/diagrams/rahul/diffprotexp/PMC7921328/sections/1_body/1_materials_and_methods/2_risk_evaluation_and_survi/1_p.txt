@@ -1,0 +1,5 @@
+0: Expression levels of individual differential lncRNAs across all prostate cancer samples were used to investigate the relations between expression variations and patient prognosis.
+1: The Cox univariate proportional hazards regression model was adopted to determine risk lncRNAs in prostate cancer.
+2: For each lncRNA, all patients were dichotomized into high- and low-expression groups using the median expression level as cut-off.
+3: The KaplanMeier algorithm was further utilized to compare overall survival times between the two groups as described in previous study ( Li et al., 2017,  2019).
+4: Differences of overall survival times were estimated by using the log rank test.

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig2" position="float" orientation="portrait">
+ <label>Figure 2.</label>
+ <caption>
+  <title>Alternative polyadenylation (APA) is functionally conserved in both species.</title>
+  <p>(
+   <bold>a</bold>) Proportion of polyadenylation sites (PAS) and genes differentially used at PAS and isoform diversity level. (Left) Divergent PAS are the 2342 PAS differentially used at 5% FDR. Conserved are the PAS not differentially used at 5% FDR. Not tested PAS were removed from analysis by leafcutter tool. (Middle) PAS level differentially used PAS reported at the gene level. Divergent genes are the 1705 genes with PAS differentially used at 5% FDR. Conserved genes are the genes with no PAS differentially used at 5% FDR. (Right) Divergent genes are the 881 genes with differences in isoform diversity between species at a 5% FDR. Conserved genes are genes without differences in isoform diversity. Genes with one PAS were not tested. (
+   <bold>b</bold>) Proportion of tested genes with a dominant PAS in either species according to a range of cutoffs. Number of genes are reported in bars. The bars are colored by the dominance cutoff on the X axis. (
+   <bold>c</bold>) Proportion of the number of genes with a dominant in either species that share the top used PAS according to each dominance cutoff. Number of genes with a dominant PAS in either species are reported in bars. The bars are colored by the dominance cutoff on the X axis.
+  </p>
+ </caption>
+ <graphic xlink:href="elife-62548-fig2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s1" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 1.</label>
+   <caption>
+    <title>Genic location of polyadenylation sites (PAS) differentially used between human and chimpanzee.</title>
+    <p>Differentially used PAS (5% FDR) between human chimpanzee by genic annotation.</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig2-figsupp1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s2" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 2.</label>
+   <caption>
+    <title>Location of polyadenylation sites (PAS) within orthologous 3' UTRs.</title>
+    <p>Proportion of sites differentially used or conserved by whether they are the first (yellow), middle (blue), or last PAS (red) in orthologous exons.</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig2-figsupp2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s3" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 3.</label>
+   <caption>
+    <title>Genes with differentially used polyadenylation sites (PAS) are enriched for genes with apaQTL.</title>
+    <p>Ten thousand random subsamples of genes tested for differential alternative polyadenylation (APA) and overlap with genes with apaQTLs (APA quantitative trait loci) (
+     <xref rid="bib51" ref-type="bibr">Mittleman et al., 2020</xref>). Red line represents the actual overlap between genes with differential usage of at least one PAS and apaQTL genes.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig2-figsupp3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s4" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 4.</label>
+   <caption>
+    <title>Information content measurement densities.</title>
+    <p>(
+     <bold>A</bold>) Density of Shannon indices for all tested genes in human and chimpanzee 
+     <inline-formula>
+      <math id="inf1">
+       <mstyle displaystyle="true" scriptlevel="0">
+        <mrow>
+         <mo>−</mo>
+         <munderover>
+          <mo movablelimits="false">∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo>=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>s</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <msub>
+           <mi>p</mi>
+           <mrow>
+            <mi>i</mi>
+           </mrow>
+          </msub>
+          <msub>
+           <mi>log</mi>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msub>
+          <mo>⁡</mo>
+          <msub>
+           <mi>P</mi>
+           <mi>i</mi>
+          </msub>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </math>
+     </inline-formula>. (
+     <bold>B</bold>) Density of Simpson indices for all tested genes in human and chimpanzee 
+     <inline-formula>
+      <math id="inf2">
+       <mstyle displaystyle="true" scriptlevel="0">
+        <mrow>
+         <mo>−</mo>
+         <munderover>
+          <mo movablelimits="false">∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo>=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>s</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <msubsup>
+           <mi>p</mi>
+           <mrow>
+            <mi>i</mi>
+           </mrow>
+           <mn>2</mn>
+          </msubsup>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </math>
+     </inline-formula>.
+    </p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig2-figsupp4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s5" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 5.</label>
+   <caption>
+    <title>Relationship between Shannon index and polyadenylation sites (PAS) number.</title>
+    <p>Shannon information index plotted against the number of PAS detect for each gene. Pearson’s correlation and significance in black.</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig2-figsupp5" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s6" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 6.</label>
+   <caption>
+    <title>Relationship between Simpson diversity index and polyadenylation sites (PAS) number.</title>
+    <p>Simpson diversity index plotted against the number of PAS detect for each gene. Pearson’s correlation and significance in black.</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig2-figsupp6" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s7" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 7.</label>
+   <caption>
+    <title>Intersection between genes with polyadenylation sites (PAS) and isoform diversity differences.</title>
+    <p>One thousand two hundred and fifty-one genes have significant differences in PAS usage between human and chimpanzee (left): 454 genes have significant differences in APA between humans and chimpanzee in PAS usage and in isoform diversity (middle) and 427 genes with differences in isoform diversity level only (right).</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig2-figsupp7" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+ <p content-type="supplemental-figure">
+  <fig id="fig2s8" specific-use="child-fig" orientation="portrait" position="anchor">
+   <label>Figure 2—figure supplement 8.</label>
+   <caption>
+    <title>Polyadenylation sites (PAS) that do not lift from human to chimp.</title>
+    <p>Of the 10,077 PAS that do not reciprocally lift from human to chimp, distribution of the analysis step in which sites are filtered out. Most are lost due to not mapping to genes or due to low usage (likely noise).</p>
+   </caption>
+   <graphic xlink:href="elife-62548-fig2-figsupp8" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </fig>
+ </p>
+</fig>

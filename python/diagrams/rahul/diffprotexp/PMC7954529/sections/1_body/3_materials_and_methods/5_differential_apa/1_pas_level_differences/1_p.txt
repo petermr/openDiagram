@@ -1,0 +1,7 @@
+0: We quantified reads mapping to each PAS using the featureCounts tool with the -s strand specificity tool ( Liao et al., 2014).
+1: We tested for site-level differences between human and chimpanzee using the leafcutter leafcutter_ds.R tool with standard settings ( Li et al., 2018).
+2: We tested for differences in both the total and nuclear fractions.
+3: We tested 43,038 PAS in 8422 genes in the nuclear fraction and 41,914 PAS in 8333 genes in the total fraction.
+4: We classified PAS as differentially used if the gene reached significance at 5% FDR and the PAS had a PAU greater than 20% (absolute value [PAU]>0.2).
+5: A negative PAU indicates increased usage in chimpanzees and PAU indicates increased usage in humans.
+6: The top PAS per gene is the PAS with the most significant difference between species; ties were broken using mean usage for all individuals in both species.

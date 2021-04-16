@@ -1,0 +1,547 @@
+{
+  "id": [
+    "33666549"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33666549"
+  ],
+  "pmcid": [
+    "PMC7934610"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7934610"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1051/parasite/2021011"
+  ],
+  "title": [
+    "Intestinal transcriptomes in Kazakh sheep with different haplotypes after experimental Echinococcus granulosus infection."
+  ],
+  "authorString": [
+    "Li X, Jiang S, Wang X, Jia B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Li X"
+          ],
+          "firstName": [
+            "Xin"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3039-2389",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Life Sciences, Shihezi University, Road Beisi, Shihezi 832003, Xinjiang, PR China - College of Animal Science and Technology, Shihezi University, Road Beisi, Shihezi 832003, Xinjiang, PR China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jiang S"
+          ],
+          "firstName": [
+            "Song"
+          ],
+          "lastName": [
+            "Jiang"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3751-7321",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Animal Science and Technology, Shihezi University, Road Beisi, Shihezi 832003, Xinjiang, PR China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wang X"
+          ],
+          "firstName": [
+            "Xuhai"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "X"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3478-3712",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Animal Science and Technology, Shihezi University, Road Beisi, Shihezi 832003, Xinjiang, PR China."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Jia B"
+          ],
+          "firstName": [
+            "Bin"
+          ],
+          "lastName": [
+            "Jia"
+          ],
+          "initials": [
+            "B"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4355-9862",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "College of Animal Science and Technology, Shihezi University, Road Beisi, Shihezi 832003, Xinjiang, PR China."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3039-2389",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4355-9862",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3478-3712",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3751-7321",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "28"
+      ],
+      "journalIssueId": [
+        "3087573"
+      ],
+      "dateOfPublication": [
+        "2021 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Parasite (Paris, France)"
+          ],
+          "ISOAbbreviation": [
+            "Parasite"
+          ],
+          "medlineAbbreviation": [
+            "Parasite"
+          ],
+          "NLMid": [
+            "9437094"
+          ],
+          "ISSN": [
+            "1252-607X"
+          ],
+          "ESSN": [
+            "1776-1042"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "14"
+  ],
+  "abstractText": [
+    "Cystic echinococcosis (CE) is a chronic zoonosis caused by infection with the larval stage of the cestode Echinococcus granulosus. As the intermediate host, sheep are highly susceptible to this disease. Our previous studies have shown that sheep with haplotype MHC Mva Ibc-Sac IIab-Hin1I ab were resistant to CE infection, while their counterparts without this haplotype were not. In order to reveal the molecular mechanism of resistance in Kazakh sheep, after selecting the differential miRNA in our previous study, herein, transcriptome analyses were conducted to detect the differential expression genes in the intestinal tissue of Kazakh sheep with resistant and non-resistant MHC haplotypes, after peroral infection with E. granulosus eggs. A total of 3835 differentially expressed genes were identified between the two groups, with 2229 upregulated and 1606 downregulated. Further function analysis showed that the most significant genes were related to both innate immune response and adaptive response participating in the defense against E. granulosus infection and the metabolic changes associated with it. The results suggest that genes related to lectin receptors, NK cells activation, chemokines, and tumor necrosis factor, may play important roles in the response of intestinal tissue to E. granulosus."
+  ],
+  "affiliation": [
+    "College of Life Sciences, Shihezi University, Road Beisi, Shihezi 832003, Xinjiang, PR China - College of Animal Science and Technology, Shihezi University, Road Beisi, Shihezi 832003, Xinjiang, PR China."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sheep"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Echinococcus granulosus"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Echinococcosis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "VE"
+                  ],
+                  "qualifierName": [
+                    "veterinary"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sheep Diseases"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Haplotypes"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Disease resistance",
+        "Differentially expressed genes",
+        "Echinococcus granulosus",
+        "Transcriptome Analysis",
+        "Intestinal Tissue"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1051/parasite/2021011"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7934610"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7934610?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2021-03-22"
+  ],
+  "dateOfCreation": [
+    "2021-03-05"
+  ],
+  "firstIndexDate": [
+    "2021-03-06"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-10"
+  ],
+  "dateOfRevision": [
+    "2021-03-22"
+  ],
+  "electronicPublicationDate": [
+    "2021-03-05"
+  ],
+  "firstPublicationDate": [
+    "2021-03-05"
+  ]
+}

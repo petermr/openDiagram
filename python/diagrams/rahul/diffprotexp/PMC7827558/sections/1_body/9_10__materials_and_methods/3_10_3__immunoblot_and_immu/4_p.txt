@@ -1,0 +1,8 @@
+0: As indicated above, Streptavidin and GFP-Trap eluents were analyzed by the Duke Proteomics and Metabolomics Shared Resource.
+1: Briefly, samples were reduced in loading buffer and separated by SDS-PAGE for 34 min followed by Coomassie staining and in-gel digestion with trypsin.
+2: Digests were analyzed by LC-MS/MS using a Waters nanoACQUITY UPLC interfaced to a Thermo Fusion Lumos MS.
+3: The LC separation 90 min gradient of 530% MeCN in a trapping configuration with a 75 um  25 cm analytical column (Waters HSS T3).
+4: MS/MS analysis used orbitrap MS1 and ion trap MS2 (OT-IT).
+5: Raw files were converted to mgf using Proteome Discoverer and searched against a Swiss-Prot human database appended with the p53 sequence and an equal number of reverse decoys, with 5 ppm precursor and 0.8 Da product ion tolerances, trypsin specificity with up to 2 missed cleavages, fixed carbamidomethyl modification on Cys and variable deamidation (NQ), oxidation (M), peptide N-terminal Gln  pyroGlu, and protein N-terminal acetylation.
+6: Data were annotated at a 1% peptide and protein false discovery rate (FDR) using Scaffold.
+7: The raw MS files and Scaffold files were deposited to ProteomeXchange with identifier PXD023327 via the MassIVE repository.

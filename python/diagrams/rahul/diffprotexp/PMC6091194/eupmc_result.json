@@ -1,0 +1,362 @@
+{
+  "id": [
+    "30127667"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "30127667"
+  ],
+  "pmcid": [
+    "PMC6091194"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC6091194"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s12953-018-0144-6"
+  ],
+  "title": [
+    "Label-free quantitative mass spectrometry analysis of differential protein expression in the developing cochlear sensory epithelium."
+  ],
+  "authorString": [
+    "Darville LNF, Sokolowski BHA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Darville LNF"
+          ],
+          "firstName": [
+            "Lancia N F"
+          ],
+          "lastName": [
+            "Darville"
+          ],
+          "initials": [
+            "LNF"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Morsani College of Medicine, Department of Otolaryngology-HNS, University of South Florida, 12901 Bruce B. Downs Blvd, Tampa, FL 33612 USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sokolowski BHA"
+          ],
+          "firstName": [
+            "Bernd H A"
+          ],
+          "lastName": [
+            "Sokolowski"
+          ],
+          "initials": [
+            "BHA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-2089-7663",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Morsani College of Medicine, Department of Otolaryngology-HNS, University of South Florida, 12901 Bruce B. Downs Blvd, Tampa, FL 33612 USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-2089-7663",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "related_data",
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2641545"
+      ],
+      "dateOfPublication": [
+        "2018 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2018"
+      ],
+      "printPublicationDate": [
+        "2018-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Proteome science"
+          ],
+          "ISOAbbreviation": [
+            "Proteome Sci"
+          ],
+          "medlineAbbreviation": [
+            "Proteome Sci"
+          ],
+          "NLMid": [
+            "101170539"
+          ],
+          "ISSN": [
+            "1477-5956"
+          ],
+          "ESSN": [
+            "1477-5956"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2018"
+  ],
+  "pageInfo": [
+    "15"
+  ],
+  "abstractText": [
+    "Background:The sensory epithelium of the inner ear converts the mechanical energy of sound to electro-chemical energy recognized by the central nervous system. This process is mediated by receptor cells known as hair cells that express proteins in a timely fashion with the onset of hearing. Methods:The proteomes of 3, 14, and 30 day-old mice cochlear sensory epithelia were revealed, using label-free quantitative mass spectrometry (LTQ-Orbitrap). Statistical analysis using a one-way ANOVA followed by Bonferroni's post-hoc test was used to show significant differences in protein expression. Ingenuity Pathway Analysis was used to observe networks of differentially expressed proteins, their biological processes, and associated diseases, while Cytoscape software was used to determine putative interactions with select biomarker proteins. These candidate biomarkers were further verified using Western blotting, while coimmunoprecipitation was used to verify putative partners determined using bioinformatics. Results:We show that a comparison across all three proteomes shows that there are 447 differentially expressed proteins, with 387 differentially expressed between postnatal day 3 and 30. Ingenuity Pathway Analysis revealed ~ 62% of postnatal day 3 downregulated proteins are involved in neurological diseases. Several proteins are expressed exclusively on P3, including Parvin α, Drebrin1 (Drb1), Secreted protein acidic and cysteine rich (SPARC), Transmembrane emp24 domain-containing protein 10 (Tmed10). Coimmunoprecipitations showed that Parvin and SPARC interact with integrin-linked protein kinase and the large conductance calcium-activated potassium channel, respectively. Conclusions:Quantitative mass spectrometry revealed the identification of numerous differentially regulated proteins over three days of postnatal development. These data provide insights into functional pathways regulating normal sensory and supporting cell development in the cochlea that include potential biomarkers. Interacting partners of two of these markers suggest the importance of these complexes in regulating cellular structure and synapse development."
+  ],
+  "affiliation": [
+    "Morsani College of Medicine, Department of Otolaryngology-HNS, University of South Florida, 12901 Bruce B. Downs Blvd, Tampa, FL 33612 USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 DC004295"
+          ],
+          "agency": [
+            "NIDCD NIH HHS"
+          ],
+          "acronym": [
+            "DC"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Development",
+        "Cochlea",
+        "Hair cells",
+        "Proteomics",
+        "Sensory epithelium",
+        "Networks",
+        "Quantitative Mass Spectrometry"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s12953-018-0144-6"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6091194"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC6091194?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "PRIDE"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "pxd",
+        "uniprot"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2018-08-22"
+  ],
+  "firstIndexDate": [
+    "2018-08-22"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-09"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2018-08-07"
+  ],
+  "firstPublicationDate": [
+    "2018-08-07"
+  ]
+}

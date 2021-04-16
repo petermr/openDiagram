@@ -1,0 +1,8 @@
+0: Whole-blood-derived genomic DNAs were extracted from all individuals using the QIAamp DNA blood Midi Kit (QIAGEN GmbH, Hilden, Germany) with standard protocols.
+1: The DNA purity was detected using NanoPhotometer spectrophotometer (IMPLEN, CA, USA).
+2: The DNA quantity was assessed using the Qubit Fluorometer (Life Technologies, CA, USA).
+3: Next, 1 ug of high quantity genomic DNA was fragmented.
+4: The fragments were then end repaired, poly-A tailed and adapter ligated using TruSeq DNA Sample Preparation Kit (Illumina, 15026486 Rev.C), according to the manufacturers instructions.
+5: Adapter-ligated libraries were amplified by 6 cycles of PCR.
+6: After that, libraries were assessed for sequencing using Agilent 2100 Bioanalyzer High Sensitivity DNA chip (Agilent Technologies, Santa Clara, CA, USA).
+7: Next, the qualified libraries were sequenced using Illumina HiSeq X Ten sequencer from Illumina (Illumina, San Diego, CA, USA) with 2  150 bp paired-end reads.

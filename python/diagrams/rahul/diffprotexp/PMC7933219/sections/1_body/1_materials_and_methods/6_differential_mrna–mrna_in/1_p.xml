@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Using the KEGG database, we constructed a differentially expressed mRNA interaction network aiming at studying the molecule interaction in the TC-EC model. Cytoscape software v3.7.2. was used to construct and visualize the network. In the network, the degree of a gene was defined as the number of directly linked genes within a network, which could assess the relative significance of a gene within the network. Meanwhile, the character of a gene was also described by betweenness centrality, which was an indicator of a gene’s centrality in a network. Betweenness centrality was equal to the number of shortest paths from all of the vertices to all of the others that passed through that gene (
+ <xref rid="B32" ref-type="bibr">Zhang and Wiemann, 2009</xref>). Thus, degree and betweenness centrality were used as two indicators to identify the most important genes (
+ <xref rid="B5" ref-type="bibr">Feng et al., 2016</xref>).
+</p>

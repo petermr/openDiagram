@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For functional analyses, proteins can be classified into Clusters of Ortholog Groups (COG). Each COG represents a group of orthologous proteins from different microbes sharing the same functional characteristics (
+ <xref ref-type="fig" rid="ppat.1009245.g002">Fig 2E</xref>) [
+ <xref rid="ppat.1009245.ref044" ref-type="bibr">44</xref>]. Similarly, Gene Ontology [
+ <xref rid="ppat.1009245.ref045" ref-type="bibr">45</xref>] and eggNOG [
+ <xref rid="ppat.1009245.ref046" ref-type="bibr">46</xref>] provide functional annotations. Furthermore, analyses of specific metabolic pathways through manual reconstruction or use of automated tools, such as Pathway Tools [
+ <xref rid="ppat.1009245.ref047" ref-type="bibr">47</xref>], can provide a more in-depth visualization of the functional state of the metaproteome. The commonly used pathway databases used to support pathway reconstruction are MetaCyc [
+ <xref rid="ppat.1009245.ref048" ref-type="bibr">48</xref>] and KEGG pathways [
+ <xref rid="ppat.1009245.ref049" ref-type="bibr">49</xref>] (
+ <xref ref-type="fig" rid="ppat.1009245.g002">Fig 2F</xref>). Construction of protein–protein interaction networks can give insights about protein function in biological processes. Protein–protein interactions can be visualized by mapping, for example, COG categories against the String database [
+ <xref rid="ppat.1009245.ref050" ref-type="bibr">50</xref>]. In addition, a new tool called MicrobioLink [
+ <xref rid="ppat.1009245.ref051" ref-type="bibr">51</xref>] offers a pipeline for downstream analyses of host–microbiome functional interactions. Information on additional tools for functional analyses and their validation can be found in a recent comparative study by Sajulga and colleagues [
+ <xref rid="ppat.1009245.ref052" ref-type="bibr">52</xref>].
+</p>

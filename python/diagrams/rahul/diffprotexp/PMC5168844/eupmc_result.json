@@ -1,0 +1,587 @@
+{
+  "id": [
+    "27993151"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27993151"
+  ],
+  "pmcid": [
+    "PMC5168844"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC5168844"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1186/s13062-016-0168-8"
+  ],
+  "title": [
+    "Exploring the importance of cancer pathways by meta-analysis of differential protein expression networks in three different cancers."
+  ],
+  "authorString": [
+    "Sikdar S, Datta S, Datta S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sikdar S"
+          ],
+          "firstName": [
+            "Sinjini"
+          ],
+          "lastName": [
+            "Sikdar"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biostatistics, University of Florida, Gainesville, FL, 32611, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Datta S"
+          ],
+          "firstName": [
+            "Somnath"
+          ],
+          "lastName": [
+            "Datta"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biostatistics, University of Florida, Gainesville, FL, 32611, USA."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Datta S"
+          ],
+          "firstName": [
+            "Susmita"
+          ],
+          "lastName": [
+            "Datta"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biostatistics, University of Florida, Gainesville, FL, 32611, USA. susmita.datta@ufl.edu."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2498292"
+      ],
+      "dateOfPublication": [
+        "2016 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Biology direct"
+          ],
+          "ISOAbbreviation": [
+            "Biol Direct"
+          ],
+          "medlineAbbreviation": [
+            "Biol Direct"
+          ],
+          "NLMid": [
+            "101258412"
+          ],
+          "ISSN": [
+            "1745-6150"
+          ],
+          "ESSN": [
+            "1745-6150"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "65"
+  ],
+  "abstractText": [
+    "<h4>Background</h4>It is believed that all cancers occur due to the mutation or change in one or more genes. In order to investigate the significance of the biological pathways which are interrupted by these genetic mutations, we pursue an integrated analysis using multiple cancer datasets released by the International Cancer Genome Consortium (ICGC). This dataset consists of expression profiles for genes/proteins of patients receiving treatment, for three types of cancer - Head and Neck Squamous Cell Carcinoma (HNSC), Lung Adenocarcinoma (LUAD) and Kidney Renal Clear Cell Carcinoma (KIRC). We consider pathway analysis to identify all the biological pathways which are active among the patients and investigate the roles of the significant pathways using a differential network analysis of the protein expression datasets for the three cancers separately. We then integrate the pathway based results of all the three cancers which provide a more comprehensive picture of the three cancers.<h4>Results</h4>From our analysis of the protein expression data, overall, RAS and PI3K signaling pathways appear to play the most significant roles in the three cancers - Head and Neck Squamous Cell Carcinoma (HNSC), Lung Adenocarcinoma (LUAD) and Kidney Renal Clear Cell Carcinoma (KIRC).<h4>Conclusion</h4>This analysis suggests that the RAS and PI3K signaling pathways are the two most important pathways in all the three cancers and should be investigated further for their potential roles in cancers.<h4>Reviewers</h4>This article was reviewed by Joaquin Dopazo and Samiran Ghosh."
+  ],
+  "affiliation": [
+    "Department of Biostatistics, University of Florida, Gainesville, FL, 32611, USA."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Meta-Analysis",
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R15 CA170091"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adenocarcinoma"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Carcinoma, Renal Cell"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Carcinoma, Squamous Cell"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Head and Neck Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Lung Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Kidney Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proteome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Signal Transduction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Adenocarcinoma of Lung"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Squamous Cell Carcinoma of Head and Neck"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Cancer",
+        "Protein",
+        "Network",
+        "Signaling pathway",
+        "Icgc"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Proteome"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s13062-016-0168-8"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5168844"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5168844?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2017-12-15"
+  ],
+  "dateOfCreation": [
+    "2016-12-21"
+  ],
+  "firstIndexDate": [
+    "2016-12-21"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-12"
+  ],
+  "dateOfRevision": [
+    "2019-02-21"
+  ],
+  "electronicPublicationDate": [
+    "2016-12-20"
+  ],
+  "firstPublicationDate": [
+    "2016-12-20"
+  ]
+}

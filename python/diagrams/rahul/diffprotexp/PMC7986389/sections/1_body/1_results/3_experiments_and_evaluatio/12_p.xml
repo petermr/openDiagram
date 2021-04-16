@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par33">Next, as control methods, we considered several other kinds of methods of cancer gene prediction. 
+ <list list-type="order">
+  <list-item>
+   <p id="Par34">Randomly select 463 genes (select 100 times and take the average performance).</p>
+  </list-item>
+  <list-item>
+   <p id="Par35">Select the 463 highest-weighted genes, which is a traditional differential expression-based method.</p>
+  </list-item>
+  <list-item>
+   <p id="Par36">Select the set of genes that appear in at least 49.5% MFVSs (we used 49.5% since the number of genes was exactly 463).</p>
+  </list-item>
+ </list>Method (2) uses only weights for classification (i.e., a pure differential expression analysis method), while method (3) uses only graph theoretic results (i.e., a pure network analysis method). Method (3) selects the most common genes that appear in the MFVS. Intuitively, these genes should have great significance in the graph topology. The recalls and precisions of all these methods are listed in Table 
+ <xref rid="Tab5" ref-type="table">5</xref>. Additionally, see Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>.
+</p>

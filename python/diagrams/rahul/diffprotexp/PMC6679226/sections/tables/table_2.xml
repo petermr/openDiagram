@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="ijms-20-03401-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">ijms-20-03401-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Differentially regulated BALF proteins in the LXR/RXR activation and production of NO and ROS in macrophages pathways by I.T. and I.P. LPS compared to the controls.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" colspan="1">Pathways</th>
+    <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">I.T. LPS</th>
+    <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">I.P. LPS</th>
+   </tr>
+   <tr>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">z-Score</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Differentially Regulated Proteins</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">z-Score</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Differentially Regulated Proteins</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="top" rowspan="1" colspan="1">LXR/RXR Activation</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">
+     <styled-content style="color:red">1.71</styled-content>
+    </td>
+    <td align="center" valign="top" rowspan="1" colspan="1">
+     <styled-content style="color:blue">Alb,</styled-content>
+     <styled-content style="color:red"> ApoA1, ApoA2, ApoA4, ApoD, ApoE, C3, C4A/C4B, CD14, Clu, Fga, Gc, Il1rn, Itih4, Kng1, Lbp, Lcat, </styled-content>
+     <styled-content style="color:blue">Lyz2,</styled-content>
+     <styled-content style="color:red"> Mmp9, Pon1, S100A8, Tnfrsf1B</styled-content>
+    </td>
+    <td align="center" valign="top" rowspan="1" colspan="1">
+     <styled-content style="color:blue">−1.07</styled-content>
+    </td>
+    <td align="center" valign="top" rowspan="1" colspan="1">
+     <styled-content style="color:blue">ApoA4, ApoE, </styled-content>
+     <styled-content style="color:red">Hpx,</styled-content>
+     <styled-content style="color:blue"> Il1rap, </styled-content>
+     <styled-content style="color:red">Lcat,</styled-content>
+     <styled-content style="color:blue"> Ldlr, Lpl, Lyz1, Pltp, Pon1, Rbp4, </styled-content>
+     <styled-content style="color:red">Saa1,</styled-content>
+     <styled-content style="color:blue"> Serpina1, Serpinf1, Ttr</styled-content>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">NO &amp; ROS Production in Macrophages</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <styled-content style="color:red">1.89</styled-content>
+    </td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <styled-content style="color:blue">Alb,</styled-content>
+     <styled-content style="color:red"> ApoA1, ApoA2, ApoA4, ApoD, ApoE, Clu, </styled-content>
+     <styled-content style="color:blue">Fgfr2</styled-content>
+     <styled-content style="color:blue">, Lyz2,</styled-content>
+     <styled-content style="color:red"> Mapk14, Mpo, Ncf1, Ncf4, Pon1, Ppp1CA, Ppp2R1A, Ptpn6, Rhog, S100A8, Tnfrsf1B</styled-content>
+    </td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <styled-content style="color:blue">−2.12</styled-content>
+    </td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <styled-content style="color:blue">ApoA4, ApoE</styled-content>
+     <styled-content style="color:blue">, Fgfr2, Lyz1, </styled-content>
+     <styled-content style="color:red">Mark3,</styled-content>
+     <styled-content style="color:blue"> Pon1, Rbp4, Serpina1</styled-content>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>BALF, bronchoalveolar lavage fluid; LXR/RXR, liver X receptor/retinoid X receptor; NO, nitric oxide; ROS, reactive oxygen species; red, up-regulated; blue, down-regulated.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

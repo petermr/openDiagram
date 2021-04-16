@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">DESeq normalized expression values were used to calculate fold change for a given transcript. The genes exhibiting a significant difference between treatment and control samples (at least two-fold changes with 
+ <italic>P</italic>-value ≤ 0.05) were considered to be differentially expressed. The regulation for each transcript was assigned based on log2fold change. The transcripts with a log2fold change less than − 1 were down-regulated, those with values greater than 1 were up-regulated and those between − 1 to 1 were termed as neutrally regulated. Total 345,729 transcripts were differentially expressed between control and treated samples of 
+ <italic>Urochondra</italic> with 120,231 trancsripts at EC 30 dS/m, 113,280 trancsripts at EC 40 dS/m and 112,218 at EC 50 dS/m w.r.t. control. Of the total transcripts expressed, 68,455 transcripts were up-regulated, 69,759 transcripts were down-regulated and 207,515 transcripts were neutrally regulated. The Venn diagram constructed using Venny 2.1 (
+ <ext-link ext-link-type="uri" xlink:href="https://bioinfogp.cnb.csic.es/tools/venny/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">https://bioinfogp.cnb.csic.es/tools/venny/index.html</ext-link>) reveals that 1,065 transcripts (2.8%) were commonly up-regulated at EC 30 and 40 dS/m, 11,209 (29.2%) transcripts between EC 40 and 50 dS/m and 1627 transcripts (4.2%) were common at EC 30 and 50 dS/m in 
+ <italic>Urochondra</italic> (Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>). Similarly, 1234 transcripts (2.4%) were down-regulated at salinity levels of EC 30 and 40 dS/m, 18,151 transcripts (35.7%) at EC 40 and 50 dS/m and only 842 transcripts (1.7%) were commonly down-regulated at EC 30 and 50 dS/m. Heatmap was generated for top 20 up and down-regulated transcripts between control and treated 
+ <italic>Urochondra</italic> samples (Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref>) using Clustvis (
+ <ext-link ext-link-type="uri" xlink:href="http://biit.cs.ut.ee/clustvis/" xmlns:xlink="http://www.w3.org/1999/xlink">http://biit.cs.ut.ee/clustvis/</ext-link>). In the heatmap, the green coloured bands identify high gene expression while the red colour represents the low gene expression level.
+</p>

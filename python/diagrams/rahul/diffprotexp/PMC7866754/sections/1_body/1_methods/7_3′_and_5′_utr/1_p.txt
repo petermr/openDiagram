@@ -1,0 +1,6 @@
+0: Unlike other well-characterized genomes, information about the untranslated regions of  P. falciparum is relatively scarce [ 52], where the majority of research has been focussed on coding sequences only.
+1: Therefore, the first attempt to extract 3 and 5 UTRs by subtracting coding sequence from the genomic coordinates of mRNAs failed, because they are of equal lengths.
+2: BEDtools intersect was combined with length filtering to find MSTRG transcripts with complete overlap with a reference gene, and are also longer than the overlapped gene.
+3: These transcripts contain extended region on the 3 and/or 5 end outside coding sequence and regarded as UTRs accordingly.
+4: The UTRs were then translated into protein sequence to check if any peptides can confirm their translation.
+5: Similarly, peptides from UTRs need to be in-frame with the parent reference gene to be considered, otherwise moved to the AltORFs category.

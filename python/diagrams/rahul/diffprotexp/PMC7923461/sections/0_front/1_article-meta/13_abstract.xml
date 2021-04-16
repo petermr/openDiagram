@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">TUBA1C is a microtubule component that is involved in a variety of cancers. Our main objective was to investigate TUBA1C expression, its prognostic value, its potential biological functions, and its impact on the immune system of patients with lung adenocarcinoma (LUAD).</p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">The Cancer Genome Atlas (TCGA), Gene Expression Profiling Interactive Analysis (GEPIA) and Immunohistochemistry Analysis were used to analyze TUBA1C expression, its clinicopathology, overall survival (OS), and disease-free survival (DFS) in LUAD patients. We also determined the correlation between TUBA1C and tumor-infiltrating immune cells (TIICs) by using CIBERSORT and GEPIA databases. To determine the expression of TUBA1C in LUAD, we analyzed a collection of immune infiltration levels and cumulative survival of LUAD tissues in TIMER database. By using UALCAN, STRING, and GeneMANIA databases, we investigated the protein-coding genes related to TUBA1C and its co-expression genes in LUAD tissues. Gene set enrichment analysis (GSEA) was performed by using the TCGA dataset.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">The mRNA and the protein expression of TUBA1C were found to be up-regulated in LUAD tissues. The univariate analysis indicated that an increased expression of TUBA1C was significantly correlated to the following parameters: age, stage, and lymph node metastasis. An over-expression of TUBA1C was associated with a poor prognosis of LUAD. In TIMER and CIBERSORT databases, we found that TUBA1C is correlated with 13 types of TIICs: activated B cell, activated CD4 T cell, central memory CD4 T cell, effector memory CD8 T cell, eosinophils, immature B cell, gamma-delta T cell, immature dendritic cell, mast cell, memory B cell, natural killer T cell, regulatory T cell, and type 2T helper cell. By performing GSEA, we found that TUBA1C is closely correlated to cell cycle, p53 signaling pathway, glycolysis, and gluconeogenesis.</p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par4">Our findings indicate that TUBA1C is associated with TIICs in tumor microenvironment. Therefore, it serves as a novel prognostic biomarker and a target for future treatment methods of LUAD.</p>
+ </sec>
+ <sec>
+  <title>Supplementary Information</title>
+  <p>The online version contains supplementary material available at 10.1186/s12935-021-01849-4.</p>
+ </sec>
+</abstract>

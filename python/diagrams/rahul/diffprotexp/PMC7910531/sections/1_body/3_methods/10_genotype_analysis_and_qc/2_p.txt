@@ -1,0 +1,7 @@
+0: Prior to imputation, all genotypes were combined into a single dataset containing 111 patients and 504,235 overlapping variants.
+1: Further QC was performed to exclude any variants with strand, position and allele frequency differences compared to the HRC panel 45 using a HRC preparation checking tool ( http://www.well.ox.ac.uk/~wrayner/tools/; v4.2.7).
+2: The resulting dataset contained 111 patients and 389,511 variants.
+3: We imputed up to HRC panel (v1.1 2016) using the Michigan imputation server ( https://imputationserver.sph.umich.edu/index.html) 46 with Eagle2 (v2.3) phasing.
+4: Post-HRC imputation we used a post-imputation data checking programme ( http://www.well.ox.ac.uk/~wrayner/tools/Post-Imputation.html; v1.0.2) to visualise the results and we excluded variants with poor imputation quality ( R2 < 0.3) and pHWE<1  10 4.
+5: We excluded two patients due to absence of RNA and protein data.
+6: The resulting final dataset contained 10,249,108 autosomal variants and 109 patients.

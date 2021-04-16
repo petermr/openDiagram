@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Due to gene annotation differences between species, we annotated all orthologous PAS to the human NCBI RefSeq annotation downloaded from UCSC Genome Browser (
+ <xref rid="bib64" ref-type="bibr">Pruitt et al., 2004</xref>). We used a hierarchical model to assign PAS to genic locations (
+ <xref rid="bib45" ref-type="bibr">Lin et al., 2012</xref>; 
+ <xref rid="bib51" ref-type="bibr">Mittleman et al., 2020</xref>). We prioritized annotations in the following order: 3' UTRs (UTR5), 5 kb downstream of genes (end), exons (cds), 5' UTRs (UTR5), and introns (intron). We quantified reads mapping to each annotated PAS for each individual in both the total RNA libraries and nuclear RNA libraries using featureCounts with the -s strand specificity flag (
+ <xref rid="bib44" ref-type="bibr">Liao et al., 2014</xref>). We calculated usage for each PAS in each library as a ratio of reads mapping to the PAS divided by the number of reads mapping to any PAS in the same gene (
+ <xref ref-type="fig" rid="fig1s2">Figure 1—figure supplement 2</xref>). We implemented two filtering steps to remove PAS with ratios likely biased by low site count or low gene count separately in each fraction.
+</p>

@@ -1,0 +1,9 @@
+0: Quality of sequencing data was assessed with FastQC (version 0.11.5;  http://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
+1: Quality and adapter trimming was performed using the BBMap package BBDuk ( https://sourceforge.net/projects/bbmap/) (with options ktrim = r, k = 23, mink = 11, tpe, tbo, qtrim = rl.
+2: trimq = 15, maq = 20, minlen = 70).
+3: Only reads with an average Phred quality score of 20 and a minimum length of 70 bp were used in downstream analyses.
+4: De novo assembly of trimmed reads was performed using Trinity (version 2.6.6) 37 using default parameters.
+5: The assembly was filtered using TransRate (version 1.0.3) 38 and redundant transcripts (with a minimum similarity of 95%) were removed using cd-hit-est (version 4.7) 39.
+6: To assess the quality of the final transcriptome assembly, the percentage of raw reads represented in the assembly was estimated by mapping with Bowtie2 (version 2.3.4.1) 40 and assembly completeness according to conserved metazoan ortholog content was assessed using BUSCO (Benchmarking Universal Single-Copy Orthologs, version 3.0.1) 41.
+7: Transcript abundance was determined using Salmon (version 0.9.1) 42 and differential expression analysis was performed using the Bioconductor software package edgeR (version 3.16) 43.
+8: Differentially expressed transcripts between captive and wild mussels were defined as those with a  p-value of  p <  0.05 and a minimum fold-change of 2.

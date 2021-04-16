@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Survival analysis was performed by applying the R software package “survminer” (Version 0.4.7) and “survival” (Version 2.44.1.1). Patients included in the survival analysis must have both gene expression data and corresponding survival clinical data. A total of 499 individuals were eventually included in the survival analysis. Tumors were categorized into high and low scoring groups based on the above microenvironmental scores, and the survival differences between the groups were compared. Also, patients were grouped according to their gender, followed by survival analysis. Survival curves were plotted using the Kaplan-Meier method. A 
+ <italic>P</italic> value &lt; 0.05 of the log-rank test was considered statistically significant.
+</p>

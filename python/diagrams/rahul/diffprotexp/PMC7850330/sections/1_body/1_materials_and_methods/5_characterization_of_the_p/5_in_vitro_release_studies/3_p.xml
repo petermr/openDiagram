@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To define the release mechanism of loratadine and sulpiride from the selected nanoemulsions (F2, F3), data was fitted into different kinetic models:
+ <list list-type="simple">
+  <list-item>
+   <p>Zero order 
+    <italic>R</italic>=
+    <italic>K</italic>0
+    <italic>t</italic> (Sood &amp; Panchagnula, 
+    <xref rid="CIT0052" ref-type="bibr">1998</xref>)
+   </p>
+  </list-item>
+  <list-item>
+   <p>
+    <inline-formula id="ilm0001">
+     <alternatives>
+      <inline-graphic xlink:href="IDRD_A_1872741_ILM0001.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <math id="d2e729">
+       <mtext>First order:</mtext>
+       <mo> </mo>
+       <mi>R</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+       <mo>−</mo>
+       <msup>
+        <mrow>
+         <mi>e</mi>
+        </mrow>
+        <mrow>
+         <mo>−</mo>
+         <mi>k</mi>
+         <mn>1</mn>
+        </mrow>
+       </msup>
+       <mi>t</mi>
+      </math>
+     </alternatives>
+    </inline-formula> (Carbinatto et al., 
+    <xref rid="CIT0013" ref-type="bibr">2014</xref>)
+   </p>
+  </list-item>
+  <list-item>
+   <p>
+    <inline-formula id="ilm0002">
+     <alternatives>
+      <inline-graphic xlink:href="IDRD_A_1872741_ILM0002.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <math id="d2e753">
+       <mtext>Higuchi diffusion model:</mtext>
+       <mo> </mo>
+       <mi>Q</mi>
+       <mo>=</mo>
+       <mi>K</mi>
+       <mi>H</mi>
+       <mo>×</mo>
+       <msup>
+        <mrow>
+         <mi>t</mi>
+        </mrow>
+        <mrow>
+         <mn>1</mn>
+         <mo>/</mo>
+         <mn>2</mn>
+        </mrow>
+       </msup>
+      </math>
+     </alternatives>
+    </inline-formula> (Higuchi, 
+    <xref rid="CIT0026" ref-type="bibr">1963</xref>)
+   </p>
+  </list-item>
+  <list-item>
+   <p>
+    <inline-formula id="ilm0003">
+     <alternatives>
+      <inline-graphic xlink:href="IDRD_A_1872741_ILM0003.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <math id="d2e777">
+       <mi mathvariant="normal">Baker</mi>
+       <mo>–</mo>
+       <mtext>Lonsdale model:</mtext>
+       <mo> </mo>
+       <mi mathvariant="normal"> </mi>
+       <mn>3</mn>
+       <mo>⁄</mo>
+       <mn>2</mn>
+       <mo>[</mo>
+       <mn>1</mn>
+       <mo>−</mo>
+       <mo stretchy="false">(</mo>
+       <mn>1</mn>
+       <mo>−</mo>
+       <mi>M</mi>
+       <mi>t</mi>
+       <mo>⁄</mo>
+       <mi>M</mi>
+       <mi mathvariant="normal">∞</mi>
+       <mo stretchy="false">)</mo>
+       <mi mathvariant="normal"> </mi>
+       <mn>2</mn>
+       <mo>⁄</mo>
+       <mn>3</mn>
+       <mo>]</mo>
+       <mo>−</mo>
+       <mi>M</mi>
+       <mi>t</mi>
+       <mo>⁄</mo>
+       <mi>M</mi>
+       <mi mathvariant="normal">∞</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mi mathvariant="normal"> </mi>
+       <mi>K</mi>
+       <mn>3</mn>
+       <mi>t</mi>
+      </math>
+     </alternatives>
+    </inline-formula> (Baker &amp; Lonsdale, 
+    <xref rid="CIT0006" ref-type="bibr">1974</xref>)
+   </p>
+  </list-item>
+  <list-item>
+   <p>
+    <inline-formula id="ilm0004">
+     <alternatives>
+      <inline-graphic xlink:href="IDRD_A_1872741_ILM0004.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <math id="d2e836">
+       <mi mathvariant="normal">Hixson</mi>
+       <mo>–</mo>
+       <mtext>Crowell cube root law:</mtext>
+       <mo> </mo>
+       <msup>
+        <mrow>
+         <mi>U</mi>
+         <mi>R</mi>
+        </mrow>
+        <mrow>
+         <mn>1</mn>
+         <mo>/</mo>
+         <mn>3</mn>
+        </mrow>
+       </msup>
+       <mo>=</mo>
+       <msub>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mrow>
+         <mn>4</mn>
+        </mrow>
+       </msub>
+       <mi>t</mi>
+      </math>
+     </alternatives>
+    </inline-formula> (Chawla et al., 
+    <xref rid="CIT0014" ref-type="bibr">2000</xref>)
+   </p>
+  </list-item>
+ </list>
+</p>

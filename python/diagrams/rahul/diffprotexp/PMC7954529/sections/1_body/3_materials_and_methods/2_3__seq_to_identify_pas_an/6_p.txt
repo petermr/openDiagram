@@ -1,0 +1,9 @@
+0: To ensure gene expression level did not introduce ascertainment bias, we tested the relationship between PAS number and normalized gene expression.
+1: In both species, the number of PAS is negatively correlated with normalized gene expression (human: Pearsons correlation = 0.19, p<2.210 16; chimpanzee: Pearsons correlation = 0.17, p<2.210 16;  Figure 1figure supplement 6).
+2: We expected species to contribute the most amount of variation to PAS usage.
+3: We ran principal component analysis (PCA) on the filtered nuclear PAS usage.
+4: PC1 accounts for 41.8% of the variation and is highly correlated with species (R 2 = 0.68).
+5: PC2 accounts for 13.1% of the variation and is moderately correlated with RNA extraction technician (R 2 = 0.38) and extraction day (R 2 = 0.28).
+6: As both of these variables are balanced with respect to species, we do not believe they bias the results ( Figure 1figure supplement 5).
+7: We identified 302 sites used at a rate of 5% or greater in humans and 0% in chimpanzees, which we designated as human-specific.
+8: We identified 357 sites used at a rate of 5% or greater in chimpanzee and 0% in humans, which we designated as chimp-specific.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The reference genome sequence information of 
+ <italic>Solanum tuberosum</italic> Group Phureja DM1-3 and the FPKM values of all the representative transcripts were retrieved from Spud DB. The FPKM values were calculated by Cufflinks (v1.3.0) using v3.4 in the Spud DB database representative models for complete annotation (
+ <ext-link ext-link-type="uri" xlink:href="http://solanaceae.plantbiology.msu.edu/data/potato_dm_v404" xmlns:xlink="http://www.w3.org/1999/xlink">http://solanaceae.plantbiology.msu.edu/data/Potato_dm_v404</ext-link>). The relative intensity levels (heat map) and linkage hierarchical cluster analysis were performed using multiple experiments viewer (MeV 4.9.0) with differential gene expression of 
+ <italic>StbZIPs</italic> under various stress conditions [
+ <xref rid="pone.0247864.ref036" ref-type="bibr">36</xref>–
+ <xref rid="pone.0247864.ref038" ref-type="bibr">38</xref>]. Expression levels are shown as FPKM’s log 2 ratios between control and treatment samples using Pearson uncentered distance as a statistical method. The color represents the logarithmic intensity of the expressed 
+ <italic>StbZIPs</italic>, in color with high and low expression.
+</p>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="ijms-22-01399-f004" orientation="portrait" position="float">
+ <label>Figure 4</label>
+ <caption>
+  <p>Identification of the CTC sub-populations, clustered based on the Golgi fragmentation gene list. (
+   <bold>a</bold>) 
+   <italic>t</italic>SNE map visualizing clusters of circulating breast cancer cells identified with k-means clustering. (
+   <bold>b</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their pseudo-time ordering. (
+   <bold>c</bold>) A heatmap portrayal of cell-to-cell distances; cluster centers were ordered by hierarchic clustering. (
+   <bold>d</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their 
+   <italic>DGKD</italic> expression. (
+   <bold>e</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their 
+   <italic>PTCRA</italic> expression. (
+   <bold>f</bold>) The plot from (
+   <bold>a</bold>) with cells colored based on their 
+   <italic>KRT18</italic> expression.
+  </p>
+ </caption>
+ <graphic xlink:href="ijms-22-01399-g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

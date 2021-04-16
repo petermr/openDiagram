@@ -1,0 +1,8 @@
+0: Experiments were performed on a Q Exactive mass spectrometer that was coupled to Easy nLC (Thermo Fisher Scientific).
+1: A sample (10 L) of each fraction was injected for the nano LC-MS/MS analysis.
+2: The peptide mixture (5 g) was loaded onto a C18-reversed phase column (Thermo Scientific Easy Column, 10 cm long, 75 m inner diameter, 3 m resin) in buffer A (0.1% formic acid) and separated with a linear gradient of buffer B (80% acetonitrile and 0.1% formic acid) at 250 nl/min controlled by IntelliFlow technology for 140 min.
+3: MS data were acquired using a data-dependent top10 method dynamically choosing the most abundant precursor ions from the survey scan (3001800 m/z) for HCD fragmentation.
+4: Determination of the target value was based on predictive Automatic Gain Control (pAGC).
+5: The dynamic exclusion duration was 60 s. Survey scans were acquired at a resolution of 70,000 at m/z 200, and the resolution for HCD spectra was set to 17,500 at m/z 200.
+6: The normalized collision energy was 30 eV, and the underfill ratio, which specifies the minimum percentage of the target value likely to be reached at maximum fill time, was defined as 0.1%.
+7: The instrument was run with the peptide recognition mode enabled.

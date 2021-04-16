@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0008" orientation="portrait" position="float">
+ <label>Table 8.</label>
+ <caption>
+  <p>List of primers</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left">
+     <underline>Gene</underline>
+    </th>
+    <th align="center">
+     <underline>Primer</underline>
+    </th>
+    <th align="center">
+     <underline>Sequence (5ʹ-3ʹ)</underline>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="2" align="left">
+     <italic toggle="yes">Cebpa</italic>
+    </td>
+    <td align="center">F</td>
+    <td align="center">AAACAACGCAACGTGGAGA</td>
+   </tr>
+   <tr>
+    <td align="center">R</td>
+    <td align="center">GCGGTCATTGTCACTGGTC</td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="left">
+     <italic toggle="yes">Cebpb</italic>
+    </td>
+    <td align="center">F</td>
+    <td align="center">ATCGACTTCAGCCCCTACCT</td>
+   </tr>
+   <tr>
+    <td align="center">R</td>
+    <td align="center">TAGTCGTCGGCGAAGAGG</td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="left">
+     <italic toggle="yes">Fabp4 (aP2)</italic>
+    </td>
+    <td align="center">F</td>
+    <td align="center">GGATGGAAAGTCGACCACAA</td>
+   </tr>
+   <tr>
+    <td align="center">R</td>
+    <td align="center">TGGAAGTCACGCCTTTCATA</td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="left">
+     <italic toggle="yes">Lpl</italic>
+    </td>
+    <td align="center">F</td>
+    <td align="center">GGGAGTTTGGCTCCAGAGTTT</td>
+   </tr>
+   <tr>
+    <td align="center">R</td>
+    <td align="center">TGTGTCTTCAGGGGTCCTTAG</td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="left">
+     <italic toggle="yes">Adipoq</italic>
+    </td>
+    <td align="center">F</td>
+    <td align="center">TGTTCCTCTTAATCCTGCCCA</td>
+   </tr>
+   <tr>
+    <td align="center">R</td>
+    <td align="center">CCAACCTGCACAAGTTCCCTT</td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="left">
+     <italic toggle="yes">βactin</italic>
+    </td>
+    <td align="center">F</td>
+    <td align="center">CATTGCTGACAGGATGC</td>
+   </tr>
+   <tr>
+    <td align="center">R</td>
+    <td align="center">TGCTGGAAGGTGGACA</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

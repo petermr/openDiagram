@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Mann–Whitney or Kruskal–Wallis tests followed by Dunn’s multiple comparison tests correction were used to test the difference in gene expressions among subject groups. Mean, median, interquartile range (IQR), standard deviation (SD), area under the receiver operating characteristic curve (AUROCC) values and 95% confidence intervals (CI) were assessed using Prism 6 (GraphPad Software). The classification accuracy of the 12 gene signature was determined using the randomForest machine learning R package (v. 4.16) [
+ <xref rid="CIT0017" ref-type="bibr">17</xref>] applied to the qRT-PCR data. The AUROCC curve was visualised using the pROC package (v. 1.10).
+</p>

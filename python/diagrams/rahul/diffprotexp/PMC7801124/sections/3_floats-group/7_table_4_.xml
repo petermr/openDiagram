@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0004" orientation="portrait" position="float">
+ <label>Table 4.</label>
+ <caption>
+  <p>Endogenous and Exogenous Modulators of ASIC3. Categorized into their excitatory/agonist or inhibitory/antagonist effects on the peak transient and sustained currents, data is inclusive of both human and rodent ASIC3. 4-AP – 4-aminopyridine, 5-HT – Serotonin, AA – Arachidonic Acid, ATP – Adenosine Triphosphate, DTT – 1,4-Dithiothreitol, EGCG – (‐)‐Epigallocatechin Gallate, GMQ – 2-Guanidine-4-methylquinazoline, LPC – Lysophosphatidylcholine, NPSF – Neuropeptide SF, SNAP – S-nitroso-N-acetylpenicillamine, SP – Substance P, THP – tetrahydropapaveroline, TPEN – N,N,N’,N’–tetrakis-(2-piridilmetil)-etilendiamina</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th align="left"> </th>
+    <th align="center">Excitatory/Agonist</th>
+    <th align="center">Inhibitory/Antagonist</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">Transient</td>
+    <td align="left">ATP, DTT, Lactate, Reticuline, SNAP, THP, TPEN</td>
+    <td align="left">α-Dendrotoxin, 4-AP, Amiloride, APETx2, BM-21, Ca
+     <sup>2+</sup>, Cd
+     <sup>2+</sup>, CGA, Cu
+     <sup>2+</sup>, Diminazene, EGCG, Gd
+     <sup>3+</sup>, Hcr 1b-1, Ligustrazine, Mg
+     <sup>2+</sup>, Ni
+     <sup>2+</sup>, NS383, Pb
+     <sup>2+</sup> [
+     <xref ref-type="bibr" rid="cit0009">9</xref>,
+     <xref ref-type="bibr" rid="cit0223">223</xref>,
+     <xref ref-type="bibr" rid="cit0223">223</xref>], PhcrTx1, Propofol, Thalassiolin B, Zn
+     <sup>2+</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Sustained</td>
+    <td align="left">5-HT, Chloroquine, FMMRamide, NPFF, NPSF, Sephin1, SL-NH2, SP</td>
+    <td align="left">Aspirin, Diclofenac Acid, Gastrodin, Salicylic Acid, Tetracaine</td>
+   </tr>
+   <tr>
+    <td align="left">Both</td>
+    <td align="left">AA, GMQ, Guanabenz, Agmatine, Arcaine, Hyperosmolarity, Lindoldhamine, LPC, YPFFamide/Endomorphin-2, YPWFamide/Endomorphin-1</td>
+    <td align="left">A-317,567, Nafamostat Mesilate, Sevanol, Ugr9-1</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

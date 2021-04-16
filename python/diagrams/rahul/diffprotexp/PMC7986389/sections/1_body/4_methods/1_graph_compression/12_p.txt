@@ -1,0 +1,4 @@
+0: Note that not all MFVSs of the original graph can be obtained from the above method.
+1: Some MFVSs are lost in the  ignore operation, while in a weighted MFVS problem, the lost MFVSs may have the maximum weight.
+2: For the weighted case, we modify the  ignore operation to consider the weights of vertices (only for positive-weighted cases).
+3: The following method ensures that the maximum-weight MFVS (the WMFVS) will not be lost:

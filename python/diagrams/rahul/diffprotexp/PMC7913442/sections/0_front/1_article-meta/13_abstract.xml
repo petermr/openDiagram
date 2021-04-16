@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Adult granulosa cell tumor (aGCT) is a rare type of stromal cell malignant cancer of the ovary characterized by elevated estrogen levels. aGCTs ubiquitously harbor a somatic mutation in 
+   <italic>FOXL2</italic> gene, Cys134Trp (c.402C &lt; G); however, the general molecular effect of this mutation and its putative pathogenic role in aGCT tumorigenesis is not completely understood. We previously studied the role of FOXL2
+   <sup>C134W</sup>, its partner SMAD3 and its antagonist FOXO1 in cellular models of aGCT.
+  </p>
+ </sec>
+ <sec>
+  <title>Methods</title>
+  <p id="Par2">In this work, seeking more comprehensive profiling of FOXL2
+   <sup>C134W</sup> transcriptomic effects, we performed an RNA-seq analysis comparing the effect of FOXL2
+   <sup>WT</sup>/SMAD3 and FOXL2
+   <sup>C134W</sup>/SMAD3 overexpression in an established human GC line (HGrC1), which is not luteinized, and bears normal alleles of 
+   <italic>FOXL2</italic>.
+  </p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par3">Our data shows that FOXL2
+   <sup>C134W</sup>/SMAD3 overexpression alters the expression of 717 genes. These genes include known and novel FOXL2 targets (
+   <italic>TGFB2</italic>, 
+   <italic>SMARCA4</italic>, 
+   <italic>HSPG2</italic>, 
+   <italic>MKI67</italic>, 
+   <italic>NFKBIA</italic>) and are enriched for neoplastic pathways (Proteoglycans in Cancer, Chromatin remodeling, Apoptosis, Tissue Morphogenesis, Tyrosine Kinase Receptors). We additionally expressed the FOXL2 antagonistic Forkhead protein, FOXO1. Surprisingly, overexpression of FOXO1 mitigated 40% of the altered genome-wide effects specifically related to FOXL2
+   <sup>C134W</sup>, suggesting it can be a new target for aGCT treatment.
+  </p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par4">Our transcriptomic data provide novel insights into potential genes (FOXO1 regulated) that could be used as biomarkers of efficacy in aGCT patients.</p>
+ </sec>
+</abstract>

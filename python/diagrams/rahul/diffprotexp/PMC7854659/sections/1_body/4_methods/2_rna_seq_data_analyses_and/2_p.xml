@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">The RStudio
+ <sup>
+  <xref ref-type="bibr" rid="CR78">78</xref>
+ </sup> v. 1.1.442 environment for R
+ <sup>
+  <xref ref-type="bibr" rid="CR79">79</xref>
+ </sup> v.3.5.1. was used for data analyses as described below. Post-mapping quality control was performed using MultiQC, NOISeq v.2.26.0
+ <sup>
+  <xref ref-type="bibr" rid="CR80">80</xref>
+ </sup> (10.18129/B9.bioc.NOISeq), and edgeR v.3.24.0
+ <sup>
+  <xref ref-type="bibr" rid="CR81">81</xref>
+ </sup> (10.18129/B9.bioc.edgeR). Read counts were transformed to counts per million (CPM), and lowly expressed genes (CPM &lt; 1 in 80% of the samples) were filtered out. Gene expression normalization was performed under two approaches: (1) across all samples and the three tissues together and (2) across all samples but individually for each tissue. Both procedures were performed using the 
+ <italic>VST</italic> function from DESeq2 v.1.22.1
+ <sup>
+  <xref ref-type="bibr" rid="CR82">82</xref>
+ </sup> (10.18129/B9.bioc.DESeq2). To control gene expression for sex effect, fetal sex was included in the DESeq2 model as a factor. Hierarchical clustering and Principal Component Analysis on normalized data were performed by using NOISeq v.2.26.0
+ <sup>
+  <xref ref-type="bibr" rid="CR80">80</xref>
+ </sup> and DESeq2 v.1.22.1
+ <sup>
+  <xref ref-type="bibr" rid="CR82">82</xref>
+ </sup>. Normalized gene expression (
+ <italic>n</italic> = 17,164) from the first approach was used to predict TS genes, to predict the key regulators (TFs), and to build the tissue-to-tissue network. On the second approach, besides removing genes with low expression based on the CPM criterion, genes with low dispersion after normalization were filtered out when the quantile dispersion measure was &lt; 0.2. Further, the normalized data were used for tissue condition-specific networks construction, differential connectivity, and differential gene co-expression analyses. A summary of the workflow is shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>.
+</p>

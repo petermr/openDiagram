@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">NetworkAnalyst (
+ <ext-link ext-link-type="uri" xlink:href="http://www.networkanalyst.ca" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.networkanalyst.ca</ext-link>) database [
+ <xref ref-type="bibr" rid="CR18">18</xref>] is a comprehensive visualization analysis platform for gene expression profiling and meta-analysis designed to meet the demands of PPI networks to interpret gene expression data. It can conduct gene expression profile analysis of 17 different species. In addition to the general PPI network, it can also create cell type or tissue specific PPI networks, gene regulation networks, gene co-expression networks, and pharmacogenomics research networks. To further understand the TFs that regulate the hub gene and immune differential genes, we obtained the TFs of regulating hub gene through the NetworkAnalyst database based on the data provided on ChEA.
+</p>

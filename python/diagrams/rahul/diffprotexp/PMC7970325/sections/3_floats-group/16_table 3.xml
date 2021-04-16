@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl3">
+ <label>Table 3</label>
+ <caption>
+  <p>DNA repair genes linked with the radioiodine resistant thyroid cancer samples.</p>
+ </caption>
+ <alt-text id="alttext0165">Table 3</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Gene ID</th>
+    <th>Gene function according to GeneCards database [
+     <xref rid="bib62" ref-type="bibr">62</xref>]
+    </th>
+    <th>Relevant DNA repair pathways</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>
+     <italic>CDC42</italic>
+    </td>
+    <td>
+     <italic>CDC42</italic> encodes a small GTPase of the Rho subfamily that regulates signaling pathways controlling cell morphology, migration, endocytosis, and cell cycle progression.
+    </td>
+    <td>• p53 Signaling Pathway</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>GTF2H2C</italic>
+    </td>
+    <td>Component of the core-TFIIH basal transcription factor involved in nucleotide excision repair of DNA and, when complexed to CDK activating kinase, in RNA transcription by RNA polymerase II.</td>
+    <td>• KEGG Nucleotide excision repair pathwayp2p
+     <break/>• Reactome Formation of transcription coupled NER TC NER repair complex pathway
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <italic>RFC5</italic>
+    </td>
+    <td>
+     <italic>RFC5</italic> encodes the smallest subunit of the factor C complex required for DNA replication. This subunit interacts with the C-terminus of PCNA protein and loads it onto DNA during S-phase of the cell cycle. 
+     <italic>RFC5</italic> is a member of the AAA+ (ATPases associated with various cellular activities) family and forms a core complex with the other two subunits that possesses DNA-dependent ATPase activity.
+    </td>
+    <td>• Mismatch Repair in Eukaryotes Pathway,
+     <break/>• KEGG Mismatch repair pathway,
+     <break/>• KEGG Nucleotide excision repair pathway,
+     <break/>• NCI ATR signaling Pathway regulation of double strand break repair via homologous recombination,
+     <break/>• NCI ATR signaling Pathway negative regulation of transcription during mitosis via CHEK1,
+     <break/>• NCI ATR signaling Pathway response to G2 M transition DNA damage checkpoint signal,
+     <break/>• Reactome Repair synthesis for gap filling by DNA polymerase in TC NER pathway,
+     <break/>• NCI ATR signaling pathway,
+     <break/>• NCI Fanconi anemia pathway
+     <break/>• NCI Fanconi anemia pathway (Sister Chromatid Exchange Process)
+     <break/>• NCI Fanconi anemia pathway (regulation of double strand break repair via homologous recombination)
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <italic>RBX1</italic>
+    </td>
+    <td>
+     <italic>RBX1</italic> encodes a RING finger-like domain-containing protein that interacts with cullin proteins and likely plays a role in ubiquitination processes necessary for cell cycle progression and DNA repair.
+    </td>
+    <td>• KEGG Nucleotide excision repair pathway</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>RPS27A</italic>
+    </td>
+    <td>Ubiquitin has a major role in targeting cellular proteins for proteasomal degradation, is synthesized as a precursor protein consisting of either polyubiquitin chains or a single ubiquitin fused to an unrelated protein. 
+     <italic>RPS27A</italic> encodes a fusion protein consisting of ubiquitin at the N terminus and ribosomal protein S27a at the C terminus.
+    </td>
+    <td>• reactome Fanconi Anemia pathway</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,4 @@
+0: Proteins were identified by peptide mass fingerprinting and peptide sequencing using a Dionex Utimate 3000 capillary LC system on line with LTQ-Fourier Transform (FT) mass spectrometer (Thermo Electron Corp., Bremen, Germany) at the Center for Proteomics and Bioinformatics, Case Western Reserve University.
+1: The tandem mass spectra were annotated and peak list files were generated.
+2: The resulting peak list files were then used to interrogate sequences present in the indexed IPI mouse database with the Mascot algorithm (Matrix Science).
+3: A positive identification was accepted when a minimum of two peptide monoisotopic masses matched a particular protein with sequence coverage 10%, and low expectation value (p< 0.05).

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Similar to the RNA-seq analysis process, the raw reads were subjected to QC, and trimmed, and m6A-enriched peaks were obtained by mapped to hg38. StringTie (version: 1.3.0) was performed for each gene count from trimmed reads.
+ <xref rid="cit0021" ref-type="bibr">21</xref> Gene counts were normalized by TMM,
+ <xref rid="cit0022" ref-type="bibr">22</xref> and FPKM was performed using Perl script.
+ <xref rid="cit0023" ref-type="bibr">23</xref> EdgeR was used to determine differential gene expression,
+ <xref rid="cit0024" ref-type="bibr">24</xref> with significance determined by a p-value &lt;0.05 and an absolute value of a fold change &gt;2.
+ <xref rid="cit0025" ref-type="bibr">25</xref>
+</p>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par7">The hippocampus is a critical and extensively studied brain region with important roles in the limbic system, such as regulating memory formation, behavior, and emotion. Hippocampal neurons are spatially organized into regions or subfields, i.e., the 
+ <italic>Cornu Ammonis</italic> fields CA1, CA2, CA3, and dentate gyrus (DG). Increasing evidence supports functional differences between and within subfields
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>, yet the molecular determinants underlying these differences are not well understood. To investigate this question at the transcriptomic level, we analyzed RNA-seq data
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup> from excitatory pyramidal neurons isolated from different CA1 and CA3 regions of the mouse hippocampus, including the dorsal, proximal-distal, and ventral subsections (Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref> and Supplementary Data 
+ <xref rid="MOESM2" ref-type="media">1</xref>). We applied Salmon
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup> to profile GE, VAST-TOOLS
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>,
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup> and Whippet
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup> to profile AS, and QAPA
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup> to profile APA (Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>). In this analysis, AS differences were separately quantified for exon sequence-containing events (i.e., simple and complex cassette exons, microexons, and alternative 5′ and 3′ splice sites) and intron retention (IR) events.
+</p>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">To measure steady-state gene expression levels, Salmon
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup> was used to measure transcript abundance, based on mouse (mm10) GENCODE whole transcript annotations
+ <sup>
+  <xref ref-type="bibr" rid="CR69">69</xref>
+ </sup>. Gene-level abundance was then computed by adding the estimated read counts mapping to each transcript isoform using the R package tximport
+ <sup>
+  <xref ref-type="bibr" rid="CR70">70</xref>
+ </sup>. To perform differential gene expression analysis between pairs of neuronal subtypes, DESeq2
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup> was applied on the gene-level counts estimated from above. Differentially expressed genes are defined as those with a 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|{\mathrm{log}}_2\,\phi | \, &gt; \, 1$$\end{document}</tex-math>
+   <math id="M12">
+    <mo>∣</mo>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">log</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mspace width="0.25em"/>
+    <mi>ϕ</mi>
+    <mo>∣</mo>
+    <mspace width="0.25em"/>
+    <mo>&gt;</mo>
+    <mspace width="0.25em"/>
+    <mn>1</mn>
+   </math>
+   <inline-graphic xlink:href="41467_2020_20483_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and FDR &lt; 0.05, where 
+ <inline-formula id="IEq7">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\phi$$\end{document}</tex-math>
+   <math id="M14">
+    <mi>ϕ</mi>
+   </math>
+   <inline-graphic xlink:href="41467_2020_20483_Article_IEq7.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the fold change between a pair of subtypes.
+</p>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>LC
+   <sub>50</sub> of AS6 for HUMEC and MCF7 cells.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left">Cell type</th>
+    <th align="left">LC
+     <sub>50</sub> (μM)
+    </th>
+    <th align="left">95% CI (lower–upper)</th>
+    <th align="left">Slope ± SEM</th>
+    <th align="left">χ
+     <sup>2</sup> (df)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">MCF7</td>
+    <td char="." align="char">0.26</td>
+    <td align="left">0.13–0.40</td>
+    <td align="left">1.6228 ± (0.2450)</td>
+    <td align="left">20.29 (5)</td>
+   </tr>
+   <tr>
+    <td align="left">HUMEC</td>
+    <td char="." align="char">2.29</td>
+    <td align="left">n/a</td>
+    <td align="left">1.6263 ± (0.4754)</td>
+    <td align="left">2.97 (1)</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <italic>CI</italic> confidence interval; the LC
+   <sub>50</sub> value was calculated using percentage mortality; 
+   <italic>n/a</italic> no confidence interval observed and therefor no probit analysis performed; 
+   <italic>SEM</italic> standard error of mean.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

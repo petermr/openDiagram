@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To further examine the major pathways affected by CNTN1, we performed RNA-sequencing analysis on LNCaP EV and LNCaP CNTN1 cells. A set of differentially expressed genes (DEGs) were identified between LNCaP EV and LNCaP CNTN1 cells (see 
+ <xref ref-type="sec" rid="sec2dot3-genes-12-00257">Section 2.3</xref>). To further analyze these DEGs, we performed gene set enrichment analysis using FGSEA (see 
+ <xref ref-type="sec" rid="sec2dot4-genes-12-00257">Section 2.4</xref>) and the “C2: curated gene sets” (Broad Institute, Cambridge, MA, USA) [
+ <xref rid="B45-genes-12-00257" ref-type="bibr">45</xref>], the largest gene set collection (
+ <italic>n</italic> = 6226) within the MSsigDB collection (
+ <uri xlink:href="http://www.gsea-msigdb.org/gsea/msigdb/collections.jsp#" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.gsea-msigdb.org/gsea/msigdb/collections.jsp#</uri> accessed on 19 December 2020). The analysis identified the CREIGHTON_ENDOCRINE_THERAPY_RESISTANCE_3 gene set being enriched (
+ <xref ref-type="fig" rid="genes-12-00257-f002">Figure 2</xref>A). This gene set is associated with endocrine therapy resistance in breast cancer [
+ <xref rid="B46-genes-12-00257" ref-type="bibr">46</xref>]. This resistance, which arose from therapies targeting estrogen receptor signaling, likely shares similarities with resistance to androgen-deprivation therapy (ADT) because of the commonalities between androgen and estrogen with respect to their synthesis and signalling. We thus have focused on investigating the relevance of this enrichment in PC. The enrichment has a leading-edge gene set of 10 genes (
+ <xref ref-type="fig" rid="genes-12-00257-f002">Figure 2</xref>A, 
+ <xref rid="genes-12-00257-t001" ref-type="table">Table 1</xref>); the leading-edge subset genes were defined by enrichment score with the maximal distance from the baseline (zero) (
+ <xref ref-type="fig" rid="genes-12-00257-f002">Figure 2</xref>A) [
+ <xref rid="B45-genes-12-00257" ref-type="bibr">45</xref>]. Except 
+ <italic>LY75</italic>, 
+ <italic>RNF144A</italic>, and 
+ <italic>PTPN3</italic>, we were able to confirm the upregulation of other 7 LE genes: 
+ <italic>TMEM45B</italic>, 
+ <italic>NANS</italic>, 
+ <italic>C1orf106</italic>, 
+ <italic>ARFGEF2</italic>, 
+ <italic>GPR110</italic>, 
+ <italic>FBXO6</italic>, and 
+ <italic>SRD5A3</italic> in LNCaP CNTN1 cells compared to LNCaP EV cells (
+ <xref ref-type="fig" rid="genes-12-00257-f002">Figure 2</xref>B). The overexpression status of CNTN1 in LNCaP CNTN1 cells was confirmed (
+ <xref ref-type="fig" rid="genes-12-00257-f002">Figure 2</xref>C).
+</p>

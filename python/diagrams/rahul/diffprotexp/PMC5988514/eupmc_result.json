@@ -1,0 +1,450 @@
+{
+  "id": [
+    "29900122"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "29900122"
+  ],
+  "pmcid": [
+    "PMC5988514"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC5988514"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1016/j.euprot.2017.09.001"
+  ],
+  "title": [
+    "Proteomic analysis reveals differential protein expression in variants of papillary thyroid carcinoma."
+  ],
+  "authorString": [
+    "Ucal Y, Eravci M, Tokat F, Duren M, Ince U, Ozpinar A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ucal Y"
+          ],
+          "firstName": [
+            "Yasemin"
+          ],
+          "lastName": [
+            "Ucal"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9961-0711",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Acibadem Mehmet Ali Aydinlar University, School of Medicine, Department of Medical Biochemistry, Istanbul, Turkey."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Eravci M"
+          ],
+          "firstName": [
+            "Murat"
+          ],
+          "lastName": [
+            "Eravci"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4786-9179",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Freie Universität Berlin, Institute of Chemistry and Biochemistry, Berlin, Germany."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Tokat F"
+          ],
+          "firstName": [
+            "Fatma"
+          ],
+          "lastName": [
+            "Tokat"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Acibadem Maslak Hospital, Pathology, Istanbul, Turkey."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Duren M"
+          ],
+          "firstName": [
+            "Mete"
+          ],
+          "lastName": [
+            "Duren"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Acibadem Maslak Hospital, General Surgery, Istanbul, Turkey."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ince U"
+          ],
+          "firstName": [
+            "Umit"
+          ],
+          "lastName": [
+            "Ince"
+          ],
+          "initials": [
+            "U"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Acibadem Maslak Hospital, Pathology, Istanbul, Turkey."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ozpinar A"
+          ],
+          "firstName": [
+            "Aysel"
+          ],
+          "lastName": [
+            "Ozpinar"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7399-4929",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Acibadem Mehmet Ali Aydinlar University, School of Medicine, Department of Medical Biochemistry, Istanbul, Turkey."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9961-0711",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7399-4929",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4786-9179",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2696646"
+      ],
+      "dateOfPublication": [
+        "2017 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2017"
+      ],
+      "printPublicationDate": [
+        "2017-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "EuPA open proteomics"
+          ],
+          "ISOAbbreviation": [
+            "EuPA Open Proteom"
+          ],
+          "medlineAbbreviation": [
+            "EuPA Open Proteom"
+          ],
+          "NLMid": [
+            "101637351"
+          ],
+          "ISSN": [
+            "2212-9685"
+          ],
+          "ESSN": [
+            "2212-9685"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2017"
+  ],
+  "pageInfo": [
+    "1-6"
+  ],
+  "abstractText": [
+    "Introduction:Fine Needle Aspiration Biopsy (FNAB) allows the cytological differentiation of benign and malignant thyroid nodules. However, the method itself is not adequate in determining some cases. For example, the diagnosis of Follicular Variant Papillary Thyroid Carcinoma (FV-PTC) can be challenging. In the current study we investigate the protein profiles of FV-PTC and classical variant PTC (CV-PTC) with no lymph node metastasis and compare it with benign thyroid tissue. Method:We used CV-PTC (n = 6), FV-PTC (n = 6) and benign thyroid tissues (n = 6) to prepare tissue lysates. Proteins from each group were trypsin and lys-C digested. The samples were analyzed on a Q Exactive Orbitrap mass spectrometer. Results:We identified 2560 proteins across all 18 specimens. Protein profiles revealed that there was no clear distinction between benign and FV-PTC samples. However, further examination of our data showed that proteins in energy metabolism have altered in FV-PTC. Proteomic pathway analysis showed marked alteration of the actin cytoskeleton proteins, especially several members of Arp2/3 complex were significantly increased in CV-PTC. We made the novel observation that IQGAP1 protein was significantly increased in CV-PTC, whereas IQGAP2 protein was highly expressed in FV-PTC lesions, suggesting differential roles of IQGAP proteins in thyroid pathology. Conclusion:In the present study, mass spectrometry based label free quantification approach was applied to investigate the protein profiles of FV-PTC, CV-PTC and benign thyroid tissues. This study pointed out that actin cytoskeleton proteins, IQGAP proteins and changes in energy metabolism play predominant roles in thyroid pathology."
+  ],
+  "affiliation": [
+    "Acibadem Mehmet Ali Aydinlar University, School of Medicine, Department of Medical Biochemistry, Istanbul, Turkey."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Mass spectrometry",
+        "Proteomics",
+        "Papillary Thyroid Carcinoma",
+        "Iqgap"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1016/j.euprot.2017.09.001"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5988514"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC5988514?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc-nd"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2018-06-15"
+  ],
+  "firstIndexDate": [
+    "2018-06-15"
+  ],
+  "fullTextReceivedDate": [
+    "2020-07-10"
+  ],
+  "dateOfRevision": [
+    "2020-09-28"
+  ],
+  "electronicPublicationDate": [
+    "2017-09-13"
+  ],
+  "firstPublicationDate": [
+    "2017-09-13"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Limma, originally developed to analyze RNA microarray data, performs “moderated” ANOVA, 
+ <italic>i.e.</italic> it uses an empirical-Bayes approach to shrink gene-wise sample variance toward a common estimate based on all experimental data (
+ <xref rid="B3" ref-type="bibr">3</xref>). In an evaluation performed by Kammers 
+ <italic>et al.</italic>, Limma detected more truly differentially expressed proteins compared with 
+ <italic>t</italic> test at the same false discovery rate (FDR) (
+ <xref rid="B10" ref-type="bibr">10</xref>). Further, in a comparison between generalized linear model (GLM), mixed effects models and Limma in a tandem mass tag (TMT) 10-plex labeled proteomics data set, mixed effects models showed better specificity when combined with median sweeping normalization compared with the other two methods, whereas Limma had better statistical results independent of normalization methods (
+ <xref rid="B11" ref-type="bibr">11</xref>).
+</p>

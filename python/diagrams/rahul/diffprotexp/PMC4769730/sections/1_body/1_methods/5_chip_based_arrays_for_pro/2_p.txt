@@ -1,0 +1,8 @@
+0: For hybridization, an equal amount of protein extracts (350 ng/mL in Lysis Buffer) was applied to each sub-array (70 L/subarray).
+1: Both POAG ( n = 25 POAG) and control ( n = 13) extracts were processed in parallel.
+2: After an overnight incubation at 4 C, the array slides were washed and exposed to a biotinylated antibody mixture followed by a cy3-streptAvidin labeling solution.
+3: All steps were performed under orbital shaking (CertomaxII, Sartorius AG) and all the hybridization/washing solutions were provided by the kit.
+4: As a final point, the glass-slides were washed once with MilliQ water, spin-dried and acquired with a GenePix 4400 Microarray scanner (Molecular Devices LLC, Sunnyvale, Silicon Valley, CA).
+5: To obtain appropriate Cy5 (background signal) and Cy3 (specific signal) images, the slides were scanned over previously validated acquisition parameters and the images/arrays (blocks) were uniformly adjusted for size, brightness and contrast at the moment of acquisition.
+6: Using the SPOT tool, the specific area (corresponding to each cytokine on the array) was manually spotted and automatically adjusted, according to prefixed acquisition parameters applied to all glass-slides of the study.
+7: The fluorescent intensity data (FI) of each spot was calculated by the GenePix Pro 6.0 pro software (Molecular Devices), that provide background-subtracted FI data (F532-B532, N factor) as of a value for spot volume representing the product of the area and the highest pixel value contained in that area.

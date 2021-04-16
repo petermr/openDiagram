@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="F4" position="float">
+ <label>Figure 4</label>
+ <caption>
+  <p>
+   <bold>DEHP influenced the developmental status of germ cells during PF formation. (A)</bold> The pseudotime trajectory of germ cell populations colored by five States. Three branches were identified with two developmental fates. 
+   <bold>(B)</bold> The pseudotime trajectory of germ cell population colored by four sample groups. 
+   <bold>(C)</bold> Cell percentages of five States among four sample groups. 
+   <bold>(D)</bold> Pseudotime ordered heatmap of four differentially expressed gene sets between two obvious fates at branch point one. Several representative genes of each gene set are listed in the right panel. 
+   <bold>(E)</bold> The enrichment of GO terms of the top 100 genes in each gene set. 
+   <bold>(F)</bold> Enrichmentmap illustrated that DEHP exposure disturbed multiple processes in germ cells.
+  </p>
+ </caption>
+ <graphic xlink:href="thnov11p4992g004" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

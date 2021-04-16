@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7865-6526</contrib-id>
+  <name>
+   <surname>Farrar</surname>
+   <given-names>Jared S.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="author-notes" rid="an0003">
+   <sup>*</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9025-8210</contrib-id>
+  <name>
+   <surname>Lownik</surname>
+   <given-names>Joseph C.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0001">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="author-notes" rid="an0003">
+   <sup>*</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Way</surname>
+   <given-names>Grayson W.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Rodriguez</surname>
+   <given-names>Matthew C.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7218-7052</contrib-id>
+  <name>
+   <surname>Celi</surname>
+   <given-names>Francesco S.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0003">
+   <sup>c</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0002"/>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9948-5463</contrib-id>
+  <name>
+   <surname>Martin</surname>
+   <given-names>Rebecca K.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff0002">
+   <sup>b</sup>
+  </xref>
+  <xref ref-type="corresp" rid="an0001"/>
+ </contrib>
+ <aff id="aff0001">
+  <label>a</label>Center for Clinical and Translational Research, 
+  <institution-wrap>
+   <institution>Virginia Commonwealth University School of Medicine</institution>
+  </institution-wrap>, 
+  <city>Richmond</city>, 
+  <state>VA</state>, 
+  <country>USA</country>
+ </aff>
+ <aff id="aff0002">
+  <label>b</label>Department of Microbiology and Immunology, 
+  <institution-wrap>
+   <institution>Virginia Commonwealth University School of Medicine</institution>
+  </institution-wrap>, 
+  <city>Richmond</city>, 
+  <state>VA</state>, 
+  <country>USA</country>
+ </aff>
+ <aff id="aff0003">
+  <label>c</label>Department of Internal Medicine, Division of Endocrinology, Diabetes and Metabolism, 
+  <institution-wrap>
+   <institution>Virginia Commonwealth University School of Medicine</institution>
+  </institution-wrap>, 
+  <city>Richmond</city>, 
+  <state>VA</state>, 
+  <country>USA</country>
+ </aff>
+</contrib-group>

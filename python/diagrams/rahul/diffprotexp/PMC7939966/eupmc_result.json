@@ -1,0 +1,417 @@
+{
+  "id": [
+    "33684989"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33684989"
+  ],
+  "pmcid": [
+    "PMC7939966"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7939966"
+      ]
+    }
+  ],
+  "doi": [
+    "10.3347/kjp.2021.59.1.67"
+  ],
+  "title": [
+    "Differentially Expressed Gene Profile of Acanthamoeba castellanii Induced by an Endosymbiont Legionella pneumophila."
+  ],
+  "authorString": [
+    "Moon EK, Park SM, Chu KB, Quan FS, Kong HH."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Moon EK"
+          ],
+          "firstName": [
+            "Eun-Kyung"
+          ],
+          "lastName": [
+            "Moon"
+          ],
+          "initials": [
+            "EK"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medical Zoology, Kyung Hee University School of Medicine, Seoul 02447, Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Park SM"
+          ],
+          "firstName": [
+            "So-Min"
+          ],
+          "lastName": [
+            "Park"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biomedical Science, Graduate School, Kyung Hee University, Seoul 02447, Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Chu KB"
+          ],
+          "firstName": [
+            "Ki-Back"
+          ],
+          "lastName": [
+            "Chu"
+          ],
+          "initials": [
+            "KB"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Biomedical Science, Graduate School, Kyung Hee University, Seoul 02447, Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Quan FS"
+          ],
+          "firstName": [
+            "Fu-Shi"
+          ],
+          "lastName": [
+            "Quan"
+          ],
+          "initials": [
+            "FS"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Medical Zoology, Kyung Hee University School of Medicine, Seoul 02447, Korea."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Medical Research Center for Bioreaction to Reactive Oxygen Species and Biomedical Science Institute, School of Medicine, Graduate School, Kyung Hee University, Seoul 02447, Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kong HH"
+          ],
+          "firstName": [
+            "Hyun-Hee"
+          ],
+          "lastName": [
+            "Kong"
+          ],
+          "initials": [
+            "HH"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Department of Parasitology, Dong-A University College of Medicine, Busan 49201, Korea."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "59"
+      ],
+      "journalIssueId": [
+        "3127697"
+      ],
+      "dateOfPublication": [
+        "2021 Feb"
+      ],
+      "monthOfPublication": [
+        "2"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-02-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "The Korean journal of parasitology"
+          ],
+          "ISOAbbreviation": [
+            "Korean J Parasitol"
+          ],
+          "medlineAbbreviation": [
+            "Korean J Parasitol"
+          ],
+          "NLMid": [
+            "9435800"
+          ],
+          "ISSN": [
+            "0023-4001"
+          ],
+          "ESSN": [
+            "1738-0006"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "67-75"
+  ],
+  "abstractText": [
+    "Legionella pneumophila is an opportunistic pathogen that survives and proliferates within protists such as Acanthamoeba spp. in environment. However, intracellular pathogenic endosymbiosis and its implications within Acanthamoeba spp. remain poorly understood. In this study, RNA sequencing analysis was used to investigate transcriptional changes in A. castellanii in response to L. pneumophila infection. Based on RNA sequencing data, we identified 1,211 upregulated genes and 1,131 downregulated genes in A. castellanii infected with L. pneumophila for 12 hr. After 24 hr, 1,321 upregulated genes and 1,379 downregulated genes were identified. Gene ontology (GO) analysis revealed that L. pneumophila endosymbiosis enhanced hydrolase activity, catalytic activity, and DNA binding while reducing oxidoreductase activity in the molecular function (MF) domain. In particular, multiple genes associated with the GO term 'integral component of membrane' were downregulated during endosymbiosis. The endosymbiont also induced differential expression of various methyltransferases and acetyltransferases in A. castellanii. Findings herein are may significantly contribute to understanding endosymbiosis of L. pneumophila within A. castellanii."
+  ],
+  "affiliation": [
+    "Department of Medical Zoology, Kyung Hee University School of Medicine, Seoul 02447, Korea."
+  ],
+  "publicationStatus": [
+    "ppublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "2020R1F1A1068719"
+          ],
+          "agency": [
+            "National Research Foundation of Korea"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "agency": [
+            "Ministry of Science and ICT"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Endosymbiosis",
+        "Differential gene expression",
+        "Acanthamoeba",
+        "Legionella"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3347/kjp.2021.59.1.67"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7939966"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7939966?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2021-03-08"
+  ],
+  "firstIndexDate": [
+    "2021-03-09"
+  ],
+  "fullTextReceivedDate": [
+    "2021-03-18"
+  ],
+  "dateOfRevision": [
+    "2021-03-17"
+  ],
+  "electronicPublicationDate": [
+    "2021-02-19"
+  ],
+  "firstPublicationDate": [
+    "2021-02-19"
+  ]
+}

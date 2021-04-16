@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib id="author-165075" contrib-type="author">
+  <name>
+   <surname>Mittleman</surname>
+   <given-names>Briana E</given-names>
+  </name>
+  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-4979-4652</contrib-id>
+  <xref ref-type="aff" rid="aff1">1</xref>
+  <xref ref-type="other" rid="fund1"/>
+  <xref ref-type="other" rid="fund2"/>
+  <xref ref-type="fn" rid="con1"/>
+  <xref ref-type="fn" rid="conf1"/>
+ </contrib>
+ <contrib id="author-73687" contrib-type="author">
+  <name>
+   <surname>Pott</surname>
+   <given-names>Sebastian</given-names>
+  </name>
+  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-4118-6150</contrib-id>
+  <xref ref-type="aff" rid="aff2">2</xref>
+  <xref ref-type="other" rid="fund5"/>
+  <xref ref-type="fn" rid="con2"/>
+  <xref ref-type="fn" rid="conf1"/>
+ </contrib>
+ <contrib id="author-166687" contrib-type="author">
+  <name>
+   <surname>Warland</surname>
+   <given-names>Shane</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff3">3</xref>
+  <xref ref-type="fn" rid="con3"/>
+  <xref ref-type="fn" rid="conf1"/>
+ </contrib>
+ <contrib id="author-206723" contrib-type="author">
+  <name>
+   <surname>Barr</surname>
+   <given-names>Kenneth</given-names>
+  </name>
+  <contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-0769-7053</contrib-id>
+  <xref ref-type="aff" rid="aff3">3</xref>
+  <xref ref-type="fn" rid="con4"/>
+  <xref ref-type="fn" rid="conf1"/>
+ </contrib>
+ <contrib id="author-198179" contrib-type="author">
+  <name>
+   <surname>Cuevas</surname>
+   <given-names>Claudia</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff3">3</xref>
+  <xref ref-type="fn" rid="con5"/>
+  <xref ref-type="fn" rid="conf1"/>
+ </contrib>
+ <contrib id="author-2844" contrib-type="author" corresp="yes">
+  <name>
+   <surname>Gilad</surname>
+   <given-names>Yoav</given-names>
+  </name>
+  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0001-8284-8926</contrib-id>
+  <email>gilad@uchicago.edu</email>
+  <xref ref-type="aff" rid="aff2">2</xref>
+  <xref ref-type="aff" rid="aff3">3</xref>
+  <xref ref-type="other" rid="fund3"/>
+  <xref ref-type="other" rid="fund4"/>
+  <xref ref-type="fn" rid="con6"/>
+  <xref ref-type="fn" rid="conf1"/>
+ </contrib>
+ <aff id="aff1">
+  <label>1</label>
+  <institution>Genetics, Genomics and Systems Biology, University of Chicago</institution>
+  <addr-line>Chicago</addr-line>
+  <country>United States</country>
+ </aff>
+ <aff id="aff2">
+  <label>2</label>
+  <institution>Department of Human Genetics, University of Chicago</institution>
+  <addr-line>Chicago</addr-line>
+  <country>United States</country>
+ </aff>
+ <aff id="aff3">
+  <label>3</label>
+  <institution>Section of Genetic Medicine, Department of Medicine, University of Chicago</institution>
+  <addr-line>Chicago</addr-line>
+  <country>United States</country>
+ </aff>
+</contrib-group>

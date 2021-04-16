@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par31">To screen differentially expressed RNAs (DERNAs) between tumor samples and normal samples, we used the “edgeR” package in R software to standardize and analyze the downloaded data. DEmRNAs, DElncRNAs, and DEmiRNAs were identified with the criteria of |log2 fold change (FC)| &gt; 1.0 and adjusted 
+ <italic>P</italic> value &lt; 0.05. Heatmap clustering and volcano plot were generated using R package “edgeR” to reveal the differential expressions of the DEmRNAs, DElncRNAs, and DEmiRNAs.
+</p>

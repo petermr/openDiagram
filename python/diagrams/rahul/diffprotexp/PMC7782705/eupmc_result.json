@@ -1,0 +1,768 @@
+{
+  "id": [
+    "33398016"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "33398016"
+  ],
+  "pmcid": [
+    "PMC7782705"
+  ],
+  "fullTextIdList": [
+    {
+      "fullTextId": [
+        "PMC7782705"
+      ]
+    }
+  ],
+  "doi": [
+    "10.1038/s41514-020-00052-5"
+  ],
+  "title": [
+    "Differential transcript usage unravels gene expression alterations in Alzheimer's disease human brains."
+  ],
+  "authorString": [
+    "Marques-Coelho D, Iohan LDCC, Melo de Farias AR, Flaig A, Brainbank Neuro–CEB Neuropathology Network, Lambert JC, Costa MR."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Marques-Coelho D"
+          ],
+          "firstName": [
+            "Diego"
+          ],
+          "lastName": [
+            "Marques-Coelho"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9465-1327",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Brain Institute, Federal University of Rio Grande do Norte, Av. Nascimento de Castro, 2155, Natal, Brazil."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Bioinformatics Multidisciplinary Environment (BioME), Federal University of Rio Grande do Norte, Natal, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Iohan LDCC"
+          ],
+          "firstName": [
+            "Lukas da Cruz Carvalho"
+          ],
+          "lastName": [
+            "Iohan"
+          ],
+          "initials": [
+            "LDCC"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Brain Institute, Federal University of Rio Grande do Norte, Av. Nascimento de Castro, 2155, Natal, Brazil."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Bioinformatics Multidisciplinary Environment (BioME), Federal University of Rio Grande do Norte, Natal, Brazil."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Melo de Farias AR"
+          ],
+          "firstName": [
+            "Ana Raquel"
+          ],
+          "lastName": [
+            "Melo de Farias"
+          ],
+          "initials": [
+            "AR"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Brain Institute, Federal University of Rio Grande do Norte, Av. Nascimento de Castro, 2155, Natal, Brazil."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Unité INSERM 1167, RID-AGE-Risk Factors and Molecular Determinants of Aging-Related Diseases, Institut Pasteur de Lille, University of Lille, Lille Cedex, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Flaig A"
+          ],
+          "firstName": [
+            "Amandine"
+          ],
+          "lastName": [
+            "Flaig"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unité INSERM 1167, RID-AGE-Risk Factors and Molecular Determinants of Aging-Related Diseases, Institut Pasteur de Lille, University of Lille, Lille Cedex, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "collectiveName": [
+            "Brainbank Neuro–CEB Neuropathology Network"
+          ]
+        },
+        {
+          "fullName": [
+            "Lambert JC"
+          ],
+          "firstName": [
+            "Jean-Charles"
+          ],
+          "lastName": [
+            "Lambert"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0829-7817",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Unité INSERM 1167, RID-AGE-Risk Factors and Molecular Determinants of Aging-Related Diseases, Institut Pasteur de Lille, University of Lille, Lille Cedex, France."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Costa MR"
+          ],
+          "firstName": [
+            "Marcos Romualdo"
+          ],
+          "lastName": [
+            "Costa"
+          ],
+          "initials": [
+            "MR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4928-2163",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "authorAffiliationDetailsList": [
+            {
+              "authorAffiliation": [
+                {
+                  "affiliation": [
+                    "Brain Institute, Federal University of Rio Grande do Norte, Av. Nascimento de Castro, 2155, Natal, Brazil. marcos.costa@pasteur-lille.fr."
+                  ]
+                },
+                {
+                  "affiliation": [
+                    "Unité INSERM 1167, RID-AGE-Risk Factors and Molecular Determinants of Aging-Related Diseases, Institut Pasteur de Lille, University of Lille, Lille Cedex, France. marcos.costa@pasteur-lille.fr."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "investigatorList": [
+    {
+      "investigator": [
+        {
+          "fullName": [
+            "Letournel F"
+          ],
+          "firstName": [
+            "Franck"
+          ],
+          "lastName": [
+            "Letournel"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Martin-Négrier ML"
+          ],
+          "firstName": [
+            "Marie-Laure"
+          ],
+          "lastName": [
+            "Martin-Négrier"
+          ],
+          "initials": [
+            "ML"
+          ]
+        },
+        {
+          "fullName": [
+            "Chapon F"
+          ],
+          "firstName": [
+            "Françoise"
+          ],
+          "lastName": [
+            "Chapon"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Faisant M"
+          ],
+          "firstName": [
+            "Maxime"
+          ],
+          "lastName": [
+            "Faisant"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Godfraind C"
+          ],
+          "firstName": [
+            "Catherine"
+          ],
+          "lastName": [
+            "Godfraind"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Maurage CA"
+          ],
+          "firstName": [
+            "Claude-Alain"
+          ],
+          "lastName": [
+            "Maurage"
+          ],
+          "initials": [
+            "CA"
+          ]
+        },
+        {
+          "fullName": [
+            "Deramecourt V"
+          ],
+          "firstName": [
+            "Vincent"
+          ],
+          "lastName": [
+            "Deramecourt"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Duchesne M"
+          ],
+          "firstName": [
+            "Mathilde"
+          ],
+          "lastName": [
+            "Duchesne"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Meyronnet D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Meyronnet"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Streichenberger N"
+          ],
+          "firstName": [
+            "Nathalie"
+          ],
+          "lastName": [
+            "Streichenberger"
+          ],
+          "initials": [
+            "N"
+          ]
+        },
+        {
+          "fullName": [
+            "de Paula AM"
+          ],
+          "firstName": [
+            "André Mauès"
+          ],
+          "lastName": [
+            "de Paula"
+          ],
+          "initials": [
+            "AM"
+          ]
+        },
+        {
+          "fullName": [
+            "Rigau V"
+          ],
+          "firstName": [
+            "Valérie"
+          ],
+          "lastName": [
+            "Rigau"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Vandenbos-Burel F"
+          ],
+          "firstName": [
+            "Fanny"
+          ],
+          "lastName": [
+            "Vandenbos-Burel"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Duyckaerts C"
+          ],
+          "firstName": [
+            "Charles"
+          ],
+          "lastName": [
+            "Duyckaerts"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Seilhean D"
+          ],
+          "firstName": [
+            "Danielle"
+          ],
+          "lastName": [
+            "Seilhean"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Milin S"
+          ],
+          "firstName": [
+            "Serge"
+          ],
+          "lastName": [
+            "Milin"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Chiforeanu DC"
+          ],
+          "firstName": [
+            "Dan Christian"
+          ],
+          "lastName": [
+            "Chiforeanu"
+          ],
+          "initials": [
+            "DC"
+          ]
+        },
+        {
+          "fullName": [
+            "Laquerrière A"
+          ],
+          "firstName": [
+            "Annie"
+          ],
+          "lastName": [
+            "Laquerrière"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Marguet F"
+          ],
+          "firstName": [
+            "Florent"
+          ],
+          "lastName": [
+            "Marguet"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Lannes B"
+          ],
+          "firstName": [
+            "Béatrice"
+          ],
+          "lastName": [
+            "Lannes"
+          ],
+          "initials": [
+            "B"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9426-4610",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4928-2163",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9465-1327",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0829-7817",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "dataLinksTagsList": [
+    {
+      "dataLinkstag": [
+        "supporting_data",
+        "altmetrics"
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "3084095"
+      ],
+      "dateOfPublication": [
+        "2021 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2021"
+      ],
+      "printPublicationDate": [
+        "2021-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "NPJ aging and mechanisms of disease"
+          ],
+          "ISOAbbreviation": [
+            "NPJ Aging Mech Dis"
+          ],
+          "medlineAbbreviation": [
+            "NPJ Aging Mech Dis"
+          ],
+          "NLMid": [
+            "101678947"
+          ],
+          "ISSN": [
+            "2056-3973"
+          ],
+          "ESSN": [
+            "2056-3973"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2021"
+  ],
+  "pageInfo": [
+    "2"
+  ],
+  "abstractText": [
+    "Alzheimer's disease (AD) is the leading cause of dementia in aging individuals. Yet, the pathophysiological processes involved in AD onset and progression are still poorly understood. Among numerous strategies, a comprehensive overview of gene expression alterations in the diseased brain could contribute for a better understanding of the AD pathology. In this work, we probed the differential expression of genes in different brain regions of healthy and AD adult subjects using data from three large transcriptomic studies: Mayo Clinic, Mount Sinai Brain Bank (MSBB), and ROSMAP. Using a combination of differential expression of gene and isoform switch analyses, we provide a detailed landscape of gene expression alterations in the temporal and frontal lobes, harboring brain areas affected at early and late stages of the AD pathology, respectively. Next, we took advantage of an indirect approach to assign the complex gene expression changes revealed in bulk RNAseq to individual cell types/subtypes of the adult brain. This strategy allowed us to identify previously overlooked gene expression changes in the brain of AD patients. Among these alterations, we show isoform switches in the AD causal gene amyloid-beta precursor protein (APP) and the risk gene bridging integrator 1 (BIN1), which could have important functional consequences in neuronal cells. Altogether, our work proposes a novel integrative strategy to analyze RNAseq data in AD and other neurodegenerative diseases based on both gene/transcript expression and regional/cell-type specificities."
+  ],
+  "affiliation": [
+    "Brain Institute, Federal University of Rio Grande do Norte, Av. Nascimento de Castro, 2155, Natal, Brazil."
+  ],
+  "publicationStatus": [
+    "epublish"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41514-020-00052-5"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7782705"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "https://europepmc.org/articles/PMC7782705?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "ensembl"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2021-01-05"
+  ],
+  "firstIndexDate": [
+    "2021-01-07"
+  ],
+  "fullTextReceivedDate": [
+    "2021-01-13"
+  ],
+  "dateOfRevision": [
+    "2021-01-27"
+  ],
+  "electronicPublicationDate": [
+    "2021-01-04"
+  ],
+  "firstPublicationDate": [
+    "2021-01-04"
+  ]
+}

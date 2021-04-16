@@ -1,0 +1,8 @@
+0: According to the Iso-Seq-v3 analysis pipeline 1, subreads were used to call circular consensus sequences.
+1: Polished full-length non-concatemer (FLNC) reads were generated after primer, concatemer removal, and clustering.
+2: The FLNC reads were aligned against the reference genome (hg19/GRCh37) using GMAP ALIGNER (v2019-03-15) ( Wu and Watanabe, 2005).
+3: Based on genome alignment, isoforms were collapsed by cDNA_Cupcake 2, followed by comparison with reference annotation (RefSeq hg19) using Cuffcompare ( Trapnell et al., 2010).
+4: Isoforms with a complete match of the intron chain and potentially novel isoforms (with at least one known splice junction and occurring in both libraries) were selected.
+5: We then constructed a full transcriptome.
+6: The constructed transcriptome was used to identify alternative splicing (AS) events by SUPPA2 ( Trincado et al., 2018).
+7: Seven types of AS events were identified, including SE, mutually exclusive exons (MX), alternative 5 splicing site (A5), alternative 3 splicing site (A3), retained intron (RI), alternative first exon (AF), and alternative last exon (AL).

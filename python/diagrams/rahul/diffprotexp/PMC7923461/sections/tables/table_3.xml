@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab3">
+ <label>Table 3</label>
+ <caption>
+  <p>A Correlation analysis between TUBA1C and relate genes and markers of immune cells in GEPIA</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left" rowspan="3">Description</th>
+    <th align="left" rowspan="3">Gene markers</th>
+    <th align="left" colspan="4">LUAD</th>
+   </tr>
+   <tr>
+    <th align="left" colspan="2">Tumor</th>
+    <th align="left" colspan="2">Normal</th>
+   </tr>
+   <tr>
+    <th align="left">R</th>
+    <th align="left">P</th>
+    <th align="left">R</th>
+    <th align="left">P</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">T cell (general)</td>
+    <td align="left">
+     <italic>CD2</italic>
+    </td>
+    <td char="." align="char">− 0.15</td>
+    <td char="." align="char">
+     <italic>0.00096</italic>
+    </td>
+    <td char="." align="char">− 0.13</td>
+    <td char="." align="char">0.31</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>CD3E</italic>
+    </td>
+    <td char="." align="char">− 0.19</td>
+    <td char="." align="char">
+     <italic>2.7e−05</italic>
+    </td>
+    <td char="." align="char">− 0.057</td>
+    <td char="." align="char">0.67</td>
+   </tr>
+   <tr>
+    <td align="left">B cell</td>
+    <td align="left">
+     <italic>CD19</italic>
+    </td>
+    <td char="." align="char">− 0.27</td>
+    <td char="." align="char">
+     <italic>9.4e−10</italic>
+    </td>
+    <td char="." align="char">0.034</td>
+    <td char="." align="char">0.8</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>CD79A</italic>
+    </td>
+    <td char="." align="char">− 0.28</td>
+    <td char="." align="char">
+     <italic>4.3e−10</italic>
+    </td>
+    <td char="." align="char">0.056</td>
+    <td char="." align="char">0.67</td>
+   </tr>
+   <tr>
+    <td align="left">Natural killer cell</td>
+    <td align="left">KIR2DL1</td>
+    <td char="." align="char">− 0.008</td>
+    <td char="." align="char">0.86</td>
+    <td char="." align="char">0.12</td>
+    <td char="." align="char">0.38</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>KIR2DL3</italic>
+    </td>
+    <td char="." align="char">0.09</td>
+    <td char="." align="char">
+     <italic>0.048</italic>
+    </td>
+    <td char="." align="char">− 0.031</td>
+    <td char="." align="char">0.82</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>KIR2DL4</italic>
+    </td>
+    <td char="." align="char">0.26</td>
+    <td char="." align="char">
+     <italic>7.4e−09</italic>
+    </td>
+    <td char="." align="char">0.13</td>
+    <td char="." align="char">0.32</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">KIR3DL1</td>
+    <td char="." align="char">0.014</td>
+    <td char="." align="char">0.76</td>
+    <td char="." align="char">− 0.05</td>
+    <td char="." align="char">0.71</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">KIR3DL2</td>
+    <td char="." align="char">0.015</td>
+    <td char="." align="char">0.74</td>
+    <td char="." align="char">0.12</td>
+    <td char="." align="char">0.37</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">KIR3DL3</td>
+    <td char="." align="char">0.076</td>
+    <td char="." align="char">0.093</td>
+    <td char="." align="char">0.076</td>
+    <td char="." align="char">0.57</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">CD56</td>
+    <td char="." align="char">− 0.12</td>
+    <td char="." align="char">0.01</td>
+    <td char="." align="char">− 0.31</td>
+    <td char="." align="char">0.016</td>
+   </tr>
+   <tr>
+    <td align="left">Neutrophils</td>
+    <td align="left">
+     <italic>CD66b</italic>
+    </td>
+    <td char="." align="char">− 0.22</td>
+    <td char="." align="char">
+     <italic>6.6e−07</italic>
+    </td>
+    <td char="." align="char">0.06</td>
+    <td char="." align="char">0.65</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">CD11b</td>
+    <td char="." align="char">− 0.039</td>
+    <td char="." align="char">0.4</td>
+    <td char="." align="char">− 0.0025</td>
+    <td char="." align="char">0.99</td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>CCR7</italic>
+    </td>
+    <td char="." align="char">− 0.25</td>
+    <td char="." align="char">
+     <italic>3.2e−08</italic>
+    </td>
+    <td char="." align="char">0.18</td>
+    <td char="." align="char">0.18</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

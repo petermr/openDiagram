@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t0002" orientation="portrait" position="float">
+ <label>Table 2.</label>
+ <caption>
+  <p>Differential expression in tissues of envelope-associated genes from Metazoan cohort</p>
+ </caption>
+ <!--OASIS TABLE HERE-->
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th colspan="4" align="center">Proteins from Metazoan cohort (
+     <xref ref-type="fig" rid="f0003">Figure 3</xref>)
+     <hr/>
+    </th>
+   </tr>
+   <tr>
+    <th align="left">Group in Coulson plot</th>
+    <th align="center">Protein</th>
+    <th align="center">Expression in tissues
+     <sup>1</sup>
+    </th>
+    <th align="center">Reference</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">A</td>
+    <td align="left">NET45, Mcat, Wdr33, NET39, Slc25a22
+     <hr/>
+    </td>
+    <td align="left">Enriched in liver and blood.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> 
+     <hr/>
+    </td>
+    <td align="left">NET11
+     <hr/>
+    </td>
+    <td align="left">Enriched in muscle and blood (B-cells).
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">B</td>
+    <td align="left">Scai
+     <hr/>
+    </td>
+    <td align="left">Widely expressed. Higher levels in brain, spleen and thymus.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0164">164</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Rprd1b
+     <hr/>
+    </td>
+    <td align="left">Widely expressed. Higher levels in liver, colon, prostate, uterus. Lowest levels in heart and kidney. Not detected in rectum.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0165">165</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> 
+     <hr/>
+    </td>
+    <td align="left">Tmem120a
+     <hr/>
+    </td>
+    <td align="left">Widely expressed. Higher expression in liver, heart, kidneys, colon, nociceptors and adipose tissue.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0166">166</xref>,
+     <xref ref-type="bibr" rid="cit0167">167</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C</td>
+    <td align="left">NET56
+     <hr/>
+    </td>
+    <td align="left">Predominantly muscle specific, with lower expression in other tissues.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0168">168</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">NET37
+     <hr/>
+    </td>
+    <td align="left">Brain, liver, spleen, skeletal muscle, heart, lung and kidney. High protein levels in astrocytes and skeletal muscle.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0068">68</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Nicalin
+     <hr/>
+    </td>
+    <td align="left">Enriched in liver and blood.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">KDM3B
+     <hr/>
+    </td>
+    <td align="left">Ubiquitous, highly expressed in placenta, skeletal muscle, kidney, heart and liver.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0169">169</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Wdr43
+     <hr/>
+    </td>
+    <td align="left">Low levels in heart, liver, lung, spleen, thymus and hippocampus.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0170">170</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Lpgat1
+     <hr/>
+    </td>
+    <td align="left">Highly expressed in liver and placenta. Expressed in peripheral blood, lung, kidney and brain. Lower levels in colon.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0171">171</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Tmem173 (Sting1)
+     <hr/>
+    </td>
+    <td align="left">Highly expressed in mature B cells. Present in spleen, thymus. High protein levels in dendritic cells.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0172">172</xref>,
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Torp1aip2
+     <hr/>
+    </td>
+    <td align="left">Widely expressed. Higher levels in non-neural cells, hippocampus and spinal cord, liver and B cells. High levels of protein in liver.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0173">173</xref>,
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Tm7sf2, Scara5, Tmem74, Tmem53
+     <hr/>
+    </td>
+    <td align="left">Enriched in liver.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Tmem173, Dhrs7
+     <hr/>
+    </td>
+    <td align="left">Enriched in blood.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Mospd3</td>
+    <td align="left">Enriched in liver and muscle.</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table frame="hsides" rules="groups">
+  <colgroup>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="left"/>
+   <col width="1*" align="center"/>
+  </colgroup>
+  <tbody>
+   <tr>
+    <td colspan="4" align="center">Proteins from Diseases cohort (
+     <xref ref-type="fig" rid="f0006">Figure 6</xref>)
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">Group in
+     <break/>Coulson plot
+     <hr/>
+    </td>
+    <td align="left" valign="bottom">Protein
+     <hr/>
+    </td>
+    <td align="left" valign="bottom">Expression in tissues
+     <sup>1</sup>
+     <hr/>
+    </td>
+    <td align="center" valign="bottom">Reference
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">A</td>
+    <td align="left">Alg2
+     <hr/>
+    </td>
+    <td align="left">Enriched in liver and blood.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">ABCB1
+     <hr/>
+    </td>
+    <td align="left">Expressed in liver, kidney, small intestine, blood and brain.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0058">58</xref>, 
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> 
+     <hr/>
+    </td>
+    <td align="left">TMEM43
+     <hr/>
+    </td>
+    <td align="left">Highest levels in placenta. Lower levels in heart, ovary, spleen, small intestine, thymus, prostate and testis.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0101">101</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">B
+     <hr/>
+    </td>
+    <td align="left">Tmem201
+     <hr/>
+    </td>
+    <td align="left">Widely expressed.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">C</td>
+    <td align="left">LBR
+     <hr/>
+    </td>
+    <td align="left">Expressed in the bone marrow, liver, heart, adrenal gland, lung, placenta and uterus. Expressed in osteoclasts and osteoblast-like cells.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0174">174</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">MAGT1
+     <hr/>
+    </td>
+    <td align="left">Ubiquitous. Low levels in brain, lung and kidney.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0175">175</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Wolframin
+     <hr/>
+    </td>
+    <td align="left">High levels in heart, followed by brain, placenta, lung and pancreas. Low levels in liver, kidney and skeletal muscle.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0058">58</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">LRRC8A
+     <hr/>
+    </td>
+    <td align="left">High levels in bone marrow. Also found in brain, kidney, ovary, lung, liver, heart, blood cells, T-cells and B-cells.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0140">140</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">SQSTM1, EGFR, Lemd3, Lemd2
+     <hr/>
+    </td>
+    <td align="left">Ubiquitous.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0176">176</xref>, 
+     <xref ref-type="bibr" rid="cit0177">177</xref>, 
+     <xref ref-type="bibr" rid="cit0045">45</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">RYR1
+     <hr/>
+    </td>
+    <td align="left">Found in skeletal muscle and brain.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0178">178</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Tmem70
+     <hr/>
+    </td>
+    <td align="left">Enriched in blood and muscle.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Emerin
+     <hr/>
+    </td>
+    <td align="left">Skeletal muscle, heart, colon, testis, ovary and pancreas.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0058">58</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">NET46
+     <hr/>
+    </td>
+    <td align="left">Highly expressed in kidney, enriched in liver.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0179">179</xref>, 
+     <xref ref-type="bibr" rid="cit0043">43</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Amaco
+     <hr/>
+    </td>
+    <td align="left">Detected in uterus, kidney, skin, lung, intestine.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0180">180</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">LAP2
+     <hr/>
+    </td>
+    <td align="left">Ubiquitous. Abundant in adult thymus and fetal liver.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0058">58</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Syne3
+     <hr/>
+    </td>
+    <td align="left">Ubiquitous.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0044">44</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Syne1
+     <hr/>
+    </td>
+    <td align="left">Ubiquitous. Highly expressed in skeletal and smooth muscles, heart, spleen, leukocytes, pancreas, cerebellum, stomach, kidney and placenta.
+     <hr/>
+    </td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0181">181</xref>, 
+     <xref ref-type="bibr" rid="cit0182">182</xref>]
+     <hr/>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"> </td>
+    <td align="left">Syne2</td>
+    <td align="left">Ubiquitous. Higher levels in kidney, adult and fetal liver, stomach, placenta. Low levels in skeletal muscle and brain. Isoform 5 highly expressed in the pancreas, skeletal muscle and heart.</td>
+    <td align="center">[
+     <xref ref-type="bibr" rid="cit0181">181</xref>]
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tfn0001">
+   <p>
+    <sup>a</sup>Refers to levels of mRNA otherwise stated.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

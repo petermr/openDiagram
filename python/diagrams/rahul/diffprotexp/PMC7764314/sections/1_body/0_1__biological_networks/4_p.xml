@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The most frequently studied biological networks based on physical interactions are protein–protein interaction (PPI) networks, where nodes are proteins and links indicate direct binding, but the binding of a TF to its targets’ promoters can also be represented in a network. A particular type of biological network is pathways, curated and deposited in repositories such as KEGG (Kyoto Encyclopedia of Genes and Genomes) [
+ <xref rid="B3-ijms-21-09461" ref-type="bibr">3</xref>], where nodes can be either proteins or small molecules and edges indicate a variety of interactions, among which are enzymatic reactions. Genetic interactions such as synthetic lethal interactions can also be studied as networks [
+ <xref rid="B4-ijms-21-09461" ref-type="bibr">4</xref>], assuming them to indicate that the two genes belong to the same pathway. Additionally, methods have been developed to build a variety of biological networks based on metabolic, single nucleotide polymorphisms (SNPs) and phenotypic data (reviewed in [
+ <xref rid="B5-ijms-21-09461" ref-type="bibr">5</xref>]).
+</p>

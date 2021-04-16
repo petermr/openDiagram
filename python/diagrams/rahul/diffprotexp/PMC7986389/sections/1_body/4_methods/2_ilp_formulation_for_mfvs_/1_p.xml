@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par64">After the compressing procedure, if the compressed graph is not empty, we can use an ILP method [
+ <xref ref-type="bibr" rid="CR17">17</xref>] to solve the remaining MFVS problem. For each remaining vertex 
+ <inline-formula id="IEq50">
+  <alternatives>
+   <tex-math id="M103">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M104">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq50.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, we add two parameters 
+ <inline-formula id="IEq51">
+  <alternatives>
+   <tex-math id="M105">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$x_i$$\end{document}</tex-math>
+   <math id="M106">
+    <msub>
+     <mi>x</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq51.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (Boolean) and 
+ <inline-formula id="IEq52">
+  <alternatives>
+   <tex-math id="M107">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$k_i$$\end{document}</tex-math>
+   <math id="M108">
+    <msub>
+     <mi>k</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq52.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (integer), where 
+ <inline-formula id="IEq53">
+  <alternatives>
+   <tex-math id="M109">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$x_i$$\end{document}</tex-math>
+   <math id="M110">
+    <msub>
+     <mi>x</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq53.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> denotes whether 
+ <inline-formula id="IEq54">
+  <alternatives>
+   <tex-math id="M111">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$v_i$$\end{document}</tex-math>
+   <math id="M112">
+    <msub>
+     <mi>v</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq54.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is included in the output MFVS result and 
+ <inline-formula id="IEq55">
+  <alternatives>
+   <tex-math id="M113">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$k_i$$\end{document}</tex-math>
+   <math id="M114">
+    <msub>
+     <mi>k</mi>
+     <mi>i</mi>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="12859_2021_4062_Article_IEq55.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is a temporary parameter used in the ILP. The ILP formulation is as follows:
+</p>

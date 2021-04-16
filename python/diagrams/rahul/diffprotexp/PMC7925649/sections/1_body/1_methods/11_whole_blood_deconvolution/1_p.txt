@@ -1,0 +1,2 @@
+0: The gene expression read counts profiles were filtered to remove poorly expressed genes, then upper quartile normalized was applied, and finally the counts per million (CPM) were determined for each gene using the R package EdgeR 29.
+1: The relative cell abundance of 22 different immune cells was determined based on the CPM transcriptomic profile for all the samples using the LM22 signature and CIBERSORTx method 30.

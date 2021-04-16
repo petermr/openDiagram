@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par45">Genotypes were called using GenCall (Illumina) and mapped to GRC37/hg19 using online tools (
+ <ext-link ext-link-type="uri" xlink:href="http://www.well.ox.ac.uk/~wrayner/strand/index.html" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.well.ox.ac.uk/~wrayner/strand/index.html</ext-link>). QC was carried out using the same method for both arrays. Briefly, we performed a pre-filtering step to exclude samples and variants with a call rate &lt;90%. Sample QC included identity checks correlating the array genotypes to Fluidigm genotypes obtained at sample reception (no samples had a concordance &lt;0.95). We excluded samples based on call rate &lt;98%, heterozygosity distribution outliers performed using two different minor allele frequency (MAF) bins (≥1% MAF and &lt;1% MAF) and sex discrepancies. We performed pairwise identity by descent (IBD) in PLINK
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>,
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup> after filtering out variants with MAF &lt; 1% and carrying out linkage disequilibrium based pruning using R
+ <sup>2</sup> 0.2. We retained only patients with pairwise PI_HAT ≤ 0.2. To look at ethnicity we combined all patients from both arrays with data from the 1000 Genomes Project individuals (
+ <ext-link ext-link-type="uri" xlink:href="https://www.internationalgenome.org" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.internationalgenome.org</ext-link>)
+ <sup>
+  <xref ref-type="bibr" rid="CR44">44</xref>
+ </sup>. We included overlapping variants only and conducting IBD, as described above, followed by multidimensional scaling using PLINK. Visual ethnic outliers were excluded following examination of the first two components. Variants were excluded if call rate &lt;98% and/or Hardy–Weinberg 
+ <italic>p</italic> value (pHWE) &lt;1 × 10
+ <sup>−4</sup>. The final datasets contained 12 patients and 534,694 variants and 99 patients and 527,717 variants for cohorts 1 and 2–4, respectively.
+</p>

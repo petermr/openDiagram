@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The quality visualization of RNA-seq reads was accomplished by FastQC (version. 0.11.3).
+ <xref rid="cit0018" ref-type="bibr">18</xref> Trimming was performed by fastp for known Illumina TruSeq adapter sequences, poor reads, and ribosomal RNA reads.
+ <xref rid="cit0019" ref-type="bibr">19</xref> The trimmed reads were then mapped to the human reference genome (hg38) using Hisat2.
+ <xref rid="cit0020" ref-type="bibr">20</xref>,
+ <xref rid="cit0021" ref-type="bibr">21</xref> And p-value &lt; 0.05 and an absolute value of a fold change &gt;2 were used as criteria for screening differentially expressed genes.
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>RNA-seq transcriptome data of three RCC subtypes were retrieved from TCGA to apply differential interactome methodology [
+ <xref rid="B8-jpm-11-00158" ref-type="bibr">8</xref>] for prediction of highly probable PPIs in each state and identification of differential PPIs. To this end, we examined transcriptomic data for three common subtypes of RCC with an adequate number of samples (
+ <italic>n</italic> &gt; 24) in both normal and tumor groups (see Materials and Methods section). The scale-free topology of the differential interactome network brings out the presence of hubs called DIPs indicating substantial changes in their interaction patterns during the transition from “normal” to “tumor” phenotypes [
+ <xref rid="B8-jpm-11-00158" ref-type="bibr">8</xref>,
+ <xref rid="B9-jpm-11-00158" ref-type="bibr">9</xref>]. We determined 628 DIPs for chRCC, 50 DIPs for ccRCC, and 29 DIPs for pRCC as subtype-specific DIPs, whereas 33 DIPs were common in all subtypes (
+ <xref ref-type="app" rid="app1-jpm-11-00158">Supplementary Table S1</xref>). The tumor-specificity of DIPs varied according to the subtype (
+ <xref ref-type="fig" rid="jpm-11-00158-f001">Figure 1</xref>).
+</p>

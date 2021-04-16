@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>GO and KEGG enrichment analysis was performed utilizing DEGs. We completed the GO and KEGG pathway analysis using R packages (“enrichplot,” “clusterProfiler,” and “ggplot2”) (
+ <xref rid="B17" ref-type="bibr">17</xref>). We used both 
+ <italic>P</italic>-value &lt; 0.05 and FDR adjusted 
+ <italic>P</italic>-value &lt; 0.05 as the threshold for GO and KEGG enrichment analysis.
+</p>

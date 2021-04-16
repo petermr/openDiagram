@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par39">We used samtools v1.3.1
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup> and biobambam v0.0.191
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup> to convert cram to fasq files after exclusion of reads that failed QC. We applied FastQC v0.11.5 to check sample quality
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup> and excluded nine samples (Supplementary Data 
+ <xref rid="MOESM11" ref-type="media">7</xref>).
+</p>

@@ -2,6 +2,8 @@ import tkinter as tk
 import subprocess
 from tkinter import messagebox
 from tkinter import scrolledtext
+import os
+from xml.etree import ElementTree as ET
 
 def button1(event):
     print("button1", event)
@@ -34,7 +36,7 @@ class Application(tk.Frame):
     def create_widgets(self):
 
         self.run_query_button = tk.Button(self)
-        self.run_query_button["text"] = "Run query"
+        self.run_query_button["text"] = "Run pygetpapers query"
         self.run_query_button["command"] = self.check_query_widgets
         self.run_query_button.pack(side="top")
 
@@ -56,7 +58,9 @@ class Application(tk.Frame):
 
         self.lb1 = self.create_listbox(["morocco", "brazil", "iraq", "india", "singapore", "united kingdom"])
         self.lb2 = self.create_listbox(["lantana camara", "mentha", "abies alba", "ocimum basilicum"])
-        self.lb3 = self.create_listbox(["seed", "root", "leaf"])
+        plant_parts_list = ["seed", "root", "leaf"]
+        plant_parts_list = self.read_plants_part_dictionary_names()
+        self.lb3 = self.create_listbox(plant_parts_list)
 
         self.spin = tk.Spinbox(root, from_ = 1, to = 10, state = "readonly")
         self.spin.pack(side="bottom")
@@ -238,6 +242,18 @@ class Application(tk.Frame):
 
         # The application mainloop
         tk.mainloop()
+
+    def read_plants_part_dictionary_names(self):
+        DICTIONARY_HOME = "/Users/pm286/projects/CEVOpen/dictionary"
+        plant_parts_dict = os.path.join(DICTIONARY_HOME, "eoPlantPart/eoplant_part.xml")
+        assert(os.path.exists(plant_parts_dict))
+        elementTree = ET.parse(plant_parts_dict)
+        entries = elementTree.findall("entry")
+        print("entries", len(entries))
+        names = [entry.attrib["name"] for entry in entries]
+        print (len(names))
+        return names
+
 
 root = tk.Tk()
 print("ROOT")

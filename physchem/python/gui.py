@@ -1,10 +1,13 @@
 import tkinter as tk
 import subprocess
-
+from tkinter import messagebox
+from tkinter import scrolledtext
 
 def button1(event):
     print("button1", event)
     print(dir(event))
+    if True:
+        return
     tup = event.widget.curselection()
     print("tup", tup, type(tup),)
     if (len(tup) > 0):
@@ -30,10 +33,10 @@ class Application(tk.Frame):
 
     def create_widgets(self):
 
-        self.entry_print_button = tk.Button(self)
-        self.entry_print_button["text"] = "Run query"
-        self.entry_print_button["command"] = self.print_entry
-        self.entry_print_button.pack(side="top")
+        self.run_query_button = tk.Button(self)
+        self.run_query_button["text"] = "Run query"
+        self.run_query_button["command"] = self.check_query_widgets
+        self.run_query_button.pack(side="top")
 
         labelText = tk.StringVar()
         labelText.set("output dir")
@@ -51,12 +54,59 @@ class Application(tk.Frame):
         self.frame = tk.Frame()
         self.frame.pack()
 
-        self.lb1 = self.create_listbox(["morocco", "brazil", "iraq", "united kingdom"])
+        self.lb1 = self.create_listbox(["morocco", "brazil", "iraq", "india", "singapore", "united kingdom"])
         self.lb2 = self.create_listbox(["lantana camara", "mentha", "abies alba", "ocimum basilicum"])
         self.lb3 = self.create_listbox(["seed", "root", "leaf"])
 
         self.spin = tk.Spinbox(root, from_ = 1, to = 10, state = "readonly")
         self.spin.pack(side="bottom")
+
+
+
+        text_area_flag = False
+        if text_area_flag:
+            self.make_text_area()
+
+    def make_text_area(self):
+        # Title Label
+        lab = tk.Label(root,
+                       text="ScrolledText Widget Example",
+                       font=("Times New Roman", 15),
+                       background='green',
+                       foreground="white")
+        lab.pack(side="bottom")
+        #            .grid(column=0, row=0)
+
+        # Creating scrolled text area
+        # widget with Read only by
+        # disabling the state
+        text_area = scrolledtext.ScrolledText(root,
+                                    width=30,
+                                    height=8,
+                                    font=("Times New Roman",
+                                          15))
+        text_area.pack(side="bottom")
+        print("text", text_area)
+
+        # Inserting Text which is read only
+        text_area.insert(tk.INSERT,
+                         """\
+ This is a scrolledtext widget to make tkinter text 
+ one
+ two
+ three
+ four
+ five
+ six
+ seven
+ eight
+ nine
+ ten
+                         """)
+        text_area.bind("<Button-1>", button1)
+        # Making the text read only
+#        text_area.configure(state='disabled')
+        return text_area
 
     def create_listbox(self, items):
         lb = tk.Listbox(height=5,
@@ -70,6 +120,11 @@ class Application(tk.Frame):
         lb.pack(side="left")
         #        self.lb1.bind('<Button-1>', button1)
         return lb
+
+# frames and windows
+    """
+    https://stackoverflow.com/questions/24656138/python-tkinter-attach-scrollbar-to-listbox-as-opposed-to-window/24656407
+    """
 
     def menu_stuff(self):
         from tkinter import Menu
@@ -92,20 +147,24 @@ class Application(tk.Frame):
         print("before mainloop")
         root.mainloop()
 
-    def donothing(self):
-        print("do nothing")
-
     def menu(self, text):
         print("menu", text)
 
-    def query_print(self, args):
+    def run_query_and_get_output(self, args):
         print("args", args)
         result = str(subprocess.run(args, capture_output=True))
-        bits = result.split("\\n")
-        for bit in bits:
-            print(bit)
+        lines = result.split("\\n")
+        saved = 0
+        for line in lines:
+            if line.startswith("CompletedProcess"):
+                hits = line.split("Total Hits are")[-1]
+                print("******", hits)
+            if "Wrote xml" in line:
+                saved += 1
+            print(line)
+        messagebox.showinfo(title="end search", message="finised search, hits: "+str(hits)+", saved: "+str(saved))
 
-    def print_entry(self):
+    def check_query_widgets(self):
 
         limit = self.spin.get()
         print("limit:", limit)
@@ -120,9 +179,14 @@ class Application(tk.Frame):
         outd = self.outdir.get()
         if outd == "":
             print("must give outdir")
+            messagebox.showinfo(title="outdir box", message="must give outdir")
+            ans = messagebox.askyesno(title="yesno", message="False or True?")
+            print("ans", ans)
+            ans = messagebox.askyesnocancel(title="yesno", message="Yes No None")
+            print("yes no cancel", ans)
             return
 
-        self.query_print(
+        self.run_query_and_get_output(
             ["pygetpapers", "-q", lbstr, "-x", "-o", outd, "-k", limit])
 
     def print_check(self):
@@ -139,6 +203,41 @@ class Application(tk.Frame):
             s += " OR " + self.quoteme(selected[i])
         s += ')'
         return s
+
+    def test_prog_bar(self):
+        import tkinter as tk
+        import tkinter.ttk as ttk
+        import time
+
+        # Create the master object
+        master = tk.Tk()
+
+        # Create a progressbar widget
+        progress_bar = ttk.Progressbar(master, orient="horizontal",
+                                       mode="determinate", maximum=100, value=0)
+
+        # And a label for it
+        label_1 = tk.Label(master, text="Progress Bar")
+
+        # Use the grid manager
+        label_1.grid(row=0, column=0)
+        progress_bar.grid(row=0, column=1)
+
+        # Necessary, as the master object needs to draw the progressbar widget
+        # Otherwise, it will not be visible on the screen
+        master.update()
+
+        progress_bar['value'] = 0
+        master.update()
+
+        while progress_bar['value'] < 100:
+            progress_bar['value'] += 10
+            # Keep updating the master object to redraw the progress bar
+            master.update()
+            time.sleep(0.5)
+
+        # The application mainloop
+        tk.mainloop()
 
 root = tk.Tk()
 print("ROOT")

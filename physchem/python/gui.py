@@ -4,6 +4,9 @@ from tkinter import messagebox
 from tkinter import scrolledtext
 import os
 from xml.etree import ElementTree as ET
+from tkinter import Frame
+from tkinter import Label
+from tkinter import TOP, BOTTOM, LEFT
 
 def button1(event):
     print("button1", event)
@@ -53,23 +56,59 @@ class Application(tk.Frame):
                               command=self.master.destroy)
         self.quit.pack(side="bottom")
 
-        self.frame = tk.Frame()
-        self.frame.pack()
+        DICTIONARY_HOME = "/Users/pm286/dictionary"
+        CEV_DICTIONARY_HOME = "/Users/pm286/projects/CEVOpen/dictionary"
 
-        self.lb1 = self.create_listbox(["morocco", "brazil", "iraq", "india", "singapore", "united kingdom"])
-        self.lb2 = self.create_listbox(["lantana camara", "mentha", "abies alba", "ocimum basilicum"])
-        plant_parts_list = ["seed", "root", "leaf"]
-        plant_parts_list = self.read_plants_part_dictionary_names()
-        self.lb3 = self.create_listbox(plant_parts_list)
+        dictionary_dict = {
+            "country": (os.path.join(DICTIONARY_HOME, "openVirus20210120", "country", "country.xml"),
+                        "ISO countries from wikidata"),
+            "invasive": (os.path.join(CEV_DICTIONARY_HOME, "Invasive_species", "invasive_plant.xml"),
+                         "Invasive plant species from GISD"),
+            "plant_part": (os.path.join(CEV_DICTIONARY_HOME, "eoPlantPart", "eoplant_part.xml"),
+                        "Plant parts from EO literature"),
+        }
 
-        self.spin = tk.Spinbox(root, from_ = 1, to = 10, state = "readonly")
-        self.spin.pack(side="bottom")
 
+        self.dictlistbox = tk.Listbox(master=root)
+        self.dictlistbox.pack(side=BOTTOM)
+        for i, dict_key in enumerate(dictionary_dict.keys()):
+            self.dictlistbox.insert(i, dict_key)
 
+        # this will become callbacks
+#        self.get_selections_from_box(self.dictlistbox)
+
+        selected_dict_names = ["country", "invasive", "plant_part"]
+        self.selected_boxes = []
+        for dict_name in selected_dict_names:
+            dictionary_tup = dictionary_dict[dict_name]
+            curbox = self.make_labelled_dictbox(dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
+            self.selected_boxes.append(curbox)
+        #        self.make_dictbox("invasive", dictionary_dict, "Invasive plant species from GISD")
+#        self.make_dictbox("plant_part", dictionary_dict, "Plant parts from EO literature")
+
+        self.make_spinbox("max hits", min=1, max=10)
 
         text_area_flag = False
         if text_area_flag:
             self.make_text_area()
+
+    def make_spinbox(self, title, min=1, max=10):
+        spin_frame = Frame()
+        self.spin = tk.Spinbox(root, from_=min, to=max, state="readonly")
+        self.spin.pack(side="bottom")
+
+    def make_labelled_dictbox(self, name, amidict, desc="Missing desc"):
+        dictbox = Frame()
+        dictbox.pack()
+        label = Label(master=dictbox, text=name, bg="#ffdddd", bd=3)
+        if desc:
+            CreateToolTip(label, text=desc)
+
+        label.pack(side=TOP)
+        box = self.create_listbox(self.read_entry_names(amidict), dictbox=dictbox)
+        box.pack(side=BOTTOM)
+#        return dictbox
+        return box
 
     def make_text_area(self):
         # Title Label
@@ -112,13 +151,15 @@ class Application(tk.Frame):
 #        text_area.configure(state='disabled')
         return text_area
 
-    def create_listbox(self, items):
-        lb = tk.Listbox(height=5,
+    def create_listbox(self, items, dictbox=None):
+        lb = tk.Listbox(master=dictbox, height=5,
                               selectmode=tk.MULTIPLE,
                               exportselection=False,
                               highlightcolor="green",
                               selectbackground="pink",
-                              highlightthickness=3, fg="blue")
+                              highlightthickness=3,
+                              bg = "#ffffdd", bd = 5,
+                              fg="blue")
         for i, item in enumerate(items):
             lb.insert(i + 1, item)
         lb.pack(side="left")
@@ -162,7 +203,7 @@ class Application(tk.Frame):
         for line in lines:
             if line.startswith("CompletedProcess"):
                 hits = line.split("Total Hits are")[-1]
-                print("******", hits)
+                print("HITS", hits)
             if "Wrote xml" in line:
                 saved += 1
             print(line)
@@ -172,22 +213,20 @@ class Application(tk.Frame):
 
         limit = self.spin.get()
         print("limit:", limit)
-        lbstr1 = self.make_query_string(self.lb1)
-        lbstr2 = self.make_query_string(self.lb2)
-        lbstr3 = self.make_query_string(self.lb3)
-        if lbstr1 == "()" and lbstr2 == "()" and lbstr3 == "()":
-            print("must pick at least one listbox")
-            return
-        lbstr = lbstr1 + " AND " + lbstr2 + " AND " + lbstr3
-        print ("str", lbstr)
+        lbstr = ""
+        for box in self.selected_boxes:
+            select_str = self.make_query_string(box)
+            if select_str is None or select_str == "":
+                continue
+            if lbstr != "":
+                lbstr += " AND "
+            lbstr += select_str
+#        lbstr1 = self.make_query_string(self.lb1)
+
         outd = self.outdir.get()
         if outd == "":
             print("must give outdir")
             messagebox.showinfo(title="outdir box", message="must give outdir")
-            ans = messagebox.askyesno(title="yesno", message="False or True?")
-            print("ans", ans)
-            ans = messagebox.askyesnocancel(title="yesno", message="Yes No None")
-            print("yes no cancel", ans)
             return
 
         self.run_query_and_get_output(
@@ -197,8 +236,8 @@ class Application(tk.Frame):
         s = False
         print("check", self.check.getboolean(s))
 
-    def make_query_string(self, lb):
-        selected = [lb.get(i) for i in lb.curselection()]
+    def make_query_string(self, box):
+        selected = self.get_selections_from_box(box)
         s = ""
         l = len(selected)
         s = '('
@@ -207,6 +246,9 @@ class Application(tk.Frame):
             s += " OR " + self.quoteme(selected[i])
         s += ')'
         return s
+
+    def get_selections_from_box(self, box):
+        return [box.get(i) for i in box.curselection()]
 
     def test_prog_bar(self):
         import tkinter as tk
@@ -243,16 +285,72 @@ class Application(tk.Frame):
         # The application mainloop
         tk.mainloop()
 
-    def read_plants_part_dictionary_names(self):
-        DICTIONARY_HOME = "/Users/pm286/projects/CEVOpen/dictionary"
-        plant_parts_dict = os.path.join(DICTIONARY_HOME, "eoPlantPart/eoplant_part.xml")
-        assert(os.path.exists(plant_parts_dict))
-        elementTree = ET.parse(plant_parts_dict)
+    def read_entry_names(self, dictionary_file):
+        print(dictionary_file)
+        assert (os.path.exists(dictionary_file))
+        elementTree = ET.parse(dictionary_file)
         entries = elementTree.findall("entry")
-        print("entries", len(entries))
         names = [entry.attrib["name"] for entry in entries]
-        print (len(names))
+        print("entries", len(names))
+        names = sorted(names)
         return names
+
+class DictFrame(Frame):
+
+    def __init__(self, master=None, title="dummy_title", amidict=None):
+        super().__init__(master)
+        self.master = master
+        self.title = title
+        self.pack()
+
+class ToolTip(object):
+
+    # https://stackoverflow.com/questions/20399243/display-message-when-hovering-over-something-with-mouse-cursor-in-python
+
+    def __init__(self, widget):
+        self.widget = widget
+        self.tipwindow = None
+        self.id = None
+        self.x = self.y = 0
+
+    def showtip(self, text):
+        from tkinter import Toplevel, SOLID
+        "Display text in tooltip window"
+        self.text = text
+        if self.tipwindow or not self.text:
+            return
+        x, y, cx, cy = self.widget.bbox("insert")
+        x = x + self.widget.winfo_rootx() + 57
+        y = y + cy + self.widget.winfo_rooty() + 27
+        self.tipwindow = tw = Toplevel(self.widget)
+        tw.wm_overrideredirect(1)
+        tw.wm_geometry("+%d+%d" % (x, y))
+        label = Label(tw, text=self.text, justify=LEFT,
+                      background="#ffffe0", relief=SOLID, borderwidth=1,
+                      font=("tahoma", "15", "normal"))
+        label.pack(ipadx=1)
+
+    def hidetip(self):
+        tw = self.tipwindow
+        self.tipwindow = None
+        if tw:
+            tw.destroy()
+
+def CreateToolTip(widget, text):
+    toolTip = ToolTip(widget)
+
+    def enter(event):
+        toolTip.showtip(text)
+
+    def leave(event):
+        toolTip.hidetip()
+
+    widget.bind('<Enter>', enter)
+    widget.bind('<Leave>', leave)
+
+
+
+
 
 
 root = tk.Tk()

@@ -32,9 +32,12 @@ class Application(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.master = master
+        self.max_max_hits = 90
+
         self.pack()
         self.create_widgets()
         self.menu_stuff()
+
 
     def create_widgets(self):
 
@@ -43,14 +46,7 @@ class Application(tk.Frame):
         self.run_query_button["command"] = self.check_query_widgets
         self.run_query_button.pack(side="top")
 
-        labelText = tk.StringVar()
-        labelText.set("output dir")
-        labelDir = tk.Label(root, textvariable=labelText, height=1)
-        labelDir.pack(side="left")
-
-        self.outdir = tk.StringVar(None)
-        dirname = tk.Entry(root, textvariable=self.outdir, width=50)
-        dirname.pack(side="left")
+        self.make_outdir_box(root, "top")
 
         self.quit = tk.Button(self, text="QUIT", fg="red",
                               command=self.master.destroy)
@@ -62,6 +58,8 @@ class Application(tk.Frame):
         dictionary_dict = {
             "country": (os.path.join(DICTIONARY_HOME, "openVirus20210120", "country", "country.xml"),
                         "ISO countries from wikidata"),
+            "ethics": (os.path.join(DICTIONARY_HOME, "ami3", "ethics.xml"),
+                        "ISO countries from wikidata"),
             "invasive": (os.path.join(CEV_DICTIONARY_HOME, "Invasive_species", "invasive_plant.xml"),
                          "Invasive plant species from GISD"),
             "plant_part": (os.path.join(CEV_DICTIONARY_HOME, "eoPlantPart", "eoplant_part.xml"),
@@ -69,33 +67,57 @@ class Application(tk.Frame):
         }
 
 
-        self.dictlistbox = tk.Listbox(master=root)
+        self.dictlistbox = self.create_listbox(dictionary_dict.keys(), master=root)
         self.dictlistbox.pack(side=BOTTOM)
-        for i, dict_key in enumerate(dictionary_dict.keys()):
-            self.dictlistbox.insert(i, dict_key)
 
-        # this will become callbacks
-#        self.get_selections_from_box(self.dictlistbox)
+        dictionary_names = dictionary_dict.keys()
+#        for i, dict_key in enumerate(dictionary_names):
+#            self.dictlistbox.insert(i, dict_key)
 
-        selected_dict_names = ["country", "invasive", "plant_part"]
-        self.selected_boxes = []
-        for dict_name in selected_dict_names:
-            dictionary_tup = dictionary_dict[dict_name]
-            curbox = self.make_labelled_dictbox(dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
-            self.selected_boxes.append(curbox)
-        #        self.make_dictbox("invasive", dictionary_dict, "Invasive plant species from GISD")
-#        self.make_dictbox("plant_part", dictionary_dict, "Plant parts from EO literature")
 
-        self.make_spinbox("max hits", min=1, max=10)
+        selected_dict_names = ["country", "ethics",
+                               "plant_part"]
+
+
+        self.make_dictionary_boxes(dictionary_dict, selected_dict_names)
+        self.make_spinbox(root, "maximum hits (-k)", min=1, max=self.max_max_hits)
 
         text_area_flag = False
         if text_area_flag:
             self.make_text_area()
 
-    def make_spinbox(self, title, min=1, max=10):
-        spin_frame = Frame()
-        self.spin = tk.Spinbox(root, from_=min, to=max, state="readonly")
-        self.spin.pack(side="bottom")
+    def make_dictionary_boxes(self, dictionary_dict, selected_dict_names):
+        self.selected_boxes = []
+        for dict_name in selected_dict_names:
+            dictionary_tup = dictionary_dict[dict_name]
+            curbox = self.make_labelled_dictbox(dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
+            self.selected_boxes.append(curbox)
+
+    def make_outdir_box(self, master, box_side):
+        outdir_frame = tk.Frame(master=master, bd=3, bg="#ffddaa")
+        outdir_frame.pack(side=box_side)
+
+        labelText = tk.StringVar()
+        labelText.set("output dir")
+        labelDir = tk.Label(root, textvariable=labelText, height=1)
+        labelDir.pack(side="top")
+
+        default_dir = os.path.join(os.path.expanduser("~"), "temp")
+        self.outdir = tk.StringVar(None)
+        dirname = tk.Entry(root, textvariable=self.outdir, width=25)
+        dirname.delete(0, tk.END)
+        dirname.insert(0, default_dir)
+        dirname.pack(side="top")
+
+    def make_spinbox(self, master, title, min=1, max=100):
+
+        print("master", master)
+        spin_frame = tk.Frame(master=master, bg = "#444444", bd = 3,)
+        spin_frame.pack()
+        label = tk.Label(master=spin_frame, bg="#ffffdd", text=title)
+        label.pack(side="left")
+        self.spin = tk.Spinbox(spin_frame, from_=min, to=max, state="readonly", width=5)
+        self.spin.pack(side="right")
 
     def make_labelled_dictbox(self, name, amidict, desc="Missing desc"):
         dictbox = Frame()
@@ -105,61 +127,20 @@ class Application(tk.Frame):
             CreateToolTip(label, text=desc)
 
         label.pack(side=TOP)
-        box = self.create_listbox(self.read_entry_names(amidict), dictbox=dictbox)
+        box = self.create_listbox(self.read_entry_names(amidict), master=dictbox)
         box.pack(side=BOTTOM)
 #        return dictbox
         return box
 
-    def make_text_area(self):
-        # Title Label
-        lab = tk.Label(root,
-                       text="ScrolledText Widget Example",
-                       font=("Times New Roman", 15),
-                       background='green',
-                       foreground="white")
-        lab.pack(side="bottom")
-        #            .grid(column=0, row=0)
-
-        # Creating scrolled text area
-        # widget with Read only by
-        # disabling the state
-        text_area = scrolledtext.ScrolledText(root,
-                                    width=30,
-                                    height=8,
-                                    font=("Times New Roman",
-                                          15))
-        text_area.pack(side="bottom")
-        print("text", text_area)
-
-        # Inserting Text which is read only
-        text_area.insert(tk.INSERT,
-                         """\
- This is a scrolledtext widget to make tkinter text 
- one
- two
- three
- four
- five
- six
- seven
- eight
- nine
- ten
-                         """)
-        text_area.bind("<Button-1>", button1)
-        # Making the text read only
-#        text_area.configure(state='disabled')
-        return text_area
-
-    def create_listbox(self, items, dictbox=None):
-        lb = tk.Listbox(master=dictbox, height=5,
-                              selectmode=tk.MULTIPLE,
-                              exportselection=False,
-                              highlightcolor="green",
-                              selectbackground="pink",
-                              highlightthickness=3,
-                              bg = "#ffffdd", bd = 5,
-                              fg="blue")
+    def create_listbox(self, items, master=None):
+        lb = tk.Listbox(master=master, height=5,
+                        selectmode=tk.MULTIPLE,
+                        exportselection=False,
+                        highlightcolor="green",
+                        selectbackground="pink",
+                        highlightthickness=3,
+                        bg = "#ffffdd", bd = 3,
+                        fg="blue")
         for i, item in enumerate(items):
             lb.insert(i + 1, item)
         lb.pack(side="left")
@@ -295,14 +276,6 @@ class Application(tk.Frame):
         names = sorted(names)
         return names
 
-class DictFrame(Frame):
-
-    def __init__(self, master=None, title="dummy_title", amidict=None):
-        super().__init__(master)
-        self.master = master
-        self.title = title
-        self.pack()
-
 class ToolTip(object):
 
     # https://stackoverflow.com/questions/20399243/display-message-when-hovering-over-something-with-mouse-cursor-in-python
@@ -348,12 +321,51 @@ def CreateToolTip(widget, text):
     widget.bind('<Enter>', enter)
     widget.bind('<Leave>', leave)
 
-
-
-
-
-
+# main
 root = tk.Tk()
 print("ROOT")
 app = Application(master=root)
 app.mainloop()
+
+"""unused"""
+def make_text_area(self):
+    # Title Label
+    lab = tk.Label(root,
+                   text="ScrolledText Widget Example",
+                   font=("Times New Roman", 15),
+                   background='green',
+                   foreground="white")
+    lab.pack(side="bottom")
+    #            .grid(column=0, row=0)
+
+    # Creating scrolled text area
+    # widget with Read only by
+    # disabling the state
+    text_area = scrolledtext.ScrolledText(root,
+                                width=30,
+                                height=8,
+                                font=("Times New Roman",
+                                      15))
+    text_area.pack(side="bottom")
+    print("text", text_area)
+
+    # Inserting Text which is read only
+    text_area.insert(tk.INSERT,
+                     """\
+This is a scrolledtext widget to make tkinter text 
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+                     """)
+    text_area.bind("<Button-1>", button1)
+    # Making the text read only
+#        text_area.configure(state='disabled')
+    return text_area
+

@@ -8,6 +8,9 @@ from tkinter import Frame
 from tkinter import Label
 from tkinter import TOP, BOTTOM, LEFT
 
+ONVAL = 1
+OFFVAL = 0
+
 def button1(event):
     print("button1", event)
     print(dir(event))
@@ -41,13 +44,11 @@ class Application(tk.Frame):
 
 
     def create_widgets(self):
-        self.create_run_button()
 
         self.make_outdir_box(root, "top")
 
-        self.quit = tk.Button(self, text="QUIT", fg="red",
-                              command=self.master.destroy)
-        self.quit.pack(side="bottom")
+        self.make_entry_box(root, text="query")
+
 
         DICTIONARY_HOME = "/Users/pm286/dictionary"
         CEV_DICTIONARY_HOME = "/Users/pm286/projects/CEVOpen/dictionary"
@@ -85,17 +86,134 @@ class Application(tk.Frame):
 
 
 #        self.make_dictionary_boxes(dictionary_dict, selected_dict_names)cc
+
+        self.xml_box = None
+        self.xml_var = None
+        self.pdf_box = None
+        self.pdf_var = None
+        self.supp_box = None
+        self.supp_var = None
+        self.noexec_box = None
+        self.noexec_var = None
+        self.csv_box = None
+        self.csv_var = None
+        self.checkbox_dict = {
+            "xml" : {
+                "box": self.xml_box,
+                "var": self.xml_var,
+                "text": "output XML",
+                "on":ONVAL,
+                "off": OFFVAL,
+                "default" : ONVAL,
+                "brief": "-x",
+                "full": "--xml",
+            },
+            "pdf": {
+                "box": self.pdf_box,
+                "var": self.pdf_var,
+                "text": "output PDF",
+                "on": ONVAL,
+                "off": OFFVAL,
+                "default": OFFVAL,
+                "brief": "-p",
+                "full": "--pdf",
+            },
+            "supp": {
+                "box": self.supp_box,
+                "var": self.supp_var,
+                "text": "output SUPP",
+                "on": ONVAL,
+                "off": OFFVAL,
+                "default": OFFVAL,
+                "brief": "-s",
+                "full": "--supp",
+            },
+            "noexec": {
+                "box": self.noexec_box,
+                "var": self.noexec_var,
+                "text": "no download",
+                "on": ONVAL,
+                "off": OFFVAL,
+                "default": ONVAL,
+                "brief": "-n",
+                "full": "--noexecute",
+            },
+            "csv": {
+                "box": self.csv_box,
+                "var": self.csv_var,
+                "text": "output metadata CSV",
+                "on": ONVAL,
+                "off": OFFVAL,
+                "default": OFFVAL,
+                "brief": "-c",
+                "full": "--makecsv",
+            },
+        }
+
+        self.make_check_button("xml")
+        self.make_check_button("pdf")
+        self.make_check_button("csv")
+        self.make_check_button("noexec")
+        self.make_check_button("supp")
+#        cbox = self.checkbox_dict["xml"]
+#        onval = cbox["on"]
+#        print("ONV", onval)
+#        cbox["box"], cbox["var"] = self.create_check_box(root, text=cbox["text"], default=cbox["default"])
+#        self.xml_box, self.xml_var = self.create_check_box(root, text="output XML")
+#        self.pdf_box, self.pdf_var = self.create_check_box(root, text="output PDF")
+#        self.supp_box, self.supp_var = self.create_check_box(root, text="download suppdata")
+#        self.noexec_box, self.noexec_var = self.create_check_box(root, text="don't run query")
+
         self.make_spinbox(root, "maximum hits (-k)", min=1, max=self.max_max_hits)
 
         text_area_flag = False
         if text_area_flag:
             self.make_text_area()
 
+        self.create_run_button()
+        self.quit = tk.Button(self, text="QUIT", fg="red",
+                              command=self.master.destroy)
+        self.quit.pack(side="bottom")
+
+    def make_check_button(self, key):
+        option_dict = self.checkbox_dict[key]
+        print("option", option_dict)
+        cbox = self.checkbox_dict[key]
+        onval = cbox["on"]
+        print("ONVAL", onval)
+        cbox["box"], cbox["var"] = self.create_check_box(root, text=cbox["text"], default=cbox["default"])
+
+
+
+    def create_check_box(self, window, text, **kwargs):
+        from tkinter import ttk
+        print("master", window)
+
+        print("KW", kwargs)
+        self.checkVar = tk.IntVar()
+        defval = kwargs["default"] if "default" in kwargs else None
+        if defval is not None and defval == ONVAL:
+            self.checkVar.get()
+        print("def", self.checkVar)
+        checkbutton = ttk.Checkbutton(window, text=text, variable=self.checkVar,
+                    onvalue=ONVAL, offvalue=OFFVAL)
+        if defval is not None and defval == ONVAL:
+#            checkbutton.select()
+            self.checkVar.set(ONVAL)
+
+        print("checkvar", self.checkVar.get())
+
+        checkbutton.pack()
+
+        return checkbutton, self.checkVar
+#        def test():
+#            print(CheckVar2.get())  # Notice the .get()
+
     def create_run_button(self):
         self.run_query_button = tk.Button(self)
         self.run_query_button["text"] = "Run pygetpapers query"
-        self.run_query_button["command"] = self.check_query_widgets
-        self.run_query_button.pack(side="top")
+        self.run_query_button["command"] = self.create_query_and_run
+        self.run_query_button.pack(side="bottom")
 
     def make_dictionary_boxes0(self):
 
@@ -109,7 +227,7 @@ class Application(tk.Frame):
             self.selected_boxes.append(curbox)
 
     def make_outdir_box(self, master, box_side):
-#        import tkFileDialog
+        #        import tkFileDialog
         outdir_frame = tk.Frame(master=master, bd=3, bg="#ffddaa")
         outdir_frame.pack(side=box_side)
 
@@ -124,7 +242,28 @@ class Application(tk.Frame):
         dirname.delete(0, tk.END)
         dirname.insert(0, default_dir)
         dirname.pack(side="top")
-#        directory = tkFileDialog.askdirectory()
+
+    #        directory = tkFileDialog.askdirectory()
+
+    def make_entry_box(self, master, **kwargs):
+        entry_frame = tk.Frame(master=master, bd=3, bg="#ffddaa")
+        entry_frame.pack()
+
+        labelText = tk.StringVar()
+        txt = kwargs["text"] if "text" in kwargs else ""
+        labelText.set(txt)
+        entry_label = tk.Label(master, textvariable=labelText)
+        entry_label.pack(side="top")
+
+        default_text = kwargs["default"] if "default" in kwargs else None
+        self.entry_text = tk.StringVar(None)
+        entry = tk.Entry(master, textvariable=self.entry_text, width=25)
+        entry.delete(0, tk.END)
+        if default_text is not None:
+            entry.insert(0, default_text)
+        entry.pack(side="top")
+
+    #        directory = tkFileDialog.askdirectory()
 
     def make_spinbox(self, master, title, min=1, max=100):
 
@@ -193,17 +332,22 @@ class Application(tk.Frame):
         for line in lines:
             if line.startswith("CompletedProcess"):
                 hits = line.split("Total Hits are")[-1]
+                hits = hits.split("args=")[-1]
+                hits = hits.split(", returncode")[0]
                 print("HITS", hits)
             if "Wrote xml" in line:
                 saved += 1
             print(line)
-        messagebox.showinfo(title="end search", message="finised search, hits: "+str(hits)+", saved: "+str(saved))
+        messagebox.showinfo(title="end search", message="finished search, hits: "+str(hits)+", saved: "+str(saved))
 
-    def check_query_widgets(self):
+    def create_query_and_run(self):
 
         limit = self.spin.get()
         print("limit:", limit)
         lbstr = ""
+        lbstr = self.entry_text.get()
+        if lbstr != "":
+            lbstr = '("' + lbstr + '")'
         for box in self.selected_boxes:
             select_str = self.make_query_string(box)
             if select_str is None or select_str == "":
@@ -211,7 +355,9 @@ class Application(tk.Frame):
             if lbstr != "":
                 lbstr += " AND "
             lbstr += select_str
-#        lbstr1 = self.make_query_string(self.lb1)
+        if lbstr == "":
+            print("No query, no submission")
+            return
 
         outd = self.outdir.get()
         if outd == "":
@@ -219,8 +365,17 @@ class Application(tk.Frame):
             messagebox.showinfo(title="outdir box", message="must give outdir")
             return
 
-        self.run_query_and_get_output(
-            ["pygetpapers", "-q", lbstr, "-x", "-o", outd, "-k", limit])
+        cmd_options = ["pygetpapers", "-q", lbstr, "-o", outd, "-k", limit]
+
+        for k, v in self.checkbox_dict.items():
+            if v["var"].get() == ONVAL:
+                cmd_options.append(v["brief"])
+
+        self.run_query_and_get_output(cmd_options)
+
+    def add_if_checked(self, cmd_options, var, val):
+        if var is not None and var.get() == ONVAL:
+            cmd_options.append(val)
 
     def print_check(self):
         s = False
@@ -284,6 +439,7 @@ class Application(tk.Frame):
         print("entries", len(names))
         names = sorted(names)
         return names
+
 
 class ToolTip(object):
 

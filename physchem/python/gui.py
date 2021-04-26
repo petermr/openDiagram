@@ -31,20 +31,17 @@ class Application(tk.Frame):
 
     def __init__(self, master=None):
         super().__init__(master)
+        print("master", type(master), master, master.children, dir(master))
         self.master = master
         self.max_max_hits = 90
 
         self.pack()
         self.create_widgets()
-        self.menu_stuff()
+#        self.menu_stuff()
 
 
     def create_widgets(self):
-
-        self.run_query_button = tk.Button(self)
-        self.run_query_button["text"] = "Run pygetpapers query"
-        self.run_query_button["command"] = self.check_query_widgets
-        self.run_query_button.pack(side="top")
+        self.create_run_button()
 
         self.make_outdir_box(root, "top")
 
@@ -64,27 +61,45 @@ class Application(tk.Frame):
                          "Invasive plant species from GISD"),
             "plant_part": (os.path.join(CEV_DICTIONARY_HOME, "eoPlantPart", "eoplant_part.xml"),
                         "Plant parts from EO literature"),
+            "parkinsons": (os.path.join(DICTIONARY_HOME, "ami3", "parkinsons.xml"),
+                           "Terms related to Parkinson's disease"),
         }
 
 
-        self.dictlistbox = self.create_listbox(dictionary_dict.keys(), master=root)
-        self.dictlistbox.pack(side=BOTTOM)
+        selected_dict_names = ["country", "ethics",
+                               "parkinsons"]
+#        self.dictlistbox = self.create_listbox(dictionary_dict.keys(), master=root,
+#                        command=lambda: self.make_dictionary_boxes0(
+#                            dictionary_dict, selected_dict_names))
+        self.dictlistbox0 = self.create_listbox(dictionary_dict.keys(), master=root,
+                        command=lambda: self.make_dictionary_boxes(
+                            dictionary_dict,
+                            self.get_selections_from_box(self.dictlistbox0)))
+
+#        self.dictlistbox.pack(side=BOTTOM)
+        self.dictlistbox0.pack(side=BOTTOM)
 
         dictionary_names = dictionary_dict.keys()
 #        for i, dict_key in enumerate(dictionary_names):
 #            self.dictlistbox.insert(i, dict_key)
 
 
-        selected_dict_names = ["country", "ethics",
-                               "plant_part"]
-
-
-        self.make_dictionary_boxes(dictionary_dict, selected_dict_names)
+#        self.make_dictionary_boxes(dictionary_dict, selected_dict_names)cc
         self.make_spinbox(root, "maximum hits (-k)", min=1, max=self.max_max_hits)
 
         text_area_flag = False
         if text_area_flag:
             self.make_text_area()
+
+    def create_run_button(self):
+        self.run_query_button = tk.Button(self)
+        self.run_query_button["text"] = "Run pygetpapers query"
+        self.run_query_button["command"] = self.check_query_widgets
+        self.run_query_button.pack(side="top")
+
+    def make_dictionary_boxes0(self):
+
+        print("make_dictionary_boxes0")
 
     def make_dictionary_boxes(self, dictionary_dict, selected_dict_names):
         self.selected_boxes = []
@@ -94,6 +109,7 @@ class Application(tk.Frame):
             self.selected_boxes.append(curbox)
 
     def make_outdir_box(self, master, box_side):
+#        import tkFileDialog
         outdir_frame = tk.Frame(master=master, bd=3, bg="#ffddaa")
         outdir_frame.pack(side=box_side)
 
@@ -108,6 +124,7 @@ class Application(tk.Frame):
         dirname.delete(0, tk.END)
         dirname.insert(0, default_dir)
         dirname.pack(side="top")
+#        directory = tkFileDialog.askdirectory()
 
     def make_spinbox(self, master, title, min=1, max=100):
 
@@ -132,8 +149,20 @@ class Application(tk.Frame):
 #        return dictbox
         return box
 
-    def create_listbox(self, items, master=None):
-        lb = tk.Listbox(master=master, height=5,
+    def create_listbox(self, items, master=None, command=None):
+        print("items", items)
+        print("listbox master", master)
+        frame = tk.Frame(master,
+                         highlightbackground="blue", highlightcolor="green", highlightthickness=2
+                         )
+        frame.pack()  #cannot pack frame with "side=bottom", why not??
+        if command is not None:
+            button = tk.Button(frame, text="create dictboxes",
+                          command=command,
+                           )
+            button.pack(side="top")
+
+        lb = tk.Listbox(master=frame, height=5,
                         selectmode=tk.MULTIPLE,
                         exportselection=False,
                         highlightcolor="green",
@@ -143,38 +172,18 @@ class Application(tk.Frame):
                         fg="blue")
         for i, item in enumerate(items):
             lb.insert(i + 1, item)
-        lb.pack(side="left")
+        lb.pack(side="bottom")
         #        self.lb1.bind('<Button-1>', button1)
         return lb
+
+    def make_dictboxes(self):
+        print("make dictboxes")
+        pass
 
 # frames and windows
     """
     https://stackoverflow.com/questions/24656138/python-tkinter-attach-scrollbar-to-listbox-as-opposed-to-window/24656407
     """
-
-    def menu_stuff(self):
-        from tkinter import Menu
-
-        menubar = Menu(self.master)
-        filemenu = Menu(menubar, tearoff=0)
-        filemenu.add_command(label="New", command=self.menu("newxx"))
-        filemenu.add_command(label="Open", command=self.menu("openxx"))
-        filemenu.add_command(label="Save", command=self.menu("savexx"))
-        filemenu.add_separator()
-        filemenu.add_command(label="Exit", command=root.quit)
-        menubar.add_cascade(label="File", menu=filemenu)
-
-        helpmenu = Menu(menubar, tearoff=0)
-        helpmenu.add_command(label="Help Index", command=self.menu("help indexx"))
-        helpmenu.add_command(label="About...", command=self.menu("ABOUTxx"))
-        menubar.add_cascade(label="Help", menu=helpmenu)
-
-        root.config(menu=menubar)
-        print("before mainloop")
-        root.mainloop()
-
-    def menu(self, text):
-        print("menu", text)
 
     def run_query_and_get_output(self, args):
         print("args", args)
@@ -323,7 +332,7 @@ def CreateToolTip(widget, text):
 
 # main
 root = tk.Tk()
-print("ROOT")
+print("ROOT", root)
 app = Application(master=root)
 app.mainloop()
 
@@ -369,3 +378,30 @@ ten
 #        text_area.configure(state='disabled')
     return text_area
 
+# menu - not used
+def menu_stuff(self):
+    from tkinter import Menu
+
+    menubar = Menu(self.master)
+    filemenu = Menu(menubar, tearoff=0)
+    filemenu.add_command(label="New", command=self.menu("newxx"))
+    filemenu.add_command(label="Open", command=self.menu("openxx"))
+    filemenu.add_command(label="Save", command=self.menu("savexx"))
+    filemenu.add_separator()
+    filemenu.add_command(label="Exit", command=root.quit)
+    menubar.add_cascade(label="File", menu=filemenu)
+
+    helpmenu = Menu(menubar, tearoff=0)
+    helpmenu.add_command(label="Help Index", command=self.menu("help indexx"))
+    helpmenu.add_command(label="About...", command=self.menu("ABOUTxx"))
+    menubar.add_cascade(label="Help", menu=helpmenu)
+
+    root.config(menu=menubar)
+    print("before mainloop")
+    root.mainloop()
+
+def menu(self, text):
+    print("menu", text)
+
+
+# https://stackoverflow.com/questions/30004505/how-do-you-find-a-unique-and-constant-id-of-a-widget

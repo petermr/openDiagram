@@ -37,6 +37,8 @@ class Application(tk.Frame):
         print("master", type(master), master, master.children, dir(master))
         self.master = master
         self.max_max_hits = 90
+        self.selected_boxes = []
+        self.current_project = "None"
 
         self.pack()
         self.create_widgets()
@@ -97,6 +99,8 @@ class Application(tk.Frame):
         self.noexec_var = None
         self.csv_box = None
         self.csv_var = None
+        self.section_box = None
+        self.section_var = None
         self.checkbox_dict = {
             "xml" : {
                 "box": self.xml_box,
@@ -148,6 +152,16 @@ class Application(tk.Frame):
                 "brief": "-c",
                 "full": "--makecsv",
             },
+            "sections": {
+                "box": self.section_box,
+                "var": self.section_var,
+                "text": "make sections",
+                "on": ONVAL,
+                "off": OFFVAL,
+                "default": OFFVAL,
+                "brief": "-z",
+                "full": "--sections",
+            },
         }
 
         self.make_check_button("xml")
@@ -155,6 +169,7 @@ class Application(tk.Frame):
         self.make_check_button("csv")
         self.make_check_button("noexec")
         self.make_check_button("supp")
+        self.make_check_button("sections")
 #        cbox = self.checkbox_dict["xml"]
 #        onval = cbox["on"]
 #        print("ONV", onval)
@@ -227,10 +242,20 @@ class Application(tk.Frame):
             self.selected_boxes.append(curbox)
 
     def make_outdir_box(self, master, box_side):
-        #        import tkFileDialog
-        outdir_frame = tk.Frame(master=master, bd=3, bg="#ffddaa")
-        outdir_frame.pack(side=box_side)
+        from tkinter import ttk
+        # TODO display frame
+        outdir_frame = tk.Frame(master=master,
+                                highlightbackground="red", highlightcolor="blue", highlightthickness=2)
+        outdir_frame.pack()
 
+        open_button = ttk.Button(
+            root,
+            text='Output directory',
+            command=self.select_directory
+        )
+        open_button.pack()
+
+        open_button.pack(expand=True)
         labelText = tk.StringVar()
         labelText.set("output dir")
         labelDir = tk.Label(root, textvariable=labelText, height=1)
@@ -244,6 +269,24 @@ class Application(tk.Frame):
         dirname.pack(side="top")
 
     #        directory = tkFileDialog.askdirectory()
+
+    def select_directory(self):
+        from tkinter import filedialog as fd
+        from tkinter import messagebox
+        filetypes = (
+            ('text files', '*.txt'),
+            ('All files', '*')
+        )
+
+        filename = fd.askdirectory(
+            title='Output directory',
+            initialdir=os.path.expanduser("~"),  # HOME directory
+        )
+
+        messagebox.showinfo(
+            title='Selected Directory',
+            message=filename
+        )
 
     def make_entry_box(self, master, **kwargs):
         entry_frame = tk.Frame(master=master, bd=3, bg="#ffddaa")
@@ -344,10 +387,56 @@ class Application(tk.Frame):
 
         limit = self.spin.get()
         print("limit:", limit)
-        lbstr = ""
-        lbstr = self.entry_text.get()
-        if lbstr != "":
-            lbstr = '("' + lbstr + '")'
+        query_string = ""
+
+        query_string = self.add_query_entry(query_string)
+
+        query_string = self.add_dictionary_box_terms(query_string)
+
+        if query_string == "":
+            print("No query, no submission")
+            messagebox.showinfo(title="query_output", message="no query or dictionary boxes selected; no submission")
+            return
+
+        self.project_dir = outd = self.outdir.get()
+        if self.project_dir == "":
+            print("must give outdir")
+            messagebox.showinfo(title="outdir box", message="must give outdir")
+            return
+
+        cmd_options = ["pygetpapers", "-q", query_string, "-o", self.project_dir, "-k", limit]
+
+        self.add_boolean_flags(cmd_options)
+
+        self.run_query_and_get_output(cmd_options)
+
+        section_dict = self.checkbox_dict["sections"]
+        if section_dict["var"].get() == ONVAL:
+            self.create_sections()
+
+    def create_sections(self):
+        import subprocess
+        args = ["ami", "-p", self.project_dir, "section"]
+        print("making sections", args)
+        result = str(subprocess.run(args, capture_output=True))
+        print("section:", result)
+
+
+    def add_boolean_flags(self, cmd_options):
+        pygetpapers_flags = ["xml", "noexec", "pdf", "csv", "supp"]
+        for k, v in self.checkbox_dict.items():
+            print("K,V", k, v)
+            if k in pygetpapers_flags:
+                if v["var"].get() == ONVAL:
+                    cmd_options.append(v["brief"])
+
+    def add_query_entry(self, query_string):
+        query_string = self.entry_text.get()
+        if query_string != "":
+            query_string = '("' + query_string + '")'
+        return query_string
+
+    def add_dictionary_box_terms(self, lbstr):
         for box in self.selected_boxes:
             select_str = self.make_query_string(box)
             if select_str is None or select_str == "":
@@ -355,23 +444,7 @@ class Application(tk.Frame):
             if lbstr != "":
                 lbstr += " AND "
             lbstr += select_str
-        if lbstr == "":
-            print("No query, no submission")
-            return
-
-        outd = self.outdir.get()
-        if outd == "":
-            print("must give outdir")
-            messagebox.showinfo(title="outdir box", message="must give outdir")
-            return
-
-        cmd_options = ["pygetpapers", "-q", lbstr, "-o", outd, "-k", limit]
-
-        for k, v in self.checkbox_dict.items():
-            if v["var"].get() == ONVAL:
-                cmd_options.append(v["brief"])
-
-        self.run_query_and_get_output(cmd_options)
+        return lbstr
 
     def add_if_checked(self, cmd_options, var, val):
         if var is not None and var.get() == ONVAL:

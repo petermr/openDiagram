@@ -229,7 +229,7 @@ def plot_box(title):
     image_array = plot_dict.get(IMAGE_ARRAY)
     ymax = plot_dict.get(YMAX)
     box = plot_dict.get(title)
-    print("box", box, title, ymax)
+    print(CBOX_BOX, box, title, ymax)
     img = make_image_from_xy(image_array, box[0], box[1], ymax - box[2], ymax - box[3])
     if debug:
         Image.fromarray(img).show()

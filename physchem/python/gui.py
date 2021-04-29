@@ -11,21 +11,39 @@ from tkinter import TOP, BOTTOM, LEFT
 ONVAL = 1
 OFFVAL = 0
 
+PYGETPAPERS = "pygetpapers"
+
+DICTIONARY_HOME = "/Users/pm286/dictionary"
+CEV_DICTIONARY_HOME = "/Users/pm286/projects/CEVOpen/dictionary"
+
+XML_FLAG = "xml"
+NOEXEC_FLAG = "noexec"
+PDF_FLAG = "pdf"
+CSV_FLAG = "csv"
+SUPP_FLAG = "supp"
+
+CBOX_BOX = "box"
+CBOX_VAR = "var"
+CBOX_TEXT = "text"
+CBOX_ON = "on"
+CBOX_OFF = "off"
+CBOX_BRIEF = "brief"
+CBOX_FULL = "full"
+CBOX_DEFAULT = "default"
+CBOX_COMMAND = "command"
+CBOX_TOOLTIP = "tooltip"
+
+TEXT_DEFAULT = "default"
+
+SUBPROC_LINE_END = "\\n"
+
 def button1(event):
     print("button1", event)
     print(dir(event))
-    if True:
-        return
-    tup = event.widget.curselection()
+    tup = event.widget.curselection
     print("tup", tup, type(tup),)
     if (len(tup) > 0):
         print(tup[0], event.widget.get(tup[0]))
-
-def button2(event):
-    print("button2", event)
-
-def button3(event):
-    print("button3", event)
 
 class Application(tk.Frame):
 
@@ -34,11 +52,10 @@ class Application(tk.Frame):
 
     def __init__(self, master=None):
         super().__init__(master)
-        print("master", type(master), master, master.children, dir(master))
         self.master = master
         self.max_max_hits = 90
         self.selected_boxes = []
-        self.current_project = "None"
+        self.current_project = None
 
         self.pack()
         self.create_widgets()
@@ -47,13 +64,10 @@ class Application(tk.Frame):
 
     def create_widgets(self):
 
-        self.make_outdir_box(root, "top")
+        self.make_outdir_box(root, tk.TOP)
 
         self.make_entry_box(root, text="query")
 
-
-        DICTIONARY_HOME = "/Users/pm286/dictionary"
-        CEV_DICTIONARY_HOME = "/Users/pm286/projects/CEVOpen/dictionary"
 
         dictionary_dict = {
             "country": (os.path.join(DICTIONARY_HOME, "openVirus20210120", "country", "country.xml"),
@@ -68,26 +82,20 @@ class Application(tk.Frame):
                            "Terms related to Parkinson's disease"),
         }
 
+        selected_dict_names = ["country", "ethics", "parkinsons"]
 
-        selected_dict_names = ["country", "ethics",
-                               "parkinsons"]
-#        self.dictlistbox = self.create_listbox(dictionary_dict.keys(), master=root,
-#                        command=lambda: self.make_dictionary_boxes0(
-#                            dictionary_dict, selected_dict_names))
-        self.dictlistbox0 = self.create_listbox(dictionary_dict.keys(), master=root,
-                        command=lambda: self.make_dictionary_boxes(
-                            dictionary_dict,
-                            self.get_selections_from_box(self.dictlistbox0)))
+        self.dictlistbox0 = self.create_listbox(
+                                dictionary_dict.keys(),
+                                master=root,
+                                command=lambda: self.make_dictionary_boxes(
+                                    dictionary_dict,
+                                    self.get_selections_from_box(self.dictlistbox0))
+                                                )
 
-#        self.dictlistbox.pack(side=BOTTOM)
         self.dictlistbox0.pack(side=BOTTOM)
 
         dictionary_names = dictionary_dict.keys()
-#        for i, dict_key in enumerate(dictionary_names):
-#            self.dictlistbox.insert(i, dict_key)
 
-
-#        self.make_dictionary_boxes(dictionary_dict, selected_dict_names)cc
 
         self.xml_box = None
         self.xml_var = None
@@ -101,83 +109,77 @@ class Application(tk.Frame):
         self.csv_var = None
         self.section_box = None
         self.section_var = None
-        self.checkbox_dict = {
-            "xml" : {
-                "box": self.xml_box,
-                "var": self.xml_var,
-                "text": "output XML",
-                "on":ONVAL,
-                "off": OFFVAL,
-                "default" : ONVAL,
-                "brief": "-x",
-                "full": "--xml",
+
+        self.pygetpapers_flags = {
+            XML_FLAG : {
+                CBOX_BOX: self.xml_box,
+                CBOX_VAR: self.xml_var,
+                CBOX_TEXT: "XML",
+                CBOX_ON:ONVAL,
+                CBOX_OFF: OFFVAL,
+                CBOX_DEFAULT : ONVAL,
+                CBOX_BRIEF: "-x",
+                CBOX_FULL: "--xml",
+                CBOX_TOOLTIP: "output XML",
+        },
+            PDF_FLAG: {
+                CBOX_BOX: self.pdf_box,
+                CBOX_VAR: self.pdf_var,
+                CBOX_TEXT: "PDF",
+                CBOX_ON: ONVAL,
+                CBOX_OFF: OFFVAL,
+                CBOX_DEFAULT: OFFVAL,
+                CBOX_BRIEF: "-p",
+                CBOX_FULL: "--pdf",
+                CBOX_TOOLTIP: "output PDF",
             },
-            "pdf": {
-                "box": self.pdf_box,
-                "var": self.pdf_var,
-                "text": "output PDF",
-                "on": ONVAL,
-                "off": OFFVAL,
-                "default": OFFVAL,
-                "brief": "-p",
-                "full": "--pdf",
+            SUPP_FLAG: {
+                CBOX_BOX: self.supp_box,
+                CBOX_VAR: self.supp_var,
+                CBOX_TEXT: "SUPP",
+                CBOX_ON: ONVAL,
+                CBOX_OFF: OFFVAL,
+                CBOX_DEFAULT: OFFVAL,
+                CBOX_BRIEF: "-s",
+                CBOX_FULL: "--supp",
+                CBOX_TOOLTIP: "output Supplemental data (often absent)",
             },
-            "supp": {
-                "box": self.supp_box,
-                "var": self.supp_var,
-                "text": "output SUPP",
-                "on": ONVAL,
-                "off": OFFVAL,
-                "default": OFFVAL,
-                "brief": "-s",
-                "full": "--supp",
+            NOEXEC_FLAG: {
+                CBOX_BOX: self.noexec_box,
+                CBOX_VAR: self.noexec_var,
+                CBOX_TEXT: "-n",
+                CBOX_ON: ONVAL,
+                CBOX_OFF: OFFVAL,
+                CBOX_DEFAULT: OFFVAL,
+                CBOX_BRIEF: "-n",
+                CBOX_FULL: "--no download",
+                CBOX_TOOLTIP: "if checked do not download ",
             },
-            "noexec": {
-                "box": self.noexec_box,
-                "var": self.noexec_var,
-                "text": "no download",
-                "on": ONVAL,
-                "off": OFFVAL,
-                "default": ONVAL,
-                "brief": "-n",
-                "full": "--noexecute",
-            },
-            "csv": {
-                "box": self.csv_box,
-                "var": self.csv_var,
-                "text": "output metadata CSV",
-                "on": ONVAL,
-                "off": OFFVAL,
-                "default": OFFVAL,
-                "brief": "-c",
-                "full": "--makecsv",
-            },
-            "sections": {
-                "box": self.section_box,
-                "var": self.section_var,
-                "text": "make sections",
-                "on": ONVAL,
-                "off": OFFVAL,
-                "default": OFFVAL,
-                "brief": "-z",
-                "full": "--sections",
+            CSV_FLAG: {
+                CBOX_BOX: self.csv_box,
+                CBOX_VAR: self.csv_var,
+                CBOX_TEXT: "CSV",
+                CBOX_ON: ONVAL,
+                CBOX_OFF: OFFVAL,
+                CBOX_DEFAULT: OFFVAL,
+                CBOX_BRIEF: "-c",
+                CBOX_FULL: "--makecsv",
+                CBOX_TOOLTIP: "output metadata as CSV",
             },
         }
 
-        self.make_check_button("xml")
-        self.make_check_button("pdf")
-        self.make_check_button("csv")
-        self.make_check_button("noexec")
-        self.make_check_button("supp")
-        self.make_check_button("sections")
-#        cbox = self.checkbox_dict["xml"]
-#        onval = cbox["on"]
-#        print("ONV", onval)
-#        cbox["box"], cbox["var"] = self.create_check_box(root, text=cbox["text"], default=cbox["default"])
-#        self.xml_box, self.xml_var = self.create_check_box(root, text="output XML")
-#        self.pdf_box, self.pdf_var = self.create_check_box(root, text="output PDF")
-#        self.supp_box, self.supp_var = self.create_check_box(root, text="download suppdata")
-#        self.noexec_box, self.noexec_var = self.create_check_box(root, text="don't run query")
+        self.mek_getpapers_checkboxes()
+
+        self.ami_section_dict = {
+            CBOX_BOX: self.section_box,
+            CBOX_VAR: self.section_var,
+            CBOX_TEXT: "make sections",
+            CBOX_ON: ONVAL,
+            CBOX_OFF: OFFVAL,
+            CBOX_DEFAULT: OFFVAL,
+            CBOX_TOOLTIP: "run ami section to create all sections ",
+        }
+
 
         self.make_spinbox(root, "maximum hits (-k)", min=1, max=self.max_max_hits)
 
@@ -190,49 +192,59 @@ class Application(tk.Frame):
                               command=self.master.destroy)
         self.quit.pack(side="bottom")
 
-    def make_check_button(self, key):
-        option_dict = self.checkbox_dict[key]
-        print("option", option_dict)
-        cbox = self.checkbox_dict[key]
-        onval = cbox["on"]
-        print("ONVAL", onval)
-        cbox["box"], cbox["var"] = self.create_check_box(root, text=cbox["text"], default=cbox["default"])
+        self.make_checkbox_from_dict(root, self.ami_section_dict)
 
+    def mek_getpapers_checkboxes(self):
+        self.checkbox_frame = tk.Frame(root,
+                                    highlightbackground="black", highlightthickness=2)
+        self.checkbox_frame.pack()
 
+        self.make_help_label(self.checkbox_frame, tk.LEFT,
+                             "pygetpapers checkboxes")
+
+        self.make_check_button(self.checkbox_frame, XML_FLAG)
+        self.make_check_button(self.checkbox_frame, PDF_FLAG)
+        self.make_check_button(self.checkbox_frame, CSV_FLAG)
+        self.make_check_button(self.checkbox_frame, NOEXEC_FLAG)
+        self.make_check_button(self.checkbox_frame, SUPP_FLAG)
+
+    def make_help_label(self, master, side, text):
+        label = tk.Label(master, text="?", background="white")
+        CreateToolTip(label, text=text)
+        label.pack(side=side)
+
+    def make_check_button(self, master, key):
+        cbox_dict = self.pygetpapers_flags[key]
+        self.make_checkbox_from_dict(master, cbox_dict)
+
+    def make_checkbox_from_dict(self, master,  cbox_dict):
+        onval = cbox_dict[CBOX_ON]
+        cbox_dict[CBOX_BOX], cbox_dict[CBOX_VAR] = \
+            cbox, cvar = self.create_check_box(master, text=cbox_dict[CBOX_TEXT], default=cbox_dict[TEXT_DEFAULT])
+        tooltip = cbox_dict[CBOX_TOOLTIP] if CBOX_BOX in cbox_dict.keys() else None
+        if tooltip is not None:
+            CreateToolTip(cbox, text=tooltip)
 
     def create_check_box(self, window, text, **kwargs):
         from tkinter import ttk
-        print("master", window)
-
-        print("KW", kwargs)
         self.checkVar = tk.IntVar()
-        defval = kwargs["default"] if "default" in kwargs else None
+        defval = kwargs[TEXT_DEFAULT] if TEXT_DEFAULT in kwargs else None
         if defval is not None and defval == ONVAL:
             self.checkVar.get()
-        print("def", self.checkVar)
         checkbutton = ttk.Checkbutton(window, text=text, variable=self.checkVar,
                     onvalue=ONVAL, offvalue=OFFVAL)
         if defval is not None and defval == ONVAL:
-#            checkbutton.select()
             self.checkVar.set(ONVAL)
 
-        print("checkvar", self.checkVar.get())
-
-        checkbutton.pack()
+        checkbutton.pack(side=tk.LEFT)
 
         return checkbutton, self.checkVar
-#        def test():
-#            print(CheckVar2.get())  # Notice the .get()
 
     def create_run_button(self):
         self.run_query_button = tk.Button(self)
-        self.run_query_button["text"] = "Run pygetpapers query"
-        self.run_query_button["command"] = self.create_query_and_run
+        self.run_query_button[CBOX_TEXT] = "Run pygetpapers query"
+        self.run_query_button[CBOX_COMMAND] = self.create_query_and_run
         self.run_query_button.pack(side="bottom")
-
-    def make_dictionary_boxes0(self):
-
-        print("make_dictionary_boxes0")
 
     def make_dictionary_boxes(self, dictionary_dict, selected_dict_names):
         self.selected_boxes = []
@@ -249,7 +261,7 @@ class Application(tk.Frame):
         outdir_frame.pack()
 
         open_button = ttk.Button(
-            root,
+            outdir_frame,
             text='Output directory',
             command=self.select_directory
         )
@@ -258,25 +270,19 @@ class Application(tk.Frame):
         open_button.pack(expand=True)
         labelText = tk.StringVar()
         labelText.set("output dir")
-        labelDir = tk.Label(root, textvariable=labelText, height=1)
-        labelDir.pack(side="top")
+        labelDir = tk.Label(outdir_frame, textvariable=labelText, height=1)
+        labelDir.pack(side=tk.TOP)
 
         default_dir = os.path.join(os.path.expanduser("~"), "temp")
         self.outdir = tk.StringVar(None)
-        dirname = tk.Entry(root, textvariable=self.outdir, width=25)
+        dirname = tk.Entry(outdir_frame, textvariable=self.outdir, width=25)
         dirname.delete(0, tk.END)
         dirname.insert(0, default_dir)
-        dirname.pack(side="top")
-
-    #        directory = tkFileDialog.askdirectory()
+        dirname.pack(side=tk.TOP)
 
     def select_directory(self):
         from tkinter import filedialog as fd
         from tkinter import messagebox
-        filetypes = (
-            ('text files', '*.txt'),
-            ('All files', '*')
-        )
 
         filename = fd.askdirectory(
             title='Output directory',
@@ -289,28 +295,27 @@ class Application(tk.Frame):
         )
 
     def make_entry_box(self, master, **kwargs):
-        entry_frame = tk.Frame(master=master, bd=3, bg="#ffddaa")
-        entry_frame.pack()
+        entry_frame = tk.Frame(master=master,
+                               highlightbackground="purple", highlightthickness=3)
+        entry_frame.pack(side=tk.BOTTOM)
 
         labelText = tk.StringVar()
-        txt = kwargs["text"] if "text" in kwargs else ""
+        txt = kwargs[CBOX_TEXT] if CBOX_TEXT in kwargs else ""
         labelText.set(txt)
-        entry_label = tk.Label(master, textvariable=labelText)
-        entry_label.pack(side="top")
+        entry_label = tk.Label(entry_frame, textvariable=labelText)
+        entry_label.pack(side=tk.LEFT)
 
-        default_text = kwargs["default"] if "default" in kwargs else None
+        default_text = kwargs[TEXT_DEFAULT] if TEXT_DEFAULT in kwargs else None
         self.entry_text = tk.StringVar(None)
-        entry = tk.Entry(master, textvariable=self.entry_text, width=25)
+        entry = tk.Entry(entry_frame, textvariable=self.entry_text, width=25)
         entry.delete(0, tk.END)
         if default_text is not None:
             entry.insert(0, default_text)
-        entry.pack(side="top")
+        entry.pack(side=tk.LEFT)
 
     #        directory = tkFileDialog.askdirectory()
 
     def make_spinbox(self, master, title, min=1, max=100):
-
-        print("master", master)
         spin_frame = tk.Frame(master=master, bg = "#444444", bd = 3,)
         spin_frame.pack()
         label = tk.Label(master=spin_frame, bg="#ffffdd", text=title)
@@ -321,19 +326,17 @@ class Application(tk.Frame):
     def make_labelled_dictbox(self, name, amidict, desc="Missing desc"):
         dictbox = Frame()
         dictbox.pack()
+
         label = Label(master=dictbox, text=name, bg="#ffdddd", bd=3)
         if desc:
             CreateToolTip(label, text=desc)
-
         label.pack(side=TOP)
+
         box = self.create_listbox(self.read_entry_names(amidict), master=dictbox)
         box.pack(side=BOTTOM)
-#        return dictbox
         return box
 
     def create_listbox(self, items, master=None, command=None):
-        print("items", items)
-        print("listbox master", master)
         frame = tk.Frame(master,
                          highlightbackground="blue", highlightcolor="green", highlightthickness=2
                          )
@@ -354,13 +357,9 @@ class Application(tk.Frame):
                         fg="blue")
         for i, item in enumerate(items):
             lb.insert(i + 1, item)
-        lb.pack(side="bottom")
+        lb.pack(side=tk.BOTTOM)
         #        self.lb1.bind('<Button-1>', button1)
         return lb
-
-    def make_dictboxes(self):
-        print("make dictboxes")
-        pass
 
 # frames and windows
     """
@@ -368,29 +367,41 @@ class Application(tk.Frame):
     """
 
     def run_query_and_get_output(self, args):
-        print("args", args)
-        result = str(subprocess.run(args, capture_output=True))
-        lines = result.split("\\n")
+        _, stderr_lines = self.run_subprocess_get_lines(args)
         saved = 0
-        for line in lines:
-            if line.startswith("CompletedProcess"):
-                hits = line.split("Total Hits are")[-1]
-                hits = hits.split("args=")[-1]
-                hits = hits.split(", returncode")[0]
+        hits = 0
+#        print("lines", stderr_lines)
+        TOTAL_HITS_ARE = "Total Hits are"
+        for line in stderr_lines:
+            if TOTAL_HITS_ARE in line:
+                hits = line.split(TOTAL_HITS_ARE)[-1]
                 print("HITS", hits)
-            if "Wrote xml" in line:
+            WROTE_XML = "Wrote xml"
+            if WROTE_XML in line:
                 saved += 1
-            print(line)
         messagebox.showinfo(title="end search", message="finished search, hits: "+str(hits)+", saved: "+str(saved))
+        return stderr_lines
+
+    def run_subprocess_get_lines(self, args):
+        """runs subprocess with args
+         :return: tuple (stdout as lines, stderr as lines)
+         """
+        completed_process = subprocess.run(args, capture_output=True)
+        completed_process.check_returncode()  # throws error
+        # completed_process.stdout returns <bytes>, convert to <str>
+        stdout_str = str(completed_process.stdout)
+        stderr_str = str(completed_process.stderr)
+        args = completed_process.args
+        stderr_lines = stderr_str.split(SUBPROC_LINE_END) # the <str> conversion adds a backslash?
+        stdout_lines = stdout_str.split(SUBPROC_LINE_END)
+        return stdout_lines, stderr_lines
 
     def create_query_and_run(self):
 
         limit = self.spin.get()
-        print("limit:", limit)
+#        print("limit:", limit)
         query_string = ""
-
         query_string = self.add_query_entry(query_string)
-
         query_string = self.add_dictionary_box_terms(query_string)
 
         if query_string == "":
@@ -404,31 +415,32 @@ class Application(tk.Frame):
             messagebox.showinfo(title="outdir box", message="must give outdir")
             return
 
-        cmd_options = ["pygetpapers", "-q", query_string, "-o", self.project_dir, "-k", limit]
+        cmd_options = [PYGETPAPERS, "-q", query_string, "-o", self.project_dir, "-k", limit]
 
         self.add_boolean_flags(cmd_options)
 
-        self.run_query_and_get_output(cmd_options)
+        lines = self.run_query_and_get_output(cmd_options)
+        self.make_text_area(root, lines)
 
-        section_dict = self.checkbox_dict["sections"]
-        if section_dict["var"].get() == ONVAL:
+        if self.ami_section_dict[CBOX_VAR].get() == ONVAL:
             self.create_sections()
+
 
     def create_sections(self):
         import subprocess
         args = ["ami", "-p", self.project_dir, "section"]
         print("making sections", args)
-        result = str(subprocess.run(args, capture_output=True))
-        print("section:", result)
-
+#        self.run_subprocess_and_capture(args)
+        stdout_lines, _ = self.run_subprocess_get_lines(args)
+        print("stdout", stdout_lines)
 
     def add_boolean_flags(self, cmd_options):
-        pygetpapers_flags = ["xml", "noexec", "pdf", "csv", "supp"]
-        for k, v in self.checkbox_dict.items():
-            print("K,V", k, v)
+
+        pygetpapers_flags = [XML_FLAG, NOEXEC_FLAG, PDF_FLAG, CSV_FLAG, SUPP_FLAG]
+        for k, v in self.pygetpapers_flags.items():
             if k in pygetpapers_flags:
-                if v["var"].get() == ONVAL:
-                    cmd_options.append(v["brief"])
+                if v[CBOX_VAR].get() == ONVAL:
+                    cmd_options.append(v[CBOX_BRIEF])
 
     def add_query_entry(self, query_string):
         query_string = self.entry_text.get()
@@ -503,6 +515,36 @@ class Application(tk.Frame):
         # The application mainloop
         tk.mainloop()
 
+    def make_text_area(self, master, lines):
+        # Title Label
+        frame = tk.Frame(master)
+        frame.pack()
+        lab = tk.Label(frame,
+                       text="ScrolledText Widget Example",
+                       font=("Arial", 15),
+                       background='green',
+                       foreground="white")
+        lab.pack(side="bottom")
+        #            .grid(column=0, row=0)
+
+        # Creating scrolled text area
+        # widget with Read only by
+        # disabling the state
+        text_area = scrolledtext.ScrolledText(frame,
+                                              width=30,
+                                              height=8,
+                                              font=("Times New Roman", 15))
+        text_area.pack(side="bottom")
+        print("txt", text_area)
+
+        # Inserting Text which is read only
+        text = "\n".join(lines)
+        text_area.insert(tk.INSERT, text)
+        text_area.bind("<Button-1>", button1)
+        # Making the text read only
+        #        text_area.configure(state='disabled')
+        return text_area
+
     def read_entry_names(self, dictionary_file):
         print(dictionary_file)
         assert (os.path.exists(dictionary_file))
@@ -512,6 +554,11 @@ class Application(tk.Frame):
         print("entries", len(names))
         names = sorted(names)
         return names
+
+
+"""unused"""
+
+
 
 
 class ToolTip(object):
@@ -564,48 +611,6 @@ root = tk.Tk()
 print("ROOT", root)
 app = Application(master=root)
 app.mainloop()
-
-"""unused"""
-def make_text_area(self):
-    # Title Label
-    lab = tk.Label(root,
-                   text="ScrolledText Widget Example",
-                   font=("Times New Roman", 15),
-                   background='green',
-                   foreground="white")
-    lab.pack(side="bottom")
-    #            .grid(column=0, row=0)
-
-    # Creating scrolled text area
-    # widget with Read only by
-    # disabling the state
-    text_area = scrolledtext.ScrolledText(root,
-                                width=30,
-                                height=8,
-                                font=("Times New Roman",
-                                      15))
-    text_area.pack(side="bottom")
-    print("text", text_area)
-
-    # Inserting Text which is read only
-    text_area.insert(tk.INSERT,
-                     """\
-This is a scrolledtext widget to make tkinter text 
-one
-two
-three
-four
-five
-six
-seven
-eight
-nine
-ten
-                     """)
-    text_area.bind("<Button-1>", button1)
-    # Making the text read only
-#        text_area.configure(state='disabled')
-    return text_area
 
 # menu - not used
 def menu_stuff(self):

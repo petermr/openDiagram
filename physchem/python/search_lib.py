@@ -55,6 +55,7 @@ class AmiSearch:
     FIG_CAPTION_DEMO = "fig_caption"
     LUKE_DEMO = "luke"
     DIFFPROT_DEMO = "diffprot"
+    DISEASE_DEMO = "disease"
     ETHICS_DEMO = "ethics"
     GENUS_DEMO = "genus" # TODO
     INVASIVE_DEMO = "invasive"
@@ -101,6 +102,7 @@ class AmiSearch:
     def run_demos(demos):
         demo_dict = {
             AmiSearch.DIFFPROT_DEMO : AmiSearch.diffprot_demo,
+            AmiSearch.DISEASE_DEMO : AmiSearch.disease_demo,
             AmiSearch.ETHICS_DEMO : AmiSearch.ethics_demo,
             AmiSearch.FIG_CAPTION_DEMO : AmiSearch.fig_caption_demo,
             AmiSearch.INVASIVE_DEMO : AmiSearch.invasive_demo,
@@ -507,6 +509,19 @@ class AmiSearch:
         ami_search.run_search()
 
     @staticmethod
+    def disease_demo():
+        ami_search = AmiSearch()
+        ami_search.min_hits = 1
+        ami_search.max_bars = 200
+
+        ami_search.use_sections([AmiSection.METHOD, AmiSection.RESULTS, AmiSection.ABSTRACT])
+        ami_search.use_dictionaries([AmiDictionaries.DISEASE, AmiDictionaries.MONOTERPENE])
+        ami_search.use_projects([AmiProjects.OIL186])
+
+        ami_search.run_search()
+
+
+    @staticmethod
     def luke_demo():
         ami_search = AmiSearch()
         ami_search.min_hits = 2
@@ -551,6 +566,38 @@ class AmiSearch:
         ami_search.use_pattern("_ALL", "_all")
 
         ami_search.run_search()
+
+    def run_args(self):
+        import argparse
+        import sys
+        local_test = False  # interactive debug
+        parser = create_arg_parser()
+        args = parser.parse_args()
+        print("args", args)
+        print("cmd", "sys.argv", sys.argv)
+        print("interpreted from cmd", "arg.demo", args.demo)
+        #    local_test = True
+        if args.debug == "config":
+            ami_runs = AmiRunner();
+            ami_runs.read_config(AmiSearch.DEMOS_JSON)
+        elif len(sys.argv) == 1:
+            print(parser.print_help(sys.stderr))
+        elif args.demo is not None:
+            print("DEMOS")
+            AmiSearch.run_demos(args.demo)
+        else:
+#            ami_search = AmiSearch()
+#            copy_args_to_ami_search(args, ami_search)
+#            if ami_search.do_search:
+#                ami_search.run_search()
+            copy_args_to_ami_search(args, self)
+            if self.do_search:
+                self.run_search()
+
+        # this profiles it
+        #    test_profile1()
+        print("finished search")
+
 
 
 class AmiRun:
@@ -1042,37 +1089,9 @@ def test_profile1():
 
 
 def main():
-    import argparse
-    import sys
+    ami_search = AmiSearch()
+    ami_search.run_args()
 
-    local_test = False # interactive debug
-
-    parser = create_arg_parser()
-
-    args = parser.parse_args()
-    print("args", args)
-    print("cmd", "sys.argv", sys.argv)
-    print("interpreted from cmd", "arg.demo", args.demo)
-
-#    local_test = True
-    if args.debug == "config":
-        ami_runs = AmiRunner();
-        ami_runs.read_config(AmiSearch.DEMOS_JSON)
-    elif len(sys.argv) == 1:
-        print(parser.print_help(sys.stderr))
-    elif args.demo is not None:
-        print("DEMOS")
-        AmiSearch.run_demos(args.demo)
-    else:
-        ami_search = AmiSearch()
-        copy_args_to_ami_search(args, ami_search)
-
-        if ami_search.do_search:
-            ami_search.run_search()
-
-# this profiles it
-#    test_profile1()
-    print("finished search")
 
 
 def create_arg_parser():

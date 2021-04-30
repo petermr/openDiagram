@@ -8,6 +8,8 @@ from tkinter import Frame
 from tkinter import Label
 from tkinter import TOP, BOTTOM, LEFT
 
+from search_lib import AmiSearch
+
 ONVAL = 1
 OFFVAL = 0
 
@@ -21,6 +23,7 @@ NOEXEC_FLAG = "noexec"
 PDF_FLAG = "pdf"
 CSV_FLAG = "csv"
 SUPP_FLAG = "supp"
+HTML_FLAG = "html"
 
 CBOX_BOX = "box"
 CBOX_VAR = "var"
@@ -58,45 +61,71 @@ class Application(tk.Frame):
         self.current_project = None
 
         self.pack()
-        self.create_widgets()
+        self.create_widgets(root)
 #        self.menu_stuff()
 
 
-    def create_widgets(self):
+    def create_widgets(self, master):
 
-        self.make_outdir_box(root, tk.TOP)
+        self.make_pygetpapers_widgets(master)
 
-        self.make_entry_box(root, text="query")
+        self.make_sections(master)
 
+        self.make_ami_search(master)
 
+        self.make_quit(master)
+
+    def make_pygetpapers_widgets(self, master):
+        self.pg_frame = tk.Frame(master, highlightbackground="gray",
+                                 highlightthickness=2, border=5)
+        self.pg_frame.pack(side=TOP)
+
+        self.make_outdir_box(self.pg_frame, tk.TOP)
+        self.make_dictbox_values(self.pg_frame)
+        self.make_getpapers_args(self.pg_frame)
+        self.make_query_frame(self.pg_frame, tk.TOP)
+
+    def make_sections(self, master):
+        frame = tk.Frame(master, highlightbackground="gray",
+                                 highlightthickness=2, border=2)
+        frame.pack()
+
+        self.section_box = None
+        self.section_var = None
+        self.ami_section_dict = {
+            CBOX_BOX: self.section_box,
+            CBOX_VAR: self.section_var,
+            CBOX_TEXT: "make sections",
+            CBOX_ON: ONVAL,
+            CBOX_OFF: OFFVAL,
+            CBOX_DEFAULT: OFFVAL,
+            CBOX_TOOLTIP: "run ami section to create all sections ",
+        }
+        # make sections
+        self.make_checkbox_from_dict(frame, self.ami_section_dict)
+
+    def make_dictbox_values(self, master):
         dictionary_dict = {
             "country": (os.path.join(DICTIONARY_HOME, "openVirus20210120", "country", "country.xml"),
                         "ISO countries from wikidata"),
             "ethics": (os.path.join(DICTIONARY_HOME, "ami3", "ethics.xml"),
-                        "ISO countries from wikidata"),
+                       "ISO countries from wikidata"),
             "invasive": (os.path.join(CEV_DICTIONARY_HOME, "Invasive_species", "invasive_plant.xml"),
                          "Invasive plant species from GISD"),
             "plant_part": (os.path.join(CEV_DICTIONARY_HOME, "eoPlantPart", "eoplant_part.xml"),
-                        "Plant parts from EO literature"),
+                           "Plant parts from EO literature"),
             "parkinsons": (os.path.join(DICTIONARY_HOME, "ami3", "parkinsons.xml"),
                            "Terms related to Parkinson's disease"),
         }
-
-        selected_dict_names = ["country", "ethics", "parkinsons"]
-
         self.dictlistbox0 = self.create_listbox(
-                                dictionary_dict.keys(),
-                                master=root,
-                                command=lambda: self.make_dictionary_boxes(
-                                    dictionary_dict,
-                                    self.get_selections_from_box(self.dictlistbox0))
-                                                )
-
+            dictionary_dict.keys(),
+            master=master,
+            command=lambda: self.make_dictionary_boxes(
+                dictionary_dict,
+                self.get_selections_from_box(self.dictlistbox0))
+        )
         self.dictlistbox0.pack(side=BOTTOM)
-
         dictionary_names = dictionary_dict.keys()
-
-
         self.xml_box = None
         self.xml_var = None
         self.pdf_box = None
@@ -107,21 +136,20 @@ class Application(tk.Frame):
         self.noexec_var = None
         self.csv_box = None
         self.csv_var = None
-        self.section_box = None
-        self.section_var = None
-
+        self.html_box = None
+        self.html_var = None
         self.pygetpapers_flags = {
-            XML_FLAG : {
+            XML_FLAG: {
                 CBOX_BOX: self.xml_box,
                 CBOX_VAR: self.xml_var,
                 CBOX_TEXT: "XML",
-                CBOX_ON:ONVAL,
+                CBOX_ON: ONVAL,
                 CBOX_OFF: OFFVAL,
-                CBOX_DEFAULT : ONVAL,
+                CBOX_DEFAULT: ONVAL,
                 CBOX_BRIEF: "-x",
                 CBOX_FULL: "--xml",
                 CBOX_TOOLTIP: "output XML",
-        },
+            },
             PDF_FLAG: {
                 CBOX_BOX: self.pdf_box,
                 CBOX_VAR: self.pdf_var,
@@ -166,47 +194,54 @@ class Application(tk.Frame):
                 CBOX_FULL: "--makecsv",
                 CBOX_TOOLTIP: "output metadata as CSV",
             },
+            HTML_FLAG: {
+                CBOX_BOX: self.html_box,
+                CBOX_VAR: self.html_var,
+                CBOX_TEXT: "HTML",
+                CBOX_ON: ONVAL,
+                CBOX_OFF: OFFVAL,
+                CBOX_DEFAULT: OFFVAL,
+                CBOX_FULL: "--makehtml",
+                CBOX_TOOLTIP: "output metadata/abstract as HTML",
+            },
         }
+        self.flags_keys = self.pygetpapers_flags.keys()
 
-        self.mek_getpapers_checkboxes()
-
-        self.ami_section_dict = {
-            CBOX_BOX: self.section_box,
-            CBOX_VAR: self.section_var,
-            CBOX_TEXT: "make sections",
-            CBOX_ON: ONVAL,
-            CBOX_OFF: OFFVAL,
-            CBOX_DEFAULT: OFFVAL,
-            CBOX_TOOLTIP: "run ami section to create all sections ",
-        }
+    def make_query_frame(self, master, TOP):
+        frame = tk.Frame(master, highlightbackground="green", highlightthickness=2)
+        frame.pack(side=tk.TOP)
+        self.make_entry_box(frame, text="query")
+        self.create_run_button(frame)
 
 
-        self.make_spinbox(root, "maximum hits (-k)", min=1, max=self.max_max_hits)
+    def make_ami_search(self, master):
+        frame = tk.Frame(master, highlightbackground="brown", highlightthickness=2)
+        frame.pack(side=tk.TOP)
 
-        text_area_flag = False
-        if text_area_flag:
-            self.make_text_area()
+        strvar = tk.StringVar(value="run ami")
+        ami_button = tk.Button(frame, textvariable=strvar, command=self.run_ami_search)
+        ami_button.pack(side=tk.BOTTOM)
 
-        self.create_run_button()
-        self.quit = tk.Button(self, text="QUIT", fg="red",
-                              command=self.master.destroy)
-        self.quit.pack(side="bottom")
+    def run_ami_search(self):
+        ami_search = AmiSearch()
+        ami_search.disease_demo()
 
-        self.make_checkbox_from_dict(root, self.ami_section_dict)
-
-    def mek_getpapers_checkboxes(self):
-        self.checkbox_frame = tk.Frame(root,
+    def make_getpapers_args(self, frame):
+        self.getpapers_args_frame = tk.Frame(frame,
                                     highlightbackground="black", highlightthickness=2)
-        self.checkbox_frame.pack()
+        self.getpapers_args_frame.pack(side=tk.TOP)
+
+        self.checkbox_frame = tk.Frame(self.getpapers_args_frame,
+                                    highlightbackground="black", highlightthickness=2)
+        self.checkbox_frame.pack(side=tk.TOP)
 
         self.make_help_label(self.checkbox_frame, tk.LEFT,
                              "pygetpapers checkboxes")
 
-        self.make_check_button(self.checkbox_frame, XML_FLAG)
-        self.make_check_button(self.checkbox_frame, PDF_FLAG)
-        self.make_check_button(self.checkbox_frame, CSV_FLAG)
-        self.make_check_button(self.checkbox_frame, NOEXEC_FLAG)
-        self.make_check_button(self.checkbox_frame, SUPP_FLAG)
+        for key in self.flags_keys:
+            self.make_check_button(self.checkbox_frame, key)
+
+        self.make_spinbox(self.getpapers_args_frame, "maximum hits (-k)", min=1, max=self.max_max_hits)
 
     def make_help_label(self, master, side, text):
         label = tk.Label(master, text="?", background="white")
@@ -215,12 +250,13 @@ class Application(tk.Frame):
 
     def make_check_button(self, master, key):
         cbox_dict = self.pygetpapers_flags[key]
-        self.make_checkbox_from_dict(master, cbox_dict)
+        self.make_checkbox_from_dict(master, cbox_dict, side=tk.LEFT)
 
-    def make_checkbox_from_dict(self, master,  cbox_dict):
+    def make_checkbox_from_dict(self, master,  cbox_dict, **kwargs):
         onval = cbox_dict[CBOX_ON]
+        side = kwargs["side"] if "side" in kwargs else None
         cbox_dict[CBOX_BOX], cbox_dict[CBOX_VAR] = \
-            cbox, cvar = self.create_check_box(master, text=cbox_dict[CBOX_TEXT], default=cbox_dict[TEXT_DEFAULT])
+            cbox, cvar = self.create_check_box(master, text=cbox_dict[CBOX_TEXT], side=side, default=cbox_dict[TEXT_DEFAULT])
         tooltip = cbox_dict[CBOX_TOOLTIP] if CBOX_BOX in cbox_dict.keys() else None
         if tooltip is not None:
             CreateToolTip(cbox, text=tooltip)
@@ -235,13 +271,13 @@ class Application(tk.Frame):
                     onvalue=ONVAL, offvalue=OFFVAL)
         if defval is not None and defval == ONVAL:
             self.checkVar.set(ONVAL)
-
-        checkbutton.pack(side=tk.LEFT)
+        side = kwargs["side"] if "side" in kwargs else tk.BOTTOM
+        checkbutton.pack(side=side)
 
         return checkbutton, self.checkVar
 
-    def create_run_button(self):
-        self.run_query_button = tk.Button(self)
+    def create_run_button(self, master):
+        self.run_query_button = tk.Button(master)
         self.run_query_button[CBOX_TEXT] = "Run pygetpapers query"
         self.run_query_button[CBOX_COMMAND] = self.create_query_and_run
         self.run_query_button.pack(side="bottom")
@@ -268,17 +304,21 @@ class Application(tk.Frame):
         open_button.pack()
 
         open_button.pack(expand=True)
+
         labelText = tk.StringVar()
         labelText.set("output dir")
         labelDir = tk.Label(outdir_frame, textvariable=labelText, height=1)
-        labelDir.pack(side=tk.TOP)
+#        labelDir.pack(side=tk.TOP) # not needed
 
         default_dir = os.path.join(os.path.expanduser("~"), "temp")
         self.outdir = tk.StringVar(None)
-        dirname = tk.Entry(outdir_frame, textvariable=self.outdir, width=25)
-        dirname.delete(0, tk.END)
-        dirname.insert(0, default_dir)
-        dirname.pack(side=tk.TOP)
+        self.dirname = tk.Entry(outdir_frame, textvariable=self.outdir, width=25)
+        self.insert_new_dirname(default_dir)
+        self.dirname.pack(side=tk.TOP)
+
+    def insert_new_dirname(self, dirname):
+        self.dirname.delete(0, tk.END)
+        self.dirname.insert(0, dirname)
 
     def select_directory(self):
         from tkinter import filedialog as fd
@@ -288,11 +328,7 @@ class Application(tk.Frame):
             title='Output directory',
             initialdir=os.path.expanduser("~"),  # HOME directory
         )
-
-        messagebox.showinfo(
-            title='Selected Directory',
-            message=filename
-        )
+        self.insert_new_dirname(filename)
 
     def make_entry_box(self, master, **kwargs):
         entry_frame = tk.Frame(master=master,
@@ -417,16 +453,20 @@ class Application(tk.Frame):
 
         cmd_options = [PYGETPAPERS, "-q", query_string, "-o", self.project_dir, "-k", limit]
 
-        self.add_boolean_flags(cmd_options)
+        self.add_flags_to_query_command(cmd_options)
+
+        print("CMD", cmd_options)
+
 
         lines = self.run_query_and_get_output(cmd_options)
-        self.make_text_area(root, lines)
+
+        self.display_query_output(root, lines)
 
         if self.ami_section_dict[CBOX_VAR].get() == ONVAL:
-            self.create_sections()
+            self.run_ami_sections()
 
 
-    def create_sections(self):
+    def run_ami_sections(self):
         import subprocess
         args = ["ami", "-p", self.project_dir, "section"]
         print("making sections", args)
@@ -434,13 +474,18 @@ class Application(tk.Frame):
         stdout_lines, _ = self.run_subprocess_get_lines(args)
         print("stdout", stdout_lines)
 
-    def add_boolean_flags(self, cmd_options):
+    def add_flags_to_query_command(self, cmd_options):
 
-        pygetpapers_flags = [XML_FLAG, NOEXEC_FLAG, PDF_FLAG, CSV_FLAG, SUPP_FLAG]
         for k, v in self.pygetpapers_flags.items():
-            if k in pygetpapers_flags:
+            if k in self.pygetpapers_flags:
                 if v[CBOX_VAR].get() == ONVAL:
-                    cmd_options.append(v[CBOX_BRIEF])
+                    option = v[CBOX_BRIEF] if CBOX_BRIEF in v else None
+                    if option is None:
+                        option = v[CBOX_FULL] if CBOX_FULL in v else None
+                    if option is None:
+                        print("Cannot find keys for", k)
+                    else:
+                        cmd_options.append(option)
 
     def add_query_entry(self, query_string):
         query_string = self.entry_text.get()
@@ -515,14 +560,14 @@ class Application(tk.Frame):
         # The application mainloop
         tk.mainloop()
 
-    def make_text_area(self, master, lines):
+    def display_query_output(self, master, lines):
         # Title Label
         frame = tk.Frame(master)
-        frame.pack()
+        frame.pack(side=BOTTOM)
         lab = tk.Label(frame,
-                       text="ScrolledText Widget Example",
+                       text="output",
                        font=("Arial", 15),
-                       background='green',
+                       background='white',
                        foreground="white")
         lab.pack(side="bottom")
         #            .grid(column=0, row=0)
@@ -533,7 +578,7 @@ class Application(tk.Frame):
         text_area = scrolledtext.ScrolledText(frame,
                                               width=30,
                                               height=8,
-                                              font=("Times New Roman", 15))
+                                              font=("Arial", 15))
         text_area.pack(side="bottom")
         print("txt", text_area)
 
@@ -555,6 +600,17 @@ class Application(tk.Frame):
         names = sorted(names)
         return names
 
+    def make_quit(self, master):
+
+        frame = tk.Frame(master, highlightbackground="blue", highlightcolor="black", highlightthickness=2)
+        frame.pack(side=tk.BOTTOM)
+
+        self.quit = tk.Button(frame, text="QUIT", fg="red",
+                              command=self.master.destroy)
+        self.quit.pack(side=tk.BOTTOM)
+
+        pass
+
 
 """unused"""
 
@@ -572,14 +628,17 @@ class ToolTip(object):
         self.x = self.y = 0
 
     def showtip(self, text):
+        OFFSET_X = 57
+        OFFSET_Y = 27
+
         from tkinter import Toplevel, SOLID
         "Display text in tooltip window"
         self.text = text
         if self.tipwindow or not self.text:
             return
         x, y, cx, cy = self.widget.bbox("insert")
-        x = x + self.widget.winfo_rootx() + 57
-        y = y + cy + self.widget.winfo_rooty() + 27
+        x = x + self.widget.winfo_rootx() + OFFSET_X
+        y = y + cy + self.widget.winfo_rooty() + OFFSET_Y
         self.tipwindow = tw = Toplevel(self.widget)
         tw.wm_overrideredirect(1)
         tw.wm_geometry("+%d+%d" % (x, y))

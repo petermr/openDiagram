@@ -40,6 +40,12 @@ TEXT_DEFAULT = "default"
 
 SUBPROC_LINE_END = "\\n"
 
+HLBG = "highlightbackground"
+HLTHICK = "highlightthickness"
+SIDE = "side"
+TITLE = "title"
+TOOLTIP = "tooltip"
+
 def button1(event):
     print("button1", event)
     print(dir(event))
@@ -48,10 +54,193 @@ def button1(event):
     if (len(tup) > 0):
         print(tup[0], event.widget.get(tup[0]))
 
-class Application(tk.Frame):
+class Gutil:
 
-    def quoteme(self,ss):
+    @staticmethod
+    def create_listbox_from_list(frame, items):
+        lb = tk.Listbox(master=frame, height=5,
+                        selectmode=tk.MULTIPLE,
+                        exportselection=False,
+                        highlightcolor="green",
+                        selectbackground="pink",
+                        highlightthickness=3,
+                        bg="#ffffdd",
+                        bd=1,  # listbox border
+                        fg="blue")
+        for i, item in enumerate(items):
+            lb.insert(i + 1, item)
+        return lb
+
+    @staticmethod
+    def quoteme(ss):
         return '"' + ss + '"'
+
+    @staticmethod
+    def test_prog_bar():
+        """unused demo"""
+        import tkinter as tk
+        import tkinter.ttk as ttk
+        import time
+
+        # Create the master object
+        master = tk.Tk()
+
+        # Create a progressbar widget
+        progress_bar = ttk.Progressbar(master, orient="horizontal",
+                                       mode="determinate", maximum=100, value=0)
+
+        # And a label for it
+        label_1 = tk.Label(master, text="Progress Bar")
+
+        # Use the grid manager
+        label_1.grid(row=0, column=0)
+        progress_bar.grid(row=0, column=1)
+
+        # Necessary, as the master object needs to draw the progressbar widget
+        # Otherwise, it will not be visible on the screen
+        master.update()
+
+        progress_bar['value'] = 0
+        master.update()
+
+        while progress_bar['value'] < 100:
+            progress_bar['value'] += 10
+            # Keep updating the master object to redraw the progress bar
+            master.update()
+            time.sleep(0.5)
+
+        # The application mainloop
+        tk.mainloop()
+
+    @staticmethod
+    def make_checkbox_from_dict(master, dikt, **kwargs):
+        onval = dikt[CBOX_ON]
+        side = kwargs["side"] if "side" in kwargs else None
+        dikt[CBOX_BOX], dikt[CBOX_VAR] = \
+            cbox, cvar = Gutil.create_check_box(master, text=dikt[CBOX_TEXT], side=side, default=dikt[TEXT_DEFAULT])
+        tooltip = dikt[CBOX_TOOLTIP] if CBOX_BOX in dikt.keys() else None
+        if tooltip is not None:
+            CreateToolTip(cbox, text=tooltip)
+
+    @staticmethod
+    def create_check_box(master, text, **kwargs):
+        from tkinter import ttk
+        checkVar = tk.IntVar()
+        defval = kwargs[TEXT_DEFAULT] if TEXT_DEFAULT in kwargs else None
+        if defval is not None and defval == ONVAL:
+            checkVar.get()
+        checkbutton = ttk.Checkbutton(master, text=text, variable=checkVar,
+                                      onvalue=ONVAL, offvalue=OFFVAL)
+        if defval is not None and defval == ONVAL:
+            checkVar.set(ONVAL)
+        side = kwargs[SIDE] if SIDE in kwargs else tk.BOTTOM
+        checkbutton.pack(side=side)
+
+        return checkbutton, checkVar
+
+    @staticmethod
+    def make_frame(master, **kwargs):
+        """ makes a frame with a rim and help tooltip
+        (tk uses "highlight" for the rim which other systems call "border";
+         there is a separate border outside the rim. So highlightbackground is "border" colour)
+        :master: the parent frame
+        :kwargs:
+               highlightbackground=color,
+               highlightthickness=width,
+               side=side,
+               title=title,
+               tooltip=tooltip,
+
+        """
+        defaults = {
+            HLBG: "brown",
+            HLTHICK : 2,
+            SIDE : tk.TOP,
+            TITLE : "?",
+            TOOLTIP : None,
+        }
+        bg_col = kwargs[HLBG] if HLBG in kwargs else defaults[HLBG]
+        bg_thick = kwargs[HLTHICK] if HLTHICK in kwargs else defaults[HLTHICK]
+        side = kwargs[SIDE] if SIDE in kwargs else defaults[SIDE]
+        title = kwargs[TITLE] if TITLE in kwargs else defaults[TITLE]
+        tooltip = kwargs[TOOLTIP] if TOOLTIP in kwargs else defaults[TOOLTIP]
+
+        frame = tk.Frame(master, highlightbackground=bg_col, highlightthickness=bg_thick)
+        title_var = None
+        if title != "":
+            title_var = tk.StringVar(value=title)
+            label = tk.Label(frame, textvariable=title_var)
+            label.pack(side=side)
+            if tooltip is not None:
+                CreateToolTip(label, text=tooltip)
+        frame.pack(side=side, expand=True, fill=tk.X)
+        return frame, title_var
+
+    @staticmethod
+    def make_help_label(master, side, text):
+        label = tk.Label(master, text="?", background="white")
+        CreateToolTip(label, text=text)
+        label.pack(side=side)
+
+    @staticmethod
+    def refresh_entry(entry, new_text):
+        entry.delete(0, tk.END)
+        entry.insert(0, new_text)
+
+    @staticmethod
+    def make_entry_box(master, **kwargs):
+        entry_frame = tk.Frame(master=master,
+                               highlightbackground="purple", highlightthickness=3)
+        entry_frame.pack(side=tk.BOTTOM)
+
+        labelText = tk.StringVar()
+        txt = kwargs[CBOX_TEXT] if CBOX_TEXT in kwargs else ""
+        labelText.set(txt)
+        entry_label = tk.Label(entry_frame, textvariable=labelText)
+        entry_label.pack(side=tk.LEFT)
+
+        default_text = kwargs[TEXT_DEFAULT] if TEXT_DEFAULT in kwargs else None
+        entry_text = tk.StringVar(None)
+        entry = tk.Entry(entry_frame, textvariable=entry_text, width=25)
+        entry.delete(0, tk.END)
+        if default_text is not None:
+            entry.insert(0, default_text)
+        entry.pack(side=tk.LEFT)
+
+        return entry_text
+
+    @staticmethod
+    def run_subprocess_get_lines(args):
+        """runs subprocess with args
+         :return: tuple (stdout as lines, stderr as lines)
+         """
+        completed_process = subprocess.run(args, capture_output=True)
+        completed_process.check_returncode()  # throws error
+        # completed_process.stdout returns <bytes>, convert to <str>
+        stdout_str = str(completed_process.stdout)
+        stderr_str = str(completed_process.stderr)
+        argsx = completed_process.args
+        stderr_lines = stderr_str.split(SUBPROC_LINE_END) # the <str> conversion adds a backslash?
+        stdout_lines = stdout_str.split(SUBPROC_LINE_END)
+        return stdout_lines, stderr_lines
+
+    @staticmethod
+    def get_selections_from_listbox(box):
+        return [box.get(i) for i in box.curselection()]
+
+    @staticmethod
+    def make_spinbox(master, title, min=3, max=100):
+        spin_frame = tk.Frame(master=master, bg = "#444444", bd = 1,)
+        spin_frame.pack(expand=True)
+        label = tk.Label(master=spin_frame, bg="#ffffdd", text=title)
+        label.pack(side="left")
+        spin = tk.Spinbox(spin_frame, from_=min, to=max, state="readonly", width=1)
+        spin.pack(side="right")
+        return spin
+
+
+
+class Application(tk.Frame):
 
     def __init__(self, master=None):
         super().__init__(master)
@@ -61,40 +250,37 @@ class Application(tk.Frame):
         self.current_project = None
 
         self.pack()
-        self.create_widgets(root)
+        self.create_all_widgets(root)
 #        self.menu_stuff()
 
 
-    def create_widgets(self, master):
+    def create_all_widgets(self, master):
 
-        self.make_pygetpapers_widgets(master)
-
+        self.make_ami_widgets(master)
         self.make_sections(master)
-
         self.make_ami_search(master)
-
         self.make_quit(master)
 
-    def make_pygetpapers_widgets(self, master):
-        self.pg_frame = tk.Frame(master, highlightbackground="gray",
+    def make_ami_widgets(self, master):
+        pg_frame = tk.Frame(master, highlightbackground="gray",
                                  highlightthickness=2, border=5)
-        self.pg_frame.pack(side=TOP)
+        pg_frame.pack(side=TOP)
 
-        self.make_outdir_box(self.pg_frame, tk.TOP)
-        self.make_dictbox_values(self.pg_frame)
-        self.make_getpapers_args(self.pg_frame)
-        self.make_query_frame(self.pg_frame, tk.TOP)
+        self.make_cproject_frame(pg_frame, tk.TOP)
+        self.make_dictbox_values(pg_frame)
+        self.make_pygetpapers_query_frame(pg_frame, tk.TOP)
+        return pg_frame
 
     def make_sections(self, master):
         frame = tk.Frame(master, highlightbackground="gray",
                                  highlightthickness=2, border=2)
         frame.pack()
 
-        self.section_box = None
-        self.section_var = None
+        section_box = None
+        section_var = None
         self.ami_section_dict = {
-            CBOX_BOX: self.section_box,
-            CBOX_VAR: self.section_var,
+            CBOX_BOX: section_box,
+            CBOX_VAR: section_var,
             CBOX_TEXT: "make sections",
             CBOX_ON: ONVAL,
             CBOX_OFF: OFFVAL,
@@ -102,7 +288,7 @@ class Application(tk.Frame):
             CBOX_TOOLTIP: "run ami section to create all sections ",
         }
         # make sections
-        self.make_checkbox_from_dict(frame, self.ami_section_dict)
+        Gutil.make_checkbox_from_dict(frame, self.ami_section_dict)
 
     def make_dictbox_values(self, master):
         dictionary_dict = {
@@ -117,12 +303,14 @@ class Application(tk.Frame):
             "parkinsons": (os.path.join(DICTIONARY_HOME, "ami3", "parkinsons.xml"),
                            "Terms related to Parkinson's disease"),
         }
-        self.dictlistbox0 = self.create_listbox(
+        self.dictlistbox0 = self.create_dictionary_listbox(
             dictionary_dict.keys(),
             master=master,
             command=lambda: self.make_dictionary_boxes(
+                master,
                 dictionary_dict,
-                self.get_selections_from_box(self.dictlistbox0))
+                Gutil.get_selections_from_listbox(self.dictlistbox0)
+            )
         )
         self.dictlistbox0.pack(side=BOTTOM)
         dictionary_names = dictionary_dict.keys()
@@ -207,118 +395,100 @@ class Application(tk.Frame):
         }
         self.flags_keys = self.pygetpapers_flags.keys()
 
-    def make_query_frame(self, master, TOP):
-        frame = tk.Frame(master, highlightbackground="green", highlightthickness=2)
-        frame.pack(side=tk.TOP)
-        self.make_entry_box(frame, text="query")
-        self.create_run_button(frame)
+    def make_pygetpapers_query_frame(self, master, TOP):
 
+        frame, title_var = Gutil.make_frame(master,
+                                           title="pygetpapers query",
+                                           tooltip="build query from dictionaries, flags and text; and RUN",
+                                           )
+
+        self.create_run_button(frame)
+        self.make_getpapers_args(frame)
+        self.entry_text = Gutil.make_entry_box(frame, text="query")
+
+        return frame, title_var
 
     def make_ami_search(self, master):
-        frame = tk.Frame(master, highlightbackground="brown", highlightthickness=2)
-        frame.pack(side=tk.TOP)
 
-        strvar = tk.StringVar(value="run ami")
-        ami_button = tk.Button(frame, textvariable=strvar, command=self.run_ami_search)
+        frame, title_var = Gutil.make_frame(master,
+                                           title="AMI",
+                                           tooltip="run ami search using dictionaries",
+                                           )
+
+        run_button_var = tk.StringVar(value="RUN SEARCH")
+        ami_button = tk.Button(frame, textvariable=run_button_var, command=self.run_ami_search)
         ami_button.pack(side=tk.BOTTOM)
+
+        return frame, title_var
+
 
     def run_ami_search(self):
         ami_search = AmiSearch()
         ami_search.disease_demo()
 
     def make_getpapers_args(self, frame):
-        self.getpapers_args_frame = tk.Frame(frame,
+        getpapers_args_frame = tk.Frame(frame,
                                     highlightbackground="black", highlightthickness=2)
-        self.getpapers_args_frame.pack(side=tk.TOP)
+        getpapers_args_frame.pack(side=tk.TOP)
 
-        self.checkbox_frame = tk.Frame(self.getpapers_args_frame,
+        checkbox_frame = tk.Frame(getpapers_args_frame,
                                     highlightbackground="black", highlightthickness=2)
-        self.checkbox_frame.pack(side=tk.TOP)
+        checkbox_frame.pack(side=tk.TOP)
 
-        self.make_help_label(self.checkbox_frame, tk.LEFT,
+        Gutil.make_help_label(checkbox_frame, tk.LEFT,
                              "pygetpapers checkboxes")
 
         for key in self.flags_keys:
-            self.make_check_button(self.checkbox_frame, key)
+            self.make_pygetpapers_check_button(checkbox_frame, key)
 
-        self.make_spinbox(self.getpapers_args_frame, "maximum hits (-k)", min=1, max=self.max_max_hits)
+        self.spin = Gutil.make_spinbox(getpapers_args_frame, "maximum hits (-k)", min=1, max=self.max_max_hits)
 
-    def make_help_label(self, master, side, text):
-        label = tk.Label(master, text="?", background="white")
-        CreateToolTip(label, text=text)
-        label.pack(side=side)
 
-    def make_check_button(self, master, key):
+    def make_pygetpapers_check_button(self, master, key):
         cbox_dict = self.pygetpapers_flags[key]
-        self.make_checkbox_from_dict(master, cbox_dict, side=tk.LEFT)
-
-    def make_checkbox_from_dict(self, master,  cbox_dict, **kwargs):
-        onval = cbox_dict[CBOX_ON]
-        side = kwargs["side"] if "side" in kwargs else None
-        cbox_dict[CBOX_BOX], cbox_dict[CBOX_VAR] = \
-            cbox, cvar = self.create_check_box(master, text=cbox_dict[CBOX_TEXT], side=side, default=cbox_dict[TEXT_DEFAULT])
-        tooltip = cbox_dict[CBOX_TOOLTIP] if CBOX_BOX in cbox_dict.keys() else None
-        if tooltip is not None:
-            CreateToolTip(cbox, text=tooltip)
-
-    def create_check_box(self, window, text, **kwargs):
-        from tkinter import ttk
-        self.checkVar = tk.IntVar()
-        defval = kwargs[TEXT_DEFAULT] if TEXT_DEFAULT in kwargs else None
-        if defval is not None and defval == ONVAL:
-            self.checkVar.get()
-        checkbutton = ttk.Checkbutton(window, text=text, variable=self.checkVar,
-                    onvalue=ONVAL, offvalue=OFFVAL)
-        if defval is not None and defval == ONVAL:
-            self.checkVar.set(ONVAL)
-        side = kwargs["side"] if "side" in kwargs else tk.BOTTOM
-        checkbutton.pack(side=side)
-
-        return checkbutton, self.checkVar
+        Gutil.make_checkbox_from_dict(master, cbox_dict, side=tk.LEFT)
 
     def create_run_button(self, master):
-        self.run_query_button = tk.Button(master)
-        self.run_query_button[CBOX_TEXT] = "Run pygetpapers query"
-        self.run_query_button[CBOX_COMMAND] = self.create_query_and_run
-        self.run_query_button.pack(side="bottom")
+        button = tk.Button(master)
+        button[CBOX_TEXT] = "Run"
+        button[CBOX_COMMAND] = self.create_pygetpapers_query_and_run
+        button.pack(side="bottom", expand=True)
+        self.pygetpapers_command = tk.Entry(master, bg="#ffffdd")
+        self.pygetpapers_command.pack(side="bottom", expand=True)
 
-    def make_dictionary_boxes(self, dictionary_dict, selected_dict_names):
+
+
+    def make_dictionary_boxes(self, master, dictionary_dict, selected_dict_names):
         self.selected_boxes = []
         for dict_name in selected_dict_names:
             dictionary_tup = dictionary_dict[dict_name]
-            curbox = self.make_labelled_dictbox(dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
+            curbox = self.make_labelled_dictbox(master, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
             self.selected_boxes.append(curbox)
 
-    def make_outdir_box(self, master, box_side):
+    def make_cproject_frame(self, master, box_side):
         from tkinter import ttk
-        # TODO display frame
-        outdir_frame = tk.Frame(master=master,
-                                highlightbackground="red", highlightcolor="blue", highlightthickness=2)
-        outdir_frame.pack()
+
+        frame, _ = Gutil.make_frame(master,
+                                           title="CProject",
+                                           tooltip="Project directory",
+                                           )
+        frame.pack()
 
         open_button = ttk.Button(
-            outdir_frame,
-            text='Output directory',
+            frame,
+            text='Dir',
             command=self.select_directory
         )
-        open_button.pack()
-
-        open_button.pack(expand=True)
-
-        labelText = tk.StringVar()
-        labelText.set("output dir")
-        labelDir = tk.Label(outdir_frame, textvariable=labelText, height=1)
-#        labelDir.pack(side=tk.TOP) # not needed
+        open_button.pack(side=LEFT, expand=True)
 
         default_dir = os.path.join(os.path.expanduser("~"), "temp")
-        self.outdir = tk.StringVar(None)
-        self.dirname = tk.Entry(outdir_frame, textvariable=self.outdir, width=25)
-        self.insert_new_dirname(default_dir)
-        self.dirname.pack(side=tk.TOP)
 
-    def insert_new_dirname(self, dirname):
-        self.dirname.delete(0, tk.END)
-        self.dirname.insert(0, dirname)
+        self.outdir = tk.StringVar(None)
+        self.dir_entry = tk.Entry(frame, textvariable=self.outdir, width=25)
+        Gutil.refresh_entry(self.dir_entry, default_dir)
+        self.dir_entry.pack(side=tk.RIGHT)
+
+        return frame
 
     def select_directory(self):
         from tkinter import filedialog as fd
@@ -328,38 +498,15 @@ class Application(tk.Frame):
             title='Output directory',
             initialdir=os.path.expanduser("~"),  # HOME directory
         )
-        self.insert_new_dirname(filename)
+        Gutil.refresh_entry(self.dir_entry, filename)
 
-    def make_entry_box(self, master, **kwargs):
-        entry_frame = tk.Frame(master=master,
-                               highlightbackground="purple", highlightthickness=3)
-        entry_frame.pack(side=tk.BOTTOM)
+    def make_labelled_dictbox(self, master, name, amidict, desc="Missing desc"):
+        frame, _ = Gutil.make_frame(master,
+                                           title="CProject",
+                                           tooltip="Project directory",
+                                           )
+        frame.pack()
 
-        labelText = tk.StringVar()
-        txt = kwargs[CBOX_TEXT] if CBOX_TEXT in kwargs else ""
-        labelText.set(txt)
-        entry_label = tk.Label(entry_frame, textvariable=labelText)
-        entry_label.pack(side=tk.LEFT)
-
-        default_text = kwargs[TEXT_DEFAULT] if TEXT_DEFAULT in kwargs else None
-        self.entry_text = tk.StringVar(None)
-        entry = tk.Entry(entry_frame, textvariable=self.entry_text, width=25)
-        entry.delete(0, tk.END)
-        if default_text is not None:
-            entry.insert(0, default_text)
-        entry.pack(side=tk.LEFT)
-
-    #        directory = tkFileDialog.askdirectory()
-
-    def make_spinbox(self, master, title, min=1, max=100):
-        spin_frame = tk.Frame(master=master, bg = "#444444", bd = 3,)
-        spin_frame.pack()
-        label = tk.Label(master=spin_frame, bg="#ffffdd", text=title)
-        label.pack(side="left")
-        self.spin = tk.Spinbox(spin_frame, from_=min, to=max, state="readonly", width=5)
-        self.spin.pack(side="right")
-
-    def make_labelled_dictbox(self, name, amidict, desc="Missing desc"):
         dictbox = Frame()
         dictbox.pack()
 
@@ -368,42 +515,36 @@ class Application(tk.Frame):
             CreateToolTip(label, text=desc)
         label.pack(side=TOP)
 
-        box = self.create_listbox(self.read_entry_names(amidict), master=dictbox)
+        box = self.create_dictionary_listbox(self.read_entry_names(amidict), master=dictbox)
         box.pack(side=BOTTOM)
         return box
 
-    def create_listbox(self, items, master=None, command=None):
-        frame = tk.Frame(master,
-                         highlightbackground="blue", highlightcolor="green", highlightthickness=2
-                         )
-        frame.pack()  #cannot pack frame with "side=bottom", why not??
+    def create_dictionary_listbox(self, items, master=None, command=None):
+        frame, title_var = Gutil.make_frame(master,
+                                           title="DICTIONARIES",
+                                           tooltip="dictionaries for pygetpapers query or AMI search",
+                                           )
+
+        lb = Gutil.create_listbox_from_list(frame, items)
+        lb.pack(side=tk.BOTTOM)
+
+        #        self.lb1.bind('<Button-1>', button1)
+
         if command is not None:
             button = tk.Button(frame, text="create dictboxes",
                           command=command,
                            )
-            button.pack(side="top")
+            button.pack(side=tk.BOTTOM)
 
-        lb = tk.Listbox(master=frame, height=5,
-                        selectmode=tk.MULTIPLE,
-                        exportselection=False,
-                        highlightcolor="green",
-                        selectbackground="pink",
-                        highlightthickness=3,
-                        bg = "#ffffdd", bd = 3,
-                        fg="blue")
-        for i, item in enumerate(items):
-            lb.insert(i + 1, item)
-        lb.pack(side=tk.BOTTOM)
-        #        self.lb1.bind('<Button-1>', button1)
         return lb
 
-# frames and windows
+    # frames and windows
     """
     https://stackoverflow.com/questions/24656138/python-tkinter-attach-scrollbar-to-listbox-as-opposed-to-window/24656407
     """
 
     def run_query_and_get_output(self, args):
-        _, stderr_lines = self.run_subprocess_get_lines(args)
+        _, stderr_lines = Gutil.run_subprocess_get_lines(args)
         saved = 0
         hits = 0
 #        print("lines", stderr_lines)
@@ -418,24 +559,9 @@ class Application(tk.Frame):
         messagebox.showinfo(title="end search", message="finished search, hits: "+str(hits)+", saved: "+str(saved))
         return stderr_lines
 
-    def run_subprocess_get_lines(self, args):
-        """runs subprocess with args
-         :return: tuple (stdout as lines, stderr as lines)
-         """
-        completed_process = subprocess.run(args, capture_output=True)
-        completed_process.check_returncode()  # throws error
-        # completed_process.stdout returns <bytes>, convert to <str>
-        stdout_str = str(completed_process.stdout)
-        stderr_str = str(completed_process.stderr)
-        args = completed_process.args
-        stderr_lines = stderr_str.split(SUBPROC_LINE_END) # the <str> conversion adds a backslash?
-        stdout_lines = stdout_str.split(SUBPROC_LINE_END)
-        return stdout_lines, stderr_lines
-
-    def create_query_and_run(self):
+    def create_pygetpapers_query_and_run(self):
 
         limit = self.spin.get()
-#        print("limit:", limit)
         query_string = ""
         query_string = self.add_query_entry(query_string)
         query_string = self.add_dictionary_box_terms(query_string)
@@ -445,7 +571,7 @@ class Application(tk.Frame):
             messagebox.showinfo(title="query_output", message="no query or dictionary boxes selected; no submission")
             return
 
-        self.project_dir = outd = self.outdir.get()
+        self.project_dir = self.outdir.get()
         if self.project_dir == "":
             print("must give outdir")
             messagebox.showinfo(title="outdir box", message="must give outdir")
@@ -455,8 +581,8 @@ class Application(tk.Frame):
 
         self.add_flags_to_query_command(cmd_options)
 
-        print("CMD", cmd_options)
-
+        print("CMD", cmd_options, "\n", str(cmd_options))
+        self.pygetpapers_command.insert(0, str(cmd_options))
 
         lines = self.run_query_and_get_output(cmd_options)
 
@@ -470,8 +596,7 @@ class Application(tk.Frame):
         import subprocess
         args = ["ami", "-p", self.project_dir, "section"]
         print("making sections", args)
-#        self.run_subprocess_and_capture(args)
-        stdout_lines, _ = self.run_subprocess_get_lines(args)
+        stdout_lines, _ = Gutil.run_subprocess_get_lines(args)
         print("stdout", stdout_lines)
 
     def add_flags_to_query_command(self, cmd_options):
@@ -511,54 +636,16 @@ class Application(tk.Frame):
         s = False
         print("check", self.check.getboolean(s))
 
-    def make_query_string(self, box):
-        selected = self.get_selections_from_box(box)
+    def make_query_string(self, listbox):
+        selected = Gutil.get_selections_from_listbox(listbox)
         s = ""
         l = len(selected)
         s = '('
-        s += self.quoteme(selected[0]) if l > 0 else ""
+        s += Gutil.quoteme(selected[0]) if l > 0 else ""
         for i in range(1, l):
-            s += " OR " + self.quoteme(selected[i])
+            s += " OR " + Gutil.quoteme(selected[i])
         s += ')'
         return s
-
-    def get_selections_from_box(self, box):
-        return [box.get(i) for i in box.curselection()]
-
-    def test_prog_bar(self):
-        import tkinter as tk
-        import tkinter.ttk as ttk
-        import time
-
-        # Create the master object
-        master = tk.Tk()
-
-        # Create a progressbar widget
-        progress_bar = ttk.Progressbar(master, orient="horizontal",
-                                       mode="determinate", maximum=100, value=0)
-
-        # And a label for it
-        label_1 = tk.Label(master, text="Progress Bar")
-
-        # Use the grid manager
-        label_1.grid(row=0, column=0)
-        progress_bar.grid(row=0, column=1)
-
-        # Necessary, as the master object needs to draw the progressbar widget
-        # Otherwise, it will not be visible on the screen
-        master.update()
-
-        progress_bar['value'] = 0
-        master.update()
-
-        while progress_bar['value'] < 100:
-            progress_bar['value'] += 10
-            # Keep updating the master object to redraw the progress bar
-            master.update()
-            time.sleep(0.5)
-
-        # The application mainloop
-        tk.mainloop()
 
     def display_query_output(self, master, lines):
         # Title Label
@@ -602,12 +689,14 @@ class Application(tk.Frame):
 
     def make_quit(self, master):
 
-        frame = tk.Frame(master, highlightbackground="blue", highlightcolor="black", highlightthickness=2)
-        frame.pack(side=tk.BOTTOM)
+        frame, title_var = Gutil.make_frame(master,
+                                           title="",
+                                           tooltip="quit and destroy windoe",
+                                           )
 
-        self.quit = tk.Button(frame, text="QUIT", fg="red",
+        quit = tk.Button(frame, text="QUIT", fg="red",
                               command=self.master.destroy)
-        self.quit.pack(side=tk.BOTTOM)
+        quit.pack(side=tk.BOTTOM)
 
         pass
 
@@ -670,6 +759,7 @@ root = tk.Tk()
 print("ROOT", root)
 app = Application(master=root)
 app.mainloop()
+
 
 # menu - not used
 def menu_stuff(self):

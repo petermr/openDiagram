@@ -7,11 +7,11 @@ from xml.etree import ElementTree as ET
 from tkinter import Frame
 from tkinter import Label
 from tkinter import TOP, BOTTOM, LEFT
-
+from gutil import Gutil
+from gutil import Gutil as gu
+from gutil import CreateToolTip
 from search_lib import AmiSearch
 
-ONVAL = 1
-OFFVAL = 0
 
 PYGETPAPERS = "pygetpapers"
 
@@ -25,26 +25,8 @@ CSV_FLAG = "csv"
 SUPP_FLAG = "supp"
 HTML_FLAG = "html"
 
-CBOX_BOX = "box"
-CBOX_VAR = "var"
-CBOX_TEXT = "text"
-CBOX_ON = "on"
-CBOX_OFF = "off"
-CBOX_BRIEF = "brief"
-CBOX_FULL = "full"
-CBOX_DEFAULT = "default"
-CBOX_COMMAND = "command"
-CBOX_TOOLTIP = "tooltip"
 
-TEXT_DEFAULT = "default"
 
-SUBPROC_LINE_END = "\\n"
-
-HLBG = "highlightbackground"
-HLTHICK = "highlightthickness"
-SIDE = "side"
-TITLE = "title"
-TOOLTIP = "tooltip"
 
 def button1(event):
     print("button1", event)
@@ -55,7 +37,7 @@ def button1(event):
         print(tup[0], event.widget.get(tup[0]))
 
 
-class Application(tk.Frame):
+class AmiGui(tk.Frame):
 
     def __init__(self, master=None):
         super().__init__(master)
@@ -94,13 +76,13 @@ class Application(tk.Frame):
         section_box = None
         section_var = None
         self.ami_section_dict = {
-            CBOX_BOX: section_box,
-            CBOX_VAR: section_var,
-            CBOX_TEXT: "make sections",
-            CBOX_ON: ONVAL,
-            CBOX_OFF: OFFVAL,
-            CBOX_DEFAULT: OFFVAL,
-            CBOX_TOOLTIP: "run ami section to create all sections ",
+            Gutil.CBOX_BOX: section_box,
+            Gutil.CBOX_VAR: section_var,
+            Gutil.CBOX_TEXT: "make sections",
+            Gutil.CBOX_ON: Gutil.ONVAL,
+            Gutil.CBOX_OFF: Gutil.OFFVAL,
+            Gutil.CBOX_DEFAULT: Gutil.OFFVAL,
+            Gutil.CBOX_TOOLTIP: "run ami section to create all sections ",
         }
         # make sections
         Gutil.make_checkbox_from_dict(frame, self.ami_section_dict)
@@ -143,69 +125,69 @@ class Application(tk.Frame):
         self.html_var = None
         self.pygetpapers_flags = {
             XML_FLAG: {
-                CBOX_BOX: self.xml_box,
-                CBOX_VAR: self.xml_var,
-                CBOX_TEXT: "XML",
-                CBOX_ON: ONVAL,
-                CBOX_OFF: OFFVAL,
-                CBOX_DEFAULT: ONVAL,
-                CBOX_BRIEF: "-x",
-                CBOX_FULL: "--xml",
-                CBOX_TOOLTIP: "output XML",
+                Gutil.CBOX_BOX: self.xml_box,
+                Gutil.CBOX_VAR: self.xml_var,
+                Gutil.CBOX_TEXT: "XML",
+                Gutil.CBOX_ON: Gutil.ONVAL,
+                Gutil.CBOX_OFF: Gutil.OFFVAL,
+                Gutil.CBOX_DEFAULT: Gutil.ONVAL,
+                Gutil.CBOX_BRIEF: "-x",
+                Gutil.CBOX_FULL: "--xml",
+                Gutil.CBOX_TOOLTIP: "output XML",
             },
             PDF_FLAG: {
-                CBOX_BOX: self.pdf_box,
-                CBOX_VAR: self.pdf_var,
-                CBOX_TEXT: "PDF",
-                CBOX_ON: ONVAL,
-                CBOX_OFF: OFFVAL,
-                CBOX_DEFAULT: OFFVAL,
-                CBOX_BRIEF: "-p",
-                CBOX_FULL: "--pdf",
-                CBOX_TOOLTIP: "output PDF",
+                Gutil.CBOX_BOX: self.pdf_box,
+                Gutil.CBOX_VAR: self.pdf_var,
+                Gutil.CBOX_TEXT: "PDF",
+                Gutil.CBOX_ON: Gutil.ONVAL,
+                Gutil.CBOX_OFF: Gutil.OFFVAL,
+                Gutil.CBOX_DEFAULT: Gutil.OFFVAL,
+                Gutil.CBOX_BRIEF: "-p",
+                Gutil.CBOX_FULL: "--pdf",
+                Gutil.CBOX_TOOLTIP: "output PDF",
             },
             SUPP_FLAG: {
-                CBOX_BOX: self.supp_box,
-                CBOX_VAR: self.supp_var,
-                CBOX_TEXT: "SUPP",
-                CBOX_ON: ONVAL,
-                CBOX_OFF: OFFVAL,
-                CBOX_DEFAULT: OFFVAL,
-                CBOX_BRIEF: "-s",
-                CBOX_FULL: "--supp",
-                CBOX_TOOLTIP: "output Supplemental data (often absent)",
+                Gutil.CBOX_BOX: self.supp_box,
+                Gutil.CBOX_VAR: self.supp_var,
+                Gutil.CBOX_TEXT: "SUPP",
+                Gutil.CBOX_ON: Gutil.ONVAL,
+                Gutil.CBOX_OFF: Gutil.OFFVAL,
+                Gutil.CBOX_DEFAULT: Gutil.OFFVAL,
+                Gutil.CBOX_BRIEF: "-s",
+                Gutil.CBOX_FULL: "--supp",
+                Gutil.CBOX_TOOLTIP: "output Supplemental data (often absent)",
             },
             NOEXEC_FLAG: {
-                CBOX_BOX: self.noexec_box,
-                CBOX_VAR: self.noexec_var,
-                CBOX_TEXT: "-n",
-                CBOX_ON: ONVAL,
-                CBOX_OFF: OFFVAL,
-                CBOX_DEFAULT: OFFVAL,
-                CBOX_BRIEF: "-n",
-                CBOX_FULL: "--no download",
-                CBOX_TOOLTIP: "if checked do not download ",
+                Gutil.CBOX_BOX: self.noexec_box,
+                Gutil.CBOX_VAR: self.noexec_var,
+                Gutil.CBOX_TEXT: "-n",
+                Gutil.CBOX_ON: Gutil.ONVAL,
+                Gutil.CBOX_OFF: Gutil.OFFVAL,
+                Gutil.CBOX_DEFAULT: Gutil.OFFVAL,
+                Gutil.CBOX_BRIEF: "-n",
+                Gutil.CBOX_FULL: "--no download",
+                Gutil.CBOX_TOOLTIP: "if checked do not download ",
             },
             CSV_FLAG: {
-                CBOX_BOX: self.csv_box,
-                CBOX_VAR: self.csv_var,
-                CBOX_TEXT: "CSV",
-                CBOX_ON: ONVAL,
-                CBOX_OFF: OFFVAL,
-                CBOX_DEFAULT: OFFVAL,
-                CBOX_BRIEF: "-c",
-                CBOX_FULL: "--makecsv",
-                CBOX_TOOLTIP: "output metadata as CSV",
+                Gutil.CBOX_BOX: self.csv_box,
+                Gutil.CBOX_VAR: self.csv_var,
+                Gutil.CBOX_TEXT: "CSV",
+                Gutil.CBOX_ON: Gutil.ONVAL,
+                Gutil.CBOX_OFF: Gutil.OFFVAL,
+                Gutil.CBOX_DEFAULT: Gutil.OFFVAL,
+                Gutil.CBOX_BRIEF: "-c",
+                Gutil.CBOX_FULL: "--makecsv",
+                Gutil.CBOX_TOOLTIP: "output metadata as CSV",
             },
             HTML_FLAG: {
-                CBOX_BOX: self.html_box,
-                CBOX_VAR: self.html_var,
-                CBOX_TEXT: "HTML",
-                CBOX_ON: ONVAL,
-                CBOX_OFF: OFFVAL,
-                CBOX_DEFAULT: OFFVAL,
-                CBOX_FULL: "--makehtml",
-                CBOX_TOOLTIP: "output metadata/abstract as HTML",
+                Gutil.CBOX_BOX: self.html_box,
+                Gutil.CBOX_VAR: self.html_var,
+                Gutil.CBOX_TEXT: "HTML",
+                Gutil.CBOX_ON: Gutil.ONVAL,
+                Gutil.CBOX_OFF: Gutil.OFFVAL,
+                Gutil.CBOX_DEFAULT: Gutil.OFFVAL,
+                Gutil.CBOX_FULL: "--makehtml",
+                Gutil.CBOX_TOOLTIP: "output metadata/abstract as HTML",
             },
         }
         self.flags_keys = self.pygetpapers_flags.keys()
@@ -265,8 +247,8 @@ class Application(tk.Frame):
 
     def create_run_button(self, master):
         button = tk.Button(master)
-        button[CBOX_TEXT] = "Run"
-        button[CBOX_COMMAND] = self.create_pygetpapers_query_and_run
+        button[Gutil.CBOX_TEXT] = "Run"
+        button[Gutil.CBOX_COMMAND] = self.create_pygetpapers_query_and_run
         button.pack(side="bottom", expand=True)
         self.pygetpapers_command = tk.Entry(master, bg="#ffffdd")
         self.pygetpapers_command.pack(side="bottom", expand=True)
@@ -403,7 +385,7 @@ class Application(tk.Frame):
 
         self.display_query_output(root, lines)
 
-        if self.ami_section_dict[CBOX_VAR].get() == ONVAL:
+        if self.ami_section_dict[Gutil.CBOX_VAR].get() == Gutil.ONVAL:
             self.run_ami_sections()
 
 
@@ -418,10 +400,10 @@ class Application(tk.Frame):
 
         for k, v in self.pygetpapers_flags.items():
             if k in self.pygetpapers_flags:
-                if v[CBOX_VAR].get() == ONVAL:
-                    option = v[CBOX_BRIEF] if CBOX_BRIEF in v else None
+                if v[Gutil.CBOX_VAR].get() == Gutil.ONVAL:
+                    option = v[Gutil.CBOX_BRIEF] if Gutil.CBOX_BRIEF in v else None
                     if option is None:
-                        option = v[CBOX_FULL] if CBOX_FULL in v else None
+                        option = v[Gutil.CBOX_FULL] if Gutil.CBOX_FULL in v else None
                     if option is None:
                         print("Cannot find keys for", k)
                     else:
@@ -444,7 +426,7 @@ class Application(tk.Frame):
         return lbstr
 
     def add_if_checked(self, cmd_options, var, val):
-        if var is not None and var.get() == ONVAL:
+        if var is not None and var.get() == gu.ONVAL:
             cmd_options.append(val)
 
     def print_check(self):
@@ -521,58 +503,10 @@ class Application(tk.Frame):
 
 
 
-class ToolTip(object):
-
-    # https://stackoverflow.com/questions/20399243/display-message-when-hovering-over-something-with-mouse-cursor-in-python
-
-    def __init__(self, widget):
-        self.widget = widget
-        self.tipwindow = None
-        self.id = None
-        self.x = self.y = 0
-
-    def showtip(self, text):
-        OFFSET_X = 57
-        OFFSET_Y = 27
-
-        from tkinter import Toplevel, SOLID
-        "Display text in tooltip window"
-        self.text = text
-        if self.tipwindow or not self.text:
-            return
-        x, y, cx, cy = self.widget.bbox("insert")
-        x = x + self.widget.winfo_rootx() + OFFSET_X
-        y = y + cy + self.widget.winfo_rooty() + OFFSET_Y
-        self.tipwindow = tw = Toplevel(self.widget)
-        tw.wm_overrideredirect(1)
-        tw.wm_geometry("+%d+%d" % (x, y))
-        label = Label(tw, text=self.text, justify=LEFT,
-                      background="#ffffe0", relief=SOLID, borderwidth=1,
-                      font=("tahoma", "15", "normal"))
-        label.pack(ipadx=1)
-
-    def hidetip(self):
-        tw = self.tipwindow
-        self.tipwindow = None
-        if tw:
-            tw.destroy()
-
-def CreateToolTip(widget, text):
-    toolTip = ToolTip(widget)
-
-    def enter(event):
-        toolTip.showtip(text)
-
-    def leave(event):
-        toolTip.hidetip()
-
-    widget.bind('<Enter>', enter)
-    widget.bind('<Leave>', leave)
-
 # main
 root = tk.Tk()
 print("ROOT", root)
-app = Application(master=root)
+app = AmiGui(master=root)
 app.mainloop()
 
 

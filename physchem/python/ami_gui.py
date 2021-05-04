@@ -1,4 +1,5 @@
 import tkinter as tk
+import tkinter.ttk as ttk
 import subprocess
 from tkinter import messagebox
 from tkinter import scrolledtext
@@ -7,6 +8,7 @@ from xml.etree import ElementTree as ET
 from tkinter import Frame
 from tkinter import Label
 from tkinter import TOP, BOTTOM, LEFT
+from gutil import AmiTree
 from gutil import Gutil
 from gutil import Gutil as gu
 from gutil import CreateToolTip
@@ -45,6 +47,8 @@ class AmiGui(tk.Frame):
         self.max_max_hits = 90
         self.selected_boxes = []
         self.current_project = None
+        self.ami_tree = None
+        self.treeview = None
 
         self.pack()
         self.create_all_widgets(root)
@@ -110,6 +114,18 @@ class AmiGui(tk.Frame):
             )
         )
         self.dictlistbox0.pack(side=BOTTOM)
+
+        self.dictlistbox1 = self.create_dictionary_listbox(
+            dictionary_dict.keys(),
+            master=master,
+            command=lambda: self.make_dictionary_boxes1(
+                master,
+                dictionary_dict,
+                Gutil.get_selections_from_listbox(self.dictlistbox1)
+            )
+        )
+        self.dictlistbox1.pack(side=BOTTOM)
+
         dictionary_names = dictionary_dict.keys()
         self.xml_box = None
         self.xml_var = None
@@ -262,6 +278,33 @@ class AmiGui(tk.Frame):
             curbox = self.make_labelled_dictbox(master, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
             self.selected_boxes.append(curbox)
 
+    def make_dictionary_boxes1(self, master, dictionary_dict, selected_dict_names):
+        n = ttk.Notebook(self.master)
+        """
+        f1 = ttk.Frame(n)  # first page, which would get widgets gridded into it
+        button11 = tk.Button(f1, text="button11")
+        button11.pack()
+        n.add(f1, text='One')
+        f2 = ttk.Frame(n)  # second page
+        n.add(f2, text='Two')
+        button22 = tk.Button(f2, text="button22")
+        button22.pack()
+        """
+        n.pack()
+
+        self.selected_boxes = []
+        for dict_name in selected_dict_names:
+            dictionary_tup = dictionary_dict[dict_name]
+
+            f1 = ttk.Frame(n)
+            n.add(f1, text=dict_name)
+            curbox = self.make_labelled_dictbox(f1, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
+            curbox.pack()
+            button22 = tk.Button(f1, text="b:"+dict_name)
+            button22.pack()
+
+            self.selected_boxes.append(curbox)
+
     def make_cproject_frame(self, master, box_side):
         from tkinter import ttk
 
@@ -277,11 +320,17 @@ class AmiGui(tk.Frame):
             command=self.select_directory
         )
         open_button.pack(side=LEFT, expand=True)
+        display_button = ttk.Button(
+            frame,
+            text='Display',
+            command=self.display_directory
+        )
+        display_button.pack(side=tk.RIGHT, expand=True)
 
         default_dir = os.path.join(os.path.expanduser("~"), "temp")
 
-        self.outdir = tk.StringVar(None)
-        self.dir_entry = tk.Entry(frame, textvariable=self.outdir, width=25)
+        self.outdir_var = tk.StringVar(None)
+        self.dir_entry = tk.Entry(frame, textvariable=self.outdir_var, width=25)
         Gutil.refresh_entry(self.dir_entry, default_dir)
         self.dir_entry.pack(side=tk.RIGHT)
 
@@ -296,6 +345,18 @@ class AmiGui(tk.Frame):
             initialdir=os.path.expanduser("~"),  # HOME directory
         )
         Gutil.refresh_entry(self.dir_entry, filename)
+
+    def display_directory(self):
+        parent = ''
+        title="dummy title"
+        if self.ami_tree is None:
+            self.ami_tree = AmiTree()
+#        if self.treeview is None:
+        self.treeview = self.ami_tree.get_or_create_treeview(root, title)
+
+        parent = ''
+
+        self.ami_tree.recursive_display(self.outdir_var.get(), parent, self.treeview)
 
     def make_labelled_dictbox(self, master, name, amidict, desc="Missing desc"):
         frame, _ = Gutil.make_frame(master,
@@ -328,6 +389,7 @@ class AmiGui(tk.Frame):
         #        self.lb1.bind('<Button-1>', button1)
 
         if command is not None:
+            print("dictbox cmd:", command)
             button = tk.Button(frame, text="create dictboxes",
                           command=command,
                            )
@@ -368,7 +430,7 @@ class AmiGui(tk.Frame):
             messagebox.showinfo(title="query_output", message="no query or dictionary boxes selected; no submission")
             return
 
-        self.project_dir = self.outdir.get()
+        self.project_dir = self.outdir_var.get()
         if self.project_dir == "":
             print("must give outdir")
             messagebox.showinfo(title="outdir box", message="must give outdir")
@@ -505,35 +567,6 @@ class AmiGui(tk.Frame):
 
 # main
 root = tk.Tk()
-print("ROOT", root)
 app = AmiGui(master=root)
 app.mainloop()
 
-
-# menu - not used
-def menu_stuff(self):
-    from tkinter import Menu
-
-    menubar = Menu(self.master)
-    filemenu = Menu(menubar, tearoff=0)
-    filemenu.add_command(label="New", command=self.menu("newxx"))
-    filemenu.add_command(label="Open", command=self.menu("openxx"))
-    filemenu.add_command(label="Save", command=self.menu("savexx"))
-    filemenu.add_separator()
-    filemenu.add_command(label="Exit", command=root.quit)
-    menubar.add_cascade(label="File", menu=filemenu)
-
-    helpmenu = Menu(menubar, tearoff=0)
-    helpmenu.add_command(label="Help Index", command=self.menu("help indexx"))
-    helpmenu.add_command(label="About...", command=self.menu("ABOUTxx"))
-    menubar.add_cascade(label="Help", menu=helpmenu)
-
-    root.config(menu=menubar)
-    print("before mainloop")
-    root.mainloop()
-
-def menu(self, text):
-    print("menu", text)
-
-
-# https://stackoverflow.com/questions/30004505/how-do-you-find-a-unique-and-constant-id-of-a-widget

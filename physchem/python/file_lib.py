@@ -1,4 +1,5 @@
 import os, glob, copy, json
+import pathlib
 
 class Globber:
 
@@ -208,7 +209,9 @@ class FileLib:
             os.mkdir(outdir)
 
 SECTION_TEMPLATES_JSON = 'section_templates.json'
-with open(SECTION_TEMPLATES_JSON, 'r') as json_file:
+file_dir = pathlib.PurePath(__file__).parent
+templates_json = os.path.join(os.path.join(file_dir, SECTION_TEMPLATES_JSON))
+with open(templates_json, 'r') as json_file:
     TEMPLATES = json.load(json_file)
 
 def main():

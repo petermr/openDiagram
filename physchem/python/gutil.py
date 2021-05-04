@@ -1,6 +1,7 @@
 
 import tkinter as tk
 import tkinter.ttk as ttk
+from tkinter.ttk import Style
 
 import subprocess
 import os
@@ -265,7 +266,7 @@ class Gutil:
 
 class AmiTree:
     def __init__(self):
-        self.tree = None
+        self.treeview = None
 
     def tree1(self):
         master = tk.Tk()
@@ -362,32 +363,40 @@ class AmiTree:
         from tkinter.messagebox import showinfo
 
         root = tk.Tk()
-        root.title('lantana demo')
-        root.geometry('620x200')
-
-        self.tree = ttk.Treeview(root)
-        self.color_tags()
-        self.tree.pack()
+        title = 'lantana demo'
+        if self.treeview is None:
+            self.treeview = self.get_or_create_treeview(root, title)
 
         HOME = os.path.expanduser("~")
         dirx = os.path.join(HOME, "temp", "lantana")
         parent = ''
 
-        self.recursive_display(dirx, parent, self.tree)
+        self.recursive_display(dirx, parent, self.treeview)
 
         # run the app
         root.mainloop()
 
+    def get_or_create_treeview(self, root, title):
+        if self.treeview is not None:
+            self.treeview.destroy()
+        root.title(title)
+        root.geometry('620x600')
+        self.treeview = ttk.Treeview(root)
+        self.color_tags()
+        self.treeview.pack()
+
+        return self.treeview
+
     def color_tags(self):
-        self.tree.tag_configure('xml', background='pink')
-        self.tree.tag_configure('0', background='yellow')
+        self.treeview.tag_configure('xml', background='pink')
+        self.treeview.tag_configure('0', background='yellow')
 
     def itemClicked(self, event):
-        print("CLICKED", event, self.tree.focus(), self.tree.selection, dir(self.tree.selection))
+        print("CLICKED", event, self.treeview.focus(), self.treeview.selection, dir(self.treeview.selection))
 
     def recursive_display(self, dirx, parent_id, tree):
-#        childdirs = [f.path for f in os.scandir(dirx) if f.is_dir()]
-        childfiles = [f.path for f in os.scandir(dirx) if os.path.isdir(dirx)]
+#        print(dirx, ";", parent_id, ";", tree, ";")
+        childfiles = [f.path for f in os.scandir(dirx) if os.path.isdir(dirx) and not dirx.startswith(".")]
         sorted_child_files = AmiTree.sorted_alphanumeric(childfiles)
         for f in sorted_child_files:
             filename = AmiTree.path_leaf(f)
@@ -420,7 +429,80 @@ class AmiTree:
         isd = os.path.isdir(filename)
         return isd or filename.endswith(".xml")
 
-print("junk")
-amiTree = AmiTree()
-# amiTree.dir1() # needs PMR directory
-# amiTree.table1() # tableview as stock example
+class ExtraWidgets(tk.Frame):
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.master = master
+        self.test()
+
+    def test(self):
+
+        ss = ttk.Style()
+        ss.configure('Yellow.TFrame', background='yellow', foreground="pink", border=10, padx=5,
+                     highlightcolor="purple", highlightthickness=3)
+        s1 = ttk.Style()
+        s1.configure('Red.TButton', background='red', foreground="green", font=('Arial', 20,'bold'))
+        s2 = ttk.Style()
+        s2.configure('Blue.TButton', background='blue', foreground="red", font=('Courier', 20,'italic'))
+
+        frame = ttk.Frame(self.master, style="Yellow.TFrame", padding='10 10 15 15', height=400, width=250)
+        frame['borderwidth'] = 5
+        frame['relief'] = 'sunken'
+        frame.config()
+        button1 = ttk.Button(self.master, text="Button1", style="Red.TButton")
+        button1.config()
+        button1.pack()
+        button2 = ttk.Button(self.master, text="Button2", style="Blue.TButton")
+        button2.config()
+        button2.pack()
+        #        self.listbox_test()
+
+        self.label_frame_test()
+        s = ttk.Separator(self.master, orient=tk.HORIZONTAL) # doesn't work
+        s.pack(fill="x")
+        self.notebook_test()
+
+    def separatorTest(self):
+        s = ttk.Separator(self.master, orient=tk.HORIZONTAL)
+        s.pack()
+
+    def label_frame_test(self):
+        p = ttk.Panedwindow(self.master, orient=tk.HORIZONTAL)
+        # two panes, each of which would get widgets gridded into it:
+        f1 = ttk.Labelframe(p, text='Pane1', width=100, height=200)
+        button1 = tk.Button(f1, text="button1")
+        button1.pack()
+        p.add(f1)
+        f2 = ttk.Labelframe(p, text='Pane2', width=100, height=200)
+        button2 = tk.Button(f2, text="button2")
+        button2.pack()
+        p.add(f2)
+        p.pack()
+        
+        lf = ttk.Labelframe(self.master, text='LabelFrame', height=100, width=10, border=15)
+        buttonz1 = tk.Button(lf, text="z1")
+        buttonz1.pack()
+        lf.pack()
+
+        buttonz2 = tk.Button(lf, text="z2")
+        buttonz2.pack()
+
+    def notebook_test(self):
+        n = ttk.Notebook(self.master)
+
+        f1 = ttk.Frame(n)  # first page, which would get widgets gridded into it
+        button11 = tk.Button(f1, text="button11")
+        button11.pack()
+        n.add(f1, text='One')
+        f2 = ttk.Frame(n)  # second page
+        n.add(f2, text='Two')
+        button22 = tk.Button(f2, text="button22")
+        button22.pack()
+        n.pack()
+
+if False:
+    print("***********Testing gutil")
+    root = tk.Tk()
+    app = ExtraWidgets(master=root)
+    app.mainloop()
+

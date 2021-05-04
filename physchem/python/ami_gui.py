@@ -68,7 +68,7 @@ class AmiGui(tk.Frame):
         pg_frame.pack(side=TOP)
 
         self.make_cproject_frame(pg_frame, tk.TOP)
-        self.make_dictbox_values(pg_frame)
+        self.make_dictionary_names_box(pg_frame)
         self.make_pygetpapers_query_frame(pg_frame, tk.TOP)
         return pg_frame
 
@@ -91,12 +91,12 @@ class AmiGui(tk.Frame):
         # make sections
         Gutil.make_checkbox_from_dict(frame, self.ami_section_dict)
 
-    def make_dictbox_values(self, master):
+    def make_dictionary_names_box(self, master):
         dictionary_dict = {
             "country": (os.path.join(DICTIONARY_HOME, "openVirus20210120", "country", "country.xml"),
                         "ISO countries from wikidata"),
             "ethics": (os.path.join(DICTIONARY_HOME, "ami3", "ethics.xml"),
-                       "ISO countries from wikidata"),
+                       "Ethics section terminology"),
             "invasive": (os.path.join(CEV_DICTIONARY_HOME, "Invasive_species", "invasive_plant.xml"),
                          "Invasive plant species from GISD"),
             "plant_part": (os.path.join(CEV_DICTIONARY_HOME, "eoPlantPart", "eoplant_part.xml"),
@@ -104,27 +104,30 @@ class AmiGui(tk.Frame):
             "parkinsons": (os.path.join(DICTIONARY_HOME, "ami3", "parkinsons.xml"),
                            "Terms related to Parkinson's disease"),
         }
-        self.dictlistbox0 = self.create_dictionary_listbox(
-            dictionary_dict.keys(),
-            master=master,
-            command=lambda: self.make_dictionary_boxes(
-                master,
-                dictionary_dict,
-                Gutil.get_selections_from_listbox(self.dictlistbox0)
+        orig = True
+        if orig:
+            self.dictionary_names_listbox = self.create_generic_listbox(
+                dictionary_dict.keys(),
+                master=master,
+                button_text="select dictionaries",
+                command=lambda: self.make_dictionary_content_boxes(
+                    self.dcb_frame,
+                    dictionary_dict,
+                    Gutil.get_selections_from_listbox(self.dictionary_names_listbox)
+                )
             )
-        )
-        self.dictlistbox0.pack(side=BOTTOM)
-
-        self.dictlistbox1 = self.create_dictionary_listbox(
-            dictionary_dict.keys(),
-            master=master,
-            command=lambda: self.make_dictionary_boxes1(
-                master,
-                dictionary_dict,
-                Gutil.get_selections_from_listbox(self.dictlistbox1)
+            self.dictionary_names_listbox.pack(side=BOTTOM)
+        else:
+            self.dictionary_names_listbox = self.create_dictionary_listbox_NEW(
+                dictionary_dict.keys(),
+                master=master,
+                command=lambda: self.make_dictionary_content_boxes_NEW(
+                    master,
+                    dictionary_dict,
+                    Gutil.get_selections_from_listbox(self.dictionary_names_listbox)
+                )
             )
-        )
-        self.dictlistbox1.pack(side=BOTTOM)
+            self.dictionary_names_listbox.pack(side=BOTTOM)
 
         dictionary_names = dictionary_dict.keys()
         self.xml_box = None
@@ -217,6 +220,7 @@ class AmiGui(tk.Frame):
 
         self.create_run_button(frame)
         self.make_getpapers_args(frame)
+        self.dcb_frame = self.make_dictionary_content_boxes_frame(frame)
         self.entry_text = Gutil.make_entry_box(frame, text="query")
 
         return frame, title_var
@@ -224,7 +228,7 @@ class AmiGui(tk.Frame):
     def make_ami_search(self, master):
 
         frame, title_var = Gutil.make_frame(master,
-                                           title="AMI",
+                                           title="AMI (runs a demo search, not yet linked to widgets)",
                                            tooltip="run ami search using dictionaries",
                                            )
 
@@ -271,15 +275,17 @@ class AmiGui(tk.Frame):
 
 
 
-    def make_dictionary_boxes(self, master, dictionary_dict, selected_dict_names):
+    def make_dictionary_content_boxes(self, master, dictionary_dict, selected_dict_names):
         self.selected_boxes = []
         for dict_name in selected_dict_names:
             dictionary_tup = dictionary_dict[dict_name]
-            curbox = self.make_labelled_dictbox(master, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
+            curbox = self.make_dictionary_content_box(master, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
             self.selected_boxes.append(curbox)
 
-    def make_dictionary_boxes1(self, master, dictionary_dict, selected_dict_names):
-        n = ttk.Notebook(self.master)
+    def make_dictionary_content_boxes_NEW(self, master, dictionary_dict, selected_dict_names):
+        frame = tk.Frame(master, highlightcolor="red", highlightthickness=10)
+        frame.pack()
+        n = ttk.Notebook(frame)
         """
         f1 = ttk.Frame(n)  # first page, which would get widgets gridded into it
         button11 = tk.Button(f1, text="button11")
@@ -296,11 +302,13 @@ class AmiGui(tk.Frame):
         for dict_name in selected_dict_names:
             dictionary_tup = dictionary_dict[dict_name]
 
-            f1 = ttk.Frame(n)
+            f1 = tk.Frame(n, highlightcolor="blue", highlightthickness=10)
             n.add(f1, text=dict_name)
-            curbox = self.make_labelled_dictbox(f1, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
+            tup_ = dictionary_tup[0]
+            description = dictionary_tup[1]
+            curbox = self.make_dictionary_content_box(n, dict_name, tup_, desc=description)
             curbox.pack()
-            button22 = tk.Button(f1, text="b:"+dict_name)
+            button22 = tk.Button(n, text="b:"+dict_name)
             button22.pack()
 
             self.selected_boxes.append(curbox)
@@ -312,7 +320,10 @@ class AmiGui(tk.Frame):
                                            title="CProject",
                                            tooltip="Project directory",
                                            )
-        frame.pack()
+        frame.pack(side=TOP)
+
+        self.display_frame = tk.Frame(frame)
+        self.display_frame.pack(side=BOTTOM)
 
         open_button = ttk.Button(
             frame,
@@ -347,40 +358,33 @@ class AmiGui(tk.Frame):
         Gutil.refresh_entry(self.dir_entry, filename)
 
     def display_directory(self):
-        parent = ''
         title="dummy title"
         if self.ami_tree is None:
             self.ami_tree = AmiTree()
-#        if self.treeview is None:
-        self.treeview = self.ami_tree.get_or_create_treeview(root, title)
+        self.treeview = self.ami_tree.get_or_create_treeview(self.display_frame, title)
 
         parent = ''
 
         self.ami_tree.recursive_display(self.outdir_var.get(), parent, self.treeview)
 
-    def make_labelled_dictbox(self, master, name, amidict, desc="Missing desc"):
+    def make_dictionary_content_box(self, master, dictionary_name, ami_dictionary, desc="Missing desc"):
         frame, _ = Gutil.make_frame(master,
-                                           title="CProject",
-                                           tooltip="Project directory",
+                                           title=dictionary_name,
+                                           tooltip=desc,
                                            )
-        frame.pack()
+        frame.pack(side=LEFT)
 
-        dictbox = Frame()
-        dictbox.pack()
-
-        label = Label(master=dictbox, text=name, bg="#ffdddd", bd=3)
-        if desc:
-            CreateToolTip(label, text=desc)
-        label.pack(side=TOP)
-
-        box = self.create_dictionary_listbox(self.read_entry_names(amidict), master=dictbox)
+        box = self.create_generic_listbox(self.read_entry_names(ami_dictionary),
+                                          master=frame, title="select dictionary items")
         box.pack(side=BOTTOM)
         return box
 
-    def create_dictionary_listbox(self, items, master=None, command=None):
+    def create_generic_listbox(self, items, master=None, command=None, title=None, tooltip=None, button_text="select"):
         frame, title_var = Gutil.make_frame(master,
-                                           title="DICTIONARIES",
-                                           tooltip="dictionaries for pygetpapers query or AMI search",
+                                           title=title,
+                                           tooltip=tooltip,
+                                           highlightbackground="green",
+                                           highlightthickness=3,
                                            )
 
         lb = Gutil.create_listbox_from_list(frame, items)
@@ -389,10 +393,28 @@ class AmiGui(tk.Frame):
         #        self.lb1.bind('<Button-1>', button1)
 
         if command is not None:
+            button = tk.Button(frame, text=button_text, command=command,)
+            button.pack(side=tk.BOTTOM)
+
+        return lb
+
+    def create_dictionary_listbox_NEW(self, items, master=None, command=None, title="no title"):
+        frame, title_var = Gutil.make_frame(master,
+                                           title="DICTIONARIES_NEW",
+                                           tooltip="contains dictionary names, button will generate content lists",
+                                           )
+
+        lb = Gutil.create_listbox_from_list(frame, items)
+        lb.pack(side=tk.BOTTOM)
+
+        #        self.lb1.bind('<Button-1>', button1)
+        print("command", command)
+        if command is not None:
             print("dictbox cmd:", command)
-            button = tk.Button(frame, text="create dictboxes",
+            button = tk.Button(frame, text="create dictboxes NEW",
                           command=command,
                            )
+            CreateToolTip(button, str(command))
             button.pack(side=tk.BOTTOM)
 
         return lb
@@ -559,6 +581,13 @@ class AmiGui(tk.Frame):
 
         pass
 
+    def make_dictionary_content_boxes_frame(self, master):
+        self.dcb_frame, title_var = Gutil.make_frame(master,
+                                                     title="select entries in dictionaries",
+                                                     tooltip="dictionary content boxes will be added here",
+                                                     )
+        self.dcb_frame.pack()
+        return self.dcb_frame
 
 """unused"""
 

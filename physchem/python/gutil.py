@@ -187,12 +187,12 @@ class Gutil:
         bg_col = kwargs[HLBG] if HLBG in kwargs else defaults[HLBG]
         bg_thick = kwargs[HLTHICK] if HLTHICK in kwargs else defaults[HLTHICK]
         side = kwargs[SIDE] if SIDE in kwargs else defaults[SIDE]
-        title = kwargs[TITLE] if TITLE in kwargs else defaults[TITLE]
+        title = kwargs[TITLE] if TITLE in kwargs else None
         tooltip = kwargs[TOOLTIP] if TOOLTIP in kwargs else defaults[TOOLTIP]
 
         frame = tk.Frame(master, highlightbackground=bg_col, highlightthickness=bg_thick)
         title_var = None
-        if title != "":
+        if title is not None and title != "":
             title_var = tk.StringVar(value=title)
             label = tk.Label(frame, textvariable=title_var)
             label.pack(side=side)
@@ -376,12 +376,10 @@ class AmiTree:
         # run the app
         root.mainloop()
 
-    def get_or_create_treeview(self, root, title):
+    def get_or_create_treeview(self, frame, title):
         if self.treeview is not None:
             self.treeview.destroy()
-        root.title(title)
-        root.geometry('620x600')
-        self.treeview = ttk.Treeview(root)
+        self.treeview = ttk.Treeview(frame)
         self.color_tags()
         self.treeview.pack()
 

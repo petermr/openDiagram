@@ -12,6 +12,7 @@ from collections import Counter
 import re
 import unicodedata
 import json
+from gutil import Gutil
 
 HOME = os.path.expanduser("~")
 PYDIAG = "../../python/diagrams"
@@ -183,6 +184,7 @@ class AmiSearch:
 
 
     def use_projects(self, args):
+        print("projects", args)
         if args is None or len(args) == 0:
             print("=================", "\n", "must give projects; here are some to test with, but they may need checking out")
             for key in AmiProjects().project_dict.keys():
@@ -338,6 +340,7 @@ class AmiSearch:
                 print("\n=============cannot find section============\n", ex)
                 self.section_help()
                 print("\n===========================")
+        return
 
     def section_help(self):
         print("sections to be used; ALL uses whole document (Not yet tested)")
@@ -598,6 +601,23 @@ class AmiSearch:
         #    test_profile1()
         print("finished search")
 
+    def run_search_from_gui(self, ami_gui):
+        self.min_hits = 1
+        self.max_bars = 200
+
+        sections = Gutil.get_selections_from_listbox(ami_gui.sections_listbox)
+        print("sections", sections)
+        self.use_sections(sections)
+
+        dictionaries = Gutil.get_selections_from_listbox(ami_gui.dictionary_names_listbox)
+        print("dictionaries",dictionaries)
+        self.use_dictionaries(dictionaries)
+
+        projects = Gutil.get_selections_from_listbox(ami_gui.project_names_listbox)
+        print("projects",projects)
+        self.use_projects(projects)
+
+        self.run_search()
 
 
 class AmiRun:

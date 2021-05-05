@@ -13,6 +13,9 @@ from gutil import Gutil
 from gutil import Gutil as gu
 from gutil import CreateToolTip
 from search_lib import AmiSearch
+from search_lib import AmiSection
+from search_lib import AmiDictionaries
+from search_lib import AmiProjects
 
 
 PYGETPAPERS = "pygetpapers"
@@ -27,8 +30,12 @@ CSV_FLAG = "csv"
 SUPP_FLAG = "supp"
 HTML_FLAG = "html"
 
+TOTAL_HITS_ARE = "Total Hits are"
+WROTE_XML = "Wrote xml"
 
 
+#select by typing
+# https://stackoverflow.com/questions/47839813/python-tkinter-autocomplete-combobox-with-like-search
 
 def button1(event):
     print("button1", event)
@@ -73,9 +80,15 @@ class AmiGui(tk.Frame):
         return pg_frame
 
     def make_sections(self, master):
-        frame = tk.Frame(master, highlightbackground="gray",
+        section_frame = tk.Frame(master, highlightbackground="gray",
                                  highlightthickness=2, border=2)
-        frame.pack()
+        section_frame.pack()
+
+        self.sections_listbox = self.create_generic_listbox(
+            AmiSection.SECTION_LIST,
+            master=section_frame,
+        )
+        self.sections_listbox.pack(side=BOTTOM)
 
         section_box = None
         section_var = None
@@ -89,9 +102,13 @@ class AmiGui(tk.Frame):
             Gutil.CBOX_TOOLTIP: "run ami section to create all sections ",
         }
         # make sections
-        Gutil.make_checkbox_from_dict(frame, self.ami_section_dict)
+
+        Gutil.make_checkbox_from_dict(section_frame, self.ami_section_dict)
+
 
     def make_dictionary_names_box(self, master):
+        """
+
         dictionary_dict = {
             "country": (os.path.join(DICTIONARY_HOME, "openVirus20210120", "country", "country.xml"),
                         "ISO countries from wikidata"),
@@ -104,30 +121,19 @@ class AmiGui(tk.Frame):
             "parkinsons": (os.path.join(DICTIONARY_HOME, "ami3", "parkinsons.xml"),
                            "Terms related to Parkinson's disease"),
         }
-        orig = True
-        if orig:
-            self.dictionary_names_listbox = self.create_generic_listbox(
-                dictionary_dict.keys(),
-                master=master,
-                button_text="select dictionaries",
-                command=lambda: self.make_dictionary_content_boxes(
-                    self.dcb_frame,
-                    dictionary_dict,
-                    Gutil.get_selections_from_listbox(self.dictionary_names_listbox)
-                )
+        """
+        ami_dictionaries = AmiDictionaries()
+        dictionary_dict = ami_dictionaries.dictionary_dict;
+        self.dictionary_names_listbox = self.create_generic_listbox(
+            dictionary_dict.keys(),
+            master=master,
+            button_text="select dictionaries",
+            command=lambda: self.make_dictionary_content_boxes(
+                self.dcb_frame,
+                dictionary_dict,
+                Gutil.get_selections_from_listbox(self.dictionary_names_listbox)
             )
-            self.dictionary_names_listbox.pack(side=BOTTOM)
-        else:
-            self.dictionary_names_listbox = self.create_dictionary_listbox_NEW(
-                dictionary_dict.keys(),
-                master=master,
-                command=lambda: self.make_dictionary_content_boxes_NEW(
-                    master,
-                    dictionary_dict,
-                    Gutil.get_selections_from_listbox(self.dictionary_names_listbox)
-                )
-            )
-            self.dictionary_names_listbox.pack(side=BOTTOM)
+        )
 
         dictionary_names = dictionary_dict.keys()
         self.xml_box = None
@@ -227,21 +233,30 @@ class AmiGui(tk.Frame):
 
     def make_ami_search(self, master):
 
-        frame, title_var = Gutil.make_frame(master,
+        run_ami_frame, title_var = Gutil.make_frame(master,
                                            title="AMI (runs a demo search, not yet linked to widgets)",
                                            tooltip="run ami search using dictionaries",
                                            )
 
         run_button_var = tk.StringVar(value="RUN SEARCH")
-        ami_button = tk.Button(frame, textvariable=run_button_var, command=self.run_ami_search)
+        ami_button = tk.Button(run_ami_frame, textvariable=run_button_var, command=self.run_ami_search)
         ami_button.pack(side=tk.BOTTOM)
 
-        return frame, title_var
+        self.project_names_listbox = self.create_generic_listbox(
+            AmiProjects().project_dict.keys(),
+            master=run_ami_frame,
+        )
+        self.project_names_listbox.pack(side=BOTTOM)
+
+        return run_ami_frame, title_var
 
 
     def run_ami_search(self):
         ami_search = AmiSearch()
-        ami_search.disease_demo()
+        ami_guix = self
+        print(type(ami_search), type(ami_guix))
+        ami_search.run_search_from_gui(ami_guix)
+#        ami_search.disease_demo()
 
     def make_getpapers_args(self, frame):
         getpapers_args_frame = tk.Frame(frame,
@@ -425,16 +440,18 @@ class AmiGui(tk.Frame):
     """
 
     def run_query_and_get_output(self, args):
-        _, stderr_lines = Gutil.run_subprocess_get_lines(args)
+        try:
+            _, stderr_lines = Gutil.run_subprocess_get_lines(args)
+        except:
+            messagebox.showinfo(title="query failed", message="failed, maybe no output")
+            return ["failure, probably no hits"]
         saved = 0
         hits = 0
 #        print("lines", stderr_lines)
-        TOTAL_HITS_ARE = "Total Hits are"
         for line in stderr_lines:
             if TOTAL_HITS_ARE in line:
                 hits = line.split(TOTAL_HITS_ARE)[-1]
                 print("HITS", hits)
-            WROTE_XML = "Wrote xml"
             if WROTE_XML in line:
                 saved += 1
         messagebox.showinfo(title="end search", message="finished search, hits: "+str(hits)+", saved: "+str(saved))

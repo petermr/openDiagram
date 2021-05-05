@@ -240,7 +240,8 @@ class Gutil:
          :return: tuple (stdout as lines, stderr as lines)
          """
         completed_process = subprocess.run(args, capture_output=True)
-        completed_process.check_returncode()  # throws error
+        completed_process.check_returncode() # may throw error which caller muct catch
+        # throws error
         # completed_process.stdout returns <bytes>, convert to <str>
         stdout_str = str(completed_process.stdout)
         stderr_str = str(completed_process.stderr)

@@ -50,6 +50,10 @@ FUNDER = os.path.join(MINIPROJ, "funder")
 # requires Worcester repo
 WORCESTER_DIR = os.path.join(PROJECTS, "worcester")
 
+# entry
+WIKIDATA_ID = "wikidataID"
+SPARQL_NS_MAP = {'SPARQL_NS': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
+
 
 class AmiSearch:
 
@@ -85,7 +89,16 @@ class AmiSearch:
         self.do_plot = True
         self.ami_projects = AmiProjects()
 
-        self.max_bars = 10
+        self.param_dict = {
+            "max_bars" : 10,
+            "wikidata_label_lang" : "en",
+            "debug_cnt" : 10000,
+            "max_files" : 10000,
+            "min_hits" : 2,
+            "require_wikidata" : False,
+            "ami_gui" : None,
+        }
+#        self.max_bars = 10
         self.wikidata_label_lang = "en"
 
         # print every debug_cnt filenamwe
@@ -98,6 +111,7 @@ class AmiSearch:
         # look up how sections work
 #        self.ami_sections = AmiSections()
         self.ami_dictionaries = AmiDictionaries()
+        self.ami_gui = None
 
     @staticmethod
     def run_demos(demos):
@@ -245,10 +259,10 @@ class AmiSearch:
         for hit in hits:
             if hit in dictionary.entry_by_term:
                 entry = dictionary.entry_by_term[hit]
-                if self.require_wikidata and "wikidataID" not in entry.attrib:
+                if self.require_wikidata and WIKIDATA_ID not in entry.attrib:
                     print("no wikidataID for ", hit, "in", dictionary.name)
                     continue
-#                wikidata_id = entry.attrib["wikidataID"]
+#                wikidata_id = entry.attrib[WIKIDATA_ID]
                 label = hit
                 if self.wikidata_label_lang in ['hi', 'ta', 'ur', 'fr', 'de']:
                     #                            self.xpath_search(entry)  # doesn't work
@@ -381,7 +395,18 @@ class AmiSearch:
                 print("  <entry term=`"+k.lower()+"'/>")
         print("</dictionary>")
 
+        outfile = self.create_word_count_file(tool)
+        """ TODO
+        with open(outfile, "w") as f:
+            print("<dictionary title='" + tool + "'>")
+            for k, v in counter.items():
+                if v > self.min_hits:
+                    print("  <entry term=`" + k.lower() + "'/>")
+            print("</dictionary>")
+        """
 
+    def create_word_count_file(self, tool):
+        pass
 
 
     @staticmethod
@@ -604,6 +629,7 @@ class AmiSearch:
     def run_search_from_gui(self, ami_gui):
         self.min_hits = 1
         self.max_bars = 200
+        self.ami_gui = ami_gui
 
         sections = Gutil.get_selections_from_listbox(ami_gui.sections_listbox)
         print("sections", sections)
@@ -630,6 +656,7 @@ class AmiRun:
 
     def __init__(self, params, ami_runner):
         print("AMIRUNNER", dir(ami_runner))
+
         self.params = params
         self.sections = self._copy_params(__class__.SECTIONS)
         self.ami_sections = AmiSection()
@@ -715,6 +742,7 @@ class AmiRunner:
         print("json", data)
 
 
+"""
 class SimpleDict:
 
     def __init__(self, file=None):
@@ -722,7 +750,7 @@ class SimpleDict:
             with open(file, "r", encoding="utf-8") as f:
                 self.lines = f.read().splitlines()
         print(self.lines)
-
+"""
 
 class AmiProjects:
     """project files"""
@@ -840,8 +868,13 @@ class SearchDictionary:
 
     TERM = "term"
 
-
     def __init__(self, file, **kwargs):
+        self.amidict = None
+        self.root = None
+        self.name = None
+        self.entries = []
+        self.entry_by_wikidata_id = {}
+
         if not os.path.exists(file):
             raise IOError("cannot find file " + str(file))
         self.read_dictionary(file)
@@ -939,6 +972,81 @@ class SearchDictionary:
     def create_entry_by_term(self):
         self.entry_by_term = {self.term_from_entry(entry) : entry  for entry in self.entries}
 
+    def update_from_sparql(self, sparql_file):
+        """ read sparql file and match Wikidata Ids and update fields """
+        self.create_sparql_result_list(sparql_file)
+        self.create_sparql_result_by_wikidata_id()
+        self.update_dictionary_from_sparql()
+
+    def create_sparql_result_list(self, sparql_file):
+        self.current_sparql = ET.parse(sparql_file, parser=ET.XMLParser(encoding="utf-8"))
+        print("current sparql", self.current_sparql)
+        sparql_root = self.current_sparql.getroot()
+        sparql_head = list(sparql_root.findall('SPARQL_NS:head', SPARQL_NS_MAP))
+        if len(sparql_head) == 0:
+            print("no sparql head")
+        sparql_head = sparql_head[0]
+        sparql_results_top = list(sparql_root.findall('SPARQL_NS:results', SPARQL_NS_MAP))[0]
+        self.sparql_result_list = list(sparql_results_top.findall('SPARQL_NS:result', SPARQL_NS_MAP))
+        print("results", len(self.sparql_result_list))
+
+    def create_sparql_result_by_wikidata_id(self):
+        self.sparql_result_by_wikidata_id = {}
+        for result in self.sparql_result_list:
+            uri = list(result.findall("SPARQL_NS:binding[@name='item']/SPARQL_NS:uri", SPARQL_NS_MAP))[0]
+            wikidata_id = uri.text.split("/")[-1]
+            self.sparql_result_by_wikidata_id[wikidata_id] = result
+#        print(self.sparql_result_by_wikidata_id)
+
+    def update_dictionary_from_sparql(self):
+        for wikidata_id in self.sparql_result_by_wikidata_id.keys():
+            if wikidata_id not in self.entry_by_wikidata_id.keys():
+                print("No entry in dictionary for", wikidata_id)
+            else:
+                entry = self.entry_by_wikidata_id[wikidata_id]
+#                print(wikidata_id, entry.attrib["term"])
+                """
+                <entry ...>
+                  <new_element>content<new_element>
+                  <image>http://commons.wikimedia.org/wiki/Special:FilePath/Vaccinium%20corymbosum%20a2.jpg</image>
+                """
+                result = self.sparql_result_by_wikidata_id[wikidata_id]
+                update_name = "image"
+                update_elements = \
+                    list(result.findall("SPARQL_NS:binding[@name='" + update_name + "']/SPARQL_NS:uri", SPARQL_NS_MAP))
+                if len(update_elements) == 0:
+#                    print("no update sparql")
+                    pass
+                else:
+                    entry_child = ET.Element("image")
+                    entry_child.text = update_elements[0].text
+                    entry.append(entry_child)
+#                    print("new child", ET.tostring(entry_child))
+                    print("new entry", ET.tostring(entry))
+
+
+    @classmethod
+    def test(cls):
+        PLANT = os.path.join(PHYSCHEM_RESOURCES, "plant")
+        plant_part_sparql = os.path.join(PLANT, "plant_part_sparql.xml")
+        plant_part_file = os.path.join(PLANT, "eoplant_part.xml")
+        plant_part_dic = SearchDictionary(plant_part_file)
+        plant_part_dic.check_unique_wikidata_ids()
+        plant_part_dic.update_from_sparql(plant_part_sparql)
+
+    def check_unique_wikidata_ids(self):
+        print("entries", len(self.entries))
+        self.entry_by_wikidata_id = {}
+        for entry in self.entries:
+            if WIKIDATA_ID not in entry.attrib:
+                print("No wikidata ID for", entry)
+            else:
+                wikidata_id = entry.attrib[WIKIDATA_ID]
+                if wikidata_id in self.entry_by_wikidata_id.keys():
+                    print("duplicate Wikidata ID:", wikidata_id, entry)
+                else:
+                    self.entry_by_wikidata_id[wikidata_id] = entry
+#        print("entry by id", self.entry_by_wikidata_id)
 
 class AmiDictionaries:
 
@@ -1095,6 +1203,33 @@ class AmiDictionaries:
 #        print(dictionary.get_or_create_term_set())
         return
 
+class Test:
+    def __init__(self):
+        pass
+
+    def test(self):
+        from rake_nltk import Rake
+        import RAKE
+        import operator
+        stop_dir =  "./SmartStoplist.txt"
+        with open("test/materials.txt") as f:
+            text = f.read()
+        rake_object = RAKE.Rake(stop_dir)
+        keywords = self.sort_tuple(rake_object.run(text)) # [-10:]
+        print("keywords", keywords)
+        r = Rake();
+        keywords = r.extract_keywords_from_text(text)
+        print("keywords", keywords)
+        phrases = r.get_ranked_phrases() # [0:100]
+        print("phrases", phrases)
+
+    def sort_tuple(self, tup):
+        """
+        :reverse: None sort in ascending order
+        uses second elements of sublist as sort key
+        """
+        tup.sort(key = lambda x: x[1])
+        return tup
 
 def test_profile():
     import cProfile
@@ -1109,10 +1244,19 @@ def test_profile1():
 
 
 def main():
-    ami_search = AmiSearch()
-    ami_search.run_args()
-
-
+    """ debugging """
+    option = "search" # edit this
+    option = "sparql"
+    if option == "search":
+        ami_search = AmiSearch()
+        ami_search.run_args()
+    elif option == "test":
+        test = Test()
+        test.test()
+    elif option == "sparql":
+        SearchDictionary.test()
+    else:
+        print("no option given")
 
 def create_arg_parser():
     import argparse

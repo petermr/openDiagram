@@ -258,9 +258,9 @@ class Gutil:
     def make_spinbox(master, title, min=3, max=100):
         spin_frame = tk.Frame(master=master, bg = "#444444", bd = 1,)
         spin_frame.pack(expand=True)
-        label = tk.Label(master=spin_frame, bg="#ffffdd", text=title)
+        label = tk.Label(master=spin_frame, text=title)
         label.pack(side="left")
-        spin = tk.Spinbox(spin_frame, from_=min, to=max, state="readonly", width=1)
+        spin = tk.Spinbox(spin_frame, from_=min, to=max, state="readonly", width=3)
         spin.pack(side="right")
         return spin
 
@@ -389,6 +389,8 @@ class AmiTree:
     def color_tags(self):
         self.treeview.tag_configure('xml', background='pink')
         self.treeview.tag_configure('0', background='yellow')
+        self.treeview.tag_configure('ethics', background='lightgreen')
+        self.treeview.tag_configure('conflict', background='cyan')
 
     def itemClicked(self, event):
         print("CLICKED", event, self.treeview.focus(), self.treeview.selection, dir(self.treeview.selection))
@@ -404,6 +406,10 @@ class AmiTree:
                 tag = ""
                 if filename.startswith("0"):
                     tag="0"
+                if "ethics" in filename:
+                    tag = "ethics"
+                if "conflict" in filename:
+                    tag = "conflict"
                 elif f.endswith(".xml"):
                     tag="xml"
                 child_id = tree.insert(parent_id, 'end', text=filename, tags=(tag, 'simple'))

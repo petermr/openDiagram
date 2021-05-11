@@ -102,6 +102,8 @@ class AmiPath:
         if key is None or key not in TEMPLATES:
             print("key", key)
             raise Exception("no scheme for: ", key, "expected", TEMPLATES.keys())
+#            print("******* no scheme for: ", key, "expected", TEMPLATES.keys(), "***********")
+#            return None
         ami_path = AmiPath()
         # start with default template values
         ami_path.scheme = copy.deepcopy(TEMPLATES[key])

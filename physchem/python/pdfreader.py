@@ -21,10 +21,11 @@ class PdfReader:
 
         print("FILE", file)
         with open(file, 'rb') as fh:
-            for page in PDFPage.get_pages(fh,
+            for i, page in enumerate(PDFPage.get_pages(fh,
                                           caching=True,
-                                          check_extractable=True):
+                                          check_extractable=True)):
                 page_interpreter.process_page(page)
+                print("===================",i,"=================")
 
             text = fake_file_handle.getvalue()
 

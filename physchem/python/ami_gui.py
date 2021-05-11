@@ -98,7 +98,7 @@ class AmiGui(tk.Frame):
             Gutil.CBOX_TEXT: "make sections",
             Gutil.CBOX_ON: Gutil.ONVAL,
             Gutil.CBOX_OFF: Gutil.OFFVAL,
-            Gutil.CBOX_DEFAULT: Gutil.OFFVAL,
+            Gutil.CBOX_DEFAULT: Gutil.ONVAL,  #default is ON
             Gutil.CBOX_TOOLTIP: "run ami section to create all sections ",
         }
         # make sections
@@ -128,8 +128,9 @@ class AmiGui(tk.Frame):
             dictionary_dict.keys(),
             master=master,
             button_text="select dictionaries",
-            command=lambda: self.make_dictionary_content_boxes(
-                self.dcb_frame,
+            command=lambda: self.make_dictionary_content_boxes_NEW(
+#            command=lambda: self.make_dictionary_content_boxes(
+                    self.dcb_frame,
                 dictionary_dict,
                 Gutil.get_selections_from_listbox(self.dictionary_names_listbox)
             )
@@ -223,8 +224,16 @@ class AmiGui(tk.Frame):
                                            title="pygetpapers query",
                                            tooltip="build query from dictionaries, flags and text; and RUN",
                                            )
+        self.download_save, _ = Gutil.make_frame(master,
+                                           title="project",
+#                                           tooltip="build query from dictionaries, flags and text; and RUN",
+                                           )
+        self.download_save.pack()
 
-        self.create_run_button(frame)
+        sub_frame = self.download_save;
+
+        self.create_run_button(sub_frame)
+        button = self.create_make_project_button(sub_frame)
         self.make_getpapers_args(frame)
         self.dcb_frame = self.make_dictionary_content_boxes_frame(frame)
         self.entry_text = Gutil.make_entry_box(frame, text="query")
@@ -234,11 +243,11 @@ class AmiGui(tk.Frame):
     def make_ami_search(self, master):
 
         run_ami_frame, title_var = Gutil.make_frame(master,
-                                           title="AMI (runs a demo search, not yet linked to widgets)",
+                                           title="Projects",
                                            tooltip="run ami search using dictionaries",
                                            )
 
-        run_button_var = tk.StringVar(value="RUN SEARCH")
+        run_button_var = tk.StringVar(value="SEARCH PROJECT")
         ami_button = tk.Button(run_ami_frame, textvariable=run_button_var, command=self.run_ami_search)
         ami_button.pack(side=tk.BOTTOM)
 
@@ -282,18 +291,30 @@ class AmiGui(tk.Frame):
 
     def create_run_button(self, master):
         button = tk.Button(master)
-        button[Gutil.CBOX_TEXT] = "Run"
+        button[Gutil.CBOX_TEXT] = "DOWNLOAD"
         button[Gutil.CBOX_COMMAND] = self.create_pygetpapers_query_and_run
-        button.pack(side="bottom", expand=True)
+        button.pack(side=LEFT)
         self.pygetpapers_command = tk.Entry(master, bg="#ffffdd")
-        self.pygetpapers_command.pack(side="bottom", expand=True)
+        self.pygetpapers_command.pack(side=LEFT, expand=True)
+
+    def create_make_project_button(self, master):
+        button = tk.Button(master)
+        button[Gutil.CBOX_TEXT] = "Make project"
+        button[Gutil.CBOX_COMMAND] = self.save_project
+        self.pygetpapers_command = tk.Entry(master, bg="#ffffdd")
+        self.pygetpapers_command.pack(side=tk.RIGHT, expand=True)
+        button.pack(side=tk.RIGHT)
+        button["state"] = "disabled"
+        return button
 
 
 
     def make_dictionary_content_boxes(self, master, dictionary_dict, selected_dict_names):
         self.selected_boxes = []
         for dict_name in selected_dict_names:
+            print(dictionary_dict)
             dictionary_tup = dictionary_dict[dict_name]
+            print(type(dictionary_tup), dictionary_tup)
             curbox = self.make_dictionary_content_box(master, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
             self.selected_boxes.append(curbox)
 
@@ -301,30 +322,16 @@ class AmiGui(tk.Frame):
         frame = tk.Frame(master, highlightcolor="red", highlightthickness=10)
         frame.pack()
         n = ttk.Notebook(frame)
-        """
-        f1 = ttk.Frame(n)  # first page, which would get widgets gridded into it
-        button11 = tk.Button(f1, text="button11")
-        button11.pack()
-        n.add(f1, text='One')
-        f2 = ttk.Frame(n)  # second page
-        n.add(f2, text='Two')
-        button22 = tk.Button(f2, text="button22")
-        button22.pack()
-        """
         n.pack()
 
         self.selected_boxes = []
         for dict_name in selected_dict_names:
-            dictionary_tup = dictionary_dict[dict_name]
-
+            search_dictionary = dictionary_dict[dict_name]
             f1 = tk.Frame(n, highlightcolor="blue", highlightthickness=10)
             n.add(f1, text=dict_name)
-            tup_ = dictionary_tup[0]
-            description = dictionary_tup[1]
-            curbox = self.make_dictionary_content_box(n, dict_name, tup_, desc=description)
+            description = "description??"
+            curbox = self.make_dictionary_content_box(n, dict_name, search_dictionary.file, desc=description)
             curbox.pack()
-            button22 = tk.Button(n, text="b:"+dict_name)
-            button22.pack()
 
             self.selected_boxes.append(curbox)
 
@@ -457,6 +464,7 @@ class AmiGui(tk.Frame):
         messagebox.showinfo(title="end search", message="finished search, hits: "+str(hits)+", saved: "+str(saved))
         return stderr_lines
 
+
     def create_pygetpapers_query_and_run(self):
 
         limit = self.spin.get()
@@ -489,6 +497,9 @@ class AmiGui(tk.Frame):
         if self.ami_section_dict[Gutil.CBOX_VAR].get() == Gutil.ONVAL:
             self.run_ami_sections()
 
+    def save_project(self):
+
+        pass
 
     def run_ami_sections(self):
         import subprocess
@@ -600,7 +611,7 @@ class AmiGui(tk.Frame):
 
     def make_dictionary_content_boxes_frame(self, master):
         self.dcb_frame, title_var = Gutil.make_frame(master,
-                                                     title="select entries in dictionaries",
+#                                                     title="select entries in dictionaries",
                                                      tooltip="dictionary content boxes will be added here",
                                                      )
         self.dcb_frame.pack()

@@ -10,7 +10,6 @@ from util import Util
 from lxml import etree as ET
 from collections import Counter
 import re
-import unicodedata
 import json
 from gutil import Gutil
 
@@ -52,7 +51,9 @@ WORCESTER_DIR = os.path.join(PROJECTS, "worcester")
 
 # entry
 WIKIDATA_ID = "wikidataID"
-SPARQL_NS_MAP = {'SPARQL_NS': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
+NS_MAP = {'SPQ': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
+NS_URI = "SPQ:uri"
+NS_LITERAL = "SPQ:literal"
 
 
 class AmiSearch:
@@ -147,8 +148,7 @@ class AmiSearch:
 
     def make_graph(self, counter, dict_name):
         import matplotlib as mpl
-        import matplotlib.pyplot as plt
-#        mpl.rcParams['font.family'] = 'sans-serif'
+        #        mpl.rcParams['font.family'] = 'sans-serif'
         mpl.rcParams['font.family'] = 'Helvetica'
         import matplotlib.pyplot as plt
 #        rc('font', family='Arial')
@@ -596,7 +596,6 @@ class AmiSearch:
         ami_search.run_search()
 
     def run_args(self):
-        import argparse
         import sys
         local_test = False  # interactive debug
         parser = create_arg_parser()
@@ -865,7 +864,6 @@ class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 
     """
-
     TERM = "term"
 
     def __init__(self, file, **kwargs):
@@ -874,6 +872,10 @@ class SearchDictionary:
         self.name = None
         self.entries = []
         self.entry_by_wikidata_id = {}
+        self.file = file
+        self.ignorecase = None
+        self.entries = []
+        self.term_set = set()
 
         if not os.path.exists(file):
             raise IOError("cannot find file " + str(file))
@@ -939,8 +941,10 @@ class SearchDictionary:
     def term_from_entry(self, entry):
         if SearchDictionary.TERM not in entry.attrib:
             print("missing term", ET.tostring(entry))
-        term = entry.attrib[SearchDictionary.TERM].strip()
-        return term.lower() if self.ignorecase else term
+            term = None
+        else:
+            term = entry.attrib[SearchDictionary.TERM].strip()
+        return term.lower() if term is not None and self.ignorecase else term
 
     def add_processed_term(self, term):
         if self.ignorecase:
@@ -972,67 +976,31 @@ class SearchDictionary:
     def create_entry_by_term(self):
         self.entry_by_term = {self.term_from_entry(entry) : entry  for entry in self.entries}
 
-    def update_from_sparql(self, sparql_file):
-        """ read sparql file and match Wikidata Ids and update fields """
+    def update_from_sparqlx(self, sparql_file, sparql_to_dictionary):
+        self.sparql_to_dictionary = sparql_to_dictionary
+        self.check_unique_wikidata_ids()
         self.create_sparql_result_list(sparql_file)
         self.create_sparql_result_by_wikidata_id()
         self.update_dictionary_from_sparql()
 
     def create_sparql_result_list(self, sparql_file):
+        assert(os.path.exists(sparql_file))
         self.current_sparql = ET.parse(sparql_file, parser=ET.XMLParser(encoding="utf-8"))
-        print("current sparql", self.current_sparql)
-        sparql_root = self.current_sparql.getroot()
-        sparql_head = list(sparql_root.findall('SPARQL_NS:head', SPARQL_NS_MAP))
-        if len(sparql_head) == 0:
-            print("no sparql head")
-        sparql_head = sparql_head[0]
-        sparql_results_top = list(sparql_root.findall('SPARQL_NS:results', SPARQL_NS_MAP))[0]
-        self.sparql_result_list = list(sparql_results_top.findall('SPARQL_NS:result', SPARQL_NS_MAP))
+        self.sparql_result_list = list(self.current_sparql.findall('SPQ:results/SPQ:result', NS_MAP))
+        assert(len(self.sparql_result_list) > 0)
         print("results", len(self.sparql_result_list))
 
     def create_sparql_result_by_wikidata_id(self):
         self.sparql_result_by_wikidata_id = {}
+#        print("results", len(self.sparql_result_list))
+#        id_element = "item"
+        id_element = self.sparql_to_dictionary["id_name"]
         for result in self.sparql_result_list:
-            uri = list(result.findall("SPARQL_NS:binding[@name='item']/SPARQL_NS:uri", SPARQL_NS_MAP))[0]
+            uri = list(result.findall("SPQ:binding[@name='%s']/SPQ:uri" % id_element, NS_MAP))[0]
             wikidata_id = uri.text.split("/")[-1]
-            self.sparql_result_by_wikidata_id[wikidata_id] = result
-#        print(self.sparql_result_by_wikidata_id)
-
-    def update_dictionary_from_sparql(self):
-        for wikidata_id in self.sparql_result_by_wikidata_id.keys():
-            if wikidata_id not in self.entry_by_wikidata_id.keys():
-                print("No entry in dictionary for", wikidata_id)
-            else:
-                entry = self.entry_by_wikidata_id[wikidata_id]
-#                print(wikidata_id, entry.attrib["term"])
-                """
-                <entry ...>
-                  <new_element>content<new_element>
-                  <image>http://commons.wikimedia.org/wiki/Special:FilePath/Vaccinium%20corymbosum%20a2.jpg</image>
-                """
-                result = self.sparql_result_by_wikidata_id[wikidata_id]
-                update_name = "image"
-                update_elements = \
-                    list(result.findall("SPARQL_NS:binding[@name='" + update_name + "']/SPARQL_NS:uri", SPARQL_NS_MAP))
-                if len(update_elements) == 0:
-#                    print("no update sparql")
-                    pass
-                else:
-                    entry_child = ET.Element("image")
-                    entry_child.text = update_elements[0].text
-                    entry.append(entry_child)
-#                    print("new child", ET.tostring(entry_child))
-                    print("new entry", ET.tostring(entry))
-
-
-    @classmethod
-    def test(cls):
-        PLANT = os.path.join(PHYSCHEM_RESOURCES, "plant")
-        plant_part_sparql = os.path.join(PLANT, "plant_part_sparql.xml")
-        plant_part_file = os.path.join(PLANT, "eoplant_part.xml")
-        plant_part_dic = SearchDictionary(plant_part_file)
-        plant_part_dic.check_unique_wikidata_ids()
-        plant_part_dic.update_from_sparql(plant_part_sparql)
+            if not wikidata_id in self.sparql_result_by_wikidata_id:
+                self.sparql_result_by_wikidata_id[wikidata_id] = []
+            self.sparql_result_by_wikidata_id[wikidata_id].append(result)
 
     def check_unique_wikidata_ids(self):
         print("entries", len(self.entries))
@@ -1046,7 +1014,57 @@ class SearchDictionary:
                     print("duplicate Wikidata ID:", wikidata_id, entry)
                 else:
                     self.entry_by_wikidata_id[wikidata_id] = entry
-#        print("entry by id", self.entry_by_wikidata_id)
+
+    #        print("entry by id", self.entry_by_wikidata_id)
+
+    def update_dictionary_from_sparql(self):
+
+        print("sparql result by id", len(self.sparql_result_by_wikidata_id))
+#        old_name = "image"
+#        new_name = "image"
+        old_name = self.sparql_to_dictionary["old_name"]
+        new_name = self.sparql_to_dictionary["new_name"]
+        for wikidata_id in self.sparql_result_by_wikidata_id.keys():
+            if wikidata_id in self.entry_by_wikidata_id.keys():
+                entry = self.entry_by_wikidata_id[wikidata_id]
+                result_list = self.sparql_result_by_wikidata_id[wikidata_id]
+                for result in result_list:
+                    bindings = list(result.findall("SPQ:binding[@name='" + old_name + "']", NS_MAP))
+                    if len(bindings) > 0:
+                        binding = bindings[0]
+                        self.update_entry(entry, binding, old_name, new_name)
+#                print("dict", ET.tostring(entry))
+
+    def update_entry(self, entry, binding, old_name, new_name):
+        updates = list(binding.findall(NS_URI, NS_MAP)) + \
+                  list(binding.findall(NS_LITERAL, NS_MAP))
+        entry_child = ET.Element(new_name)
+        entry_child.text = updates[0].text
+        entry.append(entry_child)
+#        print(">>", ET.tostring(entry))
+
+    def write(self, file):
+        from lxml import etree
+        et = etree.ElementTree(self.root)
+        with open(file, 'wb') as f:
+            et.write(f, encoding="utf-8", xml_declaration=True, pretty_print=True)
+
+    @classmethod
+    def test(cls):
+        PLANT = os.path.join(PHYSCHEM_RESOURCES, "plant")
+        sparql_file = os.path.join(PLANT, "plant_part_sparql.xml")
+        dictionary_file = os.path.join(PLANT, "eoplant_part.xml")
+        sparql_to_dictionary = {
+            "id_name": "item",
+            "old_name": "image",
+            "new_name": "image",
+        }
+        dictionary = SearchDictionary(dictionary_file)
+        dictionary.update_from_sparqlx(sparql_file, sparql_to_dictionary)
+        ff = sparql_file[:-(len(".xml")+1)]+"_1"+".xml"
+        print(ff)
+        dictionary.write(ff)
+
 
 class AmiDictionaries:
 
@@ -1210,7 +1228,6 @@ class Test:
     def test(self):
         from rake_nltk import Rake
         import RAKE
-        import operator
         stop_dir =  "./SmartStoplist.txt"
         with open("test/materials.txt") as f:
             text = f.read()

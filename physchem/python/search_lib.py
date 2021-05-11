@@ -1020,25 +1020,25 @@ class SearchDictionary:
     def update_dictionary_from_sparql(self):
 
         print("sparql result by id", len(self.sparql_result_by_wikidata_id))
-#        old_name = "image"
-#        new_name = "image"
-        old_name = self.sparql_to_dictionary["old_name"]
-        new_name = self.sparql_to_dictionary["new_name"]
+#        sparql_name = "image"
+#        dict_name = "image"
+        sparql_name = self.sparql_to_dictionary["sparql_name"]
+        dict_name = self.sparql_to_dictionary["dict_name"]
         for wikidata_id in self.sparql_result_by_wikidata_id.keys():
             if wikidata_id in self.entry_by_wikidata_id.keys():
                 entry = self.entry_by_wikidata_id[wikidata_id]
                 result_list = self.sparql_result_by_wikidata_id[wikidata_id]
                 for result in result_list:
-                    bindings = list(result.findall("SPQ:binding[@name='" + old_name + "']", NS_MAP))
+                    bindings = list(result.findall("SPQ:binding[@name='" + sparql_name + "']", NS_MAP))
                     if len(bindings) > 0:
                         binding = bindings[0]
-                        self.update_entry(entry, binding, old_name, new_name)
+                        self.update_entry(entry, binding, dict_name)
 #                print("dict", ET.tostring(entry))
 
-    def update_entry(self, entry, binding, old_name, new_name):
+    def update_entry(self, entry, binding, dict_name):
         updates = list(binding.findall(NS_URI, NS_MAP)) + \
                   list(binding.findall(NS_LITERAL, NS_MAP))
-        entry_child = ET.Element(new_name)
+        entry_child = ET.Element(dict_name)
         entry_child.text = updates[0].text
         entry.append(entry_child)
 #        print(">>", ET.tostring(entry))
@@ -1056,13 +1056,13 @@ class SearchDictionary:
         dictionary_file = os.path.join(PLANT, "eoplant_part.xml")
         sparql_to_dictionary = {
             "id_name": "item",
-            "old_name": "image",
-            "new_name": "image",
+            "sparql_name": "image",
+            "dict_name": "image",
         }
         dictionary = SearchDictionary(dictionary_file)
         dictionary.update_from_sparqlx(sparql_file, sparql_to_dictionary)
         ff = sparql_file[:-(len(".xml")+1)]+"_1"+".xml"
-        print(ff)
+        print("saving to", ff)
         dictionary.write(ff)
 
 

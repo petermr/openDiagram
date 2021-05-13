@@ -58,6 +58,7 @@ class AmiGui(tk.Frame):
         self.treeview = None
 
         self.pack()
+        self.current_ami_projects = AmiProjects()
         self.create_all_widgets(root)
 #        self.menu_stuff()
 
@@ -242,26 +243,58 @@ class AmiGui(tk.Frame):
 
     def make_ami_search(self, master):
 
-        run_ami_frame, title_var = Gutil.make_frame(master,
+        self.run_ami_frame, title_var = Gutil.make_frame(master,
                                            title="Projects",
                                            tooltip="run ami search using dictionaries",
                                            )
 
         run_button_var = tk.StringVar(value="SEARCH PROJECT")
-        ami_button = tk.Button(run_ami_frame, textvariable=run_button_var, command=self.run_ami_search)
+        ami_button = tk.Button(self.run_ami_frame, textvariable=run_button_var, command=self.run_ami_search)
         ami_button.pack(side=tk.BOTTOM)
 
+        new_project_button = ttk.Button(
+            self.run_ami_frame,
+            text='Add CProject',
+            command=self.add_cproject
+        )
+        new_project_button.pack(side=tk.BOTTOM, expand=True)
+        # project name
+        self.new_project_name_var = tk.StringVar()
+        self.new_project_name_entry = tk.Entry(self.run_ami_frame,
+                                          textvariable = self.new_project_name_var)
+        self.new_project_name_entry.pack(side=LEFT)
+
+        # project desc
+        self.new_project_desc_var = tk.StringVar()
+        self.new_project_desc_entry = tk.Entry(self.run_ami_frame,
+                                          textvariable = self.new_project_desc_var)
+        self.new_project_name_entry.pack(side=tk.RIGHT)
+
+        self.refresh_project_listbox(self.run_ami_frame)
+
+        return self.run_ami_frame, title_var
+
+    def refresh_project_listbox(self, run_ami_frame):
         self.project_names_listbox = self.create_generic_listbox(
-            AmiProjects().project_dict.keys(),
+            self.current_ami_projects.project_dict.keys(),
             master=run_ami_frame,
         )
         self.project_names_listbox.pack(side=BOTTOM)
 
-        return run_ami_frame, title_var
+    def add_cproject(self):
+        new_dir = self.outdir_var.get()
+        print("add CProject ", new_dir , "to project list")
+        label = self.new_project_name_var.get()
+        description = self.new_project_desc_var.get()
+        self.current_ami_projects.add_with_check(label, new_dir, description)
+        self.project_names_listbox.destroy()
+        self.refresh_project_listbox(self.run_ami_frame)
 
+        pass
 
     def run_ami_search(self):
         ami_search = AmiSearch()
+        ami_search.ami_projects = self.current_ami_projects
         ami_guix = self
         print(type(ami_search), type(ami_guix))
         ami_search.run_search_from_gui(ami_guix)
@@ -353,6 +386,7 @@ class AmiGui(tk.Frame):
             command=self.select_directory
         )
         open_button.pack(side=LEFT, expand=True)
+
         display_button = ttk.Button(
             frame,
             text='Display',

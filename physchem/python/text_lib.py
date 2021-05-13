@@ -297,17 +297,12 @@ class AmiSection:
             with open(file, "r", encoding="utf-8") as f:
                 lines = f.readlines()
             if len(lines) == 0:
-#                print("warning empty file", file)
+                print("warning empty file", file)
                 pass
-#            else:
-#                print("l", len(lines), lines[0])
             try:
                 sentences = Sentence.read_number_sentences(lines)
             except Exception as ex:
-                print(ex, file)
-#            if len(sentences) > 0:
-#                print("s", len(sentences), sentences[0])
-
+                print(ex, file, "in read numbered sentences")
 
         return sentences
 
@@ -446,10 +441,13 @@ class TextUtil:
         section = AmiSection()
         section.read_file(file)
         words = section.words
+        """
+        word_filter = WordFilter(
+            stopwords=[STOPWORDS_EN, STOPWORDS_PUB])
 
-        word_filter = WordFilter()
- #       words = word_filter.filter_words(words)
-        words = TextUtil.filter_words(section.words)
+        words = word_filter.filter_words(words)
+        """
+        words = TextUtil.filter_words(words)
         return words
 
     @staticmethod #OBSOLETE
@@ -476,11 +474,15 @@ class WordFilter:
     """ filters a list of words
     generally deletes words not satisfying a condition but this may develop
     """
-    def __init__(self):
-        self.min_length = 2
+    def __init__(self, stopword_sets=[STOPWORDS_EN, STOPWORDS_PUB],
+                 min_length=2, delete_numeric=True, delete_non_alphanum=True):
+        self.min_length = min_length
         self.use_lower_stopwords = True
-        self.stop_words_set = set(STOPWORDS_EN).union(STOPWORDS_PUB)
-        self.delete_numeric = True
+        self.stop_words_set = {}
+        for swset in stopword_sets:
+            self.stop_words_set = self.stop_words_set.union(swset)
+#            set(STOPWORDS_EN).union(STOPWORDS_PUB)
+        self.delete_numeric = delete_numeric
         self.delete_non_alphanum = True
         self.regex = None
         self.keep_regex = True

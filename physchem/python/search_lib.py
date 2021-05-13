@@ -1,53 +1,15 @@
-import os
-
 # https://stackoverflow.com/questions/19917492/how-can-i-use-a-python-script-in-the-command-line-without-cd-ing-to-its-director
 
 from file_lib import AmiPath, PROJ
-from text_lib import TextUtil, AmiSection, WordFilter
+from text_lib import TextUtil, AmiSection
 from xml_lib import XmlLib
-from util import Util
 #from xml.etree import ElementTree as ET
-from lxml import etree as ET
 from collections import Counter
 import re
 import json
 from gutil import Gutil
-
-HOME = os.path.expanduser("~")
-PYDIAG = "../../python/diagrams"
-#LIION = "../liion"
-DICT_DIR = os.path.join(HOME, "dictionary")
-PROJECTS = os.path.join(HOME, "projects")
-
-OV21_DIR = os.path.join(DICT_DIR, "openVirus20210120")
-CEV_DICT_DIR = os.path.join(DICT_DIR, "cevopen")
-PMR_DIR = os.path.join(DICT_DIR, "pmr")
-
-OPEN_DIAGRAM = os.path.join(PROJECTS, "openDiagram")
-OPEN_DIAGRAM_SEARCH = os.path.join(OPEN_DIAGRAM, "searches")
-
-PHYSCHEM = os.path.join(OPEN_DIAGRAM, "physchem")
-PHYSCHEM_RESOURCES = os.path.join(PHYSCHEM, "resources")
-PHYSCHEM_PYTHON = os.path.join(PHYSCHEM, "python")   # where code and config lives
-DIAGRAMS_DIR = os.path.join(PROJECTS, "openDiagram", "python", "diagrams")
-
-# require CEVOpen repo
-
-CEV_OPEN_DIR = os.path.join(PROJECTS, "CEVOpen")
-CEV_OPEN_DICT_DIR = os.path.join(CEV_OPEN_DIR, "dictionary")
-MINICORPORA = os.path.join(CEV_OPEN_DIR, "minicorpora")
-
-# require dictionary repo
-DICT_CEV_OPEN = os.path.join(DICT_DIR, "cevopen")
-DICT_AMI3 = os.path.join(DICT_DIR, "ami3")
-
-# require openVirus repo
-OPEN_VIRUS = os.path.join(PROJECTS, "openVirus")
-MINIPROJ = os.path.join(OPEN_VIRUS, "miniproject")
-FUNDER = os.path.join(MINIPROJ, "funder")
-
-# requires Worcester repo
-WORCESTER_DIR = os.path.join(PROJECTS, "worcester")
+from dictionary import AmiDictionaries, SearchDictionary
+from projects import AmiProjects
 
 # entry
 WIKIDATA_ID = "wikidataID"
@@ -55,22 +17,7 @@ NS_MAP = {'SPQ': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
 NS_URI = "SPQ:uri"
 NS_LITERAL = "SPQ:literal"
 
-
 class AmiSearch:
-
-    FIG_CAPTION_DEMO = "fig_caption"
-    LUKE_DEMO = "luke"
-    DIFFPROT_DEMO = "diffprot"
-    DISEASE_DEMO = "disease"
-    ETHICS_DEMO = "ethics"
-    GENUS_DEMO = "genus" # TODO
-    INVASIVE_DEMO = "invasive"
-    MATTHEW_DEMO = "matthew"
-    PLANT_DEMO = "plant"
-    WORCESTER_DEMO = "worcester"
-    WORD_DEMO = "word"
-
-    DEMOS_JSON = os.path.join(PHYSCHEM_PYTHON, "demos.json")
 
 
     def __init__(self):
@@ -113,38 +60,6 @@ class AmiSearch:
 #        self.ami_sections = AmiSections()
         self.ami_dictionaries = AmiDictionaries()
         self.ami_gui = None
-
-    @staticmethod
-    def run_demos(demos):
-        demo_dict = {
-            AmiSearch.DIFFPROT_DEMO : AmiSearch.diffprot_demo,
-            AmiSearch.DISEASE_DEMO : AmiSearch.disease_demo,
-            AmiSearch.ETHICS_DEMO : AmiSearch.ethics_demo,
-            AmiSearch.FIG_CAPTION_DEMO : AmiSearch.fig_caption_demo,
-            AmiSearch.INVASIVE_DEMO : AmiSearch.invasive_demo,
-            AmiSearch.LUKE_DEMO : AmiSearch.luke_demo,
-            AmiSearch.MATTHEW_DEMO : AmiSearch.matthew_demo,
-            AmiSearch.PLANT_DEMO : AmiSearch.plant_parts_demo,
-            AmiSearch.WORCESTER_DEMO : AmiSearch.worc_demo,
-            AmiSearch.WORD_DEMO : AmiSearch.word_demo,
-        }
-        print("RUN DEMOS:", demos)
-        if demos is None or len(demos) == 0:
-            print("no demo given, choose from ", demo_dict.keys())
-        else:
-            for demo in demos:
-                AmiSearch.run_demo(demo_dict, demo)
-        print("END DEMO")
-
-    @staticmethod
-    def run_demo(demo_dict, demo):
-        if demo in demo_dict.keys():
-            demo_dict[demo]()
-        else:
-            demo_funct = Util.find_unique_dict_entry(demo_dict, demo)
-            if demo_funct is not None:
-                print("running:", demo_funct)
-                demo_funct()
 
     def make_graph(self, counter, dict_name):
         import matplotlib as mpl
@@ -228,7 +143,7 @@ class AmiSearch:
         matches_by_multiple = self.match_multiple_words_against_dictionaries(words)
         matches_by_pattern = self.match_words_against_pattern(words)
 
-        return matches_by_amidict, matches_by_pattern
+        return matches_by_amidict, matches_by_pattern, words
 
     def match_single_words_against_dictionaries(self, words):
         matches_by_amidict = {}
@@ -253,6 +168,7 @@ class AmiSearch:
                 wid_hits = self.annotate_hits_with_wikidata(dictionary, hits)
             matches_by_multiple[dictionary.name] = wid_hits
         return matches_by_multiple
+
 
     def annotate_hits_with_wikidata(self, dictionary, hits):
         wid_hits = []
@@ -316,15 +232,17 @@ class AmiSearch:
         dictionary_counter_dict = self.create_counter_dict(self.dictionaries)
         pattern_counter_dict = self.create_counter_dict(self.patterns)
 
+        all_lower_words = []
         for index, target_file in enumerate(section_files[:self.max_files]):
 
             if index % self.debug_cnt == 0:
                 print("file", target_file)
-            matches_by_amidict, matches_by_pattern = self.search(target_file)
+            matches_by_amidict, matches_by_pattern, words = self.search(target_file)
+            all_lower_words += [w.lower() for w in words]
             self.add_matches_to_counter_dict(dictionary_counter_dict, matches_by_amidict)
             self.add_matches_to_counter_dict(pattern_counter_dict, matches_by_pattern)
 
-        return dictionary_counter_dict, pattern_counter_dict
+        return dictionary_counter_dict, pattern_counter_dict, all_lower_words
 
     def create_counter_dict(self, search_tools):
         counter_dict = {}
@@ -367,25 +285,47 @@ class AmiSearch:
             print("***** project", proj.dir)
             self.cur_proj = proj
             for section_type in self.section_types:
-                self.find_files_search_plot(proj, section_type)
+                self.glob_for_section_files(proj, section_type)
+                self.make_counter_and_plot()
+                self.extract_keywords()
 
-    def find_files_search_plot(self, proj, section_type):
+
+    def glob_for_section_files(self, proj, section_type):
         self.cur_section_type = section_type
         templates = AmiPath.create_ami_path_from_templates(section_type, {PROJ: proj.dir})
-        section_files = templates.get_globbed_files()
-        print("***** section_files", section_type, len(section_files))
-        counter_dict, pattern_dict = self.search_and_count(section_files)
-        self.plot_tool_hits(counter_dict)
-        self.plot_tool_hits(pattern_dict)
+        self.section_files = templates.get_globbed_files()
+        print("***** section_files", section_type, len(self.section_files))
 
-    def plot_tool_hits(self, tool_dict):
-        for tool in tool_dict:
-            c = tool_dict[tool]
-            min_counter = Counter({k: c for k, c in c.items() if c >= self.min_hits})
-            if self.do_plot:
-                self.make_graph(min_counter, tool)
-            print("tool:", tool, "\n", min_counter.most_common())
-            self.make_dictionary(tool, min_counter)
+
+    def make_counter_and_plot(self):
+        counter_by_tool, pattern_dict, all_words = self.search_and_count(self.section_files)
+        self.plot_tool_hits(counter_by_tool)
+        self.plot_tool_hits(pattern_dict)
+        self.analyze_all_words(all_words)
+
+    def analyze_all_words(self, all_words):
+        print(all_words)
+        counter = Counter(all_words)
+        self.plot_and_make_dictionary(counter, "ALL")
+        rake = AmiRake()
+        wordz = " ".join(all_words)
+        print(wordz)
+        rake.analyze_text_with_RAKE(wordz)
+
+    def extract_keywords(self):
+        pass
+
+    def plot_tool_hits(self, counter_by_tool):
+        for tool in counter_by_tool:
+            counter = counter_by_tool[tool]
+            self.plot_and_make_dictionary(counter, tool)
+
+    def plot_and_make_dictionary(self, counter, tool):
+        min_counter = Counter({k: c for k, c in counter.items() if c >= self.min_hits})
+        if self.do_plot:
+            self.make_graph(min_counter, tool)
+        print("tool:", tool, "\n", min_counter.most_common())
+        self.make_dictionary(tool, min_counter)
 
     def make_dictionary(self, tool, counter):
         print("MOVE make_dictionary")
@@ -408,195 +348,9 @@ class AmiSearch:
     def create_word_count_file(self, tool):
         pass
 
-
-    @staticmethod
-    def plant_parts_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-        ami_search.wikidata_label_lang = "en"
-
-        ami_search.use_sections([
-#            "method",
-            AmiSection.INTRO,
-            AmiSection.METHOD,
-#            AmiSection.TABLE,
-            #            "fig_caption"
-        ])
-        ami_search.use_dictionaries([
-            # intern dictionaries
-            AmiDictionaries.ACTIVITY,
-            AmiDictionaries.COMPOUND,
-            AmiDictionaries.INVASIVE_PLANT,
-            AmiDictionaries.PLANT,
-            AmiDictionaries.PLANT_PART,
-            AmiDictionaries.PLANT_GENUS,
-        ])
-        ami_search.use_projects([
-            AmiProjects.OIL186,
-        ])
-        ami_search.use_filters([
-            WordFilter.ORG_STOP
-        ])
-
-#        ami_search.add_regex("abb_genus", "^[A-Z]\.$")
-
-        if ami_search.do_search:
-            ami_search.run_search()
-
-#    def add_regex(self, name, regex):
-#        self.patterns.append(SearchPattern(name, SearchPattern.REGEX, regex))
-
-    @staticmethod
-    def diffprot_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.METHOD,])
-        ami_search.use_dictionaries([AmiDictionaries.PROT_STRUCT, AmiDictionaries.PROT_PRED, AmiDictionaries.CRISPR])
-        ami_search.use_projects([AmiProjects.DIFFPROT,])
-
-        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
-        ami_search.use_pattern("_ALLCAPS", "all_capz")
-        ami_search.use_pattern("_ALL", "_all")
-
-        ami_search.run_search()
-
-
-    @staticmethod
-    def ethics_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.ETHICS, ])
-        ami_search.use_dictionaries([AmiDictionaries.ETHICS, AmiDictionaries.COUNTRY, AmiDictionaries.DISEASE, ])
-        ami_search.use_projects([AmiProjects.DISEASE, ])
-        ami_search.use_filters([WordFilter.ORG_STOP])
-
-        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
-        ami_search.use_pattern("_ALLCAPS", "all_capz")
-        ami_search.use_pattern("_ALL", "_all")
-
-        ami_search.run_search()
-
-    @staticmethod
-    def fig_caption_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.FIG_CAPTION, ])
-        ami_search.use_dictionaries([])
-        ami_search.use_projects([AmiProjects.CCT, ])
-
-        ami_search.use_pattern("Fig(ure)?", "FIG")
-        ami_search.use_pattern("_ALL", "_all")
-
-        ami_search.run_search()
-
-    @staticmethod
-    def matthew_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.FIG_CAPTION, AmiSection.METHOD])
-        ami_search.use_dictionaries([AmiDictionaries.ELEMENT, AmiDictionaries.CRYSTAL, AmiDictionaries.MAGNETISM])
-        ami_search.use_projects([AmiProjects.LIION10, ])
-
-        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
-        ami_search.use_pattern("_ALLCAPS", "all_capz")
-        ami_search.use_pattern("_ALL", "_all")
-
-        ami_search.run_search()
-
-
-    @staticmethod
-    def species_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.INTRO, AmiSection.METHOD])
-        ami_search.use_dictionaries([])
-        ami_search.use_projects([AmiProjects.OIL26, ])
-
-        ami_search.use_pattern("^[A-Z][en]?\.", "SPECIES_ABB")
-        ami_search.use_pattern("_ITALICS", "_italics")
-
-        ami_search.run_search()
-
-
-    @staticmethod
-    def invasive_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.SECTIONS])
-        ami_search.use_dictionaries([AmiDictionaries.INVASIVE_PLANT])
-        ami_search.use_dictionaries([AmiDictionaries.PLANT_GENUS]) # to check it works
-        ami_search.use_projects([AmiProjects.C_INVASIVE])
-        ami_search.use_projects([AmiProjects.OIL186])
-
-        ami_search.run_search()
-
-    @staticmethod
-    def disease_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 1
-        ami_search.max_bars = 200
-
-        ami_search.use_sections([AmiSection.METHOD, AmiSection.RESULTS, AmiSection.ABSTRACT])
-        ami_search.use_dictionaries([AmiDictionaries.DISEASE, AmiDictionaries.MONOTERPENE])
-        ami_search.use_projects([AmiProjects.OIL186])
-
-        ami_search.run_search()
-
-
-    @staticmethod
-    def luke_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.METHOD, ])
-        ami_search.use_dictionaries([AmiDictionaries.ELEMENT])
-        ami_search.use_projects([AmiProjects.FFML20,])
-
-        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
-        ami_search.use_pattern("_ALLCAPS", "all_capz")
-        ami_search.use_pattern("_ALL", "_all")
-
-        ami_search.run_search()
-
-    @staticmethod
-    def worc_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.METHOD])
-        ami_search.use_dictionaries([AmiDictionaries.ELEMENT])
-        ami_search.use_dictionaries([AmiDictionaries.SOLVENT])
-        ami_search.use_dictionaries([AmiDictionaries.NMR])
-        ami_search.use_projects([AmiProjects.WORC_EXPLOSION, AmiProjects.WORC_SYNTH])
-
-        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
-        ami_search.use_pattern("_ALLCAPS", "all_capz")
-        ami_search.use_pattern("_ALL", "_all")
-
-        ami_search.run_search()
-
-    @staticmethod
-    def word_demo():
-        ami_search = AmiSearch()
-        ami_search.min_hits = 2
-
-        ami_search.use_sections([AmiSection.METHOD])
-        ami_search.use_projects([AmiProjects.WORC_EXPLOSION, AmiProjects.WORC_SYNTH])
-
-        ami_search.use_pattern("^[A-Z]{1,}[^\s]*\d{1,}$", "AB12")
-        ami_search.use_pattern("_ALLCAPS", "all_capz")
-        ami_search.use_pattern("_ALL", "_all")
-
-        ami_search.run_search()
-
     def run_args(self):
         import sys
+        from ami_demos import AmiDemos
         local_test = False  # interactive debug
         parser = create_arg_parser()
         args = parser.parse_args()
@@ -611,7 +365,7 @@ class AmiSearch:
             print(parser.print_help(sys.stderr))
         elif args.demo is not None:
             print("DEMOS")
-            AmiSearch.run_demos(args.demo)
+            AmiDemos.run_demos(args.demo)
         else:
 #            ami_search = AmiSearch()
 #            copy_args_to_ami_search(args, ami_search)
@@ -627,7 +381,7 @@ class AmiSearch:
 
     def run_search_from_gui(self, ami_gui):
         self.min_hits = 1
-        self.max_bars = 200
+        self.max_bars = 25
         self.ami_gui = ami_gui
 
         sections = Gutil.get_selections_from_listbox(ami_gui.sections_listbox)
@@ -741,76 +495,6 @@ class AmiRunner:
         print("json", data)
 
 
-"""
-class SimpleDict:
-
-    def __init__(self, file=None):
-        if file:
-            with open(file, "r", encoding="utf-8") as f:
-                self.lines = f.read().splitlines()
-        print(self.lines)
-"""
-
-class AmiProjects:
-    """project files"""
-    CCT    = "cct"
-    DIFFPROT = "diffprot"
-    DISEASE = "disease"
-    FFML = "ffml"
-    FFML20 = "ffml20"
-    LIION10 = "liion10"
-    OIL186 = "oil186"
-    OIL26 = "oil26"
-    WORC_EXPLOSION = "worc_explosion"
-    WORC_SYNTH = "worc_synth"
-
-    # minicorpora
-    C_ACTIVITY = "activity"
-    C_INVASIVE = "invasive"
-    C_PLANT_PART = "plantpart"
-    C_HYDRODISTIL = "hydrodistil"
-
-
-    def __init__(self):
-        self.create_project_dict()
-
-    def create_project_dict(self):
-        self.project_dict = {}
-        # in this repo
-        self.add_with_check(AmiProjects.LIION10, os.path.join(PHYSCHEM_RESOURCES, "liion10"), "Li-ion batteries")
-        self.add_with_check(AmiProjects.FFML20, os.path.join(DIAGRAMS_DIR, "luke", "ffml20"), "forcefields + ML")
-        self.add_with_check(AmiProjects.OIL26, os.path.join(PHYSCHEM_RESOURCES, "oil26"), "26 oil plant papers")
-        self.add_with_check(AmiProjects.CCT, os.path.join(DIAGRAMS_DIR, "satish", "cct"), "steel cooling curves"),
-        self.add_with_check(AmiProjects.DIFFPROT, os.path.join(DIAGRAMS_DIR, "rahul", "diffprotexp"),
-                            "differential protein expression")
-        # foreign resources
-        self.add_with_check(AmiProjects.DISEASE, os.path.join(MINIPROJ, "disease", "1-part"), "disease papers")
-        self.add_with_check(AmiProjects.OIL186, os.path.join(PROJECTS, "CEVOpen/searches/oil186"), "186 oil plant papers")
-        self.add_with_check(AmiProjects.WORC_SYNTH, os.path.join(PROJECTS, "worcester", "synthesis"), "chemical syntheses")
-        self.add_with_check(AmiProjects.WORC_EXPLOSION, os.path.join(PROJECTS, "worcester", "explosion"), "explosion hazards")
-
-        # minicorpora
-        self.add_with_check(AmiProjects.C_ACTIVITY, os.path.join(MINICORPORA, "activity"), "biomedical activities")
-        self.add_with_check(AmiProjects.C_HYDRODISTIL, os.path.join(MINICORPORA, "hydrodistil"), "hydrodistillation")
-        self.add_with_check(AmiProjects.C_INVASIVE, os.path.join(MINICORPORA, "invasive"), "invasive plants")
-        self.add_with_check(AmiProjects.C_PLANT_PART, os.path.join(MINICORPORA, "plantpart"), "plant parts")
-
-
-    def add_with_check(self, key, file, desc=None):
-        """checks for existence and adds filename to project_dict
-        key: unique name for ami_dict , default ami_dict in AmiProjects"""
-        if not os.path.isdir(file):
-            print("project files not available for ", file)
-            return
-        Util.check_exists(file)
-        if key in self.project_dict:
-            raise Exception (str(key) + " already exists in project_dict,  must be unique")
-        self.project_dict[key] = AmiProject(file, desc)
-
-class AmiProject:
-    def __init__(self, dir, desc=None):
-        self.dir = dir
-        self.description = desc
 
 class SearchPattern:
 
@@ -860,388 +544,31 @@ class SearchPattern:
 
         return matched_words
 
-class SearchDictionary:
-    """wrapper for an ami dictionary including search flags
-
-    """
-    TERM = "term"
-
-    def __init__(self, file, **kwargs):
-        self.amidict = None
-        self.root = None
-        self.name = None
-        self.entries = []
-        self.entry_by_wikidata_id = {}
-        self.file = file
-        self.ignorecase = None
-        self.entries = []
-        self.term_set = set()
-
-        if not os.path.exists(file):
-            raise IOError("cannot find file " + str(file))
-        self.read_dictionary(file)
-        self.name = file.split("/")[-1:][0].split(".")[0]
-        self.options = {} if not "options" in kwargs else kwargs["options"]
-        if "synonyms" in self.options:
-            print("use synonyms")
-        if "noignorecase" in self.options:
-            print("use case")
-        self.split_terms = True
-
-    def read_dictionary(self, file, ignorecase=True):
-        self.file = file
-        self.amidict = ET.parse(file, parser=ET.XMLParser(encoding="utf-8"))
-        self.root = self.amidict.getroot()
-        self.name = self.root.attrib["title"]
-        self.ignorecase = ignorecase
-
-        self.entries = list(self.root.findall("entry"))
-        self.create_entry_by_term();
-        self.term_set = set()
-#        print("read dictionary", self.name, "with", len(self.entries), "entries")
-
-    def get_or_create_term_set(self):
-        if len(self.term_set) == 0:
-            for entry in self.entries:
-                if SearchDictionary.TERM in entry.attrib:
-                    term = self.term_from_entry(entry)
-#                    print("tterm", term)
-                    # single word terms
-                    if not " " in term:
-                        self.add_processed_term(term)
-                    elif self.split_terms:
-                        # multiword terms
-                        for termx in term.split(" "):
-#                            print("term", termx)
-                            self.add_processed_term(termx)
-
-        #            print(len(self.term_set), list(sorted(self.term_set)))
-        #        print ("terms", len(self.term_set))
-        return self.term_set
-
-    def get_or_create_multiword_terms(self):
-        return
-        """NYI"""
-        if len(self.multiwords) == 0:
-            for entry in self.entries:
-                if SearchDictionary.TERM in entry.attrib:
-                    term = self.term_from_entry(entry)
-                    # single word terms
-                    if not " " in term:
-                        self.add_processed_term(term)
-                    elif self.split_terms:
-                        # multiword terms
-                        for term in " ".split(term):
-                            self.add_processed_term(term)
-
-        #            print(len(self.term_set), list(sorted(self.term_set)))
-        #        print ("terms", len(self.term_set))
-        return self.term_set
-
-    def term_from_entry(self, entry):
-        if SearchDictionary.TERM not in entry.attrib:
-            print("missing term", ET.tostring(entry))
-            term = None
-        else:
-            term = entry.attrib[SearchDictionary.TERM].strip()
-        return term.lower() if term is not None and self.ignorecase else term
-
-    def add_processed_term(self, term):
-        if self.ignorecase:
-            term = term.lower()
-        self.term_set.add(term)  # single word countries
-
-    def match(self, target_words):
-        matched = []
-        self.term_set = self.get_or_create_term_set()
-        for target_word in target_words:
-            target_word = target_word.lower()
-            if target_word in self.term_set:
-                matched.append(target_word)
-        return matched
-
-    def match_multiple(self, target_words):
-        """this will be slow with large dictionaries until we optimise the algorithm """
-        matched = []
-        self.get_or_create_multiword_terms()
-        for target_word in target_words:
-            target_word = target_word.lower()
-            if target_word in self.term_set:
-                matched.append(target_word)
-        return matched
-
-    def get_entry(self, term):
-        return self.entry_by_term[term] if term in self.entry_by_term else None
-
-    def create_entry_by_term(self):
-        self.entry_by_term = {self.term_from_entry(entry) : entry  for entry in self.entries}
-
-    def update_from_sparqlx(self, sparql_file, sparql_to_dictionary):
-        self.sparql_to_dictionary = sparql_to_dictionary
-        self.check_unique_wikidata_ids()
-        self.create_sparql_result_list(sparql_file)
-        self.create_sparql_result_by_wikidata_id()
-        self.update_dictionary_from_sparql()
-
-    def create_sparql_result_list(self, sparql_file):
-        assert(os.path.exists(sparql_file))
-        self.current_sparql = ET.parse(sparql_file, parser=ET.XMLParser(encoding="utf-8"))
-        self.sparql_result_list = list(self.current_sparql.findall('SPQ:results/SPQ:result', NS_MAP))
-        assert(len(self.sparql_result_list) > 0)
-        print("results", len(self.sparql_result_list))
-
-    def create_sparql_result_by_wikidata_id(self):
-        self.sparql_result_by_wikidata_id = {}
-#        print("results", len(self.sparql_result_list))
-#        id_element = "item"
-        id_element = self.sparql_to_dictionary["id_name"]
-        for result in self.sparql_result_list:
-            uri = list(result.findall("SPQ:binding[@name='%s']/SPQ:uri" % id_element, NS_MAP))[0]
-            wikidata_id = uri.text.split("/")[-1]
-            if not wikidata_id in self.sparql_result_by_wikidata_id:
-                self.sparql_result_by_wikidata_id[wikidata_id] = []
-            self.sparql_result_by_wikidata_id[wikidata_id].append(result)
-
-    def check_unique_wikidata_ids(self):
-        print("entries", len(self.entries))
-        self.entry_by_wikidata_id = {}
-        for entry in self.entries:
-            if WIKIDATA_ID not in entry.attrib:
-                print("No wikidata ID for", entry)
-            else:
-                wikidata_id = entry.attrib[WIKIDATA_ID]
-                if wikidata_id in self.entry_by_wikidata_id.keys():
-                    print("duplicate Wikidata ID:", wikidata_id, entry)
-                else:
-                    self.entry_by_wikidata_id[wikidata_id] = entry
-
-    #        print("entry by id", self.entry_by_wikidata_id)
-
-    def update_dictionary_from_sparql(self):
-
-        print("sparql result by id", len(self.sparql_result_by_wikidata_id))
-#        sparql_name = "image"
-#        dict_name = "image"
-        sparql_name = self.sparql_to_dictionary["sparql_name"]
-        dict_name = self.sparql_to_dictionary["dict_name"]
-        for wikidata_id in self.sparql_result_by_wikidata_id.keys():
-            if wikidata_id in self.entry_by_wikidata_id.keys():
-                entry = self.entry_by_wikidata_id[wikidata_id]
-                result_list = self.sparql_result_by_wikidata_id[wikidata_id]
-                for result in result_list:
-                    bindings = list(result.findall("SPQ:binding[@name='" + sparql_name + "']", NS_MAP))
-                    if len(bindings) > 0:
-                        binding = bindings[0]
-                        self.update_entry(entry, binding, dict_name)
-#                print("dict", ET.tostring(entry))
-
-    def update_entry(self, entry, binding, dict_name):
-        updates = list(binding.findall(NS_URI, NS_MAP)) + \
-                  list(binding.findall(NS_LITERAL, NS_MAP))
-        entry_child = ET.Element(dict_name)
-        entry_child.text = updates[0].text
-        entry.append(entry_child)
-#        print(">>", ET.tostring(entry))
-
-    def write(self, file):
-        from lxml import etree
-        et = etree.ElementTree(self.root)
-        with open(file, 'wb') as f:
-            et.write(f, encoding="utf-8", xml_declaration=True, pretty_print=True)
-
-    @classmethod
-    def test(cls):
-        PLANT = os.path.join(PHYSCHEM_RESOURCES, "plant")
-        sparql_file = os.path.join(PLANT, "plant_part_sparql.xml")
-        dictionary_file = os.path.join(PLANT, "eoplant_part.xml")
-        sparql_to_dictionary = {
-            "id_name": "item",
-            "sparql_name": "image",
-            "dict_name": "image",
-        }
-        dictionary = SearchDictionary(dictionary_file)
-        dictionary.update_from_sparqlx(sparql_file, sparql_to_dictionary)
-        ff = sparql_file[:-(len(".xml")+1)]+"_1"+".xml"
-        print("saving to", ff)
-        dictionary.write(ff)
-
-
-class AmiDictionaries:
-
-    ACTIVITY = "activity"
-    COMPOUND = "compound"
-    COUNTRY = "country"
-    DISEASE = "disease"
-    ELEMENT = "elements"
-    INVASIVE_PLANT = "invasive_plant"
-    PLANT_GENUS = "plant_genus"
-    ORGANIZATION = "organization"
-    PLANT_COMPOUND = "plant_compound"
-    PLANT = "plant"
-    PLANT_PART = "plant_part"
-    SOLVENT = "solvents"
-
-    ANIMAL_TEST = "animaltest"
-    COCHRANE = "cochrane"
-    COMP_CHEM = "compchem"
-    CRISPR = "crispr"
-    CRYSTAL = "crystal"
-    DISTRIBUTION = "distributions"
-    DITERPENE = "diterpene"
-    DRUG = "drugs"
-    EDGE_MAMMAL = "edgemammals"
-    CHEM_ELEMENT = "elements"
-    EPIDEMIC = "epidemic"
-    ETHICS = "ethics"
-    EUROFUNDER = "eurofunders"
-    ILLEGAL_DRUG = "illegaldrugs"
-    INN = "inn"
-    INSECTICIDE = "insecticide"
-    MAGNETISM = "magnetism"
-    MONOTERPENE = "monoterpene"
-    NAL = "nal"
-    NMR = "nmrspectroscopy"
-    OBESITY = "obesity"
-    OPTOGENETICS = "optogenetics"
-    PECTIN = "pectin"
-    PHOTOSYNTH = "photosynth"
-    PLANT_DEV = "plantDevelopment"
-    POVERTY = "poverty"
-    PROT_STRUCT = "proteinstruct"
-    PROT_PRED = "protpredict"
-    REFUGEE = "refugeeUNHCR"
-    SESQUITERPENE = "sesquiterpene"
-    SOLVENT = "solvents"
-    STATISTICS = "statistics"
-    TROPICAL_VIRUS = "tropicalVirus"
-    WETLANDS = "wetlands"
-    WILDLIFE = "wildlife"
-
-    def __init__(self):
-        self.create_search_dictionary_dict()
-
-    def create_search_dictionary_dict(self):
-        self.dictionary_dict = {}
-
-#        / Users / pm286 / projects / CEVOpen / dictionary / eoActivity / eo_activity / Activity.xml
-        self.add_with_check(AmiDictionaries.ACTIVITY,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoActivity", "eo_activity", "activity.xml"))
-        self.add_with_check(AmiDictionaries.COUNTRY,
-                            os.path.join(OV21_DIR, "country", "country.xml"))
-        self.add_with_check(AmiDictionaries.DISEASE,
-                            os.path.join(OV21_DIR, "disease", "disease.xml"))
-        self.add_with_check(AmiDictionaries.COMPOUND,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
-        self.add_with_check(AmiDictionaries.PLANT,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlant", "plant.xml"))
-        self.add_with_check(AmiDictionaries.PLANT_GENUS,
-                            os.path.join(CEV_OPEN_DICT_DIR, "plant_genus", "plant_genus.xml"))
-        self.add_with_check(AmiDictionaries.ORGANIZATION,
-                            os.path.join(OV21_DIR, "organization", "organization.xml"))
-        self.add_with_check(AmiDictionaries.PLANT_COMPOUND,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoCompound", "plant_compound.xml"))
-        self.add_with_check(AmiDictionaries.PLANT_PART,
-                            os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))
-        self.add_with_check(AmiDictionaries.INVASIVE_PLANT,
-                            os.path.join(CEV_OPEN_DICT_DIR, "Invasive_species", "invasive_plant.xml"))
-
-        self.make_ami3_dictionaries()
-
-# tests - will remove as soon as I have learnt how to do tests
-        fail_test = False
-        if fail_test:
-            self.add_with_check("junk", "none") # should throw missing file
-            self.add_with_check(AmiDictionaries.PLANT_PART,
-                    os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart", "eoplant_part.xml"))  # should throw duplicate key
-
-#        self.print_dicts()
-        return self.dictionary_dict
-
-    def print_dicts(self):
-        print("DICTIONARIES LOADED")
-        dd = dir(self)
-        for d in dd:
-            if d[0].isupper():
-                print(">>", d)
-
-    def make_ami3_dictionaries(self):
-
-        self.ami3_dict_index = {
-            AmiDictionaries.ANIMAL_TEST : os.path.join(DICT_AMI3, "animaltest.xml"),
-            AmiDictionaries.COCHRANE : os.path.join(DICT_AMI3, "cochrane.xml"),
-            AmiDictionaries.COMP_CHEM : os.path.join(DICT_AMI3, "compchem.xml"),
-            AmiDictionaries.CRISPR : os.path.join(DICT_AMI3, "crispr.xml"),
-            AmiDictionaries.CRYSTAL : os.path.join(DICT_AMI3, "crystal.xml"),
-            AmiDictionaries.DISTRIBUTION : os.path.join(DICT_AMI3, "distributions.xml"),
-            AmiDictionaries.DITERPENE : os.path.join(DICT_AMI3, "diterpene.xml"),
-            AmiDictionaries.DRUG : os.path.join(DICT_AMI3, "drugs.xml"),
-            AmiDictionaries.EDGE_MAMMAL : os.path.join(DICT_AMI3, "edgemammals.xml"),
-            AmiDictionaries.ETHICS : os.path.join(DICT_AMI3, "ethics.xml"),
-            AmiDictionaries.CHEM_ELEMENT : os.path.join(DICT_AMI3, "elements.xml"),
-            AmiDictionaries.EPIDEMIC : os.path.join(DICT_AMI3, "epidemic.xml"),
-            AmiDictionaries.EUROFUNDER: os.path.join(DICT_AMI3, "eurofunders.xml"),
-            AmiDictionaries.ILLEGAL_DRUG : os.path.join(DICT_AMI3, "illegaldrugs.xml"),
-            AmiDictionaries.INN : os.path.join(DICT_AMI3, "inn.xml"),
-            AmiDictionaries.INSECTICIDE : os.path.join(DICT_AMI3, "insecticide.xml"),
-            AmiDictionaries.MAGNETISM : os.path.join(DICT_AMI3, "magnetism.xml"),
-            AmiDictionaries.MONOTERPENE : os.path.join(DICT_AMI3, "monoterpene.xml"),
-            AmiDictionaries.NAL : os.path.join(DICT_AMI3, "nal.xml"),
-            AmiDictionaries.NMR : os.path.join(DICT_AMI3, "nmrspectroscopy.xml"),
-            AmiDictionaries.OBESITY : os.path.join(DICT_AMI3, "obesity.xml"),
-            AmiDictionaries.OPTOGENETICS : os.path.join(DICT_AMI3, "optogenetics.xml"),
-            AmiDictionaries.PECTIN : os.path.join(DICT_AMI3, "pectin.xml"),
-            AmiDictionaries.PHOTOSYNTH : os.path.join(DICT_AMI3, "photosynth.xml"),
-            AmiDictionaries.PLANT_DEV : os.path.join(DICT_AMI3, "plantDevelopment.xml"),
-            AmiDictionaries.POVERTY : os.path.join(DICT_AMI3, "poverty.xml"),
-            AmiDictionaries.PROT_STRUCT : os.path.join(DICT_AMI3, "proteinstruct.xml"),
-            AmiDictionaries.PROT_PRED : os.path.join(DICT_AMI3, "protpredict.xml"),
-            AmiDictionaries.REFUGEE : os.path.join(DICT_AMI3, "refugeeUNHCR.xml"),
-            AmiDictionaries.SESQUITERPENE : os.path.join(DICT_AMI3, "sesquiterpene.xml"),
-            AmiDictionaries.SOLVENT : os.path.join(DICT_AMI3, "solvents.xml"),
-            AmiDictionaries.STATISTICS : os.path.join(DICT_AMI3, "statistics.xml"),
-            AmiDictionaries.TROPICAL_VIRUS : os.path.join(DICT_AMI3, "tropicalVirus.xml"),
-            AmiDictionaries.WETLANDS : os.path.join(DICT_AMI3, "wetlands.xml"),
-            AmiDictionaries.WILDLIFE : os.path.join(DICT_AMI3, "wildlife.xml"),
-        }
-
-        for item in self.ami3_dict_index.items():
-            self.add_with_check(item[0], item[1])
-
-
-    def add_with_check(self, key, file):
-#        print("adding dictionary", file)
-        if key in self.dictionary_dict:
-            raise Exception("duplicate dictionary key " + key + " in "+ str(self.dictionary_dict))
-        Util.check_exists(file)
-        try:
-            dictionary = SearchDictionary(file)
-            self.dictionary_dict[key] = dictionary
-        except Exception as ex:
-            print("Failed to read dictionary", file, ex)
-#        print(dictionary.get_or_create_term_set())
-        return
-
-class Test:
+class AmiRake:
     def __init__(self):
         pass
 
     def test(self):
-        from rake_nltk import Rake
-        import RAKE
-        stop_dir =  "./SmartStoplist.txt"
         with open("test/materials.txt") as f:
             text = f.read()
+        self.analyze_text_with_RAKE(text)
+
+    def analyze_text_with_RAKE(self, text):
+        from rake_nltk import Rake
+        import RAKE
+
+        stop_dir =  "./SmartStoplist.txt"
         rake_object = RAKE.Rake(stop_dir)
-        keywords = self.sort_tuple(rake_object.run(text)) # [-10:]
+        keywords = self.sort_tuple(rake_object.run(text))  # [-10:]
         print("keywords", keywords)
-        r = Rake();
-        keywords = r.extract_keywords_from_text(text)
+        rake = Rake()
+        keywords = rake.extract_keywords_from_text(text)
         print("keywords", keywords)
-        phrases = r.get_ranked_phrases() # [0:100]
+        phrases = rake.get_ranked_phrases()  # [0:100]
         print("phrases", phrases)
 
     def sort_tuple(self, tup):
-        """
+        """ sort
         :reverse: None sort in ascending order
         uses second elements of sublist as sort key
         """
@@ -1263,12 +590,17 @@ def test_profile1():
 def main():
     """ debugging """
     option = "search" # edit this
-    option = "sparql"
-    if option == "search":
+#    option = "sparql"
+    option = "rake"
+    if 1 == 2:
+        pass
+    elif option == "rake":
+        AmiRake().test()
+    elif option == "search":
         ami_search = AmiSearch()
         ami_search.run_args()
     elif option == "test":
-        test = Test()
+        test = AmiRake()
         test.test()
     elif option == "sparql":
         SearchDictionary.test()

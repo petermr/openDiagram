@@ -1,6 +1,6 @@
 # https://stackoverflow.com/questions/19917492/how-can-i-use-a-python-script-in-the-command-line-without-cd-ing-to-its-director
 
-from file_lib import AmiPath, PROJ
+from file_lib import AmiPath, PROJ, FileLib
 from text_lib import TextUtil, AmiSection
 from xml_lib import XmlLib
 #from xml.etree import ElementTree as ET
@@ -549,7 +549,8 @@ class AmiRake:
         pass
 
     def test(self):
-        with open("test/materials.txt") as f:
+        from file_lib import FileLib
+        with open(FileLib.create_absolute_name("test/materials.txt")) as f:
             text = f.read()
         self.analyze_text_with_RAKE(text)
 
@@ -557,7 +558,7 @@ class AmiRake:
         from rake_nltk import Rake
         import RAKE
 
-        stop_dir =  "./SmartStoplist.txt"
+        stop_dir =  FileLib.create_absolute_name("SmartStoplist.txt")
         rake_object = RAKE.Rake(stop_dir)
         keywords = self.sort_tuple(rake_object.run(text))  # [-10:]
         print("keywords", keywords)

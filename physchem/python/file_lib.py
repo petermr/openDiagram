@@ -210,11 +210,17 @@ class FileLib:
         if not os.path.exists(outdir):
             os.mkdir(outdir)
 
+    @staticmethod
+    def create_absolute_name(file):
+        file_dir = pathlib.PurePath(__file__).parent
+        absolute_file = os.path.join(os.path.join(file_dir, file))
+        return absolute_file
+
 SECTION_TEMPLATES_JSON = 'section_templates.json'
-file_dir = pathlib.PurePath(__file__).parent
-templates_json = os.path.join(os.path.join(file_dir, SECTION_TEMPLATES_JSON))
+templates_json = FileLib.create_absolute_name(SECTION_TEMPLATES_JSON)
 with open(templates_json, 'r') as json_file:
     TEMPLATES = json.load(json_file)
+
 
 def main():
     print("started file_lib")

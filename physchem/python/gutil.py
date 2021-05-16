@@ -139,7 +139,6 @@ class Gutil:
 
     @staticmethod
     def make_checkbox_from_dict(master, dikt, **kwargs):
-        print("dikt", dikt)
         onval = dikt[Gutil.CBOX_ON]
         side = kwargs["side"] if "side" in kwargs else None
         dikt[Gutil.CBOX_BOX], dikt[Gutil.CBOX_VAR] = \

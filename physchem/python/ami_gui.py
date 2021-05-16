@@ -74,6 +74,7 @@ class AmiGui(tk.Frame):
         self.create_dashboard(master)
 
     def create_display_frame(self, master):
+        from file_lib import FileLib
 
         self.main_display_frame = tk.Frame(master)
         self.main_display_frame.pack(side=tk.RIGHT)
@@ -87,15 +88,15 @@ class AmiGui(tk.Frame):
         self.label_display = tk.Label(self.main_display_frame, textvariable=self.label_display_var)
 #        self.label_display.pack(side=tk.TOP)
 
-        image_path = "/Users/pm286/projects/openDiagram/physchem/python/test/purple_ocimum_basilicum.png"
+        image_path = FileLib.create_absolute_name("test/purple_ocimum_basilicum.png")
         self.main_image_display = self.create_image_label(image_path)
         self.main_image_display.pack()
 
         self.html_frame = self.create_html_view(self.main_display_frame,
-                              "file:///Users/pm286/projects/openDiagram/physchem/python/test/index.html")
+                              "file://"+FileLib.create_absolute_name("test/index.html"))
         self.html_frame.pack()
 
-        file = "/Users/pm286/projects/openDiagram/python/diagrams/luke/papers20210121/physrevb.94.125203_1_/fulltext.pdf"
+        file = FileLib.create_absolute_name("diagrams/luke/papers20210121/physrevb.94.125203_1_/fulltext.pdf")
         if False:
             self.open_pdf(file, self.main_text_display, page_num=0)
 

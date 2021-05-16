@@ -435,7 +435,7 @@ class TextUtil:
 
     @staticmethod
     # move to AmiSection
-    def get_words_in_section(file):
+    def get_words_in_section(file, filter=True):
 #        document = Document(file)  # level of tree
 #        words = document.words
         section = AmiSection()
@@ -447,7 +447,10 @@ class TextUtil:
 
         words = word_filter.filter_words(words)
         """
-        words = TextUtil.filter_words(words)
+#TODO
+        if filter:
+            words = TextUtil.filter_words(words)
+
         return words
 
     @staticmethod #OBSOLETE
@@ -476,6 +479,7 @@ class WordFilter:
     """
     def __init__(self, stopword_sets=[STOPWORDS_EN, STOPWORDS_PUB],
                  min_length=2, delete_numeric=True, delete_non_alphanum=True):
+
         self.min_length = min_length
         self.use_lower_stopwords = True
         self.stop_words_set = {}
@@ -487,6 +491,17 @@ class WordFilter:
         self.regex = None
         self.keep_regex = True
         self.split_spaces = False
+
+    def show_params(self):
+        print("min length", self.min_length,
+            "use lower", self.use_lower_stopwords,
+            "sop wrds set", self.stop_words_set,
+            "delete numeric", self.delete_numeric,
+            "delete nonalpha", self.delete_non_alphanum,
+            "regex", self.regex,
+            "keep regex",self.keep_regex,
+            "split spaces", self.split_spaces
+              )
 
     def filter_words(self, words):
         words = self.delete_short_words(words, self.min_length)

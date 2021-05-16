@@ -61,7 +61,9 @@ class AmiSearch:
         self.ami_dictionaries = AmiDictionaries()
         self.ami_gui = None
 
-    def make_graph(self, counter, dict_name):
+        self.filter = True
+
+    def make_plot(self, counter, dict_name):
         import matplotlib as mpl
         #        mpl.rcParams['font.family'] = 'sans-serif'
         mpl.rcParams['font.family'] = 'Helvetica'
@@ -136,8 +138,8 @@ class AmiSearch:
             raise Exception("unknown name: " +  name + " in " + str(dikt.keys()))
         dict_list.append(dikt[name])
 
-    def search(self, file):
-        words = TextUtil.get_words_in_section(file)
+    def search(self, file, filter=filter):
+        words = TextUtil.get_words_in_section(file, filter=filter)
 #        print("words", len(words))
         matches_by_amidict = self.match_single_words_against_dictionaries(words)
         matches_by_multiple = self.match_multiple_words_against_dictionaries(words)
@@ -298,9 +300,10 @@ class AmiSearch:
 
 
     def make_counter_and_plot(self):
-        counter_by_tool, pattern_dict, all_words = self.search_and_count(self.section_files)
+        counter_by_tool, pattern_dict, _ = self.search_and_count(self.section_files)
         self.plot_tool_hits(counter_by_tool)
         self.plot_tool_hits(pattern_dict)
+        counter_by_tool, pattern_dict, all_words = self.search_and_count(self.section_files)
         self.analyze_all_words(all_words)
 
     def analyze_all_words(self, all_words):
@@ -323,17 +326,19 @@ class AmiSearch:
     def plot_and_make_dictionary(self, counter, tool):
         min_counter = Counter({k: c for k, c in counter.items() if c >= self.min_hits})
         if self.do_plot:
-            self.make_graph(min_counter, tool)
+            self.make_plot(min_counter, tool)
         print("tool:", tool, "\n", min_counter.most_common())
         self.make_dictionary(tool, min_counter)
 
     def make_dictionary(self, tool, counter):
         print("MOVE make_dictionary")
-        print("<dictionary title='"+tool+"'>")
-        for k, v in counter.items():
-            if v > self.min_hits:
-                print("  <entry term=`"+k.lower()+"'/>")
-        print("</dictionary>")
+        make_dictionary = False
+        if make_dictionary:
+            print("<dictionary title='"+tool+"'>")
+            for k, v in counter.items():
+                if v > self.min_hits:
+                    print("  <entry term=`"+k.lower()+"'/>")
+            print("</dictionary>")
 
         outfile = self.create_word_count_file(tool)
         """ TODO
@@ -561,12 +566,14 @@ class AmiRake:
         stop_dir =  FileLib.create_absolute_name("SmartStoplist.txt")
         rake_object = RAKE.Rake(stop_dir)
         keywords = self.sort_tuple(rake_object.run(text))  # [-10:]
-        print("keywords", keywords)
+        keywords.reverse()
+        print("keywords1", keywords)
         rake = Rake()
         keywords = rake.extract_keywords_from_text(text)
         print("keywords", keywords)
         phrases = rake.get_ranked_phrases()  # [0:100]
-        print("phrases", phrases)
+        phrases = [p for p in phrases if len(p.split(" ")) in range(2,4)]
+        print("phrases", "\n".join(phrases))
 
     def sort_tuple(self, tup):
         """ sort

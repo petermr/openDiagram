@@ -3,6 +3,7 @@ import tkinter.ttk as ttk
 import subprocess
 from tkinter import messagebox
 from tkinter import scrolledtext
+from PIL import ImageTk, Image
 import os
 from xml.etree import ElementTree as ET
 from tkinter import Frame
@@ -17,6 +18,8 @@ from search_lib import AmiSection
 from search_lib import AmiDictionaries
 from search_lib import AmiProjects
 
+from urllib.request import urlopen
+import tkinterhtml as th
 
 PYGETPAPERS = "pygetpapers"
 
@@ -29,6 +32,7 @@ PDF_FLAG = "pdf"
 CSV_FLAG = "csv"
 SUPP_FLAG = "supp"
 HTML_FLAG = "html"
+PDFBOX_FLAG = "pdfbox"
 
 TOTAL_HITS_ARE = "Total Hits are"
 WROTE_XML = "Wrote xml"
@@ -56,6 +60,8 @@ class AmiGui(tk.Frame):
         self.current_project = None
         self.ami_tree = None
         self.treeview = None
+        self.main_display_frame = None
+        self.dashboard = None
 
         self.pack()
         self.current_ami_projects = AmiProjects()
@@ -64,11 +70,66 @@ class AmiGui(tk.Frame):
 
 
     def create_all_widgets(self, master):
+        self.create_display_frame(master)
+        self.create_dashboard(master)
 
-        self.make_ami_widgets(master)
-        self.make_sections(master)
-        self.make_ami_search(master)
-        self.make_quit(master)
+    def create_display_frame(self, master):
+
+        self.main_display_frame = tk.Frame(master)
+        self.main_display_frame.pack(side=tk.RIGHT)
+
+        self.main_text_display = scrolledtext.ScrolledText(
+            self.main_display_frame, font=("Arial, 18"), width=60, height=10)
+        self.main_text_display.insert(tk.END, "text_display")
+        self.main_text_display.pack(side=tk.BOTTOM, expand=True)
+
+        self.label_display_var = tk.StringVar(value="label text")
+        self.label_display = tk.Label(self.main_display_frame, textvariable=self.label_display_var)
+#        self.label_display.pack(side=tk.TOP)
+
+        image_path = "/Users/pm286/projects/openDiagram/physchem/python/test/purple_ocimum_basilicum.png"
+        self.main_image_display = self.create_image_label(image_path)
+        self.main_image_display.pack()
+
+        self.html_frame = self.create_html_view(self.main_display_frame,
+                              "file:///Users/pm286/projects/openDiagram/physchem/python/test/index.html")
+        self.html_frame.pack()
+
+        file = "/Users/pm286/projects/openDiagram/python/diagrams/luke/papers20210121/physrevb.94.125203_1_/fulltext.pdf"
+        if False:
+            self.open_pdf(file, self.main_text_display, page_num=0)
+
+    def open_pdf(self, file, text, page_num=0):
+        import PyPDF2
+        pdf_file = PyPDF2.PdfFileReader(file)
+        page = pdf_file.getPage(page_num)
+        content = page.extractText()
+        text.insert(1.0, content)
+
+    def create_html_view(self, frame, htmlfile):
+        a = urlopen(htmlfile)
+        bytez = a.read()
+        content = bytez.decode()
+        html = th.HtmlFrame(frame)
+#        html.configure(font=("Arial", 20))
+        print(content)
+        html.set_content(content)
+        return html
+
+    def create_image_label(self, image_path):
+        img = ImageTk.PhotoImage(Image.open(image_path))
+        label = ttk.Label(self.main_display_frame)
+        label.configure(image=img)
+        label.image = img # needed to avoid garbage collectiom
+        return label
+
+    def create_dashboard(self, master):
+        self.dashboard = tk.Frame(master)
+        self.dashboard.pack(side=tk.LEFT)
+        self.make_ami_widgets(self.dashboard)
+        self.make_section_frame(self.dashboard)
+        self.make_ami_search(self.dashboard)
+        self.make_quit(self.dashboard)
 
     def make_ami_widgets(self, master):
         pg_frame = tk.Frame(master, highlightbackground="gray",
@@ -80,7 +141,7 @@ class AmiGui(tk.Frame):
         self.make_pygetpapers_query_frame(pg_frame, tk.TOP)
         return pg_frame
 
-    def make_sections(self, master):
+    def make_section_frame(self, master):
         section_frame = tk.Frame(master, highlightbackground="gray",
                                  highlightthickness=2, border=2)
         section_frame.pack()
@@ -106,6 +167,19 @@ class AmiGui(tk.Frame):
 
         Gutil.make_checkbox_from_dict(section_frame, self.ami_section_dict)
 
+        self.pdfbox_box = None
+        self.pdfbox_var = None
+        self.ami_pdfbox_dict = {
+            Gutil.CBOX_BOX: self.pdfbox_box,
+            Gutil.CBOX_VAR: self.pdfbox_var,
+            Gutil.CBOX_TEXT: "run pdfbox",
+            Gutil.CBOX_ON: Gutil.ONVAL,
+            Gutil.CBOX_OFF: Gutil.OFFVAL,
+            Gutil.CBOX_DEFAULT: Gutil.ONVAL,
+            Gutil.CBOX_TOOLTIP: "run ami pdfbox to make SVG and images",
+        }
+
+        Gutil.make_checkbox_from_dict(section_frame, self.ami_pdfbox_dict)
 
     def make_dictionary_names_box(self, master):
         """
@@ -150,6 +224,8 @@ class AmiGui(tk.Frame):
         self.csv_var = None
         self.html_box = None
         self.html_var = None
+        self.pdfbox_box = None
+        self.pdfbox_var = None
         self.pygetpapers_flags = {
             XML_FLAG: {
                 Gutil.CBOX_BOX: self.xml_box,
@@ -216,6 +292,16 @@ class AmiGui(tk.Frame):
                 Gutil.CBOX_FULL: "--makehtml",
                 Gutil.CBOX_TOOLTIP: "output metadata/abstract as HTML",
             },
+            # PDFBOX_FLAG: {
+            #     Gutil.CBOX_BOX: self.pdfbox_box,
+            #     Gutil.CBOX_VAR: self.pdfbox_var,
+            #     Gutil.CBOX_TEXT: "PDFBOX",
+            #     Gutil.CBOX_ON: Gutil.ONVAL,
+            #     Gutil.CBOX_OFF: Gutil.OFFVAL,
+            #     Gutil.CBOX_DEFAULT: Gutil.ONVAL,
+            #     Gutil.CBOX_FULL: "--pdfbox",
+            #     Gutil.CBOX_TOOLTIP: "run ami pdfbox to make SVG and images",
+            # },
         }
         self.flags_keys = self.pygetpapers_flags.keys()
 
@@ -377,8 +463,8 @@ class AmiGui(tk.Frame):
                                            )
         frame.pack(side=TOP)
 
-        self.display_frame = tk.Frame(frame)
-        self.display_frame.pack(side=BOTTOM)
+        self.main_display_frame = tk.Frame(frame)
+        self.main_display_frame.pack(side=BOTTOM)
 
         open_button = ttk.Button(
             frame,
@@ -417,7 +503,7 @@ class AmiGui(tk.Frame):
         title="dummy title"
         if self.ami_tree is None:
             self.ami_tree = AmiTree()
-        self.treeview = self.ami_tree.get_or_create_treeview(self.display_frame, title)
+        self.treeview = self.ami_tree.get_or_create_treeview(self.main_display_frame, title)
 
         parent = ''
 
@@ -454,26 +540,27 @@ class AmiGui(tk.Frame):
 
         return lb
 
-    def create_dictionary_listbox_NEW(self, items, master=None, command=None, title="no title"):
-        frame, title_var = Gutil.make_frame(master,
-                                           title="DICTIONARIES_NEW",
-                                           tooltip="contains dictionary names, button will generate content lists",
-                                           )
-
-        lb = Gutil.create_listbox_from_list(frame, items)
-        lb.pack(side=tk.BOTTOM)
-
-        #        self.lb1.bind('<Button-1>', button1)
-        print("command", command)
-        if command is not None:
-            print("dictbox cmd:", command)
-            button = tk.Button(frame, text="create dictboxes NEW",
-                          command=command,
-                           )
-            CreateToolTip(button, str(command))
-            button.pack(side=tk.BOTTOM)
-
-        return lb
+    # def create_dictionary_listbox_NEW(self, items, master=None, command=None, title="no title"):
+    #     frame, title_var = Gutil.make_frame(master,
+    #                                        title="DICTIONARIES_NEW",
+    #                                        tooltip="contains dictionary names, button will generate content lists",
+    #                                        )
+    #
+    #     lb = Gutil.create_listbox_from_list(frame, items)
+    #     lb.pack(side=tk.BOTTOM)
+    #
+    #
+    #     #        self.lb1.bind('<Button-1>', button1)
+    #     print("command", command)
+    #     if command is not None:
+    #         print("dictbox cmd:", command)
+    #         button = tk.Button(frame, text="create dictboxes NEW",
+    #                       command=command,
+    #                        )
+    #         CreateToolTip(button, str(command))
+    #         button.pack(side=tk.BOTTOM)
+    #
+    #     return lb
 
     # frames and windows
     """
@@ -530,6 +617,8 @@ class AmiGui(tk.Frame):
 
         if self.ami_section_dict[Gutil.CBOX_VAR].get() == Gutil.ONVAL:
             self.run_ami_sections()
+        if self.ami_pdfbox_dict[Gutil.CBOX_VAR].get() == Gutil.ONVAL:
+            self.run_ami_pdfbox()
 
     def save_project(self):
 
@@ -540,6 +629,15 @@ class AmiGui(tk.Frame):
         args = ["ami", "-p", self.project_dir, "section"]
         print("making sections", args)
         stdout_lines, _ = Gutil.run_subprocess_get_lines(args)
+        #            self.main_text_display(stdout_lines)
+        print("stdout", stdout_lines)
+
+    def run_ami_pdfbox(self):
+        import subprocess
+        args = ["ami", "-p", self.project_dir, "pdfbox"]
+        print("running pdfbox", args)
+        stdout_lines, _ = Gutil.run_subprocess_get_lines(args)
+        #            self.main_text_display(stdout_lines)
         print("stdout", stdout_lines)
 
     def add_flags_to_query_command(self, cmd_options):
@@ -653,11 +751,19 @@ class AmiGui(tk.Frame):
 
 """unused"""
 
-
-
+def print_console():
+    print(console.get("1.0", "end-1c"))
+    root.after(1000, print_console)
 
 # main
+use_console = False #debugging not yet finished
 root = tk.Tk()
+#screen = Frame(root)
+#screen.pack()
 app = AmiGui(master=root)
+console = tk.Text(app)
+#console.pack()
+#    print_console()
+
 app.mainloop()
 

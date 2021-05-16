@@ -139,6 +139,7 @@ class Gutil:
 
     @staticmethod
     def make_checkbox_from_dict(master, dikt, **kwargs):
+        print("dikt", dikt)
         onval = dikt[Gutil.CBOX_ON]
         side = kwargs["side"] if "side" in kwargs else None
         dikt[Gutil.CBOX_BOX], dikt[Gutil.CBOX_VAR] = \
@@ -269,26 +270,26 @@ class AmiTree:
     def __init__(self):
         self.treeview = None
 
-    def tree1(self):
-        master = tk.Tk()
-        master.geometry("300x300")
-        frame = tk.Frame(master)
-        frame.pack()
-        tree = ttk.Treeview(frame)
-        tree.pack()
-
-        # Inserted at the root, program chooses id:
-        tree.insert('', 'end', 'widgets', text='Widget Tour')
-
-        # Same thing, but inserted as first child:
-        tree.insert('', 0, 'gallery', text='Applications')
-
-        # Treeview chooses the id:
-        id = tree.insert('', 'end', text='Tutorial')
-
-        # Inserted underneath an existing node:
-        tree.insert('widgets', 'end', text='Canvas')
-        tree.insert(id, 'end', text='Tree')
+    # def tree1(self):
+    #     master = tk.Tk()
+    #     master.geometry("300x300")
+    #     frame = tk.Frame(master)
+    #     frame.pack()
+    #     tree = ttk.Treeview(frame)
+    #     tree.pack()
+    #
+    #     # Inserted at the root, program chooses id:
+    #     tree.insert('', 'end', 'widgets', text='Widget Tour')
+    #
+    #     # Same thing, but inserted as first child:
+    #     tree.insert('', 0, 'gallery', text='Applications')
+    #
+    #     # Treeview chooses the id:
+    #     id = tree.insert('', 'end', text='Tutorial')
+    #
+    #     # Inserted underneath an existing node:
+    #     tree.insert('widgets', 'end', text='Canvas')
+    #     tree.insert(id, 'end', text='Tree')
 
 #        tree.move('widgets', 'gallery', 'end')  # move widgets under gallery
 
@@ -302,80 +303,80 @@ class AmiTree:
 #        tree = ttk.Treeview(root, columns=('size', 'modified'))
 #        tree['columns'] = ('size', 'modified', 'owner')
 
-        tk.mainloop()
+        # tk.mainloop()
 
-    def table1(self):
-        import tkinter as tk
-        from tkinter import ttk
-        from tkinter.messagebox import showinfo
-
-        root = tk.Tk()
-        root.title('Treeview demo')
-        root.geometry('620x200')
-
-        # columns
-        columns = ('#1', '#2', '#3')
-
-        tree = ttk.Treeview(root, columns=columns, show='headings')
-
-        # define headings
-        tree.heading('#1', text='First Name')
-        tree.heading('#2', text='Last Name')
-        tree.heading('#3', text='Email')
-
-        # generate sample data
-        contacts = []
-        for n in range(1, 100):
-            contacts.append((f'first {n}', f'last {n}', f'email{n}@example.com'))
-
-        # adding data to the treeview
-        for contact in contacts:
-            tree.insert('', tk.END, values=contact)
+    # def table1(self):
+    #     import tkinter as tk
+    #     from tkinter import ttk
+    #     from tkinter.messagebox import showinfo
+    #
+    #     root = tk.Tk()
+    #     root.title('Treeview demo')
+    #     root.geometry('620x200')
+    #
+    #     # columns
+    #     columns = ('#1', '#2', '#3')
+    #
+    #     tree = ttk.Treeview(root, columns=columns, show='headings')
+    #
+    #     # define headings
+    #     tree.heading('#1', text='First Name')
+    #     tree.heading('#2', text='Last Name')
+    #     tree.heading('#3', text='Email')
+    #
+    #     # generate sample data
+    #     contacts = []
+    #     for n in range(1, 100):
+    #         contacts.append((f'first {n}', f'last {n}', f'email{n}@example.com'))
+    #
+    #     # adding data to the treeview
+    #     for contact in contacts:
+    #         tree.insert('', tk.END, values=contact)
 
         # bind the select event
-        def item_selected(event):
-            for selected_item in tree.selection():
-                # dictionary
-                item = tree.item(selected_item)
-                # list
-                record = item['values']
-                #
-                showinfo(title='Information',
-                         message=','.join(record))
-
-        tree.bind('<<TreeviewSelect>>', item_selected)
-
-        tree.grid(row=0, column=0, sticky='nsew')
-
-        # add a scrollbar
-        scrollbar = ttk.Scrollbar(root, orient=tk.VERTICAL, command=tree.yview)
-        tree.configure(yscroll=scrollbar.set)
-        scrollbar.grid(row=0, column=1, sticky='ns')
-
-        # run the app
-        root.mainloop()
-
-    def cb(event):
-        print(event, tree.selection(), tree.focus())
-
-    def dir1(self):
-        import tkinter as tk
-        from tkinter import ttk
-        from tkinter.messagebox import showinfo
-
-        root = tk.Tk()
-        title = 'lantana demo'
-        if self.treeview is None:
-            self.treeview = self.get_or_create_treeview(root, title)
-
-        HOME = os.path.expanduser("~")
-        dirx = os.path.join(HOME, "temp", "lantana")
-        parent = ''
-
-        self.recursive_display(dirx, parent, self.treeview)
-
-        # run the app
-        root.mainloop()
+    #     def item_selected(event):
+    #         for selected_item in tree.selection():
+    #             # dictionary
+    #             item = tree.item(selected_item)
+    #             # list
+    #             record = item['values']
+    #             #
+    #             showinfo(title='Information',
+    #                      message=','.join(record))
+    #
+    #     tree.bind('<<TreeviewSelect>>', item_selected)
+    #
+    #     tree.grid(row=0, column=0, sticky='nsew')
+    #
+    #     # add a scrollbar
+    #     scrollbar = ttk.Scrollbar(root, orient=tk.VERTICAL, command=tree.yview)
+    #     tree.configure(yscroll=scrollbar.set)
+    #     scrollbar.grid(row=0, column=1, sticky='ns')
+    #
+    #     # run the app
+    #     root.mainloop()
+    #
+    # def cb(event):
+    #     print(event, tree.selection(), tree.focus())
+    #
+    # def dir1(self):
+    #     import tkinter as tk
+    #     from tkinter import ttk
+    #     from tkinter.messagebox import showinfo
+    #
+    #     root = tk.Tk()
+    #     title = 'lantana demo'
+    #     if self.treeview is None:
+    #         self.treeview = self.get_or_create_treeview(root, title)
+    #
+    #     HOME = os.path.expanduser("~")
+    #     dirx = os.path.join(HOME, "temp", "lantana")
+    #     parent = ''
+    #
+    #     self.recursive_display(dirx, parent, self.treeview)
+    #
+    #     # run the app
+    #     root.mainloop()
 
     def get_or_create_treeview(self, frame, title):
         if self.treeview is not None:
@@ -388,9 +389,9 @@ class AmiTree:
 
     def color_tags(self):
         self.treeview.tag_configure('xml', background='pink')
-        self.treeview.tag_configure('0', background='yellow')
-        self.treeview.tag_configure('ethics', background='lightgreen')
-        self.treeview.tag_configure('conflict', background='cyan')
+#        self.treeview.tag_configure('0', background='yellow')
+        self.treeview.tag_configure('pdf', background='lightgreen')
+        self.treeview.tag_configure('png', background='cyan')
 
     def itemClicked(self, event):
         print("CLICKED", event, self.treeview.focus(), self.treeview.selection, dir(self.treeview.selection))
@@ -411,7 +412,11 @@ class AmiTree:
                 if "conflict" in filename:
                     tag = "conflict"
                 elif f.endswith(".xml"):
-                    tag="xml"
+                    tag = "xml"
+                elif f.endswith(".pdf"):
+                    tag = "pdf"
+                elif f.endswith(".png"):
+                    tag = "png"
                 child_id = tree.insert(parent_id, 'end', text=filename, tags=(tag, 'simple'))
                 tree.tag_bind(tag, '<1>', self.itemClicked)
 
@@ -432,7 +437,8 @@ class AmiTree:
 
     def display_filename(self, filename):
         isd = os.path.isdir(filename)
-        return isd or filename.endswith(".xml")
+#        return isd or filename.endswith(".xml")
+        return True
 
 class ExtraWidgets(tk.Frame):
     def __init__(self, master=None):

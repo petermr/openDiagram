@@ -92,11 +92,16 @@ class AmiGui(tk.Frame):
         self.main_image_display = self.create_image_label(image_path)
         self.main_image_display.pack()
 
-        self.html_frame = self.create_html_view(self.main_display_frame,
-                              "file://"+FileLib.create_absolute_name(os.path.join("test", "index.html")))
-        self.html_frame.pack()
+        url = "file://"+FileLib.create_absolute_name(os.path.join("test", "index.html"))
+        print("url: ", url)
+        try:
+            self.html_frame = self.create_html_view(self.main_display_frame, url)
+            self.html_frame.pack()
+        except:
+            print("cannot load html file ")
+            pass
 
-        file = FileLib.create_absolute_name(os.path.join("diagrams", "luke/papers20210121/physrevb.94.125203_1_/fulltext.pdf"))
+        file = FileLib.create_absolute_name(os.path.join("diagrams", "luke", "papers20210121", "physrevb.94.125203_1_", "fulltext.pdf"))
         if False:
             self.open_pdf(file, self.main_text_display, page_num=0)
 

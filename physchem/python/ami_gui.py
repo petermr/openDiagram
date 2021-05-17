@@ -88,15 +88,15 @@ class AmiGui(tk.Frame):
         self.label_display = tk.Label(self.main_display_frame, textvariable=self.label_display_var)
 #        self.label_display.pack(side=tk.TOP)
 
-        image_path = FileLib.create_absolute_name("test/purple_ocimum_basilicum.png")
+        image_path = FileLib.create_absolute_name(os.path.join("test", "purple_ocimum_basilicum.png"))
         self.main_image_display = self.create_image_label(image_path)
         self.main_image_display.pack()
 
         self.html_frame = self.create_html_view(self.main_display_frame,
-                              "file://"+FileLib.create_absolute_name("test/index.html"))
+                              "file://"+FileLib.create_absolute_name(os.path.join("test", "index.html")))
         self.html_frame.pack()
 
-        file = FileLib.create_absolute_name("diagrams/luke/papers20210121/physrevb.94.125203_1_/fulltext.pdf")
+        file = FileLib.create_absolute_name(os.path.join("diagrams", "luke/papers20210121/physrevb.94.125203_1_/fulltext.pdf"))
         if False:
             self.open_pdf(file, self.main_text_display, page_num=0)
 

@@ -62,6 +62,7 @@ class AmiGui(tk.Frame):
         self.treeview = None
         self.main_display_frame = None
         self.dashboard = None
+        self.label = None
 
         self.pack()
         self.current_ami_projects = AmiProjects()
@@ -122,12 +123,29 @@ class AmiGui(tk.Frame):
         html.set_content(content)
         return html
 
+    def view_main_text(self, file):
+        with open(file, "r", encoding="utf-8") as f:
+            content = f.read()
+            self.main_text_display.delete("1.0", tk.END)
+            self.main_text_display.insert(tk.END, content)
+
     def create_image_label(self, image_path):
-        img = ImageTk.PhotoImage(Image.open(image_path))
-        label = ttk.Label(self.main_display_frame)
-        label.configure(image=img)
-        label.image = img # needed to avoid garbage collectiom
-        return label
+        frame_height = 400
+        frame_width = 800
+        frame_aspect_ratio = frame_width / frame_height
+        image = Image.open(image_path)
+        w, h = image.size
+        aspect_ratio = w / h
+        width = frame_width if aspect_ratio > frame_aspect_ratio else int(frame_height * aspect_ratio)
+        height = int(frame_width / aspect_ratio) if aspect_ratio > frame_aspect_ratio else frame_height
+        image = image.resize((width, height), Image.ANTIALIAS)
+        img = ImageTk.PhotoImage(image)
+
+        if self.label is None:
+            self.label = ttk.Label(self.main_display_frame)
+        self.label.configure(image=img)
+        self.label.image = img # needed to avoid garbage collectiom
+        return self.label
 
     def create_dashboard(self, master):
         self.dashboard = tk.Frame(master)
@@ -508,12 +526,15 @@ class AmiGui(tk.Frame):
     def display_directory(self):
         title="dummy title"
         if self.ami_tree is None:
-            self.ami_tree = AmiTree()
+            self.ami_tree = AmiTree(self)
         self.treeview = self.ami_tree.get_or_create_treeview(self.main_display_frame, title)
 
         parent = ''
 
-        self.ami_tree.recursive_display(self.outdir_var.get(), parent, self.treeview)
+        outdir_val = self.outdir_var.get()
+        print("outdir_val", outdir_val)
+        self.ami_tree.directory = outdir_val
+        self.ami_tree.recursive_display(outdir_val, parent, self.treeview)
 
     def make_dictionary_content_box(self, master, dictionary_name, ami_dictionary, desc="Missing desc"):
         frame, _ = Gutil.make_frame(master,

@@ -266,134 +266,72 @@ class Gutil:
 
 
 class AmiTree:
-    def __init__(self):
-        self.treeview = None
-
-    # def tree1(self):
-    #     master = tk.Tk()
-    #     master.geometry("300x300")
-    #     frame = tk.Frame(master)
-    #     frame.pack()
-    #     tree = ttk.Treeview(frame)
-    #     tree.pack()
-    #
-    #     # Inserted at the root, program chooses id:
-    #     tree.insert('', 'end', 'widgets', text='Widget Tour')
-    #
-    #     # Same thing, but inserted as first child:
-    #     tree.insert('', 0, 'gallery', text='Applications')
-    #
-    #     # Treeview chooses the id:
-    #     id = tree.insert('', 'end', text='Tutorial')
-    #
-    #     # Inserted underneath an existing node:
-    #     tree.insert('widgets', 'end', text='Canvas')
-    #     tree.insert(id, 'end', text='Tree')
-
-#        tree.move('widgets', 'gallery', 'end')  # move widgets under gallery
-
-#        tree.detach('widgets')
-
-#        tree.delete('widgets')
-
-#        tree.item('widgets', open=tk.TRUE)
-#        isopen = tree.item('widgets', 'open')
-
-#        tree = ttk.Treeview(root, columns=('size', 'modified'))
-#        tree['columns'] = ('size', 'modified', 'owner')
-
-        # tk.mainloop()
-
-    # def table1(self):
-    #     import tkinter as tk
-    #     from tkinter import ttk
-    #     from tkinter.messagebox import showinfo
-    #
-    #     root = tk.Tk()
-    #     root.title('Treeview demo')
-    #     root.geometry('620x200')
-    #
-    #     # columns
-    #     columns = ('#1', '#2', '#3')
-    #
-    #     tree = ttk.Treeview(root, columns=columns, show='headings')
-    #
-    #     # define headings
-    #     tree.heading('#1', text='First Name')
-    #     tree.heading('#2', text='Last Name')
-    #     tree.heading('#3', text='Email')
-    #
-    #     # generate sample data
-    #     contacts = []
-    #     for n in range(1, 100):
-    #         contacts.append((f'first {n}', f'last {n}', f'email{n}@example.com'))
-    #
-    #     # adding data to the treeview
-    #     for contact in contacts:
-    #         tree.insert('', tk.END, values=contact)
-
-        # bind the select event
-    #     def item_selected(event):
-    #         for selected_item in tree.selection():
-    #             # dictionary
-    #             item = tree.item(selected_item)
-    #             # list
-    #             record = item['values']
-    #             #
-    #             showinfo(title='Information',
-    #                      message=','.join(record))
-    #
-    #     tree.bind('<<TreeviewSelect>>', item_selected)
-    #
-    #     tree.grid(row=0, column=0, sticky='nsew')
-    #
-    #     # add a scrollbar
-    #     scrollbar = ttk.Scrollbar(root, orient=tk.VERTICAL, command=tree.yview)
-    #     tree.configure(yscroll=scrollbar.set)
-    #     scrollbar.grid(row=0, column=1, sticky='ns')
-    #
-    #     # run the app
-    #     root.mainloop()
-    #
-    # def cb(event):
-    #     print(event, tree.selection(), tree.focus())
-    #
-    # def dir1(self):
-    #     import tkinter as tk
-    #     from tkinter import ttk
-    #     from tkinter.messagebox import showinfo
-    #
-    #     root = tk.Tk()
-    #     title = 'lantana demo'
-    #     if self.treeview is None:
-    #         self.treeview = self.get_or_create_treeview(root, title)
-    #
-    #     HOME = os.path.expanduser("~")
-    #     dirx = os.path.join(HOME, "temp", "lantana")
-    #     parent = ''
-    #
-    #     self.recursive_display(dirx, parent, self.treeview)
-    #
-    #     # run the app
-    #     root.mainloop()
+    def __init__(self, ami_gui):
+        self.tree = None
+        self.ami_gui = ami_gui
 
     def get_or_create_treeview(self, frame, title):
-        if self.treeview is not None:
-            self.treeview.destroy()
-        self.treeview = ttk.Treeview(frame)
-        self.color_tags()
-        self.treeview.pack()
+        if self.tree is not None:
+            self.tree.destroy()
+        self.tree = ttk.Treeview(frame)
+        self.tree.bind('<<TreeviewSelect>>', self.display_items_selected)
 
-        return self.treeview
+        self.color_tags()
+        self.tree.pack(expand=True)
+        return self.tree
+
 
     def color_tags(self):
-        self.treeview.tag_configure('xml', background='pink')
-#        self.treeview.tag_configure('0', background='yellow')
-        self.treeview.tag_configure('pdf', background='lightgreen')
-        self.treeview.tag_configure('png', background='cyan')
+        self.tree.tag_configure('xml', background='pink')
+        self.tree.tag_configure('pdf', background='lightgreen')
+        self.tree.tag_configure('png', background='cyan')
 
-    def itemClicked(self, event):
-        print("CLICKED", event, self.treeview.focus(), self.treeview.selection, dir(self.treeview.selection))
+    def display_items_selected(self, event):
+        id_list = self.tree.selection()
+
+        tags_to_display = ["png", "xml"]  # refine this
+        path_list = []
+        for id in id_list:
+            self.display_item_selected(id, path_list, tags_to_display)
+
+        return id_list, path_list
+
+    def display_item_selected(self, id, path_list, tags_to_display):
+        item_dict = self.tree.item(id)
+        for tag in tags_to_display:
+            print("item_dict", item_dict)
+            if tag in item_dict["tags"]:
+                path = self.make_file_path(id)
+                path_list.append(path)
+                file = os.path.join(self.directory, path)
+                print("File", file, os.path.exists(file))
+                if self.is_image_tag(tag):
+                    self.main_image_display = self.ami_gui.create_image_label(file)
+                if self.is_text_tag(tag):
+                    self.ami_gui.view_main_text(file)
+
+    def is_image_tag(self, tag):
+        return tag in ["png", "jpg"]
+
+    def is_text_tag(self, tag):
+        return tag in ["txt", "xml"]
+
+    def make_file_path(self, id):
+        path_component_list = [self.tree.item(id)["text"] for id in self.make_path_component_id_list(id)]
+        path = os.path.join(*path_component_list)
+        return path
+
+    def make_path_component_id_list(self, id):
+        path_list = [id]
+        parent_id = "dummy"
+        while parent_id != "":
+            parent_id = self.tree.parent(id)
+            if parent_id == "":
+                break
+            path_list.append(parent_id)
+            id = parent_id
+        path_list.reverse()
+        return path_list
 
     def recursive_display(self, dirx, parent_id, tree):
 #        print(dirx, ";", parent_id, ";", tree, ";")
@@ -404,20 +342,19 @@ class AmiTree:
             child_id = None
             if self.display_filename(f):
                 tag = ""
-                if filename.startswith("0"):
-                    tag="0"
-                if "ethics" in filename:
-                    tag = "ethics"
-                if "conflict" in filename:
-                    tag = "conflict"
-                elif f.endswith(".xml"):
+                # if "ethics" in filename:
+                #     tag = "ethics"
+                # if "conflict" in filename:
+                #     tag = "conflict"
+                if f.endswith(".xml"):
                     tag = "xml"
                 elif f.endswith(".pdf"):
                     tag = "pdf"
                 elif f.endswith(".png"):
                     tag = "png"
-                child_id = tree.insert(parent_id, 'end', text=filename, tags=(tag, 'simple'))
-                tree.tag_bind(tag, '<1>', self.itemClicked)
+                # child_id = tree.insert(parent_id, 'end', text=filename, tags=(tag, 'simple'))
+                child_id = tree.insert(parent_id, 'end', text=filename, tags=(tag))
+#                tree.tag_bind(tag, '<1>', self.itemClicked)
 
             if os.path.isdir(f) and child_id is not None:
                 self.recursive_display(f, child_id, tree)

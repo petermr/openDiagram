@@ -124,10 +124,27 @@ class AmiGui(tk.Frame):
         return html
 
     def view_main_text(self, file):
-        with open(file, "r", encoding="utf-8") as f:
-            content = f.read()
-            self.main_text_display.delete("1.0", tk.END)
-            self.main_text_display.insert(tk.END, content)
+        if file.endswith(".xml"):
+# not yet working
+            # self.view_main_xml_file(file)
+            with open(file, "r", encoding="utf-8") as f:
+                content = f.read()
+                self.view_main_text_content(content)
+        else:
+            with open(file, "r", encoding="utf-8") as f:
+                content = f.read()
+                self.view_main_text_content(content)
+
+    def view_main_text_content(self, content):
+        self.main_text_display.delete("1.0", tk.END)
+        self.main_text_display.insert(tk.END, content)
+
+    def view_main_xml_file(self, file):
+#        from xml.etree.ElementTree import Element, SubElement, tostring
+        from xml_lib import XmlLib
+        root = XmlLib.parse_file_to_root(file)
+        for child in root:
+            print("child", child)
 
     def create_image_label(self, image_path):
         frame_height = 400

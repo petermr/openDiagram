@@ -72,11 +72,7 @@ class XmlLib:
             self.parse_file(file, section_dir)
 
     def parse_file(self, file, section_dir):
-        if not os.path.exists(file):
-            raise IOError("file does not exist", file)
-        xmlp = ET.XMLParser(encoding="utf-8")
-        self.element_tree = ET.parse(file, xmlp)
-        root = self.element_tree.getroot()
+        root = XmlLib.parse_file_to_root(file)
         if not section_dir is None:
             print("making sections")
             self.section_dir = self.make_sections_path(section_dir)
@@ -87,6 +83,15 @@ class XmlLib:
         subdir = os.path.join(self.section_dir, filename)
         FileLib.force_mkdir(subdir)
         self.list_children(root, indent, subdir)
+
+    @staticmethod
+    def parse_file_to_root(file):
+        if not os.path.exists(file):
+            raise IOError("file does not exist", file)
+        xmlp = ET.XMLParser(encoding="utf-8")
+        element_tree = ET.parse(file, xmlp)
+        root = element_tree.getroot()
+        return root
 
     def make_sections_path(self, section_dir):
         self.section_path = os.path.join(self.parent_path, section_dir)

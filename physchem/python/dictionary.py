@@ -53,6 +53,7 @@ class SearchDictionary:
         if "noignorecase" in self.options:
             print("use case")
         self.split_terms = True
+        self.split_terms = False
 
     def read_dictionary(self, file, ignorecase=True):
         self.file = file
@@ -80,6 +81,9 @@ class SearchDictionary:
                         for termx in term.split(" "):
 #                            print("term", termx)
                             self.add_processed_term(termx)
+                    else:
+                        # add multiword term
+                        self.add_processed_term(term)
 
         #            print(len(self.term_set), list(sorted(self.term_set)))
         #        print ("terms", len(self.term_set))
@@ -126,14 +130,18 @@ class SearchDictionary:
                 matched.append(target_word)
         return matched
 
-    def match_multiple(self, target_words):
+    def match_multiple_word_terms_against_sentences(self, sentence_list):
         """this will be slow with large dictionaries until we optimise the algorithm """
         matched = []
-        self.get_or_create_multiword_terms()
-        for target_word in target_words:
-            target_word = target_word.lower()
-            if target_word in self.term_set:
-                matched.append(target_word)
+
+        for term in self.term_set:
+            term = term.lower()
+            term_words = term.split(" ")
+            if len(term_words) > 1:
+                for sentence in sentence_list:
+                    if term in sentence.lower():
+                        matched.append(term)
+                        print("MATCHED MULTIWORD", term)
         return matched
 
     def get_entry(self, term):

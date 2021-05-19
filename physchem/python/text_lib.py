@@ -65,8 +65,8 @@ class ProjectCorpus:
         print("glob", self.cwd, self.tree_glob, str(len(self.files)), self.files[:5])
         for file in self.files:
             section = AmiSection()
-            section.read_file(file)
-            c = Counter(TextUtil.get_words_in_section(file))
+            section.read_file_get_text_filtered_words(file)
+            c = Counter(TextUtil.get_section_with_words(file).words)
             print(__cls__, file.split("/")[-2:-1], c.most_common(20))
         wordz = TextUtil.get_aggregate_words_from_files(filez)
         cc = Counter(wordz)
@@ -131,7 +131,7 @@ class Document:
     @staticmethod
     def get_words_from_file(terminal_file):
         ami_section = AmiSection()
-        ami_section.read_file(terminal_file)
+        ami_section.read_file_get_text_filtered_words(terminal_file)
         ami_section.sentences = [Sentence(s) for s in (nltk.sent_tokenize(ami_section.txt))]
         ami_section.sentences = ami_section.sentences
         if os.path.exists(ami_section.txt_file):
@@ -231,7 +231,18 @@ class AmiSection:
         self.sentences = None
 #        self.read_section()
 
-    def read_file(self, file):
+    def read_file_get_text_filtered_words(self, file):
+        """reads xml or txt file
+        reads file, flattens xml to text, removes stopwords and filters texts
+        creates instance vars:
+        self.xml_file
+        self.text_file if self_write_text
+        self.sentences tokenized by nltk
+
+
+        returns tuple(flattened text and filtered words)
+        """
+        self.text = None
         if file is None:
             raise Exception ("file is None")
         if file.endswith(AmiSection.XML_SUFF):
@@ -239,7 +250,7 @@ class AmiSection:
             self.txt_file = AmiSection.create_txt_filename_from_xml(self.xml_file)
             if os.path.exists(self.txt_file):
                 self.sentences = AmiSection.read_numbered_sentences_file(self.txt_file)
-            elif os.path.exists(self.xml_file):
+            if os.path.exists(self.xml_file):
                 """read a file as an ami-section of larger document """
                 with open(self.xml_file, "r", encoding="utf-8") as f:
                     try:
@@ -247,8 +258,8 @@ class AmiSection:
                     except Exception as ex:
                         print ("error reading: ", file, ex)
                         raise ex
-                self.txt = self.flatten_xml_to_text(self.xml)
-                self.sentences = [Sentence(s) for s in (nltk.sent_tokenize(self.txt))]
+                self.text = self.flatten_xml_to_text(self.xml)
+                self.sentences = [Sentence(s) for s in (nltk.sent_tokenize(self.text))]
 #                        self.sentences = Sentence.merge_false_sentence_breaks(self.sentences)
                 if self.write_text and not os.path.exists(self.txt_file):
                     print("wrote sentence file", self.txt_file)
@@ -429,18 +440,17 @@ class TextUtil:
     def get_aggregate_words_from_files(files):
         all_words = []
         for file in files:
-            words = TextUtil.get_words_in_section(file)
+            words = TextUtil.get_section_with_words(file).words
             all_words.extend(words)
         return all_words
 
     @staticmethod
     # move to AmiSection
-    def get_words_in_section(file, filter=True):
+    def get_section_with_words(file, filter=True):
 #        document = Document(file)  # level of tree
 #        words = document.words
         section = AmiSection()
-        section.read_file(file)
-        words = section.words
+        section.read_file_get_text_filtered_words(file)
         """
         word_filter = WordFilter(
             stopwords=[STOPWORDS_EN, STOPWORDS_PUB])
@@ -449,9 +459,9 @@ class TextUtil:
         """
 #TODO
         if filter:
-            words = TextUtil.filter_words(words)
+            section.words = TextUtil.filter_words(section.words)
 
-        return words
+        return section
 
     @staticmethod #OBSOLETE
     def filter_words(words):

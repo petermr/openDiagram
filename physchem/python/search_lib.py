@@ -26,6 +26,8 @@ class AmiSearch:
         self.patterns = []
         self.projects = []
         self.section_types = []
+        self.matches_by_amidict = {}
+
 
 # working global variables
         self.cur_section_type = None
@@ -138,18 +140,21 @@ class AmiSearch:
             raise Exception("unknown name: " +  name + " in " + str(dikt.keys()))
         dict_list.append(dikt[name])
 
-    def search(self, file, filter=filter):
-        words = TextUtil.get_words_in_section(file, filter=filter)
+    def search_and_generate_section(self, file, filter=filter):
+        section = TextUtil.get_section_with_words(file, filter=filter)
 #        print("words", len(words))
-        matches_by_amidict = self.match_single_words_against_dictionaries(words)
-        matches_by_multiple = self.match_multiple_words_against_dictionaries(words)
-        matches_by_pattern = self.match_words_against_pattern(words)
+        self.matches_by_amidict = self.match_single_words_against_dictionaries(section.words)
+        matches_by_amidict_multiple = self.match_multiple_words_against_dictionaries(section.text)
+        for key, value in matches_by_amidict_multiple.items():
+            self.matches_by_amidict.setdefault(key, []).extend(value)
+        matches_by_pattern = self.match_words_against_pattern(section.words)
 
-        return matches_by_amidict, matches_by_pattern, words
+        return self.matches_by_amidict, matches_by_pattern, section
+
 
     def match_single_words_against_dictionaries(self, words):
-        matches_by_amidict = {}
         found = False
+        matches_by_amidict = {}
         for dictionary in self.dictionaries:
             hits = dictionary.match(words)
             #            print("hits", len(hits))
@@ -158,17 +163,17 @@ class AmiSearch:
             matches_by_amidict[dictionary.name] = wid_hits
         return matches_by_amidict
 
-    def match_multiple_words_against_dictionaries(self, words):
+    def match_multiple_words_against_dictionaries(self, text):
+        from nltk.tokenize import sent_tokenize
         # really crude - we concatenate words into a giant string with
         matches_by_multiple = {}
         found = False
-
+        tokenized_sents = sent_tokenize(text)
+#        print("token sents", tokenized_sents)
         for dictionary in self.dictionaries:
-            hits = dictionary.match_multiple(words)
-            #            print("hits", len(hits))
-            if dictionary.entry_by_term is not None:
-                wid_hits = self.annotate_hits_with_wikidata(dictionary, hits)
-            matches_by_multiple[dictionary.name] = wid_hits
+            hits = dictionary.match_multiple_word_terms_against_sentences(tokenized_sents)
+#            wid_hits = self.annotate_hits_with_wikidata(dictionary, hits)
+            matches_by_multiple[dictionary.name] = hits
         return matches_by_multiple
 
 
@@ -239,8 +244,8 @@ class AmiSearch:
 
             if index % self.debug_cnt == 0:
                 print("file", target_file)
-            matches_by_amidict, matches_by_pattern, words = self.search(target_file)
-            all_lower_words += [w.lower() for w in words]
+            matches_by_amidict, matches_by_pattern, section = self.search_and_generate_section(target_file)
+            all_lower_words += [w.lower() for w in section.words]
             self.add_matches_to_counter_dict(dictionary_counter_dict, matches_by_amidict)
             self.add_matches_to_counter_dict(pattern_counter_dict, matches_by_pattern)
 
@@ -304,9 +309,9 @@ class AmiSearch:
         self.plot_tool_hits(counter_by_tool)
         self.plot_tool_hits(pattern_dict)
         counter_by_tool, pattern_dict, all_words = self.search_and_count(self.section_files)
-        self.analyze_all_words(all_words)
+        self.analyze_all_words_with_Rake2(all_words)
 
-    def analyze_all_words(self, all_words):
+    def analyze_all_words_with_Rake2(self, all_words):
         print(all_words)
         counter = Counter(all_words)
         self.plot_and_make_dictionary(counter, "ALL")

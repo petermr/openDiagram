@@ -240,16 +240,17 @@ class AmiSearch:
         pattern_counter_dict = self.create_counter_dict(self.patterns)
 
         all_lower_words = []
+        sections = []
         for index, target_file in enumerate(section_files[:self.max_files]):
-
             if index % self.debug_cnt == 0:
                 print("file", target_file)
             matches_by_amidict, matches_by_pattern, section = self.search_and_generate_section(target_file)
+            sections.append(section)
             all_lower_words += [w.lower() for w in section.words]
             self.add_matches_to_counter_dict(dictionary_counter_dict, matches_by_amidict)
             self.add_matches_to_counter_dict(pattern_counter_dict, matches_by_pattern)
 
-        return dictionary_counter_dict, pattern_counter_dict, all_lower_words
+        return dictionary_counter_dict, pattern_counter_dict, all_lower_words, sections
 
     def create_counter_dict(self, search_tools):
         counter_dict = {}
@@ -305,20 +306,21 @@ class AmiSearch:
 
 
     def make_counter_and_plot(self):
-        counter_by_tool, pattern_dict, _ = self.search_and_count(self.section_files)
+        counter_by_tool, pattern_dict, all_lower_words, sections = self.search_and_count(self.section_files)
         self.plot_tool_hits(counter_by_tool)
         self.plot_tool_hits(pattern_dict)
-        counter_by_tool, pattern_dict, all_words = self.search_and_count(self.section_files)
-        self.analyze_all_words_with_Rake2(all_words)
-
-    def analyze_all_words_with_Rake2(self, all_words):
+        counter_by_tool, pattern_dict, all_words, sections = self.search_and_count(self.section_files)
         print(all_words)
         counter = Counter(all_words)
         self.plot_and_make_dictionary(counter, "ALL")
+        self.analyze_all_words_with_Rake2(sections)
+
+    def analyze_all_words_with_Rake2(self, sections):
+        text = ""
+        for section in sections:
+            text += section.text
         rake = AmiRake()
-        wordz = " ".join(all_words)
-        print(wordz)
-        rake.analyze_text_with_RAKE(wordz)
+        rake.analyze_text_with_RAKE(text)
 
     def extract_keywords(self):
         pass

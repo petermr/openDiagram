@@ -23,9 +23,6 @@ NS_MAP = {'SPQ': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
 NS_URI = "SPQ:uri"
 NS_LITERAL = "SPQ:literal"
 
-
-
-
 class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 
@@ -116,6 +113,12 @@ class SearchDictionary:
             term = entry.attrib[SearchDictionary.TERM].strip()
         return term.lower() if term is not None and self.ignorecase else term
 
+    def get_xml_and_image_url(self, term):
+        entry = self.get_entry(term)
+        entry_xml = ET.tostring(entry)
+        image_url = entry.find(".//image")
+        return entry_xml, image_url.text if image_url is not None else None
+
     def add_processed_term(self, term):
         if self.ignorecase:
             term = term.lower()
@@ -145,7 +148,12 @@ class SearchDictionary:
         return matched
 
     def get_entry(self, term):
-        return self.entry_by_term[term] if term in self.entry_by_term else None
+        if self.entry_by_term is None:
+            self.create_entry_by_term()
+        entry = self.entry_by_term[term] if term in self.entry_by_term else None
+        if entry is None:
+            print("entry by term", self.entry_by_term)
+        return entry
 
     def create_entry_by_term(self):
         self.entry_by_term = {self.term_from_entry(entry) : entry  for entry in self.entries}
@@ -229,6 +237,16 @@ class SearchDictionary:
         PLANT = os.path.join(PHYSCHEM_RESOURCES, "plant")
         sparql_file = os.path.join(PLANT, "plant_part_sparql.xml")
         dictionary_file = os.path.join(PLANT, "eoplant_part.xml")
+        """
+        <result>
+			<binding name='item'>
+				<uri>http://www.wikidata.org/entity/Q2923673</uri>
+			</binding>
+			<binding name='image'>
+				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/White%20Branches.jpg</uri>
+			</binding>
+		</result>
+"""
         sparql_to_dictionary = {
             "id_name": "item",
             "sparql_name": "image",
@@ -236,7 +254,7 @@ class SearchDictionary:
         }
         dictionary = SearchDictionary(dictionary_file)
         dictionary.update_from_sparqlx(sparql_file, sparql_to_dictionary)
-        ff = sparql_file[:-(len(".xml")+1)]+"_1"+".xml"
+        ff = dictionary_file[:-(len(".xml"))]+"_update"+".xml"
         print("saving to", ff)
         dictionary.write(ff)
 

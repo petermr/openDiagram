@@ -21,6 +21,8 @@ from search_lib import AmiProjects
 from urllib.request import urlopen
 import tkinterhtml as th
 
+from io import BytesIO
+
 PYGETPAPERS = "pygetpapers"
 
 DICTIONARY_HOME = "/Users/pm286/dictionary"
@@ -160,9 +162,12 @@ class AmiGui(tk.Frame):
 
         if self.label is None:
             self.label = ttk.Label(self.main_display_frame)
-        self.label.configure(image=img)
-        self.label.image = img # needed to avoid garbage collectiom
+        self.set_image_and_persist(img)
         return self.label
+
+    def set_image_and_persist(self, img):
+        self.label.configure(image=img)
+        self.label.image = img  # needed to avoid garbage collectiom
 
     def create_dashboard(self, master):
         self.dashboard = tk.Frame(master)
@@ -469,14 +474,14 @@ class AmiGui(tk.Frame):
 
 
 
-    def make_dictionary_content_boxes(self, master, dictionary_dict, selected_dict_names):
-        self.selected_boxes = []
-        for dict_name in selected_dict_names:
-            print(dictionary_dict)
-            dictionary_tup = dictionary_dict[dict_name]
-            print(type(dictionary_tup), dictionary_tup)
-            curbox = self.make_dictionary_content_box(master, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
-            self.selected_boxes.append(curbox)
+    # def make_dictionary_content_boxes(self, master, dictionary_dict, selected_dict_names):
+    #     self.selected_boxes = []
+    #     for dict_name in selected_dict_names:
+    #         print(dictionary_dict)
+    #         dictionary_tup = dictionary_dict[dict_name]
+    #         print(type(dictionary_tup), dictionary_tup)
+    #         curbox = self.make_dictionary_content_box(master, dict_name, dictionary_tup[0], desc=(dictionary_tup[1]))
+    #         self.selected_boxes.append(curbox)
 
     def make_dictionary_content_boxes_NEW(self, master, dictionary_dict, selected_dict_names):
         frame = tk.Frame(master, highlightcolor="red", highlightthickness=10)
@@ -562,8 +567,38 @@ class AmiGui(tk.Frame):
 
         box = self.create_generic_listbox(self.read_entry_names(ami_dictionary),
                                           master=frame, title="select dictionary items")
+        # print("mode", box.selectmode)
+        # box.selectmode = tk.SINGLE
         box.pack(side=BOTTOM)
+        box.bind("<<ListboxSelect>>", lambda event, self=self, dictionary=dictionary_name:
+            self.show_dictionary_item(event, dictionary))
         return box
+
+    """
+    https://stackoverflow.com/questions/4299145/getting-the-widget-that-triggered-an-event
+    """
+
+    def show_dictionary_item(self, event, dictionary_name):
+        box = event.widget
+        selections = Gutil.get_selections_from_listbox(box)
+        selection = selections[0] if len(selections) > 0 else None
+        if selection is not None:
+            term = selection.lower()
+            dictionary = AmiDictionaries().dictionary_dict[dictionary_name]
+            entry_xml, image_url = dictionary.get_xml_and_image_url(term)
+            self.view_main_text_content(entry_xml)
+            if image_url is not None:
+                with urlopen(image_url) as u:
+                    raw_data = u.read()
+                im = Image.open(BytesIO(raw_data))
+                w, h = im.size
+                if w > 600:
+                    h = int(h * 600 / w)
+                    w = 600
+                    im = im.resize((w, h), Image.ANTIALIAS)
+                photo = ImageTk.PhotoImage(im)
+                self.set_image_and_persist(photo)
+            box.selection_clear(0, tk.END)
 
     def create_generic_listbox(self, items, master=None, command=None, title=None, tooltip=None, button_text="select"):
         frame, title_var = Gutil.make_frame(master,
@@ -576,35 +611,11 @@ class AmiGui(tk.Frame):
         lb = Gutil.create_listbox_from_list(frame, items)
         lb.pack(side=tk.BOTTOM)
 
-        #        self.lb1.bind('<Button-1>', button1)
-
         if command is not None:
             button = tk.Button(frame, text=button_text, command=command,)
             button.pack(side=tk.BOTTOM)
 
         return lb
-
-    # def create_dictionary_listbox_NEW(self, items, master=None, command=None, title="no title"):
-    #     frame, title_var = Gutil.make_frame(master,
-    #                                        title="DICTIONARIES_NEW",
-    #                                        tooltip="contains dictionary names, button will generate content lists",
-    #                                        )
-    #
-    #     lb = Gutil.create_listbox_from_list(frame, items)
-    #     lb.pack(side=tk.BOTTOM)
-    #
-    #
-    #     #        self.lb1.bind('<Button-1>', button1)
-    #     print("command", command)
-    #     if command is not None:
-    #         print("dictbox cmd:", command)
-    #         button = tk.Button(frame, text="create dictboxes NEW",
-    #                       command=command,
-    #                        )
-    #         CreateToolTip(button, str(command))
-    #         button.pack(side=tk.BOTTOM)
-    #
-    #     return lb
 
     # frames and windows
     """

@@ -1,0 +1,8 @@
+0: The bloodbrain barrier (BBB) is a physical barrier that regulates the homeostasis of the neural microenvironment.
+1: A relative estimate of the BBB permeability, which is important for drug design, may be experimentally provided by the logBB (the bloodbrain concentration ratio) and the logPS (permeabilitysurface-area product), while many computational methods aim to identify key properties that correlate well with these quantities.
+2: Although currently existing computational methods (e.g., quantitative structure activity relation) have made a significant contribution in screening various compounds that could potentially translocate through the BBB, they are unable to provide a physical explanation of the underlying processes and they can often be computationally demanding.
+3: Here, we use steered molecular dynamics simulation to estimate the BBB permeability of various compounds on the basis of simple lipidmembrane models by computing the nonequilibrium work,   Wneq, produced by pulling the compounds through the membrane.
+4: We found that the values of   Wneq correlate remarkably well with logBB and logPS for a range of compounds and different membrane types and pulling speeds, independently of the choice of force field.
+5: Moreover, our results provide insight into the role of hydrogen bonds, the energetic barriers, and the forces exerted on the ligands during their pulling.
+6: Our method is computationally easy to implement and fast.
+7: Therefore, we anticipate that it could provide a reliable prescreening tool for estimating the relative permeability of the BBB to various substances.

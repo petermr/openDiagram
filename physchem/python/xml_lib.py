@@ -65,7 +65,6 @@ class XmlLib:
     XML_LANG = "{" + XML_NS + "}" + 'lang'
 
     def __init__(self, file=None, section_dir=SECTIONS):
-        print("xml", file)
         if file is not None:
             self.path = Path(file)
             self.parent_path = self.path.parent.absolute()

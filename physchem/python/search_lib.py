@@ -10,6 +10,8 @@ import json
 from gutil import Gutil
 from dictionary import AmiDictionaries, SearchDictionary
 from projects import AmiProjects
+import glob
+import os
 
 # entry
 WIKIDATA_ID = "wikidataID"
@@ -19,7 +21,6 @@ NS_LITERAL = "SPQ:literal"
 
 class AmiSearch:
 
-
     def __init__(self):
         # these are the main facets
         self.dictionaries = []
@@ -27,6 +28,8 @@ class AmiSearch:
         self.projects = []
         self.section_types = []
         self.matches_by_amidict = {}
+        self.rake = None
+        self.checked_values = []
 
 
 # working global variables
@@ -67,17 +70,12 @@ class AmiSearch:
 
     def make_plot(self, counter, dict_name):
         import matplotlib as mpl
-        #        mpl.rcParams['font.family'] = 'sans-serif'
         mpl.rcParams['font.family'] = 'Helvetica'
         import matplotlib.pyplot as plt
-#        rc('font', family='Arial')
-#        ax = plt.gca()
         commonest = counter.most_common()
         keys = [c[0] for c in commonest]
         values = [c[1] for c in commonest]
-#        plt.bar(list(counter.keys()), counter.values(), color='blue')
         plt.bar(keys[:self.max_bars], values[:self.max_bars], color='blue')
-#        ax.set_xticklabels(ax.get_xticks(), rotation=45)
         plt.xticks(rotation=45, ha='right') # this seems to work
         plt.title(self.make_title(dict_name))
         plt.show()
@@ -292,11 +290,24 @@ class AmiSearch:
         for proj in self.projects:
             print("***** project", proj.dir)
             self.cur_proj = proj
-            for section_type in self.section_types:
-                self.glob_for_section_files(proj, section_type)
-                self.make_counter_and_plot()
-                self.extract_keywords()
+            if len(self.section_types) > 0:
+                for section_type in self.section_types:
+                    self.glob_for_section_files(proj, section_type)
+                    self.section_make_counter_and_plot()
+                    self.extract_keywords()
+            else:
+                files = self.glob_fulltext(proj)
+                print("fulltext.txt", files)
+                text = ""
+                for file in files:
+                    with open(file, "r") as f:
+                        text += f.read()
+                self.analyze_text_with_Rake(text)
 
+    def glob_fulltext(self, proj):
+        globstr = os.path.join(proj.dir, "*/fulltext*.txt")
+        files = glob.glob(globstr, recursive=False)
+        return files
 
     def glob_for_section_files(self, proj, section_type):
         self.cur_section_type = section_type
@@ -304,23 +315,34 @@ class AmiSearch:
         self.section_files = templates.get_globbed_files()
         print("***** section_files", section_type, len(self.section_files))
 
-
-    def make_counter_and_plot(self):
-        counter_by_tool, pattern_dict, all_lower_words, sections = self.search_and_count(self.section_files)
+    def section_make_counter_and_plot(self):
+        counter_by_tool, pattern_dict, _, sections = self.search_and_count(self.section_files)
         self.plot_tool_hits(counter_by_tool)
         self.plot_tool_hits(pattern_dict)
-        counter_by_tool, pattern_dict, all_words, sections = self.search_and_count(self.section_files)
-        print(all_words)
+        _, _, all_words, sections = self.search_and_count(self.section_files)
+#        print(all_words)
         counter = Counter(all_words)
         self.plot_and_make_dictionary(counter, "ALL")
-        self.analyze_all_words_with_Rake2(sections)
+        self.analyze_all_words_with_Rake(sections)
 
-    def analyze_all_words_with_Rake2(self, sections):
+    def analyze_all_words_with_Rake(self, sections):
         text = ""
         for section in sections:
             text += section.text
-        rake = AmiRake()
-        rake.analyze_text_with_RAKE(text)
+        text = self.remove_line_ends(text)
+        self.analyze_text_with_Rake(text)
+
+    def remove_line_ends(self, text):
+        # join hyphenated words at end of line
+        text = text.replace("-\n", "")
+        # change line ends to " " ; will break up formatting
+        text = text.replace("\n", " ")
+        return text
+
+    def analyze_text_with_Rake(self, text):
+        text = self.remove_line_ends(text)
+        self.rake = AmiRake(self)
+        phrases = self.rake.analyze_text_with_RAKE(text)
 
     def extract_keywords(self):
         pass
@@ -409,6 +431,15 @@ class AmiSearch:
         self.use_projects(projects)
 
         self.run_search()
+
+        if self.rake is not None:
+            import tkinter as tk
+            phrases = self.rake.phrases
+            ami_gui.main_text_display.delete("1.0", tk.END)
+            for phrase in phrases:
+                print(">>", phrase)
+                ami_gui.main_text_display.insert(tk.END, phrase+"\n")
+
 
 
 class AmiRun:
@@ -557,30 +588,72 @@ class SearchPattern:
         return matched_words
 
 class AmiRake:
-    def __init__(self):
-        pass
-
-    def test(self):
-        from file_lib import FileLib
-        with open(FileLib.create_absolute_name("test/materials.txt")) as f:
-            text = f.read()
-        self.analyze_text_with_RAKE(text)
+    def __init__(self, ami_search):
+        self.min_len = 2
+        self.max_len = 6
+        self.phrases = []
+        self.phrases_with_scores = []
+        self.ami_search = ami_search
+        self.counter = None
+        # method 1 is slow but gives useful phrases
+        self.method = 1
+        # method 2 favours equation components but is a lot faster
+#        self.method = 2
 
     def analyze_text_with_RAKE(self, text):
-        from rake_nltk import Rake
-        import RAKE
 
-        stop_dir =  FileLib.create_absolute_name("SmartStoplist.txt")
+        self.counter = Counter()
+        keywords = self.use_rake1(text) if self.method == 1 else self.use_rake2(text)
+
+#        self.make_toplevel_phraselist(self.ami_search.ami_gui, keywords)
+        text = text.lower()
+        text_counter = Counter()
+        for keyword in keywords:
+            matches_in_text = len(text.split(keyword)) - 1
+            if matches_in_text > 1:
+                if all(x.isalpha() or x.isspace() or x=='-' for x in keyword):
+                    text_counter[keyword] = matches_in_text
+        phrases = [item[0] for item in text_counter.most_common()]
+        self.make_toplevel_phraselist(self.ami_search.ami_gui, phrases)
+
+
+    def make_toplevel_phraselist(self, master, phrases):
+        from gutil import ScrollingCheckboxList
+        import tkinter as tk
+        toplevel = tk.Toplevel(master)
+        scl = ScrollingCheckboxList(toplevel)
+        scl.pack(side="top", fill="both", expand=True)
+        scl.add_string_values(phrases)
+
+    def use_rake1(self, text):
+        import RAKE
+        stop_dir = FileLib.create_absolute_name("SmartStoplist.txt")
         rake_object = RAKE.Rake(stop_dir)
-        keywords = self.sort_tuple(rake_object.run(text))  # [-10:]
-        keywords.reverse()
-        print("keywords1", keywords)
-        rake = Rake()
-        keywords = rake.extract_keywords_from_text(text)
-        print("keywords", keywords)
-        phrases = rake.get_ranked_phrases()  # [0:100]
-        phrases = [p for p in phrases if len(p.split(" ")) in range(2,4)]
-        print("phrases", "\n".join(phrases))
+        weighted_keywords = self.sort_tuple(rake_object.run(text))  # [-10:]
+        weighted_keywords.reverse()
+#        print("keywords1", weighted_keywords)
+        keywords = self.create_keywords1(weighted_keywords)
+        return keywords
+
+    def use_rake2(self, text):
+        from rake_nltk import Rake
+        rake = Rake(min_length=self.min_len, max_length=self.max_len)
+        weighted_keywords = rake.extract_keywords_from_text(text)
+        print("weighted_keywords", weighted_keywords)
+        self.phrases = rake.get_ranked_phrases()  # [0:100]
+        self.phrases_with_scores = rake.get_ranked_phrases_with_scores()  # [0:100]
+        return self.phrases #, self.phrases_with_scores
+
+
+    def create_keywords1(self, weighted_keywords):
+        keywords = []
+        for weighted_keyword in weighted_keywords:
+            keyword = weighted_keyword[0]
+            l = len(keyword.split(" "))
+            if self.min_len <= l <= self.max_len:
+                self.counter[keyword] = int(weighted_keyword[1])
+                keywords.append(keyword)
+        return keywords
 
     def sort_tuple(self, tup):
         """ sort

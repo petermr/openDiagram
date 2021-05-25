@@ -1,0 +1,9 @@
+0: Prediction of material behavior using machine learning (ML) requires consistent, accurate, and, representative large data for training.
+1: However, such consistent and reliable experimental datasets are not always available for materials.
+2: To address this challenge, we synergistically integrate ML with high-throughput reactive molecular dynamics (MD) simulations to elucidate the constitutive relationship of calciumsilicatehydrate (CSH) gelthe primary binding phase in concrete formed via the hydration of ordinary portland cement.
+3: Specifically, a highly consistent dataset on the nine elastic constants of more than 300 compositions of CSH gel is developed using high-throughput reactive simulations.
+4: From a comparative analysis of various ML algorithms including neural networks (NN) and Gaussian process (GP), we observe that NN provides excellent predictions.
+5: To interpret the predicted results from NN, we employ SHapley Additive exPlanations (SHAP), which reveals that the influence of silicate network on all the elastic constants of CSH is significantly higher than that of water and CaO content.
+6: Additionally, the water content is found to have a more prominent influence on the shear components than the normal components along the direction of the interlayer spaces within CSH.
+7: This result suggests that the in-plane elastic response is controlled by water molecules whereas the transverse response is mainly governed by the silicate network.
+8: Overall, by seamlessly integrating MD simulations with ML, this paper can be used as a starting point toward accelerated optimization of CSH nanostructures to design efficient cementitious binders with targeted properties.

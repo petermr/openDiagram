@@ -14,8 +14,7 @@ class Globber:
         if self.ami_path:
             glob_list = self.ami_path.get_glob_string_list()
             for globb in glob_list:
-                ff = glob.glob(globb, recursive=self.recurse)
-                files.extend(ff)
+                files += glob.glob(globb, recursive=self.recurse)
         return files
 
 

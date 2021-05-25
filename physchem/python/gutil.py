@@ -164,6 +164,42 @@ class Gutil:
         return checkbutton, checkVar
 
     @staticmethod
+    def create_hide_frame(master, title=None):
+        hide_frame = tk.Frame(master,
+                              highlightbackground="green",
+                              highlightthickness=1,
+                              )
+        return hide_frame
+
+    @staticmethod
+    def labelactive(widget, show_button, hide_button):
+        widget.pack(expand=True)
+        show_button.pack_forget()
+        hide_button.pack()
+
+    @staticmethod
+    def labeldeactive(widget, show_button, hide_button):
+        widget.pack_forget()
+        show_button.pack()
+        hide_button.pack_forget()
+
+    @staticmethod
+    def make_frame_with_hide(master, title=None, **kwargs):
+        hide_frame = Gutil.create_hide_frame(master)
+        hide_frame.pack(side=tk.TOP)
+        frame, title_var = Gutil.make_frame(hide_frame, **kwargs)
+        hide_button = None
+        show_button = tk.Button(hide_frame, text="show "+title, command=lambda: Gutil.labelactive(
+            frame, show_button, hide_button))
+        show_button.pack_forget()
+        hide_button = tk.Button(hide_frame, text="hide "+title, command=lambda: Gutil.labeldeactive(
+            frame, show_button, hide_button))
+        hide_button.pack()
+        Gutil.labeldeactive(frame, show_button, hide_button)
+
+        return frame, title_var
+
+    @staticmethod
     def make_frame(master, **kwargs):
         """ makes a frame with a rim and help tooltip
         (tk uses "highlight" for the rim which other systems call "border";
@@ -285,11 +321,12 @@ class AmiTree:
         self.tree.tag_configure('xml', background='pink')
         self.tree.tag_configure('pdf', background='lightgreen')
         self.tree.tag_configure('png', background='cyan')
+        self.tree.tag_configure('txt', background='bisque2')
 
     def display_items_selected(self, event):
         id_list = self.tree.selection()
 
-        tags_to_display = ["png", "xml"]  # refine this
+        tags_to_display = ["png", "xml", "txt"]  # refine this
         path_list = []
         for id in id_list:
             self.display_item_selected(id, path_list, tags_to_display)
@@ -299,12 +336,10 @@ class AmiTree:
     def display_item_selected(self, id, path_list, tags_to_display):
         item_dict = self.tree.item(id)
         for tag in tags_to_display:
-            print("item_dict", item_dict)
             if tag in item_dict["tags"]:
                 path = self.make_file_path(id)
                 path_list.append(path)
                 file = os.path.join(self.directory, path)
-                print("File", file, os.path.exists(file))
                 if self.is_image_tag(tag):
                     self.main_image_display = self.ami_gui.create_image_label(file)
                 if self.is_text_tag(tag):
@@ -334,30 +369,25 @@ class AmiTree:
         return path_list
 
     def recursive_display(self, dirx, parent_id, tree):
-#        print(dirx, ";", parent_id, ";", tree, ";")
         childfiles = [f.path for f in os.scandir(dirx) if os.path.isdir(dirx) and not dirx.startswith(".")]
         sorted_child_files = AmiTree.sorted_alphanumeric(childfiles)
         for f in sorted_child_files:
             filename = AmiTree.path_leaf(f)
             child_id = None
             if self.display_filename(f):
-                tag = ""
-                # if "ethics" in filename:
-                #     tag = "ethics"
-                # if "conflict" in filename:
-                #     tag = "conflict"
-                if f.endswith(".xml"):
-                    tag = "xml"
-                elif f.endswith(".pdf"):
-                    tag = "pdf"
-                elif f.endswith(".png"):
-                    tag = "png"
-                # child_id = tree.insert(parent_id, 'end', text=filename, tags=(tag, 'simple'))
+                tag = self.tag_from_file_suffix(f)
                 child_id = tree.insert(parent_id, 'end', text=filename, tags=(tag))
 #                tree.tag_bind(tag, '<1>', self.itemClicked)
 
             if os.path.isdir(f) and child_id is not None:
                 self.recursive_display(f, child_id, tree)
+
+    def tag_from_file_suffix(self, file):
+        tag = ""
+        for suff in ["xml", "txt", "pdf", "png", "jpg", "gif"]:
+            if file.endswith("." + suff):
+                tag = suff
+        return tag
 
     def sorted_alphanumeric(data):
         import re
@@ -375,6 +405,144 @@ class AmiTree:
         isd = os.path.isdir(filename)
 #        return isd or filename.endswith(".xml")
         return True
+
+
+# class ScrollableFrame(tk.Frame):
+#     def __init__(self, master, **kwargs):
+#         tk.Frame.__init__(self, master, **kwargs)
+#
+#         # create a canvas object and a vertical scrollbar for scrolling it
+#         self.vscrollbar = tk.Scrollbar(self, orient=tk.VERTICAL)
+#         self.vscrollbar.pack(side='right', fill="y",  expand="false")
+#         self.canvas = tk.Canvas(self,
+#                                 bg='#aaa', bd=0,
+#                                 height=350,
+#                                 highlightthickness=2,
+#                                 yscrollcommand=self.vscrollbar.set)
+#         self.canvas.pack(side="left", fill="both", expand="true")
+#         self.vscrollbar.config(command=self.canvas.yview)
+#
+#         # reset the view
+#         self.canvas.xview_moveto(0)
+#         self.canvas.yview_moveto(0)
+#
+#         # create a frame inside the canvas which will be scrolled with it
+#         self.interior = tk.Frame(self.canvas, **kwargs)
+#         self.canvas.create_window(0, 0, window=self.interior, anchor="nw")
+#
+#         self.bind('<Configure>', self.set_scrollregion)
+#
+#         self.vars = []
+#
+#
+#     def set_scrollregion(self, event=None):
+#         """ Set the scroll region on the canvas"""
+#         print("event", event)
+#         self.canvas.configure(scrollregion=self.canvas.bbox('all'))
+#
+#
+# def scrollable_frame_test():
+#     global root, scrollable_pane
+#     root = tk.Tk()
+#     scrollable_pane = ScrollableFrame(root, bg='#444444')
+#     scrollable_pane.pack(expand="true", fill="both")
+#
+#     def button_callback(button_count):
+#         for x in range(1, button_count):
+#             print (f"x{x}")
+#             var = tk.Variable()
+#             vars.append(var)
+#             checkbutton = tk.Checkbutton(scrollable_pane.interior, variable=var, textheck="hello world! %s" % x)
+#             checkbutton.grid(row=x, column=0)
+#             checkbutton.bind("<Button 1>", button_check)
+#
+#     def button_check(event, serial):
+#         print("event", event)
+#         for var in vars:
+#             print("var", var)
+#
+#     btn_checkbox = tk.Button(scrollable_pane.interior, text="Click Me!", command=button_callback(10))
+#     btn_checkbox.grid(row=0, column=0)
+#     root.mainloop()
+
+class CheckEntryFrame(tk.Frame):
+
+    def __init__(self, master, text=None, *args, **kwargs):
+        self.master = master
+        tk.Frame.__init__(self, master, *args, **kwargs)
+        self.cb = ttk.Checkbutton(self, text="?")
+        self.cb.pack(side=tk.LEFT)
+        self.entry = tk.Entry(self, text=text)
+        self.entry.pack(side=tk.RIGHT)
+
+
+class ScrollingCheckboxList(tk.Frame):
+
+    def __init__(self, master, receiver=None, *args, **kwargs):
+        tk.Frame.__init__(self, master, *args, **kwargs)
+        self.master = master
+
+        self.vsb = tk.Scrollbar(self, orient="vertical")
+        self.text = tk.Text(self, width=40, height=20,
+                            yscrollcommand=self.vsb.set)
+        self.vsb.config(command=self.text.yview)
+        self.vsb.pack(side="right", fill="y")
+
+        self.text.pack(side="left", fill="both", expand=True)
+
+        button = ttk.Button(self.master, text="print items", command=self.get_checked_values)
+        button.pack(side=tk.TOP)
+
+        self.cbs = []
+        self.checked_values = []
+        self.receiver = receiver
+
+    def add_string_values(self, strings):
+        self.cbs = []
+        for i, s in enumerate(strings):
+            # cef = CheckEntryFrame(self, text=s)
+            # cef.cb.state(['!alternate'])
+            # cef.cb.state(['!selected'])
+            # self.cbs.append(cef.cb)
+            # cef.cb.bind("<Button 1>", self.clicked)
+            cb = ttk.Checkbutton(self, text=s)
+            cb.state(['!alternate'])
+            cb.state(['!selected'])
+            self.cbs.append(cb)
+            cb.bind("<Button 1>", self.clicked)
+            self.text.window_create("end", window=cb)
+            self.text.insert("end", "\n")  # to force one checkbox per line
+
+    def clicked(self, event):
+        # print("clicked", event)
+        pass
+
+    def get_checked_values(self):
+        self.receiver.checked_values = []
+        for i, cb in enumerate(self.cbs):
+            if cb.instate(['selected']):
+                self.receiver.checked_values.append(cb.cget("text"))
+
+
+def scrollable_checkbox_test():
+    global root
+    root = tk.Tk()
+    frame = tk.Frame(root)
+    frame.pack()
+    scl = ScrollingCheckboxList(frame)
+    scl.pack(side="top", fill="both", expand=True)
+    scl.add_string_values(["a", "b", "zz", "xx", "y", "zzz", "tt", "yyy"])
+    root.mainloop()
+
+
+if __name__ == "__main__":
+    if False:
+        scrollable_checkbox_test()
+
+
+# if __name__ == '__main__':
+#     scrollable_frame_test()
+
 
 class ExtraWidgets(tk.Frame):
     def __init__(self, master=None):
@@ -446,6 +614,8 @@ class ExtraWidgets(tk.Frame):
         button22 = tk.Button(f2, text="button22")
         button22.pack()
         n.pack()
+
+import tkinter as tk
 
 if False:
     print("***********Testing gutil")

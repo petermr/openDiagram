@@ -223,7 +223,8 @@ class SearchDictionary:
                   list(binding.findall(NS_LITERAL, NS_MAP))
         entry_child = ET.Element(dict_name)
         entry_child.text = updates[0].text
-        entry.append(entry_child)
+        if entry_child.text is not None and len(entry_child.text.strip()) > 0:
+            entry.append(entry_child)
 #        print(">>", ET.tostring(entry))
 
     def write(self, file):
@@ -273,37 +274,50 @@ class SearchDictionary:
         """
 
         from constants import CEV_OPEN_DICT_DIR
+        import glob
+        from shutil import copyfile
+
         PLANT_DIR = os.path.join(CEV_OPEN_DICT_DIR, "eoPlant")
         assert (os.path.exists(PLANT_DIR))
         dictionary_file = os.path.join(PLANT_DIR, "eoPlant.xml")
         assert (os.path.exists(dictionary_file))
         PLANT_SPARQL_DIR = os.path.join(PLANT_DIR, "sparql_output")
         assert (os.path.exists(PLANT_SPARQL_DIR))
-        for i in range(1, 6):
-            sparql_file = os.path.join(PLANT_SPARQL_DIR, f"sparql_{i}.xml")
-            assert (os.path.exists(sparql_file))
-            dictionary = SearchDictionary(dictionary_file)
-            image_sparql_to_dictionary = {
+        rename_file = True
+
+        sparql_files = glob.glob(os.path.join(PLANT_SPARQL_DIR, "sparql_*.xml"))
+        sparql_files.sort()
+        sparql2dict_dict = {
+            "image" : {
                 "id_name": "item",
                 "sparql_name": "image_link",
                 "dict_name": "image",
-            }
-            dictionary.update_from_sparqlx(sparql_file, image_sparql_to_dictionary)
-            image_update_file = dictionary_file[:-(len(".xml"))]+f"_image_update_{i}"+".xml"
-            print("saving to", image_update_file)
-            dictionary.write(image_update_file)
-
-            dictionary = SearchDictionary(image_update_file)
-            taxon_sparql_to_dictionary = {
+            },
+            "taxon" : {
                 "id_name": "item",
                 "sparql_name": "taxon",
                 "dict_name": "synonym",
             }
-            assert(os.path.exists(image_update_file))
-            dictionary.update_from_sparqlx(sparql_file, taxon_sparql_to_dictionary)
-            taxon_update_file = dictionary_file[:-(len(".xml"))]+f"_image_taxon_update_{i}"+".xml"
-            print("saving to", taxon_update_file)
-            dictionary.write(taxon_update_file)
+        }
+
+        keystring = ""
+        original_name = dictionary_file
+        dictionary_root = os.path.splitext(dictionary_file)[0]
+        save_file = dictionary_root + ".xml.save"
+        copyfile(dictionary_file, save_file)
+        for key in sparql2dict_dict.keys():
+            sparq2dict = sparql2dict_dict[key]
+            keystring += f"_{key}"
+            for i, sparql_file in enumerate(sparql_files):
+                assert (os.path.exists(sparql_file))
+                dictionary = SearchDictionary(dictionary_file)
+                dictionary.update_from_sparqlx(sparql_file, sparq2dict)
+                dictionary_file = f"{dictionary_root}{keystring}_{i}.xml"
+                dictionary.write(dictionary_file)
+        if rename_file:
+            copyfile(dictionary_file, original_name)
+
+
 
 class AmiDictionaries:
 

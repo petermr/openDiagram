@@ -167,6 +167,7 @@ class SearchDictionary:
 
     def create_sparql_result_list(self, sparql_file):
         assert(os.path.exists(sparql_file))
+        print("sparql file", sparql_file)
         self.current_sparql = ET.parse(sparql_file, parser=ET.XMLParser(encoding="utf-8"))
         self.sparql_result_list = list(self.current_sparql.findall('SPQ:results/SPQ:result', NS_MAP))
         assert(len(self.sparql_result_list) > 0)
@@ -239,13 +240,13 @@ class SearchDictionary:
         dictionary_file = os.path.join(PLANT, "eoplant_part.xml")
         """
         <result>
-			<binding name='item'>
-				<uri>http://www.wikidata.org/entity/Q2923673</uri>
-			</binding>
-			<binding name='image'>
-				<uri>http://commons.wikimedia.org/wiki/Special:FilePath/White%20Branches.jpg</uri>
-			</binding>
-		</result>
+            <binding name='item'>
+                <uri>http://www.wikidata.org/entity/Q2923673</uri>
+            </binding>
+            <binding name='image'>
+                <uri>http://commons.wikimedia.org/wiki/Special:FilePath/White%20Branches.jpg</uri>
+            </binding>
+        </result>
 """
         sparql_to_dictionary = {
             "id_name": "item",
@@ -254,10 +255,55 @@ class SearchDictionary:
         }
         dictionary = SearchDictionary(dictionary_file)
         dictionary.update_from_sparqlx(sparql_file, sparql_to_dictionary)
-        ff = dictionary_file[:-(len(".xml"))]+"_update"+".xml"
+        ff = dictionary_file[:-(len(".xml"))] + "_update" + ".xml"
         print("saving to", ff)
         dictionary.write(ff)
 
+    @classmethod
+    def test_update_in_repo(cls):
+        """
+        <result>
+            <binding name='item'>
+                <uri>http://www.wikidata.org/entity/Q2923673</uri>
+            </binding>
+            <binding name='image'>
+                <uri>http://commons.wikimedia.org/wiki/Special:FilePath/White%20Branches.jpg</uri>
+            </binding>
+        </result>
+        """
+
+        from constants import CEV_OPEN_DICT_DIR
+        PLANT_DIR = os.path.join(CEV_OPEN_DICT_DIR, "eoPlant")
+        assert (os.path.exists(PLANT_DIR))
+        dictionary_file = os.path.join(PLANT_DIR, "eoPlant.xml")
+        assert (os.path.exists(dictionary_file))
+        PLANT_SPARQL_DIR = os.path.join(PLANT_DIR, "sparql_output")
+        assert (os.path.exists(PLANT_SPARQL_DIR))
+        for i in range(1, 6):
+            sparql_file = os.path.join(PLANT_SPARQL_DIR, f"sparql_{i}.xml")
+            assert (os.path.exists(sparql_file))
+            dictionary = SearchDictionary(dictionary_file)
+            image_sparql_to_dictionary = {
+                "id_name": "item",
+                "sparql_name": "image_link",
+                "dict_name": "image",
+            }
+            dictionary.update_from_sparqlx(sparql_file, image_sparql_to_dictionary)
+            image_update_file = dictionary_file[:-(len(".xml"))]+f"_image_update_{i}"+".xml"
+            print("saving to", image_update_file)
+            dictionary.write(image_update_file)
+
+            dictionary = SearchDictionary(image_update_file)
+            taxon_sparql_to_dictionary = {
+                "id_name": "item",
+                "sparql_name": "taxon",
+                "dict_name": "synonym",
+            }
+            assert(os.path.exists(image_update_file))
+            dictionary.update_from_sparqlx(sparql_file, taxon_sparql_to_dictionary)
+            taxon_update_file = dictionary_file[:-(len(".xml"))]+f"_image_taxon_update_{i}"+".xml"
+            print("saving to", taxon_update_file)
+            dictionary.write(taxon_update_file)
 
 class AmiDictionaries:
 
@@ -418,8 +464,11 @@ class AmiDictionaries:
 def main():
     """ debugging """
     option = "sparql"
+    option = "sparql_repo_1"
     if option == "sparql":
         SearchDictionary.test()
+    elif option == "sparql_repo_1":
+        SearchDictionary.test_update_in_repo()
     else:
         print("no option given")
 

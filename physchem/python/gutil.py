@@ -195,6 +195,8 @@ class Gutil:
         hide_button = tk.Button(hide_frame, text="hide "+title, command=lambda: Gutil.labeldeactive(
             frame, show_button, hide_button))
         hide_button.pack()
+        # leave in the hidden state. this should contract all frames within the master
+        # to a single "show" button
         Gutil.labeldeactive(frame, show_button, hide_button)
 
         return frame, title_var

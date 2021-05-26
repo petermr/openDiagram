@@ -76,6 +76,12 @@ class AmiGui(tk.Frame):
         self.create_display_frame(master)
         self.create_dashboard(master)
 
+    def main_text_display_button1(self, event):
+        print("Main button 1", event)
+
+    def main_text_display_selected(self, event):
+        print("Main selected", event, event.widget.selection_get())
+
     def create_display_frame(self, master):
         from file_lib import FileLib
 
@@ -86,6 +92,8 @@ class AmiGui(tk.Frame):
             self.main_display_frame, font=("Arial, 18"), width=60, height=10)
         self.main_text_display.insert(tk.END, "text_display")
         self.main_text_display.pack(side=tk.BOTTOM, expand=True)
+        self.main_text_display.bind("<Button-1>", self.main_text_display_button1)
+        self.main_text_display.bind("<<Selection>>", self.main_text_display_selected)
 
         self.label_display_var = tk.StringVar(value="label text")
         self.label_display = tk.Label(self.main_display_frame, textvariable=self.label_display_var)
@@ -726,6 +734,9 @@ class AmiGui(tk.Frame):
         s += ')'
         return s
 
+    def selected_text(event):
+        print("SELECTED", event)
+
     def display_query_output(self, master, lines):
         # Title Label
         frame = tk.Frame(master)
@@ -751,9 +762,11 @@ class AmiGui(tk.Frame):
         text = "\n".join(lines)
         text_area.insert(tk.INSERT, text)
         text_area.bind("<Button-1>", button1)
+        text_area.bind("<<Selected Text>>", self.selected_text)
         # Making the text read only
         #        text_area.configure(state='disabled')
         return text_area
+
 
     def read_entry_names(self, dictionary_file):
 #        print(dictionary_file)

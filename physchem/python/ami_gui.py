@@ -77,10 +77,21 @@ class AmiGui(tk.Frame):
         self.create_dashboard(master)
 
     def main_text_display_button1(self, event):
-        print("Main button 1", event)
+        # print("Main button 1", event)
+        pass
 
     def main_text_display_selected(self, event):
-        print("Main selected", event, event.widget.selection_get())
+        #print("Main selected", event, event.widget.selection_get())
+        pass
+
+    def process_selection(self, event):
+        text = self.get_main_text_on_release(event)
+        if text:
+            response = self.query_wikidata(text)
+
+    def get_main_text_on_release(self, event):
+        text = event.widget.selection_get() if event.widget.tag_ranges("sel") else None
+        return text
 
     def create_display_frame(self, master):
         from file_lib import FileLib
@@ -94,6 +105,7 @@ class AmiGui(tk.Frame):
         self.main_text_display.pack(side=tk.BOTTOM, expand=True)
         self.main_text_display.bind("<Button-1>", self.main_text_display_button1)
         self.main_text_display.bind("<<Selection>>", self.main_text_display_selected)
+        self.main_text_display.bind("<ButtonRelease>", self.process_selection)
 
         self.label_display_var = tk.StringVar(value="label text")
         self.label_display = tk.Label(self.main_display_frame, textvariable=self.label_display_var)
@@ -148,8 +160,8 @@ class AmiGui(tk.Frame):
 
     def view_main_xml_file(self, file):
         from xml_lib import XmlLib
-        root = XmlLib.parse_file_to_root(file)
-        for child in root:
+        self.xml_root = XmlLib.parse_file_to_root(file)
+        for child in self.xml_root:
             pass
 
     def create_image_label(self, image_path):
@@ -799,7 +811,19 @@ class AmiGui(tk.Frame):
         self.dcb_frame.pack()
         return self.dcb_frame
 
+    def query_wikidata(self, text):
+        url = self.create_wikidata_query_url(text)
+        with urlopen(url) as response:
+            the_page = response.read()
+            print(the_page)
 
+    def create_wikidata_query_url(self, text):
+        BASE_URL = "https://www.wikidata.org/w/index.php?search="
+        text = text.strip()
+        text = text.replace(" ", "+")
+        query = BASE_URL + text
+        return query
+# https://www.wikidata.org/w/index.php?search=lantana+camara&search=lantana+camara&title=Special%3ASearch&go=Go&ns0=1&ns120=1
 
 """unused"""
 

@@ -179,11 +179,15 @@ class SearchDictionary:
 #        id_element = "item"
         id_element = self.sparql_to_dictionary["id_name"]
         for result in self.sparql_result_list:
-            uri = list(result.findall("SPQ:binding[@name='%s']/SPQ:uri" % id_element, NS_MAP))[0]
-            wikidata_id = uri.text.split("/")[-1]
-            if not wikidata_id in self.sparql_result_by_wikidata_id:
-                self.sparql_result_by_wikidata_id[wikidata_id] = []
-            self.sparql_result_by_wikidata_id[wikidata_id].append(result)
+            bindings = result.findall("SPQ:binding[@name='%s']/SPQ:uri" % id_element, NS_MAP)
+            if len(bindings) == 0:
+                print("no bindings for {id_element}")
+            else:
+                uri = list(bindings)[0]
+                wikidata_id = uri.text.split("/")[-1]
+                if not wikidata_id in self.sparql_result_by_wikidata_id:
+                    self.sparql_result_by_wikidata_id[wikidata_id] = []
+                self.sparql_result_by_wikidata_id[wikidata_id].append(result)
 
     def check_unique_wikidata_ids(self):
         print("entries", len(self.entries))
@@ -261,7 +265,7 @@ class SearchDictionary:
         dictionary.write(ff)
 
     @classmethod
-    def test_update_in_repo(cls):
+    def test_plant(cls):
         """
         <result>
             <binding name='item'>
@@ -283,11 +287,12 @@ class SearchDictionary:
         assert (os.path.exists(dictionary_file))
         PLANT_SPARQL_DIR = os.path.join(PLANT_DIR, "sparql_output")
         assert (os.path.exists(PLANT_SPARQL_DIR))
-        rename_file = True
+        rename_file = False
 
         sparql_files = glob.glob(os.path.join(PLANT_SPARQL_DIR, "sparql_*.xml"))
+
         sparql_files.sort()
-        sparql2dict_dict = {
+        sparql2amidict_dict = {
             "image" : {
                 "id_name": "item",
                 "sparql_name": "image_link",
@@ -300,23 +305,190 @@ class SearchDictionary:
             }
         }
 
+    @classmethod
+    def test_invasive(cls):
+        """
+        """
+
+        from constants import CEV_OPEN_DICT_DIR
+        import glob
+        from shutil import copyfile
+
+        INVASIVE_DIR = os.path.join(CEV_OPEN_DICT_DIR, "invasive_species")
+        assert (os.path.exists(INVASIVE_DIR))
+        dictionary_file = os.path.join(INVASIVE_DIR, "invasive_plant.xml")
+        assert (os.path.exists(dictionary_file))
+        SPARQL_DIR = os.path.join(INVASIVE_DIR, "sparql_output")
+        assert (os.path.exists(SPARQL_DIR))
+        rename_file = False
+
+        sparql_files = glob.glob(os.path.join(SPARQL_DIR, "sparql_*.xml"))
+
+        sparql_files.sort()
+        sparql2amidict_dict = {
+            "image": {
+                "id_name": "item",
+                "sparql_name": "image_link",
+                "dict_name": "image",
+            },
+            "map": {
+                "id_name": "item",
+                "sparql_name": "taxon_range_map_image",
+                "dict_name": "image",
+            },
+            # "taxon": {
+            #     "id_name": "item",
+            #     "sparql_name": "taxon",
+            #     "dict_name": "synonym",
+            # }
+        }
+
+        SearchDictionary.apply_dicts_and_sparql(dictionary_file, rename_file, sparql2amidict_dict, sparql_files)
+
+    @classmethod
+    def test_plant_genus(cls):
+        """
+        """
+
+        from constants import CEV_OPEN_DICT_DIR
+        import glob
+        from shutil import copyfile
+
+        DICT_DIR = os.path.join(CEV_OPEN_DICT_DIR, "plant_genus")
+        assert (os.path.exists(DICT_DIR))
+        dictionary_file = os.path.join(DICT_DIR, "plant_genus.xml")
+        assert (os.path.exists(dictionary_file))
+        SPARQL_DIR = os.path.join(DICT_DIR, "raw")
+        assert (os.path.exists(SPARQL_DIR))
+        rename_file = False
+
+        sparql_files = glob.glob(os.path.join(SPARQL_DIR, "sparql_test_concatenation.xml"))
+
+        sparql_files.sort()
+        sparql2amidict_dict = {
+            "image": {
+                "id_name": "plant_genus",
+                "sparql_name": "images",
+                "dict_name": "image",
+            },
+            "map": {
+                "id_name": "plant_genus",
+                "sparql_name": "taxon_range_map_image",
+                "dict_name": "map",
+            },
+            "wikipedia": {
+                "id_name": "plant_genus",
+                "sparql_name": "wikipedia",
+                "dict_name": "wikipedia",
+            },
+            # "taxon": {
+            #     "id_name": "item",
+            #     "sparql_name": "taxon",
+            #     "dict_name": "synonym",
+            # }
+        }
+
+        SearchDictionary.apply_dicts_and_sparql(dictionary_file, rename_file, sparql2amidict_dict, sparql_files)
+
+    @classmethod
+    def test_compound(cls):
+        """
+        """
+
+        from constants import CEV_OPEN_DICT_DIR
+        import glob
+        from shutil import copyfile
+
+        DICT_DIR = os.path.join(CEV_OPEN_DICT_DIR, "eoCompound")
+        assert (os.path.exists(DICT_DIR))
+        dictionary_file = os.path.join(DICT_DIR, "plant_compound.xml")
+        assert (os.path.exists(dictionary_file))
+        SPARQL_DIR = os.path.join(DICT_DIR, "raw")
+        SPARQL_DIR = DICT_DIR
+        assert (os.path.exists(SPARQL_DIR))
+        rename_file = False
+
+        sparql_files = glob.glob(os.path.join(SPARQL_DIR, "sparql_6.xml"))
+
+        sparql_files.sort()
+        sparql2amidict_dict = {
+            "image": {
+                "id_name": "item",
+                "sparql_name": "t",
+                "dict_name": "image",
+            },
+            "chemform": {
+                "id_name": "item",
+                "sparql_name": "chemical_formula",
+                "dict_name": "chemical_formula",
+            },
+            "wikipedia": {
+                "id_name": "plant_genus",
+                "sparql_name": "wikipedia",
+                "dict_name": "wikipedia",
+            },
+            # "taxon": {
+            #     "id_name": "item",
+            #     "sparql_name": "taxon",
+            #     "dict_name": "taxon",
+            # }
+        }
+
+        SearchDictionary.apply_dicts_and_sparql(dictionary_file, rename_file, sparql2amidict_dict, sparql_files)
+
+    @classmethod
+    def test_plant_part(cls):
+        """
+        """
+        # current dictionary does not need updating
+
+        from constants import CEV_OPEN_DICT_DIR
+        import glob
+        from shutil import copyfile
+
+        DICT_DIR = os.path.join(CEV_OPEN_DICT_DIR, "eoPlantPart")
+        assert (os.path.exists(DICT_DIR))
+        dictionary_file = os.path.join(DICT_DIR, "eoplant_part.xml")
+        assert (os.path.exists(dictionary_file))
+        SPARQL_DIR = os.path.join(DICT_DIR, "raw")
+        SPARQL_DIR = DICT_DIR
+        assert (os.path.exists(SPARQL_DIR))
+        rename_file = False
+
+        sparql_files = glob.glob(os.path.join(SPARQL_DIR, "sparql.xml"))
+
+        sparql_files.sort()
+        sparql2amidict_dict = {
+            "image": {
+                "id_name": "item",
+                "sparql_name": "image",
+                "dict_name": "image",
+            },
+        }
+
+        SearchDictionary.apply_dicts_and_sparql(dictionary_file, rename_file, sparql2amidict_dict, sparql_files)
+
+    @classmethod
+    def apply_dicts_and_sparql(cls, dictionary_file, rename_file, sparql2amidict_dict, sparql_files):
+        from shutil import copyfile
+
         keystring = ""
+        # svae original file
         original_name = dictionary_file
         dictionary_root = os.path.splitext(dictionary_file)[0]
         save_file = dictionary_root + ".xml.save"
         copyfile(dictionary_file, save_file)
-        for key in sparql2dict_dict.keys():
-            sparq2dict = sparql2dict_dict[key]
+        for key in sparql2amidict_dict.keys():
+            sparq2dict = sparql2amidict_dict[key]
             keystring += f"_{key}"
             for i, sparql_file in enumerate(sparql_files):
                 assert (os.path.exists(sparql_file))
                 dictionary = SearchDictionary(dictionary_file)
                 dictionary.update_from_sparqlx(sparql_file, sparq2dict)
-                dictionary_file = f"{dictionary_root}{keystring}_{i}.xml"
+                dictionary_file = f"{dictionary_root}{keystring}_{i + 1}.xml"
                 dictionary.write(dictionary_file)
         if rename_file:
             copyfile(dictionary_file, original_name)
-
 
 
 class AmiDictionaries:
@@ -478,11 +650,23 @@ class AmiDictionaries:
 def main():
     """ debugging """
     option = "sparql"
-    option = "sparql_repo_1"
+    option = "plant"
+    option = "invasive"
+    option = "genus"
+    option = "compound"
+    option = "plant_part"
     if option == "sparql":
         SearchDictionary.test()
-    elif option == "sparql_repo_1":
-        SearchDictionary.test_update_in_repo()
+    elif option == "plant":
+        SearchDictionary.test_plant()
+    elif option == "invasive":
+        SearchDictionary.test_invasive()
+    elif option == "genus":
+        SearchDictionary.test_plant_genus()
+    elif option == "compound":
+        SearchDictionary.test_compound()
+    elif option == "plant_part":
+        SearchDictionary.test_plant_part()
     else:
         print("no option given")
 

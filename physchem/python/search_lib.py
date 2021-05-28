@@ -295,7 +295,7 @@ class AmiSearch:
                 for section_type in self.section_types:
                     self.glob_for_section_files(proj, section_type)
                     sections = self.section_make_counter_and_plot()
-                    if self.use_rake
+                    if self.use_rake:
                         self.analyze_all_words_with_Rake(sections)
 
             if self.use_rake:   # uses fulltext.txt

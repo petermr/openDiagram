@@ -41,6 +41,7 @@ class AmiSearch:
         self.do_search = True
         self.do_plot = True
         self.ami_projects = AmiProjects()
+        self.use_rake = True    #change later
 
         self.param_dict = {
             "max_bars" : 10,
@@ -293,9 +294,11 @@ class AmiSearch:
             if len(self.section_types) > 0:
                 for section_type in self.section_types:
                     self.glob_for_section_files(proj, section_type)
-                    self.section_make_counter_and_plot()
-                    self.extract_keywords()
-            else:
+                    sections = self.section_make_counter_and_plot()
+                    if self.use_rake
+                        self.analyze_all_words_with_Rake(sections)
+
+            if self.use_rake:   # uses fulltext.txt
                 files = self.glob_fulltext(proj)
                 print("fulltext.txt", files)
                 text = ""
@@ -303,6 +306,7 @@ class AmiSearch:
                     with open(file, "r") as f:
                         text += f.read()
                 self.analyze_text_with_Rake(text)
+            continue
 
     def glob_fulltext(self, proj):
         globstr = os.path.join(proj.dir, "*/fulltext*.txt")
@@ -315,7 +319,9 @@ class AmiSearch:
         self.section_files = templates.get_globbed_files()
         print("***** section_files", section_type, len(self.section_files))
 
+
     def section_make_counter_and_plot(self):
+        """TODO get sections managed better"""
         counter_by_tool, pattern_dict, _, sections = self.search_and_count(self.section_files)
         self.plot_tool_hits(counter_by_tool)
         self.plot_tool_hits(pattern_dict)
@@ -323,7 +329,7 @@ class AmiSearch:
 #        print(all_words)
         counter = Counter(all_words)
         self.plot_and_make_dictionary(counter, "ALL")
-        self.analyze_all_words_with_Rake(sections)
+        return sections
 
     def analyze_all_words_with_Rake(self, sections):
         text = ""
@@ -343,9 +349,6 @@ class AmiSearch:
         text = self.remove_line_ends(text)
         self.rake = AmiRake(self)
         phrases = self.rake.analyze_text_with_RAKE(text)
-
-    def extract_keywords(self):
-        pass
 
     def plot_tool_hits(self, counter_by_tool):
         for tool in counter_by_tool:
@@ -440,7 +443,18 @@ class AmiSearch:
                 print(">>", phrase)
                 ami_gui.main_text_display.insert(tk.END, phrase+"\n")
 
+    def save_rake_keywords(self, keywords):
 
+        text = ""
+        for line in keywords:
+            text += line+"\n"
+        dir = os.path.join(self.cur_proj.dir, "results", "rake")
+        if not os.path.exists(dir):
+            os.makedirs(dir)
+        file = os.path.join(dir, "keywords.txt")
+        with open(file, "w", encoding="utf-8") as f:
+            f.write(text)
+            print(f"wrote {file}")
 
 class AmiRun:
 
@@ -599,6 +613,7 @@ class AmiRake:
         self.method = 1
         # method 2 favours equation components but is a lot faster
 #        self.method = 2
+        self.checkbox_results = []
 
     def analyze_text_with_RAKE(self, text):
 
@@ -621,7 +636,8 @@ class AmiRake:
         from gutil import ScrollingCheckboxList
         import tkinter as tk
         toplevel = tk.Toplevel(master)
-        scl = ScrollingCheckboxList(toplevel)
+        results = []
+        scl = ScrollingCheckboxList(toplevel, receiver=self)
         scl.pack(side="top", fill="both", expand=True)
         scl.add_string_values(phrases)
 
@@ -662,6 +678,13 @@ class AmiRake:
         """
         tup.sort(key = lambda x: x[1])
         return tup
+
+    def receive_checked_values(self, values):
+        self.checked_values = values
+        print("V", len(values), values)
+        self.ami_search.save_rake_keywords(values)
+
+
 
 def test_profile():
     import cProfile

@@ -452,7 +452,6 @@ class AmiGui(tk.Frame):
         ami_search.ami_projects = self.current_ami_projects
         ami_guix = self
         ami_search.run_search_from_gui(ami_guix)
-#        ami_search.disease_demo()
 
     def make_getpapers_args(self, frame):
         getpapers_args_frame = tk.Frame(frame,

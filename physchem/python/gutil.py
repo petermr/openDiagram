@@ -415,7 +415,7 @@ class AmiTree:
 #
 #         # create a canvas object and a vertical scrollbar for scrolling it
 #         self.vscrollbar = tk.Scrollbar(self, orient=tk.VERTICAL)
-#         self.vscrollbar.pack(side='right', fill="y",  expand="false")
+#         self.vscrollbar.pack(side='right', fill="y",  expand="false")C
 #         self.canvas = tk.Canvas(self,
 #                                 bg='#aaa', bd=0,
 #                                 height=350,
@@ -483,6 +483,7 @@ class ScrollingCheckboxList(tk.Frame):
     def __init__(self, master, receiver=None, *args, **kwargs):
         tk.Frame.__init__(self, master, *args, **kwargs)
         self.master = master
+        self.receiver = receiver
 
         self.vsb = tk.Scrollbar(self, orient="vertical")
         self.text = tk.Text(self, width=40, height=20,
@@ -492,7 +493,7 @@ class ScrollingCheckboxList(tk.Frame):
 
         self.text.pack(side="left", fill="both", expand=True)
 
-        button = ttk.Button(self.master, text="print items", command=self.get_checked_values)
+        button = ttk.Button(self.master, text="save", command=self.get_checked_values)
         button.pack(side=tk.TOP)
 
         self.cbs = []
@@ -520,10 +521,13 @@ class ScrollingCheckboxList(tk.Frame):
         pass
 
     def get_checked_values(self):
-        self.receiver.checked_values = []
+        checked_values = []
         for i, cb in enumerate(self.cbs):
             if cb.instate(['selected']):
-                self.receiver.checked_values.append(cb.cget("text"))
+                checked_values.append(cb.cget("text"))
+        self.receiver.receive_checked_values(checked_values)
+
+
 
 
 def scrollable_checkbox_test():

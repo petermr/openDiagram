@@ -18,27 +18,73 @@ from gutil import Gutil
 
 
 # entry
-WIKIDATA_ID = "wikidataID"
 NS_MAP = {'SPQ': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
 NS_URI = "SPQ:uri"
 NS_LITERAL = "SPQ:literal"
+
+
+WIKIDATA_QUERY_URI = "https://www.wikidata.org/w/index.php?search="
+WIKIDATA_SITE = "https://www.wikidata.org/wiki/"
+
+STATEMENTS = "statements"
+#  html tags/attributes
+HREF = "href"
+TITLE = "title"
+BODY = "body"
+
+# HTML classes in WD search output
+SEARCH_RESULT = "searchresult"
+MW_SEARCH_RESULT_DATA = "mw-search-result-data"
+MW_SEARCH_RESULTS = "mw-search-results"
+MW_SEARCH_RESULT_HEADING = "mw-search-result-heading"
+
+# elements in amidict
+DICTIONARY = "dictionary"
+ENTRY = "entry"
+IMAGE = "image"
+TITLE = "title"
+WIKIPEDIA = "wikipedia"
+
+# attributes in amidict
+DESC = "desc"
+NAME = "name"
+TERM = "term"
+WIKIDATA_ID = "wikidataID"
+WIKIPEDIA_PAGE = "wikipediaPage"
+# elements
+
+# elements in SPARQL output
+SPQ_RESULTS = "SPQ:results"
+SPQ_RESULT = "SPQ:result"
+SPQ_URI = "SPQ:uri"
+SPQ_BINDING = "SPQ:binding"
+
+# names mapping SPARQL output to amidict
+ID_NAME = "id_name"
+SPQ_NAME = "sparql_name"
+DICT_NAME = "dict_name"
+
 
 class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 
     """
-    TERM = "term"
 
-    def __init__(self, xml_file=None, name=None, **kwargs):
+    def __init__(self, xml_file=None, name=None, wikilangs=None, **kwargs):
         self.amidict = None
         self.entries = []
+        self.entry_by_term = {}
         self.entry_by_wikidata_id = {}
         self.file = xml_file
         self.ignorecase = None
         self.name = None
         self.root = None
+        self.sparql_result_list = None
+        self.sparql_result_by_wikidata_id = None
+        self.sparql_to_dictionary = None
         self.split_terms = False
         self.term_set = set()
+        self.wikilangs = wikilangs
 
         if xml_file is not None:
             if not os.path.exists(xml_file):
@@ -65,7 +111,7 @@ class SearchDictionary:
         self.name = self.root.attrib["title"]
         self.ignorecase = ignorecase
 
-        self.entries = list(self.root.findall("entry"))
+        self.entries = list(self.root.findall(ENTRY))
         self.create_entry_by_term();
         self.term_set = set()
 #        print("read dictionary", self.name, "with", len(self.entries), "entries")
@@ -122,7 +168,7 @@ class SearchDictionary:
     def get_xml_and_image_url(self, term):
         entry = self.get_entry(term)
         entry_xml = ET.tostring(entry)
-        image_url = entry.find(".//image")
+        image_url = entry.find(".//" + IMAGE)
         return entry_xml, image_url.text if image_url is not None else None
 
     def add_processed_term(self, term):
@@ -150,7 +196,6 @@ class SearchDictionary:
                 for sentence in sentence_list:
                     if term in sentence.lower():
                         matched.append(term)
-                        print("MATCHED MULTIWORD", term)
         return matched
 
     def get_entry(self, term):
@@ -159,6 +204,7 @@ class SearchDictionary:
         entry = self.entry_by_term[term] if term in self.entry_by_term else None
         if entry is None:
             print("entry by term", self.entry_by_term)
+            pass
         return entry
 
     def create_entry_by_term(self):
@@ -175,17 +221,15 @@ class SearchDictionary:
         assert(os.path.exists(sparql_file))
         print("sparql file", sparql_file)
         self.current_sparql = ET.parse(sparql_file, parser=ET.XMLParser(encoding="utf-8"))
-        self.sparql_result_list = list(self.current_sparql.findall('SPQ:results/SPQ:result', NS_MAP))
+        self.sparql_result_list = list(self.current_sparql.findall(SPQ_RESULTS + "/" + SPQ_RESULT, NS_MAP))
         assert(len(self.sparql_result_list) > 0)
         print("results", len(self.sparql_result_list))
 
     def create_sparql_result_by_wikidata_id(self):
         self.sparql_result_by_wikidata_id = {}
-#        print("results", len(self.sparql_result_list))
-#        id_element = "item"
-        id_element = self.sparql_to_dictionary["id_name"]
+        id_element = self.sparql_to_dictionary[ID_NAME]
         for result in self.sparql_result_list:
-            bindings = result.findall("SPQ:binding[@name='%s']/SPQ:uri" % id_element, NS_MAP)
+            bindings = result.findall(SPQ_BINDING + "[@name='%s']/" + SPQ_URI % id_element, NS_MAP)
             if len(bindings) == 0:
                 print("no bindings for {id_element}")
             else:
@@ -213,16 +257,14 @@ class SearchDictionary:
     def update_dictionary_from_sparql(self):
 
         print("sparql result by id", len(self.sparql_result_by_wikidata_id))
-#        sparql_name = "image"
-#        dict_name = "image"
-        sparql_name = self.sparql_to_dictionary["sparql_name"]
-        dict_name = self.sparql_to_dictionary["dict_name"]
+        sparql_name = self.sparql_to_dictionary[SPQ_NAME]
+        dict_name = self.sparql_to_dictionary[DICT_NAME]
         for wikidata_id in self.sparql_result_by_wikidata_id.keys():
             if wikidata_id in self.entry_by_wikidata_id.keys():
                 entry = self.entry_by_wikidata_id[wikidata_id]
                 result_list = self.sparql_result_by_wikidata_id[wikidata_id]
                 for result in result_list:
-                    bindings = list(result.findall("SPQ:binding[@name='" + sparql_name + "']", NS_MAP))
+                    bindings = list(result.findall(SPQ_BINDING + "/" +"[@name='" + sparql_name + "']", NS_MAP))
                     if len(bindings) > 0:
                         binding = bindings[0]
                         self.update_entry(entry, binding, dict_name)
@@ -244,45 +286,67 @@ class SearchDictionary:
             et.write(f, encoding="utf-8", xml_declaration=True, pretty_print=True)
 
     def add_wikidata_from_terms(self):
-        entries = self.root.findall("entry")
+        entries = self.root.findall(ENTRY)
         for entry in entries:
-            term = entry.attrib["term"]
-            self.lookup_wikidata(term)
+            term = entry.attrib[TERM]
+            qitem, desc = self.lookup_wikidata(term)
+            entry.attrib[WIKIDATA_ID] = qitem
+            entry.attrib[DESC] = desc
+            wikipedia_dict = SearchDictionary.get_wikipedia_page_links(qitem, self.wikilangs)
+            for wp in wikipedia_dict.items():
+                if wp[0] == "en":
+                    entry.attrib[WIKIPEDIA_PAGE] = wp[1]
+                else:
+                    wikipedia = ET.SubElement(entry, WIKIPEDIA)
+                    wikipedia.attrib["lang"] = wp[0]
+                    wikipedia.text = wp[1]
 
     def lookup_wikidata(self, term):
         import pprint
-
         from urllib.request import urlopen
         from urllib.request import quote
+
         uterm = quote(term.encode('utf8'))
-        url = f"https://www.wikidata.org/w/index.php?search={uterm}"
-        with urlopen(url) as u:
-            content = u.read()
-        root = ET.fromstring(content)
-        body = root.find("body")
-        uls = body.findall(".//ul[@class='mw-search-results']")
+        url = WIKIDATA_QUERY_URI + uterm
+        root = self.get_html_root(url)
+        body = root.find(BODY)
+        uls = body.findall(".//ul[@class='" + MW_SEARCH_RESULTS + "']")
         if len(uls) > 0:
             wikidata_dict = {}
             for li in uls[0]:
-                result_heading_a = li.find("./div[@class='mw-search-result-heading']/a")
-                qitem = result_heading_a.attrib["href"].split("/")[-1]
+                result_heading_a = li.find("./div[@class='" + MW_SEARCH_RESULT_HEADING + "']/a")
+                qitem = result_heading_a.attrib[HREF].split("/")[-1]
                 if qitem in wikidata_dict:
                     print(f"duplicate wikidata entry {qitem}")
                     continue
                 sub_dict = {}
                 wikidata_dict[qitem] = sub_dict
                 # make title from text children not tooltip
-                sub_dict["title"] = ''.join(result_heading_a.itertext()).split("(Q")[0]
-                sub_dict["desc"] = li.find("./div[@class='searchresult']/span").text
+                sub_dict[TITLE] = ''.join(result_heading_a.itertext()).split("(Q")[0]
+                sub_dict[DESC] = li.find("./div[@class='" + SEARCH_RESULT + "']/span").text
                 # just take statements at present (n statements or 1 statement)
-                sub_dict["statements"] = li.find("./div[@class='mw-search-result-data']").text.split(",")[0].split(" statement")[0]
+                sub_dict[STATEMENTS] = li.find("./div[@class='" + MW_SEARCH_RESULT_DATA + "']").text.split(",")[0].split(" statement")[0]
 
             for item in wikidata_dict.items():
                 # print(">", str(item))
                 pass
-            sort_orders = sorted(wikidata_dict.items(), key=lambda item : int(item[1]["statements"]), reverse=True)
+            sort_orders = sorted(wikidata_dict.items(), key=lambda item : int(item[1][STATEMENTS]), reverse=True)
             pprint.pprint(sort_orders[0:3])
+        #  take the first
+        qitem = sort_orders[0]
+        return qitem[0], qitem[1]["desc"]
 
+    @classmethod
+    def get_html_root(cls, url):
+        from io import StringIO
+        from urllib.request import urlopen
+        from lxml import etree
+
+        with urlopen(url) as u:
+            content = u.read().decode("utf-8")
+            # print(len(content), type(content), content[:300])
+        tree = etree.parse(StringIO(content), etree.HTMLParser())
+        return tree.getroot()
 
     # <li class="mw-search-result">
     # <div class="mw-search-result-heading">
@@ -325,28 +389,105 @@ class SearchDictionary:
         #     print(">>", line)
 
     @classmethod
-    def create_from_words(cls, terms, name=None, desc=None):
+    def get_root_for_item(cls, qitem):
+        root = cls.get_html_root(WIKIDATA_SITE + qitem)
+        return root
+
+    @classmethod
+    def get_wikipedia_page_links(cls, qitem, lang_list):
+        root = cls.get_root_for_item(qitem)
+        """
+<h2 class="wb-section-heading section-heading wikibase-sitelinks" dir="auto">
+  <span class="mw-headline" id="sitelinks">Sitelinks</span></h2>
+  <div class="wikibase-sitelinkgrouplistview">
+    <div class="wikibase-listview">
+      <div class="wikibase-sitelinkgroupview mw-collapsible" data-wb-sitelinks-group="wikipedia">
+        <div class="wikibase-sitelinkgroupview-heading-section">
+          <div class="wikibase-sitelinkgroupview-heading-container">
+            <h3 class="wb-sitelinks-heading" dir="auto" id="sitelinks-wikipedia">Wikipedia<span class="wikibase-sitelinkgroupview-counter">(27 entries)</span></h3>
+            <span class="wikibase-toolbar-container">
+              <span class="wikibase-toolbar-item wikibase-toolbar ">
+                <span class="wikibase-toolbar-item wikibase-toolbar-button wikibase-toolbar-button-edit">
+                  <a href="/wiki/Special:SetSiteLink/Q144362" title="">
+                    <span class="wb-icon"></span>edit
+                  </a>
+                </span>
+            </span>
+        </span>
+        </div>
+        </div>
+<div class="mw-collapsible-content">
+<div class="wikibase-sitelinklistview">
+<ul class="wikibase-sitelinklistview-listview">
+  <li class="wikibase-sitelinkview wikibase-sitelinkview-arwiki" data-wb-siteid="arwiki">
+    <span class="wikibase-sitelinkview-siteid-container">
+      <span class="wikibase-sitelinkview-siteid wikibase-sitelinkview-siteid-arwiki" title="Arabic">arwiki</span>
+    </span>
+    <span class="wikibase-sitelinkview-link wikibase-sitelinkview-link-arwiki">
+      <span class="wikibase-sitelinkview-page" dir="auto" lang="ar">
+        <a href="https://ar.wikipedia.org/wiki/%D8%A2%D8%B2%D9%88%D9%84%D9%8A%D9%86" hreflang="ar" title="آزولين">آزولين</a>
+      </span>
+      <span class="wikibase-badgeselector wikibase-sitelinkview-badges"></span>
+    </span>
+  </li>
+  ...
+  <li class="wikibase-sitelinkview wikibase-sitelinkview-enwiki" data-wb-siteid="enwiki">
+    <span class="wikibase-sitelinkview-siteid-container">
+      <span class="wikibase-sitelinkview-siteid wikibase-sitelinkview-siteid-enwiki" title="English">enwiki</span>
+    </span>
+    <span class="wikibase-sitelinkview-link wikibase-sitelinkview-link-enwiki">
+      <span class="wikibase-sitelinkview-page" dir="auto" lang="en">
+        <a href="https://en.wikipedia.org/wiki/Azulene" hreflang="en" title="Azulene">Azulene</a>
+      </span>
+      <span class="wikibase-badgeselector wikibase-sitelinkview-badges"></span>
+    </span>
+  </li>
+        """
+        # ul = root.find(".//ul[@class='" + "wikibase-sitelinklistview-listview" +"']")
+        #     li_lang = ul.find("./li[@data-wb-siteid='" +f"{lang}wiki" + "']")
+        #     ahref = li_lang.find(".//a[@hreflang]")
+        #     print(ahref.attrib["href"])
+
+        lang_pages = {}
+        for lang in lang_list:
+            href_lang = ".//ul[@class='" + "wikibase-sitelinklistview-listview" + "']" + "/li[@data-wb-siteid='" + f"{lang}wiki" + "']" + "//a[@hreflang]"
+            a = root.find(href_lang)
+            if a is not None:
+                lang_pages[lang] = a.attrib[HREF]
+        return lang_pages
+
+    # -------------------tests------------------
+
+    @classmethod
+    def test_parse_wikidata_page(cls):
+        qitem = "Q144362" # azulene
+        ahref_dict = cls.get_wikipedia_page_links(qitem, ["en", "de", "zz"])
+        print(ahref_dict)
+
+    @classmethod
+    def create_from_words(cls, terms, name=None, desc=None, wikilangs=None):
         if name is None:
             name="no_name"
-        dictionary = SearchDictionary(name=name)
-        dictionary.root = ET.Element("dictionary")
-        dictionary.root.attrib["title"] = name
+        dictionary = SearchDictionary(name=name, wikilangs=wikilangs)
+        dictionary.root = ET.Element(DICTIONARY)
+        dictionary.root.attrib[TITLE] = name
         if desc:
-            desc_elem = ET.SubElement(dictionary.root, "desc")
+            desc_elem = ET.SubElement(dictionary.root, DESC)
             desc_elem.text = desc
         for term in terms:
-            entry = ET.SubElement(dictionary.root, "entry")
-            entry.attrib["name"] = term
-            entry.attrib["term"] = term
+            entry = ET.SubElement(dictionary.root, ENTRY)
+            entry.attrib[NAME] = term
+            entry.attrib[TERM] = term
         return dictionary
 
 
     @classmethod
     def test_create_from_words(cls):
+        from lxml import etree
         words = ["limonene", "alpha-pinene", "lantana camara"]
-        dictionary = SearchDictionary.create_from_words(words, "test", "created from words")
+        dictionary = SearchDictionary.create_from_words(words, "test", "created from words", wikilangs=["en", "de"])
         dictionary.add_wikidata_from_terms()
-        print("dict", ET.tostring(dictionary.root, pretty_print=False))
+        print(etree.tostring(dictionary.root, pretty_print=True).decode("utf-8"))
 
     @classmethod
     def test(cls):
@@ -492,11 +633,6 @@ class SearchDictionary:
                 "sparql_name": "wikipedia",
                 "dict_name": "wikipedia",
             },
-            # "taxon": {
-            #     "id_name": "item",
-            #     "sparql_name": "taxon",
-            #     "dict_name": "synonym",
-            # }
         }
 
         SearchDictionary.apply_dicts_and_sparql(dictionary_file, rename_file, sparql2amidict_dict, sparql_files)
@@ -768,6 +904,7 @@ def main():
     option = "compound"
     option = "plant_part"
     option = "test_dict"
+    # option = "wikipedia"
     if option == "sparql":
         SearchDictionary.test()
     elif option == "plant":
@@ -782,6 +919,8 @@ def main():
         SearchDictionary.test_plant_part()
     elif option == "test_dict":
         SearchDictionary.test_create_from_words()
+    elif option == "wikipedia":
+        SearchDictionary.test_parse_wikidata_page()
     else:
         print("no option given")
 

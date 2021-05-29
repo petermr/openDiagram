@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t1-materials-07-02631" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>The mass fraction of alloying elements by percent, as well as the standard composition according to EN 573-3.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Mass fraction in %</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Si</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Fe</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Cu</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Mn</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Mg</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Cr</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Zn</th>
+    <th align="center" valign="bottom" rowspan="1" colspan="1">Ti</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="top" rowspan="1" colspan="1">EN AW-6005A</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.68</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.01</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.11</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.57</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.04</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.01</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.018</td>
+   </tr>
+   <tr>
+    <td align="center" valign="top" rowspan="1" colspan="1">EN 573-3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.5–0.9</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">&lt;0.35</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">&lt;0.3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">&lt;0.5</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">0.4–0.7</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">&lt;0.3</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">&lt;0.2</td>
+    <td align="center" valign="top" rowspan="1" colspan="1">&lt;0.1</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

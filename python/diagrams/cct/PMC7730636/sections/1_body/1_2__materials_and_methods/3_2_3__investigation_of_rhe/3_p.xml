@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Defined input parameters for compression test using of DIL 805A/D are temperature (
+ <italic>t),</italic> deformation (
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mi>φ</mi>
+   </mrow>
+  </math>
+ </inline-formula>) and deformation rate (
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mover accent="true">
+     <mi>φ</mi>
+     <mo>˙</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>). The experiments were performed at temperatures of 900, 1000, 1100 and 1200 °C; strain rate from 0.001 to 10 s
+ <sup>−1</sup> and maximum strain 0.9. At the end of experiment, all samples were cooled at a constant cooling rate 20 °C/s. Samples were made in form of cylinder with diameter of 5 mm and length of 10 mm. Moreover, in these experiments, average values were obtained from 4 identical measurements to obtain relevant values. Due to the friction of the contact surfaces between the sample and the compression pistons of the dilatometry device, the stresses were corrected as [
+ <xref rid="B27-materials-13-05585" ref-type="bibr">27</xref>]:
+ <disp-formula id="FD1-materials-13-05585">
+  <label>(1)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>σ</mi>
+        <mn>0</mn>
+       </msub>
+       <msup>
+        <mi>C</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mfenced close="]" open="[">
+        <mrow>
+         <mi>exp</mi>
+         <mfenced>
+          <mi>C</mi>
+         </mfenced>
+         <mo>−</mo>
+         <mi>C</mi>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where σ is the friction corrected true stress, and σ
+ <sub>0</sub> is the measured true stress. Parameter 
+ <italic>C</italic> can be determined as:
+ <disp-formula id="FD2-materials-13-05585">
+  <label>(2)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mi>m</mi>
+       <mi>R</mi>
+      </mrow>
+      <mi>h</mi>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

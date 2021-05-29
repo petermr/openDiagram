@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on the continuum theory, a special form of material (or material-time) derivative for any physical quantity 
+ <italic>ψ</italic> under motion status in Eulerian coordinate has been proposed by Ju [
+ <xref rid="B38-materials-10-00420" ref-type="bibr">38</xref>]:
+ <disp-formula id="FD6-materials-10-00420">
+  <label>(6)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>ψ</mi>
+      <mo>˙</mo>
+     </mover>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>D</mi>
+       <mi>ψ</mi>
+      </mrow>
+      <mrow>
+       <mi>D</mi>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>ψ</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mi>v</mi>
+     <mo>×</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>ψ</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>x</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>ν</italic> is the velocity vector of material point, 
+ <bold>
+  <italic>x</italic>
+ </bold> is a vector and represents a space-fixed coordinate system. According to the theory above, considering the thermal phenomenon of the molten pool, cooling rate 
+ <italic>R</italic>(
+ <italic>T</italic>) at the center of pool was calculated by:
+ <disp-formula id="FD7-materials-10-00420">
+  <label>(7)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mi>R</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>T</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>D</mi>
+       <mi>T</mi>
+      </mrow>
+      <mrow>
+       <mi>D</mi>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>T</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mi>ν</mi>
+     <mo>×</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>T</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>y</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>T</italic> is the temperature at pool center, 
+ <italic>y</italic> is the location in the pool height direction, 
+ <italic>ν</italic> is the velocity of the local melt, and 
+ <italic>t</italic> is the time.
+</p>

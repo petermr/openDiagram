@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to obtain a good hardened zone profile in the FEM analysis, the heat source parameters had to be manipulated to calibrate the hardened region shape. This phase was very important in order to obtain the accurateness of the simulation. The cylindrical heat source model was identified by three parameters (see 
+ <xref ref-type="fig" rid="materials-12-03136-f004">Figure 4</xref>). They were the heat source upper and lower radius (r
+ <sub>o</sub>), and the cylindrical heat source depth (d). 
+ <xref rid="materials-12-03136-t006" ref-type="table">Table 6</xref> displays the adopted heat source parameters at the end of the calibration process.
+</p>

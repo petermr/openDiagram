@@ -29,21 +29,27 @@ class SearchDictionary:
     """
     TERM = "term"
 
-    def __init__(self, file, **kwargs):
+    def __init__(self, xml_file=None, name=None, **kwargs):
         self.amidict = None
-        self.root = None
-        self.name = None
         self.entries = []
         self.entry_by_wikidata_id = {}
-        self.file = file
+        self.file = xml_file
         self.ignorecase = None
-        self.entries = []
+        self.name = None
+        self.root = None
+        self.split_terms = False
         self.term_set = set()
 
-        if not os.path.exists(file):
-            raise IOError("cannot find file " + str(file))
-        self.read_dictionary(file)
-        self.name = file.split("/")[-1:][0].split(".")[0]
+        if xml_file is not None:
+            if not os.path.exists(xml_file):
+                raise IOError("cannot find file " + str(xml_file))
+            self.read_dictionary_from_xml_file(xml_file)
+            self.name = xml_file.split("/")[-1:][0].split(".")[0]
+        elif name is None:
+            print("must have name for new dictionary")
+        else:
+            self.name = name
+
         self.options = {} if not "options" in kwargs else kwargs["options"]
         if "synonyms" in self.options:
             print("use synonyms")
@@ -52,7 +58,7 @@ class SearchDictionary:
         self.split_terms = True
         self.split_terms = False
 
-    def read_dictionary(self, file, ignorecase=True):
+    def read_dictionary_from_xml_file(self, file, ignorecase=True):
         self.file = file
         self.amidict = ET.parse(file, parser=ET.XMLParser(encoding="utf-8"))
         self.root = self.amidict.getroot()
@@ -236,6 +242,111 @@ class SearchDictionary:
         et = etree.ElementTree(self.root)
         with open(file, 'wb') as f:
             et.write(f, encoding="utf-8", xml_declaration=True, pretty_print=True)
+
+    def add_wikidata_from_terms(self):
+        entries = self.root.findall("entry")
+        for entry in entries:
+            term = entry.attrib["term"]
+            self.lookup_wikidata(term)
+
+    def lookup_wikidata(self, term):
+        import pprint
+
+        from urllib.request import urlopen
+        from urllib.request import quote
+        uterm = quote(term.encode('utf8'))
+        url = f"https://www.wikidata.org/w/index.php?search={uterm}"
+        with urlopen(url) as u:
+            content = u.read()
+        root = ET.fromstring(content)
+        body = root.find("body")
+        uls = body.findall(".//ul[@class='mw-search-results']")
+        if len(uls) > 0:
+            wikidata_dict = {}
+            for li in uls[0]:
+                result_heading_a = li.find("./div[@class='mw-search-result-heading']/a")
+                qitem = result_heading_a.attrib["href"].split("/")[-1]
+                if qitem in wikidata_dict:
+                    print(f"duplicate wikidata entry {qitem}")
+                    continue
+                sub_dict = {}
+                wikidata_dict[qitem] = sub_dict
+                # make title from text children not tooltip
+                sub_dict["title"] = ''.join(result_heading_a.itertext()).split("(Q")[0]
+                sub_dict["desc"] = li.find("./div[@class='searchresult']/span").text
+                # just take statements at present (n statements or 1 statement)
+                sub_dict["statements"] = li.find("./div[@class='mw-search-result-data']").text.split(",")[0].split(" statement")[0]
+
+            for item in wikidata_dict.items():
+                # print(">", str(item))
+                pass
+            sort_orders = sorted(wikidata_dict.items(), key=lambda item : int(item[1]["statements"]), reverse=True)
+            pprint.pprint(sort_orders[0:3])
+
+
+    # <li class="mw-search-result">
+    # <div class="mw-search-result-heading">
+    # <a href="/wiki/Q50887234" title="&#8206;Lantana camara var. nivea&#8206; | &#8206;variety of plant&#8206;" data-serp-pos="13">
+    #  <span class="wb-itemlink">
+    #   <span class="wb-itemlink-label" lang="en" dir="ltr">
+    #    <span class="searchmatch">Lantana</span>
+    #    <span class="searchmatch">camara</span>
+    #     var. nivea
+    #   </span>
+    #   <span class="wb-itemlink-id">(Q50887234)</span>
+    # </span>
+    # </a>
+    # </div>
+    #     <div class="searchresult">
+    #     <span class="wb-itemlink-description">variety of plant</span>
+    #     </div>
+    #     <div class="mw-search-result-data">12 statements, 0 sitelinks - 17:16, 16 April 2021</div>
+    #        </li>'
+#         <li>
+#         <div class="mw-search-result-heading">
+#              <a href="/wiki/Q278809" title="(&#177;)-limonene | chemical compound" data-serp-pos="0">
+#                <span class="wb-itemlink">
+#                  <span class="wb-itemlink-label" lang="en" dir="ltr">(&#177;)-
+#                    <span class="searchmatch">limonene</span>
+#                  </span>
+#                  <span class="wb-itemlink-id">(Q278809)</span>
+#                </span>
+#              </a>
+#           </div>'
+# ..        <div class="searchresult">
+#             <span class="wb-itemlink-description">chemical compound</span>
+#           </div> '
+#         """
+        #   < li class ="mw-search-result" >
+        #     < div class ="mw-search-result-heading" > < a href="/wiki/Q278809" title="(&#177;)-limonene | chemical compound" data-serp-pos="0" > < span class ="wb-itemlink" > < span class ="wb-itemlink-label" lang="en" dir="ltr" > ( &  # 177;)-<span class="searchmatch">limonene</span></span> <span class="wb-itemlink-id">(Q278809)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">chemical compound</span></div> <div class="mw-search-result-data">1021 statements, 32 sitelinks - 10:51, 24 May 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q22282878" title="limonene biosynthetic process | The chemical reactions and pathways resulting in the formation of limonene (4-isopropenyl-1-methyl-cyclohexene), a monocyclic monoterpene." data-serp-pos="1"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr"><span class="searchmatch">limonene</span> biosynthetic process</span> <span class="wb-itemlink-id">(Q22282878)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">The chemical reactions and pathways resulting in the formation of limonene (4-isopropenyl-1-methyl-cyclohexene), a monocyclic monoterpene.</span></div> <div class="mw-search-result-data">8 statements, 0 sitelinks - 08:29, 17 May 2020</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q22282225" title="limonene catabolic process | The chemical reactions and pathways resulting in the breakdown of limonene (4-isopropenyl-1-methyl-cyclohexene), a monocyclic monoterpene." data-serp-pos="2"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr"><span class="searchmatch">limonene</span> catabolic process</span> <span class="wb-itemlink-id">(Q22282225)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">The chemical reactions and pathways resulting in the breakdown of limonene (4-isopropenyl-1-methyl-cyclohexene), a monocyclic monoterpene.</span></div> <div class="mw-search-result-data">7 statements, 0 sitelinks - 13:16, 17 May 2020</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q22324407" title="(4S)-limonene synthase activity | Catalysis of the reaction: geranyl diphosphate = (4S)-limonene + diphosphate." data-serp-pos="3"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(4S)-<span class="searchmatch">limonene</span> synthase activity</span> <span class="wb-itemlink-id">(Q22324407)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Catalysis of the reaction: geranyl diphosphate = (4S)-limonene + diphosphate.</span></div> <div class="mw-search-result-data">9 statements, 0 sitelinks - 17:28, 7 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q14916176" title="(S)-limonene 7-monooxygenase activity | Catalysis of the reaction: (4S)-limonene + H(+) + NADPH + O(2) = (4S)-perillyl alcohol + H(2)O + NADP(+)." data-serp-pos="4"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(S)-<span class="searchmatch">limonene</span> 7-monooxygenase activity</span> <span class="wb-itemlink-id">(Q14916176)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Catalysis of the reaction: (4S)-limonene + H(+) + NADPH + O(2) = (4S)-perillyl alcohol + H(2)O + NADP(+).</span></div> <div class="mw-search-result-data">12 statements, 0 sitelinks - 07:50, 8 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q22282223" title="limonene metabolic process | The chemical reactions and pathways involving limonene (4-isopropenyl-1-methyl-cyclohexene), a monocyclic monoterpene." data-serp-pos="5"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr"><span class="searchmatch">limonene</span> metabolic process</span> <span class="wb-itemlink-id">(Q22282223)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">The chemical reactions and pathways involving limonene (4-isopropenyl-1-methyl-cyclohexene), a monocyclic monoterpene.</span></div> <div class="mw-search-result-data">7 statements, 0 sitelinks - 07:32, 17 May 2020</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q14916175" title="(S)-limonene 6-monooxygenase activity | Catalysis of the reaction: (-)-limonene + NADPH + H+ + O2 = (-)-trans-carveol + NADP+ + H2O." data-serp-pos="6"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(S)-<span class="searchmatch">limonene</span> 6-monooxygenase activity</span> <span class="wb-itemlink-id">(Q14916175)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Catalysis of the reaction: (-)-limonene + NADPH + H+ + O2 = (-)-trans-carveol + NADP+ + H2O.</span></div> <div class="mw-search-result-data">11 statements, 0 sitelinks - 17:43, 7 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q3596292" title="(S)-limonene 3-monooxygenase | class of enzymes" data-serp-pos="7"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(S)-<span class="searchmatch">limonene</span> 3-monooxygenase</span> <span class="wb-itemlink-id">(Q3596292)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">class of enzymes</span></div> <div class="mw-search-result-data">6 statements, 5 sitelinks - 06:33, 24 May 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q22317639" title="(S)-limonene 3-monooxygenase activity | Catalysis of the reaction: (4S)-limonene + H(+) + NADPH + O(2) = (1S,6R)-isopiperitenol + H(2)O + NADP(+)." data-serp-pos="8"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(S)-<span class="searchmatch">limonene</span> 3-monooxygenase activity</span> <span class="wb-itemlink-id">(Q22317639)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Catalysis of the reaction: (4S)-limonene + H(+) + NADPH + O(2) = (1S,6R)-isopiperitenol + H(2)O + NADP(+).</span></div> <div class="mw-search-result-data">12 statements, 0 sitelinks - 17:35, 7 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q27089405" title="(-)-limonene | chemical compound" data-serp-pos="9"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(-)-<span class="searchmatch">limonene</span></span> <span class="wb-itemlink-id">(Q27089405)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">chemical compound</span></div> <div class="mw-search-result-data">73 statements, 0 sitelinks - 15:03, 18 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q22317631" title="(R)-limonene 1,2-monooxygenase activity | Catalysis of the reaction: (4R)-limonene + NAD(P)H + H+ + O2 = NAD(P)+ + H2O + (4R)-limonene-1,2-epoxide." data-serp-pos="10"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(R)-<span class="searchmatch">limonene</span> 1,2-monooxygenase activity</span> <span class="wb-itemlink-id">(Q22317631)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Catalysis of the reaction: (4R)-limonene + NAD(P)H + H+ + O2 = NAD(P)+ + H2O + (4R)-limonene-1,2-epoxide.</span></div> <div class="mw-search-result-data">6 statements, 0 sitelinks - 15:06, 18 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q22317627" title="(S)-limonene 1,2-monooxygenase activity | Catalysis of the reaction: (4S)-limonene + NAD(P)H + H+ + O2 = NAD(P)+ + H2O + (4S)-limonene-1,2-epoxide." data-serp-pos="11"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(S)-<span class="searchmatch">limonene</span> 1,2-monooxygenase activity</span> <span class="wb-itemlink-id">(Q22317627)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Catalysis of the reaction: (4S)-limonene + NAD(P)H + H+ + O2 = NAD(P)+ + H2O + (4S)-limonene-1,2-epoxide.</span></div> <div class="mw-search-result-data">6 statements, 0 sitelinks - 15:06, 18 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q16872168" title="Limonene synthase | Wikimedia disambiguation page" data-serp-pos="12"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr"><span class="searchmatch">Limonene</span> synthase</span> <span class="wb-itemlink-id">(Q16872168)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Wikimedia disambiguation page</span></div> <div class="mw-search-result-data">1 statement, 1 sitelink - 02:59, 4 May 2019</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q3596284" title="(R)-limonene 6-monooxygenase | class of enzymes" data-serp-pos="13"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(R)-<span class="searchmatch">limonene</span> 6-monooxygenase</span> <span class="wb-itemlink-id">(Q3596284)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">class of enzymes</span></div> <div class="mw-search-result-data">6 statements, 5 sitelinks - 17:17, 23 May 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q76625426" title="Limonene Hydroxylases | Members of the P-450 enzyme family that take part in the hydroxylation of limonene." data-serp-pos="14"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr"><span class="searchmatch">Limonene</span> Hydroxylases</span> <span class="wb-itemlink-id">(Q76625426)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Members of the P-450 enzyme family that take part in the hydroxylation of limonene.</span></div> <div class="mw-search-result-data">1 statement, 0 sitelinks - 13:57, 27 November 2019</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q14916177" title="(R)-limonene 6-monooxygenase activity | Catalysis of the reaction: (4R)-limonene + H+ + NADPH + O2 = (1R,5S)-carveol + H2O + NADP+." data-serp-pos="15"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(R)-<span class="searchmatch">limonene</span> 6-monooxygenase activity</span> <span class="wb-itemlink-id">(Q14916177)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Catalysis of the reaction: (4R)-limonene + H+ + NADPH + O2 = (1R,5S)-carveol + H2O + NADP+.</span></div> <div class="mw-search-result-data">12 statements, 0 sitelinks - 17:45, 7 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q22324412" title="(R)-limonene synthase activity | Catalysis of the reaction: geranyl diphosphate = (4R)-limonene + diphosphate." data-serp-pos="16"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(R)-<span class="searchmatch">limonene</span> synthase activity</span> <span class="wb-itemlink-id">(Q22324412)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">Catalysis of the reaction: geranyl diphosphate = (4R)-limonene + diphosphate.</span></div> <div class="mw-search-result-data">10 statements, 0 sitelinks - 17:22, 7 April 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q3596293" title="(S)-limonene 6-monooxygenase | class of enzymes" data-serp-pos="17"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(S)-<span class="searchmatch">limonene</span> 6-monooxygenase</span> <span class="wb-itemlink-id">(Q3596293)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">class of enzymes</span></div> <div class="mw-search-result-data">6 statements, 5 sitelinks - 06:41, 24 May 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q3596295" title="(S)-limonene 7-monooxygenase | class of enzymes" data-serp-pos="18"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(S)-<span class="searchmatch">limonene</span> 7-monooxygenase</span> <span class="wb-itemlink-id">(Q3596295)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">class of enzymes</span></div> <div class="mw-search-result-data">6 statements, 5 sitelinks - 06:43, 24 May 2021</div></li><li class="mw-search-result"><div class="mw-search-result-heading"><a href="/wiki/Q4543797" title="(4S)-limonene synthase | class of enzymes" data-serp-pos="19"><span class="wb-itemlink"><span class="wb-itemlink-label" lang="en" dir="ltr">(4S)-<span class="searchmatch">limonene</span> synthase</span> <span class="wb-itemlink-id">(Q4543797)</span></span></a>    </div><div class="searchresult"><span class="wb-itemlink-description">class of enzymes</span></div> <div class="mw-search-result-data">7 statements, 4 sitelinks - 09:04, 15 March 2021</div></li></ul><div class="mw-search-visualclear"/><p class="mw-search-pager-bottom">View (previous 20  |  <a href="/w/index.php?title=Special:Search&amp;limit=20&amp;offset=20&amp;profile=default&amp;search=limonene" title="Next 20 results" class="mw-nextlink">next 20</a>) (<a href="/w/index.php?title=Special:Search&amp;limit=20&amp;offset=0&amp;profile=default&amp;search=limonene" title="Show 20 results per page" class="mw-numlink">20</a> | <a href="/w/index.php?title=Special:Search&amp;limit=50&amp;offset=0&amp;profile=default&amp;search=limonene" title="Show 50 results per page" class="mw-numlink">50</a> | <a href="/w/index.php?title=Special:Search&amp;limit=100&amp;offset=0&amp;profile=default&amp;search=limonene" title="Show 100 results per page" class="mw-numlink">100</a> | <a href="/w/index.php?title=Special:Search&amp;limit=250&amp;offset=0&amp;profile=default&amp;search=limonene" title="Show 250 results per page" class="mw-numlink">250</a> | <a href="/w/index.php?title=Special:Search&amp;limit=500&amp;offset=0&amp;profile=default&amp;search=limonene" title="Show 500 results per page" class="mw-numlink">500</a>)</p>
+
+        # lines = content.split("\\n")
+        # for line in lines:
+        #     print(">>", line)
+
+    @classmethod
+    def create_from_words(cls, terms, name=None, desc=None):
+        if name is None:
+            name="no_name"
+        dictionary = SearchDictionary(name=name)
+        dictionary.root = ET.Element("dictionary")
+        dictionary.root.attrib["title"] = name
+        if desc:
+            desc_elem = ET.SubElement(dictionary.root, "desc")
+            desc_elem.text = desc
+        for term in terms:
+            entry = ET.SubElement(dictionary.root, "entry")
+            entry.attrib["name"] = term
+            entry.attrib["term"] = term
+        return dictionary
+
+
+    @classmethod
+    def test_create_from_words(cls):
+        words = ["limonene", "alpha-pinene", "lantana camara"]
+        dictionary = SearchDictionary.create_from_words(words, "test", "created from words")
+        dictionary.add_wikidata_from_terms()
+        print("dict", ET.tostring(dictionary.root, pretty_print=False))
 
     @classmethod
     def test(cls):
@@ -491,6 +602,7 @@ class SearchDictionary:
             copyfile(dictionary_file, original_name)
 
 
+
 class AmiDictionaries:
 
     ACTIVITY = "activity"
@@ -655,6 +767,7 @@ def main():
     option = "genus"
     option = "compound"
     option = "plant_part"
+    option = "test_dict"
     if option == "sparql":
         SearchDictionary.test()
     elif option == "plant":
@@ -667,6 +780,8 @@ def main():
         SearchDictionary.test_compound()
     elif option == "plant_part":
         SearchDictionary.test_plant_part()
+    elif option == "test_dict":
+        SearchDictionary.test_create_from_words()
     else:
         print("no option given")
 

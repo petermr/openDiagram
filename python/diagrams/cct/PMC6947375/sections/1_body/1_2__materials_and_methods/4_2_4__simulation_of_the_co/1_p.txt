@@ -1,0 +1,7 @@
+0: Cold rolling process was simulated by using Deform Software (Scientific Forming Technologies Corporation, SFTC, Columbus, OH, USA), which is a simulation system based on finite element method (FEM) designed to analyze the complex metal forming process, microstructure and grain evolution, transient thermal response, residual stress, and distortion.
+1: It enables designers to analyze metal forming, heat treatment, machining, and mechanical joining processes on the computer.
+2: DEFORM has proven itself to be extremely effective in a wide range of research and industrial applications.
+3: Herein, we used the DEFORM system to predict the evolution of stress and strain vs. the cold rolling reduction, providing a visual stress/strain distribution map for guiding the practice.
+4: The initial parameters were as follows: the dimensions of 1.0C-1.5Cr steel were 40  40  40 mm 3, the diameter of the working roll was 150 mm, and the rolling speed was 100 mms 1.
+5: The rolling process was divided into 4 passes, and the reduction of 4 passes was 2.8, 2.4, 1.8, and 1.6 mm, respectively.
+6: The simulated plate was divided into hexahedral mesh division with 5300 meshes in total.

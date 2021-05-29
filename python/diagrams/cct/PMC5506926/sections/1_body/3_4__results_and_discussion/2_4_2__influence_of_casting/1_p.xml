@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the evaluation of the cooling ability of the twin-roll caster, average cooling rate, 
+ <italic>R
+  <sub>AVG</sub>
+ </italic>, was calculated with the following equation:
+ <disp-formula id="FD5-materials-10-00420">
+  <label>(5)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>V</mi>
+       <mi>G</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>T</mi>
+      </mrow>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>≈</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>T</mi>
+        <mi>p</mi>
+       </msub>
+       <mo>−</mo>
+       <msub>
+        <mi>T</mi>
+        <mrow>
+         <mi>n</mi>
+         <mi>i</mi>
+         <mi>p</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mi>h</mi>
+     </mfrac>
+     <mo>×</mo>
+     <msub>
+      <mi>v</mi>
+      <mi>c</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>T
+  <sub>p</sub>
+ </italic> and 
+ <italic>T
+  <sub>nip</sub>
+ </italic> are, respectively, pouring temperature and temperature at the roll nip, 
+ <italic>h</italic> the melt level of molten pool, and 
+ <italic>v
+  <sub>c</sub>
+ </italic> the casting speed. 
+ <xref ref-type="fig" rid="materials-10-00420-f005">Figure 5</xref> shows the influences of different casting conditions on the average cooling rate for Al
+ <sub>35</sub>La
+ <sub>50</sub>Ni
+ <sub>15</sub> alloy based on simulated results, and CP indicates the center pouring mode, OSP indicates the one side pouring mode. For the OSP mode, molten pool has a shape shown in 
+ <xref ref-type="fig" rid="materials-10-00420-f002">Figure 2</xref>a. Here, we call 
+ <italic>L</italic> the melt level. From these results we can see that the average cooling rate under the CP mode is faster than that under the OSP mode. 
+ <xref ref-type="fig" rid="materials-10-00420-f005">Figure 5</xref>a shows the results under the casting conditions of pouring temperature 918 K, casting speed 0.5 m/s and strip thickness 0.08 mm. We can see that average cooling rate becomes slower with the increasing of melt level. Well, for the melt level of 5 mm, it is too fast to solidify within such a short metal-roll contact distance that temperature at the roll nip is 876.11 K, and the process will not continue. When the strip thickness (i.e., nip width) comes to 0.2 mm and 0.5 mm with a melt level of 10 mm, as shown in 
+ <xref ref-type="fig" rid="materials-10-00420-f005">Figure 5</xref>c, much more heat needs to be dissipated for the liquid to become fully solidified before it passes the roll nip, and the process cannot be continued. On the other hand, when setting the melt level smaller and strip thickness thinner, a faster cooling rate could be attained and temperature at the roll nip is also appropriate. However, it may cause a rolling block if the temperature at the roll nip gets too low since a fully amorphous metal is formed before it passes the roll nip. From 
+ <xref ref-type="fig" rid="materials-10-00420-f005">Figure 5</xref>b we can see that there is no influence of the pouring temperature on the average cooling rate, but it can adjust the temperature at roll nip, a lower pouring temperature leads to a lower nip temperature. As a faster casting speed causes a faster cooling rate and a higher nip temperature (
+ <xref ref-type="fig" rid="materials-10-00420-f005">Figure 5</xref>d), we can control the nip temperature through adjusting the pouring temperature. However, if the nip temperature is so high that it makes the temperature of the supercooled alloy still well above 
+ <italic>T
+  <sub>g</sub>
+ </italic> before it passes the roll nip area, full formation of an amorphous structure might not be possible [
+ <xref rid="B17-materials-10-00420" ref-type="bibr">17</xref>], therefore the casting speed has an upper limit. Incidentally, the cooling rates at current conditions, as illustrated in 
+ <xref ref-type="fig" rid="materials-10-00420-f005">Figure 5</xref>b,d, are all in the order of magnitude of 10
+ <sup>4</sup> K/m, which has a same level with the calculated critical cooling rate.
+</p>

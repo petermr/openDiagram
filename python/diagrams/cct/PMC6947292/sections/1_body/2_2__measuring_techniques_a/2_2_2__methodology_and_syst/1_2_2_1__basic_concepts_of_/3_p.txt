@@ -1,0 +1,3 @@
+0: In general, an accurate DSC analysis of the sample requires at least two measurements: a measurement of a sample versus a reference, and a baseline measurement (inert reference samples on both sensors).
+1: The heat flow signal of the baseline measurement is subtracted from the heat flow signal of the sample measurement, and the resulting heat flow signal is corrected for small device-specific asymmetries which, although minimised in the design, can still influence the accuracy when low-heat-flow, high-accuracy measurements are required.
+2: Examples of such small asymmetries include slight differences in sensor positions and differences in the sensors themselves.

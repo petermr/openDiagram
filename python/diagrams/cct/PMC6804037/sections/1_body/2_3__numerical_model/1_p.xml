@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Nowadays, the finite element method (FEM) has been developed to reduce solution time and to predict thermal distortions, residual stress, and metallurgical change during the heat treatment. Therefore, in FEM simulation, in order to obtain a satisfactory process representation, the choice of the heat source model is very important. Moreover, validation and calibration of the model are essential to define heat source parameters correctly in order to establish a link between numerical and experiments results. Many studies have been conducted with different heat source models [
+ <xref rid="B30-materials-12-03136" ref-type="bibr">30</xref>]. Rosenthal [
+ <xref rid="B31-materials-12-03136" ref-type="bibr">31</xref>] suggested a mathematical model of power density distribution. He proposed both punctual and line heat source. Pavelec et al. [
+ <xref rid="B32-materials-12-03136" ref-type="bibr">32</xref>] developed a Gaussian power density distribution on the surface of the workpiece. Other researchers [
+ <xref rid="B33-materials-12-03136" ref-type="bibr">33</xref>] proposed a conical heat source model.
+</p>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For this material, we chose a mathematical model based on the Arrhenius equation. This model is represented by the equation [
+ <xref rid="B28-materials-13-05585" ref-type="bibr">28</xref>] 
+ <disp-formula id="FD6-materials-13-05585">
+  <label>(6)</label>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <mi>Z</mi>
+     <mo>=</mo>
+     <mover accent="true">
+      <mi>φ</mi>
+      <mo>˙</mo>
+     </mover>
+     <mi>exp</mi>
+     <mfenced>
+      <mrow>
+       <mfrac>
+        <mi>Q</mi>
+        <mrow>
+         <mi>R</mi>
+         <mi>T</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> and 
+ <disp-formula id="FD7-materials-13-05585">
+  <label>(7)</label>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo> </mo>
+      <mover accent="true">
+       <mi>φ</mi>
+       <mo>˙</mo>
+      </mover>
+     </mrow>
+     <mo>=</mo>
+     <mi mathvariant="italic">AF</mi>
+     <mfenced>
+      <mi mathvariant="sans-serif">σ</mi>
+     </mfenced>
+     <mi>exp</mi>
+     <mfenced>
+      <mrow>
+       <mo>−</mo>
+       <mfrac>
+        <mi mathvariant="normal">Q</mi>
+        <mrow>
+         <mi>RT</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm18">
+   <mrow>
+    <mover accent="true">
+     <mi>φ</mi>
+     <mo>˙</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> is strain rate, 
+ <italic>A</italic> is material constant, 
+ <italic>Z</italic> is Zener–Hollomon parameter, 
+ <italic>R</italic> is the gas constant (8.314 J/mol∙K), 
+ <italic>Q</italic> is the activation energy and acts as an indicator of deformation difficulty in the physical deformation theory, and 
+ <italic>T</italic> is the temperature [
+ <xref rid="B29-materials-13-05585" ref-type="bibr">29</xref>]. The 
+ <italic>Z</italic> parameter represents the temperature compensated strain rate, which has been widely used to characterize the behavior of materials in hot working [
+ <xref rid="B30-materials-13-05585" ref-type="bibr">30</xref>]. 
+ <inline-formula>
+  <math id="mm19">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mfenced>
+      <mi>σ</mi>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is a function of flow stress and can be described as follows:
+ <disp-formula id="FD8-materials-13-05585">
+  <label>(8)</label>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mfenced>
+      <mi>σ</mi>
+     </mfenced>
+     <mo>=</mo>
+     <mfenced close="" open="{">
+      <mrow>
+       <mtable equalrows="true" equalcolumns="true">
+        <mtr>
+         <mtd>
+          <mrow>
+           <msup>
+            <mi>σ</mi>
+            <mi>n</mi>
+           </msup>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mi>α</mi>
+           <mi>σ</mi>
+           <mo>&lt;</mo>
+           <mn>0.8</mn>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mi>exp</mi>
+           <mfenced>
+            <mrow>
+             <mi>β</mi>
+             <mi>σ</mi>
+            </mrow>
+           </mfenced>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mi>α</mi>
+           <mi>σ</mi>
+           <mo>&gt;</mo>
+           <mn>1.2</mn>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msup>
+            <mrow>
+             <mfenced close="]" open="[">
+              <mrow>
+               <mrow>
+                <mi>sinh</mi>
+               </mrow>
+               <mfenced>
+                <mrow>
+                 <mi>α</mi>
+                 <mi>σ</mi>
+                </mrow>
+               </mfenced>
+              </mrow>
+             </mfenced>
+            </mrow>
+            <mi>n</mi>
+           </msup>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mrow>
+            <mi>for</mi>
+            <mo> </mo>
+            <mi>all</mi>
+           </mrow>
+           <mo> </mo>
+           <mi>σ</mi>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>n</italic>, 
+ <italic>β</italic>, and 
+ <italic>α</italic> are material constants and can be determined from experimental flow stress data. The material constant 
+ <italic>α</italic> is determined using the parameters n’ and 
+ <italic>β</italic> defined as [
+ <xref rid="B31-materials-13-05585" ref-type="bibr">31</xref>] 
+ <disp-formula id="FD9-materials-13-05585">
+  <label>(9)</label>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <mi>n</mi>
+     <mo>’</mo>
+     <mo>=</mo>
+     <msub>
+      <mrow>
+       <mfenced close="]" open="[">
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <mi>ln</mi>
+           <mover accent="true">
+            <mi>φ</mi>
+            <mo>˙</mo>
+           </mover>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi>ln</mi>
+           <mi>σ</mi>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mi>T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> and 
+ <disp-formula id="FD10-materials-13-05585">
+  <label>(10)</label>
+  <math id="mm22">
+   <mrow>
+    <mrow>
+     <mi>β</mi>
+     <mo>=</mo>
+     <msub>
+      <mrow>
+       <mfenced close="]" open="[">
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <mi>ln</mi>
+           <mover accent="true">
+            <mi>φ</mi>
+            <mo>˙</mo>
+           </mover>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi>σ</mi>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mi>T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

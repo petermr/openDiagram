@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-10-00420-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-10-00420-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Parameters used for the calculation of T-Tr-T diagram for aluminum alloys.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Alloy</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>η</italic>
+     <sub>0</sub> (Pa·s)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>B</italic> (K)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>B
+      <sub>r</sub>
+     </italic>
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>D</italic>*
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>T</italic>
+     <sub>0</sub> (K)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>T</italic>
+     <sub>0
+      <italic>r</italic>
+     </sub>
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>T
+      <sub>m</sub>
+     </italic> (K)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>x</italic>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">Al
+     <sub>35</sub>La
+     <sub>50</sub>Ni
+     <sub>15</sub>/Hypothetical alloys
+    </td>
+    <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">2.39 × 10
+     <sup>−5</sup>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4893.84</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.04</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">18</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">271.88</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.28</td>
+    <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">971</td>
+    <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">10
+     <sup>−6</sup>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7049.46</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.26</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">22</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">320.43</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.33</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6059.04</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">6.24</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">16</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">378.69</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.39</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4466.6</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.6</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">10</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">446.66</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.46</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3884</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">485.5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2621.7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2.7</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">524.34</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.54</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

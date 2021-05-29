@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>By differentiating Equation (13) at constant temperature, 
+ <disp-formula id="FD14-materials-13-05585">
+  <label>(14)</label>
+  <math id="mm26">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mn>1</mn>
+      <mi>n</mi>
+     </mfrac>
+     <mo>=</mo>
+     <mfenced close="]" open="[">
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi>ln</mi>
+         <mfenced close="]" open="[">
+          <mrow>
+           <mrow>
+            <mi>sinh</mi>
+           </mrow>
+           <mfenced>
+            <mrow>
+             <mrow>
+              <mi mathvariant="sans-serif">α</mi>
+              <mi mathvariant="sans-serif">σ</mi>
+             </mrow>
+            </mrow>
+           </mfenced>
+          </mrow>
+         </mfenced>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi>ln</mi>
+         <mfenced>
+          <mover accent="true">
+           <mi>φ</mi>
+           <mo>˙</mo>
+          </mover>
+         </mfenced>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the parameter n can again be determined as the reciprocal value of the average slopes of the linear fitting between 
+ <inline-formula>
+  <math id="mm27">
+   <mrow>
+    <mrow>
+     <mi>l</mi>
+     <mi>n</mi>
+     <mo stretchy="false">[</mo>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mi>h</mi>
+     <mfenced>
+      <mrow>
+       <mi>α</mi>
+       <mi>σ</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <mi>l</mi>
+     <mi>n</mi>
+     <mfenced>
+      <mover accent="true">
+       <mi>φ</mi>
+       <mo>˙</mo>
+      </mover>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Moreover, from this dependence, parameter, A is determined from the intercept of the linear fitting according to 
+ <disp-formula id="FD15-materials-13-05585">
+  <label>(15)</label>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <mi>ln</mi>
+     <mi>A</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mi>Q</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mi>C</mi>
+       <mo>´</mo>
+      </mrow>
+      <mi>n</mi>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>C</italic>’ represents the intercept of the linear fitting for each temperature. From Equation (12) it is possible to determine for each strain rate the dependence between 
+ <inline-formula>
+  <math id="mm30">
+   <mrow>
+    <mrow>
+     <mi>l</mi>
+     <mi>n</mi>
+     <mo stretchy="false">[</mo>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mi>h</mi>
+     <mfenced>
+      <mrow>
+       <mi>α</mi>
+       <mi>σ</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 1000/
+ <italic>T</italic>. Average value of the linear fitting slopes from this plot expresses the 
+ <italic>Q</italic>/
+ <italic>Rn</italic>, and thus, the hot deformation activation energy 
+ <italic>Q</italic>. Then the flow stress based on the mathematical model will be 
+ <disp-formula id="FD16-materials-13-05585">
+  <label>(16)</label>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mi>α</mi>
+     </mfrac>
+     <mi>ln</mi>
+     <mfenced close="}" open="{">
+      <mrow>
+       <msup>
+        <mrow>
+         <mfenced>
+          <mrow>
+           <mfrac>
+            <mi>Z</mi>
+            <mi>A</mi>
+           </mfrac>
+          </mrow>
+         </mfenced>
+        </mrow>
+        <mrow>
+         <mfrac>
+          <mn>1</mn>
+          <mi>n</mi>
+         </mfrac>
+        </mrow>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mfenced close="]" open="[">
+          <mrow>
+           <msup>
+            <mrow>
+             <mfenced>
+              <mrow>
+               <mfrac>
+                <mi>Z</mi>
+                <mi>A</mi>
+               </mfrac>
+              </mrow>
+             </mfenced>
+            </mrow>
+            <mrow>
+             <mfrac>
+              <mn>2</mn>
+              <mi>n</mi>
+             </mfrac>
+            </mrow>
+           </msup>
+           <mo>+</mo>
+           <mn>1</mn>
+          </mrow>
+         </mfenced>
+        </mrow>
+        <mrow>
+         <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+         </mfrac>
+        </mrow>
+       </msup>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

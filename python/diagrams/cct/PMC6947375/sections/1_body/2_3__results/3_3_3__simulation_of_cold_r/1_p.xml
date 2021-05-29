@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The finite element (FE) method based on DEFORM-3D was used to simulate the cold-rolling process, and a thermo-coupled viscoplasticity model was used to calculate the stress and strain in cold rolling. The fundament mechanism is assumed that stress is a function of strain during cold rolling [
+ <xref rid="B35-materials-12-04136" ref-type="bibr">35</xref>]: 
+ <disp-formula id="FD2-materials-12-04136">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <mrow>
+      <mo>{</mo>
+      <mtable columnalign="left">
+       <mtr>
+        <mtd>
+         <mn>219.1</mn>
+         <mo>×</mo>
+         <msup>
+          <mn>10</mn>
+          <mn>3</mn>
+         </msup>
+         <mi>ε</mi>
+         <mo>,</mo>
+         <mo> </mo>
+         <mi>ε</mi>
+         <mo>≤</mo>
+         <mn>0.001856</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mn>847</mn>
+         <msup>
+          <mi>ε</mi>
+          <mrow>
+           <mn>0.129</mn>
+          </mrow>
+         </msup>
+         <mo>+</mo>
+         <mn>30.37</mn>
+         <mo>,</mo>
+         <mo> </mo>
+         <mi>ε</mi>
+         <mo>&gt;</mo>
+         <mn>0.001856</mn>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

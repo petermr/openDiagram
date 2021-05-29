@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Amorphization or crystallization can occur depending on the cooling rates and thermal behavior experienced by the melt [
+ <xref rid="B17-materials-10-00420" ref-type="bibr">17</xref>,
+ <xref rid="B25-materials-10-00420" ref-type="bibr">25</xref>]. For a better understanding of the solidification behavior of TRC process, thermal flow simulation was carried out based on the condition of a pilot vertical twin-roll caster with roll radius of 150 mm, roll width of 100 mm. 
+ <xref ref-type="fig" rid="materials-10-00420-f001">Figure 1</xref> shows the schematic of TRC process, with melt supplied in two ways (i.e., center pouring mode shown in 
+ <xref ref-type="fig" rid="materials-10-00420-f001">Figure 1</xref>a, and one side pouring mode shown in 
+ <xref ref-type="fig" rid="materials-10-00420-f001">Figure 1</xref>b). Because the ratio of the width to thickness is quite large, if one ignores the effect of side dams, a 2D finite element method (FEM) model is used. Considering the high speed feeding flow of liquid metal during the strip casting process, flow phenomenon in the molten pool is characterized as turbulent flow. Moreover, the following assumptions are made for steady-state simulations: there is no relative slip between the roll and strip, and heat transfer coefficient between them is constant (i.e., 18 kW∙m
+ <sup>−2</sup>∙K
+ <sup>−1</sup>); surface temperature of the roller is 373 K; free surface of the melt is steady. Influences of melt level 
+ <italic>h</italic>, strip thickness 
+ <italic>δ</italic>, casting speed 
+ <italic>v</italic> (i.e., rotating speed) and pouring temperature 
+ <italic>T
+  <sub>p</sub>
+ </italic> are considered in simulation. Considering geometric symmetry of the center pouring mode (i.e., 
+ <xref ref-type="fig" rid="materials-10-00420-f001">Figure 1</xref>a), half of the twin-roll casting model was employed.
+</p>

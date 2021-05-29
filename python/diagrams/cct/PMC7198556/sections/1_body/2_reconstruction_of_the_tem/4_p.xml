@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">A simplified, axisymmetric cylindrical model of the bearing was calculated by FEM simulation with load parameters approximating those of the industrial heat treatment, with detailed parameters given in Table 
+ <xref rid="Tab2" ref-type="table">2</xref> and Fig. 
+ <xref rid="Fig7" ref-type="fig">7</xref>. The model uses fixed time increments of 250 ms to leapfrog between a linear harmonic solution to the electromagnetic problem and a heat transfer solution that uses heat sources obtained from the previous EM calculation, which provides the temperature distribution for the next EM step. This interaction is regulated by a python script controlling the ABAQUS software used to calculate the results.
+</p>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Diffusion-controlled precipitation reactions can be described by a Starink model based on the extended volume 
+ <italic>α
+  <sub>ext</sub>
+ </italic> concept [
+ <xref rid="B82-materials-12-04083" ref-type="bibr">82</xref>]. In this approach, the fraction transformed over time 
+ <italic>α(t)</italic> by a precipitation process can be expressed as: 
+ <disp-formula id="FD2-materials-12-04083">
+  <label>(2)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi>α</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>e</mi>
+        <mrow>
+         <mo>−</mo>
+         <mn>2</mn>
+         <msub>
+          <mi>α</mi>
+          <mrow>
+           <mi>e</mi>
+           <mi>x</mi>
+           <mi>t</mi>
+          </mrow>
+         </msub>
+        </mrow>
+       </msup>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <msub>
+        <mi>α</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>x</mi>
+         <mi>t</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD3-materials-12-04083">
+  <label>(3)</label>
+  <math id="mm55">
+   <mrow>
+    <mrow>
+     <mrow>
+      <msub>
+       <mi>α</mi>
+       <mrow>
+        <mi>e</mi>
+        <mi>x</mi>
+        <mi>t</mi>
+       </mrow>
+      </msub>
+      <mo>=</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>k</mi>
+            <mi>t</mi>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mi>n</mi>
+        </msup>
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>V</mi>
+         <mn>0</mn>
+        </msub>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

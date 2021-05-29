@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To create a constitutive model based on Arrhenius equation, it was necessary to determine the individual material constants. These constants are determined for each true strain value, in our case from 
+ <italic>ϕ</italic> = 0.1 to 
+ <italic>ϕ</italic> = 0.8 with a step of 0.05. The following will show the procedure for determining the parameters for true strain 
+ <italic>ϕ =</italic> 0.2. The parameter 
+ <italic>n´</italic> is obtained as the reciprocal value of the slope between ln(
+ <italic>σ</italic>) and ln (
+ <inline-formula>
+  <math id="mm32">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>φ</mi>
+      <mo>˙</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref ref-type="fig" rid="materials-13-05585-f010">Figure 10</xref>a). The parameter 
+ <italic>β</italic> is again determined as reciprocal value of the slope between 
+ <italic>σ</italic> and ln (
+ <inline-formula>
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>φ</mi>
+      <mo>˙</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref ref-type="fig" rid="materials-13-05585-f010">Figure 10</xref>b). The average values of the slope determine the values of the parameters, namely 
+ <italic>n´</italic> = 5.603 and 
+ <italic>β</italic> = 0.0787. Then, according to Equation (11), 
+ <italic>α</italic> = 0.0141.
+</p>

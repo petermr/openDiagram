@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As described above, in the first instance the measured signal is a heat flow signal. The DSC heat flow signal depends on the amount of sample used (expressed as a mass or in moles) and the scanning rate applied. To allow for a quantitative comparison of measurements with different scanning rates and sample masses, the heat flow signal 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mover accent="true">
+     <mi>Q</mi>
+     <mo>˙</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> must be normalised by the sample mass (or the number of atoms) and the scanning rate β, resulting in the unit of specific heat capacity (per g or per mole): 
+ <disp-formula id="FD1-materials-12-04083">
+  <label>(1)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi>e</mi>
+      <mi>x</mi>
+      <mi>c</mi>
+      <mi>e</mi>
+      <mi>s</mi>
+      <mi>s</mi>
+      <mtext> </mtext>
+      <msub>
+       <mi>c</mi>
+       <mi>p</mi>
+      </msub>
+      <mo>=</mo>
+      <mtext> </mtext>
+      <mfrac>
+       <mrow>
+        <msub>
+         <mover accent="true">
+          <mi>Q</mi>
+          <mo>˙</mo>
+         </mover>
+         <mrow>
+          <mi>s</mi>
+          <mi>a</mi>
+          <mi>m</mi>
+          <mi>p</mi>
+          <mi>l</mi>
+          <mi>e</mi>
+          <mo> </mo>
+          <mi>v</mi>
+          <mi>s</mi>
+          <mo> </mo>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>f</mi>
+          <mi>e</mi>
+          <mi>r</mi>
+          <mi>e</mi>
+          <mi>n</mi>
+          <mi>c</mi>
+          <mi>e</mi>
+         </mrow>
+        </msub>
+        <mo>−</mo>
+        <msub>
+         <mover accent="true">
+          <mi>Q</mi>
+          <mo>˙</mo>
+         </mover>
+         <mrow>
+          <mi>b</mi>
+          <mi>a</mi>
+          <mi>s</mi>
+          <mi>e</mi>
+          <mi>l</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mi>e</mi>
+          <mo> </mo>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>n</mi>
+            <mi>c</mi>
+            <mi>e</mi>
+            <mo> </mo>
+            <mi>v</mi>
+            <mi>s</mi>
+            <mo> </mo>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>n</mi>
+            <mi>c</mi>
+            <mi>e</mi>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+        <mi>a</mi>
+        <mi>m</mi>
+        <mi>p</mi>
+        <mi>l</mi>
+        <mi>e</mi>
+        <mtext> </mtext>
+        <mi>m</mi>
+        <mi>a</mi>
+        <mi>s</mi>
+        <mi>s</mi>
+        <mtext> </mtext>
+        <mo>×</mo>
+        <mi>s</mi>
+        <mi>c</mi>
+        <mi>a</mi>
+        <mi>n</mi>
+        <mi>n</mi>
+        <mi>i</mi>
+        <mi>n</mi>
+        <mi>g</mi>
+        <mtext> </mtext>
+        <mi>r</mi>
+        <mi>a</mi>
+        <mi>t</mi>
+        <mi>e</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mspace linebreak="newline"/>
+     <mrow>
+      <mrow>
+       <mo>[</mo>
+       <mrow>
+        <mi>e</mi>
+        <mi>x</mi>
+        <mi>c</mi>
+        <mi>e</mi>
+        <mi>s</mi>
+        <mi>s</mi>
+        <mtext> </mtext>
+        <msub>
+         <mi>c</mi>
+         <mi>p</mi>
+        </msub>
+       </mrow>
+       <mo>]</mo>
+      </mrow>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mtext> </mtext>
+      <mfrac>
+       <mrow>
+        <mi>m</mi>
+        <mi>W</mi>
+        <mo>−</mo>
+        <mi>m</mi>
+        <mi>W</mi>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>g</mi>
+        <mtext> </mtext>
+        <mo>×</mo>
+        <mtext> </mtext>
+        <mfrac>
+         <mi>K</mi>
+         <mi>s</mi>
+        </mfrac>
+       </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mfrac>
+       <mrow>
+        <mi>W</mi>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mi>g</mi>
+        <mo>×</mo>
+        <mi>K</mi>
+       </mrow>
+      </mfrac>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mtext> </mtext>
+      <mfrac>
+       <mi>J</mi>
+       <mrow>
+        <mi>g</mi>
+        <mi>K</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

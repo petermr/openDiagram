@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The power density distribution was as follows:
+ <disp-formula id="FD1-materials-12-03136">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Q</mi>
+      <mi>r</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>Q</mi>
+      <mi>o</mi>
+     </msub>
+     <mi>exp</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mo>−</mo>
+         <msup>
+          <mi>r</mi>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+        <mrow>
+         <msubsup>
+          <mi>r</mi>
+          <mi>o</mi>
+          <mn>2</mn>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where Q
+ <sub>r</sub> defines heat source intensity, Q
+ <sub>0</sub> represents the maximum intensity, while r
+ <sub>o</sub> defines the upper and the lower radius in the upper plane at z = z
+ <sub>u</sub> and in the lower plane at z = z
+ <sub>l</sub>, respectively.
+</p>

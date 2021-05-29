@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As input, the model for quench-induced precipitation takes the alloy content of the three or four main and three dispersoid-forming elements of the AlMgSi or AlZnMg(Cu) alloys, respectively. Amongst others, the concentration of dispersoid-forming elements provides an estimate of the number of nucleation sites. In the first step, the phases and their compositions at the solution treatment temperature are calculated assuming thermodynamic equilibrium. Subsequently, the amount of each of the phases formed during quenching is modelled. For AlMgSi alloys, two quench-induced phases are considered, namely β-Mg
+ <sub>2</sub>Si for the HTR and B’-Mg
+ <sub>5</sub>Si
+ <sub>4</sub>Al
+ <sub>2</sub> for the LTR. For AlZnMg(Cu) alloys, four phases are taken into account: S-Al
+ <sub>2</sub>(Cu,Mg) and β-Mg
+ <sub>2</sub>Si for the HTR, η-Mg(Zn,Al,Cu)
+ <sub>2</sub> for the MTR and the Y-phase (thin Zn- and Cu-rich platelets [
+ <xref rid="B119-materials-12-04083" ref-type="bibr">119</xref>,
+ <xref rid="B143-materials-12-04083" ref-type="bibr">143</xref>]) for the LTR. In an initial analysis, it was found that taking a fixed composition of η-Mg(Zn,Al,Cu)
+ <sub>2</sub> does not allow for accurate prediction of the effects of different Mg:Zn ratios. This is as expected, since the η-Mg(Zn,Al,Cu)
+ <sub>2</sub> phase has a wide range of stable compositions in the AlCuMgZn system. A detailed consideration of the isostructural variants of this phase is therefore included in the full modell (see Ref. [
+ <xref rid="B119-materials-12-04083" ref-type="bibr">119</xref>]).
+</p>

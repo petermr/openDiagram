@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-13-05585-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-13-05585-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Basic properties of the AISI 4340 steel.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Tensile Strength 
+     <italic>R
+      <sub>m</sub>
+     </italic> (MPa)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Modulus of Elasticity 
+     <italic>E</italic> (GPa)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Thermal Conductivity (W·m
+     <sup>−1</sup>·K
+     <sup>−1</sup>)
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Hardness (HV5)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Specific Heat (J·kg
+     <sup>−1</sup>·K
+     <sup>−1</sup>)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1500</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">210</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">20</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">596</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">460</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

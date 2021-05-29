@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In addition to the increased resistance of the free wire length 
+ <italic>R
+  <sub>FW</sub>
+ </italic>, the set welding current 
+ <italic>I
+  <sub>W</sub>
+ </italic> and the resistance of the arc 
+ <italic>R
+  <sub>Arc</sub>
+ </italic> influence the welding power 
+ <italic>P
+  <sub>W</sub>
+ </italic>. Thereby, the current load of the electrode can be decreased with constantly set welding power (Equation (3)) [
+ <xref rid="B24-materials-13-02491" ref-type="bibr">24</xref>,
+ <xref rid="B34-materials-13-02491" ref-type="bibr">34</xref>]. According to the first Joule’s law, this leads to increased resistance heating of the free wire 
+ <italic>Q
+  <sub>FW</sub>
+ </italic> proportional to the square of the welding current 
+ <italic>I
+  <sub>W</sub>
+ </italic>, the resistance of the wire 
+ <italic>R
+  <sub>FW</sub>
+ </italic> and the welding time 
+ <italic>t
+  <sub>W</sub>
+ </italic> (compare Equation (4)). 
+ <disp-formula id="FD3-materials-13-02491">
+  <label>(3)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>P</mi>
+      <mi>W</mi>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mi>I</mi>
+      <mi>W</mi>
+      <mn>2</mn>
+     </msubsup>
+     <mo>×</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>R</mi>
+        <mrow>
+         <mi>F</mi>
+         <mi>W</mi>
+        </mrow>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>R</mi>
+        <mrow>
+         <mi>A</mi>
+         <mi>r</mi>
+         <mi>c</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD4-materials-13-02491">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Q</mi>
+      <mrow>
+       <mi>F</mi>
+       <mi>W</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mi>I</mi>
+      <mi>W</mi>
+      <mn>2</mn>
+     </msubsup>
+     <mo>×</mo>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>F</mi>
+       <mi>W</mi>
+      </mrow>
+     </msub>
+     <mo>×</mo>
+     <msub>
+      <mi>t</mi>
+      <mi>W</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,12 @@
+0: DSC allows us to measure heat release or consumption, or in other words the amounts of enthalpy that are exchanged by samples, for instance due to phase transitions.
+1: In order to enhance the sensitivity compared to a classical calorimeter and to allow non-isothermal operation in a differential calorimeter, the signals of two calorimetric sensors are compared [ 113].
+2: Operation under non-isothermal conditions is possible, as both sensors are located symmetrically in surroundings at the same temperature (see the schematic example of power-compensated DSC sensors in  Figure 4).
+3: A differential scanning calorimeter is generally operated in scanning mode rather than under isothermal conditions, i.e., the temperature typically changes at a constant heating or cooling rate.
+4: DSC uses two symmetric (ideally identical) sensors, one of which measures the sample to be investigated, while the other measures an inert reference sample.
+5: There are two different types of signals that can be measured: either the temperature difference between the two sensors, or the difference in heating power.
+6: In the first case, the device is called a heat flux differential scanning calorimeter, and both sensors are located in one furnace, which is used for the general temperature-time program providing the same surrounding temperature for both sensors.
+7: In the second case, both sensors are located separately, in surroundings of constant temperature (a cooled block), and both are equipped with a micro furnace that incorporates a temperature sensor, i.e., the sensor is both a furnace and a sensor at the same time.
+8: This version of DSC is called power-compensated DSC (see  Figure 4).
+9: Nevertheless, both types of DSC devices can be used in a very similar way, and the setup of the experiments and the data evaluation are very alike, as in both cases the (electronic) signal is converted to the value of heat flow by calibration.
+10: For more details on specific setups and the peculiarities of the different types and operation modes of DSC devices, the reader is referred to Ref.
+11: [ 113].

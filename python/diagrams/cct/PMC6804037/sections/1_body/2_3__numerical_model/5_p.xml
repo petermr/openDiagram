@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The radius r is given by 
+ <disp-formula id="FD2-materials-12-03136">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">r</mi>
+     <mo>=</mo>
+     <msqrt>
+      <mrow>
+       <msup>
+        <mi mathvariant="normal">x</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mi mathvariant="normal">y</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </msqrt>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

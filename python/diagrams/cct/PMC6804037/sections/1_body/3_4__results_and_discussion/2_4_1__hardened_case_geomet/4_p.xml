@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <disp-formula id="FD3-materials-12-03136">
+  <label>(3)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi>E</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>P</mi>
+        <mrow>
+         <mi>Average</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>F</mi>
+        <mrow>
+         <mi>Pulse</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD4-materials-12-03136">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>P</mi>
+      <mrow>
+       <mi>Peak</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mi>E</mi>
+      <mrow>
+       <msub>
+        <mi>W</mi>
+        <mrow>
+         <mi>Pulse</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where E is the pulse energy (joule), 
+ <italic>P</italic>
+ <sub>Average</sub> is the average power (Watts), F
+ <sub>Pulse</sub> is pulse frequency (Hz), P
+ <sub>Peak</sub> is the peak power (kW), and 
+ <italic>W</italic>
+ <sub>Pulse</sub> is the pulse width (ms).
+</p>

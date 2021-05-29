@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>L.</given-names>
+  </name>
+  <xref ref-type="aff" rid="a1">1</xref>
+  <xref ref-type="aff" rid="a2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Pauly</surname>
+   <given-names>S.</given-names>
+  </name>
+  <xref ref-type="corresp" rid="c2">b</xref>
+  <xref ref-type="aff" rid="a2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Tang</surname>
+   <given-names>M. Q.</given-names>
+  </name>
+  <xref ref-type="aff" rid="a1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Eckert</surname>
+   <given-names>J.</given-names>
+  </name>
+  <xref ref-type="aff" rid="a2">2</xref>
+  <xref ref-type="aff" rid="a3">3</xref>
+  <xref ref-type="author-notes" rid="n1">*</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zhang</surname>
+   <given-names>H. F.</given-names>
+  </name>
+  <xref ref-type="corresp" rid="c1">a</xref>
+  <xref ref-type="aff" rid="a1">1</xref>
+ </contrib>
+ <aff id="a1">
+  <label>1</label>
+  <institution>Shenyang National Laboratory for Materials Science, Institute of Metal Research, Chinese Academy of Sciences</institution>, 110016 Shenyang, 
+  <country>China</country>
+ </aff>
+ <aff id="a2">
+  <label>2</label>
+  <institution>IFW Dresden, Institute for Complex Materials</institution>, P.O. Box 27 01 16, D-01069 Dresden, 
+  <country>Germany</country>
+ </aff>
+ <aff id="a3">
+  <label>3</label>
+  <institution>TU Dresden, Institute of Materials Science</institution>, D-01062 Dresden, 
+  <country>Germany</country>
+ </aff>
+</contrib-group>

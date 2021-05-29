@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here, 
+ <italic>n</italic> is the reaction exponent and 
+ <italic>β</italic> is the cooling rate, while 
+ <italic>k</italic> is a factor that incorporates the alloy composition, the solvus temperature of the relevant phase and the temperature. For full details, see [
+ <xref rid="B118-materials-12-04083" ref-type="bibr">118</xref>,
+ <xref rid="B119-materials-12-04083" ref-type="bibr">119</xref>]. The extended volume concept leads to a novel expression for the fraction transformed, 
+ <italic>α</italic>, by combining Equation (2) [
+ <xref rid="B82-materials-12-04083" ref-type="bibr">82</xref>] with Equation (4), now allowing for the consideration of linear cooling. 
+ <disp-formula id="FD5-materials-12-04083">
+  <label>(5)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mi>n</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>N</mi>
+      <mrow>
+       <mi>d</mi>
+       <mi>i</mi>
+       <mi>m</mi>
+      </mrow>
+     </msub>
+     <mo> </mo>
+     <mi>g</mi>
+     <mo>+</mo>
+     <mi>B</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

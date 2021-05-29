@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">The FEM simulation used to extrapolate the surface temperature serves as an example for the verification process: it is a preliminary study using a simplified geometry with estimated process parameters and a linear electromagnetic material model. While the surface temperature fitted in Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref> is close to the expected 1050 °C, the simulation is still in need of calibration and with depth, temperature drops faster than expected. The phase transition regions determined in the microstructure indicate a slower drop of the temperature, which the electromagnetic model needs to be adjusted to account for. Further steps in the modelling procedure now include updating the model geometry, parameters and material model to closer match the physical bearing and result in a better fit with the temperature distribution observed in Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>.
+</p>

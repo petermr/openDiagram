@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-13-01312-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-13-01312-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>Actual chemical composition of S700MC steel.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th colspan="14" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Chemical Composition, % by Weight </th>
+   </tr>
+   <tr>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">C</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Mn</th>
+    <th colspan="2" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Si</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">S</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">P</th>
+    <th colspan="2" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Al</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Nb</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Ti</th>
+    <th colspan="2" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">V</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">N</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">C
+     <sub>e</sub>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.056</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.68</td>
+    <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">0.16</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.005</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.01</td>
+    <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">0.027</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.044</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.12</td>
+    <td colspan="2" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">0.006</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">72</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.33</td>
+   </tr>
+   <tr>
+    <td colspan="14" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Mechanical properties</td>
+   </tr>
+   <tr>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Tensile strength R
+     <sub>m</sub>, MPa
+    </td>
+    <td colspan="4" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Yield point R
+     <sub>e</sub>,
+     <break/>MPa
+    </td>
+    <td colspan="4" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Elongation A
+     <sub>5</sub>,
+     <break/>%
+    </td>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Toughness, J/cm
+     <sup>2</sup>
+     <break/>(−30 °C)
+    </td>
+   </tr>
+   <tr>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">820</td>
+    <td colspan="4" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">700</td>
+    <td colspan="4" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">17</td>
+    <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">50</td>
+   </tr>
+   <tr>
+    <td colspan="14" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">
+     <inline-formula>
+      <math id="mm1">
+       <mrow>
+        <mrow>
+         <msub>
+          <mi mathvariant="normal">C</mi>
+          <mrow>
+           <mrow>
+            <mi mathvariant="normal">e</mi>
+            <mo> </mo>
+           </mrow>
+          </mrow>
+         </msub>
+         <mo>=</mo>
+         <mi mathvariant="normal">C</mi>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi>Mn</mi>
+          </mrow>
+          <mn>6</mn>
+         </mfrac>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi>Ni</mi>
+           <mo>+</mo>
+           <mi>Cu</mi>
+          </mrow>
+          <mrow>
+           <mn>15</mn>
+          </mrow>
+         </mfrac>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi>Cr</mi>
+           <mo>+</mo>
+           <mi>Mo</mi>
+           <mo>+</mo>
+           <mi mathvariant="normal">V</mi>
+          </mrow>
+          <mn>5</mn>
+         </mfrac>
+         <mo>,</mo>
+         <mo> </mo>
+         <mrow>
+          <mo>(</mo>
+          <mo>%</mo>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

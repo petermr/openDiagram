@@ -1,0 +1,3 @@
+0: Due to the data evaluation explained above, the evaluable heat flow curves do not start at zero time.
+1: Between the defined start point and the onset of the evaluable heat flow curve, a time range exists where the development of the heat flow is unknown.
+2: This non-evaluable dead time,  tdead, amounts to an average value of about 30 s (maximum value, 77 s).

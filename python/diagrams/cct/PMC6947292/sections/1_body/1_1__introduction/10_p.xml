@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All of the mentioned heat treatment steps make use of or are directly related to diffusion-controlled solid-solid phase transformations. In particular, in the heating and cooling steps of the heat treatment, solid-solid phase transformations take place under continuously changing temperatures. In practical applications, these dynamic changes in temperature generally depend on the quenching media used and the dimensions of the components and/or the batch (see for instance Fig. 3.64 in Ref. [
+ <xref rid="B81-materials-12-04083" ref-type="bibr">81</xref>], page 613). Since diffusion is strongly dependent on temperature and time, a wide range of relevant heating and cooling rates needs to be assessed. This means that diffusion-controlled processes like precipitation in Al alloys need to be considered on logarithmic time scales. This can be derived from a theoretical description of diffusion, for instance, and is illustrated by an example in 
+ <xref ref-type="fig" rid="materials-12-04083-f003">Figure 3</xref>. Diffusion-controlled precipitation reactions can be described by a Starink-model based on the extended volume 
+ <italic>α
+  <sub>ext</sub>
+ </italic> concept [
+ <xref rid="B82-materials-12-04083" ref-type="bibr">82</xref>]. 
+ <xref ref-type="fig" rid="materials-12-04083-f003">Figure 3</xref> for an isothermal precipitation plots the fraction transformed as a function of time, on a linear time scale (
+ <xref ref-type="fig" rid="materials-12-04083-f003">Figure 3</xref>A) and on a logarithmic time scale (
+ <xref ref-type="fig" rid="materials-12-04083-f003">Figure 3</xref>B). It can be seen from 
+ <xref ref-type="fig" rid="materials-12-04083-f003">Figure 3</xref> that only by using a logarithmic time scale can we analyse this diffusion process in its entirety. Thus, cooling DSC analysis on quench induced precipitation should also cover a cooling rate range spanning several orders of magnitude, and the results should be displayed on logarithmic time scales.
+</p>

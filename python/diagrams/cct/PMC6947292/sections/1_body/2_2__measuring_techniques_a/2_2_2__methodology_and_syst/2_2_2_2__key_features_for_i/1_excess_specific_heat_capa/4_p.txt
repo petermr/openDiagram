@@ -1,0 +1,3 @@
+0: As described above, in the first instance the measured signal is a heat flow signal.
+1: The DSC heat flow signal depends on the amount of sample used (expressed as a mass or in moles) and the scanning rate applied.
+2: To allow for a quantitative comparison of measurements with different scanning rates and sample masses, the heat flow signal  Q  must be normalised by the sample mass (or the number of atoms) and the scanning rate , resulting in the unit of specific heat capacity (per g or per mole):  (1)excess cp= Q sample vs referenceQ baseline (reference vs reference)sample mass scanning rate[excess cp]=1 mWmWmg  Ks=1WsgK=1 JgK

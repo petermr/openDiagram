@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The new model for quench-induced precipitation has three major components. In the first step, the precipitation during quenching is calculated, while the second step calculates precipitation during subsequent artificial ageing under a T6 treatment, and the third carries out a strength prediction for the T6 condition. The model incorporates some novel theories, and the results generally show excellent accuracy. It is very efficient in terms of computation, as no time stepping is involved. The computational efficiency is achieved by incorporating some simplifications of the highly complex nature of precipitation [
+ <xref rid="B118-materials-12-04083" ref-type="bibr">118</xref>,
+ <xref rid="B119-materials-12-04083" ref-type="bibr">119</xref>], most notably that during cooling, the reactions can be modelled as consecutive reactions.
+</p>

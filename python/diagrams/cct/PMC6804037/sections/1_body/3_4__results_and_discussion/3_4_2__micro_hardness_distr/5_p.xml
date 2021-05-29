@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The micro hardness deviation from base metal (MHD) is derived from Equation 5:
+ <disp-formula id="FD5-materials-12-03136">
+  <label>(5)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi>MHD</mi>
+     <mo>=</mo>
+     <msubsup>
+      <mstyle mathsize="80%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>n</mi>
+     </msubsup>
+     <mfrac>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <msub>
+        <mi>x</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>−</mo>
+       <msub>
+        <mi>x</mi>
+        <mrow>
+         <mi>b</mi>
+         <mo>.</mo>
+         <mi>m</mi>
+        </mrow>
+       </msub>
+       <mo stretchy="false">)</mo>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mi>n</mi>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where x
+ <sub>i</sub> is the depth or width areas that Micro-hardness was measured, x 
+ <sub>(b.m)</sub> is row material micro-hardness, and n is known as the number of areas that their hardness was measured. In this paper n is, 10 and x 
+ <sub>(b.m)</sub> is equivalent to 256 Vickers (hardness of AISI 4130). In laser hardening process the higher MHD is desired while a higher MHD value represents a more uniform hardness in the hardened area. By comparing MHD values presented in 
+ <xref rid="materials-12-03136-t002" ref-type="table">Table 2</xref>, which were calculated by Equation (5), sample #9 had the higher values among the transferred hardening samples. The higher MHD showed better and more uniform distribution of the hardened profile.
+</p>

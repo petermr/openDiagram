@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-12-03136-t005" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-12-03136-t005_Table 5</object-id>
+ <label>Table 5</label>
+ <caption>
+  <p>Comparison of experimental and numerical dimensions (mm) of hardened zone.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Sample #8</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Experimental Data (mm)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Numerical Data (mm)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Width of hardness (mm)</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.9</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.8</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Depth of hardness (mm)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.1</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.2</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

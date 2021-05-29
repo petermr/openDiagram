@@ -1,0 +1,8 @@
+0: Obtaining a large dynamic range is a much bigger challenge in cooling experiments than in heating experiments.
+1: Each DSC device has its own spectrum of heating/cooling rates, which also depends on the particular setup of the device (see Ref.
+2: [ 83] for more details).
+3: The scanning rate spectrum is typically analysed by measuring a performance diagram (see the example in  Figure 10).
+4: It can be seen that during heating, a scanning rate of 5 K/s is reached after a short period, and can be controlled over nearly the entire temperature range, which was 0 to 600 C in this case.
+5: However, during cooling, control over the scanning rate is lost at a certain temperature, and this takes place earlier at increasing cooling rates.
+6: The loss of cooling control is accompanied by the loss of an evaluable DSC signal, which is typically more severe for power-compensated calorimeters.
+7: In the example given in  Figure 10, the critical temperature during cooling at 5 K/s is about 350 C. This is clearly a limiting factor, since relevant reactions might occur at lower temperatures, and these cannot be therefore analysed with this particular DSC device at this cooling rate.

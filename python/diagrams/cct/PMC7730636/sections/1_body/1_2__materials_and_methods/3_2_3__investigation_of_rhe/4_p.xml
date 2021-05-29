@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>R</italic> and 
+ <italic>h</italic> are instantaneous radius and height of specimen, and 
+ <italic>m</italic> is the friction coefficient. Geometrical parameters can by determined according to the amount of barreling for specimen and the friction coefficient then is calculated as 
+ <disp-formula id="FD3-materials-13-05585">
+  <label>(3)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi>m</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mfenced>
+        <mrow>
+         <mfrac>
+          <mi>R</mi>
+          <mi>h</mi>
+         </mfrac>
+        </mrow>
+       </mfenced>
+       <mi>b</mi>
+      </mrow>
+      <mrow>
+       <mfenced>
+        <mrow>
+         <mfrac>
+          <mn>4</mn>
+          <mrow>
+           <msqrt>
+            <mn>3</mn>
+           </msqrt>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mfenced>
+       <mo>−</mo>
+       <mfenced>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mn>2</mn>
+           <mi>b</mi>
+          </mrow>
+          <mrow>
+           <mn>3</mn>
+           <msqrt>
+            <mn>3</mn>
+           </msqrt>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>R</italic> is the theoretical radius, 
+ <italic>h</italic> is the final height of the sample after compression, and 
+ <italic>b</italic> is the barreling factor. The theoretical radius 
+ <italic>R</italic> can be determined as 
+ <disp-formula id="FD4-materials-13-05585">
+  <label>(4)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>R</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>R</mi>
+      <mn>0</mn>
+     </msub>
+     <msqrt>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>h</mi>
+          <mn>0</mn>
+         </msub>
+        </mrow>
+        <mi>h</mi>
+       </mfrac>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> and barreling factor as 
+ <disp-formula id="FD5-materials-13-05585">
+  <label>(5)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mi>b</mi>
+     <mo>=</mo>
+     <mn>4</mn>
+     <mfrac>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>R</mi>
+      </mrow>
+      <mi>R</mi>
+     </mfrac>
+     <mo>·</mo>
+     <mfrac>
+      <mi>h</mi>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>h</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>h</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the initial dimension of sample, 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mi>h</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the difference between the initial and final height of the sample, and 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mi>R</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the difference between the largest and smallest radii of the deformed sample.
+</p>

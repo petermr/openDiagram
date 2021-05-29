@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-12-03136-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-12-03136-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>Chemical composition of AISI 4130 steel (Wt.%).</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="bottom" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Element Name</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Cr</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Fe</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">S</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Al</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Cu</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Ni</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Mn</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">V</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">S</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">C</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Mo</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Si</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">Weight Percent</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.03</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.024</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.06</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.05</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.87</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.012</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.03</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.25</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.25</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">0.3</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">1.01</td>
+    <td align="center" valign="top" style="border-bottom:solid thin" rowspan="1" colspan="1">Balance</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

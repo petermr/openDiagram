@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Due to the fact that the cooling rate must fall below these values at the end of the cooling step, precipitation might start already during cooling. Additionally, the change in scanning rate between cooling and soaking leads to a heat flow overshoot, which is an instrumental measurement artefact (the large peak in the blue curve in 
+ <xref rid="f4-materials-07-02631" ref-type="fig">Figure 4B</xref>). This artefact might lead to errors in the interpretation of the DSC curves and, therefore, must be excluded from the evaluation. As the overshoot peak might overlap the reaction onset, a critical dead time (
+ <italic>t</italic>
+ <sub>dead</sub>), which cannot be analyzed, exists. An appropriate way of defining a reliable starting point, which determines the time limits for signal evaluation (cut of overshot artefacts), is schematically shown in 
+ <xref rid="f4-materials-07-02631" ref-type="fig">Figure 4</xref>.
+</p>

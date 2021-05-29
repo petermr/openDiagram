@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Heat Treatment process of SA508Gr.4N Steel.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Heat treatment</th>
+    <th>Pre-heat-treatment</th>
+    <th>Austenitizing</th>
+    <th>Tempering</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Condition</td>
+    <td>920/2/AC</td>
+    <td rowspan="3">860/5/60, 4.4</td>
+    <td rowspan="3">620/8/AC</td>
+   </tr>
+   <tr>
+    <td>[°C/h/C.R (cooling rate)</td>
+    <td>900/2/AC</td>
+   </tr>
+   <tr>
+    <td>(AC, air cooling. °C/min)]</td>
+    <td>640/8/AC</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-12-04083-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-12-04083-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Quench-induced phases in AlZnMg(Cu) alloys.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;border-left:solid thin;border-right:solid thin" rowspan="1" colspan="1"> </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Quench-Induced Phases</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Alloy</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Precipitation Temperature Range from DSC</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Particle Morphology (Aspect Ratio)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Nucleation</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Reference</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin;border-left:solid thin;border-right:solid thin" colspan="1">Stable phases</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">S-Al
+     <sub>2</sub>CuMg
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">7150</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">HTR</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">(&lt;5?)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">On coarse primary Al
+     <sub>7</sub>CuFe and grain boundaries
+    </td>
+    <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" colspan="1">[
+     <xref rid="B119-materials-12-04083" ref-type="bibr">119</xref>,
+     <xref rid="B133-materials-12-04083" ref-type="bibr">133</xref>,
+     <xref rid="B189-materials-12-04083" ref-type="bibr">189</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">β-Mg
+     <sub>2</sub>Si
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">7020</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">HTR</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Plates (?)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">(?)</td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" colspan="1">η-Mg(Zn,Al,Cu)
+     <sub>2</sub>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">7150</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">MTR</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Polygonal plates (&lt;10)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">On dispersoids [
+     <xref rid="B31-materials-12-04083" ref-type="bibr">31</xref>,
+     <xref rid="B194-materials-12-04083" ref-type="bibr">194</xref>] and grain boundaries [
+     <xref rid="B119-materials-12-04083" ref-type="bibr">119</xref>,
+     <xref rid="B189-materials-12-04083" ref-type="bibr">189</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">7020</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">MTR</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Plates (?)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">(?)</td>
+   </tr>
+   <tr>
+    <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin;border-left:solid thin;border-right:solid thin" colspan="1">Metastable phases</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Y-phase (enriched in Zn, Cu)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">7150</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">LTR</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Thin plates (≈100)</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Presumably on vacancy clusters or dislocations</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">[
+     <xref rid="B119-materials-12-04083" ref-type="bibr">119</xref>,
+     <xref rid="B143-materials-12-04083" ref-type="bibr">143</xref>]
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">Cluster</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">7449</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">vLTR</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin;border-right:solid thin" rowspan="1" colspan="1">[
+     <xref rid="B103-materials-12-04083" ref-type="bibr">103</xref>,
+     <xref rid="B104-materials-12-04083" ref-type="bibr">104</xref>]
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

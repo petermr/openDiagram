@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">The 5° slice of rod had a radius of r
+ <sup>rod</sup> = 25 mm and length of l
+ <sup>rod</sup> = 150 mm. A complex claw-shaped inductor of proprietary geometry encompassed ≈150° of the bearing, which rotated constantly at a distance of 0.5 mm during the hardening process. Since the simplified model was only an axisymmetric slice of the whole circumference, the inductor was represented as a coil of rectangular cross section (w
+ <sup>coil</sup> = 6 mm wide by h
+ <sup>coil</sup> = 5 mm tall) with two turns d
+ <sup>coil</sup> = 5.4 mm apart, distanced 0.5 mm from the bearing surface. The model air space had a radius of r
+ <sup>air</sup> = 250 mm. Homogeneous Dirichlet boundary conditions were defined at all surfaces; these confined the magnetic field to the simulated geometry by acting as magnetic insulation. This was well suited, since the field was assumed to be axisymmetric and to not extend past the dimensions of the defined cylinder of air. The mesh within the rod was generated from hexagons with a set width of e
+ <sub>0</sub>
+ <sup>rod</sup> = 2.5 mm. The skin depth was 349 μm and divided into 15 elements geometrically scaled from e
+ <sub>0</sub>
+ <sup>skin</sup> = 2 μm at the surface to e
+ <sub>1</sub>
+ <sup>skin</sup> = 83 μm. The air mesh was generated procedurally to scale from 1.5 mm at the coil surface to e
+ <sub>∞</sub>
+ <sup>air</sup> = 15 mm at the model boundary, while the coils were modelled one element thick with a wall thickness of 1 mm. The load was a sine wave current with an amplitude of I = 1850 A and a frequency of f = 10.5 kHz. This amperage was based on a measurement on the induction coil, but increased slightly to result in a solution close to the assumed maximum surface temperature of 1050 °C. The heat transfer model used only the mesh of the rod, and applied a convective film boundary condition of h
+ <sub>air</sub> = 20 Wm
+ <sup>−2</sup>K and ambient radiation condition assuming the surface emissivity to be 
+ <italic>ε</italic> = 0.7. The initial temperature distribution was set to be a uniform room temperature 25 °C and the rod was heated for t
+ <sub>heat</sub> = 12 s.
+</p>

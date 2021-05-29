@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to determine the critical cooling rate for a glass-forming material solidified from liquid state without crystallization, constructing a CCT curve instead of time-temperature-transformation (TTT) curve is more realistic [
+ <xref rid="B35-materials-10-00420" ref-type="bibr">35</xref>]. Here, we used the additivity rule to relate the transformation behavior during continuous cooling with the isothermal transformation data calculated above. The additivity rule was proposed by Scheil firstly and can be expressed by [
+ <xref rid="B36-materials-10-00420" ref-type="bibr">36</xref>]:
+ <disp-formula id="FD3-materials-10-00420">
+  <label>(3)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+       </mrow>
+       <mi>n</mi>
+      </munderover>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>t</mi>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+        <mrow>
+         <msub>
+          <mi>τ</mi>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+       </mfrac>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>t
+  <sub>i</sub>
+ </italic> is the time spent at a particular temperature and 
+ <italic>τ
+  <sub>i</sub>
+ </italic> is the incubation time at that temperature. According to the additivity rule, CCT curve could be gained using the calculated T-T
+ <sub>r</sub>-T diagram. The cooling routes used in calculation are given by:
+ <disp-formula id="FD4-materials-10-00420">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mi>T</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>T</mi>
+      <mi>m</mi>
+     </msub>
+     <mo>+</mo>
+     <mi>q</mi>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>q</italic> is the cooling rate, and here it is negative.
+</p>

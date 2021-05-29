@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The following equation based on the steady-state homogeneous nucleation theory proposed by Davies and derived by Inoue [
+ <xref rid="B29-materials-10-00420" ref-type="bibr">29</xref>]:
+ <disp-formula id="FD1-materials-10-00420">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>t</mi>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mn>31</mn>
+        </mrow>
+        <mi>k</mi>
+       </mfrac>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>x</mi>
+             <msubsup>
+              <mi>a</mi>
+              <mn>0</mn>
+              <mn>9</mn>
+             </msubsup>
+            </mrow>
+            <mrow>
+             <msub>
+              <mi>N</mi>
+              <mi>v</mi>
+             </msub>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mrow>
+          <mn>1</mn>
+          <mo>/</mo>
+          <mn>4</mn>
+         </mrow>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>×</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mfrac>
+        <mn>1</mn>
+        <mrow>
+         <msub>
+          <mi>T</mi>
+          <mi>r</mi>
+         </msub>
+         <mo>Δ</mo>
+         <msubsup>
+          <mi>T</mi>
+          <mi>r</mi>
+          <mrow>
+           <mrow>
+            <mn>3</mn>
+            <mo>/</mo>
+            <mn>4</mn>
+           </mrow>
+          </mrow>
+         </msubsup>
+        </mrow>
+       </mfrac>
+       <mi>exp</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mn>0.268</mn>
+          </mrow>
+          <mrow>
+           <msubsup>
+            <mi>T</mi>
+            <mi>r</mi>
+            <mn>3</mn>
+           </msubsup>
+           <mo>Δ</mo>
+           <msubsup>
+            <mi>T</mi>
+            <mi>r</mi>
+            <mn>2</mn>
+           </msubsup>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mi>exp</mi>
+       <mrow>
+        <mo>{</mo>
+        <mrow>
+         <mfrac>
+          <mn>2</mn>
+          <mn>5</mn>
+         </mfrac>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mfrac>
+              <mrow>
+               <msub>
+                <mi>T</mi>
+                <mi>r</mi>
+               </msub>
+              </mrow>
+              <mrow>
+               <mo>Δ</mo>
+               <msub>
+                <mi>T</mi>
+                <mi>r</mi>
+               </msub>
+              </mrow>
+             </mfrac>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mrow>
+            <mn>3</mn>
+            <mo>/</mo>
+            <mn>4</mn>
+           </mrow>
+          </mrow>
+         </msup>
+        </mrow>
+        <mo>}</mo>
+       </mrow>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>×</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <msub>
+        <mi>η</mi>
+        <mrow>
+         <mn>0</mn>
+         <mi>r</mi>
+        </mrow>
+       </msub>
+       <mi>exp</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi>B</mi>
+            <mi>r</mi>
+           </msub>
+          </mrow>
+          <mrow>
+           <msub>
+            <mi>T</mi>
+            <mi>r</mi>
+           </msub>
+           <mo>−</mo>
+           <msub>
+            <mi>T</mi>
+            <mrow>
+             <mn>0</mn>
+             <mi>r</mi>
+            </mrow>
+           </msub>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> Equation (1) gives a time transformation curve (C-curve) that expresses the time to transform to crystal as a function of temperature. Here, 
+ <italic>k</italic> is the Boltzmann constant, 
+ <italic>x</italic> is the fraction of crystal formed in time 
+ <italic>t</italic>, and a volume fraction of 10
+ <sup>−6</sup> as a just-detectable concentration of crystals was used [
+ <xref rid="B30-materials-10-00420" ref-type="bibr">30</xref>]. 
+ <italic>a
+  <sub>0</sub>
+ </italic> is the mean atomic diameter, 
+ <italic>N
+  <sub>v</sub>
+ </italic> is the volume concentration of atoms. 
+ <italic>T
+  <sub>r</sub>
+ </italic> (=
+ <italic>T/T
+  <sub>m</sub>
+ </italic>) is the reduced temperature, and Δ
+ <italic>T
+  <sub>r</sub>
+ </italic> (=1 − 
+ <italic>T
+  <sub>r</sub>
+ </italic>) is the reduced undercooling of the melt. 
+ <italic>B
+  <sub>r</sub>
+ </italic>, 
+ <italic>T</italic>
+ <sub>0
+  <italic>r</italic>
+ </sub> and 
+ <italic>η</italic>
+ <sub>0
+  <italic>r</italic>
+ </sub> are defined as 
+ <italic>B/T
+  <sub>m</sub>
+ </italic>, 
+ <italic>T</italic>
+ <sub>0</sub>
+ <italic>/T
+  <sub>m</sub>
+ </italic> and 
+ <italic>η</italic>
+ <sub>0</sub>
+ <italic>/T
+  <sub>m</sub>
+ </italic>respectively. 
+ <italic>B</italic>, 
+ <italic>T</italic>
+ <sub>0</sub> and 
+ <italic>η</italic>
+ <sub>0</sub> are the parameters in the Vogel-Fulcher-Tammann (VFT) equation:
+ <disp-formula id="FD2-materials-10-00420">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>η</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>T</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>η</mi>
+      <mn>0</mn>
+     </msub>
+     <mi>exp</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mi>B</mi>
+        <mrow>
+         <mi>T</mi>
+         <mo>−</mo>
+         <msub>
+          <mi>T</mi>
+          <mn>0</mn>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>η</mi>
+      <mn>0</mn>
+     </msub>
+     <mi>exp</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msup>
+          <mi>D</mi>
+          <mo>*</mo>
+         </msup>
+         <msub>
+          <mi>T</mi>
+          <mn>0</mn>
+         </msub>
+        </mrow>
+        <mrow>
+         <mi>T</mi>
+         <mo>−</mo>
+         <msub>
+          <mi>T</mi>
+          <mn>0</mn>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>T</italic>
+ <sub>0</sub> is known as an ideal glass transition temperature and 
+ <italic>B</italic> is constant depending on materials. 
+ <italic>D</italic>* is the fragility parameter (1 ≤ 
+ <italic>D</italic>* ≤ 100). 
+ <italic>η</italic>
+ <sub>0</sub> has the relation of 
+ <italic>η</italic>
+ <sub>0</sub>
+ <italic> = N
+  <sub>A</sub>h/V
+ </italic>, with 
+ <italic>N
+  <sub>A</sub>
+ </italic>, Avogadro’s constant, 
+ <italic>h</italic>, Planck’s constant and 
+ <italic>V</italic>, the molar volume [
+ <xref rid="B31-materials-10-00420" ref-type="bibr">31</xref>]. In this paper, the values of 
+ <italic>V</italic> are calculated by the JMatPro software and then we can get the value of 
+ <italic>η</italic>
+ <sub>0</sub>. The first term of Equation (1) is considered a constant [
+ <xref rid="B29-materials-10-00420" ref-type="bibr">29</xref>], in this paper it is 0.89 × 10
+ <sup>−6</sup> J
+ <sup>−1</sup>∙K∙m
+ <sup>3</sup>. Since 
+ <italic>B</italic> and 
+ <italic>T</italic>
+ <sub>0</sub> are empirical parameters and were not known clearly for the alloys below, referring to the data summarized by Takeuchi and B.A. Sun [
+ <xref rid="B27-materials-10-00420" ref-type="bibr">27</xref>,
+ <xref rid="B29-materials-10-00420" ref-type="bibr">29</xref>,
+ <xref rid="B32-materials-10-00420" ref-type="bibr">32</xref>], considering the mostly used processing method of high aluminum content bulk metallic glasses [
+ <xref rid="B2-materials-10-00420" ref-type="bibr">2</xref>,
+ <xref rid="B33-materials-10-00420" ref-type="bibr">33</xref>,
+ <xref rid="B34-materials-10-00420" ref-type="bibr">34</xref>], parameters of hypothetical alloys used in this paper are listed in 
+ <xref ref-type="table" rid="materials-10-00420-t002">Table 2</xref>. These hypothetical alloys are assumed to have compositions range near the given alloy (i.e., Al
+ <sub>35</sub>La
+ <sub>50</sub>Ni
+ <sub>15</sub>).
+</p>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Despite the abovementioned issues with the analysis of DSC heating curves, there are some aspects that can still be derived from DSC heating curves, such as the following: 
+ <list list-type="bullet">
+  <list-item>
+   <p>The course of the DSC heating curve strongly depends on the initial state of the sample and the heating rate, e.g., Ref. [
+    <xref rid="B75-materials-12-04083" ref-type="bibr">75</xref>,
+    <xref rid="B117-materials-12-04083" ref-type="bibr">117</xref>,
+    <xref rid="B120-materials-12-04083" ref-type="bibr">120</xref>,
+    <xref rid="B127-materials-12-04083" ref-type="bibr">127</xref>,
+    <xref rid="B144-materials-12-04083" ref-type="bibr">144</xref>,
+    <xref rid="B157-materials-12-04083" ref-type="bibr">157</xref>,
+    <xref rid="B158-materials-12-04083" ref-type="bibr">158</xref>,
+    <xref rid="B159-materials-12-04083" ref-type="bibr">159</xref>,
+    <xref rid="B160-materials-12-04083" ref-type="bibr">160</xref>]. The differences from the initial state are therefore mostly relevant at temperatures below about 300 °C (see 
+    <xref ref-type="fig" rid="materials-12-04083-f018">Figure 18</xref>, which shows heating DSC curves for three AlMgSi alloys in different initial heat treatment states). Above 300 °C, the differences between the DSC curves resulting from different initial precipitation states are mostly equalised, and thus the heating DSC curves are very similar at high temperatures.
+   </p>
+  </list-item>
+  <list-item>
+   <p>If the maximum temperature of the heating program is chosen to be high enough, and if the alloy happens to allow the complete dissolution of the major alloying elements, the heating rate-dependent solvus temperature can be determined by heating DSC. In 
+    <xref ref-type="fig" rid="materials-12-04083-f018">Figure 18</xref>, this characteristic temperature relates to the end of peak H, where the DSC signal finally drops back towards zero. This aspect has high technological relevance, as determination of the solvus temperature allows us to choose a proper solution treatment temperature. Choosing a solution temperature well above the solvus is crucial in cases where a short soaking is necessarily related to the technological process, for instance in continuous annealing processes during sheet production [
+    <xref rid="B148-materials-12-04083" ref-type="bibr">148</xref>].
+   </p>
+  </list-item>
+  <list-item>
+   <p>If the abovementioned condition is fulfilled and the DSC heating curves exceed the scanning-rate-specific solvus temperature, the total integral of the DSC heating curve 
+    <inline-formula>
+     <math id="mm4">
+      <mrow>
+       <mrow>
+        <msubsup>
+         <mstyle displaystyle="true">
+          <mo>∫</mo>
+         </mstyle>
+         <mrow>
+          <msub>
+           <mi>T</mi>
+           <mrow>
+            <mi>m</mi>
+            <mi>i</mi>
+            <mi>n</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <msub>
+           <mi>T</mi>
+           <mrow>
+            <mi>m</mi>
+            <mi>a</mi>
+            <mi>x</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msubsup>
+        <mi>e</mi>
+        <mi>x</mi>
+        <mi>c</mi>
+        <mi>e</mi>
+        <mi>s</mi>
+        <mi>s</mi>
+        <mo> </mo>
+        <mi>c</mi>
+        <mi>p</mi>
+        <mo> </mo>
+        <mrow>
+         <mo>(</mo>
+         <mi>T</mi>
+         <mo>)</mo>
+        </mrow>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula> gives the enthalpy level Δh of the initial state. This enthalpy level is an indicator of the thermal and kinetic stability of the initial state. That is, a more stable precipitation state has a larger enthalpy level (6005A: Δh
+    <sub>T4</sub> = 6 J/g &lt; Δh
+    <sub>T6</sub> = 10 J/g &lt; Δh
+    <sub>oa</sub> = 12 J/g, see 
+    <xref ref-type="fig" rid="materials-12-04083-f019">Figure 19</xref>, [
+    <xref rid="B120-materials-12-04083" ref-type="bibr">120</xref>]). In the case of a soft annealed 6005A (
+    <xref ref-type="fig" rid="materials-12-04083-f019">Figure 19</xref>E), the precondition for complete dissolution during heating to T
+    <sub>max</sub> does not hold. The determination of the enthalpy level of the initial state can be useful in two different ways: firstly, the heat treatment state of an unknown delivery condition of an alloy can be estimated; and secondly, the determination of the enthalpy level by a reheating experiment allows us to determine the enthalpy changes caused by preceding heat treatments, which is very valuable in order to extend the DSC scanning rate range by indirect experiments, for instance.
+   </p>
+  </list-item>
+ </list>
+</p>

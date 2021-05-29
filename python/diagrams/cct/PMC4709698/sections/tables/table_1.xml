@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="t1">
+ <label>Table 1</label>
+ <caption>
+  <title>Chemical compositions of the constituent phases in the samples BT48 cooled at different rates.</title>
+ </caption>
+ <table frame="hsides" rules="groups" border="1">
+  <colgroup>
+   <col align="left"/>
+   <col align="center"/>
+   <col align="center"/>
+  </colgroup>
+  <thead valign="bottom">
+   <tr>
+    <th align="left" valign="top" charoff="50">Samples</th>
+    <th align="center" valign="top" charoff="50">Phases</th>
+    <th align="center" valign="top" charoff="50">Compositions</th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td align="left" valign="top" charoff="50">6 mm</td>
+    <td align="center" valign="top" charoff="50">β-Ti</td>
+    <td align="center" valign="top" charoff="50">Ti
+     <sub>59.51</sub>Zr
+     <sub>35.16</sub>Cu
+     <sub>3.49</sub>Co
+     <sub>1.84</sub>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" charoff="50">10 mm</td>
+    <td align="center" valign="top" charoff="50">β-Ti</td>
+    <td align="center" valign="top" charoff="50">Ti
+     <sub>60.59</sub>Zr
+     <sub>36.13</sub>Cu
+     <sub>2.27</sub>Co
+     <sub>1.01</sub>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" charoff="50">20 mm</td>
+    <td align="center" valign="top" charoff="50">β-Ti</td>
+    <td align="center" valign="top" charoff="50">Ti
+     <sub>60.54</sub>Zr
+     <sub>36.17</sub>Cu
+     <sub>2.29</sub>Co
+     <sub>1.00</sub>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" charoff="50"> </td>
+    <td align="center" valign="top" charoff="50">β-Ti</td>
+    <td align="center" valign="top" charoff="50">Ti
+     <sub>60.58</sub>Zr
+     <sub>36.11</sub>Cu
+     <sub>2.30</sub>Co
+     <sub>1.01</sub>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" charoff="50">100 g</td>
+    <td align="center" valign="top" charoff="50">glassy matrix</td>
+    <td align="center" valign="top" charoff="50">Ti
+     <sub>42.12</sub>Zr
+     <sub>39.65</sub>Cu
+     <sub>11.86</sub>Co
+     <sub>6.37</sub>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" valign="top" charoff="50"> </td>
+    <td align="center" valign="top" charoff="50">glassy matrix</td>
+    <td align="center" valign="top" charoff="50">Ti
+     <sub>32.02</sub>Zr
+     <sub>30.13</sub>Cu
+     <sub>9.01</sub>Co
+     <sub>4.84</sub>Be
+     <sub>24.00</sub>&gt;
+     <xref ref-type="fn" rid="t1-fn1">*</xref>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="t1-fn1">
+   <p>The estimated compositions of the glassy matrix and β-Ti in the 100 g ingot are the quasi-equilibrium compositions and are denoted BT0 (
+    <inline-formula id="d33e1923">
+     <inline-graphic id="d33e1924" xlink:href="srep19235-m68.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </inline-formula>) and BT100 (
+    <inline-formula id="d33e1926">
+     <inline-graphic id="d33e1927" xlink:href="srep19235-m69.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </inline-formula>), respectively. *This composition is calculated from the EPMA obtained compositions and the nominal composition by assuming that Be is totally in the glassy matrix.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

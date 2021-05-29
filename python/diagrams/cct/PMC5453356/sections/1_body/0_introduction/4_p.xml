@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Both types of TTP diagram are related to the quenching step within the age hardening procedure. Continuous cooling precipitation or transformation diagrams provide the required information directly for certain defined cooling paths. From isothermal TTP diagrams, similar information about continuous cooling processes is available for very different cooling paths by applying Quench Factor Analysis [
+ <xref rid="b2-materials-07-02631" ref-type="bibr">2</xref>] based on Scheil’s rule of additivity [
+ <xref rid="b3-materials-07-02631" ref-type="bibr">3</xref>,
+ <xref rid="b4-materials-07-02631" ref-type="bibr">4</xref>]. This is often used by heat treatment simulation software in order to calculate the microstructural evolution during a cooling process. Simir and Gür mention in [
+ <xref rid="b5-materials-07-02631" ref-type="bibr">5</xref>] that “the most straightforward approach for calculating microstructural evolution during a continuous cooling process would simply be to introduce CCT diagrams into the computer program. A CCT diagram is valid only for the exact temperature histories used to draw it, and the cooling curves are normally plotted on the diagram. However, during quenching, the cooling rate at a point is generally not constant and hence, it does not follow one of those curves; therefore, the CCT diagram is no longer valid. […] As a workaround, Scheil’s additivity principle is commonly employed to relate a TTT diagram to the transformation behavior for an arbitrary continuous cooling path […]. Thus, the cooling curve can be treated as a series of small isothermal time steps connected by instantaneous temperature jumps […].” Currently, the isothermal TTP diagrams for aluminum alloys are typically based on the analysis of the microstructure or mechanical (resp. corrosion) properties after quenching several samples to different temperatures and soaking for different periods of time (see, for example, [
+ <xref rid="b6-materials-07-02631" ref-type="bibr">6</xref>–
+ <xref rid="b14-materials-07-02631" ref-type="bibr">14</xref>]). The microstructure approach requires an extensive series of high-resolution microstructure analyses. These diagrams may deliver time-temperature-precipitation diagrams that show different precipitation phases and nucleation sites [
+ <xref rid="b15-materials-07-02631" ref-type="bibr">15</xref>,
+ <xref rid="b16-materials-07-02631" ref-type="bibr">16</xref>]. The possibility that is more frequently used is to measure certain properties, such as yield strength or hardness [
+ <xref rid="b10-materials-07-02631" ref-type="bibr">10</xref>,
+ <xref rid="b11-materials-07-02631" ref-type="bibr">11</xref>,
+ <xref rid="b13-materials-07-02631" ref-type="bibr">13</xref>,
+ <xref rid="b14-materials-07-02631" ref-type="bibr">14</xref>]. This approach requires less effort. However, the related time-temperature-property diagrams typically are not able to resolve different precipitation phases. Rather, they typically show one so-called “C-curve” related to a certain property.
+</p>

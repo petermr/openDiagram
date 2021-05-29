@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>By combining Equations (7) and (8) for all stress levels (low and high), the strain rate can be expressed as 
+ <disp-formula id="FD12-materials-13-05585">
+  <label>(12)</label>
+  <math id="mm24">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>φ</mi>
+      <mo>˙</mo>
+     </mover>
+     <mo>=</mo>
+     <mi>A</mi>
+     <msup>
+      <mrow>
+       <mfenced close="]" open="[">
+        <mrow>
+         <mrow>
+          <mi>sinh</mi>
+         </mrow>
+         <mfenced>
+          <mrow>
+           <mi>α</mi>
+           <mi>σ</mi>
+          </mrow>
+         </mfenced>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mi>n</mi>
+     </msup>
+     <mi>exp</mi>
+     <mfenced>
+      <mrow>
+       <mo>−</mo>
+       <mfrac>
+        <mi>Q</mi>
+        <mrow>
+         <mi>R</mi>
+         <mi>T</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> and its logarithm as 
+ <disp-formula id="FD13-materials-13-05585">
+  <label>(13)</label>
+  <math id="mm25">
+   <mrow>
+    <mrow>
+     <mi>ln</mi>
+     <mfenced close="]" open="[">
+      <mrow>
+       <mi>sinh</mi>
+       <mfenced>
+        <mrow>
+         <mi>α</mi>
+         <mi>σ</mi>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mfenced>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>ln</mi>
+       <mover accent="true">
+        <mi>φ</mi>
+        <mo>˙</mo>
+       </mover>
+      </mrow>
+      <mi>n</mi>
+     </mfrac>
+     <mo>+</mo>
+     <mfrac>
+      <mi>Q</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>R</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mi>ln</mi>
+       <mi>A</mi>
+      </mrow>
+      <mi>n</mi>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -160,7 +160,7 @@ class AmiGui(tk.Frame):
 
     def view_main_xml_file(self, file):
         from xml_lib import XmlLib
-        self.xml_root = XmlLib.parse_file_to_root(file)
+        self.xml_root = XmlLib.parse_xml_file_to_root(file)
         for child in self.xml_root:
             pass
 

@@ -315,7 +315,7 @@ class AmiTree:
         self.tree.bind('<<TreeviewSelect>>', self.display_items_selected)
 
         self.color_tags()
-        self.tree.pack(expand=True)
+        self.tree.pack(expand=True, fill="x")
         return self.tree
 
 

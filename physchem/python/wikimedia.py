@@ -15,6 +15,23 @@ HREF = "href"
 TITLE = "title"
 DESC = "desc"
 
+# elements in SPARQL output
+SPQ_RESULTS = "SPQ:results"
+SPQ_RESULT = "SPQ:result"
+SPQ_URI = "SPQ:uri"
+SPQ_BINDING = "SPQ:binding"
+
+# entry
+NS_MAP = {'SPQ': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
+NS_URI = "SPQ:uri"
+NS_LITERAL = "SPQ:literal"
+
+# names mapping SPARQL output to amidict
+ID_NAME = "id_name"
+SPQ_NAME = "sparql_name"
+DICT_NAME = "dict_name"
+
+
 
 class WikidataLookup:
 
@@ -65,7 +82,6 @@ class WikidataLookup:
 
 
 class WikidataPage:
-
 
     def __init__(self, pqitem):
         self.root = None
@@ -184,11 +200,21 @@ class WikidataPage:
                 lang_pages[lang] = a.attrib[HREF]
         return lang_pages
 
+    def get_image(self):
+        pass
+
+"""
+<div class="wikibase-statementgroupview" id="P5037" data-property-id="P5037">
+<div class="wikibase-statementgroupview-property">
+"""
+    def get_properties(self):
+        pdivs = self.root.findall(".//div[@class='wikibase-statementgroupview']")
+        ids = [pid for pdiv in pdivs]
+
 class WikidataSparql:
 
     def __init__(self):
         pass
-
 
     def update_from_sparqlx(self, sparql_file, sparql_to_dictionary):
         self.sparql_to_dictionary = sparql_to_dictionary
@@ -221,6 +247,7 @@ class WikidataSparql:
 
     def apply_dicts_and_sparql(self, dictionary_file, rename_file, sparql2amidict_dict, sparql_files):
         from shutil import copyfile
+        from dictionary import SearchDictionary
 
         keystring = ""
         # svae original file

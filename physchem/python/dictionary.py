@@ -17,11 +17,6 @@ from gutil import Gutil
 """
 
 
-# entry
-NS_MAP = {'SPQ': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
-NS_URI = "SPQ:uri"
-NS_LITERAL = "SPQ:literal"
-
 
 #  html tags/attributes
 
@@ -41,22 +36,13 @@ WIKIDATA_ID = "wikidataID"
 WIKIPEDIA_PAGE = "wikipediaPage"
 # elements
 
-# elements in SPARQL output
-SPQ_RESULTS = "SPQ:results"
-SPQ_RESULT = "SPQ:result"
-SPQ_URI = "SPQ:uri"
-SPQ_BINDING = "SPQ:binding"
-
-# names mapping SPARQL output to amidict
-ID_NAME = "id_name"
-SPQ_NAME = "sparql_name"
-DICT_NAME = "dict_name"
 
 
 class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 
     """
+    TERM = "term"
 
     def __init__(self, xml_file=None, name=None, wikilangs=None, **kwargs):
         self.amidict = None

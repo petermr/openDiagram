@@ -88,7 +88,7 @@ class Gutil:
                         exportselection=False,
                         highlightcolor="green",
                         selectbackground="pink",
-                        highlightthickness=3,
+                        highlightthickness=1,
                         bg="#ffffdd",
                         bd=1,  # listbox border
                         fg="blue")
@@ -560,7 +560,7 @@ class ExtraWidgets(tk.Frame):
 
         ss = ttk.Style()
         ss.configure('Yellow.TFrame', background='yellow', foreground="pink", border=10, padx=5,
-                     highlightcolor="purple", highlightthickness=3)
+                     highlightcolor="purple", highlightthickness=1)
         s1 = ttk.Style()
         s1.configure('Red.TButton', background='red', foreground="green", font=('Arial', 20,'bold'))
         s2 = ttk.Style()

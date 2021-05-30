@@ -191,8 +191,9 @@ class AmiGui(tk.Frame):
         self.make_ami_widgets(self.dashboard)
 
     def make_ami_widgets(self, master):
-        pg_frame = tk.Frame(master, highlightbackground="gray",
-                                 highlightthickness=2)
+        pg_frame = tk.Frame(master,
+                            highlightbackground="gray",
+                            highlightthickness=1)
         pg_frame.pack(side=TOP)
 
         self.make_cproject_frame(pg_frame, tk.TOP)
@@ -455,11 +456,13 @@ class AmiGui(tk.Frame):
 
     def make_getpapers_args(self, frame):
         getpapers_args_frame = tk.Frame(frame,
-                                    highlightbackground="black", highlightthickness=2)
+                                    highlightbackground="black",
+                                    highlightthickness=1)
         getpapers_args_frame.pack(side=tk.TOP)
 
         checkbox_frame = tk.Frame(getpapers_args_frame,
-                                    highlightbackground="black", highlightthickness=2)
+                                    highlightbackground="black",
+                                    highlightthickness=1)
         checkbox_frame.pack(side=tk.TOP)
 
         Gutil.make_help_label(checkbox_frame, tk.LEFT,
@@ -494,7 +497,9 @@ class AmiGui(tk.Frame):
         return button
 
     def make_dictionary_content_boxes(self, master, dictionary_dict, selected_dict_names):
-        frame = tk.Frame(master, highlightcolor="red", highlightthickness=10)
+        frame = tk.Frame(master,
+                         highlightcolor="red",
+                         highlightthickness=2)
         frame.pack()
         n = ttk.Notebook(frame)
         n.pack()
@@ -502,7 +507,9 @@ class AmiGui(tk.Frame):
         self.selected_boxes = []
         for dict_name in selected_dict_names:
             search_dictionary = dictionary_dict[dict_name]
-            f1 = tk.Frame(n, highlightcolor="blue", highlightthickness=10)
+            f1 = tk.Frame(n,
+                          highlightcolor="blue",
+                          highlightthickness=2)
             n.add(f1, text=dict_name)
             description = "description??"
             curbox = self.make_dictionary_content_box(n, dict_name, search_dictionary.file, desc=description)
@@ -609,8 +616,8 @@ class AmiGui(tk.Frame):
         frame, title_var = Gutil.make_frame(master,
                                            title=title,
                                            tooltip=tooltip,
-                                           highlightbackground="green",
-                                           highlightthickness=3,
+                                           # highlightbackground="green",
+                                           highlightthickness=2,
                                            )
 
         lb = Gutil.create_listbox_from_list(frame, items)

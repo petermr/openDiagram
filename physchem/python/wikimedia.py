@@ -2,6 +2,7 @@
 WIKIDATA_QUERY_URI = "https://www.wikidata.org/w/index.php?search="
 WIKIDATA_SITE = "https://www.wikidata.org/wiki/"
 
+
 STATEMENTS = "statements"
 # HTML classes in WD search output
 SEARCH_RESULT = "searchresult"
@@ -9,6 +10,7 @@ MW_SEARCH_RESULT_DATA = "mw-search-result-data"
 MW_SEARCH_RESULTS = "mw-search-results"
 MW_SEARCH_RESULT_HEADING = "mw-search-result-heading"
 WB_SLLV_LV = "wikibase-sitelinklistview-listview"
+ID = "id"
 
 BODY = "body"
 HREF = "href"
@@ -31,8 +33,6 @@ ID_NAME = "id_name"
 SPQ_NAME = "sparql_name"
 DICT_NAME = "dict_name"
 
-
-
 class WikidataLookup:
 
     def __init__(self):
@@ -47,17 +47,18 @@ class WikidataLookup:
 
         self.term = term
         url = WIKIDATA_QUERY_URI + quote(term.encode('utf8'))
-        if self.root is None:
-            self.root = ParserWrapper.parse_utf8_html_to_root(url)
+        self.root = ParserWrapper.parse_utf8_html_to_root(url)
         body = self.root.find(BODY)
         ul = body.find(".//ul[@class='" + MW_SEARCH_RESULTS + "']")
         if ul is not None:
             self.wikidata_dict = self.create_dict_for_all_possible_wd_matches(ul)
             sort_orders = sorted(self.wikidata_dict.items(), key=lambda item : int(item[1][STATEMENTS]), reverse=True)
-            pprint.pprint(sort_orders[0:3])
+            wikidata_hits = [s[0] for s in sort_orders[:5]]
+            print("wikidata hits", wikidata_hits)
+#            pprint.pprint(sort_orders[0:3])
         #  take the first
             qitem = sort_orders[0]
-        return qitem[0], qitem[1]["desc"]
+        return qitem[0], qitem[1]["desc"], wikidata_hits
 
     def create_dict_for_all_possible_wd_matches(self, ul):
         wikidata_dict = {}
@@ -87,12 +88,6 @@ class WikidataPage:
         self.root = None
         self.pqitem = pqitem
         self.root = self.get_root_for_item(self.pqitem)
-
-    # def get_or_create_html_root(self, url):
-    #     if not self.root:
-    #         self.root = ParserWrapper.parse_utf8_html_to_root(url)
-    #
-    #     return self.root
 
     # <li class="mw-search-result">
     # <div class="mw-search-result-heading">
@@ -203,13 +198,14 @@ class WikidataPage:
     def get_image(self):
         pass
 
-"""
-<div class="wikibase-statementgroupview" id="P5037" data-property-id="P5037">
-<div class="wikibase-statementgroupview-property">
-"""
+    """
+    <div class="wikibase-statementgroupview" id="P5037" data-property-id="P5037">
+    <div class="wikibase-statementgroupview-property">
+    """
     def get_properties(self):
         pdivs = self.root.findall(".//div[@class='wikibase-statementgroupview']")
-        ids = [pid for pdiv in pdivs]
+        ids = [pdiv.attrib[ID] for pdiv in pdivs]
+        return ids
 
 class WikidataSparql:
 
@@ -298,6 +294,7 @@ class ParserWrapper:
         from io import StringIO
         from urllib.request import urlopen
         from lxml import etree
+
         with urlopen(url) as u:
             content = u.read().decode("utf-8")
         tree = etree.parse(StringIO(content), etree.HTMLParser())

@@ -1,4 +1,5 @@
 from dictionary import SearchDictionary
+from lxml import etree as ET
 
 class SearchDictionaryTest:
     @classmethod
@@ -10,10 +11,20 @@ class SearchDictionaryTest:
     @classmethod
     def test_create_from_words(cls):
         from lxml import etree
+        from wikimedia import WikidataPage
+        import pprint
+
         words = ["limonene", "alpha-pinene", "lantana camara"]
         dictionary = SearchDictionary.create_from_words(words, "test", "created from words", wikilangs=["en", "de"])
         dictionary.add_wikidata_from_terms()
-        print(etree.tostring(dictionary.root, pretty_print=True).decode("utf-8"))
+        pprint.pprint(ET.tostring(dictionary.root))
+        for entry in dictionary.entries:
+            wikidata_page = dictionary.create_wikidata_page(entry)
+            ids = wikidata_page.get_properties()
+            print(ids)
+
+
+
 
     @classmethod
     def test(cls):

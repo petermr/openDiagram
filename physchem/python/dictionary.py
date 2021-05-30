@@ -33,6 +33,8 @@ DESC = "desc"
 NAME = "name"
 TERM = "term"
 WIKIDATA_ID = "wikidataID"
+WIKIDATA_URL = "wikidataURL"
+WIKIDATA_SITE = "https://www.wikidata.org/wiki/"
 WIKIPEDIA_PAGE = "wikipediaPage"
 # elements
 
@@ -93,6 +95,7 @@ class SearchDictionary:
             entry = ET.SubElement(dictionary.root, ENTRY)
             entry.attrib[NAME] = term
             entry.attrib[TERM] = term
+            dictionary.entries.append(entry)
         return dictionary
 
     def read_dictionary_from_xml_file(self, file, ignorecase=True):
@@ -229,18 +232,37 @@ class SearchDictionary:
         entries = self.root.findall(ENTRY)
         for entry in entries:
             term = entry.attrib[TERM]
-            qitem, desc = wikidata_lookup.lookup_wikidata(term)
+            qitem, desc, qitems = wikidata_lookup.lookup_wikidata(term)
             entry.attrib[WIKIDATA_ID] = qitem
+            entry.attrib[WIKIDATA_URL] = WIKIDATA_SITE + qitem
             entry.attrib[DESC] = desc
+            synonym = ET.SubElement(entry, "synonym")
+            synonym.attrib["type"] = "wikidata_hits"
+            synonym.text = str(qitems)
             wikidata_page = WikidataPage(qitem)
             wikipedia_dict = wikidata_page.get_wikipedia_page_links(self.wikilangs)
-            for wp in wikipedia_dict.items():
-                if wp[0] == "en":
-                    entry.attrib[WIKIPEDIA_PAGE] = wp[1]
-                else:
-                    wikipedia = ET.SubElement(entry, WIKIPEDIA)
-                    wikipedia.attrib["lang"] = wp[0]
-                    wikipedia.text = wp[1]
+            self.add_wikipedia_page_links(entry, wikipedia_dict)
+
+    def add_wikipedia_page_links(self, entry, wikipedia_dict):
+        for wp in wikipedia_dict.items():
+            if wp[0] == "en":
+                entry.attrib[WIKIPEDIA_PAGE] = wp[1]
+            else:
+                wikipedia = ET.SubElement(entry, WIKIPEDIA)
+                wikipedia.attrib["lang"] = wp[0]
+                wikipedia.text = wp[1]
+
+    def create_wikidata_page(self, entry_element):
+        from wikimedia import WikidataPage
+
+        # refactor this - make entry a class
+        wikidata_page = None
+        qitem = entry_element.attrib[WIKIDATA_ID]
+        if qitem is not None:
+            wikidata_page = WikidataPage(qitem)
+
+        return wikidata_page
+
 
 class AmiDictionaries:
 

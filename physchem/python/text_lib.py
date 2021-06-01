@@ -229,7 +229,26 @@ class AmiSection:
         self.text = None
         self.write_text = True
         self.sentences = None
+        self.name = None
 #        self.read_section()
+
+    def add_name(self, file):
+        """creates name (within a sections/) dir from file
+        e.g. /Users/pm286/projects/openDiagram/physchem/resources/oil26/PMC5485486/sections/0_front/1_article-meta/13_abstract.xml
+        yields 0_front/1_article-meta/13_abstract.xml """
+        if file is None:
+            print("null file")
+            return None
+        file_components = file.split("/")[::-1]
+        components = []
+        # include name up to CTree
+        for i, c in enumerate(file_components):
+            # read back to "sections" and then read the CTree name
+            components.append(c)
+            if c == "sections":
+                components.append(file_components[i+1])
+                break
+        self.name = "/".join(components[::-1])
 
     def read_file_get_text_filtered_words(self, file):
         """reads xml or txt file
@@ -249,9 +268,11 @@ class AmiSection:
             self.xml_file = file
             self.txt_file = AmiSection.create_txt_filename_from_xml(self.xml_file)
             if os.path.exists(self.txt_file):
+                self.add_name(self.txt_file)
                 self.sentences = AmiSection.read_numbered_sentences_file(self.txt_file)
             if os.path.exists(self.xml_file):
-                """read a file as an ami-section of larger document """
+                self.add_name(self.xml_file)
+                """read a file as an atxt_filemi-section of larger document """
                 with open(self.xml_file, "r", encoding="utf-8") as f:
                     try:
                         self.xml = f.read()
@@ -266,6 +287,19 @@ class AmiSection:
                     AmiSection.write_numbered_sentence_file(self.txt_file, self.sentences)
             self.words = self.get_words_from_sentences()
 #            print("debug", file,">\n  ", self.words)
+
+    def __str__(self):
+
+        # self.words = []
+        # self.xml_file = None
+        # self.xml = None
+        # self.txt_file = None
+        # self.text = None
+        # self.write_text = True
+        # self.sentences = None
+        s = f"xml: {self.xml_file}\n"
+        s += f"txt: {self.txt_file}"
+        return self.name
 
 # static utilities
     @staticmethod
@@ -324,6 +358,7 @@ class AmiSection:
 #            print("w", sentence, len(words))
             self.words.extend(words)
         return self.words
+
 
 class Sentence:
 

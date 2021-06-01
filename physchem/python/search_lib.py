@@ -42,6 +42,7 @@ class AmiSearch:
         self.do_plot = True
         self.ami_projects = AmiProjects()
         self.use_rake = True    #change later
+        self.use_rake = False
 
         self.param_dict = {
             "max_bars" : 10,
@@ -68,6 +69,7 @@ class AmiSearch:
         self.ami_gui = None
 
         self.filter = True
+        self.results_by_section = {}
 
     def make_plot(self, counter, dict_name):
         import matplotlib as mpl
@@ -142,25 +144,56 @@ class AmiSearch:
     def search_and_generate_section(self, file, filter=filter):
         section = TextUtil.get_section_with_words(file, filter=filter)
 #        print("words", len(words))
-        self.matches_by_amidict = self.match_single_words_against_dictionaries(section.words)
-        matches_by_amidict_multiple = self.match_multiple_words_against_dictionaries(section.text)
+        total_hits_by_dict = {}
+        self.matches_by_amidict, hits_by_dict = self.match_single_words_against_dictionaries(section.words)
+        total_hits = 0
+        self.list_hits(hits_by_dict, section)
+        self.results_by_section[section.name] = hits_by_dict
+        matches_by_amidict_multiple, hits_by_mwdict = self.match_multiple_words_against_dictionaries(section.text)
+        self.list_hits(hits_by_mwdict, section)
+
+            # total_hits += hits
+        # if len(total_hits) > 0:
+        #     create_results_file(file, total_hits)
+
         for key, value in matches_by_amidict_multiple.items():
             self.matches_by_amidict.setdefault(key, []).extend(value)
         matches_by_pattern = self.match_words_against_pattern(section.words)
 
         return self.matches_by_amidict, matches_by_pattern, section
 
+    def list_hits(self, hits_by_dict, section):
+        for dict_name in hits_by_dict.keys():
+            hits = hits_by_dict[dict_name]
+            if len(hits) > 0:
+                print("matches in section", section, "are: ", self.matches_by_amidict.keys(), hits_by_dict)
+                self.add_hits_to_section_index(section.name, dict_name, hits)
+
+            # total_hits += hits
+
+    def add_hits_to_section_index(self, section_name, dict_name, hits):
+        import pprint
+        if len(hits) > 0:
+            if section_name not in self.results_by_section:
+                self.results_by_section[section_name] = {}
+            if not dict_name in self.results_by_section[section_name]:
+                self.results_by_section[section_name][dict_name] = []
+            self.results_by_section[section_name][dict_name] += hits
+
 
     def match_single_words_against_dictionaries(self, words):
+        """matches the set of words in a section against set of terms in a dictionary"""
         found = False
         matches_by_amidict = {}
+        hits_by_dict = {}
         for dictionary in self.dictionaries:
             hits = dictionary.match(words)
             #            print("hits", len(hits))
             if dictionary.entry_by_term is not None:
                 wid_hits = self.annotate_hits_with_wikidata(dictionary, hits)
             matches_by_amidict[dictionary.name] = wid_hits
-        return matches_by_amidict
+            hits_by_dict[dictionary.name] = hits
+        return matches_by_amidict, hits_by_dict
 
     def match_multiple_words_against_dictionaries(self, text):
         from nltk.tokenize import sent_tokenize
@@ -169,11 +202,13 @@ class AmiSearch:
         found = False
         tokenized_sents = sent_tokenize(text)
 #        print("token sents", tokenized_sents)
+        hits_by_dict = {}
         for dictionary in self.dictionaries:
             hits = dictionary.match_multiple_word_terms_against_sentences(tokenized_sents)
 #            wid_hits = self.annotate_hits_with_wikidata(dictionary, hits)
             matches_by_multiple[dictionary.name] = hits
-        return matches_by_multiple
+            hits_by_dict[dictionary.name] = hits
+        return matches_by_multiple, hits_by_dict
 
 
     def annotate_hits_with_wikidata(self, dictionary, hits):
@@ -228,13 +263,17 @@ class AmiSearch:
             matches_by_pattern[pattern.name] = hits
         return matches_by_pattern
 
-    @staticmethod
-    def print_file(file):
-        print("file: ", file)
-        with open(file, "r", encoding="utf-8") as f:
-            print("read", f.read())
+    # @staticmethod
+    # def print_file(file):
+    #     print("file: ", file)
+    #     with open(file, "r", encoding="utf-8") as f:
+    #         print("read", f.read())
 
     def search_and_count(self, section_files):
+        from icecream import ic
+        """searches sections with dictionaries and also makes word counts"""
+        for dictionary in self.dictionaries:
+            print("dictionary for search", dictionary.name)
         dictionary_counter_dict = self.create_counter_dict(self.dictionaries)
         pattern_counter_dict = self.create_counter_dict(self.patterns)
 
@@ -242,12 +281,16 @@ class AmiSearch:
         sections = []
         for index, target_file in enumerate(section_files[:self.max_files]):
             if index % self.debug_cnt == 0:
-                print("file", target_file)
+                # eg <project_dir> /oil26/PMC5203915/sections/0_front/1_article-meta/19_abstract.xml
+                print("collect words in file", target_file)
             matches_by_amidict, matches_by_pattern, section = self.search_and_generate_section(target_file)
             sections.append(section)
             all_lower_words += [w.lower() for w in section.words]
             self.add_matches_to_counter_dict(dictionary_counter_dict, matches_by_amidict)
             self.add_matches_to_counter_dict(pattern_counter_dict, matches_by_pattern)
+
+
+        ic("results by section", self.results_by_section)
 
         return dictionary_counter_dict, pattern_counter_dict, all_lower_words, sections
 

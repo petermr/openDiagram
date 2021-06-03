@@ -342,7 +342,7 @@ class AmiSection:
             with open(file, "r", encoding="utf-8") as f:
                 lines = f.readlines()
             if len(lines) == 0:
-                print("warning empty file", file)
+#                print("warning empty file", file)
                 pass
             try:
                 sentences = Sentence.read_number_sentences(lines)

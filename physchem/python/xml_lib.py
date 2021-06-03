@@ -57,12 +57,25 @@ LINK_TAGS = {
 
 SECTIONS = "sections"
 
-#XML_LANG = '{http://www.w3.org/XML/1998/namespace}lang'
+HTML_NS = "HTML_NS"
+MATHML_NS = "MATHML_NS"
+SVG_NS = "SVG_NS"
+XMLNS_NS = "XMLNS_NS"
+XML_NS = "XML_NS"
+XLINK_NS = "XLINK_NS"
 
+XML_LANG = "{" + XML_NS + "}" + 'lang'
+
+NS_MAP = {
+    HTML_NS : "http://www.w3.org/1999/xhtml",
+    MATHML_NS : "http://www.w3.org/1998/Math/MathML",
+    SVG_NS : "http://www.w3.org/2000/svg",
+    XLINK_NS : "http://www.w3.org/1999/xlink",
+    XML_NS : "http://www.w3.org/XML/1998/namespace",
+    XMLNS_NS: "http://www.w3.org/2000/xmlns/",
+    }
 
 class XmlLib:
-    XML_NS = 'http://www.w3.org/XML/1998/namespace'
-    XML_LANG = "{" + XML_NS + "}" + 'lang'
 
     def __init__(self, file=None, section_dir=SECTIONS):
         if file is not None:
@@ -119,7 +132,7 @@ class XmlLib:
             filename = str(i) + "_" + title
 
             if flag == TERMINAL:
-                xml_string = ElementTree.tostring(child)
+                xml_string = ET.tostring(child)
                 with open(os.path.join(outdir, filename + '.xml'), "wb") as f:
                     f.write(xml_string)
             else:
@@ -148,15 +161,141 @@ class XmlLib:
         print("start xml")
         doc = XmlLib("../liion/PMC7077619/fulltext.xml")
 
-class Section:
+# class Section:
+#
+#     def __init__(self):
+#         pass
 
-    def __init__(self):
-        pass
+class HtmlElement:
+    """to provide fluent HTML builder and parser"""
+    pass
+
+class DataTable:
+    """
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head charset="UTF-8">
+  <title>ffml</title>
+  <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"/>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" charset="UTF-8" type="text/javascript"> </script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js" charset="UTF-8" type="text/javascript"> </script>
+  <script charset="UTF-8" type="text/javascript">$(function() { $("#results").dataTable(); }) </script>
+ </head>
+    """
+    def __init__(self, title, colheads=None, rowdata=None):
+        """create dataTables
+        optionally add column headings (list) and rows (list of conformant lists) """
+        self.html = ET.Element("html")
+        self.head = None
+        self.body = None
+        self.create_head(title)
+        self.create_body()
+        self.add_column_heads(colheads)
+        self.add_rows(rowdata)
+
+    def create_head(self, title):
+        """
+          <title>ffml</title>
+          <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"/>
+          <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" charset="UTF-8" type="text/javascript"> </script>
+          <script src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js" charset="UTF-8" type="text/javascript"> </script>
+          <script charset="UTF-8" type="text/javascript">$(function() { $("#results").dataTable(); }) </script>
+        """
+
+        self.head = ET.SubElement(self.html, "head")
+        self.title = ET.SubElement(self.head, "title")
+        self.title.text = title
+
+        link = ET.SubElement(self.head, "link")
+        link.attrib["rel"] = "stylesheet"
+        link.attrib["type"] = "text/css"
+        link.attrib["href"] = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"
+        link.text = '.' # messy, to stop formatter using "/>" which dataTables doesn't like
+
+        script = ET.SubElement(self.head, "script")
+        script.attrib["src"] = "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"
+        script.attrib["charset"] = "UTF-8"
+        script.attrib["type"] = "text/javascript"
+        script.text = '.' # messy, to stop formatter using "/>" which dataTables doesn't like
+
+        script = ET.SubElement(self.head, "script")
+        script.attrib["src"] = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"
+        script.attrib["charset"] = "UTF-8"
+        script.attrib["type"] = "text/javascript"
+        script.text = "." # messy, to stop formatter using "/>" which dataTables doesn't like
+
+        script = ET.SubElement(self.head, "script")
+        script.attrib["charset"] = "UTF-8"
+        script.attrib["type"] = "text/javascript"
+        script.text = "$(function() { $(\"#results\").dataTable(); }) "
+
+
+
+    def create_body(self):
+        """
+     <body>
+      <div class="bs-example table-responsive">
+       <table class="table table-striped table-bordered table-hover" id="results">
+        <thead>
+         <tr>
+          <th>articles</th>
+          <th>bibliography</th>
+          <th>dic:country</th>
+          <th>word:frequencies</th>
+         </tr>
+        </thead>
+        """
+
+        self.body = ET.SubElement(self.html, "body")
+        self.div = ET.SubElement(self.body, "div")
+        self.div.attrib["class"] = "bs-example table-responsive"
+        self.table = ET.SubElement(self.div, "table")
+        self.table.attrib["class"] = "table table-striped table-bordered table-hover"
+        self.table.attrib["id"]="results"
+        self.thead = ET.SubElement(self.table, "thead")
+        self.tbody = ET.SubElement(self.table, "tbody")
+
+
+    def add_column_heads(self, colheads):
+        if colheads is not None:
+            self.thead_tr = ET.SubElement(self.thead, "tr")
+            for colhead in colheads:
+                th = ET.SubElement(self.thead_tr, "th")
+                th.text = colhead
+
+    def add_rows(self, rowdata):
+        if rowdata is not None:
+            for row in rowdata:
+                self.add_row(row)
+
+    def add_row(self, row):
+        if row is not None:
+            tr = ET.SubElement(self.tbody, "tr")
+            for val in row:
+                td = ET.SubElement(tr, "td")
+                td.text = val
+
+    def __str__(self):
+        s = self.html.text
+        print("s", s)
+        return s
 
 def main():
+    import pprint
     print("start content")
     XmlLib().test()
     print("end content")
+    data_table = DataTable("test")
+    data_table.add_column_heads(["a", "b", "c"])
+    data_table.add_row(["a1", "b1", "c1"])
+    data_table.add_row(["a2", "b2", "c2"])
+    data_table.add_row(["a3", "b3", "c3"])
+    data_table.add_row(["a4", "b4", "c4"])
+
+    html = ET.tostring(data_table.html).decode("UTF-8")
+    HOME = os.path.expanduser("~")
+    with open(os.path.join(HOME, "junk_html.html"), "w") as f:
+        f.write(html)
+    pprint.pprint(html)
 
 if __name__ == "__main__":
     print("running file_lib main")

@@ -312,18 +312,16 @@ class AmiSearch:
 
         pass
 
-    def count_hits(self, hit_dict):
-        hit_count = 0
-        sub_item_count = 0
-        for item in hit_dict.items():
-            hits = len(item[1])
-            hit_count += hits
-            if hits > 0:
-                sub_item_count += 1
-        if sub_item_count > 1:
-            print("*******HITS", sub_item_count)
-        return hit_count, sub_item_count
-
+    # def count_hits(self, hit_dict):
+    #     hit_count = 0
+    #     sub_item_count = 0
+    #     for item in hit_dict.items():
+    #         hits = len(item[1])
+    #         hit_count += hits
+    #         if hits > 0:
+    #             sub_item_count += 1
+    #     return hit_count, sub_item_count
+    #
     def create_counter_dict(self, search_tools):
         counter_dict = {}
         for tool in search_tools:
@@ -383,13 +381,21 @@ class AmiSearch:
             continue
 
     def write_data_table(self, project_dir, section_type):
-        result_section_dir = os.path.join(project_dir, "results", section_type)
+        from xml_lib import RESULTS
+        from lxml import etree as ET
+        from icecream import ic
+        result_section_dir = os.path.join(project_dir, RESULTS, section_type)
         if not os.path.exists(result_section_dir):
             os.makedirs(result_section_dir)
-        with open(os.path.join(result_section_dir, "full_data_table.html"), "w") as f:
-            # print("data_table>>", self.data_table)
-            pass
-            # f.write(self.data_table)
+        data_table_file = os.path.join(result_section_dir, "full_data_table.html")
+        with open(data_table_file, "w") as f:
+            htmlb = ET.tostring(self.data_table.html)
+            data_table_text = str(htmlb)
+            data_table_text = data_table_text[:-1][2:]  # remove b'....'
+            f.write(data_table_text)
+            print("WROTE", data_table_file)
+
+
 
     def glob_fulltext(self, proj):
         globstr = os.path.join(proj.dir, "*/fulltext*.txt")
@@ -406,7 +412,10 @@ class AmiSearch:
     def section_make_counter_and_plot(self, section_type):
         from xml_lib import DataTable
         self.data_table = DataTable(section_type)
-        self.data_table.add_column_heads(self.dictionaries)
+        column_heads = ["sections"]
+        for dictionary in self.dictionaries:
+            column_heads.append(dictionary.name)
+        self.data_table.add_column_heads(column_heads)
         counter_by_tool, pattern_dict, _, sections = self.search_and_count(self.section_files)
         self.plot_tool_hits(counter_by_tool)
         self.plot_tool_hits(pattern_dict)

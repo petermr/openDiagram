@@ -1,4 +1,5 @@
-from xml.etree import ElementTree as ET
+# from xml.etree import ElementTree as ET
+from lxml import etree as ET
 import os
 from collections import Counter
 from file_lib import FileLib
@@ -46,6 +47,27 @@ HTML_TAGS = {
     "sup": "sup",
     "tr": "tr",
 }
+
+H_TD = "td"
+H_TR = "tr"
+H_TH = "th"
+LINK = "link"
+UTF_8 = "UTF-8"
+SCRIPT = "script"
+STYLESHEET = "stylesheet"
+TEXT_CSS = "text/css"
+TEXT_JAVASCRIPT = "text/javascript"
+
+H_HTML = "html"
+H_BODY = "body"
+H_TBODY = "tbody"
+H_DIV = "div"
+H_TABLE = "table"
+H_THEAD = "thead"
+H_HEAD = "head"
+H_TITLE = "title"
+
+RESULTS = "results"
 
 SEC_TAGS = {
     "sec",
@@ -100,7 +122,7 @@ class XmlLib:
     def parse_xml_file_to_root(file):
         if not os.path.exists(file):
             raise IOError("file does not exist", file)
-        xmlp = ET.XMLParser(encoding="utf-8")
+        xmlp = ET.XMLParser(encoding=UTF_8)
         element_tree = ET.parse(file, xmlp)
         root = element_tree.getroot()
         return root
@@ -158,13 +180,7 @@ class XmlLib:
         return title
 
     def test(self):
-        print("start xml")
         doc = XmlLib("../liion/PMC7077619/fulltext.xml")
-
-# class Section:
-#
-#     def __init__(self):
-#         pass
 
 class HtmlElement:
     """to provide fluent HTML builder and parser"""
@@ -184,7 +200,7 @@ class DataTable:
     def __init__(self, title, colheads=None, rowdata=None):
         """create dataTables
         optionally add column headings (list) and rows (list of conformant lists) """
-        self.html = ET.Element("html")
+        self.html = ET.Element(H_HTML)
         self.head = None
         self.body = None
         self.create_head(title)
@@ -201,31 +217,31 @@ class DataTable:
           <script charset="UTF-8" type="text/javascript">$(function() { $("#results").dataTable(); }) </script>
         """
 
-        self.head = ET.SubElement(self.html, "head")
-        self.title = ET.SubElement(self.head, "title")
+        self.head = ET.SubElement(self.html, H_HEAD)
+        self.title = ET.SubElement(self.head, H_TITLE)
         self.title.text = title
 
-        link = ET.SubElement(self.head, "link")
-        link.attrib["rel"] = "stylesheet"
-        link.attrib["type"] = "text/css"
+        link = ET.SubElement(self.head, LINK)
+        link.attrib["rel"] = STYLESHEET
+        link.attrib["type"] = TEXT_CSS
         link.attrib["href"] = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"
         link.text = '.' # messy, to stop formatter using "/>" which dataTables doesn't like
 
-        script = ET.SubElement(self.head, "script")
+        script = ET.SubElement(self.head, SCRIPT)
         script.attrib["src"] = "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"
-        script.attrib["charset"] = "UTF-8"
-        script.attrib["type"] = "text/javascript"
+        script.attrib["charset"] = UTF_8
+        script.attrib["type"] = TEXT_JAVASCRIPT
         script.text = '.' # messy, to stop formatter using "/>" which dataTables doesn't like
 
-        script = ET.SubElement(self.head, "script")
+        script = ET.SubElement(self.head, SCRIPT)
         script.attrib["src"] = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"
-        script.attrib["charset"] = "UTF-8"
-        script.attrib["type"] = "text/javascript"
+        script.attrib["charset"] = UTF_8
+        script.attrib["type"] = TEXT_JAVASCRIPT
         script.text = "." # messy, to stop formatter using "/>" which dataTables doesn't like
 
-        script = ET.SubElement(self.head, "script")
-        script.attrib["charset"] = "UTF-8"
-        script.attrib["type"] = "text/javascript"
+        script = ET.SubElement(self.head, SCRIPT)
+        script.attrib["charset"] = UTF_8
+        script.attrib["type"] = TEXT_JAVASCRIPT
         script.text = "$(function() { $(\"#results\").dataTable(); }) "
 
 
@@ -245,22 +261,22 @@ class DataTable:
         </thead>
         """
 
-        self.body = ET.SubElement(self.html, "body")
-        self.div = ET.SubElement(self.body, "div")
+        self.body = ET.SubElement(self.html, H_BODY)
+        self.div = ET.SubElement(self.body, H_DIV)
         self.div.attrib["class"] = "bs-example table-responsive"
-        self.table = ET.SubElement(self.div, "table")
+        self.table = ET.SubElement(self.div, H_TABLE)
         self.table.attrib["class"] = "table table-striped table-bordered table-hover"
-        self.table.attrib["id"]="results"
-        self.thead = ET.SubElement(self.table, "thead")
-        self.tbody = ET.SubElement(self.table, "tbody")
+        self.table.attrib["id"]= RESULTS
+        self.thead = ET.SubElement(self.table, H_THEAD)
+        self.tbody = ET.SubElement(self.table, H_TBODY)
 
 
     def add_column_heads(self, colheads):
         if colheads is not None:
-            self.thead_tr = ET.SubElement(self.thead, "tr")
+            self.thead_tr = ET.SubElement(self.thead, H_TR)
             for colhead in colheads:
-                th = ET.SubElement(self.thead_tr, "th")
-                th.text = colhead
+                th = ET.SubElement(self.thead_tr, H_TH)
+                th.text = str(colhead)
 
     def add_rows(self, rowdata):
         if rowdata is not None:
@@ -269,15 +285,20 @@ class DataTable:
 
     def add_row(self, row):
         if row is not None:
-            tr = ET.SubElement(self.tbody, "tr")
+            tr = ET.SubElement(self.tbody, H_TR)
             for val in row:
-                td = ET.SubElement(tr, "td")
+                td = ET.SubElement(tr, H_TD)
                 td.text = val
+                # print("td", td.text)
 
     def __str__(self):
-        s = self.html.text
-        print("s", s)
-        return s
+        from icecream import ic
+        # s = self.html.text
+        # print("s", s)
+        # return s
+        # ic("ichtml", self.html)
+        # print("SELF", ET.tostring(self.html))
+        return ET.tostring(self.html)
 
 def main():
     import pprint

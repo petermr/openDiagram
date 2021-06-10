@@ -52,6 +52,56 @@ def button1(event):
         print(tup[0], event.widget.get(tup[0]))
 
 
+
+
+class WikidataBrowser():
+
+    from tkinter import scrolledtext
+    import tkinter as tk
+
+    def __init__(self, ami_gui, text):
+        from xml_lib import XmlLib
+        from lxml import etree as LXET
+        from tkinterhtml import HtmlFrame
+
+        toplevel = tk.Toplevel(ami_gui.master)
+        text_display = scrolledtext.ScrolledText(
+            toplevel, font=("Arial, 18"), width=60, height=10)
+        text_display.pack(side=tk.BOTTOM)
+        label = tk.Label(toplevel, text="Wikidata search results")
+        CreateToolTip(label, "Contains text representation \nof wikidata query")
+        label.pack(side=tk.TOP)
+        url = ami_gui.create_wikidata_query_url(text)
+        with urlopen(url) as response:
+            the_page = bytes.decode(response.read())
+        html_root = XmlLib.parse_xml_string_to_root(the_page)
+        print("root", LXET.tostring(html_root))
+        xpath = "//script"
+        self.remove_xpath(html_root, xpath)
+        head = html_root.xpath(".//head")[0]
+        style = LXET.SubElement(head, "style")
+        style.attrib["type"] = "text/css"
+        style.text = "* {font-size:40pt; color:red;}"
+        html_content = bytes.decode(LXET.tostring(html_root))
+        print("html>>", html_content)
+        # div id="content" class="mw-body"
+        content_elem = html_root.xpath(".//div[@id='content']")[0]
+        div_content = LXET.tostring(content_elem)
+        # print(content) # doesn't display well in tkinter
+        text_display.insert("1.0", div_content)
+        text_display.pack_forget()
+
+        frame = HtmlFrame(toplevel, horizontal_scrollbar="auto")
+        frame.set_content(html_content)
+        # frame.set_content(the_page)
+        # frame.set_content(content)
+        frame.pack()
+
+    def remove_xpath(self, element, xpath):
+        for subelem in element.xpath(xpath):
+            subelem.getparent().remove(subelem)
+
+
 class AmiGui(tk.Frame):
 
     def __init__(self, master=None):
@@ -71,6 +121,7 @@ class AmiGui(tk.Frame):
         self.create_all_widgets(root)
 #        self.menu_stuff()
         self.show_html_frame = False
+        self.dictionary_content_notebook = None
 
     def create_all_widgets(self, master):
         self.create_display_frame(master)
@@ -104,8 +155,8 @@ class AmiGui(tk.Frame):
         self.main_text_display.insert(tk.END, "text_display")
         self.main_text_display.pack(side=tk.BOTTOM, expand=True)
         self.main_text_display.bind("<Button-1>", self.main_text_display_button1)
-        self.main_text_display.bind("<<Selection>>", self.main_text_display_selected)
-        self.main_text_display.bind("<ButtonRelease>", self.process_selection)
+        self.main_text_display.bind("<<Selection>>", self.main_text_display_selected) # dummy
+        self.main_text_display.bind("<ButtonRelease>", self.process_selection) # ACTIVE -> wikidata
 
         self.label_display_var = tk.StringVar(value="label text")
         self.label_display = tk.Label(self.main_display_frame, textvariable=self.label_display_var)
@@ -237,16 +288,18 @@ class AmiGui(tk.Frame):
         """
         dictionary_frame, _ = Gutil.make_frame_with_hide(master,
                                                          title="Dictionaries",
-                                                         tooltip=None,
+                                                         highlightthickness="10",
+                                                         tooltip="contains dictionary content boxes",
                                                          )
         dictionary_frame.pack(side=LEFT)
 
         ami_dictionaries = AmiDictionaries()
         dictionary_dict = ami_dictionaries.dictionary_dict;
+        self.dcb_frame = self.make_dictionary_content_boxes_frame(dictionary_frame)
         self.dictionary_names_listbox = self.create_generic_listbox(
             dictionary_dict.keys(),
             master=dictionary_frame,
-            button_text="select",
+            button_text="display dictionary content",
             command=lambda: self.make_dictionary_content_boxes(
                     self.dcb_frame,
                 dictionary_dict,
@@ -356,7 +409,8 @@ class AmiGui(tk.Frame):
         self.create_run_button(sub_frame)
         button = self.create_make_project_button(sub_frame)
         self.make_getpapers_args(pygetpapers_frame)
-        self.dcb_frame = self.make_dictionary_content_boxes_frame(pygetpapers_frame)
+        # TODO MOVE
+        # self.dcb_frame = self.make_dictionary_content_boxes_frame(pygetpapers_frame)
         self.entry_text = Gutil.make_entry_box(pygetpapers_frame, text="query")
 
         return pygetpapers_frame, title_var
@@ -498,21 +552,27 @@ class AmiGui(tk.Frame):
 
     def make_dictionary_content_boxes(self, master, dictionary_dict, selected_dict_names):
         frame = tk.Frame(master,
-                         highlightcolor="red",
-                         highlightthickness=2)
+                         highlightcolor="blue",
+                         highlightthickness=10)
         frame.pack()
-        n = ttk.Notebook(frame)
-        n.pack()
+        print(f"created dictionary_content_box master{master}")
+
+        self.dictionary_content_notebook = ttk.Notebook(frame)
+        label = tk.Label(self.dictionary_content_notebook, text="Dictionary Notebook")
+        CreateToolTip(label, "display of selected dictionaries")
+        label.pack(side=tk.TOP)
+        self.dictionary_content_notebook.pack()
+
 
         self.selected_boxes = []
         for dict_name in selected_dict_names:
             search_dictionary = dictionary_dict[dict_name]
-            f1 = tk.Frame(n,
+            f1 = tk.Frame(self.dictionary_content_notebook,
                           highlightcolor="blue",
                           highlightthickness=2)
-            n.add(f1, text=dict_name)
+            self.dictionary_content_notebook.add(f1, text=dict_name)
             description = "description??"
-            curbox = self.make_dictionary_content_box(n, dict_name, search_dictionary.file, desc=description)
+            curbox = self.make_dictionary_content_box(self.dictionary_content_notebook, dict_name, search_dictionary.file, desc=description)
             curbox.pack()
 
             self.selected_boxes.append(curbox)
@@ -613,6 +673,8 @@ class AmiGui(tk.Frame):
             box.selection_clear(0, tk.END)
 
     def create_generic_listbox(self, items, master=None, command=None, title=None, tooltip=None, button_text="select"):
+        if tooltip is None:
+            tooltip = f"generic listbox {title}"
         frame, title_var = Gutil.make_frame(master,
                                            title=title,
                                            tooltip=tooltip,
@@ -818,10 +880,7 @@ class AmiGui(tk.Frame):
         return self.dcb_frame
 
     def query_wikidata(self, text):
-        url = self.create_wikidata_query_url(text)
-        with urlopen(url) as response:
-            the_page = response.read()
-            print(the_page)
+        wikidata_browser = WikidataBrowser(self, text)
 
     def create_wikidata_query_url(self, text):
         BASE_URL = "https://www.wikidata.org/w/index.php?search="

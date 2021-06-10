@@ -184,10 +184,13 @@ class Gutil:
         hide_button.pack_forget()
 
     @staticmethod
-    def make_frame_with_hide(master, title=None, **kwargs):
+    def make_frame_with_hide(master, title=None, tooltip=None, **kwargs):
+        import tkinter as tk
         hide_frame = Gutil.create_hide_frame(master)
         hide_frame.pack(side=tk.TOP)
         frame, title_var = Gutil.make_frame(hide_frame, **kwargs)
+        if tooltip is not None:
+            CreateToolTip(frame, text=tooltip)
         hide_button = None
         show_button = tk.Button(hide_frame, text="show "+title, command=lambda: Gutil.labelactive(
             frame, show_button, hide_button))

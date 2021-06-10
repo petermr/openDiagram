@@ -1,7 +1,6 @@
 # from xml.etree import ElementTree as ET
-from lxml import etree as ET
+from lxml import etree as LXET, etree
 import os
-from collections import Counter
 from file_lib import FileLib
 from pathlib import Path
 
@@ -122,11 +121,16 @@ class XmlLib:
     def parse_xml_file_to_root(file):
         if not os.path.exists(file):
             raise IOError("file does not exist", file)
-        xmlp = ET.XMLParser(encoding=UTF_8)
-        element_tree = ET.parse(file, xmlp)
+        xmlp = LXET.XMLParser(encoding=UTF_8)
+        element_tree = LXET.parse(file, xmlp)
         root = element_tree.getroot()
         return root
 
+    @staticmethod
+    def parse_xml_string_to_root(xml):
+        from io import StringIO, BytesIO
+        tree = etree.parse(StringIO(xml), LXET.XMLParser(ns_clean=True))
+        return tree.getroot()
 
     def make_sections_path(self, section_dir):
         self.section_path = os.path.join(self.parent_path, section_dir)
@@ -138,6 +142,11 @@ class XmlLib:
         TERMINAL = "T_"
         IGNORE = "I_"
         for i, child in enumerate(list(elem)):
+            if "ProcessingInstruction" in str(type(child)):
+                # print("PI", child)
+                continue
+            if "Comment" in str(type(child)):
+                continue
             flag = ""
             child_child_count = len(list(child))
             if child.tag in TERMINAL_COPY or child_child_count == 0:
@@ -146,15 +155,17 @@ class XmlLib:
                 flag = IGNORE
 
             title = child.tag
+#            print("tag", type(child), type(title))
             if child.tag in SEC_TAGS:
                 title = XmlLib.get_sec_title(child)
 
             if flag == IGNORE:
                 title = flag + title
+#            print (type(str(i)), type(title))
             filename = str(i) + "_" + title
 
             if flag == TERMINAL:
-                xml_string = ET.tostring(child)
+                xml_string = LXET.tostring(child)
                 with open(os.path.join(outdir, filename + '.xml'), "wb") as f:
                     f.write(xml_string)
             else:
@@ -175,9 +186,32 @@ class XmlLib:
             if sec.xml_file is None:
                 title = "EMPTY"
             else:
-                title = "?_"+ sec.xml_file[:20]
+                title = "?_"+ str(sec.xml_file[:20])
         title = title.replace(" ", "_")
+        print("type", type(title))
         return title
+
+    @staticmethod
+    def remove_all(elem, xpath):
+        for el in elem.xpath(xpath):
+            el.getparent().remove(el)
+
+    @staticmethod
+    def get_or_create_child(parent, tag):
+        from lxml import etree
+        child = None
+        if parent is not None:
+            child = parent.find(tag)
+            if child is None:
+                child = etree.SubElement(parent, tag)
+        return child
+
+    @staticmethod
+    def add_UTF8(html_root):
+        from lxml import etree
+        root = get_or_create_child(html_root, "head")
+        etree.SubElement(root, "meta").attrib["charset"] = "UTF-8"
+
 
     def test(self):
         doc = XmlLib("../liion/PMC7077619/fulltext.xml")
@@ -199,12 +233,18 @@ class DataTable:
     """
     def __init__(self, title, colheads=None, rowdata=None):
         """create dataTables
-        optionally add column headings (list) and rows (list of conformant lists) """
-        self.html = ET.Element(H_HTML)
+        optionally add column headings (list) and rows (list of conformant lists)
+
+        :param title: of data_title (required)
+        :param colheads:
+        :param rowdata:
+
+        """
+        self.html = LXET.Element(H_HTML)
         self.head = None
         self.body = None
         self.create_head(title)
-        self.create_body()
+        self.create_table_thead_tbody()
         self.add_column_heads(colheads)
         self.add_rows(rowdata)
 
@@ -217,36 +257,34 @@ class DataTable:
           <script charset="UTF-8" type="text/javascript">$(function() { $("#results").dataTable(); }) </script>
         """
 
-        self.head = ET.SubElement(self.html, H_HEAD)
-        self.title = ET.SubElement(self.head, H_TITLE)
+        self.head = LXET.SubElement(self.html, H_HEAD)
+        self.title = LXET.SubElement(self.head, H_TITLE)
         self.title.text = title
 
-        link = ET.SubElement(self.head, LINK)
+        link = LXET.SubElement(self.head, LINK)
         link.attrib["rel"] = STYLESHEET
         link.attrib["type"] = TEXT_CSS
         link.attrib["href"] = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"
         link.text = '.' # messy, to stop formatter using "/>" which dataTables doesn't like
 
-        script = ET.SubElement(self.head, SCRIPT)
+        script = LXET.SubElement(self.head, SCRIPT)
         script.attrib["src"] = "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"
         script.attrib["charset"] = UTF_8
         script.attrib["type"] = TEXT_JAVASCRIPT
         script.text = '.' # messy, to stop formatter using "/>" which dataTables doesn't like
 
-        script = ET.SubElement(self.head, SCRIPT)
+        script = LXET.SubElement(self.head, SCRIPT)
         script.attrib["src"] = "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"
         script.attrib["charset"] = UTF_8
         script.attrib["type"] = TEXT_JAVASCRIPT
         script.text = "." # messy, to stop formatter using "/>" which dataTables doesn't like
 
-        script = ET.SubElement(self.head, SCRIPT)
+        script = LXET.SubElement(self.head, SCRIPT)
         script.attrib["charset"] = UTF_8
         script.attrib["type"] = TEXT_JAVASCRIPT
         script.text = "$(function() { $(\"#results\").dataTable(); }) "
 
-
-
-    def create_body(self):
+    def create_table_thead_tbody(self):
         """
      <body>
       <div class="bs-example table-responsive">
@@ -261,58 +299,93 @@ class DataTable:
         </thead>
         """
 
-        self.body = ET.SubElement(self.html, H_BODY)
-        self.div = ET.SubElement(self.body, H_DIV)
+        self.body = LXET.SubElement(self.html, H_BODY)
+        self.div = LXET.SubElement(self.body, H_DIV)
         self.div.attrib["class"] = "bs-example table-responsive"
-        self.table = ET.SubElement(self.div, H_TABLE)
+        self.table = LXET.SubElement(self.div, H_TABLE)
         self.table.attrib["class"] = "table table-striped table-bordered table-hover"
         self.table.attrib["id"]= RESULTS
-        self.thead = ET.SubElement(self.table, H_THEAD)
-        self.tbody = ET.SubElement(self.table, H_TBODY)
-
+        self.thead = LXET.SubElement(self.table, H_THEAD)
+        self.tbody = LXET.SubElement(self.table, H_TBODY)
 
     def add_column_heads(self, colheads):
         if colheads is not None:
-            self.thead_tr = ET.SubElement(self.thead, H_TR)
+            self.thead_tr = LXET.SubElement(self.thead, H_TR)
             for colhead in colheads:
-                th = ET.SubElement(self.thead_tr, H_TH)
+                th = LXET.SubElement(self.thead_tr, H_TH)
                 th.text = str(colhead)
 
     def add_rows(self, rowdata):
         if rowdata is not None:
             for row in rowdata:
-                self.add_row(row)
+                self.add_row_old(row)
 
-    def add_row(self, row):
+    def add_row_old(self, row: [str]) -> etree.Element:
+        """ creates new <tr> in <tbody>
+        creates <td> child elements of row containing string values
+
+        :param row: list of str
+        :rtype: object
+        """
         if row is not None:
-            tr = ET.SubElement(self.tbody, H_TR)
+            tr = LXET.SubElement(self.tbody, H_TR)
             for val in row:
-                td = ET.SubElement(tr, H_TD)
+                td = LXET.SubElement(tr, H_TD)
                 td.text = val
                 # print("td", td.text)
 
+    def make_row(self):
+        """
+
+        :return: row element
+        """
+        return LXET.SubElement(self.tbody, H_TR)
+
+    def append_contained_text(self, parent, tag, text):
+        """create element <tag> and add text child
+        :rtype: element
+        
+        """
+        subelem = LXET.SubElement(parent, tag)
+        subelem.text = text
+        return subelem
+
+    def write_full_data_tables(self, output_dir: str) -> None:
+        """
+
+        :rtype: object
+        """
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+        data_table_file = os.path.join(output_dir, "full_data_table.html")
+        with open(data_table_file, "w") as f:
+            text = bytes.decode(LXET.tostring(self.html))
+            f.write(text)
+            print("WROTE", data_table_file)
+
     def __str__(self):
-        from icecream import ic
         # s = self.html.text
         # print("s", s)
         # return s
         # ic("ichtml", self.html)
-        # print("SELF", ET.tostring(self.html))
-        return ET.tostring(self.html)
+        htmltext = LXET.tostring(self.html)
+        print("SELF", htmltext)
+        return htmltext
+
 
 def main():
     import pprint
     print("start content")
-    XmlLib().test()
+    XmlLib().test() # don't know what pase_file does...
     print("end content")
     data_table = DataTable("test")
     data_table.add_column_heads(["a", "b", "c"])
-    data_table.add_row(["a1", "b1", "c1"])
-    data_table.add_row(["a2", "b2", "c2"])
-    data_table.add_row(["a3", "b3", "c3"])
-    data_table.add_row(["a4", "b4", "c4"])
+    data_table.add_row_old(["a1", "b1", "c1"])
+    data_table.add_row_old(["a2", "b2", "c2"])
+    data_table.add_row_old(["a3", "b3", "c3"])
+    data_table.add_row_old(["a4", "b4", "c4"])
 
-    html = ET.tostring(data_table.html).decode("UTF-8")
+    html = LXET.tostring(data_table.html).decode("UTF-8")
     HOME = os.path.expanduser("~")
     with open(os.path.join(HOME, "junk_html.html"), "w") as f:
         f.write(html)
@@ -325,3 +398,4 @@ else:
 #    print("running file_lib main anyway")
 #    main()
     pass
+

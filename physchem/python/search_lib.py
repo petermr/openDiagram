@@ -3,7 +3,6 @@
 from file_lib import AmiPath, PROJ, FileLib
 from text_lib import TextUtil, AmiSection
 from xml_lib import XmlLib
-#from xml.etree import ElementTree as ET
 from collections import Counter
 import re
 import json
@@ -12,8 +11,11 @@ from dictionary import AmiDictionaries, SearchDictionary
 from projects import AmiProjects
 import glob
 import os
+from lxml import etree as LXET
+
 
 # entry
+
 WIKIDATA_ID = "wikidataID"
 NS_MAP = {'SPQ': 'http://www.w3.org/2005/sparql-results#'}  # add more as needed
 NS_URI = "SPQ:uri"
@@ -43,7 +45,7 @@ class AmiSearch:
         self.do_plot = True
         self.ami_projects = AmiProjects()
         self.use_rake = True    #change later
-        self.use_rake = False
+        # self.use_rake = False
 
         self.param_dict = {
             "max_bars" : 10,
@@ -144,7 +146,6 @@ class AmiSearch:
 
     def search_and_generate_section(self, file, filter=filter):
         section = TextUtil.get_section_with_words(file, filter=filter)
-#        print("words", len(words))
         total_hits_by_dict = {}
         self.matches_by_amidict, hits_by_dict = self.match_single_words_against_dictionaries(section.words)
         total_hits = 0
@@ -152,10 +153,6 @@ class AmiSearch:
         self.results_by_section[section.name] = hits_by_dict
         matches_by_amidict_multiple, hits_by_mwdict = self.match_multiple_words_against_dictionaries(section.text)
         self.list_hits(hits_by_mwdict, section)
-
-            # total_hits += hits
-        # if len(total_hits) > 0:
-        #     create_results_file(file, total_hits)
 
         for key, value in matches_by_amidict_multiple.items():
             self.matches_by_amidict.setdefault(key, []).extend(value)
@@ -173,7 +170,6 @@ class AmiSearch:
             # total_hits += hits
 
     def add_hits_to_section_index(self, section_name, dict_name, hits):
-        import pprint
         if len(hits) > 0:
             if section_name not in self.results_by_section:
                 self.results_by_section[section_name] = {}
@@ -254,7 +250,6 @@ class AmiSearch:
         lang_equivs = entry.findall(lang_path)
         if len(lang_equivs) > 0:
             lang_equiv = lang_equivs[0]
-#            print("FOUND", self.wikidata_label_lang, lang_equiv)
 
     def match_words_against_pattern(self, words):
         matches_by_pattern = {}
@@ -264,14 +259,9 @@ class AmiSearch:
             matches_by_pattern[pattern.name] = hits
         return matches_by_pattern
 
-    # @staticmethod
-    # def print_file(file):
-    #     print("file: ", file)
-    #     with open(file, "r", encoding="utf-8") as f:
-    #         print("read", f.read())
-
     def search_and_count(self, section_files):
         """searches sections with dictionaries and also makes word counts"""
+        print("search and count", section_files)
         for dictionary in self.dictionaries:
             print("dictionary for search", dictionary.name)
         dictionary_counter_dict = self.create_counter_dict(self.dictionaries)
@@ -294,34 +284,38 @@ class AmiSearch:
         return dictionary_counter_dict, pattern_counter_dict, all_lower_words, sections
 
     def print_results_by_section(self):
-        from lxml import etree as ET
+        from xml_lib import H_TH, H_TD
         import xml
         from icecream import ic
         # ic("results by section", self.results_by_section)
+        print("ROWS", len(self.results_by_section))
         for section in sorted(self.results_by_section.keys()):
-            row = []
-            print(section)
-            row.append(section)
+            print("SECTION", section)
             hits_by_dictionary = self.results_by_section[section]
-            ic(hits_by_dictionary)
+            count = 0
             for dictionary in hits_by_dictionary:
                 hit_list = hits_by_dictionary[dictionary]
-                row.append(str(hit_list))
-            print("row", row)
-            self.data_table.add_row(row)
+                count += len(hit_list)
+            if count == 0:
+                print("skipped empty row")
+                continue
+            row = self.data_table.make_row()
+            self.data_table.append_contained_text(row, H_TD, section)
 
-        pass
+            for dictionary in hits_by_dictionary:
+                self.add_hits_for_dictionary(dictionary, hits_by_dictionary, row)
 
-    # def count_hits(self, hit_dict):
-    #     hit_count = 0
-    #     sub_item_count = 0
-    #     for item in hit_dict.items():
-    #         hits = len(item[1])
-    #         hit_count += hits
-    #         if hits > 0:
-    #             sub_item_count += 1
-    #     return hit_count, sub_item_count
-    #
+
+    def add_hits_for_dictionary(self, dictionary, hits_by_dictionary, row):
+        from xml_lib import H_TD
+        hit_list = hits_by_dictionary[dictionary]
+        print(hit_list)
+        hits = set(hit_list)
+        text = ""
+        for h in hits:
+            text += h + " | "
+        self.data_table.append_contained_text(row, H_TD, text)
+
     def create_counter_dict(self, search_tools):
         counter_dict = {}
         for tool in search_tools:
@@ -334,10 +328,6 @@ class AmiSearch:
             if len(matches) > 0:
                 for match in matches:
                     counter_dict[amidict][match] += 1
-
-#    def use_patterns(self, patterns):
-#        SearchPattern.check_sections(patterns)
-#        self.patterns = patterns
 
     def use_sections(self, sections):
         if sections is None or len(sections) == 0:
@@ -365,7 +355,7 @@ class AmiSearch:
             if len(self.section_types) > 0:
                 for section_type in self.section_types:
                     self.glob_for_section_files(proj, section_type)
-                    sections = self.section_make_counter_and_plot(section_type)
+                    sections = self.section_make_data_table_counter_and_plot(section_type)
                     self.write_data_table(proj.dir, section_type)
                     if self.use_rake:
                         self.analyze_all_words_with_Rake(sections)
@@ -382,20 +372,11 @@ class AmiSearch:
 
     def write_data_table(self, project_dir, section_type):
         from xml_lib import RESULTS
-        from lxml import etree as ET
-        from icecream import ic
-        result_section_dir = os.path.join(project_dir, RESULTS, section_type)
-        if not os.path.exists(result_section_dir):
-            os.makedirs(result_section_dir)
-        data_table_file = os.path.join(result_section_dir, "full_data_table.html")
-        with open(data_table_file, "w") as f:
-            htmlb = ET.tostring(self.data_table.html)
-            data_table_text = str(htmlb)
-            data_table_text = data_table_text[:-1][2:]  # remove b'....'
-            f.write(data_table_text)
-            print("WROTE", data_table_file)
 
-
+        # lower case section name
+        result_section_dir = os.path.join(project_dir, RESULTS, section_type.lower())
+        # write_full_data_tables(self.data_table, result_section_dir)
+        print("ERROR", "full_data_tables not linked in")
 
     def glob_fulltext(self, proj):
         globstr = os.path.join(proj.dir, "*/fulltext*.txt")
@@ -409,27 +390,36 @@ class AmiSearch:
         print("***** section_files", section_type, len(self.section_files))
 
 
-    def section_make_counter_and_plot(self, section_type):
-        from xml_lib import DataTable
-        self.data_table = DataTable(section_type)
-        column_heads = ["sections"]
-        for dictionary in self.dictionaries:
-            column_heads.append(dictionary.name)
-        self.data_table.add_column_heads(column_heads)
-        counter_by_tool, pattern_dict, _, sections = self.search_and_count(self.section_files)
+    def section_make_data_table_counter_and_plot(self, section_type):
+        self.create_data_table(section_type)
+        counter_by_tool, pattern_dict, all_words, sections = self.search_and_count(self.section_files)
         self.plot_tool_hits(counter_by_tool)
         self.plot_tool_hits(pattern_dict)
-        _, _, all_words, sections = self.search_and_count(self.section_files)
+        # _, _, all_words, sections = self.search_and_count(self.section_files)
 #        print(all_words)
         counter = Counter(all_words)
         self.plot_and_make_dictionary(counter, "word count")
 
         return sections,
 
+    def create_data_table(self, section_type):
+        from xml_lib import DataTable
+        from lxml import etree as LXET
+        self.data_table = DataTable(section_type)
+        column_heads = ["sections"]
+        for dictionary in self.dictionaries:
+            column_heads.append(dictionary.name)
+        self.data_table.add_column_heads(column_heads)
+        print("TAB", LXET.tostring(self.data_table.html))
+
     def analyze_all_words_with_Rake(self, sections):
         text = ""
+        print("sections", sections)
         for section in sections:
-            text += section.text
+            if type(section) == list:
+                print("BUG", "section should not be List")
+            else:
+                text += section.text
         text = self.remove_line_ends(text)
         self.analyze_text_with_Rake(text)
 

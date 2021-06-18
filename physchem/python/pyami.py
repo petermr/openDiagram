@@ -1,7 +1,10 @@
 import logging
+
+
 class PyAMI:
     def __init__(self):
-        pass
+        self.args = {}
+        self.logger = logging.getLogger()
 
     def create_arg_parser(self):
         import argparse
@@ -9,19 +12,21 @@ class PyAMI:
         """
         """
         parser.add_argument('-d', '--dict', nargs="*",  # default=[AmiDictionaries.COUNTRY],
-                            help='dictionaries to search with, empty gives list')
+                            help='dictionaries to search with, _help gives list')
         parser.add_argument('-g', '--glob', nargs="*",  # default=[AmiDictionaries.COUNTRY],
                             help='glob files ')
         parser.add_argument('-s', '--sect', nargs="*",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
-                            help='sections to search; empty gives all')
+                            help='sections to search; _help gives all(?)')
         parser.add_argument('-p', '--proj', nargs="*",
-                            help='projects to search; empty will give list')
+                            help='projects to search; _help will give list')
+        parser.add_argument('-c', '--config', nargs="*", default="config.ini,~/pyami/config.ini",
+                            help='config file(s) (NYI); _help will give list')
         parser.add_argument('--patt', nargs="+",
-                            help='patterns to search with; regex may need quoting')
+                            help='patterns to search with (NYI); regex may need quoting')
         parser.add_argument('--demo', nargs="*",
                             help='simple demos (NYI). empty gives list. May need downloading corpora')
-        parser.add_argument('-l', '--loglevel', default="foo",
-                            help='debug level (NYI)')
+        parser.add_argument('-l', '--loglevel', default="info",
+                            help='log level (NYI)')
         parser.add_argument('--plot', action="store_false",
                             help='plot params (NYI)')
         parser.add_argument('--nosearch', action="store_true",
@@ -37,38 +42,61 @@ class PyAMI:
     def run_args(self, arglist=None):
         import sys
 
-        args = []
         if arglist is None:
             arglist = []
         parser = self.create_arg_parser()
-        if not arglist:
             # https://stackoverflow.com/questions/31090479/python-argparse-pass-values-without-command-line
+        args_ns = parser.parse_args() if not arglist else parser.parse_args(arglist)
+        self.args = {item[0]:item[1] for item in list(vars(args_ns).items())}
+        self.set_loglevel_from_args()
+        self.logger.info(f"args_ns {args_ns}")
+        print("args ", args_ns)
+        self.logger.info(f"args as dict {self.args}")
+        if self.args["proj"] and (self.args["sect"] or self.args["glob"]):
+            self.make_files()
 
-            print("NO KWARGS")
-            print("ARGS", args)
-            print("cmd>>", "sys.argv", sys.argv)
+    def set_loglevel_from_args(self):
+        levels = {
+            "debug" : logging.DEBUG,
+            "info" : logging.INFO,
+            "warning": logging.WARNING,
+            "error": logging.ERROR,
+        }
+        loglevel = self.args["loglevel"]
+        if loglevel is not None and loglevel.lower() in levels:
+            level = levels[loglevel.lower()]
+            print("LEVEL", level)
+            self.logger.setLevel(level)
+
+    def make_files(self):
+        import glob
+        logging.info("globbing")
+        if not self.args["proj"]:
+            logging.error("glob requires proj")
         else:
-            parser = self.create_arg_parser()
-            args = parser.parse_args(arglist)
-            print("ARGS", args)
+            glob_ = self.args["glob"][0]
+            print(f"glob {glob_}")
+            logging.info(f"glob: {glob_}")
+            files = glob.glob(glob_)
+            print(f"files {files}")
 
-        if not args:
-            logging.info(parser.print_help(sys.stderr))
 
-    def run_glob(self, **kwargs):
-        print(f"kwargs{kwargs}")
+def main():
+    import os
+    print("\n", "============== running pyami main ===============")
+    pyami = PyAMI()
+    dir_ = "/Users/pm286/projects/openDiagram/physchem/resources/oil26"
+    glob_ = "**/*.xml"
+    pyami.run_args(["--glob", f"{dir_}/{glob_}", "--proj", "pm286",
+                    "-c", "-l", "warn"])
+
 
 if __name__ == "__main__":
-    print("running pyami main")
-    pyami = PyAMI()
-    pyami.run_args()
-    print("==================")
-    pyami.run_args(["--glob", "**", "*.xml" ])
+    main()
 
-#    test_dict_read()
 else:
 
-    #    print("running search main anyway")
-    #    main()
+    print("running search main anyway")
+    main()
     pass
 

@@ -82,6 +82,63 @@ class WikidataLookup:
             li.find("./div[@class='" + MW_SEARCH_RESULT_DATA + "']").text.split(",")[0].split(" statement")[0]
 
 
+
+
+
+class WikidataBrowser():
+    """ """
+
+    from tkinter import scrolledtext
+    import tkinter as tk
+
+    def __init__(self, ami_gui, text):
+        from xml_lib import XmlLib
+        from lxml import etree as LXET
+        from tkinterhtml import HtmlFrame
+        import tkinter as tk
+        from tkinter import scrolledtext
+        from gutil import CreateToolTip
+        from urllib.request import urlopen
+
+        toplevel = tk.Toplevel(ami_gui.master)
+        text_display = scrolledtext.ScrolledText(
+            toplevel, font=("Arial, 18"), width=60, height=10)
+        text_display.pack(side=tk.BOTTOM)
+        label = tk.Label(toplevel, text="Wikidata search results")
+        CreateToolTip(label, "Contains text representation \nof wikidata query")
+        label.pack(side=tk.TOP)
+        url = ami_gui.create_wikidata_query_url(text)
+        with urlopen(url) as response:
+            the_page = bytes.decode(response.read())
+        html_root = XmlLib.parse_xml_string_to_root(the_page)
+        self.remove_xpath(html_root, ".//script")
+        head = html_root.xpath(".//head")[0]
+        style = LXET.SubElement(head, "style")
+        style.attrib["type"] = "text/css"
+        style.text = "* {font-size:40pt; color:red;}"
+        html_content = bytes.decode(LXET.tostring(html_root))
+        # div id="content" class="mw-body"
+        content_elem = html_root.xpath(".//div[@id='content']")[0]
+        div_content = LXET.tostring(content_elem)
+        # print(content) # doesn't display well in tkinter
+        text_display.insert("1.0", div_content)
+        text_display.pack_forget()
+
+        frame = HtmlFrame(toplevel, horizontal_scrollbar="auto")
+        frame.set_content(html_content)
+        frame.pack()
+
+    def remove_xpath(self, element, xpath):
+        """
+
+        :param element:
+        :param xpath:
+
+        """
+        for subelem in element.xpath(xpath):
+            subelem.getparent().remove(subelem)
+
+
 class WikidataPage:
 
     def __init__(self, pqitem):
@@ -287,6 +344,24 @@ class WikidataSparql:
         if entry_child.text is not None and len(entry_child.text.strip()) > 0:
             entry.append(entry_child)
 #        print(">>", ET.tostring(entry))
+
+    def get_results_xml(query):
+        """query Wikidata SPARQL endpoint and return XML results
+        Shweata M Hegde and Peter Murray-Rust
+        :query: as SPARQL
+        :return: xml <results>"""
+        from SPARQLWrapper import SPARQLWrapper
+        import sys
+        WIKIDATA_SPARQL_ENDPOINT = "https://query.wikidata.org/sparql"
+
+        user_agent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
+        # TODO adjust user agent; see https://w.wiki/CX6
+        sparql = SPARQLWrapper(WIKIDATA_SPARQL_ENDPOINT, agent=user_agent)
+        sparql.setQuery(query)
+        # sparql.setReturnFormat(XML)
+        return sparql.query().convert().toxml()
+
+
 
 class ParserWrapper:
     @classmethod

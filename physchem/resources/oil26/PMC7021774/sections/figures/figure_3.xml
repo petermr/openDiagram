@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <p>Circos plot illustrating key genomic and genic features of the ‘Synthetic W7984’ ‘super-contig’ (705 assembly scaffolds, totalling 3.47 Mb) spanning the wider 
+   <italic>Tsc2</italic> locus, based on the ‘Chinese Spring’ region 2B: 14,040,000–30,500,000 bp. Tracks, from outside to inside: (1) the super-contig, with size indicated in Mb. (2) tick marks to illustrate start/end points between scaffolds, (3) loops to indicate sequence homology of genes based on 91-mers, (4) histogram of transposable element density, (5) histogram of gene density, (6) candidate genes, (7) tick marks indicating the named SNPs that delineate the boundaries of the most likely 
+   <italic>Tsc2</italic> region: (a) regions kukric1481512 to kukric637481453 (full names Kukri_c148_1512 and Kukri_c63748_1453, respectively) represent a conservative 
+   <italic>Tsc2</italic> interval, based on clear recombinations in the AM panel and encompassing the peak of the MAGIC QTL in this region, (b) region BS0007530351 (full name BS00075303_51, originating from the same RefSeqv1.1 gene model as BS00070050_51) to kukric637481453, which spans the peak of the MAGIC QTL and contains AM panel GWAS hits 1–6, 10 and 12
+  </p>
+ </caption>
+ <graphic xlink:href="122_2019_3517_Fig3_HTML" id="MO3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

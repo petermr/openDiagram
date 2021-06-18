@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Chi</surname>
+   <given-names>Hai</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff1">
+   <sup>a</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff2">
+   <sup>b</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Cui</surname>
+   <given-names>Yimeng</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff1">
+   <sup>a</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Rossiter</surname>
+   <given-names>Stephen J.</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff3">
+   <sup>c</sup>
+  </xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-9258-7237</contrib-id>
+  <name>
+   <surname>Liu</surname>
+   <given-names>Yang</given-names>
+  </name>
+  <xref ref-type="aff" rid="aff2">
+   <sup>b</sup>
+  </xref>
+  <xref ref-type="aff" rid="aff4">
+   <sup>d</sup>
+  </xref>
+  <xref ref-type="corresp" rid="cor1">
+   <sup>1</sup>
+  </xref>
+ </contrib>
+ <aff id="aff1">
+  <sup>a</sup>College of Animal Science and Veterinary Medicine, 
+  <institution>Shenyang Agricultural University</institution>, 110866 Shenyang, 
+  <country>China</country>;
+ </aff>
+ <aff id="aff2">
+  <sup>b</sup>College of Life Sciences, 
+  <institution>Shaanxi Normal University</institution>, 710119 Xi’an, 
+  <country>China</country>;
+ </aff>
+ <aff id="aff3">
+  <sup>c</sup>School of Biological and Chemical Sciences, 
+  <institution>Queen Mary University of London</institution>, E1 4NS London, 
+  <country>United Kingdom</country>;
+ </aff>
+ <aff id="aff4">
+  <sup>d</sup>Key Laboratory of Zoonosis of Liaoning Province, 
+  <institution>Shenyang Agricultural University</institution>, 110866 Shenyang, 
+  <country>China</country>
+ </aff>
+</contrib-group>

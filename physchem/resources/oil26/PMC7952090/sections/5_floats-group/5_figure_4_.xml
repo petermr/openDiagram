@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig4" orientation="portrait" position="float">
+ <label>Figure 4.</label>
+ <caption>
+  <title>Duplications in the African savannah elephant (
+   <italic>Loxodonta africana</italic>) are enriched for TP53-related and other tumor suppressor processes.
+  </title>
+  <p>(
+   <bold>A</bold>) Upset plot of cancer-related Reactome pathways in African savannah elephant, highlighting shared genes in each set, and the pathway class represented by the combinations (see 
+   <xref ref-type="fig" rid="fig3">Figure 3</xref> for a description of Upset plots). (
+   <bold>B</bold>) Inverted Upset plot from 
+   <bold>A</bold> showing the pathways shared by genes highlighted by WEBGESTALT in each pathway. (
+   <bold>C</bold>) Cladogram of Afrotheria with sequenced genomes. Exemplar tumor suppressor duplicates are mapped onto lineages in which those genes are duplicated. Dots represent a duplication event of the color-coded genes. Note that we are unable to determine duplication status for some genes in Proboscideans because of assembly gaps in ancient genomes (indicated with skull and crossbones); these genes appear to be independently duplicated in extant species (African Forest, African Savanah, and Asian elephants) because they are missing from ancient genomes, biasing ancestral reconstructions of duplication status. (
+   <bold>D</bold>) Gene expression levels of genes from panel 
+   <bold>C</bold> that have two or more expressed duplicates.
+  </p>
+  <p>
+   <supplementary-material content-type="local-data" id="fig4sdata1">
+    <label>Figure 4—source data 1.</label>
+    <caption>
+     <title>Data set used for manual coding gene potential associated with 
+      <xref ref-type="fig" rid="fig4">Figure 4C,D</xref>.
+     </title>
+    </caption>
+    <media mime-subtype="zip" mimetype="application" xlink:href="elife-65041-fig4-data1.zip" orientation="portrait" id="d39e1353" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   </supplementary-material>
+  </p>
+ </caption>
+ <graphic xlink:href="elife-65041-fig4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

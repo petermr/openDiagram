@@ -1,0 +1,4 @@
+0: In order to ascertain the functional status of duplicated genes, we generated de novo transcriptomes using publicly available RNA-sequencing data for African savanna elephant, West Indian manatee, and nine-banded armadillo ( Supplementary file 2).
+1: We mapped reads to the highest quality genome available for each species, and assembled transcripts using HISAT2 and StringTie ( Kim et al., 2015;  Pertea et al., 2015;  Pertea et al., 2016).
+2: We found that many of our identified duplicates had transcripts mapping to them above a Transcripts Per Million (TPM) score of 2, suggesting that many of these duplications are functional.
+3: RNA-sequencing data was not available for Cape golden mole, Cape elephant shrew, rock hyrax, aardvark, or the lesser hedgehog tenrec.

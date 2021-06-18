@@ -316,6 +316,15 @@ class Util:
         print("matching keys:", keys)
         return None
 
+    @classmethod
+    def read_pydict_from_json(cls, file):
+        import ast
+        with open(file, "r") as f:
+            contents = f.read()
+            dictionary = ast.literal_eval(contents)
+            return dictionary
+
+
 class PdfReader:
 
     def __init__(self):

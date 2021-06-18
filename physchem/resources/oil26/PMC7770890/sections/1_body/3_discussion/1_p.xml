@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As the COVID-19 pandemic continues, the direct zoonotic origin (intermediate host) of SARS-CoV-2 remains elusive. Many animals have been reported to be infected by SARS-CoV-2 in nature or the laboratory, suggesting a possibly wide host range for this novel coronavirus. Currently, the number of animals that have been experimentally tested is very small compared to the huge number of animal species. Previous studies suggested that receptor recognition is an important determinant of host range.
+ <sup>
+  <xref ref-type="bibr" rid="ref5">5</xref>,
+  <xref ref-type="bibr" rid="ref19">19</xref>,
+  <xref ref-type="bibr" rid="ref31">31</xref>
+ </sup> Therefore, we proposed a computational pipeline for identifying the intermediate hosts of SARS-CoV-2 by modeling the binding affinity between host ACE2 and the viral S-RBD. A recent study showed that, besides ACE2, alternative receptors such as ASGR1 or KREMEN1 may be sufficient to enable entry of SARS-CoV-2 into secretory cells and immune nonresident macrophages,
+ <sup>
+  <xref ref-type="bibr" rid="ref53">53</xref>
+ </sup> suggesting that these receptors may also play a role in SARS-CoV-2 susceptibility. However, in that study it was shown that, as the main receptor, ACE2 has a much higher binding capability for the extracellular domain of S protein than ASGR1 and KREMEN1; furthermore, ACE2 displayed a more significant correlation with virus susceptibility of ciliated cells when compared with the other two receptors.
+ <sup>
+  <xref ref-type="bibr" rid="ref53">53</xref>
+ </sup> At present, little is known about the atomic level protein–protein interactions between S and ASGR1 or KREMEN1, making it difficult to accurately model the binding affinity between the viral proteins and these receptors. Additionally, several in vitro and in vivo studies suggest that the susceptibility of different animals is mainly determined by the ACE2 receptor, as substituting the ACE2 alone is sufficient to enable SARS-CoV-2 infection of otherwise insusceptible cell lines
+ <sup>
+  <xref ref-type="bibr" rid="ref3">3</xref>,
+  <xref ref-type="bibr" rid="ref39">39</xref>
+ </sup> or animal models.
+ <sup>
+  <xref ref-type="bibr" rid="ref54">54</xref>,
+  <xref ref-type="bibr" rid="ref55">55</xref>
+ </sup> Therefore, the potential role of these alternative receptors on host determination was not considered in this work.
+</p>

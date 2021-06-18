@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We encoded the copy number of each gene for each species as a discrete trait ranging from 0 (one gene copy) to 31 (for 32+ gene copies) and used IQ-TREE to select the best-fitting model of character evolution (
+ <xref rid="bib58" ref-type="bibr">Minh et al., 2020</xref>; 
+ <xref rid="bib39" ref-type="bibr">Hoang et al., 2018</xref>; 
+ <xref rid="bib41" ref-type="bibr">Kalyaanamoorthy et al., 2017</xref>; 
+ <xref rid="bib103" ref-type="bibr">Wang et al., 2018</xref>; 
+ <xref rid="bib85" ref-type="bibr">Schrempf et al., 2019</xref>), which was inferred to be a Jukes-Cantor type model for morphological data (MK) with equal character state frequencies (FQ) and rate heterogeneity across sites approximated by including a class of invariable sites (I) plus a discrete Gamma model with four rate categories (G4). Next we inferred gene duplication and loss events with the empirical Bayesian ancestral state reconstruction (ASR) method implemented in IQ-TREE (
+ <xref rid="bib58" ref-type="bibr">Minh et al., 2020</xref>; 
+ <xref rid="bib39" ref-type="bibr">Hoang et al., 2018</xref>; 
+ <xref rid="bib41" ref-type="bibr">Kalyaanamoorthy et al., 2017</xref>; 
+ <xref rid="bib103" ref-type="bibr">Wang et al., 2018</xref>; 
+ <xref rid="bib85" ref-type="bibr">Schrempf et al., 2019</xref>), the best fitting model of character evolution (MK+FQ+GR+I) (
+ <xref rid="bib92" ref-type="bibr">Soubrier et al., 2012</xref>; 
+ <xref rid="bib117" ref-type="bibr">Yang et al., 1995</xref>), and the unrooted species tree for Atlantogenata. We considered ancestral state reconstructions to be reliable if they had Bayesian Posterior Probability (BPP) ≥ 0.80; less reliable reconstructions were excluded from pathway analyses. We note that there may be 'ghost' duplication events, that is genes that duplicated in, for example, the Tethytherian stem-lineage that are maintained in the Stellar’s sea cow genome and lost in the manatee genome. These genes will be reconstructed as a Proboscidean-specific duplication events because we cannot determine copy number in extinct species that lack genomes.
+</p>

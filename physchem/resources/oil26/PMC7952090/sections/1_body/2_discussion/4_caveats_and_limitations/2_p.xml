@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We also assume that gene duplicates either maintain ancestral tumor suppressor functions and increase cancer resistance through dosage effects or provide redundancy to loss of function mutations thereby increasing robustness of tumor suppression. Many processes, such as developmental systems drift, neofunctionalization, and sub-functionalization, can cause divergence in gene functions and invalidate the assumption of conservation of gene function (
+ <xref rid="bib81" ref-type="bibr">Rastogi and Liberles, 2005</xref>; 
+ <xref rid="bib79" ref-type="bibr">Qian and Zhang, 2014</xref>; 
+ <xref rid="bib94" ref-type="bibr">Stoltzfus, 1999</xref>), leading to inaccurate inferences in gene and pathway functions which is a common problem in comparative genomic studies using pathway and gene ontologies to categorize gene function. In addition, we assume that most duplicate genes are functional but it is likely that some of the duplicates were identify are non-functional pseudogenes. Differentiating between functional and non-functional genes using comparative genomics can be challenging. For example, non-functional pseudogenes often accumulate non-synonymous amino acid substitutions and premature stop codons but these same changes can also occur in functional genes. For example, we have found that the elephant genome encodes 
+ <italic>TP53</italic> retogenes (
+ <italic>TP53RTGs</italic>) all of which encode premature stop codons suggesting they are pseudogenes, but these 
+ <italic>TP53TRG</italic>s are expressed, encode functional separation of function mutants of the ancestral TP53 gene, and contribute to enhanced DNA damage sensitivity in elephant cells. Similarly, we have characterized duplicate 
+ <italic>LIF</italic> gene in elephants (
+ <italic>LIF6</italic>) that lacks the start codon and exon 1 of the parent LIF gene. 
+ <italic>LIF6</italic> is expressed, encodes a functional protein with translation initiated at an alternative downstream start site, and also contributes to enhanced DNA damage sensitivity in elephant cells. In addition, duplicate genes that lack coding potential, such as 
+ <italic>PTENP1</italic>, can also be expressed and while not translated function as LINC RNAs (in this case acting as a sponge for microRNAs that target the parent PTEN transcript). In each case classifying duplicates into putatively functional and non-functional categories based on sequence characteristic would misclassify 
+ <italic>TP53RTG</italic>s, 
+ <italic>LIF6</italic>, and 
+ <italic>PTENP1</italic>. Thus, sequence features of pseudogenes may maintain function, as a consequence of not excluding putative pseudogenes some of the genes we include in downstream analyses may be non-functional. Further experimental studies are needed to determine which duplicates are expressed and functional.
+</p>

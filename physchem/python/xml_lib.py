@@ -209,9 +209,46 @@ class XmlLib:
     @staticmethod
     def add_UTF8(html_root):
         from lxml import etree
-        root = get_or_create_child(html_root, "head")
+        root = html_root.get_or_create_child(html_root, "head")
         etree.SubElement(root, "meta").attrib["charset"] = "UTF-8"
 
+    # replace nodes with text
+    @staticmethod
+    def replace_nodes_with_text(data, xpath, replacement):
+        from lxml import etree
+        print(data, xpath, replacement)
+        tree = etree.fromstring(data)
+        for r in tree.xpath(xpath):
+            print("r", r, replacement, r.tail)
+            text = replacement
+            if r.tail is not None:
+                text += r.tail
+            parent = r.getparent()
+            if parent is not None:
+                previous = r.getprevious()
+                if previous is not None:
+                    previous.tail = (previous.tail or '') + text
+                else:
+                    parent.text = (parent.text or '') + text
+                parent.remove(r)
+        return tree
+
+    @classmethod
+    def xslt_transform(cls, data, xslt_file):
+        xslt_root = etree.parse(xslt_file)
+        transform = etree.XSLT(xslt_root)
+        print("XSLT log", transform.error_log)
+        result_tree = transform(etree.fromstring(data))
+        assert(not result_tree is None)
+        root = result_tree.getroot()
+        assert(root is not None)
+
+        return root
+
+    @classmethod
+    def xslt_transform_tostring(cls, data, xslt_file):
+        root = cls.xslt_transform(data, xslt_file)
+        return etree.tostring(root).decode("UTF-8") if root is not None else None
 
     def test(self):
         doc = XmlLib("../liion/PMC7077619/fulltext.xml")
@@ -372,24 +409,50 @@ class DataTable:
         print("SELF", htmltext)
         return htmltext
 
+class Web:
+    def __init__(self):
+        import tkinter as tk
+        root = tk.Tk()
+        site = "http://google.com"
+        self.display_html(root, site)
+        root.mainloop()
+
+    @classmethod
+    def display_html(cls, master, site):
+        import tkinterweb
+        frame = tkinterweb.HtmlFrame(master)
+        frame.load_website(site)
+        frame.pack(fill="both", expand=True)
+    @classmethod
+    def tkinterweb_demo(cls):
+        from tkinterweb import Demo
+        Demo()
 
 def main():
     import pprint
-    print("start content")
-    XmlLib().test() # don't know what pase_file does...
-    print("end content")
+
+#    XmlLib().test() # don't know what parse_file does...
+
+#    test_data_table()
+
+#    web = Web()
+    Web.tkinterweb_demo()
+
+
+def test_data_table():
+    import pprint
     data_table = DataTable("test")
     data_table.add_column_heads(["a", "b", "c"])
     data_table.add_row_old(["a1", "b1", "c1"])
     data_table.add_row_old(["a2", "b2", "c2"])
     data_table.add_row_old(["a3", "b3", "c3"])
     data_table.add_row_old(["a4", "b4", "c4"])
-
     html = LXET.tostring(data_table.html).decode("UTF-8")
     HOME = os.path.expanduser("~")
     with open(os.path.join(HOME, "junk_html.html"), "w") as f:
         f.write(html)
     pprint.pprint(html)
+
 
 if __name__ == "__main__":
     print("running file_lib main")

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Corsi</surname>
+   <given-names>Beatrice</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Percival-Alwyn</surname>
+   <given-names>Lawrence</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Downie</surname>
+   <given-names>Rowena C.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Venturini</surname>
+   <given-names>Luca</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Iagallo</surname>
+   <given-names>Elyce M.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Campos Mantello</surname>
+   <given-names>Camila</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>McCormick-Barnes</surname>
+   <given-names>Charlie</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>See</surname>
+   <given-names>Pao Theen</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Oliver</surname>
+   <given-names>Richard P.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <name>
+   <surname>Moffat</surname>
+   <given-names>Caroline S.</given-names>
+  </name>
+  <address>
+   <email>caroline.moffat@curtin.edu.au</email>
+  </address>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1014-6463</contrib-id>
+  <name>
+   <surname>Cockram</surname>
+   <given-names>James</given-names>
+  </name>
+  <address>
+   <email>james.cockram@niab.com</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.17595.3f</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0383 6532</institution-id>
+   <institution>John Bingham Laboratory, </institution>
+   <institution>NIAB, </institution>
+  </institution-wrap>Huntingdon Road, Cambridge, CB3 0LE UK 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.5335.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000000121885934</institution-id>
+   <institution>Plant Sciences Department, </institution>
+   <institution>University of Cambridge, </institution>
+  </institution-wrap>Cambridge, UK 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.35937.3b</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0001 2270 9879</institution-id>
+   <institution>Life Sciences Department, </institution>
+   <institution>Natural History Museum, </institution>
+  </institution-wrap>Cromwell Road, London, SW7 5BD UK 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.1032.0</institution-id>
+   <institution-id institution-id-type="ISNI">0000 0004 0375 4078</institution-id>
+   <institution>Centre for Crop and Disease Management, School of Molecular and Life Sciences, </institution>
+   <institution>Curtin University, </institution>
+  </institution-wrap>Perth, Australia 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="GRID">grid.5379.8</institution-id>
+   <institution-id institution-id-type="ISNI">0000000121662407</institution-id>
+   <institution>Faculty of Biology, Medicine and Health, </institution>
+   <institution>The University of Manchester, </institution>
+  </institution-wrap>Oxford Road, Manchester, M13 9PL UK 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>Present Address: Genetracer Biotech, Calle Albert Einstein 22, 39011 Santander, Spain 
+ </aff>
+</contrib-group>

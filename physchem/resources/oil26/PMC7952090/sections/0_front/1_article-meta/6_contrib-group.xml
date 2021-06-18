@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib id="author-215996" contrib-type="author">
+  <name>
+   <surname>Vazquez</surname>
+   <given-names>Juan M</given-names>
+  </name>
+  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0001-8341-2390</contrib-id>
+  <xref ref-type="aff" rid="aff1">1</xref>
+  <xref ref-type="other" rid="fund1"/>
+  <xref ref-type="fn" rid="con1"/>
+  <xref ref-type="fn" rid="conf1"/>
+  <xref ref-type="author-notes" rid="pa1">†</xref>
+ </contrib>
+ <contrib id="author-43283" contrib-type="author" corresp="yes">
+  <name>
+   <surname>Lynch</surname>
+   <given-names>Vincent J</given-names>
+  </name>
+  <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0001-5311-3824</contrib-id>
+  <email>vjlynch@buffalo.edu</email>
+  <xref ref-type="aff" rid="aff2">2</xref>
+  <xref ref-type="other" rid="fund1"/>
+  <xref ref-type="fn" rid="con2"/>
+  <xref ref-type="fn" rid="conf1"/>
+ </contrib>
+ <aff id="aff1">
+  <label>1</label>
+  <institution>Department of Human Genetics, The University of Chicago</institution>
+  <addr-line>Chicago</addr-line>
+  <country>United States</country>
+ </aff>
+ <aff id="aff2">
+  <label>2</label>
+  <institution>Department of Biological Sciences, University at Buffalo</institution>
+  <addr-line>Buffalo</addr-line>
+  <country>United States</country>
+ </aff>
+</contrib-group>

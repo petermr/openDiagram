@@ -1,0 +1,4 @@
+0: In low-quality genomes, many genes are fragmented across multiple scaffolds, which results in BLA(S)T-like methods calling multiple hits when in reality there is only one gene.
+1: To compensate for this, we developed a novel statistic, Estimated Copy Number by Coverage (ECNC), which averages the number of times we hit each nucleotide of a query sequence in a target genome over the total number of nucleotides of the query sequence found overall in each target genome ( Figure 3figure supplement 1).
+2: This allows us to correct for genes that have been fragmented across incomplete genomes, while accounting for missing sequences from the human query in the target genome.
+3: Mathematically, this can be written as: (1)ECNC=n=1lCnn=1lbool(Cn)where  n is the given nucleotide in the query,  l is the total length of the query,  C  n is the number of instances that  n is present within a reciprocal best hit, and bool ( C  n) is 1 if  C  n >1  Cn>0 or 0 if  C  n =1  Cn=0.

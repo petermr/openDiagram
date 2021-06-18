@@ -202,6 +202,16 @@ class AmiPath:
         print("files", len(files))
         return files
 
+class BraceGlobber:
+
+    def braced_glob(path, recursive=False):
+        from glob import glob
+        from braceexpand import braceexpand
+        l = [glob(x, recursive=recursive) for x in braceexpand(path)]
+        return l
+
+
+
 class FileLib:
 
     @staticmethod
@@ -211,9 +221,20 @@ class FileLib:
 
     @staticmethod
     def create_absolute_name(file):
+        """create absolute name for a file"""
         file_dir = pathlib.PurePath(__file__).parent
         absolute_file = os.path.join(os.path.join(file_dir, file))
         return absolute_file
+
+    @classmethod
+    def read_pydictionary(cls, file):
+        """read a json file into a python dictiomary"""
+        import ast
+        print(type(file), file)
+        with open(file, "r") as f:
+            pydict = ast.literal_eval(f.read())
+        return pydict
+
 
 SECTION_TEMPLATES_JSON = 'section_templates.json'
 templates_json = FileLib.create_absolute_name(SECTION_TEMPLATES_JSON)

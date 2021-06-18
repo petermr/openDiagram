@@ -1,0 +1,10 @@
+0: MAGIC QTL mapping was carried out using 7369 unique mapped SNPs, with genetic map positions as described by Gardner et al.
+1: ( 2016).
+2: Four QTL analysis approaches were used: (1) SMA (single marker analysis): regression against single markers using R/lme4.
+3: (2) IBD (identity by descent): regression against haplotype probability estimates calculated using the mpprob function in R/mpMap (Huang and George  2011) implemented in R/qtl (Broman et al.
+4: 2003) with a threshold of 0.5.
+5: (3) IM (interval mapping): conducted in R/mpMap using R/mpMap haplotype probability estimates.
+6: (4) CIM (composite interval mapping): conducted in R/mpMap with 5 or 10 covariates using R/mpMap haplotype probability estimates.
+7: For IBS and IBD analyses, multiple-test correction was carried out using  R/ q value, with a threshold of  q < 0.05.
+8: For IM/CIM an empirical  P threshold of 0.05 was determined for QTL analyses by conducting 100 simulations, using the sim.sigthr function in  R. This value, together with a window size of 100 markers was used to determine QTL peaks using find.qtl.
+9: Fit.qtl was then applied, and QTL retained which had  P < 0.05 in the fitted model, as well as percentage variation explained > 1%.

@@ -1,0 +1,9 @@
+0: Next, we modeled the effects of enrichment on welfare indicators using data aggregated by night.
+1: For these models, we used time (two-week period of the study) as a continuous predictor.
+2: We modeled log-transformed FGM concentrations using a normal distribution and identity link function.
+3: These models included the aforementioned random slope terms and a variance components covariance structure.
+4: To assess how FGM concentrations varied in response to enrichment characteristics, we included the following fixed factors: continuous time, enrichment (stated goal or specific item), total time of enrichment use (seconds), and counts of enrichment events.
+5: To explore alternative explanations for FGM variations, we also included the following fixed factors in models: sample collection time, total time pacing (seconds), counts of pacing events, and counts of total agonistic and affiliative interactions.
+6: These models would not support an interaction between time and enrichment.
+7: We also modeled behavioral diversity (H) using a normal distribution and identity link function, with the same random slope terms; however, this model used an AR1 covariance structure.
+8: Fixed factors for behavioral diversity included time and enrichment (specific or goal); we did not use behaviors as predictors in the behavioral diversity models because those behaviors were used to calculate H scores.

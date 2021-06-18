@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The dramatic increase in body mass and lifespan in some 
+ <italic>Afrotherian</italic> lineages, and the relatively constant rate of cancer across species of diverse body sizes (
+ <xref rid="bib1" ref-type="bibr">Abegglen et al., 2015</xref>), indicates that those lineages must have also evolved reduced cancer risk. To infer the magnitude of these reductions we estimated differences in intrinsic cancer risk across extant and ancestral Afrotherians. Following 
+ <xref rid="bib76" ref-type="bibr">Peto, 2015</xref>, we estimate the intrinsic cancer risk (
+ <italic>K</italic>) as the product of risk associated with body mass and lifespan. In order to determine (
+ <italic>K</italic>) across species and at ancestral nodes (see below), we first estimated ancestral lifespans at each node. We used Phylogenetic Generalized Least-Square Regression (PGLS) (
+ <xref rid="bib26" ref-type="bibr">Felsenstein, 1985</xref>; 
+ <xref rid="bib56" ref-type="bibr">Martins and Hansen, 1997</xref>), using a Brownian covariance matrix as implemented in the R package 
+ <italic>ape</italic> (
+ <xref rid="bib70" ref-type="bibr">Paradis and Schliep, 2019</xref>), to calculate estimated ancestral lifespans across Atlantogenata using our estimates for body size at each node. In order to estimate the intrinsic cancer risk of a species, we first inferred lifespans at ancestral nodes using PGLS (
+ <xref ref-type="supplementary-material" rid="supp3">Supplementary file 3</xref>) and the model. Next, we calculated 
+ <inline-formula>
+  <math id="inf12">
+   <msub>
+    <mrow>
+     <mi>K</mi>
+    </mrow>
+    <mrow>
+     <mn>1</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> at all nodes, and then estimated the fold-change in cancer susceptibility between ancestral and descendant nodes (
+ <xref ref-type="fig" rid="fig2">Figure 2</xref>). Next, in order to calculate 
+ <italic>K
+  <sub>1</sub>
+ </italic> at all nodes, we used a simplified multistage cancer risk model for body size 
+ <inline-formula>
+  <math id="inf13">
+   <mi>D</mi>
+  </math>
+ </inline-formula> and lifespan 
+ <inline-formula>
+  <math id="inf14">
+   <mi>t</mi>
+  </math>
+ </inline-formula>: 
+ <inline-formula>
+  <math id="inf15">
+   <mi>K</mi>
+   <mo>≈</mo>
+   <mi>D</mi>
+   <msup>
+    <mrow>
+     <mi>t</mi>
+    </mrow>
+    <mrow>
+     <mn>6</mn>
+    </mrow>
+   </msup>
+  </math>
+ </inline-formula> (
+ <xref rid="bib75" ref-type="bibr">Peto et al., 1975</xref>: 
+ <xref rid="bib76" ref-type="bibr">Peto, 2015</xref>; 
+ <xref rid="bib4" ref-type="bibr">Armitage, 1985</xref>; 
+ <xref rid="bib5" ref-type="bibr">Armitage and Doll, 2004</xref>). The fold change in cancer risk between a node and its ancestor was then defined as 
+ <inline-formula>
+  <math id="inf16">
+   <mstyle displaystyle="true" scriptlevel="0">
+    <mrow>
+     <msub>
+      <mrow>
+       <mi mathvariant="normal">l</mi>
+       <mi mathvariant="normal">o</mi>
+       <mi mathvariant="normal">g</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mfrac>
+       <msub>
+        <mi>K</mi>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msub>
+       <msub>
+        <mi>K</mi>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mfrac>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mstyle>
+  </math>
+ </inline-formula>.
+</p>

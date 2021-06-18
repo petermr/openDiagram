@@ -1,0 +1,3 @@
+0: We compared time spent using enrichment (counts of scans from each observation) and rates of enrichment use (counts of continuous events from each observation) using GLMMs with negative binomial distributions and log link functions.
+1: In these models, we included the following fixed factors: enrichment (stated goal or specific item), categorical time of night (PM, MID, or AM), and an interaction term for enrichment (stated goal or specific item)  time.
+2: These models used a variance components covariance structure and a random slope term matching the specific enrichment or stated goal of enrichment as described above.

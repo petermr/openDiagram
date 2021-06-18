@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">Data were analysed using linear mixed effect models for variables with a normal distribution (soil moisture and temperature) and generalized linear mixed effect models (GLMMs) for variables that were not normally distributed (soil compaction, vegetation cover and species richness). These analyses were implemented using the lme4 package
+ <sup>
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup> and the MASS package
+ <sup>
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup> in R statistical software
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>
+ </sup>. Microsites (i.e. burrow entrance, impacted area and control) and burrow age (i.e. fresh, abandoned and collapsed) were set as fixed effects. The location of each burrow and its associated microsites were set as a random effect to account for potential differences in environmental conditions across each study area. Since the impact of burrows on soil temperature may differ between warmer and cooler times of the day
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup>, the interaction of time and microsite was included as a predictor variable. Soil compaction data were analysed assuming a binomial distribution since the penetrometer data was bounded at both its upper and lower limits. Vegetation cover and species richness data were analysed assuming a binomial and a Poisson distribution respectively. The interaction between microsite and burrow age was included in models when it significantly improved model fit (assessed using the 
+ <italic>anova</italic> function). However, for models that required analysis using the 
+ <italic>glmmPQL</italic> function (due to algorithm failure with the 
+ <italic>glmer</italic> function), formal model comparisons were not possible. In such analyses the more complex model (i.e. including the interaction term) was only reported when the interaction term’s coefficients were significantly different from zero.
+</p>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Pairwise sequence alignments between hACE2 and the other ACE2 orthologs were extracted from the MSAs and trimmed accordingly, as hACE2 was not full-length in the template complex (PDB ID: 6M0J).
+ <sup>
+  <xref ref-type="bibr" rid="ref30">30</xref>
+ </sup> The trimming should not affect binding analysis because it was shown that the protein–protein interface is unabridged in the experimentally determined hACE2/S-RBD complex structures.
+ <sup>
+  <xref ref-type="bibr" rid="ref5">5</xref>,
+  <xref ref-type="bibr" rid="ref30">30</xref>,
+  <xref ref-type="bibr" rid="ref32">32</xref>
+ </sup> We utilized Modeller v9.24
+ <sup>
+  <xref ref-type="bibr" rid="ref33">33</xref>
+ </sup> to build the initial putative complex models. Each model was first optimized with the variable target function method with conjugate gradients using parameters 
+ <italic>library_schedule = autosched.slow</italic> and 
+ <italic>max_var_iterations = 300</italic>, and then refined using molecular dynamics with simulated annealing (SA) using parameter settings 
+ <italic>md_level = refine.slow</italic>. The whole cycle was repeated two times and was not stopped unless the objective function was &gt;1 × 10
+ <sup>6</sup> (parameter settings: 
+ <italic>repeat_optimization = 2</italic> and 
+ <italic>max_molpdf = 1e6</italic>). For each ACE2/S-RBD pair, 100 initial Modeller complex models were constructed.
+</p>

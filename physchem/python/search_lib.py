@@ -333,6 +333,7 @@ class AmiSearch:
         if sections is None or len(sections) == 0:
             self.section_help()
         else:
+
             try:
                 AmiSection.check_sections(sections)
                 self.section_types = sections
@@ -414,13 +415,22 @@ class AmiSearch:
 
     def analyze_all_words_with_Rake(self, sections):
         text = ""
-        print("sections", sections)
-        for section in sections:
-            if type(section) == list:
-                print("BUG", "section should not be List")
+        print("sections", len(sections))
+        if len(sections) == 1:
+            if type(sections[0]) == list:
+                for sect in sections[0]:
+                    text += sect.text
             else:
-                text += section.text
-        text = self.remove_line_ends(text)
+                print("BUG BUG ")
+        else:
+            for section in sections:
+                if type(section) == list:
+                    print("len sect", len(section))
+                    print("BUG", "section should not be List")
+                else:
+                    text += section.text
+            text = self.remove_line_ends(text)
+
         self.analyze_text_with_Rake(text)
 
     def remove_line_ends(self, text):
@@ -688,7 +698,7 @@ class SearchPattern:
         return matched_words
 
 class AmiRake:
-    def __init__(self, ami_search):
+    def __init__(self, ami_search=None):
         self.min_len = 2
         self.max_len = 6
         self.phrases = []
@@ -719,13 +729,18 @@ class AmiRake:
 
 
     def make_toplevel_phraselist(self, master, phrases):
+
         from gutil import ScrollingCheckboxList
         import tkinter as tk
         toplevel = tk.Toplevel(master)
-        results = []
-        scl = ScrollingCheckboxList(toplevel, receiver=self)
-        scl.pack(side="top", fill="both", expand=True)
-        scl.add_string_values(phrases)
+        toplevel.title("RAKE phraselist")
+        if phrases is None or len(phrases) == 0:
+            print("No phrases")
+        else:
+            results = []
+            scl = ScrollingCheckboxList(toplevel, receiver=self)
+            scl.pack(side="top", fill="both", expand=True)
+            scl.add_string_values(phrases)
 
     def use_rake1(self, text):
         import RAKE
@@ -786,23 +801,28 @@ def test_profile1():
 
 def main():
     """ debugging """
-    option = "search" # edit this
-#    option = "sparql"
-    option = "rake"
+    test_search()
+
+
+def test_search():
+    option = "search"  # edit this
+    #    option = "sparql"
+    #    option = "rake"
     if 1 == 2:
         pass
     elif option == "rake":
         AmiRake().test()
+
     elif option == "search":
         ami_search = AmiSearch()
         ami_search.run_args()
     elif option == "test":
-        test = AmiRake()
-        test.test()
+        AmiRake().test()
     elif option == "sparql":
-        SearchDictionary.test()
+        SearchDictionary.test_dict_read()
     else:
         print("no option given")
+
 
 def create_arg_parser():
     import argparse

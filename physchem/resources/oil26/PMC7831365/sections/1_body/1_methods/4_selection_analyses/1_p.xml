@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To evaluate the selective pressure of relevant branches leading to enamel-less and toothless lineages respectively, we implemented 
+ <italic>two ratio branch model</italic> to calculate the ratio of the nonsynonymous substitution rate (
+ <italic>d</italic>
+ <sub>N</sub>) to the synonymous substitution rate (
+ <italic>d
+  <sub>S</sub>
+ </italic>) (ω = 
+ <italic>d
+  <sub>N</sub>
+ </italic>/
+ <italic>d
+  <sub>S</sub>
+ </italic>) by running CodeML in PAML 4.8a package (
+ <xref rid="ref-39" ref-type="bibr">Yang, 2007</xref>). We also recoded premature stop codons as missing data. Akaike information criterion (AIC) scores were used to select the most appropriate codon frequency model in CodeML. The 
+ <italic>ACPT</italic> gene tree exhibits different topological relationship compared to species tree, which may be unrelated to incomplete lineage sorting. In order to illuminate the detected signal reasonably and accurately, we used a species tree supported by some previous studies (
+ <xref ref-type="supplementary-material" rid="supp-2">Fig. S1</xref>).
+</p>

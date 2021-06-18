@@ -44,6 +44,11 @@ WROTE_XML = "Wrote xml"
 # https://stackoverflow.com/questions/47839813/python-tkinter-autocomplete-combobox-with-like-search
 
 def button1(event):
+    """
+
+    :param event: 
+
+    """
     print("button1", event)
     print(dir(event))
     tup = event.widget.curselection
@@ -52,57 +57,8 @@ def button1(event):
         print(tup[0], event.widget.get(tup[0]))
 
 
-
-
-class WikidataBrowser():
-
-    from tkinter import scrolledtext
-    import tkinter as tk
-
-    def __init__(self, ami_gui, text):
-        from xml_lib import XmlLib
-        from lxml import etree as LXET
-        from tkinterhtml import HtmlFrame
-
-        toplevel = tk.Toplevel(ami_gui.master)
-        text_display = scrolledtext.ScrolledText(
-            toplevel, font=("Arial, 18"), width=60, height=10)
-        text_display.pack(side=tk.BOTTOM)
-        label = tk.Label(toplevel, text="Wikidata search results")
-        CreateToolTip(label, "Contains text representation \nof wikidata query")
-        label.pack(side=tk.TOP)
-        url = ami_gui.create_wikidata_query_url(text)
-        with urlopen(url) as response:
-            the_page = bytes.decode(response.read())
-        html_root = XmlLib.parse_xml_string_to_root(the_page)
-        print("root", LXET.tostring(html_root))
-        xpath = "//script"
-        self.remove_xpath(html_root, xpath)
-        head = html_root.xpath(".//head")[0]
-        style = LXET.SubElement(head, "style")
-        style.attrib["type"] = "text/css"
-        style.text = "* {font-size:40pt; color:red;}"
-        html_content = bytes.decode(LXET.tostring(html_root))
-        print("html>>", html_content)
-        # div id="content" class="mw-body"
-        content_elem = html_root.xpath(".//div[@id='content']")[0]
-        div_content = LXET.tostring(content_elem)
-        # print(content) # doesn't display well in tkinter
-        text_display.insert("1.0", div_content)
-        text_display.pack_forget()
-
-        frame = HtmlFrame(toplevel, horizontal_scrollbar="auto")
-        frame.set_content(html_content)
-        # frame.set_content(the_page)
-        # frame.set_content(content)
-        frame.pack()
-
-    def remove_xpath(self, element, xpath):
-        for subelem in element.xpath(xpath):
-            subelem.getparent().remove(subelem)
-
-
 class AmiGui(tk.Frame):
+    """ """
 
     def __init__(self, master=None):
         super().__init__(master)
@@ -124,27 +80,57 @@ class AmiGui(tk.Frame):
         self.dictionary_content_notebook = None
 
     def create_all_widgets(self, master):
+        """ Main entry
+
+        :param master: parent frame
+
+        """
         self.create_display_frame(master)
         self.create_dashboard(master)
 
     def main_text_display_button1(self, event):
+        """
+
+        :param event: 
+
+        """
         # print("Main button 1", event)
         pass
 
     def main_text_display_selected(self, event):
+        """
+
+        :param event: 
+
+        """
         #print("Main selected", event, event.widget.selection_get())
         pass
 
     def process_selection(self, event):
+        """
+
+        :param event: 
+
+        """
         text = self.get_main_text_on_release(event)
         if text:
             response = self.query_wikidata(text)
 
     def get_main_text_on_release(self, event):
+        """
+
+        :param event: 
+
+        """
         text = event.widget.selection_get() if event.widget.tag_ranges("sel") else None
         return text
 
     def create_display_frame(self, master):
+        """
+
+        :param master: 
+
+        """
         from file_lib import FileLib
 
         self.main_display_frame = tk.Frame(master)
@@ -166,19 +152,30 @@ class AmiGui(tk.Frame):
         self.main_image_display.pack()
 
         url = "file://"+FileLib.create_absolute_name(os.path.join("test", "index.html"))
-        try:
-            self.html_frame = self.create_html_view(self.main_display_frame, url)
-            if self.show_html_frame:
-                self.html_frame.pack()
-        except:
-            print("cannot load html file ")
-            pass
+        if self.show_html_frame:
+            self.display_in_html_frame(url)
 
         file = FileLib.create_absolute_name(os.path.join("diagrams", "luke", "papers20210121", "physrevb.94.125203_1_", "fulltext.pdf"))
         if False:
             self.open_pdf(file, self.main_text_display, page_num=0)
 
+    def display_in_html_frame(self, url):
+        try:
+            self.html_frame = self.create_html_view(self.main_display_frame, url)
+            if self.html_frame:
+                self.html_frame.pack()
+        except Exception as e:
+            s = f"cannot load url {url}{e}"
+            raise Exception(s)
+
     def open_pdf(self, file, text, page_num=0):
+        """
+
+        :param file: 
+        :param text: 
+        :param page_num:  (Default value = 0)
+
+        """
         import PyPDF2
         pdf_file = PyPDF2.PdfFileReader(file)
         page = pdf_file.getPage(page_num)
@@ -186,6 +183,12 @@ class AmiGui(tk.Frame):
         text.insert(1.0, content)
 
     def create_html_view(self, frame, htmlfile):
+        """
+
+        :param frame: 
+        :param htmlfile: 
+
+        """
         a = urlopen(htmlfile)
         bytez = a.read()
         content = bytez.decode()
@@ -194,6 +197,11 @@ class AmiGui(tk.Frame):
         return html
 
     def view_main_text(self, file):
+        """
+
+        :param file: 
+
+        """
         if file.endswith(".xml"):
 # not yet working
             # self.view_main_xml_file(file)
@@ -206,16 +214,31 @@ class AmiGui(tk.Frame):
                 self.view_main_text_content(content)
 
     def view_main_text_content(self, content):
+        """
+
+        :param content: 
+
+        """
         self.main_text_display.delete("1.0", tk.END)
         self.main_text_display.insert(tk.END, content)
 
     def view_main_xml_file(self, file):
+        """
+
+        :param file: 
+
+        """
         from xml_lib import XmlLib
         self.xml_root = XmlLib.parse_xml_file_to_root(file)
         for child in self.xml_root:
             pass
 
     def create_image_label(self, image_path):
+        """
+
+        :param image_path: 
+
+        """
         frame_height = 400
         frame_width = 800
         frame_aspect_ratio = frame_width / frame_height
@@ -233,15 +256,30 @@ class AmiGui(tk.Frame):
         return self.label
 
     def set_image_and_persist(self, img):
+        """
+
+        :param img: 
+
+        """
         self.label.configure(image=img)
         self.label.image = img  # needed to avoid garbage collectiom
 
     def create_dashboard(self, master):
+        """
+
+        :param master: 
+
+        """
         self.dashboard = tk.Frame(master)
         self.dashboard.pack(side=tk.LEFT)
         self.make_ami_widgets(self.dashboard)
 
     def make_ami_widgets(self, master):
+        """
+
+        :param master: 
+
+        """
         pg_frame = tk.Frame(master,
                             highlightbackground="gray",
                             highlightthickness=1)
@@ -257,6 +295,11 @@ class AmiGui(tk.Frame):
         return pg_frame
 
     def make_section_frame(self, master):
+        """
+
+        :param master: 
+
+        """
         section_frame, title_var = Gutil.make_frame_with_hide(master,
                                            title="Sections",
                                            tooltip="sections to be searched",
@@ -264,16 +307,15 @@ class AmiGui(tk.Frame):
         section_frame.pack()
 
         self.sections_listbox = self.create_generic_listbox(
-            AmiSection.SECTION_LIST,
+            AmiSection.SECTION_LIST1,
+#            AmiSection.SECTION_LIST,
             master=section_frame,
         )
         self.sections_listbox.pack(side=BOTTOM)
 
 
     def make_dictionary_names_box(self, master):
-        """
-
-        dictionary_dict = {
+        """dictionary_dict = {
             "country": (os.path.join(DICTIONARY_HOME, "openVirus20210120", "country", "country.xml"),
                         "ISO countries from wikidata"),
             "ethics": (os.path.join(DICTIONARY_HOME, "ami3", "ethics.xml"),
@@ -285,6 +327,9 @@ class AmiGui(tk.Frame):
             "parkinsons": (os.path.join(DICTIONARY_HOME, "ami3", "parkinsons.xml"),
                            "Terms related to Parkinson's disease"),
         }
+
+        :param master: 
+
         """
         dictionary_frame, _ = Gutil.make_frame_with_hide(master,
                                                          title="Dictionaries",
@@ -392,6 +437,12 @@ class AmiGui(tk.Frame):
         self.flags_keys = self.pygetpapers_flags.keys()
 
     def make_pygetpapers_query_frame(self, master, TOP):
+        """
+
+        :param master: 
+        :param TOP: 
+
+        """
 
         pygetpapers_frame, title_var = Gutil.make_frame_with_hide(master,
                                            title="Pygetpapers",
@@ -416,6 +467,11 @@ class AmiGui(tk.Frame):
         return pygetpapers_frame, title_var
 
     def make_ami_project(self, master):
+        """
+
+        :param master: 
+
+        """
         ami_project_frame, title_var = Gutil.make_frame_with_hide(master,
                                            title="AMI",
                                            tooltip="process AMI project",
@@ -452,10 +508,15 @@ class AmiGui(tk.Frame):
         Gutil.make_checkbox_from_dict(ami_project_frame, self.ami_pdfbox_dict)
 
     def make_ami_search(self, master):
+        """
+
+        :param master: 
+
+        """
 
         self.run_ami_frame, title_var = Gutil.make_frame_with_hide(master,
-                                           title="Projects",
-                                           tooltip="run ami search using dictionaries",
+                                           title="Search",
+                                           tooltip="wordcount, or phrases or ami search using dictionaries",
                                            )
 
         run_button_var = tk.StringVar(value="SEARCH PROJECT")
@@ -467,6 +528,7 @@ class AmiGui(tk.Frame):
             text='Add CProject',
             command=self.add_cproject
         )
+        CreateToolTip(new_project_button, "select project in Project Box and give mnemonic in entry")
         new_project_button.pack(side=tk.BOTTOM, expand=True)
         # project name
         self.new_project_name_var = tk.StringVar()
@@ -485,6 +547,11 @@ class AmiGui(tk.Frame):
         return self.run_ami_frame, title_var
 
     def refresh_project_listbox(self, run_ami_frame):
+        """
+
+        :param run_ami_frame: 
+
+        """
         self.project_names_listbox = self.create_generic_listbox(
             self.current_ami_projects.project_dict.keys(),
             master=run_ami_frame,
@@ -492,6 +559,7 @@ class AmiGui(tk.Frame):
         self.project_names_listbox.pack(side=BOTTOM)
 
     def add_cproject(self):
+        """ """
         new_dir = self.outdir_var.get()
         print("add CProject ", new_dir , "to project list")
         label = self.new_project_name_var.get()
@@ -503,12 +571,18 @@ class AmiGui(tk.Frame):
         pass
 
     def run_ami_search(self):
+        """ """
         ami_search = AmiSearch()
         ami_search.ami_projects = self.current_ami_projects
         ami_guix = self
         ami_search.run_search_from_gui(ami_guix)
 
     def make_getpapers_args(self, frame):
+        """
+
+        :param frame: 
+
+        """
         getpapers_args_frame = tk.Frame(frame,
                                     highlightbackground="black",
                                     highlightthickness=1)
@@ -529,10 +603,21 @@ class AmiGui(tk.Frame):
 
 
     def make_pygetpapers_check_button(self, master, key):
+        """
+
+        :param master: 
+        :param key: 
+
+        """
         cbox_dict = self.pygetpapers_flags[key]
         Gutil.make_checkbox_from_dict(master, cbox_dict, side=tk.LEFT)
 
     def create_run_button(self, master):
+        """
+
+        :param master: 
+
+        """
         button = tk.Button(master)
         button[Gutil.CBOX_TEXT] = "DOWNLOAD"
         button[Gutil.CBOX_COMMAND] = self.create_pygetpapers_query_and_run
@@ -541,6 +626,11 @@ class AmiGui(tk.Frame):
         self.pygetpapers_command.pack(side=LEFT, expand=True)
 
     def create_make_project_button(self, master):
+        """
+
+        :param master: 
+
+        """
         button = tk.Button(master)
         button[Gutil.CBOX_TEXT] = "Make project"
         button[Gutil.CBOX_COMMAND] = self.save_project
@@ -551,6 +641,13 @@ class AmiGui(tk.Frame):
         return button
 
     def make_dictionary_content_boxes(self, master, dictionary_dict, selected_dict_names):
+        """
+
+        :param master: 
+        :param dictionary_dict: 
+        :param selected_dict_names: 
+
+        """
         frame = tk.Frame(master,
                          highlightcolor="blue",
                          highlightthickness=10)
@@ -578,6 +675,12 @@ class AmiGui(tk.Frame):
             self.selected_boxes.append(curbox)
 
     def make_cproject_frame(self, master, box_side):
+        """
+
+        :param master: 
+        :param box_side: 
+
+        """
         from tkinter import ttk
 
         cproject_frame, title_var = Gutil.make_frame_with_hide(master,
@@ -610,6 +713,7 @@ class AmiGui(tk.Frame):
         return cproject_frame
 
     def select_directory(self):
+        """ """
         from tkinter import filedialog as fd
         from tkinter import messagebox
 
@@ -620,6 +724,7 @@ class AmiGui(tk.Frame):
         Gutil.refresh_entry(self.dir_entry, filename)
 
     def display_directory(self):
+        """ """
         title="dummy title"
         if self.ami_tree is None:
             self.ami_tree = AmiTree(self)
@@ -632,6 +737,14 @@ class AmiGui(tk.Frame):
         self.ami_tree.recursive_display(outdir_val, parent, self.treeview)
 
     def make_dictionary_content_box(self, master, dictionary_name, ami_dictionary, desc="Missing desc"):
+        """
+
+        :param master: 
+        :param dictionary_name: 
+        :param ami_dictionary: 
+        :param desc:  (Default value = "Missing desc")
+
+        """
         frame, _ = Gutil.make_frame(master,
                                            title=dictionary_name,
                                            tooltip=desc,
@@ -651,6 +764,12 @@ class AmiGui(tk.Frame):
     """
 
     def show_dictionary_item(self, event, dictionary_name):
+        """
+
+        :param event: 
+        :param dictionary_name: 
+
+        """
         box = event.widget
         selections = Gutil.get_selections_from_listbox(box)
         selection = selections[0] if len(selections) > 0 else None
@@ -673,6 +792,16 @@ class AmiGui(tk.Frame):
             box.selection_clear(0, tk.END)
 
     def create_generic_listbox(self, items, master=None, command=None, title=None, tooltip=None, button_text="select"):
+        """
+
+        :param items: 
+        :param master:  (Default value = None)
+        :param command:  (Default value = None)
+        :param title:  (Default value = None)
+        :param tooltip:  (Default value = None)
+        :param button_text:  (Default value = "select")
+
+        """
         if tooltip is None:
             tooltip = f"generic listbox {title}"
         frame, title_var = Gutil.make_frame(master,
@@ -697,6 +826,11 @@ class AmiGui(tk.Frame):
     """
 
     def run_query_and_get_output(self, args):
+        """
+
+        :param args: 
+
+        """
         try:
             _, stderr_lines = Gutil.run_subprocess_get_lines(args)
         except:
@@ -714,6 +848,7 @@ class AmiGui(tk.Frame):
 
 
     def create_pygetpapers_query_and_run(self):
+        """ """
 
         limit = self.spin.get()
         query_string = ""
@@ -748,10 +883,12 @@ class AmiGui(tk.Frame):
             self.run_ami_pdfbox()
 
     def save_project(self):
+        """ """
 
         pass
 
     def run_ami_sections(self):
+        """ """
         import subprocess
         args = ["ami", "-p", self.project_dir, "section"]
 #        print("making sections", args)
@@ -760,6 +897,7 @@ class AmiGui(tk.Frame):
         print("stdout", stdout_lines)
 
     def run_ami_pdfbox(self):
+        """ """
         import subprocess
         args = ["ami", "-p", self.project_dir, "pdfbox"]
         stdout_lines, _ = Gutil.run_subprocess_get_lines(args)
@@ -767,6 +905,11 @@ class AmiGui(tk.Frame):
         print("stdout", stdout_lines)
 
     def add_flags_to_query_command(self, cmd_options):
+        """
+
+        :param cmd_options: 
+
+        """
 
         for k, v in self.pygetpapers_flags.items():
             if k in self.pygetpapers_flags:
@@ -780,12 +923,22 @@ class AmiGui(tk.Frame):
                         cmd_options.append(option)
 
     def add_query_entry(self, query_string):
+        """
+
+        :param query_string: 
+
+        """
         query_string = self.entry_text.get()
         if query_string != "":
             query_string = '("' + query_string + '")'
         return query_string
 
     def add_dictionary_box_terms(self, lbstr):
+        """
+
+        :param lbstr: 
+
+        """
         for box in self.selected_boxes:
             select_str = self.make_query_string(box)
             if select_str is None or select_str == "":
@@ -796,14 +949,27 @@ class AmiGui(tk.Frame):
         return lbstr
 
     def add_if_checked(self, cmd_options, var, val):
+        """
+
+        :param cmd_options: 
+        :param var: 
+        :param val: 
+
+        """
         if var is not None and var.get() == gu.ONVAL:
             cmd_options.append(val)
 
     def print_check(self):
+        """ """
         s = False
         print("check", self.check.getboolean(s))
 
     def make_query_string(self, listbox):
+        """
+
+        :param listbox: 
+
+        """
         selected = Gutil.get_selections_from_listbox(listbox)
         s = ""
         l = len(selected)
@@ -815,9 +981,20 @@ class AmiGui(tk.Frame):
         return s
 
     def selected_text(event):
+        """
+
+        :param event: 
+
+        """
         print("SELECTED", event)
 
     def display_query_output(self, master, lines):
+        """
+
+        :param master: 
+        :param lines: 
+
+        """
         # Title Label
         frame = tk.Frame(master)
         frame.pack(side=BOTTOM)
@@ -849,6 +1026,11 @@ class AmiGui(tk.Frame):
 
 
     def read_entry_names(self, dictionary_file):
+        """
+
+        :param dictionary_file: 
+
+        """
 #        print(dictionary_file)
         assert (os.path.exists(dictionary_file))
         elementTree = ET.parse(dictionary_file)
@@ -859,6 +1041,11 @@ class AmiGui(tk.Frame):
         return names
 
     def make_quit(self, master):
+        """
+
+        :param master: 
+
+        """
 
         frame, title_var = Gutil.make_frame(master,
                                            title="",
@@ -872,6 +1059,11 @@ class AmiGui(tk.Frame):
         pass
 
     def make_dictionary_content_boxes_frame(self, master):
+        """
+
+        :param master: 
+
+        """
         self.dcb_frame, title_var = Gutil.make_frame(master,
 #                                                     title="select entries in dictionaries",
                                                      tooltip="dictionary content boxes will be added here",
@@ -880,9 +1072,21 @@ class AmiGui(tk.Frame):
         return self.dcb_frame
 
     def query_wikidata(self, text):
+        """
+
+        :param text: 
+
+        """
+        print("launch wikidata browser")
         wikidata_browser = WikidataBrowser(self, text)
 
+
     def create_wikidata_query_url(self, text):
+        """
+
+        :param text: 
+
+        """
         BASE_URL = "https://www.wikidata.org/w/index.php?search="
         text = text.strip()
         text = text.replace(" ", "+")
@@ -893,6 +1097,7 @@ class AmiGui(tk.Frame):
 """unused"""
 
 def print_console():
+    """ """
     print(console.get("1.0", "end-1c"))
     root.after(1000, print_console)
 

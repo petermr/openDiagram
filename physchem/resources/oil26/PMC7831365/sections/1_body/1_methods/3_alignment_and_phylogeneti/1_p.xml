@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The 116 mammalian 
+ <italic>ACPT</italic> sequences were aligned based on their amino acid translations using online PRANK (
+ <uri xlink:href="https://www.ebi.ac.uk/goldman-srv/webprank/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ebi.ac.uk/goldman-srv/webprank/</uri>), and then deleted the gaps and non-homologous regions by using GBLOCK, then we corrected the multiple sequences alignment (MSA) in MEGA 7 (
+ <xref rid="ref-18" ref-type="bibr">Kumar, Stecher &amp; Tamura, 2016</xref>) by eye.
+</p>

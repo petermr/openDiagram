@@ -1,0 +1,5 @@
+0: A gene tree was reconstructed by Mrbayes 3.2 ( Ronquist et al., 2012) with a general time reversible (GTR) substitution model and rate heterogeneity modeled with a Gamma distribution, as conducted by MrModeltest version 2 using the Akaike information criterion (AIC) ( Nylander, 2004).
+1: In bayesian analysis, four simultaneous runs with four chains each were run for two million generations, sampling every 1,000 trees.
+2: The first 25% of these trees were discarded as burn-in when computing the consensus tree.
+3: Tracer v1.5 software was used for checking convergence among chains in Bayesian analysis.
+4: When the ESS value is higher than 200, and the average standard deviation of spilt frequencies is lower than 0.01, we think it reach convergence level.

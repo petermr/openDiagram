@@ -42,6 +42,26 @@
     "FILE": "*contrib-group",
     "SUFFIX": "xml"
   },
+    "conclusion": {
+    "_DESC": "conclusion (might overlap with discussion)",
+    "PROJ": "_REQD",
+    "TREE": "*",
+    "SECTS": "**",
+    "SUBSECT": "*conclusion*",
+    "SUBSUB": "**",
+	"FILE": "*p",
+    "SUFFIX": "xml"
+  },
+    "discussion": {
+    "_DESC": "discussion",
+    "PROJ": "_REQD",
+    "TREE": "*",
+    "SECTS": "**",
+    "SUBSECT": "*discussion*",
+    "SUBSUB": "**",
+	"FILE": "*p",
+    "SUFFIX": "xml"
+  },
   "ethics": {
     "_DESC": "ethics statements; often in methods but found elsewhere",
     "PROJ": "_REQD",
@@ -72,7 +92,6 @@
     "FILE": "_REQD",
     "SUFFIX": "xml"
   },
-  
   "introduction": {
     "_DESC": "introduction or background; looks for these words anywhere in file titles",
     "PROJ": "_REQD",
@@ -95,8 +114,7 @@
     "SUBSUB": "*journal-meta",
     "FILE": "*journal-title-group",
     "SUFFIX": "xml"
-  },  
-  
+  },
   "keyword": {
     "_DESC": "publisher or author keywords",
     "PROJ": "_REQD",
@@ -160,7 +178,6 @@
     "FILE": "*publisher",
     "SUFFIX": "xml"
   },
-    
   "reference": {
     "_DESC": "references often called citations; semi-structured or structured",
     "PROJ": "_REQD",
@@ -185,7 +202,7 @@
 	"FILE": "*p",
     "SUFFIX": "xml"
   },
-  "results": {
+  "search_results": {
     "_DESC": "result of AMI search (search|word) * (result|empty); ami search should have been run (will update for pyamisearch)",
     "PROJ": "_REQD",
     "TREE": "*",

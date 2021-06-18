@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fn-group content-type="other">
+ <title>Data Availability</title>
+ <fn id="addinfo-1">
+  <p>The following information was supplied regarding data availability:</p>
+  <p>This work used publicly available data. Sequences are available at the NCBI database (
+   <uri xlink:href="https://www.ncbi.nlm.nih.gov/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.ncbi.nlm.nih.gov/</uri>), ENSEMBL (
+   <uri xlink:href="http://www.ensembl.org/index.html?redirect=no" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.ensembl.org/index.html?redirect=no</uri>), and OrthoMaM v10b (
+   <uri xlink:href="http://orthomam1.mbb.univ-montp2.fr:8080/OrthoMaM_v10b5/" xmlns:xlink="http://www.w3.org/1999/xlink">http://orthomam1.mbb.univ-montp2.fr:8080/OrthoMaM_v10b5/</uri>). Accession numbers are available in the 
+   <xref ref-type="supplementary-material" rid="supplemental-information">Supplemental Files</xref>.
+  </p>
+  <p>The topological species tree is based on the OrthoMaM database and previous studies (
+   <xref rid="ref-43" ref-type="bibr">Celine et al., 2019</xref>; 
+   <xref rid="ref-44" ref-type="bibr">Waddell, Kishino &amp; Ota, 2001</xref>; 
+   <xref rid="ref-45" ref-type="bibr">Sergey et al., 2007</xref>; 
+   <xref rid="ref-46" ref-type="bibr">Zhou et al., 2012</xref>; 
+   <xref rid="ref-47" ref-type="bibr">Gatesy et al., 2013</xref>; 
+   <xref rid="ref-48" ref-type="bibr">Kuntner, May-Collado &amp; Agnarsson, 2011</xref>).
+  </p>
+  <p>Data that we generated during analysis appear in the Results section and in the 
+   <xref ref-type="supplementary-material" rid="supplemental-information">Supplemental Files</xref>.
+  </p>
+ </fn>
+</fn-group>

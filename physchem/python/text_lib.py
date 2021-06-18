@@ -67,8 +67,9 @@ class ProjectCorpus:
             section = AmiSection()
             section.read_file_get_text_filtered_words(file)
             c = Counter(TextUtil.get_section_with_words(file).words)
-            print(__cls__, file.split("/")[-2:-1], c.most_common(20))
-        wordz = TextUtil.get_aggregate_words_from_files(filez)
+#            print("most common", file.split("/")[-2:-1], c.most_common(20))
+        wordz = TextUtil.get_aggregate_words_from_files(self.files)
+        print(wordz)
         cc = Counter(wordz)
         self.words = wordz
         print("Common", cc.most_common(50))
@@ -87,7 +88,7 @@ class ProjectCorpus:
         project.read_analyze_child_documents()
         print("end test")
 
-    """
+
     @staticmethod
     def test_oil():
         print("start test", OIL186)
@@ -95,7 +96,7 @@ class ProjectCorpus:
         project = ProjectCorpus(OIL186)
         project.read_analyze_child_documents()
         print("end test")
-    """
+
 
     def __str__(self):
         return " ".join(map(str, self.sentences))
@@ -153,6 +154,7 @@ class Document:
         return ami_section.words
 
 
+
 class AmiSection:
     """the xml sub-document with text
     Currently either <title> or <p>
@@ -160,6 +162,7 @@ class AmiSection:
 ≈    Will often get annotated with sentence markers
     """
 
+    SECTION_LIST = None
     XML_SUFF = ".xml"
     TXT_SUFF = ".txt"
 
@@ -192,7 +195,7 @@ class AmiSection:
     TITLE       = "TITLE"
     WORD        = "WORD"
 
-    SECTION_LIST = [
+    SECTION_LIST0 = [
         ABSTRACT,
         ACKNOW,
         AFFIL,
@@ -221,6 +224,7 @@ class AmiSection:
         TITLE,
         WORD,
     ]
+
     def __init__(self):
         self.words = []
         self.xml_file = None
@@ -231,6 +235,20 @@ class AmiSection:
         self.sentences = None
         self.name = None
 #        self.read_section()
+
+    @staticmethod
+    def read_section_dict(file):
+        """reads the dictionary of sections"""
+        from file_lib import FileLib
+        import pathlib
+        dictf = os.path.join(pathlib.Path(__file__).parent, file)
+        dikt = FileLib.read_pydictionary(dictf)
+        print(dikt.keys())
+        return dikt
+
+    # #    SECTION_DICT1 = AmiSection.read_section_dict()
+    # SECTION_LIST = sorted(AmiSection.read_section_dict("section_templates.json").keys())
+    # print("SEC", SECTION_LIST)
 
     def add_name(self, file):
         """creates name (within a sections/) dir from file
@@ -358,6 +376,10 @@ class AmiSection:
 #            print("w", sentence, len(words))
             self.words.extend(words)
         return self.words
+
+AmiSection.SECTION_LIST1 = AmiSection.read_section_dict("section_templates.json")
+AmiSection.SECTION_LIST = AmiSection.SECTION_LIST1
+print("SECTION LIST", AmiSection.SECTION_LIST1)
 
 
 class Sentence:

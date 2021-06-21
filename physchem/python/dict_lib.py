@@ -38,8 +38,6 @@ WIKIDATA_SITE = "https://www.wikidata.org/wiki/"
 WIKIPEDIA_PAGE = "wikipediaPage"
 # elements
 
-
-
 class SearchDictionary:
     """wrapper for an ami dictionary including search flags
 

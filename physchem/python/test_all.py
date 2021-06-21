@@ -1,6 +1,10 @@
 """tests in a single file
 This is until I or someone else can figure out relative imports
 """
+class ConfigTests:
+    from util import AmiConfig
+    def tests():
+        AmiConfig.test_dicts()
 
 # FILE
 class TextTests:
@@ -167,11 +171,21 @@ b'<?xml version="1.0"?>\n<foo>A</foo>\n'
 
 if __name__ == "__main__":
     print(f"running {__name__} main")
-    FileTests.tests()
-    XmlTests.test_replace_nodes_with_text()
-    XmlTests.test_replace_nodenames()
-    XmlTests.test_jats2html()
-    XmlTests.test_xslt_italic()
-    XmlTests.test_xslt_copy()
 
-    WikimediaTests.test_sparql_wrapper()
+    config_test = False
+    file_test = True
+    wiki_test = False
+    xml_test = False
+
+    if config_test:
+        ConfigTests.tests()
+    if file_test:
+        FileTests.tests()
+    if wiki_test:
+        WikimediaTests.test_sparql_wrapper()
+    if xml_test:
+        XmlTests.test_replace_nodes_with_text()
+        XmlTests.test_replace_nodenames()
+        XmlTests.test_jats2html()
+        XmlTests.test_xslt_italic()
+        XmlTests.test_xslt_copy()

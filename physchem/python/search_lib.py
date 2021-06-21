@@ -7,7 +7,7 @@ from collections import Counter
 import re
 import json
 from gutil import Gutil
-from dictionary import AmiDictionaries, SearchDictionary
+from dict_lib import AmiDictionaries, SearchDictionary
 from projects import AmiProjects
 import glob
 import os

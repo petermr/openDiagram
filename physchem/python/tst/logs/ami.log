@@ -1,0 +1,181 @@
+11:33:03.811 INFO  org.contentmine.ami.tools.AMI - args: [-p, /Users/pm286/temp, pdfbox]
+11:33:03.842 DEBUG org.contentmine.ami.tools.AMI - Specified verbosity=0, this translates to level=WARN
+11:33:03.843 DEBUG org.contentmine.ami.tools.AMI - Reconfiguring Console appender with WARN
+11:33:03.843 INFO  org.contentmine.ami.tools.AMI - (The console will show WARN level messages)
+11:33:03.843 INFO  org.contentmine.ami.tools.AMI - (Logs will also be printed to /Users/pm286/projects/openDiagram/physchem/python/test/logs/ami.log)
+11:33:04.016 DEBUG org.contentmine.ami.tools.AMI - Version: ami 2020.08.09_09.54-NEXT-SNAPSHOT
+(jar:file:/Users/pm286/workspace/cmdev/ami3/target/appassembler/repo/ami3-2020.08.09_09.54-NEXT-SNAPSHOT.jar)
+JVM: 14.0.1 (Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 14.0.1+7)
+OS: Mac OS X 10.16 x86_64
+
+11:33:04.017 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+11:33:04.017 WARN  org.contentmine.ami.tools.AbstractAMITool - Generic values (AMIPDFTool)
+11:33:04.018 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+11:33:04.130 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename      null
+11:33:04.130 INFO  org.contentmine.ami.tools.AbstractAMITool - input basename list null
+11:33:04.131 INFO  org.contentmine.ami.tools.AbstractAMITool - cproject            /Users/pm286/temp
+11:33:04.131 INFO  org.contentmine.ami.tools.AbstractAMITool - ctree               
+11:33:04.131 INFO  org.contentmine.ami.tools.AbstractAMITool - cTreeList           69 trees [/Users/pm286/temp/17may, /Users/pm286/temp/PMC653
+11:33:04.131 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeBase         {}
+11:33:04.131 INFO  org.contentmine.ami.tools.AbstractAMITool - excludeTrees        {}
+11:33:04.132 INFO  org.contentmine.ami.tools.AbstractAMITool - forceMake           false
+11:33:04.132 INFO  org.contentmine.ami.tools.AbstractAMITool - includeBase         {}
+11:33:04.132 INFO  org.contentmine.ami.tools.AbstractAMITool - includeTrees        null
+11:33:04.132 INFO  org.contentmine.ami.tools.AbstractAMITool - log4j               {}
+11:33:04.132 INFO  org.contentmine.ami.tools.AbstractAMITool - verbose             0
+11:33:04.132 WARN  org.contentmine.ami.tools.AbstractAMITool - 
+11:33:04.132 WARN  org.contentmine.ami.tools.AbstractAMITool - Specific values (AMIPDFTool)
+11:33:04.132 WARN  org.contentmine.ami.tools.AbstractAMITool - ================================
+11:33:04.133 INFO  org.contentmine.ami.tools.AbstractAMITool - Command line options for 'ami pdfbox':
+11:33:04.134 INFO  org.contentmine.ami.tools.AbstractAMITool - --debug             : d AMI_BRIEF
+11:33:04.134 INFO  org.contentmine.ami.tools.AbstractAMITool - --imagedir          : d pdfimages/
+11:33:04.135 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxpages          : d         5
+11:33:04.135 INFO  org.contentmine.ami.tools.AbstractAMITool - --maxprimitives     : d      5000
+11:33:04.135 INFO  org.contentmine.ami.tools.AbstractAMITool - --minimagesize      : d   (10,10)
+11:33:04.135 INFO  org.contentmine.ami.tools.AbstractAMITool - --pages             : d      null
+11:33:04.135 INFO  org.contentmine.ami.tools.AbstractAMITool - --parser            : d       two
+11:33:04.135 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-pdfimages      : d      true
+11:33:04.136 INFO  org.contentmine.ami.tools.AbstractAMITool - --pdf2txt           : d     false
+11:33:04.136 INFO  org.contentmine.ami.tools.AbstractAMITool - --svgdir            : d      svg/
+11:33:04.136 INFO  org.contentmine.ami.tools.AbstractAMITool - --no-svgpages       : d      true
+11:33:04.136 INFO  org.contentmine.ami.tools.AbstractAMITool - --tidysvg           : d [concat, spaces]
+11:33:04.137 INFO  org.contentmine.ami.tools.AbstractAMITool - --help              : d     false
+11:33:04.137 INFO  org.contentmine.ami.tools.AbstractAMITool - --version           : d     false
+11:33:04.137 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: 17may
+11:33:04.137 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: 17may
+11:33:04.146 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC6535020
+11:33:04.146 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC6535020
+11:33:04.146 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7261493
+11:33:04.146 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7261493
+11:33:04.146 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7445177
+11:33:04.146 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7445177
+11:33:04.147 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7504465
+11:33:04.147 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7504465
+11:33:04.147 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7558882
+11:33:04.147 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7558882
+11:33:04.147 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7570891
+11:33:04.147 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7570891
+11:33:04.148 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7663769
+11:33:04.148 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7663769
+11:33:04.148 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7693565
+11:33:04.148 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7693565
+11:33:04.148 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7722924
+11:33:04.148 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7722924
+11:33:04.149 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7738488
+11:33:04.149 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7738488
+11:33:04.149 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7803343
+11:33:04.149 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7803343
+11:33:04.149 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7963036
+11:33:04.149 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7963036
+11:33:04.150 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7967184
+11:33:04.150 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7967184
+11:33:04.150 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7971311
+11:33:04.150 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7971311
+11:33:04.150 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7988522
+11:33:04.150 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7988522
+11:33:04.151 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7989058
+11:33:04.151 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7989058
+11:33:04.151 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7995828
+11:33:04.151 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7995828
+11:33:04.151 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7998435
+11:33:04.152 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7998435
+11:33:04.152 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC7998871
+11:33:04.152 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC7998871
+11:33:04.152 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8002346
+11:33:04.152 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8002346
+11:33:04.153 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8023249
+11:33:04.153 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8023249
+11:33:04.153 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8024677
+11:33:04.153 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8024677
+11:33:04.153 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8025888
+11:33:04.153 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8025888
+11:33:04.154 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8037345
+11:33:04.154 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8037345
+11:33:04.154 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8041884
+11:33:04.154 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8041884
+11:33:04.154 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8046235
+11:33:04.155 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8046235
+11:33:04.155 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8046257
+11:33:04.155 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8046257
+11:33:04.155 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8047001
+11:33:04.155 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8047001
+11:33:04.155 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8047888
+11:33:04.156 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8047888
+11:33:04.156 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8047905
+11:33:04.156 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8047905
+11:33:04.156 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8059627
+11:33:04.156 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8059627
+11:33:04.156 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8064318
+11:33:04.157 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8064318
+11:33:04.157 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8070007
+11:33:04.157 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8070007
+11:33:04.157 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8070100
+11:33:04.157 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8070100
+11:33:04.157 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8070269
+11:33:04.157 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8070269
+11:33:04.158 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8071169
+11:33:04.158 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8071169
+11:33:04.158 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8074309
+11:33:04.158 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8074309
+11:33:04.158 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8074375
+11:33:04.158 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8074375
+11:33:04.159 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8078166
+11:33:04.159 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8078166
+11:33:04.159 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8079265
+11:33:04.159 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8079265
+11:33:04.159 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8110560
+11:33:04.159 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8110560
+11:33:04.159 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8111029
+11:33:04.160 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8111029
+11:33:04.160 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8111255
+11:33:04.160 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8111255
+11:33:04.160 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8113276
+11:33:04.160 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8113276
+11:33:04.161 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8117783
+11:33:04.161 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8117783
+11:33:04.161 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8118396
+11:33:04.161 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8118396
+11:33:04.161 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8120800
+11:33:04.162 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8120800
+11:33:04.162 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8121419
+11:33:04.162 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8121419
+11:33:04.162 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8122685
+11:33:04.162 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8122685
+11:33:04.163 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8123045
+11:33:04.163 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8123045
+11:33:04.163 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8123395
+11:33:04.163 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8123395
+11:33:04.163 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8123769
+11:33:04.163 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8123769
+11:33:04.164 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8131553
+11:33:04.164 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8131553
+11:33:04.164 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8131781
+11:33:04.164 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8131781
+11:33:04.164 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8136277
+11:33:04.165 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8136277
+11:33:04.165 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8136491
+11:33:04.165 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8136491
+11:33:04.165 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8139472
+11:33:04.165 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8139472
+11:33:04.165 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8145291
+11:33:04.166 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8145291
+11:33:04.166 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8150316
+11:33:04.166 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8150316
+11:33:04.166 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8151036
+11:33:04.166 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8151036
+11:33:04.166 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8152098
+11:33:04.166 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8152098
+11:33:04.167 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8161161
+11:33:04.167 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8161161
+11:33:04.167 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8161263
+11:33:04.167 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8161263
+11:33:04.167 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8169684
+11:33:04.167 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8169684
+11:33:04.168 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8171297
+11:33:04.168 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8171297
+11:33:04.168 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: PMC8183328
+11:33:04.168 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: PMC8183328
+11:33:04.168 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: logs
+11:33:04.168 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: logs
+11:33:04.169 WARN  org.contentmine.ami.tools.AbstractAMITool - AMIPDFTool cTree: ocimum
+11:33:04.169 WARN  org.contentmine.ami.tools.AMIPDFTool - cTree: ocimum

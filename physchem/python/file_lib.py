@@ -214,17 +214,54 @@ class BraceGlobber:
 
 class FileLib:
 
-    @staticmethod
-    def force_mkdir(outdir):
-        if not os.path.exists(outdir):
-            os.mkdir(outdir)
+    @classmethod
+    def force_mkdir(cls, dirx):
+        """ensure dirx exists
+
+        :dirx: directory
+        """
+        if not os.path.exists(dirx):
+            os.mkdir(dirx)
+
+    @classmethod
+    def force_mkparent(cls, file):
+        """ensure parent directory exists
+
+        :file: whose parent directory is to be created if absent
+        """
+        if file is not None:
+            cls.force_mkdir(cls.get_parent_dir(file))
+
+    @classmethod
+    def force_write(cls, file, data, overwrite=True):
+        """:write file, creating dirtectory if necessary
+        :file: file to write to
+        :data: str data to write
+        :overwrite: force write iuf file exists
+
+        may throw exception from write
+        """
+        import file_lib
+        if file is not None:
+            if os.path.exists(file) and not overwrite:
+                logging.warning(f"not overwriting existsnt file {file}")
+            else:
+                file_lib.FileLib.force_mkparent(file)
+                with open(file, "w", encoding="utf-8") as f:
+                    f.write(data)
 
     @staticmethod
     def create_absolute_name(file):
         """create absolute name for a file"""
-        file_dir = pathlib.PurePath(__file__).parent
-        absolute_file = os.path.join(os.path.join(file_dir, file))
+        absolute_file = None
+        if file is not None:
+            file_dir = FileLib.get_parent_dir(__file__)
+            absolute_file = os.path.join(os.path.join(file_dir, file))
         return absolute_file
+
+    @classmethod
+    def get_parent_dir(cls, file):
+        return None if file is None else pathlib.PurePath(file).parent
 
     @classmethod
     def read_pydictionary(cls, file):

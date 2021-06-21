@@ -71,13 +71,13 @@ class AmiGui(tk.Frame):
         self.main_display_frame = None
         self.dashboard = None
         self.label = None
+        self.show_html_frame = False
+        self.dictionary_content_notebook = None
 
         self.pack()
         self.current_ami_projects = AmiProjects()
         self.create_all_widgets(root)
 #        self.menu_stuff()
-        self.show_html_frame = False
-        self.dictionary_content_notebook = None
 
     def create_all_widgets(self, master):
         """ Main entry
@@ -147,7 +147,7 @@ class AmiGui(tk.Frame):
         self.label_display_var = tk.StringVar(value="label text")
         self.label_display = tk.Label(self.main_display_frame, textvariable=self.label_display_var)
 
-        image_path = FileLib.create_absolute_name(os.path.join("test", "purple_ocimum_basilicum.png"))
+        image_path = FileLib.create_absolute_name(os.path.join("tst", "purple_ocimum_basilicum.png"))
         self.main_image_display = self.create_image_label(image_path)
         self.main_image_display.pack()
 

@@ -2,9 +2,9 @@ def physchem_image_dict():
     import os
     HOME = os.path.expanduser("~")
     JUPYTER = os.path.join(HOME, "workspace", "jupyter")
-    IMAGES = os.path.join(JUPYTER, "physchem", "../images")
-    PHYSCHEM_LIION = os.path.join(JUPYTER, "physchem", "../liion")
-    PHYSCHEM_IMAGES = os.path.join(JUPYTER, "physchem", "../images")
+    IMAGES = os.path.join(JUPYTER, "physchem", "../../images")
+    PHYSCHEM_LIION = os.path.join(JUPYTER, "physchem", "../../liion")
+    PHYSCHEM_IMAGES = os.path.join(JUPYTER, "physchem", "../../images")
     imgdict = {"RED_BLACK" : os.path.join(PHYSCHEM_IMAGES, "red_black_cv.png"),
             "CAPACITY" : os.path.join(PHYSCHEM_IMAGES, "capacitycycle.png"),
             "GREEN" : os.path.join(PHYSCHEM_LIION, 'PMC7077619/pdfimages/image.8.3.81_523.164_342/raw.png'),

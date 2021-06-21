@@ -87,7 +87,6 @@ class TrieNode(object):
 
 import urllib.request
 
-
 class AmiConfig:
 
     PYAMI_INI = "pyami.ini"
@@ -231,12 +230,13 @@ class AmiConfig:
 
     @staticmethod
     def test_dicts():
+        """ finds and prints dictionaries"""
         ami_config = AmiConfig()
         dicts_dirs = ami_config.traverse_dictionary_dirs()
         print("dicts", dicts_dirs)
 
-    @staticmethod
-    def test2_debug():
+    @classmethod
+    def test2_debug(cls):
         ami_config = AmiConfig()
         for sect_name in ami_config.parser.section_types():
             print("\n>>>>", sect_name, "\n>>>>>")
@@ -275,6 +275,11 @@ class AmiConfig:
         ini_file = dict_section[ini_key] if ini_key in dict_section else None
         return ini_file
 
+    @classmethod
+    def tests(cls):
+        cls.test()
+        cls.test_dicts()
+        cls.test2_debug()
 
 class Util:
 

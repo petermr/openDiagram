@@ -1,27 +1,40 @@
 import logging
+import sys
+import os
+from file_lib import FileLib
 
 
 class PyAMI:
+    PARENT = "__parent__" # indicates parent directory of an INI or similar file
+    NS = "${ns}"
+
     def __init__(self):
         self.args = {}
         self.logger = logging.getLogger()
+        self.symbols = None
+        self.config = None
+        self.current_file = None
+        self.symbols = None
+        self.fileset = None
+        self.check_urls = False
+
 
     def create_arg_parser(self):
+        """ creates adds the arguments for pyami commandline
+        """
         import argparse
         parser = argparse.ArgumentParser(description='Search sections with dictionaries and patterns')
-        """
-        """
-        parser.add_argument('-d', '--dict', nargs="*",  # default=[AmiDictionaries.COUNTRY],
+        parser.add_argument('-d', '--dict', nargs="+",
                             help='dictionaries to ami-search with, _help gives list')
-        parser.add_argument('-g', '--glob', nargs="*",
+        parser.add_argument('-g', '--glob', nargs="+",
                             help='glob files; python syntax (* and ** wildcards supported); '
                                  'include alternatives in {...,...}. ')
-        parser.add_argument('-s', '--sect', nargs="*",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
+        parser.add_argument('-s', '--sect', nargs="+",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
                             help='sections to search; _help gives all(?)')
         parser.add_argument('-p', '--proj', nargs="*",
                             help='projects to search; _help will give list')
-        parser.add_argument('-c', '--config', nargs="*", default="pyami.ini,~/pyami/config.ini,D:/foo/pyami.ini",
-                            help='config file(s) (NYI); _help will give list')
+        parser.add_argument('-c', '--config', nargs="*", default="${PYAMI}",
+                            help='list of config file(s) or environment vars')
         parser.add_argument('--patt', nargs="+",
                             help='patterns to search with (NYI); regex may need quoting')
         parser.add_argument('--demo', nargs="*",
@@ -42,15 +55,29 @@ class PyAMI:
                             help='debugging commands , numbers, (not formalised)')
         return parser
 
-    def run_args(self, arglist=None):
-        import sys
+    def run_commands(self, arglist=None):
 
+        self.setup_environment()
+
+        self.parse_and_run_args(arglist)
+        self.print_symbols()
+
+    def print_symbols(self):
+        print("symbols>>")
+        for name in self.symbols:
+            print(f"{name}:{self.symbols[name]}")
+
+    def setup_environment(self):
+        for key in os.environ.keys():
+            logging.debug(f"{key}: {os.environ[key]}")
+
+    def parse_and_run_args(self, arglist):
         if arglist is None:
             arglist = []
         parser = self.create_arg_parser()
-            # https://stackoverflow.com/questions/31090479/python-argparse-pass-values-without-command-line
+        # https://stackoverflow.com/questions/31090479/python-argparse-pass-values-without-command-line
         self.args = PyAMI.extract_parsed_arg_tuples(arglist, parser)
-
+        logging.info("ARGS: "+str(self.args))
         self.set_loglevel_from_args()
         self.process_config_files()
         if self.args["proj"] and (self.args["sect"] or self.args["glob"]):
@@ -92,25 +119,29 @@ class PyAMI:
     def process_config_files(self):
         config_files_str = self.args["config"]
         config_files = [] if config_files_str is None else config_files_str.split(",")
+        self.symbols = {}
+        self.fileset = set()
         for config_file in config_files:
             self.process_config_file(config_file)
 
     def process_config_file(self, config_file):
         import os
         from file_lib import FileLib
-        if "/" not in config_file:
+        if config_file.startswith("${") and config_file.endswith("}"):  # python config file
+            file = os.environ[config_file[2:-1]]
+        elif "/" not in config_file:
             file = os.path.join(FileLib.get_parent_dir(__file__), config_file)
         elif config_file.startswith("~"): # relative to home
             home = os.path.expanduser("~")
             file = home + config_file[len("~"):]
-        elif config_file.startswith("/"): # absolute
+        elif config_file.startswith("/"):  # absolute
             file = config_file
         else:
             file = None
 
         if file is not None:
             if os.path.exists(file):
-                logging.info("reading "+file)
+                logging.debug("reading "+file)
                 self.apply_config_file(file)
             else:
                 logging.warning(f"cannot find config file {file}")
@@ -121,58 +152,82 @@ class PyAMI:
         """
         import configparser
         import os
-        from file_lib import FileLib
 
-        symbols = {}
+        if file in self.fileset: # avoid cycles
+            logging.debug(f"{file} already in {self.fileset}")
+            return;
+        else:
+            self.fileset.add(file)
 # https://stackoverflow.com/questions/54351740/how-can-i-use-f-string-with-a-variable-not-with-a-string-literal
 
-        config = configparser.ConfigParser()
-        config = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
-        logging.warning(f"\nreading {file}\n")
-        files_read = config.read(file)
-        sections = config.sections()
+        self.config = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
+        logging.debug(f"\nreading {file}\n")
+        files_read = self.config.read(file)
+        sections = self.config.sections()
         for section in sections:
-            print ("============"+section+"============")
-            for name in config[section].keys():
-                if name in symbols:
-                    logging.error(f"{name} already defined, skipped")
-                else:
-                    raw_value = config[section][name]
-                    # make substitutions
-                    # we replace __file__ with parent dir of dictionary
-                    parent_dir = str(FileLib.get_parent_dir(file))
-                    if raw_value.startswith("~"):
-                        new_value = os.path.expanduser("~")+raw_value[len("~"):]
-                    # elif raw_value == "__file__":
-                    #     new_value = parent_dir
-                    elif raw_value.startswith("__file__"):
-                        #  the prefix __file__ has been added by the parser
-                        new_value = parent_dir + raw_value[len("__file__"):]
-                    else:
-                        new_value = raw_value
+            self.expand_section_into_symbols_dict(file, section)
 
-                    symbols[name] = new_value
+        self.check_targets_exist(file)
+        self.recurse_ini_files()
 
-
-        # print(f"\nCONFIG {symbols}\n")
-        for item in symbols.items():
+    def check_targets_exist(self, file):
+        for item in self.symbols.items():
             val = item[1];
-            if os.path.exists(val):
-                pass
-            elif val.startswith("http"):
-                import urllib.request
-                with urllib.request.urlopen('http://python.org/') as response:
-                    html = response.read()
+            if val.startswith("http"):
+                if self.check_urls:
+                    import urllib.request
+                    try:
+                        with urllib.request.urlopen(val) as response:
+                            html = response.read()
+                    except urllib.error.HTTPError as ex:
+                        print(f"Cannot read {val} as url {ex}")
+            elif "/" in val:  # assume slash means file or url
+                if not os.path.exists(val):  # all files
+                    logging.error(f"{val} in {file} does not exist as file")
             else:
-                print("non-existent: "+val+" in " + file)
+                print("non-existent: " + val + " in " + file)
 
-        self.recurse_ini_files(symbols)
+    def expand_section_into_symbols_dict(self, file, section):
+        print("============" + section + "============" + file)
+        for name in self.config[section].keys():
+            if name in self.symbols:
+                logging.debug(f"{name} already defined, skipped")
+            else:
+                raw_value = self.config[section][name]
+                # make substitutions
+                # we replace __file__ with parent dir of dictionary
+                parent_dir = str(FileLib.get_parent_dir(file))
+                if raw_value.startswith("~"):
+                    # home directory on all OS (?)
+                    new_value = os.path.expanduser("~") + raw_value[len("~"):]
+                elif raw_value.startswith(self.PARENT):
+                    #  the prefix __file__ may have been expanded by the parser
+                    new_value = parent_dir + raw_value[len(self.PARENT):]
+                elif raw_value.startswith("__file__"):
+                    print("__file__ is obsolete ", file)
+                else:
+                    new_value = raw_value
 
-    def recurse_ini_files(self, symbols):
-        for name in symbols.keys():
+                if name.startswith(self.NS):
+                    name = os.environ["LOGNAME"] + name[len(self.NS):]
+                    print("NAME", name)
+
+                self.symbols[name] = new_value
+
+        logging.debug(f"symbols for {file} {section}\n {self.symbols}")
+
+    def recurse_ini_files(self):
+        """follows links to all *_ini files and runs them recursively
+
+        does not check for cycles (yet)"""
+        keys = list(self.symbols.keys())
+        for name in keys:
             if name.endswith("_ini"):
-                file = symbols[name]
-                self.apply_config_file(file)
+                if name not in self.symbols:
+                    logging.error(f"PROCESSING {self.current_file} ; cannot find symbol: {name} in {self.symbols}")
+                else:
+                    file = self.symbols[name]
+                    self.apply_config_file(file)
 
 
 def main():
@@ -192,7 +247,7 @@ def test_glob(pyami):
     globstring = "--glob", f"{dir_}/{glob_}"
     output_dir = f"{dir_}/files"
     outfile = f"{output_dir}/xml_files.txt"
-    pyami.run_args([
+    pyami.run_commands([
                     "--glob", f"{dir_}/**/*.xml",
                     "--proj", projdir,
                     "--outfile", outfile

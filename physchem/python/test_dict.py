@@ -1,5 +1,6 @@
-from .dict_lib import SearchDictionary
+from dict_lib import SearchDictionary
 from lxml import etree as ET
+import os
 
 class SearchDictionaryTest:
     @classmethod
@@ -11,7 +12,7 @@ class SearchDictionaryTest:
     @classmethod
     def test_create_from_words(cls):
         from lxml import etree
-        from .wikimedia import WikidataPage
+        from wikimedia import WikidataPage
         import pprint
 
         words = ["limonene", "alpha-pinene", "lantana camara"]
@@ -28,7 +29,7 @@ class SearchDictionaryTest:
 
     @classmethod
     def test(cls):
-        from .constants import PHYSCHEM_RESOURCES
+        from constants import PHYSCHEM_RESOURCES
         PLANT = os.path.join(PHYSCHEM_RESOURCES, "plant")
         sparql_file = os.path.join(PLANT, "plant_part_sparql.xml")
         dictionary_file = os.path.join(PLANT, "eoplant_part.xml")
@@ -58,7 +59,7 @@ class SearchDictionaryTest:
         """
         """
 
-        from .constants import CEV_OPEN_DICT_DIR
+        from constants import CEV_OPEN_DICT_DIR
         import glob
         from shutil import copyfile
 
@@ -98,7 +99,7 @@ class SearchDictionaryTest:
         """
         """
 
-        from .constants import CEV_OPEN_DICT_DIR
+        from constants import CEV_OPEN_DICT_DIR
         import glob
         from shutil import copyfile
 
@@ -258,7 +259,7 @@ class SearchDictionaryTest:
 
         PLANT_DIR = os.path.join(CEV_OPEN_DICT_DIR, "eoPlant")
         assert (os.path.exists(PLANT_DIR))
-        dictionary_file = os.path.join(PLANT_DIR, "eoPlant.xml")
+        dictionary_file = os.path.join(PLANT_DIR, "eo_plant.xml")
         assert (os.path.exists(dictionary_file))
         PLANT_SPARQL_DIR = os.path.join(PLANT_DIR, "sparql_output")
         assert (os.path.exists(PLANT_SPARQL_DIR))

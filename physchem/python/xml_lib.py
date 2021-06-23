@@ -234,6 +234,16 @@ class XmlLib:
         return tree
 
     @classmethod
+    def remove_all_tags(cls, xml_string):
+        """remove all tags from text
+
+        :xml_string: string to be flattened
+        :returns: flattened string
+        """
+        tree = etree.fromstring(xml_string)
+        return etree.tostring(tree, encoding='utf8', method='text').decode("utf-8")
+
+    @classmethod
     def xslt_transform(cls, data, xslt_file):
         xslt_root = etree.parse(xslt_file)
         transform = etree.XSLT(xslt_root)
@@ -434,10 +444,14 @@ def main():
 #    XmlLib().test() # don't know what parse_file does...
 
 #    test_data_table()
+#    test_xml()
 
 #    web = Web()
     Web.tkinterweb_demo()
 
+def test_xml():
+    xml_string = "<a>foo <b>and</b> with <d/> bar</a>"
+    print(XmlLib.remove_all_tags(xml_string))
 
 def test_data_table():
     import pprint

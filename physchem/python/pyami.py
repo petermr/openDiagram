@@ -266,3 +266,6 @@ else:
     main()
     pass
 
+"""
+pyami --proj oil26 --section abstract method --transform xml2txt --dict invasive compound my_terms --phrases tool=rake;count=100 --outfile results/
+"""

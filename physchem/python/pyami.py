@@ -2,57 +2,88 @@ import logging
 import sys
 import os
 from file_lib import FileLib
+from xml_lib import XmlLib
 
 
 class PyAMI:
-    PARENT = "__parent__" # indicates parent directory of an INI or similar file
     NS = "${ns}"
+    OUTFILE = "outfile"
+    PARENT = "__parent__" # indicates parent directory of an INI or similar file
+
+    # flags
+    APPLY         = "apply"
+    CHECK_URLS    = "check_urls"
+    COMBINE       = "combine"
+    PRINT_SYMBOLS = "print_symbols"
+    RECURSE       = "recurse"
+    # methods
+    REMOVE_TAGS = "remove_tags"
+    CONCAT_STR = "concat_str"
 
     def __init__(self):
-        self.args = {}
+        self.args = {} # args captured in here as name/value without "-" or "--"
         self.logger = logging.getLogger()
-        self.symbols = None
+        self.apply = []
+        self.combine = None
         self.config = None
         self.current_file = None
         self.symbols = None
         self.fileset = None
-        self.check_urls = False
+        self.file_dict = {}
+        self.func_dict = {}
 
+        self.set_flags()
+        self.set_funcs()
+
+    def set_flags(self):
+        self.flag_dict = {}
+        self.flag_dict[self.APPLY] = None
+        self.flag_dict[self.CHECK_URLS] = None
+        self.flag_dict[self.COMBINE] = None
+        self.flag_dict[self.PRINT_SYMBOLS] = None
+        self.flag_dict[self.RECURSE] = True
+
+    def set_funcs(self):
+        self.func_dict[self.REMOVE_TAGS] = XmlLib.remove_all_tags
 
     def create_arg_parser(self):
         """ creates adds the arguments for pyami commandline
         """
         import argparse
         parser = argparse.ArgumentParser(description='Search sections with dictionaries and patterns')
+        parser.add_argument('--apply', nargs="+",
+                            help='list of sequential transformations to apply to pipeline')
+        parser.add_argument('--combine', nargs=1,
+                            help='(NYI) operation to combine files into final object')
+        parser.add_argument('-c', '--config', nargs="*", default="${PYAMI}",
+                            help='list of config file(s) or environment vars')
+        parser.add_argument('--debug', nargs="+",
+                            help='debugging commands , numbers, (not formalised)')
+        parser.add_argument('--demo', nargs="*",
+                            help='simple demos (NYI). empty gives list. May need downloading corpora')
         parser.add_argument('-d', '--dict', nargs="+",
                             help='dictionaries to ami-search with, _help gives list')
         parser.add_argument('-g', '--glob', nargs="+",
                             help='glob files; python syntax (* and ** wildcards supported); '
                                  'include alternatives in {...,...}. ')
-        parser.add_argument('-s', '--sect', nargs="+",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
-                            help='sections to search; _help gives all(?)')
-        parser.add_argument('-p', '--proj', nargs="*",
-                            help='projects to search; _help will give list')
-        parser.add_argument('-c', '--config', nargs="*", default="${PYAMI}",
-                            help='list of config file(s) or environment vars')
-        parser.add_argument('--patt', nargs="+",
-                            help='patterns to search with (NYI); regex may need quoting')
-        parser.add_argument('--demo', nargs="*",
-                            help='simple demos (NYI). empty gives list. May need downloading corpora')
-        parser.add_argument('-l', '--loglevel', default="info",
-                            help='log level (NYI)')
-        parser.add_argument('--plot', action="store_false",
-                            help='plot params (NYI)')
-        parser.add_argument('--nosearch', action="store_true",
-                            help='search (NYI)')
-        parser.add_argument('--maxbars', nargs="?", type=int, default=25,
-                            help='max bars on plot (NYI)')
-        parser.add_argument('--outfile', type=str,
-                            help='output file, normally 1. but may track multiple input dirs (NYI)')
         parser.add_argument('--languages', nargs="+", default=["en"],
                             help='languages (NYI)')
-        parser.add_argument('--debug', nargs="+",
-                            help='debugging commands , numbers, (not formalised)')
+        parser.add_argument('-l', '--loglevel', default="info",
+                            help='log level (NYI)')
+        parser.add_argument('--maxbars', nargs="?", type=int, default=25,
+                            help='max bars on plot (NYI)')
+        parser.add_argument('--nosearch', action="store_true",
+                            help='search (NYI)')
+        parser.add_argument('--outfile', type=str,
+                            help='output file, normally 1. but (NYI) may track multiple input dirs (NYI)')
+        parser.add_argument('--patt', nargs="+",
+                            help='patterns to search with (NYI); regex may need quoting')
+        parser.add_argument('-p', '--proj', nargs="*",
+                            help='projects to search; _help will give list')
+        parser.add_argument('-s', '--sect', nargs="+",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
+                            help='sections to search; _help gives all(?)')
+        parser.add_argument('--plot', action="store_false",
+                            help='plot params (NYI)')
         return parser
 
     def run_commands(self, arglist=None):
@@ -60,7 +91,8 @@ class PyAMI:
         self.setup_environment()
 
         self.parse_and_run_args(arglist)
-        self.print_symbols()
+        if self.flagged(self.PRINT_SYMBOLS):
+            self.print_symbols()
 
     def print_symbols(self):
         print("symbols>>")
@@ -80,8 +112,10 @@ class PyAMI:
         logging.info("ARGS: "+str(self.args))
         self.set_loglevel_from_args()
         self.process_config_files()
+        #  workflow needs thinking about...
+
         if self.args["proj"] and (self.args["sect"] or self.args["glob"]):
-            self.make_files()
+            self.run_file_workflow()
 
     @classmethod
     def extract_parsed_arg_tuples(cls, arglist, parser):
@@ -102,7 +136,7 @@ class PyAMI:
             print("LEVEL", level)
             self.logger.setLevel(level)
 
-    def make_files(self):
+    def run_file_workflow(self):
         import glob
         import pathlib
         import file_lib
@@ -110,11 +144,57 @@ class PyAMI:
         if not self.args["proj"]:
             logging.error("glob requires proj")
         else:
+            glob_recurse=self.flagged(self.RECURSE)
             glob_ = self.args["glob"][0]
             logging.info(f"glob: {glob_}")
-            files = glob.glob(glob_)
-            self.outfile = self.args["outfile"]
-            file_lib.FileLib.force_write(self.outfile, str(files), overwrite=True)
+            self.file_dict = {file:None for file in glob.glob(glob_, recursive=glob_recurse)}
+            print(self.file_dict)
+        if self.APPLY in self.args:
+            self.read_file_content()
+            apply = self.args[self.APPLY][0]
+            print("apply", apply)
+            func = self.func_dict[apply]
+            if (func is None):
+                logging.error(f"Cannot find func for {apply}")
+            else:
+            # apply = XmlLib.remove_all_tags
+                self.apply_to_file_content(func)
+        if self.COMBINE in self.args:
+            self.combine_files_to_object()
+        if self.OUTFILE in self.args:
+            self.write_output()
+
+    def read_file_content(self, to_str=True):
+        """read file content as bytes into file_dict
+
+        :to_str: if true convert content to strings
+        """
+        for file in self.file_dict:
+            with open(file, "r") as f:
+                data = f.read()
+                if to_str and isinstance(data, bytes):
+                    data = data.decode("utf-8")
+                self.file_dict[file] = data
+
+    def apply_to_file_content(self, func):
+        """applies func to all string content in file_dict
+        """
+        for file in self.file_dict:
+            data = self.file_dict.get(file)
+            new_data = func(data)
+            self.file_dict[file] = new_data
+
+    def combine_files_to_object(self):
+        methods = self.args.get(self.COMBINE)
+        if methods[0] == self.CONCAT_STR:
+            self.result = "\n".join(self.file_dict.values())
+            # print(self.result)
+
+    def write_output(self):
+        if self.result: # single output
+            self.outfile = self.args[self.OUTFILE]
+            FileLib.force_write(self.outfile, self.result, overwrite=True)
+            logging.warning(f"wrote {self.outfile}")
 
     def process_config_files(self):
         config_files_str = self.args["config"]
@@ -174,7 +254,7 @@ class PyAMI:
         for item in self.symbols.items():
             val = item[1];
             if val.startswith("http"):
-                if self.check_urls:
+                if self.flagged(self.CHECK_URLS) :
                     import urllib.request
                     try:
                         with urllib.request.urlopen(val) as response:
@@ -186,6 +266,15 @@ class PyAMI:
                     logging.error(f"{val} in {file} does not exist as file")
             else:
                 print("non-existent: " + val + " in " + file)
+
+    def flagged(self, flag):
+        """is flag set in flag_dict
+
+        if flag is in flag_dict and not falsy return true
+        :flag:
+
+        """
+        return True if self.flag_dict.get(flag) else False
 
     def expand_section_into_symbols_dict(self, file, section):
         print("============" + section + "============" + file)
@@ -235,21 +324,39 @@ def main():
     from util import Util
     print("\n", "============== running pyami main ===============")
     pyami = PyAMI()
-    test_glob(pyami)
+    pyami.run_commands(sys.argv[1:])
+    # test_glob(pyami)
 
 
 def test_glob(pyami):
     import os
+    """
+    /Users/pm286/projects/openDiagram/physchem/resources/oil26/PMC4391421/sections/0_front/1_article-meta/17_abstract.xml
+    """
+    """
+    python pyami.py\
+        --glob /Users/pm286/projects/openDiagram/physchem/resources/oil26/PMC4391421/sections/0_front/1_article-meta/17_abstract.xml\
+        --proj /Users/pm286/projects/openDiagram/physchem/resources/oil26\
+        --apply remove_tags\
+        --combine concat_str\
+        --outfile /Users/pm286/projects/openDiagram/physchem/resources/oil26/files/xml_files.txt\
+OR
+ python physchem/python/pyami.py --glob '/Users/pm286/projects/openDiagram/physchem/resources/oil26/**/*abstract.xml' --proj /Users/pm286/projects/openDiagram/physchem/resources/oil26 --apply remove_tags --combine concat_str --outfile /Users/pm286/projects/openDiagram/physchem/resources/oil26/files/xml_files.txt
+MOVING TO
+ python pyami.py --glob '**/*abstract.xml' --proj ${oil26} --apply remove_tags --combine concat_str --outfile ${oil26}/files/xml_files.txt
 
+    """
     dir_ = "/Users/pm286/projects/openDiagram/physchem/resources/oil26"
     projdir = "~/projects/openDiagram/physchem/resources/oil26"
-    glob_ = "**/*.xml"
-    globstring = "--glob", f"{dir_}/{glob_}"
+    # glob_ = "**/*.xml"
+    # globstring = "--glob", f"{dir_}/{glob_}"
     output_dir = f"{dir_}/files"
     outfile = f"{output_dir}/xml_files.txt"
     pyami.run_commands([
-                    "--glob", f"{dir_}/**/*.xml",
+                    "--glob", f"{dir_}/**/sections/**/*abstract.xml",
                     "--proj", projdir,
+                    "--apply", "remove_tags",
+                    "--combine", "concat_str",
                     "--outfile", outfile
                     ])
     assert(os.path.exists(os.path.exists(outfile)))

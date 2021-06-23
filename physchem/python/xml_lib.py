@@ -240,8 +240,9 @@ class XmlLib:
         :xml_string: string to be flattened
         :returns: flattened string
         """
-        tree = etree.fromstring(xml_string)
-        return etree.tostring(tree, encoding='utf8', method='text').decode("utf-8")
+        tree = etree.fromstring(xml_string.encode("utf-8"))
+        strg = etree.tostring(tree, encoding='utf8', method='text').decode("utf-8")
+        return strg
 
     @classmethod
     def xslt_transform(cls, data, xslt_file):

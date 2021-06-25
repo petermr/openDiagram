@@ -334,9 +334,33 @@ class SymbolIni:
     def replace_symbols(self, arglist):
         return [self.replace_symbolsx(arg) for arg in arglist]
 
-    # TODO extend to multiple occurrences
     def replace_symbolsx(self, arg):
-        return arg[2:-1] if arg.startswith("${") and arg.endswith("}") else arg
+        """replaces ${foo} with value of foo if in symbols
+
+        treats any included "${" as literals (this is probably a user error)
+        """
+        import re
+
+        result = ""
+        start = 0
+        SYM_START = "${"
+        SYM_END = "}"
+        while SYM_START in arg[start:]:
+            idx0 = arg.index(SYM_START, start)
+            result += arg[start:idx0]
+            idx1 = arg.index(SYM_END, start)
+            symbol = arg[idx0+len(SYM_START):idx1]
+            replace = self.symbols.get(symbol)
+            end = idx1 + 1
+            result += arg[start:end] if replace is None else replace
+            start = end
+        result += arg[start:]
+        if arg != result:
+            print(f"expand {arg} to {result}")
+        return result
+
+
+        # return arg[2:-1] if arg.startswith(SYM_START) and arg.endswith(SYM_END) else arg
 
     def print_symbols(self):
         print("symbols>>")
@@ -379,9 +403,8 @@ MOVING TO
     outfile = f"{output_dir}/xml_files.txt"
     pyami.run_commands([
                     "--glob", f"{dir_}/**/sections/**/*abstract.xml",
-                    "--proj", "${oil26}",
-                    # "--proj", "/Users/pm286/projects/openDiagram/physchem/resources/oil26",
-                    # "--dict", "${eo_plant}, ${country}"
+                    "--proj", "${oil26.p}",
+                    "--dict", "${eo_plant.d}",  "${ov_country.d}",
                     "--apply", "remove_tags",
                     "--combine", "concat_str",
                     "--outfile", outfile

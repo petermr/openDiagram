@@ -6,9 +6,7 @@ from xml_lib import XmlLib
 
 
 class PyAMI:
-    NS = "${ns}"
     OUTFILE = "outfile"
-    PARENT = "__parent__" # indicates parent directory of an INI or similar file
 
     # flags
     APPLY         = "apply"
@@ -27,13 +25,13 @@ class PyAMI:
         self.combine = None
         self.config = None
         self.current_file = None
-        self.symbols = None
         self.fileset = None
         self.file_dict = {}
         self.func_dict = {}
-
         self.set_flags()
         self.set_funcs()
+        self.symbol_ini = SymbolIni(self)
+        print(f"symbols {self.symbol_ini.symbols}")
 
     def set_flags(self):
         self.flag_dict = {}
@@ -88,20 +86,11 @@ class PyAMI:
 
     def run_commands(self, arglist=None):
 
-        self.setup_environment()
-
+        arglist = self.symbol_ini.replace_symbols(arglist)
         self.parse_and_run_args(arglist)
-        if self.flagged(self.PRINT_SYMBOLS):
-            self.print_symbols()
+        if self.flagged(self.PRINT_SYMBOLS) or True:
+            self.symbol_ini.print_symbols()
 
-    def print_symbols(self):
-        print("symbols>>")
-        for name in self.symbols:
-            print(f"{name}:{self.symbols[name]}")
-
-    def setup_environment(self):
-        for key in os.environ.keys():
-            logging.debug(f"{key}: {os.environ[key]}")
 
     def parse_and_run_args(self, arglist):
         if arglist is None:
@@ -111,7 +100,6 @@ class PyAMI:
         self.args = PyAMI.extract_parsed_arg_tuples(arglist, parser)
         logging.info("ARGS: "+str(self.args))
         self.set_loglevel_from_args()
-        self.process_config_files()
         #  workflow needs thinking about...
 
         if self.args["proj"] and (self.args["sect"] or self.args["glob"]):
@@ -151,14 +139,17 @@ class PyAMI:
             print(self.file_dict)
         if self.APPLY in self.args:
             self.read_file_content()
-            apply = self.args[self.APPLY][0]
-            print("apply", apply)
-            func = self.func_dict[apply]
-            if (func is None):
-                logging.error(f"Cannot find func for {apply}")
-            else:
-            # apply = XmlLib.remove_all_tags
-                self.apply_to_file_content(func)
+            apply_ = self.args[self.APPLY]
+            print(f"apply {apply_}")
+            if apply_ and len(apply_) > 0:
+                apply = apply_[0]
+                print("apply", apply)
+                func = self.func_dict[apply]
+                if (func is None):
+                    logging.error(f"Cannot find func for {apply}")
+                else:
+                # apply = XmlLib.remove_all_tags
+                    self.apply_to_file_content(func)
         if self.COMBINE in self.args:
             self.combine_files_to_object()
         if self.OUTFILE in self.args:
@@ -196,13 +187,40 @@ class PyAMI:
             FileLib.force_write(self.outfile, self.result, overwrite=True)
             logging.warning(f"wrote {self.outfile}")
 
+    def flagged(self, flag):
+        """is flag set in flag_dict
+
+        if flag is in flag_dict and not falsy return true
+        :flag:
+
+        """
+        return True if self.flag_dict.get(flag) else False
+
+class SymbolIni:
+    """processes config/ini files and stores symbols created
+    """
+    NS = "${ns}"
+    PARENT = "__parent__" # indicates parent directory of an INI or similar file
+
+    def __init__(self, pyami):
+        self.symbols = None
+        self.pyami = pyami
+
+        self.setup_environment()
+        self.process_config_files()
+
     def process_config_files(self):
-        config_files_str = self.args["config"]
+        logging.warning(f"args {self.pyami.args}")
+        # remove later
+        if not self.pyami.args:
+            self.pyami.args["config"] = "/Users/pm286/pyami/config.ini"
+        config_files_str = self.pyami.args.get("config")
         config_files = [] if config_files_str is None else config_files_str.split(",")
         self.symbols = {}
         self.fileset = set()
         for config_file in config_files:
             self.process_config_file(config_file)
+        print(f"symbols after config {self.symbols}")
 
     def process_config_file(self, config_file):
         import os
@@ -211,7 +229,7 @@ class PyAMI:
             file = os.environ[config_file[2:-1]]
         elif "/" not in config_file:
             file = os.path.join(FileLib.get_parent_dir(__file__), config_file)
-        elif config_file.startswith("~"): # relative to home
+        elif config_file.startswith("~"):  # relative to home
             home = os.path.expanduser("~")
             file = home + config_file[len("~"):]
         elif config_file.startswith("/"):  # absolute
@@ -221,7 +239,7 @@ class PyAMI:
 
         if file is not None:
             if os.path.exists(file):
-                logging.debug("reading "+file)
+                logging.debug("reading " + file)
                 self.apply_config_file(file)
             else:
                 logging.warning(f"cannot find config file {file}")
@@ -238,7 +256,6 @@ class PyAMI:
             return;
         else:
             self.fileset.add(file)
-# https://stackoverflow.com/questions/54351740/how-can-i-use-f-string-with-a-variable-not-with-a-string-literal
 
         self.config = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
         logging.debug(f"\nreading {file}\n")
@@ -254,7 +271,7 @@ class PyAMI:
         for item in self.symbols.items():
             val = item[1];
             if val.startswith("http"):
-                if self.flagged(self.CHECK_URLS) :
+                if self.pyami.flagged(self.pyami.CHECK_URLS) :
                     import urllib.request
                     try:
                         with urllib.request.urlopen(val) as response:
@@ -267,14 +284,9 @@ class PyAMI:
             else:
                 print("non-existent: " + val + " in " + file)
 
-    def flagged(self, flag):
-        """is flag set in flag_dict
-
-        if flag is in flag_dict and not falsy return true
-        :flag:
-
-        """
-        return True if self.flag_dict.get(flag) else False
+    def setup_environment(self):
+        for key in os.environ.keys():
+            logging.info(f"{key}: {os.environ[key]}")
 
     def expand_section_into_symbols_dict(self, file, section):
         print("============" + section + "============" + file)
@@ -310,6 +322,7 @@ class PyAMI:
 
         does not check for cycles (yet)"""
         keys = list(self.symbols.keys())
+        # print("KEYS", keys)
         for name in keys:
             if name.endswith("_ini"):
                 if name not in self.symbols:
@@ -318,14 +331,26 @@ class PyAMI:
                     file = self.symbols[name]
                     self.apply_config_file(file)
 
+    def replace_symbols(self, arglist):
+        return [self.replace_symbolsx(arg) for arg in arglist]
+
+    # TODO extend to multiple occurrences
+    def replace_symbolsx(self, arg):
+        return arg[2:-1] if arg.startswith("${") and arg.endswith("}") else arg
+
+    def print_symbols(self):
+        print("symbols>>")
+        for name in self.symbols:
+            print(f"{name}:{self.symbols[name]}")
 
 def main():
     import os
     from util import Util
     print("\n", "============== running pyami main ===============")
+    # this needs commandline
     pyami = PyAMI()
-    pyami.run_commands(sys.argv[1:])
-    # test_glob(pyami)
+    # pyami.run_commands(sys.argv[1:])
+    test_glob(pyami)
 
 
 def test_glob(pyami):
@@ -343,7 +368,7 @@ def test_glob(pyami):
 OR
  python physchem/python/pyami.py --glob '/Users/pm286/projects/openDiagram/physchem/resources/oil26/**/*abstract.xml' --proj /Users/pm286/projects/openDiagram/physchem/resources/oil26 --apply remove_tags --combine concat_str --outfile /Users/pm286/projects/openDiagram/physchem/resources/oil26/files/xml_files.txt
 MOVING TO
- python pyami.py --glob '**/*abstract.xml' --proj ${oil26} --apply remove_tags --combine concat_str --outfile ${oil26}/files/xml_files.txt
+ python pyami.py --proj ${oil26} --glob '**/*abstract.xml' --apply remove_tags --combine to_csv --outfile ${oil26}/files/abstracts.csv
 
     """
     dir_ = "/Users/pm286/projects/openDiagram/physchem/resources/oil26"
@@ -354,7 +379,9 @@ MOVING TO
     outfile = f"{output_dir}/xml_files.txt"
     pyami.run_commands([
                     "--glob", f"{dir_}/**/sections/**/*abstract.xml",
-                    "--proj", projdir,
+                    "--proj", "${oil26}",
+                    # "--proj", "/Users/pm286/projects/openDiagram/physchem/resources/oil26",
+                    # "--dict", "${eo_plant}, ${country}"
                     "--apply", "remove_tags",
                     "--combine", "concat_str",
                     "--outfile", outfile

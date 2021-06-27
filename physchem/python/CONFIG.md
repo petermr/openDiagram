@@ -83,7 +83,7 @@ Here the main directories are defined. Note:
 home = ~
 project_dir = ${home}/projects
 cev_open =    ${DIRS:project_dir}/CEVOpen
-```
+````
 URLs can be used by some routines in the system. `dictionary_url` represents a collection on non-CEV dictionaries
 ````
 
@@ -92,7 +92,7 @@ dictionary_url = https://github.com/petermr/dictionary
 petermr_url = https://github.com/petermr
 petermr_raw_url = https://raw.githubusercontent.com/petermr
 tigr2ess.u =        https://github.com/petermr/tigr2ess/tree/master
-```
+````
 Three collections of dictionaries, cloned from our websites. The ini files link to the `ini` files in the collections , and these will be processed. This makes the dictionary symbols available locally.
 ````
 
@@ -101,7 +101,7 @@ dict_dir = ${DIRS:home}/dictionary
 ov_ini = ${dict_dir}/openvirus20210120/amidict.ini
 cev_ini = ${DIRS:cev_open}/dictionary/amidict.ini
 
-```
+````
 A variety of corpora / projects, cloned from repositories, on local storage
 ````
 

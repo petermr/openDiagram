@@ -27,6 +27,7 @@ class PyAMI:
     NEW_SYMBOLS = ["proj"]
 
     def __init__(self):
+        import pprint
         logging.debug(f"PyAMI {self}")
         self.args = {} # args captured in here as name/value without "-" or "--"
         self.logger = logging.getLogger()
@@ -40,7 +41,9 @@ class PyAMI:
         self.set_flags()
         self.symbol_ini = SymbolIni(self)
         self.set_funcs()
-        print(f"SYMBOLS {self.symbol_ini.symbols}")
+        self.show_symbols = False
+        if self.show_symbols:
+            pprint.pp(f"SYMBOLS\n {self.symbol_ini.symbols}")
 
     def set_flags(self):
         self.flag_dict = {}
@@ -193,6 +196,7 @@ class PyAMI:
             if loglevel is not None and loglevel.lower() in levels:
                 level = levels[loglevel.lower()]
                 self.logger.setLevel(level)
+                logging.warning(f"set ")
 
     def run_file_workflow(self):
         import glob

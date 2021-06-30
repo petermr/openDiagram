@@ -31,8 +31,8 @@ class PyAMI:
 
     logger = None
     def __init__(self):
-        if PyAMI.logger is None:
-            PyAMI.logger = PyAMI.set_logger("pyami", ch_level=logging.INFO, fh_level=logging.DEBUG, log_file="logs/pyami.log", logger_level=logging.ERROR)
+        if self.logger is None:
+            self.logger = PyAMI.set_logger("pyami", ch_level=logging.INFO, fh_level=logging.DEBUG, log_file="logs/pyami.log", logger_level=logging.ERROR)
 
         self.args = {} # args captured in here as name/value without "-" or "--"
         self.apply = []
@@ -146,7 +146,7 @@ class PyAMI:
 
         """
 
-        PyAMI.logger.info(f"********** raw arglist {arglist}")
+        self.logger.info(f"********** raw arglist {arglist}")
         self.parse_and_run_args(arglist)
         if self.flagged(self.PRINT_SYMBOLS):
             self.symbol_ini.print_symbols()
@@ -162,7 +162,7 @@ class PyAMI:
             arglist = []
         parser = self.create_arg_parser()
         self.args = self.extract_parsed_arg_tuples(arglist, parser)
-        PyAMI.logger.info("ARGS: "+str(self.args))
+        self.logger.info("ARGS: "+str(self.args))
         self.substitute_args()
         self.set_loglevel_from_args()
         self.run_workflows()
@@ -172,15 +172,15 @@ class PyAMI:
         new_items = {}
         for item in self.args.items():
             new_item = self.make_substitutions(item)
-            PyAMI.logger.debug(f"++++++++{item} ==> {new_item}")
+            self.logger.debug(f"++++++++{item} ==> {new_item}")
             new_items[new_item[0]] = new_item[1]
         self.args = new_items
-        PyAMI.logger.info(f"******** substituted ARGS {self.args}")
+        self.logger.info(f"******** substituted ARGS {self.args}")
 
     def run_workflows(self):
         """ """
         # file workflow
-        PyAMI.logger.warning(f"commandline args {self.args}")
+        self.logger.warning(f"commandline args {self.args}")
         if self.PROJ in self.args \
                 and (self.SECT in self.args or self.GLOB in self.args):
             self.run_file_workflow()
@@ -205,19 +205,19 @@ class PyAMI:
             for val_item in old_val:
                 new_v = self.symbol_ini.replace_symbols_in_arg(val_item)
                 new_list.append(new_v)
-            PyAMI.logger.debug(f"UPDATED LIST ITEMS: {new_list}")
+            self.logger.debug(f"UPDATED LIST ITEMS: {new_list}")
             new_val = new_list
         elif isinstance(old_val, (int, bool, float, complex)):
             new_val = old_val
         elif isinstance(old_val, str):
             if "${" in old_val:
-                PyAMI.logger.debug(f"Unresolved reference : {old_val}")
+                self.logger.debug(f"Unresolved reference : {old_val}")
                 new_val = self.symbol_ini.replace_symbols_in_arg(old_val)
             else:
                 new_val = old_val
                 # new_items[key] = new_val
         else:
-            PyAMI.logger.error(f"{old_val} unknown arg type {type(old_val)}")
+            self.logger.error(f"{old_val} unknown arg type {type(old_val)}")
             new_val = old_val
         self.add_selected_keys_to_symbols_ini(key, new_val)
         return (key, new_val)
@@ -230,7 +230,7 @@ class PyAMI:
 
         """
         parsed_args = parser.parse_args() if not arglist else parser.parse_args(arglist)
-        PyAMI.logger.info(f"PARSED_ARGS {parsed_args}")
+        self.logger.info(f"PARSED_ARGS {parsed_args}")
         args = {}
         arg_vars = vars(parsed_args)
         new_items = {}
@@ -260,27 +260,27 @@ class PyAMI:
 
         if self.LOGLEVEL in self.args:
             loglevel = self.args[self.LOGLEVEL]
-            PyAMI.logger.info(f"loglevel {loglevel}")
+            self.logger.info(f"loglevel {loglevel}")
             if loglevel is not None:
                 loglevel = str(loglevel)
             if loglevel is not None and loglevel.lower() in levels:
                 level = levels[loglevel.lower()]
-                PyAMI.logger.setLevel(level)
+                self.logger.setLevel(level)
 
     def run_file_workflow(self):
         """ """
         import glob
         import pathlib
         import file_lib
-        PyAMI.logger.info("globbing")
+        self.logger.info("globbing")
         if not self.args[self.PROJ]:
-            PyAMI.logger.error("glob requires proj")
+            self.logger.error("glob requires proj")
         else:
             glob_recurse=self.flagged(self.RECURSE)
             glob_ = self.args[self.GLOB]
-            PyAMI.logger.info(f"glob: {glob_}")
+            self.logger.info(f"glob: {glob_}")
             self.file_dict = {file:None for file in glob.glob(glob_, recursive=glob_recurse)}
-            PyAMI.logger.info(f"glob file count {len(self.file_dict)}")
+            self.logger.info(f"glob file count {len(self.file_dict)}")
         if self.APPLY in self.args:
             self.apply_apply()
         if self.COMBINE in self.args:
@@ -295,10 +295,10 @@ class PyAMI:
         self.read_file_content()
         apply = self.args.get(self.APPLY)
         if apply :
-            PyAMI.logger.info(f"apply {apply}")
+            self.logger.info(f"apply {apply}")
             func = self.func_dict[apply]
             if (func is None):
-                PyAMI.logger.error(f"Cannot find func for {apply}")
+                self.logger.error(f"Cannot find func for {apply}")
             else:
                 # apply = XmlLib.remove_all_tags
                 self.apply_to_file_content(func)
@@ -319,7 +319,7 @@ class PyAMI:
                         data = data.decode("utf-8")
                     self.file_dict[file] = data
                 except UnicodeDecodeError as ude:
-                    PyAMI.logger.error(f"skipped decoding error {ude}")
+                    self.logger.error(f"skipped decoding error {ude}")
 
     def apply_to_file_content(self, func):
         """applies func to all string content in file_dict
@@ -344,13 +344,16 @@ class PyAMI:
         if self.result: # single output
             self.outfile = self.args[self.OUTFILE]
             FileLib.force_write(self.outfile, self.result, overwrite=True)
-            PyAMI.logger.warning(f"wrote {self.outfile}")
+            self.logger.warning(f"wrote results {self.outfile}")
 
     def run_assertions(self):
         """ """
         assertions = self.args.get(self.ASSERT)
-        for assertion in assertions:
-            self.run_assertion(assertion)
+        if assertions is not None:
+            if isinstance(assertions, str):
+                assertions = [assertions]
+            for assertion in assertions:
+                self.run_assertion(assertion)
 
     def run_assertion(self, assertion):
         """
@@ -369,6 +372,9 @@ class PyAMI:
         """
         if not os.path.exists(file):
             self.assert_error(f"file {file} does not exist")
+        else:
+            self.logger.info(f"File exists: {file}")
+            pass
 
     def assert_error(self, msg):
         """
@@ -376,7 +382,7 @@ class PyAMI:
         :param msg: 
 
         """
-        PyAMI.logger.error(msg)
+        self.logger.error(msg)
 
     def flagged(self, flag):
         """is flag set in flag_dict
@@ -414,7 +420,7 @@ class PyAMI:
                         "--dict", "${eo_plant.d}", "${ov_country.d}",
                         "--apply", "remove_tags",
                         "--combine", "concat_str",
-                        "--outfile", "${proj}/files/shweata_1.txt",
+                        "--outfile", "${proj}/files/shweata_10.txt",
                         "--assert", "file_exists(${proj}/files/xml_files.txt)",
                         ])
 
@@ -672,15 +678,17 @@ def main():
     """ """
     import os
     from util import Util
-    print("\n", "============== running pyami main ===============")
+    print(f"\n============== running pyami main ===============\n{sys.argv[1:]}")
     # this needs commandline
     pyami = PyAMI()
-    # pyami.run_commands(sys.argv[1:])
-    pyami.test_glob()
+    pyami.run_commands(sys.argv[1:])
+#    pyami.test_glob()
 
 
 
 if __name__ == "__main__":
+
+    print(f"sys.argv: {sys.argv}")
     main()
 
 else:

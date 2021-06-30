@@ -3,6 +3,7 @@ from lxml import etree as LXET, etree
 import os
 from file_lib import FileLib
 from pathlib import Path
+import logging
 
 # make leafnodes and copy remaning content as XML
 TERMINAL_COPY = {
@@ -98,7 +99,10 @@ NS_MAP = {
 
 class XmlLib:
 
+    logger = logging.getLogger("xml_lib")
+    logger.setLevel(logging.INFO)
     def __init__(self, file=None, section_dir=SECTIONS):
+        self.max_file_len = 30
         if file is not None:
             self.path = Path(file)
             self.parent_path = self.path.parent.absolute()
@@ -107,15 +111,16 @@ class XmlLib:
     def parse_file(self, file, section_dir):
         root = XmlLib.parse_xml_file_to_root(file)
         if not section_dir is None:
-            print("making sections")
+            self.logger.debug("making sections")
             self.section_dir = self.make_sections_path(section_dir)
 
         indent = 0
         filename = "1" + "_" + root.tag
-        print(" " * indent, filename)
+        self.logger.debug(" " * indent, filename)
         subdir = os.path.join(self.section_dir, filename)
         FileLib.force_mkdir(subdir)
         self.list_children(root, indent, subdir)
+        self.logger.info(f"wrote XML sections for {file}")
 
     @staticmethod
     def parse_xml_file_to_root(file):
@@ -141,7 +146,9 @@ class XmlLib:
     def list_children(self, elem, indent, outdir):
         TERMINAL = "T_"
         IGNORE = "I_"
-        for i, child in enumerate(list(elem)):
+        children = list(elem)
+        self.logger.debug(f"children> {len(children)}")
+        for i, child in enumerate(children):
             if "ProcessingInstruction" in str(type(child)):
                 # print("PI", child)
                 continue
@@ -155,23 +162,24 @@ class XmlLib:
                 flag = IGNORE
 
             title = child.tag
-#            print("tag", type(child), type(title))
             if child.tag in SEC_TAGS:
                 title = XmlLib.get_sec_title(child)
 
             if flag == IGNORE:
                 title = flag + title
-#            print (type(str(i)), type(title))
-            filename = str(i) + "_" + title
+            filename = str(i) + "_" + title.lower()[:self.max_file_len]
 
             if flag == TERMINAL:
                 xml_string = LXET.tostring(child)
-                with open(os.path.join(outdir, filename + '.xml'), "wb") as f:
+                filename1 = os.path.join(outdir, filename + '.xml')
+                self.logger.debug(f"writing {filename1}")
+                with open(filename1, "wb") as f:
                     f.write(xml_string)
             else:
                 subdir = os.path.join(outdir, filename)
                 FileLib.force_mkdir(subdir) # creates empty dir, may be bad idea
                 if flag == "":
+                    self.logger.debug(f">> {title} {child}")
                     self.list_children(child, indent, subdir)
 
     @staticmethod
@@ -188,7 +196,7 @@ class XmlLib:
             else:
                 title = "?_"+ str(sec.xml_file[:20])
         title = title.replace(" ", "_")
-        print("type", type(title))
+        logging.debug("type", type(title))
         return title
 
     @staticmethod
@@ -261,8 +269,13 @@ class XmlLib:
         root = cls.xslt_transform(data, xslt_file)
         return etree.tostring(root).decode("UTF-8") if root is not None else None
 
-    def test(self):
-        doc = XmlLib("../liion/PMC7077619/fulltext.xml")
+    def test_recurse_sections(self):
+#        / Users / pm286 / projects / openDiagram / physchem / resources / oil26 / PMC4391421 / fulltext.xml
+        file = os.path.abspath(os.path.join(__file__, "..", "..", "resources", "liion10", "PMC7040616","fulltext.xml"))
+        print(file)
+#        doc = XmlLib("../resources/liion/PMC7077619/fulltext.xml")
+        doc = XmlLib(file)
+
 
 class HtmlElement:
     """to provide fluent HTML builder and parser"""
@@ -442,13 +455,13 @@ class Web:
 def main():
     import pprint
 
-#    XmlLib().test() # don't know what parse_file does...
+    XmlLib().test_recurse_sections() # recursively list sections
 
 #    test_data_table()
 #    test_xml()
 
 #    web = Web()
-    Web.tkinterweb_demo()
+#    Web.tkinterweb_demo()
 
 def test_xml():
     xml_string = "<a>foo <b>and</b> with <d/> bar</a>"

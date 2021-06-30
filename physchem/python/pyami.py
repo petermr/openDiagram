@@ -2,7 +2,6 @@ import logging
 import sys
 import os
 from file_lib import FileLib
-from xml_lib import XmlLib
 import pprint
 
 
@@ -29,10 +28,10 @@ class PyAMI:
     NEW_SYMBOLS   = ["proj"]
     LOGLEVEL      = "loglevel"
 
-    logger = None
+    logger = logging.getLogger("pyami")
     def __init__(self):
-        if self.logger is None:
-            self.logger = PyAMI.set_logger("pyami", ch_level=logging.INFO, fh_level=logging.DEBUG, log_file="logs/pyami.log", logger_level=logging.ERROR)
+        # if self.logger is None:
+        #     self.logger = PyAMI.set_logger("pyami", ch_level=logging.INFO, fh_level=logging.DEBUG, log_file="logs/pyami.log", logger_level=logging.ERROR)
 
         self.args = {} # args captured in here as name/value without "-" or "--"
         self.apply = []
@@ -42,6 +41,7 @@ class PyAMI:
         self.fileset = None
         self.file_dict = {}
         self.func_dict = {}
+        self.result = None
         self.set_flags()
         self.symbol_ini = SymbolIni(self)
         self.set_funcs()
@@ -95,8 +95,9 @@ class PyAMI:
         self.flag_dict[self.RECURSE] = True
 
     def set_funcs(self):
+        import xml_lib
         """ """
-        self.func_dict[self.REMOVE_TAGS] = XmlLib.remove_all_tags
+        self.func_dict[self.REMOVE_TAGS] = xml_lib.XmlLib.remove_all_tags
 
     def create_arg_parser(self):
         """creates adds the arguments for pyami commandline"""
@@ -443,13 +444,10 @@ class SymbolIni:
     logger = None
 
     def __init__(self, pyami):
-        # SymbolIni.logger = PyAMI.set_logger("symbol_ini", ch_level=logging.INFO, fh_level=logging.DEBUG, log_file="symbol_ini.log", logger_level=logging.ERROR)
-        SymbolIni.logger = PyAMI.set_logger("symbol_ini", logger_level=logging.INFO, log_file="logs/symbol_ini.log")
-        SymbolIni.logger.error("SYMBOL_INI")
+        self.logger = PyAMI.set_logger("symbol_ini", logger_level=logging.INFO, log_file="logs/symbol_ini.log")
         self.symbols = None
         self.pyami = pyami
         pyami.symbol_ini = self
-
 
         self.setup_environment()
         self.process_config_files()
@@ -464,9 +462,9 @@ class SymbolIni:
         self.symbols = {}
         self.fileset = set()
         for config_file in config_files:
-            SymbolIni.logger.info(f"processing config: {config_file}")
+            self.logger.info(f"processing config: {config_file}")
             self.process_config_file(config_file)
-        SymbolIni.logger.debug(f"symbols after config {self.symbols}")
+        self.logger.debug(f"symbols after config {self.symbols}")
 
     def process_config_file(self, config_file):
         """
@@ -490,10 +488,10 @@ class SymbolIni:
 
         if file is not None:
             if os.path.exists(file):
-                SymbolIni.logger.debug("reading " + file)
+                self.logger.debug("reading " + file)
                 self.apply_config_file(file)
             else:
-                SymbolIni.logger.warning(f"*** cannot find config file {file} ***")
+                self.logger.warning(f"*** cannot find config file {file} ***")
 
     def apply_config_file(self, file):
         """reads config file, recursively replaces {} symbols and '~'
@@ -506,13 +504,13 @@ class SymbolIni:
         import os
 
         if file in self.fileset: # avoid cycles
-            SymbolIni.logger.debug(f"{file} already in {self.fileset}")
+            self.logger.debug(f"{file} already in {self.fileset}")
             return;
         else:
             self.fileset.add(file)
 
         self.config = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
-        SymbolIni.logger.info(f"reading config file {file}")
+        self.logger.info(f"reading config file {file}")
         files_read = self.config.read(file)
         sections = self.config.sections()
         for section in sections:
@@ -539,14 +537,14 @@ class SymbolIni:
                         print(f"Cannot read {val} as url {ex}")
             elif "/" in val:  # assume slash means file or url
                 if not os.path.exists(val):  # all files
-                    SymbolIni.logger.error(f"{val} in {file} does not exist as file")
+                    self.logger.error(f"{val} in {file} does not exist as file")
             else:
                 print("non-existent: " + val + " in " + file)
 
     def setup_environment(self):
         """ """
         for key in os.environ.keys():
-            SymbolIni.logger.info(f"{key}: {os.environ[key]}")
+            self.logger.info(f"{key}: {os.environ[key]}")
 
     def convert_section_into_symbols_dict(self, file, section):
         """
@@ -555,10 +553,10 @@ class SymbolIni:
         :param section: 
 
         """
-        SymbolIni.logger.info("============" + section + "============" + file)
+        self.logger.info("============" + section + "============" + file)
         for name in self.config[section].keys():
             if name in self.symbols:
-                SymbolIni.logger.debug(f"{name} already defined, skipped")
+                self.logger.debug(f"{name} already defined, skipped")
             else:
                 raw_value = self.config[section][name]
                 # make substitutions
@@ -581,7 +579,7 @@ class SymbolIni:
 
                 self.symbols[name] = new_value
 
-        SymbolIni.logger.debug(f"symbols for {file} {section}\n {self.symbols}")
+        self.logger.debug(f"symbols for {file} {section}\n {self.symbols}")
 
     def recurse_ini_files(self):
         """follows links to all *_ini files and runs them recursively
@@ -595,7 +593,7 @@ class SymbolIni:
         for name in keys:
             if name.endswith("_ini"):
                 if name not in self.symbols:
-                    SymbolIni.logger.error(f"PROCESSING {self.current_file} ; cannot find symbol: {name} in {self.symbols}")
+                    self.logger.error(f"PROCESSING {self.current_file} ; cannot find symbol: {name} in {self.symbols}")
                 else:
                     file = self.symbols[name]
                     self.apply_config_file(file)
@@ -648,7 +646,7 @@ class SymbolIni:
         start = 0
         SYM_START = "${"
         SYM_END = "}"
-        SymbolIni.logger.info(f"expanding symbols in {arg}")
+        self.logger.info(f"expanding symbols in {arg}")
         while SYM_START in arg[start:]:
             idx0 = arg.index(SYM_START, start)
             result += arg[start:idx0]
@@ -656,13 +654,13 @@ class SymbolIni:
             symbol = arg[idx0+len(SYM_START):idx1]
             replace = self.symbols.get(symbol)
             if replace != symbol:
-                SymbolIni.logger.debug(symbol, " REPLACE", replace)
+                self.logger.debug(symbol, " REPLACE", replace)
             end = idx1 + 1
             result += replace if replace is not None else arg[idx0 : idx1 + len(SYM_END)]
             start = end
         result += arg[start:]
         if arg != result:
-            SymbolIni.logger.info(f"expanded {arg} to {result}")
+            self.logger.info(f"expanded {arg} to {result}")
         return result
 
 

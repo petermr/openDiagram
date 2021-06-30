@@ -121,6 +121,8 @@ class Document:
                 print("No fulltext.xml, so no sections")
             else:
                 print("PLEASE CREATE sections with ami sections, will add pyami later")
+                jats_parser = JatsParser()
+                jats_parser.create_sections_from_xml("fulltext.xml")
             return
         files = glob.glob(os.path.join(sections_file, "**/*.xml"))
         for terminal_file in files:
@@ -290,7 +292,7 @@ class AmiSection:
                 self.sentences = AmiSection.read_numbered_sentences_file(self.txt_file)
             if os.path.exists(self.xml_file):
                 self.add_name(self.xml_file)
-                """read a file as an atxt_filemi-section of larger document """
+                """read a file as an ami-section of larger document """
                 with open(self.xml_file, "r", encoding="utf-8") as f:
                     try:
                         self.xml = f.read()

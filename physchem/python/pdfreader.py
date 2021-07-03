@@ -1,31 +1,37 @@
+import logging
 # https://stackoverflow.com/questions/56494070/how-to-use-pdfminer-six-with-python-3
 
 class PdfReader:
 
-    def __init__(self):
-        pass
+    logger = logging.getLogger("pdfreader")
 
-    def test(self, file):
+    def __init__(self):
+        self.text = None
+
+    @classmethod
+    def read_and_convert(cls, file):
         from pdfminer3.layout import LAParams, LTTextBox
         from pdfminer3.pdfpage import PDFPage
         from pdfminer3.pdfinterp import PDFResourceManager
         from pdfminer3.pdfinterp import PDFPageInterpreter
         from pdfminer3.converter import PDFPageAggregator
         from pdfminer3.converter import TextConverter
+        from pdfminer3.converter import XMLConverter
         import io
 
         resource_manager = PDFResourceManager()
         fake_file_handle = io.StringIO()
         converter = TextConverter(resource_manager, fake_file_handle, laparams=LAParams())
+        # converter = XMLConverter(resource_manager, fake_file_handle, laparams=LAParams()) # not tested
         page_interpreter = PDFPageInterpreter(resource_manager, converter)
 
-        print("FILE", file)
+        cls.logger.info("PDF FILE", file)
         with open(file, 'rb') as fh:
             for i, page in enumerate(PDFPage.get_pages(fh,
                                           caching=True,
                                           check_extractable=True)):
                 page_interpreter.process_page(page)
-                print("===================",i,"=================")
+                print(f"=================== page {i}=================")
 
             text = fake_file_handle.getvalue()
 
@@ -33,7 +39,6 @@ class PdfReader:
         converter.close()
         fake_file_handle.close()
 
-        print(text)
 
         """
         > pdf2txt.py [-P password] [-o output] [-t text|html|xml|tag]
@@ -65,10 +70,16 @@ class PdfReader:
 -d : Turns on Debug output.
 
         """
+        return text
 
 def main():
+    test_read()
+
+
+def test_read():
     pdfReader = PdfReader()
-    pdfReader.test("/Users/pm286/projects/openDiagram/physchem/liion/PMC7040616/fulltext.pdf");
+    pdfReader.read_and_convert("/Users/pm286/projects/openDiagram/physchem/liion/PMC7040616/fulltext.pdf");
+
 
 if __name__ == "__main__":
     main()

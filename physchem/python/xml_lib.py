@@ -34,6 +34,11 @@ TERMINAL_COPY = {
     "volume",
 }
 
+
+TERMINALS =[
+    "inline-formula",
+]
+
 TITLE = "title"
 
 IGNORE_CHILDREN= {
@@ -101,26 +106,29 @@ class XmlLib:
 
     logger = logging.getLogger("xml_lib")
     logger.setLevel(logging.INFO)
+
     def __init__(self, file=None, section_dir=SECTIONS):
         self.max_file_len = 30
+        self.file = None
+        self.parent_path = None
+        self.root = None
+
+
+    def read(self, file):
         if file is not None:
-            self.path = Path(file)
-            self.parent_path = self.path.parent.absolute()
-            self.parse_file(file, section_dir)
+            self.file = file
+            self.parent_path = Path(file).parent.absolute()
+            self.root = XmlLib.parse_xml_file_to_root(file)
 
-    def parse_file(self, file, section_dir):
-        root = XmlLib.parse_xml_file_to_root(file)
-        if not section_dir is None:
-            self.logger.debug("making sections")
-            self.section_dir = self.make_sections_path(section_dir)
-
-        indent = 0
-        filename = "1" + "_" + root.tag
-        self.logger.debug(" " * indent, filename)
-        subdir = os.path.join(self.section_dir, filename)
-        FileLib.force_mkdir(subdir)
-        self.list_children(root, indent, subdir)
-        self.logger.info(f"wrote XML sections for {file}")
+    def make_sections(self, section_dir):
+        self.section_dir = self.make_sections_path(section_dir)
+        # indent = 0
+        # filename = "1" + "_" + self.root.tag
+        # self.logger.debug(" " * indent, filename)
+        # subdir = os.path.join(self.section_dir, filename)
+        # FileLib.force_mkdir(subdir)
+        self.list_children(self.root, self.section_dir)
+        self.logger.info(f"wrote XML sections for {self.file} {self.section_dir}")
 
     @staticmethod
     def parse_xml_file_to_root(file):
@@ -143,12 +151,16 @@ class XmlLib:
             FileLib.force_mkdir(self.section_path)
         return self.section_path
 
-    def list_children(self, elem, indent, outdir):
+    def list_children(self, elem, outdir):
+        if elem.tag in TERMINALS:
+            print("skipped ",elem.tag)
+            return
         TERMINAL = "T_"
         IGNORE = "I_"
         children = list(elem)
         self.logger.debug(f"children> {len(children)}")
-        for i, child in enumerate(children):
+        isect = 0
+        for child in children:
             if "ProcessingInstruction" in str(type(child)):
                 # print("PI", child)
                 continue
@@ -167,20 +179,24 @@ class XmlLib:
 
             if flag == IGNORE:
                 title = flag + title
-            filename = str(i) + "_" + title.lower()[:self.max_file_len]
+            filename = str(isect) + "_" + title.lower()[:self.max_file_len]
 
             if flag == TERMINAL:
                 xml_string = LXET.tostring(child)
                 filename1 = os.path.join(outdir, filename + '.xml')
                 self.logger.debug(f"writing {filename1}")
-                with open(filename1, "wb") as f:
-                    f.write(xml_string)
+                try:
+                    with open(filename1, "wb") as f:
+                        f.write(xml_string)
+                except Exception:
+                    print(f"cannot write {filename1}")
             else:
                 subdir = os.path.join(outdir, filename)
                 FileLib.force_mkdir(subdir) # creates empty dir, may be bad idea
                 if flag == "":
                     self.logger.debug(f">> {title} {child}")
-                    self.list_children(child, indent, subdir)
+                    self.list_children(child, subdir)
+            isect += 1
 
     @staticmethod
     def get_sec_title(sec):
@@ -274,8 +290,10 @@ class XmlLib:
         file = os.path.abspath(os.path.join(__file__, "..", "..", "resources", "liion10", "PMC7040616","fulltext.xml"))
         print(file)
 #        doc = XmlLib("../resources/liion/PMC7077619/fulltext.xml")
-        doc = XmlLib(file)
-
+#        doc = XmlLib(file)
+        xml_lib = XmlLib();
+        doc = xml_lib.read(file)
+        xml_lib.make_sections("sections")
 
 class HtmlElement:
     """to provide fluent HTML builder and parser"""

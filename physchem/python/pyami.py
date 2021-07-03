@@ -2,6 +2,8 @@ import logging
 import sys
 import os
 from file_lib import FileLib
+from xml_lib import XmlLib
+from pdfreader import PdfReader
 import pprint
 
 
@@ -14,13 +16,17 @@ class PyAMI:
     ASSERT        = "assert"
     CHECK_URLS    = "check_urls"
     COMBINE       = "combine"
+    CONTAINS      = "contains"
+    FILTER        = "filter"
     GLOB          = "glob"
     PRINT_SYMBOLS = "print_symbols"
     PROJ          = "proj"
     RECURSE       = "recurse"
     SECT          = "sect"
+    SPLIT         = "split"
     # methods
-    REMOVE_TAGS   = "remove_tags"
+    PDF2TXT       = "pdf2txt"
+    XML2TXT       = "xml2txt"
     CONCAT_STR    = "concat_str"
     # assertions
     FILE_EXISTS   = "file_exists"
@@ -30,9 +36,6 @@ class PyAMI:
 
     logger = logging.getLogger("pyami")
     def __init__(self):
-        # if self.logger is None:
-        #     self.logger = PyAMI.set_logger("pyami", ch_level=logging.INFO, fh_level=logging.DEBUG, log_file="logs/pyami.log", logger_level=logging.ERROR)
-
         self.args = {} # args captured in here as name/value without "-" or "--"
         self.apply = []
         self.combine = None
@@ -50,7 +53,9 @@ class PyAMI:
             pprint.pp(f"SYMBOLS\n {self.symbol_ini.symbols}")
 
     @classmethod
-    def set_logger(cls, module, ch_level=logging.INFO, fh_level=logging.DEBUG, log_file=None, logger_level=logging.WARNING):
+    def set_logger(cls, module,
+                   ch_level=logging.INFO, fh_level=logging.DEBUG,
+                   log_file=None, logger_level=logging.WARNING):
         """create console and stream loggers
         
         taken from https://docs.python.org/3/howto/logging-cookbook.html#logging-cookbook
@@ -95,15 +100,15 @@ class PyAMI:
         self.flag_dict[self.RECURSE] = True
 
     def set_funcs(self):
-        import xml_lib
         """ """
-        self.func_dict[self.REMOVE_TAGS] = xml_lib.XmlLib.remove_all_tags
+        self.func_dict[self.XML2TXT] = XmlLib.remove_all_tags
+        self.func_dict[self.PDF2TXT] = PdfReader.read_and_convert
 
     def create_arg_parser(self):
         """creates adds the arguments for pyami commandline"""
         import argparse
         parser = argparse.ArgumentParser(description='Search sections with dictionaries and patterns')
-        parser.add_argument('--apply', nargs="+",
+        parser.add_argument('--apply', nargs="+", choices="[xml2txt, pdf2txt]",
                             help='list of sequential transformations to apply to pipeline')
         parser.add_argument('--assert', nargs="+",
                             help='assertions; failure gives error message (prototype)')
@@ -117,6 +122,8 @@ class PyAMI:
                             help='simple demos (NYI). empty gives list. May need downloading corpora')
         parser.add_argument('-d', '--dict', nargs="+",
                             help='dictionaries to ami-search with, _help gives list')
+        parser.add_argument('--filter', nargs="+",
+                            help='expression to filter with')
         parser.add_argument('-g', '--glob', nargs="+",
                             help='glob files; python syntax (* and ** wildcards supported); '
                                  'include alternatives in {...,...}. ')
@@ -132,12 +139,14 @@ class PyAMI:
                             help='output file, normally 1. but (NYI) may track multiple input dirs (NYI)')
         parser.add_argument('--patt', nargs="+",
                             help='patterns to search with (NYI); regex may need quoting')
+        parser.add_argument('--plot', action="store_false",
+                            help='plot params (NYI)')
         parser.add_argument('-p', '--proj', nargs="+",
                             help='projects to search; _help will give list')
         parser.add_argument('-s', '--sect', nargs="+",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
                             help='sections to search; _help gives all(?)')
-        parser.add_argument('--plot', action="store_false",
-                            help='plot params (NYI)')
+        parser.add_argument('--split', nargs="*",  # split fulltext.xml,
+                            help='split fulltext.xml into sections')
         return parser
 
     def run_commands(self, arglist=None):
@@ -182,9 +191,10 @@ class PyAMI:
         """ """
         # file workflow
         self.logger.warning(f"commandline args {self.args}")
-        if self.PROJ in self.args \
-                and (self.SECT in self.args or self.GLOB in self.args):
-            self.run_file_workflow()
+        if self.PROJ in self.args:
+            if self.SECT in self.args or self.GLOB in self.args:
+                self.run_file_workflow()
+
 
     def make_substitutions(self, item):
         """
@@ -275,21 +285,39 @@ class PyAMI:
         import file_lib
         self.logger.info("globbing")
         if not self.args[self.PROJ]:
-            self.logger.error("glob requires proj")
-        else:
-            glob_recurse=self.flagged(self.RECURSE)
-            glob_ = self.args[self.GLOB]
-            self.logger.info(f"glob: {glob_}")
-            self.file_dict = {file:None for file in glob.glob(glob_, recursive=glob_recurse)}
-            self.logger.info(f"glob file count {len(self.file_dict)}")
-        if self.APPLY in self.args:
+            self.logger.error("requires proj")
+            return
+        self.proj = self.args[self.PROJ]
+        if self.args[self.GLOB]:
+            self.glob_files()
+        if self.args[self.SPLIT]:
+            self.split_xml()
+        if self.args[self.APPLY]:
             self.apply_apply()
-        if self.COMBINE in self.args:
+        if self.args[self.FILTER]:
+            self.filter_file()
+        if self.args[self.COMBINE]:
             self.combine_files_to_object()
-        if self.OUTFILE in self.args:
+        if self.args[self.OUTFILE]:
             self.write_output()
-        if self.ASSERT in self.args:
+        if self.args[self.ASSERT]:
             self.run_assertions()
+
+    def glob_files(self):
+        import glob
+        glob_recurse = self.flagged(self.RECURSE)
+        glob_ = self.args[self.GLOB]
+        self.logger.info(f"glob: {glob_}")
+        self.file_dict = {file: None for file in glob.glob(glob_, recursive=glob_recurse)}
+        self.logger.info(f"glob file count {len(self.file_dict)}")
+
+    def split_xml(self):
+        """ split fulltext.xml into sections"""
+
+        for file in self.file_dict:
+            xml_libx = XmlLib();
+            doc = xml_libx.read(file)
+            xml_libx.make_sections("sections")
 
     def apply_apply(self):
         """ """
@@ -301,8 +329,30 @@ class PyAMI:
             if (func is None):
                 self.logger.error(f"Cannot find func for {apply}")
             else:
-                # apply = XmlLib.remove_all_tags
+                # apply data is stored in sewlf.file_dict
                 self.apply_to_file_content(func)
+
+    def filter_file(self):
+        filter_expr = self.args[self.FILTER]
+        files = set()
+        # record hits
+        for file in self.file_dict:
+            filter_true = self.apply_filter(file, filter_expr)
+            if filter_true:
+                files.add(file)
+        # delete hits from dict
+        for file in files:
+            if file in self.file_dict:
+                del self.file_dict[file]
+
+    def apply_filter(self, file, filter_expr):
+        found = False
+        with open(file, "r", encoding="utf-8") as f:
+            content = f.read()
+        if filter_expr and filter_expr.startswith(self.CONTAINS):
+            search_str = filter_expr[len(self.CONTAINS) + 1:-1]
+            found = search_str in content
+        return found
 
     def read_file_content(self, to_str=True):
         """read file content as bytes into file_dict
@@ -313,14 +363,34 @@ class PyAMI:
 
         """
         for file in self.file_dict:
-            with open(file, "r", encoding="utf-8") as f:
-                try:
-                    data = f.read()
-                    if to_str and isinstance(data, bytes):
-                        data = data.decode("utf-8")
-                    self.file_dict[file] = data
-                except UnicodeDecodeError as ude:
-                    self.logger.error(f"skipped decoding error {ude}")
+            self.logger.info(f"reading {file}")
+            if file.endswith(".xml"):
+                self.read_string_content(file, to_str)
+            elif file.endswith(".pdf"):
+                self.lazy_read_binary_file(file)
+            elif file.endswith(".png"):
+                self.read_binary_content(file)
+
+    def read_string_content(self, file, to_str):
+        with open(file, "r", encoding="utf-8") as f:
+            try:
+                data = f.read()
+                if to_str and isinstance(data, bytes):
+                    data = data.decode("utf-8")
+                self.file_dict[file] = data
+            except UnicodeDecodeError as ude:
+                self.logger.error(f"skipped decoding error {ude}")
+
+    def lazy_read_binary_file(self, file):
+        self.file_dict[file] = file
+
+    def read_binary_content(self, file):
+        with open(file, "rb", ) as f:
+            try:
+                data = f.read()
+                self.file_dict[file] = data
+            except Error as e:
+                self.logger.error(f"skipped reading error {e}")
 
     def apply_to_file_content(self, func):
         """applies func to all string content in file_dict
@@ -330,8 +400,10 @@ class PyAMI:
         """
         for file in self.file_dict:
             data = self.file_dict.get(file)
+            self.logger.warning(f"file: {file} => {type(data)} => {func}")
             new_data = func(data)
             self.file_dict[file] = new_data
+        return
 
     def combine_files_to_object(self):
         """ """
@@ -342,10 +414,25 @@ class PyAMI:
 
     def write_output(self):
         """ """
+        self.outfile = self.args[self.OUTFILE]
         if self.result: # single output
-            self.outfile = self.args[self.OUTFILE]
-            FileLib.force_write(self.outfile, self.result, overwrite=True)
-            self.logger.warning(f"wrote results {self.outfile}")
+            self.write_single_result()
+
+        if self.file_dict:
+            self.write_multiple_results()
+
+    def write_multiple_results(self):
+        for file in self.file_dict:
+            data = self.file_dict[file]
+            parent = FileLib.get_parent_dir(file)
+            new_outfile = os.path.join(parent, self.outfile)
+            with open(new_outfile, "w", encoding="utf-8") as f:
+                self.logger.warning(f"wrote results {new_outfile}")
+                f.write(data)
+
+    def write_single_result(self):
+        FileLib.force_write(self.outfile, self.result, overwrite=True)
+        self.logger.warning(f"wrote results {self.outfile}")
 
     def run_assertions(self):
         """ """
@@ -406,20 +493,20 @@ class PyAMI:
         python pyami.py\
             --glob /Users/pm286/projects/openDiagram/physchem/resources/oil26/PMC4391421/sections/0_front/1_article-meta/17_abstract.xml\
             --proj /Users/pm286/projects/openDiagram/physchem/resources/oil26\
-            --apply remove_tags\
+            --apply xml2txt\
             --combine concat_str\
             --outfile /Users/pm286/projects/openDiagram/physchem/resources/oil26/files/xml_files.txt\
     OR
-     python physchem/python/pyami.py --glob '/Users/pm286/projects/openDiagram/physchem/resources/oil26/**/*abstract.xml' --proj /Users/pm286/projects/openDiagram/physchem/resources/oil26 --apply remove_tags --combine concat_str --outfile /Users/pm286/projects/openDiagram/physchem/resources/oil26/files/xml_files.txt
+     python physchem/python/pyami.py --glob '/Users/pm286/projects/openDiagram/physchem/resources/oil26/**/*abstract.xml' --proj /Users/pm286/projects/openDiagram/physchem/resources/oil26 --apply xml2txt --combine concat_str --outfile /Users/pm286/projects/openDiagram/physchem/resources/oil26/files/xml_files.txt
     MOVING TO
-     python pyami.py --proj ${oil26} --glob '**/*abstract.xml' --apply remove_tags --combine to_csv --outfile ${oil26}/files/abstracts.csv
+     python pyami.py --proj ${oil26} --glob '**/*abstract.xml' --apply xml2txt --combine to_csv --outfile ${oil26}/files/abstracts.csv
     
         """
         self.run_commands([
                         "--proj", "${oil26.p}",
                         "--glob", "${proj}/**/sections/**/*abstract.xml",
                         "--dict", "${eo_plant.d}", "${ov_country.d}",
-                        "--apply", "remove_tags",
+                        "--apply", "xml2txt",
                         "--combine", "concat_str",
                         "--outfile", "${proj}/files/shweata_10.txt",
                         "--assert", "file_exists(${proj}/files/xml_files.txt)",
@@ -429,9 +516,51 @@ class PyAMI:
 # "--config", # defaults to config.ini,~/pyami/config.ini if omitted
 
 # on the commandline:
-# python physchem/python/pyami.py --proj '${oil26.p}' --glob '${proj}/**/sections/**/*abstract.xml' --dict '${eo_plant.d}' '${ov_country.d}' --apply remove_tags --combine concat_str --outfile '${proj}/files/shweata_1.txt'
+# python physchem/python/pyami.py --proj '${oil26.p}' --glob '${proj}/**/sections/**/*abstract.xml' --dict '${eo_plant.d}' '${ov_country.d}' --apply xml2txt --combine concat_str --outfile '${proj}/files/shweata_1.txt'
 # whihc expands to
-# python physchem/python/pyami.py --apply remove_tags --combine concat_str --dict '/Users/pm286/projects/CEVOpen/dictionary/eoPlant/eo_plant.xml' '/Users/pm286/dictionary/openvirus20210120/country/country.xml' --glob '/Users/pm286/projects/openDiagram/physchem/resources/oil26/**/sections/**/*abstract.xml' --outfile '/Users/pm286/projects/openDiagram/physchem/resources/oil26/files/shweata_1.txt' --proj '/Users/pm286/projects/openDiagram/physchem/resources/oil26'
+# python physchem/python/pyami.py --apply xml2txt --combine concat_str --dict '/Users/pm286/projects/CEVOpen/dictionary/eoPlant/eo_plant.xml' '/Users/pm286/dictionary/openvirus20210120/country/country.xml' --glob '/Users/pm286/projects/openDiagram/physchem/resources/oil26/**/sections/**/*abstract.xml' --outfile '/Users/pm286/projects/openDiagram/physchem/resources/oil26/files/shweata_1.txt' --proj '/Users/pm286/projects/openDiagram/physchem/resources/oil26'
+
+    def test_split(self):
+        from shutil import copyfile
+
+        proj_dir = os.path.abspath(os.path.join(__file__, "..", "tst", "proj"))
+        print("file", proj_dir, os.path.exists(proj_dir))
+        self.run_commands([
+                        "--proj", proj_dir,
+                        "--glob", "${proj}/*/fulltext.xml",
+                        "--split", "sections",
+                        ])
+
+    def test_filter(self):
+        from shutil import copyfile
+
+        proj_dir = os.path.abspath(os.path.join(__file__, "..", "tst", "proj"))
+        print("file", proj_dir, os.path.exists(proj_dir))
+        self.run_commands([
+                        "--proj", proj_dir,
+                        "--glob", "${proj}/**/*_p.xml",
+                        "--apply", "xml2txt",
+                        "--filter", "contains(cell)",
+                        "--combine", "concat_str",
+                        "--outfile", "${proj}/cell_junk.txt"
+                        ])
+
+
+    def test_pdf(self):
+        from shutil import copyfile
+
+        proj_dir = os.path.abspath(os.path.join(__file__, "..", "tst", "proj"))
+        print("file", proj_dir, os.path.exists(proj_dir))
+        self.run_commands([
+                        "--proj", proj_dir,
+                        "--glob", "${proj}/*/fulltext.pdf",
+                        "--apply", "pdf2txt",
+                        # "--filter", "contains(cell)",
+                        # "--combine", "concat_str",
+                        "--outfile", "fulltext.pdf.txt"
+                        ])
+
+
 
 class SymbolIni:
     """processes config/ini files and stores symbols created"""
@@ -673,14 +802,17 @@ class SymbolIni:
             print(f"{name}:{self.symbols[name]}")
 
 def main():
-    """ """
-    import os
-    from util import Util
+    """ main entry point for cmdline
+
+    """
     print(f"\n============== running pyami main ===============\n{sys.argv[1:]}")
     # this needs commandline
     pyami = PyAMI()
-    pyami.run_commands(sys.argv[1:])
-#    pyami.test_glob()
+    # pyami.run_commands(sys.argv[1:])
+    # pyami.test_split()
+    # pyami.test_glob() # also does sectioning?
+    # pyami.test_filter()
+    pyami.test_pdf()
 
 
 
@@ -693,8 +825,3 @@ else:
 
     print("running search main anyway")
     main()
-    pass
-
-"""
-pyami --proj oil26 --section abstract method --transform xml2txt --dict invasive compound my_terms --phrases tool=rake;count=100 --outfile results/
-"""

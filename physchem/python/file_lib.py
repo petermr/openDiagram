@@ -221,7 +221,10 @@ class FileLib:
         :dirx: directory
         """
         if not os.path.exists(dirx):
-            os.mkdir(dirx)
+            try:
+                os.mkdir(dirx)
+            except Exception:
+                print(f"cannot make dir {dirx}")
 
     @classmethod
     def force_mkparent(cls, file):

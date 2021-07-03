@@ -1072,6 +1072,7 @@ class AmiGui(tk.Frame):
         return self.dcb_frame
 
     def query_wikidata(self, text):
+        from wikimedia import WikidataBrowser
         """
 
         :param text: 

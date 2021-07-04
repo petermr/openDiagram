@@ -114,22 +114,24 @@ class PyAMI:
                             help='assertions; failure gives error message (prototype)')
         parser.add_argument('--combine', nargs=1,
                             help='operation to combine files into final object')
-        parser.add_argument('-c', '--config', nargs="*", default="PYAMI",
+        parser.add_argument('--config', '-c', nargs="*", default="PYAMI",
                             help='file (e.g. ~/pyami/config.ini) with list of config file(s) or config vars')
         parser.add_argument('--debug', nargs="+",
                             help='debugging commands , numbers, (not formalised)')
         parser.add_argument('--demo', nargs="*",
                             help='simple demos (NYI). empty gives list. May need downloading corpora')
-        parser.add_argument('-d', '--dict', nargs="+",
+        parser.add_argument('--dict', '-d', nargs="+",
                             help='dictionaries to ami-search with, _help gives list')
         parser.add_argument('--filter', nargs="+",
                             help='expression to filter with')
-        parser.add_argument('-g', '--glob', nargs="+",
+        parser.add_argument('--glob', '-g', nargs="+",
                             help='glob files; python syntax (* and ** wildcards supported); '
                                  'include alternatives in {...,...}. ')
+        # parser.add_argument('--help', '-h', nargs="?",
+        #                     help='output help; (NYI) an optional arg gives level')
         parser.add_argument('--languages', nargs="+", default=["en"],
                             help='languages (NYI)')
-        parser.add_argument('-l', '--loglevel', default="info",
+        parser.add_argument('--loglevel', '-l', default="info",
                             help='log level (NYI)')
         parser.add_argument('--maxbars', nargs="?", type=int, default=25,
                             help='max bars on plot (NYI)')
@@ -141,12 +143,12 @@ class PyAMI:
                             help='patterns to search with (NYI); regex may need quoting')
         parser.add_argument('--plot', action="store_false",
                             help='plot params (NYI)')
-        parser.add_argument('-p', '--proj', nargs="+",
+        parser.add_argument('--proj', '-p', nargs="+",
                             help='projects to search; _help will give list')
-        parser.add_argument('-s', '--sect', nargs="+",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
+        parser.add_argument('--sect', '-s', nargs="+",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
                             help='sections to search; _help gives all(?)')
         parser.add_argument('--split', nargs="*",  # split fulltext.xml,
-                            help='split fulltext.xml into sections')
+                            help='split fulltext.* into sections')
         return parser
 
     def run_commands(self, arglist=None):
@@ -291,7 +293,7 @@ class PyAMI:
         if self.args[self.GLOB]:
             self.glob_files()
         if self.args[self.SPLIT]:
-            self.split_xml()
+            self.split_fulltext()
         if self.args[self.APPLY]:
             self.apply_apply()
         if self.args[self.FILTER]:
@@ -311,13 +313,23 @@ class PyAMI:
         self.file_dict = {file: None for file in glob.glob(glob_, recursive=glob_recurse)}
         self.logger.info(f"glob file count {len(self.file_dict)}")
 
-    def split_xml(self):
+    def split_fulltext(self):
         """ split fulltext.xml into sections"""
 
         for file in self.file_dict:
-            xml_libx = XmlLib();
-            doc = xml_libx.read(file)
-            xml_libx.make_sections("sections")
+            suffix = FileLib.get_suffix(file)
+            if ".xml" == suffix:
+                self.make_xml_sections(file)
+            elif ".txt" == suffix:
+                self.make_text_sections(file)
+            else:
+                self.logger.warning(f"no match for suffix: {suffix}")
+
+
+    def make_xml_sections(self, file):
+        xml_libx = XmlLib();
+        doc = xml_libx.read(file)
+        xml_libx.make_sections("sections")
 
     def apply_apply(self):
         """ """
@@ -524,6 +536,16 @@ class PyAMI:
         from shutil import copyfile
 
         proj_dir = os.path.abspath(os.path.join(__file__, "..", "tst", "proj"))
+        print("file", proj_dir, os.path.exists(proj_dir))
+        self.run_commands([
+                        "--proj", proj_dir,
+                        "--glob", "${proj}/*/fulltext.xml",
+                        "--split", "sections",
+                        ])
+
+    def test_split_oil26(self):
+
+        proj_dir = os.path.abspath(os.path.join(__file__, "..", "..", "resources", "oil26"))
         print("file", proj_dir, os.path.exists(proj_dir))
         self.run_commands([
                         "--proj", proj_dir,
@@ -810,9 +832,10 @@ def main():
     pyami = PyAMI()
     # pyami.run_commands(sys.argv[1:])
     # pyami.test_split()
+    pyami.test_split_oil26()
     # pyami.test_glob() # also does sectioning?
     # pyami.test_filter()
-    pyami.test_pdf()
+    # pyami.test_pdf()
 
 
 

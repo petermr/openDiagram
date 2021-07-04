@@ -1,9 +1,0 @@
-0: The dramatic increase in body mass and lifespan in some  Afrotherian lineages, and the relatively constant rate of cancer across species of diverse body sizes ( Abegglen et al., 2015), indicates that those lineages must have also evolved reduced cancer risk.
-1: To infer the magnitude of these reductions we estimated differences in intrinsic cancer risk across extant and ancestral Afrotherians.
-2: Following  Peto, 2015, we estimate the intrinsic cancer risk ( K) as the product of risk associated with body mass and lifespan.
-3: In order to determine ( K) across species and at ancestral nodes (see below), we first estimated ancestral lifespans at each node.
-4: We used Phylogenetic Generalized Least-Square Regression (PGLS) ( Felsenstein, 1985;  Martins and Hansen, 1997), using a Brownian covariance matrix as implemented in the R package  ape ( Paradis and Schliep, 2019), to calculate estimated ancestral lifespans across Atlantogenata using our estimates for body size at each node.
-5: In order to estimate the intrinsic cancer risk of a species, we first inferred lifespans at ancestral nodes using PGLS ( Supplementary file 3) and the model.
-6: Next, we calculated  K1 at all nodes, and then estimated the fold-change in cancer susceptibility between ancestral and descendant nodes ( Figure 2).
-7: Next, in order to calculate  K  1 at all nodes, we used a simplified multistage cancer risk model for body size  D and lifespan  t:  KDt6 ( Peto et al., 1975:  Peto, 2015;  Armitage, 1985;  Armitage and Doll, 2004).
-8: The fold change in cancer risk between a node and its ancestor was then defined as  log2(K2K1).

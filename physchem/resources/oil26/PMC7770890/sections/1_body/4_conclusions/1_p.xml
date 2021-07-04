@@ -1,2 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<p>The direct zoonotic origin (intermediate host) of SARS-CoV-2 that caused the COVID-19 pandemic remains elusive. In this work, we developed a computational pipeline to facilitate the identification of potential intermediate hosts of SARS-CoV-2 by modeling the binding affinity between the SARS-CoV-2 Spike receptor-binding domain and the ACE2 protein of host animals. The effectiveness of this method was verified by its performance at perfectly distinguishing the experimentally determined effective ACE2 receptors from the less effective ones with a maximum Matthews correlation coefficient (MCC) of 1.0. Although the sequence identity-based descriptors have been widely used for predicting intermediate hosts, our results showed that their performance for discriminating between effective and less effective receptors was much worse than the binding-affinity-based approach proposed here by achieving a maximum MCC of 0.73. Our results reveal that SARS-CoV-2 may have a broad host range and a few mammals, especially some primates, rodents, and carnivores, rather than the nonmammal animals could be potential hosts of SARS-CoV-2. Additionally, as a supplementary to our previous pangolin coronavirus genome assembly study, the detailed structural modeling here also supports pangolins as a possible intermediate host with molecular-level insights. Since these animals are likely to be susceptible to SARS-CoV-2, continuous monitoring of viral circulation in them is very important for disease control and wildlife protection efforts.</p>
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML">The direct zoonotic
+origin (intermediate host) of SARS-CoV-2 that
+caused the COVID-19 pandemic remains elusive. In this work, we developed
+a computational pipeline to facilitate the identification of potential
+intermediate hosts of SARS-CoV-2 by modeling the binding affinity
+between the SARS-CoV-2 Spike receptor-binding domain and the ACE2
+protein of host animals. The effectiveness of this method was verified
+by its performance at perfectly distinguishing the experimentally
+determined effective ACE2 receptors from the less effective ones with
+a maximum Matthews correlation coefficient (MCC) of 1.0. Although
+the sequence identity-based descriptors have been widely used for
+predicting intermediate hosts, our results showed that their performance
+for discriminating between effective and less effective receptors
+was much worse than the binding-affinity-based approach proposed here
+by achieving a maximum MCC of 0.73. Our results reveal that SARS-CoV-2
+may have a broad host range and a few mammals, especially some primates,
+rodents, and carnivores, rather than the nonmammal animals could be
+potential hosts of SARS-CoV-2. Additionally, as a supplementary to
+our previous pangolin coronavirus genome assembly study, the detailed
+structural modeling here also supports pangolins as a possible intermediate
+host with molecular-level insights. Since these animals are likely
+to be susceptible to SARS-CoV-2, continuous monitoring of viral circulation
+in them is very important for disease control and wildlife protection
+efforts.</p>

@@ -1,37 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ref id="ref51">
- <mixed-citation publication-type="journal" id="cit51">
-  <name>
-   <surname>Pitti</surname>
-   <given-names>T.</given-names>
-  </name>; 
-  <name>
-   <surname>Chen</surname>
-   <given-names>C.-T.</given-names>
-  </name>; 
-  <name>
-   <surname>Lin</surname>
-   <given-names>H.-N.</given-names>
-  </name>; 
-  <name>
-   <surname>Choong</surname>
-   <given-names>W.-K.</given-names>
-  </name>; 
-  <name>
-   <surname>Hsu</surname>
-   <given-names>W.-L.</given-names>
-  </name>; 
-  <name>
-   <surname>Sung</surname>
-   <given-names>T.-Y.</given-names>
-  </name>
-  <article-title>N-GlyDE: a two-stage N-linked glycosylation site prediction incorporating gapped dipeptides and pattern-based encoding</article-title>. 
-  <source>Sci. Rep.</source>
-  <year>2019</year>, 
-  <volume>9</volume>, 
-  <fpage>1</fpage>–
-  <lpage>11</lpage>. 
-  <pub-id pub-id-type="doi">10.1038/s41598-019-52341-z</pub-id>.
-  <pub-id pub-id-type="pmid">30626917</pub-id>
- </mixed-citation>
-</ref>
+<ref xmlns:mml="http://www.w3.org/1998/Math/MathML" id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Pitti</surname><given-names>T.</given-names></name>; <name><surname>Chen</surname><given-names>C.-T.</given-names></name>; <name><surname>Lin</surname><given-names>H.-N.</given-names></name>; <name><surname>Choong</surname><given-names>W.-K.</given-names></name>; <name><surname>Hsu</surname><given-names>W.-L.</given-names></name>; <name><surname>Sung</surname><given-names>T.-Y.</given-names></name>
+<article-title>N-GlyDE: a two-stage N-linked glycosylation
+site prediction
+incorporating gapped dipeptides and pattern-based encoding</article-title>. <source>Sci. Rep.</source>
+<year>2019</year>, <volume>9</volume>, <fpage>1</fpage>&#8211;<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1038/s41598-019-52341-z</pub-id>.<pub-id pub-id-type="pmid">30626917</pub-id></mixed-citation></ref>

@@ -1,5 +1,6 @@
 import os, glob, copy, json
 import pathlib
+import logging
 
 class Globber:
 
@@ -214,6 +215,7 @@ class BraceGlobber:
 
 class FileLib:
 
+    logger = logging.getLogger("pyami")
     @classmethod
     def force_mkdir(cls, dirx):
         """ensure dirx exists
@@ -223,8 +225,8 @@ class FileLib:
         if not os.path.exists(dirx):
             try:
                 os.mkdir(dirx)
-            except Exception:
-                print(f"cannot make dir {dirx}")
+            except Exception as e:
+                cls.logger.error(f"cannot make dir {dirx} , {e}")
 
     @classmethod
     def force_mkparent(cls, file):
@@ -275,12 +277,41 @@ class FileLib:
             pydict = ast.literal_eval(f.read())
         return pydict
 
+    @classmethod
+    def punct2underscore(cls, text):
+        from text_lib import TextUtil
+
+        """ replace all ASCII punctuation except '.' , '-', '_' by '_'
+
+        for filenames
+
+        """
+        # this is non-trivial https://stackoverflow.com/questions/10017147/removing-a-list-of-characters-in-string
+
+        non_file_punct = '\t {}!@#$%^&*()[]:;\'",|\\~+=/`'
+        # [unicode(x.strip()) if x is not None else '' for x in row]
+
+        text0 = TextUtil.replace_chars(text, non_file_punct, "_")
+        return text0
+
+
+    @classmethod
+    def get_suffix(cls, file):
+        """get suffix
+        INCLUDES the "."
+
+        """
+        _suffix = None if file is None else pathlib.Path(file).suffix
+        return _suffix
+
 
 SECTION_TEMPLATES_JSON = 'section_templates.json'
 templates_json = FileLib.create_absolute_name(SECTION_TEMPLATES_JSON)
 with open(templates_json, 'r') as json_file:
     TEMPLATES = json.load(json_file)
 
+
+# see https://realpython.com/python-pathlib/
 
 def main():
     print("started file_lib")

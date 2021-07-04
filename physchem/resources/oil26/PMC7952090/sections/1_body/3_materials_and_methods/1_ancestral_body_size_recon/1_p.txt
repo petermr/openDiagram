@@ -1,8 +1,0 @@
-0: We first assembled a time-calibrated supertree of Eutherian mammals by combining the time-calibrated molecular phylogeny of  Bininda-Emonds et al., 2007;  Bininda-Emonds et al., 2008 with the time-calibrated total evidence Afrotherian phylogeny from  Puttick and Thomas, 2015.
-1: While the  Bininda-Emonds et al., 2007;  Bininda-Emonds et al., 2008 phylogeny includes 1679 species, only 34 are Afrotherian, and no fossil data are included.
-2: The inclusion of fossil data from extinct species is essential to ensure that ancestral state reconstructions of body mass are not biased by only including extant species.
-3: This can lead to inaccurate reconstructions, for example, if lineages convergently evolved large body masses from a small-bodied ancestor.
-4: In contrast, the total evidence Afrotherian phylogeny of  Puttick and Thomas, 2015 includes 77 extant species and fossil data from 39 extinct species.
-5: Therefore, we replaced the Afrotherian clade in the  Bininda-Emonds et al., 2008 phylogeny with the Afrotherian phylogeny of  Puttick and Thomas, 2015 using Mesquite.
-6: Next, we jointly estimated rates of body mass evolution and reconstructed ancestral states using a generalization of the Brownian motion model that relaxes assumptions of neutrality and gradualism by considering increments to evolving characters to be drawn from a heavy-tailed stable distribution (the Stable Model) implemented in StableTraits ( Elliot and Mooers, 2014).
-7: The stable model allows for large jumps in traits and has previously been shown to outperform other models of body mass evolution, including standard Brownian motion models, OrnsteinUhlenbeck models, early burst maximum likelihood models, and heterogeneous multi-rate models ( Elliot and Mooers, 2014).

@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ref id="bib80">
- <element-citation publication-type="book">
-  <person-group person-group-type="author">
-   <collab>R Development Core Team</collab>
-  </person-group>
-  <year>2019</year>
-  <data-title>
-   <italic>R: A Language and Environment for Statistical Computing</italic>
-  </data-title>
-  <publisher-loc>Vienna, Austria</publisher-loc>
-  <publisher-name>R Foundation for Statistical Computing</publisher-name>
-  <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/" xmlns:xlink="http://www.w3.org/1999/xlink">https://www.R-project.org/</ext-link>
- </element-citation>
-</ref>
+<ref xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="bib80"><element-citation publication-type="book"><person-group person-group-type="author"><collab>R Development Core Team</collab></person-group><year>2019</year><data-title><italic>R: A Language and Environment for Statistical Computing</italic></data-title><publisher-loc>Vienna, Austria</publisher-loc><publisher-name>R Foundation for Statistical Computing</publisher-name><ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link></element-citation></ref>

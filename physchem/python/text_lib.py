@@ -530,6 +530,19 @@ class TextUtil:
         words = [w for w in words if not w.isnumeric()]
         return words
 
+    @classmethod
+    def replace_chars(cls, text, unwanted_chars, replacement):
+        """replaces all chars in unwanted chars with wanted_char
+        
+        :param text: source text
+        :param unwanted_chars: string or list of unwanted characters
+        :param replacement: replacement character
+        :returns modified string
+        """
+        text0 = ''.join([c if c not in unwanted_chars else replacement for c in text])
+        return text0
+
+
 class WordFilter:
 
     # These should really be read from file

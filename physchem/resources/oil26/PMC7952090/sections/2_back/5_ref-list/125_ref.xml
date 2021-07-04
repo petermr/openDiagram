@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ref id="bib125">
- <element-citation publication-type="software">
-  <person-group person-group-type="author">
-   <name>
-    <surname>Yu</surname>
-    <given-names>G</given-names>
-   </name>
-   <name>
-    <surname>Lam</surname>
-    <given-names>TT</given-names>
-   </name>
-  </person-group>
-  <year>2020c</year>
-  <source>Ggtree: An R Package for Visualization of Tree and Annotation Data</source>
-  <ext-link ext-link-type="uri" xlink:href="https://yulab-smu.github.io/treedata-book/" xmlns:xlink="http://www.w3.org/1999/xlink">https://yulab-smu.github.io/treedata-book/</ext-link>
- </element-citation>
-</ref>
+<ref xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="bib125"><element-citation publication-type="software"><person-group person-group-type="author"><name><surname>Yu</surname><given-names>G</given-names></name><name><surname>Lam</surname><given-names>TT</given-names></name></person-group><year>2020c</year><source>Ggtree: An R Package for Visualization of Tree and Annotation Data</source><ext-link ext-link-type="uri" xlink:href="https://yulab-smu.github.io/treedata-book/">https://yulab-smu.github.io/treedata-book/</ext-link></element-citation></ref>

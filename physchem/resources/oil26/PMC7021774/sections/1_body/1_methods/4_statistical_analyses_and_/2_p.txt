@@ -1,7 +1,0 @@
-0: Genome-wide association scans (GWAS) using the AM panel were undertaken using the Efficient Mixed-Model Association algorithm (Kang et al.
-1: 2008) using a compressed mixed linear model that includes both fixed and random effects (Zhang et al.
-2: 2010), implemented with the Genome Association and Prediction Integrated Tool (GAPIT) package (Lipka et al.
-3: 2012) in R (R Core Team  2013).
-4: Genetic stratification in the population was corrected for using a kinship matrix constructed in GAPIT derived from a subset of SNPs skimmed from the complete set using an  r2 threshold > 0.75.
-5: Further GWAS analysis was undertaken using selected markers as co-factors in the analysis, following the guidelines in the GAPIT manual.
-6: A Bonferroni-adjusted  P = 0.01 (log 10P = 6.35) significance threshold was used.

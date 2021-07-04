@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ref id="ref34">
- <mixed-citation publication-type="journal" id="cit34">
-  <name>
-   <surname>Huang</surname>
-   <given-names>X.</given-names>
-  </name>; 
-  <name>
-   <surname>Pearce</surname>
-   <given-names>R.</given-names>
-  </name>; 
-  <name>
-   <surname>Zhang</surname>
-   <given-names>Y.</given-names>
-  </name>
-  <article-title>FASPR: an open-source tool for fast and accurate protein side-chain packing</article-title>. 
-  <source>Bioinformatics</source>
-  <year>2020</year>, 
-  <volume>36</volume>, 
-  <fpage>3758</fpage>–
-  <lpage>3765</lpage>. 
-  <pub-id pub-id-type="doi">10.1093/bioinformatics/btaa234</pub-id>.
-  <pub-id pub-id-type="pmid">32259206</pub-id>
- </mixed-citation>
-</ref>
+<ref xmlns:mml="http://www.w3.org/1998/Math/MathML" id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Huang</surname><given-names>X.</given-names></name>; <name><surname>Pearce</surname><given-names>R.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>
+<article-title>FASPR: an open-source tool for fast
+and accurate protein side-chain packing</article-title>. <source>Bioinformatics</source>
+<year>2020</year>, <volume>36</volume>, <fpage>3758</fpage>&#8211;<lpage>3765</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btaa234</pub-id>.<pub-id pub-id-type="pmid">32259206</pub-id></mixed-citation></ref>

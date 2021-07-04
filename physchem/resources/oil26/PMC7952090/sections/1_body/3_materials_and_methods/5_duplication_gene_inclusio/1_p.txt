@@ -1,6 +1,0 @@
-0: In order to condense transcript-level hits into single gene loci, and to resolve many-to-one genome mappings, we removed exons where transcripts from different genes overlapped, and merged overlapping transcripts of the same gene into a single gene locus call.
-1: The resulting gene-level copy number table was then combined with the maximum ECNC values observed for each gene in order to call gene duplications.
-2: We called a gene duplicated if its copy number was two or more, and if the maximum ECNC value of all the gene transcripts searched was 1.5 or greater; previous studies have shown that incomplete duplications can encode functional genes ( Sulak et al., 2016;  Vazquez et al., 2018), therefore partial gene duplications were included provided they passed additional inclusion criteria (see below).
-3: The ECNC cut-off of 1.5 was selected empirically, as this value minimized the number of false positives seen in a test set of genes and genomes.
-4: The results of our initial search are summarized in  Figure 3A.
-5: Overall, we identified 13,880 genes across all species, or 77.1% of our starting query genes.

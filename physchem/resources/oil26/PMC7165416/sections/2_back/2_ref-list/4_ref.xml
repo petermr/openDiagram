@@ -1,23 +1,2 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ref id="r5">
- <label>5</label>
- <mixed-citation publication-type="journal">
-  <person-group person-group-type="author">
-   <name name-style="western">
-    <surname>Yokoyama</surname>
-    <given-names>S.</given-names>
-   </name>, 
-   <name name-style="western">
-    <surname>Radlwimmer</surname>
-    <given-names>F. B.</given-names>
-   </name>
-  </person-group>, 
-  <article-title>The molecular genetics and evolution of red and green color vision in vertebrates</article-title>. 
-  <source>Genetics</source>
-  <volume>158</volume>, 
-  <fpage>1697</fpage>–
-  <lpage>1710</lpage> (
-  <year>2001</year>).
-  <pub-id pub-id-type="pmid">11545071</pub-id>
- </mixed-citation>
-</ref>
+<ref xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="r5"><label>5</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yokoyama</surname><given-names>S.</given-names></name>, <name name-style="western"><surname>Radlwimmer</surname><given-names>F. B.</given-names></name></person-group>, <article-title>The molecular genetics and evolution of red and green color vision in vertebrates</article-title>. <source>Genetics</source>
+<volume>158</volume>, <fpage>1697</fpage>&#8211;<lpage>1710</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11545071</pub-id></mixed-citation></ref>

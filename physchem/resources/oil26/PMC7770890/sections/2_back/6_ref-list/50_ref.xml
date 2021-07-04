@@ -1,41 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ref id="ref50">
- <mixed-citation publication-type="journal" id="cit50">
-  <name>
-   <surname>Chuang</surname>
-   <given-names>G.-Y.</given-names>
-  </name>; 
-  <name>
-   <surname>Boyington</surname>
-   <given-names>J. C.</given-names>
-  </name>; 
-  <name>
-   <surname>Joyce</surname>
-   <given-names>M. G.</given-names>
-  </name>; 
-  <name>
-   <surname>Zhu</surname>
-   <given-names>J.</given-names>
-  </name>; 
-  <name>
-   <surname>Nabel</surname>
-   <given-names>G. J.</given-names>
-  </name>; 
-  <name>
-   <surname>Kwong</surname>
-   <given-names>P. D.</given-names>
-  </name>; 
-  <name>
-   <surname>Georgiev</surname>
-   <given-names>I.</given-names>
-  </name>
-  <article-title>Computational prediction of N-linked glycosylation incorporating structural properties and patterns</article-title>. 
-  <source>Bioinformatics</source>
-  <year>2012</year>, 
-  <volume>28</volume>, 
-  <fpage>2249</fpage>–
-  <lpage>2255</lpage>. 
-  <pub-id pub-id-type="doi">10.1093/bioinformatics/bts426</pub-id>.
-  <pub-id pub-id-type="pmid">22782545</pub-id>
- </mixed-citation>
-</ref>
+<ref xmlns:mml="http://www.w3.org/1998/Math/MathML" id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Chuang</surname><given-names>G.-Y.</given-names></name>; <name><surname>Boyington</surname><given-names>J. C.</given-names></name>; <name><surname>Joyce</surname><given-names>M. G.</given-names></name>; <name><surname>Zhu</surname><given-names>J.</given-names></name>; <name><surname>Nabel</surname><given-names>G. J.</given-names></name>; <name><surname>Kwong</surname><given-names>P. D.</given-names></name>; <name><surname>Georgiev</surname><given-names>I.</given-names></name>
+<article-title>Computational prediction of N-linked
+glycosylation incorporating structural properties and patterns</article-title>. <source>Bioinformatics</source>
+<year>2012</year>, <volume>28</volume>, <fpage>2249</fpage>&#8211;<lpage>2255</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/bts426</pub-id>.<pub-id pub-id-type="pmid">22782545</pub-id></mixed-citation></ref>

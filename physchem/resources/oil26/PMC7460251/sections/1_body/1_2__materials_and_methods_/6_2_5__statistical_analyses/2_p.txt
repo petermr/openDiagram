@@ -1,7 +1,0 @@
-0: We analyzed the outcome variables using generalized linear mixed models (GLMM) in SPSS v. 25 (IBM Corporation, Armonk, NY, USA).
-1: In the past, the aardvarks behavioral patterns varied in different habitats [ 22].
-2: To control for this variation, we used habitat as part of a random slope term that also included individual identity and either the seven specific enrichment items or the two stated goals of the enrichment (i.e., foraging or exploring).
-3: We then modeled each target variable twice to match the corresponding slope: once including fixed factors for enrichment item and once including fixed factors for stated goal.
-4: All model building was conducted in a top-down manner, removing non-significant fixed factors, and re-running the model until only significant fixed factors remained.
-5: However, we always retained either enrichment goal or specific enrichment item as fixed factors in the models because they pertained to our main study questions.
-6: We calculated degrees of freedom for all models using a Satterthwaite approximation.

@@ -1,9 +1,0 @@
-0: Before binding energy calculation, each Modeller complex model was first repacked using FASPR 34 to eliminate rotamer outliers and then the interface residue side-chain conformations were thoroughly refined (both for ACE2 and S-RBD) using the EvoEF2 force field in conjunction with a simulated annealing Monte Carlo (SAMC) optimization procedure, 35,  36 which was also utilized for anti-SARS-CoV-2 peptide design.
-1: 37 During the side-chain refinement process, both the ACE2 and S-RBD sequences were kept fixed, while the different rotameric side-chain conformations were sampled.
-2: Since a stochastic SAMC optimization procedure was used, obtaining the global energy minimum may not always be guaranteed.
-3: Therefore, the optimization of the interface residues was performed five times independently to generate five refined low-energy models.
-4: Hence, for each ACE2/S-RBD pair, 500 final models were generated and scored using EvoEF2.
-5: 35 The minimum binding interaction score achieved among all 500 complex models was regarded as the binding energy.
-6: The error bar of binding energy was estimated using bootstrapping.
-7: Specifically, in each step of bootstrapping, we performed a subsample with replacement for 500 data points from the original data set of 500 binding scores, and calculated the ensemble statistics (minimum in this case) for the subsampled data.
-8: The bootstrap steps were repeated for 1000 times to get 1000 minimum binding scores, and the standard deviation of these 1000 minimum values was taken as the length of error bar.

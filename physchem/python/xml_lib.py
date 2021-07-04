@@ -127,7 +127,7 @@ class XmlLib:
         # self.logger.debug(" " * indent, filename)
         # subdir = os.path.join(self.section_dir, filename)
         # FileLib.force_mkdir(subdir)
-        self.list_children(self.root, self.section_dir)
+        self.make_descendant_tree(self.root, self.section_dir)
         self.logger.info(f"wrote XML sections for {self.file} {self.section_dir}")
 
     @staticmethod
@@ -151,7 +151,7 @@ class XmlLib:
             FileLib.force_mkdir(self.section_path)
         return self.section_path
 
-    def list_children(self, elem, outdir):
+    def make_descendant_tree(self, elem, outdir):
         if elem.tag in TERMINALS:
             print("skipped ",elem.tag)
             return
@@ -179,7 +179,7 @@ class XmlLib:
 
             if flag == IGNORE:
                 title = flag + title
-            filename = str(isect) + "_" + title.lower()[:self.max_file_len]
+            filename = str(isect) + "_" + FileLib.punct2underscore(title).lower()[:self.max_file_len]
 
             if flag == TERMINAL:
                 xml_string = LXET.tostring(child)
@@ -195,11 +195,12 @@ class XmlLib:
                 FileLib.force_mkdir(subdir) # creates empty dir, may be bad idea
                 if flag == "":
                     self.logger.debug(f">> {title} {child}")
-                    self.list_children(child, subdir)
+                    self.make_descendant_tree(child, subdir)
             isect += 1
 
     @staticmethod
     def get_sec_title(sec):
+        from file_lib import FileLib
         title = None
         for elem in list(sec):
             if elem.tag == TITLE:
@@ -207,12 +208,12 @@ class XmlLib:
                 break
 
         if title is None:
-            if sec.xml_file is None:
-                title = "EMPTY"
+            # don't know where the 'xml_file' comes from...
+            if not hasattr(sec, "xml_file"):
+                title = "UNKNOWN"
             else:
-                title = "?_"+ str(sec.xml_file[:20])
-        title = title.replace(" ", "_")
-        logging.debug("type", type(title))
+                title = "?_"+ str(sec["xml_file"][:20])
+        title = FileLib.punct2underscore(title)
         return title
 
     @staticmethod

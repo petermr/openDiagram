@@ -1,5 +1,0 @@
-0: We manually verified the coding potential of the 16 genes shown in  Figure 4 by first identifying the reciprocal best (DNA sequence) BLAT hits in the elephant and manatee genomes, which allowed us to determine conservation and presence of premature stop codons in the each open reading frame (ORF).
-1: We translated the ORF for each hit into amino acid sequences and grouped up hits for each gene into one FASTA file along with the UniProt protein sequences for the human, dog, cat, and cow orthologs.
-2: Using a pipeline hosted at NGPhlyogeny.fr ( Lemoine et al., 2019), the homologs were aligned using MAFFT  Katoh and Standley, 2013; the aligned sequences were cleaned using BMGE ( Criscuolo and Gribaldo, 2010).
-3: Finally we used FastME ( Lefort et al., 2015) to infer a gene tree for each duplicate.
-4: Alignments were then visually inspected for conservation and presence of premature stop codons.

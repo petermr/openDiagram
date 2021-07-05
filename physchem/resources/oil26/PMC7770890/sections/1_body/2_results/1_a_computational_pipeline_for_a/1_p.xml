@@ -1,0 +1,18 @@
+<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Since
+SARS-CoV-2 utilizes ACE2 to invade host cells, ACE2 usage is considered
+to be an important determinant of infectivity and host range.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup> To examine the ACE2 usage by SARS-CoV-2, we developed a pipeline
+to model the binding energy between S-RBD and host ACE2 (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). We hypothesized
+that an effective ACE2 receptor should exhibit a low binding energy
+(or equivalently, a high affinity) while a poor receptor should have
+a high binding energy. A total of 321 ACE2 orthologs were collected
+from NCBI, and 285 of them were analyzed in detail after discarding
+36 defective sequences (see <xref rid="sec2" ref-type="other">Materials and Methods</xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.0c00717/suppl_file/pr0c00717_si_001.pdf">Supplementary Tables S1, S2, and S3</ext-link>). Homologous structure models were built by Modeller<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> using the crystal structure of the hACE2/S-RBD
+complex (PDB ID: 6M0J)<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> as a template. Each initial complex
+model was then optimized using FASPR<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> and
+EvoEF2<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> to generate structure ensembles
+for binding energy calculation (see <xref rid="sec2" ref-type="other">Materials and
+Methods</xref>). The ACE2 that achieved a binding energy below a given
+cutoff was suggested to be an effective receptor for SARS-CoV-2. During
+structure modeling and binding energy calculation, the N-glycosylation
+on ACE2 and S-RBD was ignored because current methods are not well
+adapted for modeling glycosylated amino acids.</p>

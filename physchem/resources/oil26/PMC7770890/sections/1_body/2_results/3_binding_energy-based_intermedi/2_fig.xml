@@ -1,0 +1,11 @@
+<fig xmlns:mml="http://www.w3.org/1998/Math/MathML" id="fig2" position="float"><label>Figure 2</label><caption><p>Mapping
+the calculated binding energy to 285 vertebrates. The ACE2
+proteins are categorized by their animal Class (<italic>Actinopterygii</italic>, <italic>Amphibia</italic>, <italic>Aves</italic>, <italic>Chondrichthyes</italic>, <italic>Mammalia</italic>, <italic>Reptilia</italic>, and <italic>Sarcopterygii</italic>) and ranked by the binding energy from low
+to high in each Class. The ACE2 proteins that are experimentally shown
+to be effective or less effective to SARS-CoV-2 are shown in blue
+and orange circles, respectively, while the others are shown in gray
+circles. Susceptible and insusceptible animals are highlighted in
+blue and orange, respectively. The error bars were estimated via bootstrapping
+by subsampling with replacement for 500 data points from the original
+data set of 500 binding scores for each species; the bootstrap steps
+were repeated for 1000 times.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr0c00717_0002" id="gr2" position="float"/></fig>

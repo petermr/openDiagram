@@ -288,7 +288,7 @@ class FileLib:
         """
         # this is non-trivial https://stackoverflow.com/questions/10017147/removing-a-list-of-characters-in-string
 
-        non_file_punct = '\t {}!@#$%^&*()[]:;\'",|\\~+=/`'
+        non_file_punct = '\t \n{}!@#$%^&*()[]:;\'",|\\~+=/`'
         # [unicode(x.strip()) if x is not None else '' for x in row]
 
         text0 = TextUtil.replace_chars(text, non_file_punct, "_")

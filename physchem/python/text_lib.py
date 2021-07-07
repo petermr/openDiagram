@@ -1,11 +1,10 @@
-import nltk, unicodedata
 import os
 import glob
 import logging
 from file_lib import AmiPath
 from bs4 import BeautifulSoup
 from collections import Counter
-
+import nltk, unicodedata
 import xml.etree.ElementTree as ET
 import re
 
@@ -714,6 +713,7 @@ class WordFilter:
 
 
 def main():
+    import lxml
     print("started text_lib")
 #    ProjectCorpus.test(CCT_PROJ)
 #    ProjectCorpus.test(LIION_PROJ)

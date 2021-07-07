@@ -1,5 +1,5 @@
 # from xml.etree import ElementTree as ET
-from lxml import etree as LXET, etree
+from lxml import etree as LXET
 import os
 from file_lib import FileLib
 from pathlib import Path
@@ -121,10 +121,7 @@ class XmlLib:
             self.root = XmlLib.parse_xml_file_to_root(file)
 
     def make_sections(self, section_dir):
-<<<<<<< HEAD
         """recursively traverse XML tree and write files for each terminal element"""
-=======
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         self.section_dir = self.make_sections_path(section_dir)
         # indent = 0
         # filename = "1" + "_" + self.root.tag
@@ -136,10 +133,7 @@ class XmlLib:
 
     @staticmethod
     def parse_xml_file_to_root(file):
-<<<<<<< HEAD
         """read xml file and create root element"""
-=======
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         if not os.path.exists(file):
             raise IOError("file does not exist", file)
         xmlp = LXET.XMLParser(encoding=UTF_8)
@@ -149,12 +143,9 @@ class XmlLib:
 
     @staticmethod
     def parse_xml_string_to_root(xml):
-<<<<<<< HEAD
         """read xml string and parse to root element"""
-=======
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         from io import StringIO, BytesIO
-        tree = etree.parse(StringIO(xml), LXET.XMLParser(ns_clean=True))
+        tree = LXET.parse(StringIO(xml), LXET.XMLParser(ns_clean=True))
         return tree.getroot()
 
     def make_sections_path(self, section_dir):
@@ -235,38 +226,32 @@ class XmlLib:
 
     @staticmethod
     def get_or_create_child(parent, tag):
-        from lxml import etree
+        from lxml import etree as LXET
         child = None
         if parent is not None:
             child = parent.find(tag)
             if child is None:
-                child = etree.SubElement(parent, tag)
+                child = LXET.SubElement(parent, tag)
         return child
 
     @staticmethod
     def add_UTF8(html_root):
-<<<<<<< HEAD
         """adds UTF8 declaration to root
 
         """
-=======
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
-        from lxml import etree
+        from lxml import etree as LXET
         root = html_root.get_or_create_child(html_root, "head")
-        etree.SubElement(root, "meta").attrib["charset"] = "UTF-8"
+        LXET.SubElement(root, "meta").attrib["charset"] = "UTF-8"
 
     # replace nodes with text
     @staticmethod
     def replace_nodes_with_text(data, xpath, replacement):
-<<<<<<< HEAD
         """replace nodes with specific text
 
         """
-=======
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
-        from lxml import etree
+        from lxml import etree as LXET
         print(data, xpath, replacement)
-        tree = etree.fromstring(data)
+        tree = LXET.fromstring(data)
         for r in tree.xpath(xpath):
             print("r", r, replacement, r.tail)
             text = replacement
@@ -289,16 +274,16 @@ class XmlLib:
         :xml_string: string to be flattened
         :returns: flattened string
         """
-        tree = etree.fromstring(xml_string.encode("utf-8"))
-        strg = etree.tostring(tree, encoding='utf8', method='text').decode("utf-8")
+        tree = LXET.fromstring(xml_string.encode("utf-8"))
+        strg = LXET.tostring(tree, encoding='utf8', method='text').decode("utf-8")
         return strg
 
     @classmethod
     def xslt_transform(cls, data, xslt_file):
-        xslt_root = etree.parse(xslt_file)
-        transform = etree.XSLT(xslt_root)
+        xslt_root = LXET.parse(xslt_file)
+        transform = LXET.XSLT(xslt_root)
         print("XSLT log", transform.error_log)
-        result_tree = transform(etree.fromstring(data))
+        result_tree = transform(LXET.fromstring(data))
         assert(not result_tree is None)
         root = result_tree.getroot()
         assert(root is not None)
@@ -308,7 +293,7 @@ class XmlLib:
     @classmethod
     def xslt_transform_tostring(cls, data, xslt_file):
         root = cls.xslt_transform(data, xslt_file)
-        return etree.tostring(root).decode("UTF-8") if root is not None else None
+        return LXET.tostring(root).decode("UTF-8") if root is not None else None
 
     def test_recurse_sections(self):
 #        / Users / pm286 / projects / openDiagram / physchem / resources / oil26 / PMC4391421 / fulltext.xml
@@ -424,7 +409,7 @@ class DataTable:
             for row in rowdata:
                 self.add_row_old(row)
 
-    def add_row_old(self, row: [str]) -> etree.Element:
+    def add_row_old(self, row: [str]) -> LXET.Element:
         """ creates new <tr> in <tbody>
         creates <td> child elements of row containing string values
 

@@ -3,10 +3,7 @@ import sys
 import os
 from file_lib import FileLib
 from xml_lib import XmlLib
-<<<<<<< HEAD
 from text_lib import TextUtil
-=======
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
 from pdfreader import PdfReader
 import pprint
 
@@ -28,7 +25,6 @@ class PyAMI:
     RECURSE       = "recurse"
     SECT          = "sect"
     SPLIT         = "split"
-<<<<<<< HEAD
     # apply methods 1:1 input-output
     PDF2TXT       = "pdf2txt"
     TXT2SENT      = "txt2sent"
@@ -38,12 +34,6 @@ class PyAMI:
     # split methods 1:n input-output
     TXT2PARA      = "txt2para"
     XML2SECT      = "xml2sect"
-=======
-    # methods
-    PDF2TXT       = "pdf2txt"
-    XML2TXT       = "xml2txt"
-    CONCAT_STR    = "concat_str"
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
     # assertions
     FILE_EXISTS   = "file_exists"
     # symbols to update table
@@ -117,30 +107,22 @@ class PyAMI:
 
     def set_funcs(self):
         """ """
-<<<<<<< HEAD
         # 1:1 methods
         self.func_dict[self.XML2TXT] = XmlLib.remove_all_tags
         self.func_dict[self.PDF2TXT] = PdfReader.read_and_convert
         self.func_dict[self.TXT2SENT] = TextUtil.split_into_sentences
         # 1:n methods
 
-=======
-        self.func_dict[self.XML2TXT] = XmlLib.remove_all_tags
-        self.func_dict[self.PDF2TXT] = PdfReader.read_and_convert
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
 
     def create_arg_parser(self):
         """creates adds the arguments for pyami commandline"""
         import argparse
         parser = argparse.ArgumentParser(description='Search sections with dictionaries and patterns')
-<<<<<<< HEAD
+        # apply_choices = [self.PDF2TXT, self.TXT2SENT, self.XML2TXT]
+        # print("ch", apply_choices)
         parser.add_argument('--apply', nargs="+",
-                            choices=f"[{self.PDF2TXT}, {self.TXT2SENT}, {self.XML2TXT}]",
+                            choices=['pdf2txt','txt2sent','xml2txt'],
                             help='list of sequential transformations to apply to pipeline ({self.TXT2SENT} NYI)')
-=======
-        parser.add_argument('--apply', nargs="+", choices="[xml2txt, pdf2txt]",
-                            help='list of sequential transformations to apply to pipeline')
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         parser.add_argument('--assert', nargs="+",
                             help='assertions; failure gives error message (prototype)')
         parser.add_argument('--combine', nargs=1,
@@ -178,13 +160,8 @@ class PyAMI:
                             help='projects to search; _help will give list')
         parser.add_argument('--sect', '-s', nargs="+",  # default=[AmiSection.INTRO, AmiSection.RESULTS],
                             help='sections to search; _help gives all(?)')
-<<<<<<< HEAD
-        parser.add_argument('--split', nargs="+", choices=f"[{self.TXT2PARA}, {self.XML2SECT}xml2sect]", # split fulltext.xml,
+        parser.add_argument('--split', nargs="+", choices=['txt2para','xml2sect'], # split fulltext.xml,
                             help='split fulltext.* into paras, sections')
-=======
-        parser.add_argument('--split', nargs="*",  # split fulltext.xml,
-                            help='split fulltext.* into sections')
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         return parser
 
     def run_commands(self, arglist=None):
@@ -326,7 +303,6 @@ class PyAMI:
             self.logger.error("requires proj")
             return
         self.proj = self.args[self.PROJ]
-<<<<<<< HEAD
         self.logger.debug(f"ARGS {self.args}")
         if self.args[self.GLOB]:
             self.glob_files()
@@ -334,14 +310,6 @@ class PyAMI:
             self.split(self.args.get(self.SPLIT))
         if self.args[self.APPLY]:
             self.apply_func(self.args.get(self.APPLY))
-=======
-        if self.args[self.GLOB]:
-            self.glob_files()
-        if self.args[self.SPLIT]:
-            self.split_fulltext()
-        if self.args[self.APPLY]:
-            self.apply_apply()
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         if self.args[self.FILTER]:
             self.filter_file()
         if self.args[self.COMBINE]:
@@ -359,24 +327,14 @@ class PyAMI:
         self.file_dict = {file: None for file in glob.glob(glob_, recursive=glob_recurse)}
         self.logger.info(f"glob file count {len(self.file_dict)}")
 
-<<<<<<< HEAD
     def split(self, type):
-=======
-    def split_fulltext(self):
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         """ split fulltext.xml into sections"""
 
         for file in self.file_dict:
             suffix = FileLib.get_suffix(file)
-<<<<<<< HEAD
             if ".xml" == suffix or type==self.XML2SECT:
                 self.make_xml_sections(file)
             elif ".txt" == suffix or type == self.TXT2PARA:
-=======
-            if ".xml" == suffix:
-                self.make_xml_sections(file)
-            elif ".txt" == suffix:
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
                 self.make_text_sections(file)
             else:
                 self.logger.warning(f"no match for suffix: {suffix}")
@@ -384,7 +342,6 @@ class PyAMI:
 
     def make_xml_sections(self, file):
         xml_libx = XmlLib();
-<<<<<<< HEAD
         xml_libx.logger.setLevel(logging.DEBUG)
         doc = xml_libx.read(file)
         xml_libx.make_sections("sections")
@@ -417,24 +374,6 @@ class PyAMI:
         unicodedata.normalize('NFKC', unistr)
         pass
 
-=======
-        doc = xml_libx.read(file)
-        xml_libx.make_sections("sections")
-
-    def apply_apply(self):
-        """ """
-        self.read_file_content()
-        apply = self.args.get(self.APPLY)
-        if apply :
-            self.logger.info(f"apply {apply}")
-            func = self.func_dict[apply]
-            if (func is None):
-                self.logger.error(f"Cannot find func for {apply}")
-            else:
-                # apply data is stored in sewlf.file_dict
-                self.apply_to_file_content(func)
-
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
     def filter_file(self):
         filter_expr = self.args[self.FILTER]
         files = set()
@@ -473,7 +412,6 @@ class PyAMI:
                 self.lazy_read_binary_file(file)
             elif file.endswith(".png"):
                 self.read_binary_content(file)
-<<<<<<< HEAD
             elif file.endswith(".txt"):
                 self.read_string_content(file, to_str=False)
             else:
@@ -486,10 +424,6 @@ class PyAMI:
 
         """
         data = None
-=======
-
-    def read_string_content(self, file, to_str):
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         with open(file, "r", encoding="utf-8") as f:
             try:
                 data = f.read()
@@ -498,10 +432,7 @@ class PyAMI:
                 self.file_dict[file] = data
             except UnicodeDecodeError as ude:
                 self.logger.error(f"skipped decoding error {ude}")
-<<<<<<< HEAD
         return data
-=======
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
 
     def lazy_read_binary_file(self, file):
         self.file_dict[file] = file
@@ -548,18 +479,12 @@ class PyAMI:
             data = self.file_dict[file]
             parent = FileLib.get_parent_dir(file)
             new_outfile = os.path.join(parent, self.outfile)
-<<<<<<< HEAD
             if not isinstance(data, list):
                 data = list(data)
             with open(new_outfile, "w", encoding="utf-8") as f:
                 self.logger.warning(f"wrote results {new_outfile}")
                 # for d in data:
                 f.write(f"{str(data)}")
-=======
-            with open(new_outfile, "w", encoding="utf-8") as f:
-                self.logger.warning(f"wrote results {new_outfile}")
-                f.write(data)
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
 
     def write_single_result(self):
         FileLib.force_write(self.outfile, self.result, overwrite=True)
@@ -651,21 +576,17 @@ class PyAMI:
 # whihc expands to
 # python physchem/python/pyami.py --apply xml2txt --combine concat_str --dict '/Users/pm286/projects/CEVOpen/dictionary/eoPlant/eo_plant.xml' '/Users/pm286/dictionary/openvirus20210120/country/country.xml' --glob '/Users/pm286/projects/openDiagram/physchem/resources/oil26/**/sections/**/*abstract.xml' --outfile '/Users/pm286/projects/openDiagram/physchem/resources/oil26/files/shweata_1.txt' --proj '/Users/pm286/projects/openDiagram/physchem/resources/oil26'
 
-<<<<<<< HEAD
     def test_split_sections(self):
         from shutil import copyfile
         self.logger.loglevel = logging.DEBUG
-=======
     def test_split(self):
         from shutil import copyfile
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
 
         proj_dir = os.path.abspath(os.path.join(__file__, "..", "tst", "proj"))
         print("file", proj_dir, os.path.exists(proj_dir))
         self.run_commands([
                         "--proj", proj_dir,
                         "--glob", "${proj}/*/fulltext.xml",
-<<<<<<< HEAD
                         "--split", "xml2sect",
                         ])
 
@@ -690,11 +611,9 @@ class PyAMI:
         self.run_commands([
                         "--proj", proj_dir,
                         "--glob", "${proj}/*/fulltext.pd.txt",
-                        "--apply", "txt2sent",
+                        # "--apply", "txt2sent",
                         "--outfile", "fulltext.pd.sn.txt",
-=======
-                        "--split", "sections",
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
+                        "--split", "txt2para",
                         ])
 
     def test_split_oil26(self):
@@ -704,7 +623,7 @@ class PyAMI:
         self.run_commands([
                         "--proj", proj_dir,
                         "--glob", "${proj}/*/fulltext.xml",
-                        "--split", "sections",
+                        "--split", "xml2sect",
                         ])
 
     def test_filter(self):
@@ -733,11 +652,7 @@ class PyAMI:
                         "--apply", "pdf2txt",
                         # "--filter", "contains(cell)",
                         # "--combine", "concat_str",
-<<<<<<< HEAD
-                        "--outfile", "fulltext.p.txt"
-=======
-                        "--outfile", "fulltext.pdf.txt"
->>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
+                        "--outfile", "fulltext.pd.txt"
                         ])
 
 
@@ -749,11 +664,14 @@ class SymbolIni:
     CONFIG = "config"
     PYAMI = "PYAMI"
     PRIMITIVES = ["<class 'int'>", "<class 'bool'>", "<class 'float'>"]
+    LOGDIR = "logs"  # maybe need to change this
 
     logger = None
 
     def __init__(self, pyami):
-        self.logger = PyAMI.set_logger("symbol_ini", logger_level=logging.INFO, log_file="logs/symbol_ini.log")
+        FileLib.force_mkdir(self.LOGDIR)
+        self.logger = PyAMI.set_logger(
+            "symbol_ini", logger_level=logging.INFO, log_file=os.path.join(self.LOGDIR, "symbol_ini.log"))
         self.symbols = None
         self.pyami = pyami
         pyami.symbol_ini = self
@@ -988,15 +906,15 @@ def main():
     print(f"\n============== running pyami main ===============\n{sys.argv[1:]}")
     # this needs commandline
     pyami = PyAMI()
-    # pyami.run_commands(sys.argv[1:])
-    # pyami.test_split()
-    # pyami.test_split_oil26()
-    # pyami.test_split_sentences()
+    pyami.run_commands(sys.argv[1:])
+    pyami.test_split()
+    pyami.test_split_oil26()
+    pyami.test_split_sentences()
     pyami.test_split_paras()
     pyami.test_split_oil26()
-    # pyami.test_glob() # also does sectioning?
-    # pyami.test_filter()
-    # pyami.test_pdf()
+    pyami.test_glob() # also does sectioning?
+    pyami.test_filter()
+    pyami.test_pdf()
 
 
 

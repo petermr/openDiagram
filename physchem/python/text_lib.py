@@ -1,6 +1,7 @@
 import nltk, unicodedata
 import os
 import glob
+import logging
 from file_lib import AmiPath
 from bs4 import BeautifulSoup
 from collections import Counter
@@ -439,6 +440,7 @@ class Sentence:
 
 class TextUtil:
 
+    logger = logging.getLogger("text_util")
     @staticmethod
     def strip_xml_tags(text):
         soup = BeautifulSoup(text, "xml")
@@ -454,8 +456,8 @@ class TextUtil:
         """remove all tags in XML
 
         replace all tags by spaces. We may later wish to exclude some names tags (e.g. <sup>)
-        xml_string: XML in serialized form
-        return flattened string with spaces replacing tags
+        :param xml_string: XML in serialized form
+        :returns: flattened string with spaces replacing tags
         """
         #remove tags
         untagged_text = str.join(" ", list(ET.fromstring(xml_string).itertext()))
@@ -542,6 +544,73 @@ class TextUtil:
         text0 = ''.join([c if c not in unwanted_chars else replacement for c in text])
         return text0
 
+    @classmethod
+    def split_into_sentences(cls, text, method="Spacy"):
+        """ splits a paragraph into sentences
+
+        uses nltk sent_tokenize
+        :param text: para to split
+        :returns: list of sentences (empty list for null or empty input)
+        """
+        sentences = []
+        if text:
+            sentences = nltk.sent_tokenize(text)
+            for sent in sentences[:10]:
+                print(">>", sent)
+        return sentences
+
+    @classmethod
+    def split_at_empty_newline(cls, text):
+        """create a new section at each empty newlines
+
+        leading newline is ignored
+        trailing whitspace is trimmed
+
+        Example:
+        foo
+        bar
+
+        baz
+
+
+        boodle
+
+        will give:
+        ['foo\nbar', 'baz', '', `boodle`]
+        trailing newlines are consumed.
+        final newline?[EOF] is consumed
+
+        """
+        # trim leading newline
+        if text[0] == "\n":
+            text = text[1:]
+        lines = text.split('\n')
+        sects = []
+        sect = []
+        for line in lines:
+            line = line.rstrip()
+            if line == '':
+                sects.append(sect)
+                sect = []
+            else:
+                sect.append(line)
+        if len(sect) > 0:
+            sects.append(sect)
+        return sects
+
+    @classmethod
+    def test_split_at_empty_newline(cls):
+        text = """
+foo
+bar
+
+baz
+
+
+boodle
+        """
+        lines = cls.split_at_empty_newline(text)
+        assert(str(lines) == "[['foo', 'bar'], ['baz'], [], ['boodle']]")
 
 class WordFilter:
 
@@ -648,6 +717,8 @@ def main():
     print("started text_lib")
 #    ProjectCorpus.test(CCT_PROJ)
 #    ProjectCorpus.test(LIION_PROJ)
+#     ProjectCorpus.test_oil()
+    TextUtil.test_split_at_empty_newline()
     ProjectCorpus.test_oil()
     print("finished text_lib")
 

@@ -121,6 +121,10 @@ class XmlLib:
             self.root = XmlLib.parse_xml_file_to_root(file)
 
     def make_sections(self, section_dir):
+<<<<<<< HEAD
+        """recursively traverse XML tree and write files for each terminal element"""
+=======
+>>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         self.section_dir = self.make_sections_path(section_dir)
         # indent = 0
         # filename = "1" + "_" + self.root.tag
@@ -132,6 +136,10 @@ class XmlLib:
 
     @staticmethod
     def parse_xml_file_to_root(file):
+<<<<<<< HEAD
+        """read xml file and create root element"""
+=======
+>>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         if not os.path.exists(file):
             raise IOError("file does not exist", file)
         xmlp = LXET.XMLParser(encoding=UTF_8)
@@ -141,6 +149,10 @@ class XmlLib:
 
     @staticmethod
     def parse_xml_string_to_root(xml):
+<<<<<<< HEAD
+        """read xml string and parse to root element"""
+=======
+>>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         from io import StringIO, BytesIO
         tree = etree.parse(StringIO(xml), LXET.XMLParser(ns_clean=True))
         return tree.getroot()
@@ -233,6 +245,12 @@ class XmlLib:
 
     @staticmethod
     def add_UTF8(html_root):
+<<<<<<< HEAD
+        """adds UTF8 declaration to root
+
+        """
+=======
+>>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         from lxml import etree
         root = html_root.get_or_create_child(html_root, "head")
         etree.SubElement(root, "meta").attrib["charset"] = "UTF-8"
@@ -240,6 +258,12 @@ class XmlLib:
     # replace nodes with text
     @staticmethod
     def replace_nodes_with_text(data, xpath, replacement):
+<<<<<<< HEAD
+        """replace nodes with specific text
+
+        """
+=======
+>>>>>>> d5455a13e6552aa6e33f1894cec51fede087c759
         from lxml import etree
         print(data, xpath, replacement)
         tree = etree.fromstring(data)

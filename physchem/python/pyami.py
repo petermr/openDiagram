@@ -1,6 +1,7 @@
 import logging
 import sys
 import os
+import glob
 from file_lib import FileLib
 from xml_lib import XmlLib
 from text_lib import TextUtil
@@ -36,6 +37,7 @@ class PyAMI:
     XML2SECT      = "xml2sect"
     # assertions
     FILE_EXISTS   = "file_exists"
+    FILE_GLOB_COUNT = "file_glob_count"
     # symbols to update table
     NEW_SYMBOLS   = ["proj"]
     LOGLEVEL      = "loglevel"
@@ -122,11 +124,11 @@ class PyAMI:
         # print("ch", apply_choices)
         parser.add_argument('--apply', nargs="+",
                             choices=['pdf2txt','txt2sent','xml2txt'],
-                            help='list of sequential transformations to apply to pipeline ({self.TXT2SENT} NYI)')
+                            help='list of sequential transformations (1:1 map) to apply to pipeline ({self.TXT2SENT} NYI)')
         parser.add_argument('--assert', nargs="+",
                             help='assertions; failure gives error message (prototype)')
         parser.add_argument('--combine', nargs=1,
-                            help='operation to combine files into final object')
+                            help='operation to combine files into final object (e.g. concat text or CSV file')
         parser.add_argument('--config', '-c', nargs="*", default="PYAMI",
                             help='file (e.g. ~/pyami/config.ini) with list of config file(s) or config vars')
         parser.add_argument('--debug', nargs="+",
@@ -367,6 +369,7 @@ class PyAMI:
             else:
                 # apply data is stored in self.file_dict
                 self.apply_to_file_content(func)
+        return
 
     def normalize(self, unistr):
         import unicodedata
@@ -480,7 +483,7 @@ class PyAMI:
             parent = FileLib.get_parent_dir(file)
             new_outfile = os.path.join(parent, self.outfile)
             if not isinstance(data, list):
-                data = list(data)
+                data = [data]
             with open(new_outfile, "w", encoding="utf-8") as f:
                 self.logger.warning(f"wrote results {new_outfile}")
                 # for d in data:
@@ -506,7 +509,13 @@ class PyAMI:
 
         """
         if assertion.startswith(self.FILE_EXISTS + "("):
-            self.assert_file_exists(assertion[len(self.FILE_EXISTS +"("):-1])
+            # file_exists(file)
+            file = assertion[len(self.FILE_EXISTS + "("):-1]
+            self.assert_file_exists(file)
+        if assertion.startswith(self.FILE_GLOB_COUNT + "("):
+            # file_glob_count(globex,120)
+            bits = assertion[len(self.FILE_GLOB_COUNT + "("):-1].split(",")
+            self.assert_glob_count(bits[0], bits[1])
 
     def assert_file_exists(self, file):
         """
@@ -519,6 +528,15 @@ class PyAMI:
         else:
             self.logger.info(f"File exists: {file}")
             pass
+
+    def assert_glob_count(self, glob_, count):
+        count = int(count)
+        files = [file for file in glob.glob(glob_, recursive=True)]
+        self.assert_equals(len(files), count)
+
+    def assert_equals(self, arg1, arg2):
+        if arg1 != arg2:
+            raise Exception(f"{arg1} != {arg2}")
 
     def assert_error(self, msg):
         """
@@ -576,21 +594,20 @@ class PyAMI:
 # whihc expands to
 # python physchem/python/pyami.py --apply xml2txt --combine concat_str --dict '/Users/pm286/projects/CEVOpen/dictionary/eoPlant/eo_plant.xml' '/Users/pm286/dictionary/openvirus20210120/country/country.xml' --glob '/Users/pm286/projects/openDiagram/physchem/resources/oil26/**/sections/**/*abstract.xml' --outfile '/Users/pm286/projects/openDiagram/physchem/resources/oil26/files/shweata_1.txt' --proj '/Users/pm286/projects/openDiagram/physchem/resources/oil26'
 
-    def test_split_sections(self):
-        from shutil import copyfile
-        self.logger.loglevel = logging.DEBUG
-    def test_split(self):
+    def test_xml2sect(self):
         from shutil import copyfile
 
         proj_dir = os.path.abspath(os.path.join(__file__, "..", "tst", "proj"))
-        print("file", proj_dir, os.path.exists(proj_dir))
+        assert os.path.exists(proj_dir)
+        # split into sections
         self.run_commands([
                         "--proj", proj_dir,
                         "--glob", "${proj}/*/fulltext.xml",
                         "--split", "xml2sect",
+                        "--assert", "file_glob_count(${proj}/*/sections/**/*.xml,291)"
                         ])
 
-    def test_split_paras(self):
+    def test_split_pdf_txt_paras(self):
         self.logger.loglevel = logging.DEBUG
 
         proj_dir = os.path.abspath(os.path.join(__file__, "..", "tst", "proj"))
@@ -599,7 +616,8 @@ class PyAMI:
                         "--proj", proj_dir,
                         "--glob", "${proj}/*/fulltext.pd.txt",
                         "--split", "txt2para",
-                        "--outfile", "fulltext.pd.sc.txt"
+                        "--outfile", "fulltext.pd.sc.txt",
+                        "--assert", "file_glob_count(${proj}/*/fulltext.pd.sc.txt,291)"
                         ])
 
     def test_split_sentences(self):
@@ -637,25 +655,34 @@ class PyAMI:
                         "--apply", "xml2txt",
                         "--filter", "contains(cell)",
                         "--combine", "concat_str",
-                        "--outfile", "${proj}/cell_junk.txt"
+                        "--outfile", "cell.txt"
                         ])
 
 
-    def test_pdf(self):
+    def test_pdf2txt(self):
         from shutil import copyfile
 
         proj_dir = os.path.abspath(os.path.join(__file__, "..", "tst", "proj"))
-        print("file", proj_dir, os.path.exists(proj_dir))
+        assert os.path.exists(proj_dir), f"proj_dir {proj_dir} exists"
         self.run_commands([
                         "--proj", proj_dir,
                         "--glob", "${proj}/*/fulltext.pdf",
                         "--apply", "pdf2txt",
-                        # "--filter", "contains(cell)",
-                        # "--combine", "concat_str",
-                        "--outfile", "fulltext.pd.txt"
-                        ])
+                        "--outfile", "fulltext.pd.txt",
+                        "--assert", "file_glob_count(${proj}/*/fulltext.pd.txt,3)"
+        ])
 
+    def run_tests(self):
+        # self.test_glob() # also does sectioning?
 
+        self.test_pdf2txt()
+        self.test_split_pdf_txt_paras()
+
+        # self.test_xml2sect()
+        # self.test_split_oil26()
+        # self.test_split_sentences()
+        # self.test_xml2sect()
+        # self.test_filter()
 
 class SymbolIni:
     """processes config/ini files and stores symbols created"""
@@ -903,19 +930,12 @@ def main():
     """ main entry point for cmdline
 
     """
+
     print(f"\n============== running pyami main ===============\n{sys.argv[1:]}")
     # this needs commandline
     pyami = PyAMI()
-    pyami.run_commands(sys.argv[1:])
-    pyami.test_split()
-    pyami.test_split_oil26()
-    pyami.test_split_sentences()
-    pyami.test_split_paras()
-    pyami.test_split_oil26()
-    pyami.test_glob() # also does sectioning?
-    pyami.test_filter()
-    pyami.test_pdf()
-
+    pyami.run_tests()
+    # pyami.run_commands(sys.argv[1:])
 
 
 if __name__ == "__main__":

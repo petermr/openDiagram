@@ -26,26 +26,26 @@ def dictionaries():
     ami_graph.create_graph()
 
     ov_dict = {
-        "ov_country.d" : "country.xml",
-        "ov_disease.d" : "disease.xml",
-        "ov_drug.d" : "drug.xml",
-        "ov_organization.d" : "organization.xml",
-        "ov_virus.d" : "virus.xml",
+        "ov_country.d" : "country",
+        "ov_disease.d" : "disease",
+        "ov_drug.d" : "drug",
+        "ov_org.d" : "organization",
+        "ov_virus.d" : "virus",
     }
 
     eo_dict = {
-        "e0_activity.d" : "activity.xml",
-        "e0_analysis_method.d" : "eoAnalysisMethod.xml",
-        "e0_compound.d" : "plant_compound.xml",
-        "e0_extraction_method.d" : "eoExtractionMethod.xml",
-        "e0_tpsgene.d" : "e0_Gene.xml",
-        "e0_plant.d" : "e0_plant.xml",
-        "e0_plant_material_history.d" : "eoPlantMaterialHistory.xml",
-        "e0_plant_part.d" : "eoplant_part.xml",
-        "e0_target_organism.d" : "eoTargetOrganism.xml",
-        "invasive_plant.d" : "invasive_plant.xml",
-        "pests.d" : "pests.xml",
-        "plant_genus.d" : "plant_genus.xml",
+        "e0_activity.d" : "activity",
+        "e0_analysis.d" : "Method",
+        "e0_compound.d" : "compound",
+        "e0_extraction.d" : "eMethod",
+        "e0_tpsgene.d" : "e0_Gene",
+        "e0_plant.d" : "e0_plant",
+        "e0_material.d" : "History",
+        "e0_part.d" : "eoplant_part",
+        "e0_organism.d" : "Organism",
+        "invasive_plant.d" : "invasive_plant",
+        "pests.d" : "pests",
+        "genus.d" : "plant_genus",
     }
 
     ami_graph.add_dict("orig", "ov", ov_dict)

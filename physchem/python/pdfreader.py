@@ -70,6 +70,7 @@ class PdfReader:
 -d : Turns on Debug output.
 
         """
+        print(f"\n......\n{text[:100]}\n...\n{text[-100:]}\n......\n")
         return text
 
 def main():

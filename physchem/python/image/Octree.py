@@ -147,7 +147,7 @@ class OctreeQuantizer(object):
         """
         Add `node` to the nodes at `level`
         """
-        self.levels[level]._append_facet(node)
+        self.levels[level].append(node)
 
     def add_color(self, color):
         """
